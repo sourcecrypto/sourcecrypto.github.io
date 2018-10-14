@@ -29,8 +29,8 @@ the most descriptive each entry should look like is
 
 ---
 
-Link: somelink.io
-Notes: somelink.io is an example for this purpose
+Link: somelink.io<br/>
+Notes: somelink.io is an example for this purpose<br/>
 Tags: #example #github #etc
 
 ---
