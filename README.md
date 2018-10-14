@@ -20,10 +20,6 @@ High Level Knowledge
 --------------------
 #101 #history #cypherpunks #nakamoto #icos #evaluation #economics #governance #decentralization #distributed-systems #smart-contracts #privacy #trading #mining #master-nodes #regulation #walstreet #growth-adoption #traditional-finance
 
-Tech
-----
-#forks #pow #pos #consensus-etc #security #sidechains #cryptography #hash-algos #research-papers #databases #ipfs #tor #pi-rasberry-etc #bittorrent 
-
 Resources
 ---------
 #resources #assorted-media #twitter-follows #communities #news-sites #books #data #swag #women-in-crypto #non-english #bots #earn-crypto
@@ -35,6 +31,10 @@ Crypto
 Application
 -----------
 #protocols #wallets #decentralized-id #finance #exchanges #payment-processing #institutional-derivitives #prediction-markets #dao #fiat-processing #publishing #united-nations #government #voting #supplychain #social-media #music #art-collectibles #iot #ai #intellectual-propery #games #energy #services #marketplaces #enterprise #notary #security-tokens
+
+Tech
+----
+#forks #pow #pos #consensus-etc #security #sidechains #cryptography #hash-algos #research-papers #databases #ipfs #tor #pi-rasberry-etc #bittorrent 
 
 Developing
 ----------
