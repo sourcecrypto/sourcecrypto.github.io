@@ -149,7 +149,8 @@ Notes: This paper reviews three approaches to valuing Crypto Assets.
 1) cost of production, 2) equation of exchange and 3) network value. 
 We then propose a new model, modifying the cost of production. Given the growing popularity and
 value of the Crypto Asset market, we add to the growing academic and professional research
-Download TheTokenizationEconomyValuingDigita_preview_1.pdf
+Download [TheTokenizationEconomyValuingDigita_preview_1.pdf](https://cdn.discordapp.com/attachments/477580669686382593/496216134912311296/TheTokenizationEconomyValuingDigita_preview_1.pdf)
+
 
 ---
 
