@@ -4,7 +4,7 @@ I've been building a library of informational materials surrounding Bitcoin, Blo
 
 I plan to gradually go through each of these channels and organize their resources in this repository.
 
-**[crypt0library.net](http://crypt0library.net) Server Directory**
+**[crypt0library.net](http://crypt0library.net) Server Directory:**
 
 High Level Knowledge
 --------------------
