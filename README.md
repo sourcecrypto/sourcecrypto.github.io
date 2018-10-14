@@ -1,6 +1,6 @@
 # crypto-library
 
-I've been building a library of informational materials surrounding Bitcoin, Blockchain, Cryptocurrency, Distributed Ledger Technology, and every related topic in a discord server.
+I've been building a library of informational materials surrounding Bitcoin, Blockchain, Cryptocurrency, Distributed Ledger Technology, and related topics in a discord server.
 
 I will gradually go through each of the channels in discord, and organize their resources in this repository. The decision to expand from Discord (which I love) to github (which is new to me) was, in part, inspired by the [Awesome Lists](https://github.com/sindresorhus/awesome/blob/master/awesome.md). That fact will be kept in mind while working on this repository. However, I generally collect resources with a few different purposes in mind, and thus expect this collection of resources to be a bit more expansive.
 
