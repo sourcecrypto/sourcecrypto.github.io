@@ -12,7 +12,7 @@ I will gradually go through each of the channels in discord, and organize their 
 4. Proof-of-Brain — I don't have money, I have time. 
    - BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
-<a href="http://crypt0library.net"><img src="http://i.imgur.com/ue9ZYL6.png"/></a>
+<a href="http://crypt0library.net"><img src="http://i.imgur.com/mXynGLI.png"/></a>
 
 **[crypt0library.net](http://crypt0library.net) Server Directory:**
 
