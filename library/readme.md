@@ -4,8 +4,9 @@ This won't have anything to do with ICOs (except for how to evaluate them) or br
 
 **This plan should progress generally in the following stages:**
 1. Discord Library
-2. Github Barebones Webpage (like the [awesome lists](https://github.com/sindresorhus/awesome/blob/master/awesome.md), but a little more expansive) 
+2. Github Barebones Webpages designed to be easily machine readable for future transformation to a database
      —I'm considering #2 to be like the MVP (minimumm viable product)
+     —html folder is for special projects outside the scope of this readme
 3. Work on automating database population 
      —One part of this is the discord bot
      —Another part is the database workings that the discord bot talks to
