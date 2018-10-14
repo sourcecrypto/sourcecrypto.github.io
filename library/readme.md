@@ -26,7 +26,9 @@ I used this discord server history scraper https://dht.chylex.com/ to create '[c
 
 It's much easier to transfer the information from discord to github using this method. To begin with we are doing minimal formatting, removing extraneous data, and begin creating files in this directory with the links in them. This is the grunt work part, and then these will all be cleaned and made machine readable to turn into a database later. 
 
-the most descriptive each entry should look like is
+( [blockchain-id.md](https://github.com/infominer33/crypto-library/blob/master/library/html/blockchain-id.md) is an example I made of a minimum effort movement from discord to github )
+
+the most descriptive each entry should look like is: 
 
 ---
 
