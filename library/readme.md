@@ -21,13 +21,21 @@ Personally, I re-tweet a dozen or so informational links every day, and then go 
 What would be helpful here is to find the channels that don't have a ton of information already and look for amazing resources on those subjects to fill out the under-represented areas of the library.
 
 **2. Github Barebones Webpage**
-My process for this involves using a discord server history scraper: https://dht.chylex.com/
+I used this discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://github.com/infominer33/crypto-library/blob/master/library/crypt0library_history.txt)' which can be viewed in https://dht.chylex.com/build/viewer.html
 
-Once all of the links are indexed by the scaper, it's much easier to copy paste the whole thing, remove extraneous data, and begin creating files in this directory with the links in them.
+It's much easier to transfer the information from discord to github using this method. To begin with we are doing minimal formatting, removing extraneous data, and begin creating files in this directory with the links in them. This is the grunt work part, and then these will all be cleaned and made machine readable to turn into a database later. 
 
-These files will have the same name as the discord channel, be .md and just a list of the links (with supporting text if there was any in discord already)
+the most descriptive each entry should look like is
 
-If you are really interested to organize the links a bit that's fine by me, but I'm likely to change everything anyways. It could be a really simple task of just moving links to files over here and make a big difference in the long run.
+---
+
+Link: somelink.io
+Notes: somelink.io is an example for this purpose
+Tags: #example #github #etc
+
+---
+
+These files will have the same name as the discord channel `channel_name.md` 
 
 The short list of directories that I would prioritize for this:
 
