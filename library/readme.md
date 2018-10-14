@@ -63,8 +63,8 @@ The short list of directories that I would prioritize for this:
 
 This are a bit far ahead for my thoughts right now, but I'm open to suggestions \ help on these matters for sure.
 
-3. Work on automating database population 
-     —One part of this is a discord bot that knows the whole directory and can help with tagging and searching and all of the things.
+3. Work on automating database population <br/>
+     —One part of this is a discord bot that knows the whole directory and can help with tagging and searching and all of the things.</br>
      —Another part is the database workings that the discord bot talks to
 4. A dynamic front end where each item can have multiple tags and you can filter content with the tagging system
 
