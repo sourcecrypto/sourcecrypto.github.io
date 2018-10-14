@@ -2,7 +2,15 @@
 
 I've been building a library of informational materials surrounding Bitcoin, Blockchain, Cryptocurrency, Distributed Ledger Technology, and every related topic in a discord server.
 
-I plan to gradually go through each of these channels and organize their resources in this repository.
+I will gradually go through each of the channels in discord, and organize their resources in this repository. The decision to expand from Discord (which I love) to github (which is new to me) was, in part, inspired by the [Awesome Lists](https://github.com/sindresorhus/awesome/blob/master/awesome.md). That fact will be kept in mind while working on this repository. However, I generally collect resources with a few different purposes in mind, and thus expect this collection of resources to be a bit more expansive.
+
+1. I collect resources because I love to read, and learn, and nerd out on subjects. 
+2. I offer freelance research, and research based content.
+   - I hate how empty of information most content is online.
+3. Crypto\Blockchain\DLT is a very expansive sector.
+   - It's impossible for anyone to know all of the things, but I'll try.
+4. Proof-of-Brain — I don't have money, I have time. 
+   - BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
 **[crypt0library.net](http://crypt0library.net) Server Directory:**
 
