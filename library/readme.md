@@ -26,19 +26,17 @@ I used this discord server history scraper https://dht.chylex.com/ to create '[c
 
 It's much easier to transfer the information from discord to github using this method. To begin with we are doing minimal formatting, removing extraneous data, and begin creating files in this directory with the links in them. This is the grunt work part, and then these will all be cleaned and made machine readable to turn into a database later. 
 
-( [blockchain-id.md](https://github.com/infominer33/crypto-library/blob/master/library/html/blockchain-id.md) is an example I made of a minimum effort movement from discord to github )
+We'll use toml format for the library entries:
+https://github.com/toml-lang/toml#user-content-example
 
-the most descriptive each entry should look like is: 
+Example:
 
----
+[Entry] Entry names can be numbered starting with [0001] (unless you have a better idea)
+Link = "Blah.com"
+Description = "Blah blah"
+Tags = ["Blah", "Blah blah"]
 
-Link: somelink.io<br/>
-Notes: "somelink.io is an example for this purpose"<br/>
-Tags: #example #github #etc
-
----
-
-These files will have the same name as the discord channel `channel_name.md` 
+These files will have the same name as the discord channel `channel_name.toml
 
 The short list of directories that I would prioritize for this:
 
@@ -69,4 +67,5 @@ This are a bit far ahead for my thoughts right now, but I'm open to suggestions 
      —One part of this is a discord bot that knows the whole directory and can help with tagging and searching and all of the things.</br>
      —Another part is the database workings that the discord bot talks to
 4. A dynamic front end where each item can have multiple tags and you can filter content with the tagging system
+
 
