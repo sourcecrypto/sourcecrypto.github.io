@@ -15,13 +15,13 @@ This won't have anything to do with ICOs (except for how to evaluate them) or br
 -----
 
 **1. Discord Library**  [http://crypt0library.net]
-This involves curating crypto knowledge and placing links in the appropriate channels of the crypt0library.net discord server. 
+This involves curating crypto knowledge and placing source material in the appropriate channels of the crypt0library.net discord server. Source material means that it is a primary source of information, or is filled with references from a bunch of primary sources. Sometimes just super good content... basically it's all content that is the best place to learn about a particular subject (that we've found so far) or something I referenced in an article sometime and could be useful again in the future for anyone trying to learn in depth on a given topic.
 
-Personally, I re-tweet a dozen or so informational links every day, and then go through them all on a weekly basis; continually adding to the server.  I follow a curated collection of crypto enthusiasts, lawyers, cryptographers, academics, developers, thought leaders, influencers, etc.
+Personally, I re-tweet a dozen or so informational links every day, and then go through them all on a weekly basis; continually adding to the server.  I follow a curated collection of crypto enthusiasts, lawyers, cryptographers, academics, developers, thought leaders, influencers, etc. Also, I'm creating content, and doing freelance research... I find a lot of valuable information... and am trying to collect for display with top notch UX
 
 What would be helpful here is to find the channels that don't have a ton of information already and look for amazing resources on those subjects to fill out the under-represented areas of the library.
 
-**2. Github Barebones Webpage**
+**2. Place crypt0library server history in machine readable format**
 I used this discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://github.com/infominer33/crypto-library/blob/master/library/crypt0library_history.txt)' which can be viewed in https://dht.chylex.com/build/viewer.html
 
 It's much easier to transfer the information from discord to github using this method. To begin with we are doing minimal formatting, removing extraneous data, and begin creating files in this directory with the links in them. This is the grunt work part, and then these will all be cleaned and made machine readable to turn into a database later. 
@@ -72,3 +72,6 @@ This are a bit far ahead for my thoughts right now, but I'm open to suggestions 
 4. A dynamic front end where each item can have multiple tags and you can filter content with the tagging system
 
 
+There is some progress going for 3 and 4, but those aren't my specialties. Let me know if you'd like to get involved on that end of things and I'll connect you with some other folk.
+
+—ThankYou
