@@ -33,7 +33,7 @@ Example:
 
 [Entry] <br/>
 Link = "Blah.com"<br/>
-Description = "Blah blah&lt;br/>blah blah"<br/>
+Description = "Blah blah /n blah blah"<br/>
 Tags = ["Blah", "Blah-blah"]<br/>
 
 The entry name can be short and to the point subject related and a nubmer if many entries are for similar content.
