@@ -31,10 +31,13 @@ https://github.com/toml-lang/toml#user-content-example
 
 Example:
 
-[Entry] Entry names can be numbered starting with [0001] (unless you have a better idea)
-Link = "Blah.com"
-Description = "Blah blah"
-Tags = ["Blah", "Blah blah"]
+[Entry] <br/>
+Link = "Blah.com"<br/>
+Description = "Blah blah&lt;br/>blah blah"<br/>
+Tags = ["Blah", "Blah-blah"]<br/>
+
+The entry name can be short and to the point subject related and a nubmer if many entries are for similar content.
+Description can be whatever text is valuable to communicate, 
 
 These files will have the same name as the discord channel `channel_name.toml
 
