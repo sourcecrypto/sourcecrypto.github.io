@@ -1,16 +1,12 @@
 # crypto-library
 
-I've been building a library of informational materials surrounding Bitcoin, Blockchain, Cryptocurrency, Distributed Ledger Technology, and related topics in a discord server.
+I've been building a library of informational materials surrounding Bitcoin, Blockchain, Cryptocurrency, and related topics in a discord server.
 
-I will gradually go through each of the channels in discord, and organize their resources in this repository. The decision to expand from Discord (which I love) to github (which is new to me) was, in part, inspired by the [Awesome Lists](https://github.com/sindresorhus/awesome/blob/master/awesome.md). That fact will be kept in mind while working on this repository. However, I generally collect resources with a few different purposes in mind, and thus expect this collection of resources to be a bit more expansive.
+The biggest thing happening in this repository right now is that the contents of Crypto Library are being turned into a database to create a dynamic "Super Source" for crypto knowledge.
 
-1. I collect resources because I love to read, and learn, and nerd out on subjects. 
-2. I offer freelance research, and research based content.
-   - I hate how empty of information most content is online.
-3. Crypto\Blockchain\DLT is a very expansive sector.
-   - It's impossible for anyone to know all of the things, but I'll try.
-4. Proof-of-Brain — I don't have money, I have time. 
-   - BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
+I will gradually go through each of the channels in discord, and organize their resources in this repository. The decision to expand from Discord (which I love) to github (which is new to me) was, in part, inspired by the [Awesome Lists](https://github.com/sindresorhus/awesome/blob/master/awesome.md). However, I collect resources with a few different purposes in mind, and thus expect this collection of resources to be a bit more expansive.
+
+I am always on the look for information dense content for research, or future research, and content creation. 
 
 <a href="http://crypt0library.net"><img src="http://i.imgur.com/mXynGLI.png"/></a>
 
@@ -41,3 +37,5 @@ Developing
 #discussion-dev #hackathons #general-developing #blockchain-developing #forking #bitcoin-dev #ethereum-dev #state-channels #id-dev #corda #steem-dev #hyperledger-dev
 
 
+
+—BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
