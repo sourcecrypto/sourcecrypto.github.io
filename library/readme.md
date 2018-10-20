@@ -14,7 +14,7 @@ This won't have anything to do with ICOs (except for how to evaluate them) or br
 
 -----
 
-**1. Discord Library**
+**1. Discord Library**  [http://crypt0library.net]
 This involves curating crypto knowledge and placing links in the appropriate channels of the crypt0library.net discord server. 
 
 Personally, I re-tweet a dozen or so informational links every day, and then go through them all on a weekly basis; continually adding to the server.  I follow a curated collection of crypto enthusiasts, lawyers, cryptographers, academics, developers, thought leaders, influencers, etc.
