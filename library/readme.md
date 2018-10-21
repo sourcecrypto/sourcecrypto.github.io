@@ -2,10 +2,9 @@ Final outcome for this library is to create a dynamic web directory for every ty
 
 This won't have anything to do with ICOs (except for how to evaluate them) or brand new things that aren't developed.
 
-**This plan should progress generally in the following stages:**
+**This plan will genereally progress in the following stages:** [just brainstorming, here]
 1. Discord Library
-2. Github Barebones Webpages designed to be easily machine readable for future transformation to a database
-     —I'm considering #2 to be like the MVP (minimumm viable product)
+2. Place crypt0library server history in machine readable format
      —html folder is for special projects outside the scope of this readme
 3. Work on automating database population 
      —One part of this is the discord bot
