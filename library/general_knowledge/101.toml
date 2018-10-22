@@ -38,11 +38,11 @@ Tags = ["101", "Video"]
 [The Hard Thing About Learning Hard Things]
 Link = "https://medium.freecodecamp.org/the-hard-thing-about-learning-hard-things-168e655ac7f2"
 Author = "Haseeb Qureshi"
-Source = "freecodecamp.org"]
+Source = "freecodecamp.org"
 Description = "How do you learn something no one can teach you?\n\n
 
 Whatever success I’ve had in my career, I attribute almost entirely to my aptitude for unstructured learning. This is the kind of learning required when delving into a cutting-edge field, navigating a new job, or creating anything genuinely new. Notably, it’s the polar opposite of what is taught in schools and what most people call “education.”"
-tags = ["101", "developing", "tech"]
+tags = ["101", "learning", "developing", "tech"]
 
 [Bitcoin and Cryptocurrency Technologies Online Course]
 Link = "https://www.youtube.com/playlist?list=PLQIX_E46U4XYE5GR6029FpnaX9aBXbt0B"
@@ -66,21 +66,32 @@ tags = ["101", "video", "history"]
 [99bitcoins.com]
 Link = "https://99bitcoins.com"
 Description = "Buy Bitcoin, Bitcoin Guides & Reviews for Bitcoin Newbies"
-Tags = ["101"]
+Tags = ["101", "guides"]
 
----
+[The Importance of Deep Work & the 30 Hour Method for Learning a new Skill]
+Link = "https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/"
+Source = "Azeria-labs.com"
+Description "The tech industry, especially the security industry, seems outrageously overwhelming to newcomers and even as an intermediate “InfoSec Pro” there seems to be an overwhelming number of paths and topics one can focus on. The problem most of us, especially newcomers, encounter is that we don’t know what to focus on. Even when we find a topic to focus on, we seem to get stuck in the vast pool of resources that are available to us."
+Tags = ["101", "Learning", "developing", "tech"] 
 
-https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/
+[Where to Buy Bitcoin and Other Cryptocurrencies]
+Link = "https://www.csbtechemporium.com/where-to-buy-bitcoin-and-other-cryptocurrencies/"
+Source = "csbtechemporium.com"
+Description = "Whether you want to buy .01 Bitcoin or 10+ Bitcoin, our guide will show you the best sites and exchanges for buying Bitcoin and other cryptos. There are over 200 exchanges listed on coinmarketcap. The right exchange for you will depend on location, the tokens you wish to acquire, payment options, local currency, and other variables. I’ll go over some of the most popular choices for buying your first cryptocurrencies, provide links to more in-depth reviews, and other resources for exploring the world of cryptocurrency exchanges."
+Tags = ["101", "Buy Crypto"]
 
----
+[Wallets and Backups: How to Secure your Cryptocurrency]
+Link = "https://www.csbtechemporium.com/research/how-to-secure-your-cryptocurrency/"
+Author = "Infominer"
+Source = "csbtechemporium.com"
+Description = "Whether you’re a newfound blockchain devotee, or just want exposure to the potential upside, this guide will help get you started on the journey. Before you buy Bitcoin or other cryptocurrencies, you’ll want to know how to keep it secure."
+Tags = ["101", "Wallets", "Security"]
 
-https://www.csbtechemporium.com/research/blockchain/where-to-buy-bitcoin-and-other-cryptocurrencies/
+[Smith and Crown: Research]
+Link = "https://www.smithandcrown.com/research/"
+Description = "Smith + Crown is the world's leading blockchain research organization. Since 2013 we have been studying the breadth of the public blockchain space with a focus on global trends, industry intelligence, and cryptoeconomic systems."
+Tags = ["101", "guides", "research"]
 
----
-
-https://www.smithandcrown.com/research/
-
----
 
 https://www.theverge.com/2018/3/7/17091766/blockchain-bitcoin-ethereum-cryptocurrency-meaning
 
