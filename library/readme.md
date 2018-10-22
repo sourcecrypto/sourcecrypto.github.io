@@ -41,7 +41,7 @@ Tags = ["Blah", "Blah-blah"]<br/>
 The entry name can be short and to the point subject related and a nubmer if many entries are for similar content.
 Description can be whatever text is valuable to communicate, and sometimes requires creativity. You can leave out title or author labels if they don't apply to a particular resource.
 
-Here is an example of a Super Source toml file, currently in progress:
+Here is an example of a "Crypto Library—Super Source" toml file, currently in progress:
 
 https://github.com/infominer33/Crypto-library/blob/master/library/general_knowledge/101.toml
 
