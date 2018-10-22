@@ -2,10 +2,11 @@ Final outcome for this library is to create a dynamic web directory for every ty
 
 This won't have anything to do with ICOs (except for how to evaluate them) or brand new things that aren't developed.
 
-**This plan will genereally progress in the following stages:** [just brainstorming, here]
-1. Discord Library
+**This plan will genereally progress in the following stages:**
+1. Fill Discord Library with curated crypto resources (very good progress already)
 2. Place crypt0library server history in machine readable format
-     —html folder is for special projects outside the scope of this readme
+     —`html` folder is for special projects outside the scope of this readme
+     —`library/toml` folder (coming soon) for finished toml files
 3. Work on automating database population 
      —One part of this is the discord bot
      —Another part is the database workings that the discord bot talks to
