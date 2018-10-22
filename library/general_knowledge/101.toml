@@ -1,11 +1,10 @@
-[Title]<br/>
-Link = "Blah.com"<br/>
-Author = "blah"<br/>
-Source = "blah blah"<br/>
-Description = "Blah blah \n blah blah"<br/>
+[Example: Title]
+Link = "Blah.com"
+Author = "blah"
+Source = "blah blah"
+Description = "Blah blah \n blah blah"
 Tags = ["Blah", "Blah-blah"]
 
-\\example ^^^
 
 [Cryptocurrency 101]
 Link = "https://medium.com/@intenex/cryptocurrency-101-7197684775fd"
