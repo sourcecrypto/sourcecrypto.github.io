@@ -30,20 +30,23 @@ https://github.com/toml-lang/toml#user-content-example
 
 Example:
 
-[Entry] <br/>
+[Title] <br/>
 Link = "Blah.com"<br/>
-Title = "title"<br/>
 Author = "blah"<br/>
 Source = "blah blah"<br/>
 Description = "Blah blah \n blah blah"<br/>
 Tags = ["Blah", "Blah-blah"]<br/>
 
 The entry name can be short and to the point subject related and a nubmer if many entries are for similar content.
-Description can be whatever text is valuable to communicate, 
+Description can be whatever text is valuable to communicate, and sometimes requires creativity. You can leave out title or author labels if they don't apply to a particular resource.
+
+Here is an example of a Super Source toml file, currently in progress:
+
+https://github.com/infominer33/Crypto-library/blob/master/library/general_knowledge/101.toml
 
 These files will have the same name as the discord channel `channel_name.toml
 
-The short list of directories that I would prioritize for this:
+The short list of directories that I personally would prioritize for this (but if you're volunteering, by all means, go ahead and work on whatever you like):
 
 #evaluation 
 #economics 
