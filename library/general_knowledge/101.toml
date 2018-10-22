@@ -71,7 +71,7 @@ Tags = ["101", "guides"]
 [The Importance of Deep Work & the 30 Hour Method for Learning a new Skill]
 Link = "https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/"
 Source = "Azeria-labs.com"
-Description "The tech industry, especially the security industry, seems outrageously overwhelming to newcomers and even as an intermediate “InfoSec Pro” there seems to be an overwhelming number of paths and topics one can focus on. The problem most of us, especially newcomers, encounter is that we don’t know what to focus on. Even when we find a topic to focus on, we seem to get stuck in the vast pool of resources that are available to us."
+Description = "The tech industry, especially the security industry, seems outrageously overwhelming to newcomers and even as an intermediate “InfoSec Pro” there seems to be an overwhelming number of paths and topics one can focus on. The problem most of us, especially newcomers, encounter is that we don’t know what to focus on. Even when we find a topic to focus on, we seem to get stuck in the vast pool of resources that are available to us."
 Tags = ["101", "Learning", "developing", "tech"] 
 
 [Where to Buy Bitcoin and Other Cryptocurrencies]
