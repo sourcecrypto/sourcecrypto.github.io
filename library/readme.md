@@ -32,6 +32,9 @@ Example:
 
 [Entry] <br/>
 Link = "Blah.com"<br/>
+Title = "title"<br/>
+Author = "blah"<br/>
+Source = "blah blah"<br/>
 Description = "Blah blah \n blah blah"<br/>
 Tags = ["Blah", "Blah-blah"]<br/>
 
