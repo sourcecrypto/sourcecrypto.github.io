@@ -1,4 +1,7 @@
-https://nakamotoinstitute.org/static/docs/cyphernomicon.txt
+[Cyphernomicon]
+Link = ["https://nakamotoinstitute.org/static/docs/cyphernomicon.txt"]
+Description = "THE CYPHERNOMICON: Cypherpunks FAQ and More, Version 0.666, 1994-09-10, Copyright Timothy C. May"
+Tags = ["Cypherpunks", "History"]
 
 ---
 
@@ -31,3 +34,5 @@ https://github.com/tombusby/cypherpunk-research#technical-sources
 ---
 
 https://cryptoconomy.podbean.com/e/cryptoquikread_163-a-cypherpunks-manifesto/
+
+https://www.activism.net/cypherpunk/crypto-anarchy.html
