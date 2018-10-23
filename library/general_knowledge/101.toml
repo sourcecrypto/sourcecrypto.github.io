@@ -55,7 +55,7 @@ Tags = ["101", "guides", "research"]
 
 [‘Blockchain’ is meaningless — ‘You keep using that word. I do not think it means what you think it mean]
 Link = ["https://www.theverge.com/2018/3/7/17091766/blockchain-bitcoin-ethereum-cryptocurrency-meaning"]
-Description = "Bitcoin, Ethereum, and other cryptocurrencies have entered the mainstream discourse, but they’ve also been joined by a concept that is widely circulated, but poorly understood: “the blockchain” or just “blockchain.” The idea of a blockchain, the cryptographically enhanced digital ledger that underpins Bitcoin and most cryptocurrencies, is now being used to describe everything from a system for inter-bank transactions to a new supply chain database for Walmart. The term has become so widespread that it’s quickly losing meaning."
+Description = "Bitcoin, Ethereum, and other cryptocurrencies have entered the mainstream discourse, but they’ve also been joined by a concept that is widely circulated, but poorly understood: 'the blockchain' or just 'blockchain.' The idea of a blockchain, the cryptographically enhanced digital ledger that underpins Bitcoin and most cryptocurrencies, is now being used to describe everything from a system for inter-bank transactions to a new supply chain database for Walmart. The term has become so widespread that it’s quickly losing meaning."
 Tags = ["101"]
 
 [What is a 51% Attack and What can a Successful Attacker Do?]
