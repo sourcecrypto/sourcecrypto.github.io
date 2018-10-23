@@ -5,8 +5,8 @@ This won't have anything to do with ICOs (except for how to evaluate them) or br
 **This plan will genereally progress in the following stages:**
 1. Fill Discord Library with curated crypto resources (very good progress already)
 2. Place crypt0library server history in machine readable format<br/>
-     —`[html](https://github.com/infominer33/Crypto-library/tree/master/library/html)` folder is for special projects outside the scope of this readme<br/>
-     —`toml` folder (coming soon) for finished toml files
+     —[html](https://github.com/infominer33/Crypto-library/tree/master/library/html) folder is for special projects outside the scope of this readme<br/>
+     —toml folder (coming soon) for finished toml files
 3. Work on automating database population <br/>
      —One part of this is the discord bot<br/>
      —Another part is the database workings that the discord bot talks to
