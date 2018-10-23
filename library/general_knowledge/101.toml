@@ -95,7 +95,7 @@ Tags = ["101"]
 
 [Blockchain is not a Database]
 Link = ["https://twitter.com/oleganza/status/1034178524389634048"]
-Description = "Blockchain is not a database, it's a protocol for syncing the databases. The point of a blockchain is not to "store" or "distribute" data, it is to make sure mutually distrusting parties are all on the same page."
+Description = "Blockchain is not a database, it's a protocol for syncing the databases. The point of a blockchain is not to 'store' or 'distribute' data, it is to make sure mutually distrusting parties are all on the same page."
 Tags = ["101", "Twitter"]
 
 [bitcoin.com is not bitcoin's website]
