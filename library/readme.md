@@ -36,11 +36,10 @@ Link = ["Blah.com"]<br/>
 Description = "Blah blah \n blah blah"<br/>
 Tags = ["Blah", "Blah-blah"]<br/>
 
-[quoteblock]
-For any label that can potentially have multiple values it must always be ["bracketed"] even though sometimes there is only one value.
-Also, all entries have to have the same fields and format
-If you use \n for a newline, you can't actually use a newline, the open " and closing " must be on the same line
-Also, be careful any quoted text in a description doesn't use  a " quotation mark otherwise it'll not work.
+>**For any label that can potentially have multiple values it must always be ["bracketed"] even though sometimes there is only one value.**
+>**Also, all entries have to have the same fields and format**
+>**If you use \n for a newline, you can't actually use a newline, the open " and closing " must be on the same line**
+>**Also, be careful any quoted text in a description doesn't use  a " quotation mark otherwise it'll not work.**
 [/quoteblock]
 
 The entry name can be short and to the point subject related and a nubmer if many entries are for similar content.
