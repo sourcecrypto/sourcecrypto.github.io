@@ -31,14 +31,14 @@ https://github.com/toml-lang/toml#user-content-example
 
 Example:
 
-[Title] \
-Link = ["Blah.com"]\
-Description = "Blah blah \n blah blah"\
-Tags = ["Blah", "Blah-blah"]\
+[Title] <br/>
+Link = ["Blah.com"]<br/>
+Description = "Blah blah \n blah blah"<br/>
+Tags = ["Blah", "Blah-blah"]<br/>
 
->* **For any label that can potentially have multiple values it must always be ["bracketed"] even though sometimes there is only one value.**\
->* **Also, all entries have to have the same fields and format**\
->* **If you use \n for a newline, you can't actually use a newline, the open " and closing " must be on the same line**\
+>* **For any label that can potentially have multiple values it must always be ["bracketed"] even though sometimes there is only one value.**
+>* **Also, all entries have to have the same fields and format**
+>* **If you use \n for a newline, you can't actually use a newline, the open " and closing " must be on the same line**
 >* **Be careful any text copied from another site for a description doesn't have a " quotation mark. Change to '**
 
 The title of the content is the name of the each entry.
