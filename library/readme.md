@@ -24,10 +24,9 @@ What would be helpful here is to find the channels that don't have a ton of info
 **2. Place crypt0library server history in machine readable format**
 I used this discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://github.com/infominer33/crypto-library/blob/master/library/crypt0library_history.txt)' which can be viewed in https://dht.chylex.com/build/viewer.html
 
-It's much easier to transfer the information from discord to github using this method. To begin with we are doing minimal formatting, removing extraneous data, and begin creating files in this directory with the links in them. This is the grunt work part, and then these will all be cleaned and made machine readable to turn into a database later. 
+1. It's much easier to use the dht.chylex.com tool and copy paste channel history from the server into files here on the github than to copy paste directly from the github channels. To begin with we are doing minimal formatting, removing extraneous data, and begin creating files in this directory with the links in them. 
 
-We'll use toml format for the library entries:
-https://github.com/toml-lang/toml#user-content-example
+2. The next step is transforming each file of resources into toml format.  (https://github.com/toml-lang/toml)
 
 Example:
 
@@ -47,7 +46,7 @@ Description can be whatever text is valuable to communicate, typically copied di
 
 Our first ever toml file that can be seen as a reference is:
 
-https://github.com/infominer33/Crypto-library/blob/master/library/general_knowledge/101.toml
+https://github.com/infominer33/Crypto-library/blob/master/library/toml/101.toml
 
 These files will have the same name as the discord channel `channel_name.toml
 
