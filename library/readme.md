@@ -31,27 +31,26 @@ https://github.com/toml-lang/toml#user-content-example
 
 Example:
 
-[Title] <br/>
-Link = ["Blah.com"]<br/>
-Description = "Blah blah \n blah blah"<br/>
-Tags = ["Blah", "Blah-blah"]<br/>
+[Title] \
+Link = ["Blah.com"]\
+Description = "Blah blah \n blah blah"\
+Tags = ["Blah", "Blah-blah"]\
 
->**For any label that can potentially have multiple values it must always be ["bracketed"] even though sometimes there is only one value.**
->**Also, all entries have to have the same fields and format**
->**If you use \n for a newline, you can't actually use a newline, the open " and closing " must be on the same line**
->**Also, be careful any quoted text in a description doesn't use  a " quotation mark otherwise it'll not work.**
+>**For any label that can potentially have multiple values it must always be ["bracketed"] even though sometimes there is only one value.**\
+>**Also, all entries have to have the same fields and format**\
+>**If you use \n for a newline, you can't actually use a newline, the open " and closing " must be on the same line**\
+>**Be careful any text copied from another site for a description doesn't have a " quotation mark. Change to '**
 
+The title of the content is the name of the each entry.
+Description can be whatever text is valuable to communicate, typically copied directly from the source, sometimes requires creativity. 
 
-The entry name can be short and to the point subject related and a nubmer if many entries are for similar content.
-Description can be whatever text is valuable to communicate, and sometimes requires creativity. You can leave out title or author labels if they don't apply to a particular resource.
-
-Here is an example of a "Crypto Library—Super Source" toml file, currently in progress:
+Our first ever toml file that can be seen as a reference is:
 
 https://github.com/infominer33/Crypto-library/blob/master/library/general_knowledge/101.toml
 
 These files will have the same name as the discord channel `channel_name.toml
 
-The short list of directories that I personally would prioritize for this (but if you're volunteering, by all means, go ahead and work on whatever you like):
+The short list of directories that I personally would prioritize for this (but if you're volunteering, by all means, go ahead and work on whatever you like). Even copying the links from the library history into files will be helpful and then I can go and enter them into toml format.
 
 #evaluation 
 #economics 
