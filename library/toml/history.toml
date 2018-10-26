@@ -118,85 +118,87 @@ Link = ["https://www.forbes.com/sites/michaeldelcastillo/2018/09/06/bitcoin-is-n
 Description = "The first recorded claim of bitcoin’s demise was in 2010, on a little-known blog that found itself posted on a record of “bitcoin obituaries” collected by 99Bitcoins, a bitcoin information site. While I consider myself among the first wave of bitcoin writers, having written my first article on the subject in 2011, this early claim of bitcoin’s death came when the cryptocurrency was valued at only $0.23. It is now worth almost $7,000."
 Tags = ["bitcoin", "history"]
 
+[Bitcoin Stumble Shows Bitmain a Ghost of Crises Past]
+Link = ["https://www.bloomberg.com/view/articles/2018-09-18/bitcoin-stumble-shows-bitmain-a-ghost-of-crises-past"]
+Description = "A look at Bitmain Technologies Ltd.’s financials reveal the Chinese company sold a lot of shovels during the crypto gold rush of the past two years. Its mistake was to take digital gold as payment instead of cash. \n\nBut there are two other items that could make matters worse for Bitmain and others in the crypto-mining ecosystem, adding to pressure on the balance sheet."
+Tags = ["bitcoin", "history", "bitmain"]
 
-https://www.bloomberg.com/view/articles/2018-09-18/bitcoin-stumble-shows-bitmain-a-ghost-of-crises-past?utm_medium=social&utm_source=twitter&utm_content=crypto&utm_campaign=socialflow-organic
+[@varun_mathur on RSS history's compared to Bitcoin]
+Link = ["https://twitter.com/varun_mathur/status/1038107664868208640"]
+Description = "Crypto’s RSS Era About 10 yrs ago, before the advent of bitcoin, the tech world was coming to grips with how RSS failed to take off as a consumer tech. I spent 2 yrs of my life building the best (?)feed reader UX, but I was solving for local maxima, not global maximum (industry)"
+Tags = ["bitcoin", "history", "rss", "twitter"]
 
----
+[Bitcoin’s Constitutional Crisis & Why I Support the UASF]
+Link = ["https://medium.com/tbis-weekly-bits/bitcoins-constitutional-crisis-why-i-support-the-uasf-5b0ab325d8b6"]
+Description = "It took three years and the emergence of serious (and perhaps permanent) crypto rivals, but there finally seems to be some light at the end of the tunnel in this round of the bitcoin scaling debate. Thank god.\n\nThe impending activation of BIP 148, AKA bitcoin’s “user activated soft fork”, due to take effect on August 1, would ensure that SegWit, an optimization feature that increases block capacity, gets activated without strings attached."
+Tags = ["bitcoin", "history", "uasf"]
 
-https://twitter.com/varun_mathur/status/1038107664868208640
+[SLP23 – Economic Eras of Bitcoin, and Lightning Development, with Rusty Russell of Blockstream]
+Link = ["https://stephanlivera.com/2018/09/20/slp23-economic-eras-of-bitcoin-and-lightning-development-with-rusty-russell-of-blockstream/"]
+Description = "Rusty Russell, a well known and respected Bitcoin Lightning developer at Blockstream  joins me in this episode. We talk about his article, The Three Economic Eras of Bitcoin, and discuss the Lightning Network for Bitcoin. Lastly, Rusty draws from his prior experience as a Linux kernel developer to contrast Linux development with Bitcoin and Lightning development practices and culture."
+Tags = ["bitcoin", "history", "economics", "podcast"]
 
----
+[Satoshi on Anonymous Transactions - bitcointalk]
+Link = ["https://twitter.com/notgrubles/status/1043569394901602304","https://bitcointalk.org/index.php?topic=770.msg9074"]
+Description = "As some might have noticed, one of the things that bugs me about bitcoin is that the entire history of transactions is completely public. I totally understand the benefits of how this simplifies things and makes it easy for everyone to prove coins are valid.\n\nSo this is not a suggestion for a change to bitcoin. Rather it is a question about what could be possible, and what couldn't be possible."
+Tags = ["history", "satoshi", "bitcointalk", "privacy"]
 
-https://medium.com/tbis-weekly-bits/bitcoins-constitutional-crisis-why-i-support-the-uasf-5b0ab325d8b6
+[Bitcoin's Origins and the Genesis Blockade]
+Link = ["https://youtu.be/cagoyF3WePo"]
+Description = "In this talk, Andreas recounts the origins of Bitcoin, the meaning of the message embedded forever in its genesis block, and how we figured out who the banks truly serve when there was no other choice. He also speaks about what happens when money stops working, why censorship resistance was one of Bitcoin's most valuable characteristics from the start, and what possibilities lay in store with a global, voluntary financial system."
+Tags = ["history", "bitcoin", "video"]
 
----
+[@BitcoinErrorLog on the original Bitcoin Foundation]
+Link = ["https://twitter.com/BitcoinErrorLog/status/1044207811603943425"
+Description = "I was a paying member of the original Bitcoin Foundation. They were mostly a train wreck. I attended their annual meeting at a conference in Amsterdam and met with their accounting person to ask some hard questions. She was actually pretty savvy. /1"
+Tags = ["bitcoin", "history", "twitter"]
 
-https://www.bloomberg.com/view/articles/2018-09-18/bitcoin-stumble-shows-bitmain-a-ghost-of-crises-past
+[World's oldest ICOs 20+ and 20+ oldest cryptos without ICO]
+Link = ["https://steemit.com/crypto/@sxiii/oldest-icos"]
+Description = "My friends often ask me, if there are some great examples of old enough & successful companies, that held ICO. So I decided to write an article to list & discuss world's oldest cryptocurrencies ICOs, starting in 2013, and ending in 2015."
+Tags = ["ico", "cryptocurrency", "history"]
 
----
+[Bitcorati Interview Series : Vitalik Buterin - Head Writer, Bitcoin Magazine]
+Link = ["https://www.youtube.com/watch?v=EkeCapBOQQ0"]
+Description = "Vitalik Buterin is a former computer science student who dropped out of college to focus on bitcoin projects full-time. He was a very early bitcoin adopter and is currently the head writer at Bitcoin Magazine. Listen as Vitalik discusses his background, how he got involved in bitcoin and why he thinks bitcoin has the potential to change the world! This interview is one in a series captured at the Media Bistro Inside Bitcoins Conference in Las Vegas, Nevada, December 10th and 11th, 2013"
+Tags = ["bitcoin", "history", "ethereum", "video", "vitalik-buterin"]
 
-https://twitter.com/scott_lew_is/status/1042043969348284417
+[Bitcoin History - OXT]
+Link = ["https://oxt.me/history"]
+Description = "This page lists a set of 'famous' events or lesser-known facts which are all part of the history of Bitcoin.\n\nEach event is illustrated with data extracted from the blockchain.\n\nFeel free to propose new events by sending us an email."
+Tags = ["bitcoin", "history"]
 
----
+[The Bitcoin Knowledge Podcast — Legendary]
+Link = ["https://www.bitcoin.kn/legendary/"]
+Description = "These are interviews with legendary guests from the Bitcoin world. \n\nTrace Mayer asks Nick Szabo what the highest priority should be for hiring Bitcoin\n\nA Week With Adam Back in September 2015"
+Tags = ["bitcoin", "history", "digital-currency", "podcast", "video", "adam-back", "nick-szabo"]
 
-https://stephanlivera.com/2018/09/20/slp23-economic-eras-of-bitcoin-and-lightning-development-with-rusty-russell-of-blockstream/
+[Nick Szabo's Home Page — Archive (pre-2005)]
+Link = ["http://archive.is/H8UGk"]
+Description = "Nick Szabo's Essays, Papers, and Concise Tutorials"
+Tags = ["history", "smart-contracts", "nick-szabo", "cryptography", "law", "literature"]
 
----
+[The Uncanny Mind That Built Ethereum]
+Link = ["https://www.wired.com/2016/06/the-uncanny-mind-that-built-ethereum/"]
+Description = "Vitalik Buterin invented the world’s hottest new cryptocurrency and inspired a movement — before he’d turned 20."
+Tags = ["vitalik-buterin", "history", "ethereum"]
 
-https://twitter.com/notgrubles/status/1043569394901602304
+[Who is Nick Szabo, The Mysterious Blockchain Titan]
+Link = ["https://unblock.net/nick-szabo/"]
+Description = "Nick Szabo is a living legend in both the cryptocurrency and cryptography worlds. Although he’s not a household name, and if you’re new to the crypto games, you probably would have never heard of him.  However, Nick Szabo has godlike status amongst the sincere crypto enthusiasts.\n\nThe man’s extensive range of interest, extending from the origins of money, economic and legal history to cryptography and blockchain technology makes him a natural polymath and a one-of-a-kind man."
+Tags = ["history", "nick-szabo"]
 
----
+[Blockchain Libarary - Reading Lists - Bitcoin History]
+Link = ["https://blockchainlibrary.org/category/reading-lists/bitcoin-history/"]
+Description = "Reading Lists - Category: Bitcoin History"
+Tags = ["bitcoin", "history", "silk-road", "gox", "satoshi", "literature"]
 
-https://youtu.be/cagoyF3WePo
+[The Eureka Moment That Made Bitcoin Possible]
+Link = ["https://www.wsj.com/articles/the-eureka-moment-that-made-bitcoin-possible-1527268025", "https://www.facebook.com/flx/warn/?u=https%3A%2F%2Fwww.wsj.com%2Farticles%2Fthe-eureka-moment-that-made-bitcoin-possible-1527268025&h=AT01z4enWp-C1obtu-eTYF1yxmB7LWM9N9GM5vFGWJOuHVW9xuis-tFhcHpSMOshOHAMVWzS8XSPquk_VkFphpN7G5irj39Kp1dzgWurvz5Am_8"]
+Description = "A key insight for the technology came to a physicist almost three decades ago at a Friendly’s restaurant in New Jersey\n\nBitcoin and other digital currencies have been on a wild and much-publicized ride: Over the last year, the value of a single bitcoin has soared tenfold from $2,000 to $20,000 and then dropped by half again. A mystery surrounding the creator of the cryptocurrency, who has never been convincingly identified, has burnished its allure, and innovators and speculators now circle the globe attending high-priced industry conferences, many hoping to make their fortune."
+Tags = ["history", "bitcoin"]
 
----
-
-https://twitter.com/BitcoinErrorLog/status/1044207811603943425
-
----
-
-https://steemit.com/crypto/@sxiii/oldest-icos
-
----
-
-https://www.youtube.com/watch?v=EkeCapBOQQ0
-
----
-
-https://oxt.me/history
-
----
-
-https://www.bitcoin.kn/legendary/
-
----
-
-https://www.theinvestorspodcast.com/blog/debt-deflation-italian-style/
-
----
-
-http://archive.is/H8UGk
-
----
-
-https://www.wired.com/2016/06/the-uncanny-mind-that-built-ethereum/
-
----
-
-https://unblock.net/nick-szabo/
-
----
-
-https://blockchainlibrary.org/category/reading-lists/bitcoin-history/
-
----
-
-https://www.wsj.com/articles/the-eureka-moment-that-made-bitcoin-possible-1527268025
-
----
-
-https://nakamotoinstitute.org/trusted-third-parties/
-
----
-
-https://ebrary.net/7927/education/brief_history_digital_currencies#360
+[Trusted Third Parties Are Security Holes - Nick Szabo (2001)]
+Link = ["https://nakamotoinstitute.org/trusted-third-parties/"]
+Description = "Commercial security is a matter of solving the practical problems of business relationships such as privacy, integrity, protecting property, or detecting breach of contract. A security hole is any weakness that increases the risk of violating these goals. In this real world view of security, a problem does not dissapear because a designer assumes it away. The invocation or assumption in a security protocol design of a "trusted third party" (TTP) or a "trusted computing base" (TCB) controlled by a third party constitutes the introduction of a security hole into that design. The security hole will then need to be plugged by other means."
+Tags = ["history", "nick-szabo", "literature"]
