@@ -51,4 +51,4 @@ Tags = ["cypherpunks", "history"]
 [The Untold History of Bitcoin: Enter the Cypherpunks]
 Link = ["https://medium.com/swlh/the-untold-history-of-bitcoin-enter-the-cypherpunks-f764dee962a1"]
 Description = "In my previous article I addressed the underlying technologies that blockchain runs and the history behind how it all started. The primary focus of that article was the development of PGP encryption by Phil Zimmermann, the wonder of open source software and peer-to-peer networks that are almost impossible to stop."
-Tags = ["cypherpunks", "history", "bitcoin"]
+Tags = ["cypherpunks", "history", "bitcoin", "pos"]
