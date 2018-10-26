@@ -37,5 +37,5 @@ Developing
 #discussion-dev #hackathons #general-developing #blockchain-developing #forking #bitcoin-dev #ethereum-dev #state-channels #id-dev #corda #steem-dev #hyperledger-dev
 
 
-
+[crypt0library.net](http://crypt0library.net)
 —BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
