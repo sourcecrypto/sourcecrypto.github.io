@@ -195,7 +195,7 @@ Tags = ["smart-contracts", "history"]
 
 [Combinators with Contracts —2006]
 Link = ["lambda-the-ultimate.org/node/1283"]
-Description "The work of Peyton Jones and Eber on specifying financial contracts with combinators (How to write a financial contract) has often cropped up here, but hasn't, I think, ever had its own story.\n\nSince Yale has a vistor, Christian Stefenson, presenting a talk on Enterprise Resource Planning ( A Declarative Framework for Enterprise Systems), which based on the work of Peyton Jones & Eber, I thought it might be timely to raise this very interesting idea.\n\nSome links\n\n    DSL for financial contracts\n    Paul Snively's comments about virtual world money'"
+Description = "The work of Peyton Jones and Eber on specifying financial contracts with combinators (How to write a financial contract) has often cropped up here, but hasn't, I think, ever had its own story.\n\nSince Yale has a vistor, Christian Stefenson, presenting a talk on Enterprise Resource Planning ( A Declarative Framework for Enterprise Systems), which based on the work of Peyton Jones & Eber, I thought it might be timely to raise this very interesting idea.\n\nSome links\n\n    DSL for financial contracts\n    Paul Snively's comments about virtual world money'"
 Tags = ["smart-contracts", "history"]
 
 [Forex Trading with Functional Programming —2008]
