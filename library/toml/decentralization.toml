@@ -28,10 +28,9 @@ Link = ["https://discord.gg/zkF6aNQ"]
 Description = "Our mission is to liberate ourselves from centralized entities and help the world take back control, and further perpetuate political, fiscal, and economic Decentralization. We are dedicated to making sure that our group is of quality and a constructive place to work together.\n\nPlease Check out our subreddit here https://www.reddit.com/r/decentralization/"
 Tags = ["decentralization", "discord"]
 
-
 [@nic_carter on Decentralization]
 Link = ["https://twitter.com/nic__carter/status/1008419100136296448"]
-Description "My thoughts have evolved a bit since this, but the big idea is the same. You have decentralization of validation ('node level'), block formation ('protocol level'), and decision-making and update-management ('political'). Your system isn’t decentralized without all three."
+Description = "My thoughts have evolved a bit since this, but the big idea is the same. You have decentralization of validation ('node level'), block formation ('protocol level'), and decision-making and update-management ('political'). Your system isn’t decentralized without all three."
 Tags = ["decentralization", "twitter"]
 
 [Free Company — THE DECENTRALIZED FUTURE OF WORK]
@@ -65,6 +64,7 @@ Description = "Measuring centralization can be an informative academic exercise,
 Tags = ["decentralization", "twitter"]
 
 
+https://medium.com/@sytaylor/what-is-a-decentralised-exchange-e2b86e844fe9
 ---
 
 https://fieldnotes.resistant.tech/defensive-decentralization/
