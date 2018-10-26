@@ -1,7 +1,7 @@
 [Blockchain for Contracts, Technology for Digital Contracting — Accenture]
 Link = ["https://www.accenture.com/us-en/success-blockchain-contracts"]
 Description = "Blockchain has the potential to fundamentally change the way organizations do business, providing new infrastructure on which the next generation of streamlined business applications will be built."
-Tags = ["smart-contracts", "enterprise"]
+Tags = ["smart-contracts", "enterprise-dlt", "private-chains"]
 
 [Defining smart contracts]
 Link = ["https://medium.com/@craig_10243/defining-smart-contracts-eb31fd825de6"]
@@ -50,7 +50,7 @@ Tags = ["ethereum", "solidity", "smart-contracts", "developing"]
 
 [solidified.io]
 Link = ["https://solidified.io"]
-Description = "Solidified is the #1 full-audit service for smart contracts\n\nSolidified has the largest (200+) community of Solidity experts\nand incorporates all stages of technical due diligence into a\nsingle platform so you can bulletproof your smart contract.
+Description = "Solidified is the #1 full-audit service for smart contracts\n\nSolidified has the largest (200+) community of Solidity experts\nand incorporates all stages of technical due diligence into a\nsingle platform so you can bulletproof your smart contract."
 Tags = ["ethereum", "solidity", "smart-contracts", "developing"]
 
 [Neo Smart Contract Development]
@@ -94,99 +94,156 @@ Description = "It is now possible to model all or parts of legal agreements usin
 Tags = ["openlaw", "legal", "smart-contracts"]
 
 [Smart Contracts — Investopedia]
-Link = "https://www.investopedia.com/terms/s/smart-contracts.asp#ixzz5SuPmOFNW"
+Link = ["https://www.investopedia.com/terms/s/smart-contracts.asp#ixzz5SuPmOFNW"]
 Description = "Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. Smart contracts permit trusted transactions and agreements to be carried out among disparate, anonymous parties without the need for a central authority, legal system, or external enforcement mechanism. They render transactions traceable, transparent, and irreversible."
 Tags = ["smart-contracts", "101"]
 
-
 [Smart Contracts Glossary (1995) Nick Szabo]
-Link = "http://archive.is/fcx3I"
+Link = ["http://archive.is/fcx3I"]
 Description = "A set of promises, including protocols within which the parties perform on the other promises. The protocols are usually implemented with programs on a computer network, or in other forms of digital electronics, thus these contracts are "smarter" than their paper-based ancestors. No use of artificial intelligence is implied. "
 Tags = ["smart-contracts", "history", "nick-szabo"]
 
 [The Truth about Smart Contracts]
-Link = "https://medium.com/@jimmysong/the-truth-about-smart-contracts-ae825271811f"
+Link = ["https://medium.com/@jimmysong/the-truth-about-smart-contracts-ae825271811f"]
 Description = "The key feature of a smart contract is that it has trustless execution. That is, you don’t need to rely on a third party to execute various conditions. Instead of relying on the other party to make good on their word or even worse, relying on lawyers and the legal system to remedy things should something go wrong, a smart contract executes what’s supposed to happen timely and objectively."
 Tags = ["smart-contracts", "101"]
 
+[Comparison of Smart Contract Platforms]
+Link = ["https://hackernoon.com/comparison-of-smart-contract-platforms-2796e34673b7"]
+Description = "    Ivy-lang, Plutus, Solidity, Scrypto, Michelson, Hoon, Rust, …\n\nYou serious??\n\nWhen should I find the time to explore all these languages? Most of them are barely used, making it incredibly hard to adopt them. Solidity is leading the pack, although, it’s not an easy language to get started with. This article will criticize and give new insights in the following platforms: Ethereum, Hyperledger Fabric, NEM, Stellar, iOlite, Neblio, and Lisk."
+Tags = ["smart-contracts", "smart-contract-platforms"]
 
-https://hackernoon.com/comparison-of-smart-contract-platforms-2796e34673b7
+[What are Smart Contracts on Blockchain?]
+Link = ["https://www.ibm.com/blogs/blockchain/2018/07/what-are-smart-contracts-on-blockchain/"]
+Description = "Smart contracts are lines of code that are stored on a blockchain and automatically execute when predetermined terms and conditions are met. At the most basic level, they are programs that run as they’ve been set up to run by the people who developed them. The benefits of smart contracts are most apparent in business collaborations, in which they are typically used to enforce some type of agreement so that all participants can be certain of the outcome without an intermediary’s involvement."
+Tags = ["smart-contracts", "enterprise-dlt", "private-chains"]
 
----
+[Smart Contracts — 12 Use Cases for Business and Beyond]
+Link = ["https://gallery.mailchimp.com/a87f67248663abe55ad9325d6/files/Smart_Contracts_12_Use_Cases_for_Business_Beyond.pdf"]
+Description = "A Technology, Legal & Regulatory Introduction — Foreword by Nick Szabo\nPrepared by: Smart Contracts Alliance — In collaboration with Deloitte"
+Tags = ["smart-contracts", "enterprise-dlt", "private-chains"]
 
-https://www.ibm.com/blogs/blockchain/2018/07/what-are-smart-contracts-on-blockchain/
+[Nick Szabo quote from 12 Use Cases for Business and Beyond]
+Link = ["https://twitter.com/cryptinfominer/status/1048154994459987969"]
+Description = "the most secure environments for smart contracts are the most mature public blockchains, which are designed for trust minimization instead of trusting the often private and insecure system found resident with a central party"
+Tags = ["nick-szabo", "smart-contracts", "enterprise-dlt", "quote", "private-chains"]
 
----
+[Wet Code and Dry]
+Link = ["http://unenumerated.blogspot.com/2006/11/wet-code-and-dry.html"]
+Description = "There's a strong distinction to be made between 'wet code,' interpreted by the brain, and 'dry code,' interpreted by computers. Human-read media is wet code whereas computer code and computer-readable files (to the extent a computer deals meaningfully with them) are "dry code." Law is wet code, interpreted by those on whom the law is imposed, and interpreted (often somewhat differently) by law enforcers, but most authoritatively (and even more differently) interpreted by judges. Human language is mostly wet code but to the extent computer programs crudely translate from one language to another, keyword-ad programs parse text to made an educated guess as to what ads a user will most likely click, and so on, human language text can also be dry code. Traditional contracts are wet code whereas smart contracts are mostly dry code. Secure property titles and the domain name system are mostly dry code."
+Tags = ["smart-contracts", "history", "literature", "nick-szabo"]
 
-Download Smart_Contracts_12_Use_Cases_for_Business_Beyond.pdf
+[Ee Language Wiki- Smart Contract History]
+Link = ["http://wiki.c2.com/?EeLanguage"]
+Description = "An ObjectCapabilityLanguage with the WikiUnFriendlyName E.\n\nE is 'the secure distributed pure-object platform and PeerToPeer ScriptingLanguage for writing Capability-based Smart Contracts' (contracts expressed as programs, where the logic of the program's execution helps enforce the terms of the contract. See http://www.erights.org/smart-contracts/)"
+Tags = ["smart-contracts", "history", "e-lang"]
 
-A Technology, Legal & Regulatory Introduction — Foreword by Nick Szabo
-Prepared by: Smart Contracts Alliance — In collaboration with Deloitte
+[A Formal Language for Analyzing Contracts —Nick Szabo (2002)]
+Link = ["https://nakamotoinstitute.org/contract-language/"]
+Description = "The author presents a mini-language for professionals and researchers interested in drafting and analyzing contracts. It is intended for computers to read, too. The main purpose of this language is to specify, as unambiguously and completely and succinctly as possible, common contracts or contractual terms. These include financial contracts, liens and other kinds of security, transfer of ownership, performance of online services, and supply chain workflow. "
+Tags = ["smart-contracts", "history"]
 
----
+[Home of E, the secure distributed persistent language for capability-based smart contracting.]
+Link = ["http://www.erights.org/"]
+Description = "A contract is a mutually agreeable arrangement of rules among mutually suspicious parties so they may cooperate with limited risks to each other's mischief. It is a game both are willing to play because both expect to win.\n\nA conventional contract is passive paper interpreted at great expense by lawyers and courts.\n\nA smart contract is written in program code, in which the logic of the program's execution enforce the terms of the contract. Smart contracts reduce costs by orders of magnitude, leading to a more cooperative world."
+Tags = ["smart-contracts", "history", "e-lang"]
 
-https://twitter.com/cryptinfominer/status/1048154994459987969
+[e-lang mailing list archive]
+Link = ["https://marc.info/?l=e-lang"]
+Description = "The E capability-secure scripting language"
+Tags = ["e-lang", "smart-contracts", "history"]
 
----
+[Most Cited Smart Contract Publications]
+Link = ["https://blockchainlibrary.org/2017/10/most-cited-smart-contracts-publications/"]
+Description = "Epic collection of literature related to smart contracts"
+Tags = ["literature", "smart-contracts", "academic"]
 
-http://unenumerated.blogspot.com/2006/11/wet-code-and-dry.html
+[Nick Szabo - ipfs.io]
+Link = ["https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Nick_Szabo.html"]
+Description = "Nick Szabo is a computer scientist, legal scholar and cryptographer known for his research in digital contracts and digital currency. He graduated from the University of Washington in 1989 with a degree in computer science.[1]\n\nThe phrase and concept of 'smart contracts' was developed by Szabo with the goal of bringing what he calls the 'highly evolved' practices of contract law and practice to the design of electronic commerce protocols between strangers on the Internet.[2][3] Smart contracts are a major feature of cryptocurrencies[4][5] and the E programming language.[6]"
+Tags = ["nick-szabo", "history", "smart-contracts"]
 
----
+[A Next Generation Smart Contract and Decentralized Application Platform]
+Link = ["http://lambda-the-ultimate.org/node/5003#comment-94645"]
+Description = "Forum containing criticism and concern over ethereum, and some good historical information on smart contracts"
+Tags = ["smart-contracts", "history", "ethereum"]
 
-http://wiki.c2.com/?EeLanguage
+[SEC interested in formalising contracts ... in Python —2010]
+Link = ["http://lambda-the-ultimate.org/node/3922", "http://jrvarma.wordpress.com/2010/04/16/the-sec-and-the-python/"]
+Description = "      Last week, the SEC put out a 667 page proposal regarding disclosures for asset backed securities. What I found exciting was this:\n\n        We are proposing to require that most ABS issuers file a computer program that gives effect to the flow of funds, or â€œwaterfall,â€ provisions of the transaction. We are proposing that the computer program be filed on EDGAR in the form of downloadable source code in Python. â€¦ (page 205)"
+Tags = ["smart-contracts", "history", "sec"]
 
----
+[Commercial Uses: Going functional on exotic trades —2009]
+Link = ["http://arbitrary.name/papers/fpf.pdf"]
+Description = "The Functional Payout Framework (fpf) is a Haskell application that uses an embedded domain-specific functional language to represent and process exotic financial derivatives. Whereas scripting languages for pricing exotic derivatives are common in banking, fpf uses multiple interpretations to not only price such trades, but also to analyse the scripts to provide lifecycle support and more. This paper discusses fpf in relation to the wider trading workflow and our experiences in using a functional language in such a system as both an implementation language and a domain-specific language."
+Tags = ["smart-contracts", "history"]
 
-https://nakamotoinstitute.org/contract-language/
+[Three Smart Contract Misconceptions]
+Link = ["https://www.coindesk.com/three-smart-contract-misconceptions/"]
+Description = "Why Many Smart Contract Use Cases Are Simply Impossible"
+Tags = ["multichain", "private-chains", "smart-contracts", "101"]
 
----
+[Dana — a detailed post on contract languages, virtual economies in Second Life, and the PLT aspects —2009]
+Link = ["http://lambda-the-ultimate.org/node/3214"]
+Description = "Luke Palmer and Nick Szabo can shoot me for this if they want, but I think this is warranted, and I want to connect a couple of dots as well. Luke is one of a number of computer scientists, with Conal Elliott probably being the best known, who have devoted quite a bit of attention to Functional Reactive Programming, or FRP. FRP has been discussed on LtU off and on over the years, but, unusually for LtU IMHO, does not seem to have gotten the traction that some other similarly abstruse subjects have.\n\nIn parallel, LtU has had a couple of interesting threads about Second Life's economy, smart contracts, usage control, denial of service, technical vs. legal remedies, and the like. I would particularly like to call attention to this post by Nick Szabo, in which he discusses a contract language that he designed:"
+Tags = ["smart-contracts", "history"]
 
-http://www.erights.org/
+[Stock exchanges: language design aspect —2008]
+Link = ["http://lambda-the-ultimate.org/node/2973"]
+Description = "Recently I discovered to myself that orders for stock exchanges are little programs written in little language.\n The concept of an exchange can be seen as an extension of the concept of money - while money relieves parties from necessity of finding right resources in right quantity to perform barter trade, exchange relieves parties from necessity of finding each other. \nThis is achieved by delegation of parties' decisions to smart (or not so) agents - usually called orders."
+Tags = ["smart-contracts", "history"]
 
----
+[Combinators with Contracts —2006]
+Link = ["lambda-the-ultimate.org/node/1283"]
+Description "The work of Peyton Jones and Eber on specifying financial contracts with combinators (How to write a financial contract) has often cropped up here, but hasn't, I think, ever had its own story.\n\nSince Yale has a vistor, Christian Stefenson, presenting a talk on Enterprise Resource Planning ( A Declarative Framework for Enterprise Systems), which based on the work of Peyton Jones & Eber, I thought it might be timely to raise this very interesting idea.\n\nSome links\n\n    DSL for financial contracts\n    Paul Snively's comments about virtual world money'"
+Tags = ["smart-contracts", "history"]
 
-https://marc.info/?l=e-lang
+[Forex Trading with Functional Programming —2008]
+Link = ["http://lambda-the-ultimate.org/node/2852"]
+Description = "I'm looking for information about how to program a forex trading system with functional programming (I use scheme). Any idea or link you could give me? \n\n****A Few Leads"
+Tags = ["smart-contracts", "history", "forex"]
 
----
+[Financial Domain-Specific Language Listing and Resources]
+Link = ["http://www.dslfin.org/resources.html"]
+Description = "The goal of this page is to provide a comprehensive listing of financial domain-specific languages and resources. Please send additional resource suggestions to Todd Schiller."
+Tags = ["smart-contracts", "history", "developing", "developing-languages", "resources"]
 
-https://blockchainlibrary.org/2017/10/most-cited-smart-contracts-publications/
+[Secure Property Titles with Owner Authority -1998]
+Link = ["https://nakamotoinstitute.org/secure-property-titles/#selection-7.7-7.51"]
+Description = "The advent of writing greatly improved the tracking of property rights, and indeed gave rise to our modern systems of property rights and law. However, written records have proven to be quite vulnerable to abuse. A common pattern during eras of political instability or oppression has been the confiscation of land via the forgery or destruction of public records. Reconstruction from informal records, such as residency recorded in phone books, even when possible is costly and fraught with error and potential for fraud[1]. Large amounts of, in some areas most, property in developing countries is not formally titled[2]. Even during eras of political stability in developed countries, there occur many expensive problems with titles.[3] Straightforward transcription of written records into a centralized online repository would make many of these problems even worse – electronic records can be highly vulnerable to loss and forgery, and insiders are the most common source of such attacks. This paper proposes a secure, distributed title database to prevent such attacks against property rights in the future. "
+Tags = ["history", "smart-contracts", "nick-szabo", "literature"]
 
----
+[Upgrading blockchains —Smart contract use cases in industry]
+Link = "https://www2.deloitte.com/insights/us/en/focus/signals-for-strategists/using-blockchain-for-smart-contracts.html"
+Description = "Paper contracts can take weeks to travel around the globe, while digital documents are uncomfortably easy to forge. Is there a way to automate transactions to make them smoother, more efficient, and more secure for all parties? Leaders are looking at blockchain and smart contracts as a viable solution."
+Tags = ["enterprise-dlt", "private-chains", "smart-contracts"]
 
-https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Nick_Szabo.html
+[On the intersection of Ricardian and Smart Contracts]
+Link = "http://iang.org/papers/intersection_ricardian_smart.html"
+Description = " Bitcoin’s inclusion of the smart contract form invented by Nick Szabo has thrust this design into the forefront [Szabo]. An alternate design, the Ricardian Contract designed by the present author [Grigg], is currently used by a few innovatory systems such as OpenTransactions, OpenBazaar, Askemos and CommonAccord [WebFunds].\n\nMark Miller sees these as two halves of a split contract, but a more popular view is to see it as an either/or choice [AMIX]. So let’s try that out: which should you choose? Smart or Ricardian? Let’s find out.\n\nThe original Ricardian Contract captures the legal contract behind an issuance, which is generally a simple payment system moving money from and even what will be one account to another. It is a document that includes all the good stuff people need to know, and a little technical stuff the program needs to know as well. On the whole, the Riccy looks like a contract, by design. It’s intended to be familiar to people, not machines."
+Tags = ["smart-contracts", "ricardian-contracts", "legal", "literature"]
 
----
+[Smart Contracts Dumb Signatures may not be legal in your...]
+Link = ["https://medium.com/@blockarray/smart-contracts-dumb-signatures-why-blockchain-based-signatures-may-not-be-legal-in-your-efb64bc030c0"]
+Description = "Account Suspended, hoping to find an unblocked copy"
+Tags = ["smart-contracts"]
 
-http://lambda-the-ultimate.org/node/5003#comment-94645
+[A Look At Smart Contracts, Use cases and DApps]
+Link = ["https://www.axiomtech.io/blog-feed/2018/10/9/smart-contracts-uses-cases-dapps-icos"]
+Description = "Smart contracts are self-executing code that defines and executes an agreement between multiple parties. That code contains simple “if/when…then…” statements executed within a distributed network that achieves consensus on transactions made within it. For example, a smart contract could define conditions for a payment from party A to party B, and other conditions for returning the funds back to party A; perhaps after a certain amount of time passed without the first conditions being met. This innovation allows for the elimination of trusted intermediaries in a wide range of programmable agreements. Smart contract enabled transactions are fully traceable, transparent, and irreversible."
+Tags = ["101", "smart-contracts", "ethereum"]
 
----
+[Coallition Of Automated Legal Applications]
+Link = ["http://coala.global/"]
+Description = "We are lawyers, computer scientists and entrepreneurs who are thinking together about the challenges and opportunities of emerging blockchain technologies and how they will affect the way we live in modern society. We want people think about how the future Internet and society will look like in a world of ubiquitous connectivity, decentralized networks and interconnected devices."
+Tags = ["smart-contracts", "legal"]
 
-https://www.coindesk.com/three-smart-contract-misconceptions/
+[The Case for Dumb Contracts]
+Link = "https://medium.com/@therealopenbazaar/the-case-for-dumb-contracts-6308aa5b757"
+Description = "Disclaimer: This was written hours before the recent attack on TheDAO. The opinions in this article do not necessarily represent those held by other OpenBazaar developers.\n\nWritten by Dr Washington Sanchez\n\nOpenBazaar receives a lot of feature requests and suggestions, which we welcome. One frequently asked question is whether we will migrate to a smart contract platform like Ethereum."
+Tags = ["smart-contracts", "ethereum"]
 
----
-
-https://www2.deloitte.com/insights/us/en/focus/signals-for-strategists/using-blockchain-for-smart-contracts.html
-
----
-
-http://iang.org/papers/intersection_ricardian_smart.html
-
----
-
-https://medium.com/@craig_10243/defining-smart-contracts-eb31fd825de6
-
----
-
-https://medium.com/@blockarray/smart-contracts-dumb-signatures-why-blockchain-based-signatures-may-not-be-legal-in-your-efb64bc030c0
-
----
-
-https://www.axiomtech.io/blog-feed/2018/10/9/smart-contracts-uses-cases-dapps-icos
-
----
-
-http://coala.global/
-
----
-
-http://www.rootstock.io/
+[RSK - RootStock]
+Link = ["http://www.rootstock.io/"]
+Description = "RSK is the first open-source smart contract platform with a 2-way peg to Bitcoin that also rewards the Bitcoin miners via merge-mining, allowing them to actively participate in the Smart Contract revolution. RSK goal is to add value and functionality to the Bitcoin ecosystem by enabling smart-contracts, near instant payments and higher-scalability."
+Tags = ["smart-contracts", "smart-contract-platforms", "bitcoin"]
