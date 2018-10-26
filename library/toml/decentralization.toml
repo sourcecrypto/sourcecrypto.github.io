@@ -29,24 +29,41 @@ Description = "Our mission is to liberate ourselves from centralized entities an
 Tags = ["decentralization", "discord"]
 
 
+[@nic_carter on Decentralization]
+Link = ["https://twitter.com/nic__carter/status/1008419100136296448"]
+Description "My thoughts have evolved a bit since this, but the big idea is the same. You have decentralization of validation ('node level'), block formation ('protocol level'), and decision-making and update-management ('political'). Your system isn’t decentralized without all three."
+Tags = ["decentralization", "twitter"]
 
-https://twitter.com/nic__carter/status/1008419100136296448
+[Free Company — THE DECENTRALIZED FUTURE OF WORK]
+Link = ["https://www.tokendaily.co/blog/free-company"]
+Description = "The path forward is to create a system that can match this pent up supply of talent with the rampant demand from the projects. An entity or entities that will bring together top talent with top projects in the space, allowing contributors to work broadly across the ecosystem and allowing projects to gain from the spirit of open source. The solution is a Free Company that can be contracted to work on projects collaboratively across the space."
+Tags = ["decentralization", "work-in-crypto"]
 
----
+[Quantifying Decentralization]
+Link = ["https://news.earn.com/quantifying-decentralization-e39db233c28e"]
+Description = "The primary advantage of Bitcoin and Ethereum over their legacy alternatives is widely understood to be decentralization. However, despite the widely acknowledged importance of this property, most discussion on the topic lacks quantification."
+Tags = ["decentralization"]
 
-https://www.tokendaily.co/blog/free-company
+[@we_are_cordite on Decentralization]
+Link = ["https://twitter.com/we_are_cordite/status/1008985334187773952"]
+Description = "One way to measure decentralisation, is by measuring the benefits. But do you think we should look at the technology and the business separately when we consider decentralisation? Or does one influence the other?"
+Tags = ["decentralization", "twitter", "image"]
 
----
+[The Case for Decentralization]
+Link = ["https://medium.com/@rickcrook/the-case-for-de-centralisation-1ac14935a3fc"]
+Descriptoin = "2016 was all about performance and scalability, 2017 was all about security. These are technical challenges. The harder challenges are the social and political ones. One of the key unsolved challenges is the de-centralised business model. I have consistently messaged that ‘there is no point replacing one centralised business model with another’. I believe 2018 will be the year that many in the blockchain domain wake up to the fact that there is little point distributing the technology if you are not going to distribute the business model. This challenge remains within all the blockchain projects I am focused on."
+Tags = ["decentralization"]
 
-https://twitter.com/sytaylor/status/1026155964481851392
+[The Death of 'Decentralization']
+Link = ["https://www.tokendaily.co/blog/the-death-of-decentralization"]
+Description = "It's no secret that 'decentralization' has been reduced to a marketing buzzword, and it's losing meaning through its misuse. Your project or idea may have some qualities that decentralization facilitates (censorship resistance, immutability, accessibility, etc) — but it is not 'decentralized.' This post has been inspired by a few conversations and two articles that have recently surfaced."
+Tags = ["decentralization"]
 
----
+[@lopp on Decentralization]
+Link = ["https://twitter.com/lopp/status/1028092364559208448"]
+Description = "Measuring centralization can be an informative academic exercise, but IMO the only way to know if a network is sufficiently decentralized is to attack it. If it can withstand attacks from nation states, it's sufficiently decentralized."
+Tags = ["decentralization", "twitter"]
 
-https://twitter.com/lopp/status/1028092364559208448
-
----
-
-https://medium.com/zkcapital/handshake-ens-and-decentralized-naming-services-explained-2e69a1ca1313
 
 ---
 
