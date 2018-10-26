@@ -6,7 +6,7 @@ Tags = ["bitcoin", "history", "encryption", "p2p", "open-source"]
 [A Brief History of Digital Currencies]
 Link = ["https://ebrary.net/7927/education/brief_history_digital_currencies"]
 Description = "A Brief History of Digital Currencies\n\nThe birth of the Internet led many, including economist Milton Friedman, to assume that the invention of some sort of digital money would soon follow. Arguments in favor of digital money were numerous. One obvious benefit realized early on was that it might help prevent counterfeiting:\n\nThe advent of high-quality color copiers threatens the security of paper money. The demands of guarding it make paper money expensive. The hassles of handling it (such as vending machines) make paper money undesirable. The use of credit cards and ATM cards is becoming increasingly popular, but those systems lack adequate privacy or security against fraud, resulting in a demand for efficient electronic-money systems to prevent fraud and also to protect user privacy.\n\n—Jorg Kienzle and Adrian Perrig in 'Digital Money: A divine gift or Satan's malicious tool?' (1996)"
-Tags = ["history", "digital-currency"]
+Tags = ["history", "digital-cash"]
 
 [Bitcoin's Academic Pedigree]
 Link = ["https://cacm.acm.org/magazines/2017/12/223058-bitcoins-academic-pedigree/fulltext"]
@@ -71,7 +71,7 @@ Tags = ["resources", "p2p", "history", "bitcoin", "decentralization"]
 ["Digital Cash and Monetary Freedom" (1996)]
 Link = [ "http://web.archive.org/web/19971210185701/http://info.isoc.org:80/HMP/PAPER/136/abst.html"]
 Description = "Much has been published recently about the awesome promises of electronic commerce and trade on the Internet if only a reliable, secure mechanism for value exchange could be developed. This paper describes the differences between mere encrypted credit card schemes and true digital cash, which presents a revolutionary opportunity to transform payments. The nine key elements of an electronic, digital cash are outlined and a tenth element is proposed which would embody digital cash with a non-political unit of value."
-Tags = ["history", "digital-currency", "literature"]
+Tags = ["history", "digital-cash", "literature"]
 
 [The Original 'I AM HODLING' Bitcointalk Post]
 Link = "https://bitcointalk.org/index.php?topic=375643.0"
@@ -86,7 +86,7 @@ Tags = ["bitcoin", "history", "economics"]
 [@dantwany on internet payments history]
 Link = ["https://twitter.com/dantwany/status/939987392496365569", "http://web.archive.org/web/19961130160745/http://ganges.cs.tcd.ie:80/mepeirce/Project/oninternet.html"]
 Description = "Bitcoin is sometimes compared Netscape and it's said some other will dethrone it. There have been many digital currency systems created that failed. Bitcoin is where it's today because it's a success. Payment mechanisms designed for the Internet (1996)"
-Tags = ["bitcoin", "history", "digital-currency"]
+Tags = ["bitcoin", "history", "digital-cash"]
 
 [Before Babylon, Beyond Bitcoin: From Money That We Understand to Money That Understands Us (Perspectives)]
 Link = ["https://the-eye.eu/public/concen.org/Before%20Babylon%2C%20Beyond%20Bitcoin%20%282017%29%20%28Pdf%29%20Gooner/Before%20Babylon%2C%20Beyond%20Bitcoin%20%282017%29.pdf"]
@@ -106,7 +106,7 @@ Tags = ["history", "cryptography", "books"]
 [Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money]
 Link = ["https://www.harpercollins.com/9780062572066/digital-gold/"]
 Description = "Bitcoin, the landmark digital money and financial technology, has spawned a global social movement with utopian ambitions. The notion of a new currency, maintained by the computers of users around the world, has been the butt of many jokes, but that has not stopped it from growing into a technology worth billions of dollars, supported by the hordes of followers who have come to view it as the most important new idea since the creation of the Internet."
-Tags = ["bitcoin", "history", "digital-currency", "books"]
+Tags = ["bitcoin", "history", "digital-cash", "books"]
 
 [@francispouliot Looking back on UASF]
 Link = ["https://twitter.com/francispouliot_/status/1037379672282152960", "https://twitter.com/francispouliot_/status/1037358649029668864"]
@@ -156,7 +156,7 @@ Tags = ["bitcoin", "history", "twitter"]
 [World's oldest ICOs 20+ and 20+ oldest cryptos without ICO]
 Link = ["https://steemit.com/crypto/@sxiii/oldest-icos"]
 Description = "My friends often ask me, if there are some great examples of old enough & successful companies, that held ICO. So I decided to write an article to list & discuss world's oldest cryptocurrencies ICOs, starting in 2013, and ending in 2015."
-Tags = ["ico", "cryptocurrency", "history"]
+Tags = ["ico", "history"]
 
 [Bitcorati Interview Series : Vitalik Buterin - Head Writer, Bitcoin Magazine]
 Link = ["https://www.youtube.com/watch?v=EkeCapBOQQ0"]
@@ -171,7 +171,7 @@ Tags = ["bitcoin", "history"]
 [The Bitcoin Knowledge Podcast — Legendary]
 Link = ["https://www.bitcoin.kn/legendary/"]
 Description = "These are interviews with legendary guests from the Bitcoin world. \n\nTrace Mayer asks Nick Szabo what the highest priority should be for hiring Bitcoin\n\nA Week With Adam Back in September 2015"
-Tags = ["bitcoin", "history", "digital-currency", "podcast", "video", "adam-back", "nick-szabo"]
+Tags = ["bitcoin", "history", "digital-cash", "podcast", "video", "adam-back", "nick-szabo"]
 
 [Nick Szabo's Home Page — Archive (pre-2005)]
 Link = ["http://archive.is/H8UGk"]
@@ -202,3 +202,18 @@ Tags = ["history", "bitcoin"]
 Link = ["https://nakamotoinstitute.org/trusted-third-parties/"]
 Description = "Commercial security is a matter of solving the practical problems of business relationships such as privacy, integrity, protecting property, or detecting breach of contract. A security hole is any weakness that increases the risk of violating these goals. In this real world view of security, a problem does not dissapear because a designer assumes it away. The invocation or assumption in a security protocol design of a "trusted third party" (TTP) or a "trusted computing base" (TCB) controlled by a third party constitutes the introduction of a security hole into that design. The security hole will then need to be plugged by other means."
 Tags = ["history", "nick-szabo", "literature"]
+
+[The Evolution of Digital Cash]
+Link = ["https://medium.com/@FidelityDigitalAssets/the-evolution-of-digital-cash-da19b06aa58e"]
+Description = "The emergence of digital assets, such as bitcoin, signals a fundamental change in the way value is transferred globally.\n\nThe concepts of money and value transfer have been evolving since primitive societies adopted shells and stones for monetary exchange, but the concept of digital money has been sought after for as long as there’s been an internet and peer-to-peer networking capabilities to drive its development."
+Tags = ["digital-cash", "history"]
+
+[Lecture 12 — History of Cryptocurrencies]
+Link = ["https://www.youtube.com/watch?v=1VYs_zZsorU&t=0s&index=13&list=PLQIX_E46U4XYE5GR6029FpnaX9aBXbt0B", "https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf"
+Description = "Lecture from Princeton Bitcoin/Blockchain Course on the History of Cryptocurrency"
+Tags = ["history", "video"]
+
+[A finite monetary supply for Bitcoin]
+Link = ["https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki"]
+Description = "Although it is widely believed that Satoshi was an inflation-hating goldbug he never said this, and in fact programmed Bitcoin's money supply to grow indefinitely, forever. He modeled the monetary supply as 4 gold mines being discovered per mibillenium (1024 years), with equal intervals between them, each one being depleted over the course of 140 years.\n\nThis poses obvious problems, however. Prominent among them is the discussion on what to call 1 billion Bitcoin, which symbol color to use for it, and when wallet clients should switch to it by default.\n\nTo combat this, this document proposes a controversial change: making Bitcoin's monetary supply finite."
+Tags = ["history", "bitcoin"]
