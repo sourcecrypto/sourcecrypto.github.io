@@ -1,21 +1,34 @@
-https://twitter.com/Dan_Jeffries1/status/1013517580613480448
+[Satoshi Nakamoto's PGP Key]
+Link = ["https://web.archive.org/web/20110713005711/https://forum.bitcoin.org/Satoshi_Nakamoto.asc"]
+Description = "-----BEGIN PGP PUBLIC KEY BLOCK-----\nVersion: GnuPG v1.4.7 (MingW32)\n\nmQGiBEkJ+qcRBADKDTcZlYDRtP1Q7/ShuzBJzUh9hoVVowogf2W07U6G9BqKW24r\npiOxYmErjMFfvNtozNk+33cd/sq3gi05O1IMmZzg2rbF4ne5t3iplXnNuzNh+j+6\nVxxA16GPhBRprvnng8r9GYALLUpo9Xk17KE429YYKFgVvtTPtEGUlpO1EwCg7FmW\ndBbRp4mn5GfxQNT1hzp9WgkD/3pZ0cB5m4enzfylOHXmRfJKBMF02ZDnsY1GqeHv\n/LjkhCusTp2qz4thLycYOFKGmAddpVnMsE/TYZLgpsxjrJsrEPNSdoXk3IgEStow\nmXjTfr9xNOrB20Qk0ZOO1mipOWMgse4PmIu02X24OapWtyhdHsX3oBLcwDdke8aE\ngAh8A/sHlK7fL1Bi8rFzx6hb+2yIlD/fazMBVZUe0r2uo7ldqEz5+GeEiBFignd5\nHHhqjJw8rUJkfeZBoTKYlDKo7XDrTRxfyzNuZZPxBLTj+keY8WgYhQ5MWsSC2MX7\nFZHaJddYa0pzUmFZmQh0ydulVUQnLKzRSunsjGOnmxiWBZwb6bQjU2F0b3NoaSBO\nYWthbW90byA8c2F0b3NoaW5AZ214LmNvbT6IYAQTEQIAIAUCSQn6pwIbAwYLCQgH\nAwIEFQIIAwQWAgMBAh4BAheAAAoJEBjAnoZeyUihXGMAnjiWJ0fvmSgSM3o6Tu3q\nRME9GN7QAKCGrFw9SUD0e9/YDcqhX1aPMrYue7kCDQRJCfqnEAgA9OTCjLa6Sj7t\ndZcQxNufsDSCSB+yznIGzFGXXpJk7GgKmX3H9Zl4E6zJTQGXL2GAV4klkSfNtvgs\nSGJKqCnebuZVwutyq1vXRNVFPQFvLVVo2jJCBHWjb03fmXmavIUtRCHoc8xgVJMQ\nLrwvS943GgsqSbdoKZWdTnfnEq+UaGo+Qfv66NpT3Yl0CXUiNBITZOJcJdjHDTBO\nXRqomX2WSguv+btYdhQGGQiaEx73XMftXNCxbOpqwsODQns7xTcl2ENru9BNIQME\nI7L9FYBQUiKHm1k6RrBy1as8XElS2jEos7GAmlfF1wShFUX+NF1VOPdbN3ZdFoWq\nsUjKk+QbrwADBQgA9DiD4+uuRhwk2B1TmtrXnwwhcdkE7ZbLHjxBfCsLPAZiPh8c\nICfV3S418i4H1YCz2ItcnC8KAPoS6mipyS28AU1B7zJYPODBn8E7aPSPzHJfudMK\nMqiCHljVJrE23xsKTC0sIhhSKcr2G+6ARoG5lwuoqJqEyDrblVQQFpVxBNPHSTqu\nO5PoLXQc7PKgC5SyQuZbEALEkItl2SL2yBRRGOlVJLnvZ6eaovkAlgsbGdlieOr0\nUwWuJCwzZuBDruMYAfyQBvYfXZun3Zm84rW7Jclp18mXITwGCVHg/P5n7QMbBfZQ\nA25ymkuj636Nqh+c4zRnSINfyrDcID7AcqEb6IhJBBgRAgAJBQJJCfqnAhsMAAoJ\nEBjAnoZeyUihPrcAniVWl5M44RuGctJe+IMNX4eVkC08AJ9v7cXsp5uDdQNo8q3R\n8RHwN4Gk8w==\n=3FTe\n-----END PGP PUBLIC KEY BLOCK-----"
+Tags = ["satoshi", "pgp", "history"]
 
----
+[@Dan_Jeffries1 on the new 'Satoshi book' Duality]
+Link = ["https://twitter.com/Dan_Jeffries1/status/1013517580613480448", "https://archive.is/QnB9t"]
+Description = "1/ Is #Satoshi writing a book? Is Duality authentic? I weigh in here because I have spent the last few years studying and reading every single word Nakamoto ever wrote as I'm writing a book about #Bitcoin as we speak. "
+Tags = ["satoshi", "literature"]
 
-https://twitter.com/nic__carter/status/1013151635206557696
+[@nic_carter on the new 'Satoshi book' Duality]
+Link = ["https://twitter.com/nic__carter/status/1013151635206557696"]
+Description = "Someone didn't do their research. Satoshi never said 'blockchain'. 1/10 scam attempt, try again. Bloomberg, you've been conned."
+Tags = ["satoshi", "literature"]
 
----
+[Satoshi Book Review: Verification of ‘duality’ excerpt using stylometric analysis]
+Link = ["https://zycrypto.com/satoshi-book-review-verification-of-duality-excerpt-using-stylometric-analysis/"]
+Description = "We verified the authenticity of the new Satoshi document using stylometric data mining methods and used Most Frequent Word culling to minimise bias in our model. Our findings suggest that Satoshi is back and that an autobiography is on its way!"
+Tags = ["satoshi", "literature"]
 
-https://zycrypto.com/satoshi-book-review-verification-of-duality-excerpt-using-stylometric-analysis/
+[The Complete Satoshi]
+Link = ["https://satoshi.nakamotoinstitute.org/"]
+Description = "Between 2008 and 2012, a pseudonymous programmer (or programmers) going by the name Satoshi Nakamoto shared with the world a brilliant vision and the code to build it."
+Tags = ["bitcoin", "history", "satoshi"]
 
----
+[New Research Claims Satoshi Mined Far Fewer Bitcoins Than Previously Thought]
+Link = ["https://bitcoinmagazine.com/articles/new-research-claims-satoshi-mined-far-fewer-bitcoins-previously-thought/", "https://blog.bitmex.com/satoshis-1-million-bitcoin/"]
+Description = "Based on five-year-old research, Bitcoin enthusiasts and critics alike have often held that Satoshi Nakamoto originally mined some 1,000,000 bitcoin in the early days of the network. New numbers from BitMEX Research, however, demonstrates this number could be off by 300,000-400,000 total bitcoin."
+Tags = ["bitcoin", "history", "satoshi"]
 
-https://satoshi.nakamotoinstitute.org/
-
----
-
-https://bitcoinmagazine.com/articles/new-research-claims-satoshi-mined-far-fewer-bitcoins-previously-thought/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+BitcoinMagazine+%28Bitcoin+Magazine%29#1535061916
-
----
-
-https://bitcointalk.org/index.php?topic=770.msg9074
+[Does Satoshi have a million bitcoin?]
+Link = ["https://blog.bitmex.com/satoshis-1-million-bitcoin/"]
+Description = "Abstract: We examine the extent to which one miner dominated Bitcoin in 2009. We review Sergio Demian Lerner’s 2013 analysis, where he discovered that the increase in the ExtraNonce value in the block can potentially be used to link different blocks to the same miner. We build on his analysis and conclude that although the evidence is far less robust than many assume, there is reasonable evidence that a single dominant miner in 2009 could have generated around 700,000 bitcoin. Although our analysis itself is weak and there is no perfect way of approaching this problem."
+Tags = ["bitcoin", "history", "satoshi", "research"]
