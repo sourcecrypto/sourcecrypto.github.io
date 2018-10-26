@@ -16,7 +16,7 @@ Tags = ["history", "bitcoin", "academia", "cryptography", "literature", "researc
 [Satoshi Nakamoto Institute]
 Link = ["https://nakamotoinstitute.org/"]
 Description = "The Satoshi Nakamoto Institute is eager to share with the world the best ideas past, present, and future in cryptography, distributed networks, economic freedom, and freedom of information. We are dedicated to curating the best primary source literature that challenge the status quo through technological innovation."
-Tags = ["bitcoin", "history", "satoshi", "resources"]
+Tags = ["bitcoin", "history", "satoshi", "resources", "literature"]
 
 [Satoshi Nakamoto Institute — Literature]
 Link = ["https://nakamotoinstitute.org/literature/"]
