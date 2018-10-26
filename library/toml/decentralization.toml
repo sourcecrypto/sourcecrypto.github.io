@@ -8,10 +8,10 @@ Link = ["http://hackingdistributed.com/2014/06/18/how-to-disincentivize-large-bi
 Description = "Recently, the GHash mining pool breached Bitcoin etiquette to become a 55% miner for Bitcoin [*]. This collapsed the key value proposition of Bitcoin, namely, its decentralization. In turn, there has been considerable criticism and backlash. Many people in the community, including us, have noted that etiquette or the good will of miners are not sufficient to keep monopolies at bay, and called for technical measures to disincentivize large mining pools."
 Tags = ["bitcoin", "mining", "decentralization"]
 
-[Decenturion]
-Link = ["https://decenturion.com"]
-Description = "A decentralized state built on blockchain\n\n'Decenturion is a rapidly developing state that has leveraged the complex of cutting-edge technologies to build an effective economy and a progressive society.'"
-Tags = ["decentralization", "decentralized-state"]
+[Introducing Decenturion: A Decentralized State Built on Blockchain]
+Link = ["https://coinjournal.net/introducing-decenturion-a-decentralized-state-built-on-blockchain/", "https://decenturion.com"]
+Description = "Decenturion promises to be the first sovereign society governed by direct democracy via blockchain.  The project was unveiled at Consensus 2018, and Decenturion’s Minister of Foreign Affairs, Viktoriia Pirumova, recently spoke at the Blockchain for Impact Summit at the United Nations.  Following the event at the U.N., a reception was held on a yacht cruise on the Hudson River."
+Tags = ["decentralization", "decentralized-state", "united-nations"]
 
 [@Melt_Dem on Decentralization]
 Link = ["https://twitter.com/Melt_Dem/status/1031190564639830016"]
@@ -63,36 +63,37 @@ Link = ["https://twitter.com/lopp/status/1028092364559208448"]
 Description = "Measuring centralization can be an informative academic exercise, but IMO the only way to know if a network is sufficiently decentralized is to attack it. If it can withstand attacks from nation states, it's sufficiently decentralized."
 Tags = ["decentralization", "twitter"]
 
+[What is a Decentralized Exchange? (DEX)]
+Link = ["https://medium.com/@sytaylor/what-is-a-decentralised-exchange-e2b86e844fe9"]
+Description = "I’ve found myself answering this question a lot lately, and I had assumed a decentralised exchange was a well known term. When the crypto and technology community uses the term Decentralised Exchange (or DEX) they mean something very specific."
+Tags = ["exchanges", "dex", "decentralization"]
 
-https://medium.com/@sytaylor/what-is-a-decentralised-exchange-e2b86e844fe9
----
+[Field Notes — Observations on Robust Decentralized Systems]
+Link = ["https://fieldnotes.resistant.tech/defensive-decentralization/"]
+Description = "On Emergent Centralization\n\nThere is a principle of Defensive Decentralization: when besieged, a well constructed decentralized system will further decentralize.\n\nThe corollary of which is: A well constructed decentralized system will identify & attack emergent centralization."
+Tags = ["decentralization"]
 
-https://fieldnotes.resistant.tech/defensive-decentralization/
+[What could decentralization mean in the context of the law?]
+Link = ["https://coincenter.org/entry/what-could-decentralization-mean-in-the-context-of-the-law"]
+Description = "SEC Director of Corporate Finance William Hinman’s speech yesterday on tokens has spurred (or perhaps renewed) a debate on what 'decentralization' really means in the context of securities law and cryptocurrency."
+Tags = ["decentralization", "regulation"]
 
----
+[What is the difference between decentralized and distributed systems?]
+Link = ["https://medium.com/distributed-economy/what-is-the-difference-between-decentralized-and-distributed-systems-f4190a5c6462"]
+Description = "Decentralized means that there is no single point where the decision is made. Every node makes a decision for it’s own behaviour and the resulting system behaviour is the aggregate response."
+Tags = ["decentralization", "distributed-systems"]
 
-https://coinjournal.net/introducing-decenturion-a-decentralized-state-built-on-blockchain/
+[Resistant Protocols — How Decentralization Evolves]
+Link = ["https://medium.com/@jbackus/resistant-protocols-how-decentralization-evolves-2f9538832ada"]
+Description = "Why do we build decentralized technologies? How do we predict what will be successful, what will get shutdown, and what will end up as a science experiment that no one uses in practice?\n\nAs I’ve written before, blockchain isn’t the first decentralization craze and we can learn a lot from studying the history of p2p file sharing. By examining how decentralization for file sharing evolved, I think a few lessons stand out"
+Tags = ["decentralization", "p2p", "history"]
 
----
+[Fat Protocols Arent New]
+Link = ["https://medium.com/@jbackus/fat-protocols-arent-new-42d2c538db41"]
+Description = "Starting in 1999, we saw an explosion of p2p file sharing technology. We had Gnutella (the protocol behind Limewire), FastTrack (Kazaa), eDonkey, and BitTorrent. Limewire, Kazaa, and eDonkey all died, but the protocols they helped create lived on!"
+Tags = ["p2p", "protocols", "history"]
 
-https://twitter.com/SarahJamieLewis/status/1031301941664440321
-
----
-
-https://coincenter.org/entry/what-could-decentralization-mean-in-the-context-of-the-law
-
----
-
-https://medium.com/distributed-economy/what-is-the-difference-between-decentralized-and-distributed-systems-f4190a5c6462
-
----
-
-https://medium.com/@jbackus/resistant-protocols-how-decentralization-evolves-2f9538832ada
-
----
-
-https://twitter.com/backus/status/1039701785789620224
-
----
-
-https://arxiv.org/pdf/1809.06528.pdf
+[@backus on Decentralization and P2P History]
+Link = ["https://twitter.com/backus/status/1039701785789620224"
+Description = "Interested in decentralization today? Learn what worked in the 2000s for p2p file sharing: ⚖️ Decentralization is a legal tactic used alongside activism ⌛ Decentralizing the wrong things is a waste of time ☠️ Decentralizing everything is suicide by bad UX — Thread!"
+Tags = ["decentralization", "p2p", "history", "twitter"]
