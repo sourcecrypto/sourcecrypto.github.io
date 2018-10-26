@@ -6,7 +6,7 @@ Tags = ["distributed-systems"]
 [awesome-distributed-systems]
 Link = ["https://github.com/theanalyst/awesome-distributed-systems"]
 Description = "A (hopefully) curated list on awesome material on distributed systems, inspired by other awesome frameworks like awesome-python. Most links will tend to be readings on architecture itself rather than code itself."
-Tags = ["literature", "awesome", "distributed-systems]
+Tags = ["literature", "awesome", "distributed-systems"]
 
 [Awesome Consensus]
 Link = ["https://github.com/dgryski/awesome-consensus"]
