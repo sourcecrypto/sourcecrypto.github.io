@@ -1,99 +1,114 @@
-https://www.accenture.com/us-en/success-blockchain-contracts
+[Blockchain for Contracts, Technology for Digital Contracting — Accenture]
+Link = ["https://www.accenture.com/us-en/success-blockchain-contracts"]
+Description = "Blockchain has the potential to fundamentally change the way organizations do business, providing new infrastructure on which the next generation of streamlined business applications will be built."
+Tags = ["smart-contracts", "enterprise"]
 
----
+[Defining smart contracts]
+Link = ["https://medium.com/@craig_10243/defining-smart-contracts-eb31fd825de6"]
+Description = "When contrasting contractual principles, it is clear that where a contract is not required to be in writing (Columbia Law Review, Apr., 1929 Pp. 497–504; Columbia Law Review, Jun., 1907, pp. 446–449; McKendrick, E, 2005, p 184), that little additional uncertainty could be created where the contract is completed electronically. In fact, it is clear that electronic evidence must hold greater weight than verbal evidence (Lord Justice Auld, Sept 2001, Cpt 11). What is not clear is the extent of the weight attached to the various forms of electronic evidence. The strength of a digital signature algorithm and the security surrounding the mechanisms used to sign an electronic document will respectively influence the weight associated with any piece of electronic evidence."
+Tags = ["smart-contracts", "legal", "craig-wright"]
 
-https://medium.com/@craig_10243/defining-smart-contracts-eb31fd825de6
+[Bribery Resistant Voting Schemes for Smart Contracts]
+Link = ["https://ethresear.ch/t/bribery-resistant-voting-schemes-for-smart-contracts/3354"]
+Description = "Recently, a number of proposals and applications have evolved on Ethereum that require voting; from contracts that use voting-based DAOs 6 for governance 4 or other administrative tasks, to boardroom-like votes 7 to proposals for open source funding 6. Voting appears to be a natural target for Ethereum and applications. Unfortunately, the space of voting algorithms opens a new class of buying and bribery coordination mechanisms 11 that could prove devastating in permissionless networks, either as credible threats or as actual deployed threats. Some schemes, even ones which assume robust identity, may be even more vulnerable than naive schemes 8.\n\nBeyond the standard integrity and privacy properties of a voting scheme— that votes are counted correctly and voters remain secret— for many applications we want a scheme that is bribery resistant. In on-chain voting schemes today, this is not the case: users can prove how they voted and thus be paid for their vote. Moreover, this can be done with a smart contract or “Dark DAO”, making it trustless. A natural question is whether technical protections against such an attack are possible in-protocol."
+Tags = ["smart-contracts", "research"]
 
----
+[Scriptless Scripts: How Bitcoin Can Support Smart Contracts Without Smart Contracts]
+Link = ["https://bitcoinmagazine.com/articles/scriptless-scripts-how-bitcoin-can-support-smart-contracts-without-smart-contracts/"]
+Description = "Bitcoin’s capacity is limited. Meanwhile, smart contracts can be resource intensive. So even though Bitcoin has always supported basic smart contract functionality, the two have never been a natural match.\n\nBut a recent topic of research spearheaded by Blockstream mathematician Andrew Poelstra could help fix this. Recently presented as key part of his presentation at Scaling Bitcoin Stanford, “Scriptless Scripts” have the potential to completely move certain smart contracts off of Bitcoin’s blockchain — while still leveraging all of Bitcoin’s security."
+Tags = ["smart-contracts", "bitcoin", "scriptless-scripts"]
 
-https://ethresear.ch/t/bribery-resistant-voting-schemes-for-smart-contracts/3354
+[Building a non-fungible token sales smart contract]
+Link = ["https://medium.com/coinmonks/building-a-non-fungible-token-sales-smart-contract-6573350d5a33"]
+Description = "Selling non-fungible tokens and the ERC721 standard\n\nIf you’re working on a Ethereum NFT (ERC721) project, you may have noticed the standard describes mechanisms for transferring tokens through functions such as safeTransferFrom() and, while some of the functions are payable, the standard leaves out any details on how to implement the mechanism to actually sell tokens in exchange for ether or other tokens. While this is obviously intentional and well thought out, you may still have to come up with a way to sell the tokens."
+Tags = ["smart-contract", "ethereum", "erc-token", "non-fungible"]
 
----
+[Ethereum in BigQuery: a Public Dataset for smart contract analytics]
+Link = ["https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics"]
+Description = "Ethereum and other cryptocurrencies have captured the imagination of technologists, financiers, and economists. Digital currencies are only one application of the underlying blockchain technology. Earlier this year, we made the Bitcoin dataset publicly available for analysis in Google BigQuery. Today we’re making the Ethereum dataset available."
+Tags = ["ethereum", "smart-contract", "data"]
 
-https://bitcoinmagazine.com/articles/scriptless-scripts-how-bitcoin-can-support-smart-contracts-without-smart-contracts/
+[Cardano Introduces Smart Contracts for Financial Transactions]
+Link = ["https://toshitimes.com/cardano-introduces-smart-contracts-for-financial-transactions/", "https://iohk.io/research/papers/#marlowe-financial-contracts-on-blockchain"]
+Description = "Marlowe: financial contracts on blockchain\n\nBlockchains allow the specification of contracts in the form of programs that guarantee their fulfilment. Nevertheless, errors in those programs can cause important, and often irretrievable, monetary loss. General-purpose languages provide a platform on which contracts can be built, but by their very generality they have the potential to exhibit behaviours of an unpredictable kind, and are also not easy to read or comprehend for general users.\nAn alternative solution is provided by domain-specific languages (DSLs), which are designed to express programs in a particular field. This paper explores the design of one DSL, Marlowe, targeted at the execution of financial contracts in the style of Peyton Jones et al on blockchains. We present an executable semantics of Marlowe in Haskell, an example of Marlowe in practice, and describe the Meadow tool that allows users to interact in-browser with simulations of Marlowe contracts."
+Tags = ["cardano", "smart-contracts"]
 
----
+[Learn Solidity: The Ethereum Smart Contract Programming Language]
+Link = ["https://medium.com/@robbertvermeulen/learn-solidity-the-ethereum-smart-contract-programming-language-7f106fc26d6"]
+Description = "In the course of time that I am involved in Ethereum development, I have noticed that not much information exists yet to learn Solidity (outside of the Solidity documentation).\n\nI have saved the information that I found in the meantime and the goal of this article is to share all my gathered resources, so other people new in this world don’t have to search, but can start learning Solidity immediately."
+Tags = ["smart-contracts", "solidity", "ethereum", "developing"]
 
-https://medium.com/coinmonks/building-a-non-fungible-token-sales-smart-contract-6573350d5a33
+[Solidity Documentation]
+Link = ["https://solidity.readthedocs.io"]
+Description = "Solidity is a contract-oriented, high-level language for implementing smart contracts. It was influenced by C++, Python and JavaScript and is designed to target the Ethereum Virtual Machine (EVM).\n\nSolidity is statically typed, supports inheritance, libraries and complex user-defined types among other features.\n\nAs you will see, it is possible to create contracts for voting, crowdfunding, blind auctions, multi-signature wallets and more."
+Tags = ["ethereum", "solidity", "smart-contracts", "developing"]
 
----
+[Preparing for a Smart Contract Code Audit]
+Link = ["https://media.consensys.net/preparing-for-a-smart-contract-code-audit-83691200cb9c"]
+Description = "If you are planning to launch a project on the Ethereum blockchain, you probably know the importance of a third-party code audit. An external audit can ensure that your contracts function as intended and remove vulnerabilities in the code.\n\nChoosing a team of experienced, rigorous auditors is of course essential, but your preparation will also impact the quality of the audit. Some effort on your part will go a long way toward getting you a better, faster audit."
+Tags = ["ethereum", "solidity", "smart-contracts", "developing"]
 
-https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics
+[solidified.io]
+Link = ["https://solidified.io"]
+Description = "Solidified is the #1 full-audit service for smart contracts\n\nSolidified has the largest (200+) community of Solidity experts\nand incorporates all stages of technical due diligence into a\nsingle platform so you can bulletproof your smart contract.
+Tags = ["ethereum", "solidity", "smart-contracts", "developing"]
 
----
+[Neo Smart Contract Development]
+Link = ["https://www.linkedin.com/pulse/neo-smart-contract-development-m%C3%A1t%C3%A9-moln%C3%A1r/"]
+Description = "My first Smart Contract on NEO blockchain in C#\n\n    Open Visual Studio 2017.\n\n    In Team explorer click on Clone and insert the neo-compiler link: https://github.com/neo-project/neo-compiler"
+Tags = ["smart-contracts", "neo", "developming"]
 
-https://toshitimes.com/cardano-introduces-smart-contracts-for-financial-transactions/
+[Yes Bitcoin can do Smart Contracts and Particl Demonstrates How]
+Link = ["https://bitcoinmagazine.com/articles/yes-bitcoin-can-do-smart-contracts-and-particl-demonstrates-how/","https://github.com/particl/whitepaper/blob/master/decentralized-private-marketplace-draft-0.1.pdf"]
+Description = "But the truth is that the Bitcoin protocol can be used to create smart contracts. Particl.io, the blockchain eCommerce platform, is doing just that by using Bitcoin-based smart contracts to manage funds in their trustless escrow: Mutually Assured Destruction (MAD) escrow.\n\nFor Particl, Bitcoin provides the ideal mix of smart contract functionality — enough to make smart contracts easy to implement but without the security and privacy risks of a more complicated platform like Ethereum."
+Tags = ["bitcoin", "smart-contracts", "marketplace"]
 
----
+[Smart Contract - bitcoinwiki]
+Link = ["https://en.bitcoinwiki.org/wiki/Smart_contract"]
+Description = "Smart contract (also self-executing contract, blockchain contract, or digital contract)[1] is an electronic algorithm intended for the automation of the contract execution process in the blockchain. The general idea of smart contracts is to exclude divergences in the treatment of the agreement terms by the entered parties. "
+Tags = ["smart-contracts", "101"]
 
-https://medium.com/@robbertvermeulen/learn-solidity-the-ethereum-smart-contract-programming-language-7f106fc26d6
+[Smart Contracts: Building Blocks for Digital Markets — Nick Szabo (1996)]
+Link = ["http://www.alamut.com/subj/economics/nick_szabo/smartContracts.html"]
+Description = "The contract, a set of promises agreed to in a 'meeting of the minds', is the traditional way to formalize a relationship. While contracts are primarily used in business relationships (the focus of this article), they can also involve personal relationships such as marraiges. Contracts are also important in politics, not only because of 'social contract' theories but also because contract enforcement has traditionally been considered a basic function of capitalist governments."
+Tags = ["history", "smart-contracts", "nick-szabo"]
 
----
+[Awesome Smart Contracts]
+Link = ["https://github.com/Overtorment/awesome-smart-contracts"]
+Description = "Curated list of platforms to run Smart Contracts."
+Tags = ["smart-contracts", "smart-contract-platforms"]
 
-https://solidity.readthedocs.io
+[Formalizing and Securing Relationships on Public Networks - Nick Szabo 1997]
+Link = ["http://ojphi.org/ojs/index.php/fm/article/view/548/469"]
+Description = "Smart contracts combine protocols with user interfaces to formalize and secure relationships over computer networks. Objectives and principles for the design of these systems are derived from legal principles, economic theory, and theories of reliable and secure protocols. Similarities and differences between smart contracts and traditional business procedures based on written contracts, controls, and static forms are discussed. By using cryptographic and other security mechanisms, we can secure many algorithmically specifiable relationships from breach by principals, and from eavesdropping or malicious interference by third parties, up to considerations of time, user interface, and completeness of the algorithmic specification. This article discusses protocols with application in important contracting areas, including credit, content rights management, payment systems, and contracts with bearer."
+Tags = ["smart-contracts", "history", "nick-szabo"]
 
----
+[Let's Talk Bitcoin! #246 Smart Contracts with Nick Szabo]
+Link = ["https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-246-smart-contracts-with-nick-szabo"]
+Description = "Adam, Stephanie and Andreas spend an hour with crypto-scholar of note Nick Szabo in a wide ranging discussion covering Smart Contracts, Bitcoin and Blockchains. You can find more of Nicks perspective at his homepage or blog"
+Tags = ["smart-contracts", "nick-szabo", "podcast"]
 
-https://media.consensys.net/preparing-for-a-smart-contract-code-audit-83691200cb9c
+[Dynamic, Next Generation Legal Agreements]
+Link = ["https://docs.openlaw.io/"]
+Description = "It is now possible to model all or parts of legal agreements using code (smart contracts), decreasing the cost and friction of creating, securing, and generating binding legal agreements.\n\nLawyers lack basic tools to build these dynamic, smart contracts in a way that is enforceable and understandable to a legal professional.\n\n\nWelcome to OpenLaw's documentation. Here you'll learn more about OpenLaw, including our protocol which includes JavaScript APIs for convenient integration, our markup language, and how our application works in general. You're welcome to help us improve our documentation through the links found at the bottom of each section or by going to our docs repository . You can also raise an issue about anything related to our application in our issue tracker repository"
+Tags = ["openlaw", "legal", "smart-contracts"]
 
----
+[Smart Contracts — Investopedia]
+Link = "https://www.investopedia.com/terms/s/smart-contracts.asp#ixzz5SuPmOFNW"
+Description = "Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. Smart contracts permit trusted transactions and agreements to be carried out among disparate, anonymous parties without the need for a central authority, legal system, or external enforcement mechanism. They render transactions traceable, transparent, and irreversible."
+Tags = ["smart-contracts", "101"]
 
-https://solidified.io
 
----
+[Smart Contracts Glossary (1995) Nick Szabo]
+Link = "http://archive.is/fcx3I"
+Description = "A set of promises, including protocols within which the parties perform on the other promises. The protocols are usually implemented with programs on a computer network, or in other forms of digital electronics, thus these contracts are "smarter" than their paper-based ancestors. No use of artificial intelligence is implied. "
+Tags = ["smart-contracts", "history", "nick-szabo"]
 
-https://www.linkedin.com/pulse/neo-smart-contract-development-m%C3%A1t%C3%A9-moln%C3%A1r/
+[The Truth about Smart Contracts]
+Link = "https://medium.com/@jimmysong/the-truth-about-smart-contracts-ae825271811f"
+Description = "The key feature of a smart contract is that it has trustless execution. That is, you don’t need to rely on a third party to execute various conditions. Instead of relying on the other party to make good on their word or even worse, relying on lawyers and the legal system to remedy things should something go wrong, a smart contract executes what’s supposed to happen timely and objectively."
+Tags = ["smart-contracts", "101"]
 
----
-
-https://bitcoinmagazine.com/articles/yes-bitcoin-can-do-smart-contracts-and-particl-demonstrates-how/
-
----
-
-https://en.bitcoinwiki.org/wiki/Smart_contract
-
----
-
-http://www.alamut.com/subj/economics/nick_szabo/smartContracts.html
-
----
-
-Smart Contracts: Building Blocks for Digital Markets - Nick Szabo 1996
-
----
-
-https://github.com/Overtorment/awesome-smart-contracts
-
----
-
-Link: http://ojphi.org/ojs/index.php/fm/article/view/548/469
-Notes: Formalizing and Securing Relationships on Public Networks - Nick Szabo
-
----
-
-https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-246-smart-contracts-with-nick-szabo
-
----
-
-https://openlaw.io/
-
----
-
-https://www.investopedia.com/terms/s/smart-contracts.asp#ixzz5SuPmOFNW
-
----
-
-http://archive.is/fcx3I
-
----
-
-http://archive.is/H8UGk
-
----
-
-https://medium.com/@jimmysong/the-truth-about-smart-contracts-ae825271811f
-
----
 
 https://hackernoon.com/comparison-of-smart-contract-platforms-2796e34673b7
 
