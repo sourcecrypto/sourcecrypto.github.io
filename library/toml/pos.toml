@@ -1,7 +1,7 @@
 [PeerCoin White Paper -2012] 
 Link = ["https://peercoin.net/assets/paper/peercoin-paper.pdf"]
 Description = "Arguably the first coin to introduce Proof of Stake as an alternative to Proof of Work\n\nA peer-to-peer crypto-currency design derived from Satoshi Nakamoto’s Bitcoin. Proof-of-stake  replaces  proof-of-work  to  provide  most  of  the  network  security. Under  this  hybrid  design  proof-of-work  mainly  provides  initial  minting  and  is largely  non-essential  in  the  long  run.  Security  level  of  the network  is  not dependent  on  energy  consumption  in  the  long  term  thus  providing  an  energy-efficient  and  more  cost-competitive  peer-to-peer  crypto-currency.  Proof-of-stake is  based  on  coin  age  and  generated  by  each  node  via  a  hashing  scheme  bearing similarity  to  Bitcoin’s  but  over  limited  search  space.  Block  chain  history  and transaction settlement are further protected by a centrally broadcasted checkpoint mechanism. "
-Tags = ["sybil-resistance", "pos", "history", "literature", "whitepaper"]
+Tags = ["sybil-resistance", "pos", "history", "literature", "whitepaper", "sunny-king", "scott-nadal"]
 
 [Dan Larimer introduces Delegated Proof of Stake (DPoS) 2013]
 Link = ["https://github.com/super3/invictus.io/blob/master/assets/pdf/TransactionsAsProofOfStake10.pdf"]
@@ -33,31 +33,45 @@ Link = ["https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missi
 Description = "This is the missing white paper and analysis of delegated proof of stake (DPOS). The goal of this paper is to provide an analysis of why DPOS works and what makes it robust. An early description of DPOS can be found at bitshares.org; however, that description also includes many aspects that are not part of the actual consensus process."
 Tags = ["sybil-resistance", "dpos", "whitepaper"]
 
-https://steemit.com/bitcoin/@funmemes/variations-of-proof-of-stake
+[Variations of Proof of Stake]
+Link = ["https://steemit.com/bitcoin/@funmemes/variations-of-proof-of-stake"]
+Description = "A dozen different types of PoS and a brief description"
+Tags = ["sybil-resistance", "pos"]
 
+[Proof of Stake versus Proof of Work —BitFury Group 2015]
+Link = ["https://bitfury.com/content/downloads/pos-vs-pow-1.0.2.pdf"
+Description = "Proof of stake is a consensus mechanism for digital currencies that is an alternative to proof of work used in Bitcoin. The main declared advantages of proof of stake approaches are the absence of expensive computations and hence a lower entry barrier for block generation rewards. In this report,we examine the pros and cons of both consensus systems and show that existing implementations of proof of stake are vulnerable to attacks which are highly unlikely in Bitcoin and proof of work approaches in general."
+Tags = ["pos", "pow", "whitepaper", "sybil-resistance"]
 
-http://forum.mymue.com/topic/80/mue-announces-its-move-to-proof-of-stake-pos
+[The Creator of Proof-of-Stake Thinks He Finally Figured It Out]
+Link = ["https://www.coindesk.com/the-creator-of-proof-of-stake-thinks-he-finally-figured-it-out"]
+Description = "The creator of peercoin, the first proof-of-stake cryptocurrency launched in 2012, and primecoin, a cryptocurrency that achieves its security by searching for prime numbers, King is known for finding innovative ways to re-architect the technology.\n\nAnd now, he's hoping to inspire again with his new design called 'supernode proof-of-stake,' or SPoS, which requires specialized hardware to operate"
+Tags = ["sunny-king", "pos", "spos", "sybil-resistance", "vee"]
 
+[@KyleSamani on PoS]
+Link = ["https://twitter.com/KyleSamani/status/1039822086808592384"]
+Description = "POW-maximalists fail to recognize that an attacker in a POS system can be forked out if caught. This can be implemented by default This *dramatically* changes the cost-benefit analysis for attacking. If u assign a 5% probability 2 being caught, it becomes *much* riskier 2 attack"
+Tags = ["pos","twitter","sybil-resistance"]
 
-https://www.coindesk.com/the-creator-of-proof-of-stake-thinks-he-finally-figured-it-out
+[Electric Money]
+Link = ["https://medium.com/@laurentmt/electric-money-e2cd34f78f56"]
+Description = "a short discussion about the total cost of Bitcoin’s PoW. It will offer us the opportunity to introduce another fundamental property of PoW which makes it truly unique."
+Tags = ["pow","sybil-resistance"]
 
+[On Stake and Consensus -2015]
+Link = ["https://download.wpsoftware.net/bitcoin/pos.pdf"]
+Description = "In 2009, Satoshi Nakamoto introduced the Bitcoin cryptocurrency[Nak09], an online currency system which allowed peer-to-peer transfer of digital tokens.  To ensure a consistent view of token ownership, Nakamoto used a public ledger which can be replicated and validated by all network participants.  To avoid a single point of failure, this ledger is authenticated using a dynamic membership multiparty signature (DMMS) consisting of an expensive (but cheaply verifiable) computation done on the entire ledger history every “heartbeat”.\nUnlike a traditional digital signature, there is no notion of “forgeability” for a DMMS. Instead, every DMMS is costly to produce (in Bitcoin, by requiring a large energy expenditure) and rewarded by introduction of new coins on the ledger.  Since these coins are only useful if others recognize them, participants are incentivized to extend one “true ledger” rather than attempting to create their own version of history"
+Tags = ["pos","sybil-resistance","literature"]
 
-https://twitter.com/KyleSamani/status/1039822086808592384
+[Block Chain Mining — Proof Work & Stake]
+Link = ["https://medium.com/@venkinarayanan/block-chain-mining-proof-work-stake-95345d8af443"]
+Description = "What does it takes to add a new transaction / record / block to the blockchain ?\n\nWhen you read any article on Bitcoin or Blockchain, you will come across this word called 'Mining'. Lets demystify that in this article and go deep to understand better the need for mining."
+Tags = ["pos","pow","sybil-resistance"]
 
-(Formatted embeds are currently not supported)
-infominer9/29/2018, 5:29:46 PM
-
-https://medium.com/@laurentmt/electric-money-e2cd34f78f56
-
-
-https://download.wpsoftware.net/bitcoin/pos.pdf
-
-
-https://medium.com/@venkinarayanan/block-chain-mining-proof-work-stake-95345d8af443
-
-
-https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2
-
+[Proof-of-Stake & the Wrong Engineering Mindset]
+Link = ["https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2"]
+Description = "Proof-of-Stake (PoS) is all the rage these days. Ethereum Casper, Cardano Ouroboros, etc. you name it. The rising interest in PoS protocols is probably due to the desire to scale blockchains indefinitely, combined with the mistaken notion that Proof-of-Work (PoW) is somehow “wasteful.” (Go here for a detailed discussion on PoW).\n\nA topic not emphasized enough with PoS protocols is their lack of resilience in dealing with worst-case scenarios"
+Tags = ["pos","pow", "sybil-resistance"]
 
 https://medium.com/@hugonguyen/proof-of-stake-private-keys-attacks-and-unforgeable-costliness-the-unsung-hero-5caca70b01cb
 
