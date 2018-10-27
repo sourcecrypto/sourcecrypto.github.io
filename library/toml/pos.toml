@@ -39,7 +39,7 @@ Description = "A dozen different types of PoS and a brief description"
 Tags = ["sybil-resistance", "pos"]
 
 [Proof of Stake versus Proof of Work —BitFury Group 2015]
-Link = ["https://bitfury.com/content/downloads/pos-vs-pow-1.0.2.pdf"
+Link = ["https://bitfury.com/content/downloads/pos-vs-pow-1.0.2.pdf"]
 Description = "Proof of stake is a consensus mechanism for digital currencies that is an alternative to proof of work used in Bitcoin. The main declared advantages of proof of stake approaches are the absence of expensive computations and hence a lower entry barrier for block generation rewards. In this report,we examine the pros and cons of both consensus systems and show that existing implementations of proof of stake are vulnerable to attacks which are highly unlikely in Bitcoin and proof of work approaches in general."
 Tags = ["pos", "pow", "whitepaper", "sybil-resistance"]
 
