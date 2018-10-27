@@ -1,22 +1,37 @@
-PeerCoin White Paper: https://peercoin.net/assets/paper/peercoin-paper.pdf - Arguably the first coin to introduce Proof of Stake as an alternative to Proof of Work for distributed consensus.
+[PeerCoin White Paper -2012] 
+Link = ["https://peercoin.net/assets/paper/peercoin-paper.pdf"]
+Description = "Arguably the first coin to introduce Proof of Stake as an alternative to Proof of Work\n\nA peer-to-peer crypto-currency design derived from Satoshi Nakamoto’s Bitcoin. Proof-of-stake  replaces  proof-of-work  to  provide  most  of  the  network  security. Under  this  hybrid  design  proof-of-work  mainly  provides  initial  minting  and  is largely  non-essential  in  the  long  run.  Security  level  of  the network  is  not dependent  on  energy  consumption  in  the  long  term  thus  providing  an  energy-efficient  and  more  cost-competitive  peer-to-peer  crypto-currency.  Proof-of-stake is  based  on  coin  age  and  generated  by  each  node  via  a  hashing  scheme  bearing similarity  to  Bitcoin’s  but  over  limited  search  space.  Block  chain  history  and transaction settlement are further protected by a centrally broadcasted checkpoint mechanism. "
+Tags = ["sybil-resistance", "pos", "history", "literature", "whitepaper"]
 
-Dan Larimer introduces Delegated Proof of Stake (DPoS)
-https://bravenewcoin.com/assets/Uploads/TransactionsAsProofOfStake10.pdf
+[Dan Larimer introduces Delegated Proof of Stake (DPoS) 2013]
+Link = ["https://github.com/super3/invictus.io/blob/master/assets/pdf/TransactionsAsProofOfStake10.pdf"]
+Description = "The concept behind Proof-of-Stake is that a block chain should be secured by those with a financial interest in the chain. This paper will introduce a new approach to Proof-of-Stake that utilizes coin-days-destroyed by every transaction as a substitute for the vast majority of the security currently provided by Proof-of-Work. Unlike prior Proof-of-Stake systems in which only some nodes contribute to the proof-of-stake calculation, we present a new approach to Proof-of-Stake whereby all nodes generating transactions contribute to the security of the network. We speculate that such a network would be immune to known attacks against Bitcoin or Peercoin."
+Tags = ["sybil-resistance", "dpos", "history", "literature", "whitepaper"]
 
-BitShares: https://bitshares.org/technology/delegated-proof-of-stake-consensus/- First coin to use DPoS
+[BitShares First to use DPoS]
+Link = ["https://bitshares.org/technology/delegated-proof-of-stake-consensus/"]
+Description = "Delegated Proof of Stake (DPOS) is the fastest, most efficient, most decentralized, and most flexible consensus model available. DPOS leverages the power of stakeholder approval voting to resolve consensus issues in a fair and democratic way. All network parameters, from fee schedules to block intervals and transaction sizes, can be tuned via elected delegates. Deterministic selection of block producers allows transactions to be confirmed in an average of just 1 second. Perhaps most importantly, the consensus protocol is designed to protect all participants against unwanted regulatory interference. "
+Tags = ["sybil-resistance", "dpos", "history", "bitshares"]
 
-Proof of Stake Thread: https://bitcointalk.org/index.php?topic=27787.0 Shows the original idea of PoS and its criticisms and benefits
-infominer9/29/2018, 5:25:53 PM
+[Original bitcointalk Proof of Stake Thread: (2011) Shows the original idea of PoS and its criticisms and benefits]
+Link = ["https://bitcointalk.org/index.php?topic=27787.0"]
+Description = "I've got an idea, and I'm wondering if it's been discussed/ripped apart here yet:\n\nI'm wondering if as bitcoins become more widely distributed, whether a transition from a proof of work based system to a proof of stake one might happen.  What I mean by proof of stake is that instead of your "vote" on the accepted transaction history being weighted by the share of computing resources you bring to the network, it's weighted by the number of bitcoins you can prove you own, using your private keys."
+Tags = ["pos", "sybil-resistance", "history", "bitcointalk"]
 
-Proof of Stake Velocity
--https://www.reddcoin.com/papers/PoSV.pdf(edited)
+[Proof of Stake Velocity - 2014]
+Link = ["https://www.reddcoin.com/papers/PoSV.pdf"]
+Description = "Proof of Stake Velocity (PoSV) is proposed as an alternative to Proof of Work (PoW) and Proof of Stake (PoS) to secure the peer-to-peer network and confirm transactions of Reddcoin,  a cryptocurrency created specifically to facilitate social interactions in the digital age.  PoSV is designed to encourage both ownership (Stake) and activity (Velocity) which directly correspond to the two main functions of Reddcoin as a real currency: store of value and medium of exchange.  Reddcoin can also function as the unit of account in heterogeneous social context.  The technological aspects of PoSV are presented after a detailed review of existing designs.  The economic aspects of Reddcoin are then analysed.  Finally the unique position of Reddcoin as a digital social currency in the competitive landscape of cryptocurrencies is discussed."
+Tags = ["pos", "history", "sybil-resistance", "literature"]
 
-PoW, PoS, & Hybrid protocols: A Matter of Complexity?
--https://arxiv.org/pdf/1805.08674.pdf
+[PoW, PoS, & Hybrid protocols: A Matter of Complexity?]
+Link = ["https://arxiv.org/pdf/1805.08674.pdf"]
+Description = "In a previous paper, it was discussed whether Bitcoin and/or its blockchain could be considered a complex system and, if so, whether a chaotic one, a positive response raising concerns about the likelihood of Bitcoin/blockchain entering a chaotic regime, with catastrophic consequences for  financial systems based on it. This paper intends to simplify and extend that analysis to other PoW, PoS, and hybrid protocol-based cryptocurrencies. As before, this study was carried out ith the help of Information Theory of Complex Systems, in general, and Crutchfield’s Statistical Complexity measure, in particular.  This paper is a work in progress. Whereas PoW consensus was shown to be highly noncomplex, the Nxt PoS consensus method studied shows an outstandingly higher measure of complexity, which is undesirable because it introduces unnecessary complexity into what should be a simple computational system. This paper is a work - in - progress and undoubtedly prone to incorrectness as a few cryptocurrencies may have changed their consensus algorithms. As next step, we intend to uncover some other measures that capture the qualitative notion of complexity of systems that can be applied to these cryptocurrencies to compare with the results he re obtained. As a final thought, however, considering that a certain amount of chaoticity may have been potentially introduced in the Bitcoin market by the presence of the capital gains seekers, one could wonder whether the recent surge of blockchain technology based startups, even discounting all the scam cases, could not help to reduce non-linearity and prevent chaos"
+Tags = ["pos", "pow", "history", "literature", "sybil-resistance"]
 
-
-https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper
-
+[DPOS Consensus Algorithm - The Missing White Paper]
+Link = ["https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper"]
+Description = "This is the missing white paper and analysis of delegated proof of stake (DPOS). The goal of this paper is to provide an analysis of why DPOS works and what makes it robust. An early description of DPOS can be found at bitshares.org; however, that description also includes many aspects that are not part of the actual consensus process."
+Tags = ["sybil-resistance", "dpos", "whitepaper"]
 
 https://steemit.com/bitcoin/@funmemes/variations-of-proof-of-stake
 
