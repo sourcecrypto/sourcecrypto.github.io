@@ -73,24 +73,35 @@ Link = ["https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-min
 Description = "Proof-of-Stake (PoS) is all the rage these days. Ethereum Casper, Cardano Ouroboros, etc. you name it. The rising interest in PoS protocols is probably due to the desire to scale blockchains indefinitely, combined with the mistaken notion that Proof-of-Work (PoW) is somehow “wasteful.” (Go here for a detailed discussion on PoW).\n\nA topic not emphasized enough with PoS protocols is their lack of resilience in dealing with worst-case scenarios"
 Tags = ["pos","pow", "sybil-resistance"]
 
-https://medium.com/@hugonguyen/proof-of-stake-private-keys-attacks-and-unforgeable-costliness-the-unsung-hero-5caca70b01cb
+[Proof-of-Stake, Private Keys Attacks and Unforgeable Costliness the Unsung Hero]
+Link = ["https://medium.com/@hugonguyen/proof-of-stake-private-keys-attacks-and-unforgeable-costliness-the-unsung-hero-5caca70b01cb"]
+Description = "In this article, I want to expand on worst-case scenario #3: private keys attacks.\n\nThere are 2 types of private keys attacks: old private keys attack & current private keys attack."
+Tags = ["pos", "sybil-resistance"]
 
+[Blockchain Without Waste: Proof-of-Stake]
+Link = ["https://pdfs.semanticscholar.org/d873/a75502e45e1791cd6fc8d1ce670e1337063a.pdf"]
+Description = "blockchain constitutes a distributed ledger that records transactions across a network  of  agents.   Blockchain’s  value  proposition  requires  that  agents  eventually  agree on the ledger’s contents since payments possess risk otherwise.  Restricted blockchains ensure this consensus by appointing a central authority to dictate payment validity.  Permissionless blockchains (e.g.  Bitcoin, Ethereum), however, admit no central authority and  therefore  face  a  non-trivial  issue  of  inducing  consensus  endogenously.   Nakamoto (2008) provided a temporary solution to the problem by invoking an economic mechanism known as Proof-of-Work (PoW). PoW, however, lacks sustainability, so, in recent years,  a  variety  of  alternatives  have  been  proposed.   This  paper  studies  the  most  famous such alternative, Proof-of-Stake (PoS). I provide the first formal economic model of  PoS and  demonstrate  that PoS induces  consensus  in equilibrium.   My result  arises because I endogenize blockchain coin prices.  Propagating disagreement introduces risk and thereby reduces blockchain coin value which implies that stake-holders face an implicit cost from delaying consensus.  PoS randomly selects a stake-holder to update the blockchain and provides her an explicit monetary incentive, a “block reward,” for her service.  In the event of disagreement, block rewards constitute a perverse incentive, but I demonstrate that restricting updating ability to large stake-holders induces an equilibrium in which consensus obtains as soon as possible.  I also demonstrate that consensus obtains eventually almost surely in any equilibrium so long as the blockchain employs a modest block reward schedule.  My work reveals the economic viability of permissionless blockchains."
+Tags = ["pos", "sybil-resistance"]
 
-https://pdfs.semanticscholar.org/d873/a75502e45e1791cd6fc8d1ce670e1337063a.pdf
+[Formal Barriers to Longest-Chain Proof-of-Stake Protocols]
+Link = ["https://ethresear.ch/t/formal-barriers-to-longest-chain-proof-of-stake-protocols/3509","https://cyber.stanford.edu/sites/default/files/formal_barriers_to_proof-of-stake_protocols.pdf"]
+Description = "Not sure if these papers should be posted to this forum (my instinct is that they should!), but trying it as an experiment (instead of just discussing on Twitter).\n\nAt a conceptual level, the barriers stem from the following: all cryptocurrencies require some source of (pseudo)randomness. In Proof-of-Work, this pseudorandomness is in some sense external to the cryptocurrency: the first miner to successfully find a good nonce produces the next block, and this miner is selected completely independently of the current state of the cryptocurrency. In Proof-of-Stake, it is highly desirable that the pseudorandomness comes from within the cryptocurrency itself, versus an external source (due to network security concerns discussed in Section 2). One might initially suspect that with sufficiently many hashes or digital signatures of past blocks, this can indeed serve as a good source of pseudorandomness for future blocks. However, we formalize surprising barriers showing a fundamental difference between external pseudorandomness and pseudorandomness coming from the cryptocurrency itself."
+Tags = ["pos","casper","ethresear", "ethereum","sybil-resistance"]
 
+[PoS Still Pointless]
+Link = ["http://www.truthcoin.info/blog/pos-still-pointless/"]
+Description = "I go line-by-line against Vitalik’s Proof of Stake FAQ. PoS is still just as expensive as PoW (but it may have different security features)."
+Tags = ["pos","ethereum", "sybil-resistance"]
 
-Blockchain Without Waste: Proof-of-Stake
+[Ethereum PoS FAQs]
+Link = ["https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs"]
+Description = "Proof of Stake (PoS) is a category of consensus algorithms for public blockchains that depend on a validator's economic stake in the network. In proof of work (PoW) based public blockchains (e.g. Bitcoin and the current implementation of Ethereum), the algorithm rewards participants who solve cryptographic puzzles in order to validate transactions and create new blocks (i.e. mining). In PoS-based public blockchains (e.g. Ethereum's upcoming Casper implementation), a set of validators take turns proposing and voting on the next block, and the weight of each validator's vote depends on the size of its deposit (i.e. stake). Significant advantages of PoS include security, reduced risk of centralization, and energy efficiency."
+Tags = ["pos", "sybil-resistance", "ethereum"]
 
-
-https://ethresear.ch/t/formal-barriers-to-longest-chain-proof-of-stake-protocols/3509
-
-
-https://cyber.stanford.edu/sites/default/files/formal_barriers_to_proof-of-stake_protocols.pdf
-
-
-http://www.truthcoin.info/blog/pos-still-pointless/
+[Critique of Buterins Proof of Stake Design Philosophy]
+Link = ["https://medium.com/@tuurdemeester/critique-of-buterins-a-proof-of-stake-design-philosophy-49fc9ebb36c6"]
+Description = "In this article, I take issue with several of the claims made by Vitalik Buterin in his Dec 2016 article “A Proof of Stake Design Philosophy”. My hope is that it sparks debate about proof-of-stake’s high level design and about the proposed future of the Ethereum protocol."
+Tags = ["pos","sybil-resistance","ethereum"]
 
 
 https://twitter.com/eric_lombrozo/status/1045916707821408256
-
-(Formatted embeds are currently not supported)
