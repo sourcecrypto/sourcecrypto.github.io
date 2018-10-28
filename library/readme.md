@@ -27,19 +27,21 @@ I used this discord server history scraper https://dht.chylex.com/ to create '[c
 1. It's much easier to use the dht.chylex.com tool and copy paste channel history from the server into files here on the github than to copy paste directly from the github channels. To begin with we are doing minimal formatting, removing extraneous data, and begin creating files in this directory with the links in them. 
 
 2. The next step is transforming each file of resources into toml format.  (https://github.com/toml-lang/toml)
+  — I'm now using vscode to make the toml files.. since it has a nice toml extension that helps you make sure that you're formatting correctly
 
 Example:
 
-[Title] <br/>
+["Use quotation marks for multiple worded titles"] <br/>
 Link = ["Blah.com"]<br/> 
 Description = "Blah blah \n blah blah"<br/>
 Tags = ["Blah", "Blah-blah"]<br/>
 
+>
 >* **For any label that can potentially have multiple values it must always be ["bracketed"] even though sometimes there is only one value.**
->* **I made "Link" a bracketed ["array"] so that sometimes a supporting link can be included. occasionally this will be helpful.
+>* **I made "Link" a bracketed ["array"] so that sometimes a supporting link can be included. occasionally this will be helpful.**
 >* **Also, all entries have to have the same fields and format**
 >* **If you use \n for a newline, you can't actually use a newline, the open " and closing " must be on the same line**
->* **Be careful any text copied from another site for a description doesn't have a " quotation mark. Change to '**
+>* **Be careful any text copied from another site for a description doesn't have a " quotation mark. Change to ' or use an escape character \" in front of the quotation mark**
 
 The title of the content is the name of the each entry.
 Description can be whatever text is valuable to communicate, typically copied directly from the source, sometimes requires creativity. 
