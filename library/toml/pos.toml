@@ -1,107 +1,164 @@
-[PeerCoin White Paper -2012] 
+["PeerCoin White Paper -2012"] 
 Link = ["https://peercoin.net/assets/paper/peercoin-paper.pdf"]
 Description = "Arguably the first coin to introduce Proof of Stake as an alternative to Proof of Work\n\nA peer-to-peer crypto-currency design derived from Satoshi Nakamoto’s Bitcoin. Proof-of-stake  replaces  proof-of-work  to  provide  most  of  the  network  security. Under  this  hybrid  design  proof-of-work  mainly  provides  initial  minting  and  is largely  non-essential  in  the  long  run.  Security  level  of  the network  is  not dependent  on  energy  consumption  in  the  long  term  thus  providing  an  energy-efficient  and  more  cost-competitive  peer-to-peer  crypto-currency.  Proof-of-stake is  based  on  coin  age  and  generated  by  each  node  via  a  hashing  scheme  bearing similarity  to  Bitcoin’s  but  over  limited  search  space.  Block  chain  history  and transaction settlement are further protected by a centrally broadcasted checkpoint mechanism. "
 Tags = ["sybil-resistance", "pos", "history", "literature", "whitepaper", "sunny-king", "scott-nadal"]
 
-[Dan Larimer introduces Delegated Proof of Stake (DPoS) 2013]
+["Dan Larimer introduces Delegated Proof of Stake (DPoS) 2013"]
 Link = ["https://github.com/super3/invictus.io/blob/master/assets/pdf/TransactionsAsProofOfStake10.pdf"]
 Description = "The concept behind Proof-of-Stake is that a block chain should be secured by those with a financial interest in the chain. This paper will introduce a new approach to Proof-of-Stake that utilizes coin-days-destroyed by every transaction as a substitute for the vast majority of the security currently provided by Proof-of-Work. Unlike prior Proof-of-Stake systems in which only some nodes contribute to the proof-of-stake calculation, we present a new approach to Proof-of-Stake whereby all nodes generating transactions contribute to the security of the network. We speculate that such a network would be immune to known attacks against Bitcoin or Peercoin."
 Tags = ["sybil-resistance", "dpos", "history", "literature", "whitepaper"]
 
-[BitShares First to use DPoS]
+["BitShares First to use DPoS"]
 Link = ["https://bitshares.org/technology/delegated-proof-of-stake-consensus/"]
 Description = "Delegated Proof of Stake (DPOS) is the fastest, most efficient, most decentralized, and most flexible consensus model available. DPOS leverages the power of stakeholder approval voting to resolve consensus issues in a fair and democratic way. All network parameters, from fee schedules to block intervals and transaction sizes, can be tuned via elected delegates. Deterministic selection of block producers allows transactions to be confirmed in an average of just 1 second. Perhaps most importantly, the consensus protocol is designed to protect all participants against unwanted regulatory interference. "
 Tags = ["sybil-resistance", "dpos", "history", "bitshares"]
 
-[Original bitcointalk Proof of Stake Thread: (2011) Shows the original idea of PoS and its criticisms and benefits]
+["Original bitcointalk Proof of Stake Thread: (2011) Shows the original idea of PoS and its criticisms and benefits"]
 Link = ["https://bitcointalk.org/index.php?topic=27787.0"]
 Description = "I've got an idea, and I'm wondering if it's been discussed/ripped apart here yet:\n\nI'm wondering if as bitcoins become more widely distributed, whether a transition from a proof of work based system to a proof of stake one might happen.  What I mean by proof of stake is that instead of your "vote" on the accepted transaction history being weighted by the share of computing resources you bring to the network, it's weighted by the number of bitcoins you can prove you own, using your private keys."
 Tags = ["pos", "sybil-resistance", "history", "bitcointalk"]
 
-[Proof of Stake Velocity - 2014]
+["Proof of Stake Velocity - 2014"]
 Link = ["https://www.reddcoin.com/papers/PoSV.pdf"]
 Description = "Proof of Stake Velocity (PoSV) is proposed as an alternative to Proof of Work (PoW) and Proof of Stake (PoS) to secure the peer-to-peer network and confirm transactions of Reddcoin,  a cryptocurrency created specifically to facilitate social interactions in the digital age.  PoSV is designed to encourage both ownership (Stake) and activity (Velocity) which directly correspond to the two main functions of Reddcoin as a real currency: store of value and medium of exchange.  Reddcoin can also function as the unit of account in heterogeneous social context.  The technological aspects of PoSV are presented after a detailed review of existing designs.  The economic aspects of Reddcoin are then analysed.  Finally the unique position of Reddcoin as a digital social currency in the competitive landscape of cryptocurrencies is discussed."
 Tags = ["pos", "history", "sybil-resistance", "literature"]
 
-[PoW, PoS, & Hybrid protocols: A Matter of Complexity?]
+["PoW, PoS, & Hybrid protocols: A Matter of Complexity?"]
 Link = ["https://arxiv.org/pdf/1805.08674.pdf"]
 Description = "In a previous paper, it was discussed whether Bitcoin and/or its blockchain could be considered a complex system and, if so, whether a chaotic one, a positive response raising concerns about the likelihood of Bitcoin/blockchain entering a chaotic regime, with catastrophic consequences for  financial systems based on it. This paper intends to simplify and extend that analysis to other PoW, PoS, and hybrid protocol-based cryptocurrencies. As before, this study was carried out ith the help of Information Theory of Complex Systems, in general, and Crutchfield’s Statistical Complexity measure, in particular.  This paper is a work in progress. Whereas PoW consensus was shown to be highly noncomplex, the Nxt PoS consensus method studied shows an outstandingly higher measure of complexity, which is undesirable because it introduces unnecessary complexity into what should be a simple computational system. This paper is a work - in - progress and undoubtedly prone to incorrectness as a few cryptocurrencies may have changed their consensus algorithms. As next step, we intend to uncover some other measures that capture the qualitative notion of complexity of systems that can be applied to these cryptocurrencies to compare with the results he re obtained. As a final thought, however, considering that a certain amount of chaoticity may have been potentially introduced in the Bitcoin market by the presence of the capital gains seekers, one could wonder whether the recent surge of blockchain technology based startups, even discounting all the scam cases, could not help to reduce non-linearity and prevent chaos"
 Tags = ["pos", "pow", "history", "literature", "sybil-resistance"]
 
-[DPOS Consensus Algorithm - The Missing White Paper]
+["DPOS Consensus Algorithm - The Missing White Paper"]
 Link = ["https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper"]
 Description = "This is the missing white paper and analysis of delegated proof of stake (DPOS). The goal of this paper is to provide an analysis of why DPOS works and what makes it robust. An early description of DPOS can be found at bitshares.org; however, that description also includes many aspects that are not part of the actual consensus process."
 Tags = ["sybil-resistance", "dpos", "whitepaper"]
 
-[Variations of Proof of Stake]
+["Variations of Proof of Stake"]
 Link = ["https://steemit.com/bitcoin/@funmemes/variations-of-proof-of-stake"]
 Description = "A dozen different types of PoS and a brief description"
 Tags = ["sybil-resistance", "pos"]
 
-[Proof of Stake versus Proof of Work —BitFury Group 2015]
+["Proof of Stake versus Proof of Work —BitFury Group 2015"]
 Link = ["https://bitfury.com/content/downloads/pos-vs-pow-1.0.2.pdf"]
 Description = "Proof of stake is a consensus mechanism for digital currencies that is an alternative to proof of work used in Bitcoin. The main declared advantages of proof of stake approaches are the absence of expensive computations and hence a lower entry barrier for block generation rewards. In this report,we examine the pros and cons of both consensus systems and show that existing implementations of proof of stake are vulnerable to attacks which are highly unlikely in Bitcoin and proof of work approaches in general."
 Tags = ["pos", "pow", "whitepaper", "sybil-resistance"]
 
-[The Creator of Proof-of-Stake Thinks He Finally Figured It Out]
+["The Creator of Proof-of-Stake Thinks He Finally Figured It Out"]
 Link = ["https://www.coindesk.com/the-creator-of-proof-of-stake-thinks-he-finally-figured-it-out"]
 Description = "The creator of peercoin, the first proof-of-stake cryptocurrency launched in 2012, and primecoin, a cryptocurrency that achieves its security by searching for prime numbers, King is known for finding innovative ways to re-architect the technology.\n\nAnd now, he's hoping to inspire again with his new design called 'supernode proof-of-stake,' or SPoS, which requires specialized hardware to operate"
 Tags = ["sunny-king", "pos", "spos", "sybil-resistance", "vee"]
 
-[@KyleSamani on PoS]
+["@KyleSamani on PoS"]
 Link = ["https://twitter.com/KyleSamani/status/1039822086808592384"]
 Description = "POW-maximalists fail to recognize that an attacker in a POS system can be forked out if caught. This can be implemented by default This *dramatically* changes the cost-benefit analysis for attacking. If u assign a 5% probability 2 being caught, it becomes *much* riskier 2 attack"
 Tags = ["pos","twitter","sybil-resistance"]
 
-[Electric Money]
+["Electric Money"]
 Link = ["https://medium.com/@laurentmt/electric-money-e2cd34f78f56"]
 Description = "a short discussion about the total cost of Bitcoin’s PoW. It will offer us the opportunity to introduce another fundamental property of PoW which makes it truly unique."
 Tags = ["pow","sybil-resistance"]
 
-[On Stake and Consensus -2015]
+["On Stake and Consensus -2015"]
 Link = ["https://download.wpsoftware.net/bitcoin/pos.pdf"]
 Description = "In 2009, Satoshi Nakamoto introduced the Bitcoin cryptocurrency[Nak09], an online currency system which allowed peer-to-peer transfer of digital tokens.  To ensure a consistent view of token ownership, Nakamoto used a public ledger which can be replicated and validated by all network participants.  To avoid a single point of failure, this ledger is authenticated using a dynamic membership multiparty signature (DMMS) consisting of an expensive (but cheaply verifiable) computation done on the entire ledger history every “heartbeat”.\nUnlike a traditional digital signature, there is no notion of “forgeability” for a DMMS. Instead, every DMMS is costly to produce (in Bitcoin, by requiring a large energy expenditure) and rewarded by introduction of new coins on the ledger.  Since these coins are only useful if others recognize them, participants are incentivized to extend one “true ledger” rather than attempting to create their own version of history"
 Tags = ["pos","sybil-resistance","literature"]
 
-[Block Chain Mining — Proof Work & Stake]
+["Block Chain Mining — Proof Work & Stake"]
 Link = ["https://medium.com/@venkinarayanan/block-chain-mining-proof-work-stake-95345d8af443"]
 Description = "What does it takes to add a new transaction / record / block to the blockchain ?\n\nWhen you read any article on Bitcoin or Blockchain, you will come across this word called 'Mining'. Lets demystify that in this article and go deep to understand better the need for mining."
 Tags = ["pos","pow","sybil-resistance"]
 
-[Proof-of-Stake & the Wrong Engineering Mindset]
+["Proof-of-Stake & the Wrong Engineering Mindset]
 Link = ["https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2"]
 Description = "Proof-of-Stake (PoS) is all the rage these days. Ethereum Casper, Cardano Ouroboros, etc. you name it. The rising interest in PoS protocols is probably due to the desire to scale blockchains indefinitely, combined with the mistaken notion that Proof-of-Work (PoW) is somehow “wasteful.” (Go here for a detailed discussion on PoW).\n\nA topic not emphasized enough with PoS protocols is their lack of resilience in dealing with worst-case scenarios"
-Tags = ["pos","pow", "sybil-resistance"]
+Tags = ["pos","pow", "sybil-resistance", "critique"]
 
-[Proof-of-Stake, Private Keys Attacks and Unforgeable Costliness the Unsung Hero]
+["Proof-of-Stake, Private Keys Attacks and Unforgeable Costliness the Unsung Hero"]
 Link = ["https://medium.com/@hugonguyen/proof-of-stake-private-keys-attacks-and-unforgeable-costliness-the-unsung-hero-5caca70b01cb"]
 Description = "In this article, I want to expand on worst-case scenario #3: private keys attacks.\n\nThere are 2 types of private keys attacks: old private keys attack & current private keys attack."
 Tags = ["pos", "sybil-resistance"]
 
-[Blockchain Without Waste: Proof-of-Stake]
+["Blockchain Without Waste: Proof-of-Stake"]
 Link = ["https://pdfs.semanticscholar.org/d873/a75502e45e1791cd6fc8d1ce670e1337063a.pdf"]
 Description = "blockchain constitutes a distributed ledger that records transactions across a network  of  agents.   Blockchain’s  value  proposition  requires  that  agents  eventually  agree on the ledger’s contents since payments possess risk otherwise.  Restricted blockchains ensure this consensus by appointing a central authority to dictate payment validity.  Permissionless blockchains (e.g.  Bitcoin, Ethereum), however, admit no central authority and  therefore  face  a  non-trivial  issue  of  inducing  consensus  endogenously.   Nakamoto (2008) provided a temporary solution to the problem by invoking an economic mechanism known as Proof-of-Work (PoW). PoW, however, lacks sustainability, so, in recent years,  a  variety  of  alternatives  have  been  proposed.   This  paper  studies  the  most  famous such alternative, Proof-of-Stake (PoS). I provide the first formal economic model of  PoS and  demonstrate  that PoS induces  consensus  in equilibrium.   My result  arises because I endogenize blockchain coin prices.  Propagating disagreement introduces risk and thereby reduces blockchain coin value which implies that stake-holders face an implicit cost from delaying consensus.  PoS randomly selects a stake-holder to update the blockchain and provides her an explicit monetary incentive, a “block reward,” for her service.  In the event of disagreement, block rewards constitute a perverse incentive, but I demonstrate that restricting updating ability to large stake-holders induces an equilibrium in which consensus obtains as soon as possible.  I also demonstrate that consensus obtains eventually almost surely in any equilibrium so long as the blockchain employs a modest block reward schedule.  My work reveals the economic viability of permissionless blockchains."
 Tags = ["pos", "sybil-resistance"]
 
-[Formal Barriers to Longest-Chain Proof-of-Stake Protocols]
-Link = ["https://ethresear.ch/t/formal-barriers-to-longest-chain-proof-of-stake-protocols/3509","https://cyber.stanford.edu/sites/default/files/formal_barriers_to_proof-of-stake_protocols.pdf"]
+["Formal Barriers to Longest-Chain Proof-of-Stake Protocols"]
+Link = ["https://ethresear.ch/t/formal-barriers-to-longest-chain-proof-of-stake-protocols/3509","https://cyber.stanford.edu/sites/default/files/formal_barriers_to_proof-of-stake_protocols.pdf", "https://arxiv.org/pdf/1809.06528.pdf"]
 Description = "Not sure if these papers should be posted to this forum (my instinct is that they should!), but trying it as an experiment (instead of just discussing on Twitter).\n\nAt a conceptual level, the barriers stem from the following: all cryptocurrencies require some source of (pseudo)randomness. In Proof-of-Work, this pseudorandomness is in some sense external to the cryptocurrency: the first miner to successfully find a good nonce produces the next block, and this miner is selected completely independently of the current state of the cryptocurrency. In Proof-of-Stake, it is highly desirable that the pseudorandomness comes from within the cryptocurrency itself, versus an external source (due to network security concerns discussed in Section 2). One might initially suspect that with sufficiently many hashes or digital signatures of past blocks, this can indeed serve as a good source of pseudorandomness for future blocks. However, we formalize surprising barriers showing a fundamental difference between external pseudorandomness and pseudorandomness coming from the cryptocurrency itself."
 Tags = ["pos","casper","ethresear", "ethereum","sybil-resistance"]
 
-[PoS Still Pointless]
+["PoS Still Pointless"]
 Link = ["http://www.truthcoin.info/blog/pos-still-pointless/"]
 Description = "I go line-by-line against Vitalik’s Proof of Stake FAQ. PoS is still just as expensive as PoW (but it may have different security features)."
-Tags = ["pos","ethereum", "sybil-resistance"]
+Tags = ["pos","ethereum", "sybil-resistance", "critique"]
 
-[Ethereum PoS FAQs]
+["Ethereum PoS FAQs"]
 Link = ["https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs"]
 Description = "Proof of Stake (PoS) is a category of consensus algorithms for public blockchains that depend on a validator's economic stake in the network. In proof of work (PoW) based public blockchains (e.g. Bitcoin and the current implementation of Ethereum), the algorithm rewards participants who solve cryptographic puzzles in order to validate transactions and create new blocks (i.e. mining). In PoS-based public blockchains (e.g. Ethereum's upcoming Casper implementation), a set of validators take turns proposing and voting on the next block, and the weight of each validator's vote depends on the size of its deposit (i.e. stake). Significant advantages of PoS include security, reduced risk of centralization, and energy efficiency."
 Tags = ["pos", "sybil-resistance", "ethereum"]
 
-[Critique of Buterins Proof of Stake Design Philosophy]
+["Critique of Buterins Proof of Stake Design Philosophy"]
 Link = ["https://medium.com/@tuurdemeester/critique-of-buterins-a-proof-of-stake-design-philosophy-49fc9ebb36c6"]
 Description = "In this article, I take issue with several of the claims made by Vitalik Buterin in his Dec 2016 article “A Proof of Stake Design Philosophy”. My hope is that it sparks debate about proof-of-stake’s high level design and about the proposed future of the Ethereum protocol."
-Tags = ["pos","sybil-resistance","ethereum"]
+Tags = ["pos","sybil-resistance","ethereum", "critique"]
 
+["A Proof of Stake Design Philosophy"]
+Link = ["https://medium.com/@VitalikButerin/a-proof-of-stake-design-philaosophy-506585978d51"]
+Description = "Systems like Ethereum (and Bitcoin, and NXT, and Bitshares, etc) are a fundamentally new class of cryptoeconomic organisms — decentralized, jurisdictionless entities that exist entirely in cyberspace, maintained by a combination of cryptography, economics and social consensus. They are kind of like BitTorrent, but they are also not like BitTorrent, as BitTorrent has no concept of state — a distinction that turns out to be crucially important. They are sometimes described as decentralized autonomous corporations, but they are also not quite corporations — you can’t hard fork Microsoft. They are kind of like open source software projects, but they are not quite that either — you can fork a blockchain, but not quite as easily as you can fork OpenOffice."
+Tags = ["pos", "sybil-resistance", "ethereuem"]
 
-https://twitter.com/eric_lombrozo/status/1045916707821408256
+["Nothing is Cheaper than Proof of Work"]
+Link = ["http://www.truthcoin.info/blog/pow-cheapest/"]
+Description = "I previously wrote a post on proof of work (PoW) and mining. The first half generated great interest but (apparently) failed to be universally persuasive. For example, CCRG (Ethereum’s multi-million dollar funded \“research\” organization) consists almost entirely of academics theorizing about proof of stake (PoS)."
+Tags = ["pos","critique","pow","sybil-resistance"]
+
+["PoW, PoS and DAGs are NOT consensus protocols"]
+Link = ["https://medium.com/coinmonks/a-primer-on-blockchain-design-89605b287a5a", "https://ipfs.io/ipfs/QmRTAWtm3ThoT54cmkXYgYNrKoTQPTwoczJCJa8EEp26RL"]
+Description = "The much hyped concepts of Proof-Of-Work, Proof-of-Stake and Directed Acyclic Graphs are often mistakenly advertised as “consensus protocols”. Neither of them are, but rather address the key challenges of a robust blockchain design: Sybil resistance and asynchronicity."
+Tags = ["consensus-algorithms", "sybil-resistance","pow","pos","dpos","dag"]
+
+["Work is Timeless Stake is Not"]
+Link = ["https://medium.com/@hugonguyen/work-is-timeless-stake-is-not-554c4450ce18"]
+Description = "There are many ways to slice and dice PoS and uncover its weaknesses... But perhaps one of the simplest ways to look at PoS is through the lenses of Time, which I alluded to in my series, but want to expand on here."
+Tags = ["sybil-resistance", "pos", "critique"]
+
+["Twitter Threads of PoS Criticism"]
+Link = ["https://twitter.com/zooko/status/1045774342942908416", "https://twitter.com/eric_lombrozo/status/1045916707821408256", "https://twitter.com/nic__carter/status/1045804073256177664"]
+Description = "A few threads that all tie into the one @zooko started:\n\nHey tweeps, what's the best resource on the fundamental/conceptual/economic problems with Proof-of-Stake? asking for a friend"
+Tags = ["sybil-resistance", "pos", "critique", "twitter"]
+
+["Stake Pools in Cardano"]
+Link = ["https://iohk.io/blog/stake-pools-in-cardano/"]
+Description = "In a proof of stake (PoS) blockchain protocol, the ledger is maintained by the stakeholders that hold assets in that ledger. This allows PoS blockchains to use less energy compared with proof of work (PoW) or other types of blockchain protocols. Nevertheless, this requirement imposes a burden on stakeholders. It requires a good number of them to be online and maintain sufficiently good network connectivity that they can collect transactions and have their PoS blocks reach the others without substantial network delays. It follows that any PoS ledger would benefit from reliable server nodes that hold stake and focus on maintenance."
+Tags = ["sybil-resistance", "pos", "cardano", "stake-pools", "literature"]
+
+[Compounding of Wealth in Proof-of-Stake Cryptocurrencies]
+Link = ["https://arxiv.org/pdf/1809.07468.pdf"]
+Description = "Abstract. Proof-of-stake (PoS) is a promising approach for designing efficient blockchains, where block proposers are randomly chosen with probability proportional to their stake. A primary concern with PoS systems is the “rich getting richer” phenomenon, whereby wealthier nodes are more likely to get elected, and hence reap the block reward, making them even wealthier. In this paper, we introduce the notion of equitability, which quantifies how much a proposer can amplify her stake compared to her initial investment. Even with everyone following protocol (i.e., honest behavior), we show that existing methods of allocating block rewards lead to poor equitability, as does initializing systems with small stake pools and/or large rewards relative to the stake pool. We identify a geometric reward function, which we prove is maximally equitable over all choices of reward functions under honest behavior and bound the deviation for strategic actions; the proofs involve the study of optimization problems and stochastic  dominances  of  P ́olya  urn  processes,  and  are  of  independent  mathematical  interest.  These results allow us to provide a systematic framework to choose the parameters of a practical incentive system for PoS cryptocurrencies."
+Tags = ["literature","pos","sybil-resistance"]
+
+[PoS Coins List]
+Link = ["https://www.poslist.org/"]
+Description = "List of Proof of Stake coins"
+Tags = ["sybil-resistance", "pos", "coins"]
+
+[Evolution of Energy-Free Consensus: From POS to SPOS]
+Link = ["https://vee.tech/pdf/spos.pdf"]
+Description = "performance-oriented proof-of-stake consensus called Supernode Proof-of-Stake Consensus with the features of constant interval block minting, cold minting and stake liquidity has been designed for the VEE blockchain platform.  We also describe the lineage and differences to the original Proof-of-Stake Consensus introduced by Peercoin in 2012."
+Tags = ["sybil-resistance","pos","spos"]
+
+["Blockchain is Easy, We just need to use it like a Database —Sunny King"]
+Link = ["https://www.forbes.com/sites/ginaclarke/2018/10/16/proof-of-stake-guru-sunny-king-blockchain-is-easy-we-just-need-to-use-it-like-a-database/#7cfc9b691c04"]
+Description = "The creator of Proof-of-Stake, Sunny King, has been working on a blockchain database cloud that has been dubbed the “supernode proof-of-stake” or SPoS. The project is designed to work in conjunction with a Hong Kong-based project, Virtual Economy Era (VEE), and is determined to crack the European blockchain market."
+Tags = ["vee", "sunny-king", "spos", "sybil-resistance"]
+
+["Pros and Cons of DPoS"]
+Link = ["https://www.verypossible.com/blog/pros-and-cons-of-the-delegated-proof-of-stake-consensus-model"]
+Description = "\“[Delegated Proof-of-Stake] is a bit reminiscent of a reality tv show. Mess with the community, and you are most likely to get voted off. It’s democracy on the blockchain!\” — Ryan Smith at CoinCentral"
+Tags = ["dpos", "sybil-resistance"]
+
+["Proof of Stake - en.bitcoinwiki"]
+Link = ["https://en.bitcoinwiki.org/wiki/Proof-of-stake"]
+Description = "Proof of stake(PoS) is a method of securing a cryptocurrency network through requesting users to show ownership of a certain amount of currency. It is different from proof-of-work systems that run hashing algorithms to validate electronic transactions. It is most commonly used as a supplement to proof-of-work in Peercoin and a few other electronic currencies. "
+Tags = ["pos", "sybil-resistance"]
