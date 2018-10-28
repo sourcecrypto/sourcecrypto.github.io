@@ -32,3 +32,8 @@ Tags = ["bitcoin", "history", "satoshi"]
 Link = ["https://blog.bitmex.com/satoshis-1-million-bitcoin/"]
 Description = "Abstract: We examine the extent to which one miner dominated Bitcoin in 2009. We review Sergio Demian Lerner’s 2013 analysis, where he discovered that the increase in the ExtraNonce value in the block can potentially be used to link different blocks to the same miner. We build on his analysis and conclude that although the evidence is far less robust than many assume, there is reasonable evidence that a single dominant miner in 2009 could have generated around 700,000 bitcoin. Although our analysis itself is weak and there is no perfect way of approaching this problem."
 Tags = ["bitcoin", "history", "satoshi", "research"]
+
+[Nakamoto Family Foundation — home of Duality supposed satoshi writing]
+Link = ["http://nakamotofamilyfoundation.org/","http://archive.is/wy2Wi","https://archive.is/QnB9t"]
+Description = "This website appeared with part of a writing supposedly by Satoshi. The website is no longer alive, so I've shared links for the archived pages for that site and duality paper"
+Tags = ["bitcoin","history","satoshi"]
