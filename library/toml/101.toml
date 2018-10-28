@@ -139,6 +139,6 @@ Description = "Opening & Operating an Ethereum Wallet"
 Tags = ["101", "Ethereum", "Wallets"]
 
 [Curated List of awesome Blockchain and Crytocurrency Resources]
-Link = ["https://github.com/0xtokens/awesome-blockchain#whats-cooking"]
+Link = ["https://github.com/0xtokens/awesome-blockchain"]
 Description = "Inspired by awesome and following the manifesto guidelines.\n\nThis work aims to raise awareness of the possibilities offered by Blockchain technology; and create community around it. "
 Tags = ["101", "Awesome", "Resources"]
