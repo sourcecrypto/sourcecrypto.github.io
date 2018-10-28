@@ -15,7 +15,7 @@ Tags = ["blockchain-consensus", "dpos", "history", "bitshares"]
 
 ["Original bitcointalk Proof of Stake Thread: (2011) Shows the original idea of PoS and its criticisms and benefits"]
 Link = ["https://bitcointalk.org/index.php?topic=27787.0"]
-Description = "I've got an idea, and I'm wondering if it's been discussed/ripped apart here yet:\n\nI'm wondering if as bitcoins become more widely distributed, whether a transition from a proof of work based system to a proof of stake one might happen.  What I mean by proof of stake is that instead of your "vote" on the accepted transaction history being weighted by the share of computing resources you bring to the network, it's weighted by the number of bitcoins you can prove you own, using your private keys."
+Description = "I've got an idea, and I'm wondering if it's been discussed/ripped apart here yet:\n\nI'm wondering if as bitcoins become more widely distributed, whether a transition from a proof of work based system to a proof of stake one might happen.  What I mean by proof of stake is that instead of your \"vote\" on the accepted transaction history being weighted by the share of computing resources you bring to the network, it's weighted by the number of bitcoins you can prove you own, using your private keys."
 Tags = ["pos", "blockchain-consensus", "history", "bitcointalk"]
 
 ["Proof of Stake Velocity - 2014"]
@@ -68,9 +68,9 @@ Link = ["https://medium.com/@venkinarayanan/block-chain-mining-proof-work-stake-
 Description = "What does it takes to add a new transaction / record / block to the blockchain ?\n\nWhen you read any article on Bitcoin or Blockchain, you will come across this word called 'Mining'. Lets demystify that in this article and go deep to understand better the need for mining."
 Tags = ["pos","pow","blockchain-consensus"]
 
-["Proof-of-Stake & the Wrong Engineering Mindset]
+["Proof-of-Stake & the Wrong Engineering Mindset"]
 Link = ["https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2"]
-Description = "Proof-of-Stake (PoS) is all the rage these days. Ethereum Casper, Cardano Ouroboros, etc. you name it. The rising interest in PoS protocols is probably due to the desire to scale blockchains indefinitely, combined with the mistaken notion that Proof-of-Work (PoW) is somehow “wasteful.” (Go here for a detailed discussion on PoW).\n\nA topic not emphasized enough with PoS protocols is their lack of resilience in dealing with worst-case scenarios"
+Description = "Proof-of-Stake (PoS) is all the rage these days. Ethereum Casper, Cardano Ouroboros, etc. you name it. The rising interest in PoS protocols is probably due to the desire to scale blockchains indefinitely, combined with the mistaken notion that Proof-of-Work (PoW) is somehow \“wasteful.\” (Go here for a detailed discussion on PoW).\n\nA topic not emphasized enough with PoS protocols is their lack of resilience in dealing with worst-case scenarios"
 Tags = ["pos","pow", "blockchain-consensus", "critique"]
 
 ["Proof-of-Stake, Private Keys Attacks and Unforgeable Costliness the Unsung Hero"]
@@ -133,17 +133,17 @@ Link = ["https://iohk.io/blog/stake-pools-in-cardano/"]
 Description = "In a proof of stake (PoS) blockchain protocol, the ledger is maintained by the stakeholders that hold assets in that ledger. This allows PoS blockchains to use less energy compared with proof of work (PoW) or other types of blockchain protocols. Nevertheless, this requirement imposes a burden on stakeholders. It requires a good number of them to be online and maintain sufficiently good network connectivity that they can collect transactions and have their PoS blocks reach the others without substantial network delays. It follows that any PoS ledger would benefit from reliable server nodes that hold stake and focus on maintenance."
 Tags = ["blockchain-consensus", "pos", "cardano", "stake-pools", "literature"]
 
-[Compounding of Wealth in Proof-of-Stake Cryptocurrencies]
+["Compounding of Wealth in Proof-of-Stake Cryptocurrencies"]
 Link = ["https://arxiv.org/pdf/1809.07468.pdf"]
 Description = "Abstract. Proof-of-stake (PoS) is a promising approach for designing efficient blockchains, where block proposers are randomly chosen with probability proportional to their stake. A primary concern with PoS systems is the “rich getting richer” phenomenon, whereby wealthier nodes are more likely to get elected, and hence reap the block reward, making them even wealthier. In this paper, we introduce the notion of equitability, which quantifies how much a proposer can amplify her stake compared to her initial investment. Even with everyone following protocol (i.e., honest behavior), we show that existing methods of allocating block rewards lead to poor equitability, as does initializing systems with small stake pools and/or large rewards relative to the stake pool. We identify a geometric reward function, which we prove is maximally equitable over all choices of reward functions under honest behavior and bound the deviation for strategic actions; the proofs involve the study of optimization problems and stochastic  dominances  of  P ́olya  urn  processes,  and  are  of  independent  mathematical  interest.  These results allow us to provide a systematic framework to choose the parameters of a practical incentive system for PoS cryptocurrencies."
 Tags = ["literature","pos","blockchain-consensus"]
 
-[PoS Coins List]
+["PoS Coins List"]
 Link = ["https://www.poslist.org/"]
 Description = "List of Proof of Stake coins"
 Tags = ["blockchain-consensus", "pos", "coins"]
 
-[Evolution of Energy-Free Consensus: From POS to SPOS]
+["Evolution of Energy-Free Consensus: From POS to SPOS"]
 Link = ["https://vee.tech/pdf/spos.pdf"]
 Description = "performance-oriented proof-of-stake consensus called Supernode Proof-of-Stake Consensus with the features of constant interval block minting, cold minting and stake liquidity has been designed for the VEE blockchain platform.  We also describe the lineage and differences to the original Proof-of-Stake Consensus introduced by Peercoin in 2012."
 Tags = ["blockchain-consensus","pos","spos"]
@@ -166,4 +166,14 @@ Tags = ["pos", "blockchain-consensus"]
 ["Blockchain Consensus Encyclopedia"]
 Link = ["https://tokens-economy.gitbook.io/consensus/"]
 Description = "More than 67 Blockchain Consensus described."
-Tags
+Tags = ["pos", "blockchain-consensus", "pow", "dpos"]
+
+["Casper Proof of Stake Compendium"]
+Link = ["https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium"]
+Description = "Casper Proof of Stake compendium — Ethereum Wiki"
+Tags = ["ethereum", "casper", "pos"]
+
+["What is Proof of Stake?"]
+Link = ["https://hackernoon.com/what-is-proof-of-stake-8e0433018256"]
+Description = "The proof of stake system is attracting a lot of attention these days, with Ethereum switching over to this system from the proof of work system. Proof of stake is an alternative process for transaction verification on a blockchain. It is increasing in popularity and being adopted by several cryptocurrencies. To understand proof of stake, it is important to have a basic idea of proof of work. As of this writing, the proof of work method is used by Bitcoin, Ethereum and most other major cryptocurrencies."
+Tags = ["blockchain-consensus","pos"]
