@@ -1,219 +1,219 @@
-[The Untold History of Blockchain]
+["The Untold History of Blockchain"]
 Link = ["https://www.linkedin.com/pulse/untold-history-blockchain-petri-basson/"]
 Description = "To get an idea of the building blocks that the blockchain is built on, you have to understand the history of 3 things:\n\n    Encryption;\n    Open Source software development; and\n    Peer to peer sharing"
 Tags = ["bitcoin", "history", "encryption", "p2p", "open-source"]
 
-[A Brief History of Digital Currencies]
+["A Brief History of Digital Currencies"]
 Link = ["https://ebrary.net/7927/education/brief_history_digital_currencies"]
 Description = "A Brief History of Digital Currencies\n\nThe birth of the Internet led many, including economist Milton Friedman, to assume that the invention of some sort of digital money would soon follow. Arguments in favor of digital money were numerous. One obvious benefit realized early on was that it might help prevent counterfeiting:\n\nThe advent of high-quality color copiers threatens the security of paper money. The demands of guarding it make paper money expensive. The hassles of handling it (such as vending machines) make paper money undesirable. The use of credit cards and ATM cards is becoming increasingly popular, but those systems lack adequate privacy or security against fraud, resulting in a demand for efficient electronic-money systems to prevent fraud and also to protect user privacy.\n\n—Jorg Kienzle and Adrian Perrig in 'Digital Money: A divine gift or Satan's malicious tool?' (1996)"
 Tags = ["history", "digital-cash"]
 
-[Bitcoin's Academic Pedigree]
+["Bitcoin's Academic Pedigree"]
 Link = ["https://cacm.acm.org/magazines/2017/12/223058-bitcoins-academic-pedigree/fulltext"]
 Description = "If you have read about bitcoin in the press and have some familiarity with academic research in the field of cryptography, you might reasonably come away with the following impression: Several decades' worth of research on digital cash, beginning with David Chaum,10,12 did not lead to commercial success because it required a centralized, bank-like server controlling the system, and no banks wanted to sign on. Along came bitcoin, a radically different proposal for a decentralized cryptocurrency that did not need the banks, and digital cash finally succeeded."
 Tags = ["history", "bitcoin", "academia", "cryptography", "literature", "research"]
 
-[Satoshi Nakamoto Institute]
+["Satoshi Nakamoto Institute"]
 Link = ["https://nakamotoinstitute.org/"]
 Description = "The Satoshi Nakamoto Institute is eager to share with the world the best ideas past, present, and future in cryptography, distributed networks, economic freedom, and freedom of information. We are dedicated to curating the best primary source literature that challenge the status quo through technological innovation."
 Tags = ["bitcoin", "history", "satoshi", "resources", "literature"]
 
-[Satoshi Nakamoto Institute — Literature]
+["Satoshi Nakamoto Institute — Literature"]
 Link = ["https://nakamotoinstitute.org/literature/"]
 Description = "Bitcoin was not forged in a vacuum. These works serve to contextualize Bitcoin into the broader story of cryptography and freedom."
 Tags = ["bitcoin", "history", "literature", "research"]
 
-[@NickSzabo4 on Layer2 Scaling]
+["@NickSzabo4 on Layer2 Scaling"]
 Link = ["https://twitter.com/NickSzabo4/status/1012373493252419584"]
 Description = "My bit gold design in 1998 was 2-layer: bit gold for settlement, Chaumian e-cash for a privacy-enhanced payments layer. I've always thought of Bitcoin as evolving into a settlements-and-large-payments layer that in the long term needed a layer 2 for consumer payments."
 Tags = ["history", "bitcoin", "scaling", "layer2", "twitter"]
 
-[Genesis Block Newspaper]
+["Genesis Block Newspaper"]
 Link = ["https://www.thetimes03jan2009.com/", "https://www.thetimes03jan2009.com/wp-content/uploads/2015/03/genesis-block-newspaper-bitcoin.jpg"]
 Description = "The only two remaining verified complete copies of this newspaper were acquired from the London National Archives on January 14, 2014. The newspapers come in a complete set with both the cover and the entire newspaper included.\n\nBoth come with a certificate of authenticity from the archival company, and one comes with an engraved storage folder mentioning the Genesis Block and the Satoshi Nakamoto quote, as well as its relevance to the Bitcoin block chain."
 Tags = ["history", "image", "bitcoin"]
 
-[@lopp on Bitcoin History]
+["@lopp on Bitcoin History"]
 Link = ["https://twitter.com/lopp/status/1023689161096785920"]
 Description = "Bitcoin whitepaper purists should take note that the following things are NOT described in the whitepaper: \n\nmultisig\n mining pools\n 21M coin cap\n GPU & ASIC mining\n 10 minute block times\n HD address generation\n best chain = cumulative PoW, not longest chain\n and much, much more..."
 Tags = ["bitcoin", "history", "bitcoin-whitepaper"]
 
-[@ericturnr — Research Lead at Messari]
+["@ericturnr — Research Lead at Messari"]
 Link = ["https://twitter.com/ericturnr"]
 Description = "Research lead at @MessariCrypto. Striving for a more transparent and self-regulating cryptoasset community. CFA Charterholder."
 Tags = ["research", "messari", "twitter"]
 
-[@PeterLBrandt on 'Bubbles']
+["@PeterLBrandt on 'Bubbles'"]
 Link = ["https://twitter.com/PeterLBrandt/status/1030884169763549184"]
 Description = "Us old-timers always considered a decline greater than 80% to be a bubble that popped. Most altcoins must be legitimately considered as bubbles that popped. The dead-cat bounces from the resulting decimation can be wicked."
 Tags = ["history", "trading", "twitter"]
 
-[Bitcoin History: Timeline, Origins and Founder]
+["Bitcoin History: Timeline, Origins and Founder"]
 Link = ["https://www.thestreet.com/investing/bitcoin/bitcoin-history-14686578"]
 Description = "The history of Bitcoin has been a turbulent one to say the least, and right now we're in one of the most turbulent periods in its history, as it has spent the entirety of 2018 falling further and further from its peak value of nearly $20,000 in December 2017.\n\nBut something as uncertain as Bitcoin (and cryptocurrency in general) was never going to be smooth sailing. Many tried a cryptographed digital currency before it, and they weren't able to fully crack it. Since Bitcoin became a reality nearly a decade ago, there have been some high highs and some low lows. For some Bitcoin owners, that's part of the appeal.\n\nBut how did we get to where we are today with Bitcoin? How did it begin, what were its forebearers, and what have been the unexpected turns of the Bitcoin journey? Let's take a walk through the timeline and find out."
 Tags = ["bitcoin", "history"]
 
-[Visions of Bitcoin—How major Bitcoin narratives changed over time]
+["Visions of Bitcoin—How major Bitcoin narratives changed over time"]
 Link = ["https://medium.com/@nic__carter/visions-of-bitcoin-4b7b7cbcd24c"]
 Description = "Perhaps the most enduring source of conflict within the Bitcoin community derives from incompatible visions of what Bitcoin is and should become. Businesses building on Bitcoin, believing it a cheap global payments network, eventually became nonviable when blocks filled up in 2017. They weren’t necessarily wrong, they just had a vision of the world that ended up being a minority view within the Bitcoin community, and was ultimately not expressed by the protocol on their desired timeline."
 Tags = ["bitcoin", "history"]
 
-[Bitcoin History — p2pfoundation]
+["Bitcoin History — p2pfoundation"]
 Link = ["http://wiki.p2pfoundation.net/Bitcoin#History"]
 Description = "The small band of early bitcoiners all shared the communitarian spirit of an open source software project. Gavin Andresen, a coder in New England, bought 10,000 bitcoins for $50 and created a site called the Bitcoin Faucet, where he gave them away for the hell of it. Laszlo Hanyecz, a Florida programmer, conducted what bitcoiners think of as the first real-world bitcoin transaction, paying 10,000 bitcoins to get two pizzas delivered from Papa John’s. (He sent the bitcoins to a volunteer in England, who then called in a credit card order transatlantically.) A farmer in Massachusetts named David Forster began accepting bitcoins as payment for alpaca socks"
 Tags = ["bitcoin", "history"]
 
-[P2P Foundation Wiki]
+["P2P Foundation Wiki"]
 Link = ["http://wiki.p2pfoundation.net/"]
-Description = "The P2P Foundation is an international organization focused on studying, researching, documenting and promoting peer to peer practices in a very broad sense. This wiki is our knowledge commons. Our motto is "Together we know everything, together we have everything", i.e. pooling our resources through commons, creates prosperity for all. We document thousands of initiatives going in that direction on order to create 'Hope with evidence'."
+Description = "The P2P Foundation is an international organization focused on studying, researching, documenting and promoting peer to peer practices in a very broad sense. This wiki is our knowledge commons. Our motto is \"Together we know everything, together we have everything\", i.e. pooling our resources through commons, creates prosperity for all. We document thousands of initiatives going in that direction on order to create 'Hope with evidence'."
 Tags = ["resources", "p2p", "history", "bitcoin", "decentralization"]
 
-["Digital Cash and Monetary Freedom" (1996)]
-Link = [ "http://web.archive.org/web/19971210185701/http://info.isoc.org:80/HMP/PAPER/136/abst.html"]
+["Digital Cash and Monetary Freedom —1996"]
+Link = ["http://web.archive.org/web/19971210185701/http://info.isoc.org:80/HMP/PAPER/136/abst.html"]
 Description = "Much has been published recently about the awesome promises of electronic commerce and trade on the Internet if only a reliable, secure mechanism for value exchange could be developed. This paper describes the differences between mere encrypted credit card schemes and true digital cash, which presents a revolutionary opportunity to transform payments. The nine key elements of an electronic, digital cash are outlined and a tenth element is proposed which would embody digital cash with a non-political unit of value."
 Tags = ["history", "digital-cash", "literature"]
 
-[The Original 'I AM HODLING' Bitcointalk Post]
+["The Original 'I AM HODLING' Bitcointalk Post"]
 Link = "https://bitcointalk.org/index.php?topic=375643.0"
-Description = "I type d that tyitle twice because I knew it was wrong the first time.  Still wrong.  w/e.  GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.  It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  In a zero-sum game such as this, traders can only take your money if you sell."
+Description = "I type d that tyitle twice because I knew it was wrong the first time.  Still wrong.  w/e.  GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.  It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  Those taunt threads saying \"OHH YOU SHOULD HAVE SOLD\" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  In a zero-sum game such as this, traders can only take your money if you sell."
 Tags = ["history", "hodl", "bitcointalk"]
 
-[The three economic eras of Bitcoin]
+["The three economic eras of Bitcoin"]
 Link = ["https://medium.com/@rusty_lightning/the-three-economic-eras-of-bitcoin-d43bf0cf058a"]
 Description = "The way the bitcoin ecosystem will play out is written in the mathematics of its consensus rules; we should all know the three phases it will go through."
 Tags = ["bitcoin", "history", "economics"]
 
-[@dantwany on internet payments history]
+["@dantwany on internet payments history"]
 Link = ["https://twitter.com/dantwany/status/939987392496365569", "http://web.archive.org/web/19961130160745/http://ganges.cs.tcd.ie:80/mepeirce/Project/oninternet.html"]
 Description = "Bitcoin is sometimes compared Netscape and it's said some other will dethrone it. There have been many digital currency systems created that failed. Bitcoin is where it's today because it's a success. Payment mechanisms designed for the Internet (1996)"
 Tags = ["bitcoin", "history", "digital-cash"]
 
-[Before Babylon, Beyond Bitcoin: From Money That We Understand to Money That Understands Us (Perspectives)]
+["Before Babylon, Beyond Bitcoin: From Money That We Understand to Money That Understands Us (Perspectives)"]
 Link = ["https://the-eye.eu/public/concen.org/Before%20Babylon%2C%20Beyond%20Bitcoin%20%282017%29%20%28Pdf%29%20Gooner/Before%20Babylon%2C%20Beyond%20Bitcoin%20%282017%29.pdf"]
 Description = "Dave Birch looks back over the history of money, spanning thousands of years. He sees in the past, both recent and ancient, evidence for several possible futures. Looking further back to a world before cash and central banks, there were multiple ‘currencies' operating at the level of communities, and the use of barter for transactions. Perhaps technology will take us back to the future, a future that began back in 1971, when money became a claim backed by reputation rather than by physical commodities of any kind. Since then, money has been bits. The author shows that these phenomena are not only possible in the future, but already upon us."
 Tags = ["history", "bitcoin", "books"]
 
-[crypto— how the code rebels beat the government— saving privacy in the digital age]
+["crypto— how the code rebels beat the government— saving privacy in the digital age"]
 Link = ["http://www.academia.edu/4903458/Crypto_-_How_the_Code_Rebels_Beat_the_Government_-_Saving_Privacy_in_the_Digital_Age"]
 Description = "The backbone of Crypto is a series of interviews conductedover the past decade withthe people who populate, or have had animpact on, the world of cryptography."
 Tags = ["history", "bitcoin", "books"]
 
-[The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography]
+["The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography"]
 Link = ["https://www.amazon.com/Code-Book-Science-Secrecy-Cryptography/dp/0385495323"]
 Description = "Simon Singh offers the first sweeping history of encryption, tracing its evolution and revealing the dramatic effects codes have had on wars, nations, and individual lives. From Mary, Queen of Scots, trapped by her own code, to the Navajo Code Talkers who helped the Allies win World War II, to the incredible (and incredibly simple) logisitical breakthrough that made Internet commerce secure, The Code Book tells the story of the most powerful intellectual weapon ever known: secrecy."
 Tags = ["history", "cryptography", "books"]
 
-[Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money]
+["Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money"]
 Link = ["https://www.harpercollins.com/9780062572066/digital-gold/"]
 Description = "Bitcoin, the landmark digital money and financial technology, has spawned a global social movement with utopian ambitions. The notion of a new currency, maintained by the computers of users around the world, has been the butt of many jokes, but that has not stopped it from growing into a technology worth billions of dollars, supported by the hordes of followers who have come to view it as the most important new idea since the creation of the Internet."
 Tags = ["bitcoin", "history", "digital-cash", "books"]
 
-[@francispouliot Looking back on UASF]
+["@francispouliot Looking back on UASF"]
 Link = ["https://twitter.com/francispouliot_/status/1037379672282152960", "https://twitter.com/francispouliot_/status/1037358649029668864"]
 Description = "1/ Full text of the article: 'After the one year anniversary of Bitcoin’s iconic User Activated Soft Fork, we had the pleasure of speaking with Francis Pouliot, CEO of Bylls, a major proponent in the campaign to keep Bitcoin under its users’ control."
 Tags = ["bitcoin", "history", "uasf"]
 
-[Bitcoin is not Dead]
+["Bitcoin is not Dead"]
 Link = ["https://www.forbes.com/sites/michaeldelcastillo/2018/09/06/bitcoin-is-not-dead/#355f465b5bdd"]
 Description = "The first recorded claim of bitcoin’s demise was in 2010, on a little-known blog that found itself posted on a record of “bitcoin obituaries” collected by 99Bitcoins, a bitcoin information site. While I consider myself among the first wave of bitcoin writers, having written my first article on the subject in 2011, this early claim of bitcoin’s death came when the cryptocurrency was valued at only $0.23. It is now worth almost $7,000."
 Tags = ["bitcoin", "history"]
 
-[Bitcoin Stumble Shows Bitmain a Ghost of Crises Past]
+["Bitcoin Stumble Shows Bitmain a Ghost of Crises Past"]
 Link = ["https://www.bloomberg.com/view/articles/2018-09-18/bitcoin-stumble-shows-bitmain-a-ghost-of-crises-past"]
 Description = "A look at Bitmain Technologies Ltd.’s financials reveal the Chinese company sold a lot of shovels during the crypto gold rush of the past two years. Its mistake was to take digital gold as payment instead of cash. \n\nBut there are two other items that could make matters worse for Bitmain and others in the crypto-mining ecosystem, adding to pressure on the balance sheet."
 Tags = ["bitcoin", "history", "bitmain"]
 
-[@varun_mathur on RSS history's compared to Bitcoin]
+["@varun_mathur on RSS history's compared to Bitcoin"]
 Link = ["https://twitter.com/varun_mathur/status/1038107664868208640"]
 Description = "Crypto’s RSS Era About 10 yrs ago, before the advent of bitcoin, the tech world was coming to grips with how RSS failed to take off as a consumer tech. I spent 2 yrs of my life building the best (?)feed reader UX, but I was solving for local maxima, not global maximum (industry)"
 Tags = ["bitcoin", "history", "rss", "twitter"]
 
-[Bitcoin’s Constitutional Crisis & Why I Support the UASF]
+["Bitcoin’s Constitutional Crisis & Why I Support the UASF"]
 Link = ["https://medium.com/tbis-weekly-bits/bitcoins-constitutional-crisis-why-i-support-the-uasf-5b0ab325d8b6"]
 Description = "It took three years and the emergence of serious (and perhaps permanent) crypto rivals, but there finally seems to be some light at the end of the tunnel in this round of the bitcoin scaling debate. Thank god.\n\nThe impending activation of BIP 148, AKA bitcoin’s “user activated soft fork”, due to take effect on August 1, would ensure that SegWit, an optimization feature that increases block capacity, gets activated without strings attached."
 Tags = ["bitcoin", "history", "uasf"]
 
-[SLP23 – Economic Eras of Bitcoin, and Lightning Development, with Rusty Russell of Blockstream]
+["SLP23 – Economic Eras of Bitcoin, and Lightning Development, with Rusty Russell of Blockstream"]
 Link = ["https://stephanlivera.com/2018/09/20/slp23-economic-eras-of-bitcoin-and-lightning-development-with-rusty-russell-of-blockstream/"]
 Description = "Rusty Russell, a well known and respected Bitcoin Lightning developer at Blockstream  joins me in this episode. We talk about his article, The Three Economic Eras of Bitcoin, and discuss the Lightning Network for Bitcoin. Lastly, Rusty draws from his prior experience as a Linux kernel developer to contrast Linux development with Bitcoin and Lightning development practices and culture."
 Tags = ["bitcoin", "history", "economics", "podcast"]
 
-[Satoshi on Anonymous Transactions - bitcointalk]
+["Satoshi on Anonymous Transactions - bitcointalk"]
 Link = ["https://twitter.com/notgrubles/status/1043569394901602304","https://bitcointalk.org/index.php?topic=770.msg9074"]
 Description = "As some might have noticed, one of the things that bugs me about bitcoin is that the entire history of transactions is completely public. I totally understand the benefits of how this simplifies things and makes it easy for everyone to prove coins are valid.\n\nSo this is not a suggestion for a change to bitcoin. Rather it is a question about what could be possible, and what couldn't be possible."
 Tags = ["history", "satoshi", "bitcointalk", "privacy"]
 
-[Bitcoin's Origins and the Genesis Blockade]
+["Bitcoin's Origins and the Genesis Blockade"]
 Link = ["https://youtu.be/cagoyF3WePo"]
 Description = "In this talk, Andreas recounts the origins of Bitcoin, the meaning of the message embedded forever in its genesis block, and how we figured out who the banks truly serve when there was no other choice. He also speaks about what happens when money stops working, why censorship resistance was one of Bitcoin's most valuable characteristics from the start, and what possibilities lay in store with a global, voluntary financial system."
 Tags = ["history", "bitcoin", "video"]
 
-[@BitcoinErrorLog on the original Bitcoin Foundation]
+["@BitcoinErrorLog on the original Bitcoin Foundation"]
 Link = ["https://twitter.com/BitcoinErrorLog/status/1044207811603943425"]
 Description = "I was a paying member of the original Bitcoin Foundation. They were mostly a train wreck. I attended their annual meeting at a conference in Amsterdam and met with their accounting person to ask some hard questions. She was actually pretty savvy. /1"
 Tags = ["bitcoin", "history", "twitter"]
 
-[World's oldest ICOs 20+ and 20+ oldest cryptos without ICO]
+["World's oldest ICOs 20+ and 20+ oldest cryptos without ICO"]
 Link = ["https://steemit.com/crypto/@sxiii/oldest-icos"]
 Description = "My friends often ask me, if there are some great examples of old enough & successful companies, that held ICO. So I decided to write an article to list & discuss world's oldest cryptocurrencies ICOs, starting in 2013, and ending in 2015."
 Tags = ["ico", "history"]
 
-[Bitcorati Interview Series : Vitalik Buterin - Head Writer, Bitcoin Magazine]
+["Bitcorati Interview Series : Vitalik Buterin - Head Writer, Bitcoin Magazine"]
 Link = ["https://www.youtube.com/watch?v=EkeCapBOQQ0"]
 Description = "Vitalik Buterin is a former computer science student who dropped out of college to focus on bitcoin projects full-time. He was a very early bitcoin adopter and is currently the head writer at Bitcoin Magazine. Listen as Vitalik discusses his background, how he got involved in bitcoin and why he thinks bitcoin has the potential to change the world! This interview is one in a series captured at the Media Bistro Inside Bitcoins Conference in Las Vegas, Nevada, December 10th and 11th, 2013"
 Tags = ["bitcoin", "history", "ethereum", "video", "vitalik-buterin"]
 
-[Bitcoin History - OXT]
+["Bitcoin History - OXT"]
 Link = ["https://oxt.me/history"]
 Description = "This page lists a set of 'famous' events or lesser-known facts which are all part of the history of Bitcoin.\n\nEach event is illustrated with data extracted from the blockchain.\n\nFeel free to propose new events by sending us an email."
 Tags = ["bitcoin", "history"]
 
-[The Bitcoin Knowledge Podcast — Legendary]
+["The Bitcoin Knowledge Podcast — Legendary"]
 Link = ["https://www.bitcoin.kn/legendary/"]
 Description = "These are interviews with legendary guests from the Bitcoin world. \n\nTrace Mayer asks Nick Szabo what the highest priority should be for hiring Bitcoin\n\nA Week With Adam Back in September 2015"
 Tags = ["bitcoin", "history", "digital-cash", "podcast", "video", "adam-back", "nick-szabo"]
 
-[Nick Szabo's Home Page — Archive (pre-2005)]
+["Nick Szabo's Home Page — Archive (pre-2005)"]
 Link = ["http://archive.is/H8UGk"]
 Description = "Nick Szabo's Essays, Papers, and Concise Tutorials"
 Tags = ["history", "smart-contracts", "nick-szabo", "cryptography", "law", "literature"]
 
-[The Uncanny Mind That Built Ethereum]
+["The Uncanny Mind That Built Ethereum"]
 Link = ["https://www.wired.com/2016/06/the-uncanny-mind-that-built-ethereum/"]
 Description = "Vitalik Buterin invented the world’s hottest new cryptocurrency and inspired a movement — before he’d turned 20."
 Tags = ["vitalik-buterin", "history", "ethereum"]
 
-[Who is Nick Szabo, The Mysterious Blockchain Titan]
+["Who is Nick Szabo, The Mysterious Blockchain Titan"]
 Link = ["https://unblock.net/nick-szabo/"]
 Description = "Nick Szabo is a living legend in both the cryptocurrency and cryptography worlds. Although he’s not a household name, and if you’re new to the crypto games, you probably would have never heard of him.  However, Nick Szabo has godlike status amongst the sincere crypto enthusiasts.\n\nThe man’s extensive range of interest, extending from the origins of money, economic and legal history to cryptography and blockchain technology makes him a natural polymath and a one-of-a-kind man."
 Tags = ["history", "nick-szabo"]
 
-[Blockchain Libarary - Reading Lists - Bitcoin History]
+["Blockchain Libarary - Reading Lists - Bitcoin History"]
 Link = ["https://blockchainlibrary.org/category/reading-lists/bitcoin-history/"]
 Description = "Reading Lists - Category: Bitcoin History"
 Tags = ["bitcoin", "history", "silk-road", "gox", "satoshi", "literature"]
 
-[The Eureka Moment That Made Bitcoin Possible]
+["The Eureka Moment That Made Bitcoin Possible"]
 Link = ["https://www.wsj.com/articles/the-eureka-moment-that-made-bitcoin-possible-1527268025", "https://www.facebook.com/flx/warn/?u=https%3A%2F%2Fwww.wsj.com%2Farticles%2Fthe-eureka-moment-that-made-bitcoin-possible-1527268025&h=AT01z4enWp-C1obtu-eTYF1yxmB7LWM9N9GM5vFGWJOuHVW9xuis-tFhcHpSMOshOHAMVWzS8XSPquk_VkFphpN7G5irj39Kp1dzgWurvz5Am_8"]
 Description = "A key insight for the technology came to a physicist almost three decades ago at a Friendly’s restaurant in New Jersey\n\nBitcoin and other digital currencies have been on a wild and much-publicized ride: Over the last year, the value of a single bitcoin has soared tenfold from $2,000 to $20,000 and then dropped by half again. A mystery surrounding the creator of the cryptocurrency, who has never been convincingly identified, has burnished its allure, and innovators and speculators now circle the globe attending high-priced industry conferences, many hoping to make their fortune."
 Tags = ["history", "bitcoin"]
 
-[Trusted Third Parties Are Security Holes - Nick Szabo (2001)]
+["Trusted Third Parties Are Security Holes - Nick Szabo (2001)"]
 Link = ["https://nakamotoinstitute.org/trusted-third-parties/"]
 Description = "Commercial security is a matter of solving the practical problems of business relationships such as privacy, integrity, protecting property, or detecting breach of contract. A security hole is any weakness that increases the risk of violating these goals. In this real world view of security, a problem does not dissapear because a designer assumes it away. The invocation or assumption in a security protocol design of a 'trusted third party' (TTP) or a 'trusted computing base' (TCB) controlled by a third party constitutes the introduction of a security hole into that design. The security hole will then need to be plugged by other means."
 Tags = ["history", "nick-szabo", "literature"]
 
-[The Evolution of Digital Cash]
+["The Evolution of Digital Cash"]
 Link = ["https://medium.com/@FidelityDigitalAssets/the-evolution-of-digital-cash-da19b06aa58e"]
 Description = "The emergence of digital assets, such as bitcoin, signals a fundamental change in the way value is transferred globally.\n\nThe concepts of money and value transfer have been evolving since primitive societies adopted shells and stones for monetary exchange, but the concept of digital money has been sought after for as long as there’s been an internet and peer-to-peer networking capabilities to drive its development."
 Tags = ["digital-cash", "history"]
 
-[Lecture 12 — History of Cryptocurrencies]
+["Lecture 12 — History of Cryptocurrencies"]
 Link = ["https://www.youtube.com/watch?v=1VYs_zZsorU&t=0s&index=13&list=PLQIX_E46U4XYE5GR6029FpnaX9aBXbt0B", "https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf"]
 Description = "Lecture from Princeton Bitcoin/Blockchain Course on the History of Cryptocurrency"
 Tags = ["history", "video"]
 
-[A finite monetary supply for Bitcoin]
+["A finite monetary supply for Bitcoin"]
 Link = ["https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki"]
 Description = "Although it is widely believed that Satoshi was an inflation-hating goldbug he never said this, and in fact programmed Bitcoin's money supply to grow indefinitely, forever. He modeled the monetary supply as 4 gold mines being discovered per mibillenium (1024 years), with equal intervals between them, each one being depleted over the course of 140 years.\n\nThis poses obvious problems, however. Prominent among them is the discussion on what to call 1 billion Bitcoin, which symbol color to use for it, and when wallet clients should switch to it by default.\n\nTo combat this, this document proposes a controversial change: making Bitcoin's monetary supply finite."
 Tags = ["history", "bitcoin"]
