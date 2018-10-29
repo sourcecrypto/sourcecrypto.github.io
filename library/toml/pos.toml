@@ -124,7 +124,7 @@ Description = "There are many ways to slice and dice PoS and uncover its weaknes
 Tags = ["blockchain-consensus", "pos", "critique"]
 
 ["Twitter Threads of PoS Criticism"]
-Link = ["https://twitter.com/zooko/status/1045774342942908416", "https://twitter.com/eric_lombrozo/status/1045916707821408256", "https://twitter.com/nic__carter/status/1045804073256177664"]
+Link = ["https://twitter.com/zooko/status/1045774342942908416", "https://twitter.com/eric_lombrozo/status/1045916707821408256", "https://twitter.com/nic__carter/status/1045804073256177664","https://twitter.com/nic__carter/status/1041844862612590593"]
 Description = "A few threads that all tie into the one @zooko started:\n\nHey tweeps, what's the best resource on the fundamental/conceptual/economic problems with Proof-of-Stake? asking for a friend"
 Tags = ["blockchain-consensus", "pos", "critique", "twitter"]
 
@@ -197,3 +197,8 @@ Tags = ["pos","critique","blockchain-consensus"]
 Link = ["https://ethereum.stackexchange.com/questions/42754/why-is-proof-of-work-proof-of-stake-associated-with-consensus-mechanisms-algori/61349#61349"]
 Description = "Many often associate Proof of Work, Proof of Stake, etc with blockchain consensus algorithm/mechanisms.\n\nI find that association to be inaccurate. Yes, proof of work / proof of stake are mechanisms by which leaders are elected to validate transactions. It is a crucial part in building consensus but not the only thing. For example, in bitcoin blockchain, the longest chain wins -- this to me is also considered as a crucial part in building consensus across the nodes."
 Tags = ["pos","pos","blockchain-consensus"]
+
+["PoW is Efficient"]
+Link = ["https://blog.picks.co/pow-is-efficient-aa3d442754d3"]
+Description = "Most people think #Bitcoin’s PoW is “wasteful.” In this article, I explore how everything is energy, money is energy, energy usage is subjective, and PoW’s energy costs relative to existing governance systems.* This article is a collection of direct thoughts from many individuals in the space — my value add was in the aggregation, distillation, and combination of narratives."
+Tags = ["pow", "blockchain-consensus"]
