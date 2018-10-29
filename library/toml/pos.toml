@@ -177,3 +177,23 @@ Tags = ["ethereum", "casper", "pos"]
 Link = ["https://hackernoon.com/what-is-proof-of-stake-8e0433018256"]
 Description = "The proof of stake system is attracting a lot of attention these days, with Ethereum switching over to this system from the proof of work system. Proof of stake is an alternative process for transaction verification on a blockchain. It is increasing in popularity and being adopted by several cryptocurrencies. To understand proof of stake, it is important to have a basic idea of proof of work. As of this writing, the proof of work method is used by Bitcoin, Ethereum and most other major cryptocurrencies."
 Tags = ["blockchain-consensus","pos"]
+
+["Cardano Settlement Layer Documentation —Ouroboros Proof of Stake Algorithm"]
+Link = ["https://cardanodocs.com/cardano/proof-of-stake/"]
+Description = "The Ouroboros Proof of Stake (PoS) Algorithm is the most important part of the protocol. It defines the way in which nodes reach consensus about the state of ledger.\n\nOuroboros is unique as it is the first blockchain protocol that is based on proof of stake and has been scientifically proven as secure."
+Tags = ["pos", "cardano","ouroboros","blockchain-consensus"]
+
+["Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol"]
+Link = ["https://eprint.iacr.org/2016/889.pdf"]
+Description = "We  present  \“Ouroboros\”,  the  first  blockchain  protocol  based  on proof  of  stake with  rigorous  security  guarantees.   We  establish  security  properties  for  the  protocol  comparable  to those achieved by the bitcoin blockchain protocol.  As the protocol provides a \“proof of stake\” blockchain discipline, it offers qualitative efficiency advantages over blockchains based on proof of physical resources (e.g., proof of work).  We also present a novel reward mechanism for incentivizing Proof of Stake protocols and we prove that, given this mechanism, honest behavior is an approximate Nash equilibrium, thus neutralizing attacks such as selfish mining.  We also present initial evidence of the practicality of our protocol in real world settings by providing experimental results on transaction confirmation and processing"
+Tags = ["pos", "cardano","ouroboros","blockchain-consensus", "literature"]
+
+["Proof-of-Stake is a Rebranded Version of the Old Financial System"]
+Link = ["https://news.bitcoin.com/proof-of-stake-is-a-rebranded-version-of-the-old-financial-system/"]
+Description = "Over the last few years, there’s been a lot of projects, both public and private, that are attempting to create a next-generation blockchain or something better than Satoshi’s Bitcoin. A great majority of these projects have condemned proof-of-work (PoW) cryptocurrencies because they think they waste resources, and many of these new blockchains have chosen to use a proof-of-stake (PoS) system. However, PoS has many flaws and introduces a distribution process that advocates an ugly planned economy that’s propagated by ancient thinking and basically the old banking system."
+Tags = ["pos","critique","blockchain-consensus"]
+
+["Why is PoW\PoS associated with consensus mechanism\algorithm"]
+Link = ["https://ethereum.stackexchange.com/questions/42754/why-is-proof-of-work-proof-of-stake-associated-with-consensus-mechanisms-algori/61349#61349"]
+Description = "Many often associate Proof of Work, Proof of Stake, etc with blockchain consensus algorithm/mechanisms.\n\nI find that association to be inaccurate. Yes, proof of work / proof of stake are mechanisms by which leaders are elected to validate transactions. It is a crucial part in building consensus but not the only thing. For example, in bitcoin blockchain, the longest chain wins -- this to me is also considered as a crucial part in building consensus across the nodes."
+Tags = ["pos","pos","blockchain-consensus"]
