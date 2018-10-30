@@ -209,7 +209,7 @@ Description = ["Casper the Friendly Finality Gadget was Ethereum’s first appro
 Tags = ["casper", "pos", "ethereum","blockchain-consensus"]
 
 ["@VitalikButerin 75 tweet—storm on History of Casper Reserach"]
-Link = ["https://twitter.com/VitalikButerin/status/1029900695925706753","https://www.computerworld.com/article/3299697/blockchain/what-vitalik-buterin-tweetstorm-means-for-future-ethereum-blockchain.html"]
+Link = ["https://twitter.com/VitalikButerin/status/1029900695925706753","https://www.computerworld.com/article/3299697/blockchain/what-vitalik-buterin-tweetstorm-means-for-future-ethereum-blockchain.html","https://medium.com/futuresin/ethereum-casper-update-vitalik-buterins-tweet-storm-2f916dceb72b"]
 Description = "1. Today I am going to make a tweet storm explaining the history and state of Ethereum's Casper research, including the FFG vs CBC wars, the hybrid => full switch, the role of randomness, mechanism design issues, and more."
 Tags = ["ethereum","casper","pos","blockchain-consensus","twitter", "history"]
 
@@ -221,65 +221,79 @@ Tags = ["ethereum","casper","literature","pos","blockchain-consensus"]
 ["Slasher: A Punitive Proof-of-Stake Algorithm—2014"]
 Link = ["https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/","https://twitter.com/VitalikButerin/status/1029900794353483776"]
 Description = "This was the beginning of PoS Research The purpose of this post is not to say that Ethereum will be using Slasher in place of Dagger as its main mining function. Rather, Slasher is a useful construct to have in our war chest in case proof of stake mining becomes substantially more popular or a compelling reason is provided to switch. Slasher may also benefit other cryptocurrencies that wish to exist independently of Ethereum. Special thanks to tacotime for some inspiration, and for Jack Walker for improvement suggestions."
-Tags = ["ethereum","pos", "history"]
+Tags = ["ethereum","pos", "history","blockchain-consensus"]
 
 ["History of Casper —Part 1"]
 Link = ["https://medium.com/@Vlad_Zamfir/the-history-of-casper-part-1-59233819c9a9"]
 Description = "Vitalik suggested last week that I share my basic research and design philosophy in a blog post, I agreed but complained that it was still changing. My friend Jon West told me that everyone would really appreciate it if I told everyone about my Casper research, I mostly agreed. Then someone on reddit told me to focus on Ethereum.\n\nSo here’s the Casper tech story, given as a chronological history of the evolution of the key technology, ideas and language that are involved in “Casper research”. Many of our favorite blockchain personalities are part of the story. This is my attempt to recount everything in an accessible, sequential way so that you can see where we are now (and where we’re going) with our research efforts (so don’t argue until the end of the story!). I’m going to try to release a chapter per day until it’s complete."
-Tags = ["ethereum","pos","casper","history"]
+Tags = ["ethereum","pos","casper","history","blockchain-consensus"]
 
 ["History of Casper —Part 2"]
 Link = ["https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-2-8e09b9d3b780"]
 Description = "This chapter describes the game theory and economic security modelling we were doing in the Fall of 2014. It recounts how the “bribing attacker model” led our research directly to a radical solution to the long range attack problem."
-Tags = ["ethereum","pos","casper","history"]
+Tags = ["ethereum","pos","casper","history","blockchain-consensus"]
 
 ["History of Casper —Part 3"]
 Link = ["https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-3-70fefb1182fc"]
 Description = "This chapter describes our proof-of-stake research during the period starting after the discovery of the solution to the long-range attack problem and ending when we first became aware of the existence and relevance of traditional, pre-blockchain consensus research.\n\nThis “wild west” period is characterized by wide experimentation, exploration, and ignorance. Much of this chapter is therefore a collection of relatively disorganized protocol ideas. The period’s end is marked by my getting kicked out of a Financial Cryptography mailing list, and by my consequently learning about (and immediately becoming a fan of) Jae Kwon’s Tendermint."
-Tags = ["ethereum","pos","casper","history"]
+Tags = ["ethereum","pos","casper","history","blockchain-consensus"]
 
 ["History of Casper —Part 4"]
 Link = ["https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-4-3855638b5f0e"]
 Description = "This chapter describes the events that led to a fundamental change in our economic modeling assumptions. These changes represent the foundation of the methodologies that underlie the analysis and architecture that we are working hard to develop at the Ethereum research team (at least for the Casper and Sharding efforts). The design philosophy presented in this chapter (imho) strongly differentiates the work we’re doing at Ethereum from the work being done by every other project in the space."
-Tags = ["ethereum","pos","casper","history"]
+Tags = ["ethereum","pos","casper","history","blockchain-consensus"]
 
 ["History of Casper —Part 5"]
 Link = ["https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-5-8652959cef58"]
 Description = "In this chapter I recount the story of Casper’s birth as an application of the principles of Aviv Zohar and Jonatan Sompolinsky’s GHOST to proof-of-stake.\n\nI called it “the friendly ghost” because of incentives designed to guarantee censorship resistance against the oligopolists: incentives that force the cartel to be friendly to non-cartel validators."
-Tags = ["ethereum","pos","casper","history"]
+Tags = ["ethereum","pos","casper","history","blockchain-consensus"]
 
 ["Understanding Serenity —Part 2 Casper"]
 Link = ["https://blog.ethereum.org/2015/12/28/understanding-serenity-part-2-casper/","https://twitter.com/VitalikButerin/status/1029902353703391233"]
 Description = "In the last post in this series, we discussed one of the two flagship feature sets of Serenity: a heightened degree of abstraction that greatly increases the flexibility of the platform and takes a large step in moving Ethereum from \"Bitcoin plus Turing-complete\" to \"general-purpose decentralized computation\". Now, let us turn our attention to the other flagship feature, and the one for which the Serenity milestone was originally created: the Casper proof of stake algorithm."
-Tags = ["ethereum","pos","casper","history","research"]
+Tags = ["ethereum","pos","casper","history","research","blockchain-consensus"]
 
 ["Minimal Slashing Conditions"]
 Link = ["https://medium.com/@VitalikButerin/minimal-slashing-conditions-20f0b500fc6c"]
 Description = "Last week Yoichi released a blog post detailing the process of formally proving safety and liveness properties of my “minimal slashing conditions”. This is a key component of a Byzantine-fault-tolerant, safe-under-asynchrony and cryptoeconomically safe consensus algorithm that is at the core of my proof of stake roadmap. In this post I want to provide further details on what this algorithm is, what its significance is, and how it generally fits into proof of stake research."
-Tags = ["ethereum","pos","casper","history","research"]
+Tags = ["ethereum","pos","casper","history","research","blockchain-consensus"]
 
 ["Alpha Casper FFG Testnet Instructions"]
 Link = ["https://hackmd.io/s/Hk6UiFU7z#"]
 Description = "Welcome to the first release of the alpha Casper FFG testnet, built on pyethereum. This network represents the result of years of work on cryptoeconomic proof-of-stake and months of active development of the client, and is a fully-featured and usable network, allowing users to send transactions, mine and become validators. However, this is still several steps away from a network that will be ready for launch. Some parameters are set differently from the intended final settings, and the currently only available client, pyethereum, has a much lower processing capacity than clients implemented in faster languages; as a result, network parameters will be heavily restricted to ensure network sustainability. Do not expect performance equivalent to test networks operated by more performant clients such as Geth and Parity."
-Tags = ["ethereum","pos","casper","history","research"]
+Tags = ["ethereum","pos","casper","history","research","blockchain-consensus"]
 
 ["Ethereum Casper 101"]
 Link = ["https://medium.com/@jonchoi/ethereum-casper-101-7a851a4f1eb0"]
 Description = "tl;dr Casper will implement proof of stake in Ethereum. We begin with a review on why proof of stake matters and continue with its strengths & weaknesses. This post aims to provide a broad overview of Casper and clarify some of the confusion with respect to the two protocol design efforts related to Casper. The two proposed implementations share the same core design principle: applying cryptoeconomic mechanism design to secure the network while managing challenges regarding liveness, safety and synchrony assumptions. This post is also an overview of the progress so far and the challenges that lie ahead. Most importantly for fellow newcomers, the post identifies & defines key concepts and ties together various helpful resources under one context. The overarching intention is to make Casper and proof of stake more approachable to everyone in the community."
-Tags = ["ethereum","pos","casper","history","101"]
+Tags = ["ethereum","pos","casper","history","101","blockchain-consensus"]
 
 ["Karl Floersch - Casper Proof of Stake"]
 Link = ["https://www.youtube.com/watch?v=ycF0WFHY5kc"]
 Description = "Blockchain at Berkley CESC2017 - Karl Floersch - Casper Proof of Stake"
-Tags = ["ethereum","pos","casper","video"]
+Tags = ["ethereum","pos","casper","video","blockchain-consensus"]
 
 ["Attestation committee based full PoS chains, version 2"]
 Link = ["https://ethresear.ch/t/attestation-committee-based-full-pos-chains-version-2/2427"]
 Description = "Suppose that you have a PoS chain, where there is some validator set V, and where blocks are subdivided into epochs of length EpochLength; you want every validator to vote once in every epoch as this is important for the consensus cycle and to minimize any gains from RNG manipulation. There is a source of random entropy in the chain; suppose that the random entropy updates once per epoch. At the start of every epoch, we randomly shuffle V and partition it into slices S1...SEpochLength, each of size SSize=VEpochLength, and we split up activity into consecutive time slots T1...TEpochLength."
-Tags = ["ethereum","pos","casper","history","research"]
+Tags = ["ethereum","pos","casper","history","research","blockchain-consensus"]
 
 ["On Chain Randomness is hard — 'RANDAO beacon exploitability analysis, round 2'"]
 Link = ["https://ethresear.ch/t/randao-beacon-exploitability-analysis-round-2/1980"]
 Description = "Let us suppose that, for pure proof of stake, the main chain uses a simple RANDAO-based RNG. That is, the main chain has an internal state, R, and every validator, upon depositing, commits to the innermost value in a hash onion, H(H(H(.....S.....))); the state stores the “current commitment value” CVi for each validator Vi. To create a block, a validator Vi must include the preimage of the CVi value (call it H−1(CVi)), and the following state changes happen: (i) CVi:=H−1(CVi), (ii) R:=R xor H−1(CVi); that is, the current commitment value for that validator is set to the preimage, so next time the validator will have to unwrap another layer of the onion and reveal the preimage of that, and the preimage is incorporated into R."
 Tags = ["randomness","pos","ethereum","research","casper","history"]
 
+["A Guide to 99% Fault Tolerant Consensus"]
+Link = ["https://vitalik.ca/general/2018/08/07/99_fault_tolerant.html"]
+Description = ["We’ve heard for a long time that it’s possible to achieve consensus with 50% fault tolerance in a synchronous network where messages broadcasted by any honest node are guaranteed to be received by all other honest nodes within some known time period (if an attacker has more than 50%, they can perform a \“51% attack\”, and there’s an analogue of this for any algorithm of this type). We’ve also heard for a long time that if you want to relax the synchrony assumption, and have an algorithm that’s \“safe under asynchrony\”, the maximum achievable fault tolerance drops to 33% (PBFT, Casper FFG, etc all fall into this category). But did you know that if you add even more assumptions (specifically, you require observers, ie. users that are not actively participating in the consensus but care about its output, to also be actively watching the consensus, and not just downloading its output after the fact), you can increase fault tolerance all the way to 99%?"]
+Tags = ["blockchain-consensus","pos","research","ethereum"]
+
+["Casper Delayed till 2019 and Beyond"]
+Link = ["http://www.cointime.com/blockchain/11169.html","https://www.youtube.com/watch?v=mAs3JZHroKM"]
+Description = ["On Friday, 31 August, the 14 core developers of Ethereum decided to call on video meeting: All Core Devs Meeting, announcing 12 months delay of Casper development, while ETH block reward reduction to 2 ETH/block to maintain the stability.\n\nIn Etheruem community, the development of Casper was chosen as an important step forward from the Proof-of-Work (PoW) system to Proof-of-Stake (PoS). But now, it seems the plan has been delayed."]
+Tags = ["pos","casper","ethereum","history","blockchain-consensus"]
+
+["Bank of Canada Critique on PoS"]
+Link = ["https://www.bankofcanada.ca/wp-content/uploads/2018/07/swp2018-34.pdf"]
+Description = "We have focussed exclusively on PoW protocols to achieve consensus. Many other protocols have been discussed that try to save on the costs associated with running a blockchain. Protocols based on proof-of-stake (PoS) allocate the right to update the blockchain randomly across users. The chance of any user to win the right is linked to his stake in the system, for example, the number of units of cryptocurrency the user owns. However, these alternative systems usually do not possess a key feature of PoW: one needs to spend a large amount of resources to be successful in cheating, and being unsuccessful means that one has incurred a large, irretrievable sunk cost."
+Tags = ["regulators","pos","critique"]
