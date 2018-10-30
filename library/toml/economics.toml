@@ -73,38 +73,26 @@ Link = ["https://medium.com/coinshares/half-of-the-remaining-non-minted-bitcoin-
 Description = "Who in the world owns this stuff? And who will?\n\nThese are the 2nd and 3rd most common questions I get from legacy investors searching for mental models to project value based on future user base.\n\nWhat they are really (rightly) grasping for is potential future demand, based on the classic concept of Total Addressable Market (TAM).\n\nJust a few years back data was scarce, population surveys were rare, and the small crypto population meant that necessary sample sizes were prohibitive to conduct; but in the immortal words of Bob Dylan: “Times, they are a-changin’.”"
 Tags = ["bitcoin","vc","investing"]
 
-https://twitter.com/paul_btc/status/1031464115028586496
+["Capturing Crypto Value"]
+Link = ["https://hackernoon.com/capturing-crypto-value-part-3-3-fattening-the-protocols-dapps-9a7307b8ca35?gi=85b92b10ba33"]
+Description = "In my previous posts (part 1, part 2), I looked at various token designs that could be useful for capturing crypto value. Basically, the aim of a crypto asset should be to become a Store of Value, charge fees or confer control. I believe that whilst the SoV argument is fairly well known, the ability for a crypto system to charge fees or deliver valuable control is often disputed (\“just fork it\”)."
+Tags = ["economics","protocols","dapps"]
 
----
+["The Economic Limits of Bitcoin and the Blockchain"]
+Link = ["http://www.nber.org/papers/w24717"]
+Description = "The amount of computational power devoted to anonymous, decentralized blockchains such as Bitcoin's must simultaneously satisfy two conditions in equilibrium: (1) a zero-profit condition among miners, who engage in a rent-seeking competition for the prize associated with adding the next block to the chain; and (2) an incentive compatibility condition on the system's vulnerability to a “majority attack”, namely that the computational costs of such an attack must exceed the benefits. Together, these two equations imply that (3) the recurring, “flow”, payments to miners for running the blockchain must be large relative to the one-off, “stock”, benefits of attacking it. This is very expensive! The constraint is softer (i.e., stock versus stock) if both (i) the mining technology used to run the blockchain is both scarce and non-repurposable, and (ii) any majority attack is a “sabotage” in that it causes a collapse in the economic value of the blockchain; however, reliance on non-repurposable technology for security and vulnerability to sabotage each raise their own concerns, and point to specific collapse scenarios. In particular, the model suggests that Bitcoin would be majority attacked if it became sufficiently economically important — e.g., if it became a “store of value” akin to gold — which suggests that there are intrinsic economic limits to how economically important it can become in the first place."
+Tags = ["literature","economics","finance"]
 
-https://hackernoon.com/capturing-crypto-value-part-3-3-fattening-the-protocols-dapps-9a7307b8ca35?gi=85b92b10ba33
+["Vitalik Buterin on Cryptoeconomics and Markets in Everything (Ep. 45)"]
+Link = ["https://medium.com/conversations-with-tyler/vitalik-buterin-tyler-cowen-cryptocurrency-blockchain-tech-3a2b20c12c97"]
+Description = "At the intersection of programming, economics, cryptography, distributed systems, information theory, and math, you will find Vitalik Buterin, who has managed to synthesize insights across those fields into successful, real-world applications like Ethereum, which aims to decentralize the Internet.\n\nTyler sat down with Vitalik to discuss the many things he’s thinking about and working on, including the nascent field of cryptoeconomics, the best analogy for understanding the blockchain, his desire for more social science fiction, why belief in progress is our most useful delusion, best places to visit in time and space, how he picks up languages, why centralization’s not all bad, the best ways to value crypto assets, whether P = NP, and much more."
+Tags = ["economics","decentralization","podcast","vitalik"]
 
----
+["@NickSzabo4 on Bitcoin Economics"]
+Link = ["https://twitter.com/NickSzabo4/status/1021649790583500800"]
+Description = "Bitcoin is seamlessly global, it does not and need not conform to the ideological speculations (\"macroeconomic theories\") of particular polities."
+Tags = ["economics","bitcoin","twitter","szabo"]
 
-https://twitter.com/CryptoChoe/status/1010093279214473218
-
----
-
-Link: http://www.nber.org/papers/w24717
-Notes: The Economic Limits of Bitcoin and the Blockchain
-
----
-
-https://twitter.com/Querzel/status/960970967383240704
-
----
-
-https://twitter.com/nic__carter/status/1019778730837897216
-
----
-
-https://medium.com/conversations-with-tyler/vitalik-buterin-tyler-cowen-cryptocurrency-blockchain-tech-3a2b20c12c97
-
----
-
-https://twitter.com/NickSzabo4/status/1021649790583500800
-
----
 
 https://twitter.com/RhysLindmark/status/1023657025648119808
 
