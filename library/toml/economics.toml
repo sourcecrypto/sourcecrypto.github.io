@@ -48,21 +48,30 @@ Link = ["https://prestonbyrne.com/2017/09/01/the-bear-case-for-crypto/"]
 Description = "One of the nice things about stepping away from blockchain for a bit to get my U.S. legal qualifications in order is that I don’t have to sit through meetings or phone calls with venture capitalists anymore.\n\nFundraising sucks. With a few notable exceptions (including a very helpful Texan), I was never a huge fan of those meetings, which felt like bad Tinder dates without any alcohol, where you talk about work the entire time, and go home alone at 11:30, pour two fingers of Wild Turkey, answer ten emails and survey the desolate ruins of your social life while you listen to prog rock until two in the morning. (Not that I do that.)"
 Tags = ["vc","finance","law","economics"]
 
-https://twitter.com/twobitidiot/status/1029190840365789186
+["Fat Monies: Anti-Contrarianism in Cryptocurrency Investing"]
+Link = ["https://overcast.fm/+LDKemr4xc"]
+Description = "In a first-ever two-hour episode for Venture Stories by Village Global, Erik talks to two of the most interesting crypto thinkers around: Arjun Balaji (@arjunblj), crypto investor, trader and incubator, and Murad Mahmudov (@MustStopMurad), crypto analyst and angel investor. In this wide-ranging and mind-expanding interview, the three discuss a number of topics relating to cryptocurrencies, effects on government, economic history, and predictions for the future, among many other things including: - The arguments for Bitcoin over other cryptocurrencies and whether Bitcoin can be toppled - Why Bitcoin is less like digital gold and more like “digital nuclear weapons” - Whether Bitcoin will be “the MySpace of money” - A history of the Austrian school of economics - The impacts of hard forks on a community - How competition between monies accelerates capitalism - Whether blockchain as a technology is overrated or underrated - The parallels between cryptocurrency and the Asian construction bubble - Institutional…"
+Tags = ["podcast","economics"]
 
----
+["The Bullish Case for Bitcoin"]
+Link = ["https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1"]
+Description = "With the price of a bitcoin surging to new highs in 2017, the bullish case for investors might seem so obvious it does not need stating. Alternatively it may seem foolish to invest in a digital asset that isn’t backed by any commodity or government and whose price rise has prompted some to compare it to the tulip mania or the dot-com bubble. Neither is true; the bullish case for Bitcoin is compelling but far from obvious. There are significant risks to investing in Bitcoin, but, as I will argue, there is still an immense opportunity."
+Tags = ["bitcoin","narratives","economics"]
 
-https://blog.bitmex.com/bitcoin-economics-credit-expansion-part-1/
+["Bitcoin Economics – Credit expansion and the characteristics of money which make it possible (Part 1)"]
+Link = ["https://blog.bitmex.com/bitcoin-economics-credit-expansion-part-1/"]
+Description = "Abstract: In this piece on economics, we look at misconceptions with respect to how banks make loans and the implications this has on the ability of banks to expand the level of credit in the economy.  We analyze the inherent properties of money which ensure that this is the case and the impact this could have on the business cycle."
+Tags = ["bitcoin","economics","traditional-finance"]
 
----
+["Austrian School — RationalWIki"]
+Link = ["https://rationalwiki.org/wiki/Austrian_school"]
+Description = "Austrian economics very much has the psychology of a cult. Its devotees believe that they have access to a truth that generations of mainstream economists have somehow failed to discern; they go wild at any suggestion that maybe they're the ones who have an intellectual blind spot. And as with all cults, the failure of prophecy — in this case, the prophecy of soaring inflation from deficits and monetary expansion — only strengthens the determination of the faithful to uphold the faith. —Paul Krugman"
+Tags = ["austrian","economics","critique"]
 
-https://rationalwiki.org/wiki/Austrian_school
-
----
-
-https://medium.com/coinshares/half-of-the-remaining-non-minted-bitcoin-supply-is-spoken-for-10df2a45e45d
-
----
+["Half of the remaining non-minted Supply of Bitcoin is Spoken For"]
+Link = ["https://medium.com/coinshares/half-of-the-remaining-non-minted-bitcoin-supply-is-spoken-for-10df2a45e45d"]
+Description = "Who in the world owns this stuff? And who will?\n\nThese are the 2nd and 3rd most common questions I get from legacy investors searching for mental models to project value based on future user base.\n\nWhat they are really (rightly) grasping for is potential future demand, based on the classic concept of Total Addressable Market (TAM).\n\nJust a few years back data was scarce, population surveys were rare, and the small crypto population meant that necessary sample sizes were prohibitive to conduct; but in the immortal words of Bob Dylan: “Times, they are a-changin’.”"
+Tags = ["bitcoin","vc","investing"]
 
 https://twitter.com/paul_btc/status/1031464115028586496
 
