@@ -1,0 +1,473 @@
+["PeerCoin White Paper -2012"] 
+Link = ["https://peercoin.net/assets/paper/peercoin-paper.pdf"]
+Description = "Arguably the first coin to introduce Proof of Stake as an alternative to Proof of Work\n\nA peer-to-peer crypto-currency design derived from Satoshi Nakamoto’s Bitcoin. Proof-of-stake  replaces  proof-of-work  to  provide  most  of  the  network  security. Under  this  hybrid  design  proof-of-work  mainly  provides  initial  minting  and  is largely  non-essential  in  the  long  run.  Security  level  of  the network  is  not dependent  on  energy  consumption  in  the  long  term  thus  providing  an  energy-efficient  and  more  cost-competitive  peer-to-peer  crypto-currency.  Proof-of-stake is  based  on  coin  age  and  generated  by  each  node  via  a  hashing  scheme  bearing similarity  to  Bitcoin’s  but  over  limited  search  space.  Block  chain  history  and transaction settlement are further protected by a centrally broadcasted checkpoint mechanism. "
+Tags = ["blockchain-consensus", "pos", "history", "literature", "whitepaper", "sunny-king", "scott-nadal"]
+
+["Dan Larimer introduces Delegated Proof of Stake (DPoS) 2013"]
+Link = ["https://github.com/super3/invictus.io/blob/master/assets/pdf/TransactionsAsProofOfStake10.pdf"]
+Description = "The concept behind Proof-of-Stake is that a block chain should be secured by those with a financial interest in the chain. This paper will introduce a new approach to Proof-of-Stake that utilizes coin-days-destroyed by every transaction as a substitute for the vast majority of the security currently provided by Proof-of-Work. Unlike prior Proof-of-Stake systems in which only some nodes contribute to the proof-of-stake calculation, we present a new approach to Proof-of-Stake whereby all nodes generating transactions contribute to the security of the network. We speculate that such a network would be immune to known attacks against Bitcoin or Peercoin."
+Tags = ["blockchain-consensus", "dpos", "history", "literature", "whitepaper"]
+
+["BitShares First to use DPoS"]
+Link = ["https://bitshares.org/technology/delegated-proof-of-stake-consensus/"]
+Description = "Delegated Proof of Stake (DPOS) is the fastest, most efficient, most decentralized, and most flexible consensus model available. DPOS leverages the power of stakeholder approval voting to resolve consensus issues in a fair and democratic way. All network parameters, from fee schedules to block intervals and transaction sizes, can be tuned via elected delegates. Deterministic selection of block producers allows transactions to be confirmed in an average of just 1 second. Perhaps most importantly, the consensus protocol is designed to protect all participants against unwanted regulatory interference. "
+Tags = ["blockchain-consensus", "dpos", "history", "bitshares"]
+
+["Original bitcointalk Proof of Stake Thread: (2011) Shows the original idea of PoS and its criticisms and benefits"]
+Link = ["https://bitcointalk.org/index.php?topic=27787.0"]
+Description = "I've got an idea, and I'm wondering if it's been discussed/ripped apart here yet:\n\nI'm wondering if as bitcoins become more widely distributed, whether a transition from a proof of work based system to a proof of stake one might happen.  What I mean by proof of stake is that instead of your \"vote\" on the accepted transaction history being weighted by the share of computing resources you bring to the network, it's weighted by the number of bitcoins you can prove you own, using your private keys."
+Tags = ["pos", "blockchain-consensus", "history", "bitcointalk"]
+
+["Proof of Stake Velocity - 2014"]
+Link = ["https://www.reddcoin.com/papers/PoSV.pdf"]
+Description = "Proof of Stake Velocity (PoSV) is proposed as an alternative to Proof of Work (PoW) and Proof of Stake (PoS) to secure the peer-to-peer network and confirm transactions of Reddcoin,  a cryptocurrency created specifically to facilitate social interactions in the digital age.  PoSV is designed to encourage both ownership (Stake) and activity (Velocity) which directly correspond to the two main functions of Reddcoin as a real currency: store of value and medium of exchange.  Reddcoin can also function as the unit of account in heterogeneous social context.  The technological aspects of PoSV are presented after a detailed review of existing designs.  The economic aspects of Reddcoin are then analysed.  Finally the unique position of Reddcoin as a digital social currency in the competitive landscape of cryptocurrencies is discussed."
+Tags = ["pos", "history", "blockchain-consensus", "literature"]
+
+["PoW, PoS, & Hybrid protocols: A Matter of Complexity?"]
+Link = ["https://arxiv.org/pdf/1805.08674.pdf"]
+Description = "In a previous paper, it was discussed whether Bitcoin and/or its blockchain could be considered a complex system and, if so, whether a chaotic one, a positive response raising concerns about the likelihood of Bitcoin/blockchain entering a chaotic regime, with catastrophic consequences for  financial systems based on it. This paper intends to simplify and extend that analysis to other PoW, PoS, and hybrid protocol-based cryptocurrencies. As before, this study was carried out ith the help of Information Theory of Complex Systems, in general, and Crutchfield’s Statistical Complexity measure, in particular.  This paper is a work in progress. Whereas PoW consensus was shown to be highly noncomplex, the Nxt PoS consensus method studied shows an outstandingly higher measure of complexity, which is undesirable because it introduces unnecessary complexity into what should be a simple computational system. This paper is a work - in - progress and undoubtedly prone to incorrectness as a few cryptocurrencies may have changed their consensus algorithms. As next step, we intend to uncover some other measures that capture the qualitative notion of complexity of systems that can be applied to these cryptocurrencies to compare with the results he re obtained. As a final thought, however, considering that a certain amount of chaoticity may have been potentially introduced in the Bitcoin market by the presence of the capital gains seekers, one could wonder whether the recent surge of blockchain technology based startups, even discounting all the scam cases, could not help to reduce non-linearity and prevent chaos"
+Tags = ["pos", "pow", "history", "literature", "blockchain-consensus"]
+
+["DPOS Consensus Algorithm - The Missing White Paper"]
+Link = ["https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper"]
+Description = "This is the missing white paper and analysis of delegated proof of stake (DPOS). The goal of this paper is to provide an analysis of why DPOS works and what makes it robust. An early description of DPOS can be found at bitshares.org; however, that description also includes many aspects that are not part of the actual consensus process."
+Tags = ["blockchain-consensus", "dpos", "whitepaper"]
+
+["Variations of Proof of Stake"]
+Link = ["https://steemit.com/bitcoin/@funmemes/variations-of-proof-of-stake"]
+Description = "A dozen different types of PoS and a brief description"
+Tags = ["blockchain-consensus", "pos"]
+
+["Proof of Stake versus Proof of Work —BitFury Group 2015"]
+Link = ["https://bitfury.com/content/downloads/pos-vs-pow-1.0.2.pdf"]
+Description = "Proof of stake is a consensus mechanism for digital currencies that is an alternative to proof of work used in Bitcoin. The main declared advantages of proof of stake approaches are the absence of expensive computations and hence a lower entry barrier for block generation rewards. In this report,we examine the pros and cons of both consensus systems and show that existing implementations of proof of stake are vulnerable to attacks which are highly unlikely in Bitcoin and proof of work approaches in general."
+Tags = ["pos", "pow", "whitepaper", "blockchain-consensus"]
+
+["The Creator of Proof-of-Stake Thinks He Finally Figured It Out"]
+Link = ["https://www.coindesk.com/the-creator-of-proof-of-stake-thinks-he-finally-figured-it-out"]
+Description = "The creator of peercoin, the first proof-of-stake cryptocurrency launched in 2012, and primecoin, a cryptocurrency that achieves its security by searching for prime numbers, King is known for finding innovative ways to re-architect the technology.\n\nAnd now, he's hoping to inspire again with his new design called 'supernode proof-of-stake,' or SPoS, which requires specialized hardware to operate"
+Tags = ["sunny-king", "pos", "spos", "blockchain-consensus", "vee"]
+
+["@KyleSamani on PoS"]
+Link = ["https://twitter.com/KyleSamani/status/1039822086808592384"]
+Description = "POW-maximalists fail to recognize that an attacker in a POS system can be forked out if caught. This can be implemented by default This *dramatically* changes the cost-benefit analysis for attacking. If u assign a 5% probability 2 being caught, it becomes *much* riskier 2 attack"
+Tags = ["pos","twitter","blockchain-consensus"]
+
+["On Stake and Consensus -2015"]
+Link = ["https://download.wpsoftware.net/bitcoin/pos.pdf"]
+Description = "In 2009, Satoshi Nakamoto introduced the Bitcoin cryptocurrency[Nak09], an online currency system which allowed peer-to-peer transfer of digital tokens.  To ensure a consistent view of token ownership, Nakamoto used a public ledger which can be replicated and validated by all network participants.  To avoid a single point of failure, this ledger is authenticated using a dynamic membership multiparty signature (DMMS) consisting of an expensive (but cheaply verifiable) computation done on the entire ledger history every “heartbeat”.\nUnlike a traditional digital signature, there is no notion of “forgeability” for a DMMS. Instead, every DMMS is costly to produce (in Bitcoin, by requiring a large energy expenditure) and rewarded by introduction of new coins on the ledger.  Since these coins are only useful if others recognize them, participants are incentivized to extend one “true ledger” rather than attempting to create their own version of history"
+Tags = ["pos","blockchain-consensus","literature"]
+
+["Block Chain Mining — Proof Work & Stake"]
+Link = ["https://medium.com/@venkinarayanan/block-chain-mining-proof-work-stake-95345d8af443"]
+Description = "What does it takes to add a new transaction / record / block to the blockchain ?\n\nWhen you read any article on Bitcoin or Blockchain, you will come across this word called 'Mining'. Lets demystify that in this article and go deep to understand better the need for mining."
+Tags = ["pos","pow","blockchain-consensus","mining"]
+
+["Proof-of-Stake & the Wrong Engineering Mindset"]
+Link = ["https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2"]
+Description = "Proof-of-Stake (PoS) is all the rage these days. Ethereum Casper, Cardano Ouroboros, etc. you name it. The rising interest in PoS protocols is probably due to the desire to scale blockchains indefinitely, combined with the mistaken notion that Proof-of-Work (PoW) is somehow \“wasteful.\” (Go here for a detailed discussion on PoW).\n\nA topic not emphasized enough with PoS protocols is their lack of resilience in dealing with worst-case scenarios"
+Tags = ["pos","pow", "blockchain-consensus", "critique"]
+
+["Proof-of-Stake, Private Keys Attacks and Unforgeable Costliness the Unsung Hero"]
+Link = ["https://medium.com/@hugonguyen/proof-of-stake-private-keys-attacks-and-unforgeable-costliness-the-unsung-hero-5caca70b01cb"]
+Description = "In this article, I want to expand on worst-case scenario #3: private keys attacks.\n\nThere are 2 types of private keys attacks: old private keys attack & current private keys attack."
+Tags = ["pos", "blockchain-consensus"]
+
+["Blockchain Without Waste: Proof-of-Stake"]
+Link = ["https://pdfs.semanticscholar.org/d873/a75502e45e1791cd6fc8d1ce670e1337063a.pdf"]
+Description = "blockchain constitutes a distributed ledger that records transactions across a network  of  agents.   Blockchain’s  value  proposition  requires  that  agents  eventually  agree on the ledger’s contents since payments possess risk otherwise.  Restricted blockchains ensure this consensus by appointing a central authority to dictate payment validity.  Permissionless blockchains (e.g.  Bitcoin, Ethereum), however, admit no central authority and  therefore  face  a  non-trivial  issue  of  inducing  consensus  endogenously.   Nakamoto (2008) provided a temporary solution to the problem by invoking an economic mechanism known as Proof-of-Work (PoW). PoW, however, lacks sustainability, so, in recent years,  a  variety  of  alternatives  have  been  proposed.   This  paper  studies  the  most  famous such alternative, Proof-of-Stake (PoS). I provide the first formal economic model of  PoS and  demonstrate  that PoS induces  consensus  in equilibrium.   My result  arises because I endogenize blockchain coin prices.  Propagating disagreement introduces risk and thereby reduces blockchain coin value which implies that stake-holders face an implicit cost from delaying consensus.  PoS randomly selects a stake-holder to update the blockchain and provides her an explicit monetary incentive, a “block reward,” for her service.  In the event of disagreement, block rewards constitute a perverse incentive, but I demonstrate that restricting updating ability to large stake-holders induces an equilibrium in which consensus obtains as soon as possible.  I also demonstrate that consensus obtains eventually almost surely in any equilibrium so long as the blockchain employs a modest block reward schedule.  My work reveals the economic viability of permissionless blockchains."
+Tags = ["pos", "blockchain-consensus"]
+
+["Formal Barriers to Longest-Chain Proof-of-Stake Protocols"]
+Link = ["https://ethresear.ch/t/formal-barriers-to-longest-chain-proof-of-stake-protocols/3509","https://cyber.stanford.edu/sites/default/files/formal_barriers_to_proof-of-stake_protocols.pdf", "https://arxiv.org/pdf/1809.06528.pdf"]
+Description = "Not sure if these papers should be posted to this forum (my instinct is that they should!), but trying it as an experiment (instead of just discussing on Twitter).\n\nAt a conceptual level, the barriers stem from the following: all cryptocurrencies require some source of (pseudo)randomness. In Proof-of-Work, this pseudorandomness is in some sense external to the cryptocurrency: the first miner to successfully find a good nonce produces the next block, and this miner is selected completely independently of the current state of the cryptocurrency. In Proof-of-Stake, it is highly desirable that the pseudorandomness comes from within the cryptocurrency itself, versus an external source (due to network security concerns discussed in Section 2). One might initially suspect that with sufficiently many hashes or digital signatures of past blocks, this can indeed serve as a good source of pseudorandomness for future blocks. However, we formalize surprising barriers showing a fundamental difference between external pseudorandomness and pseudorandomness coming from the cryptocurrency itself."
+Tags = ["pos","casper","ethresear", "ethereum","blockchain-consensus"]
+
+["PoS Still Pointless"]
+Link = ["http://www.truthcoin.info/blog/pos-still-pointless/"]
+Description = "I go line-by-line against Vitalik’s Proof of Stake FAQ. PoS is still just as expensive as PoW (but it may have different security features)."
+Tags = ["pos","ethereum", "blockchain-consensus", "critique"]
+
+["Ethereum PoS FAQs"]
+Link = ["https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs"]
+Description = "Proof of Stake (PoS) is a category of consensus algorithms for public blockchains that depend on a validator's economic stake in the network. In proof of work (PoW) based public blockchains (e.g. Bitcoin and the current implementation of Ethereum), the algorithm rewards participants who solve cryptographic puzzles in order to validate transactions and create new blocks (i.e. mining). In PoS-based public blockchains (e.g. Ethereum's upcoming Casper implementation), a set of validators take turns proposing and voting on the next block, and the weight of each validator's vote depends on the size of its deposit (i.e. stake). Significant advantages of PoS include security, reduced risk of centralization, and energy efficiency."
+Tags = ["pos", "blockchain-consensus", "ethereum"]
+
+["Critique of Buterins Proof of Stake Design Philosophy"]
+Link = ["https://medium.com/@tuurdemeester/critique-of-buterins-a-proof-of-stake-design-philosophy-49fc9ebb36c6"]
+Description = "In this article, I take issue with several of the claims made by Vitalik Buterin in his Dec 2016 article “A Proof of Stake Design Philosophy”. My hope is that it sparks debate about proof-of-stake’s high level design and about the proposed future of the Ethereum protocol."
+Tags = ["pos","blockchain-consensus","ethereum", "critique"]
+
+["A Proof of Stake Design Philosophy"]
+Link = ["https://medium.com/@VitalikButerin/a-proof-of-stake-design-philaosophy-506585978d51"]
+Description = "Systems like Ethereum (and Bitcoin, and NXT, and Bitshares, etc) are a fundamentally new class of cryptoeconomic organisms — decentralized, jurisdictionless entities that exist entirely in cyberspace, maintained by a combination of cryptography, economics and social consensus. They are kind of like BitTorrent, but they are also not like BitTorrent, as BitTorrent has no concept of state — a distinction that turns out to be crucially important. They are sometimes described as decentralized autonomous corporations, but they are also not quite corporations — you can’t hard fork Microsoft. They are kind of like open source software projects, but they are not quite that either — you can fork a blockchain, but not quite as easily as you can fork OpenOffice."
+Tags = ["pos", "blockchain-consensus", "ethereuem"]
+
+["Nothing is Cheaper than Proof of Work"]
+Link = ["http://www.truthcoin.info/blog/pow-cheapest/"]
+Description = "I previously wrote a post on proof of work (PoW) and mining. The first half generated great interest but (apparently) failed to be universally persuasive. For example, CCRG (Ethereum’s multi-million dollar funded \“research\” organization) consists almost entirely of academics theorizing about proof of stake (PoS)."
+Tags = ["pos","critique","pow","blockchain-consensus"]
+
+["PoW, PoS and DAGs are NOT consensus protocols"]
+Link = ["https://medium.com/coinmonks/a-primer-on-blockchain-design-89605b287a5a", "https://ipfs.io/ipfs/QmRTAWtm3ThoT54cmkXYgYNrKoTQPTwoczJCJa8EEp26RL"]
+Description = "The much hyped concepts of Proof-Of-Work, Proof-of-Stake and Directed Acyclic Graphs are often mistakenly advertised as “consensus protocols”. Neither of them are, but rather address the key challenges of a robust blockchain design: Sybil resistance and asynchronicity."
+Tags = ["consensus-algorithms", "blockchain-consensus","pow","pos","dpos","dag"]
+
+["Work is Timeless Stake is Not"]
+Link = ["https://medium.com/@hugonguyen/work-is-timeless-stake-is-not-554c4450ce18"]
+Description = "There are many ways to slice and dice PoS and uncover its weaknesses... But perhaps one of the simplest ways to look at PoS is through the lenses of Time, which I alluded to in my series, but want to expand on here."
+Tags = ["blockchain-consensus", "pos", "critique"]
+
+["Twitter Threads of PoS Criticism"]
+Link = ["https://twitter.com/zooko/status/1045774342942908416", "https://twitter.com/eric_lombrozo/status/1045916707821408256", "https://twitter.com/nic__carter/status/1045804073256177664","https://twitter.com/nic__carter/status/1041844862612590593"]
+Description = "A few threads that all tie into the one @zooko started:\n\nHey tweeps, what's the best resource on the fundamental/conceptual/economic problems with Proof-of-Stake? asking for a friend"
+Tags = ["blockchain-consensus", "pos", "critique", "twitter"]
+
+["Stake Pools in Cardano"]
+Link = ["https://iohk.io/blog/stake-pools-in-cardano/"]
+Description = "In a proof of stake (PoS) blockchain protocol, the ledger is maintained by the stakeholders that hold assets in that ledger. This allows PoS blockchains to use less energy compared with proof of work (PoW) or other types of blockchain protocols. Nevertheless, this requirement imposes a burden on stakeholders. It requires a good number of them to be online and maintain sufficiently good network connectivity that they can collect transactions and have their PoS blocks reach the others without substantial network delays. It follows that any PoS ledger would benefit from reliable server nodes that hold stake and focus on maintenance."
+Tags = ["blockchain-consensus", "pos", "cardano", "stake-pools", "literature"]
+
+["Compounding of Wealth in Proof-of-Stake Cryptocurrencies"]
+Link = ["https://arxiv.org/pdf/1809.07468.pdf"]
+Description = "Abstract. Proof-of-stake (PoS) is a promising approach for designing efficient blockchains, where block proposers are randomly chosen with probability proportional to their stake. A primary concern with PoS systems is the “rich getting richer” phenomenon, whereby wealthier nodes are more likely to get elected, and hence reap the block reward, making them even wealthier. In this paper, we introduce the notion of equitability, which quantifies how much a proposer can amplify her stake compared to her initial investment. Even with everyone following protocol (i.e., honest behavior), we show that existing methods of allocating block rewards lead to poor equitability, as does initializing systems with small stake pools and/or large rewards relative to the stake pool. We identify a geometric reward function, which we prove is maximally equitable over all choices of reward functions under honest behavior and bound the deviation for strategic actions; the proofs involve the study of optimization problems and stochastic  dominances  of  P ́olya  urn  processes,  and  are  of  independent  mathematical  interest.  These results allow us to provide a systematic framework to choose the parameters of a practical incentive system for PoS cryptocurrencies."
+Tags = ["literature","pos","blockchain-consensus"]
+
+["PoS Coins List"]
+Link = ["https://www.poslist.org/"]
+Description = "List of Proof of Stake coins"
+Tags = ["blockchain-consensus", "pos", "coins"]
+
+["Evolution of Energy-Free Consensus: From POS to SPOS"]
+Link = ["https://vee.tech/pdf/spos.pdf"]
+Description = "performance-oriented proof-of-stake consensus called Supernode Proof-of-Stake Consensus with the features of constant interval block minting, cold minting and stake liquidity has been designed for the VEE blockchain platform.  We also describe the lineage and differences to the original Proof-of-Stake Consensus introduced by Peercoin in 2012."
+Tags = ["blockchain-consensus","pos","spos"]
+
+["Blockchain is Easy, We just need to use it like a Database —Sunny King"]
+Link = ["https://www.forbes.com/sites/ginaclarke/2018/10/16/proof-of-stake-guru-sunny-king-blockchain-is-easy-we-just-need-to-use-it-like-a-database/#7cfc9b691c04"]
+Description = "The creator of Proof-of-Stake, Sunny King, has been working on a blockchain database cloud that has been dubbed the “supernode proof-of-stake” or SPoS. The project is designed to work in conjunction with a Hong Kong-based project, Virtual Economy Era (VEE), and is determined to crack the European blockchain market."
+Tags = ["vee", "sunny-king", "spos", "blockchain-consensus"]
+
+["Pros and Cons of DPoS"]
+Link = ["https://www.verypossible.com/blog/pros-and-cons-of-the-delegated-proof-of-stake-consensus-model"]
+Description = "\“[Delegated Proof-of-Stake] is a bit reminiscent of a reality tv show. Mess with the community, and you are most likely to get voted off. It’s democracy on the blockchain!\” — Ryan Smith at CoinCentral"
+Tags = ["dpos", "blockchain-consensus"]
+
+["Proof of Stake - en.bitcoinwiki"]
+Link = ["https://en.bitcoinwiki.org/wiki/Proof-of-stake"]
+Description = "Proof of stake(PoS) is a method of securing a cryptocurrency network through requesting users to show ownership of a certain amount of currency. It is different from proof-of-work systems that run hashing algorithms to validate electronic transactions. It is most commonly used as a supplement to proof-of-work in Peercoin and a few other electronic currencies. "
+Tags = ["pos", "blockchain-consensus"]
+
+["Blockchain Consensus Encyclopedia"]
+Link = ["https://tokens-economy.gitbook.io/consensus/"]
+Description = "More than 67 Blockchain Consensus described."
+Tags = ["pos", "blockchain-consensus", "pow", "dpos"]
+
+["Casper Proof of Stake Compendium"]
+Link = ["https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium"]
+Description = "Casper Proof of Stake compendium — Ethereum Wiki"
+Tags = ["ethereum", "casper", "pos"]
+
+["What is Proof of Stake?"]
+Link = ["https://hackernoon.com/what-is-proof-of-stake-8e0433018256"]
+Description = "The proof of stake system is attracting a lot of attention these days, with Ethereum switching over to this system from the proof of work system. Proof of stake is an alternative process for transaction verification on a blockchain. It is increasing in popularity and being adopted by several cryptocurrencies. To understand proof of stake, it is important to have a basic idea of proof of work. As of this writing, the proof of work method is used by Bitcoin, Ethereum and most other major cryptocurrencies."
+Tags = ["blockchain-consensus","pos"]
+
+["Cardano Settlement Layer Documentation —Ouroboros Proof of Stake Algorithm"]
+Link = ["https://cardanodocs.com/cardano/proof-of-stake/"]
+Description = "The Ouroboros Proof of Stake (PoS) Algorithm is the most important part of the protocol. It defines the way in which nodes reach consensus about the state of ledger.\n\nOuroboros is unique as it is the first blockchain protocol that is based on proof of stake and has been scientifically proven as secure."
+Tags = ["pos", "cardano","ouroboros","blockchain-consensus"]
+
+["Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol"]
+Link = ["https://eprint.iacr.org/2016/889.pdf"]
+Description = "We  present  \“Ouroboros\”,  the  first  blockchain  protocol  based  on proof  of  stake with  rigorous  security  guarantees.   We  establish  security  properties  for  the  protocol  comparable  to those achieved by the bitcoin blockchain protocol.  As the protocol provides a \“proof of stake\” blockchain discipline, it offers qualitative efficiency advantages over blockchains based on proof of physical resources (e.g., proof of work).  We also present a novel reward mechanism for incentivizing Proof of Stake protocols and we prove that, given this mechanism, honest behavior is an approximate Nash equilibrium, thus neutralizing attacks such as selfish mining.  We also present initial evidence of the practicality of our protocol in real world settings by providing experimental results on transaction confirmation and processing"
+Tags = ["pos", "cardano","ouroboros","blockchain-consensus", "literature"]
+
+["Proof-of-Stake is a Rebranded Version of the Old Financial System"]
+Link = ["https://news.bitcoin.com/proof-of-stake-is-a-rebranded-version-of-the-old-financial-system/"]
+Description = "Over the last few years, there’s been a lot of projects, both public and private, that are attempting to create a next-generation blockchain or something better than Satoshi’s Bitcoin. A great majority of these projects have condemned proof-of-work (PoW) cryptocurrencies because they think they waste resources, and many of these new blockchains have chosen to use a proof-of-stake (PoS) system. However, PoS has many flaws and introduces a distribution process that advocates an ugly planned economy that’s propagated by ancient thinking and basically the old banking system."
+Tags = ["pos","critique","blockchain-consensus"]
+
+["Why is PoW\PoS associated with consensus mechanism\algorithm"]
+Link = ["https://ethereum.stackexchange.com/questions/42754/why-is-proof-of-work-proof-of-stake-associated-with-consensus-mechanisms-algori/61349#61349"]
+Description = "Many often associate Proof of Work, Proof of Stake, etc with blockchain consensus algorithm/mechanisms.\n\nI find that association to be inaccurate. Yes, proof of work / proof of stake are mechanisms by which leaders are elected to validate transactions. It is a crucial part in building consensus but not the only thing. For example, in bitcoin blockchain, the longest chain wins -- this to me is also considered as a crucial part in building consensus across the nodes."
+Tags = ["pos","pos","blockchain-consensus"]
+
+["PoW is Efficient"]
+Link = ["https://blog.picks.co/pow-is-efficient-aa3d442754d3"]
+Description = "Most people think #Bitcoin’s PoW is “wasteful.” In this article, I explore how everything is energy, money is energy, energy usage is subjective, and PoW’s energy costs relative to existing governance systems.* This article is a collection of direct thoughts from many individuals in the space — my value add was in the aggregation, distillation, and combination of narratives."
+Tags = ["pow", "blockchain-consensus"]
+
+["From Casper FFG to Full Casper Chain"]
+Link = ["https://medium.com/ethereums-transition-from-casper-ffg-to-beacon/from-casper-ffg-to-full-casper-chain-cbd522751a7e"]
+Description = ["Casper the Friendly Finality Gadget was Ethereum’s first approach towards a Proof-of-Stake(PoS) based consensus system and was formally specified in EIP1011. Casper FFG was designed as a smart contract existing on top of the Proof-of-Work(PoW) chain. The following chapter describes the process flow of the deprecated Casper FFG solution. It is an optional read, so please feel free to go straight to the chapter \“What is the problem?\""]
+Tags = ["casper", "pos", "ethereum","blockchain-consensus"]
+
+["@VitalikButerin 75 tweet—storm on History of Casper Reserach"]
+Link = ["https://twitter.com/VitalikButerin/status/1029900695925706753","https://www.computerworld.com/article/3299697/blockchain/what-vitalik-buterin-tweetstorm-means-for-future-ethereum-blockchain.html","https://medium.com/futuresin/ethereum-casper-update-vitalik-buterins-tweet-storm-2f916dceb72b"]
+Description = "1. Today I am going to make a tweet storm explaining the history and state of Ethereum's Casper research, including the FFG vs CBC wars, the hybrid => full switch, the role of randomness, mechanism design issues, and more."
+Tags = ["ethereum","casper","pos","blockchain-consensus","twitter", "history"]
+
+["Casper the Friendly Finality Gadget"]
+Link = ["https://arxiv.org/pdf/1710.09437.pdf"]
+Description = "We introduce Casper, a proof of stake-based finality system which overlays an existing proof of work blockchain. Casper is a partial consensus mechanism combining proof of stake algorithm research and Byzantine fault tolerant consensus theory. We introduce our system, prove some desirable features, and show defenses against long range revisions and catastrophic crashes. The Casper overlay provides almost any proof of work chain with additional protections against block reversions."
+Tags = ["ethereum","casper","literature","pos","blockchain-consensus"]
+
+["Slasher: A Punitive Proof-of-Stake Algorithm—2014"]
+Link = ["https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/","https://twitter.com/VitalikButerin/status/1029900794353483776"]
+Description = "This was the beginning of PoS Research The purpose of this post is not to say that Ethereum will be using Slasher in place of Dagger as its main mining function. Rather, Slasher is a useful construct to have in our war chest in case proof of stake mining becomes substantially more popular or a compelling reason is provided to switch. Slasher may also benefit other cryptocurrencies that wish to exist independently of Ethereum. Special thanks to tacotime for some inspiration, and for Jack Walker for improvement suggestions."
+Tags = ["ethereum","pos", "history","blockchain-consensus"]
+
+["History of Casper —Part 1"]
+Link = ["https://medium.com/@Vlad_Zamfir/the-history-of-casper-part-1-59233819c9a9"]
+Description = "Vitalik suggested last week that I share my basic research and design philosophy in a blog post, I agreed but complained that it was still changing. My friend Jon West told me that everyone would really appreciate it if I told everyone about my Casper research, I mostly agreed. Then someone on reddit told me to focus on Ethereum.\n\nSo here’s the Casper tech story, given as a chronological history of the evolution of the key technology, ideas and language that are involved in “Casper research”. Many of our favorite blockchain personalities are part of the story. This is my attempt to recount everything in an accessible, sequential way so that you can see where we are now (and where we’re going) with our research efforts (so don’t argue until the end of the story!). I’m going to try to release a chapter per day until it’s complete."
+Tags = ["ethereum","pos","casper","history","blockchain-consensus"]
+
+["History of Casper —Part 2"]
+Link = ["https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-2-8e09b9d3b780"]
+Description = "This chapter describes the game theory and economic security modelling we were doing in the Fall of 2014. It recounts how the “bribing attacker model” led our research directly to a radical solution to the long range attack problem."
+Tags = ["ethereum","pos","casper","history","blockchain-consensus"]
+
+["History of Casper —Part 3"]
+Link = ["https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-3-70fefb1182fc"]
+Description = "This chapter describes our proof-of-stake research during the period starting after the discovery of the solution to the long-range attack problem and ending when we first became aware of the existence and relevance of traditional, pre-blockchain consensus research.\n\nThis “wild west” period is characterized by wide experimentation, exploration, and ignorance. Much of this chapter is therefore a collection of relatively disorganized protocol ideas. The period’s end is marked by my getting kicked out of a Financial Cryptography mailing list, and by my consequently learning about (and immediately becoming a fan of) Jae Kwon’s Tendermint."
+Tags = ["ethereum","pos","casper","history","blockchain-consensus"]
+
+["History of Casper —Part 4"]
+Link = ["https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-4-3855638b5f0e"]
+Description = "This chapter describes the events that led to a fundamental change in our economic modeling assumptions. These changes represent the foundation of the methodologies that underlie the analysis and architecture that we are working hard to develop at the Ethereum research team (at least for the Casper and Sharding efforts). The design philosophy presented in this chapter (imho) strongly differentiates the work we’re doing at Ethereum from the work being done by every other project in the space."
+Tags = ["ethereum","pos","casper","history","blockchain-consensus"]
+
+["History of Casper —Part 5"]
+Link = ["https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-5-8652959cef58"]
+Description = "In this chapter I recount the story of Casper’s birth as an application of the principles of Aviv Zohar and Jonatan Sompolinsky’s GHOST to proof-of-stake.\n\nI called it “the friendly ghost” because of incentives designed to guarantee censorship resistance against the oligopolists: incentives that force the cartel to be friendly to non-cartel validators."
+Tags = ["ethereum","pos","casper","history","blockchain-consensus"]
+
+["Understanding Serenity —Part 2 Casper"]
+Link = ["https://blog.ethereum.org/2015/12/28/understanding-serenity-part-2-casper/","https://twitter.com/VitalikButerin/status/1029902353703391233"]
+Description = "In the last post in this series, we discussed one of the two flagship feature sets of Serenity: a heightened degree of abstraction that greatly increases the flexibility of the platform and takes a large step in moving Ethereum from \"Bitcoin plus Turing-complete\" to \"general-purpose decentralized computation\". Now, let us turn our attention to the other flagship feature, and the one for which the Serenity milestone was originally created: the Casper proof of stake algorithm."
+Tags = ["ethereum","pos","casper","history","research","blockchain-consensus"]
+
+["Minimal Slashing Conditions"]
+Link = ["https://medium.com/@VitalikButerin/minimal-slashing-conditions-20f0b500fc6c"]
+Description = "Last week Yoichi released a blog post detailing the process of formally proving safety and liveness properties of my “minimal slashing conditions”. This is a key component of a Byzantine-fault-tolerant, safe-under-asynchrony and cryptoeconomically safe consensus algorithm that is at the core of my proof of stake roadmap. In this post I want to provide further details on what this algorithm is, what its significance is, and how it generally fits into proof of stake research."
+Tags = ["ethereum","pos","casper","history","research","blockchain-consensus"]
+
+["Alpha Casper FFG Testnet Instructions"]
+Link = ["https://hackmd.io/s/Hk6UiFU7z#"]
+Description = "Welcome to the first release of the alpha Casper FFG testnet, built on pyethereum. This network represents the result of years of work on cryptoeconomic proof-of-stake and months of active development of the client, and is a fully-featured and usable network, allowing users to send transactions, mine and become validators. However, this is still several steps away from a network that will be ready for launch. Some parameters are set differently from the intended final settings, and the currently only available client, pyethereum, has a much lower processing capacity than clients implemented in faster languages; as a result, network parameters will be heavily restricted to ensure network sustainability. Do not expect performance equivalent to test networks operated by more performant clients such as Geth and Parity."
+Tags = ["ethereum","pos","casper","history","research","blockchain-consensus"]
+
+["Ethereum Casper 101"]
+Link = ["https://medium.com/@jonchoi/ethereum-casper-101-7a851a4f1eb0"]
+Description = "tl;dr Casper will implement proof of stake in Ethereum. We begin with a review on why proof of stake matters and continue with its strengths & weaknesses. This post aims to provide a broad overview of Casper and clarify some of the confusion with respect to the two protocol design efforts related to Casper. The two proposed implementations share the same core design principle: applying cryptoeconomic mechanism design to secure the network while managing challenges regarding liveness, safety and synchrony assumptions. This post is also an overview of the progress so far and the challenges that lie ahead. Most importantly for fellow newcomers, the post identifies & defines key concepts and ties together various helpful resources under one context. The overarching intention is to make Casper and proof of stake more approachable to everyone in the community."
+Tags = ["ethereum","pos","casper","history","101","blockchain-consensus"]
+
+["Karl Floersch - Casper Proof of Stake"]
+Link = ["https://www.youtube.com/watch?v=ycF0WFHY5kc"]
+Description = "Blockchain at Berkley CESC2017 - Karl Floersch - Casper Proof of Stake"
+Tags = ["ethereum","pos","casper","video","blockchain-consensus"]
+
+["Attestation committee based full PoS chains, version 2"]
+Link = ["https://ethresear.ch/t/attestation-committee-based-full-pos-chains-version-2/2427"]
+Description = "Suppose that you have a PoS chain, where there is some validator set V, and where blocks are subdivided into epochs of length EpochLength; you want every validator to vote once in every epoch as this is important for the consensus cycle and to minimize any gains from RNG manipulation. There is a source of random entropy in the chain; suppose that the random entropy updates once per epoch. At the start of every epoch, we randomly shuffle V and partition it into slices S1...SEpochLength, each of size SSize=VEpochLength, and we split up activity into consecutive time slots T1...TEpochLength."
+Tags = ["ethereum","pos","casper","history","research","blockchain-consensus"]
+
+["On Chain Randomness is hard — 'RANDAO beacon exploitability analysis, round 2'"]
+Link = ["https://ethresear.ch/t/randao-beacon-exploitability-analysis-round-2/1980"]
+Description = "Let us suppose that, for pure proof of stake, the main chain uses a simple RANDAO-based RNG. That is, the main chain has an internal state, R, and every validator, upon depositing, commits to the innermost value in a hash onion, H(H(H(.....S.....))); the state stores the “current commitment value” CVi for each validator Vi. To create a block, a validator Vi must include the preimage of the CVi value (call it H−1(CVi)), and the following state changes happen: (i) CVi:=H−1(CVi), (ii) R:=R xor H−1(CVi); that is, the current commitment value for that validator is set to the preimage, so next time the validator will have to unwrap another layer of the onion and reveal the preimage of that, and the preimage is incorporated into R."
+Tags = ["randomness","pos","ethereum","research","casper","history"]
+
+["A Guide to 99% Fault Tolerant Consensus"]
+Link = ["https://vitalik.ca/general/2018/08/07/99_fault_tolerant.html","https://cryptodisrupt.com/vitalik-proposes-1-consensus-algorithm/"]
+Description = ["We’ve heard for a long time that it’s possible to achieve consensus with 50% fault tolerance in a synchronous network where messages broadcasted by any honest node are guaranteed to be received by all other honest nodes within some known time period (if an attacker has more than 50%, they can perform a \“51% attack\”, and there’s an analogue of this for any algorithm of this type). We’ve also heard for a long time that if you want to relax the synchrony assumption, and have an algorithm that’s \“safe under asynchrony\”, the maximum achievable fault tolerance drops to 33% (PBFT, Casper FFG, etc all fall into this category). But did you know that if you add even more assumptions (specifically, you require observers, ie. users that are not actively participating in the consensus but care about its output, to also be actively watching the consensus, and not just downloading its output after the fact), you can increase fault tolerance all the way to 99%?"]
+Tags = ["blockchain-consensus","pos","research","ethereum"]
+
+["Casper Delayed till 2019 and Beyond"]
+Link = ["http://www.cointime.com/blockchain/11169.html","https://www.youtube.com/watch?v=mAs3JZHroKM"]
+Description = ["On Friday, 31 August, the 14 core developers of Ethereum decided to call on video meeting: All Core Devs Meeting, announcing 12 months delay of Casper development, while ETH block reward reduction to 2 ETH/block to maintain the stability.\n\nIn Etheruem community, the development of Casper was chosen as an important step forward from the Proof-of-Work (PoW) system to Proof-of-Stake (PoS). But now, it seems the plan has been delayed."]
+Tags = ["pos","casper","ethereum","history","blockchain-consensus"]
+
+["Bank of Canada Critique on PoS"]
+Link = ["https://www.bankofcanada.ca/wp-content/uploads/2018/07/swp2018-34.pdf"]
+Description = "We have focussed exclusively on PoW protocols to achieve consensus. Many other protocols have been discussed that try to save on the costs associated with running a blockchain. Protocols based on proof-of-stake (PoS) allocate the right to update the blockchain randomly across users. The chance of any user to win the right is linked to his stake in the system, for example, the number of units of cryptocurrency the user owns. However, these alternative systems usually do not possess a key feature of PoW: one needs to spend a large amount of resources to be successful in cheating, and being unsuccessful means that one has incurred a large, irretrievable sunk cost."
+Tags = ["regulators","pos","critique"]
+
+["Proof of Stake and the History of Distributed Consensus: Part 1, Nakamoto Consensus, Byzantine Fault Tolerance, Hybrid Consensus, Thunderella"]
+Link = ["https://medium.com/thunderofficial/proof-of-stake-and-the-history-of-distributed-consensus-part-1-nakamoto-consensus-byzantine-176e0156316e"]
+Description = "The Historical Context of Hybrid Consensus\n\nAt present, Blockchains threaten to disrupt major industries like finance, law, and computing. Bitcoin was a technological breakthrough that brought people together by allowing them to achieve decentralized and censorship-resistant money.\n\nBitcoin constituted a serious technological advance as the first distributed system simultaneously able to tolerate pure permissionless consensus in the presence of up to 50% Byzantine faults, be totally ordered, DoS resistant, Sybil resistant, and use incentives to encourage honest participation. It provided a simple and elegant way to have a decentralized and truly permissionless distributed system."
+Tags = ["blockchain-consensus", "hybrid-consensus","pos","history","consensus"]
+
+["Ethereum Roadmap Update (2018) Casper & Sharding Release Date"]
+Link = "https://www.mangoresearch.co/ethereum-roadmap-update/?1"
+Description = "The most recent Ethereum update has several people confused. I don’t blame them. Crucial updates are found buried in the comment section across various forums. It's hard to keep up. \n\nIn this post, I will attempt to clear out any confusion in regard to the  recent Ethereum roadmap updates, the expected ETH PoS date.\n\nNote: This has been updated as of October 1st 2018– and a lot may change from now. Further down in this article we discuss ethereum's casper release date estimations and why the release of POS has been pushed back."
+Tags = ["ethereum","roadmap","casper","pos","sharding"]
+
+["Proof of Elapsed Time"]
+Link = ["http://i2c.cs.uh.edu/tiki-download_wiki_attachment.php?attId=70"]
+Description = "As more applications are built on top of blockchain and public ledger, different approaches are developed to improve the performance of blockchain construction. Recently Intel proposed a new concept of proofof-elapsed-time (PoET), which leverages trusted computing to enforce random waiting times for block construction. However, trusted computing component may not be perfect and 100% reliable. It is not clear, to what extent, blockchain systems based on PoET can tolerate failures of trusted computing component. The current design of PoET lacks rigorous security analysis and a theoretical foundation for assessing its strength against such attacks. To fulfill this gap, we develop a theoretical framework for evaluating a PoET based blockchain system, and show that the current design is vulnerable in the sense that adversary can jeopardize the blockchain system by only compromising Θ(log log n/ log n) fraction of the participating nodes, which is very small when n is relatively large. Based on our theoretical analysis, we also propose methods to mitigate these vulnerabilities."
+Tags = ["hyperledger","sawtooth","poet","blockchain-consensus","literature"]
+
+["Proof of Stake Velocity"]
+Link = ["https://www.reddcoin.com/papers/PoSV.pdf"]
+Description = "Proof of Stake Velocity (PoSV) is proposed as an alternative to Proof of Work (PoW) and Proof of Stake (PoS) to secure the peer-to-peer network and confirm transactions of Reddcoin, a cryptocurrency created specifically to facilitate social interactions in the digital age. PoSV is designed to encourage both ownership (Stake) and activity (Velocity) which directly correspond to the two main functions of Reddcoin as a real currency: store of value and medium of exchange. Reddcoin can also function as the unit of account in heterogeneous social context. The technological aspects of PoSV are presented after a detailed review of existing designs. The economic aspects of Reddcoin are then analysed. Finally the unique position of Reddcoin as a digital social currency in the competitive landscape of cryptocurrencies is discussed."
+Tags = ["posv", "pos","blockchain-consensus","reddcoin","literature"]
+
+["Rational Proofs of Space Time"]
+Link = ["https://eprint.iacr.org/2016/035.pdf"]
+Description = "We introduce a new cryptographic primitive: Proofs of Space-Time (PoSTs) and construct a practical protocol for implementing these proofs. A PoST allows a prover to convince a verifier that she spent a \“space-time\” resource (storing data—space—over a period of time). Formally, we define the PoST resource as a trade-off between CPU work and space-time (under reasonable cost assumptions, a rational user will prefer to use the lower-cost space-time resource over CPU work).\nCompared to a proof-of-work, a PoST requires less energy use, as the \“difficulty\” can be increased by extending the time period over which data is stored without increasing computation costs. Our definition is very similar to \“Proofs of Space\” but, unlike the previous definitions, takes into account amortization attacks and storage duration. Moreover, our protocol uses a very different (and simpler) technique, making use of the fact that we explicitly allow a space-time tradeoff, and doesn’t require any non-standard assumptions (beyond random oracles)."
+Tags = ["literature","blockchain-consensus","post"]
+
+["Proof of Burn"]
+Link = ["https://en.bitcoin.it/wiki/Proof_of_burn"]
+Description = "Proof of burn is a method for distributed consensus and an alternative to Proof of Work and Proof of Stake. It can also be used for bootstrapping one cryptocurrency off of another. \n\nThe idea is that miners should show proof that they burned some coins - that is, sent them to a verifiably unspendable address. This is expensive from their individual point of view, just like proof of work; but it consumes no resources other than the burned underlying asset. To date, all proof of burn cryptocurrencies work by burning proof-of-work-mined cryptocurrencies, so the ultimate source of scarcity remains the proof-of-work-mined 'fuel'"
+Tags = ["blockchain-consensus"]
+
+["Practical Byzantine Fault Tolerance"]
+Link = ["http://pmg.csail.mit.edu/papers/osdi99.pdf"]
+Description = "This paper describes a new replication algorithm that is able to tolerate Byzantine faults. We believe that Byzantinefault-tolerant algorithms will be increasingly important in the future because malicious attacks and software errors are increasingly common and can cause faulty nodes to exhibit arbitrary behavior. Whereas previous algorithms assumed a synchronous system or were too slow to be used in practice, the algorithm described in this paper is practical: it works in asynchronous environments like the Internet and incorporates several important optimizations that improve the response time of previous algorithms by more than an order of magnitude. We implemented a Byzantine-fault-tolerant NFS service using our algorithm and measured its performance. The results show that ourservice is only 3% slower than a standard unreplicated NFS."
+Tags = ["consensus","literature"]
+
+["Ethereum Proof of Authority on Azure"]
+Link = ["https://azure.microsoft.com/en-us/blog/ethereum-proof-of-authority-on-azure/"]
+Description = ""
+Tags = ["blockchain-consensus","poa","permissioned","ethereum"]
+
+["Proof of Authority"]
+Link = ["https://blockonomi.com/proof-of-authority/"]
+Description = "First, PoA was proposed by a group of developers in March 2017 (the term was coined by Gavin Wood) as a blockchain based on the Ethereum protocol. It was developed primarily as a solution to the problem of spam attacks on Ethereum’s Ropsten test network. The new network was named Kovan and is a primary test network available to all Ethereum users today.\n\nPoA consensus is essentially an optimized Proof of Stake model that leverages identity as the form of stake rather than actually staking tokens. The identity is staked by a group of validators (authorities) that are pre-approved to validate transactions and blocks within the respective network. The group of validators is usually supposed to remain fairly small (~25 or less) in order to ensure efficiency and manageable security of the network."
+Tags = ["ethereum","poa","permissioned","blockchain-consensus"]
+
+["Gravity —Pt.1"]
+Link = ["https://medium.com/@laurentmt/gravity-10e1a25d2ab2"]
+Description = "In the last years, a lot has been written about the “huge waste of energy” resulting from Bitcoin’s Proof of Work (PoW). In this series of four posts, we‘re going to challenge this widespread opinion by questioning the main metrics used to highlight the alleged increasing inefficiency of Bitcoin’s PoW.\n\nIn this first part, we‘ll first discuss the main utility of PoW in the Bitcoin protocol. Then, after a reminder of two important properties of Bitcoin’s PoW, we’ll define a mathematical formalization of this utility (Bitcoin.Days Secured) and we’ll use it to define two new metrics (Unit Cost and Average Cost). At last, we’ll check what these metrics can teach us about the evolution of the efficiency of Bitcoin’s PoW over time."
+Tags = ["pow","blockchain-consensus","bitcoin"]
+
+["The Yin and Yang of Bitcoin —Pt.2"]
+Link = ["https://medium.com/@laurentmt/the-yin-and-yang-of-bitcoin-bf056f3fd58c"]
+Description = "In the second part of this series, we’re going to define a new metrics called the Price-Performance Ratio of Bitcoin’s PoW (PPR). Our goal will be to analyze the evolution of the actual efficiency of the system and to identify the factors driving its dynamics.\n\nAfter having defined this new metrics, we will first witness its \“surprising\” correlation with the bitcoin’s market price. Going a bit further in our analysis, we’ll study the role played by hodling and mining. We’ll then focus on a “strange” pattern displayed by the metrics (resistance levels) before concluding with an observation about the existence of PPR cycles."
+Tags = ["pow","bitcoin","blockchain-consensus"]
+
+["Cliffhangers —Pt.3"]
+Link = ["https://medium.com/@laurentmt/cliffhangers-cb87ed47124e"]
+Description = "In the previous parts of this series, we’ve started to investigate the efficiency of Bitcoin’s PoW. In this third part, we’re going to focus on a slightly different question: \“Is the system running at its optimum ?\”.\n\nFor this, we’ll first underline some points related to the effects of an increasing hashrate and we’ll introduce the Satoshi’s cliff, a 3D visualization illustrating the diminishing marginal security provided by older blocks. Then, we’ll define what could be considered as the theoretical optimum of the system and we’ll wonder how far is the system from this optimum. At last, we’ll conclude with a few thoughts about the diverging paths followed by Bitcoin and Bitcoin Cash."
+Tags = ["pow","bitcoin","blockchain-consensus"]
+
+["Electric Money —Pt.4"]
+Link = ["https://medium.com/@laurentmt/electric-money-e2cd34f78f56"]
+Description = "a short discussion about the total cost of Bitcoin’s PoW. It will offer us the opportunity to introduce another fundamental property of PoW which makes it truly unique."
+Tags = ["pow","blockchain-consensus", "bitcoin"]
+
+["Proofs of Space"]
+Link = ["https://eprint.iacr.org/2013/796.pdf"]
+Description = "Abstract. Proofs of work (PoW) have been suggested by Dwork and Naor (Crypto’92) as protection to a shared resource. The basic idea is to ask the service requestor to dedicate some non-trivial amount of computational work to every request. The original applications included prevention of spam and protection against denial of service attacks. More recently, PoWs have been used to prevent double spending in the Bitcoin digital currency system. In this work, we put forward an alternative concept for PoWs – so-called proofs of space (PoS), where a service requestor must dedicate a significant amount of disk space as opposed to computation. We construct secure PoS schemes in the random oracle model (with one additional mild assumption required for the proof to go through), using graphs with high “pebbling complexity” and Merkle hash-trees. We discuss some applications, including follow-up work where a decentralized digital currency scheme called Spacecoin is constructed that uses PoS (instead of wasteful PoW like in Bitcoin) to prevent double spending.\n\nThe main technical contribution of this work is the construction of (directed, loop-free) graphs on N vertices with in-degree O(log log N) such that even if one places Θ(N) pebbles on the nodes of the graph, there’s a constant fraction of nodes that needs Θ(N) steps to be pebbled (where in every step one can put a pebble on a node if all its parents have a pebble)"
+Tags = ["proof-of-space","blockchain-consensus"]
+
+["Finality in Blockchain Consensus"]
+Link = ["https://medium.com/mechanism-labs/finality-in-blockchain-consensus-d1f83c120a9a"]
+Description = "In the blockchain setting, finality is the affirmation that all well-formed blocks will not be revoked once committed to the blockchain. When users transact, they want to be confident that once their transactions go through, that the transactions cannot be arbitrarily changed or reversed. As such, in designing a blockchain consensus protocol, finality becomes vital. In current Nakamoto consensus based systems, 51% attacks and selfish mining threaten the health of the system by allowing the possibility for blocks to be revoked (eg. if a malicious actor is able to accumulate 51% of mining power, they can conduct a double spend attack). These protocols offer probabilistic finality, while others can guarantee absolute finality."
+Tags = ["pos","blockchain-consensus"]
+
+["Consensus Compare Casper vs Tendermint"]
+Link = ["https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae"]
+Description = "The keystone problem that all this research that’s been done in Proof-of-Stake forms around the question: Can we achieve the same level of security as a Proof-of-Work (PoW) system like Bitcoin while not depleting physical scarce resources to do it? Proof-of-Stake (PoS), i.e., when voting power is denominated in a native currency rather than hashpower, has been the leading class of research attempting to answer this question. Widely debated problems in blockchain over scalability, high overhead costs of running PoW miners, and environmental externalities all motivate the pouring of considerable resources into PoS security research."
+Tags = ["pos","blockchain-consensus","casper","tendermint"]
+
+["Understanding the Basics of a Proof-of-Stake Security Model"]
+Link = ["https://blog.cosmos.network/understanding-the-basics-of-a-proof-of-stake-security-model-de3b3e160710"]
+Description = "At the core of every distributed fault-tolerant system is the fundamental problem of ensuring that all remote processes within said systems arrive at the same conclusion. This is known as requiring ‘consensus’ among participants. In completely reliable, controlled environments where faulty processes are tightly monitored and swiftly corrected, reaching consensus is straightforward. Real world decentralized protocols, however, are subject to significantly more arbitrary failures, requiring much higher reliability guarantees in order to be useful, much less secure. As Ethan Buchman at Cosmos puts it, distributed consensus mechanisms must \“make a reliable system from unreliable parts.\”"
+Tags = ["pos","blockchain-consensus","101"]
+
+["Randomness in Blockchains"]
+Link = ["https://medium.com/mechanism-labs/randomness-in-blockchains-part-1-79192b173816"]
+Description = "Randomness plays a huge role in privacy technologies and cryptography. It is amazing how randomly generated value XORed with a message provides a simple yet powerful encryption scheme. Even the simplest form of private communication between two parties (i.e. symmetric key encryption where the parties share a key in advance) requires the shared key to be random. If this shared key isn’t random, then the encryption isn’t useful anymore because anyone can determine the key if they knew the function and decrypt the message."
+Tags = ["randomness"]
+
+["Different Types of Consensus Algorithms"]
+Link = ["https://pbs.twimg.com/media/Dn5gIkxUwAAoUo2.jpg"]
+Description = "Chart describing different types of blockchain conensus"
+Tags = ["image","blockchain-consensus"]
+
+["A MetaAnalysis of Proposed Alternative Consensus Protocols for Blockchains"]
+Link = ["https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols/blob/master/MetaAnalysis.pdf","https://docs.google.com/spreadsheets/u/3/d/1IW5AuFQtL4z34HgIZrqpcVfZPnOiifsc3xmA9KIef6I/htmlview"]
+Description = "Abstract—Blockchain technology has been gaining popularity in the public, in industry, and in academia. However, these systems are currently limited in their ability to support robust, large-scale applications due to scalability and security challenges [12]. A fundamental step to resolving some of these challenges lies in the blockchain consensus layer. As such, both industry and academia are heavily investing in alternative consensus research and development, seeking alternatives to Bitcoin’s Nakamoto consensus. Many of these protocols favor Proof of Stake (PoS) as a Sybil control mechanism to today’s Proof of Work (PoW) [15]. However, thus far there has been no comprehensive, rigorous comparison of these alternative consensus protocols. This paper presents a systematization of knowledge within these major blockchain protocols, understanding the common challenges and solutions, and providing a formal structure within which to compare them. We break down these protocols by network, adversarial, and economic model, deeply understanding the common challenges of choosing proposers and committees, propagation, and finality"
+Tags = ["tendermint","thunderella","algorand", "dfinity", "ouroboros", "casper","pos","research","literature"]
+
+
+https://medium.com/@avivzohar/the-spectre-protocol-7dbbebb707b5
+infominer9/29/2018, 1:27:24 AM
+
+https://eprint.iacr.org/2018/104.pdf
+infominer9/29/2018, 1:27:37 AM
+
+PHANTOM, GHOSTDAG: Two Scalable BlockDAG protocols
+infominer9/29/2018, 1:28:03 AM
+
+https://softwareengineeringdaily.com/2018/03/26/consensus-systems-with-ethan-buchman/
+infominer9/29/2018, 1:28:18 AM
+
+https://www.skycoin.net/blog/statement/obelisk-consensus-algorithm-design-motivations/
+infominer9/29/2018, 1:28:34 AM
+
+https://medium.com/the-daily-bit/9-types-of-consensus-mechanisms-that-you-didnt-know-about-49ec365179da
+infominer9/29/2018, 1:29:19 AM
+
+https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3
+infominer9/29/2018, 1:31:44 AM
+
+https://medium.com/@jaybny/on-proof-of-skill-6af149f45ce8
+infominer9/29/2018, 1:31:59 AM
+
+https://blog.singularitynet.io/singularitynet-moves-toward-social-computing-with-proof-of-reputation-14df7c6618f
+infominer9/29/2018, 1:32:56 AM
+
+https://medium.com/polkadot-network/consensus-and-finality-in-blockchains-21b1f634fd00
+infominer9/29/2018, 1:33:20 AM
+
+https://medium.com/polkadot-network/grandpa-block-finality-in-polkadot-an-introduction-part-1-d08a24a021b5
+infominer9/29/2018, 1:33:46 AM
+
+https://blog.p2pfoundation.net/holochain-vs-hashgraph-and-when-is-consensus-needed-in-distributed-computing/2018/09/25
+infominer9/29/2018, 1:35:17 AM
+
+https://www.reddit.com/r/CryptoTechnology/comments/7znnq8/my_brief_observation_of_most_common_consensus/?utm_source=reddit-android
+infominer10/7/2018, 4:54:01 AM
+
+https://blockchainlibrary.org/2017/10/most-cited-byzantine-consensus-publications/
+infominer10/8/2018, 1:40:05 AM
+
+https://zmnscpxj.github.io/sidechain/mainstake/index.html
+infominer10/8/2018, 1:40:39 AM
+
+Proof-of-mainstake is a sidechain proposal similar to a federated peg, with the federation membership determined by a stake of coins on the mainchain (i.e. the mainstake). As the name suggests, it is similar to proof-of-stake in that staked coins are used to indicate a controlling interest.
+infominer10/8/2018, 5:53:21 AM
+
+PeerCoin White Paper: https://peercoin.net/assets/paper/peercoin-paper.pdf - Arguably the first coin to introduce Proof of Stake as an alternative to Proof of Work for distributed consensus.
+BitShares: https://bitshares.org/technology/delegated-proof-of-stake-consensus/- First coin (that I know of) to use delegated Proof of Stake consensus
+Proof of Stake Thread: https://bitcointalk.org/index.php?topic=27787.0 Shows the original idea of PoS and its criticisms and benefits
+infominer10/8/2018, 6:02:15 AM
+
+https://hackernoon.com/proof-of-work-vs-proof-of-something-else-272d2f5cf20a
+infominer10/8/2018, 8:02:14 AM
+
+https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2
+infominer10/9/2018, 7:22:19 PM
+
+https://blog.chorus.one/classifying-staking-implementations-a-framework/
+infominer10/12/2018, 3:30:10 PM
+
+https://github.com/dgryski/awesome-consensus
+infominer10/12/2018, 4:35:09 PM
+
+https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/proof-of-stake_resources.html
+infominer10/12/2018, 4:36:53 PM
+
+https://bitshares.org/technology/delegated-proof-of-stake-consensus/
+infominer10/12/2018, 5:52:24 PM
+
+https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f
+infominer10/12/2018, 5:54:46 PM
+
+https://medium.com/imbrexblog/web-3-consensus-mechanisms-2dcfb7bfaadb
+infominer10/12/2018, 6:00:38 PM
+Download Snowflake_to_Avalanche_A_Novel_Metastable_Consensus_Protocol_Family.pdf
