@@ -214,7 +214,7 @@ Description = "We introduce Casper, a proof of stake-based finality system which
 Tags = ["ethereum","casper","literature","pos","blockchain-consensus"]
 
 ["Slasher: A Punitive Proof-of-Stake Algorithm—2014"]
-Link = ["https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/","https://twitter.com/VitalikButerin/status/1029900794353483776"]
+Link = ["https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/","https://blog.ethereum.org/2014/10/03/slasher-ghost-developments-proof-stake/","https://twitter.com/VitalikButerin/status/1029900794353483776"]
 Description = "This was the beginning of PoS Research The purpose of this post is not to say that Ethereum will be using Slasher in place of Dagger as its main mining function. Rather, Slasher is a useful construct to have in our war chest in case proof of stake mining becomes substantially more popular or a compelling reason is provided to switch. Slasher may also benefit other cryptocurrencies that wish to exist independently of Ethereum. Special thanks to tacotime for some inspiration, and for Jack Walker for improvement suggestions."
 Tags = ["ethereum","pos", "history","blockchain-consensus"]
 
@@ -406,7 +406,7 @@ Tags = ["blockchain-consensus","literature","pow","dag"]
 ["Consensus Systems with Ethan Buchman"]
 Link = ["https://softwareengineeringdaily.com/2018/03/26/consensus-systems-with-ethan-buchman/"]
 Description = "Consensus protocols are used to allow computers to work together. A consensus protocol lets different servers agree on the state of a system. For decades, these protocols have been used to establish consensus among database nodes, application servers, and other infrastructure that runs within an enterprise. More recently, new consensus protocols have been invented to allow cryptoeconomic systems to agree on the state of a financial system.\n\nThe first cryptoeconomic consensus protocol to reach wide adoption was Nakamoto consensus–the proof-of-work system used for consensus of Bitcoin. Since then, other systems have been developed, with different tradeoffs in security, speed, and formal verifiability."
-Tags = ["blockchain-consensus", "podcast"]
+Tags = ["blockchain-consensus", "podcast", "tendermint", "history"]
 
 ["Obelisk Consensus Algorithm Design Motivations"]
 Link = ["https://www.skycoin.net/blog/statement/obelisk-consensus-algorithm-design-motivations/"]
@@ -503,7 +503,27 @@ Link = ["https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwrRVGV"]
 Description = "This paper introduces a new family of leaderless Byzantine fault tolerance protocols, built on a metastable mechanism. These protocols provide a strong probabilistic safety guarantee in the presence of Byzantine adversaries, while their concurrent nature enables them to achieve high throughput and scalability. Unlike blockchains that rely on proof-of-work, they are quiescent and green. Surprisingly, unlike traditional consensus protocols which require..."
 Tags = ["literature","avalanche","blockchain-consensus"]
 
-[""]
-Link = ["https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/proof-of-stake_resources.html"]
-Description = ""
-Tags = [""]
+["On Stake—Vitalik Buterin 2014"]
+Link = ["https://blog.ethereum.org/2014/07/05/stake/"]
+Description = "The topic of mining centralization has been a very important one over the past few weeks. GHASH.io, the Bitcoin network’s largest mining pool, has for the past month directed over 40% of the Bitcoin network’s hashpower, and two weeks ago briefly spiked over 50%, theoretically giving it monopoly control over the Bitcoin network. Although miners quidkly left the pool and reduced its hashpower to 35%, it’s clear that the problem is not solved. At the same time, ASICs threaten to further centralize the very production . One approach to solving the problem is the one I advocated in my previous post: create a mining algorithm that is guaranteed to remain CPU-friendly in the long term. Another, however, is to abolish mining entirely, and replace it with a new model for seeking consensus."
+Tags = ["pos","history","ethereum","casper"]
+
+["Proof of Stake: How I Learned to Love Weak Subjectivity"]
+Link = ["https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/"]
+Description = ["Proof of stake continues to be one of the most controversial discussions in the cryptocurrency space. Although the idea has many undeniable benefits, including efficiency, a larger security margin and future-proof immunity to hardware centralization concerns, proof of stake algorithms tend to be substantially more complex than proof of work-based alternatives, and there is a large amount of skepticism that proof of stake can work at all, particularly with regard to the supposedly fundamental "nothing at stake" problem. As it turns out, however, the problems are solvable, and one can make a rigorous argument that proof of stake, with all its benefits, can be made to be successful - but at a moderate cost. The purpose of this post will be to explain exactly what this cost is, and how its impact can be minimized."]
+Tags = ["pos","history","ethereum","casper"]
+
+["Understanding Serenity — Part I Abstraction"]
+Link = ["https://blog.ethereum.org/2015/12/24/understanding-serenity-part-i-abstraction/"]
+Description = "Serenity is intended to have two major feature sets: abstraction, a concept that I initially expanded on in this blog post here, and Casper, our security-deposit-based proof of stake algorithm. Additionally, we are exploring the idea of adding at least the scaffolding that will allow for the smooth deployment over time of our scalability proposals, and at the same time completely resolve parallelizability concerns brought up here - an instant very large gain for private blockchain instances of Ethereum with nodes being run in massively multi-core dedicated servers, and even the public chain may see a 2-5x improvement in scalability. Over the past few months, research on Casper and formalization of scalability and abstraction (eg. with EIP 101) have been progressing at a rapid pace between myself, Vlad Zamfir, Lucius Greg Meredith and a few others, and now I am happy to announce that the first proof of concept release for Serenity, albeit in a very limited form suitable only for testing, is now available."
+Tags = ["pos","history","ethereum","casper"]
+
+["Understanding Serenity, Part 2: Casper"]
+Link = ["https://blog.ethereum.org/2015/12/28/understanding-serenity-part-2-casper/"]
+Description = "The keystone mechanism of Casper is the introduction of a fundamentally new philosophy in the field of public economic consensus: the concept of consensus-by-bet. The core idea of consensus-by-bet is simple: the protocol offers opportunities for validators to bet against the protocol on which blocks are going to be finalized. A bet on some block X in this context is a transaction which, by protocol rules, gives the validator a reward of Y coins (which are simply printed to give to the validator out of thin air, hence \"against the protocol\") in all universes in which block X was processed but which gives the validator a penalty of Z coins (which are destroyed) in all universes in which block X was not processed."
+Tags = ["pos","history","ethereum","casper"]
+
+["Casper 0.1 specification notes"]
+Link = ["https://docs.google.com/document/d/1Xf_iHGI51Lp6nVHPZo0SdUw60-NA6YJUvk2s-eYaxLE/edit#"]
+Description = "Casper is a proof of stake consensus algorithm, which employs the following principles:\n\nSecurity deposits: stakeholders place security deposits behind blocks. A security deposit placed behind any block can be introduced as a transaction into an incompatible block in order to destroy the validator’s security deposit. A block is only considered \“finalized\” when some large percentage of validators make security deposits behind it.\nConsensus by bet: the concept of security deposits is philosophically extended into a concept of \“bets\”; a bet in a proof of stake system is a transaction which, by in-consensus incentivization rules, gives you X extra coins in every chain that contains the block you bet on in exchange for taking away Y coins in every chain that does not contain that block. Essentially, it constitutes “placing down one’s stake” and claiming that “this block will succeed with at least probability Y/(X+Y)”. The allowable values for X and Y should be set by a proper scoring rule. The principle of Casper is that validators bet based on what other validators are betting, and rational play in this game is a positive feedback loop and so leads to rapid consensus. “Finality” is defined by ⅔ of validators being willing to make a bet on a block large enough that Y is equal to their entire deposit.\nBy-block consensus: vote yes/no on each block height separately; the inclusion of a block does NOT imply inclusion of any particular block at any previous height"
+Tags = ["pos","ethereum","casper"]
