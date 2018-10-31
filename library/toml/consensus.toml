@@ -393,81 +393,117 @@ Link = ["https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus
 Description = "Abstract—Blockchain technology has been gaining popularity in the public, in industry, and in academia. However, these systems are currently limited in their ability to support robust, large-scale applications due to scalability and security challenges [12]. A fundamental step to resolving some of these challenges lies in the blockchain consensus layer. As such, both industry and academia are heavily investing in alternative consensus research and development, seeking alternatives to Bitcoin’s Nakamoto consensus. Many of these protocols favor Proof of Stake (PoS) as a Sybil control mechanism to today’s Proof of Work (PoW) [15]. However, thus far there has been no comprehensive, rigorous comparison of these alternative consensus protocols. This paper presents a systematization of knowledge within these major blockchain protocols, understanding the common challenges and solutions, and providing a formal structure within which to compare them. We break down these protocols by network, adversarial, and economic model, deeply understanding the common challenges of choosing proposers and committees, propagation, and finality"
 Tags = ["tendermint","thunderella","algorand", "dfinity", "ouroboros", "casper","pos","research","literature"]
 
+["SPECTRE: Serialization of Proof-of-Work Events, Confirming Transactions via Recursive Elections"]
+Link = ["https://eprint.iacr.org/2016/1159.pdf","https://medium.com/@avivzohar/the-spectre-protocol-7dbbebb707b5"]
+Description = "Bitcoin utilizes the Nakamoto Consensus to achieve agreement on a consistent set of transactions, in the permissionless setting, where anyone can participate in the protocol anonymously. Since its rise, many other permissionless consensus protocols have been proposed. We present SPECTRE, a new protocol for the consensus core of cryptocurrencies that remains secure even under high throughput and fast confirmation times. At any throughput, SPECTRE is resilient to attackers with up to 50% of the computational power (reaching the limit defined by network congestion and bandwidth constraints). SPECTRE can operate at arbitrarily high block creation rates, which implies that its transactions confirm in mere seconds (limited mostly by the round-trip-time in the network).\n\nSPECTRE’s underlying model falls into the category of partial synchronous networks: its security depends on the existence of some bound on the delivery time of messages between honest participants, but the protocol itself does not contain any parameter that depends on this bound. Hence, while other protocols that do encode such parameters must operate with extreme safety margins, SPECTRE converges according to the actual network delay.\n\nKey to SPECTRE’s achievements is the fact that it satisfies weaker properties than classic consensus requires. In the conventional paradigm, the order between any two transactions must be decided and agreed upon by all non-corrupt nodes. In contrast, SPECTRE only satisfies this with respect to transactions performed by honest users. We observe that in the context of money, two conflicting payments that are published concurrently could only have been created by a dishonest user, hence we can afford to delay the acceptance of such transactions without harming the usability of the system. Our framework formalizes this weaker set of requirements for a cryptocurrency’s distributed ledger. We then provide a formal proof that SPECTRE satisfies these requirements."
+Tags = ["blockchain-consensus","literature","pow","dag"]
 
-https://medium.com/@avivzohar/the-spectre-protocol-7dbbebb707b5
-infominer9/29/2018, 1:27:24 AM
+["PHANTOM, GHOSTDAG"]
+Link = ["https://eprint.iacr.org/2018/104.pdf"]
+Description = "In this paper we present PHANTOM, a PoW based protocol for a permissionless ledger that generalizes Nakamoto’s blockchain to a direct acyclic graph of blocks (blockDAG). PHANTOM includes a parameter k that controls the level of tolerance of the protocol to blocks that were created concurrently, which can be set to accommodate higher throughput. It thus avoids the security-scalability tradeoff which Satoshi’s protocol suffers from. \n\nPHANTOM uses a greedy algorithm on the blockDAG to distinguish between blocks mined properly by honest nodes and those that created by non-cooperating nodes who chose to deviate from the mining protocol. Using this distinction, PHANTOM provides a robust total order on the blockDAG in a way that is eventually agreed upon by all honest nodes."
+Tags = ["blockchain-consensus","literature","pow","dag"]
 
-https://eprint.iacr.org/2018/104.pdf
-infominer9/29/2018, 1:27:37 AM
+["Consensus Systems with Ethan Buchman"]
+Link = ["https://softwareengineeringdaily.com/2018/03/26/consensus-systems-with-ethan-buchman/"]
+Description = "Consensus protocols are used to allow computers to work together. A consensus protocol lets different servers agree on the state of a system. For decades, these protocols have been used to establish consensus among database nodes, application servers, and other infrastructure that runs within an enterprise. More recently, new consensus protocols have been invented to allow cryptoeconomic systems to agree on the state of a financial system.\n\nThe first cryptoeconomic consensus protocol to reach wide adoption was Nakamoto consensus–the proof-of-work system used for consensus of Bitcoin. Since then, other systems have been developed, with different tradeoffs in security, speed, and formal verifiability."
+Tags = ["blockchain-consensus", "podcast"]
 
-PHANTOM, GHOSTDAG: Two Scalable BlockDAG protocols
-infominer9/29/2018, 1:28:03 AM
+["Obelisk Consensus Algorithm Design Motivations"]
+Link = ["https://www.skycoin.net/blog/statement/obelisk-consensus-algorithm-design-motivations/"]
+Description = "The consensus mechanism is outside of the blockchain. Obelisk nodes (which will probably will be implemented as a Skywire service) have a blockchain. Each node has a public key. The public key identifies the Obelisk node. Each Obelisk node has its own blockchain (there are no coins in this chain). The node creates a new block and signs it with its private key. The Obelisk blockchains are used to negotiate consensus (determining the head block in the Skycoin blockchain). Obelisk uses Ben-Or’s for randomized consensus. Each Obelisk node has a list of other nodes it subscribes to. Those nodes influence consensus and voting decisions for the local node. For non-pathological network topologies, the local consensus provably converges in to a global consensus."
+Tags = ["obelisk","hybrid-pos", "research"]
 
-https://softwareengineeringdaily.com/2018/03/26/consensus-systems-with-ethan-buchman/
-infominer9/29/2018, 1:28:18 AM
+["9 types of Consensus Mechanisms that you didn't know about"]
+Link = ["https://medium.com/the-daily-bit/9-types-of-consensus-mechanisms-that-you-didnt-know-about-49ec365179da"]
+Description = "Over the next several days, we’ll be taking a closer look at some of the lesser known consensus mechanisms that are used in blockchain networks. After breaking down the features of each, we’ll pivot to a case study (or two) of them in use. Good? Let’s begin.\n\nFrom the top — what is a consensus mechanism?"
+Tags = ["blockchain-consensus","101"]
 
-https://www.skycoin.net/blog/statement/obelisk-consensus-algorithm-design-motivations/
-infominer9/29/2018, 1:28:34 AM
+["Hitchhikers Guide to Consensus Algorithms"]
+Link = ["https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3"]
+Description = "Don’t Panic. Behind every great cryptocurrency, there’s a great consensus algorithm. No consensus algorithm is perfect, but they each have their strengths. In the world of crypto, consensus algorithms exist to prevent double spending. Here’s a quick rundown on some of the most popular consensus algorithms to date, from Blockchains to DAGs and everything in-between."
+Tags = ["blockchain-consensus","101"]
 
-https://medium.com/the-daily-bit/9-types-of-consensus-mechanisms-that-you-didnt-know-about-49ec365179da
-infominer9/29/2018, 1:29:19 AM
+["Proof-of-Skill Decentralized Consensus"]
+Link = ["https://medium.com/@jaybny/on-proof-of-skill-6af149f45ce8"]
+Description = "Thus far, all proposed alternatives to Proof-of-Work have failed to live up to expectations. Leaving many in the bitcoin community convinced that this is a fools errand, and react to any mention of Proof-of-Stake with a roll-of-eyes and loss of attention.\n\nThis post will first breakdown blockchain consensus algorithms and come up with properties and a framework needed for reaching decentralized consensus. With a key finding being the need for data from outside the blockchain to be known inside."
+Tags = ["proof-of-skill", "blockchain-consensus"]
 
-https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3
-infominer9/29/2018, 1:31:44 AM
+["SingularityNET Moves Toward Social Computing With Proof-of-Reputation"]
+Link = ["https://blog.singularitynet.io/singularitynet-moves-toward-social-computing-with-proof-of-reputation-14df7c6618f"]
+Description = "SingularityNET team has designed a Proof-of-Reputation consensus. Our latest design features two breakthroughs:\n\nIt can accurately aggregate ratings while preventing users from gaming the system. A unique property of our design is its iterative calculation of hierarchical reputation trees in sliding temporal windows. Primarily, it makes reputations of nodes in a network bound to reputations of other nodes providing the ratings, combined with actual values of economical interactions between nodes. Proper tuning of system parameters should make it possible for two things to happen. First, newcomers can get on social elevators and attract attention to high quality services. Second, the reputation system should prevent intruders from gaming it and taking over the consensus.\n\nIt’s adaptable, with the long-term potential of replacing Proof-of-Work and Proof-of-Stake consensuses. Evaluated reputations within our design can be used for different purposes. On one hand, the best providers of AI services and algorithms can be selected based on accumulated ratings. At the same time, reputations could be used to supply reliable consensus for underlying blockchain or hash-graph systems, potentially replacing legacy Proof-of-Work and Proof-of-Stake consensuses."
+Tags = ["blockchain-consensus"]
 
-https://medium.com/@jaybny/on-proof-of-skill-6af149f45ce8
-infominer9/29/2018, 1:31:59 AM
+["Holochain vs. Hashgraph …and when is consensus needed in distributed computing"]
+Link = ["https://blog.p2pfoundation.net/holochain-vs-hashgraph-and-when-is-consensus-needed-in-distributed-computing/2018/09/25"]
+Description = "Hashgraph has been getting some press and many are excited about the speeds they promise and some of the videos and demonstrations they’ve shared. It is one of the closest innovations to Holochain that I’ve seen come out by people starting from a blockchain mindset. However, from my completely biased perspective, there are still a few gaps."
+Tags = ["holochain","hashgraph","blockchain-consensus"]
 
-https://blog.singularitynet.io/singularitynet-moves-toward-social-computing-with-proof-of-reputation-14df7c6618f
-infominer9/29/2018, 1:32:56 AM
+["My brief observation of (26) most common Consensus Algorithms"]
+Link = ["https://www.reddit.com/r/CryptoTechnology/comments/7znnq8/my_brief_observation_of_most_common_consensus/"]
+Description = "I have studied most common consensus algorithms. Here is the summary, maybe for someone it will be helpful. My goal is to describe every specific consensus briefly so everyone can easily understand it. *Please let me know if I have wrote something wrong, or maybe you are aware of interesting algorithm, I have missed."
+Tags = ["blockchain-consensus"]
 
-https://medium.com/polkadot-network/consensus-and-finality-in-blockchains-21b1f634fd00
-infominer9/29/2018, 1:33:20 AM
+["Most Cited Byzantine Consensus Publications"]
+Link = ["https://blockchainlibrary.org/2017/10/most-cited-byzantine-consensus-publications/"]
+Description = "The blockchain library orders Byzantine Consensus literature by how often it's been cited"
+Tags = ["consensus", "byzantine"]
 
-https://medium.com/polkadot-network/grandpa-block-finality-in-polkadot-an-introduction-part-1-d08a24a021b5
-infominer9/29/2018, 1:33:46 AM
+["Proof-of-mainstake"]
+Link = ["https://zmnscpxj.github.io/sidechain/mainstake/index.html"]
+Description = "Proof-of-mainstake is a sidechain proposal similar to a federated peg, with the federation membership determined by a stake of coins on the mainchain (i.e. the mainstake). As the name suggests, it is similar to proof-of-stake in that staked coins are used to indicate a controlling interest."
+Tags = ["blockchain-consensus"]
 
-https://blog.p2pfoundation.net/holochain-vs-hashgraph-and-when-is-consensus-needed-in-distributed-computing/2018/09/25
-infominer9/29/2018, 1:35:17 AM
+["Proof of Work vs Proof of Something Else"]
+Link = ["https://hackernoon.com/proof-of-work-vs-proof-of-something-else-272d2f5cf20a"]
+Description = "Zoom out of time for a while and imagine how the antlers of a magnificent moose buck evolved into being. The main purpose of big antlers is to impress potential mates by the way. They’re somewhat akin to the feathers of a peacock or the shroud of any male bird for that matter. The animal is trying to signal that it can thrive in its environment despite its enormous appendage. These are all evolutionary metaphors of course, the animal itself is probably unaware that it’s signalling anything. For such antlers to come into being, a whole lot of moose specimen will have to die early, or at least not get a chance to reproduce, over thousands of generations. A lot of resources wasted in other words. All of this for the animal to prove its value to potential spouses. Therefore, from the moose’s point of view, those resources were not wasted.\n\nThe Proof of Work algorithm in Bitcoin does a similar thing."
+Tags = ["pow", "blockchain-consensus"]
 
-https://www.reddit.com/r/CryptoTechnology/comments/7znnq8/my_brief_observation_of_most_common_consensus/?utm_source=reddit-android
-infominer10/7/2018, 4:54:01 AM
+["Classifying Staking Implementations — A framework"]
+Link = ["https://blog.chorus.one/classifying-staking-implementations-a-framework/"]
+Description = "It has been 6 years since the idea of Proof-of-Stake (PoS) was first proposed by the Peercoin project. An eternity in blockchain time. Yet large projects like Ethereum and Cosmos are taking years to launch their own PoS-based chains, with timelines delaying over and over. People understandably wonder: why is it so hard for these experts to implement PoS when there already seem to be PoS networks running, like those based on Delegated Proof-of-Stake (DPoS)? Adding to the confusion is that staking is a loosely defined term that comes in many, rapidly multiplying, forms."
+Tags = ["blockchain-consensus","pos"]
 
-https://blockchainlibrary.org/2017/10/most-cited-byzantine-consensus-publications/
-infominer10/8/2018, 1:40:05 AM
+["A Thorough Introduction to Distributed Systems"]
+Link = ["https://hackernoon.com/a-thorough-introduction-to-distributed-systems-3b91562c9b3c"]
+Description = "With the ever-growing technological expansion of the world, distributed systems are becoming more and more widespread. They are a vast and complex field of study in computer science.\n\nThis article aims to introduce you to distributed systems in a basic manner, showing you a glimpse of the different categories of such systems while not diving deep into the details."
+Tags = ["distributed-systems"]
 
-https://zmnscpxj.github.io/sidechain/mainstake/index.html
-infominer10/8/2018, 1:40:39 AM
+["awesome-distributed-systems"]
+Link = ["https://github.com/theanalyst/awesome-distributed-systems"]
+Description = "A (hopefully) curated list on awesome material on distributed systems, inspired by other awesome frameworks like awesome-python. Most links will tend to be readings on architecture itself rather than code itself."
+Tags = ["literature", "awesome", "distributed-systems"]
 
-Proof-of-mainstake is a sidechain proposal similar to a federated peg, with the federation membership determined by a stake of coins on the mainchain (i.e. the mainstake). As the name suggests, it is similar to proof-of-stake in that staked coins are used to indicate a controlling interest.
-infominer10/8/2018, 5:53:21 AM
+["Awesome Consensus"]
+Link = ["https://github.com/dgryski/awesome-consensus"]
+Description = "A curated selection of artisanal consensus algorithms and hand-crafted distributed lock services."
+Tags = ["consensus", "distributed-systems", "awesome"]
 
-PeerCoin White Paper: https://peercoin.net/assets/paper/peercoin-paper.pdf - Arguably the first coin to introduce Proof of Stake as an alternative to Proof of Work for distributed consensus.
-BitShares: https://bitshares.org/technology/delegated-proof-of-stake-consensus/- First coin (that I know of) to use delegated Proof of Stake consensus
-Proof of Stake Thread: https://bitcointalk.org/index.php?topic=27787.0 Shows the original idea of PoS and its criticisms and benefits
-infominer10/8/2018, 6:02:15 AM
+["Simpler consensus with Raft"]
+Link = ["http://www.goodmath.org/blog/2015/02/14/simpler-consensus-with-raft/"]
+Description = "A few weeks ago, I wrote about Paxos, which is (at least in my experience), the most widely used algorithm for consensus in distributed systems. I’m a huge fan of Paxos – I think that it’s a remarkably elegant system.\n\nBut Paxos does have its problem."
+Tags = ["consensus"]
 
-https://hackernoon.com/proof-of-work-vs-proof-of-something-else-272d2f5cf20a
-infominer10/8/2018, 8:02:14 AM
+["Learning about Distributed Systems"]
+Link = ["http://alvaro-videla.com/2015/12/learning-about-distributed-systems.html"]
+Description = "Apart from the abundance of papers and research material, as mentioned above, there are also lots books. Having bought quite a few of them and read chapters here and there, I started to see that a book that had a promising title was quite unrelated to what I was looking for, or that the content didn’t directly target the problems I would have liked to solve. Therefore, I would like to go over what I think are the main concepts of distributed systems, citing papers, books or resources where one can learn about them."
+Tags = ["distributed-systems"]
 
-https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2
-infominer10/9/2018, 7:22:19 PM
+["Delegated Proof-of-Stake"]
+Link = ["https://bitshares.org/technology/delegated-proof-of-stake-consensus/"]
+Description = "Delegated Proof of Stake (DPOS) is the fastest, most efficient, most decentralized, and most flexible consensus model available. DPOS leverages the power of stakeholder approval voting to resolve consensus issues in a fair and democratic way. All network parameters, from fee schedules to block intervals and transaction sizes, can be tuned via elected delegates. Deterministic selection of block producers allows transactions to be confirmed in an average of just 1 second. Perhaps most importantly, the consensus protocol is designed to protect all participants against unwanted regulatory interference."
+Tags = ["dpos","blockchain-consensus","bts"]
 
-https://blog.chorus.one/classifying-staking-implementations-a-framework/
-infominer10/12/2018, 3:30:10 PM
+["ConsensusPedia: An Encyclopedia of 30 Consensus Algorithms"]
+Link = ["https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f"]
+Description = "Here we list all the major consensus algorithms and will evaluate their pros and cons. If you find anything missing or wrong here then shoot that in the comments. Also, the article will be updated regularly as I study more about these algorithms and their economic impacts."
+Tags = ["blockchain-consensus","resources"]
 
-https://github.com/dgryski/awesome-consensus
-infominer10/12/2018, 4:35:09 PM
+["Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies"]
+Link = ["https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwrRVGV"]
+Description = "This paper introduces a new family of leaderless Byzantine fault tolerance protocols, built on a metastable mechanism. These protocols provide a strong probabilistic safety guarantee in the presence of Byzantine adversaries, while their concurrent nature enables them to achieve high throughput and scalability. Unlike blockchains that rely on proof-of-work, they are quiescent and green. Surprisingly, unlike traditional consensus protocols which require..."
+Tags = ["literature","avalanche","blockchain-consensus"]
 
-https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/proof-of-stake_resources.html
-infominer10/12/2018, 4:36:53 PM
-
-https://bitshares.org/technology/delegated-proof-of-stake-consensus/
-infominer10/12/2018, 5:52:24 PM
-
-https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f
-infominer10/12/2018, 5:54:46 PM
-
-https://medium.com/imbrexblog/web-3-consensus-mechanisms-2dcfb7bfaadb
-infominer10/12/2018, 6:00:38 PM
-Download Snowflake_to_Avalanche_A_Novel_Metastable_Consensus_Protocol_Family.pdf
+[""]
+Link = ["https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/proof-of-stake_resources.html"]
+Description = ""
+Tags = [""]
