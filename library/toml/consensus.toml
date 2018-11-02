@@ -3,6 +3,11 @@ Link = ["https://peercoin.net/assets/paper/peercoin-paper.pdf"]
 Description = "Arguably the first coin to introduce Proof of Stake as an alternative to Proof of Work\n\nA peer-to-peer crypto-currency design derived from Satoshi Nakamoto’s Bitcoin. Proof-of-stake  replaces  proof-of-work  to  provide  most  of  the  network  security. Under  this  hybrid  design  proof-of-work  mainly  provides  initial  minting  and  is largely  non-essential  in  the  long  run.  Security  level  of  the network  is  not dependent  on  energy  consumption  in  the  long  term  thus  providing  an  energy-efficient  and  more  cost-competitive  peer-to-peer  crypto-currency.  Proof-of-stake is  based  on  coin  age  and  generated  by  each  node  via  a  hashing  scheme  bearing similarity  to  Bitcoin’s  but  over  limited  search  space.  Block  chain  history  and transaction settlement are further protected by a centrally broadcasted checkpoint mechanism. "
 Tags = ["blockchain-consensus", "pos", "history", "literature", "whitepaper", "sunny-king", "scott-nadal"]
 
+["Original bitcointalk Proof of Stake Thread: (2011) Shows the original idea of PoS and its criticisms and benefits"]
+Link = ["https://bitcointalk.org/index.php?topic=27787.0"]
+Description = "I've got an idea, and I'm wondering if it's been discussed/ripped apart here yet:\n\nI'm wondering if as bitcoins become more widely distributed, whether a transition from a proof of work based system to a proof of stake one might happen.  What I mean by proof of stake is that instead of your \"vote\" on the accepted transaction history being weighted by the share of computing resources you bring to the network, it's weighted by the number of bitcoins you can prove you own, using your private keys."
+Tags = ["pos", "blockchain-consensus", "history", "bitcointalk"]
+
 ["Dan Larimer introduces Delegated Proof of Stake (DPoS) 2013"]
 Link = ["https://github.com/super3/invictus.io/blob/master/assets/pdf/TransactionsAsProofOfStake10.pdf"]
 Description = "The concept behind Proof-of-Stake is that a block chain should be secured by those with a financial interest in the chain. This paper will introduce a new approach to Proof-of-Stake that utilizes coin-days-destroyed by every transaction as a substitute for the vast majority of the security currently provided by Proof-of-Work. Unlike prior Proof-of-Stake systems in which only some nodes contribute to the proof-of-stake calculation, we present a new approach to Proof-of-Stake whereby all nodes generating transactions contribute to the security of the network. We speculate that such a network would be immune to known attacks against Bitcoin or Peercoin."
@@ -13,11 +18,6 @@ Link = ["https://bitshares.org/technology/delegated-proof-of-stake-consensus/"]
 Description = "Delegated Proof of Stake (DPOS) is the fastest, most efficient, most decentralized, and most flexible consensus model available. DPOS leverages the power of stakeholder approval voting to resolve consensus issues in a fair and democratic way. All network parameters, from fee schedules to block intervals and transaction sizes, can be tuned via elected delegates. Deterministic selection of block producers allows transactions to be confirmed in an average of just 1 second. Perhaps most importantly, the consensus protocol is designed to protect all participants against unwanted regulatory interference. "
 Tags = ["blockchain-consensus", "dpos", "history", "bitshares"]
 
-["Original bitcointalk Proof of Stake Thread: (2011) Shows the original idea of PoS and its criticisms and benefits"]
-Link = ["https://bitcointalk.org/index.php?topic=27787.0"]
-Description = "I've got an idea, and I'm wondering if it's been discussed/ripped apart here yet:\n\nI'm wondering if as bitcoins become more widely distributed, whether a transition from a proof of work based system to a proof of stake one might happen.  What I mean by proof of stake is that instead of your \"vote\" on the accepted transaction history being weighted by the share of computing resources you bring to the network, it's weighted by the number of bitcoins you can prove you own, using your private keys."
-Tags = ["pos", "blockchain-consensus", "history", "bitcointalk"]
-
 ["Proof of Stake Velocity - 2014"]
 Link = ["https://www.reddcoin.com/papers/PoSV.pdf"]
 Description = "Proof of Stake Velocity (PoSV) is proposed as an alternative to Proof of Work (PoW) and Proof of Stake (PoS) to secure the peer-to-peer network and confirm transactions of Reddcoin,  a cryptocurrency created specifically to facilitate social interactions in the digital age.  PoSV is designed to encourage both ownership (Stake) and activity (Velocity) which directly correspond to the two main functions of Reddcoin as a real currency: store of value and medium of exchange.  Reddcoin can also function as the unit of account in heterogeneous social context.  The technological aspects of PoSV are presented after a detailed review of existing designs.  The economic aspects of Reddcoin are then analysed.  Finally the unique position of Reddcoin as a digital social currency in the competitive landscape of cryptocurrencies is discussed."
@@ -26,17 +26,12 @@ Tags = ["pos", "history", "blockchain-consensus", "literature"]
 ["PoW, PoS, & Hybrid protocols: A Matter of Complexity?"]
 Link = ["https://arxiv.org/pdf/1805.08674.pdf"]
 Description = "In a previous paper, it was discussed whether Bitcoin and/or its blockchain could be considered a complex system and, if so, whether a chaotic one, a positive response raising concerns about the likelihood of Bitcoin/blockchain entering a chaotic regime, with catastrophic consequences for  financial systems based on it. This paper intends to simplify and extend that analysis to other PoW, PoS, and hybrid protocol-based cryptocurrencies. As before, this study was carried out ith the help of Information Theory of Complex Systems, in general, and Crutchfield’s Statistical Complexity measure, in particular.  This paper is a work in progress. Whereas PoW consensus was shown to be highly noncomplex, the Nxt PoS consensus method studied shows an outstandingly higher measure of complexity, which is undesirable because it introduces unnecessary complexity into what should be a simple computational system. This paper is a work - in - progress and undoubtedly prone to incorrectness as a few cryptocurrencies may have changed their consensus algorithms. As next step, we intend to uncover some other measures that capture the qualitative notion of complexity of systems that can be applied to these cryptocurrencies to compare with the results he re obtained. As a final thought, however, considering that a certain amount of chaoticity may have been potentially introduced in the Bitcoin market by the presence of the capital gains seekers, one could wonder whether the recent surge of blockchain technology based startups, even discounting all the scam cases, could not help to reduce non-linearity and prevent chaos"
-Tags = ["pos", "pow", "history", "literature", "blockchain-consensus"]
+Tags = ["pos", "pow", "history", "literature", "blockchain-consensus", "hybrid"]
 
 ["DPOS Consensus Algorithm - The Missing White Paper"]
 Link = ["https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper"]
 Description = "This is the missing white paper and analysis of delegated proof of stake (DPOS). The goal of this paper is to provide an analysis of why DPOS works and what makes it robust. An early description of DPOS can be found at bitshares.org; however, that description also includes many aspects that are not part of the actual consensus process."
 Tags = ["blockchain-consensus", "dpos", "whitepaper"]
-
-["Variations of Proof of Stake"]
-Link = ["https://steemit.com/bitcoin/@funmemes/variations-of-proof-of-stake"]
-Description = "A dozen different types of PoS and a brief description"
-Tags = ["blockchain-consensus", "pos"]
 
 ["Proof of Stake versus Proof of Work —BitFury Group 2015"]
 Link = ["https://bitfury.com/content/downloads/pos-vs-pow-1.0.2.pdf"]
@@ -171,7 +166,7 @@ Tags = ["ethereum", "casper", "pos"]
 ["What is Proof of Stake?"]
 Link = ["https://hackernoon.com/what-is-proof-of-stake-8e0433018256"]
 Description = "The proof of stake system is attracting a lot of attention these days, with Ethereum switching over to this system from the proof of work system. Proof of stake is an alternative process for transaction verification on a blockchain. It is increasing in popularity and being adopted by several cryptocurrencies. To understand proof of stake, it is important to have a basic idea of proof of work. As of this writing, the proof of work method is used by Bitcoin, Ethereum and most other major cryptocurrencies."
-Tags = ["blockchain-consensus","pos"]
+Tags = ["blockchain-consensus","pos","101"]
 
 ["Cardano Settlement Layer Documentation —Ouroboros Proof of Stake Algorithm"]
 Link = ["https://cardanodocs.com/cardano/proof-of-stake/"]
@@ -198,9 +193,34 @@ Link = ["https://blog.picks.co/pow-is-efficient-aa3d442754d3"]
 Description = "Most people think #Bitcoin’s PoW is “wasteful.” In this article, I explore how everything is energy, money is energy, energy usage is subjective, and PoW’s energy costs relative to existing governance systems.* This article is a collection of direct thoughts from many individuals in the space — my value add was in the aggregation, distillation, and combination of narratives."
 Tags = ["pow", "blockchain-consensus"]
 
+["On Stake—Vitalik Buterin 2014"]
+Link = ["https://blog.ethereum.org/2014/07/05/stake/"]
+Description = "The topic of mining centralization has been a very important one over the past few weeks. GHASH.io, the Bitcoin network’s largest mining pool, has for the past month directed over 40% of the Bitcoin network’s hashpower, and two weeks ago briefly spiked over 50%, theoretically giving it monopoly control over the Bitcoin network. Although miners quidkly left the pool and reduced its hashpower to 35%, it’s clear that the problem is not solved. At the same time, ASICs threaten to further centralize the very production . One approach to solving the problem is the one I advocated in my previous post: create a mining algorithm that is guaranteed to remain CPU-friendly in the long term. Another, however, is to abolish mining entirely, and replace it with a new model for seeking consensus."
+Tags = ["pos","history","ethereum","casper"]
+
+["Proof of Stake: How I Learned to Love Weak Subjectivity"]
+Link = ["https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/"]
+Description = "Proof of stake continues to be one of the most controversial discussions in the cryptocurrency space. Although the idea has many undeniable benefits, including efficiency, a larger security margin and future-proof immunity to hardware centralization concerns, proof of stake algorithms tend to be substantially more complex than proof of work-based alternatives, and there is a large amount of skepticism that proof of stake can work at all, particularly with regard to the supposedly fundamental \"nothing at stake\" problem. As it turns out, however, the problems are solvable, and one can make a rigorous argument that proof of stake, with all its benefits, can be made to be successful - but at a moderate cost. The purpose of this post will be to explain exactly what this cost is, and how its impact can be minimized."
+Tags = ["pos","history","ethereum","casper"]
+
+["Understanding Serenity — Part I Abstraction"]
+Link = ["https://blog.ethereum.org/2015/12/24/understanding-serenity-part-i-abstraction/"]
+Description = "Serenity is intended to have two major feature sets: abstraction, a concept that I initially expanded on in this blog post here, and Casper, our security-deposit-based proof of stake algorithm. Additionally, we are exploring the idea of adding at least the scaffolding that will allow for the smooth deployment over time of our scalability proposals, and at the same time completely resolve parallelizability concerns brought up here - an instant very large gain for private blockchain instances of Ethereum with nodes being run in massively multi-core dedicated servers, and even the public chain may see a 2-5x improvement in scalability. Over the past few months, research on Casper and formalization of scalability and abstraction (eg. with EIP 101) have been progressing at a rapid pace between myself, Vlad Zamfir, Lucius Greg Meredith and a few others, and now I am happy to announce that the first proof of concept release for Serenity, albeit in a very limited form suitable only for testing, is now available."
+Tags = ["pos","history","ethereum","casper"]
+
+["Understanding Serenity, Part 2: Casper"]
+Link = ["https://blog.ethereum.org/2015/12/28/understanding-serenity-part-2-casper/"]
+Description = "The keystone mechanism of Casper is the introduction of a fundamentally new philosophy in the field of public economic consensus: the concept of consensus-by-bet. The core idea of consensus-by-bet is simple: the protocol offers opportunities for validators to bet against the protocol on which blocks are going to be finalized. A bet on some block X in this context is a transaction which, by protocol rules, gives the validator a reward of Y coins (which are simply printed to give to the validator out of thin air, hence \"against the protocol\") in all universes in which block X was processed but which gives the validator a penalty of Z coins (which are destroyed) in all universes in which block X was not processed."
+Tags = ["pos","history","ethereum","casper"]
+
+["Casper 0.1 specification notes"]
+Link = ["https://docs.google.com/document/d/1Xf_iHGI51Lp6nVHPZo0SdUw60-NA6YJUvk2s-eYaxLE/edit#"]
+Description = "Casper is a proof of stake consensus algorithm, which employs the following principles:\n\nSecurity deposits: stakeholders place security deposits behind blocks. A security deposit placed behind any block can be introduced as a transaction into an incompatible block in order to destroy the validator’s security deposit. A block is only considered \“finalized\” when some large percentage of validators make security deposits behind it.\nConsensus by bet: the concept of security deposits is philosophically extended into a concept of \“bets\”; a bet in a proof of stake system is a transaction which, by in-consensus incentivization rules, gives you X extra coins in every chain that contains the block you bet on in exchange for taking away Y coins in every chain that does not contain that block. Essentially, it constitutes “placing down one’s stake” and claiming that “this block will succeed with at least probability Y/(X+Y)”. The allowable values for X and Y should be set by a proper scoring rule. The principle of Casper is that validators bet based on what other validators are betting, and rational play in this game is a positive feedback loop and so leads to rapid consensus. “Finality” is defined by ⅔ of validators being willing to make a bet on a block large enough that Y is equal to their entire deposit.\nBy-block consensus: vote yes/no on each block height separately; the inclusion of a block does NOT imply inclusion of any particular block at any previous height"
+Tags = ["pos","ethereum","casper"]
+
 ["From Casper FFG to Full Casper Chain"]
 Link = ["https://medium.com/ethereums-transition-from-casper-ffg-to-beacon/from-casper-ffg-to-full-casper-chain-cbd522751a7e"]
-Description = ["Casper the Friendly Finality Gadget was Ethereum’s first approach towards a Proof-of-Stake(PoS) based consensus system and was formally specified in EIP1011. Casper FFG was designed as a smart contract existing on top of the Proof-of-Work(PoW) chain. The following chapter describes the process flow of the deprecated Casper FFG solution. It is an optional read, so please feel free to go straight to the chapter \“What is the problem?\""]
+Description = "Casper the Friendly Finality Gadget was Ethereum’s first approach towards a Proof-of-Stake(PoS) based consensus system and was formally specified in EIP1011. Casper FFG was designed as a smart contract existing on top of the Proof-of-Work(PoW) chain. The following chapter describes the process flow of the deprecated Casper FFG solution. It is an optional read, so please feel free to go straight to the chapter \“What is the problem?\""
 Tags = ["casper", "pos", "ethereum","blockchain-consensus"]
 
 ["@VitalikButerin 75 tweet—storm on History of Casper Reserach"]
@@ -280,12 +300,12 @@ Tags = ["randomness","pos","ethereum","research","casper","history"]
 
 ["A Guide to 99% Fault Tolerant Consensus"]
 Link = ["https://vitalik.ca/general/2018/08/07/99_fault_tolerant.html","https://cryptodisrupt.com/vitalik-proposes-1-consensus-algorithm/"]
-Description = ["We’ve heard for a long time that it’s possible to achieve consensus with 50% fault tolerance in a synchronous network where messages broadcasted by any honest node are guaranteed to be received by all other honest nodes within some known time period (if an attacker has more than 50%, they can perform a \“51% attack\”, and there’s an analogue of this for any algorithm of this type). We’ve also heard for a long time that if you want to relax the synchrony assumption, and have an algorithm that’s \“safe under asynchrony\”, the maximum achievable fault tolerance drops to 33% (PBFT, Casper FFG, etc all fall into this category). But did you know that if you add even more assumptions (specifically, you require observers, ie. users that are not actively participating in the consensus but care about its output, to also be actively watching the consensus, and not just downloading its output after the fact), you can increase fault tolerance all the way to 99%?"]
+Description = "We’ve heard for a long time that it’s possible to achieve consensus with 50% fault tolerance in a synchronous network where messages broadcasted by any honest node are guaranteed to be received by all other honest nodes within some known time period (if an attacker has more than 50%, they can perform a \“51% attack\”, and there’s an analogue of this for any algorithm of this type). We’ve also heard for a long time that if you want to relax the synchrony assumption, and have an algorithm that’s \“safe under asynchrony\”, the maximum achievable fault tolerance drops to 33% (PBFT, Casper FFG, etc all fall into this category). But did you know that if you add even more assumptions (specifically, you require observers, ie. users that are not actively participating in the consensus but care about its output, to also be actively watching the consensus, and not just downloading its output after the fact), you can increase fault tolerance all the way to 99%?"
 Tags = ["blockchain-consensus","pos","research","ethereum"]
 
 ["Casper Delayed till 2019 and Beyond"]
 Link = ["http://www.cointime.com/blockchain/11169.html","https://www.youtube.com/watch?v=mAs3JZHroKM"]
-Description = ["On Friday, 31 August, the 14 core developers of Ethereum decided to call on video meeting: All Core Devs Meeting, announcing 12 months delay of Casper development, while ETH block reward reduction to 2 ETH/block to maintain the stability.\n\nIn Etheruem community, the development of Casper was chosen as an important step forward from the Proof-of-Work (PoW) system to Proof-of-Stake (PoS). But now, it seems the plan has been delayed."]
+Description = "On Friday, 31 August, the 14 core developers of Ethereum decided to call on video meeting: All Core Devs Meeting, announcing 12 months delay of Casper development, while ETH block reward reduction to 2 ETH/block to maintain the stability.\n\nIn Etheruem community, the development of Casper was chosen as an important step forward from the Proof-of-Work (PoW) system to Proof-of-Stake (PoS). But now, it seems the plan has been delayed."
 Tags = ["pos","casper","ethereum","history","blockchain-consensus"]
 
 ["Bank of Canada Critique on PoS"]
@@ -413,6 +433,11 @@ Link = ["https://www.skycoin.net/blog/statement/obelisk-consensus-algorithm-desi
 Description = "The consensus mechanism is outside of the blockchain. Obelisk nodes (which will probably will be implemented as a Skywire service) have a blockchain. Each node has a public key. The public key identifies the Obelisk node. Each Obelisk node has its own blockchain (there are no coins in this chain). The node creates a new block and signs it with its private key. The Obelisk blockchains are used to negotiate consensus (determining the head block in the Skycoin blockchain). Obelisk uses Ben-Or’s for randomized consensus. Each Obelisk node has a list of other nodes it subscribes to. Those nodes influence consensus and voting decisions for the local node. For non-pathological network topologies, the local consensus provably converges in to a global consensus."
 Tags = ["obelisk","hybrid-pos", "research"]
 
+["Variations of Proof of Stake"]
+Link = ["https://steemit.com/bitcoin/@funmemes/variations-of-proof-of-stake"]
+Description = "A dozen different types of PoS and a brief description"
+Tags = ["blockchain-consensus", "pos"]
+
 ["9 types of Consensus Mechanisms that you didn't know about"]
 Link = ["https://medium.com/the-daily-bit/9-types-of-consensus-mechanisms-that-you-didnt-know-about-49ec365179da"]
 Description = "Over the next several days, we’ll be taking a closer look at some of the lesser known consensus mechanisms that are used in blockchain networks. After breaking down the features of each, we’ll pivot to a case study (or two) of them in use. Good? Let’s begin.\n\nFrom the top — what is a consensus mechanism?"
@@ -488,12 +513,7 @@ Link = ["http://alvaro-videla.com/2015/12/learning-about-distributed-systems.htm
 Description = "Apart from the abundance of papers and research material, as mentioned above, there are also lots books. Having bought quite a few of them and read chapters here and there, I started to see that a book that had a promising title was quite unrelated to what I was looking for, or that the content didn’t directly target the problems I would have liked to solve. Therefore, I would like to go over what I think are the main concepts of distributed systems, citing papers, books or resources where one can learn about them."
 Tags = ["distributed-systems"]
 
-["Delegated Proof-of-Stake"]
-Link = ["https://bitshares.org/technology/delegated-proof-of-stake-consensus/"]
-Description = "Delegated Proof of Stake (DPOS) is the fastest, most efficient, most decentralized, and most flexible consensus model available. DPOS leverages the power of stakeholder approval voting to resolve consensus issues in a fair and democratic way. All network parameters, from fee schedules to block intervals and transaction sizes, can be tuned via elected delegates. Deterministic selection of block producers allows transactions to be confirmed in an average of just 1 second. Perhaps most importantly, the consensus protocol is designed to protect all participants against unwanted regulatory interference."
-Tags = ["dpos","blockchain-consensus","bts"]
-
-["ConsensusPedia: An Encyclopedia of 30 Consensus Algorithms"]
+["ConsensusPedia— An Encyclopedia of 30 Consensus Algorithms"]
 Link = ["https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f"]
 Description = "Here we list all the major consensus algorithms and will evaluate their pros and cons. If you find anything missing or wrong here then shoot that in the comments. Also, the article will be updated regularly as I study more about these algorithms and their economic impacts."
 Tags = ["blockchain-consensus","resources"]
@@ -503,27 +523,18 @@ Link = ["https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwrRVGV"]
 Description = "This paper introduces a new family of leaderless Byzantine fault tolerance protocols, built on a metastable mechanism. These protocols provide a strong probabilistic safety guarantee in the presence of Byzantine adversaries, while their concurrent nature enables them to achieve high throughput and scalability. Unlike blockchains that rely on proof-of-work, they are quiescent and green. Surprisingly, unlike traditional consensus protocols which require..."
 Tags = ["literature","avalanche","blockchain-consensus"]
 
-["On Stake—Vitalik Buterin 2014"]
-Link = ["https://blog.ethereum.org/2014/07/05/stake/"]
-Description = "The topic of mining centralization has been a very important one over the past few weeks. GHASH.io, the Bitcoin network’s largest mining pool, has for the past month directed over 40% of the Bitcoin network’s hashpower, and two weeks ago briefly spiked over 50%, theoretically giving it monopoly control over the Bitcoin network. Although miners quidkly left the pool and reduced its hashpower to 35%, it’s clear that the problem is not solved. At the same time, ASICs threaten to further centralize the very production . One approach to solving the problem is the one I advocated in my previous post: create a mining algorithm that is guaranteed to remain CPU-friendly in the long term. Another, however, is to abolish mining entirely, and replace it with a new model for seeking consensus."
-Tags = ["pos","history","ethereum","casper"]
+["Ouroboros — BitcoinWiki"]
+Link = ["https://en.bitcoinwiki.org/wiki/Ouroboros"]
+Description = "The Ouroboros Proof-of-stake (PoS) Algorithm is the most important part of the protocol. Cardano uses a new proof of stake algorithm called Ouroboros, which determines how individual nodes reach consensus about the network. The algorithm is a crucial part of the infrastructure that supports the Ada cryptocurrency and is the major innovation in the blockchain technology.\n\nThe creation of the platform began in 2015. At the same time, the ICO was launched, which lasted until January 2017. In total, 62 billion dollars were collected."
+Tags = ["ouroboros","cardano","pos","blockchain-consensus"]
 
-["Proof of Stake: How I Learned to Love Weak Subjectivity"]
-Link = ["https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/"]
-Description = ["Proof of stake continues to be one of the most controversial discussions in the cryptocurrency space. Although the idea has many undeniable benefits, including efficiency, a larger security margin and future-proof immunity to hardware centralization concerns, proof of stake algorithms tend to be substantially more complex than proof of work-based alternatives, and there is a large amount of skepticism that proof of stake can work at all, particularly with regard to the supposedly fundamental "nothing at stake" problem. As it turns out, however, the problems are solvable, and one can make a rigorous argument that proof of stake, with all its benefits, can be made to be successful - but at a moderate cost. The purpose of this post will be to explain exactly what this cost is, and how its impact can be minimized."]
-Tags = ["pos","history","ethereum","casper"]
+["zawy12/difficulty-algorithms"]
+Link = ["https://github.com/zawy12/difficulty-algorithms/issues"]
+Description = "See the Issues for difficulty algorithms"
+Tags = ["blockchain-consensus","difficulty-algorithms","pow"]
 
-["Understanding Serenity — Part I Abstraction"]
-Link = ["https://blog.ethereum.org/2015/12/24/understanding-serenity-part-i-abstraction/"]
-Description = "Serenity is intended to have two major feature sets: abstraction, a concept that I initially expanded on in this blog post here, and Casper, our security-deposit-based proof of stake algorithm. Additionally, we are exploring the idea of adding at least the scaffolding that will allow for the smooth deployment over time of our scalability proposals, and at the same time completely resolve parallelizability concerns brought up here - an instant very large gain for private blockchain instances of Ethereum with nodes being run in massively multi-core dedicated servers, and even the public chain may see a 2-5x improvement in scalability. Over the past few months, research on Casper and formalization of scalability and abstraction (eg. with EIP 101) have been progressing at a rapid pace between myself, Vlad Zamfir, Lucius Greg Meredith and a few others, and now I am happy to announce that the first proof of concept release for Serenity, albeit in a very limited form suitable only for testing, is now available."
-Tags = ["pos","history","ethereum","casper"]
+["The Byzantine Generals Problem "]
+Link = ["https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf"]
+Description = "Reliable computer systems must handle malfunctioning components that give conflicting information to different parts of the system. This situation can be expressed abstractly in terms of a group of generals of the Byzantine army camped with their troops around an enemy city. Communicating only by messenger, the generals must agree upon a common battle plan. However, one or more of them may be traitors who will try to confuse the others. The problem is to find an algorithm to ensure that the loyal generals will reach agreement. It is shown that, using only oral messages, this problem is solvable if and only if more than two-thirds of the generals are loyal; so a single traitor can confound two loyal generals. With unforgeable written messages, the problem is solvable for any number of generals and possible traitors. Applications of the solutions to reliable computer systems are then discussed."
+Tags = ["consensus","byzantine"]
 
-["Understanding Serenity, Part 2: Casper"]
-Link = ["https://blog.ethereum.org/2015/12/28/understanding-serenity-part-2-casper/"]
-Description = "The keystone mechanism of Casper is the introduction of a fundamentally new philosophy in the field of public economic consensus: the concept of consensus-by-bet. The core idea of consensus-by-bet is simple: the protocol offers opportunities for validators to bet against the protocol on which blocks are going to be finalized. A bet on some block X in this context is a transaction which, by protocol rules, gives the validator a reward of Y coins (which are simply printed to give to the validator out of thin air, hence \"against the protocol\") in all universes in which block X was processed but which gives the validator a penalty of Z coins (which are destroyed) in all universes in which block X was not processed."
-Tags = ["pos","history","ethereum","casper"]
-
-["Casper 0.1 specification notes"]
-Link = ["https://docs.google.com/document/d/1Xf_iHGI51Lp6nVHPZo0SdUw60-NA6YJUvk2s-eYaxLE/edit#"]
-Description = "Casper is a proof of stake consensus algorithm, which employs the following principles:\n\nSecurity deposits: stakeholders place security deposits behind blocks. A security deposit placed behind any block can be introduced as a transaction into an incompatible block in order to destroy the validator’s security deposit. A block is only considered \“finalized\” when some large percentage of validators make security deposits behind it.\nConsensus by bet: the concept of security deposits is philosophically extended into a concept of \“bets\”; a bet in a proof of stake system is a transaction which, by in-consensus incentivization rules, gives you X extra coins in every chain that contains the block you bet on in exchange for taking away Y coins in every chain that does not contain that block. Essentially, it constitutes “placing down one’s stake” and claiming that “this block will succeed with at least probability Y/(X+Y)”. The allowable values for X and Y should be set by a proper scoring rule. The principle of Casper is that validators bet based on what other validators are betting, and rational play in this game is a positive feedback loop and so leads to rapid consensus. “Finality” is defined by ⅔ of validators being willing to make a bet on a block large enough that Y is equal to their entire deposit.\nBy-block consensus: vote yes/no on each block height separately; the inclusion of a block does NOT imply inclusion of any particular block at any previous height"
-Tags = ["pos","ethereum","casper"]
