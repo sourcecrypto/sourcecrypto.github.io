@@ -145,7 +145,7 @@ Tags = ["vee", "sunny-king", "spos", "blockchain-consensus"]
 
 ["Pros and Cons of DPoS"]
 Link = ["https://www.verypossible.com/blog/pros-and-cons-of-the-delegated-proof-of-stake-consensus-model"]
-Description = "\“[Delegated Proof-of-Stake] is a bit reminiscent of a reality tv show. Mess with the community, and you are most likely to get voted off. It’s democracy on the blockchain!\” — Ryan Smith at CoinCentral"
+Description = "[Delegated Proof-of-Stake] is a bit reminiscent of a reality tv show. Mess with the community, and you are most likely to get voted off. It’s democracy on the blockchain!"
 Tags = ["dpos", "blockchain-consensus"]
 
 ["Proof of Stake - en.bitcoinwiki"]
@@ -496,7 +496,7 @@ Tags = ["distributed-systems"]
 ["awesome-distributed-systems"]
 Link = ["https://github.com/theanalyst/awesome-distributed-systems"]
 Description = "A (hopefully) curated list on awesome material on distributed systems, inspired by other awesome frameworks like awesome-python. Most links will tend to be readings on architecture itself rather than code itself."
-Tags = ["literature", "awesome", "distributed-systems"]
+Tags = ["consensus", "literature", "awesome", "distributed-systems"]
 
 ["Awesome Consensus"]
 Link = ["https://github.com/dgryski/awesome-consensus"]
@@ -533,7 +533,7 @@ Link = ["https://github.com/zawy12/difficulty-algorithms/issues"]
 Description = "See the Issues for difficulty algorithms"
 Tags = ["blockchain-consensus","difficulty-algorithms","pow"]
 
-["The Byzantine Generals Problem "]
+["The Byzantine Generals Problem"]
 Link = ["https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf"]
 Description = "Reliable computer systems must handle malfunctioning components that give conflicting information to different parts of the system. This situation can be expressed abstractly in terms of a group of generals of the Byzantine army camped with their troops around an enemy city. Communicating only by messenger, the generals must agree upon a common battle plan. However, one or more of them may be traitors who will try to confuse the others. The problem is to find an algorithm to ensure that the loyal generals will reach agreement. It is shown that, using only oral messages, this problem is solvable if and only if more than two-thirds of the generals are loyal; so a single traitor can confound two loyal generals. With unforgeable written messages, the problem is solvable for any number of generals and possible traitors. Applications of the solutions to reliable computer systems are then discussed."
 Tags = ["consensus","byzantine"]
