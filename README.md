@@ -2,7 +2,7 @@
 
 I've been building a library of informational materials surrounding Bitcoin, Blockchain, Cryptocurrency, and related topics in a discord server. 
 
-The biggest thing happening in this repository right now is that the contents of Crypto Library are [being turned into a database](https://github.com/infominer33/crypto-library/tree/master/library) to create a dynamic "Super Source" for crypto knowledge.
+The biggest thing happening in this repository right now is that the contents of Crypto Library are [being turned into a database](https://github.com/infominer33/crypto-library/tree/master/how-to-help.md) to create a dynamic "Super Source" for crypto knowledge.
 
 I will gradually go through each of the channels in discord, and organize their resources in this repository. The decision to expand from Discord (which I love) to github (which is new to me) was, in part, inspired by the [Awesome Lists](https://github.com/sindresorhus/awesome/blob/master/awesome.md). 
 
