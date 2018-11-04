@@ -45,7 +45,7 @@ In case you haven't been to the server yet, here is its directory to give you an
 
 ---
 
-This has nothing to do with new, unknown, projects or ICOs (except for how to evaluate them). We will be gathering information on all of the top coins over time, regardless of our personal opinions.. ideally to have the the best information so that people can learn and make their own decisions.
+This has nothing to do with new, unknown, projects or ICOs (except for how to evaluate them). We will be gathering knowledge and resources on all of the top coins over time, regardless of personal opinions.. ideally to have the the best information all in one place, so that people can learn and make their own decisions.
 
 
 ### Project Overview
