@@ -28,10 +28,10 @@ Generally speaking, all of the files sitting in this directory are incomplete. O
 
 ### I'd like to see this project progress in the following stages:
 
-* note: if you're volunteering to help I won't try to micromanage you. progress is wonderful :)
+\* note: if you're volunteering to help I won't try to micromanage you. progress is wonderful :)
 
 1. It would be awesome to start by get the entire server history into individual files for each channel.
-  - this could be a simple copy\paste affair
+   - this could be a simple copy\paste affair
 2. Clean up those files and begin creating the toml format like above, except only with the link and the rest blank, but ready to be filled out (for the whole server)
 3. then filling out the rest of the informations
 
