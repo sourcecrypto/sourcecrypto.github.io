@@ -24,6 +24,8 @@ Tags = ["blah", "blah-blah"]<br/>
 
 These files will have the same name as the discord channel `channel_name.toml
 
+Generally speaking, all of the files sitting in this directory are incomplete. Once complete they are getting organized into their folders.
+
 ### I'd like to see this project progress in the following stages:
 
 * note: if you're volunteering to help I won't try to micromanage you. progress is wonderful :)
