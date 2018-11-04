@@ -2,7 +2,14 @@
 
 A few of us have been building a library of informational materials surrounding Bitcoin, Blockchain, Cryptocurrency, and related topics in a discord server.  The *exciting news* is that this library is beginning to out-grow its discord server after only a few short months :) 
 
+**Outline**
+* Introduction
+* Library Directory
+* Project Overview
+
  <img src="http://imgur.com/AmdCgVOl.png" />
+
+### Introduction
 
 There are currently **125 different channels**, with thousands of resources, each devoted to a particular aspect of crypto. Obviously knowledge can't be so easily compartmentalized, but we do our best we can. 
 
@@ -17,7 +24,9 @@ Big plans are in the works for the Crypto Library — Super Source.
 
 This is a great time to get involved, while our community is just beginning to form.
 
-### [crypt0library.net](http://crypt0library.net)
+## [crypt0library.net](http://crypt0library.net)
+
+### Library Directory
 
 In case you haven't been to the server yet, here is its directory to give you an idea of how it's organized:
 
