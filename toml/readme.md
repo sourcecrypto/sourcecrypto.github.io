@@ -1,4 +1,4 @@
-# TOML formatting of crypto knowlege
+# TOML formatting
 
 I used this discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://github.com/infominer33/crypto-library/blob/master/crypt0library_history.txt)' which can be viewed in https://dht.chylex.com/build/viewer.html
 
