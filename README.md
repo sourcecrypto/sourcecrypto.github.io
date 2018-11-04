@@ -2,12 +2,12 @@
 
 A few of us have been building a library of informational materials surrounding Bitcoin, Blockchain, Cryptocurrency, and related topics in a discord server.  The *exciting news* is that this library is beginning to out-grow its discord server after only a few short months :) 
 
+ <img src="http://imgur.com/AmdCgVOl.png" />
+
 **Outline**
 * Introduction
 * Library Directory
 * Project Overview
-
- <img src="http://imgur.com/AmdCgVOl.png" />
 
 ### Introduction
 
