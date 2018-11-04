@@ -40,3 +40,5 @@ I put it in those steps because step 1 and 2 are the easiest, and if someone was
 Actually filling out the toml entries is tricky, and tagging is somewhat discressionary. I suppose I shall come up with more detailed instructions on tagging, eventually.  
 
 **Thanks for all the help!!!**
+
+I will happily compensate anyone who makes significant contributions --@infominer
