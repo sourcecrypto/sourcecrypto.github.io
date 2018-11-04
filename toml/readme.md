@@ -41,4 +41,4 @@ Actually filling out the toml entries is tricky, and tagging is somewhat discres
 
 **Thanks for all the help!!!**
 
-I will happily compensate anyone who makes significant contributions --@infominer
+I will happily compensate anyone who makes significant contributions. --@infominer
