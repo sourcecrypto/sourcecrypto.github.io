@@ -11,9 +11,9 @@ A few of us have been building a library of informational materials surrounding 
 
 ### Introduction
 
-There are currently **125 different channels**, with thousands of resources, each devoted to a particular aspect of crypto. Obviously knowledge can't be so easily compartmentalized, but we do our best we can. 
+There are currently **125 different channels**, with thousands of resources, each devoted to a particular aspect of crypto. Obviously knowledge can't be so easily compartmentalized, but we do our best. 
 
-The big plan is to put all of these resources into an easily navigable web-application, so that individual resources can have multiple tags; each tag can act as it's own individual directory, and multiple groupings of tags can act as their own directory. Generally the idea is to streamline the process and make it more accessable.
+The big plan is to put all of these resources into an easily navigable web-application, so that individual resources can have multiple tags; each tag can act as it's own individual directory, and multiple groupings of tags can act as their own directory. Generally the idea is to streamline the process and make it more accessable with search functionality, tagging, and comments.
 
 A dynamic directory of crypto knowledge, and a discord bot so that you can query the library without having to scroll through channels or visit the web-site :)
 
