@@ -5,7 +5,7 @@ I used this discord server history scraper https://dht.chylex.com/ to create '[c
 1. It's much easier to use the dht.chylex.com tool and copy paste channel history from the server into files here on the github than to copy paste directly from the discord channels. 
 
 2. The next step is transforming each file of resources into toml format.  (https://github.com/toml-lang/toml)
-  — I'm now using vscode to make the toml files, since it has a nice toml extension that helps make sure that you're formatting correctly
+  — I'm now using [vscode](https://code.visualstudio.com/) to make the toml files, since it has a nice toml extension that helps make sure that you're formatting correctly
 
 Example:
 
@@ -21,6 +21,8 @@ Tags = ["blah", "blah-blah"]<br/>
 >* **Be careful any text copied from another site for a description doesn't have a " quotation mark. Change to ' or use an escape character \" in front of the quotation mark**
 >* **TOML is Case Sensitive. All the tags should be lower case. All the value names must always begin with a capital and be identical**
 
+<a href="http://i.imgur.com/T4GWhW6.png"><img src="http://imgur.com/T4GWhW6l.png" /></a>
+This is what they look like once they've made the way to this repository ^^^
 
 These files will have the same name as the discord channel `channel_name.toml
 
