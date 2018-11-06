@@ -22,11 +22,11 @@ Tags = ["blah", "blah-blah"]<br/>
 >* **TOML is Case Sensitive. All the tags should be lower case. All the value names must always begin with a capital and be identical**
 
 <img src="http://i.imgur.com/1nmrAAu.png"/></br>
-The result of this process it's all landed here on github ^^^
+The result of this process, once it's landed here on github ^^^
 
-These files will have the same name as the discord channel `channel_name.toml
+These files will have the same name as the discord channel `channel_name.toml`
 
-Generally speaking, all of the files sitting in this directory are incomplete. Once complete they are getting organized into their folders.
+Generally speaking, all of the files sitting in this directory are incomplete. Once complete they are getting organized into their folders. 
 
 ### I'd like to see this project progress in the following stages:
 
