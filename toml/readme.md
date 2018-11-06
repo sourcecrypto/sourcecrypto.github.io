@@ -21,8 +21,8 @@ Tags = ["blah", "blah-blah"]<br/>
 >* **Be careful any text copied from another site for a description doesn't have a " quotation mark. Change to ' or use an escape character \" in front of the quotation mark**
 >* **TOML is Case Sensitive. All the tags should be lower case. All the value names must always begin with a capital and be identical**
 
-<a href="http://i.imgur.com/T4GWhW6.png"><img src="http://imgur.com/T4GWhW6l.png" /></a>
-This is what they look like once they've made the way to this repository ^^^
+<img src="http://i.imgur.com/1nmrAAu.png"/></br>
+The result of this process it's all landed here on github ^^^
 
 These files will have the same name as the discord channel `channel_name.toml
 
