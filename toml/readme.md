@@ -3,6 +3,7 @@
 I used this discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://github.com/infominer33/crypto-library/blob/master/crypt0library_history.txt)' which can be viewed in https://dht.chylex.com/build/viewer.html
 
 1. It's much easier to use the dht.chylex.com tool and copy paste channel history from the server into files here on the github than to copy paste directly from the discord channels. 
+   - On that note, if you know of other servers that have channels full of resources let me know, or try out dht.chylex.com. it's a little of a trick to get the script running, so I can do it if you prefer not to be bothered with 3rd party scripts on your discord-app
 
 2. The next step is transforming each file of resources into toml format.  (https://github.com/toml-lang/toml)
   — I'm now using [vscode](https://code.visualstudio.com/) to make the toml files, since it has a nice toml extension that helps make sure that you're formatting correctly
