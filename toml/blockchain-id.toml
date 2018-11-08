@@ -118,21 +118,41 @@ Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/b
 Description = "There are many ways to approach identity. For the Rebooting Web of Trust, we prefer a functional approach to focus conversations on how identity works and how we use it.\n\nThe varied facets of identity are so rich that we each bring our own hot buttons and agendas to any discussion. Some people engage from a philosophical perspective, others cultural. Some dive into political issues and others get meta-physical and spiritual. These different perspectives are valid views of identity’s impact on our lives. More than valid. Vital. They help answer the question of “Why?” Why identity matters, why we should care. Unfortunately, they also inflame passions. We sometimes talk past each other to make points that have minimal relevance for others, leaving people frustrated and unheard.\n\nAs engineers and system designers, we’re concerned with how things work. We want to fix what’s broken and build new things. To do that, we want to discuss how things function. With identity, this functional perspective sidesteps the inflammatory rabbit holes, without dismissing them. Functional Identity lets us investigate the HOW without prejudice to WHY, viewing identity systems based on how they work and then, in turn, how they affect individuals and society."
 Tags = ["rebooting-web-of-trust","self-sovereign","decentralized-id","developing"]
 
+["Decentralized Identity Foundation"]
+Link = ["http://identity.foundation/"]
+Description = "Join us in building an open source decentralized identity ecosystem for people, organizations, apps, and devices.\n\nTHE PILLARS OF A NEW ECOSYSTEM\nDECENTRALIZED IDENTITIES\n\nanchored by: BLOCKCHAIN IDs\nlinked to ZERO-TRUST DATA STORES\nthat are UNIVERSALLY DISCOVERABLE"
+Tags = ["decentralized-id","microsoft","uport","ibm","sovrin","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix"]
 
+["Decentralized Identity Foundation Grows To 56 Members In Our First Year"]
+Link = "https://medium.com/decentralized-identity/decentralized-identity-foundation-grows-to-56-members-in-our-first-year-3ec117e811d8"
+Description = "Today marks the Decentralized Identity Foundation’s first anniversary. Over the past year, DIF has grown from a handful of founding organizations to 56 members. Together, we’re working to shape the future of decentralized identity technology and standards."
+Tags = ["decentralized-id","microsoft","uport","ibm","sovrin","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix"]
 
-https://www.bankinfosecurity.com/blogs/blockchain-for-identity-projects-to-watch-p-2589
+["ID2020 Alliance"]
+Link = ["https://id2020.org/"]
+Description = "AN ALLIANCE COMMITTED TO IMPROVING LIVES THROUGH DIGITAL IDENTITY"
+Tags = ["un","id2020","accenture","fhi360","icc","simprints","irespond","hyperledger","kiva","mercy-corps","rockefeller-foundation","microsoft","gavi"]
 
+["Zug ID: Exploring the First Publicly Verified Blockchain Identity"]
+Link = ["https://medium.com/uport/zug-id-exploring-the-first-publicly-verified-blockchain-identity-38bd0ee3702"]
+Description ="We recently announced our cooperation with the Swiss City of Zug and local development partner ti&m to introduce the world’s first live implementation of a self-sovereign government issued identity on Ethereum. Thus far, more than 50 citizens in Zug have successfully verified their uPort identity in person with the City, enabling them to access a new suite of e-government services in a trusted and self-reliant manner. With all the excitement around this launch, we wanted to outline for all of you the underlying mechanics of the Zug identity verification system, the benefits this provides for various stakeholders, as well as future use cases and its evolution."
+Tags = ["zug-id","decentralized-id","uport","zug"]
 
-http://identity.foundation/
+["Identity at Coinbase: Welcoming the Distributed Systems team"]
+Link = ["https://blog.coinbase.com/identity-at-coinbase-welcoming-the-distributed-systems-team-d929dd64de2e"]
+Description = "A decentralized identity will let you prove that you own an identity, or that you have a relationship with the Social Security Administration, without making a copy of that identity."
+Tags = ["coinbase","decentralized-id","self-sovereign"]
 
+["Sovrin Network: What Goes on the Ledger?"]
+Link = ["https://sovrin.org/wp-content/uploads/2018/10/What-Goes-On-The-Ledger.pdf"]
+Description = "A white paper from Evernym in cooperation with the Sovrin Foundation. An overview of what is on the Sovrin Network distributed ledger and why."
+Tags = ["sovrin","decentralized-id","white-paper","evernym","documentation","self-sovereign"]
 
-https://id2020.org/
+["Sovrin: A Protocol and Token for Self-Sovereign Identity and Decentralized Trust"]
+Link = "https://sovrin.org/library/sovrin-protocol-and-token-white-paper/"
+Description = "A comprehensive, highly readable 40 page paper describing the complete Sovrin ecosystem, including the problems Sovrin is designed to solve; why it is designed to be a global public utility; how the overall architecture is designed for for resilience, privacy and scalability; the markets it is expected to impact; and the special role of the Sovrin token that will be introduced in 2018."
+Tags = ["sovrin","decentralized-id","documentation","self-sovereign"]
 
-
-https://medium.com/uport/zug-id-exploring-the-first-publicly-verified-blockchain-identity-38bd0ee3702
-
-
-https://techcrunch.com/2018/08/15/login-with-coinbase/?utm_source=tctwreshare&sr_share=twitter
 
 
 https://www.civic.com/
