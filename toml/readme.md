@@ -10,10 +10,12 @@ I used this discord server history scraper https://dht.chylex.com/ to create '[c
 
 Example:
 
-["The **Title** of the entry and must always be different from previous entries"] <br/>
-Link = ["https://Blah.com"]<br/> 
-Description = "Description can be whatever text is valuable to communicate.\nTypically copied directly from the source, and sometimes requires creativity. "<br/>
-Tags = ["blah", "blah-blah"]<br/>
+```
+["The *Title* of the entry and must always be different from previous entries"] 
+Link = ["https://Blah.com"] 
+Description = "Description can be whatever text is valuable to communicate.\nTypically copied directly from the source, and sometimes requires creativity. "
+Tags = ["blah", "blah-blah"]
+```
 
 >* **For any label that can potentially have multiple values it must always be ["bracketed"] even though sometimes there is only one value.**
 >* **I made "Link" a bracketed ["array"] so that sometimes a supporting link can be included. occasionally this will be helpful.**
