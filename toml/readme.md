@@ -45,3 +45,7 @@ Actually filling out the toml entries is tricky, and tagging is somewhat discres
 **Thanks for all the help!!!**
 
 I will happily compensate anyone who makes significant contributions. --@infominer
+
+---
+## Completed Channels:
+#101 #satoshi #history #cypherpunks "Distributed Consensus" category #decentralization #smart-contracts
