@@ -65,8 +65,8 @@ Tags = ["self-sovereign","christophera","decentralized-id",]
 
 ["Sovrin - Library"]
 Link = ["https://sovrin.org/library/"]
-Description = "White papers, research information, guides, and links to relevant third-party documentation.\n\nThis collection has been populated into the supersource, as of 11/8"
-Tags = ["sovrin","resources","self-sovereign","indy","decentralized-id"]
+Description = "White papers, research information, guides, and links to relevant third-party documentation.\n\nContains links to historical and current documentation"
+Tags = ["sovrin","resources","self-sovereign","indy","decentralized-id","documentation"]
 
 ["w3c- Decentralized Identifiers (DIDs) v0.11"]
 Link = ["https://w3c-ccg.github.io/did-spec/"]
@@ -146,32 +146,55 @@ Tags = ["coinbase","decentralized-id","self-sovereign"]
 ["Sovrin Network: What Goes on the Ledger?"]
 Link = ["https://sovrin.org/wp-content/uploads/2018/10/What-Goes-On-The-Ledger.pdf"]
 Description = "A white paper from Evernym in cooperation with the Sovrin Foundation. An overview of what is on the Sovrin Network distributed ledger and why."
-Tags = ["sovrin","decentralized-id","white-paper","evernym","documentation","self-sovereign"]
+Tags = ["sovrin","decentralized-id","whitepaper","evernym","documentation","self-sovereign","indy"]
 
 ["Sovrin: A Protocol and Token for Self-Sovereign Identity and Decentralized Trust"]
 Link = "https://sovrin.org/library/sovrin-protocol-and-token-white-paper/"
 Description = "A comprehensive, highly readable 40 page paper describing the complete Sovrin ecosystem, including the problems Sovrin is designed to solve; why it is designed to be a global public utility; how the overall architecture is designed for for resilience, privacy and scalability; the markets it is expected to impact; and the special role of the Sovrin token that will be introduced in 2018."
+Tags = ["sovrin","decentralized-id","documentation","self-sovereign","indy"]
+
+["Sovrin Governance Framework"]
+Link = ["https://sovrin.org/library/sovrin-governance-framework/"]
+Description = "The constitution of the Sovrin Network—specifies the business, legal, and technical policies governing Sovrin as a global public utility.\nThe Sovrin Governance Framework V2 is now in public review—see this page.\nThe original Sovrin Provisional Trust Framework was published on 28 Jun 2017."
 Tags = ["sovrin","decentralized-id","documentation","self-sovereign"]
 
+["How Sovrin Works—A Technical Guide from the Sovrin Foundation"]
+Link = ["https://sovrin.org/wp-content/uploads/2018/03/How-Sovrin-Works.pdf"]
+Description = "Sovrin is an open-source identity network built on distributed ledger technology. Sovrin is public and permissioned. Public means everyone can use it. Permissioned means that the network nodes that ensure consensus of transactions on the ledger are governed, in this case by the non-profit Sovrin Foundation"
+Tags = ["sovrin","decentralized-id","documentation","self-sovereign","whitepaper"]
+
+["Getting Started with Sovrin"]
+Link = ["https://sovrin.org/library/getting-started-with-sovrin/"]
+Description = "A Developer Guide by Sovrin Foundation. A technical orientation guide using the Sovrin Command Line Interface."
+Tags = ["sovrin","decentralized-id","documentation","self-sovereign"]
+
+["Inevitable Rise of Self-Sovereign Identity"]
+Link = ["https://sovrin.org/wp-content/uploads/2018/03/The-Inevitable-Rise-of-Self-Sovereign-Identity.pdf"]
+Description = "This whitepaper explains why the Internet does not currently have an identity layer and how the emergence of distributed ledger technology (DLT) finally makes one possible. It also shows how a globally shared ledger can enable true self-sovereign identity, where every person, organization, or thing can have its own truly independent digital identity that no other person, company, or government can take away. Most importantly, the paper explains what most distinguishes Sovrin as a distributed identity system: it is the first public permissioned ledger"
+Tags = ["sovrin","decentralized-id","documentation","self-sovereign"]
+
+["Sovrin: digital identities in the blockchain era"]
+Link = ["https://sovrin.org/library/sovrin-digital-identities-in-the-blockchain-era/"]
+Description = "In this paper we describe a practical digital identity project of a global scale, which solves a number of privacy and scalability problems using the concepts of anony- mous credentials and permissioned blockchains. Even though both ideas have been known and developed for a number of years, our system appears to be the first amalgamation. The prototype has been developed, tested, and published as open source."
+Tags = ["sovrin","decentralized-id","documentation","self-sovereign"]
+
+ttps://www.civic.com/
 
 
-https://www.civic.com/
+htps://www.hyperledger.org/projects/hyperledger-indy
 
 
-https://www.hyperledger.org/projects/hyperledger-indy
+htps://www.tudelft.nl/en/2018/tu-delft/tu-delft-helps-develop-digital-id-for-use-on-your-phone/
 
 
-https://www.tudelft.nl/en/2018/tu-delft/tu-delft-helps-develop-digital-id-for-use-on-your-phone/
+htps://www.technavio.com/report/global-blockchain-identity-management-market-analysis-share-2018
 
 
-https://www.technavio.com/report/global-blockchain-identity-management-market-analysis-share-2018
-
-
--Blockchain and GDPR
+-lockchain and GDPR
 https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=61014461USEN
 
 
-https://www.linkedin.com/pulse/digital-identity-today-broken-we-can-fix-dan-elitzer/
+tps://www.linkedin.com/pulse/digital-identity-today-broken-we-can-fix-dan-elitzer/
 
 
 https://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog
