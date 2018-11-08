@@ -1,89 +1,119 @@
+["Tykn: Extended Overview"]
+Link = ["https://docs.google.com/document/d/1pNRO6aOb5eK4s8PVv7yS4x9TkqrGglCJ4jebU1F3Yzo/edit#"]
+Description = "So far, we have identified three (3) key issues that we are seeking to resolve:\n\n1. Paper-based identification leading to costly paper trails, fraud and low interoperability of vital records, not to mention the 230 million invisible children around the globe, and the lack of both social and financial inclusion amongst vulnerable populations.\n2.Lack of resilience in identifying documents due to heavy centralisation leading to weakened communities when struck by man-made or natural disasters.\n3.Insufficient knowledge of Blockchain/Distributed Ledger Technologies within the government, municipalities and (non-)governmental organisations."
+Tags = ["tykn","decentralized-id","sovrin","blockchain-id","did","indy"]
 
-https://docs.google.com/document/d/1pNRO6aOb5eK4s8PVv7yS4x9TkqrGglCJ4jebU1F3Yzo/edit#
+["How do we start tackling the existing identity problem?"]
+Link = ["https://www.ibm.com/blogs/blockchain/2018/06/how-do-we-start-tackling-the-existing-identity-problem/"]
+Description = "Identity and control of personal identity is top of mind, given recent events as well as the European Union’s General Data Protection Regulation (GDPR). A lot of our identity is shared without our explicit consent, gets stored in locations we are unaware of, and when compromised creates tremendous setbacks. Almost everything we do in the digital world is user name and password driven. With decentralized identity, you reduce risk by associating credentials typically used for in-person interactions, as instruments for virtual interactions where it is difficult to verify who or what is on the other side of the screen."
+Tags = ["decentralized-id","ibm","sovrin","securekey","did","indy"]
 
-- tykn Overview
+["Blockchain Identity - peacekeeper"]
+Link = ["https://github.com/peacekeeper/blockchain-identity"]
+Description = "Blockchain and Identity Projects companies working on blockchain and identity (pull requests welcome):\n\nShall or should be actively merged with this database."
+Tags = ["awesome","decentralized-id","did"]
 
----
+["Managing Identity with a UI—ERC-725"]
+Link = ["https://medium.com/originprotocol/managing-identity-with-a-ui-for-erc-725-5c7422b38c09"]
+Description = "So how do we identify someone on the blockchain? How can we build a mechanism into our smart contracts to only allow interactions from reputable people? One potential solution to this problem is ERC 725 (and 735) — a proposed standard for managing identity on the blockchain from Fabian Vogelsteller. Fabian works on the Ethereum project and is well known in the community as the creator of the Mist browser and Web3.js. He was also the creator of the widely successful ERC 20 token standard."
+Tags = ["decentralized-id","erc","erc-725"]
 
-https://www.ibm.com/blogs/blockchain/2018/06/how-do-we-start-tackling-the-existing-identity-problem/
+["Different Approaches to Ethereum Identity Standards"]
+Link = ["https://medium.com/uport/different-approaches-to-ethereum-identity-standards-a09488347c87"] 
+Description = "Identity as a concept affects all of us. Yet, depending on who you ask, there are many different ideas of what Identity is as a technology."
+Tags = ["decentralized-id","did","erc","ethereum","erc-725"]
 
----
+["Ethereum ERC725 Blockchain Based, Self-Sovereign Identity Management"]
+Link = ["https://bitcoinexchangeguide.com/ethereum-erc725-blockchain-based-self-sovereign-identity-management/"]
+Description = "What on Earth is ERC725? The Answer to the Question of Self-Sovereign Identity Management on Blockchain\n\nThe one response that dApps, and the blockchain world for that matter, can give to the world of centralized third parties is one ad-libbed from Vladamir Lenin, which is that Decentralized Apps and blockchain will soon ‘shuffle their cards and spoil their game'.\n\nBut while there's a lot to keep dApp and blockchain enthusiasts excited, one area remains a challenge, and that's user identity management, and it's a critical area that dApps need to wrestle away from third parties. Luckily, it's a job that ERC725 feels up to the task of completing."
+Tags = ["erc-725","decentralized-id","erc","erc-725"]
 
-https://github.com/peacekeeper/blockchain-identity
+["Hyperledger Indy - Distributed ledger and utility library"]
+Link = ["https://www.hyperledger.org/projects/hyperledger-indy"]
+Description = "Hyperledger Indy is a distributed ledger, purpose-built for decentralized identity. It provides tools, libraries, and reusable components for creating and using independent digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other \“silo.\”"
+Tags = ["hyperledger","indy","sovrin","decentralized-id","did","self-sovereign"]
 
----
+["Blockchains and Data Protection in the European Union"]
+Link = ["https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3080322"]
+Description = "Max Planck Institute for Innovation & Competition Research Paper No. 18-01\n\nThis paper examines data protection on blockchains and other forms of distributed ledger technology (‘DLT’). Transactional data stored on a blockchain, whether in plain text, encrypted form or after having undergone a hashing process, constitutes personal data for the purposes of the GDPR. Public keys equally qualify as personal data as a matter of EU data protection law. We examine the consequences flowing from that state of affairs and suggest that in interpreting the GDPR with respect to blockchains, fundamental rights protection and the promotion of innovation, two normative objectives of the European legal order, must be reconciled. This is even more so given that, where designed appropriately, distributed ledgers have the potential to further the GDPR’s objective of data sovereignty."
+Tags = ["gdpr","research-paper","eu"]
 
-https://medium.com/originprotocol/managing-identity-with-a-ui-for-erc-725-5c7422b38c09
+["Deployment of a Blockchain-Based Self-Sovereign Identity - Delft"]
+Link = ["https://arxiv.org/pdf/1806.01926.pdf"]
+Description = "Abstract—Digital identity is unsolved: after many years of research there is still no trusted communication over the Internet. To provide identity within the context of mutual distrust, this paper presents a blockchain-based digital identity solution. Without depending upon a single trusted third party, the proposed solution achieves passport-level legally valid identity. This solution for making identities Self-Sovereign, builds on a generic provable claim model for which attestations of truth from third parties need to be collected. The claim model is then shown to be both blockchain structure and proof method agnostic. Four different implementations in support of these two claim model properties are shown to offer sub-second performance for claim creation and claim verification. Through the properties of Self-Sovereign Identity, legally valid status and acceptable performance, our solution is considered to be fit for adoption by the general public."
+Tags = ["self-soveriegn","decentralized-id","delft","research-paper"]
 
----
+["A First Look at Identity Management Schemes on the Blockchain"]
+Link = ["https://arxiv.org/pdf/1801.03294.pdf"]
+Description = ["Abstract. The emergence of distributed ledger technology (DLT) based upon a blockchain data structure, has given rise to new approaches to identity management that aim to upend dominant approaches to providing and consuming digital identities. These new approaches to identity management (IdM) propose to enhance decentralisation, transparency and user control in transactions that involve identity information; but, given the historical challenge to design IdM, can these new DLTbased schemes deliver on their lofty goals? We introduce the emerging landscape of DLT-based IdM, and evaluate three representative proposals – uPort, ShoCard and Sovrin – using the analytic lens of a seminal framework that characterises the nature of successful IdM schemes."]
+Tags = ["research-paper", "uPort", "ShoCard" ,"Sovrin","decentralized-id",]
 
-https://medium.com/uport/different-approaches-to-ethereum-identity-standards-a09488347c87
+["The Rise of Self-Sovereign Identity - Hyperledger Indy"]
+Link = ["https://wso2.com/blog/research/the-rise-of-self-sovereign-identity-hyperledger-indy"]
+Description = "On the Internet, anyone can represent any identity, and it's difficult to verify those identities. Think of an organization that needs to track the activities of thousands of employees who work from all around the world. This can be a headache for the management. That’s how identity management became a fundamental requirement for any computer system. You can find the key terms related to identity management in the Additional Info section at the end of this blog."
+Tags = ["hyperledger","indy","self-sovereign","decentralized-id","christophera"]
 
----
+["Swipe Right on Verifiably Credentials"]
+Link = ["https://developer.ibm.com/code/2018/05/22/swipe-right-on-verifiable-credentials/"]
+Description = "IBM’s Trusted Identity team has just released its first public-facing proof-of-concept on top of a promising open-source project, Hyperledger Indy. Our PoC demonstrates a simple use case for verifiable credentials. The demo shows how a self-sovereign identity (SSI) can obtain credentials from an issuer and supply these credentials to a verifier in response to a proof request, thus providing a verifiable proof. Though just a small example of how verifiable credentials are exchanged in a Hyperledger Indy environment, it’s a great way to learn and start planning your own solution using verifiable credentials."
+Tags = ["decentralized-id","ibm","sovrin","did"]
 
-https://bitcoinexchangeguide.com/ethereum-erc725-blockchain-based-self-sovereign-identity-management/
+["@ChristopherA on Self-Sovereign ID —A Tweetstorm"]
+Link = ["https://twitter.com/ChristopherA/status/989120215702261761"]
+Description = "0/ Self-Sovereign Identity: A Progress Report…"
+Tags = ["self-sovereign","christophera","decentralized-id",]
 
----
+["Sovrin - Library"]
+Link = ["https://sovrin.org/library/"]
+Description = "White papers, research information, guides, and links to relevant third-party documentation.\n\nThis collection has been populated into the supersource, as of 11/8"
+Tags = ["sovrin","resources","self-sovereign","indy","decentralized-id"]
 
-https://www.hyperledger.org/projects/hyperledger-indy
+["w3c- Decentralized Identifiers (DIDs) v0.11"]
+Link = ["https://w3c-ccg.github.io/did-spec/"]
+Description = "Decentralized Identifiers (DIDs) are a new type of identifier for verifiable, \"self-sovereign\" digital identity. DIDs are fully under the control of the DID subject, independent from any centralized registry, identity provider, or certificate authority. DIDs are URLs that relate a DID subject to means for trustable interactions with that subject. DIDs resolve to DID Documents — simple documents that describe how to use that specific DID. Each DID Document contains at least three things: cryptographic material, authentication suites, and service endpoints. Cryptographic material combined with authentication suites provide a set of mechanisms to authenticate as the DID subject (e.g., public keys, pseudonymous biometric protocols, etc.). Service endpoints enable trusted interactions with the DID subject.\n\nThis document specifies a common data model, format, and operations that all DIDs support."
+Tags = ["w3c","did","decentralized-id","self-sovereign"]
 
----
+["zkp.science"]
+Link = "https://zkp.science"
+Description = "Zero-Knowledge Proofs\n\nWhat are they, how do they work, and are they fast yet?"
+Tags = ["privacy","zkp","decentralized-id"]
 
-[Blockchains and Data Protection in the European Union](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3080322)
+["Decentralized IDentifers (DIDs)"]
+Link = ["https://www.w3.org/2018/vocabws/presentations/Sabadello.pdf"]
+Description = "Intro: Self-Sovereign Identity —Presentation from the WC3 Workshop"
+Tags = ["w3c","did","decentralized-id","self-sovereign","presentation"]
 
----
+["IBM Identity Mixer"]
+Link = ["https://www.zurich.ibm.com/identity_mixer/"]
+Description = "IBM Identity Mixer is a cryptographic protocol suite for privacy-preserving authentication and transfer of certified attributes."
+Tags = ["privacy","reserach-paper","sovrin","indy","ibm","decentralized-id"]
 
-[Deployment of a Blockchain-Based Self-Sovereign Identity - Delft](https://arxiv.org/pdf/1806.01926.pdf)
+["Concepts and Features of Privacy-Preserving Attribute-Based Credentials"]
+Link = ["https://github.com/p2abcengine/p2abcengine/wiki/Concepts-and-features","https://camo.githubusercontent.com/284d8e3e1fa7a0079847800271779e82bab4a4b2/68747470733a2f2f7261772e6769746875622e636f6d2f7032616263656e67696e652f7032616263656e67696e652f6d61737465722f446f63756d656e746174696f6e2f466967757265732f456e7469746965732d332e6a7067"]
+Description = "The figure below gives an overview of the entities involved in Privacy-ABC systems and the interactions between them. These entities are users, issuers, verifiers, inspectors and revocation authorities."
+Tags = ["sovrin","history","privacy","credentials","decentralized-id"]
 
----
+["DID auth and the Little I-am-Me"]
+Link = ["https://medium.com/@markus.sabadello/did-auth-and-the-little-i-am-me-ec14d757ff09"]
+Description = "DID Auth and the little I-am-me\n\nWe recently published a report on “DID Auth” (PDF, MD), which summarizes ideas and possible architectures that allow you to prove that you control a certain Decentralized Identifier (DID). This report originated at the sixth Rebooting-the-Web-of-Trust workshop and is the result of a collaborative effort by several authors and contributors. There is also a webinar."
+Tags = ["did","w3c","sovrin","self-sovereign","decentralized-id"]
 
-[A First Look at Identity Management Schemes on the Blockchain](https://arxiv.org/pdf/1801.03294.pdf)
+["Introduction to DID Auth"]
+Link = "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/final-documents/did-auth.md"
+Description = "The term DID Auth has been used in different ways and is currently not well-defined. We define DID Auth as a ceremony where an identity owner, with the help of various components such as web browsers, mobile devices, and other agents, proves to a relying party that they are in control of a DID. This means demonstrating control of the DID using the mechanism specified in the DID Document's \"authentication\" object. This could take place using a number of different data formats, protocols, and flows. DID Auth includes the ability to establish mutually authenticated communication channels and to authenticate to web sites and applications. Authorization, Verifiable Credentials, and Capabilities are built on top of DID Auth and are out of scope for this document. This paper gives on overview of the scope of DID Auth, supported protocols and flows, and the use of components of the DID Documents that are relevant to authentication, as well as formats for challenges and responses."
+Tags = ["w3c","did","rebooting-web-of-trust","self-sovereign","decentralized-id"]
 
-"We introduce the emerging landscape of DLT-based IdM, and evaluate three representative proposals – uPort, ShoCard and Sovrin – using the analytic lens of a seminal framework that characterises the nature of successful IdM schemes."
+["Rebooting Web of Trust"]
+Link = ["https://www.weboftrust.info/"]
+Description = "The Web of Trust is a buzzword for a new model of decentralized self-sovereign identity. It’s a phrase that dates back almost twenty-five years, the classic definition derives from PGP.\n\nBut some use it as a term to include self-sovereign identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the concept we aim to reboot it."
+Tags = ["w3c","did","sovrin","rebooting-web-of-trust","self-sovereign","decentralized-id"]
 
----
+["Introduction to DID Auth for SSI – Markus Sabadello – Webinar 10"]
+Link = ["http://ssimeetup.org/introduction-did-auth-markus-sabadello-webinar-10/","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/draft-documents/did_auth_draft.md"]
+Description = "Markus Sabadello, CEO of Danube Tech, will talk about DID Auth, an emerging building block in the SSI ecosystem. Although the technical details of DID Auth are not well-defined at this point, its general concept is clear: With self-sovereign identity infrastructure, the most trivial and straightforward functionality for identity owners should be the ability to authenticate, i.e. to prove control of a DID in some relationship or during a transaction. This could take place using a number of different data formats, protocols, and flows. DID Auth includes the ability to authenticate to web sites and applications, and to establish mutually authenticated communication channels. In this webinar, we will discuss the current state of the DID Auth concept, and how it relates to other efforts such as Verifiable Credentials and agent protocols. We also recommend reading the white paper “Introduction to DID Auth” by Markus Sabadello, Kyle Den Hartog, Christian Lundkvist, Cedric Franz, Alberto Elias, Andrew Hughes, John Jordan, Dmitri Zagidulin."
+Tags = ["w3c","did","decentralized-id","self-sovereign","presentation","video"]
 
-"On the Internet, nobody knows you're a dog" is an adage about Internet anonymity which began as a cartoon caption by Peter Steiner and published by The New Yorker on July 5, 1993
-
----
-
-https://wso2.com/blog/research/the-rise-of-self-sovereign-identity-hyperledger-indy
-
----
-
-https://developer.ibm.com/code/2018/05/22/swipe-right-on-verifiable-credentials/
-
----
-
-https://twitter.com/ChristopherA/status/989120215702261761
-
----
-
-https://sovrin.org/library/
-
----
-
--Decentralized Identifiers (DIDs) v0.11
-https://w3c-ccg.github.io/did-spec/
-
----
-
-https://zkp.science
-
----
-
-https://www.w3.org/2018/vocabws/presentations/Sabadello.pdf
-
----
-
-https://www.zurich.ibm.com/identity_mixer/
-IBM Identity Mixer is a cryptographic protocol suite for privacy-preserving authentication and transfer of certified attributes.
-
----
-
-https://github.com/p2abcengine/p2abcengine/wiki/Concepts-and-features
-
----
-
-https://medium.com/@markus.sabadello/did-auth-and-the-little-i-am-me-ec14d757ff09
-
+["A Primer on Functional Identity"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/functional-identity-primer.md"]
+Description = "There are many ways to approach identity. For the Rebooting Web of Trust, we prefer a functional approach to focus conversations on how identity works and how we use it.\n\nThe varied facets of identity are so rich that we each bring our own hot buttons and agendas to any discussion. Some people engage from a philosophical perspective, others cultural. Some dive into political issues and others get meta-physical and spiritual. These different perspectives are valid views of identity’s impact on our lives. More than valid. Vital. They help answer the question of “Why?” Why identity matters, why we should care. Unfortunately, they also inflame passions. We sometimes talk past each other to make points that have minimal relevance for others, leaving people frustrated and unheard.\n\nAs engineers and system designers, we’re concerned with how things work. We want to fix what’s broken and build new things. To do that, we want to discuss how things function. With identity, this functional perspective sidesteps the inflammatory rabbit holes, without dismissing them. Functional Identity lets us investigate the HOW without prejudice to WHY, viewing identity systems based on how they work and then, in turn, how they affect individuals and society."
+Tags = ["rebooting-web-of-trust","self-sovereign","decentralized-id","developing"]
