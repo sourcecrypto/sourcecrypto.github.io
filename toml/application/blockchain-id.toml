@@ -513,22 +513,40 @@ Link = ["https://www.uport.me/","http://www.ibtimes.co.uk/ethereum-studio-consen
 Description = "A Consensys developed blockchain-based, self-sovereign identity system"
 Tags = ["self-sovereign","uport","blockchain-id","erc-725","decentralized-id"]
 
+["Identit.ee"]
+Link = ["http://www.identit.ee/"] 
+Description = "a program to build blockchain identity solutions related to the Estonian e-Residency concept."
+Tags = ["identit-ee","blockchain-id","estonia"]
 
-[Identit.ee](http://www.identit.ee/) is a program to build blockchain identity solutions related to the Estonian e-Residency concept.
+["BitAlias"]
+Link = ["https://bitalias.github.io/"]
+Description = "allows users to register names in the Bitcoin blockchain and point them to their wallets."
+Tags = ["bitalias","bitcoin","identification","layer2"]
 
-[BitAlias](https://bitalias.github.io/) allows users to register names in the Bitcoin blockchain and point them to their wallets.
+["EtherID"]
+Link = ["http://etherid.org/"]
+Description = ["allows registration of domain names for an Ethereum account."]
+Tags = ["identification","dns","ethereum"]
 
-[EtherID](http://etherid.org/) allows registration of domain names for an Ethereum account.
+["ENS"]
+Link = ["https://github.com/nexusdev/ENS"]
+Description = "is the \“Ethereal Namespace\”, a contract system and set of conventions to form a hierarchical namespace."
+Tags = ["identification","namespace","ethereum","ens"]
 
-[ENS](https://github.com/nexusdev/ENS) is the “Ethereal Namespace”, a contract system and set of conventions to form a hierarchical namespace.
+["Ethereum Name Service"]
+Link = ["https://ens.domains/"]
+Description = "a naming system based on Ethereum smart contracts that provides registration of human-readable names, as well as resolution to service and resource identifiers. A name is registered by using an Ethereum dapp to enter an auction process for the desired name."
+Tags = ["ethereum","ens","namespace"]
 
-[Ethereum Name Service](https://ens.domains/) is a naming system based on Ethereum smart contracts that provides registration of human-readable names, as well as resolution to service and resource identifiers. A name is registered by using an Ethereum dapp to enter an auction process for the desired name.
+["DEVCON1: Digital Identity"]
+Link = ["https://www.youtube.com/watch?v=QpaTOvAhLR4"]
+Description = "on blockchain, digital identity, and public key infrastructure"
+Tags = ["devcon1","devcon","digital-id","pki"]
 
-[Evernym](http://www.evernym.com/) is developing a public permissioned distributed ledger called [Sovrin](http://www.sovrin.org/), which is designed specifically for "self-sovereign identity" and privacy-preserving cryptography. It is fully open source (FOSS) as project [Indy](https://www.hyperledger.org/projects/indy) within the Hyperledger family. Multiple white papers explain the the ideas and technologies behind it.
-
-At Ethereum’s DEVCON ONE conference, a [talk](https://www.youtube.com/watch?v=QpaTOvAhLR4) on blockchain, digital identity, and public key infrastructure was given.
-
-[Bitnation](https://bitnation.co/) seeks to establish the concept of “world citizenship” through identity registration on the blockchain. The project is collaborating with the Estonian e-Residency program and also has a focus on offering ["blockchain emergency IDs"](https://refugees.bitnation.co/) to refugees.
+["Bitnation"]
+Link = ["https://bitnation.co/","https://refugees.bitnation.co/"]
+Description = "seeks to establish the concept of \“world citizenship\” through identity registration on the blockchain. The project is collaborating with the Estonian e-Residency program and also has a focus on offering 'blockchain emergency IDs' to refugees."
+Tags = ["humanitarian","blockchain-id"]
 
 Linux foundation [hyper ledger](https://www.hyperledger.org/) project looking to develop a cross-industry open standard with many big companies participating.
 
