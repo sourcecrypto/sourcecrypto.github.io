@@ -3,6 +3,11 @@ Link = ["https://docs.google.com/document/d/1pNRO6aOb5eK4s8PVv7yS4x9TkqrGglCJ4je
 Description = "So far, we have identified three (3) key issues that we are seeking to resolve:\n\n1. Paper-based identification leading to costly paper trails, fraud and low interoperability of vital records, not to mention the 230 million invisible children around the globe, and the lack of both social and financial inclusion amongst vulnerable populations.\n2.Lack of resilience in identifying documents due to heavy centralisation leading to weakened communities when struck by man-made or natural disasters.\n3.Insufficient knowledge of Blockchain/Distributed Ledger Technologies within the government, municipalities and (non-)governmental organisations."
 Tags = ["tykn","decentralized-id","sovrin","blockchain-id","did","indy"]
 
+["The Future of Resilient Identity"]
+Link = ["https://tykn.tech/"]
+Description = "At Tykn, we help NGOs and governments help people better with Ana, our white-label identity management system for humanitarian aid, which comprises higher-order applications for aid distribution, greater project level metrics and the identification of beneficiaries."
+Tags = ["organizations","tykn","decentralized-id","blockchain-id","self-sovereign","indy"]
+
 ["How do we start tackling the existing identity problem?"]
 Link = ["https://www.ibm.com/blogs/blockchain/2018/06/how-do-we-start-tackling-the-existing-identity-problem/"]
 Description = "Identity and control of personal identity is top of mind, given recent events as well as the European Union’s General Data Protection Regulation (GDPR). A lot of our identity is shared without our explicit consent, gets stored in locations we are unaware of, and when compromised creates tremendous setbacks. Almost everything we do in the digital world is user name and password driven. With decentralized identity, you reduce risk by associating credentials typically used for in-person interactions, as instruments for virtual interactions where it is difficult to verify who or what is on the other side of the screen."
@@ -26,12 +31,12 @@ Tags = ["decentralized-id","did","erc","ethereum","erc-725"]
 ["Ethereum ERC725 Blockchain Based, Self-Sovereign Identity Management"]
 Link = ["https://bitcoinexchangeguide.com/ethereum-erc725-blockchain-based-self-sovereign-identity-management/"]
 Description = "What on Earth is ERC725? The Answer to the Question of Self-Sovereign Identity Management on Blockchain\n\nThe one response that dApps, and the blockchain world for that matter, can give to the world of centralized third parties is one ad-libbed from Vladamir Lenin, which is that Decentralized Apps and blockchain will soon ‘shuffle their cards and spoil their game'.\n\nBut while there's a lot to keep dApp and blockchain enthusiasts excited, one area remains a challenge, and that's user identity management, and it's a critical area that dApps need to wrestle away from third parties. Luckily, it's a job that ERC725 feels up to the task of completing."
-Tags = ["erc-725","decentralized-id","erc","erc-725"]
+Tags = ["decentralized-id","erc","erc-725"]
 
 ["Hyperledger Indy - Distributed ledger and utility library"]
 Link = ["https://www.hyperledger.org/projects/hyperledger-indy"]
 Description = "Hyperledger Indy is a distributed ledger, purpose-built for decentralized identity. It provides tools, libraries, and reusable components for creating and using independent digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other \“silo.\”"
-Tags = ["hyperledger","indy","sovrin","decentralized-id","did","self-sovereign"]
+Tags = ["hyperledger","indy","sovrin","decentralized-id","did","self-sovereign","protocols"]
 
 ["Blockchains and Data Protection in the European Union"]
 Link = ["https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3080322"]
@@ -83,6 +88,11 @@ Link = ["https://www.w3.org/2018/vocabws/presentations/Sabadello.pdf"]
 Description = "Intro: Self-Sovereign Identity —Presentation from the WC3 Workshop"
 Tags = ["w3c","did","decentralized-id","self-sovereign","presentation"]
 
+["Verifiable Claims Working Group Charter"]
+Link = ["https://www.w3.org/2017/vc/charter.html"]
+Description = "It is currently difficult to express banking account information, education qualifications, healthcare data, and other sorts of machine-readable personal information that has been verified by a 3rd party on the Web. These sorts of data are often referred to as verifiable claims. The mission of the Verifiable Claims Working Group is to make expressing, exchanging, and verifying claims easier and more secure on the Web. This charter focuses on use cases for education."
+Tags = ["w3c","credentials","did","verifiable-claims","decentralized-id","self-sovereign"]
+
 ["IBM Identity Mixer"]
 Link = ["https://www.zurich.ibm.com/identity_mixer/"]
 Description = "IBM Identity Mixer is a cryptographic protocol suite for privacy-preserving authentication and transfer of certified attributes."
@@ -106,7 +116,7 @@ Tags = ["w3c","did","weboftrust","self-sovereign","decentralized-id"]
 ["Rebooting Web of Trust"]
 Link = ["https://www.weboftrust.info/"]
 Description = "The Web of Trust is a buzzword for a new model of decentralized self-sovereign identity. It’s a phrase that dates back almost twenty-five years, the classic definition derives from PGP.\n\nBut some use it as a term to include self-sovereign identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the concept we aim to reboot it."
-Tags = ["w3c","did","sovrin","weboftrust","self-sovereign","decentralized-id"]
+Tags = ["organizations","w3c","did","sovrin","weboftrust","self-sovereign","decentralized-id"]
 
 ["Introduction to DID Auth for SSI – Markus Sabadello – Webinar 10"]
 Link = ["http://ssimeetup.org/introduction-did-auth-markus-sabadello-webinar-10/","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/draft-documents/did_auth_draft.md"]
@@ -121,7 +131,7 @@ Tags = ["weboftrust","self-sovereign","decentralized-id","developing"]
 ["Decentralized Identity Foundation"]
 Link = ["http://identity.foundation/"]
 Description = "Join us in building an open source decentralized identity ecosystem for people, organizations, apps, and devices.\n\nTHE PILLARS OF A NEW ECOSYSTEM\nDECENTRALIZED IDENTITIES\n\nanchored by: BLOCKCHAIN IDs\nlinked to ZERO-TRUST DATA STORES\nthat are UNIVERSALLY DISCOVERABLE"
-Tags = ["decentralized-id","microsoft","uport","ibm","sovrin","securekey","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix"]
+Tags = ["organizations","decentralized-id","microsoft","uport","ibm","sovrin","securekey","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix"]
 
 ["Decentralized Identity Foundation Grows To 56 Members In Our First Year"]
 Link = "https://medium.com/decentralized-identity/decentralized-identity-foundation-grows-to-56-members-in-our-first-year-3ec117e811d8"
@@ -131,7 +141,7 @@ Tags = ["decentralized-id","microsoft","uport","ibm","sovrin","tierion","gem","b
 ["ID2020 Alliance"]
 Link = ["https://id2020.org/"]
 Description = "AN ALLIANCE COMMITTED TO IMPROVING LIVES THROUGH DIGITAL IDENTITY"
-Tags = ["un","id2020","accenture","fhi360","icc","simprints","irespond","hyperledger","kiva","mercy-corps","rockefeller-foundation","microsoft","gavi"]
+Tags = ["organizations","un","id2020","accenture","fhi360","sdg","icc","simprints","irespond","hyperledger","kiva","mercy-corps","rockefeller-foundation","microsoft","gavi"]
 
 ["Zug ID: Exploring the First Publicly Verified Blockchain Identity"]
 Link = ["https://medium.com/uport/zug-id-exploring-the-first-publicly-verified-blockchain-identity-38bd0ee3702"]
@@ -181,7 +191,7 @@ Tags = ["sovrin","decentralized-id","documentation","self-sovereign"]
 ["Civic"]
 Link = ["https://www.civic.com/"]
 Description = "Civic enables people to take control and protect their identity:\n\nSECURE ID PLATFORM ; REUSABLE KYC ; ID THEFT PROTECTION"
-Tags = ["civic","decentralized-id","self-sovereign"]
+Tags = ["civic","decentralized-id","self-sovereign","organizations"]
 
 ["TU Delft helps develop digital ID for use on your phone"]
 Link = ["https://www.tudelft.nl/en/2018/tu-delft/tu-delft-helps-develop-digital-id-for-use-on-your-phone/"]
@@ -248,11 +258,6 @@ Link = ["http://www.windley.com/archives/2018/07/the_sovrin_foundation.shtml"]
 Description = "This article describes the role that the Sovrin Foundation and associated groups play in governing, operating, and using the Sovrin Network. The Sovrin Network is designed and intended to be decentralized so understanding the key influence points and community groups is important."
 Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
-["The Sovrin Foundation"]
-Link = ["http://www.windley.com/archives/2018/07/the_sovrin_foundation.shtml"]
-Description = "This article describes the role that the Sovrin Foundation and associated groups play in governing, operating, and using the Sovrin Network. The Sovrin Network is designed and intended to be decentralized so understanding the key influence points and community groups is important."
-Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
-
 ["Hyperledger Welcomes Project Indy"]
 Link = ["https://www.hyperledger.org/blog/2017/05/02/hyperledger-welcomes-project-indy"]
 Description = "We’re excited to announce Indy, a new Hyperledger project for supporting independent identity on distributed ledgers. Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other silo."
@@ -306,7 +311,7 @@ Tags = ["evernym","decentralized-id","blockchain-id","gdpr","self-sovereign"]
 ["Evernym"]
 Link = ["https://www.evernym.com/"]
 Description = "Self-sovereign identity: now that it's possible, it's inevitable. Humanity deserves digital identity that is permanent, portable, private and completely secure; in other words: self-sovereign. Shortcomings in the internet’s original design made this impossible, at a cost of trillions each year. Today, the invention of distributed ledger technology makes self-sovereign digital identity a possibility for the first time. Now that self-sovereign identity is possible, it’s inevitable. And it’s going to change everything."
-Tags = ["evernym","decentralized-id","blockchain-id","self-sovereign"]
+Tags = ["evernym","decentralized-id","blockchain-id","self-sovereign","organizations"]
 
 ["Self-Sovereign Identity Systems for Humanitarian Interventions—A Case Study on Protective Cash Transfer Programs"]
 Link = ["https://repository.tudelft.nl/islandora/object/uuid:6cdb5450-9a81-47a9-8ffa-f9bd77c72448/datastream/OBJ1/download"]
@@ -353,7 +358,7 @@ Link = ["https://id2020.org/news/2016/12/2/identity-20"]
 Description = "A birth certificate is a document of almost incalculable value. It allows us to go to school, prove our citizenship, exercise the right to vote, access healthcare, and open a bank account. A birth certificate gives someone a unique legal identity.\n\nThose of us living in highly developed countries take our birth certificates for granted. For us, births and deaths are routinely and accurately documented. Yet more than 100 developing countries lack functional civil registration and vital statistics (CRVS) systems, and 230 million children under the age of five haven’t been registered. Some countries like Malawi and Ethiopia have registration rates in the single digits. Experts estimate that there are 1.5 billion people without a legal identity. That’s the equivalent of all of China going untracked."
 Tags = ["id2020","decentralized-id","un"]
 
-["What is "Sovereign Source Authority"?"]
+["What is 'Sovereign Source Authority'?"]
 Link = ["https://www.moxytongue.com/2012/02/what-is-sovereign-source-authority.html"]
 Description = "What is an Individual Human Being prior to \"identity registration\" in Society? What is the data administration framework of default participation in Society today?\n\nSociety is an Agreement. It is made by and between Individuals. Within any Society, Individuals have an established Right to an \"identity\", and to all of the benefits and responsibilities of some form of \"Nationally Sovereign Structure\" of governance and administration. Sovereign Source Authority (SSA) refers to the actual default design parameter of Human identity, prior to the \"registration\" process used to inaugurate participation in Society."
 Tags = ["self-sovereign","history"]
@@ -371,7 +376,7 @@ Tags = ["decentralized-id","uport","ethereum-layer2","self-sovereign"]
 ["Sovrin"]
 Link = ["https://sovrin.org/"]
 Description = "Identity For All —Permanent Digital Identities that Don’t Require a Central Authority"
-Tags = ["sovrin","decentralized-id","self-sovereign","indy"]
+Tags = ["sovrin","decentralized-id","self-sovereign","indy","organizations"]
 
 ["Internet Identity Workshop"]
 Link = ["http://www.internetidentityworkshop.com/"]
@@ -392,3 +397,73 @@ Tags = ["self-sovereign","christophera","history","decentralized-id"]
 Link = "https://www.slideshare.net/ChristopherA/identity-of-the-blockchain-perils-and-promise"
 Description = "Presented during the #Consensus2016 identity workshop, May 4th, 2016"
 Tags = ["decentralized-id","christophera","history","presentation","iiw","history"]
+
+["The W3C Credentials Community Group"]
+Link = ["https://w3c-ccg.github.io/"]
+Description = "The mission of the W3C Credentials Community Group is to explore the creation, storage, presentation, verification, and user control of credentials. We focus on a verifiable credential (a set of claims) created by an issuer about a subject—a person, group, or thing—and seek solutions inclusive of approaches such as: self-sovereign identity; presentation of proofs by the bearer; data minimization; and centralized, federated, and decentralized registry and identity systems. Our tasks include drafting and incubating Internet specifications for further standardization and prototyping and testing reference implementations."
+Tags = ["w3c","credentials","did","verifiable-claims","decentralized-id","self-sovereign","organizations"]
+
+["CREDENTIALS COMMUNITY GROUP"]
+Link = ["https://www.w3.org/community/credentials/"]
+Description = "The mission of the W3C Credentials Community Group is to explore the creation, storage, presentation, verification, and user control of credentials. We focus on a verifiable credential (a set of claims) created by an issuer about a subject—a person, group, or thing—and seek solutions inclusive of approaches such as: self-sovereign identity; presentation of proofs by the bearer; data minimization; and centralized, federated, and decentralized registry and identity systems. Our tasks include drafting and incubating Internet specifications for further standardization and prototyping and testing reference implementations.\n\nNote: Community Groups are proposed and run by the community. Although W3C hosts these conversations, the groups do not necessarily represent the views of the W3C Membership or staff."
+Tags = ["w3c","credentials","did","verifiable-claims","decentralized-id","self-sovereign", "organizations"]
+
+["Verifiable Claims Working Group"]
+Link = ["https://www.w3.org/2017/vc/WG/"]
+Description = "The mission of the Verifiable Claims Working Group (VCWG) is to make expressing and exchanging credentials that have been verified by a third party easier and more secure on the Web."
+Tags = ["w3c","credentials","did","verifiable-claims","decentralized-id","self-sovereign","organizations"]
+
+["@ChristopherA on DID adoption"]
+Link = ["https://twitter.com/ChristopherA/status/989122017348784130","https://www.computerworld.com/article/3267930/blockchain/how-blockchain-could-solve-the-internet-privacy-problem.html"]
+Description = "22/ Over a dozen companies and organizations, using multiple blockchains (Bitcoin, Ethereum, Hyperledger, etc.), have committed to deploying DIDs, including IBM, Microsoft, Digital Bazaar, Consensys, Evernym, Learning Machine, British Columbia, and more:"
+Tags = ["did","christophera","w3c","decentralized-id","adoption"]
+
+["Experts talk Self-Sovereign Identity"]
+Link = ["https://www.coindesk.com/experts-talk-self-sovereign-identity-implementing-systems/"]
+Description = "Identity is one use case of the blockchain that has many people excited. For the first time, an individual has the potential to create a true, immutable identity distributed across an entire network.\n\nAs Consensus 2016 wrapped up earlier this week, a group of thought-leaders who have been working in the identity space for decades presented their beliefs on what to consider when building an identity system using blockchain.\n\nChristopher Allen, the principal architect at bitcoin sidechain firm Blockstream, echoed the sentiment of other panelists about the duality of identity on the blockchain."
+Tags = ["self-sovereign","christophera","history","consensus","2016"]
+
+["Transforming our world: the 2030 Agenda for Sustainable Development"]
+Link =["https://sustainabledevelopment.un.org/post2015/transformingourworld"]
+Description = "That document details 17 sustainable development goals with 169 specific points between them. The overarching mission contained within these goals, “to achieving sustainable development in its three dimensions – economic, social and environmental – in a balanced and integrated manner.” Prominently among the agenda’s goals is providing proper identification to the world, by 2030."
+Tags = ["decentralized-id","un","sdg"]
+
+["DIGITAL IDENTITY AS A BASIC HUMAN RIGHT"]
+Link = ["https://impakter.com/digital-identity-basic-human-right/"]
+Description = "In a world where 15 percent of the world population, or 1.1 billion people, still lack a valid form of identification, it is critical that we start leveraging digital technologies to provide a solution. What is needed is a digital identity. Innovation on identity is one of the most promising trends in blockchain technology, mostly in terms of how a global digital ID can enable us to strengthen democracies through global digital voting."
+Tags = ["digital-id","self-sovereign","wef","decentralized-id"]
+
+["BCGov Verifiable Organization Network – Impressive Client Demo"]
+Link = ["https://www.continuumloop.com/bcgov-verifiable-organization-network/"]
+Description = "One of my favourite client projects (Verifiable Organization Network) was demonstrated at last month’s Rebooting the Web of Trust conference in Santa Barbara. John Jordan runs an incredible project out of the Office of the CIO for British Columbia. I play a minor role providing executive leadership and advising. John nailed the presentation."
+Tags = ["weboftrust","bcgov","credentials"]
+
+["Identity Validation as a Public Sector Digital Service?"]
+Link = ["https://blog.aniljohn.com/2014/07/identity-validation-as-a-public-sector-digital-service.html"]
+Description = "I’ve written before about the role that the public sector currently has in identity establishment, but not in identity validation. This absence has led to an online ecosystem in the U.S. that depends on non-authoritative information for identity validation. These are some initial thoughts on what an attribute validation service, which provides validation of identity attributes using authoritative public sector sources, could look like."
+Tags = ["digital-id","public-sector"]
+
+["@ChristopherA —Christopher Allen on Twitter"]
+Link = ["https://twitter.com/ChristopherA"]
+Description = "Blockchain & Decentralized Identity Architect—Internet Cryptography Pioneer—Co-author TLS Security Standard—Collaborative Tools & Patterns"
+Tags = ["twitter","people","christophera","self-sovereign","decentralized-id","blockstream","iiw","id2020"]
+
+["@manusporny —Manu Sporny on Twitter"]
+Link = ["https://twitter.com/manusporny"]
+Description = "Founder/CEO Digital Bazaar; payments, identity & blockchain. Kickstarted Web Payments, Verifiable Credentials, Decentralized Identifiers, and JSON-LD at W3C."
+Tags = ["twitter","people","manusporny","self-sovereign","decentralized-id","w3c","verifiable-credentials","digital-bazaar"]
+
+["The promise of managing identity on the blockchain"]
+Link = ["https://techcrunch.com/2017/09/10/the-promise-of-managing-identity-on-the-blockchain/"]
+Description = "Imagine a world where you are in direct control of your personal information; a world where you can limit and control how much information you share while retaining the ability to transact in the world. This is self-sovereign identity, and it is already here. Blockchain is the underlying technology paving the path to self-sovereign identity through decentralized networks. It ensures privacy and trust, where transactions are secure, authenticated and verifiable and endorsed by relevant, permissioned participants,' Jerry Cuomo - IBM."
+Tags = ["101","blockchain-id","decentralized-id","self-sovereign"]
+
+["@windley —Phil Windley on Twitter"]
+Link = ["https://twitter.com/windley"]
+Description = "I build things; I write code; I void warranties"
+Tags = ["twitter","people","windley","self-sovereign","decentralized-id","iiw"]
+
+["World Identity Netowork —Blockchain for Impact"]
+Link = "https://win.systems/"
+Description = "We are a team of global advocates, human rights activists, technologists and innovators who believe that everyone needs the ability to access proof of their personal identity. Anywhere, anytime."
+Tags = ["blockchain-id","decentralized-id","win","organizations"]
