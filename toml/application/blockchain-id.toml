@@ -101,12 +101,12 @@ Tags = ["did","w3c","sovrin","self-sovereign","decentralized-id"]
 ["Introduction to DID Auth"]
 Link = "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/final-documents/did-auth.md"
 Description = "The term DID Auth has been used in different ways and is currently not well-defined. We define DID Auth as a ceremony where an identity owner, with the help of various components such as web browsers, mobile devices, and other agents, proves to a relying party that they are in control of a DID. This means demonstrating control of the DID using the mechanism specified in the DID Document's \"authentication\" object. This could take place using a number of different data formats, protocols, and flows. DID Auth includes the ability to establish mutually authenticated communication channels and to authenticate to web sites and applications. Authorization, Verifiable Credentials, and Capabilities are built on top of DID Auth and are out of scope for this document. This paper gives on overview of the scope of DID Auth, supported protocols and flows, and the use of components of the DID Documents that are relevant to authentication, as well as formats for challenges and responses."
-Tags = ["w3c","did","rebooting-web-of-trust","self-sovereign","decentralized-id"]
+Tags = ["w3c","did","web-of-trust","self-sovereign","decentralized-id"]
 
 ["Rebooting Web of Trust"]
 Link = ["https://www.weboftrust.info/"]
 Description = "The Web of Trust is a buzzword for a new model of decentralized self-sovereign identity. It’s a phrase that dates back almost twenty-five years, the classic definition derives from PGP.\n\nBut some use it as a term to include self-sovereign identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the concept we aim to reboot it."
-Tags = ["w3c","did","sovrin","rebooting-web-of-trust","self-sovereign","decentralized-id"]
+Tags = ["w3c","did","sovrin","web-of-trust","self-sovereign","decentralized-id"]
 
 ["Introduction to DID Auth for SSI – Markus Sabadello – Webinar 10"]
 Link = ["http://ssimeetup.org/introduction-did-auth-markus-sabadello-webinar-10/","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/draft-documents/did_auth_draft.md"]
@@ -116,7 +116,7 @@ Tags = ["w3c","did","decentralized-id","self-sovereign","presentation","video"]
 ["A Primer on Functional Identity"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/functional-identity-primer.md"]
 Description = "There are many ways to approach identity. For the Rebooting Web of Trust, we prefer a functional approach to focus conversations on how identity works and how we use it.\n\nThe varied facets of identity are so rich that we each bring our own hot buttons and agendas to any discussion. Some people engage from a philosophical perspective, others cultural. Some dive into political issues and others get meta-physical and spiritual. These different perspectives are valid views of identity’s impact on our lives. More than valid. Vital. They help answer the question of “Why?” Why identity matters, why we should care. Unfortunately, they also inflame passions. We sometimes talk past each other to make points that have minimal relevance for others, leaving people frustrated and unheard.\n\nAs engineers and system designers, we’re concerned with how things work. We want to fix what’s broken and build new things. To do that, we want to discuss how things function. With identity, this functional perspective sidesteps the inflammatory rabbit holes, without dismissing them. Functional Identity lets us investigate the HOW without prejudice to WHY, viewing identity systems based on how they work and then, in turn, how they affect individuals and society."
-Tags = ["rebooting-web-of-trust","self-sovereign","decentralized-id","developing"]
+Tags = ["web-of-trust","self-sovereign","decentralized-id","developing"]
 
 ["Decentralized Identity Foundation"]
 Link = ["http://identity.foundation/"]
@@ -271,7 +271,7 @@ Tags = ["christophera","decentralized-id","self-sovereign","source","sovrin","in
 ["SecureKey Technologies to explore interoperability between Verified.Me and Hyperledger Indy"]
 Link = ["https://securekey.com/press-releases/hyperledger-indy/"]
 Description = "SecureKey Technologies, the developer of Verified.Me – a blockchain-based digital identity network built upon Hyperledger Fabric – today announces it will continue its leadership in establishing standards for next generation digital identity networks by exploring interoperability between Verified.Me and Hyperledger Indy-based identity projects.\n\nSecureKey is joining the Decentralized Identity Foundation (DIF) in efforts to advance standards-based initiatives for decentralized digital identity ecosystems. Already an active member of the open source collaborative effort, Hyperledger, SecureKey will also be highly involved in the Hyperledger Indy Project to explore integration points and projects between digital identity-focused platforms."
-Tags = ["securekey","hyperledger","decentralized-id","indy""self-sovereign","verified-me"]
+Tags = ["securekey","hyperledger","decentralized-id","indy","self-sovereign","verified-me"]
 
 ["How Blockchain Revolutionizes Identity Management"]
 Link = ["https://www.accenture-insights.nl/en-us/articles/how-blockchain-will-revolutionize-identity-management"]
@@ -283,64 +283,70 @@ Link = ["https://www.cba.ca/embracing-digital-id-in-canada"]
 Description = "In this brief, we highlight why Canada needs a digital identity system, how other countries have made progress in this area and the lessons we can learn from those experiences to build a system in Canada."
 Tags = ["decentralized-id","canada"]
 
+["WISeKey fully deployed its CertifyID integrating Digital Identity with Blockchain technology"]
+Link = ["https://globenewswire.com/news-release/2018/07/11/1535718/0/en/WISeKey-fully-deployed-its-CertifyID-integrating-Digital-Identity-with-Blockchain-technology.html"]
+Description = "WISeKey fully deployed its CertifyID integrating Digital Identity with Blockchain technology\n\n·         CertifyID acts as a Digital Identity dual factor authentication based technology that sits on top of a BlockChain\n·         WISeKey Digital Identity BlockChain platform is assisting United Nations' Sustainable Development Goals aiming to provide every person on the planet with a legal digital identity by 2030\n·         Having a legal digital identity is a basic human right"
+Tags = ["decentralized-id","blockchain-id","wisekey","certifyid","press-release"]
 
+["Digital Identity: the current state of affairs"]
+Link = ["https://www.bbvaresearch.com/wp-content/uploads/2018/02/Digital-Identity_the-current-state-of-affairs.pdf"]
+Description = "In a world where the rise in the use of the Internet is increasing exponentially, the ability to prove your identity is crucial for the economic, financial and social development. Individuals and companies need identity solutions valid across different services, markets, standards and technologies. New technologies like blockchain, biometrics and AI can help to deliver secure identity services, in particular by governments and financial institutions, and solutions should meet both the objectives of ensuring secure identity and improving user experience. As public identities have been created by different authorities, and since a global public or private identity is not a realistic option in the short term, interoperability and the collaboration between different entities to offer complete solutions is decisive. In the long run, to become a trusted identity provider across different industries could represent a big business opportunity for financial institutions."
+Tags = ["bbva","decentralized-id","blockchain-id","enterprise"]
 
+["Digital Identity Management in the Context of GDPR & Sovrin —Why Data Privacy Matters & How to Protect It"]
+Link = ["https://blog.tykn.tech/digital-identity-management-in-the-context-of-gdpr-sovrin-43028247378b","https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-40db94c1c437","https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-7296a3b07769"]
+Description = "In the developed world, the battle for privacy is arguably one of the most important ones to overcome within our lifetime. Our personal and (ought-to-be) private information is being collected en masse by companies large and small, sold for a handsome profit, and subsequently used to feed the \“big data machine\”, where all these data points are correlated and further used to generate leads for third parties."
+Tags = ["tykn","decentralized-id","blockchain-id","gdpr","self-sovereign"]
 
-https://globenewswire.com/news-release/2018/07/11/1535718/0/en/WISeKey-fully-deployed-its-CertifyID-integrating-Digital-Identity-with-Blockchain-technology.html
+["Is Self Sovereign Identity the Ultimate GDPR Compliance Tool?"]
+Link = ["https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-9d8110752f89"]
+Description = "Few topics are as popular right now as the European Union’s new data protection law, the General Data Protection Regulation (the “GDPR” or “Regulation”), perhaps with the exceptions of self-sovereign identity (“SSI”) and blockchain. Likewise, few topics are as misunderstood or oversimplified. In an attempt to dispel some of the mythology and encourage a more nuanced approach to the conversation, this is the first in a series of posts to assess SSI through the lens of the GDPR."
+Tags = ["evernym","decentralized-id","blockchain-id","gdpr","self-sovereign"]
 
+["Evernym"]
+Link = ["https://www.evernym.com/"]
+Description = "Self-sovereign identity: now that it's possible, it's inevitable. Humanity deserves digital identity that is permanent, portable, private and completely secure; in other words: self-sovereign. Shortcomings in the internet’s original design made this impossible, at a cost of trillions each year. Today, the invention of distributed ledger technology makes self-sovereign digital identity a possibility for the first time. Now that self-sovereign identity is possible, it’s inevitable. And it’s going to change everything."
+Tags = ["evernym","decentralized-id","blockchain-id","self-sovereign"]
 
-https://www.bbvaresearch.com/wp-content/uploads/2018/02/Digital-Identity_the-current-state-of-affairs.pdf
+["Self-Sovereign Identity Systems for Humanitarian Interventions—A Case Study on Protective Cash Transfer Programs"]
+Link = ["https://repository.tudelft.nl/islandora/object/uuid:6cdb5450-9a81-47a9-8ffa-f9bd77c72448/datastream/OBJ1/download"]
+Description = "Situation: Information management enables humanitarian organizations to make adequate interventions based on timely, appropriate and trustworthy information. A crucial type of information are identities, because they can be used to assess vulnerability and efficiently manage aid distribution. Vulnerability determines who receives aid first because resources are always limited. This information is increasingly being stored and processed in identity systems. Complication: Most identity systems are centralized and produce analogue proofs of identity such as passports or ID cards. These systems are susceptible to privacy and data breaches. Centralization leads to single-points-of-failure and could lead to fraudulent behavior resulting in people lacking formal proofs of identity. In general there is limited interoperability between identity systems and limited collaboration between the owners of these systems. Approach: To create an interoperable and shared digital identity system using a Design Science Research strategy and systems engineering approach. This system must be distributed, protect privacy and put the identity owner in control of his or her data. The foundation of the system consists of Humanitarian Information Management principles, Privacy-by-Design principles and Self-Sovereign Identity principles. This research creates a functional blockchain based system, that enables identities for the use-case of Cash Transfer Programs. Results: We present a validated set of ten design decisions that represent the trade-offs that have been made and prescribe a blueprint for a technical design. Next steps: Future research should be done on how such a system could be implemented and used. This would require a process design approach that has to be developed, Also, elaborate research into user experience and user interfaces should be conducted."
+Tags = ["delft","reserach-paper","self-sovereign","decentralized-id"]
 
+["Proof of Authority"]
+Link = ["https://blockonomi.com/proof-of-authority/"]
+Description = "First, PoA was proposed by a group of developers in March 2017 (the term was coined by Gavin Wood) as a blockchain based on the Ethereum protocol. It was developed primarily as a solution to the problem of spam attacks on Ethereum’s Ropsten test network. The new network was named Kovan and is a primary test network available to all Ethereum users today.\n\nPoA consensus is essentially an optimized Proof of Stake model that leverages identity as the form of stake rather than actually staking tokens. The identity is staked by a group of validators (authorities) that are pre-approved to validate transactions and blocks within the respective network. The group of validators is usually supposed to remain fairly small (~25 or less) in order to ensure efficiency and manageable security of the network."
+Tags = ["ethereum","poa","permissioned","blockchain-consensus","blockchain-id"]
 
-https://blog.tykn.tech/digital-identity-management-in-the-context-of-gdpr-sovrin-43028247378b
+["A Universal Resolver for self-sovereign identifiers"]
+Link = ["https://medium.com/decentralized-identity/a-universal-resolver-for-self-sovereign-identifiers-48e6b4a5cc3c"]
+Description = "DIF is introducing a community preview of the Universal Resolver — a core building block of a decentralized identity system. This is a first step in fulfilling DIF’s mission to help individuals and organizations to control their digital identity, without being dependent on any intermediary party."
+Tags = ["identity-foundation","self-sovereign","did",]
 
+["The Three Models of Digital Identity Relationships — How self-sovereign identity (SSI) is different, and why it’s better."]
+Link = ["https://medium.com/evernym/the-three-models-of-digital-identity-relationships-ca0727cb5186"]
+Description = "As a relative “noob” in the identity world — five years and counting — it may seem presumptuous for me to distill all the types of digital identity relationships into just three models. But it needs doing."
+Tags = ["evernym","self-sovereign","decentralized-id"]
 
-https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-9d8110752f89
+["Blockchain: Evolving Decentralized Identity Design"]
+Link = ["https://www.gartner.com/doc/3834863/blockchain-evolving-decentralized-identity-design"]
+Description = "Decentralized identity is evolving into self-sovereign identity networks and verification services. While efforts are underway to establish standards for these ecosystems, technical professionals should identify processes that will be affected and plan for integration scenarios in coming years."
+Tags = ["gartner","decentralized-id","self-sovereign","report"]
 
+["Self-Sovereign Identity Principles"]
+Link = ["https://github.com/WebOfTrustInfo/self-sovereign-identity/blob/master/self-sovereign-identity-principles.md"]
+Description = "Existence. Control. Access. Transparency. Persistence. Portability. Interoperability. Consent. Minimalization. Protection."
+Tags = ["weboftrust","self-sovereign","decentralized-id"]
 
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3080322
+["GDPR - A reflection on the 'self-sovereign identity' and the Blockchain"]
+Link = ["https://www.linkedin.com/pulse/gdpr-reflection-self-sovereign-identity-blockchain-nicolas-ameye/"]
+Description = "I have this notion of “self-sovereign identity” coming forward. A notion which was developed by Christopher Allen in his influential 2016 essay \“The path to self-sovereign identity\”. In his essay, Christopher Allen defined self-sovereign identity as a decentralized identity where the user is not only central to the administration of his identity, but also has autonomy over his own identity. Allen sees self-sovereign identity as a \“lifetime portable digital identity for any person, organization, or thing that does not depend on any centralized authority and can never be taken away\”. It means that the identity is not controlled by any centralized authority that offers it as an authentication mechanism, and is truly owned, controlled and managed by a unique individual."
+Tags = ["gdpr","decentralized-id","self-sovereign"]
 
-https://www.evernym.com/
-
-
-https://repository.tudelft.nl/islandora/object/uuid:6cdb5450-9a81-47a9-8ffa-f9bd77c72448/datastream/OBJ1/download
-
-
-https://blockonomi.com/proof-of-authority/
-
-
-https://www.forbes.com/sites/stevenehrlich/2018/08/23/login-with-coinbase-can-the-crypto-giant-protect-user-privacy/#4f5a69ac5e2e
-
-
-https://medium.com/decentralized-identity/decentralized-identity-foundation-grows-to-56-members-in-our-first-year-3ec117e811d8
-
-
-https://www.coindesk.com/theres-alternative-facebook-called-self-sovereign-identity/
-
-
-https://medium.com/decentralized-identity/a-universal-resolver-for-self-sovereign-identifiers-48e6b4a5cc3c
-
-
-https://medium.com/evernym/the-three-models-of-digital-identity-relationships-ca0727cb5186
-
-
-https://github.com/WebOfTrustInfo/self-sovereign-identity/blob/master/self-sovereign-identity-principles.md
-
-
-https://www.linkedin.com/pulse/gdpr-reflection-self-sovereign-identity-blockchain-nicolas-ameye/
-
-
----DID Primer
-https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/draft-documents/did-primer.md
-
-
-https://www.computerworld.com/article/3267930/blockchain/how-blockchain-could-solve-the-internet-privacy-problem.html
-
-
-https://www.forbes.com/sites/jasonbloomberg/2017/10/06/can-blockchain-solve-the-equifax-identity-morass-heres-how/#1a296496296a
-
-
-https://www.coindesk.com/experts-talk-self-sovereign-identity-implementing-systems/
+["DID Primer"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/draft-documents/did-primer.md"]
+Description = "At a superficial level, a decentralized identifier (DID) is simply a new type of globally unique identifier with special features designed for blockchains. But at a deeper level, DIDs are actually the tip of the iceberg -- or the tip of the spear -- of an entirely new layer of decentralized digital identity and public key infrastructure (PKI) for the Internet. This decentralized public key infrastructure (DPKI) could have as much impact on global cybersecurity and cyberprivacy as the development of the SSL/TLS protocol for encrypted Web traffic (now the largest PKI in the world)."
+Tags = ["did","w3c","web-of-trust"]
 
 
 https://github.com/WebOfTrustInfo/self-sovereign-identity
