@@ -16,37 +16,37 @@ Tags = ["101"]
 ["Blockchain Demo"]
 Link = ["https://anders.com/blockchain/"]
 Description = "A visiual walkthrough of blockchain's technical specifications"
-Tags = ["101", "Video"]
+Tags = ["101", "video"]
 
 ["The Hard Thing About Learning Hard Things"]
 Link = ["https://medium.freecodecamp.org/the-hard-thing-about-learning-hard-things-168e655ac7f2"]
 Description = "How do you learn something no one can teach you?\n\nWhatever success I’ve had in my career, I attribute almost entirely to my aptitude for unstructured learning. This is the kind of learning required when delving into a cutting-edge field, navigating a new job, or creating anything genuinely new. Notably, it’s the polar opposite of what is taught in schools and what most people call “education.”"
-tags = ["101", "Learning", "Developing", "Tech"]
+tags = ["101", "learning", "developing", "tech"]
 
 ["Bitcoin and Cryptocurrency Technologies Online Course"]
 Link = "https://www.youtube.com/playlist?list=PLQIX_E46U4XYE5GR6029FpnaX9aBXbt0B"
 Description = "A series of lectures offering an introduction into the world of cryptocurrency:\nLecture 1 — Intro to Crypto and Cryptocurrencies\nLecture 2 — How Bitcoin Achieves Decentralization\nLecture 3 — Mechanics of Bitcoin\nLecture 4 — How to Store and Use Bitcoins\nLecture 5 — Bitcoin Mining\nLecture 6 — Bitcoin and Anonymity\nLecture 7 — Community, Politics, and Regulation\nLecture 8 — Alternative Mining Puzzles\nLecture 9 — Bitcoin as a Platform\nLecture 10 — Altcoins and the Cryptocurrency Ecosystem\nLecture 11 — The future of Bitcoin?\nLecture 12 — History of Cryptocurrencies"
-tags = ["101", "Video", "History", "Academia"]
+tags = ["101", "video", "princeton", "history", "academia"]
 
 ["99bitcoins.com"]
 Link = ["https://99bitcoins.com"]
 Description = "Buy Bitcoin, Bitcoin Guides & Reviews for Bitcoin Newbies"
-Tags = ["101", "Guides"]
+Tags = ["101", "guides"]
 
 ["The Importance of Deep Work & the 30 Hour Method for Learning a new Skill"]
 Link = ["https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/"]
 Description = "The tech industry, especially the security industry, seems outrageously overwhelming to newcomers and even as an intermediate “InfoSec Pro” there seems to be an overwhelming number of paths and topics one can focus on. The problem most of us, especially newcomers, encounter is that we don’t know what to focus on. Even when we find a topic to focus on, we seem to get stuck in the vast pool of resources that are available to us."
-Tags = ["101", "Learning", "Developing", "Tech"] 
+Tags = ["101", "learning", "developing", "tech"] 
 
 ["Where to Buy Bitcoin and Other Cryptocurrencies"]
 Link = ["https://www.csbtechemporium.com/where-to-buy-bitcoin-and-other-cryptocurrencies/"]
 Description = "Whether you want to buy .01 Bitcoin or 10+ Bitcoin, our guide will show you the best sites and exchanges for buying Bitcoin and other cryptos. There are over 200 exchanges listed on coinmarketcap. The right exchange for you will depend on location, the tokens you wish to acquire, payment options, local currency, and other variables. I’ll go over some of the most popular choices for buying your first cryptocurrencies, provide links to more in-depth reviews, and other resources for exploring the world of cryptocurrency exchanges."
-Tags = ["101", "Buy Crypto"]
+Tags = ["101", "buy-crypto"]
 
 ["Wallets and Backups: How to Secure your Cryptocurrency"]
 Link = ["https://www.csbtechemporium.com/research/how-to-secure-your-cryptocurrency/"]
 Description = "Whether you’re a newfound blockchain devotee, or just want exposure to the potential upside, this guide will help get you started on the journey. Before you buy Bitcoin or other cryptocurrencies, you’ll want to know how to keep it secure."
-Tags = ["101", "Wallets", "Security"]
+Tags = ["101", "wallets", "security"]
 
 ["Smith and Crown: Research"]
 Link = ["https://www.smithandcrown.com/research/"]
@@ -55,13 +55,13 @@ Tags = ["101", "guides", "research"]
 
 ["‘Blockchain’ is meaningless — ‘You keep using that word. I do not think it means what you think it mean"]
 Link = ["https://www.theverge.com/2018/3/7/17091766/blockchain-bitcoin-ethereum-cryptocurrency-meaning"]
-Description = "Bitcoin, Ethereum, and other cryptocurrencies have entered the mainstream discourse, but they’ve also been joined by a concept that is widely circulated, but poorly understood: 'the blockchain' or just 'blockchain.' The idea of a blockchain, the cryptographically enhanced digital ledger that underpins Bitcoin and most cryptocurrencies, is now being used to describe everything from a system for inter-bank transactions to a new supply chain database for Walmart. The term has become so widespread that it’s quickly losing meaning."
+Description = "bitcoin, Ethereum, and other cryptocurrencies have entered the mainstream discourse, but they’ve also been joined by a concept that is widely circulated, but poorly understood: 'the blockchain' or just 'blockchain.' The idea of a blockchain, the cryptographically enhanced digital ledger that underpins Bitcoin and most cryptocurrencies, is now being used to describe everything from a system for inter-bank transactions to a new supply chain database for Walmart. The term has become so widespread that it’s quickly losing meaning."
 Tags = ["101"]
 
 ["What is a 51% Attack and What can a Successful Attacker Do?"]
 Link = ["https://coincenter.org/entry/what-is-a-51-attack-and-what-can-a-successful-attacker-do-1"]
 Description = "If a single entity were to acquire control of over half of the mining power on the Bitcoin network, it would gain the ability to do certain things that would not typically be possible and this poses a known security risk. While acquiring so much mining power would be very expensive, some have cautioned that because a majority of mining power may be located geographically within the borders of one country—China specifically—this poses a unique risk that should concern policymakers. So how exactly would such an attack work and how big of a risk is it? What could you actually do with a majority of the mining power on Bitcoin or any other proof-of-work cryptocurrency?"
-Tags = ["101", "Bitcoin", "Mining"]
+Tags = ["101", "bitcoin", "mining"]
 
 ["A Short Introduction to the World of Cryptocurrencies"]
 Link = ["https://files.stlouisfed.org/files/htdocs/publications/review/2018/01/10/a-short-introduction-to-the-world-of-cryptocurrencies.pdf"]
@@ -71,22 +71,22 @@ Tags = ["Regulators", "101"]
 ["Crypto 101 — Everything you need to know about Bitcoin Ethereum Blockchains ICOs and more"]
 Link = ["http://unchainedpodcast.co/crypto-101-everything-you-need-to-know-about-bitcoin-ethereum-blockchains-icos-and-more"]
 Description = "In this special bonus episode, Laura cover all your basic questions about crypto. What is Bitcoin? What is Ethereum? What is a blockchain? Share this episode with friends, family and anyone who is new to the crypto space and wants to understand what it's all about. "
-Tags = ["101", "Audio"]
+Tags = ["101", "audio"]
 
 ["Crypto Readings and Resources"]
 Link = ["https://a16z.com/2018/02/10/crypto-readings-resources/"]
 Description = "Here’s a list of crypto readings and resources. It’s organized from building blocks and basics; foundations (& history); and key concepts — followed by specific topics such as governance; privacy and security; scaling; consensus and governance; cryptoeconomics, cryptoassets, and investing; fundraising and token distribution; decentralized exchanges; stablecoins; and cryptoeconomic primitives (token curated registries, curation markets, crytocollectibles, games). We also included a section with developer tutorials, practical guides, and maker stories — as well as other resources, such as newsletters/updates and courses, at the end."
-Tags = ["Resources", "101"]
+Tags = ["resources", "101"]
 
 ["Why Bitcoin Sooner Rather Than Later"]
 Link = ["https://hackernoon.com/why-bitcoin-why-sooner-rather-than-later-e44aa5373479"]
 Description = "This article was inspired by an investor of ours who was looking to present the case for bitcoin to his firms investment committee. I thought this would be a helpful update to share with the broader finance community."
-Tags = ["101", "Why-Bitcoin"]
+Tags = ["101", "pro-bitcoin"]
 
 ["Blockchain: Foundations and Use Cases"]
 Link = ["https://www.coursera.org/learn/blockchain-foundations-and-use-cases"]
 Description = "This course is the definitive introduction to blockchain for both the developer and non-developer audience. Beyond the technology, this course will introduce you to some of the philosophy behind decentralization and why there is so much excitement around it.   During the first three modules, you'll be introduced to blockchain and the technology behind it. In module four, we'll go beyond bitcoin and delve deeper into a next-generation blockchain called Ethereum to introduce you to what modern blockchains can do. The use cases featured in the final module are drawn from among the bus..."
-Tags = ["101", "Online-Course", "Consensys"]
+Tags = ["101", "courses", "consensys"]
 
 ["Visual Crypto, Vol.1: Acronyms"]
 Link = ["https://medium.com/@fayehays/visual-crypto-vol-1-acronyms-2674a80bba7"]
@@ -96,22 +96,22 @@ Tags = ["101"]
 ["Blockchain is not a Database"]
 Link = ["https://twitter.com/oleganza/status/1034178524389634048"]
 Description = "Blockchain is not a database, it's a protocol for syncing the databases. The point of a blockchain is not to 'store' or 'distribute' data, it is to make sure mutually distrusting parties are all on the same page."
-Tags = ["101", "Twitter"]
+Tags = ["101", "twitter"]
 
 ["bitcoin.com is not bitcoin's website"]
 Link = ["https://twitter.com/The1Brand7/status/989449833302953984","https://bitcoin.org"]
 Description = "If you are new to #bitcoin then please be aware that bitcoin .com is a fraudulent website.\n\nThis website is run by Roger Ver who is a known serial scammer.\n\n️The current main scam is the promotion of #bcash which is a fake version of bitcoin."
-Tags = ["101", "Bitcoin"]
+Tags = ["101", "bitcoin"]
 
 ["Blockchain Technology: What is it Good for? - Saifedean Ammous"]
 Link = ["https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2832751"]
 Description = "This paper explains the functioning of “blockchain technology” and critically assesses its potential role in improving services in banking, contracts, and database systems. Comparing blockchain to the current best practice technology in these fields reveals several barriers to successful commercial implementation: Blockchain technology involves costly redundancies and irreversibility, faces serious scaling problems and significant barriers to complying with regulations, and is a security liability unless secured with its own freely trading currency. A survey of the state of the blockchain industry shows that in eight years since blockchain technology was invented, it has had no commercial applications other than digital cash. The paper concludes that a blockchain is a peculiar engineering design whose only advantage is in removing third party intermediation to allow for the creation of digital cash, and is unlikely to offer economic advantages for any commercial problem other than the one it was specifically engineered to solve. "
-Tags = ["101", "Academia", "Why-Bitcoin"]
+Tags = ["101", "academia", "pro-bitcoin"]
 
 ["Why Own Bitcoin"]
 Link = "https://blog.xapo.com/why-own-bitcoin/"
 Description = "People often ask me if they should invest in Bitcoin and later how to invest. I have watched a lot of friends make and lose money on Bitcoin, so I have a strong point of view. I want to share my perspective to help people understand Bitcoin as an investment. All of these numbers and concepts are my  subjective opinion – with that caveat, here are my three recommendations:"
-Tags = ["101", "Why-Bitcoin", "Bitcoin"]
+Tags = ["101", "pro-bitcoin", "bitcoin"]
 
 ["Do You Really Need A Blockchain For That?"]
 Link = ["https://coincenter.org/entry/do-you-really-need-a-blockchain-for-that"]
@@ -131,14 +131,14 @@ Tags = ["101"]
 ["A Look At Smart Contracts, Use cases and DApps"]
 Link = ["https://www.axiomtech.io/blog-feed/2018/10/9/smart-contracts-uses-cases-dapps-icos"]
 Description = "Smart contracts are self-executing code that defines and executes an agreement between multiple parties. That code contains simple “if/when…then…” statements executed within a distributed network that achieves consensus on transactions made within it. For example, a smart contract could define conditions for a payment from party A to party B, and other conditions for returning the funds back to party A; perhaps after a certain amount of time passed without the first conditions being met. This innovation allows for the elimination of trusted intermediaries in a wide range of programmable agreements. Smart contract enabled transactions are fully traceable, transparent, and irreversible."
-Tags = ["101", "Smart-Contracts"]
+Tags = ["101", "smart-contracts"]
 
 ["Opening & Operating an Ethereum Wallet: The Complete Idiot's Guide to Crypto"]
 Link = ["https://www.youtube.com/watch?v=BJFFhJNoVAM"]
 Description = "Opening & Operating an Ethereum Wallet"
-Tags = ["101", "Ethereum", "Wallets"]
+Tags = ["101", "ethereum", "wallets"]
 
 ["Curated List of awesome Blockchain and Crytocurrency Resources"]
 Link = ["https://github.com/0xtokens/awesome-blockchain"]
 Description = "Inspired by awesome and following the manifesto guidelines.\n\nThis work aims to raise awareness of the possibilities offered by Blockchain technology; and create community around it. "
-Tags = ["101", "Awesome", "Resources"]
+Tags = ["101", "awesome", "resources"]

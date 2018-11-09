@@ -101,12 +101,12 @@ Tags = ["did","w3c","sovrin","self-sovereign","decentralized-id"]
 ["Introduction to DID Auth"]
 Link = "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/final-documents/did-auth.md"
 Description = "The term DID Auth has been used in different ways and is currently not well-defined. We define DID Auth as a ceremony where an identity owner, with the help of various components such as web browsers, mobile devices, and other agents, proves to a relying party that they are in control of a DID. This means demonstrating control of the DID using the mechanism specified in the DID Document's \"authentication\" object. This could take place using a number of different data formats, protocols, and flows. DID Auth includes the ability to establish mutually authenticated communication channels and to authenticate to web sites and applications. Authorization, Verifiable Credentials, and Capabilities are built on top of DID Auth and are out of scope for this document. This paper gives on overview of the scope of DID Auth, supported protocols and flows, and the use of components of the DID Documents that are relevant to authentication, as well as formats for challenges and responses."
-Tags = ["w3c","did","web-of-trust","self-sovereign","decentralized-id"]
+Tags = ["w3c","did","weboftrust","self-sovereign","decentralized-id"]
 
 ["Rebooting Web of Trust"]
 Link = ["https://www.weboftrust.info/"]
 Description = "The Web of Trust is a buzzword for a new model of decentralized self-sovereign identity. It’s a phrase that dates back almost twenty-five years, the classic definition derives from PGP.\n\nBut some use it as a term to include self-sovereign identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the concept we aim to reboot it."
-Tags = ["w3c","did","sovrin","web-of-trust","self-sovereign","decentralized-id"]
+Tags = ["w3c","did","sovrin","weboftrust","self-sovereign","decentralized-id"]
 
 ["Introduction to DID Auth for SSI – Markus Sabadello – Webinar 10"]
 Link = ["http://ssimeetup.org/introduction-did-auth-markus-sabadello-webinar-10/","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/draft-documents/did_auth_draft.md"]
@@ -116,7 +116,7 @@ Tags = ["w3c","did","decentralized-id","self-sovereign","presentation","video"]
 ["A Primer on Functional Identity"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/functional-identity-primer.md"]
 Description = "There are many ways to approach identity. For the Rebooting Web of Trust, we prefer a functional approach to focus conversations on how identity works and how we use it.\n\nThe varied facets of identity are so rich that we each bring our own hot buttons and agendas to any discussion. Some people engage from a philosophical perspective, others cultural. Some dive into political issues and others get meta-physical and spiritual. These different perspectives are valid views of identity’s impact on our lives. More than valid. Vital. They help answer the question of “Why?” Why identity matters, why we should care. Unfortunately, they also inflame passions. We sometimes talk past each other to make points that have minimal relevance for others, leaving people frustrated and unheard.\n\nAs engineers and system designers, we’re concerned with how things work. We want to fix what’s broken and build new things. To do that, we want to discuss how things function. With identity, this functional perspective sidesteps the inflammatory rabbit holes, without dismissing them. Functional Identity lets us investigate the HOW without prejudice to WHY, viewing identity systems based on how they work and then, in turn, how they affect individuals and society."
-Tags = ["web-of-trust","self-sovereign","decentralized-id","developing"]
+Tags = ["weboftrust","self-sovereign","decentralized-id","developing"]
 
 ["Decentralized Identity Foundation"]
 Link = ["http://identity.foundation/"]
@@ -266,7 +266,7 @@ Tags = ["decentralized-id","self-sovereign","101"]
 ["The Path to Self-Soverereign Identity"]
 Link = ["http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html"]
 Description = "Today I head out to a month-long series of events associated with identity: I’m starting with the 22st (!) Internet Identity Workshop next week; then I’m speaking at the blockchain conference Consensus about identity; next I am part of the team putting together the first ID2020 Summit on Digital Identity at the United Nations; and finally I'm hosting the second #RebootingWebOfTrust design workshop on decentralized identity."
-Tags = ["christophera","decentralized-id","self-sovereign","source","sovrin","indy"]
+Tags = ["christophera","decentralized-id","self-sovereign","source","sovrin","indy","history"]
 
 ["SecureKey Technologies to explore interoperability between Verified.Me and Hyperledger Indy"]
 Link = ["https://securekey.com/press-releases/hyperledger-indy/"]
@@ -346,19 +346,49 @@ Tags = ["gdpr","decentralized-id","self-sovereign"]
 ["DID Primer"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/draft-documents/did-primer.md"]
 Description = "At a superficial level, a decentralized identifier (DID) is simply a new type of globally unique identifier with special features designed for blockchains. But at a deeper level, DIDs are actually the tip of the iceberg -- or the tip of the spear -- of an entirely new layer of decentralized digital identity and public key infrastructure (PKI) for the Internet. This decentralized public key infrastructure (DPKI) could have as much impact on global cybersecurity and cyberprivacy as the development of the SSL/TLS protocol for encrypted Web traffic (now the largest PKI in the world)."
-Tags = ["did","w3c","web-of-trust"]
+Tags = ["did","w3c","weboftrust"]
 
+["Identity 2.0"]
+Link = ["https://id2020.org/news/2016/12/2/identity-20"]
+Description = "A birth certificate is a document of almost incalculable value. It allows us to go to school, prove our citizenship, exercise the right to vote, access healthcare, and open a bank account. A birth certificate gives someone a unique legal identity.\n\nThose of us living in highly developed countries take our birth certificates for granted. For us, births and deaths are routinely and accurately documented. Yet more than 100 developing countries lack functional civil registration and vital statistics (CRVS) systems, and 230 million children under the age of five haven’t been registered. Some countries like Malawi and Ethiopia have registration rates in the single digits. Experts estimate that there are 1.5 billion people without a legal identity. That’s the equivalent of all of China going untracked."
+Tags = ["id2020","decentralized-id","un"]
 
-https://github.com/WebOfTrustInfo/self-sovereign-identity
+["What is "Sovereign Source Authority"?"]
+Link = ["https://www.moxytongue.com/2012/02/what-is-sovereign-source-authority.html"]
+Description = "What is an Individual Human Being prior to \"identity registration\" in Society? What is the data administration framework of default participation in Society today?\n\nSociety is an Agreement. It is made by and between Individuals. Within any Society, Individuals have an established Right to an \"identity\", and to all of the benefits and responsibilities of some form of \"Nationally Sovereign Structure\" of governance and administration. Sovereign Source Authority (SSA) refers to the actual default design parameter of Human identity, prior to the \"registration\" process used to inaugurate participation in Society."
+Tags = ["self-sovereign","history"]
 
+["WebofTrust - Self Sovereign ID - Github"]
+Link = ["https://github.com/WebOfTrustInfo/self-sovereign-identity"]
+Description = "Articles and documents associated with designing and implementing identity technology using self-sovereign identity principle"
+Tags = ["weboftrust"]
 
-https://medium.com/uport/uport-year-in-review-whats-to-come-in-2018-15ccb9214439
+["uPort — Year in Review. What's to come in 2018"]
+Link = ["https://medium.com/uport/uport-year-in-review-whats-to-come-in-2018-15ccb9214439"]
+Description = "2017 was a landmark year for the entire Ethereum ecosystem. The same can be said for the uPort platform. We began the year with the initial launch of the uPort ID alpha program, getting our mobile identity wallet into the hands of thousands of users over the course of the year. "
+Tags = ["decentralized-id","uport","ethereum-layer2","self-sovereign"]
 
+["Sovrin"]
+Link = ["https://sovrin.org/"]
+Description = "Identity For All —Permanent Digital Identities that Don’t Require a Central Authority"
+Tags = ["sovrin","decentralized-id","self-sovereign","indy"]
 
-https://sovrin.org/
+["Internet Identity Workshop"]
+Link = ["http://www.internetidentityworkshop.com/"]
+Description = "The Internet Identity Workshop has been finding, probing and solving identity issues twice every year since 2005. We meet in the Computer History Museum in Mountain View, CA. Every IIW moves topics, code and projects downfield. Name an identity topic and it's likely that more substantial discussion and work has been done at IIW than any other conference!"
+Tags = ["iiw","decentralized-id","self-sovereign"]
 
+["Sovrin™: A Protocol and Token for SelfSovereign Identity and Decentralized Trust"]
+Link = ["https://sovrin.org/wp-content/uploads/Sovrin-Protocol-and-Token-White-Paper.pdf"]
+Description = "Digital identity is one of the oldest and hardest problems on the Internet. There is still no way to use digital credentials to prove our online identity the same way we do in the offline world. This is finally changing. First, the World Wide Web Consortium is standardizing the format of digitally-signed credentials. Secondly, public blockchains can provide decentralized registration and discovery of the public keys needed to verify digital signatures. These two steps pave the way to establish a global public utility for self-sovereign identity—lifetime portable digital identity that does not depend on any central authority and can never be taken away. The Sovrin Network has been designed exclusively for this purpose, including governance (the Sovrin Foundation and the Sovrin Trust Framework), scalability (validator and observer nodes and state proofs), and accessibility (minimal cost and maximum availability). Most importantly, Sovrin implements Privacy by Design on a global scale, including pairwise pseudonymous identifiers, peer-to-peer private agents, and selective disclosure of personal data using zero-knowledge proof cryptography. The emergence of this infrastructure can transform at least four major markets: identity and access management, cybersecurity, RegTech, and data integration. To provide economic incentives for credential issuers, owners, and verifiers, the Sovrin protocol will incorporate a digital token designed expressly for privacy-preserving value exchange. The Sovrin token should enable a global marketplace for digital credentials of all types and value levels together with ancillary markets for digital credential insurance and permissioned first party data (direct from the customer)"
+Tags = ["sovrin","decentralized-id","self-sovereign","white-paper","documentation"]
 
-http://www.internetidentityworkshop.com/
+["The Path to Self-Sovereign Identity"]
+Link = ["https://www.coindesk.com/path-self-sovereign-identity/amp/"]
+Description = "Christopher Allen is a standards and identity practice specialist at blockchain development startup Blockstream and a veteran developer who worked on the reference implementation of the SSL 3.0 protocol and its successor, TLS.\n\nIn this post, Allen discusses his vision for how blockchain could enable the creation of a 'self-sovereign identity'."
+Tags = ["self-sovereign","christophera","history","decentralized-id"]
 
-
-https://sovrin.org/wp-content/uploads/Sovrin-Protocol-and-Token-White-Paper.pdf
+["Identity on the Blockchain: Perils and Promise"]
+Link = "https://www.slideshare.net/ChristopherA/identity-of-the-blockchain-perils-and-promise"
+Description = "Presented during the #Consensus2016 identity workshop, May 4th, 2016"
+Tags = ["decentralized-id","christophera","history","presentation","iiw","history"]

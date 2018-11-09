@@ -50,4 +50,4 @@ I will happily compensate anyone who makes significant contributions. --@infomin
 
 ---
 ## Completed Channels:
-#101 #satoshi #history #cypherpunks "Distributed Consensus" category #decentralization #smart-contracts
+#101 #satoshi #history #cypherpunks #distributed-systems #consensus #pow #pos #decentralization #smart-contracts #decentralized-id #id-dev
