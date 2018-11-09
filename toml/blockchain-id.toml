@@ -51,7 +51,7 @@ Tags = ["research-paper", "uPort", "ShoCard" ,"Sovrin","decentralized-id",]
 ["The Rise of Self-Sovereign Identity - Hyperledger Indy"]
 Link = ["https://wso2.com/blog/research/the-rise-of-self-sovereign-identity-hyperledger-indy"]
 Description = "On the Internet, anyone can represent any identity, and it's difficult to verify those identities. Think of an organization that needs to track the activities of thousands of employees who work from all around the world. This can be a headache for the management. That’s how identity management became a fundamental requirement for any computer system. You can find the key terms related to identity management in the Additional Info section at the end of this blog."
-Tags = ["hyperledger","indy","self-sovereign","decentralized-id","christophera"]
+Tags = ["hyperledger","indy","self-sovereign","decentralized-id","documentation"]
 
 ["Swipe Right on Verifiably Credentials"]
 Link = ["https://developer.ibm.com/code/2018/05/22/swipe-right-on-verifiable-credentials/"]
@@ -178,38 +178,90 @@ Link = ["https://sovrin.org/library/sovrin-digital-identities-in-the-blockchain-
 Description = "In this paper we describe a practical digital identity project of a global scale, which solves a number of privacy and scalability problems using the concepts of anony- mous credentials and permissioned blockchains. Even though both ideas have been known and developed for a number of years, our system appears to be the first amalgamation. The prototype has been developed, tested, and published as open source."
 Tags = ["sovrin","decentralized-id","documentation","self-sovereign"]
 
-ttps://www.civic.com/
+["Civic"]
+Link = ["https://www.civic.com/"]
+Description = "Civic enables people to take control and protect their identity:\n\nSECURE ID PLATFORM ; REUSABLE KYC ; ID THEFT PROTECTION"
+Tags = ["civic","decentralized-id","self-sovereign"]
 
+["TU Delft helps develop digital ID for use on your phone"]
+Link = ["https://www.tudelft.nl/en/2018/tu-delft/tu-delft-helps-develop-digital-id-for-use-on-your-phone/"]
+Description = "In addition to your passport and driving licence, a phone application that enables you to prove your identity quickly and securely and also offers even more privacy options could soon be possible. As part of the Dutch Blockchain Coalition, Delft University of Technology (TU Delft, The Netherlands) has joined forces with the Netherlands Identity Data Agency (RvIG), a division of the Ministry of Foreign Affairs and Kingdom Relations (BZK), IDEMIA (the current manufacturer of Dutch passports) and law firm CMS, in developing an initial prototype for a digital stamp that could fulfil this purpose in the future. This digital identity is based on TU Delft’s innovative blockchain technology, known as Trustchain. The prototype was demonstrated at a BZK event held on 7 June. After the summer, a consumer trial of this technology will be launched in two Dutch municipalities."
+Tags = ["delft","decentralized-id","self-sovereign"]
 
-htps://www.hyperledger.org/projects/hyperledger-indy
+["Global Blockchain Identity Management Market 2018-2022"]
+Link = ["https://www.technavio.com/report/global-blockchain-identity-management-market-analysis-share-2018"]
+Description = "Technavio’s latest market research report on the global blockchain identity management market is supporting clients by providing them with detailed insights into the rapidly changing market scenario and vendor landscape. This study on the global blockchain identity management market is expected to help businesses achieve a competitive edge and market dominance across the globe.The global blockchain identity management market size will grow by more than USD 1 billion by 2022. This report provides an analysis of the blockchain identity management market share by application (end-point, network, and infrastructure), end-user (government, BFSI, healthcare, and others), and geography (the Americas, APAC, and EMEA). The report also provides an analysis of the market’s competitive landscape and offers information on several companies including Amazon.com, Civic Technologies, IBM, ShoCard, and SecureKey Technologies."
+Tags = ["decentralized-id","blockchain-id","analysis"]
 
+["Blockchain and GDPR"]
+Link = ["https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=61014461USEN"]
+Description = "Using real-world examples, this paper explores five areas associated with GDPR compliance and how blockchain might address each."
+Tags = ["decentralized-id","blockchain-id","research-paper","gdpr"]
 
-htps://www.tudelft.nl/en/2018/tu-delft/tu-delft-helps-develop-digital-id-for-use-on-your-phone/
+["A Universal Trust Framework"]
+Link = ["http://www.windley.com/archives/2017/01/a_universal_trust_framework.shtml"]
+Description = "The Internet has never had a universal trust framework before. Imagine if you could build the next sharing economy application without having to also build the platform that helps people trust. This post describes a universal trust framework that is open to all. Sovrin changes the world by providing a universal means of trusting."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
+["Decentralization in Sovrin"]
+Link = ["http://www.windley.com/archives/2018/10/decentralization_in_sovrin.shtml"]
+Description = "Decentralized architectures require that care is taken in each component or layer to ensure that the resulting system will not contain hidden weaknesses. That doesn't just apply to the system itself, but also to the ways it is governed. And all decentralized systems are governed. The governing might be ad hoc or hidden, but it's there."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
-htps://www.technavio.com/report/global-blockchain-identity-management-market-analysis-share-2018
+["Decentralization and Distributed Ledgers"]
+Link = ["http://www.windley.com/archives/2016/08/decentralization_and_distributed_ledgers.shtml"]
+Description = "Some claim that decentralized system that have to be governed aren't really decentralized. This article explains why that thinking is misguided."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
+["An Internet for Identity"]
+Link = ["http://www.windley.com/archives/2016/08/an_internet_for_identity.shtml"]
+Description = "Online services and interactions are being held back by the lack of identity systems that have the same virtues as the Internet. This post describes what we can expect from an Internet for identity."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
--lockchain and GDPR
-https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=61014461USEN
+["The Case for Decentralized Identity"]
+Link = ["http://www.windley.com/archives/2017/08/the_case_for_decentralized_identity.shtml"]
+Description = "We cannot decentralize many interesting systems without also decentralizing the identity systems upon which they rely. We're finally in a position to create truly decentralized systems for digital identity."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
+["Is Sovrin Decentralized?"]
+Link = ["http://www.windley.com/archives/2017/09/is_sovrin_decentralized.shtml"]
+Description = "To determine whether Sovrin is decentralized, we have to ask questions about the purpose of decentralization and how Sovrin supports those purposes."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
-tps://www.linkedin.com/pulse/digital-identity-today-broken-we-can-fix-dan-elitzer/
+["Decentralized Governance in Sovrin"]
+Link = ["http://www.windley.com/archives/2018/02/decentralized_governance_in_sovrin.shtml"]
+Description = "Decentralized systems require governance to function well. Ideally this governance should be clear, open, and effective without impacting the decentralized nature of the system. This post describes the governance of the Sovrin network. Our approach is a constitutional model based on an agreement we call the Sovrin Trust Framework that informs and guides everything from code development to the responsibilities of the various actors in the system. The Sovrin Trust Framework enables decentralized governance of the Sovrin network."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
+["Building Your Business on Sovrin: Domain-Specific Trust Frameworks"]
+Link = ["http://www.windley.com/archives/2018/03/building_your_business_on_sovrin_domain-specific_trust_frameworks.shtml"]
+Description = "A domain-specific trust framework is a collection of policies, legal agreements and technologies that provides the context for claims in a given domain. Sovrin Foundation provides a structure and supporting systems for groups defining trust frameworks. This post describes how domain-specific trust frameworks function."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
-https://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog
+["Coherence and Decentralized Systems"]
+Link = ["http://www.windley.com/archives/2018/04/coherence_and_decentralized_systems.shtml"]
+Description = "Building decentralized systems requires more than defining a few specifications and hoping for the best. In order to thrive, decentralized systems need coherence, the social organization necessary to get otherwise independent actors to cooperate."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
+["The Sovrin Foundation"]
+Link = ["http://www.windley.com/archives/2018/07/the_sovrin_foundation.shtml"]
+Description = "This article describes the role that the Sovrin Foundation and associated groups play in governing, operating, and using the Sovrin Network. The Sovrin Network is designed and intended to be decentralized so understanding the key influence points and community groups is important."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
-http://www.windley.com/archives/2017/01/a_universal_trust_framework.shtml
+["The Sovrin Foundation"]
+Link = ["http://www.windley.com/archives/2018/07/the_sovrin_foundation.shtml"]
+Description = "This article describes the role that the Sovrin Foundation and associated groups play in governing, operating, and using the Sovrin Network. The Sovrin Network is designed and intended to be decentralized so understanding the key influence points and community groups is important."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","blog"]
 
+["Hyperledger Welcomes Project Indy"]
+Link = ["https://www.hyperledger.org/blog/2017/05/02/hyperledger-welcomes-project-indy"]
+Description = "We’re excited to announce Indy, a new Hyperledger project for supporting independent identity on distributed ledgers. Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other silo."
+Tags = ["sovrin","decentralized-id","self-sovereign","windley","hyperledger","indy", "history"]
 
-https://www.hyperledger.org/blog/2017/05/02/hyperledger-welcomes-project-indy
-
-
-http://www.windley.com/
-
-
-https://wiki.p2pfoundation.net/Self-Sovereign_Identity
+["Self-Sovereign Identity = (individual control across any number of authorities)"]
+Link = ["https://wiki.p2pfoundation.net/Self-Sovereign_Identity"]
+Description = "Self-Sovereign Identity p2pfoundation wiki"
+Tags = ["decentralized-id","self-sovereign","101"]
 
 
 - The Path to Self-Soverereign Identity
