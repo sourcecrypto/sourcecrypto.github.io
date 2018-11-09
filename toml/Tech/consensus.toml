@@ -353,11 +353,6 @@ Link = ["https://azure.microsoft.com/en-us/blog/ethereum-proof-of-authority-on-a
 Description = ""
 Tags = ["blockchain-consensus","poa","permissioned","ethereum"]
 
-["Proof of Authority"]
-Link = ["https://blockonomi.com/proof-of-authority/"]
-Description = "First, PoA was proposed by a group of developers in March 2017 (the term was coined by Gavin Wood) as a blockchain based on the Ethereum protocol. It was developed primarily as a solution to the problem of spam attacks on Ethereum’s Ropsten test network. The new network was named Kovan and is a primary test network available to all Ethereum users today.\n\nPoA consensus is essentially an optimized Proof of Stake model that leverages identity as the form of stake rather than actually staking tokens. The identity is staked by a group of validators (authorities) that are pre-approved to validate transactions and blocks within the respective network. The group of validators is usually supposed to remain fairly small (~25 or less) in order to ensure efficiency and manageable security of the network."
-Tags = ["ethereum","poa","permissioned","blockchain-consensus"]
-
 ["Gravity —Pt.1"]
 Link = ["https://medium.com/@laurentmt/gravity-10e1a25d2ab2"]
 Description = "In the last years, a lot has been written about the “huge waste of energy” resulting from Bitcoin’s Proof of Work (PoW). In this series of four posts, we‘re going to challenge this widespread opinion by questioning the main metrics used to highlight the alleged increasing inefficiency of Bitcoin’s PoW.\n\nIn this first part, we‘ll first discuss the main utility of PoW in the Bitcoin protocol. Then, after a reminder of two important properties of Bitcoin’s PoW, we’ll define a mathematical formalization of this utility (Bitcoin.Days Secured) and we’ll use it to define two new metrics (Unit Cost and Average Cost). At last, we’ll check what these metrics can teach us about the evolution of the efficiency of Bitcoin’s PoW over time."
