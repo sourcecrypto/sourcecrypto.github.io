@@ -6,7 +6,7 @@ Tags = ["tykn","decentralized-id","sovrin","blockchain-id","did","indy"]
 ["How do we start tackling the existing identity problem?"]
 Link = ["https://www.ibm.com/blogs/blockchain/2018/06/how-do-we-start-tackling-the-existing-identity-problem/"]
 Description = "Identity and control of personal identity is top of mind, given recent events as well as the European Union’s General Data Protection Regulation (GDPR). A lot of our identity is shared without our explicit consent, gets stored in locations we are unaware of, and when compromised creates tremendous setbacks. Almost everything we do in the digital world is user name and password driven. With decentralized identity, you reduce risk by associating credentials typically used for in-person interactions, as instruments for virtual interactions where it is difficult to verify who or what is on the other side of the screen."
-Tags = ["decentralized-id","ibm","sovrin","securekey","did","indy"]
+Tags = ["decentralized-id","ibm","sovrin","securekey","did","indy","enterprise"]
 
 ["Blockchain Identity - peacekeeper"]
 Link = ["https://github.com/peacekeeper/blockchain-identity"]
@@ -51,12 +51,12 @@ Tags = ["research-paper", "uPort", "ShoCard" ,"Sovrin","decentralized-id",]
 ["The Rise of Self-Sovereign Identity - Hyperledger Indy"]
 Link = ["https://wso2.com/blog/research/the-rise-of-self-sovereign-identity-hyperledger-indy"]
 Description = "On the Internet, anyone can represent any identity, and it's difficult to verify those identities. Think of an organization that needs to track the activities of thousands of employees who work from all around the world. This can be a headache for the management. That’s how identity management became a fundamental requirement for any computer system. You can find the key terms related to identity management in the Additional Info section at the end of this blog."
-Tags = ["hyperledger","indy","self-sovereign","decentralized-id","documentation"]
+Tags = ["hyperledger","indy","self-sovereign","decentralized-id","source"]
 
 ["Swipe Right on Verifiably Credentials"]
 Link = ["https://developer.ibm.com/code/2018/05/22/swipe-right-on-verifiable-credentials/"]
 Description = "IBM’s Trusted Identity team has just released its first public-facing proof-of-concept on top of a promising open-source project, Hyperledger Indy. Our PoC demonstrates a simple use case for verifiable credentials. The demo shows how a self-sovereign identity (SSI) can obtain credentials from an issuer and supply these credentials to a verifier in response to a proof request, thus providing a verifiable proof. Though just a small example of how verifiable credentials are exchanged in a Hyperledger Indy environment, it’s a great way to learn and start planning your own solution using verifiable credentials."
-Tags = ["decentralized-id","ibm","sovrin","did"]
+Tags = ["decentralized-id","ibm","sovrin","did","enterprise"]
 
 ["@ChristopherA on Self-Sovereign ID —A Tweetstorm"]
 Link = ["https://twitter.com/ChristopherA/status/989120215702261761"]
@@ -121,7 +121,7 @@ Tags = ["rebooting-web-of-trust","self-sovereign","decentralized-id","developing
 ["Decentralized Identity Foundation"]
 Link = ["http://identity.foundation/"]
 Description = "Join us in building an open source decentralized identity ecosystem for people, organizations, apps, and devices.\n\nTHE PILLARS OF A NEW ECOSYSTEM\nDECENTRALIZED IDENTITIES\n\nanchored by: BLOCKCHAIN IDs\nlinked to ZERO-TRUST DATA STORES\nthat are UNIVERSALLY DISCOVERABLE"
-Tags = ["decentralized-id","microsoft","uport","ibm","sovrin","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix"]
+Tags = ["decentralized-id","microsoft","uport","ibm","sovrin","securekey","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix"]
 
 ["Decentralized Identity Foundation Grows To 56 Members In Our First Year"]
 Link = "https://medium.com/decentralized-identity/decentralized-identity-foundation-grows-to-56-members-in-our-first-year-3ec117e811d8"
@@ -263,20 +263,27 @@ Link = ["https://wiki.p2pfoundation.net/Self-Sovereign_Identity"]
 Description = "Self-Sovereign Identity p2pfoundation wiki"
 Tags = ["decentralized-id","self-sovereign","101"]
 
+["The Path to Self-Soverereign Identity"]
+Link = ["http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html"]
+Description = "Today I head out to a month-long series of events associated with identity: I’m starting with the 22st (!) Internet Identity Workshop next week; then I’m speaking at the blockchain conference Consensus about identity; next I am part of the team putting together the first ID2020 Summit on Digital Identity at the United Nations; and finally I'm hosting the second #RebootingWebOfTrust design workshop on decentralized identity."
+Tags = ["christophera","decentralized-id","self-sovereign","source","sovrin","indy"]
 
-- The Path to Self-Soverereign Identity
-http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html
+["SecureKey Technologies to explore interoperability between Verified.Me and Hyperledger Indy"]
+Link = ["https://securekey.com/press-releases/hyperledger-indy/"]
+Description = "SecureKey Technologies, the developer of Verified.Me – a blockchain-based digital identity network built upon Hyperledger Fabric – today announces it will continue its leadership in establishing standards for next generation digital identity networks by exploring interoperability between Verified.Me and Hyperledger Indy-based identity projects.\n\nSecureKey is joining the Decentralized Identity Foundation (DIF) in efforts to advance standards-based initiatives for decentralized digital identity ecosystems. Already an active member of the open source collaborative effort, Hyperledger, SecureKey will also be highly involved in the Hyperledger Indy Project to explore integration points and projects between digital identity-focused platforms."
+Tags = ["securekey","hyperledger","decentralized-id","indy""self-sovereign","verified-me"]
+
+["How Blockchain Revolutionizes Identity Management"]
+Link = ["https://www.accenture-insights.nl/en-us/articles/how-blockchain-will-revolutionize-identity-management"]
+Description = "As we generate more data, our identities become more complicated. Traditional identity management systems simply can’t keep up with our evolving needs. Blockchain provides a decentralized, secure solution that fosters innovation and puts users back in control."
+Tags = ["accenture","decentralized-id","self-sovereign","enterprise"]
+
+["White Paper: Canada’s Digital ID Future - A Federated Approach"]
+Link = ["https://www.cba.ca/embracing-digital-id-in-canada"]
+Description = "In this brief, we highlight why Canada needs a digital identity system, how other countries have made progress in this area and the lessons we can learn from those experiences to build a system in Canada."
+Tags = ["decentralized-id","canada"]
 
 
-https://twitter.com/SecureKey/status/996004279528894470
-
-
-
-
-https://www.accenture-insights.nl/en-us/articles/how-blockchain-will-revolutionize-identity-management
-
-
-https://www.cba.ca/embracing-digital-id-in-canada
 
 
 https://globenewswire.com/news-release/2018/07/11/1535718/0/en/WISeKey-fully-deployed-its-CertifyID-integrating-Digital-Identity-with-Blockchain-technology.html
