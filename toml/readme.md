@@ -34,7 +34,7 @@ The result of this process, once it's landed on github ^^^
 
 \* note: if you're volunteering to help I will be happy even if you follow your own system for completing the work. This is the best system that I could to come up with.
 
-1. First get the history of every channel into individual files [on github](https://github.com/infominer33/crypto-library/).
+1. First get the history of every channel into individual files here in this repository.
    - simply copy\paste 
 2. Clean up each of those files and begin creating the toml format like above, except only with the link field filled out, leaving the rest blank, but ready to be filled out (for the whole server).
    - a script could probably assist in this matter, but that's not my specialty
