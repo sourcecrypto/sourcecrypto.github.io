@@ -48,9 +48,10 @@ In case you haven't been to the server yet, here is its directory to give you an
 
 This has nothing to do with new, unknown, projects or ICOs (except for how to evaluate them). We will be gathering knowledge and resources on all of the top coins over time, regardless of personal opinions.. ideally to have the the best information all in one place, so that people can learn and make their own decisions.
 
-### The Plan and Problem
-In case it hadn't occured to you, having resources organized in 100+ discord channels isn't the most user-friendly way to run a library. It worked great when there were half as many channels, but as the library grows we need more flexibility.
-The plan is to build a dynamic directory of crypto knowledge, searchable and manually navigable, and multi-platform chat-bots so that you can query the library without having to scroll through channels or visit the web-site :)
+### The Problem and the Plan
+**The Problem**: In case it hadn't occured to you, having resources organized in 100+ discord channels isn't the most user-friendly way to run a library. It worked great when there were half as many channels, but as the library grows we need more flexibility.
+
+**The plan** is to build a dynamic directory of crypto knowledge, searchable and manually navigable, and multi-platform chat-bots so that you can query the library without having to scroll through channels or visit the web-site :)
 
 We are now working on gathering all of the links into "toml" files, which are a simple format for transforming all of this information into a database. Of course all of that takes work. I very much enjoy the work, and it's a wonderful educational opportunity, but time consuming. 
 
