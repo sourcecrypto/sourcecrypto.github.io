@@ -35,7 +35,7 @@ Tags = ["decentralized-id","erc","erc-725","ethereum"]
 
 ["Hyperledger Indy - Distributed ledger and utility library"]
 Link = ["https://www.hyperledger.org/projects/hyperledger-indy"]
-Description = "Hyperledger Indy is a distributed ledger, purpose-built for decentralized identity. It provides tools, libraries, and reusable components for creating and using independent digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other \“silo.\”"
+Description = "Hyperledger Indy is a distributed ledger, purpose-built for decentralized identity. It provides tools, libraries, and reusable components for creating and using independent digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other \"silo.\""
 Tags = ["hyperledger","indy","sovrin","decentralized-id","did","self-sovereign","protocols"]
 
 ["Blockchains and Data Protection in the European Union"]
@@ -105,7 +105,7 @@ Tags = ["sovrin","history","privacy","credentials","decentralized-id"]
 
 ["DID auth and the Little I-am-Me"]
 Link = ["https://medium.com/@markus.sabadello/did-auth-and-the-little-i-am-me-ec14d757ff09"]
-Description = "DID Auth and the little I-am-me\n\nWe recently published a report on “DID Auth” (PDF, MD), which summarizes ideas and possible architectures that allow you to prove that you control a certain Decentralized Identifier (DID). This report originated at the sixth Rebooting-the-Web-of-Trust workshop and is the result of a collaborative effort by several authors and contributors. There is also a webinar."
+Description = "DID Auth and the little I-am-me\n\nWe recently published a report on \"DID Auth\" (PDF, MD), which summarizes ideas and possible architectures that allow you to prove that you control a certain Decentralized Identifier (DID). This report originated at the sixth Rebooting-the-Web-of-Trust workshop and is the result of a collaborative effort by several authors and contributors. There is also a webinar."
 Tags = ["did","w3c","sovrin","self-sovereign","decentralized-id"]
 
 ["Introduction to DID Auth"]
@@ -120,12 +120,12 @@ Tags = ["organizations","w3c","did","sovrin","weboftrust","self-sovereign","dece
 
 ["Introduction to DID Auth for SSI – Markus Sabadello – Webinar 10"]
 Link = ["http://ssimeetup.org/introduction-did-auth-markus-sabadello-webinar-10/","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/draft-documents/did_auth_draft.md"]
-Description = "Markus Sabadello, CEO of Danube Tech, will talk about DID Auth, an emerging building block in the SSI ecosystem. Although the technical details of DID Auth are not well-defined at this point, its general concept is clear: With self-sovereign identity infrastructure, the most trivial and straightforward functionality for identity owners should be the ability to authenticate, i.e. to prove control of a DID in some relationship or during a transaction. This could take place using a number of different data formats, protocols, and flows. DID Auth includes the ability to authenticate to web sites and applications, and to establish mutually authenticated communication channels. In this webinar, we will discuss the current state of the DID Auth concept, and how it relates to other efforts such as Verifiable Credentials and agent protocols. We also recommend reading the white paper “Introduction to DID Auth” by Markus Sabadello, Kyle Den Hartog, Christian Lundkvist, Cedric Franz, Alberto Elias, Andrew Hughes, John Jordan, Dmitri Zagidulin."
+Description = "Markus Sabadello, CEO of Danube Tech, will talk about DID Auth, an emerging building block in the SSI ecosystem. Although the technical details of DID Auth are not well-defined at this point, its general concept is clear: With self-sovereign identity infrastructure, the most trivial and straightforward functionality for identity owners should be the ability to authenticate, i.e. to prove control of a DID in some relationship or during a transaction. This could take place using a number of different data formats, protocols, and flows. DID Auth includes the ability to authenticate to web sites and applications, and to establish mutually authenticated communication channels. In this webinar, we will discuss the current state of the DID Auth concept, and how it relates to other efforts such as Verifiable Credentials and agent protocols. We also recommend reading the white paper \"Introduction to DID Auth\" by Markus Sabadello, Kyle Den Hartog, Christian Lundkvist, Cedric Franz, Alberto Elias, Andrew Hughes, John Jordan, Dmitri Zagidulin."
 Tags = ["w3c","did","decentralized-id","self-sovereign","presentation","video"]
 
 ["A Primer on Functional Identity"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/functional-identity-primer.md"]
-Description = "There are many ways to approach identity. For the Rebooting Web of Trust, we prefer a functional approach to focus conversations on how identity works and how we use it.\n\nThe varied facets of identity are so rich that we each bring our own hot buttons and agendas to any discussion. Some people engage from a philosophical perspective, others cultural. Some dive into political issues and others get meta-physical and spiritual. These different perspectives are valid views of identity’s impact on our lives. More than valid. Vital. They help answer the question of “Why?” Why identity matters, why we should care. Unfortunately, they also inflame passions. We sometimes talk past each other to make points that have minimal relevance for others, leaving people frustrated and unheard.\n\nAs engineers and system designers, we’re concerned with how things work. We want to fix what’s broken and build new things. To do that, we want to discuss how things function. With identity, this functional perspective sidesteps the inflammatory rabbit holes, without dismissing them. Functional Identity lets us investigate the HOW without prejudice to WHY, viewing identity systems based on how they work and then, in turn, how they affect individuals and society."
+Description = "There are many ways to approach identity. For the Rebooting Web of Trust, we prefer a functional approach to focus conversations on how identity works and how we use it.\n\nThe varied facets of identity are so rich that we each bring our own hot buttons and agendas to any discussion. Some people engage from a philosophical perspective, others cultural. Some dive into political issues and others get meta-physical and spiritual. These different perspectives are valid views of identity’s impact on our lives. More than valid. Vital. They help answer the question of \"Why?\" Why identity matters, why we should care. Unfortunately, they also inflame passions. We sometimes talk past each other to make points that have minimal relevance for others, leaving people frustrated and unheard.\n\nAs engineers and system designers, we’re concerned with how things work. We want to fix what’s broken and build new things. To do that, we want to discuss how things function. With identity, this functional perspective sidesteps the inflammatory rabbit holes, without dismissing them. Functional Identity lets us investigate the HOW without prejudice to WHY, viewing identity systems based on how they work and then, in turn, how they affect individuals and society."
 Tags = ["weboftrust","self-sovereign","decentralized-id","developing"]
 
 ["Decentralized Identity Foundation"]
@@ -300,12 +300,12 @@ Tags = ["bbva","decentralized-id","blockchain-id","enterprise"]
 
 ["Digital Identity Management in the Context of GDPR & Sovrin —Why Data Privacy Matters & How to Protect It"]
 Link = ["https://blog.tykn.tech/digital-identity-management-in-the-context-of-gdpr-sovrin-43028247378b","https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-40db94c1c437","https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-7296a3b07769"]
-Description = "In the developed world, the battle for privacy is arguably one of the most important ones to overcome within our lifetime. Our personal and (ought-to-be) private information is being collected en masse by companies large and small, sold for a handsome profit, and subsequently used to feed the \“big data machine\”, where all these data points are correlated and further used to generate leads for third parties."
+Description = "In the developed world, the battle for privacy is arguably one of the most important ones to overcome within our lifetime. Our personal and (ought-to-be) private information is being collected en masse by companies large and small, sold for a handsome profit, and subsequently used to feed the \"big data machine\", where all these data points are correlated and further used to generate leads for third parties."
 Tags = ["tykn","decentralized-id","blockchain-id","gdpr","self-sovereign"]
 
 ["Is Self Sovereign Identity the Ultimate GDPR Compliance Tool?"]
 Link = ["https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-9d8110752f89"]
-Description = "Few topics are as popular right now as the European Union’s new data protection law, the General Data Protection Regulation (the “GDPR” or “Regulation”), perhaps with the exceptions of self-sovereign identity (“SSI”) and blockchain. Likewise, few topics are as misunderstood or oversimplified. In an attempt to dispel some of the mythology and encourage a more nuanced approach to the conversation, this is the first in a series of posts to assess SSI through the lens of the GDPR."
+Description = "Few topics are as popular right now as the European Union’s new data protection law, the General Data Protection Regulation (the \"GDPR\" or \"Regulation\"), perhaps with the exceptions of self-sovereign identity (\"SSI\") and blockchain. Likewise, few topics are as misunderstood or oversimplified. In an attempt to dispel some of the mythology and encourage a more nuanced approach to the conversation, this is the first in a series of posts to assess SSI through the lens of the GDPR."
 Tags = ["evernym","decentralized-id","blockchain-id","gdpr","self-sovereign"]
 
 ["Evernym"]
@@ -330,7 +330,7 @@ Tags = ["identity-foundation","self-sovereign","did",]
 
 ["The Three Models of Digital Identity Relationships — How self-sovereign identity (SSI) is different, and why it’s better."]
 Link = ["https://medium.com/evernym/the-three-models-of-digital-identity-relationships-ca0727cb5186"]
-Description = "As a relative “noob” in the identity world — five years and counting — it may seem presumptuous for me to distill all the types of digital identity relationships into just three models. But it needs doing."
+Description = "As a relative \"noob\" in the identity world — five years and counting — it may seem presumptuous for me to distill all the types of digital identity relationships into just three models. But it needs doing."
 Tags = ["evernym","self-sovereign","decentralized-id"]
 
 ["Blockchain: Evolving Decentralized Identity Design"]
@@ -345,7 +345,7 @@ Tags = ["weboftrust","self-sovereign","decentralized-id"]
 
 ["GDPR - A reflection on the 'self-sovereign identity' and the Blockchain"]
 Link = ["https://www.linkedin.com/pulse/gdpr-reflection-self-sovereign-identity-blockchain-nicolas-ameye/"]
-Description = "I have this notion of “self-sovereign identity” coming forward. A notion which was developed by Christopher Allen in his influential 2016 essay \“The path to self-sovereign identity\”. In his essay, Christopher Allen defined self-sovereign identity as a decentralized identity where the user is not only central to the administration of his identity, but also has autonomy over his own identity. Allen sees self-sovereign identity as a \“lifetime portable digital identity for any person, organization, or thing that does not depend on any centralized authority and can never be taken away\”. It means that the identity is not controlled by any centralized authority that offers it as an authentication mechanism, and is truly owned, controlled and managed by a unique individual."
+Description = "I have this notion of \"self-sovereign identity\" coming forward. A notion which was developed by Christopher Allen in his influential 2016 essay \"The path to self-sovereign identity\". In his essay, Christopher Allen defined self-sovereign identity as a decentralized identity where the user is not only central to the administration of his identity, but also has autonomy over his own identity. Allen sees self-sovereign identity as a \"lifetime portable digital identity for any person, organization, or thing that does not depend on any centralized authority and can never be taken away\". It means that the identity is not controlled by any centralized authority that offers it as an authentication mechanism, and is truly owned, controlled and managed by a unique individual."
 Tags = ["gdpr","decentralized-id","self-sovereign"]
 
 ["DID Primer"]
@@ -425,7 +425,7 @@ Tags = ["self-sovereign","christophera","history","consensus","2016"]
 
 ["Transforming our world: the 2030 Agenda for Sustainable Development"]
 Link =["https://sustainabledevelopment.un.org/post2015/transformingourworld"]
-Description = "That document details 17 sustainable development goals with 169 specific points between them. The overarching mission contained within these goals, “to achieving sustainable development in its three dimensions – economic, social and environmental – in a balanced and integrated manner.” Prominently among the agenda’s goals is providing proper identification to the world, by 2030."
+Description = "That document details 17 sustainable development goals with 169 specific points between them. The overarching mission contained within these goals, \"to achieving sustainable development in its three dimensions – economic, social and environmental – in a balanced and integrated manner.\" Prominently among the agenda’s goals is providing proper identification to the world, by 2030."
 Tags = ["decentralized-id","un","sdg"]
 
 ["DIGITAL IDENTITY AS A BASIC HUMAN RIGHT"]
@@ -530,7 +530,7 @@ Tags = ["identification","dns","ethereum"]
 
 ["ENS"]
 Link = ["https://github.com/nexusdev/ENS"]
-Description = "is the \“Ethereal Namespace\”, a contract system and set of conventions to form a hierarchical namespace."
+Description = "is the \"Ethereal Namespace\", a contract system and set of conventions to form a hierarchical namespace."
 Tags = ["identification","namespace","ethereum","ens"]
 
 ["Ethereum Name Service"]
@@ -545,16 +545,19 @@ Tags = ["devcon1","devcon","digital-id","pki"]
 
 ["Bitnation"]
 Link = ["https://bitnation.co/","https://refugees.bitnation.co/"]
-Description = "seeks to establish the concept of \“world citizenship\” through identity registration on the blockchain. The project is collaborating with the Estonian e-Residency program and also has a focus on offering 'blockchain emergency IDs' to refugees."
+Description = "seeks to establish the concept of \"world citizenship\" through identity registration on the blockchain. The project is collaborating with the Estonian e-Residency program and also has a focus on offering 'blockchain emergency IDs' to refugees."
 Tags = ["humanitarian","blockchain-id"]
 
-Linux foundation [hyper ledger](https://www.hyperledger.org/) project looking to develop a cross-industry open standard with many big companies participating.
+["Shocard"]
+Link = ["https://shocard.com/"]
+Description = "Blockchain-Based Mobile Identity Platform"
+Tags = ["shocard","blockchain-id"]
 
-[ID2020](http://id2020.org/) seeks to provide every child born after 2020 with a self sovereign digital identity, which helps reduce risks of trafficking and drive digital inclusion.
+["MMlab Mobile Multimedia Laboratory"]
+Link = ["http://mm.aueb.gr/"]
+Description = "A research team at Athens University of Economics and Business is working on \"information-centric\" networking and is exploring the use of blockchain technology for \"content names\"." 
 
-[Shocard](https://shocard.com/) is an early stage company developing an “identity platform” built on blockchain.
-
-A [research team](http://mm.aueb.gr/) at Athens University of Economics and Business is working on “information-centric” networking and is exploring the use of blockchain technology for “content names”. 
+The Mobile Multimedia Laboratory (MMlab) is performing research in the areas of Wireless Packet Networks and Mobile Communications, Internet Protocols and Applications, Security, Privacy and Trust, Mobile Multimedia, Quality-of-Service & Quality-of-Experience, Multimedia Multicast and Broadcast. MMlab is part of the Telecommunications Services Group of the Dept. of Computer Science of the Athens University of Economics and Business. The lab is headed by Professor George C. Polyzos."
 
 The U.S. Department of Homeland Security is [funding](https://blog.aniljohn.com/2015/12/federal-gov-funds-for-identity-r-and-d.html) research on the "Applicability of Blockchain Technology to Privacy Respecting Identity Management"
 
