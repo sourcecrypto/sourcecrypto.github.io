@@ -76,5 +76,5 @@ Generally speaking, this project will progress in the following stages:
 ## Please visit [TOML](https://github.com/infominer33/Crypto-library/tree/master/toml) for further information
 
 [crypt0library.net](http://crypt0library.net)<br/>
-—BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
+—BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY<br/>
 https://twitter.com/@cryptinfominer
