@@ -62,8 +62,6 @@ This is a great time to get involved, while our community is just beginning to f
 
 ### Project Overview
 
-Generally speaking, this project will progress in the following stages:
-
 **This plan will genereally progress in the following stages:**
 1. Fill Discord Library with curated crypto resources (very good progress already)
 2. Place crypt0library server history in machine readable format. 
