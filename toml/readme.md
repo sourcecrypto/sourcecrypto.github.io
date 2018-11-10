@@ -1,19 +1,22 @@
 # TOML formatting
+### The Problem and our Process
 
-I used this discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://github.com/infominer33/crypto-library/blob/master/crypt0library_history.txt)' which can be viewed in https://dht.chylex.com/build/viewer.html
+The problem is that developers don't have much to build until there is a database. In order to create the database to power a dynamic web-portal, we are using the TOML format to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. By labeling each link with a Title, Description, and Tags we will have made it easy   to be used for a web directory. Of course all of that takes a lot of work. Its easy, relaxing, and a wonderful educational opportunity, but time consuming.
 
-1. It's much easier to use the dht.chylex.com tool and copy paste channel history from the server into files here on the github than to copy paste directly from the discord channels. 
-   - On that note, if you know of other servers that have channels full of resources let me know, or try out dht.chylex.com. it's a little of a trick to get the script running, so I can do it if you prefer not to be bothered with 3rd party scripts on your discord-app
+We used a discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://github.com/infominer33/crypto-library/blob/master/crypt0library_history.txt)' which can be viewed in https://dht.chylex.com/build/viewer.html
 
-2. The next step is transforming each file of resources into toml format.  (https://github.com/toml-lang/toml)
-  — I'm now using [vscode](https://code.visualstudio.com/) to make the toml files, since it has a nice toml extension that helps make sure that you're formatting correctly
+The first step is to use that viewer app to copy\paste channel histories for channels that have not had files made for them yet. The best thing would be if someone could make files for all of the channels not done yet, so we could remove one more step from our process. It's fine to copy paste each channel into an individual file with the same filename as channel name.
 
+Those files can be added to https://github.com/infominer33/crypto-library/
+
+The next step is transforming each file of resources into toml format.  (https://github.com/toml-lang/toml)
+  
 Example:
 
 ```
-["The *Title* of the entry and must always be different from previous entries"] 
-Link = ["https://Blah.com"] 
-Description = "Description can be whatever text is valuable to communicate.\nTypically copied directly from the source, and sometimes requires creativity. "
+["The **Title** of the entry and must always be different from previous entries"] 
+Link = ["https://Blah.com"]
+Description = "Description can be whatever text is valuable to communicate.\nTypically copied directly from the source; sometimes requiring creativity. "
 Tags = ["blah", "blah-blah"]
 ```
 
@@ -21,32 +24,30 @@ Tags = ["blah", "blah-blah"]
 >* **I made "Link" a bracketed ["array"] so that sometimes a supporting link can be included. occasionally this will be helpful.**
 >* **Also, all entries have to have the same fields and format**
 >* **If you use \n for a newline, you can't actually use a newline, the open " and closing " must be on the same line**
->* **Be careful any text copied from another site for a description doesn't have a " quotation mark. Change to ' or use an escape character \" in front of the quotation mark**
+>* **Be careful of quotation marks in text copied descriptions. Change to ' or use an escape character \\" in front of the quotation mark**
 >* **TOML is Case Sensitive. All the tags should be lower case. All the value names must always begin with a capital and be identical**
 
 <img src="http://i.imgur.com/1nmrAAu.png"/></br>
-The result of this process, once it's landed here on github ^^^
+The result of this process, once it's landed on github ^^^
 
-These files will have the same name as the discord channel `channel_name.toml`
+### Our current plan for completing population of toml files is broken down as follows:
 
-Generally speaking, all of the files sitting in this directory are incomplete. Once complete they are getting organized into their folders. 
+\* note: if you're volunteering to help I will be happy even if you follow your own system for completing the work. This is the best system that I could to come up with.
 
-### I'd like to see this project progress in the following stages:
+1. First get the history of every channel into individual files [on github](https://github.com/infominer33/crypto-library/).
+   - simply copy\paste 
+2. Clean up each of those files and begin creating the toml format like above, except only with the link field filled out, leaving the rest blank, but ready to be filled out (for the whole server).
+   - a script could probably assist in this matter, but that's not my specialty
+4. then filling out the description and tags and title for each, manually.
+5. While the database is being prepared, developers are working on the web-application and a discord bot but there isn't much for them to work on without a sufficiently populated database.
 
-\* note: if you're volunteering to help I won't try to micromanage you. progress is wonderful :)
+The work was ordered in those steps both to get the easiest most time consuming tasks out of the way first, and to give librarians more time to come up with a proceedure and organizaed thought around how they should be tagged. If you want to help by automating any part of that process would, it would be appreciated.
 
-1. It would be awesome to start by get the entire server history into individual files for each channel.
-   - this can be a simple copy\paste affair
-2. Clean up those files and begin creating the toml format like above, except only with the link and the rest blank, but ready to be filled out (for the whole server)
-3. then filling out the rest of the informations
-
-I put it in those steps because step 1 and 2 are the easiest, and if someone was willing to help they could do a great service by creating all of those files without dedicating a ridiculous amount of time on it.
-
-Actually filling out the toml entries is tricky, and tagging is somewhat discressionary. I suppose I shall come up with more detailed instructions on tagging, eventually.  
+* BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
 **Thanks for all the help!!!**
 
-I will happily compensate anyone who makes significant contributions. --@infominer
+I will happily compensate anyone who makes significant contributions. —@infominer
 
 ---
 ## Completed Channels:
