@@ -77,5 +77,4 @@ Generally speaking, this project will progress in the following stages:
 
 [crypt0library.net](http://crypt0library.net)<br/>
 —BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
-
-I'm also available at https://twitter.com/@cryptinfominer
+https://twitter.com/@cryptinfominer
