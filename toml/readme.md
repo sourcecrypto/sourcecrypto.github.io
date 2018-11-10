@@ -50,5 +50,5 @@ The work was ordered in those steps both to get the easiest most time consuming 
 I will happily compensate anyone who makes significant contributions. —@infominer
 
 ---
-## Completed Channels:
+## TOML'd Channels:
 #101 #satoshi #history #cypherpunks #distributed-systems #consensus #pow #pos #decentralization #smart-contracts #decentralized-id #id-dev
