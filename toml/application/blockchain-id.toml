@@ -79,7 +79,7 @@ Description = "Decentralized Identifiers (DIDs) are a new type of identifier for
 Tags = ["w3c","did","decentralized-id","self-sovereign"]
 
 ["zkp.science"]
-Link = "https://zkp.science"
+Link = ["https://zkp.science"]
 Description = "Zero-Knowledge Proofs\n\nWhat are they, how do they work, and are they fast yet?"
 Tags = ["privacy","zkp","decentralized-id"]
 
@@ -109,7 +109,7 @@ Description = "DID Auth and the little I-am-me\n\nWe recently published a report
 Tags = ["did","w3c","sovrin","self-sovereign","decentralized-id"]
 
 ["Introduction to DID Auth"]
-Link = "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/final-documents/did-auth.md"
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/final-documents/did-auth.md"]
 Description = "The term DID Auth has been used in different ways and is currently not well-defined. We define DID Auth as a ceremony where an identity owner, with the help of various components such as web browsers, mobile devices, and other agents, proves to a relying party that they are in control of a DID. This means demonstrating control of the DID using the mechanism specified in the DID Document's \"authentication\" object. This could take place using a number of different data formats, protocols, and flows. DID Auth includes the ability to establish mutually authenticated communication channels and to authenticate to web sites and applications. Authorization, Verifiable Credentials, and Capabilities are built on top of DID Auth and are out of scope for this document. This paper gives on overview of the scope of DID Auth, supported protocols and flows, and the use of components of the DID Documents that are relevant to authentication, as well as formats for challenges and responses."
 Tags = ["w3c","did","weboftrust","self-sovereign","decentralized-id"]
 
@@ -134,7 +134,7 @@ Description = "Join us in building an open source decentralized identity ecosyst
 Tags = ["organizations","decentralized-id","microsoft","uport","ibm","sovrin","securekey","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix"]
 
 ["Decentralized Identity Foundation Grows To 56 Members In Our First Year"]
-Link = "https://medium.com/decentralized-identity/decentralized-identity-foundation-grows-to-56-members-in-our-first-year-3ec117e811d8"
+Link = ["https://medium.com/decentralized-identity/decentralized-identity-foundation-grows-to-56-members-in-our-first-year-3ec117e811d8"]
 Description = "Today marks the Decentralized Identity Foundation’s first anniversary. Over the past year, DIF has grown from a handful of founding organizations to 56 members. Together, we’re working to shape the future of decentralized identity technology and standards."
 Tags = ["decentralized-id","microsoft","uport","ibm","sovrin","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix"]
 
@@ -159,7 +159,7 @@ Description = "A white paper from Evernym in cooperation with the Sovrin Foundat
 Tags = ["sovrin","decentralized-id","whitepaper","evernym","documentation","self-sovereign","indy"]
 
 ["Sovrin: A Protocol and Token for Self-Sovereign Identity and Decentralized Trust"]
-Link = "https://sovrin.org/library/sovrin-protocol-and-token-white-paper/"
+Link = ["https://sovrin.org/library/sovrin-protocol-and-token-white-paper/"]
 Description = "A comprehensive, highly readable 40 page paper describing the complete Sovrin ecosystem, including the problems Sovrin is designed to solve; why it is designed to be a global public utility; how the overall architecture is designed for for resilience, privacy and scalability; the markets it is expected to impact; and the special role of the Sovrin token that will be introduced in 2018."
 Tags = ["sovrin","decentralized-id","documentation","self-sovereign","indy"]
 
@@ -394,7 +394,7 @@ Description = "Christopher Allen is a standards and identity practice specialist
 Tags = ["self-sovereign","christophera","history","decentralized-id"]
 
 ["Identity on the Blockchain: Perils and Promise"]
-Link = "https://www.slideshare.net/ChristopherA/identity-of-the-blockchain-perils-and-promise"
+Link = ["https://www.slideshare.net/ChristopherA/identity-of-the-blockchain-perils-and-promise"]
 Description = "Presented during the #Consensus2016 identity workshop, May 4th, 2016"
 Tags = ["decentralized-id","christophera","history","presentation","iiw","history"]
 
@@ -464,7 +464,7 @@ Description = "I build things; I write code; I void warranties"
 Tags = ["people","windley","self-sovereign","decentralized-id","iiw"]
 
 ["World Identity Netowork —Blockchain for Impact"]
-Link = "https://win.systems/"
+Link = ["https://win.systems/"]
 Description = "We are a team of global advocates, human rights activists, technologists and innovators who believe that everyone needs the ability to access proof of their personal identity. Anywhere, anytime."
 Tags = ["blockchain-id","decentralized-id","win","organizations","BFI"]
 
@@ -580,17 +580,17 @@ Tags = ["ethereum","gdpr","blockchain-id","peacekeeper","jolocom"]
 
 ["Danube Tech"]
 Link = ["http://danubetech.com/"]
-Description = "collaborating with several other efforts to build blockchain-based identifier registration, data sharing, and messaging infrastructure. —@Peacekeeper"
-Tags = ["identification","blockchain-id","peacekeeper","danube","organization"]
+Description = "DANUBE TECH is a company working on technologies in the field of digital identity and personal data, including personal agents, semantic graphs, and blockchain identity.\n\nThese emerging tools essentially place individuals at the center of their online relationships and transactions, and give us all the ability to create, manage, use, and destroy our online identities according to our own rules, and without delegating power to intermediaries.\n\ncollaborating with several other efforts to build blockchain-based identifier registration, data sharing, and messaging infrastructure.\" —@Peacekeeper"
+Tags = ["identification","blockchain-id","peacekeeper","danube","organization","decentralized-id","self-sovereign"]
 
 ["Scuttlebot"]
 Link = ["https://scuttlebot.io/"]
-Description = "a \"blockchain identity\" protocol avoiding a [singleton-based approach](https://scuttlebot.io/more/articles/design-challenge-avoid-centralization-and-singletons.html). It embraces subjectivity over consensus, e.g. each identity can publish messages that map their favorite pet name mappings for themselves and others. —@Peacekeeper" 
+Description = "\"Scuttlebot is an open source peer-to-peer log store used as a database, identity provider, and messaging system. It features global replication, file-syncronization, and end-to-end encryption.\n\na \"blockchain identity\" protocol avoiding a [singleton-based approach](https://scuttlebot.io/more/articles/design-challenge-avoid-centralization-and-singletons.html). It embraces subjectivity over consensus, e.g. each identity can publish messages that map their favorite pet name mappings for themselves and others.\" —@Peacekeeper" 
 Tags = ["identification","blockchain-id","peacekeeper","application","scuttlebot"]
 
 ["Patchwork"]
-Link = ["https://ssbc.github.io/patchwork/"] 
-Description = "is a user-facing decentralized messaging and sharing app based on Scuttlebot. @Peacekeeper"
+Link = ["https://ssbc.github.io/patchwork/","https://www.scuttlebutt.nz"] 
+Description = "A decentralized messaging and sharing app built on top of Secure Scuttlebutt (SSB)."
 Tags = ["identification","application","peacekeeper"]
 
 ["Cambridge Blockchain"]
@@ -601,16 +601,17 @@ Tags = ["blockchain-id","acedemia","peacekeeper"]
 ["Proof-of-Individuality"]
 Link = ["http://proofofindividuality.online/","https://medium.com/@unlisted/anti-sybil-protocol-using-virtual-pseudonym-parties-10276fcf3b20"]
 Description = "POIs (proof-of-individuality) are smart-assets that are hosted on the Ethereum network. They solve one of the hard problems in crypto - how do you prove that a person only has one account within the system ? \n\nThrough person-to-person verification. Users are grouped together by random in groups of 5 or so, and every group does a video hangout at the exact same time, that lasts around 10 minutes or so. Users check so that the others in their group aren't doing another hangout at the same time. They then sign each other's POIs and verify them. Once the hangouts are finished and all POIs have been verified, everyone will know that each POI represents a unique human being. \n\n@peacekeeper addresses the challenge to prove that a person only has one account within a system, without sacrificing the advantages of anonymity/pseudonymity. See [here](https://medium.com/@unlisted/anti-sybil-protocol-using-virtual-pseudonym-parties-10276fcf3b20) for a draft implementation using \"virtual pseudonym parties\"."
-Tags = ["proof-of-individuality","anti-sybil","weboftrust","peace-keeper","identification","ethereum-lyr2"]
+Tags = ["proof-of-individuality","anti-sybil","weboftrust","peacekeeper","identification","ethereum-lyr2"]
 
 ["Regis"]
 Link = ["http://regis.nu/"]
 Description = "is a platform that makes it easy to build, deploy, and manage decentralized registries on the Ethereum blockchain."
-Tags = ["regis","registries","ethereum-lyr2"]
+Tags = ["regis","registries","ethereum-lyr2","peacekeeper"]
 
-[SingleID](http://singleid.com/) An app that allows you to be in control of their online identity. It provides safe logins with no registration and no password.
-
-[IDKeys](https://idkeys.net/) is a distributed global identity system that registers cryptographic public keys on the Stellar blockchain.
+["JLinc (formerly IDKeys)"]
+Link = ["https://www.jlinc.com/","https://idkeys.net/"]
+Description = "JLINC Labs is based in Oakland California with an enterprise sales office in London. The founders have been at the center of a community of developers working on “user-centric digital identity” for almost two decades. They have attracted an international team of digital identity, marketing and privacy experts who understand the unique implications of the JLINC protocol. \n\nis a distributed global identity system that registers cryptographic public keys on the Stellar blockchain.—@peacekeeper"
+Tags = ["jlinc","blockchain-id","idkeys","stellar"]
 
 [CheapID](http://guptaoption.com/cheapid/) is a digital identity standard designed for use in conflicted environment like those many refugees or disaster victims may find themselves in.
 
