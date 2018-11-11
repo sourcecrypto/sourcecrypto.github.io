@@ -21,7 +21,7 @@ Tags = ["awesome","decentralized-id","did"]
 ["Managing Identity with a UI—ERC-725"]
 Link = ["https://medium.com/originprotocol/managing-identity-with-a-ui-for-erc-725-5c7422b38c09"]
 Description = "So how do we identify someone on the blockchain? How can we build a mechanism into our smart contracts to only allow interactions from reputable people? One potential solution to this problem is ERC 725 (and 735) — a proposed standard for managing identity on the blockchain from Fabian Vogelsteller. Fabian works on the Ethereum project and is well known in the community as the creator of the Mist browser and Web3.js. He was also the creator of the widely successful ERC 20 token standard."
-Tags = ["decentralized-id","erc","erc-725"]
+Tags = ["decentralized-id","erc","erc-725","ethereum-lyr2"]
 
 ["Different Approaches to Ethereum Identity Standards"]
 Link = ["https://medium.com/uport/different-approaches-to-ethereum-identity-standards-a09488347c87"] 
@@ -451,7 +451,7 @@ Tags = ["twitter","people","christophera","self-sovereign","decentralized-id","b
 ["@manusporny —Manu Sporny on Twitter"]
 Link = ["https://twitter.com/manusporny"]
 Description = "Founder/CEO Digital Bazaar; payments, identity & blockchain. Kickstarted Web Payments, Verifiable Credentials, Decentralized Identifiers, and JSON-LD at W3C."
-Tags = ["twitter","people","manusporny","self-sovereign","decentralized-id","w3c","verifiable-credentials","digital-bazaar"]
+Tags = ["twitter","people","manusporny","self-sovereign","decentralized-id","w3c","credentials","digital-bazaar"]
 
 ["The promise of managing identity on the blockchain"]
 Link = ["https://techcrunch.com/2017/09/10/the-promise-of-managing-identity-on-the-blockchain/"]
@@ -466,116 +466,147 @@ Tags = ["people","windley","self-sovereign","decentralized-id","iiw"]
 ["World Identity Netowork —Blockchain for Impact"]
 Link = "https://win.systems/"
 Description = "We are a team of global advocates, human rights activists, technologists and innovators who believe that everyone needs the ability to access proof of their personal identity. Anywhere, anytime."
-Tags = ["blockchain-id","decentralized-id","win","organizations"]
+Tags = ["blockchain-id","decentralized-id","win","organizations","BFI"]
 
 ["Namecoin"]
 Link = ["http://namecoin.org/"]
 Description = "Namecoin is a blockchain that has been conceived from the start to be used for registering domain names. It is the first fork of the Bitcoin software."
-Tags = ["bitcoin-fork","dns","blockchain","coin","namecoin","identification"]
+Tags = ["bitcoin-fork","dns","blockchain","coin","namecoin","identification","peacekeeper"]
 
 ["NameID"]
 Link = ["https://nameid.org/"]
 Description = "an OpenID service based on Namecoin identifiers."
-Tags = ["namecoin","openid","identification"]
+Tags = ["namecoin","openid","identification","peacekeeper"]
 
 ["CertCoin: A NameCoin Based Decentralized Authentication System"]
 Link = ["https://courses.csail.mit.edu/6.857/2014/files/19-fromknecht-velicann-yakoubov-certcoin.pdf"]
 Description = ["an MIT paper about a NameCoin-based decentralized authentication system which maintains a public ledger of domains and their associated public keys.\n\nAuthentication is vital to all forms of remote communication. A lack of authentication opens the door to man-in-the-middle attacks, which, if performed at a key moment, may subvert the entire interaction. Current approaches to authentication on the internet include certificate authorities and webs of trust. Both of those approaches have significant drawbacks: the former relies upon trusted third parties, introducing a central point of failure, and the latter has a high barrier to entry. We propose Certcoin, an alternative, public and decentralized authentication scheme. The core idea of Certcoin is maintaining a public ledger of domains and their associated public keys. We describe the Certcoin scheme, as well as several optimizations to make Certcoin more accessible to devices with limited storage capacity, such as smartphones. Our optimizations use tools such as cryptographic accumulators and distributed hash tables."]
-Tags = ["gertcoin","namecoin","identification","authentication","mit"]
+Tags = ["gertcoin","namecoin","identification","authentication","mit","peacekeeper"]
 
 ["ChainAnchor"]
 Link = ["http://connection.mit.edu/wp-content/uploads/sites/29/2014/12/Anonymous-Identities-for-Permissioned-Blockchains2.pdf"]
 Description = "MIT paper about an architecture that adds an identity and privacy-preserving layer above the blockchain, either the private blockchain or the public blockchain in Bitcoin.\n\nAbstract—In this paper we address the issue of retaining user anonymity within a permissioned blockchain. We present the ChainAnchor architecture that adds an identity and privacy-preserving layer above the blockchain, either the private blockchain or the public Blockchain in Bitcoin. ChainAnchor adds an anonymous identity verification step such that anyone can read and verify transactions from the blockchain but only anonymous verified identities can have transactions processed. We refer to such blockchains as semi-permissioned blockchains. ChainAnchor builds upon and makes use of the zero knowledge proof mechanisms of the EPID scheme, which has the advantage of an optional cryptographic binding to a TPM tamper-resistant hardware. The use of tamper-resistant hardware provides a significant increase in security, not only for identity-related information but also for the protection of keys used by Bitcoin wallet applications."
-Tags = ["chainanchor","layer2","identification","blockchain-id","zkp"]
+Tags = ["chainanchor","layer2","identification","blockchain-id","zkp","peacekeeper"]
 
 ["Blockstack"]
 Link = ["https://blockstack.org/","https://github.com/blockstack","https://forum.blockstack.org/","https://blockstack.org/blog","https://twitter.com/blockstack"]
 Description = "a network of computers that collectively maintain a global registry of domain names, public keys, and cryptographic hashes. With this registry, Blockstack serves as a decentralized domain name system (DNS) and a decentralized public key infrastructure (PKI)."
-Tags = ["blockstack","pki","dns"]
+Tags = ["blockstack","pki","dns","peacekeeper"]
 
 ["Onename"]
 Link = ["https://onename.com/"]
 Description = "a product built on Blockstack that allows people to register identities."
-Tags = ["onename","blockstack","blockchain-id"]
+Tags = ["onename","blockstack","blockchain-id","peacekeeper"]
 
 ["Decentralized Public Key Infrastructure"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/raw/master/final-documents/dpki.pdf"]
 Description = "(DPKI) which registers identifiers and associated public keys on blockchains."
-Tags = ["weboftrust","pki","research-paper"]
+Tags = ["weboftrust","pki","research-paper","peacekeeper"]
 
 ["XDI Registry"]
 Link = ["https://docs.google.com/document/d/1i-XChGFsuAi-Id85FWXjX6hOWDn9Sq-qe7ARykJgsBI/"]
 Description = "The non-profit organization XDI.org has designed a blockchain-based registry for human-readable names and machine-readable numbers."
-Tags = ["xdi","identification"]
+Tags = ["xdi","identification","peacekeeper"]
 
 ["uPort"]
 Link = ["https://www.uport.me/","http://www.ibtimes.co.uk/ethereum-studio-consensys-launches-internet-people-digital-ids-assets-secured-unbuntu-phones-1542620"]
 Description = "A Consensys developed blockchain-based, self-sovereign identity system"
-Tags = ["self-sovereign","uport","blockchain-id","erc-725","decentralized-id"]
+Tags = ["self-sovereign","uport","blockchain-id","erc-725","decentralized-id","peacekeeper"]
 
 ["Identit.ee"]
 Link = ["http://www.identit.ee/"] 
 Description = "a program to build blockchain identity solutions related to the Estonian e-Residency concept."
-Tags = ["identit-ee","blockchain-id","estonia"]
+Tags = ["identit-ee","blockchain-id","estonia","application","peacekeeper"]
 
 ["BitAlias"]
 Link = ["https://bitalias.github.io/"]
 Description = "allows users to register names in the Bitcoin blockchain and point them to their wallets."
-Tags = ["bitalias","bitcoin","identification","layer2"]
+Tags = ["bitalias","bitcoin","identification","layer2","peacekeeper"]
 
 ["EtherID"]
 Link = ["http://etherid.org/"]
 Description = ["allows registration of domain names for an Ethereum account."]
-Tags = ["identification","dns","ethereum"]
+Tags = ["identification","dns","ethereum","peacekeeper"]
 
 ["ENS"]
 Link = ["https://github.com/nexusdev/ENS"]
 Description = "is the \"Ethereal Namespace\", a contract system and set of conventions to form a hierarchical namespace."
-Tags = ["identification","namespace","ethereum","ens"]
+Tags = ["identification","namespace","ethereum","ens","peacekeeper"]
 
 ["Ethereum Name Service"]
 Link = ["https://ens.domains/"]
 Description = "a naming system based on Ethereum smart contracts that provides registration of human-readable names, as well as resolution to service and resource identifiers. A name is registered by using an Ethereum dapp to enter an auction process for the desired name."
-Tags = ["ethereum","ens","namespace"]
+Tags = ["ethereum","ens","namespace","peacekeeper"]
 
 ["DEVCON1: Digital Identity"]
 Link = ["https://www.youtube.com/watch?v=QpaTOvAhLR4"]
 Description = "on blockchain, digital identity, and public key infrastructure"
-Tags = ["devcon1","devcon","digital-id","pki"]
+Tags = ["devcon1","devcon","digital-id","pki","peacekeeper"]
 
 ["Bitnation"]
 Link = ["https://bitnation.co/","https://refugees.bitnation.co/"]
 Description = "seeks to establish the concept of \"world citizenship\" through identity registration on the blockchain. The project is collaborating with the Estonian e-Residency program and also has a focus on offering 'blockchain emergency IDs' to refugees."
-Tags = ["humanitarian","blockchain-id"]
+Tags = ["humanitarian","blockchain-id","peacekeeper"]
 
 ["Shocard"]
 Link = ["https://shocard.com/"]
 Description = "Blockchain-Based Mobile Identity Platform"
-Tags = ["shocard","blockchain-id"]
+Tags = ["shocard","blockchain-id","peacekeeper"]
 
 ["MMlab Mobile Multimedia Laboratory"]
 Link = ["http://mm.aueb.gr/"]
-Description = "A research team at Athens University of Economics and Business is working on \"information-centric\" networking and is exploring the use of blockchain technology for \"content names\"." 
+Description = "A research team at Athens University of Economics and Business is working on \"information-centric\" networking and is exploring the use of blockchain technology for \"content names\".\n\nThe Mobile Multimedia Laboratory (MMlab) is performing research in the areas of Wireless Packet Networks and Mobile Communications, Internet Protocols and Applications, Security, Privacy and Trust, Mobile Multimedia, Quality-of-Service & Quality-of-Experience, Multimedia Multicast and Broadcast. MMlab is part of the Telecommunications Services Group of the Dept. of Computer Science of the Athens University of Economics and Business. The lab is headed by Professor George C. Polyzos."
+Tags = ["mmlab","academic","mobile","communications","peacekeeper"]
 
-The Mobile Multimedia Laboratory (MMlab) is performing research in the areas of Wireless Packet Networks and Mobile Communications, Internet Protocols and Applications, Security, Privacy and Trust, Mobile Multimedia, Quality-of-Service & Quality-of-Experience, Multimedia Multicast and Broadcast. MMlab is part of the Telecommunications Services Group of the Dept. of Computer Science of the Athens University of Economics and Business. The lab is headed by Professor George C. Polyzos."
+["Federal Funding for Blockchain Security and Identity Verification Technologies"]
+Link = ["https://blog.aniljohn.com/2015/12/federal-gov-funds-for-identity-r-and-d.html"]
+Description = "The U.S. Department of Homeland Security is funding research on the \"Applicability of Blockchain Technology to Privacy Respecting Identity Management\""
+Tags = ["USDHS","blockchain-id","peacekeeper"]
 
-The U.S. Department of Homeland Security is [funding](https://blog.aniljohn.com/2015/12/federal-gov-funds-for-identity-r-and-d.html) research on the "Applicability of Blockchain Technology to Privacy Respecting Identity Management"
+["Decentralizing Privacy: Using Blockchain to Protect Personal Data"]
+Link = ["http://web.media.mit.edu/~guyzys/data/ZNP15.pdf"]
+Description = "Abstract—The recent increase in reported incidents of surveillance and security breaches compromising users’ privacy call into question the current model, in which third-parties collect and control massive amounts of personal data. Bitcoin has demonstrated in the financial space that trusted, auditable computing is possible using a decentralized network of peers accompanied by a public ledger. In this paper, we describe a decentralized personal data management system that ensures users own and control their data. We implement a protocol that turns a blockchain into an automated access-control manager that does not require trust in a third party. Unlike Bitcoin, transactions in our system are not strictly financial – they are used to carry instructions, such as storing, querying and sharing data. Finally, we discuss possible future extensions to blockchains that could harness them into a well-rounded solution for trusted computing problems in society"
+Tags = ["research-paper","mit","privacy","blockchain-id","peacekeeper"]
 
-An MIT [paper](http://web.media.mit.edu/~guyzys/data/ZNP15.pdf) about "Decentralizing Privacy: Using Blockchain to Protect Personal Data".
+["Privacy on the Blockchain"]
+Link = ["https://blog.ethereum.org/2016/01/15/privacy-on-the-blockchain/"]
+Description = "Blockchains are a powerful technology, as regular readers of the blog already likely agree. They allow for a large number of interactions to be codified and carried out in a way that greatly increases reliability, removes business and political risks associated with the process being managed by a central entity, and reduces the need for trust. They create a platform on which applications from different companies and even of different types can run together, allowing for extremely efficient and seamless interaction, and leave an audit trail that anyone can check to make sure that everything is being processed correctly.\n\n includes some thoughts about identity systems."
+Tags = ["vitalik","privacy","blockchain-id","peacekeeper","blog"]
 
-An Ethereum [blog post](https://blog.ethereum.org/2016/01/15/privacy-on-the-blockchain/) about "Privacy on the Blockchain", including some thoughts about identity systems.
+["Jolocom"]
+Link = ["http://jolocom.com/","https://github.com/solid/solid-spec","http://www.agile-project-iot.eu/"]
+Description = "developing a \"SmartWallet\" for everyone to own their personal digital identity, using [Social Linked Data](https://github.com/solid/solid-spec), WebID, and verifiable claims standards, as well as Ethereum smart contracts. The company focuses on decentralization and GDPR compliance, and is part of the E.U. [AGILE](http://www.agile-project-iot.eu/) IoT consortium."
+Tags = ["ethereum","gdpr","blockchain-id","peacekeeper","jolocom"]
 
-[Jolocom](http://jolocom.com/) is developing a "SmartWallet" for everyone to own their personal digital identity, using [Social Linked Data](https://github.com/solid/solid-spec), WebID, and verifiable claims standards, as well as Ethereum smart contracts. The company focuses on decentralization and GDPR compliance, and is part of the E.U. [AGILE](http://www.agile-project-iot.eu/) IoT consortium.
+["Danube Tech"]
+Link = ["http://danubetech.com/"]
+Description = "collaborating with several other efforts to build blockchain-based identifier registration, data sharing, and messaging infrastructure. —@Peacekeeper"
+Tags = ["identification","blockchain-id","peacekeeper","danube","organization"]
 
-[Danube Tech](http://danubetech.com/) is collaborating with several other efforts to build blockchain-based identifier registration, data sharing, and messaging infrastructure.
+["Scuttlebot"]
+Link = ["https://scuttlebot.io/"]
+Description = "a \"blockchain identity\" protocol avoiding a [singleton-based approach](https://scuttlebot.io/more/articles/design-challenge-avoid-centralization-and-singletons.html). It embraces subjectivity over consensus, e.g. each identity can publish messages that map their favorite pet name mappings for themselves and others. —@Peacekeeper" 
+Tags = ["identification","blockchain-id","peacekeeper","application","scuttlebot"]
 
-[Scuttlebot](https://scuttlebot.io/) is a "blockchain identity" protocol avoiding a [singleton-based approach](https://scuttlebot.io/more/articles/design-challenge-avoid-centralization-and-singletons.html). It embraces subjectivity over consensus, e.g. each identity can publish messages that map their favorite pet name mappings for themselves and others. [Patchwork](https://ssbc.github.io/patchwork/) is a user-facing decentralized messaging and sharing app based on Scuttlebot.
+["Patchwork"]
+Link = ["https://ssbc.github.io/patchwork/"] 
+Description = "is a user-facing decentralized messaging and sharing app based on Scuttlebot. @Peacekeeper"
+Tags = ["identification","application","peacekeeper"]
 
-Startup Cambridge Blockchain is working on an [Identity Blockchain](http://cambridge-blockchain.com/alpha_genesis_block.html) for validating secure digital identity documents, processing electronic signatures, and recording transactions.
+["Cambridge Blockchain"]
+Link = ["http://cambridge-blockchain.com/"]
+Description = "Identity compliance, simplified\n\nCambridge Blockchain puts control of personal identity data back in the hands of the end user. Our platform allows financial institutions to meet the strictest new data privacy rules, eliminate redundant identity compliance checks and improve the customer experience. @Peacekeeper\n\nPK note: Startup Cambridge Blockchain is working on an Identity Blockchain for validating secure digital identity documents, processing electronic signatures, and recording transactions."
+Tags = ["blockchain-id","acedemia","peacekeeper"]
 
-[Proof-of-Individuality](http://proofofindividuality.online/) addresses the challenge to prove that a person only has one account within a system, without sacrificing the advantages of anonymity/pseudonymity. See [here](https://medium.com/@unlisted/anti-sybil-protocol-using-virtual-pseudonym-parties-10276fcf3b20) for a draft implementation using "virtual pseudonym parties".
+["Proof-of-Individuality"]
+Link = ["http://proofofindividuality.online/","https://medium.com/@unlisted/anti-sybil-protocol-using-virtual-pseudonym-parties-10276fcf3b20"]
+Description = "POIs (proof-of-individuality) are smart-assets that are hosted on the Ethereum network. They solve one of the hard problems in crypto - how do you prove that a person only has one account within the system ? \n\nThrough person-to-person verification. Users are grouped together by random in groups of 5 or so, and every group does a video hangout at the exact same time, that lasts around 10 minutes or so. Users check so that the others in their group aren't doing another hangout at the same time. They then sign each other's POIs and verify them. Once the hangouts are finished and all POIs have been verified, everyone will know that each POI represents a unique human being. \n\n@peacekeeper addresses the challenge to prove that a person only has one account within a system, without sacrificing the advantages of anonymity/pseudonymity. See [here](https://medium.com/@unlisted/anti-sybil-protocol-using-virtual-pseudonym-parties-10276fcf3b20) for a draft implementation using \"virtual pseudonym parties\"."
+Tags = ["proof-of-individuality","anti-sybil","weboftrust","peace-keeper","identification","ethereum-lyr2"]
 
-[Regis](http://regis.nu/) is a platform that makes it easy to build, deploy, and manage decentralized registries on the Ethereum blockchain.
+["Regis"]
+Link = ["http://regis.nu/"]
+Description = "is a platform that makes it easy to build, deploy, and manage decentralized registries on the Ethereum blockchain."
+Tags = ["regis","registries","ethereum-lyr2"]
 
 [SingleID](http://singleid.com/) An app that allows you to be in control of their online identity. It provides safe logins with no registration and no password.
 
