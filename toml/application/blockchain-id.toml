@@ -190,8 +190,8 @@ Tags = ["sovrin","decentralized-id","documentation","self-sovereign"]
 
 ["Civic"]
 Link = ["https://www.civic.com/"]
-Description = "Civic enables people to take control and protect their identity:\n\nSECURE ID PLATFORM ; REUSABLE KYC ; ID THEFT PROTECTION"
-Tags = ["civic","decentralized-id","self-sovereign","organizations"]
+Description = "Civic enables people to take control and protect their identity:\n\nSECURE ID PLATFORM ; REUSABLE KYC ; ID THEFT PROTECTION\n\n\"is a secure identity platform using a blockchain and biometrics on mobile devices, in order to provide multi-factor authentication without a username, password, third party authenticator, or physical hardware token.\"#peacekeeper"
+Tags = ["civic","decentralized-id","self-sovereign","organizations","peacekeeper"]
 
 ["TU Delft helps develop digital ID for use on your phone"]
 Link = ["https://www.tudelft.nl/en/2018/tu-delft/tu-delft-helps-develop-digital-id-for-use-on-your-phone/"]
@@ -611,52 +611,87 @@ Tags = ["regis","registries","ethereum-lyr2","peacekeeper"]
 ["JLinc (formerly IDKeys)"]
 Link = ["https://www.jlinc.com/","https://idkeys.net/"]
 Description = "JLINC Labs is based in Oakland California with an enterprise sales office in London. The founders have been at the center of a community of developers working on “user-centric digital identity” for almost two decades. They have attracted an international team of digital identity, marketing and privacy experts who understand the unique implications of the JLINC protocol. \n\nis a distributed global identity system that registers cryptographic public keys on the Stellar blockchain.—#peacekeeper"
-Tags = ["jlinc","blockchain-id","idkeys","stellar"]
+Tags = ["jlinc","blockchain-id","idkeys","stellar","peacekeeper"]
 
 ["CheapID"]
 Link = ["http://guptaoption.com/cheapid/"]
-Description = "a digital identity standard designed for use in conflicted environment like those many refugees or disaster victims may find themselves in.""
-Tags = ["digital-id","cheapid"]
+Description = "a digital identity standard designed for use in conflicted environment like those many refugees or disaster victims may find themselves in."
+Tags = ["digital-id","cheapid","peacekeeper"]
 
 ["DID Specs"]
 Link = ["https://docs.google.com/document/d/1Z-9jX4PEWtyRFD5fEyyzEnWK_0ir0no1JJLuRu8O9Gs/"]
 Description = "(Decentralized Identifiers) are a new type of identifier intended for digital identity that is \"self-sovereign\", i.e, fully under the control of the identity owner. DIDs resolve to DDOs (DID descriptor objects) and can be registered in different blockchains (using different \"methods\")."
-Tags = ["w3c","did","documentation","self-sovereign","decentralized-id"]
+Tags = ["w3c","did","documentation","self-sovereign","decentralized-id","peacekeeper"]
 
 ["Jolocom"]
 Link = ["https://jolocom.io/","https://github.com/jolocom/"]
 Description = "An open source protocol for people and smart agents to autonomously create and interact with digital, self-sovereign identities.\n\nA research project on registering WebIDs on the Ethereum blockchain, to be used for Linked Data and Solid. #peacekeeper"
-Tags = ["jolocom","self-sovereign","decentralized-id","blockchain-id","ethereum"]
+Tags = ["jolocom","self-sovereign","decentralized-id","blockchain-id","ethereum","peacekeeper"]
 
 ["The Relationship Between Blockchain and Digital Identity"]
 Link = ["http://www.gsma.com/personaldata/the-relationship-between-blockchain-and-digital-identity"]
 Description = "‘Identity’ is a word often used to mean subtly different things.  The Oxford English Dictionary defines it succinctly as “The fact of being who or what a person or thing is”; ISO29115 prefers the broader “Set of attributes related to an entity”.Identity, therefore is not a singular characteristic but rather a set of attributes that vary by relationship and moreover the plurality of these relationships can enhance the confidence level that the identity being asserted is genuine through corroboration."
-Tags = ["blockchain-id","blog"]
+Tags = ["blockchain-id","blog","peacekeeper"]
 
 ["2018 Identity Landsacpe brought to you by: One World Identity"]
-Link = ["https://oneworldidentity.com/","https://oneworldidentity.com/wp-content/uploads/2018/10/companies.png"]
+Link = ["https://oneworldidentity.com/wp-content/uploads/2018/10/companies.png"]
+Description = "A snapshot of the identity landscape by oneworldidentity.com"
+Tags = ["owi","identification","infographic","peacekeeper"]
+
+["One World Identity"]
+Link = ["https://oneworldidentity.com/"]
 Description = "One World Identity (‘OWI’) is an independent advisory and digital strategy consultancy focused on trust and the data economy. We help business leaders, governments, and investors stay ahead of market trends so they can build sustainable, forward-looking products and strategies."
-Tags = ["OWI","identification","organization","image"]
+Tags = ["owi","organization","blockchain-id"]
 
-[Authenteq](http://authenteq.com/) is an automatic identity verification platform that uses a facial recognition algorithm to create a digital identity on a blockchain.
+["Authenteq"]
+Link = ["http://authenteq.com/"]
+Description = "Authenteq is an automatic identity verification and privacy platform which enables users to verify their identity and create their own sovereign digital IDs which are stored encrypted in a blockchain. Any personal user information is user-owned and user-controlled, and not accessible by anyone, including us. With an Authenteq ID, users can choose to verify their identity, or parts of their identity to third parties using our claims verification API.\n\nis an automatic identity verification platform that uses a facial recognition algorithm to create a digital identity on a blockchain."
+Tags = ["authenteq","self-sovereign","blockchain-id"]
 
-[The Humanized Internet](http://www.thehumanizedinternet.org/) is building a prototype of an identity-as-a-service platform, relying on a blockchain system, to store legal IDs, property titles, education certificates, and medical records. 
+["The Humanized Internet"]
+Link = ["http://www.thehumanizedinternet.org/"]
+Description = "The Humanized Internet is working to use new technologies to defend the rights of vulnerable people, and give every human being worldwide secure, sovereign control over their own digital identity.\n\nbuilding a prototype of an identity-as-a-service platform, relying on a blockchain system, to store legal IDs, property titles, education certificates, and medical records. #peacekeeper"
+Tags = ["self-sovereign","blockchain-id","humanized-internet","peacekeeper"]
 
-[Deloitte SmartID](http://www.deloitte.co.uk/smartid/) uses Ethereum smart contracts to store, endorse, share, and revoke attributes, in order to enable users to automate digital processes such as customer registration and commercial KYC checks.
+["Deloitte SmartID"]
+Link = ["http://www.deloitte.co.uk/smartid/"]
+Description = "Smart ID makes it easier for customers to manage their identity information by reducing the number of places they need to maintain it, and simplifying the process of sharing it with others.\n\nuses Ethereum smart contracts to store, endorse, share, and revoke attributes, in order to enable users to automate digital processes such as customer registration and commercial KYC checks.\"—#peacekeeper"
+Tags = ["deloitte","smartid","ethereum","peacekeeper"]
 
-[Master thesis](http://essay.utwente.nl/71274/) about self-sovereign identity using blockchain technology by D.S. Baars.
+["TOWARDS SELF-SOVEREIGN IDENTITY USING BLOCKCHAIN TECHNOLOGY"]
+Link = ["http://essay.utwente.nl/71274/"]
+Description = "With more than three billion internet users, each with multiple digital identities, the management of these identities is very important.  Surveys show that people often use the identity management systems  they don't want to use. They don't have full control over their information, have no way to know what is shared with other parties and are dependent on trusted parties when logging in to websites. Blockchain technology is used as basis for a secure and transparent distributed ledger for the Bitcoin cryptocurrency. Its decentralized, public and immutable properties solve the double spending problem and allow every participant of the network to read the transaction history, help in the validation process and pay and receive Bitcoin.\nCryptographically complex math ensures that everyone can do transactions with everyone without the need for a trusted third party. Nextto financial transactions, this also holds for other claims. Entities can put claims on a decentralized ledger by digitally signing it, which allows any other entity to verify that these claims are made by that specific entity.\nThis allows authorities like governments to make claims about individuals, which can be combined with other claims to create a very strong claim about someone. Because both the claimant and the claimee can be verified, this allows entities like mortgage lenders to outsource their Customer Due Diligence (CDD) processes.\nIn this research we will explore the possibility of self-sovereign identity, where you are in control of your digital identity. We started with a desk research on currently available identity man agement solutions. We concluded that in most systems, the end-user is not able to store their own data. Currently only one decentralized system is available, but has not gained wide adoption yet.\nA case study has been performed on a solution which allows the ex change of KYC attributes, resulting from thorough Customer Due Dili gence (CDD) as is often performed when opening a bank account. These attributes can be used by other entities, like insurance companies and mortgage lenders to make their on-boarding process easier for customers, since they don't need to supply copies of the same documentation all over again. Also, the companies themselves could outsource their Customer Due Diligence (CDD) this way to lower costs and make fewer errors. Although the idea is very interesting, the studied solution did not meet the expectations. At the time the company behind the solution was very small and the process to improve very complex. The solution was also proprietary, creating dependence on the vendor, which heightens the adoption barrier.\nBecause of the lessons learned from the case study, the results of the literature research and the desk research, we designed an architecture for a Decentralized Identity Management System (DIMS) using the concept of claim-based identity and blockchain technology. To lower adoption barriers and create a self-sustaining ecosystem, it will be developed on a public blockchain and source code will be made open-source. The solution will be privacy-friendly by using privacy-enhancing techniques and storing only claims about one's identity. We also provide a solution to allow retrieval of more sensitive data, and made it as modular as possible to make integration within existing IT architecture easier.\nThe Decentralized Identity Management System (DIMS) can be useful in a wide range of use cases, like proving your age when buying liquor at the supermarket or applying for a health insurance where you get a student discount if you can show your are enrolled at a university. This shows that our work resulted in a solid foundation for self-sovereign identity using blockchain technology.—by D.S. Baars."
+Tags = ["reserach-paper","self-sovereign","blockchain-id","peacekeeper"]
 
-The [Fermat project](http://www.fermat.org/) is a community working on the [Internet of People](http://iopgo.com/), an open, decentralized infrastructure consisting of device-to-device communication, blockchain tokens, profile servers, and other components.
+["The Fermat project"]
+Link = ["http://www.fermat.org/"]
+Description = "Founders of the Internet of People (#iop), an open, decentralized infrastructure consisting of device-to-device communication, blockchain tokens, profile servers, and other components.\"in June 2017, IoP switched from a centrally governed entity to a pure community project.\""
+Tags = ["blockchain-id","self-sovereign","decentralized-id","fermat","iop","decentralized-internet","peacekeeper"]
 
-[Civic](https://www.civic.com/) is a secure identity platform using a blockchain and biometrics on mobile devices, in order to provide multi-factor authentication without a username, password, third party authenticator, or physical hardware token.
+["Internet of People"]
+Link = ["https://iop.global/"]
+Description = "an open, decentralized infrastructure consisting of device-to-device communication, blockchain tokens, profile servers, and other components."
+Tags = ["blockchain-id","self-sovereign","decentralized-id","fermat","iop","decentralized-internet","peacekeeper"]
 
-[Air](http://www.sphre.co/cs/downloads/Air_Platform_Whitepaper.pdf) is a digital identity platform built on Hyperledger fabric, offering "chaincode" smart contracts and an API for third parties. It uses "XID" tokens based on the Bitcoin blockchain that are transfered upon successful identity transactions and trigger targeted advertising to the user.
+["Sphere Identity"]
+Link = ["https://sphereidentity.com/","https://medium.com/@sphereidentity","https://github.com/mark-s/CryptoCoinWhitePapers/blob/master/Air_Platform_Whitepaper.pdf"]
+Description = "Original website and link to whitepaper no longer available, not 100% sure that sphereidentity is the website for formerly \"Air Platform\" but it appears to be related.\n\n\"is a digital identity platform built on Hyperledger fabric, offering \"chaincode\" smart contracts and an API for third parties. It uses \"XID\" tokens based on the Bitcoin blockchain that are transfered upon successful identity transactions and trigger targeted advertising to the user. #peacekeeper"
+Tags = ["sphre","air-platform","sphere-identity","peacekeeper"]
 
-[Blockchain Helix](http://blockchain-helix.com) is building a platform that consists of "Identity as a Service", "Data as a Service" and "Blockchain as a Service". On this platform, different parties including individuals can manage and share both self-asserted and verified information. The company offers to increase the speed of KYC/AML processes while hughly decreasing the cost of onboarding.
+["Blockchain Helix"]
+Link = ["http://blockchain-helix.com","https://ico.helix-orange.com/","https://ico.helix-orange.com/wp-content/uploads/2018/08/HELIX-Orange_Whitepaper_v1.5.pdf"]
+Description ="\"Building a platform that consists of \"Identity as a Service\", \"Data as a Service\" and \"Blockchain as a Service\". On this platform, different parties including individuals can manage and share both self-asserted and verified information. The company offers to increase the speed of KYC/AML processes while hughly decreasing the cost of onboarding.-#peacekeeper\""
+Tags = ["peacekeeper","helix","blockchain-id"]
 
-The [Pillar Project](http://pillarproject.io) is planning to offer a "Personal Data Locker" consisting of a wallet, browser, and token exchange. Personal assets will be put on a blockchain, and "Pillar" tokens will be issued.
+["Pillar Project"]
+Link = ["http://pillarproject.io","https://pillarproject.io/documents/Pillar-Gray-Paper.pdf"]
+Description = "is planning to offer a \"Personal Data Locker\" consisting of a wallet, browser, and token exchange. Personal assets will be put on a blockchain, and \"Pillar\" tokens will be issued."
+Tags = ["verifiable-claims","peacekeeper","pillar","data-wallet","w3c"]
 
-[SecureKey Technologies](http://securekey.com/) and IBM are [partnering](http://www-03.ibm.com/press/us/en/pressrelease/51841.wss) to build a digital identity and attribute sharing network for Canadian consumers, using the permissioned, private Hyperledger Fabric blockchain.
+["SecureKey Technologies partners with IBM"]
+Link = ["(http://securekey.com/","http://www-03.ibm.com/press/us/en/pressrelease/51841.wss"]
+Description = "\"Las Vegas – IBM InterConnect	- 20 Mar 2017: IBM (NYSE: IBM) and SecureKey Technologies today announced they are working together to enable a new digital identity and attribute sharing network based on IBM Blockchain. The network will be designed to make it easier for consumers to verify they are who they say they are, in a privacy-enhanced, security-rich and efficient way. When launched later this year, consumers can use the network to instantly verify their identity for services such as new bank accounts, driver’s licenses or utilities.\"\n\n\"to build a digital identity and attribute sharing network for Canadian consumers, using the permissioned, private Hyperledger Fabric blockchain.-#peacekeeper"
+Tags = ["securekey","blockchain-id","ibm","canada"]
 
 [Consent](http://www.consent.global/) is building a platform for trusted personal data applications and services, using Ethereum smart contracts to implement decentralized identifiers, verified credentials, consent receipts, a web of trust, and exchange of assets and value.
 
