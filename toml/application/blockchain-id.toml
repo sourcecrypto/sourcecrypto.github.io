@@ -131,12 +131,12 @@ Tags = ["weboftrust","self-sovereign","decentralized-id","developing"]
 ["Decentralized Identity Foundation"]
 Link = ["http://identity.foundation/"]
 Description = "Join us in building an open source decentralized identity ecosystem for people, organizations, apps, and devices.\n\nTHE PILLARS OF A NEW ECOSYSTEM\nDECENTRALIZED IDENTITIES\n\nanchored by: BLOCKCHAIN IDs\nlinked to ZERO-TRUST DATA STORES\nthat are UNIVERSALLY DISCOVERABLE"
-Tags = ["organizations","decentralized-id","microsoft","uport","ibm","sovrin","securekey","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix"]
+Tags = ["organizations","decentralized-id","microsoft","uport","ibm","sovrin","securekey","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix","kyc"]
 
 ["Decentralized Identity Foundation Grows To 56 Members In Our First Year"]
 Link = ["https://medium.com/decentralized-identity/decentralized-identity-foundation-grows-to-56-members-in-our-first-year-3ec117e811d8"]
 Description = "Today marks the Decentralized Identity Foundation’s first anniversary. Over the past year, DIF has grown from a handful of founding organizations to 56 members. Together, we’re working to shape the future of decentralized identity technology and standards."
-Tags = ["organizations","decentralized-id","microsoft","uport","ibm","sovrin","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix"]
+Tags = ["organizations","decentralized-id","microsoft","uport","ibm","sovrin","tierion","gem","blockstack","evernym","hyperledger","civic","accenture","danube","netki","rsa","consent","iota","muti","aetna","r3","aunthenteq","blockchain-foundry","validatedid","1kosmos","gamecredits","auth0","onfido","jolocom","dominode","enigma","humanized-internet","pillar","meeco","veridiumid","id2020","nuggets","diid","meta","kyc-chain","blockpass","ockam","nuid","bayonet","equinix","kyc"]
 
 ["ID2020 Alliance"]
 Link = ["https://id2020.org/"]
@@ -191,7 +191,7 @@ Tags = ["sovrin","decentralized-id","documentation","self-sovereign"]
 ["Civic"]
 Link = ["https://www.civic.com/"]
 Description = "Civic enables people to take control and protect their identity:\n\nSECURE ID PLATFORM ; REUSABLE KYC ; ID THEFT PROTECTION\n\n\"is a secure identity platform using a blockchain and biometrics on mobile devices, in order to provide multi-factor authentication without a username, password, third party authenticator, or physical hardware token.\"#peacekeeper"
-Tags = ["civic","decentralized-id","self-sovereign","organizations","peacekeeper"]
+Tags = ["civic","decentralized-id","self-sovereign","organizations","peacekeeper","kyc"]
 
 ["TU Delft helps develop digital ID for use on your phone"]
 Link = ["https://www.tudelft.nl/en/2018/tu-delft/tu-delft-helps-develop-digital-id-for-use-on-your-phone/"]
@@ -661,12 +661,12 @@ Tags = ["self-sovereign","blockchain-id","humanized-internet","peacekeeper"]
 ["Deloitte SmartID"]
 Link = ["http://www.deloitte.co.uk/smartid/"]
 Description = "Smart ID makes it easier for customers to manage their identity information by reducing the number of places they need to maintain it, and simplifying the process of sharing it with others.\n\nuses Ethereum smart contracts to store, endorse, share, and revoke attributes, in order to enable users to automate digital processes such as customer registration and commercial KYC checks.\"—#peacekeeper"
-Tags = ["deloitte","smartid","ethereum","peacekeeper"]
+Tags = ["deloitte","smartid","ethereum","peacekeeper","kyc"]
 
 ["TOWARDS SELF-SOVEREIGN IDENTITY USING BLOCKCHAIN TECHNOLOGY"]
 Link = ["http://essay.utwente.nl/71274/"]
 Description = "With more than three billion internet users, each with multiple digital identities, the management of these identities is very important.  Surveys show that people often use the identity management systems  they don't want to use. They don't have full control over their information, have no way to know what is shared with other parties and are dependent on trusted parties when logging in to websites. Blockchain technology is used as basis for a secure and transparent distributed ledger for the Bitcoin cryptocurrency. Its decentralized, public and immutable properties solve the double spending problem and allow every participant of the network to read the transaction history, help in the validation process and pay and receive Bitcoin.\nCryptographically complex math ensures that everyone can do transactions with everyone without the need for a trusted third party. Nextto financial transactions, this also holds for other claims. Entities can put claims on a decentralized ledger by digitally signing it, which allows any other entity to verify that these claims are made by that specific entity.\nThis allows authorities like governments to make claims about individuals, which can be combined with other claims to create a very strong claim about someone. Because both the claimant and the claimee can be verified, this allows entities like mortgage lenders to outsource their Customer Due Diligence (CDD) processes.\nIn this research we will explore the possibility of self-sovereign identity, where you are in control of your digital identity. We started with a desk research on currently available identity man agement solutions. We concluded that in most systems, the end-user is not able to store their own data. Currently only one decentralized system is available, but has not gained wide adoption yet.\nA case study has been performed on a solution which allows the ex change of KYC attributes, resulting from thorough Customer Due Dili gence (CDD) as is often performed when opening a bank account. These attributes can be used by other entities, like insurance companies and mortgage lenders to make their on-boarding process easier for customers, since they don't need to supply copies of the same documentation all over again. Also, the companies themselves could outsource their Customer Due Diligence (CDD) this way to lower costs and make fewer errors. Although the idea is very interesting, the studied solution did not meet the expectations. At the time the company behind the solution was very small and the process to improve very complex. The solution was also proprietary, creating dependence on the vendor, which heightens the adoption barrier.\nBecause of the lessons learned from the case study, the results of the literature research and the desk research, we designed an architecture for a Decentralized Identity Management System (DIMS) using the concept of claim-based identity and blockchain technology. To lower adoption barriers and create a self-sustaining ecosystem, it will be developed on a public blockchain and source code will be made open-source. The solution will be privacy-friendly by using privacy-enhancing techniques and storing only claims about one's identity. We also provide a solution to allow retrieval of more sensitive data, and made it as modular as possible to make integration within existing IT architecture easier.\nThe Decentralized Identity Management System (DIMS) can be useful in a wide range of use cases, like proving your age when buying liquor at the supermarket or applying for a health insurance where you get a student discount if you can show your are enrolled at a university. This shows that our work resulted in a solid foundation for self-sovereign identity using blockchain technology.—by D.S. Baars."
-Tags = ["reserach-paper","self-sovereign","blockchain-id","peacekeeper"]
+Tags = ["reserach-paper","self-sovereign","blockchain-id","peacekeeper","kyc"]
 
 ["The Fermat project"]
 Link = ["http://www.fermat.org/"]
@@ -686,7 +686,7 @@ Tags = ["sphre","air-platform","sphere-identity","peacekeeper"]
 ["Blockchain Helix"]
 Link = ["http://blockchain-helix.com","https://ico.helix-orange.com/","https://ico.helix-orange.com/wp-content/uploads/2018/08/HELIX-Orange_Whitepaper_v1.5.pdf"]
 Description ="\"Building a platform that consists of \"Identity as a Service\", \"Data as a Service\" and \"Blockchain as a Service\". On this platform, different parties including individuals can manage and share both self-asserted and verified information. The company offers to increase the speed of KYC/AML processes while hughly decreasing the cost of onboarding.-#peacekeeper\""
-Tags = ["peacekeeper","helix","blockchain-id"]
+Tags = ["peacekeeper","helix","blockchain-id","kyc"]
 
 ["Pillar Project"]
 Link = ["http://pillarproject.io","https://pillarproject.io/documents/Pillar-Gray-Paper.pdf"]
@@ -788,11 +788,20 @@ Link = ["https://www.trustedkey.com/","https://trustedkey.github.io/RelyingParty
 Description = "is a self-sovereign digital identity platform based on Ethereum. It offers a secure mobile identity wallet and REST API web services that enable definitive user identity verification, password-less login, as well as identity fraud prevention via secure transaction and document signing. The design supports handling lost, stolen or new device scenarios without having to trust any other party."
 Tags = ["self-sovereign","ethereum-app","blockchain-id","trustedkey","peacekeeper"]
 
-["Tradle"](https://tradle.io/) offers a "global trust provisioning network" to provide blockchain-based KYC functionality for both "intrabank" and "external" transfers. Mobile and web interfaces as well as bots are available for both customers and employees of financial institutions.
+["Tradle"]
+Link = ["https://tradle.io/","https://github.com/tradle/mycloud"]
+Description = "offers a \"global trust provisioning network\" to provide blockchain-based KYC functionality for both \"intrabank\" and \"external\" transfers. Mobile and web interfaces as well as bots are available for both customers and employees of financial institutions."
+Tags = ["kyc","blockchain-id","tradle","decentralized-id"]
 
-["Nuggets"](http://www.nuggets.life/) is a blockchain platform giving users a single biometric tool for login, payment and identity verification. It stores an individual's information in a "personal cloud" in "zero-knowledge blockchain storage". A mobile app allows using the camera to add physical identity and payment cards.
+["Nuggets"]
+Link = ["http://www.nuggets.life/","https://nuggets.life/images/Nuggets-White-Paper.pdf"]
+Description = "is a blockchain platform giving users a single biometric tool for login, payment and identity verification. It stores an individual's information in a \"personal cloud\" in \"zero-knowledge blockchain storage\". A mobile app allows using the camera to add physical identity and payment cards."
+Tags = ["nuggets","blockchain-id","ethereum-app"]
 
-["SelfKey"](https://selfkey.org/) is a self-sovereign identity technology stack with an open source identity wallet for the identity owner, a marketplace with real products and services, a JSON-LD protocol, connection to 3rd party identity micro services, and a native token called "KEY" which enables the SelfKey ecosystem to exchange value and data.
+["SelfKey Depreciated?"]
+Link = ["https://selfkey.org/"]
+Description = "is a self-sovereign identity technology stack with an open source identity wallet for the identity owner, a marketplace with real products and services, a JSON-LD protocol, connection to 3rd party identity micro services, and a native token called \"KEY\" which enables the SelfKey ecosystem to exchange value and data."
+Tags = ["selfkey","self-sovereign",""]
 
 ["Democracy Earth Foundation"](http://democracy.earth/) is developing "Sovereign", a blockchain direct democracy tool using "vote" tokens to grant democratic participation rights to every human. A proof-of-individuality (POI) process based on peer-to-peer validation establishes that a self-sovereign identity is uniquely tied to a single person. The project introduces a number of interesting socio-technical concepts such as "Social Smart Contract", "Initial Rights Offering", and "Cryptographically Induced Equality". Cooperation is happening with other decentralized identity initiatives such as Blockstack and uPort.
 
