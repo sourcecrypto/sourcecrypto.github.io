@@ -693,23 +693,60 @@ Link = ["(http://securekey.com/","http://www-03.ibm.com/press/us/en/pressrelease
 Description = "\"Las Vegas – IBM InterConnect	- 20 Mar 2017: IBM (NYSE: IBM) and SecureKey Technologies today announced they are working together to enable a new digital identity and attribute sharing network based on IBM Blockchain. The network will be designed to make it easier for consumers to verify they are who they say they are, in a privacy-enhanced, security-rich and efficient way. When launched later this year, consumers can use the network to instantly verify their identity for services such as new bank accounts, driver’s licenses or utilities.\"\n\n\"to build a digital identity and attribute sharing network for Canadian consumers, using the permissioned, private Hyperledger Fabric blockchain.-#peacekeeper"
 Tags = ["securekey","blockchain-id","ibm","canada"]
 
-[Consent](http://www.consent.global/) is building a platform for trusted personal data applications and services, using Ethereum smart contracts to implement decentralized identifiers, verified credentials, consent receipts, a web of trust, and exchange of assets and value.
+["Identity as a Bottleneck for Blockchain"]
+Link = ["https://blockchainhub.net/blog/blog/decentralized-identity-blockchain/"]
+Description = "The Road to Self Sovereign Identity\n\nBlockchain and smart contracts have the potential to radically reduce transaction costs and cut out the middle man. However, it is important to recognise that any structural fulfilment of this potential relies on first solving the fundamental question of identity: can we trust the entities who will be involved in these transactions, and how will we identify them?"
+Tags = ["blockchain-id","self-sovereign","decentralized-id","blog","peacekeeper"]
 
-[Mooti](https://mooti.id/) offers an "identity chain" technology that makes it possible to issue and revoke verified claims (e.g. governmental, medical, financial, etc.). The platform uses elliptic curve cryptography (curve25519, secp256k1) and includes privay-enhancing features e.g. to obfuscate issuers and holders of claims. A lightweight mobile client is available.
+["Consent"]
+Link = ["http://www.consent.global/"]
+Description = "is building a platform for trusted personal data applications and services, using Ethereum smart contracts to implement decentralized identifiers, verified credentials, consent receipts, a web of trust, and exchange of assets and value. by #mydata"
+Tags = ["did","mydata","decentralized-id","blockchain-id","ethereum","consent-global","peacekeeper"]
 
-[Banqu](http://www.banquapp.com/) focuses on establishing "economic identity" for those who are excluded from the global economy. "Unbanked" individuals can use a blockchain to establish personal and financial records by connecting to their "banked" network (family, friends, small businesses, NGOs). This history of blockchain-based records helps to establish a baseline for future relationships with financial institutions.
+["Mydata"]
+Link = ["http://mydata.org/","https://mydata.org/papers/","https://mydata.org/declaration/"]
+Description = ["We are entrepreneurs, activists, academics, listed corporations, public agencies, and developers. For years, we’ve been using different words for what we do – MyData, Self Data, VRM (Vendor Relationship Management), Internet of Me, PIMS (Personal Information Management Services) etc, while sharing a common goal: to empower individuals with their personal data, thus helping them and their communities develop knowledge, make informed decisions, and interact more consciously and efficiently with each other as well as with organisations."]
+Tags = ["did","mydata","decentralized-id","blockchain-id","ethereum","consent-global"]
 
-[Vida Identity](https://vidaidentity.com/) is a blockchain identity and authentication platform that enables distributed key revocation and reissuance. Access to data is always permissioned across applications and services.
+["Mooti"]
+Link = ["https://mooti.co/","https://docs.mooti.co/"]
+Description = "We work in the digital identity and data integrity space to help our clients and partners securely identify and authenticate their users.\n\nOur strong belief in the idea of a self-sovereign digital identity is what guides our projects. This idea goes beyond the concept of standard organization based identity and provides users with–individual control, security and full portability. This is accomplished by creating or enhancing your existing Android and iOS Mobile Apps to securely allow for the usage and management of asymmetric cryptographic key pairs for digital interactions. Our hosted or an on-prem server solution receives communication from your mobile apps to verify a user’s identity, enables password-less login via QR code, and aligns internal data hashes to public blockchains.\n\n\"offers an \"identity chain\" technology that makes it possible to issue and revoke verified claims (e.g. governmental, medical, financial, etc.). The platform uses elliptic curve cryptography (curve25519, secp256k1) and includes privay-enhancing features e.g. to obfuscate issuers and holders of claims. A lightweight mobile client is available.\"-#peacekeeper"
+Tags = ["blockchain-id","self-sovereign","mooti","peacekeeper"]
 
-The [Mathematical Mesh](http://prismproof.org/) allows people to create "profiles" to help them secure and link together their devices. [CryptoMesh](http://prismproof.org/Technical/Architecture/) is a proposal for a federated cloud infrastructure to support storage and retrieval of these profiles. Each portal provider in the CryptoMesh maintains a linked log (aka blockchain) of all the profile updates published to it. At regular intervals, each portal provider publishes the last output of the linked log as a "witness value".
+["Banqu"]
+Link = ["http://www.banquapp.com/"]
+Description = "focuses on establishing \"economic identity\" for those who are excluded from the global economy. \"Unbanked\" individuals can use a blockchain to establish personal and financial records by connecting to their \"banked\" network (family, friends, small businesses, NGOs). This history of blockchain-based records helps to establish a baseline for future relationships with financial institutions."
+Tags = ["blockchain-id","humanitarian","decentralized-id","banqu","peacekeeper"]
 
-[Spidchain](http://www.spidchain.com/) offers a platform for self-sovereign identity, including desktop and mobile apps for end-users. It uses Decentralized Identifiers (DIDs) - backed by optionally Bitcoin or Ethereum - to implement a marketplace for verifiable claims. The Spidchain applications allow individuals to create, recover, and revoke DIDs, to authenticate, to sign and verify files and claims, and more.
+["Vida Identity"]
+Link = ["https://getvida.io"]
+Description = "VIDA combines advanced threshold cryptography with unbeatable ease-of-use to make securing and accessing your most important files a breeze, not a chore.\n\nwas: 'vidaidentity.com' \"is a blockchain identity and authentication platform that enables distributed key revocation and reissuance. Access to data is always permissioned across applications and services.\" —#peacekeeper"
+Tags = ["vida-id","getvida","blockchain-id","peacekeeper","data-wallet"]
 
-[Redd-ID](https://www.reddcoin.com/service/redd-id/) is a naming service that allows usernames to be registered on the [Reddcoin](https://www.reddcoin.com/) blockchain. Usernames are public and searchable. Usernames can be associated with rich information such as public and private user profile details. There is an ability to link usernames to social network identities. The system supports operations familiar from the DNS world, such as expiration, renewal, and transfer.
+["Mathematical Mesh"]
+Link = ["http://mathmesh.com/"]
+Description = "\"Make computers easier to use by making computers secure\n\n\"allows people to create \"profiles\" to help them secure and link together their devices.\"\n\n[CryptoMesh](http://mathmesh.com/Technical/Architecture/index.html) is a proposal for a federated cloud infrastructure to support storage and retrieval of these profiles. Each portal provider in the CryptoMesh maintains a linked log (aka blockchain) of all the profile updates published to it. At regular intervals, each portal provider publishes the last output of the linked log as a \"witness value\".-#peacekeeper"
+Tags = ["mathmesh","prismproof","peacekeeper","security"]
 
-[Pro-civis](https://procivis.ch) offers an "e-government as a service" platform called "eID+". It enables citizens to get an official, electronic Citizen-ID on a mobile app, which can be used for secure and convenient login to websites, and the electronic signing and safe storage of documents. Verification providers such as state authorities can use a web backend or an API to attest to the correctness of a citizen's personal data. The platform includes the [VALID](https://valid.global/) wallet and marketplace.
+["Spidchain"]
+Link = ["http://www.spidchain.com/","https://drive.google.com/file/d/0B89WE3IIHmy1Z0ZSSWVmVEtaaG8/view"]
+Description = "offers a platform for self-sovereign identity, including desktop and mobile apps for end-users. It uses Decentralized Identifiers (DIDs) - backed by optionally Bitcoin or Ethereum - to implement a marketplace for verifiable claims. The Spidchain applications allow individuals to create, recover, and revoke DIDs, to authenticate, to sign and verify files and claims, and more."
+Tags = ["peacekeeper","spidchain","self-sovereign","blockchain-id","verifiable-claims"]
 
-[Cicada](https://github.com/the-laughing-monkey/cicada-platform) is a Dapp platform built initally for a "direct democracy" use case. It envisions using iris scans to generate decentralized universal identifiers ("HUIDs") for every human on the planet, a method referred to as "biocryptics". "HUIDs" can have "sub-IDs" to support selective disclosure. PII can be stored in an "info wallet". Key parts of the system also include smart contracts, zero-knowledge proofs, mixnets, and more.
+["Redd-ID"]
+Link = ["https://www.reddcoin.com/service/redd-id/","https://www.reddcointalk.org/","https://www.reddcoin.com/papers/PoSV.pdf"]
+Description = "is a naming service that allows usernames to be registered on the [Reddcoin](https://www.reddcoin.com/) blockchain. Usernames are public and searchable. Usernames can be associated with rich information such as public and private user profile details. There is an ability to link usernames to social network identities. The system supports operations familiar from the DNS world, such as expiration, renewal, and transfer."
+Tags = ["reddcoin","redd-id","name-serv","blockchain-id","posv","social-app"]
+
+["Pro-civis"]
+Link = ["https://procivis.ch"]
+Description = "offers an \"e-government as a service\" platform called \"eID+\". It enables citizens to get an official, electronic Citizen-ID on a mobile app, which can be used for secure and convenient login to websites, and the electronic signing and safe storage of documents. Verification providers such as state authorities can use a web backend or an API to attest to the correctness of a citizen's personal data. The platform includes the [Vetri](https://vetri.global/) wallet and marketplace. 'Earn extra income and rewards by joining the data economy.'"
+Tags = ["pro-civis","eid","valid","peacekeeper"]
+
+["Cicada"]
+Link = ["https://github.com/the-laughing-monkey/cicada-platform"]
+Description = "is a Dapp platform built initally for a \"direct democracy\" use case. It envisions using iris scans to generate decentralized universal identifiers (\"HUIDs\") for every human on the planet, a method referred to as \"biocryptics\". \"HUIDs\" can have \"sub-IDs\" to support selective disclosure. PII can be stored in an \"info wallet\". Key parts of the system also include smart contracts, zero-knowledge proofs, mixnets, and more."
+Tags = ["huid","cicada","dpow","direct-democracy","zkp","self-sovereign"]
 
 [ÆVATAR](http://aevatar.com/) is a cooperative originating in France and established in several different countries that works on delivering self-sovereign identity technologies, using distributed ledger technology and verified claims. It is guided by various regulations and principles such as the GDPR, eIDAS, the UN's ID2020 objectives, and the CEN Workshop 84 standardization body.
 
