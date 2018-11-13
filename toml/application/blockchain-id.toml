@@ -803,19 +803,35 @@ Link = ["https://selfkey.org/"]
 Description = "is a self-sovereign identity technology stack with an open source identity wallet for the identity owner, a marketplace with real products and services, a JSON-LD protocol, connection to 3rd party identity micro services, and a native token called \"KEY\" which enables the SelfKey ecosystem to exchange value and data."
 Tags = ["selfkey","self-sovereign",""]
 
-["Democracy Earth Foundation"](http://democracy.earth/) is developing "Sovereign", a blockchain direct democracy tool using "vote" tokens to grant democratic participation rights to every human. A proof-of-individuality (POI) process based on peer-to-peer validation establishes that a self-sovereign identity is uniquely tied to a single person. The project introduces a number of interesting socio-technical concepts such as "Social Smart Contract", "Initial Rights Offering", and "Cryptographically Induced Equality". Cooperation is happening with other decentralized identity initiatives such as Blockstack and uPort.
+["Democracy Earth Foundation"]
+Link = ["http://democracy.earth/","http://sovereign.software/"]
+Description = "is developing \"Sovereign\", a blockchain direct democracy tool using \"vote\" tokens to grant democratic participation rights to every human. A proof-of-individuality (POI) process based on peer-to-peer validation establishes that a self-sovereign identity is uniquely tied to a single person. The project introduces a number of interesting socio-technical concepts such as \"Social Smart Contract\", \"Initial Rights Offering\", and \"Cryptographically Induced Equality\". Cooperation is happening with other decentralized identity initiatives such as Blockstack and uPort."
+Tags = ["poi","self-sovereign","organizations","democracy-earth"]
 
-["Taqanu"](https://www.taqanu.com/) is opening the financial ecosystem for anyone by using a blockchain based digital ID to enable financial inclusion and create equal opportunities.
+["Taqanu"]
+Link = ["https://www.taqanu.com/"]
+Description = "is opening the financial ecosystem for anyone by using a blockchain based digital ID to enable financial inclusion and create equal opportunities."
+Tags = ["taqanu","blockchain-id","humanitarian","id-app"]
 
-The ["Illinois Blockchain Initiative"](https://illinoisblockchain.tech/) is partnering with Evernym to develop a birth registry pilot, where self-sovereign identities are created, and government agencies issue "verifiable claims" for birth registration attributes such as legal name, date of birth, sex or blood type.
+["Illinois Blockchain Initiative"]
+Link = ["https://illinoisblockchain.tech/","https://illinoisblockchain.tech/illinois-partners-with-evernym-to-launch-birth-registration-pilot-f2668664f67c"]
+Description = "is partnering with Evernym to develop a birth registry pilot, where self-sovereign identities are created, and government agencies issue \"verifiable claims\" for birth registration attributes such as legal name, date of birth, sex or blood type."
+Tags = ["self-sovereign","birth-registry","illinois-blockchain","blockchain-id","evernym","verifiable-Claims","did"]
 
-[Ockam](https://www.ockam.io/) is creating a ERC20 based platform that registers IOT devices to a blockchain to solve systemic security and interoperability problems.
+["Ockam"]
+Link = ["https://www.ockam.io/"]
+Description = "is creating a ERC20 based platform that registers IOT devices to a blockchain to solve systemic security and interoperability problems."
+Tags = ["ockam","iot","erc20"]
 
-[ERC725](https://github.com/ethereum/EIPs/issues/725) and [ERC735](https://github.com/ethereum/EIPs/issues/735) are proposals in the Ethereum community to standardize the use of smart contracts for certain identity-related operations such as key management, as well as signing transactions, documents, and "claims", which may be attested by third parties or self-asserted.
+["ERC725 and ERC735"]
+Link = ["https://github.com/ethereum/EIPs/issues/725","https://github.com/ethereum/EIPs/issues/735"]
+Description = "are proposals in the Ethereum community to standardize the use of smart contracts for certain identity-related operations such as key management, as well as signing transactions, documents, and \"claims\", which may be attested by third parties or self-asserted."
+Tags = ["erc725","erc735","blockchain-id","ethereum","erc","identification"]
 
-[Boson.me](https://boson.me/) is a user claims provider/verifier allowing third-party access through OAuth APIs and ERC725/ERC735 access. The data itself does not leak to external apps and stays in the hands of the user. The platform supports identity verification through social media accounts.
-
-The [Verified Organization Network](https://github.com/bcgov/von) is an initiative by the government of British Columbia to create a trusted network of organizational data. It allows organizations to claim credentials that are part of their own digital identity, using a component called [TheOrgBook](https://github.com/bcgov/theorgbook) that lists entities with their associated public verifiable claims.
+["Verified Organization Network"]
+Link = ["https://github.com/bcgov/von"]
+Description = "is an initiative by the government of British Columbia to create a trusted network of organizational data. It allows organizations to claim credentials that are part of their own digital identity, using a component called [TheOrgBook](https://github.com/bcgov/theorgbook) that lists entities with their associated public verifiable claims."
+Tags = [""]
 
 [Alastria](https://alastria.io/) is a non-profit consortium building a national blockchain ecosystem for Spain. The security and veracity of information will be ensured through the identification of natural and legal persons, while at the same time allowing citizens to have control over their personal information in a transparent way following the guidelines set by the European Union.
 
