@@ -706,12 +706,12 @@ Tags = ["blbecause ockchain-id","self-sovereign","decentralized-id","blog","peac
 ["Consent"]
 Link = ["http://www.consent.global/"]
 Description = "is building a platform for trusted personal data applications and services, using Ethereum smart contracts to implement decentralized identifiers, verified credentials, consent receipts, a web of trust, and exchange of assets and value. by #mydata"
-Tags = ["did","mydata","decentralized-id","blockchain-id","ethereum","consent-global","peacekeeper"]
+Tags = ["did","mydata","decentralized-id","blockchain-id","ethereum-app","consent-global","peacekeeper"]
 
 ["Mydata"]
 Link = ["http://mydata.org/","https://mydata.org/papers/","https://mydata.org/declaration/"]
 Description = ["We are entrepreneurs, activists, academics, listed corporations, public agencies, and developers. For years, we’ve been using different words for what we do – MyData, Self Data, VRM (Vendor Relationship Management), Internet of Me, PIMS (Personal Information Management Services) etc, while sharing a common goal: to empower individuals with their personal data, thus helping them and their communities develop knowledge, make informed decisions, and interact more consciously and efficiently with each other as well as with organisations."]
-Tags = ["did","mydata","decentralized-id","blockchain-id","ethereum","consent-global"]
+Tags = ["did","mydata","decentralized-id","blockchain-id","ethereum-app","consent-global"]
 
 ["Mooti"]
 Link = ["https://mooti.co/","https://docs.mooti.co/"]
@@ -741,7 +741,7 @@ Tags = ["peacekeeper","spidchain","self-sovereign","blockchain-id","verifiable-c
 ["Reddcoin — Redd-ID"]
 Link = ["https://www.reddcoin.com/service/redd-id/","https://www.reddcointalk.org/","https://www.reddcoin.com/papers/PoSV.pdf"]
 Description = "is a naming service that allows usernames to be registered on the [Reddcoin](https://www.reddcoin.com/) blockchain. Usernames are public and searchable. Usernames can be associated with rich information such as public and private user profile details. There is an ability to link usernames to social network identities. The system supports operations familiar from the DNS world, such as expiration, renewal, and transfer."
-Tags = ["reddcoin","redd-id","name-serv","blockchain-id","posv","social-app"]
+Tags = ["reddcoin","redd-id","name-serv","blockchain-id","posv","social-app","peacekeeper"]
 
 ["Pro-civis"]
 Link = ["https://procivis.ch"]
@@ -751,7 +751,7 @@ Tags = ["pro-civis","eid","valid","peacekeeper"]
 ["Cicada"]
 Link = ["https://github.com/the-laughing-monkey/cicada-platform"]
 Description = "is a Dapp platform built initally for a \"direct democracy\" use case. It envisions using iris scans to generate decentralized universal identifiers (\"HUIDs\") for every human on the planet, a method referred to as \"biocryptics\". \"HUIDs\" can have \"sub-IDs\" to support selective disclosure. PII can be stored in an \"info wallet\". Key parts of the system also include smart contracts, zero-knowledge proofs, mixnets, and more."
-Tags = ["huid","cicada","dpow","direct-democracy","zkp","self-sovereign"]
+Tags = ["huid","cicada","dpow","direct-democracy","zkp","self-sovereign","peacekeeper"]
 
 ["Self-sovereign Identity –	Opportunities and Challenges for the Digital Revolution"]
 Link = ["https://arxiv.org/pdf/1712.01767.pdf"]
@@ -761,22 +761,32 @@ Tags = ["self-sovereign","reserach-article","blockchain-id"]
 ["ÆVATAR"]
 Link = ["http://aevatar.com/"]
 Description ="is a cooperative originating in France and established in several different countries that works on delivering self-sovereign identity technologies, using distributed ledger technology and verified claims. It is guided by various regulations and principles such as the GDPR, eIDAS, the UN's ID2020 objectives, and the CEN Workshop 84 standardization body.\n\nDead Link 11/12"
-Tags = ["aevatar","gdpr","id2020","france","un","peacekeeper","depreciated"]
+Tags = ["aevatar","gdpr","id2020","france","un","peacekeeper","depreciated","peacekeeper"]
 
 ["ÆTERNITY"]
-Link = ["http://aeternity.com/"]
+Link = ["http://aeternity.com/","https://github.com/aeternity/protocol"]
 Description = "is a novel blockchain focusing on improved smart contract capabilities such as better scalability and easier integration of off-chain data. It uses value tokens called \"aeons\". It offers an identity architecture where every account has a unique ID number, and unique names can be registered and linked to arbitrary data such as addresses on the blockchain. Schema.org's data structures are used for representing data about persons and organizations."
-Tags = [""]
+Tags = ["smart-contract-platform","blockchain-id","identification","oracles","schema","peacekeeper"]
+
+["Schema"]
+Link = ["https://schema.org"]
+Description = "Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.\n\nSchema.org vocabulary can be used with many different encodings, including RDFa, Microdata and JSON-LD. These vocabularies cover entities, relationships between entities and actions, and can easily be extended through a well-documented extension model. Over 10 million sites use Schema.org to markup their web pages and email messages. Many applications from Google, Microsoft, Pinterest, Yandex and others already use these vocabularies to power rich, extensible experiences."
+Tags = ["w3c","schema","identificaiton","peacekeeper"]
 
 ["BitID"]
-Link = ["http://bitid.bitcoin.blue/"]
-Description = "is a an authentication protocol based on Bitcoin identities, supported by some of the Bitcoin wallets. It authenticates Bitcoin addresses by signing a cryptographic challenge (delivered e.g. via a QR code on a website) using a Bitcoin private key.""
+Link = ["https://github.com/bitid/bitid","http://bitid.bitcoin.blue/"]
+Description = "Depreciated: Original link 'bitid.bitcoin.blue' points to [ledger wallet](https://www.ledger.co/); is a an authentication protocol based on Bitcoin identities, supported by some of the Bitcoin wallets. It authenticates Bitcoin addresses by signing a cryptographic challenge (delivered e.g. via a QR code on a website) using a Bitcoin private key."
+Tags = ["bitid","ledger-wallet","depreciated","identification","bitcoin","peacekeeper"]
 
-["2WAY.IO"](http://2way.io/) is developing a peer-to-peer protocol for trust and identity on the Internet. It maintains "blockchain agnosticism", i.e. doesn't require but will be compatible with blockchain. Its architecture will be based on real-life social and economic structures of human civilizations.
+["VerifyUnion"]
+Link = ["https://verifyunion.io/","https://icoinform.com/uploads/pdf/9e1089c29a2bdc3d91584d72662b831d.pdf"]
+Description = "VerifyUnion provides total ownership of the data that is stored, from the network through to the customer (end user), while protecting user privacy and securing documents and identity. \n\n\"is building a platform for \"unique user profiles\" based on verified digital information, social profiles and financial details, leading to a \"social score\". Tokens based on Ethereum are designed to incentivize users to both supply and evaluate personal data for verification.\" -#peacekeeper"
+Tags = ["verifyunion","blockchain-id","ethereum-app","peacekeeper"]
 
-["VerifyUnion"](https://verifyunion.io/) is building a platform for "unique user profiles" based on verified digital information, social profiles and financial details, leading to a "social score". Tokens based on Ethereum are designed to incentivize users to both supply and evaluate personal data for verification.
-
-["Trusted Key"](https://www.trustedkey.com/) is a self-sovereign digital identity platform based on Ethereum. It offers a secure mobile identity wallet and REST API web services that enable definitive user identity verification, password-less login, as well as identity fraud prevention via secure transaction and document signing. The design supports handling lost, stolen or new device scenarios without having to trust any other party.
+["Trusted Key"]
+Link = ["https://www.trustedkey.com/","https://trustedkey.github.io/RelyingParty-Tutorial/#introduction"]
+Description = "is a self-sovereign digital identity platform based on Ethereum. It offers a secure mobile identity wallet and REST API web services that enable definitive user identity verification, password-less login, as well as identity fraud prevention via secure transaction and document signing. The design supports handling lost, stolen or new device scenarios without having to trust any other party."
+Tags = ["self-sovereign","ethereum-app","blockchain-id","trustedkey","peacekeeper"]
 
 ["Tradle"](https://tradle.io/) offers a "global trust provisioning network" to provide blockchain-based KYC functionality for both "intrabank" and "external" transfers. Mobile and web interfaces as well as bots are available for both customers and employees of financial institutions.
 
