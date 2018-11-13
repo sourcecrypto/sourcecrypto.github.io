@@ -11,7 +11,7 @@ Those files can be added to https://github.com/infominer33/crypto-library/
 
 The next step is transforming each file of resources into toml format.  (https://github.com/toml-lang/toml)
   
-Example:
+### The Format
 
 ```
 ["The **Title** of the entry and must always be different from previous entries"] 
@@ -30,6 +30,10 @@ Tags = ["blah", "blah-blah"]
 <img src="http://i.imgur.com/1nmrAAu.png"/></br>
 The result of this process, once it's landed on github ^^^
 
+### Tagging
+
+Tagging is a complex topic. We need enough unique tags to make this directory ideally navigable, and to use a consistent schema for tagging over the course of this project. Using a consistent tagging schema will be nearly impossible in the long run. We are just doing the best that we can. Once this project is living in a web app it will become a more easily collaborative process.
+
 ### Our current plan for completing population of toml files is broken down as follows:
 
 \* note: if you're volunteering to help I will be happy even if you follow your own system for completing the work. This is the best system that I could to come up with.
@@ -44,6 +48,8 @@ The result of this process, once it's landed on github ^^^
 The work was ordered in those steps both to get the easiest most time consuming tasks out of the way first, and to give librarians more time to come up with a proceedure and organizaed thought around how they should be tagged. If you want to help by automating any part of that process would, it would be appreciated.
 
 * BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
+
+
 
 **Thanks for all the help!!!**
 
