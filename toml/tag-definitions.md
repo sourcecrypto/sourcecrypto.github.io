@@ -15,20 +15,31 @@ Generally speaking tags should be used liberally, so that 'bitcoin', for example
 Every SuperSource Item must have at least one of the following tags: (maybe need more 'super'-tags)
 'organization' -for non profit
 'business' -for profit
-'protocol'
+'platform'
+'protocol' (for the main webpage, and\or github)
 'app'
 'research-paper'
 'documentation'
 'blog'
 'academic'
+'resources'
+'presentation'
+'podcast'
+'video'
+'image'
+'whitepaper'
+'press-release'
+
+
 'state'  For state\federal govt based projects
 'enterprise' For private and\or permissioned chains
 'dlt'
 
-Any blockchain or dlt will be one of the three
-'private-permissioned'
+
+Any core blockchain or dlt protocol will be one of the three
+'private' (these are always permissioned)
 'public-permissioned'
-'public'
+'public' (these are typically permissionless)
 
 ### Bitcoin Related
 
@@ -64,9 +75,7 @@ There are a lot more identity tags than this. but there are a few to keep in min
 'verifiable-claims'
 'credentials'
 
-\* each item recieving a sovrin tag should also recieve an evernym tag, 
-\* each item recieving an indy should also recieve a sovrin tag. 
-   - so that one 'source level' back is always referenced.
+\* each item recieving a 'protocol' tag should also be tagged with the predecessor
 'evernym' - originators of the codebase that was passed on to the sovrin foundation
 'sovrin' - and further developed and deployed, passing forward the code to the hyperledger foundation
 'indy' -  
