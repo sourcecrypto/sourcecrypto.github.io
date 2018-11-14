@@ -3,9 +3,11 @@
 
 The problem is that developers don't have much to build until there is a database. In order to create the database to power a dynamic web-portal, we are using the TOML format to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. By labeling each link with a Title, Description, and Tags we will have made it easy   to be used for a web directory. Of course all of that takes a lot of work. Its easy, relaxing, and a wonderful educational opportunity, but time consuming.
 
-We used a discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://github.com/infominer33/crypto-library/blob/master/crypt0library_history.txt)' which can be viewed in https://dht.chylex.com/build/viewer.html
+We used a discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://raw.githubusercontent.com/infominer33/Crypto-library/master/toml/crypt0library_history.txt)' which can be viewed with https://dht.chylex.com/build/viewer.html
 
 The first step is to use that viewer app to copy\paste channel histories for channels that have not had files made for them yet. The best thing would be if someone could make files for all of the channels not done yet, so we could remove one more step from our process. It's fine to copy paste each channel into an individual file with the same filename as channel name.
+
+[note: this is an ugly step, I don't want to look at it anymore. as soon as I get to a good stopping point with the identity toml I'm going to move all of that stuff over here.]
 
 Those files can be added to https://github.com/infominer33/crypto-library/
 
