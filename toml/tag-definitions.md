@@ -12,16 +12,21 @@ Generally speaking tags should be used liberally, so that 'bitcoin', for example
 
 ### General
 
-every SuperSource Item must have at least one of the following tags: (maybe need more 'super'-tags)
-* 'organization' -for non profit
-* 'business' -for profit
+Every SuperSource Item must have at least one of the following tags: 
+
+* 'organization' 
+* 'business'
+* 'academic'
+* 'state'  For state\federal govt based projects
+* 'enterprise' For private and\or permissioned chains
+
 * 'platform'
 * 'protocol' (for the main webpage, and\or github)
 * 'app'
+
 * 'research-paper'
 * 'documentation'
 * 'blog'
-* 'academic'
 * 'resources'
 * 'presentation'
 * 'podcast'
@@ -30,11 +35,7 @@ every SuperSource Item must have at least one of the following tags: (maybe need
 * 'whitepaper'
 * 'press-release'
 
-
-* 'state'  For state\federal govt based projects
-* 'enterprise' For private and\or permissioned chains
-* 'dlt'
-
+need some better way to organize these 'supertags'
 
 Any core blockchain or dlt protocol will be one of the three
 * 'private' (these are always permissioned)
