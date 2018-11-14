@@ -1,4 +1,4 @@
-# Tag Definitions
+# Tag Definitions - a draft
 
 It has become apparent that we need a key for tagging standards. ultimately each tag will have additional tags related to it for search purposes, but this document to define "top-level" tags (or tags that are visible to and navigable by the user) is in progress. 
 
@@ -13,52 +13,52 @@ Generally speaking tags should be used liberally, so that 'bitcoin', for example
 ### General
 
 Every SuperSource Item must have at least one of the following tags: (maybe need more 'super'-tags)
-'organization' -for non profit
-'business' -for profit
-'platform'
-'protocol' (for the main webpage, and\or github)
-'app'
-'research-paper'
-'documentation'
-'blog'
-'academic'
-'resources'
-'presentation'
-'podcast'
-'video'
-'image'
-'whitepaper'
-'press-release'
+* 'organization' -for non profit
+* 'business' -for profit
+* 'platform'
+* 'protocol' (for the main webpage, and\or github)
+* 'app'
+* 'research-paper'
+* 'documentation'
+* 'blog'
+* 'academic'
+* 'resources'
+* 'presentation'
+* 'podcast'
+* 'video'
+* 'image'
+* 'whitepaper'
+* 'press-release'
 
 
-'state'  For state\federal govt based projects
-'enterprise' For private and\or permissioned chains
-'dlt'
+* 'state'  For state\federal govt based projects
+* 'enterprise' For private and\or permissioned chains
+* 'dlt'
 
 
 Any core blockchain or dlt protocol will be one of the three
-'private' (these are always permissioned)
-'public-permissioned'
-'public' (these are typically permissionless)
+* 'private' (these are always permissioned)
+* 'public-permissioned'
+* 'public' (these are typically permissionless)
 
 ### Bitcoin Related
 
-'bitcoin' = Master tag, everything related
-'btc-protocol' = anything pertaining to the protocol
-'btc-lyr2' = protocols built onto bitcoin, such as lightning or liquid
-'btc-app' = applications integrating bitcoin somehow
-'btc-wallet'
-'btc-fork' = any software based upon bitcoin
+* 'bitcoin' = Master tag, everything related
+* 'btc-protocol' = anything pertaining to the protocol
+* 'btc-lyr2' = protocols built onto bitcoin, such as lightning or liquid
+* 'btc-app' = applications integrating bitcoin somehow
+* 'btc-wallet'
+* 'btc-fork' = any software based upon bitcoin
 
 
 ### Ethereum Related
 
-'ethereum' = master tag for everything related
-'eth-protocol' = anything pertaining to the protocol
-'eth-lyr2' = eg. State Channels, Plasma, and Truebit
-'eth-app' = applications integrating bitcoin somehow
-'eth-wallet'
-'eth-fork' = any software based upon bitcoin
+* 'ethereum' = master tag for everything related
+* 'eth-protocol' = anything pertaining to the protocol
+* 'eth-lyr2' = eg. State Channels, Plasma, and Truebit
+* 'eth-app' = applications integrating bitcoin somehow
+* 'eth-wallet'
+* 'eth-fork' = any software based upon bitcoin
 
 
 ### Identity Related
