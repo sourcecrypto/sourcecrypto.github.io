@@ -12,7 +12,23 @@ Generally speaking tags should be used liberally, so that 'bitcoin', for example
 
 ### General
 
-documentation
+Every SuperSource Item must have at least one of the following tags: (maybe need more 'super'-tags)
+'organization' -for non profit
+'business' -for profit
+'protocol'
+'app'
+'research-paper'
+'documentation'
+'blog'
+'academic'
+'state'  For state\federal govt based projects
+'enterprise' For private and\or permissioned chains
+'dlt'
+
+Any blockchain or dlt will be one of the three
+'private-permissioned'
+'public-permissioned'
+'public'
 
 ### Bitcoin Related
 
@@ -42,19 +58,16 @@ There are a lot more identity tags than this. but there are a few to keep in min
 'self-sovereign'   /
 'identification'  - Anything related to identification, but not specificly did or self sovereign related. For items that don't fit in other classifications
 
-'w3c'
+'w3c' - should always be tagged with the following 
+(at least I think verifiable claims are always related to w3c, but credentials could be unrelated.)
 'did'
 'verifiable-claims'
 'credentials'
 
-\* All indy items should also be tagged sovrin and evernym.
-\* All sovrin items should be also tagged indy and evernym
+\* each item recieving a sovrin tag should also recieve an evernym tag, 
+\* each item recieving an indy should also recieve a sovrin tag. 
+   - so that one 'source level' back is always referenced.
 'evernym' - originators of the codebase that was passed on to the sovrin foundation
 'sovrin' - and further developed and deployed, passing forward the code to the hyperledger foundation
 'indy' -  
 
-'application'
-'protocol'
-'documentation'
-'organization'
-'blog'
