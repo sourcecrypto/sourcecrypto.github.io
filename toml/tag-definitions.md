@@ -12,7 +12,7 @@ Generally speaking tags should be used liberally, so that 'bitcoin', for example
 
 ### General
 
-Every SuperSource Item must have at least one of the following tags: (maybe need more 'super'-tags)
+every SuperSource Item must have at least one of the following tags: (maybe need more 'super'-tags)
 * 'organization' -for non profit
 * 'business' -for profit
 * 'platform'
