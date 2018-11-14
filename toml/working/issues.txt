@@ -4,7 +4,6 @@ Add https://juru.io/
 #59 opened 17 hours ago by peacekeeper 
 Add http://signd.id/
 #58 opened a day ago by peacekeeper 
- 2
 Add https://www.shyft.network/
 #57 opened 4 days ago by peacekeeper 
 Add http://myearth.id/
