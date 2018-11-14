@@ -829,13 +829,19 @@ Description = "are proposals in the Ethereum community to standardize the use of
 Tags = ["erc725","erc735","blockchain-id","ethereum","erc","identification"]
 
 ["Verified Organization Network"]
-Link = ["https://github.com/bcgov/von"]
+Link = ["https://vonx.io/","https://github.com/bcgov/von","https://github.com/bcgov/theorgbook"]
 Description = "is an initiative by the government of British Columbia to create a trusted network of organizational data. It allows organizations to claim credentials that are part of their own digital identity, using a component called [TheOrgBook](https://github.com/bcgov/theorgbook) that lists entities with their associated public verifiable claims."
-Tags = [""]
+Tags = ["bc-gov","canada","verifiable-claims","von","w3c"]
 
-[Alastria](https://alastria.io/) is a non-profit consortium building a national blockchain ecosystem for Spain. The security and veracity of information will be ensured through the identification of natural and legal persons, while at the same time allowing citizens to have control over their personal information in a transparent way following the guidelines set by the European Union.
+["Alastria"]
+Link = ["https://alastria.io/","https://github.com/alastria/alastria-identity"]
+Description = "is a non-profit consortium building a national blockchain ecosystem for Spain. The security and veracity of information will be ensured through the identification of natural and legal persons, while at the same time allowing citizens to have control over their personal information in a transparent way following the guidelines set by the European Union."
+Tags = ["spain","alastria","non-profit","gdpr","blockchain-id","national-blockchain","uport","quorum","ethereum"]
 
-[Blockcerts](www.blockcerts.org) is an open standard for issuing and verifying blockchain-based official records, such as cvic records, academic credentials, professional licenses, workforce development, and more. The project offers  open-source libraries, tools, and mobile apps. MIT has [started to issue](https://www.insidehighered.com/news/2017/10/19/mit-introduces-digital-diplomas) digital certificates based on this standard.
+["Blockcerts"]
+Link = ["https://www.blockcerts.org"]
+Description = "is an open standard for issuing and verifying blockchain-based official records, such as cvic records, academic credentials, professional licenses, workforce development, and more. The project offers  open-source libraries, tools, and mobile apps. MIT has [started to issue](https://www.insidehighered.com/news/2017/10/19/mit-introduces-digital-diplomas) digital certificates based on this standard."
+Tags = ["blockcerts","certificates","identification","btc-lyr2","eth-lyr2"]
 
 [Kimlic](http://kimlic.com/) is a mobile app that uses a private blockchain as a source of truth for identity. It stores personal data on the mobile device and allows the sharing of verifiable identity claims and documents.
 
