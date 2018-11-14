@@ -1,9 +1,3 @@
-\\ For entry into the Crypto Library's database<br/>
-https://github.com/infominer33/Crypto-library/blob/master/toml/application/blockchain-id.toml
-
-\\ additionally, I'm updating depreciated links, adding a whitepaper\github link or two for existing projects. 
-will submit a pull-request to peacekeeper/blockchain-identity.
-
 ### Blockchain and Identity
 
 Projects/companies working on blockchain and identity (pull requests welcome):
@@ -78,11 +72,7 @@ Projects/companies working on blockchain and identity (pull requests welcome):
  * [Ockam](https://www.ockam.io/) is creating a ERC20 based platform that registers IOT devices to a blockchain to solve systemic security and interoperability problems.
  * [ERC725](https://github.com/ethereum/EIPs/issues/725) and [ERC735](https://github.com/ethereum/EIPs/issues/735) are proposals in the Ethereum community to standardize the use of smart contracts for certain identity-related operations such as key management, as well as signing transactions, documents, and "claims", which may be attested by third parties or self-asserted.
  * **depreciated** [Boson.me](https://boson.me/) is a user claims provider/verifier allowing third-party access through OAuth APIs and ERC725/ERC735 access. The data itself does not leak to external apps and stays in the hands of the user. The platform supports identity verification through social media accounts.
- 
- \\\pick up here.
-
-
- * The [Verified Organization Network](https://github.com/bcgov/von) is an initiative by the government of British Columbia to create a trusted network of organizational data. It allows organizations to claim credentials that are part of their own digital identity, using a component called [TheOrgBook](https://github.com/bcgov/theorgbook) that lists entities with their associated public verifiable claims.
+  * The [Verified Organization Network](https://github.com/bcgov/von) is an initiative by the government of British Columbia to create a trusted network of organizational data. It allows organizations to claim credentials that are part of their own digital identity, using a component called [TheOrgBook](https://github.com/bcgov/theorgbook) that lists entities with their associated public verifiable claims.
  * [Alastria](https://alastria.io/) is a non-profit consortium building a national blockchain ecosystem for Spain. The security and veracity of information will be ensured through the identification of natural and legal persons, while at the same time allowing citizens to have control over their personal information in a transparent way following the guidelines set by the European Union.
  * [Blockcerts](www.blockcerts.org) is an open standard for issuing and verifying blockchain-based official records, such as cvic records, academic credentials, professional licenses, workforce development, and more. The project offers  open-source libraries, tools, and mobile apps. MIT has [started to issue](https://www.insidehighered.com/news/2017/10/19/mit-introduces-digital-diplomas) digital certificates based on this standard.
  * [Kimlic](http://kimlic.com/) is a mobile app that uses a private blockchain as a source of truth for identity. It stores personal data on the mobile device and allows the sharing of verifiable identity claims and documents.
