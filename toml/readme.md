@@ -7,7 +7,7 @@ We used a discord server history scraper https://dht.chylex.com/ to create '[cry
 
 The first step is to use that viewer app to copy\paste channel histories for channels that have not had files made for them yet. The best thing would be if someone could make files for all of the channels not done yet, so we could remove one more step from our process. It's fine to copy paste each channel into an individual file with the same filename as channel name.
 
-[note: this is an ugly step, I don't want to look at it anymore. as soon as I get to a good stopping point with the identity toml I'm going to move all of that stuff over here.]
+[**note**: this is an ugly step, I don't want to look at it anymore. as soon as I get to a good stopping point with the identity toml I'm going to move all of that stuff over here.]
 
 Those files can be added to https://github.com/infominer33/crypto-library/
 
