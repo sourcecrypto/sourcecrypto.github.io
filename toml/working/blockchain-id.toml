@@ -861,12 +861,17 @@ Tags = ["aversafe","data-wallet","blockchain-id","peacekeeper"]
 ["QED-it"]
 Link = ["http://qed-it.com/"]
 Description = "is building a platform for confidentiality on blockchain, using scalable zero-knowledge proof technology, in order to achieve decentralization, consensus, and confidentiality at the same time. This enables dynamic identity and \"proof for all with data to no one\"."
-Tags = ["blockchain-id","qed-it"]
+Tags = ["blockchain-id","qed-it","zkp","business"]
 
+["Syscoin"]
+Link = ["http://syscoin.org/"]
+Description = "by [Blockchain Foundry](http://www.blockchainfoundry.co/) offers an identity system that associates \"aliases\" with data and public keys. Aliases can be used for native Syscoin services such as sending coins and encrypted messages. Aliases can also provide identity to Bitcoin and Zcash users."
+Tags = ["syscoin","blockchain-foundry","aliases","bitcoin","zcash","blockchain-id"]
 
-[Syscoin](http://syscoin.org/) by [Blockchain Foundry](http://www.blockchainfoundry.co/) offers an identity system that associates "aliases" with data and public keys. Aliases can be used for native Syscoin services such as sending coins and encrypted messages. Aliases can also provide identity to Bitcoin and Zcash users.
-
-[AID:Tech](https://aid.technology/) is a voucher and digital identity solution for refugees. A digital record of a person's identity is stored on a smart card, along with various additional information. Blockchain technology is used to distribute all resources in a highly traceable manner.
+["AID:Tech"]
+Link = ["https://aid.technology/"]
+Description = "is a voucher and digital identity solution for refugees. A digital record of a person's identity is stored on a smart card, along with various additional information. Blockchain technology is used to distribute all resources in a highly traceable manner."
+Tags = ["aid-tech","humanitarian","un","blockchain-id"]
 
 [Tierion](https://tierion.com/) offers an API that uses the [Chainpoint](https://chainpoint.org/) standard to record proofs on a blockchain that data was recorded at a specific time. Among many other uses, this includes the ability to anchor verifiable records of customer data to optimize KYC processes.
 
