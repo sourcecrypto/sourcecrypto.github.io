@@ -64,19 +64,18 @@ Any core blockchain or dlt protocol will be one of the three
 ### Identity Related
 There are a lot more identity tags than this. but there are a few to keep in mind.
 
-'blockchain-id'    \
-'decentralized-id'  > These three are differentiated because many projects check all three, but some only check 1 or 2.
-'self-sovereign'   /
-'identification'  - Anything related to identification, but not specificly did or self sovereign related. For items that don't fit in other classifications
+* 'blockchain-id'    \
+* 'decentralized-id'  > These three are differentiated because many projects check all three, but some only check 1 or 2.
+* 'self-sovereign'   /
+* 'identification'  - Anything related to identification, but not specificly did or self sovereign related. For items that don't fit in other classifications
 
-'w3c' - should always be tagged with the following 
-(at least I think verifiable claims are always related to w3c, but credentials could be unrelated.)
-'did'
-'verifiable-claims'
-'credentials'
+*'w3c' - this tag often accompanies
+* 'did'
+* 'verifiable-claims'
+* 'credentials'
 
-\* each item recieving a 'protocol' tag should also be tagged with the predecessor
-'evernym' - originators of the codebase that was passed on to the sovrin foundation
-'sovrin' - and further developed and deployed, passing forward the code to the hyperledger foundation
-'indy' -  
+\* each item recieving a 'protocol' tag should also be tagged with the predecessor (the documentation for indy sovrin and evernym is intertwined.. must reflect that in the tagging)
+* 'evernym' - originators of the codebase that was passed on to the sovrin foundation
+* 'sovrin' - and further developed and deployed, passing forward the code to the hyperledger foundation
+* 'indy' -  
 
