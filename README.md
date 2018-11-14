@@ -1,5 +1,5 @@
 # The Crypto Public Library — Super Source
-TLDR; Creating a collaborative web-directory of "source-grade" content. For writers, students, and research nerds to easily find source-grade crypto content. To do so we will first transform a discord server, full of crypto resources organized by topic, into a database that will power our web-directory.
+TLDR; Creating a collaborative web-directory of "source-grade" content. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. Originally organized in a discord server, we are transforming them into a tagged database that will power a web-directory.
 
 **Outline**
 * Introduction
