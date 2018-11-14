@@ -8,9 +8,9 @@ TLDR; Creating a collaborative web-directory of "source-grade" content. For writ
 * Project Overview
 
 ### Introduction
-At crypt0library.net, there are thousands of links organized categorically on an ever expanding array of crypto-related topics. Becoming familiar with the many facets of crypto is a monumental task. Finding quality infomration requires a lot of background research, familiarity with the community, and following the sources of quality sources.
+At crypt0library.net, there are thousands of links organized categorically on an ever-expanding array of crypto-related topics. Becoming familiar with the many facets of crypto is a monumental task. Finding quality information requires a lot of background research, familiarity with the community, and following the sources of quality sources.
 
-We’ve started by focusing on fundamentals; general crypto topics; and specific projects that are oldest, most dominant, respected, influential, etc. There are many new projects, but plenty of other research groups are focused on ICOs. The plan is to eventually cover all types of crypto knowledge, along with all of the top (somenumber) crypto projects. Seeking the highest quality technical information along with the best criticism, regardless of our personal opinions.
+We’ve started by focusing on fundamentals; general crypto topics; and specific projects that are the oldest, most dominant, respected, influential, etc. There are many new projects, but plenty of other research groups are focused on ICOs. The plan is to eventually cover all types of crypto knowledge, along with all of the top (some number) crypto projects. Seeking the highest quality technical information along with the best criticism, regardless of our personal opinions.
 
 There are currently 125 different channels, with thousands of resources, each devoted to a particular aspect of crypto. Obviously knowledge can't be so easily compartmentalized, but we do our best. We also happen to have the largest, freely-available, collection of learning materials about trading and evaluating cryptocurrencies\icos than can be found anywhere else. If you're interested in that type of thing.
 
@@ -47,11 +47,11 @@ In case you haven't been to the server yet, here is its directory to give you an
 ---
 
 ### The Problem and the Plan
-**The Problem**: In case it hadn't occured to you, having resources organized in 100+ discord channels isn't the most user-friendly way to run a library. It worked great when there were half as many channels, but as the library grows we need more flexibility.
+**The Problem**: In case it hadn't occurred to you, having resources organized in 100+ discord channels isn't the most user-friendly way to run a library. It worked great when there were half as many channels, but as the library grows we need more flexibility.
 
-**The plan** is to build a dynamic directory of crypto knowledge, searchable and manually navigable, and multi-platform chat-bots so that you can query the library without having to scroll through channels or visit the web-site :)
+**The plan** is to build a dynamic directory of crypto knowledge, searchable and manually navigable, and multi-platform chat-bots so that you can query the library without having to scroll through channels or visit the website :)
 
-We are now working on gathering all of the links into "toml" files, which are a simple format for transforming all of this information into a database. Of course all of that takes work. I very much enjoy the work, and it's a wonderful educational opportunity, but time consuming. 
+We are now working on gathering all of the links into "toml" files, which are a simple format for transforming all of this information into a database. Of course all of that takes work. I very much enjoy the work, and it's a wonderful educational opportunity, but time-consuming. 
 
 Once all of the resources are tagged, and transformed into a database, the potential for the library grows exponentially.
 Big plans are in the works for the Crypto Library — Super Source.
@@ -65,7 +65,7 @@ Big plans are in the works for the Crypto Library — Super Source.
 3. Create a web-page to dynamically interact with the database<br/>
 4. Create a discord bot to bridge the web-page and various chat servers
 
-### #2 is the most important and time consuming of these
+### #2 is the most important and time-consuming of these
 
 ## Please visit [TOML](https://github.com/infominer33/Crypto-library/tree/master/toml) for further information
 
