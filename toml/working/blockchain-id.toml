@@ -50,7 +50,7 @@ Tags = ["self-soveriegn","decentralized-id","tu-delft","netherlands","research-p
 
 ["A First Look at Identity Management Schemes on the Blockchain"]
 Link = ["https://arxiv.org/pdf/1801.03294.pdf"]
-Description = ["Abstract. The emergence of distributed ledger technology (DLT) based upon a blockchain data structure, has given rise to new approaches to identity management that aim to upend dominant approaches to providing and consuming digital identities. These new approaches to identity management (IdM) propose to enhance decentralisation, transparency and user control in transactions that involve identity information; but, given the historical challenge to design IdM, can these new DLTbased schemes deliver on their lofty goals? We introduce the emerging landscape of DLT-based IdM, and evaluate three representative proposals – uPort, ShoCard and Sovrin – using the analytic lens of a seminal framework that characterises the nature of successful IdM schemes."]
+Description = "Abstract. The emergence of distributed ledger technology (DLT) based upon a blockchain data structure, has given rise to new approaches to identity management that aim to upend dominant approaches to providing and consuming digital identities. These new approaches to identity management (IdM) propose to enhance decentralisation, transparency and user control in transactions that involve identity information; but, given the historical challenge to design IdM, can these new DLTbased schemes deliver on their lofty goals? We introduce the emerging landscape of DLT-based IdM, and evaluate three representative proposals – uPort, ShoCard and Sovrin – using the analytic lens of a seminal framework that characterises the nature of successful IdM schemes."
 Tags = ["research-paper", "uport", "shocard" ,"sovrin","decentralized-id","blockchain-id","academic"]
 
 ["The Rise of Self-Sovereign Identity - Hyperledger Indy"]
@@ -111,12 +111,12 @@ Tags = ["did","w3c","sovrin","self-sovereign","decentralized-id","blog","peaceke
 ["Introduction to DID Auth"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/final-documents/did-auth.md"]
 Description = "The term DID Auth has been used in different ways and is currently not well-defined. We define DID Auth as a ceremony where an identity owner, with the help of various components such as web browsers, mobile devices, and other agents, proves to a relying party that they are in control of a DID. This means demonstrating control of the DID using the mechanism specified in the DID Document's \"authentication\" object. This could take place using a number of different data formats, protocols, and flows. DID Auth includes the ability to establish mutually authenticated communication channels and to authenticate to web sites and applications. Authorization, Verifiable Credentials, and Capabilities are built on top of DID Auth and are out of scope for this document. This paper gives on overview of the scope of DID Auth, supported protocols and flows, and the use of components of the DID Documents that are relevant to authentication, as well as formats for challenges and responses."
-Tags = ["w3c","did","rweboftrust","self-sovereign","decentralized-id","documentation","authentication"]
+Tags = ["w3c","did","rwot","self-sovereign","decentralized-id","documentation","authentication"]
 
 ["Rebooting Web of Trust"]
 Link = ["https://www.weboftrust.info/"]
 Description = "The Web of Trust is a buzzword for a new model of decentralized self-sovereign identity. It’s a phrase that dates back almost twenty-five years, the classic definition derives from PGP.\n\nBut some use it as a term to include self-sovereign identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the concept we aim to reboot it."
-Tags = ["organizations","w3c","did","sovrin","rweboftrust","self-sovereign","decentralized-id"]
+Tags = ["organizations","w3c","did","sovrin","rwot","self-sovereign","decentralized-id"]
 
 ["Introduction to DID Auth for SSI – Markus Sabadello – Webinar 10"]
 Link = ["http://ssimeetup.org/introduction-did-auth-markus-sabadello-webinar-10/","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/draft-documents/did_auth_draft.md"]
@@ -126,7 +126,7 @@ Tags = ["w3c","did","decentralized-id","self-sovereign","presentation","video","
 ["A Primer on Functional Identity"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/functional-identity-primer.md"]
 Description = "There are many ways to approach identity. For the Rebooting Web of Trust, we prefer a functional approach to focus conversations on how identity works and how we use it.\n\nThe varied facets of identity are so rich that we each bring our own hot buttons and agendas to any discussion. Some people engage from a philosophical perspective, others cultural. Some dive into political issues and others get meta-physical and spiritual. These different perspectives are valid views of identity’s impact on our lives. More than valid. Vital. They help answer the question of \"Why?\" Why identity matters, why we should care. Unfortunately, they also inflame passions. We sometimes talk past each other to make points that have minimal relevance for others, leaving people frustrated and unheard.\n\nAs engineers and system designers, we’re concerned with how things work. We want to fix what’s broken and build new things. To do that, we want to discuss how things function. With identity, this functional perspective sidesteps the inflammatory rabbit holes, without dismissing them. Functional Identity lets us investigate the HOW without prejudice to WHY, viewing identity systems based on how they work and then, in turn, how they affect individuals and society."
-Tags = ["rweboftrust","self-sovereign","decentralized-id","developing","blog","documentation"]
+Tags = ["rwot","self-sovereign","decentralized-id","developing","blog","documentation"]
 
 ["Decentralized Identity Foundation"]
 Link = ["http://identity.foundation/"]
@@ -341,7 +341,7 @@ Tags = ["gartner","decentralized-id","self-sovereign","report"]
 ["Self-Sovereign Identity Principles"]
 Link = ["https://github.com/WebOfTrustInfo/self-sovereign-identity/blob/master/self-sovereign-identity-principles.md"]
 Description = "Existence. Control. Access. Transparency. Persistence. Portability. Interoperability. Consent. Minimalization. Protection."
-Tags = ["rweboftrust","self-sovereign","decentralized-id","documentation"]
+Tags = ["rwot","self-sovereign","decentralized-id","documentation"]
 
 ["GDPR - A reflection on the 'self-sovereign identity' and the Blockchain"]
 Link = ["https://www.linkedin.com/pulse/gdpr-reflection-self-sovereign-identity-blockchain-nicolas-ameye/"]
@@ -351,7 +351,7 @@ Tags = ["gdpr","regulations","decentralized-id","self-sovereign","blog"]
 ["DID Primer"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/draft-documents/did-primer.md"]
 Description = "At a superficial level, a decentralized identifier (DID) is simply a new type of globally unique identifier with special features designed for blockchains. But at a deeper level, DIDs are actually the tip of the iceberg -- or the tip of the spear -- of an entirely new layer of decentralized digital identity and public key infrastructure (PKI) for the Internet. This decentralized public key infrastructure (DPKI) could have as much impact on global cybersecurity and cyberprivacy as the development of the SSL/TLS protocol for encrypted Web traffic (now the largest PKI in the world)."
-Tags = ["did","w3c","rweboftrust","documentation"]
+Tags = ["did","w3c","rwot","documentation"]
 
 ["Identity 2.0"]
 Link = ["https://id2020.org/news/2016/12/2/identity-20"]
@@ -366,7 +366,7 @@ Tags = ["self-sovereign","history","blog"]
 ["WebofTrust - Self Sovereign ID - Github"]
 Link = ["https://github.com/WebOfTrustInfo/self-sovereign-identity"]
 Description = "Articles and documents associated with designing and implementing identity technology using self-sovereign identity principle"
-Tags = ["rweboftrust","organizations","documenation"]
+Tags = ["rwot","organizations","documenation","blockstack","w3c","sovrin","indy","did","verifiable-claims","evernym","microsoft","blockstream","ipfs","netki","tieron","id2020","un","iiw"]
 
 ["uPort — Year in Review. What's to come in 2018"]
 Link = ["https://medium.com/uport/uport-year-in-review-whats-to-come-in-2018-15ccb9214439"]
@@ -436,7 +436,7 @@ Tags = ["digital-id","self-sovereign","wef","decentralized-id","blog"]
 ["BCGov Verifiable Organization Network – Impressive Client Demo"]
 Link = ["https://www.continuumloop.com/bcgov-verifiable-organization-network/"]
 Description = "One of my favourite client projects (Verifiable Organization Network) was demonstrated at last month’s Rebooting the Web of Trust conference in Santa Barbara. John Jordan runs an incredible project out of the Office of the CIO for British Columbia. I play a minor role providing executive leadership and advising. John nailed the presentation."
-Tags = ["von","rweboftrust","bc-gov","credentials","state"]
+Tags = ["von","rwot","bc-gov","credentials","state"]
 
 ["Identity Validation as a Public Sector Digital Service?"]
 Link = ["https://blog.aniljohn.com/2014/07/identity-validation-as-a-public-sector-digital-service.html"]
@@ -456,12 +456,12 @@ Tags = ["twitter","people","manusporny","self-sovereign","decentralized-id","w3c
 ["The promise of managing identity on the blockchain"]
 Link = ["https://techcrunch.com/2017/09/10/the-promise-of-managing-identity-on-the-blockchain/"]
 Description = "Imagine a world where you are in direct control of your personal information; a world where you can limit and control how much information you share while retaining the ability to transact in the world. This is self-sovereign identity, and it is already here. Blockchain is the underlying technology paving the path to self-sovereign identity through decentralized networks. It ensures privacy and trust, where transactions are secure, authenticated and verifiable and endorsed by relevant, permissioned participants,' Jerry Cuomo - IBM."
-Tags = ["101","blockchain-id","decentralized-id","self-sovereign","blog"]
+Tags = ["101","blockchain-id","decentralized-id","self-sovereign","blog","ibm","quote"]
 
 ["Phil Windley"]
 Link = ["https://twitter.com/windley","https://windley.com"]
 Description = "I build things; I write code; I void warranties"
-Tags = ["people","windley","self-sovereign","decentralized-id","iiw"]
+Tags = ["people","windley","self-sovereign","decentralized-id","iiw","quote"]
 
 ["World Identity Netowork —Blockchain for Impact"]
 Link = ["https://win.systems/"]
@@ -480,7 +480,7 @@ Tags = ["namecoin","openid","identification","peacekeeper","blockchain-id","prot
 
 ["CertCoin: A NameCoin Based Decentralized Authentication System"]
 Link = ["https://courses.csail.mit.edu/6.857/2014/files/19-fromknecht-velicann-yakoubov-certcoin.pdf"]
-Description = ["an MIT paper about a NameCoin-based decentralized authentication system which maintains a public ledger of domains and their associated public keys.\n\nAuthentication is vital to all forms of remote communication. A lack of authentication opens the door to man-in-the-middle attacks, which, if performed at a key moment, may subvert the entire interaction. Current approaches to authentication on the internet include certificate authorities and webs of trust. Both of those approaches have significant drawbacks: the former relies upon trusted third parties, introducing a central point of failure, and the latter has a high barrier to entry. We propose Certcoin, an alternative, public and decentralized authentication scheme. The core idea of Certcoin is maintaining a public ledger of domains and their associated public keys. We describe the Certcoin scheme, as well as several optimizations to make Certcoin more accessible to devices with limited storage capacity, such as smartphones. Our optimizations use tools such as cryptographic accumulators and distributed hash tables."]
+Description = "an MIT paper about a NameCoin-based decentralized authentication system which maintains a public ledger of domains and their associated public keys.\n\nAuthentication is vital to all forms of remote communication. A lack of authentication opens the door to man-in-the-middle attacks, which, if performed at a key moment, may subvert the entire interaction. Current approaches to authentication on the internet include certificate authorities and webs of trust. Both of those approaches have significant drawbacks: the former relies upon trusted third parties, introducing a central point of failure, and the latter has a high barrier to entry. We propose Certcoin, an alternative, public and decentralized authentication scheme. The core idea of Certcoin is maintaining a public ledger of domains and their associated public keys. We describe the Certcoin scheme, as well as several optimizations to make Certcoin more accessible to devices with limited storage capacity, such as smartphones. Our optimizations use tools such as cryptographic accumulators and distributed hash tables."]
 Tags = ["gertcoin","namecoin","identification","authentication","mit","peacekeeper","blockchain-id","research-paper","academic"]
 
 ["ChainAnchor"]
@@ -501,7 +501,7 @@ Tags = ["onename","blockstack","blockchain-id","peacekeeper","app"]
 ["Decentralized Public Key Infrastructure"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/dpki.pdf"]
 Description = "(DPKI) which registers identifiers and associated public keys on blockchains."
-Tags = ["rweboftrust","pki","research-paper","peacekeeper"]
+Tags = ["rwot","pki","dpki","research-paper","peacekeeper"]
 
 ["XDI Registry"]
 Link = ["https://docs.google.com/document/d/1i-XChGFsuAi-Id85FWXjX6hOWDn9Sq-qe7ARykJgsBI/"]
@@ -525,7 +525,7 @@ Tags = ["bitalias","bitcoin","identification","peacekeeper","app"]
 
 ["EtherID"]
 Link = ["http://etherid.org/"]
-Description = ["allows registration of domain names for an Ethereum account."]
+Description = "allows registration of domain names for an Ethereum account."
 Tags = ["identification","dns","ethereum","peacekeeper","app"]
 
 ["ENS"]
@@ -705,7 +705,7 @@ Tags = ["did","mydata","decentralized-id","blockchain-id","eth-app","consent-glo
 
 ["Mydata"]
 Link = ["http://mydata.org/","https://mydata.org/papers/","https://mydata.org/declaration/"]
-Description = ["We are entrepreneurs, activists, academics, listed corporations, public agencies, and developers. For years, we’ve been using different words for what we do – MyData, Self Data, VRM (Vendor Relationship Management), Internet of Me, PIMS (Personal Information Management Services) etc, while sharing a common goal: to empower individuals with their personal data, thus helping them and their communities develop knowledge, make informed decisions, and interact more consciously and efficiently with each other as well as with organisations."]
+Description = "We are entrepreneurs, activists, academics, listed corporations, public agencies, and developers. For years, we’ve been using different words for what we do – MyData, Self Data, VRM (Vendor Relationship Management), Internet of Me, PIMS (Personal Information Management Services) etc, while sharing a common goal: to empower individuals with their personal data, thus helping them and their communities develop knowledge, make informed decisions, and interact more consciously and efficiently with each other as well as with organisations."
 Tags = ["did","mydata","decentralized-id","blockchain-id","eth-app","consent-global"]
 
 ["Mooti"]
@@ -960,7 +960,7 @@ Tags = ["sovrin","indy","ibm","decentralized-id","protocol","python","idemix","b
 
 ["Plenum Byzantine Fault Tolerant Protocol"]
 Link = ["https://github.com/hyperledger/indy-plenum/wiki"]
-Description = ["Byzantine fault tolerance is a sub-field of fault tolerance research inspired by the Byzantine Generals' Problem, which is a generalized version of the Two Generals' Problem."]
+Description = "Byzantine fault tolerance is a sub-field of fault tolerance research inspired by the Byzantine Generals' Problem, which is a generalized version of the Two Generals' Problem."
 Tags = ["pbft","sovrin","indy","decentralized-id","documentation","blockchain-id","self-sovereign","consensus","rbft"]
 
 ["RBFT: Redundant Byzantine Fault Tolerance"]
@@ -971,7 +971,7 @@ Tags = ["rbft","pbft","consensus","research-paper"]
 ["Indy Project Proposal"]
 Link = ["https://docs.google.com/document/d/1YzXz0aM8w7kSp3_ao3ue9tOFwK9paofXbtBptR1Jucg/edit","https://i.imgur.com/uRklykE.png"]
 Description = "Indy is a distributed ledger purpose-built for decentralized identity. It provides tools, libraries and reusable components for providing independent digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other \"silo\"."
-Tags = ["indy","sovrin","hyperledger","history","decentralized-id","self-sovereign","blockchain-id","documentation","image"]
+Tags = ["indy","sovrin","hyperledger","history","decentralized-id","self-sovereign","blockchain-id","documentation","image","public-permissioned"]
 
 ["Accenture: ID2020: DIGITAL IDENTITY with Blockchain and Biometrics"]
 Link = ["https://www.accenture.com/us-en/insight-blockchain-id2020"]
@@ -1001,44 +1001,90 @@ Tags = ["ibm","self-sovereign","blog","blockchain-id","decentralized-id"]
 ["When GDPR Becomes Real, and Blockchain is no longer fairydust"]
 Link = "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/final-documents/gdpr.md"
 Description = "The General Data Protection Regulation (GDPR) enacted by the European Parliament in 2016 was designed to give users more control and rights over their personal data. Companies and governments will find it increasingly difficult to be GDPR compliant with current industry practices. Once it becomes enforceable in 2018, managing data will be both toxic and expensive. Many precious resources will be required for improving and maintaining the security, privacy, and governance of personal data. Methods for storing less personal data will ease the burden of GDPR compliance. This document explores describes what GDPR requirements are, what are the different approaches to digital identity solutions and finally explains why a distributed ledger technology may offer an opportunity to enterprises for simpler data management solutions that are GDPR compliant."
-Tags = ["rweboftrust","gdpr","regulations","blockchain-id","whitepaper","decentralized-id"]
+Tags = ["rwot","gdpr","regulations","blockchain-id","whitepaper","decentralized-id"]
 
 ["A Decentralized Approach to Blockcerts Credential Revocation"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/final-documents/blockcerts-revocation.md"]
 Description = "Blockcerts are blockchain-anchored credentials with a verification process designed to be decentralized and trustless. While the Blockcerts standard itself is extensible, the revocation method used in the reference implementation is an issuer-hosted revocation list, which is a known centralization point.\n\nThis proposal describes an alternate method of issuing Blockcerts using Ethereum, which allows for a new form of revocation by either the issuer or the recipient."
-Tags = ["blockcerts","credentials","ethereum","decentralized-id","blockchain-id","whitepaper","rweboftrust"]
+Tags = ["blockcerts","credentials","ethereum","decentralized-id","blockchain-id","whitepaper","rwot"]
 
 ["Identity Hubs Capabilities Perspective"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/final-documents/identity-hubs-capabilities-perspective.md"]
 Description = "Identity Hubs as currently proposed in the Decentralized Identity Foundation (DIF) are a subset of a general Decentralized Identifier (DID) based user-controlled agent, based on ACLs rather than an object-capabilities (ocap) architecture.  The current approach has both security and scalability issues. Transitioning the Hubs design to an ocap model can be achieved by introducing an UMA authorization server as the control endpoint. This avoids creating confused-deputy security issues and expands scale by enabling the hub to delegate access to resources not stored in the hub itself."
-Tags = ["dif","did","whitepaper","rweboftrust","capabilities","w3c","blockchain-id","decentralized-id"]
+Tags = ["dif","did","whitepaper","rwot","capabilities","w3c","blockchain-id","decentralized-id"]
 
 ["Linked Data Capabilities"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/final-documents/lds-ocap.md"]
 Description = "Linked Data Signatures enable a method of asserting the integrity of linked data documents that are passed throughout the web. The object capability model is a powerful system for ensuring the security of computing systems. In this paper, we explore layering an object capability model on top of Linked Data Signatures via chains of signed proclamations. fn:1 We call this system \"Linked Data Capabilities\", or \"ld-ocap\" for short.\n\nThe system we propose can work regardless of whether https identifiers or DIDs are being used. Since DIDs work nicely with this system and add an additional layer of decentralization we use them for the URIs of this system."
-Tags = ["rweboftrust","whitepaper","capabilities","did","w3c","blockchain-id","decentralized-id"]
+Tags = ["rwot","whitepaper","capabilities","did","w3c","blockchain-id","decentralized-id"]
 
 ["Hubs"]
-Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/hubs.pdf"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/hubs.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/hubs.docx"]
 Description = "Hubs let you securely store and share data. A Hub is a datastore containing semantic data objects at well-known locations. Each object in a Hub is signed by an identity and accessible via a globally recognized API format that explicitly maps to semantic data objects. Hubs are addressable via unique identifiers maintained in a global namespace."
-Tags = ["rweboftrust","whitepaper","data-stores","blockchain-id","decentralized-id"]
+Tags = ["rwot","whitepaper","data-stores","blockchain-id","decentralized-id"]
 
 ["The DCS Theorem"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/final-documents/dcs-theorem/The-DCS-Theorem.md"]
 Description = "Blockchain design involves many tradeoffs, and much debate has focused on tradeoffs related to scaling parameters such as blocksize. To address some of the confusion around this subject, we present a probability proof of the _DCS Triangle_ [@McConaghy2016][@SlepaksTriangle]. We use the triangle to show decentralized consensus systems, like blockchains, can have _Decentralization_, _Consensus_, or _Scale_, but not all three properties simultaneously. We then describe two methods for getting around the limitations suggested by the triangle."
-Tags = ["consensus","rweboftrust","whitepaper","problem"]
+Tags = ["consensus","rwot","whitepaper","theory"]
 
 ["Requirements for DIDs (Decentralized Identifiers)"]
-Link = ["https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/requirements-for-dids.pdf"]
+Link = ["https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/requirements-for-dids.pdf","https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/requirements-for-dids.docx"]
 Description = "Respect Network is conducting a research project for the U.S. Department of Homeland Security, HSHQDC-16-C-00061, to analyze the applicability of blockchain technologies to a decentralized identifier system. Our thesis is that blockchains, or more generically distributed ledgers, are a potentially powerful new tool for “identity roots” — the starting points for an Internet identity. However “blockchain identity” may not fully address the core security and privacy principles needed in a complete identity system. In this case DIDs — Decentralized Identifiers rooted on a distributed ledger — may end up being a foundational building block for higher level identity management solutions."
-Tags = ["did","rweboftrust","id2020","whitepaper","blockchain-id","decentralized-id","w3c"]
+Tags = ["did","rwot","id2020","whitepaper","blockchain-id","decentralized-id","w3c"]
 
 ["Veres One DID Method 1.0"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/final-documents/did-method-veres-one.md"]
-Description = ["The Veres One Ledger is a permissionless public ledger designed specifically for the creation and management of decentralized identifiers (DIDs). Veres One DIDs are self-sovereign identifiers that may be used by people, organizations, and digital devices to establish an identifier that is under their control. Veres One DIDs are useful in ecosystems where one needs to issue, store, and use Verifiable Claims. This specification defines how a developer may create and update DIDs in the Veres One Ledger."]
-Tags = ["did","w3c","rweboftrust","whitepaper","blockchain-id","public-permissionless","self-sovereign"]
+Description = "The Veres One Ledger is a permissionless public ledger designed specifically for the creation and management of decentralized identifiers (DIDs). Veres One DIDs are self-sovereign identifiers that may be used by people, organizations, and digital devices to establish an identifier that is under their control. Veres One DIDs are useful in ecosystems where one needs to issue, store, and use Verifiable Claims. This specification defines how a developer may create and update DIDs in the Veres One Ledger."
+Tags = ["did","w3c","rwot","whitepaper","blockchain-id","public-permissionless","self-sovereign"]
 
 ["Smart Consent Protocol"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/smart-consent-protocol.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/smart-consent-protocol.docx"]
-Description = "Personal Data are valuable resources for creating digital intellectual property (IP). Rights over this IP have generally been unclear, resulting in systematic abuse or unfair use of people's personal data by third parties. But new regulations are changing this - most notably, the European Union General Data Protection Regulation (EU GDPR). Third parties must now obtain explicit and documented consent from people (data subjects) to collect, process, store or disclose their personal data. A specification for operationalising these regulatory requirements, using digital Consent Receipts, is being developed through the Consent and Information-Sharing Working Group of the Kantara Initiative. In a parallel effort, COALA-IP has developed a blockchain-ready, community-driven generic protocol for intellectual property licensing that applies the Linked Content Coalition (LCC) framework to "unify digital rights data management". This paper proposes a decentralised Smart Consent protocol for managing personal data as intellectual property that combines elements of the COALA-IP Specification for Digital Intellectual Property with the specification for Digital Consent Receipts."
-Tags = ["ip","gdpr","regulations","rweboftrust","blockchain-id"]
+Description = "Personal Data are valuable resources for creating digital intellectual property (IP). Rights over this IP have generally been unclear, resulting in systematic abuse or unfair use of people's personal data by third parties. But new regulations are changing this - most notably, the European Union General Data Protection Regulation (EU GDPR). Third parties must now obtain explicit and documented consent from people (data subjects) to collect, process, store or disclose their personal data. A specification for operationalising these regulatory requirements, using digital Consent Receipts, is being developed through the Consent and Information-Sharing Working Group of the Kantara Initiative. In a parallel effort, COALA-IP has developed a blockchain-ready, community-driven generic protocol for intellectual property licensing that applies the Linked Content Coalition (LCC) framework to 'unify digital rights data management'. This paper proposes a decentralised Smart Consent protocol for managing personal data as intellectual property that combines elements of the COALA-IP Specification for Digital Intellectual Property with the specification for Digital Consent Receipts."
+Tags = ["ip","gdpr","regulations","rwot","blockchain-id","whitepaper"]
+
+["Estonia National Blockchain-ID"]
+Link = ["https://e-estonia.com/solutions/e-identity/id-card/","https://www.id.ee/","https://www.mccarthy.ca/en/insights/blogs/cyberlex/estonian-blockchain-based-id-card-security-flaw-raises-issues-about-identity"]
+Description = "Estonia had the most highly developed national ID system in existence. They issue an ID card that has a chip using 2048-bit public key encryption and can be used as an electronic proof of id. Estonia is one of the most progressive governments as far as integrating blockchain into public services. Unfortunately, a flaw in their chips made it easy to find a users private key through their public key. So their certificates have been revoked, and are currently useless as digital signatures."
+Tags = ["estonia","blockchain-id","id-ee","state"]
+
+["Digital Verification Advancements at RWoT III"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/digital-verification-advancements.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/digital-verification-advancements.docx"]
+Description = "There were a number of enhancements made to Digital Verification at the 3rd Rebooting Web of Trust event. The following document summarises the advancements made as a direct result of participation from the workshop attendees."
+Tags = ["blockchain-id","w3c","identification","whitepaper","did"]
+
+["Identity Crisis: Clear Identity through Correlation"]
+Link = ["https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/identity-crisis.pdf","https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/identity-crisis.docx"]
+Description = "The term “identity” is a challenge.\n\nBoth laypeople and experts struggle to communicate clearly about it. The term has numerous rich and useful meanings. That same flexibility and expressivity also makes it easy to misunderstand subtle nuances and often leads to ideological debate rather than understanding and applications. We compensate with adjectives, creating new phrases like “digital identity” or “legal identity”, but we often still speak past each other. We regularly refer to “identities” as things that are assigned to us or that we own, things we control or present, instead of using more rigorous terms such as “identifiers” or “credentials”. This fluidity often confuses because, at its core, identity is an emergent phenomenon that doesn’t have an existence independent of the observer."
+Tags = ["blockchain-id","rwot","whitepaper","w3c"]
+
+["Decentralized Public Key Infrastructure"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/dpki.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/dpki.docx"]
+Description = "Today’s Internet places control of online identities into the hands of third-parties. Email addresses, usernames, and website domains are borrowed or \"rented\" through DNS, X.509, and social networks. This results in severe usability and security challenges Internet-wide. This paper describes a possible alternate approach called decentralized public key infrastructure (DPKI), which returns control of online identities to the entities they belong to. By doing so, DPKI addresses many usability and security challenges that plague traditional public key infrastructure (PKI). DPKI has advantages at each stage of the PKI life cycle. It makes permissionless bootstrapping of online identities possible and provides for the simple creation of stronger SSL certificates. In usage, it can help \"Johnny\" to finally encrypt thanks to its relegation of public key management to secure decentralized datastores. Finally, it includes mechanisms to recover lost or compromised identifiers."
+Tags = ["blockchain-id","rwot","whitepaper","dpki","pki"]
+
+["Design Considerations for Decentralized Reputation Systems"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2017/blob/master/final-documents/reputation-design.md"]
+Description = "Reputation systems provide an effective way to build a web of trust on the Internet. They consider the history of interactions between peers to establish a measure for a reputation that can itself be used to support a trust decision. Decentralised reputations systems (DRS) rely on a decentralised computer architecture and a distributed ledger to store and maintain reputation information, so that no single entity has control over that information.\n\nWhile there have been numerous analyses of how reputation may be used, there has to date been no systematic definition of the various aspects that should be considered when a reputation system is being designed. By defining these design considerations, we can come to a consensus about what is and is not important in a system. We can discuss the different ways in which they can be built and we can conduct further research and analysis into specific factors in a structured way."
+Tags = ["blockchain-id","rwot","whitepaper","reputation"]
+
+["LD Signature Format Alignment"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2017/blob/master/final-documents/ld-signatures.md"]
+Description = "The goal of the \"LD Signature Format Alignment\" Working Group at Rebooting the Web of Trust IV was to investigate the feasibility and impact of the proposed 2017 RSA Signature Suite spec, which brings JSON-LD signatures into alignment with the JOSE JSON Web Signature (JWS) standards."
+Tags = ["rwot","whitepaper","signatures","json","blockchain-id"]
+
+["Smarter Signatures: Experiments in Verifications"]
+Link = ["https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/requirements-for-dids.pdf","https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/smarter-signatures.docx"]
+Description = "Technologies like the Web of Trust and PKI lay the foundation for identity on the internet: they map a human persona to a cryptographic construct that is represented by a public key and protected by a private key. Digital signatures are fundamental to these digital identities and have been widely used in a variety of applications. They’re the heart of SSH, the foundation of certificates, and the core of newer technologies like blockchain.\n\nHowever, today’s simplistic signatures are just the start; they can be improved, to create more powerful and more complex signatures that can truly be better and smarter."
+Tags = ["rwot","whitepaper","signatures","pki"]
+
+["Smart Signatures"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf"]
+Description = "Traditional cryptographic signature systems are based on strictly-defined authentication and authorization mechanisms that assume a single private key can be used to produce a given signature and that a single public key can be used to verify it. Given the evident limitations of this design, we propose an alternative with more powerful capabities, based on the ability to explicitly outline and fully program conditions for verification. These conditions would then be used to determine when a signature or set of signatures can be considered valid.\n\nOur inspiration for this authorization system is the bitcoin scripting language, where the authorization to spend funds is explicitly defined within a script, rather than being implicitly defined through the reference to an authorized public key. The largest benefit of explicit specification of authorization conditions is that the system is fully extensible, so new operations can be defined at any time, with the only limitation being the set of operations that the authorization interpreters understand. "
+Tags = ["rwot","whitepaper","signatures","authentication","bitcoin"]
+
+["ActivityPub: From Decentralized to Distributed Social Networks"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/final-documents/activitypub-decentralized-distributed.md"]
+Description = "ActivityPub is a protocol being developed at the W3C for the purpose of building federated social systems. Users can use implementations of ActivityPub like Mastodon and MediaGoblin as libre alternatives to large siloed social networking systems such as Facebook, Twitter, YouTube, and Instagram.1\n\nIn general ActivityPub follows the client-server paradigm that has been popular on the World Wide Web, while restoring some level of decentralization. Current implementations of ActivityPub go as far as to bring a level of decentralization akin to email,2 but there are many opportunities to go further."
+Tags = ["rwot","whitepaper","activitypub","social-network","federated","w3c"]
+
