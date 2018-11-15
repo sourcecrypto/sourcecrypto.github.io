@@ -76,7 +76,7 @@ Tags = ["evernym","sovrin","resources","self-sovereign","indy","decentralized-id
 ["w3c- Decentralized Identifiers (DIDs) v0.11"]
 Link = ["https://w3c-ccg.github.io/did-spec/"]
 Description = "Decentralized Identifiers (DIDs) are a new type of identifier for verifiable, \"self-sovereign\" digital identity. DIDs are fully under the control of the DID subject, independent from any centralized registry, identity provider, or certificate authority. DIDs are URLs that relate a DID subject to means for trustable interactions with that subject. DIDs resolve to DID Documents — simple documents that describe how to use that specific DID. Each DID Document contains at least three things: cryptographic material, authentication suites, and service endpoints. Cryptographic material combined with authentication suites provide a set of mechanisms to authenticate as the DID subject (e.g., public keys, pseudonymous biometric protocols, etc.). Service endpoints enable trusted interactions with the DID subject.\n\nThis document specifies a common data model, format, and operations that all DIDs support."
-Tags = ["w3c","did","decentralized-id","self-sovereign","blockchain-id","documentation"]
+Tags = ["w3c","did","decentralized-id","self-sovereign","blockchain-id","documentation","rwot","specs"]
 
 ["zkp.science"]
 Link = ["https://zkp.science"]
@@ -480,7 +480,7 @@ Tags = ["namecoin","openid","identification","peacekeeper","blockchain-id","prot
 
 ["CertCoin: A NameCoin Based Decentralized Authentication System"]
 Link = ["https://courses.csail.mit.edu/6.857/2014/files/19-fromknecht-velicann-yakoubov-certcoin.pdf"]
-Description = "an MIT paper about a NameCoin-based decentralized authentication system which maintains a public ledger of domains and their associated public keys.\n\nAuthentication is vital to all forms of remote communication. A lack of authentication opens the door to man-in-the-middle attacks, which, if performed at a key moment, may subvert the entire interaction. Current approaches to authentication on the internet include certificate authorities and webs of trust. Both of those approaches have significant drawbacks: the former relies upon trusted third parties, introducing a central point of failure, and the latter has a high barrier to entry. We propose Certcoin, an alternative, public and decentralized authentication scheme. The core idea of Certcoin is maintaining a public ledger of domains and their associated public keys. We describe the Certcoin scheme, as well as several optimizations to make Certcoin more accessible to devices with limited storage capacity, such as smartphones. Our optimizations use tools such as cryptographic accumulators and distributed hash tables."]
+Description = "an MIT paper about a NameCoin-based decentralized authentication system which maintains a public ledger of domains and their associated public keys.\n\nAuthentication is vital to all forms of remote communication. A lack of authentication opens the door to man-in-the-middle attacks, which, if performed at a key moment, may subvert the entire interaction. Current approaches to authentication on the internet include certificate authorities and webs of trust. Both of those approaches have significant drawbacks: the former relies upon trusted third parties, introducing a central point of failure, and the latter has a high barrier to entry. We propose Certcoin, an alternative, public and decentralized authentication scheme. The core idea of Certcoin is maintaining a public ledger of domains and their associated public keys. We describe the Certcoin scheme, as well as several optimizations to make Certcoin more accessible to devices with limited storage capacity, such as smartphones. Our optimizations use tools such as cryptographic accumulators and distributed hash tables."
 Tags = ["gertcoin","namecoin","identification","authentication","mit","peacekeeper","blockchain-id","research-paper","academic"]
 
 ["ChainAnchor"]
@@ -497,11 +497,6 @@ Tags = ["blockstack","pki","dns","peacekeeper","protocol","organizations"]
 Link = ["https://onename.com/"]
 Description = "a product built on Blockstack that allows people to register identities."
 Tags = ["onename","blockstack","blockchain-id","peacekeeper","app"]
-
-["Decentralized Public Key Infrastructure"]
-Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/dpki.pdf"]
-Description = "(DPKI) which registers identifiers and associated public keys on blockchains."
-Tags = ["rwot","pki","dpki","research-paper","peacekeeper"]
 
 ["XDI Registry"]
 Link = ["https://docs.google.com/document/d/1i-XChGFsuAi-Id85FWXjX6hOWDn9Sq-qe7ARykJgsBI/"]
@@ -1071,20 +1066,105 @@ Tags = ["blockchain-id","rwot","whitepaper","reputation"]
 ["LD Signature Format Alignment"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2017/blob/master/final-documents/ld-signatures.md"]
 Description = "The goal of the \"LD Signature Format Alignment\" Working Group at Rebooting the Web of Trust IV was to investigate the feasibility and impact of the proposed 2017 RSA Signature Suite spec, which brings JSON-LD signatures into alignment with the JOSE JSON Web Signature (JWS) standards."
-Tags = ["rwot","whitepaper","signatures","json","blockchain-id"]
+Tags = ["rwot","whitepaper","signatures","json","blockchain-id","decentralized-id"]
 
 ["Smarter Signatures: Experiments in Verifications"]
 Link = ["https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/requirements-for-dids.pdf","https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/smarter-signatures.docx"]
 Description = "Technologies like the Web of Trust and PKI lay the foundation for identity on the internet: they map a human persona to a cryptographic construct that is represented by a public key and protected by a private key. Digital signatures are fundamental to these digital identities and have been widely used in a variety of applications. They’re the heart of SSH, the foundation of certificates, and the core of newer technologies like blockchain.\n\nHowever, today’s simplistic signatures are just the start; they can be improved, to create more powerful and more complex signatures that can truly be better and smarter."
-Tags = ["rwot","whitepaper","signatures","pki"]
+Tags = ["rwot","whitepaper","signatures","pki","decentralized-id","blockchain-id"]
 
 ["Smart Signatures"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf"]
 Description = "Traditional cryptographic signature systems are based on strictly-defined authentication and authorization mechanisms that assume a single private key can be used to produce a given signature and that a single public key can be used to verify it. Given the evident limitations of this design, we propose an alternative with more powerful capabities, based on the ability to explicitly outline and fully program conditions for verification. These conditions would then be used to determine when a signature or set of signatures can be considered valid.\n\nOur inspiration for this authorization system is the bitcoin scripting language, where the authorization to spend funds is explicitly defined within a script, rather than being implicitly defined through the reference to an authorized public key. The largest benefit of explicit specification of authorization conditions is that the system is fully extensible, so new operations can be defined at any time, with the only limitation being the set of operations that the authorization interpreters understand. "
-Tags = ["rwot","whitepaper","signatures","authentication","bitcoin"]
+Tags = ["rwot","whitepaper","signatures","authentication","bitcoin","decentralized-id"]
 
 ["ActivityPub: From Decentralized to Distributed Social Networks"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/final-documents/activitypub-decentralized-distributed.md"]
 Description = "ActivityPub is a protocol being developed at the W3C for the purpose of building federated social systems. Users can use implementations of ActivityPub like Mastodon and MediaGoblin as libre alternatives to large siloed social networking systems such as Facebook, Twitter, YouTube, and Instagram.1\n\nIn general ActivityPub follows the client-server paradigm that has been popular on the World Wide Web, while restoring some level of decentralization. Current implementations of ActivityPub go as far as to bring a level of decentralization akin to email,2 but there are many opportunities to go further."
-Tags = ["rwot","whitepaper","activitypub","social-network","federated","w3c"]
+Tags = ["rwot","whitepaper","activitypub","social-network","federated","w3c","decentralized-id"]
+
+["Amira 1.0"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/final-documents/amira.md"]
+Description = "In our scenario, Amira is a successful programmer working in Boston at a prestigious multi-national bank. Outside of working hours, Amira wants to give back to her community by writing software that matters. On the advice of her friend Charlene, Amira joins RISK, a self-sovereign reputation network that connects developers with projects while protecting participants’ anonymity, building reputation, and sending & receiving secure payments.\n\nInformation Lifecycle Engagement Model\n\nWe describe Amira’s interactions with RISK using the Information Lifecycle Engagement Model. This 15-stage model captures the experience of a single, fictitious individual as she interacts with a proposed system. The model intentionally limits our focus to the connected experience of a single human protagonist and the people they engage along the way, in one or more paragraphs about interactions in each of the 15 stages."
+Tags = ["use-case","rwot","w3c","whitepaper","blockchain-id","decentralized-id"]
+
+["Re-Imagining What Users Really Want"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2017/blob/master/final-documents/what-users-really-want.md"]
+Description = "The following five individuals represent a diverse sampling of normal, everyday people whose lives could be improved by self-sovereign identity. Today, these five aren’t using enhanced digital identity. For each, we describe their current lack of engagement and provide at least one opportunity that could reframe self-sovereign identity as a clear win for them."
+Tags = ["use-case","rwot","w3c","whitepaper","blockchain-id","decentralized-id"]
+
+["Joram 1.0.0"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/joram-engagement-model.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/joram-engagement-model.docx"]
+Description = "Joram is a 25 year-old, single male from Syria. He flees his home country, leaving behind his family, because he fears persecution. He finds his way to a refugee boat that makes its way to a beach in Greece. Joram brings only the clothes on his back: no identity papers, no technology. Joram speaks Arabic, and English1 but not Greek."
+Tags = ["use-case","rwot","w3c","whitepaper","blockchain-id","decentralized-id"]
+
+["Powering the Physician-Patient Relationship with HIE of One Blockchain Health IT"]
+Link = ["https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/physician-patient-relationship.pdf","https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/physician-patient-relationship.docx"]
+Description = "Together, physicians and patients steer treatment and are responsible for the vast majority of decisions, and therefore expenditures, in healthcare. Yet the technology that mediates the physician-patient relationship today is not directly purchased or controlled by either the physicians or the patients. Electronic health records and health information exchange technology are sold as strategic assets to institutions — typically very large businesses, that currently have incentives to maximize institutional growth. We seek a better balance of institutional needs with the needs of physicians and patients."
+Tags = ["use-case","rwot","w3c","whitepaper","blockchain-id","decentralized-id"]
+
+["Protecting Digital Identities in Developing Countries"]
+Link = ["https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/protecting-digital-identities-in-developing-countries.pdf","https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/protecting-digital-identities-in-developing-countries.docx"]
+Description = "People in many parts of the developing world have little or no infrastructure for well-regulated government and commercial processes. This creates a pressing need for a safe place to store important personal data needed to access financial, insurance, education and healthcare services. A universal digital identity system would underpin information assurance through verifiable and reliable data that can be presented when required. This paper presents a strong use case for a self-sovereign identity system with verifiable information and user-controllable release."
+Tags = ["use-case","rwot","w3c","whitepaper","blockchain-id","humanitarian","decentralized-id"]
+
+["Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/satisfying-real-world-use-cases.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/satisfying-real-world-use-cases.docx"]
+Description = "In November 2015 Facebook's share price broke $100 USD/share, for a total valuation of $290 billion USD. This is evidence that both Facebook and the market understand the value of controlling and leveraging personal data. However, the now-conventional absorb-everything design of Facebook is a blunt one. Employing users as passive producers with no control of their own data only scratches the surface of what is possible with networks of information and identity."
+Tags = ["use-case","rwot","w3c","whitepaper","blockchain-id","decentralized-id"]
+
+["Embedding Human Wisdom in Our Digital Tomorrow"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/joram-engagement-model.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/digital-verification-advancements.docx"]
+Description = "There were a number of enhancements made to Digital Verification at the 3rd Rebooting Web of Trust event. The following document summarises the advancements made as a direct result of participation from the workshop attendees.\n\nFounding of the W3C Digital Verification Community Group\nBased on various hallway and lunch discussions, it became evident that the community wanted a more permanent location to store artifacts and work on them. As a result of these discussions, the W3C Digital Verification Community Group was proposed, supported, and formed."
+Tags = ["rwot","w3c","whitepaper","blockchain-id","decentralized-id"]
+
+["Rebranding the Web of Trust"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/rebranding-web-of-trust.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/rebranding-web-of-trust.docx"]
+Description = "The Web of Trust. It’s the buzzword for a new model of decentralized identity. However, it’s also a phrase that dates back almost twenty-five years and has been heavily overloaded with meaning during that time. The classic definition of Web of Trust derives from PGP, but the top Google results refer to a website reputation rating system created by a Finnish internet company. Meanwhile, some use it as a big tent that includes identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the classic concept."
+Tags = ["rwot","w3c","whitepaper","blockchain-id","decentralized-id","weboftrust","history"]
+
+["Creating the New World of Trust"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.docx"]
+Description = "On November 3rd and 4th, the Rebuilding the Web of Trust design workshop looked at the future of decentralized trust on the internet with the goal of producing 3-5 white papers and specs. Those papers were polished for release in December, leaving the question: what's next?"
+Tags = ["rwot","w3c","whitepaper","blockchain-id","decentralized-id","weboftrust","history"]
+
+["Verifiable Claims Data Model and Representations specification"]
+Link = ["https://github.com/w3c/vc-data-model"]
+Description = "This specification describes a data model for a digital entity profile and a collection of digital entity credentials that assert verifiable claims about that entity profile. It also describes how to express that data model in JSON and JSON-LD.\n\nWe encourage contributions meeting the Contribution Guidelines. While we prefer the creation of issues and Pull Requests in the GitHub repository, discussions often occur on the public-vc-wg mailing list as well."
+Tags = ["w3c","github","verifiable-claims","did","code"]
+
+["Identity Credentials 1.0, Draft Community Group Report"]
+Link = ["https://opencreds.org/specs/source/identity-credentials/"]
+Description = "An identity is a collection of attributes about an entity that distinguish it from other entities. Entities are anything with distinct existence, such as people, organizations, concepts, or devices. Some entities, such as people, are multifaceted, having multiple identities that they present to the world. People are often able to establish trust by demonstrating that others have made valuable claims about their identities. One way of doing this is by presenting a credential. A credential is a set of claims made by an entity about an identity. A credential may refer to a qualification, achievement, quality, or other information about an identity such as a name, government ID, home address, or university degree that typically indicates suitability."
+Tags = ["w3c","specs","credentials","did","rwot","decentralized-id"]
+
+["Verifiable Claims Use Cases 1.0"]
+Link = ["https://w3c.github.io/vc-use-cases/"]
+Description = "A verifiable claim is a qualification, achievement, quality, or piece of information about an entity's background such as a name, government ID, payment provider, home address, or university degree. Such a claim describes a quality or qualities, property or properties of an entity which establish its existence and uniqueness. The use cases outlined here are provided in order to make progress toward possible future standardization and interoperability of both low and high-stakes claims with the goals of storing, transmitting, and receiving digitally verifiable proof of attributes such as qualifications and achievements. The use cases in this document focus on concrete scenarios that the technology defined by the group should address."
+Tags = ["w3c","specs","verifiable-claims","did","rwot","decentralized-id"]
+
+["Verifiable Claims Data Model 1.0"]
+Link = ["https://w3c.github.io/vc-data-model/"]
+Description = "Credentials are a part of our daily lives; driver's licenses are used to assert that we are capable of operating a motor vehicle, university degrees can be used to assert our level of education, and government-issued passports enable holders to travel between countries. This specification provides a mechanism to express these sorts of credentials on the Web in a way that is cryptographically secure, privacy respecting, and machine verifiable."
+Tags = ["w3c","specs","credentials","did","rwot","decentralized-id"]
+
+["Linked Data Signatures 1.0, Draft Community Group Report"]
+Link = ["https://w3c-dvcg.github.io/ld-signatures/"]
+Description = "This specification describes a mechanism for ensuring the authenticity and integrity of Linked Data documents using digital signatures."
+Tags = ["w3c","specs","signatures","did","rwot","decentralized-id"]
+
+["Linked Data Signature Suites"]
+Link = ["https://w3c-dvcg.github.io/"]
+Description = "The group is currently incubating, implementing, and deploying the following specifications:\n\n* Linked Data Signatures - Describes a mechanism for ensuring the authenticity and integrity of linked data documents using digital signatures.\n* Signing HTTP Messages - Describes a mechanism for ensuring the authenticity and integrity of HTTP Messages using digital signatures. A security audit of the protocol is available.\n* 2017 RSA Signature Suite - Signature Suite for RSA 2017. There is an older signature suite for RSA 2016.\n* 2016 Koblitz Elliptic Curve Suite - Signature Suite for the Koblitz Elliptic Curve 2016.\n* 2016 Redaction Signature Suite - Signature Suite created in 2016 for performing Redacted signatures.\n* 2016 Pseudonymous Signature Suite - Signature Suite for Pseudonymous 2016 signatures.\n* 2017 Merkle Proof Signature Suite - Signature Suite for Merkle Proof 2017 signatures."
+Tags = ["w3c","specs","signatures","did","rwot","decentralized-id"]
+
+["JSON-LD 1.0, W3C Recommendation"]
+Link = ["https://www.w3.org/TR/json-ld/"]
+Description = "JSON is a useful data serialization and messaging format. This specification defines JSON-LD, a JSON-based format to serialize Linked Data. The syntax is designed to easily integrate into deployed systems that already use JSON, and provides a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines."
+Tags = ["w3c","specs","json","did","rwot","decentralized-id"]
+
+["RDF Canonicalization, Draft Community Group Report"]
+Link = ["https://json-ld.github.io/normalization/spec/"]
+Description = "RDF [RDF-CONCEPTS] describes a graph-based data model for making claims about the world and provides the foundation for reasoning upon that graph of information. At times, it becomes necessary to compare the differences between sets of graphs, digitally sign them, or generate short identifiers for graphs via hashing algorithms. This document outlines an algorithm for normalizing RDF datasets such that these operations can be performed."
+Tags = ["w3c","specs","rdf","did","rwot","decentralized-id"]
 
