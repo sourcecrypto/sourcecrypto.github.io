@@ -169,9 +169,9 @@ Description = "The constitution of the Sovrin Network—specifies the business, 
 Tags = ["sovrin","decentralized-id","documentation","self-sovereign","blockchain-id"]
 
 ["How Sovrin Works—A Technical Guide from the Sovrin Foundation"]
-Link = ["https://sovrin.org/wp-content/uploads/2018/03/How-Sovrin-Works.pdf"]
+Link = ["https://sovrin.org/wp-content/uploads/2018/03/How-Sovrin-Works.pdf","https://www.evernym.com/wp-content/uploads/2017/07/How-Sovrin-Works.pdf"]
 Description = "Sovrin is an open-source identity network built on distributed ledger technology. Sovrin is public and permissioned. Public means everyone can use it. Permissioned means that the network nodes that ensure consensus of transactions on the ledger are governed, in this case by the non-profit Sovrin Foundation"
-Tags = ["sovrin","decentralized-id","documentation","self-sovereign","whitepaper"]
+Tags = ["evernym","sovrin","decentralized-id","documentation","self-sovereign","whitepaper"]
 
 ["Getting Started with Sovrin"]
 Link = ["https://sovrin.org/library/getting-started-with-sovrin/"]
