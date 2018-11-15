@@ -94,9 +94,9 @@ Description = "It is currently difficult to express banking account information,
 Tags = ["w3c","credentials","did","verifiable-claims","decentralized-id","self-sovereign","documentation"]
 
 ["IBM Identity Mixer"]
-Link = ["https://www.zurich.ibm.com/identity_mixer/"]
-Description = "IBM Identity Mixer is a cryptographic protocol suite for privacy-preserving authentication and transfer of certified attributes."
-Tags = ["privacy","reserach-paper","sovrin","indy","ibm","decentralized-id","documentation","protocol"]
+Link = ["https://www.zurich.ibm.com/identity_mixer/","https://domino.research.ibm.com/library/cyberdig.nsf/papers/EEB54FF3B91C1D648525759B004FBBB1/$File/rz3730_revised.pdf"]
+Description = "\"Indy uses a Zero Knowledge Proof architecture based on IDEMix architecture from Jan Camenisch at IBM Research. “This paper describes the Identity Mixer anonymous credential system that integrates cryptographic techniques from many sources to build an anonymous credential system with a rich feature set.” They are used to prove the possession of Camenisch-Lysyanskaya credentials. We also use zero-knowledge proofs in the revocation protocol, which is based on cryptographic accumulators.\"\n\nIBM Identity Mixer is a cryptographic protocol suite for privacy-preserving authentication and transfer of certified attributes."
+Tags = ["camenisch","camenisch-lysyanskaya","privacy","research-paper","sovrin","indy","ibm","decentralized-id","documentation","protocol","idemix","cryptographic-accumulators"]
 
 ["Concepts and Features of Privacy-Preserving Attribute-Based Credentials"]
 Link = ["https://github.com/p2abcengine/p2abcengine/wiki/Concepts-and-features","https://camo.githubusercontent.com/284d8e3e1fa7a0079847800271779e82bab4a4b2/68747470733a2f2f7261772e6769746875622e636f6d2f7032616263656e67696e652f7032616263656e67696e652f6d61737465722f446f63756d656e746174696f6e2f466967757265732f456e7469746965732d332e6a7067"]
@@ -316,7 +316,7 @@ Tags = ["evernym","decentralized-id","blockchain-id","self-sovereign","organizat
 ["Self-Sovereign Identity Systems for Humanitarian Interventions—A Case Study on Protective Cash Transfer Programs"]
 Link = ["https://repository.tudelft.nl/islandora/object/uuid:6cdb5450-9a81-47a9-8ffa-f9bd77c72448/datastream/OBJ1/download"]
 Description = "Situation: Information management enables humanitarian organizations to make adequate interventions based on timely, appropriate and trustworthy information. A crucial type of information are identities, because they can be used to assess vulnerability and efficiently manage aid distribution. Vulnerability determines who receives aid first because resources are always limited. This information is increasingly being stored and processed in identity systems. Complication: Most identity systems are centralized and produce analogue proofs of identity such as passports or ID cards. These systems are susceptible to privacy and data breaches. Centralization leads to single-points-of-failure and could lead to fraudulent behavior resulting in people lacking formal proofs of identity. In general there is limited interoperability between identity systems and limited collaboration between the owners of these systems. Approach: To create an interoperable and shared digital identity system using a Design Science Research strategy and systems engineering approach. This system must be distributed, protect privacy and put the identity owner in control of his or her data. The foundation of the system consists of Humanitarian Information Management principles, Privacy-by-Design principles and Self-Sovereign Identity principles. This research creates a functional blockchain based system, that enables identities for the use-case of Cash Transfer Programs. Results: We present a validated set of ten design decisions that represent the trade-offs that have been made and prescribe a blueprint for a technical design. Next steps: Future research should be done on how such a system could be implemented and used. This would require a process design approach that has to be developed, Also, elaborate research into user experience and user interfaces should be conducted."
-Tags = ["delft","reserach-paper","self-sovereign","decentralized-id"]
+Tags = ["delft","research-paper","self-sovereign","decentralized-id"]
 
 ["Proof of Authority"]
 Link = ["https://blockonomi.com/proof-of-authority/"]
@@ -424,7 +424,7 @@ Description = "Identity is one use case of the blockchain that has many people e
 Tags = ["self-sovereign","christophera","history","consensus","2016","blog"]
 
 ["Transforming our world: the 2030 Agenda for Sustainable Development"]
-Link =["https://sustainabledevelopment.un.org/post2015/transformingourworld"]
+Link = ["https://sustainabledevelopment.un.org/post2015/transformingourworld"]
 Description = "That document details 17 sustainable development goals with 169 specific points between them. The overarching mission contained within these goals, \"to achieving sustainable development in its three dimensions – economic, social and environmental – in a balanced and integrated manner.\" Prominently among the agenda’s goals is providing proper identification to the world, by 2030."
 Tags = ["decentralized-id","un","sdg","state"]
 
@@ -573,11 +573,6 @@ Link = ["https://blog.ethereum.org/2016/01/15/privacy-on-the-blockchain/"]
 Description = "Blockchains are a powerful technology, as regular readers of the blog already likely agree. They allow for a large number of interactions to be codified and carried out in a way that greatly increases reliability, removes business and political risks associated with the process being managed by a central entity, and reduces the need for trust. They create a platform on which applications from different companies and even of different types can run together, allowing for extremely efficient and seamless interaction, and leave an audit trail that anyone can check to make sure that everything is being processed correctly.\n\n includes some thoughts about identity systems."
 Tags = ["vitalik","privacy","blockchain-id","peacekeeper","blog"]
 
-["Jolocom"]
-Link = ["http://jolocom.com/","https://github.com/solid/solid-spec","http://agile-iot.eu/"]
-Description = "developing a \"SmartWallet\" for everyone to own their personal digital identity, using [Social Linked Data](https://github.com/solid/solid-spec), WebID, and verifiable claims standards, as well as Ethereum smart contracts. The company focuses on decentralization and GDPR compliance, and is part of the E.U. [AGILE](http://www.agile-project-iot.eu/) IoT consortium."
-Tags = ["ethereum","gdpr","blockchain-id","peacekeeper","jolocom"]
-
 ["Danube Tech"]
 Link = ["http://danubetech.com/"]
 Description = "DANUBE TECH is a company working on technologies in the field of digital identity and personal data, including personal agents, semantic graphs, and blockchain identity.\n\nThese emerging tools essentially place individuals at the center of their online relationships and transactions, and give us all the ability to create, manage, use, and destroy our online identities according to our own rules, and without delegating power to intermediaries.\n\ncollaborating with several other efforts to build blockchain-based identifier registration, data sharing, and messaging infrastructure.\" —#peacekeeper"
@@ -625,13 +620,13 @@ Tags = ["digital-id","cheapid","peacekeeper","app"]
 
 ["DID Specs"]
 Link = ["https://docs.google.com/document/d/1Z-9jX4PEWtyRFD5fEyyzEnWK_0ir0no1JJLuRu8O9Gs/"]
-Description = "(Decentralized Identifiers) are a new type of identifier intended for digital identity that is \"self-sovereign\", i.e, fully under the control of the identity owner. DIDs resolve to DDOs (DID descriptor objects) and can be registered in different blockchains (using different \"methods\")."
+Description = "Decentralized Identifiers are a new type of identifier intended for digital identity that is \"self-sovereign\", i.e, fully under the control of the identity owner. DIDs resolve to DDOs (DID descriptor objects) and can be registered in different blockchains (using different \"methods\")."
 Tags = ["w3c","did","documentation","self-sovereign","decentralized-id","peacekeeper"]
 
 ["Jolocom"]
-Link = ["https://jolocom.io/","https://github.com/jolocom/"]
-Description = "An open source protocol for people and smart agents to autonomously create and interact with digital, self-sovereign identities.\n\nA research project on registering WebIDs on the Ethereum blockchain, to be used for Linked Data and Solid. #peacekeeper"
-Tags = ["jolocom","self-sovereign","decentralized-id","blockchain-id","ethereum","peacekeeper","protocol"]
+Link = ["http://jolocom.com/","https://github.com/solid/solid-spec","http://agile-iot.eu/"]
+Description = "developing a \"SmartWallet\" for everyone to own their personal digital identity, using [Social Linked Data](https://github.com/solid/solid-spec), WebID, and verifiable claims standards, as well as Ethereum smart contracts. The company focuses on decentralization and GDPR compliance, and is part of the E.U. [AGILE](http://www.agile-project-iot.eu/) IoT consortium."
+Tags = ["self-sovereign","decentralized-id","protocol","ethereum","gdpr","blockchain-id","peacekeeper","jolocom","agile","iot"]
 
 ["The Relationship Between Blockchain and Digital Identity"]
 Link = ["http://www.gsma.com/personaldata/the-relationship-between-blockchain-and-digital-identity"]
@@ -666,7 +661,7 @@ Tags = ["deloitte","smartid","ethereum","peacekeeper","kyc","app"]
 ["TOWARDS SELF-SOVEREIGN IDENTITY USING BLOCKCHAIN TECHNOLOGY"]
 Link = ["http://essay.utwente.nl/71274/"]
 Description = "With more than three billion internet users, each with multiple digital identities, the management of these identities is very important.  Surveys show that people often use the identity management systems  they don't want to use. They don't have full control over their information, have no way to know what is shared with other parties and are dependent on trusted parties when logging in to websites. Blockchain technology is used as basis for a secure and transparent distributed ledger for the Bitcoin cryptocurrency. Its decentralized, public and immutable properties solve the double spending problem and allow every participant of the network to read the transaction history, help in the validation process and pay and receive Bitcoin.\nCryptographically complex math ensures that everyone can do transactions with everyone without the need for a trusted third party. Nextto financial transactions, this also holds for other claims. Entities can put claims on a decentralized ledger by digitally signing it, which allows any other entity to verify that these claims are made by that specific entity.\nThis allows authorities like governments to make claims about individuals, which can be combined with other claims to create a very strong claim about someone. Because both the claimant and the claimee can be verified, this allows entities like mortgage lenders to outsource their Customer Due Diligence (CDD) processes.\nIn this research we will explore the possibility of self-sovereign identity, where you are in control of your digital identity. We started with a desk research on currently available identity man agement solutions. We concluded that in most systems, the end-user is not able to store their own data. Currently only one decentralized system is available, but has not gained wide adoption yet.\nA case study has been performed on a solution which allows the ex change of KYC attributes, resulting from thorough Customer Due Dili gence (CDD) as is often performed when opening a bank account. These attributes can be used by other entities, like insurance companies and mortgage lenders to make their on-boarding process easier for customers, since they don't need to supply copies of the same documentation all over again. Also, the companies themselves could outsource their Customer Due Diligence (CDD) this way to lower costs and make fewer errors. Although the idea is very interesting, the studied solution did not meet the expectations. At the time the company behind the solution was very small and the process to improve very complex. The solution was also proprietary, creating dependence on the vendor, which heightens the adoption barrier.\nBecause of the lessons learned from the case study, the results of the literature research and the desk research, we designed an architecture for a Decentralized Identity Management System (DIMS) using the concept of claim-based identity and blockchain technology. To lower adoption barriers and create a self-sustaining ecosystem, it will be developed on a public blockchain and source code will be made open-source. The solution will be privacy-friendly by using privacy-enhancing techniques and storing only claims about one's identity. We also provide a solution to allow retrieval of more sensitive data, and made it as modular as possible to make integration within existing IT architecture easier.\nThe Decentralized Identity Management System (DIMS) can be useful in a wide range of use cases, like proving your age when buying liquor at the supermarket or applying for a health insurance where you get a student discount if you can show your are enrolled at a university. This shows that our work resulted in a solid foundation for self-sovereign identity using blockchain technology.—by D.S. Baars."
-Tags = ["reserach-paper","self-sovereign","blockchain-id","peacekeeper","kyc"]
+Tags = ["research-paper","self-sovereign","blockchain-id","peacekeeper","kyc"]
 
 ["The Fermat project"]
 Link = ["http://www.fermat.org/"]
@@ -756,7 +751,7 @@ Tags = ["huid","cicada","dpow","direct-democracy","zkp","self-sovereign","peacek
 ["Self-sovereign Identity –	Opportunities and Challenges for the Digital Revolution"]
 Link = ["https://arxiv.org/pdf/1712.01767.pdf"]
 Description = "Uwe Der1, Stefan Jähnichen2,3, Jan Sürmeli2,3 \n\nAbstract. The interconnectedness of people, services and devices is a defining aspect of the digital revolution, and, secure digital identities are an important prerequisite for secure and legally compliant information exchange. Existing approaches to realize a secure identity management focus on central providers of identitiessuch as national authorities or online service providers. Hence, changing residence or service provider often  means to start over and creating new identities, because procedures for data portability are missing. Self-sovereign digital identities are instead created and managed by individuals, and enable them to maintain their digital identities independent from residence, national eID infrastructure and market-dominating service providers. "
-Tags = ["self-sovereign","reserach-article","blockchain-id"]
+Tags = ["self-sovereign","research-article","blockchain-id"]
 
 ["ÆVATAR"]
 Link = ["http://aevatar.com/"]
@@ -937,3 +932,23 @@ Tags = ["ubi","peacekeeper","identification"]
 Link = ["https://onekosmos.com/product-details/"]
 Description = "by 1Kosmos offers an app that can validate photos of physical ID documents as well as record one's photo, fingerprint, and voice in a \"trusted identity safe\". It can be used to log in to websites and Windows desktop apps. Encrypted identity data is also stored on a blockchain for backup purposes."
 Tags = ["1kosmos","blockid","blockchain-id"]
+
+["The Knowledge Complexity Of Interactive Proofs"]
+Link = ["http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.419.8132&rep=rep1&type=pdf","http://imgur.com/pEes9KNl.png"]
+Description = "Zero knowledge proof (ZKP) originally proposed in this 1985 paper"
+Tags = ["zkp","research-paper","academic","mit","privacy"]
+
+["Privacy-Preserving Authentication, Another Reason to Care about Zero-Knowledge Proofs"]
+Link = ["https://i.imgur.com/SBo66oE.jpg","https://i.imgur.com/VUJDCe5.jpg","https://www.slideshare.net/eralcnoslen/privacypreserving-authentication-another-reason-to-care-about-zeroknowledge-proofs"]
+Description = "In the near future, privacy-preserving authentication methods will flood the market, and they will be based on Zero-Knowledge Proofs. IBM and Microsoft invested in these solutions many years ago."
+Tags = ["zkp","privacy","presentation","image","blockchain-id","sovrin","indy","decentralized-id"]
+
+["An Efficient System for Non-transferable Anonymous Credentials with Optional Anonymity Revocation"]
+Link = ["https://www.iacr.org/archive/eurocrypt2001/20450093.pdf"]
+Description = "Abstract. A credential system is a system in which users can obtain credentials from organizations and demonstrate possession of these credentials. Such a system is anonymous when transactions carried out by the same user cannot be linked. An anonymous credential system is of significant practical relevance because it is the best means of providing privacy for users. In this paper we propose a practical anonymous credential system that is based on the strong RSA assumption and the decisional Diffie-Hellman assumption modulo a safe prime product and is considerably superior to existing ones: (1) We give the first practical solution that allows a user to unlinkably demonstrate possession of a credential as many times as necessary without involving the issuing organization. (2) To prevent misuse of anonymity, our scheme is the first to offer optional anonymity revocation for particular transactions. (3) Our scheme offers separability: all organizations can choose their cryptographic keys independently of each other. Moreover, we suggest more effective means of preventing users from sharing their credentials, by introducing allor-nothing sharing: a user who allows a friend to use one of her credentials once, gives him the ability to use all of her credentials, i.e., taking over her identity. This is implemented by a new primitive, called circular encryption, which is of independent interest, and can be realized from any semantically secure cryptosystem in the random oracle model."
+Tags = ["camenisch","camenisch-lysyanskaya","privacy","research-paper","sovrin","indy","ibm","decentralized-id","documentation","idemix"]
+
+["An Accumulator Based on Bilinear Maps and Efficient Revocation for Anonymous Credentials"]
+Link = ["https://eprint.iacr.org/2008/539.pdf"]
+Description = "Abstract. The success of electronic authentication systems, be it eID card systems or Internet authentication systems such as CardSpace, highly depends on the provided level of user-privacy. Thereby, an important requirement is an efficient means for revocation of the authentication credentials. In this paper we consider the problem of revocation for certificate-based privacy-protecting authentication systems. To date, the most efficient solutions for revocation for such systems are based on cryptographic accumulators. Here, an accumulate of all currently valid certificates is published regularly and each user holds a witness enabling her to prove the validity of her (anonymous) credential while retaining anonymity. Unfortunately, the users’ witnesses must be updated at least each time a credential is revoked. For the know solutions, these updates are computationally very expensive for users and/or certificate issuers which is very problematic as revocation is a frequent event as practice shows.\nIn this paper, we propose a new dynamic accumulator scheme based on bilinear maps and show how to apply it to the problem of revocation of anonymous credentials. In the resulting scheme, proving a credential’s validity and updating witnesses both come at (virtually) no cost for credential owners and verifiers. In particular, updating a witness requires the issuer to do only one multiplication per addition or revocation of a credential and can also be delegated to untrusted entities from which a user could just retrieve the updated witness. We believe that thereby we provide the first authentication system offering privacy protection suitable for implementation with electronic tokens such as eID cards or drivers’ licenses." 
+Tags = ["camenisch","privacy","research-paper","sovrin","indy","ibm","decentralized-id","documentation","idemix"]
