@@ -691,7 +691,7 @@ Tags = ["peacekeeper","helix","blockchain-id","kyc","platform"]
 ["Pillar Project"]
 Link = ["http://pillarproject.io","https://pillarproject.io/documents/Pillar-Gray-Paper.pdf"]
 Description = "is planning to offer a \"Personal Data Locker\" consisting of a wallet, browser, and token exchange. Personal assets will be put on a blockchain, and \"Pillar\" tokens will be issued."
-Tags = ["verifiable-claims","peacekeeper","pillar","data-wallet","w3c"]
+Tags = ["verifiable-claims","peacekeeper","pillar","personal-data-wallet","w3c"]
 
 ["SecureKey Technologies partners with IBM"]
 Link = ["(http://securekey.com/","http://www-03.ibm.com/press/us/en/pressrelease/51841.wss"]
@@ -726,7 +726,7 @@ Tags = ["blockchain-id","humanitarian","decentralized-id","banqu","peacekeeper"]
 ["Vida Identity"]
 Link = ["https://getvida.io"]
 Description = "VIDA combines advanced threshold cryptography with unbeatable ease-of-use to make securing and accessing your most important files a breeze, not a chore.\n\nwas: 'vidaidentity.com' \"is a blockchain identity and authentication platform that enables distributed key revocation and reissuance. Access to data is always permissioned across applications and services.\" —#peacekeeper"
-Tags = ["vida-id","getvida","blockchain-id","peacekeeper","data-wallet"]
+Tags = ["vida-id","getvida","blockchain-id","peacekeeper","personal-data-wallet"]
 
 ["Mathematical Mesh"]
 Link = ["http://mathmesh.com/"]
@@ -791,110 +791,149 @@ Tags = ["self-sovereign","eth-app","blockchain-id","trustedkey","peacekeeper"]
 ["Tradle"]
 Link = ["https://tradle.io/","https://github.com/tradle/mycloud"]
 Description = "offers a \"global trust provisioning network\" to provide blockchain-based KYC functionality for both \"intrabank\" and \"external\" transfers. Mobile and web interfaces as well as bots are available for both customers and employees of financial institutions."
-Tags = ["kyc","blockchain-id","tradle","decentralized-id"]
+Tags = ["kyc","blockchain-id","tradle","decentralized-id","peacekeeper"]
 
 ["Nuggets"]
 Link = ["http://www.nuggets.life/","https://nuggets.life/images/Nuggets-White-Paper.pdf"]
 Description = "is a blockchain platform giving users a single biometric tool for login, payment and identity verification. It stores an individual's information in a \"personal cloud\" in \"zero-knowledge blockchain storage\". A mobile app allows using the camera to add physical identity and payment cards."
-Tags = ["nuggets","blockchain-id","eth-app"]
+Tags = ["nuggets","blockchain-id","eth-app","peacekeeper"]
 
 ["SelfKey Depreciated?"]
 Link = ["https://selfkey.org/"]
 Description = "is a self-sovereign identity technology stack with an open source identity wallet for the identity owner, a marketplace with real products and services, a JSON-LD protocol, connection to 3rd party identity micro services, and a native token called \"KEY\" which enables the SelfKey ecosystem to exchange value and data."
-Tags = ["selfkey","self-sovereign",""]
+Tags = ["selfkey","self-sovereign","peacekeeper"]
 
 ["Democracy Earth Foundation"]
 Link = ["http://democracy.earth/","http://sovereign.software/"]
 Description = "is developing \"Sovereign\", a blockchain direct democracy tool using \"vote\" tokens to grant democratic participation rights to every human. A proof-of-individuality (POI) process based on peer-to-peer validation establishes that a self-sovereign identity is uniquely tied to a single person. The project introduces a number of interesting socio-technical concepts such as \"Social Smart Contract\", \"Initial Rights Offering\", and \"Cryptographically Induced Equality\". Cooperation is happening with other decentralized identity initiatives such as Blockstack and uPort."
-Tags = ["poi","self-sovereign","organizations","democracy-earth"]
+Tags = ["poi","self-sovereign","organizations","democracy-earth","peacekeeper"]
 
 ["Taqanu"]
 Link = ["https://www.taqanu.com/"]
 Description = "is opening the financial ecosystem for anyone by using a blockchain based digital ID to enable financial inclusion and create equal opportunities."
-Tags = ["taqanu","blockchain-id","humanitarian","id-app"]
+Tags = ["taqanu","blockchain-id","humanitarian","id-app","peacekeeper"]
 
 ["Illinois Blockchain Initiative"]
 Link = ["https://illinoisblockchain.tech/","https://illinoisblockchain.tech/illinois-partners-with-evernym-to-launch-birth-registration-pilot-f2668664f67c"]
 Description = "is partnering with Evernym to develop a birth registry pilot, where self-sovereign identities are created, and government agencies issue \"verifiable claims\" for birth registration attributes such as legal name, date of birth, sex or blood type."
-Tags = ["self-sovereign","birth-registry","illinois-blockchain","blockchain-id","evernym","verifiable-Claims","did"]
+Tags = ["self-sovereign","birth-registry","illinois-blockchain","blockchain-id","evernym","verifiable-Claims","did","peacekeeper"]
 
 ["Ockam"]
 Link = ["https://www.ockam.io/"]
 Description = "is creating a ERC20 based platform that registers IOT devices to a blockchain to solve systemic security and interoperability problems."
-Tags = ["ockam","iot","erc20"]
+Tags = ["ockam","iot","erc20","peacekeeper"]
 
 ["ERC725 and ERC735"]
 Link = ["https://github.com/ethereum/EIPs/issues/725","https://github.com/ethereum/EIPs/issues/735"]
 Description = "are proposals in the Ethereum community to standardize the use of smart contracts for certain identity-related operations such as key management, as well as signing transactions, documents, and \"claims\", which may be attested by third parties or self-asserted."
-Tags = ["erc725","erc735","blockchain-id","ethereum","erc","identification"]
+Tags = ["erc725","erc735","blockchain-id","ethereum","erc","identification","peacekeeper"]
 
 ["Verified Organization Network"]
 Link = ["https://vonx.io/","https://github.com/bcgov/von","https://github.com/bcgov/theorgbook"]
 Description = "is an initiative by the government of British Columbia to create a trusted network of organizational data. It allows organizations to claim credentials that are part of their own digital identity, using a component called [TheOrgBook](https://github.com/bcgov/theorgbook) that lists entities with their associated public verifiable claims."
-Tags = ["bc-gov","canada","verifiable-claims","von","w3c"]
+Tags = ["bc-gov","canada","verifiable-claims","von","w3c","peacekeeper"]
 
 ["Alastria"]
 Link = ["https://alastria.io/","https://github.com/alastria/alastria-identity"]
 Description = "is a non-profit consortium building a national blockchain ecosystem for Spain. The security and veracity of information will be ensured through the identification of natural and legal persons, while at the same time allowing citizens to have control over their personal information in a transparent way following the guidelines set by the European Union.-#peacekeeper"
-Tags = ["spain","alastria","non-profit","gdpr","blockchain-id","national-blockchain","uport","quorum","ethereum"]
+Tags = ["spain","alastria","non-profit","gdpr","blockchain-id","national-blockchain","uport","quorum","ethereum","peacekeeper"]
 
 ["Blockcerts"]
 Link = ["https://www.blockcerts.org"]
 Description = "is an open standard for issuing and verifying blockchain-based official records, such as cvic records, academic credentials, professional licenses, workforce development, and more. The project offers  open-source libraries, tools, and mobile apps. MIT has [started to issue](https://www.insidehighered.com/news/2017/10/19/mit-introduces-digital-diplomas) digital certificates based on this standard.-#peacekeeper"
-Tags = ["blockcerts","certificates","identification","btc-lyr2","eth-app"]
+Tags = ["blockcerts","certificates","identification","btc-lyr2","eth-app","peacekeeper"]
 
 ["Kimlic"]
 Link = ["http://kimlic.com/"]
 Description = "is a mobile app that uses a private blockchain as a source of truth for identity. It stores personal data on the mobile device and allows the sharing of verifiable identity claims and documents."
-Tags = ["blockchain-id","self-sovereign","kyc","app","kimlic"]
+Tags = ["blockchain-id","self-sovereign","kyc","app","kimlic","peacekeeper"]
 
 ["Datum"]
 Link = ["https://datum.org","https://datum.org/assets/Datum-WhitePaper.pdf"]
 Description = "network allows anyone to store structured data on a smart contract blockchain. Data can optionally be bought and sold on a marketplace using the DAT token. Datum leverages BigchainDB and IPFS as data storage backends. All data is encrypted and protected using AES256-GCM. -#peacekeeper"
-Tags = ["datum","peacekeeper","data-marketplace","blockchain-id"]
+Tags = ["datum","peacekeeper","data-marketplace","blockchain-id","ipfs"]
 
 ["Aversafe"]
 Link = ["https://www.aversafe.com/"]
 Description = "allows individuals to store personal details, work history, certificates and achievements. It leverages a permissioned blockchain for trusted audit and participation in the storage of attestation data separate from the actual data stored on users' phones.-#peacekeeper"
-Tags = ["aversafe","data-wallet","blockchain-id","peacekeeper"]
+Tags = ["aversafe","personal-data-wallet","blockchain-id","peacekeeper"]
 
 ["QED-it"]
 Link = ["http://qed-it.com/"]
 Description = "is building a platform for confidentiality on blockchain, using scalable zero-knowledge proof technology, in order to achieve decentralization, consensus, and confidentiality at the same time. This enables dynamic identity and \"proof for all with data to no one\"."
-Tags = ["blockchain-id","qed-it","zkp","business"]
+Tags = ["blockchain-id","qed-it","zkp","business","peacekeeper"]
 
 ["Syscoin"]
 Link = ["http://syscoin.org/"]
 Description = "by [Blockchain Foundry](http://www.blockchainfoundry.co/) offers an identity system that associates \"aliases\" with data and public keys. Aliases can be used for native Syscoin services such as sending coins and encrypted messages. Aliases can also provide identity to Bitcoin and Zcash users."
-Tags = ["syscoin","blockchain-foundry","aliases","bitcoin","zcash","blockchain-id"]
+Tags = ["syscoin","blockchain-foundry","aliases","bitcoin","zcash","blockchain-id","peacekeeper"]
 
 ["AID:Tech"]
 Link = ["https://aid.technology/"]
 Description = "is a voucher and digital identity solution for refugees. A digital record of a person's identity is stored on a smart card, along with various additional information. Blockchain technology is used to distribute all resources in a highly traceable manner."
-Tags = ["aid-tech","humanitarian","un","blockchain-id"]
+Tags = ["aid-tech","humanitarian","un","blockchain-id","peacekeeper"]
 
-[Tierion](https://tierion.com/) offers an API that uses the [Chainpoint](https://chainpoint.org/) standard to record proofs on a blockchain that data was recorded at a specific time. Among many other uses, this includes the ability to anchor verifiable records of customer data to optimize KYC processes.
+["Tierion"]
+Link = ["https://tierion.com/"]
+Description = "offers an API that uses the [Chainpoint](https://chainpoint.org/) standard to record proofs on a blockchain that data was recorded at a specific time. Among many other uses, this includes the ability to anchor verifiable records of customer data to optimize KYC processes."
+Tags = ["tierion","chainpoint","kyc","identification","peacekeeper"]
 
-[PikcioChain](https://pikciochain.com/) is a proprietary network and blockchain architecture designed for the collection, certification and exchange of personal data. Individuals install mobile apps that act as servers in a decentralized network, and can earn Pikcio Tokens (PKC) by selling or certifying their data.
+["PikcioChain"]
+Link = ["https://pikciochain.com/","https://pikciochain.com/media/dynamic_preferences/whitepaper__whitepaper_en/Ten8%20-%20PikcioChain%20Whitepaper%20English.pdf"]
+Description = "is a proprietary network and blockchain architecture designed for the collection, certification and exchange of personal data. Individuals install mobile apps that act as servers in a decentralized network, and can earn Pikcio Tokens (PKC) by selling or certifying their data."
+Tags = ["pikcio","peacekeeper","personal-data-market"]
 
-[ONTology](https://ont.io/) is a "Distributed Trust Network" which combines a cross-chain identity system, peer-to-peer data transmission, data authorization mechanisms, distributed data storage, attestation, and various industry-specific modules. It also includes an Ontology Crypto Package (OCP) and an Ontology Marketplace (OM).
+["ONTology"]
+Link = ["https://ont.io/"]
+Description = "is a \"Distributed Trust Network\" which combines a cross-chain identity system, peer-to-peer data transmission, data authorization mechanisms, distributed data storage, attestation, and various industry-specific modules. It also includes an Ontology Crypto Package (OCP) and an Ontology Marketplace (OM)."
+Tags = ["ontology","peacekeeper","decentralized-id","blockchain-id","personal-data-market"]
 
-[Persona](https://persona.im/) implements KYC processes using the [ARK](https://ark.io/) blockchain. Paper documents such as passports or bank statements are saved in IPFS using a "Persona Identity Dashboard". A "notary" then creates a hash of the content and publishes it on the Persona blockchain.
+["Persona"]
+Link = ["https://persona.im/","https://github.com/ontio/documentation"]
+Description = "implements KYC processes using the [ARK](https://ark.io/) blockchain. Paper documents such as passports or bank statements are saved in IPFS using a \"Persona Identity Dashboard\". A \"notary\" then creates a hash of the content and publishes it on the Persona blockchain."
+Tags = ["blockchain-id","kyc","ark","peacekeeper","ipfs","peacekeeper"]
 
-[Bloom](https://hellobloom.io) is a blockchain project for credit scoring and identity management that uses Ethereum and IPFS. Users create a "BloomID" contract that can be attested for by friends, family, and organizations. The "BloomIQ" system then reports and tracks debt obligations, resulting in a "BloomScore" as a metric of consumers' creditworthiness.
+["Bloom"]
+Link = ["https://hellobloom.io","https://bloom.co/whitepaper.pdf"]
+Description = "a blockchain project for credit scoring and identity management that uses Ethereum and IPFS. Users create a \"BloomID\" contract that can be attested for by friends, family, and organizations. The \"BloomIQ\" system then reports and tracks debt obligations, resulting in a \"BloomScore\" as a metric of consumers' creditworthiness."
+Tags = ["peacekeeper","ipfs","blockchain-id","bloomid","ethereum-app"]
 
-[Akarion](https://akarion.com/) offers a blockchain-bases SaaS product that helps companies to be GDPR compliant. All GDPR-relevant events are stored in a decentralized journal and visualized on a dashboard.
+["Akarion"]
+Link = ["https://akarion.com/"]
+Description = "offers a blockchain-bases SaaS product that helps companies to be GDPR compliant. All GDPR-relevant events are stored in a decentralized journal and visualized on a dashboard."
+Tags = ["akarion","baas","gdpr","personal-data-wallet","blockchain-id","peacekeeper"]
 
-A [paper](https://cboxxtest.files.wordpress.com/2017/09/cboxxidentitymatters04.pdf) called "Identity Matters" by [CBoxx](https://cboxx.com/) about self-sovereign identity that gives an overview of the concept, humanitarian applications, as well as relevant projects, standards and communities in this space.
+["IDENTITY MATTERS"]
+Link = ["https://cboxxtest.files.wordpress.com/2017/09/cboxxidentitymatters04.pdf"]
+Description = "A primer paper on the rise and relevance of Self-Sovereign Identity.\n\nby [CBoxx](https://cboxx.com/) about self-sovereign identity that gives an overview of the concept, humanitarian applications, as well as relevant projects, standards and communities in this space."
+Tags = ["cboxx","self-sovereign","gdpr","humanitarian","report","peacekeeper"]
 
-The ["Rohingya Project"](http://www.rohingyaproject.com/) is a grassroots initiative that looks to grant each Rohingya a personalized digital ID, and to tackle the problem of financial exclusion. It aims to make it possible to cryptographically prove one's existence and family relations, recorded on the blockchain.
+["Rohingya Project"]
+Link = ["http://www.rohingyaproject.com/"]
+Description = "is a grassroots initiative that looks to grant each Rohingya a personalized digital ID, and to tackle the problem of financial exclusion. It aims to make it possible to cryptographically prove one's existence and family relations, recorded on the blockchain."
+Tags = ["blockchain-id","humanitarian","rohingya","peacekeeper"]
 
-["Keyp"](https://keyp.io/) does not use blockchain, but still offers a self-sovereign digital identity infrastructure. A resource asks the user for specific attributes, which are stored in a wallet on a secure device. The wallet redirects the request to a specific "authenticator" that can validate the attribute.
+["Keyp"]
+Link = ["https://keyp.io/"]
+Description = "Welcome to Europe’s fastest growing open digital identity ecosystem.\n100+ identity solutions\n50+ ecosystem partners\n10+ technology partners\n\ndoes not use blockchain, but still offers a self-sovereign digital identity infrastructure. A resource asks the user for specific attributes, which are stored in a wallet on a secure device. The wallet redirects the request to a specific \"authenticator\" that can validate the attribute.\"—#peacekeeper"
+Tags = ["peacekeeper","keyp","self-sovereign"]
 
-The ["I/O Digital Foundation"](https://iodigital.io/) offers a Proof-of-Stake blockchain called Decentralised Input Output Name Server (DIONS). It will enable applications such as identity and alias registration, storage of legal documents, key exchange, and encrypted messaging.
+["I/O Digital Foundation"]
+Link = ["https://iodigital.io/","https://simplebooklet.com/iocoinwhitepaper#page=0"]
+Description = "offers a Proof-of-Stake blockchain called Decentralised Input Output Name Server (DIONS). It will enable applications such as identity and alias registration, storage of legal documents, key exchange, and encrypted messaging."
+Tags = ["name-serv","iodigital","pos","dions","blockchain-id","identification","peacekeeper"]
 
-["Dominode"](https://dominode.com/) is building a self-sovereign identity solution based on IPFS and public blockchains that focuses on identity for professionals in regulated industries. Identity data can be verified to be true and is fully portable.
+["Dominode"]
+Link = ["https://dominode.com/"]
+Description = "is building a self-sovereign identity solution based on IPFS and public blockchains that focuses on identity for professionals in regulated industries. Identity data can be verified to be true and is fully portable."
+Tags = ["ipfs","self-sovereign","blockahin-id","dominode","peacekeeper"]
 
-["UBIC"](https://github.com/UBIC-repo/core) is a blockchain-based cryptocurrency that distributes a Universal Basic Income to participants after they scan the NFC chip of their E-Passport.
+["UBIC"]
+Link = ["https://github.com/UBIC-repo/core"]
+Description = "cryptocurrency that distributes a Universal Basic Income to participants after they scan the NFC chip of their E-Passport."
+Tags = ["ubi","peacekeeper","identification"]
 
-["BlockID"](https://onekosmos.com/product-details/) by 1Kosmos offers an app that can validate photos of physical ID documents as well as record one's photo, fingerprint, and voice in a "trusted identity safe". It can be used to log in to websites and Windows desktop apps. Encrypted identity data is also stored on a blockchain for backup purposes.
+["BlockID"]
+Link = ["https://onekosmos.com/product-details/"]
+Description = "by 1Kosmos offers an app that can validate photos of physical ID documents as well as record one's photo, fingerprint, and voice in a \"trusted identity safe\". It can be used to log in to websites and Windows desktop apps. Encrypted identity data is also stored on a blockchain for backup purposes."
+Tags = ["1kosmos","blockid","blockchain-id"]
