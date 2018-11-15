@@ -508,11 +508,6 @@ Link = ["https://www.uport.me/","http://www.ibtimes.co.uk/ethereum-studio-consen
 Description = "A Consensys developed blockchain-based, self-sovereign identity system"
 Tags = ["self-sovereign","uport","blockchain-id","erc-725","decentralized-id","peacekeeper","protocol"]
 
-["Identit.ee"]
-Link = ["http://www.identit.ee/"] 
-Description = "a program to build blockchain identity solutions related to the Estonian e-Residency concept."
-Tags = ["identit-ee","blockchain-id","estonia","app","peacekeeper","depreciated","app"]
-
 ["BitAlias"]
 Link = ["https://bitalias.github.io/"]
 Description = "allows users to register names in the Bitcoin blockchain and point them to their wallets."
@@ -1041,7 +1036,7 @@ Tags = ["ip","gdpr","regulations","rwot","blockchain-id","whitepaper"]
 ["Estonia National Blockchain-ID"]
 Link = ["https://e-estonia.com/solutions/e-identity/id-card/","https://www.id.ee/","https://www.mccarthy.ca/en/insights/blogs/cyberlex/estonian-blockchain-based-id-card-security-flaw-raises-issues-about-identity"]
 Description = "Estonia had the most highly developed national ID system in existence. They issue an ID card that has a chip using 2048-bit public key encryption and can be used as an electronic proof of id. Estonia is one of the most progressive governments as far as integrating blockchain into public services. Unfortunately, a flaw in their chips made it easy to find a users private key through their public key. So their certificates have been revoked, and are currently useless as digital signatures."
-Tags = ["estonia","blockchain-id","id-ee","state"]
+Tags = ["identit-ee","estonia","blockchain-id","id-ee","state""app","peacekeeper"]
 
 ["Digital Verification Advancements at RWoT III"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/digital-verification-advancements.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/digital-verification-advancements.docx"]
