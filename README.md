@@ -14,7 +14,7 @@ We’ve started by focusing on fundamentals; general crypto topics; and specific
 
 There are currently 125 different channels, with thousands of resources, each devoted to a particular aspect of crypto. Obviously knowledge can't be so easily compartmentalized, but we do our best. We also happen to have the largest, freely-available, collection of learning materials about trading and evaluating cryptocurrencies\icos than can be found anywhere else. If you're interested in that type of thing.
 
- <img src="http://imgur.com/AmdCgVOl.png" />
+ <img src="https://i.imgur.com/zeYCNMS.jpg" />
 
 ## [crypt0library.net](http://crypt0library.net)
 
