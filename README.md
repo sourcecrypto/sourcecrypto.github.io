@@ -72,7 +72,7 @@ Big plans are in the works for the Crypto Library — Super Source.
 [crypt0library.net](http://crypt0library.net)<br/>
 https://twitter.com/@cryptinfominer<br/>
 
-Any contribution is appreciated!!
+Any contribution is appreciated!!\
 —BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY<br/>
 ![](http://imgur.com/xMd9r0rl.png)
 
