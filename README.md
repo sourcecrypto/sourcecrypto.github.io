@@ -70,6 +70,11 @@ Big plans are in the works for the Crypto Library — Super Source.
 ## Please visit [TOML](https://github.com/infominer33/Crypto-library/tree/master/toml) for further information
 
 [crypt0library.net](http://crypt0library.net)<br/>
-—BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY<br/>
 https://twitter.com/@cryptinfominer<br/>
+
+Any contribution is appreciated!!
+—BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY<br/>
+![](http://imgur.com/xMd9r0rl.png)
+
+
 —infominer@protonmail.com
