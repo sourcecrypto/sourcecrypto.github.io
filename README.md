@@ -54,7 +54,6 @@ In case you haven't been to the server yet, here is its directory to give you an
 We are now working on gathering all of the links into "toml" files, which are a simple format for transforming all of this information into a database. Of course all of that takes work. I very much enjoy the work, and it's a wonderful educational opportunity, but time-consuming. 
 
 Once all of the resources are tagged, and transformed into a database, the potential for the library grows exponentially.
-Big plans are in the works for the Crypto Library — Super Source.
 
 ### Project Overview
 
