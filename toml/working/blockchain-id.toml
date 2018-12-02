@@ -1,12 +1,12 @@
 ["Tykn: Extended Overview"]
 Link = ["https://docs.google.com/document/d/1pNRO6aOb5eK4s8PVv7yS4x9TkqrGglCJ4jebU1F3Yzo/edit#"]
 Description = "So far, we have identified three (3) key issues that we are seeking to resolve:\n\n1. Paper-based identification leading to costly paper trails, fraud and low interoperability of vital records, not to mention the 230 million invisible children around the globe, and the lack of both social and financial inclusion amongst vulnerable populations.\n2.Lack of resilience in identifying documents due to heavy centralisation leading to weakened communities when struck by man-made or natural disasters.\n3.Insufficient knowledge of Blockchain/Distributed Ledger Technologies within the government, municipalities and (non-)governmental organisations."
-Tags = ["tykn","sovrin","self-sovereign","blockchain-id","did","indy","permissioned","documentation"]
+Tags = ["tykn","sovrin","self-sovereign","blockchain-id","did","indy","permissioned","documentation","humanitarian"]
 
 ["The Future of Resilient Identity"]
 Link = ["https://tykn.tech/"]
 Description = "At Tykn, we help NGOs and governments help people better with Ana, our white-label identity management system for humanitarian aid, which comprises higher-order applications for aid distribution, greater project level metrics and the identification of beneficiaries."
-Tags = ["app","tykn","did","blockchain-id","self-sovereign","indy","permissioned","protocol","business"]
+Tags = ["app","tykn","did","blockchain-id","self-sovereign","indy","permissioned","protocol","business","humanitarian"]
 
 ["How do we start tackling the existing identity problem?"]
 Link = ["https://www.ibm.com/blogs/blockchain/2018/06/how-do-we-start-tackling-the-existing-identity-problem/"]
@@ -34,9 +34,9 @@ Description = "What on Earth is ERC725? The Answer to the Question of Self-Sover
 Tags = ["erc","erc-725","ethereum","origin","self-sovereign","blockchain-id","blog"]
 
 ["Hyperledger Indy - Distributed ledger and utility library"]
-Link = ["https://www.hyperledger.org/projects/hyperledger-indy"]
+Link = ["https://www.hyperledger.org/projects/hyperledger-indy","https://wiki.hyperledger.org/projects/indy/documentation"]
 Description = "Hyperledger Indy is a distributed ledger, purpose-built for decentralized identity. It provides tools, libraries, and reusable components for creating and using independent digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other \"silo.\""
-Tags = ["evernym","tykn","hyperledger","indy","sovrin","blockchain-id","did","self-sovereign","decentralized-id","protocol"]
+Tags = ["evernym","tykn","hyperledger","indy","sovrin","blockchain-id","did","self-sovereign","decentralized-id","protocol","wiki"]
 
 ["Blockchains and Data Protection in the European Union"]
 Link = ["https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3080322"]
@@ -46,7 +46,7 @@ Tags = ["gdpr","regulations","research-paper","eu","self-sovereign","max-planck"
 ["Deployment of a Blockchain-Based Self-Sovereign Identity - Delft"]
 Link = ["https://arxiv.org/pdf/1806.01926.pdf","http://msn.iecs.fcu.edu.tw/report/download.php?id=287"]
 Description = "Abstract—Digital identity is unsolved: after many years of research there is still no trusted communication over the Internet. To provide identity within the context of mutual distrust, this paper presents a blockchain-based digital identity solution. Without depending upon a single trusted third party, the proposed solution achieves passport-level legally valid identity. This solution for making identities Self-Sovereign, builds on a generic provable claim model for which attestations of truth from third parties need to be collected. The claim model is then shown to be both blockchain structure and proof method agnostic. Four different implementations in support of these two claim model properties are shown to offer sub-second performance for claim creation and claim verification. Through the properties of Self-Sovereign Identity, legally valid status and acceptable performance, our solution is considered to be fit for adoption by the general public."
-Tags = ["self-soveriegn","decentralized-id","tu-delft","netherlands","research-paper","blockchain-id"]
+Tags = ["self-soveriegn","decentralized-id","tu-delft","netherlands","research-paper","blockchain-id","trustchain"]
 
 ["A First Look at Identity Management Schemes on the Blockchain"]
 Link = ["https://arxiv.org/pdf/1801.03294.pdf"]
@@ -75,8 +75,8 @@ Tags = ["evernym","sovrin","resources","self-sovereign","indy","decentralized-id
 
 ["w3c- Decentralized Identifiers (DIDs) v0.11"]
 Link = ["https://w3c-ccg.github.io/did-spec/"]
-Description = "Decentralized Identifiers (DIDs) are a new type of identifier for verifiable, \"self-sovereign\" digital identity. DIDs are fully under the control of the DID subject, independent from any centralized registry, identity provider, or certificate authority. DIDs are URLs that relate a DID subject to means for trustable interactions with that subject. DIDs resolve to DID Documents — simple documents that describe how to use that specific DID. Each DID Document contains at least three things: cryptographic material, authentication suites, and service endpoints. Cryptographic material combined with authentication suites provide a set of mechanisms to authenticate as the DID subject (e.g., public keys, pseudonymous biometric protocols, etc.). Service endpoints enable trusted interactions with the DID subject.\n\nThis document specifies a common data model, format, and operations that all DIDs support."
-Tags = ["w3c","did","decentralized-id","self-sovereign","blockchain-id","documentation","rwot","specs"]
+Description = "Decentralized Identifiers are a new type of identifier intended for digital identity that is \"self-sovereign\", i.e, fully under the control of the identity owner. DIDs resolve to DDOs (DID descriptor objects) and can be registered in different blockchains (using different \"methods\")."
+Tags = ["w3c","did","decentralized-id","self-sovereign","blockchain-id","documentation","rwot","specs","peacekeeper"]
 
 ["zkp.science"]
 Link = ["https://zkp.science"]
@@ -121,7 +121,7 @@ Tags = ["organizations","w3c","did","sovrin","rwot","self-sovereign","decentrali
 ["Introduction to DID Auth for SSI – Markus Sabadello – Webinar 10"]
 Link = ["http://ssimeetup.org/introduction-did-auth-markus-sabadello-webinar-10/","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/draft-documents/did_auth_draft.md"]
 Description = "Markus Sabadello, CEO of Danube Tech, will talk about DID Auth, an emerging building block in the SSI ecosystem. Although the technical details of DID Auth are not well-defined at this point, its general concept is clear: With self-sovereign identity infrastructure, the most trivial and straightforward functionality for identity owners should be the ability to authenticate, i.e. to prove control of a DID in some relationship or during a transaction. This could take place using a number of different data formats, protocols, and flows. DID Auth includes the ability to authenticate to web sites and applications, and to establish mutually authenticated communication channels. In this webinar, we will discuss the current state of the DID Auth concept, and how it relates to other efforts such as Verifiable Credentials and agent protocols. We also recommend reading the white paper \"Introduction to DID Auth\" by Markus Sabadello, Kyle Den Hartog, Christian Lundkvist, Cedric Franz, Alberto Elias, Andrew Hughes, John Jordan, Dmitri Zagidulin."
-Tags = ["w3c","did","decentralized-id","self-sovereign","presentation","video","authentication"]
+Tags = ["w3c","did","decentralized-id","self-sovereign","peacekeeper","presentation","video","authentication"]
 
 ["A Primer on Functional Identity"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/functional-identity-primer.md"]
@@ -159,9 +159,9 @@ Description = "A white paper from Evernym in cooperation with the Sovrin Foundat
 Tags = ["sovrin","decentralized-id","whitepaper","evernym","documentation","self-sovereign","indy"]
 
 ["Sovrin: A Protocol and Token for Self-Sovereign Identity and Decentralized Trust"]
-Link = ["https://sovrin.org/library/sovrin-protocol-and-token-white-paper/"]
+Link = ["https://sovrin.org/wp-content/uploads/Sovrin-Protocol-and-Token-White-Paper.pdf"]
 Description = "A comprehensive, highly readable 40 page paper describing the complete Sovrin ecosystem, including the problems Sovrin is designed to solve; why it is designed to be a global public utility; how the overall architecture is designed for for resilience, privacy and scalability; the markets it is expected to impact; and the special role of the Sovrin token that will be introduced in 2018."
-Tags = ["sovrin","decentralized-id","documentation","self-sovereign","indy","blockchain-id"]
+Tags = ["sovrin","decentralized-id","self-sovereign","white-paper","documentation","protocol","indy","blockchain-id"]
 
 ["Sovrin Governance Framework"]
 Link = ["https://sovrin.org/library/sovrin-governance-framework/"]
@@ -299,12 +299,12 @@ Description = "In a world where the rise in the use of the Internet is increasin
 Tags = ["bbva","decentralized-id","blockchain-id","enterprise","blog"]
 
 ["Digital Identity Management in the Context of GDPR & Sovrin —Why Data Privacy Matters & How to Protect It"]
-Link = ["https://blog.tykn.tech/digital-identity-management-in-the-context-of-gdpr-sovrin-43028247378b","https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-40db94c1c437","https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-7296a3b07769"]
+Link = ["https://blog.tykn.tech/digital-identity-management-in-the-context-of-gdpr-sovrin-43028247378b"]
 Description = "In the developed world, the battle for privacy is arguably one of the most important ones to overcome within our lifetime. Our personal and (ought-to-be) private information is being collected en masse by companies large and small, sold for a handsome profit, and subsequently used to feed the \"big data machine\", where all these data points are correlated and further used to generate leads for third parties."
 Tags = ["tykn","decentralized-id","blockchain-id","gdpr","regulations","self-sovereign","blog"]
 
 ["Is Self Sovereign Identity the Ultimate GDPR Compliance Tool? 1/3"]
-Link = ["https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-9d8110752f89"]
+Link = ["https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-9d8110752f89","https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-40db94c1c437","https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-7296a3b07769"]
 Description = "Few topics are as popular right now as the European Union’s new data protection law, the General Data Protection Regulation (the \"GDPR\" or \"Regulation\"), perhaps with the exceptions of self-sovereign identity (\"SSI\") and blockchain. Likewise, few topics are as misunderstood or oversimplified. In an attempt to dispel some of the mythology and encourage a more nuanced approach to the conversation, this is the first in a series of posts to assess SSI through the lens of the GDPR."
 Tags = ["evernym","decentralized-id","blockchain-id","gdpr","regulations","self-sovereign","blog"]
 
@@ -374,19 +374,14 @@ Description = "2017 was a landmark year for the entire Ethereum ecosystem. The s
 Tags = ["decentralized-id","uport","eth-app","self-sovereign","blog"]
 
 ["Sovrin"]
-Link = ["https://sovrin.org/"]
+Link = ["https://sovrin.org/","https://forum.sovrin.org/","https://sovrin-slack-signup.herokuapp.com/"]
 Description = "Identity For All —Permanent Digital Identities that Don’t Require a Central Authority"
-Tags = ["sovrin","decentralized-id","self-sovereign","indy","organizations"]
+Tags = ["sovrin","decentralized-id","self-sovereign","indy","organizations","forum","chat"]
 
 ["Internet Identity Workshop"]
-Link = ["http://www.internetidentityworkshop.com/","http://iiw.idcommons.net/Main_Page"]
+Link = ["http://www.internetidentityworkshop.com/","http://iiw.idcommons.net/Main_Page","https://twitter.com/idworkshop"]
 Description = "The Internet Identity Workshop has been finding, probing and solving identity issues twice every year since 2005. We meet in the Computer History Museum in Mountain View, CA. Every IIW moves topics, code and projects downfield. Name an identity topic and it's likely that more substantial discussion and work has been done at IIW than any other conference!"
 Tags = ["iiw","decentralized-id","self-sovereign","organizations","microsoft","google","ibm","hyperledger","evernym","sovrin","history","blockchain-id","w3c","rwot"]
-
-["Sovrin™: A Protocol and Token for SelfSovereign Identity and Decentralized Trust"]
-Link = ["https://sovrin.org/wp-content/uploads/Sovrin-Protocol-and-Token-White-Paper.pdf"]
-Description = "Digital identity is one of the oldest and hardest problems on the Internet. There is still no way to use digital credentials to prove our online identity the same way we do in the offline world. This is finally changing. First, the World Wide Web Consortium is standardizing the format of digitally-signed credentials. Secondly, public blockchains can provide decentralized registration and discovery of the public keys needed to verify digital signatures. These two steps pave the way to establish a global public utility for self-sovereign identity—lifetime portable digital identity that does not depend on any central authority and can never be taken away. The Sovrin Network has been designed exclusively for this purpose, including governance (the Sovrin Foundation and the Sovrin Trust Framework), scalability (validator and observer nodes and state proofs), and accessibility (minimal cost and maximum availability). Most importantly, Sovrin implements Privacy by Design on a global scale, including pairwise pseudonymous identifiers, peer-to-peer private agents, and selective disclosure of personal data using zero-knowledge proof cryptography. The emergence of this infrastructure can transform at least four major markets: identity and access management, cybersecurity, RegTech, and data integration. To provide economic incentives for credential issuers, owners, and verifiers, the Sovrin protocol will incorporate a digital token designed expressly for privacy-preserving value exchange. The Sovrin token should enable a global marketplace for digital credentials of all types and value levels together with ancillary markets for digital credential insurance and permissioned first party data (direct from the customer)"
-Tags = ["sovrin","decentralized-id","self-sovereign","white-paper","documentation","protocol"]
 
 ["The Path to Self-Sovereign Identity"]
 Link = ["https://www.coindesk.com/path-self-sovereign-identity/amp/"]
@@ -539,9 +534,9 @@ Description = "seeks to establish the concept of \"world citizenship\" through i
 Tags = ["humanitarian","blockchain-id","peacekeeper","bitcoin","organizations"]
 
 ["Shocard"]
-Link = ["https://shocard.com/"]
+Link = ["https://shocard.com/","http://shocard.com/wp-content/uploads/2018/01/ShoCard-Whitepaper-Dec13-2.pdf"]
 Description = "Blockchain-Based Mobile Identity Platform"
-Tags = ["shocard","blockchain-id","peacekeeper","platform"]
+Tags = ["shocard","blockchain-id","peacekeeper","platform","whitepaper"]
 
 ["MMlab Mobile Multimedia Laboratory"]
 Link = ["http://mm.aueb.gr/"]
@@ -607,11 +602,6 @@ Tags = ["jlinc","blockchain-id","idkeys","stellar","peacekeeper"]
 Link = ["http://guptaoption.com/cheapid/"]
 Description = "a digital identity standard designed for use in conflicted environment like those many refugees or disaster victims may find themselves in."
 Tags = ["digital-id","cheapid","peacekeeper","app"]
-
-["DID Specs"]
-Link = ["https://docs.google.com/document/d/1Z-9jX4PEWtyRFD5fEyyzEnWK_0ir0no1JJLuRu8O9Gs/"]
-Description = "Decentralized Identifiers are a new type of identifier intended for digital identity that is \"self-sovereign\", i.e, fully under the control of the identity owner. DIDs resolve to DDOs (DID descriptor objects) and can be registered in different blockchains (using different \"methods\")."
-Tags = ["w3c","did","documentation","self-sovereign","decentralized-id","peacekeeper"]
 
 ["Jolocom"]
 Link = ["http://jolocom.com/","https://github.com/solid/solid-spec","http://agile-iot.eu/"]
@@ -686,7 +676,7 @@ Tags = ["securekey","blockchain-id","ibm","canada"]
 ["Identity as a Bottleneck for Blockchain"]
 Link = ["https://blockchainhub.net/blog/blog/decentralized-identity-blockchain/"]
 Description = "The Road to Self Sovereign Identity\n\nBlockchain and smart contracts have the potential to radically reduce transaction costs and cut out the middle man. However, it is important to recognise that any structural fulfilment of this potential relies on first solving the fundamental question of identity: can we trust the entities who will be involved in these transactions, and how will we identify them?"
-Tags = ["blbecause ockchain-id","self-sovereign","decentralized-id","blog","peacekeeper"]
+Tags = ["blockchain-id","self-sovereign","decentralized-id","blog","peacekeeper"]
 
 ["Consent"]
 Link = ["http://www.consent.global/"]
@@ -1036,7 +1026,7 @@ Tags = ["ip","gdpr","regulations","rwot","blockchain-id","whitepaper"]
 ["Estonia National Blockchain-ID"]
 Link = ["https://e-estonia.com/solutions/e-identity/id-card/","https://www.id.ee/","https://www.mccarthy.ca/en/insights/blogs/cyberlex/estonian-blockchain-based-id-card-security-flaw-raises-issues-about-identity"]
 Description = "Estonia had the most highly developed national ID system in existence. They issue an ID card that has a chip using 2048-bit public key encryption and can be used as an electronic proof of id. Estonia is one of the most progressive governments as far as integrating blockchain into public services. Unfortunately, a flaw in their chips made it easy to find a users private key through their public key. So their certificates have been revoked, and are currently useless as digital signatures."
-Tags = ["identit-ee","estonia","blockchain-id","id-ee","state""app","peacekeeper"]
+Tags = ["identit-ee","estonia","blockchain-id","id-ee","state","app","peacekeeper"]
 
 ["Digital Verification Advancements at RWoT III"]
 Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/digital-verification-advancements.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/digital-verification-advancements.docx"]
@@ -1045,7 +1035,7 @@ Tags = ["blockchain-id","w3c","identification","whitepaper","did"]
 
 ["Identity Crisis: Clear Identity through Correlation"]
 Link = ["https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/identity-crisis.pdf","https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/identity-crisis.docx"]
-Description = "The term “identity” is a challenge.\n\nBoth laypeople and experts struggle to communicate clearly about it. The term has numerous rich and useful meanings. That same flexibility and expressivity also makes it easy to misunderstand subtle nuances and often leads to ideological debate rather than understanding and applications. We compensate with adjectives, creating new phrases like “digital identity” or “legal identity”, but we often still speak past each other. We regularly refer to “identities” as things that are assigned to us or that we own, things we control or present, instead of using more rigorous terms such as “identifiers” or “credentials”. This fluidity often confuses because, at its core, identity is an emergent phenomenon that doesn’t have an existence independent of the observer."
+Description = "The term \"identity\" is a challenge.\n\nBoth laypeople and experts struggle to communicate clearly about it. The term has numerous rich and useful meanings. That same flexibility and expressivity also makes it easy to misunderstand subtle nuances and often leads to ideological debate rather than understanding and applications. We compensate with adjectives, creating new phrases like “digital identity” or “legal identity”, but we often still speak past each other. We regularly refer to “identities” as things that are assigned to us or that we own, things we control or present, instead of using more rigorous terms such as “identifiers” or “credentials”. This fluidity often confuses because, at its core, identity is an emergent phenomenon that doesn’t have an existence independent of the observer."
 Tags = ["blockchain-id","rwot","whitepaper","w3c"]
 
 ["Decentralized Public Key Infrastructure"]
@@ -1119,7 +1109,7 @@ Description = "The Web of Trust. It’s the buzzword for a new model of decentra
 Tags = ["rwot","w3c","whitepaper","blockchain-id","decentralized-id","weboftrust","history"]
 
 ["Creating the New World of Trust"]
-Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/smart-signatures.docx"]
+Link = ["https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/whats-the-next-step.pdf","https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/whats-the-next-step.docx"]
 Description = "On November 3rd and 4th, the Rebuilding the Web of Trust design workshop looked at the future of decentralized trust on the internet with the goal of producing 3-5 white papers and specs. Those papers were polished for release in December, leaving the question: what's next?"
 Tags = ["rwot","w3c","whitepaper","blockchain-id","decentralized-id","weboftrust","history"]
 
@@ -1163,3 +1153,12 @@ Link = ["https://json-ld.github.io/normalization/spec/"]
 Description = "RDF [RDF-CONCEPTS] describes a graph-based data model for making claims about the world and provides the foundation for reasoning upon that graph of information. At times, it becomes necessary to compare the differences between sets of graphs, digitally sign them, or generate short identifiers for graphs via hashing algorithms. This document outlines an algorithm for normalizing RDF datasets such that these operations can be performed."
 Tags = ["w3c","specs","rdf","did","rwot","decentralized-id"]
 
+["Markus Sabadello —Peacekeeper"]
+Link = ["https://danubetech.com/","https://twitter.com/peacekeeper","https://github.com/peacekeeper","https://www.linkedin.com/in/markus-sabadello-353a0821/","https://medium.com/@markus.sabadello"]
+Description = "Identity and Communication for Political and Social Innovation"
+Tags = ["peacekeeper","sovrin","danubetech","decentralized-id","blockchain-id","self-sovereign","people"]
+
+["Kaliya-Identity Woman"]
+Link = ["https://identitywoman.net/","https://twitter.com/IdentityWoman"]
+Description = "Blockchain & ID Expert. Independent Advocate for the Rights & Dignity of our Digital Selves. Open Standards! Co-Founder, Facilitator [@idworkshop](https://twitter.com/idworkshop) & [@unconference](https://twitter.com/unconference)"
+Tags = ["identity-woman","people"]
