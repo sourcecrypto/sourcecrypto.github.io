@@ -68,12 +68,12 @@ Once all of the resources are tagged, and transformed into a database, the poten
 
 ## Please visit [TOML](https://github.com/infominer33/Crypto-library/tree/master/toml) for further information
 
-[crypt0library.net](http://crypt0library.net)<br/>
-https://twitter.com/@cryptinfominer<br/>
+### Brought to you by: [The Crypto Library—Super Source](https://github.com/infominer33/Crypto-library)
 
-Any contribution is appreciated!!\
-—BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY<br/>
-![](http://imgur.com/xMd9r0rl.png)
+BTC— 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
+![](http://imgur.com/yXLLm9Bl.png) 
 
-—infominer@protonmail.com
+DOGE— DSzMxfABB8EwKiumzV7YHhS7HTvWAyM7QF
+
+![](https://i.imgur.com/0zBLoUP.png) [<img src="https://i.imgur.com/zeYCNMS.jpg" align="right" width="150" height="140">](https://github.com/infominer33/Crypto-library)
