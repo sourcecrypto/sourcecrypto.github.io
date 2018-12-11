@@ -64,7 +64,7 @@ Once all of the resources are tagged, and transformed into a database, the poten
 3. Create a web-page to dynamically interact with the database<br/>
 4. Create a discord bot to bridge the web-page and various chat servers
 
-### #2 is the most important and time-consuming of these
+#### #2 is currently the most important and time-consuming of these
 
 ## Please visit [TOML](https://github.com/infominer33/Crypto-library/tree/master/toml) for further information
 
