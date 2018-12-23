@@ -1,4 +1,4 @@
-# The Crypto Public Library — Super Source
+# The Crypto Library — Super Source
 TLDR; Creating a collaborative web-directory of "source-grade" content. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. Originally organized in a discord server, we are transforming a catalog of informational and educational resources into a tagged database that will power a dynamic web-directory.
 
 **Outline**
@@ -14,7 +14,7 @@ We’ve started by focusing on fundamentals; general crypto topics; and specific
 
 There are currently 125 different channels, with thousands of resources, each devoted to a particular aspect of crypto. Obviously knowledge can't be so easily compartmentalized, but we do our best. We also happen to have the largest, freely-available, collection of learning materials about trading and evaluating cryptocurrencies\icos than can be found anywhere else. If you're interested in that type of thing.
 
- <img src="http://imgur.com/AmdCgVOl.png" />
+ <img src="https://i.imgur.com/zeYCNMS.jpg" />
 
 ## [crypt0library.net](http://crypt0library.net)
 
@@ -54,7 +54,6 @@ In case you haven't been to the server yet, here is its directory to give you an
 We are now working on gathering all of the links into "toml" files, which are a simple format for transforming all of this information into a database. Of course all of that takes work. I very much enjoy the work, and it's a wonderful educational opportunity, but time-consuming. 
 
 Once all of the resources are tagged, and transformed into a database, the potential for the library grows exponentially.
-Big plans are in the works for the Crypto Library — Super Source.
 
 ### Project Overview
 
@@ -65,11 +64,16 @@ Big plans are in the works for the Crypto Library — Super Source.
 3. Create a web-page to dynamically interact with the database<br/>
 4. Create a discord bot to bridge the web-page and various chat servers
 
-### #2 is the most important and time-consuming of these
+#### #2 is currently the most important and time-consuming of these
 
 ## Please visit [TOML](https://github.com/infominer33/Crypto-library/tree/master/toml) for further information
 
-[crypt0library.net](http://crypt0library.net)<br/>
-—BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY<br/>
-https://twitter.com/@cryptinfominer<br/>
-—infominer@protonmail.com
+### Brought to you by: [The Crypto Library—Super Source](https://github.com/infominer33/Crypto-library)
+
+BTC— 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
+
+![](http://imgur.com/yXLLm9Bl.png) 
+
+DOGE— DSzMxfABB8EwKiumzV7YHhS7HTvWAyM7QF
+
+![](https://i.imgur.com/0zBLoUP.png) [<img src="https://i.imgur.com/zeYCNMS.jpg" align="right" width="150" height="140">](https://github.com/infominer33/Crypto-library)
