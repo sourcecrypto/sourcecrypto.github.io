@@ -335,457 +335,390 @@ Tags = ["trading","technical-analysis","image","wyckoff"]
 
 ["OnChainFX"]
 Link = ["https://onchainfx.com/"]
-Description = "good alternative to cmc - multi blockchain explorer"
+Description = "good alternative to CMC - multi blockchain explorer"
 Tags = ["tools","charts","trading","technical-analysis"]
 
-[""]
+["chainz.cryptoid.info"]
 Link = ["https://chainz.cryptoid.info/"]
-more visual global charts - 
-Description = ""
-Tags = ["",""]
+Description = "more visual global charts - Blockchain Explorers"
+Tags = ["tools","charts","trading","technical-analysis"]
 
-[""]
+["coinlib.io/global-crypto-charts"]
 Link = ["https://coinlib.io/global-crypto-charts"]
-orderbook heatmap - 
-Description = ""
-Tags = ["",""]
+Description = "more visual global charts - heat map"
+Tags = ["tools","charts","trading","technical-analysis"]
 
-[""]
+["tensorcharts.com"]
 Link = ["https://tensorcharts.com/"]
-simple sentiment analysis - 
-Description = ""
-Tags = ["",""]
+Description = "Charts w sentiment analysis"
+Tags = ["tools","charts","trading","sentiment-analysis"]
 
-[""]
+["Fear and Greed Index"]
 Link = ["https://alternative.me/crypto/fear-and-greed-index/"]
-bitmex margin information - 
-Description = ""
-Tags = ["",""]
+Description = "bitmex margin information - "
+Tags = ["tools","charts","trading","sentiment-analysis"]
 
-[""]
+["coinfarm.online"]
 Link = ["https://coinfarm.online/index_en.asp"]
-additional margin data - 
-Description = ""
-Tags = ["",""]
+Description = "Bitmex margin data"
+Tags = ["tools","charts","trading","bitmex"]
 
-[""]
+["datamish.com"]
 Link = ["https://datamish.com/d/000000004/btcusd?refresh=20s&orgId=1"]
-charting + info of any coins on cmc - 
-Description = ""
-Tags = ["",""]
+Description = "charting + info of any coins on cmc"
+Tags = ["tools","charts","trading"]
 
-[""]
+["BitScreener"]
 Link = ["https://bitscreener.com/"]
-buy market % + other indicator signals - 
-Description = ""
-Tags = ["",""]
+Description = "buy market % + other indicator signals -"
+Tags = ["tools","charts","trading"]
 
-[""]
-http://www.cryptowho.de/"]
-github activity tracker - 
-Description = ""
-Tags = ["",""]
-
-[""]
+["CryptoMiso"]
 Link = ["https://cryptomiso.com/"]
-Description = ""
-Tags = ["",""]
+Description = "Github commit history of 783 cryptocurrencies based on most popular repo"
+Tags = ["tools","github","commits","trading"]
 
-[""]
-Link = ["https://library.cryptotradercentral.com/"]
-Description = ""
-Tags = ["",""]
+["@brian_armstrong's chart of bitcoin moonshots."]
+Link = ["https://twitter.com/brian_armstrong/status/1009192006512328704","http://i.imgur.com/1ODWbbd.png"]
+Description = "About the historical bull and bear markets"
+Tags = ["twitter","thread","markets"]
 
-[""]
-Link = ["https://twitter.com/brian_armstrong/status/1009192006512328704"]
-
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["@cryptinfominer"]
 Link = ["https://twitter.com/cryptinfominer/status/1021871857832742913"]
+Description = "The proper reason to show asset prices as logarithmic is that equal distances mean equal returns. $1 -> $2 same as $100 -> $200.\" -@jmcorgan"
+Tags = ["twitter", "infominer","logarithmic","charts","101"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["@AltcoinPsycho on Alt Season"]
 Link = ["https://twitter.com/AltcoinPsycho/status/1021928481200824322"]
+Description = "Altcoin trading tip:\n\nUse ETH as your leading indicator for \"when alt season?\", and wait for it to bottom out before buying alts. \n\nUntil then - the rest is just noise "
+Tags = ["twitter","trading","altcoins","ethereum"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
+["@nebraskangooner - Wyckoff: Law of effort vs result"]
+Link = ["https://twitter.com/nebraskangooner/status/1024463540181258240","https://pbs.twimg.com/media/DjegKETU4AEw7s7.jpg:large"]
+Description = "Wyckoff: Law of effort vs result"
+Tags = ["twitter","trading","wyckoff","image"]
 
-[""]
-Link = ["https://twitter.com/nebraskangooner/status/1024463540181258240"]
-
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["@Wolf__Daddy on accumulation phases"]
 Link = ["https://twitter.com/Wolf__Daddy/status/1012258460673683461"]
+Description = "The next phase in $Crypto appears to be the accumulation phase, accumulation phases often last a lot longer than most people expect, so there will be plenty of time to accumulate, no need to rush or fomo during an accumulation phase. This is the time to research and plan ahead."
+Tags = ["twitter","trading","accumulation","thread"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["@CryptoSays on Ichimoku"]
 Link = ["https://twitter.com/CryptoSays/status/1026287741045272576"]
+Description = "Images on Twitter"
+Tags = ["trading","ichimoku","twitter"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
+["What is a Dead Cat Bounce? - Investopedia"]
+Link = ["https://www.investopedia.com/terms/d/deadcatbounce.asp"]
+Description = "A dead cat bounce is a temporary recovery from a prolonged decline or a bear market that is followed by the continuation of the downtrend. A dead cat bounce is a small, short-lived recovery in the price of a declining security, such as a stock. Frequently, downtrends are interrupted by brief periods of recovery — or small rallies — where prices temporarily rise. The name "dead cat bounce" is based on the notion that even a dead cat will bounce if it falls far enough and fast enough."
+Tags = ["trading","dead-cat"]
 
-[""]
-Link = ["https://twitter.com/YORKyor780/status/1026488058512896001"]
+["@KunalDaSen shares a potential growth pattern for Bitcoin"]
+Link = ["https://twitter.com/KunalDaSen/status/1029016530640625664","https://pbs.twimg.com/media/DkfND3OW4AIUrHy.jpg:large"]
+Description = "Bitcoin long term price prediction, with the 'halving' effect factored in. What do you think ?"
+Tags = ["image","speculation","bitcoin"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
-Link = ["https://babypips.com"]
-Description = ""
-Tags = ["",""]
-
-[""]
-Link = ["https://twitter.com/ThinkingUSD/status/1030642377067704320"]
-
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
-Link = ["https://twitter.com/MoonOverlord/status/1031004700676710400"]
-
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
-Link = ["https://twitter.com/KunalDaSen/status/1029016530640625664"]
-
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
-Link = ["https://twitter.com/CryptoCred/status/1032329625815457799"]
-
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["@CryptoCred on bad trading habits"]
 Link = ["https://twitter.com/CryptoCred/status/1033796583333289986"]
+Description = "I traded like crap this week. \n\nSloppy, rushed, arrogant. \n\nI’ve worked through all my losing trades in August so far and identified some common mistakes. \n\nI’ve compiled them into a list of questions — I hope you find it helpful. "
+Tags = ["cryptocred","twitter","thread","habits"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["@ercwl on the majority of coins being -90%"]
 Link = ["https://twitter.com/ercwl/status/1033816350958014469"]
+Description = "1/ Plenty of coins & ICOs are now down -90%. Hopefully the people who'll never be receptive the following commentary have left crypto twitter by now, but they'll surely be back for the next bull run. Making this thread to use as a reminder for when the idiocy returns 👇"
+Tags = ["twitter","thread","icos"]
+
+["Another Collection of Trading Books"]
+Link = ["http://gann.su/book/eng/"]
+Description = "Another Collection of Trading Books"
+Tags = ["trading","technical-analysis","books","resource"]
+
+["VentureCoinist Trading Alerts Bot"]
+Link = ["https://www.venturecoinist.com/bot"]
+Description = "Bitcoin Trading Alerts\n\nThe Coinist Bot is an automated strategy analyzing Bitcoin and other large cap alts. It has the ability to profit in a bull OR bear market as it looks for both long and short opportunities. The algorithm runs 24/7, monitoring price changes, and sending timely notifications."
+Tags = ["trading","bot","automated-trading"]
+
+[""]
+Link = ["https://twitter.com/CarpeNoctom/status/1034889451137376257"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-http://gann.su/book/eng/
-Description = ""
-Tags = ["",""]
-
-[""]
-Link = ["https://www.venturecoinist.com/bot
-Description = ""
-Tags = ["",""]
-
-[""]
-"The Coinist Bot is an automated strategy analyzing Bitcoin and other large cap alts."
-Description = ""
-Tags = ["",""]
-
-[""]
-Link = ["https://twitter.com/CarpeNoctom/status/1034889451137376257
+Link = ["https://twitter.com/CryptoCred/status/1035223770267611136"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/CryptoCred/status/1035223770267611136
+Link = ["https://twitter.com/pierre_rochard/status/1035635907498532865"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/pierre_rochard/status/1035635907498532865
+Link = ["https://twitter.com/MoonOverlord/status/1009912924822016002"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/MoonOverlord/status/1009912924822016002
-
-(Formatted embeds are currently not supported)
+Link = ["https://pca.st/P5sC"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://pca.st/P5sC
-Description = ""
-Tags = ["",""]
-
-[""]
-Link = ["https://cdn.discordapp.com/attachments/350717439388024835/350728664322932746/microbtc-bittrex.jpg
+Link = ["https://cdn.discordapp.com/attachments/350717439388024835/350728664322932746/microbtc-bittrex.jpg"]
 (image attachment not found)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://media.discordapp.net/attachments/350717439388024835/362750300513107978/unknown_2.png
+Link = ["https://media.discordapp.net/attachments/350717439388024835/362750300513107978/unknown_2.png"]
 (image attachment not found)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/Beastlyorion/status/1035972119472099329
+Link = ["https://twitter.com/Beastlyorion/status/1035972119472099329"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/FedKassad/status/1035627093084827648
+Link = ["https://twitter.com/FedKassad/status/1035627093084827648"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/VentureCoinist/status/1034570394190135298
+Link = ["https://twitter.com/VentureCoinist/status/1034570394190135298"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-http://www.r-5.org/files/books/trading/schoolbooks/Douglas_E_Zalesky-The_25-point_Mantra-EN.pdf
+Link = ["http://www.r-5.org/files/books/trading/schoolbooks/Douglas_E_Zalesky-The_25-point_Mantra-EN.pdf"]
 vincent9/10/2018, 10:45:26 AM
 
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://sierrachart.com
+Link = ["https://sierrachart.com"]
 trading platform with lots of features, like footprint charts, heatmaps and all that  . has poloniex, bitmex, bitfinex and okcoin currently
 Description = ""
 Tags = ["",""]
 
 [""]
-lots of good articles especially on the psychology http://yourtradingcoach.com/site-map/
+lots of good articles especially on the psychology 
+Link = ["http://yourtradingcoach.com/site-map/"]
 Description = ""
 Tags = ["",""]
 
 [""]
 obligatory watching 
-Link = ["https://www.youtube.com/channel/UCT43ffXmotx7i903Yxcwxjw/videos
+Link = ["https://www.youtube.com/channel/UCT43ffXmotx7i903Yxcwxjw/videos"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/CryptoCred/status/1036714196027801600
+Link = ["https://twitter.com/CryptoCred/status/1036714196027801600"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://youtu.be/YVz5zfiBQjM
+Link = ["https://youtu.be/YVz5zfiBQjM"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/Lucid_TA/status/1037510808782032896
+Link = ["https://twitter.com/Lucid_TA/status/1037510808782032896"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/CryptoCred/status/1037772897241255936
+Link = ["https://twitter.com/CryptoCred/status/1037772897241255936"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/alistairmilne/status/1037793389629108224
+Link = ["https://twitter.com/alistairmilne/status/1037793389629108224"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://bitcoinist.com/cnbc-reverse-bitcoin-price-impress/
+Link = ["https://bitcoinist.com/cnbc-reverse-bitcoin-price-impress/"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://pbs.twimg.com/media/DmoTJNlXcAAPQza.jpg:large
+Link = ["https://pbs.twimg.com/media/DmoTJNlXcAAPQza.jpg:large"]
 (image attachment not found)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/BTCDJS/status/1038714265392173056
+Link = ["https://twitter.com/BTCDJS/status/1038714265392173056"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/PeterLBrandt/status/1039575413985398784
+Link = ["https://twitter.com/PeterLBrandt/status/1039575413985398784"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/StockmarketJedi/status/1039635130409615361
+Link = ["https://twitter.com/StockmarketJedi/status/1039635130409615361"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/CryptoCred/status/1040700546221584384
+Link = ["https://twitter.com/CryptoCred/status/1040700546221584384"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/trader_travis/status/1040752102853599234
+Link = ["https://twitter.com/trader_travis/status/1040752102853599234"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/CryptoHornHairs/status/1041112269927505921
+Link = ["https://twitter.com/CryptoHornHairs/status/1041112269927505921"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://medium.com/blocktoken/how-traders-use-cryptocurrency-arbitrage-to-make-profits-8e5f3adb75c4
+Link = ["https://medium.com/blocktoken/how-traders-use-cryptocurrency-arbitrage-to-make-profits-8e5f3adb75c4"]
 Description = ""
 Tags = ["",""]
 
 [""]
-http://www.technical-analysis.com/learnTA/RSINotOBOS/RSINotOBOS.html
+Link = ["http://www.technical-analysis.com/learnTA/RSINotOBOS/RSINotOBOS.html"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/tradingroomapp/status/1040868470953410560
+Link = ["https://twitter.com/tradingroomapp/status/1040868470953410560"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/CryptoQF/status/1042265797584797696
+Link = ["https://twitter.com/CryptoQF/status/1042265797584797696"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://news.bitcoin.com/six-new-and-improved-cryptocurrency-analysis-tools/
+Link = ["https://news.bitcoin.com/six-new-and-improved-cryptocurrency-analysis-tools/"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://medium.com/@cryptocreddy/does-technical-analysis-work-fa90413a8328
+Link = ["https://medium.com/@cryptocreddy/does-technical-analysis-work-fa90413a8328"]
 Description = ""
 Tags = ["",""]
 
 [""]
-plenty of trading books Link = ["https://t.me/LibTA
+plenty of trading books 
+Link = ["https://t.me/LibTA"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://github.com/hientm36/gnidart
+Link = ["https://github.com/hientm36/gnidart"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://twitter.com/JimAllmendinger/status/1044710492923617281
+Link = ["https://twitter.com/JimAllmendinger/status/1044710492923617281"]
 
 (Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://tensorcharts.com/
+Link = ["https://tensorcharts.com/"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://aggr.trade/#
+Link = ["https://aggr.trade/#"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://www.marketvolume.com/technicalanalysis/rating.asp
+Link = ["https://www.marketvolume.com/technicalanalysis/rating.asp"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://cryptowest.com/books-trading-tools/
+Link = ["https://cryptowest.com/books-trading-tools/"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://cryptowest.com/2018/08/24/one-important-concepts-trading/
+Link = ["https://cryptowest.com/2018/08/24/one-important-concepts-trading/"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://www.youtube.com/watch?v=Ou_BPr84GHY
+Link = ["https://www.youtube.com/watch?v=Ou_BPr84GHY"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://medium.com/@ThinkingUSD/deribit-bitcoin-options-and-volatility-b370ba276761
+Link = ["https://medium.com/@ThinkingUSD/deribit-bitcoin-options-and-volatility-b370ba276761"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://drive.google.com/file/d/1Ew_O4fMdGM2M8NhYDFB0NJmLMCIQi-Tl/view
+Link = ["https://drive.google.com/file/d/1Ew_O4fMdGM2M8NhYDFB0NJmLMCIQi-Tl/view"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://app.compound.finance/
+Link = ["https://app.compound.finance/"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://avc.com/2018/10/fully-diluted-market-value/
+Link = ["https://avc.com/2018/10/fully-diluted-market-value/"]
 Description = ""
 Tags = ["",""]
 
 [""]
-Link = ["https://medium.com/@cryptocreddy/comprehensive-guide-to-position-size-and-leverage-2e27764ce9e0
+Link = ["https://medium.com/@cryptocreddy/comprehensive-guide-to-position-size-and-leverage-2e27764ce9e0"]
 Description = ""
 Tags = ["",""]
 
