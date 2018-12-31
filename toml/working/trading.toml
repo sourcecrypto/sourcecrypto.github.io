@@ -410,7 +410,7 @@ Tags = ["trading","ichimoku","twitter"]
 
 ["What is a Dead Cat Bounce? - Investopedia"]
 Link = ["https://www.investopedia.com/terms/d/deadcatbounce.asp"]
-Description = "A dead cat bounce is a temporary recovery from a prolonged decline or a bear market that is followed by the continuation of the downtrend. A dead cat bounce is a small, short-lived recovery in the price of a declining security, such as a stock. Frequently, downtrends are interrupted by brief periods of recovery — or small rallies — where prices temporarily rise. The name "dead cat bounce" is based on the notion that even a dead cat will bounce if it falls far enough and fast enough."
+Description = "A dead cat bounce is a temporary recovery from a prolonged decline or a bear market that is followed by the continuation of the downtrend. A dead cat bounce is a small, short-lived recovery in the price of a declining security, such as a stock. Frequently, downtrends are interrupted by brief periods of recovery — or small rallies — where prices temporarily rise. The name \"dead cat bounce\" is based on the notion that even a dead cat will bounce if it falls far enough and fast enough."
 Tags = ["trading","dead-cat"]
 
 ["@KunalDaSen shares a potential growth pattern for Bitcoin"]
@@ -438,127 +438,93 @@ Link = ["https://www.venturecoinist.com/bot"]
 Description = "Bitcoin Trading Alerts\n\nThe Coinist Bot is an automated strategy analyzing Bitcoin and other large cap alts. It has the ability to profit in a bull OR bear market as it looks for both long and short opportunities. The algorithm runs 24/7, monitoring price changes, and sending timely notifications."
 Tags = ["trading","bot","automated-trading"]
 
-[""]
-Link = ["https://twitter.com/CarpeNoctom/status/1034889451137376257"]
+["@CarpeNoctom shares ideas on CME Futures$BTC contract dates"]
+Link = ["https://twitter.com/CarpeNoctom/status/1034889451137376257","https://pbs.twimg.com/media/DlyqaMRU4AEtUOQ.jpg"]
+Description = "@CarpeNoctom shares ideas on CME Futures $BTC contract dates"
+Tags = ["twitter","thread","cme-futures","charts"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["@CryptoCred Price Action Webinar #1"]
 Link = ["https://twitter.com/CryptoCred/status/1035223770267611136"]
+Description = "Price Action Webinar #1 - Retests"
+Tags = ["video","cryptocred","twitter","price-action"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
-Link = ["https://twitter.com/pierre_rochard/status/1035635907498532865"]
-
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["@MoonOverlord on Doge Cycles"]
 Link = ["https://twitter.com/MoonOverlord/status/1009912924822016002"]
+Description = "Interesting symmetry in between the timing of $DOGE cycles over the last few years\n\nDoge has long been a signal for #altseason"
+Tags = ["trading","doge","alt-season","cycles"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["Flippening Podcast"]
 Link = ["https://pca.st/P5sC"]
-Description = ""
-Tags = ["",""]
+Description = "Flippening - For Cryptocurrency Investors (Bitcoin, Ethereum, and Cryptoasset Investing)"
+Tags = ["flippening","investing","podcast"]
 
-[""]
+["Image explaining Conditional Sell orders in Bittrex"]
 Link = ["https://cdn.discordapp.com/attachments/350717439388024835/350728664322932746/microbtc-bittrex.jpg"]
-(image attachment not found)
-Description = ""
-Tags = ["",""]
+Description = "How to use a Conditional Sell order in Bittrex"
+Tags = ["bittrex","conditional-sell","image","trading"]
 
-[""]
+["Bullish Chart Patterns"]
 Link = ["https://media.discordapp.net/attachments/350717439388024835/362750300513107978/unknown_2.png"]
-(image attachment not found)
-Description = ""
-Tags = ["",""]
+Description = "Bullish Chart Patterns"
+Tags = ["trading","technical-analysis","chart-patterns","image"]
 
-[""]
-Link = ["https://twitter.com/Beastlyorion/status/1035972119472099329"]
+["@Beastlyorion shows a Falling Wedge"]
+Link = ["https://twitter.com/Beastlyorion/status/1035972119472099329","https://pbs.twimg.com/media/DmCDGttUYAUrJuI.jpg:large"]
+Description = "you best be longing $ADA"
+Tags = ["twitter","wedge","trading"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
+["@FedKassad on Falling Wedge"]
+Link = ["https://twitter.com/FedKassad/status/1035627093084827648","https://pbs.twimg.com/media/Dl9JVvuWsAEcGeW.jpg:large"]
+Description = "Shill me stuff that looks like this:"
+Tags = ["twitter","wedge","trading"]
 
-[""]
-Link = ["https://twitter.com/FedKassad/status/1035627093084827648"]
-
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["VentureCoinist trading bot"]
 Link = ["https://twitter.com/VentureCoinist/status/1034570394190135298"]
+Description = "What I like about the 🤖:\n\n\nIt's free\nIt will probably outperform the signal service you could pay for\nNo hindsight, everything tweeted/timestamped\nNo larping screenshots\n\nSome of you even researched or want to build your own strats, which imo is the best."
+Tags = ["twitter","trading","bot","strategies"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["The 25 Point Mantra: discipline of"]
 Link = ["http://www.r-5.org/files/books/trading/schoolbooks/Douglas_E_Zalesky-The_25-point_Mantra-EN.pdf"]
-vincent9/10/2018, 10:45:26 AM
+Description = "The success that a trader achieves in the markets is directly correlated to one’s trading discipline or lack thereof. Trading discipline is 90 percent of the game. The formula is very simple:Trade with discipline and you will succeed; trade without discipline and you will fail."
+Tags = ["trading","books","strategy","technical-analysis"]
 
-Description = ""
-Tags = ["",""]
-
-[""]
+["Sierra Chart - High Performance Trading Platform"]
 Link = ["https://sierrachart.com"]
-trading platform with lots of features, like footprint charts, heatmaps and all that  . has poloniex, bitmex, bitfinex and okcoin currently
-Description = ""
-Tags = ["",""]
+Description = "Sierra Chart is a professional Trading platform for the financial markets which is integrated with many externally available trading services. It supports Live and Simulated trading. Both manual and automated trading is supported.\nSierra Chart is a complete Real-time and Historical, Charting and Technical Analysis platform for the financial markets.\nSierra Chart fully supports the open specification Data and Trading Communications Protocol for the community.\nSierra Chart provides an optional high quality direct CME / CBOT / NYMEX / COMEX / Eurex / ICE / HKFE / Euronext / LIFFE / NYSE / NASDAQ / TSX / Montréal Futures / Cash Indices realtime market data feed. There is an additional cost for real-time exchange data. Real-time Forex/CFD data is included at no additional cost.\nSupport for charting and trading in the Cryptocurrency markets.\nSierra Chart uses the very best engineering and design practices to produce well-organized, fast and ultra rocksolid software and services. We continue to strive to be as best as we can be.\n\ntrading platform with lots of features, like footprint charts, heatmaps and all that  . has poloniex, bitmex, bitfinex and okcoin currently"
+Tags = ["charts","trading","tools"]
 
-[""]
-lots of good articles especially on the psychology 
+["yourtradingcoach.com"]
 Link = ["http://yourtradingcoach.com/site-map/"]
-Description = ""
-Tags = ["",""]
+Description = "lots of good articles and videos on trading"
+Tags = ["trading","resource","videos"]
 
-[""]
-obligatory watching 
+["Trader Dante on Youtube"]
 Link = ["https://www.youtube.com/channel/UCT43ffXmotx7i903Yxcwxjw/videos"]
-Description = ""
-Tags = ["",""]
+Description = "obligatory watching"
+Tags = ["trading","videos","strategies","technical-analysis"]
 
-[""]
+["@CryptoCred on trading plans"]
 Link = ["https://twitter.com/CryptoCred/status/1036714196027801600"]
+Description = "Have a trading plan for the day/session. Here's a basic outline you can use 👇\n\nWhat's price reaching for? (Thesis)\nWhat does price have to do for me to enter a trade? (Setup)\nWhere might a Setup arise? (Entry)\nWhere would the Setup fail? (Risk)\nWhat's the Setup target? (Reward)"
+Tags = ["trading","twitter","cryptocred"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["Trunews: Does the moon effect the markets?.wmv"]
 Link = ["https://youtu.be/YVz5zfiBQjM"]
-Description = ""
-Tags = ["",""]
+Description = "Does the moon effect the markets?.wmv"
+Tags = ["trunews","trading","moon","rothschild"]
 
-[""]
+["@Lucid_TA speculating about market movements"]
 Link = ["https://twitter.com/Lucid_TA/status/1037510808782032896"]
+Description = "A lot of people were talking about how bullish the bull whale was. Counter-narrative is that someone with deep pockets held the price up and continued pushing it higher, while simultaneously opening derivative shorts before dumping accumulated spot on market."
+Tags = ["speculation","narratives","bitcoin"]
 
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
-
-[""]
+["@CryptoCred on RSI and Divergence"]
 Link = ["https://twitter.com/CryptoCred/status/1037772897241255936"]
-
-(Formatted embeds are currently not supported)
-Description = ""
-Tags = ["",""]
+Description = "Important point about RSI: \n\nAfter a big move/candle there will almost always be a regular divergence. \n\nDon’t use it to try to snipe the bottom or top.\n\nDivergences work better when they form during a discernible trend, NOT after a bazooka candle like yesterday."
+Tags = ["trading","divergence","rsi","twitter","cryptocred"]
 
 [""]
 Link = ["https://twitter.com/alistairmilne/status/1037793389629108224"]
-
-(Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
@@ -569,49 +535,36 @@ Tags = ["",""]
 
 [""]
 Link = ["https://pbs.twimg.com/media/DmoTJNlXcAAPQza.jpg:large"]
-(image attachment not found)
 Description = ""
 Tags = ["",""]
 
 [""]
 Link = ["https://twitter.com/BTCDJS/status/1038714265392173056"]
-
-(Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
 Link = ["https://twitter.com/PeterLBrandt/status/1039575413985398784"]
-
-(Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
 Link = ["https://twitter.com/StockmarketJedi/status/1039635130409615361"]
-
-(Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
 Link = ["https://twitter.com/CryptoCred/status/1040700546221584384"]
-
-(Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
 Link = ["https://twitter.com/trader_travis/status/1040752102853599234"]
-
-(Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
 Link = ["https://twitter.com/CryptoHornHairs/status/1041112269927505921"]
-
-(Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
@@ -627,15 +580,11 @@ Tags = ["",""]
 
 [""]
 Link = ["https://twitter.com/tradingroomapp/status/1040868470953410560"]
-
-(Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
 [""]
 Link = ["https://twitter.com/CryptoQF/status/1042265797584797696"]
-
-(Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
@@ -662,8 +611,6 @@ Tags = ["",""]
 
 [""]
 Link = ["https://twitter.com/JimAllmendinger/status/1044710492923617281"]
-
-(Formatted embeds are currently not supported)
 Description = ""
 Tags = ["",""]
 
