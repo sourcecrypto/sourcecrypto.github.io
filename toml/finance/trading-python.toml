@@ -240,95 +240,85 @@ Tags = ["python","algorithmic-trading","trading","developing","resources"]
 
 ["Using LSTMs For Stock Market Predictions (Tensorflow)"]
 Link = ["https://towardsdatascience.com/using-lstms-for-stock-market-predictions-tensorflow-9e83999d4653"]
-Description = ""
-Tags = ["python","algorithmic-trading","trading","developing"]
+Description = "In this tutorial, you will see how you can use a time-series model known as Long Short-Term Memory. LSTM models are powerful, especially for retaining a long-term memory, by design, as you will see later. You’ll tackle the following topics in this tutorial:"
+Tags = ["python","algorithmic-trading","trading","developing","tensorflow","time-series"]
 
-[""]
+["Quant News"]
 Link = ["https://www.quantnews.com/"]
-Description = ""
-Tags = ["python","algorithmic-trading","trading","developing"]
+Description = "Quantitative Trading, Algorithmic Trading, System Trading, Robot Trading and More."
+Tags = ["python","algorithmic-trading","trading","developing","news"]
 
-[""]
-Link = ["https://www.quantinsti.com"]
-Description = ""
-Tags = ["python","algorithmic-trading","trading","developing"]
-
-[""]
+["QuantConnect"]
 Link = ["https://www.quantconnect.com"]
-Description = ""
-Tags = ["python","algorithmic-trading","trading","developing"]
-
-[""]
-Link = ["https://www.quantconnect.com/pricing"]
-Description = ""
+Description = "Pioneering Tomorrow's Trading\n\nResearch, Backtest and Trade Your Investments\n\nBuild Algorithms in a Browser IDE, Using Template Strategies and Free Data\n\n Design and test your strategy on our free data and when you're ready deploy it live to your brokerage. Code in multiple programming languages and harness our cluster of hundreds of servers to run your backtest to analyse your strategy in Equities, FX, CFD, Options or Futures Markets."
 Tags = ["python","algorithmic-trading","trading","developing"]
 
 ["A first attempt at Bitcoin trading algorithms"]
 Link = ["https://dev.to/marbru/a-first-attempt-at-bitcoin-trading-algorithms"]
-Description = ""
-Tags = ["python","algorithmic-trading","trading","developing"]
+Description = "Algorithmic trading is not a novel idea. In fact it seems to be quite a researched topic, and it's not difficult to find resources about it online. From strategies, to code libraries, to people sharing algorithms on github.\n\nIn or case, we wanted to use it to invest on bitcoin or other cryptocurrencies. To invest you need an exchange: a place that you let you buy and sell bitcoin in exchange for \"real money\" (eg, dollars or euros). In the last years several of them have surged and become established, most notably perhaps Coinbase and Kraken."
+Tags = ["python","algorithmic-trading","trading","developing","bitcoin"]
 
-["Real-time Coinbase Exchange (GDAX) order book + basic market maker bot"]
+["/PierreRochard/coinbase-exchange-order-book"]
 Link = ["https://github.com/PierreRochard/coinbase-exchange-order-book"]
-Description = ""
-Tags = ["python","algorithmic-trading","trading","developing"]
+Description = "Real-time Coinbase Exchange (GDAX) order book + basic market maker bot"
+Tags = ["python","algorithmic-trading","trading","developing","bot","github"]
 
 ["My Foray Into Algorithmic Crypto Trading"]
 Link = ["https://blog.madebywindmill.com/my-foray-into-algorithmic-crypto-trading-beac9113de36"]
-Description = ""
+Description = "Yep, it seems that everyone and their dogecoin is climbing onto the cryptocurrency bandwagon in one way or another. I’m not sure if it was the relentless barrage of headlines, those soaring price charts, or just the feeling that something truly disruptive was happening, but I have to admit I was intrigued.\n\nAnd so it was that about a month ago I started playing around with algorithmic cryptocurrency trading. A month later I haven’t made a cent, but I did manage to have fun and learned quite a bit so thought it might be worth sharing. I also ended up writing a fairly flexible trading bot in Python which I wanted to share. (You can find it on GitHub.)"
 Tags = ["python","algorithmic-trading","trading","developing"]
 
 ["ANALYZING CRYPTOCURRENCY MARKETS USING PYTHON"]
 Link = ["https://blog.patricktriest.com/analyzing-cryptocurrencies-python/"] 
-Description = ""
+Description = "A DATA-DRIVEN APPROACH TO CRYPTOCURRENCY SPECULATION\nHow do Bitcoin markets behave? What are the causes of the sudden spikes and dips in cryptocurrency values? Are the markets for different altcoins inseparably linked or largely independent? How can we predict what will happen next?\n\nArticles on cryptocurrencies, such as Bitcoin and Ethereum, are rife with speculation these days, with hundreds of self-proclaimed experts advocating for the trends that they expect to emerge. What is lacking from many of these analyses is a strong foundation of data and statistics to backup the claims.\n\nThe goal of this article is to provide an easy introduction to cryptocurrency analysis using Python. We will walk through a simple Python script to retrieve, analyze, and visualize data on different cryptocurrencies. In the process, we will uncover an interesting trend in how these volatile markets behave, and how they are evolving."
 Tags = ["python","algorithmic-trading","trading","developing"]
 
-[""]
+["@arbedout on Quant Trading Strategies"]
 Link = ["https://twitter.com/arbedout/status/1052361549560598528"]
 Description = "It is generally recognized that creating a profitable quantitative trading  strategy is difficult. Most putative strategies are likely not profitable even without considering trading costs."
 Tags = ["algorithmic-trading","trading","twitter","thread"]
 
 ["Crypto Trading on QuantConnect"]
-Link = ["https://www.quantconnect.com/forum/discussion/2747/crypto-trading-on-quantconnect/p3"] 
-Description = ""
+Link = ["https://www.quantconnect.com/docs/home/home"] 
+Description = "The QuantConnect Algorithm Lab allows you to allows write code in project files and then press the  Build button to compile your algorithm. Build errors will be displayed in the console and highlighted with red-lines.\n\nYou can add, rename and delete files in your project in the Projects tab. In order to rename your project click into the project, hover over the title and click on the pencil to the right of it. You can create a virtual folder for your project by placing a slash (\"/\") into the name of your file. The bare minimum to run an algorithm is your initialization and data event methods."
 Tags = ["python","algorithmic-trading","trading","developing"]
 
-[""]
+["PythonAndTrading.com"]
 Link = ["http://www.pythonandtrading.com/"] 
-Description = ""
-Tags = ["python","algorithmic-trading","trading","developing"]
+Description = "Getting started with algorithmic trading using Python and a bit of machine learning"
+Tags = ["python","algorithmic-trading","trading","developing","resources"]
 
 ["Best Bitcoin Trading Bots in 2018 – Automated Trading Guide"]
 Link = ["https://captainaltcoin.com/best-bitcoin-trading-bots/"] 
-Description = ""
-Tags = ["python","algorithmic-trading","trading","developing"]
+Description = "Trading bots is a technique that uses pre-programmed software that analyzes market actions, such as volume, orders, price, and time, and they are rather common in the bitcoin world, because very few traders have time to stare at the charts all day. Bots or program trading is used within many global stock exchanges. Most people trade bitcoin as a way to generate passive income while working their regular day jobs, and bitcoin trading bots are said to establish more efficient trading. Bitcoin trading bots can be utilized on many well-known cryptocurrency exchanges today. There are bots that are free of charge and can be downloaded online, and there are also trading bot services you have to pay for, offered by various trading engine and programming companies.\n\nWith so many people relying on trading bots, the question becomes which one should be avoided and which one can be trusted. Below is a list of top 6 best cryptocurrency trading bots. However, your mileage may vary when using them."
+Tags = ["python","algorithmic-trading","trading","developing","bitcoin"]
 
 ["Algorithmic Cryptocurrency Swing Trading Strategy Part 1"]
 Link = ["https://www.linkedin.com/pulse/algorithmic-cryptocurrency-swing-trading-strategy-part-eremenko/"] 
-Description = ""
+Description = "The current crypto market is probably one of the biggest bubbles of our time. The largely unsophisticated adoption & sentiment-driven market (you cant convince me 'dogecoin' & 'crypto kitties' have fundamental value) presents an opportunity to take advantage of the mania & volatility of the market using a multi-asset momentum strategy. The simple thinking here is that people like to jump on the 'next hot coin' & with the market; driven by technical & sentiment-based factors (hey! did you hear about ripple? It's up 1000% last week & is the next hot thing !!) and that can provide an opportunity for systematically exploiting the investor sentiment.\n\nStrategies that take advantage of modest short to medium term moves are known as swing trading strategies. In our algorithm, we use the Parabolic Time/Price System as our indicator which is an adaptive momentum indicator which adjusts to the speed of the trend. Its basic premise is that we want to enter into trades that must continue to be profitable or it will be liquidated (similar to any trend following system). Our exit signal generated from this is much tighter if the market is moving up quickly rather than if it was moving slowly helping us keep most of our profits from the latest 'swing'."
 Tags = ["python","algorithmic-trading","trading","developing"]
 
 ["High Frequency Trading on the Coinbase Exchange"]
 Link = ["https://www.coindesk.com/high-frequency-trading-on-the-coinbase-exchange/"] 
-Description = ""
+Description = "I’ve recently started trading bitcoins algorithmically on the new Coinbase exchange. After reading about high-frequency trading in the book Flash Boys by Michael Lewis, I decided I’d give it a shot myself, albeit in a clumsier, more amateurish way.\n\nThe experience has been fascinating, both on a technical level, and in a strategic sense. Writing logic that controls money itself is a strange thing. Setting it loose for the first time, knowing that any bug could literally throw away cash, was terrifying.\n\nBitcoin is an incredibly open system that is particularly friendly to no-name developers. The exchanges have open API’s that allow anyone, literally anyone, to trade. There’s no premium access, no expensive trading floor credentials. It’s totally open – I love that."
 Tags = ["python","algorithmic-trading","trading","developing"]
 
 ["A tutorial on how to do algorithmic trading of cryptocurrency"]
 Link = ["https://steemit.com/ai/@dana-edwards/a-tutorial-on-how-to-do-algorithmic-trading-of-cryptocurrency"] 
-Description = ""
+Description = "If you can get this right your trade bot can make money by automatic trading. This bot can do it's own technical analysis and profit for you. Of course this also has implications for Steem and Steemit as bots are also on Steem. Expect these Steemit bots to get smarter if people choose to refine and test the algorithms are the algorithms are the secret sauce of profit bots.\n\nPython is very simple. A programmer coming from C or C++ can learn Python over a weekend. Writing bots is one of the most simple tasks in Python. Algorithmic trading code is usually very simple scripts but the quality of the algorithms are what make the difference and an algorithm is only as good as it's data sources and it's strategies."
 Tags = ["python","algorithmic-trading","trading","developing"]
 
 ["Python for analysing financial markets"]
 Link = ["http://www.automatedtrader.net/articles/technology-strategy/157883/python-for-analysing-financial-markets"] 
-Description = ""
+Description = "This article is split into three parts. Firstly, we discuss the relative merits of various programming languages for analysing financial markets. This part is especially relevant for readers less familiar with Python or coding in general. There are short explanations of how some of the more common languages operate and what is of particular importance when it comes to performance and usability.\n\nSecondly, we go into detail about the libraries available in Python to analyse data. Our discussion covers some libraries which might be less well-known within the Python data community. We suggest that developers familiar with Python should jump to this part.\n\nFinally, we introduce Cuemacro's open-source financial market libraries written in Python: Chartpy (visualisation), Findatapy (market data) and Finmarketpy (backtesting trading strategies). We conclude by presenting some examples of market analysis written in Python using these libraries."
 Tags = ["python","algorithmic-trading","trading","developing","libraries"]
 
 ["The All-In-One Cryptocurrency API"]
 Link = ["https://www.coinigy.com/bitcoin-api/"] 
-Description = ""
-Tags = ["python","algorithmic-trading","trading","developing"]
+Description = "The All-In-One Cryptocurrency API Live Data Powered by Coinigy CryptoFeed™"
+Tags = ["python","algorithmic-trading","trading","developing","coingy"]
 
 ["A Newbie Guide to Python"]
 Link = ["https://blog.appdynamics.com/engineering/a-newbie-guide-to-python/"] 
-Description = "really basic high level information"
-Tags = ["python","algorithmic-trading","trading","developing"]
+Description = "Python is a programming language that is useful for writing quick and simple scripts, but it is also a good language to use for creating large-scale full-blown applications. Even massive operations like YouTube use Python to deliver their content over the Web.\n\nreally basic high level information"
+Tags = ["python","developing"]
