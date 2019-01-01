@@ -508,12 +508,7 @@ Link = ["https://twitter.com/CryptoCred/status/1036714196027801600"]
 Description = "Have a trading plan for the day/session. Here's a basic outline you can use 👇\n\nWhat's price reaching for? (Thesis)\nWhat does price have to do for me to enter a trade? (Setup)\nWhere might a Setup arise? (Entry)\nWhere would the Setup fail? (Risk)\nWhat's the Setup target? (Reward)"
 Tags = ["trading","twitter","cryptocred"]
 
-["Trunews: Does the moon effect the markets?.wmv"]
-Link = ["https://youtu.be/YVz5zfiBQjM"]
-Description = "Does the moon effect the markets?.wmv"
-Tags = ["trunews","trading","moon","rothschild"]
-
-["@Lucid_TA speculating about market movements"]
+["@Lucid_TA speculating on market movements"]
 Link = ["https://twitter.com/Lucid_TA/status/1037510808782032896"]
 Description = "A lot of people were talking about how bullish the bull whale was. Counter-narrative is that someone with deep pockets held the price up and continued pushing it higher, while simultaneously opening derivative shorts before dumping accumulated spot on market."
 Tags = ["speculation","narratives","bitcoin"]
@@ -523,152 +518,132 @@ Link = ["https://twitter.com/CryptoCred/status/1037772897241255936"]
 Description = "Important point about RSI: \n\nAfter a big move/candle there will almost always be a regular divergence. \n\nDon’t use it to try to snipe the bottom or top.\n\nDivergences work better when they form during a discernible trend, NOT after a bazooka candle like yesterday."
 Tags = ["trading","divergence","rsi","twitter","cryptocred"]
 
-[""]
+["@alistairmilne on patience"]
 Link = ["https://twitter.com/alistairmilne/status/1037793389629108224"]
-Description = ""
-Tags = ["",""]
+Description = "Investing is about conviction and patience. Daily news and volatility are noises meant to distract you from your investment thesis and shake out the weak hands"
+Tags = ["trading","patience"]
 
-[""]
+["CNBC ‘REVERSE BITCOIN PRICE INDICATOR’ HITS BULLSEYE AGAIN"]
 Link = ["https://bitcoinist.com/cnbc-reverse-bitcoin-price-impress/"]
-Description = ""
-Tags = ["",""]
+Description = "As Bitcoinist previously reported, cryptocurrency traders had become aware of CNBC’s miscalculation of Bitcoin’s short-term behavior, with one even earning an invitation to speak on the network after publishing the ‘reverse indicator’ theory."
+Tags = ["trading","reverse-cnbc","indicator"]
 
-[""]
+["Bullish Candlestick Patterns"]
 Link = ["https://pbs.twimg.com/media/DmoTJNlXcAAPQza.jpg:large"]
-Description = ""
-Tags = ["",""]
+Description = "Bullish Candlestick Patterns"
+Tags = ["image","trading","technical-analysis","candlesticks"]
 
-[""]
-Link = ["https://twitter.com/BTCDJS/status/1038714265392173056"]
+["Ascending and Descending Triangles"]
+Link = ["https://twitter.com/PeterLBrandt/status/1039575413985398784","https://pbs.twimg.com/media/Dm1QPD2V4AEvcWd.jpg:large"]
 Description = ""
-Tags = ["",""]
+Tags = ["trading","triangles","wedges","technical-analysis"]
 
-[""]
-Link = ["https://twitter.com/PeterLBrandt/status/1039575413985398784"]
-Description = ""
-Tags = ["",""]
-
-[""]
-Link = ["https://twitter.com/StockmarketJedi/status/1039635130409615361"]
-Description = ""
-Tags = ["",""]
-
-[""]
+["@cryptocred on candlestick charts"]
 Link = ["https://twitter.com/CryptoCred/status/1040700546221584384"]
-Description = ""
-Tags = ["",""]
+Description = "NEW Technical Analysis Video Lesson 💎\n\nIntroduction to Candlestick Charts\n\nIf you/your friends know zilch about technical analysis, this is the perfect place to start.\n\nCheck it out & be sure to leave a like/comment 👇"
+Tags = ["trading","candlestick","twitter","video","technical-analysis"]
 
-[""]
-Link = ["https://twitter.com/trader_travis/status/1040752102853599234"]
+["@trader_davis on divergence"]
+Link = ["https://twitter.com/trader_travis/status/1040752102853599234","https://pbs.twimg.com/media/DnF-SbEVYAE6Dol.jpg:large"]
 Description = ""
-Tags = ["",""]
+Tags = ["trading","divergence","twitter","image"]
 
-[""]
-Link = ["https://twitter.com/CryptoHornHairs/status/1041112269927505921"]
-Description = ""
-Tags = ["",""]
+["@CryptoHornHairs shares Position Size Calculator"]
+Link = ["https://twitter.com/CryptoHornHairs/status/1041112269927505921","https://docs.google.com/spreadsheets/d/1FD5lTMDs6ZQrmZrsULMjnmT-gH15Y2OYTjYPFoAHd9c/edit#gid=0"]
+Description = "🎚️ Get dialed in with this easy to use position size calculator made by @Corn_crypto 🎚️\n\nMake a copy of the doc for yourself, enter your stack size, entry, risk % per trade, and stop loss, then the rest is Google doc magic 🙏🧙‍♂️"
+Tags = ["trading","tools","position-size","twitter"]
 
-[""]
+["How Traders Use Cryptocurrency Arbitrage to Make Profits"]
 Link = ["https://medium.com/blocktoken/how-traders-use-cryptocurrency-arbitrage-to-make-profits-8e5f3adb75c4"]
-Description = ""
-Tags = ["",""]
+Description = "Arbitrage is the simultaneous buying and selling of an asset class on different markets in order to profit from a price discrepancy between them. For example, a trader might notice that a specific token is selling for less on Exchange A than on Exchange B. An arbitrage trader would buy said token on Exchange A and sell it for a higher price on Exchange B, making a risk free profit in the process."
+Tags = ["trading","arbitrage"]
 
-[""]
+["The Relative Strength is not an Overbought/Oversold Indicator"]
 Link = ["http://www.technical-analysis.com/learnTA/RSINotOBOS/RSINotOBOS.html"]
-Description = ""
-Tags = ["",""]
+Description = "The Relative Strength Index is never an overbought/oversold indicator. If you did not learn Relative Strength Index from the original text, then it is very likely that you have been taught the wrong thing right from the beginning - that RSI is an overbought/oversold indicator. I want to tell you straight away that this is wrong."
+Tags = ["trading","rsi","indicators","divergence"]
 
-[""]
-Link = ["https://twitter.com/tradingroomapp/status/1040868470953410560"]
-Description = ""
-Tags = ["",""]
+["Mr.Anderson on MACD"]
+Link = ["https://twitter.com/tradingroomapp/status/1040868470953410560","https://www.youtube.com/watch?v=OinRPwCzIIU"]
+Description = "Why MACD is Terrible.\n\nI know people LOVE indicators. But, just about all indicators are terrible (if you use them like the masses).  Let's have some fun by looking at where these indicators struggle and then let's see if we can figure out some ways to make these indicators work a bit better"
+Tags = ["trading","macd","indicators"]
 
-[""]
-Link = ["https://twitter.com/CryptoQF/status/1042265797584797696"]
-Description = ""
-Tags = ["",""]
+["Crypto Quantamental (@CryptoQF) Coin Selection Model"]
+Link = ["https://twitter.com/CryptoQF/status/1042265797584797696","https://docs.google.com/spreadsheets/d/1gj15bVnukLGR14PrZ09us7ScRrhM8yg71_CalKX7gbU/edit?usp=sharing"]
+Description = "Important Disclaimer: This model is not designed to determine whether the crypto market will rise or fall. It is not designed to select coins that will have the most positive returns or identify coins with negative returns. It is designed to identify the coins that have the greatest chances of outperforming and the coins with the greatest chances of underperforming. Outperforming and underperforming is relative to the crypto universe. Therefore if the average crypto coin is up 1000% the dark green coins, in aggregate, would be attempting to beat that. If the average coin is down 50%, the dark green coins will be trying to beat that. This is not financial advice. This is merely my personal model, and I am sharing how I utilize it."
+Tags = ["trading","quant-trading","twitter","cryptoqf","docs","tools"]
 
-[""]
+["Six New and Improved Cryptocurrency Analysis Tools"]
 Link = ["https://news.bitcoin.com/six-new-and-improved-cryptocurrency-analysis-tools/"]
-Description = ""
-Tags = ["",""]
+Description = "It’s not just cryptocurrencies that are multiplying: so is the number of sites striving to keep track of them. We’ve previously profiled analytical sites that offer an alternative to Coinmarketcap, the runaway market leader. It is the bitcoin of price analysis platforms. Since then, several new contenders have emerged, each aiming to impact upon CMC’s market dominance and make a name for themselves. A number of alternative blockchain explorers and crypto monitoring sites have also upped their game, adding a string of new features, as the following roundup shows."
+Tags = ["tools","trading","article"]
 
-[""]
+["Does Technical Analysis Work?"]
 Link = ["https://medium.com/@cryptocreddy/does-technical-analysis-work-fa90413a8328"]
-Description = ""
-Tags = ["",""]
+Description = "I have been delaying writing this article for some time now, simply because of the number of sub-arguments that arise when one tries to answer whether technical analysis works.\n\nI am going to try to keep my arguments as simple and pertinent as possible. This article is primarily aimed at:\n\n— Those who have heard the term technical analysis but do not know what it entails\n\n— Those who are well aware of the practice but remain sceptical\n\nIt is at this point I should stress that by no means am I rehashing some orthodox doctrine on what technical analysis is and isn’t (if there were such a thing). These are my personal views and a way of thinking about technical analysis that has made me a better trader.\n\nMoreover, just to make my position clear: I am primarily a technical trader, therefore my implicit position is that technical analysis ‘works’ (to be defined later)."
+Tags = ["technical-analysis","trading"]
 
-[""]
-plenty of trading books 
+["LibTA Technical Analysis Library 📚 FREE Books & Trading Courses on Cryptos, Forex and Investing"]
 Link = ["https://t.me/LibTA"]
-Description = ""
-Tags = ["",""]
+Description = "📊Forex/Crypto books for FREE 🎓Download books for complete beginners, basic concepts and techniques of trading as Chart Patterns, Day Trading, Elliott Wave Principles, Ichimoku, Psychology Of Trading, etc."
+Tags = ["technical-analysis","trading","books"]
 
-[""]
+["Repository of Trading Books"]
 Link = ["https://github.com/hientm36/gnidart"]
-Description = ""
-Tags = ["",""]
+Description = "Repository of Trading Books"
+Tags = ["technical-analysis","trading","books"]
 
-[""]
-Link = ["https://twitter.com/JimAllmendinger/status/1044710492923617281"]
-Description = ""
-Tags = ["",""]
+["@JimAllmendinger share image of market cycles"]
+Link = ["https://twitter.com/JimAllmendinger/status/1044710492923617281","https://pbs.twimg.com/media/Dn-ObUOU8AAdPPq.jpg:large"]
+Description = "@JimAllmendinger Bitcoin has a 4 year cycle that's programmed into the system."
+Tags = ["trading","images","speculation"]
 
-[""]
-Link = ["https://tensorcharts.com/"]
-Description = ""
-Tags = ["",""]
-
-[""]
+["aggr.trade"]
 Link = ["https://aggr.trade/#"]
-Description = ""
-Tags = ["",""]
+Description = "Charts"
+Tags = ["trading","charts","tools"]
 
-[""]
+["Technical Analysis Rating Research"]
 Link = ["https://www.marketvolume.com/technicalanalysis/rating.asp"]
-Description = ""
-Tags = ["",""]
+Description = "Technical Indicators Rating by Performance on the daily charts"
+Tags = ["trading","technical-analysis","indicators","ratings","tools"]
 
-[""]
+["CryptoWest Trading books"]
 Link = ["https://cryptowest.com/books-trading-tools/"]
-Description = ""
-Tags = ["",""]
+Description = "a collection of book collections related to trading"
+Tags = ["trading","technical-analysis","books","cryptowest"]
 
-[""]
+["One of the Most Important Concepts in Trading"]
 Link = ["https://cryptowest.com/2018/08/24/one-important-concepts-trading/"]
-Description = ""
-Tags = ["",""]
+Description = "When trading you need some way to manage your risk. One of the most effective and notable strategies is the R method. When talking to new traders I like to give the example of a poker player. You start out small and overtime you end up building your bankroll/trading capital to a sizable amount. What makes the R multiple so helpful is it allows you to size your position relative to risk. This allows you to understand the risks required when trading and risk what you are comfortable with.  I am shocked everyday on twitter by the amount of people unaware of these risk management concepts."
+Tags = ["trading","risk-management","cryptowest"]
 
-[""]
+["Trading Cryptocurrencies - Order Blocks, ICT, & Bitcoin Targets"]
 Link = ["https://www.youtube.com/watch?v=Ou_BPr84GHY"]
-Description = ""
-Tags = ["",""]
+Description = "A live twitch session exploring order-blocks, ICT concepts, and entry-signals through looking at Bitcoin, Ethereum & $Lend price-action."
+Tags = ["trading","bitcoin","ethereum","signals"]
 
-[""]
+["Deribit, Bitcoin Options and Volatility"]
 Link = ["https://medium.com/@ThinkingUSD/deribit-bitcoin-options-and-volatility-b370ba276761"]
-Description = ""
-Tags = ["",""]
+Description = "For those unfamiliar with options, there are two types of options: Call options and put options.\n\nCalls give the option holder the right, but not the obligation, to buy the underlying security at the strike price.\n\nPut options give the option buyer the right, but not the obligation, to sell the underlying security at the strike price on or before the expiration date.\n\nYou would buy a call option if you are bullish on the underlying, and buy a put option if you were bearish. The cost or price of an option is called the ‘option premium’."
+Tags = ["trading","derbit","options"]
 
-[""]
-Link = ["https://drive.google.com/file/d/1Ew_O4fMdGM2M8NhYDFB0NJmLMCIQi-Tl/view"]
-Description = ""
-Tags = ["",""]
+["@cryptostaker's Learning Center"]
+Link = ["https://drive.google.com/file/d/1Ew_O4fMdGM2M8NhYDFB0NJmLMCIQi-Tl/view","https://t.me/joinchat/AAAAAE8A8XK5-XvvVBTuGg","http://www.cryptostaker.club"]
+Description = "Oscillators, Bollinger Bands, Commodity Channel Index, Fast Stochastic, KST (Short term, Intermediate term, Long term), MACD, Momentum, Relative Strength Index, Slow Stochastic"
+Tags = ["cryptostaker","trading","technical-analysis","indicators"]
 
-[""]
-Link = ["https://app.compound.finance/"]
-Description = ""
-Tags = ["",""]
+["Compound Finance"]
+Link = ["https://app.compound.finance/","https://medium.com/compound-finance/faq-1a2636713b69"]
+Description = "Compound is a money market protocol on the Ethereum blockchain — allowing individuals, institutions, and applications to frictionlessly earn interest on or borrow cryptographic assets without having to negotiate with a counterparty or peer. Each market has dynamic interest rates, which float in real-time as market conditions adjust."
+Tags = ["eth-app","ethereum","protocol"]
 
-[""]
+["Fully Diluted Market Value"]
 Link = ["https://avc.com/2018/10/fully-diluted-market-value/"]
-Description = ""
-Tags = ["",""]
+Description = "When someone asks you how much of a company you own, the answer could be two very different numbers. You might own 10,000 shares and there might be 1mm shares issued and outstanding. That would suggest you own 1% of the company. And that would be correct, as of right now.\n\nWhat is often not calculated in these sorts of numbers is future dilution, particularly dilution that is visible if you look closely. The most common form of future dilution that is visible are outstanding options and warrants to issue stock that have not been exercised."
+Tags = ["trading","market-value"]
 
-[""]
+["@CryptoCred on Trading -w- Leverage"]
 Link = ["https://medium.com/@cryptocreddy/comprehensive-guide-to-position-size-and-leverage-2e27764ce9e0"]
-Description = ""
-Tags = ["",""]
-
-[""]
-that's the shape of about to moon
-(image attachment not found)
+Description = "Nearly every day, whether on Twitter, Telegram, or Discord, I see traders struggling to understand how to calculate their position sizes and generally make sense of leveraged trading.\n\nIn this article, I’ll break the concepts down to first principles and give you a very simple way to calculate position size, as well as understand how and when to employ leverage."
+Tags = ["cryptocred","trading","leverage"]
