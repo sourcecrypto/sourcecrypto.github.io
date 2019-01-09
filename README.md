@@ -9,7 +9,7 @@ Originally organized in the channels of a discord server, this is a landing pad 
 
 In order to create the database to power our dynamic web-portal, I'm using the TOML format to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. By labeling each link with a Title, Description, and Tags we will have made it easy   to be used for a web directory. Of course all of that takes a lot of work. Its easy, relaxing, and a wonderful educational opportunity, but time consuming.
 
-I'm using a discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](/crypt0library-scrape)' which can be viewed with https://dht.chylex.com/build/viewer.html
+I'm using a discord server history scraper https://dht.chylex.com/ to create '[/crypt0library-scrape](/crypt0library-scrape)' which can be viewed with https://dht.chylex.com/build/viewer.html
 
 I've moved the most important information over already, but there's still a bit to go through, yet. A little confusing, because I don't always notice if the scraper has gotten each channel completely until I'm copying the info over.
 
