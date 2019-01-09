@@ -42,8 +42,8 @@ Using a consistent tagging schema will be nearly impossible in the long run. We 
 
 See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/master/toml/tag-definitions.md)" for more information. Feel free to join in on the fun :)
 
-
-### Brought to you by: [The Crypto Library—Super Source](https://github.com/infominer33/Crypto-library)
+---
+Tips Welcome.
 
 BTC— 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
