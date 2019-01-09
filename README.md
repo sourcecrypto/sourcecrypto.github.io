@@ -1,74 +1,69 @@
 # The Crypto Library — Super Source
-TLDR; Creating a collaborative web-directory of "source-grade" content. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. Originally organized in a discord server, we are transforming a catalog of informational and educational resources into a tagged database that will power a dynamic web-directory.
+Creating a collaborative web-directory of "source-grade" content, searchable and manually navigable — perhaps with chat bot search engines, to make it portable. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. 
 
-**Outline**
-* Introduction
-* Library Directory
-* The Plan and Problem
-* Project Overview
-
-### Introduction
-At crypt0library.net, there are thousands of links organized categorically on an ever-expanding array of crypto-related topics. Becoming familiar with the many facets of crypto is a monumental task. Finding quality information requires a lot of background research, familiarity with the community, and following the sources of quality sources.
-
-We’ve started by focusing on fundamentals; general crypto topics; and specific projects that are the oldest, most dominant, respected, influential, etc. There are many new projects, but plenty of other research groups are focused on ICOs. The plan is to eventually cover all types of crypto knowledge, along with all of the top (some number) crypto projects. Seeking the highest quality technical information along with the best criticism, regardless of our personal opinions.
-
-There are currently 125 different channels, with thousands of resources, each devoted to a particular aspect of crypto. Obviously knowledge can't be so easily compartmentalized, but we do our best. We also happen to have the largest, freely-available, collection of learning materials about trading and evaluating cryptocurrencies\icos than can be found anywhere else. If you're interested in that type of thing.
-
-Much of this information has already found a home, and been expanded upon, in some [github lists](https://github.com/infominer33/Crypto-Library/blob/master/projects.md).
+Originally organized in the channels of a discord server, this is a landing pad in the process of bringing making this collection of resources machine readable.
 
  <img src="https://i.imgur.com/zeYCNMS.jpg" />
 
 ## [crypt0library.net](http://crypt0library.net)
 
-### Library Directory
+In order to create the database to power our dynamic web-portal—supersource—we are using the TOML format to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. By labeling each link with a Title, Description, and Tags we will have made it easy   to be used for a web directory. Of course all of that takes a lot of work. Its easy, relaxing, and a wonderful educational opportunity, but time consuming.
 
-In case you haven't been to the server yet, here is its directory to give you an idea of how it's organized:
+I'm using a discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://raw.githubusercontent.com/infominer33/Crypto-library/master/toml/crypt0library_history.txt)' which can be viewed with https://dht.chylex.com/build/viewer.html
 
-#### General Knowledge
-#101 #history #nakamoto #wallets #exchanges #cypherpunks #icos #evaluation #economics #governance #trading #mining #regulation #wallets #growth-adoption #traditional-finance
+The first step is to use that viewer app to copy\paste channel histories for channels that have not had files made for them yet. The best thing would be if someone could make files for all of the channels not done yet, so we could remove one more step from our process. It's fine to copy paste each channel into an individual file with the same filename as channel name.
 
-#### Resources
-#resources #assorted-media #twitter-follows #communities #news-sites #swag #women-of-crypto #earn-crypto #conferences #books #research-papers #non-english #data 
+The next step is transforming each file of resources into toml format.  (https://github.com/toml-lang/toml)
+  
+### The Format
 
-#### Tech
-#cryptography #decentralization #privacy #security #protocols #hash-algos #open-source #forks #smart-contracts #dapps #sidechains #master-nodes #databases #ipfs #tor #pi-rasberry-etc #bittorrent #oracles #interoperability
+```
+["The **Title** of the entry and must always be different from previous entries"] 
+Link = ["https://Blah.com"]
+Description = "Description can be whatever text is valuable to communicate.\nTypically copied directly from the source; sometimes requiring creativity. "
+Tags = ["blah", "blah-blah"]
+```
 
-#### Distributed Consensus
-#distributed-systems #consensus #pow #pos #tendermint #hashgraph 
+>* **For any label that can potentially have multiple values it must always be ["bracketed"] even though sometimes there is only one value.**
+>* **I made "Link" a bracketed ["array"] so that sometimes a supporting link can be included. occasionally this will be helpful.**
+>* **Also, all entries have to have the same fields and format**
+>* **If you use \n for a newline, you can't actually use a newline, the open " and closing " must be on the same line**
+>* **Be careful of quotation marks in text copied descriptions. Change to ' or use an escape character \\" in front of the quotation mark**
+>* **TOML is Case Sensitive. All the tags should be lower case. All the value names must always begin with a capital and be identical**
 
-#### Developing
-#discussion-dev #hackathons #general-developing #blockchain-developing #forking #bitcoin-dev #ethereum-dev #state-channels #id-dev #corda-dev #steem-dev #hyperledger-dev #quant-trading
+<img src="http://i.imgur.com/1nmrAAu.png"/></br>
+The result of this process, once it's landed on github ^^^
 
-#### Crypto
-#gen-crypto #bitcoin #btc-layer2 #ethereum #eth-layer2 #stable-coins #doge #zcash #cardano #stellar #ripple #tron #bch #dash #litecoin #monero #iota #neo #etc #steem #eos #bitshares #nano #hyperledger #corda #bytom #tezos #cosmos #enterprise-dlt #etcetera 
+### Tagging
 
-#### Application
-#decentralized-id #finance #payment-processing #institutional-derivitives #prediction-markets #dao #fiat-processing #publishing #united-nations #government #voting #supplychain #social-media #music #art-collectibles #iot #ai #intellectual-propery #games #energy #services #marketplaces #notary #security-tokens #law-breakers 
-#bots
+Tagging is a complex topic. We need enough unique tags to make this directory ideally navigable, and to use a consistent schema for tagging over the course of this project. 
 
----
+Using a consistent tagging schema will be nearly impossible in the long run. We are just doing the best that we can. Once this project is living in a web app it will become a more streamlined collaborative process: so that tags can be suggested and also flagged as unhelpful.
 
-### The Problem and the Plan
-**The Problem**: In case it hadn't occurred to you, having resources organized in 100+ discord channels isn't the most user-friendly way to run a library. It worked great when there were half as many channels, but as the library grows we need more flexibility.
+See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/master/toml/tag-definitions.md)" for more information. Feel free to join in on the fun :)
 
-**The plan** is to build a dynamic directory of crypto knowledge, searchable and manually navigable, and multi-platform chat-bots so that you can query the library without having to scroll through channels or visit the website :)
 
-We are now working on gathering all of the links into "toml" files, which are a simple format for transforming all of this information into a database. Of course all of that takes work. I very much enjoy the work, and it's a wonderful educational opportunity, but time-consuming. 
+### Our current plan for completing population of toml files is broken down as follows:
 
-Once all of the resources are tagged, and transformed into a database, the potential for the library grows exponentially.
+\* note: if you're volunteering to help I will be happy even if you follow your own system for completing the work. This is the best system that I could to come up with.
 
-### Project Overview
+1. First get the history of every channel into individual files here in this repository.
+   - simply copy\paste 
+2. Clean up each of those files and begin creating the toml format like above, except only with the link field filled out, leaving the rest blank, but ready to be filled out (for the whole server).
+   - a script could probably assist in this matter, but that's not my specialty
+4. then filling out the description and tags and title for each, manually.
+5. While the database is being prepared, developers are working on the web-application and a discord bot but there isn't much for them to work on without a sufficiently populated database.
 
-**This plan will genereally progress in the following stages:**
-1. Fill Discord Library with curated crypto resources (very good progress already)
-2. Place crypt0library server history in machine readable format. 
-     — The [toml](https://github.com/infominer33/Crypto-library/tree/master/toml) directory has some finished toml files that show exactly what that looks like and has further instructions on that aspect.
-3. Create a web-page to dynamically interact with the database<br/>
-4. Create a discord bot to bridge the web-page and various chat servers
+The work was ordered in those steps both to get the easiest most time consuming tasks out of the way first, and to give librarians more time to come up with a proceedure and organizaed thought around how they should be tagged. If you want to help by automating any part of that process would, it would be appreciated.
 
-#### #2 is currently the most important and time-consuming of these
+* BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
-## Please visit [TOML](https://github.com/infominer33/Crypto-library/tree/master/toml) for further information
+
+
+**Thanks for all the help!!!**
+
+I will happily compensate anyone who makes significant contributions. —@infominer
+
 
 ### Brought to you by: [The Crypto Library—Super Source](https://github.com/infominer33/Crypto-library)
 
