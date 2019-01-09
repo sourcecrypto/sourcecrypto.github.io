@@ -13,7 +13,7 @@ I'm using a discord server history scraper https://dht.chylex.com/ to create '[c
 
 I've moved the most important information over already, but there's still a bit to go through, yet. A little confusing, because I don't always notice if the scraper has gotten each channel.
 
-The next step is more straightforward: transforming each file of resources into toml format.  (https://github.com/toml-lang/toml). basically every file in the repo without the .toml file could be worked on.
+The next step is more straightforward: transforming each file of links into toml format.  (https://github.com/toml-lang/toml). basically every file without the ".toml" needs transformation.
   
 ### The Format
 
