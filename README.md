@@ -3,7 +3,7 @@ Creating a collaborative web-directory of "source-grade" content, searchable and
 
 Originally organized in the channels of a discord server, this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
 
- <img src="https://i.imgur.com/zeYCNMS.jpg" />
+ <img src="http://i.imgur.com/HxFqaQg.png" />
 
 ## [crypt0library.net](http://crypt0library.net)
 
