@@ -11,9 +11,9 @@ In order to create the database to power our dynamic web-portal, I'm using the T
 
 I'm using a discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://raw.githubusercontent.com/infominer33/Crypto-library/master/toml/crypt0library_history.txt)' which can be viewed with https://dht.chylex.com/build/viewer.html
 
-The first step is to use that viewer app to copy\paste channel histories for channels that have not had files made for them yet. The best thing would be if someone could make files for all of the channels not done yet, so we could remove one more step from our process. It's fine to copy paste each channel into an individual file with the same filename as channel name.
+I've moved the most important information over already, but there's still a bit to go through, yet. A little confusing, because I don't always notice if the scraper has gotten each channel.
 
-The next step is transforming each file of resources into toml format.  (https://github.com/toml-lang/toml)
+The next step is more straightforward: transforming each file of resources into toml format.  (https://github.com/toml-lang/toml). basically every file in the repo without the .toml file could be worked on.
   
 ### The Format
 
@@ -55,14 +55,6 @@ See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/mas
 5. While the database is being prepared, developers are working on the web-application and a discord bot but there isn't much for them to work on without a sufficiently populated database.
 
 The work was ordered in those steps both to get the easiest most time consuming tasks out of the way first, and to give librarians more time to come up with a proceedure and organizaed thought around how they should be tagged. If you want to help by automating any part of that process would, it would be appreciated.
-
-* BTC 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
-
-
-
-**Thanks for all the help!!!**
-
-I will happily compensate anyone who makes significant contributions. —@infominer
 
 
 ### Brought to you by: [The Crypto Library—Super Source](https://github.com/infominer33/Crypto-library)
