@@ -1,13 +1,13 @@
 # The Crypto Library — Super Source
 Creating a collaborative web-directory of "source-grade" content, searchable and manually navigable — perhaps with chat bot search engines, to make it portable. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. 
 
-Originally organized in the channels of a discord server, this is a landing pad in the process of bringing making this collection of resources machine readable.
+Originally organized in the channels of a discord server, this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
 
  <img src="https://i.imgur.com/zeYCNMS.jpg" />
 
 ## [crypt0library.net](http://crypt0library.net)
 
-In order to create the database to power our dynamic web-portal—supersource—we are using the TOML format to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. By labeling each link with a Title, Description, and Tags we will have made it easy   to be used for a web directory. Of course all of that takes a lot of work. Its easy, relaxing, and a wonderful educational opportunity, but time consuming.
+In order to create the database to power our dynamic web-portal, I'm using the TOML format to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. By labeling each link with a Title, Description, and Tags we will have made it easy   to be used for a web directory. Of course all of that takes a lot of work. Its easy, relaxing, and a wonderful educational opportunity, but time consuming.
 
 I'm using a discord server history scraper https://dht.chylex.com/ to create '[crypt0library_history.txt](https://raw.githubusercontent.com/infominer33/Crypto-library/master/toml/crypt0library_history.txt)' which can be viewed with https://dht.chylex.com/build/viewer.html
 
