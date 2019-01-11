@@ -32,9 +32,11 @@ The result of this process, once it's landed on github ^^^
 
 ### Tagging
 
-Tagging is a complex topic. We need enough unique tags to make this directory ideally navigable, and to use a consistent schema for tagging over the course of this project. 
+Tagging is a complex topic. We need enough unique tags to make this directory ideally navigable, and to use a consistent schema for tagging over the course of this project. If you are jumping in and getting involved, just tag as best you can, I'll be going over the tagging many times.
 
-Using a consistent tagging schema will be nearly impossible in the long run. We are just doing the best that we can. Once this project is living in a web app it will become a more streamlined collaborative process: so that tags can be suggested and also flagged as unhelpful. To be clear these are app specific tags that users will be able to create and navigate via. Not every possible keyword, that will come later on another layer.
+Once this project is living in a web app it will become a more streamlined collaborative process: so that tags can be suggested and also flagged as unhelpful. 
+
+To be clear these are app specific tags that users will be able to create and navigate via. Not every possible keyword, that will come later on another layer.
 
 See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/master/toml/tag-definitions.md)" for more information. Feel free to join in on the fun :)
 
