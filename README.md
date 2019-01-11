@@ -9,7 +9,7 @@ Originally organized in the channels of a discord server, this is a landing pad 
 
 In order to create the database to power our dynamic web-portal, I'm using the TOML format to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. By labeling each link with a Title, Description, and Tags it will be easy to use for a web directory or any purpose- programatically. Of course all of that takes a lot of work. Its easy, relaxing, and a wonderful educational opportunity, but time consuming.
 
-I've scraped the server, and copied all of its contents into files in this repository, that need to be transformed into TOML format. Many of them will be made into "awesome lists", which is part of my process in gathering more resources for the database. Of course, all of this research makes it easier to write articles on any of the subjects within the repo, which also leads to gathering more information.
+I've scraped the server, and copied all of its contents into files in this repository, that need to be transformed into TOML format. Many of them will be made into "[awesome lists](/projects.md)", which is part of my process in gathering more resources for the database. Of course, all of this research makes it easier to write articles on any of the subjects within the repo, which also leads to gathering more information.
 
 The next step is more straightforward: transforming each file of links into toml format.  (https://github.com/toml-lang/toml). basically every file without the ".toml" needs transformation.
   
@@ -41,7 +41,7 @@ Using a consistent tagging schema will be nearly impossible in the long run. We 
 See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/master/toml/tag-definitions.md)" for more information. Feel free to join in on the fun :)
 
 ---
-Tips Welcome.
+Tips Welcome — Check out some of my [other projects](/projects.md)!
 
 BTC— 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
