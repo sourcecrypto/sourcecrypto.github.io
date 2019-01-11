@@ -7,11 +7,9 @@ Originally organized in the channels of a discord server, this is a landing pad 
 
 ## [crypt0library.net](http://crypt0library.net)
 
-In order to create the database to power our dynamic web-portal, I'm using the TOML format to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. By labeling each link with a Title, Description, and Tags we will have made it easy   to be used for a web directory. Of course all of that takes a lot of work. Its easy, relaxing, and a wonderful educational opportunity, but time consuming.
+In order to create the database to power our dynamic web-portal, I'm using the TOML format to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. By labeling each link with a Title, Description, and Tags it will be easy to use for a web directory or any purpose- programatically. Of course all of that takes a lot of work. Its easy, relaxing, and a wonderful educational opportunity, but time consuming.
 
-I'm using a discord server history scraper https://dht.chylex.com/ to create [/crypt0library-scrape](/crypt0library-scrape) which can be viewed with https://dht.chylex.com/build/viewer.html
-
-I've moved the most important information over already, but there's still a bit to go through, yet. A little confusing, because I don't always notice if the scraper has gotten each channel completely until I'm copying the info over.
+I've scraped the server, and copied all of its contents into files in this repository, that need to be transformed into TOML format. Many of them will be made into "awesome lists", which is part of my process in gathering more resources for the database. Of course, all of this research makes it easier to write articles on any of the subjects within the repo, which also leads to gathering more information.
 
 The next step is more straightforward: transforming each file of links into toml format.  (https://github.com/toml-lang/toml). basically every file without the ".toml" needs transformation.
   
