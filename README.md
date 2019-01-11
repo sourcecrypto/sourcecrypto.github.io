@@ -1,17 +1,15 @@
 # The Crypto Library — Super Source
 Creating a collaborative web-directory of "source-grade" content, searchable and manually navigable — perhaps with chat bot search engines, to make it portable. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. 
 
-Originally organized in the channels of a discord server, this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
+Originally organized in the channels of a [discord server](http://crypt0library.net), this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
 
 <center><img src="http://i.imgur.com/HxFqaQg.png" /></center>
 
 ## [crypt0library.net](http://crypt0library.net)
 
-In order to create the database to power our dynamic web-portal, I'm using the TOML format to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. By labeling each link with a Title, Description, and Tags it will be easy to use for a web directory or any purpose- programatically. Of course all of that takes a lot of work. Its easy, relaxing, and a wonderful educational opportunity, but time consuming.
+In order to create the database to power our dynamic web-portal, I'm using the [TOML format](https://github.com/toml-lang/toml) to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. 
 
-I've scraped the server, and copied all of its contents into files in this repository, that need to be transformed into TOML format. Many of them will be made into "[awesome lists](/projects.md)", which is part of my process in gathering more resources for the database. Of course, all of this research makes it easier to write articles on any of the subjects within the repo, which also leads to gathering more information.
-
-The next step is more straightforward: transforming each file of links into toml format.  (https://github.com/toml-lang/toml). basically every file without the ".toml" needs transformation.
+I've scraped the server, and copied all of its contents into files in this repository. Once transformed into TOML, many of them will be made into "[awesome lists](/projects.md)", which is part of my process in gathering more resources for the database. Of course, all of this research makes it easier to write articles on any of the subjects within the repo, which also leads to gathering more information.
   
 ### The Format
 
