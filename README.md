@@ -1,4 +1,6 @@
 # The Crypto Library — Super Source
+<a href="https://infominer.id"><img src="https://raw.githubusercontent.com/infominer33/infominer33.github.io/master/infominer.png" align="right" width="150" height="140"></a>
+
 Creating a collaborative web-directory of "source-grade" content, searchable and manually navigable — perhaps with chat bot search engines, to make it portable. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. 
 
 Originally organized in the channels of a [discord server](http://crypt0library.net), this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
