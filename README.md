@@ -43,7 +43,10 @@ To be clear these are app specific tags that users will be able to create and na
 See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/master/toml/tag-definitions.md)" for more information. Feel free to join in on the fun :)
 
 ---
-Tips Welcome — Check out some of my [other projects](/projects.md)!
+### Tips Welcome 
+<a href="https://infominer.id"><img src="https://raw.githubusercontent.com/infominer33/infominer33.github.io/master/infominer.png" align="right" width="150" height="140"></a>
+
+—Check out some of my [other projects](https://infominer.id)!
 
 BTC— 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
@@ -51,4 +54,4 @@ BTC— 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
 DOGE— DSzMxfABB8EwKiumzV7YHhS7HTvWAyM7QF
 
-![](https://i.imgur.com/0zBLoUP.png) [<img src="https://i.imgur.com/zeYCNMS.jpg" align="right" width="150" height="140">](https://github.com/infominer33/Crypto-library)
+![](https://i.imgur.com/0zBLoUP.png) 
