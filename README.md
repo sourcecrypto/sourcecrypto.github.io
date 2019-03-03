@@ -44,7 +44,8 @@ See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/mas
 
 ---
 ### Tips Welcome 
-<a href="https://infominer.id"><img src="https://raw.githubusercontent.com/infominer33/infominer33.github.io/master/infominer.png" align="right" width="150" height="140"></a>
+<a href="https://infominer.id"><img src="https://infominer.id/images/infominer.png" align="right" width="170" height="150"></a>
+
 
 —Check out some of my [other projects](https://infominer.id)!
 
