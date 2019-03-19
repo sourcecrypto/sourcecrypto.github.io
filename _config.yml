@@ -1,1 +1,34 @@
+plugins:
+    - jekyll-seo-tag
+    - jekyll-github-metadata
+    - jekyll-redirect-from
+    - jekyll-sitemap
+    
 theme: jekyll-theme-slate
+
+url           : "https://infominer.id/SuperSource/"
+baseurl       : "/SuperSource"
+title         : "⧉ SuperSource"
+description   : Discord Chat Server to Create an Open-Source Database of Crypto Knowledge.
+author        : "⧉ Infominer"
+logo          : "https://infominer.id/images/crypt0library.png"
+repository    : "infominer33/SuperSource"
+github        : [metadata]
+
+twitter:
+  creator     : infominer33
+  title       : "⧉ SuperSource"
+  description : Discord Chat Server to Create an Open-Source Database of Crypto Knowledge.
+  image       : "https://infominer.id/images/crypt0library.png"
+  card        : "summary"
+
+social:
+  name: Infominer
+  links:
+    - https://twitter.com/infominer33
+    - https://www.linkedin.com/in/infominer/
+    - https://github.com/infominer33
+    - https://tippin.me/@infominer33
+
+  
+google_analytics: UA-132558656-1
