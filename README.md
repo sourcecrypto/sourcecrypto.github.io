@@ -1,5 +1,5 @@
 # The Crypto Library — Super Source
-<a href="https://infominer.id"><img src="https://infominer.id/images/infominer.png" align="right" width="150"></a>
+<a href="https://infominer.id"><img src="https://infominer.id/images/infominer.png" align="right" width="150" height="148"></a>
 
 Creating a collaborative web-directory of "source-grade" content, searchable and manually navigable — perhaps with chat bot search engines, to make it portable. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. 
 
