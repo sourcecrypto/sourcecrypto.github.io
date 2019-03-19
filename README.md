@@ -1,5 +1,5 @@
 # The Crypto Library — Super Source
-<a href="https://infominer.id"><img src="https://infominer.id/images/infominer.png" align="right" width="170" height="150"></a>
+<a href="https://infominer.id"><img src="https://infominer.id/images/infominer.png" align="right" width="150"></a>
 
 Creating a collaborative web-directory of "source-grade" content, searchable and manually navigable — perhaps with chat bot search engines, to make it portable. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. 
 
@@ -43,11 +43,7 @@ To be clear these are app specific tags that users will be able to create and na
 See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/master/toml/tag-definitions.md)" for more information. Feel free to join in on the fun :)
 
 ---
-### Tips Welcome 
-<a href="https://infominer.id"><img src="https://infominer.id/images/infominer.png" align="right" width="170" height="150"></a>
-
-
-—Check out some of my [other projects](https://infominer.id)!
+### Tips Jar 
 
 BTC— 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
