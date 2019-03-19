@@ -7,6 +7,7 @@ plugins:
 theme: jekyll-theme-slate
 
 url           : "https://infominer.id/SuperSource/"
+rooturl       : "https://infominer.id"
 baseurl       : "/SuperSource"
 title         : "⧉ SuperSource"
 description   : Discord Chat Server to Create an Open-Source Database of Crypto Knowledge.
