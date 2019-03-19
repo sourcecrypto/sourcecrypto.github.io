@@ -53,7 +53,7 @@ This is a really basic demo of what we're working to create.
 
 In order to create the database to power our dynamic web-portal, I'm using the [TOML format](https://github.com/toml-lang/toml) to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. 
 
-I've scraped the server, and copied all of its contents into files in this repository. Once transformed into TOML, many of them will be made into "[awesome lists](/projects.md)", which is part of my process in gathering more resources for the database. Of course, all of this research makes it easier to write articles on any of the subjects within the repo, which also leads to gathering more information.
+I've scraped the server, and copied all of its contents into files in this repository. Once transformed into TOML, many of them will be made into their own pages. It's all part of the process, gather, organize, gather more.
   
 ### The Format
 
@@ -71,7 +71,7 @@ Tags = ["blah", "blah-blah"]
 >* **Be careful of quotation marks in text copied descriptions. Change to ' or use an escape character \\" in front of the quotation mark**
 >* **TOML is Case Sensitive. All the tags should be lower case. All the value names must always begin with a capital and be identical**
 
-<img src="https://i.imgur.com/1nmrAAu.png"/></br>
+<img src="https://i.imgur.com/1nmrAAu.png"/>
 The result of this process, once it's landed on github ^^^
 
 ### Tagging
@@ -82,7 +82,7 @@ Once this project is living in a web app it will become a more streamlined colla
 
 To be clear these are app specific tags that users will be able to create and navigate via. Not every possible keyword, that will come later on another layer.
 
-See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/master/toml/tag-definitions.md)" for more information. Feel free to join in on the fun :)
+See "[tag-definitions.md](/toml/tag-definitions.html)" for more information. Feel free to join in on the fun :)
 
 <a href="https://github.com/infominer33/SuperSource">View on GitHub</a>
 
