@@ -1,4 +1,4 @@
-# The Crypto Library — Super Source
+# The Crypto Library ⧉ Super Source
 <a href="https://infominer.id"><img src="https://infominer.id/DIDecentralized/infominer.png" align="right" width="150"></a>
 
 Creating a collaborative web-directory of "source-grade" content, searchable and manually navigable — perhaps with chat bot search engines, to make it portable. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. 
@@ -6,6 +6,40 @@ Creating a collaborative web-directory of "source-grade" content, searchable and
 Originally organized in the channels of a [discord server](http://crypt0library.net), this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
 
 <center><img src="http://i.imgur.com/HxFqaQg.png" /></center>
+
+### [⧉ SuperSource](http://crypt0library.net) Directory [**^**](#research-index)
+
+I'll share the server directory here, to give you an idea of what you're missing out on. It's quite navigable, using `ctrl+k` (in the discord app), or by using the channel directory I've made in-server.
+
+**General Knowledge**
+
+<a href="http://crypt0library.net" target="_blank"><img src="images/crypt0library.jpg" align="right" width="150" height="140"></a>
+
+\#101, #history, #satoshi, #wallets, #exchanges, #cypherpunk, #icos, #evaluation, #economics, #governance, #trading, #mining, #regulation, #walstreet, #wallets, #growth-adoption, #traditional-finance, #classification, 
+
+**Resources**
+
+\#resources, #assorted-media, #twitter-follows, #communities, #news-sites, #swag, #women, #earn-crypto, #conferences, #books, #research-papers, #non-english, #data, #send-crypto
+
+**Crypto**
+
+\#gen-crypto, #bitcoin, #btc-layer2, #ethereum, #eth-layer2, #eth-consensus, #stable-coins, #doge, #zcash, #cardano, #stellar, #ripple, #tron, #bch, #dash, #litecoin, #monero, #iota, #neo, #etc, #steem, #eos, #bitshares, #nano, #hyperledger, #corda, #etcetera, #bytom, #tezos, #cosmos, #enterprise-dlt, #grin-mimblewimble, #blockstack, #central-bank-digital-currency
+
+**Tech**
+
+\#cryptography, #decentralization, #privacy, #security, #protocols, #hash-algos, #open-source, #forks, #smart-contracts, #dapps, #sidechains, #master-nodes, #databases, #ipfs, #tor, #pi-rasberry, #bittorrent, #oracles, #interoperability, #identification, #p2p, #drivechains, #internet-protocols 
+
+**Distributed Consensus**
+
+\#distributed-systems, #consensus, #pow, #pos, #tendermint, #hashgraph, Development, #discussion-dev, #hackathons, #gen-developing, #blockchain-developing, #forking, #bitcoin-dev, #ethereum-dev, #state-channels, #id-dev, #corda-dev, #steem-dev, #hyperledger-dev, #quant-trading, #nano-dev, #cardano-dev, #design
+
+**Application**
+
+<a href="http://crypt0library.net" target="_blank"><img src="images/crypt0library.jpg" align="right" width="150" height="140"></a>
+
+\#security-tokens, #identity-did, #finance, #payment-processing, #institutional-derivitives, #prediction-markets, #dao, #fiat-onramp, #publishing, #united-nations, #government, #voting, #supplychain, #social-media, #music, #art-collectibles, #iot, #ai, #intellectual-propery, #games, #energy, #services, #marketplaces, #notary, #criminal, #bots, #utility, #china, #crypto-selfregulation
+
+<b><a href="http://crypt0library.net" target="_blank">crypt0library.net</a></b>
 
 ## [crypt0library.net](http://crypt0library.net)
 
