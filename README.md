@@ -7,7 +7,7 @@ Originally organized in the channels of a [discord server](http://crypt0library.
 
 <a href="https://github.com/infominer33/SuperSource">View on GitHub</a>
 
-<center><img src="http://i.imgur.com/HxFqaQg.png" /></center>
+<center><img src="https://i.imgur.com/HxFqaQg.png" /></center>
 
 ### [⧉ SuperSource](http://crypt0library.net) Directory [**^**](#research-index)
 
@@ -61,7 +61,7 @@ Tags = ["blah", "blah-blah"]
 >* **Be careful of quotation marks in text copied descriptions. Change to ' or use an escape character \\" in front of the quotation mark**
 >* **TOML is Case Sensitive. All the tags should be lower case. All the value names must always begin with a capital and be identical**
 
-<img src="http://i.imgur.com/1nmrAAu.png"/></br>
+<img src="https://i.imgur.com/1nmrAAu.png"/></br>
 The result of this process, once it's landed on github ^^^
 
 ### Tagging
@@ -82,7 +82,7 @@ See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/mas
 
 BTC— 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
-![](http://imgur.com/yXLLm9Bl.png) 
+![](https://imgur.com/yXLLm9Bl.png) 
 
 DOGE— DSzMxfABB8EwKiumzV7YHhS7HTvWAyM7QF
 
