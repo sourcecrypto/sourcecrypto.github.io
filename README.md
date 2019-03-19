@@ -13,8 +13,6 @@ I'll share the server directory here, to give you an idea of what you're missing
 
 **General Knowledge**
 
-<a href="http://crypt0library.net" target="_blank"><img src="https://infominer.id/images/crypt0library.jpg" align="right" width="150" height="140"></a>
-
 \#101, #history, #satoshi, #wallets, #exchanges, #cypherpunk, #icos, #evaluation, #economics, #governance, #trading, #mining, #regulation, #walstreet, #wallets, #growth-adoption, #traditional-finance, #classification, 
 
 **Resources**
@@ -35,11 +33,9 @@ I'll share the server directory here, to give you an idea of what you're missing
 
 **Application**
 
-<a href="http://crypt0library.net" target="_blank"><img src="https://infominer.id/images/crypt0library.jpg" align="right" width="150" height="140"></a>
-
 \#security-tokens, #identity-did, #finance, #payment-processing, #institutional-derivitives, #prediction-markets, #dao, #fiat-onramp, #publishing, #united-nations, #government, #voting, #supplychain, #social-media, #music, #art-collectibles, #iot, #ai, #intellectual-propery, #games, #energy, #services, #marketplaces, #notary, #criminal, #bots, #utility, #china, #crypto-selfregulation
 
-<b><a href="http://crypt0library.net" target="_blank">crypt0library.net</a></b>
+<b><a href="https://discord.gg/ahTuPMY" target="_blank">discord.gg/ahTuPMY</a></b>
 
 ## [crypt0library.net](http://crypt0library.net)
 
