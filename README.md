@@ -39,6 +39,12 @@ I'll share the server directory here, to give you an idea of what you're missing
 
 <b><a href="https://discord.gg/ahTuPMY" target="_blank">discord.gg/ahTuPMY</a></b>
 
+## SuperSource Demo
+
+[![](https://i.imgur.com/N2DWAMF.png)](supersource-demo.mp4)
+
+This is a really basic demo of what we're working to create.
+
 ## [crypt0library.net](http://crypt0library.net)
 
 In order to create the database to power our dynamic web-portal, I'm using the [TOML format](https://github.com/toml-lang/toml) to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. 
