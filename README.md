@@ -5,6 +5,8 @@ Creating a collaborative web-directory of "source-grade" content, searchable and
 
 Originally organized in the channels of a [discord server](http://crypt0library.net), this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
 
+<a href="https://github.com/infominer33/SuperSource">View on GitHub</a>
+
 <center><img src="http://i.imgur.com/HxFqaQg.png" /></center>
 
 ### [⧉ SuperSource](http://crypt0library.net) Directory [**^**](#research-index)
@@ -71,6 +73,9 @@ Once this project is living in a web app it will become a more streamlined colla
 To be clear these are app specific tags that users will be able to create and navigate via. Not every possible keyword, that will come later on another layer.
 
 See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/master/toml/tag-definitions.md)" for more information. Feel free to join in on the fun :)
+
+<a href="https://github.com/infominer33/SuperSource">View on GitHub</a>
+
 
 ---
 ### Tips Jar 
