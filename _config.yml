@@ -12,7 +12,7 @@ baseurl       : "/SuperSource"
 title         : "⧉ SuperSource"
 description   : Discord Chat Server to Create an Open-Source Database of Crypto Knowledge.
 author        : "⧉ Infominer"
-logo          : "https://i.imgur.com/HxFqaQg.png"
+logo          : "https://infominer.id/images/crypt0library.jpg"
 repository    : "infominer33/SuperSource"
 github        : [metadata]
 
@@ -20,7 +20,7 @@ twitter:
   creator     : infominer33
   title       : "⧉ SuperSource"
   description : Discord Chat Server to Create an Open-Source Database of Crypto Knowledge.
-  image       : "https://i.imgur.com/HxFqaQg.png"
+  image       : "https://infominer.id/images/crypt0library.jpg"
   card        : "summary"
 
 social:
