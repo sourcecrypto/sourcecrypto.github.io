@@ -12,11 +12,13 @@ Originally organized in the channels of a [discord server](http://crypt0library.
 
 <a href="https://github.com/infominer33/SuperSource">View on GitHub</a>
 
-<center><img src="https://i.imgur.com/HxFqaQg.png" /></center>
-
 ### [⧉ SuperSource](http://crypt0library.net) Directory [**^**](#research-index)
 
-I'll share the server directory here, to give you an idea of what you're missing out on. It's quite navigable, using `ctrl+k` (in the discord app), or by using the channel directory I've made in-server.
+* [infominer33/SuperSource](https://github.com/infominer33/SuperSource)
+* [⧉ Super Source](https://discord.gg/ahTuPMY)
+![](https://i.imgur.com/hLOk7yL.png)
+
+I'll share the server directory here, to give you an idea of the layout. It's quite navigable, using `ctrl+k` (in the desktop app), or by using the channel directory I've made in-server.
 
 **General Knowledge**
 
