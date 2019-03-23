@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: home
+title: The Crypto Library ⧉ Super Source
+description: Discord Chat Server Creating an Open-Source Database of Crypto Knowledge.
+image: https://i.imgur.com/HxFqaQg.png
+hide_description: true
 ---
-
-# The Crypto Library ⧉ Super Source
-<a href="https://infominer.id"><img src="https://infominer.id/DIDecentralized/infominer.png" align="right" width="150"></a>
 
 Creating a collaborative web-directory of "source-grade" content, searchable and manually navigable — perhaps with chat bot search engines, to make it portable. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. 
 
