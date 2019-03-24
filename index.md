@@ -6,25 +6,14 @@ image: https://i.imgur.com/HxFqaQg.png
 hide_description: true
 ---
 
-**Welcome to the Source ⧉ Crypto, homepage!!!!**
-
-Source ⧉ Crypto is all about collecting and cataloging quality educational resources, in conjunction with the SuperSource Discord chat.
-
-![](https://i.imgur.com/SR7yslg.png)
+**Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
 
 With the help of some friends (hint hint :) I'm working to create a collaborative web-directory of "source-grade" content, both searchable and manually navigable by tags. For writers, students, and research nerds to more easily find information on the topics we're studying at any given moment. 
 
-## But WHY?
+![](https://i.imgur.com/SR7yslg.png)
 
-I like diving headlong into vast amounts of information that's difficult to make heads or tails out of. That's where crypto comes into the picture! 
 
-I had been keeping non-productive habits for quite some time, and decided to try and turn my life around, and learn how to earn a living by writing. While learning the fundamentals of content creation, I discovered crypto, mid-2017.
-
-My passion for Crypto and Content Creation go hand-in hand. I like creating content, because I could read all of the things and be satisfied in my own mind about a matter, but never be able to explain it in a conversation. 
-
-It takes a lot of time and effort to properly explain a subject, for me anyways. Also, when processing a ton of information, like I do, retention is not great. Writing ensures that I learn a subject more thoroughly, and recording my findings makes everything easier to recall, when I get around to it.
-
-The problem is that organization is not so neatly organized, since each subject is related to the others. I **could** make a page that goes in-depth on every subject, but then there's always overlapping information. I need a database, so that the information displayed is adjusted depending upon my query.. rather than hard coding categories by sheer force of will.
+The problem is that information is not so neatly organized, since each subject is related to the others. I **could** make a page that goes in-depth on every subject, but then I'd be re-producing the same information over and over in a bunch of different places. I need a database, so that the information displayed is adjusted depending upon my query.. rather than hard coding categories by sheer force of will.
 
 
 ### A Machine Readable Repository on Every Subject In Crypto.
