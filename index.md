@@ -10,15 +10,20 @@ Creating a collaborative web-directory of "source-grade" content, searchable and
 
 Originally organized in the channels of a [discord server](http://crypt0library.net), this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
 
-<a href="https://github.com/infominer33/SuperSource">View on GitHub</a>
+* [⧉ Super Source](https://discord.gg/ahTuPMY) - I collect and categorize links in here, on the fly.
+![](https://i.imgur.com/hLOk7yL.png)
+* [infominer33/SuperSource](https://github.com/infominer33/SuperSource) - Later I enter the links into TOML format.
+
+Even further down the line, those links get organized some more, and added to in the README.md files of various github repositories.
+
+Ultimately, here we are, and I'm building web-pages around all of it. I didn't plan it that way, but it's all coming together nicely. 
+
+At some point, I will need an app (or a few scripts) to grab all links from the files in a repository, check them against our database, and output a list of links that need to be added.
 
 ### [⧉ SuperSource](http://crypt0library.net) Directory [**^**](#research-index)
 
-* [infominer33/SuperSource](https://github.com/infominer33/SuperSource)
-* [⧉ Super Source](https://discord.gg/ahTuPMY)
-![](https://i.imgur.com/hLOk7yL.png)
 
-I'll share the server directory here, to give you an idea of the layout. It's quite navigable, using `ctrl+k` (in the desktop app), or by using the channel directory I've made in-server.
+It's quite navigable, using `ctrl+k` (in the desktop app), or by using the channel directory I've made in-server.
 
 **General Knowledge**
 
@@ -74,7 +79,7 @@ Tags = ["blah", "blah-blah"]
 >* **Be careful of quotation marks in text copied descriptions. Change to ' or use an escape character \\" in front of the quotation mark**
 >* **TOML is Case Sensitive. All the tags should be lower case. All the value names must always begin with a capital and be identical**
 
-<img src="https://i.imgur.com/1nmrAAu.png"/>
+<img src="https://i.imgur.com/1nmrAAu.png" width="120%"/>
 The result of this process, once it's landed on github ^^^
 
 ### Tagging
