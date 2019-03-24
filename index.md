@@ -1,22 +1,45 @@
 ---
 layout: home
-title: The Crypto Library ⧉ Super Source
+title: Source ⧉ Crypto
 description: Discord Chat Server Creating an Open-Source Database of Crypto Knowledge.
 image: https://i.imgur.com/HxFqaQg.png
 hide_description: true
 ---
 
-Creating a collaborative web-directory of "source-grade" content, searchable and manually navigable — perhaps with chat bot search engines, to make it portable. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. 
+**Welcome to the Source ⧉ Crypto, homepage!!!!**
+
+Source ⧉ Crypto is all about collecting and cataloging quality educational resources, in conjunction with the SuperSource Discord chat.
+
+With the help of some friends (hint hint) I'm working to create a collaborative web-directory of "source-grade" content,both searchable and manually navigable by tags. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. 
+
+![](https://i.imgur.com/SR7yslg.png)
+
+## But WHY?
+
+I like diving headlong into vast amounts of information that's difficult to make heads or tails out of. That's where crypto comes in! 
+
+In mid-2017, I heard I could earn crypto by writing on Steem. I began practicing content creation because I love to read and thought, "maybe I could earn a living as a writer."
+
+My passion for Crypto and Content Creation go hand-in hand. I like creating content, because I could read all of the things and be satisfied in my own mind about a matter, but never be able to explain it in a conversation. 
+
+It takes a lot of time and effort to properly explain a subject, for me anyways. Also, when processing a ton of information, like I do, retention is not great. Writing makes sure that I remember, eventually.
+
+The problem is that organization is not so neatly organized, since each subject is related to the others. I **could** make a page that goes in-depth on every subject, but then there's always overlapping information. I need a database, so that the information displayed is adjusted depending upon my query.. rather than hard coding categories by sheer force of will.
+
+
+### A Machine Readable Repository on Every Subject In Crypto.
 
 Originally organized in the channels of a [discord server](http://crypt0library.net), this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
 
-* [⧉ Super Source](https://discord.gg/ahTuPMY) - I collect and categorize links in here, on the fly.
+* [Source ⧉ Crypto](https://discord.gg/ahTuPMY) - I collect and categorize links in here, on the fly.
 ![](https://i.imgur.com/hLOk7yL.png)
-* [infominer33/SuperSource](https://github.com/infominer33/SuperSource) - Later I enter the links into TOML format.
+* [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto) - Later I enter the links into machine readable TOML format.
 
-Even further down the line, those links get organized some more, and added to in the README.md files of various github repositories.
+Even further down the line, those links get organized some more, and added to the human-readable .md files of various github repositories.
 
-Ultimately, here we are, and I'm building web-pages around all of it. I didn't plan it that way, but it's all coming together nicely. 
+![](https://i.imgur.com/zZMwrqV.png)
+
+Now we're, here, and I'm building web-pages around all of it. I didn't plan it that way, but it's all coming together nicely. 
 
 At some point, I will need an app (or a few scripts) to grab all links from the files in a repository, check them against our database, and output a list of links that need to be added.
 
