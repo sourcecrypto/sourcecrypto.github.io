@@ -2,10 +2,12 @@
 layout: home
 title: Research Index and Discord Chat
 description: Building an Open-Source Database of Crypto Knowledge.
-image: https://i.imgur.com/HxFqaQg.png
+image: "assets/img/source-crypto2.jpg"
 hide_description: true
 sidebar:
   nav: "infonav"
+twitter:
+  card: "summary_large_image"
 ---
 
 **Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
