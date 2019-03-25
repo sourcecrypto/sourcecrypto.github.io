@@ -10,6 +10,8 @@ sidebar:
 
 My first page besides "home" with the minimal mistakes theme. All of my pages will migrate to minimal mistakes, once I get the feel for it.
 
+This page has two toml files from [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto) embedded into this page, with some help from [gist-it.appspot.com](https://gist-it.appspot.com)
+
 ## Wish List
 
 * some simple way to check [infominer.id/DIDecentralized](https://infominer.id/DIDecentralized) against these lists, and output a list of links that have yet to be included.
