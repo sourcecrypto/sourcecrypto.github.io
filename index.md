@@ -5,7 +5,7 @@ description: Building an Open-Source Database of Crypto Knowledge.
 image: https://i.imgur.com/HxFqaQg.png
 hide_description: true
 sidebar:
-  nav: "sitenav"
+  nav: "infonav"
 ---
 
 **Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**

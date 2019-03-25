@@ -6,8 +6,7 @@ description: The beginnings of a tagged database for blockchain identity related
 permalink: toml/id-toml.html
 sidebar:
   nav: 
-    - "sitenav"
-    - "idnav"
+    - "infonav"
 ---
 
 Now I need an app (or some simple way) to check [infominer.id/DIDecentralized](https://infominer.id/DIDecentralized) against these lists, and output a list of links that have yet to be included (along with title an description would be dope).

@@ -13,17 +13,21 @@ main:
   #- title: "Sitemap"
   #  url: /sitemap/
 
-sitenav:
-  - title: Site Navigation
+infonav:
+  - title: Source⧉Nav
+    children:
+      - title: "Blockchain-ID TOML"
+        url: "toml/id-toml.html"
+  - title: Info⧉Nav
     children:
       - title: "⧉InfoMine⧉"
         url: "https://infominer.id"
+      - title: "Bitcoin Historical Index"
+        url: "https://infominer.id/bitcoin-history"
+      - title: "DIDecentralized"
+        url: "https://infominer.id/DIDecentralized"
+      - title: "Learn Crypto Trading"
+        url: "https://infominer.id/learn-crypto-trading"
       - title: "Source⧉Crypto"
         url: "https://infominer.id/SourceCrypto"
-idnav:
-  - title: Page Contents
-    children:
-      - title: "blockchain-id.toml"
-        url: "#blockchain-idtoml"
-      - title: "blockchain-id2.toml"
-        url: "#blockchain-id2toml"
+      
