@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: splash
 title: Blockchain Identity Reources - TOML
 description: The beginnings of a tagged database for blockchain identity related resources.
 permalink: toml/id-toml.html
