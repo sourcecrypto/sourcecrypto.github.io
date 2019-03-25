@@ -8,11 +8,17 @@ sidebar:
   nav: "infonav"
 ---
 
-Now I need an app (or some simple way) to check [infominer.id/DIDecentralized](https://infominer.id/DIDecentralized) against these lists, and output a list of links that have yet to be included (along with title an description would be dope).
+My first page besides "home" with the minimal mistakes theme. All of my pages will migrate to minimal mistakes, once I get the feel for it.
 
-Now what I'm thinking I need is an app that will take a list of links as the input and output a toml file with title\description automatically populated based on metadata..
+## Wish List
+
+* some simple way to check [infominer.id/DIDecentralized](https://infominer.id/DIDecentralized) against these lists, and output a list of links that have yet to be included.
+
+* an app that will take a list of links as the input and output a toml file with title\description automatically populated based on metadata..
 
 that would make it a lot easier.. then I just go in and fine tune each entry.
+
+I suppose it would make the most sense to prioritize those objectives, rather than constructing everything by hand.
 
 ## blockchain-id.toml
 
