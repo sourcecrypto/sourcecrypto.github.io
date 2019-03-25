@@ -13,7 +13,7 @@ With the help of some friends (hint hint :) I'm working to create a collaborativ
 ![](https://i.imgur.com/SR7yslg.png)
 
 
-The problem is that information is not so neatly organized, since each subject is related to the others. I **could** make a page that goes in-depth on every subject, but then I'd be re-producing the same information over and over in a bunch of different places. I need a database, so that the information displayed is adjusted depending upon my query.. rather than hard coding categories by sheer force of will.
+The problem is that information is not so neatly organized, since each subject is related to the others. I **could** make a page that goes in-depth on every subject, but then I'd be re-producing the same information over and over in a bunch of different places. We need a properly tagged database, so that the information displayed is adjusted depending upon my query.. rather than hard coding categories by sheer force of will.
 
 
 ### A Machine Readable Repository on Every Subject In Crypto.
