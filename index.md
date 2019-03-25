@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Source ⧉ Crypto
-description: Discord Chat Server Creating an Open-Source Database of Crypto Knowledge.
+title: Research Index and Discord Chat
+description: Building an Open-Source Database of Crypto Knowledge.
 image: https://i.imgur.com/HxFqaQg.png
 hide_description: true
 ---
