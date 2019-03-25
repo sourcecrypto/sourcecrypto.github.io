@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "SuperSource - Crypto Chat and Library"
-rooturl                  : "https://infominer.id/SuperSource"
+title                    : "Source Crypto"
+rooturl                  : "https://infominer.id/SourceCrypto"
 title_separator          : "⧉ "
 name                     : "Infominer"
-description              : Discord Chat Server to Create an Open-Source Database of Crypto Knowledge.
+description              : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
 url                      : https://infominer.id
-baseurl                  : "/SuperSource"
-repository               : "infominer33/SuperSource"
+baseurl                  : "/SourceCrypto"
+repository               : "infominer33/SourceCrypto"
 github                   : [metadata]
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : # /assets/images/500x300.png
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : Source ⧉ Crypto — Research Index — Discord Chat
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -85,11 +85,11 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username:     infominer33
-  title:        "⧉  SuperSource - Crypto Chat and Library"
-  description:  Discord Chat Server to Create an Open-Source Database of Crypto Knowledge.
-  image :       "https://infominer.id/images/crypt0library.jpg"
-  card :        "summary"
+  username               : infominer33
+  title                  : "Source ⧉ Crypto"
+  description            : Discord Chat —Creating an Open-Source Database of Crypto Knowledge.
+  image                  : "assets/img/source-crypto.jpg"
+  card                   : "summary"
 facebook:
   username               :
   app_id                 :
@@ -117,7 +117,7 @@ author:
 # Site Author
 author:
   name             : "⧉ Infominer"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Somewhere"
   email            : infominer@protonmail.com
