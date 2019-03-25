@@ -21,7 +21,7 @@ sitenav:
       - title: "Source⧉Crypto"
         url: "https://infominer.id/SourceCrypto"
 idnav:
-    - title: Page Contents
+  - title: Page Contents
     children:
       - title: "blockchain-id.toml"
         url: "#blockchain-idtoml"
