@@ -12,3 +12,18 @@ main:
   #  url: /collection-archive/
   #- title: "Sitemap"
   #  url: /sitemap/
+
+sitenav:
+  - title: Site Navigation
+    children:
+      - title: "⧉InfoMine⧉"
+        url: "https://infominer.id"
+      - title: "Source⧉Crypto"
+        url: "https://infominer.id/SourceCrypto"
+idnav:
+    - title: Page Contents
+    children:
+      - title: "blockchain-id.toml"
+        url: "#blockchain-idtoml"
+      - title: "blockchain-id2.toml"
+        url: "#blockchain-id2toml"
