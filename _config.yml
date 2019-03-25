@@ -27,7 +27,7 @@ repository               : "infominer33/SourceCrypto"
 github                   : [metadata]
 teaser                   : # /assets/images/500x300.png
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : Source ⧉ Crypto — Research Index — Discord Chat
+masthead_title           : Research Index — Source ⧉ Crypto — Discord Chat.
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -87,14 +87,14 @@ naver_site_verification  :
 twitter:
   username               : infominer33
   title                  : "Source ⧉ Crypto"
-  description            : Discord Chat —Creating an Open-Source Database of Crypto Knowledge.
+  description            : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
   image                  : "assets/img/source-crypto.jpg"
   card                   : "summary"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "assets/img/source-crypto.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -118,25 +118,22 @@ author:
 author:
   name             : "⧉ Infominer"
   avatar           : "/assets/img/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "I was growing up as the web first came of age, and am a computer nerd from way back. However, I had other interests which kept me out of tech for quite a while. So I'm starting a new phase of my life, and returning to my roots by diving into web-work."
+  location         : "I spend most of my time right here."
   email            : infominer@protonmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: "mailto:infominer@protonmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://twitter.com/infominer33"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/infominer33"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -146,13 +143,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://twitter.com/infominer33"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/infominer33"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -247,7 +241,11 @@ plugins:
   - jekyll-readme-index
   - jekyll-redirect-from
   - jekyll-seo-tag
-  
+  - jekyll-mentions
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -309,29 +307,6 @@ defaults:
       share: true
       related: true
 
-
-#logo          : "https://infominer.id/images/crypt0library.jpg"
-# Add links to the sidebar.
-# menu:
-#   - title:             ⧉InfoMine⧉
-#     url:               https://infominer.id/
-#   - title:             DIDecentral
-#     url:               https://infominer.id/DIDecentralized" target="_parent"
-#   - title:             /learn-crypto-trading
-#     url:               https://infominer.id/learn-crypto-trading" target="_parent"
-#   - title:             Bitcoin History
-#     url:               https://infominer.id/bitcoin-history/" target="_parent"
-# 
-# 
-# legal:
-#   - title:             ⧉InfoMine⧉
-#     url:               https://infominer.id/
-#   - title:             DIDecentral
-#     url:               https://infominer.id/DIDecentralized" target="_parent"
-#   - title:             /learn-crypto-trading
-#     url:               https://infominer.id/learn-crypto-trading" target="_parent"
-#   - title:             Bitcoin History
-#     url:               https://infominer.id/bitcoin-history/" target="_parent"
 
 # copyright:             Infominer ⧉  Creative Commons [(CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)  Public Domain
 
