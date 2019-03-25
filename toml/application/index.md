@@ -4,7 +4,20 @@ classes: wide
 title: Blockchain Identity Reources - TOML
 description: The beginnings of a tagged database for blockchain identity related resources.
 permalink: toml/id-toml.html
-
+sidebar:
+  nav: 
+    - title: Navigation
+      children:
+        - title: "⧉InfoMine⧉"
+          url: "https://infominer.id"
+        - title: "Source⧉Crypto"
+          url: "https://infominer.id/SourceCrypto"
+    - title: Contents
+      children:
+        - title: "blockchain-id.toml"
+          url: "#blockchain-idtoml"
+        - title: "blockchain-id2.toml"
+          url: "#blockchain-id2toml"
 ---
 
 Now I need an app (or some simple way) to check [infominer.id/DIDecentralized](https://infominer.id/DIDecentralized) against these lists, and output a list of links that have yet to be included (along with title an description would be dope).
