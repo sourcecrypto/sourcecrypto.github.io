@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Hands-on PGP —Practical Cypherpunk Fundamentals.
 description: On Verifying PGP Signatures, BitcoinTalk Escrow, Phil Zimmerman, DeepDotWeb, Various Apps and Resourses.
 image: https://i.imgur.com/swEAkJm.png
