@@ -6,6 +6,9 @@ main:
   - title: "Blockchain Identity TOML"
     description: "The contents of two Blockchain-ID TOML files."
     url: toml/id-toml.html
+  - title: "Practical Crypto"
+    url: "practical/index.html"
+    description:  "On Verifying PGP Signatures, BitcoinTalk Escrow, Phil Zimmerman, DeepDotWeb, Various Apps and Resourses."
   #- title: "Sample Posts"
   #  url: /year-archive/
   #- title: "Sample Collections"
@@ -18,6 +21,8 @@ infonav:
     children:
       - title: "Blockchain-ID TOML"
         url: "toml/id-toml.html"
+      - title: "Practical Crypto"
+        url: "practical/index.html"
   - title: Info⧉Nav
     children:
       - title: "⧉InfoMine⧉"
