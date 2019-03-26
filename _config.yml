@@ -89,7 +89,8 @@ twitter:
   title                  : "Source ⧉ Crypto"
   description            : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
   image                  : "assets/img/SourceCrypto.png"
-  card                   : "summary"
+  card                   : "summary_large_image"
+  #card                   : "summary"
 facebook:
   username               :
   app_id                 :
