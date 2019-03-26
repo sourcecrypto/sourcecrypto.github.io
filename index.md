@@ -6,8 +6,6 @@ image: "assets/img/source-crypto2.png"
 hide_description: true
 sidebar:
   nav: "infonav"
-twitter:
-  card: "summary_large_image"
 ---
 
 **Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
