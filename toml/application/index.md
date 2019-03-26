@@ -22,6 +22,12 @@ that would make it a lot easier.. then I just go in and fine tune each entry.
 
 I suppose it would make the most sense to prioritize those objectives, rather than constructing everything by hand.
 
+Scraping a list of links from wherever I want is simple.. so really the two things are checking a list of links against a toml file(s), outputting any links not found in the db already. Another script to construct a toml file grabbing metadata.
+
+@MaciekLaskus suggested I include authors, which is true. I believe I intended to eventually:
+
+* [Enabling Author-Centric Ranking of Web Content](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.8960&rep=rep1&type=pdf)
+
 ## blockchain-id.toml
 
 * [SourceCrypto/toml/application/blockchain-id.toml](https://github.com/infominer33/SourceCrypto/blob/master/toml/application/blockchain-id.toml)
