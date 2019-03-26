@@ -2,7 +2,7 @@
 layout: home
 title: Research Index and Discord Chat
 description: Building an Open-Source Database of Crypto Knowledge.
-image: "assets/img/source-crypto2.png"
+image: "assets/img/source-crypto.png"
 hide_description: true
 sidebar:
   nav: "infonav"
