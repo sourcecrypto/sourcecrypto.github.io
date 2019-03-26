@@ -2,7 +2,7 @@
 layout: home
 title: Research Index and Discord Chat
 description: Building an Open-Source Database of Crypto Knowledge.
-image: "assets/img/source-crypto2.png"
+image: "assets/img/SourceCrypto.png"
 hide_description: true
 sidebar:
   nav: "infonav"
@@ -12,7 +12,7 @@ sidebar:
 
 With the help of some friends (hint hint :) I'm working to create a collaborative web-directory of "source-grade" content, both searchable and manually navigable by tags. For writers, students, and research nerds to more easily find information on the topics we're studying at any given moment. 
 
-![](assets/img/source-crypto2.png)
+![](assets/img/SourceCrypto.png)
 
 
 The problem is that information is not so neatly organized, since each subject is related to the others. I **could** make a page that goes in-depth on every subject, but then I'd be re-producing the same information over and over in a bunch of different places. We need a properly tagged database, so that the information displayed is adjusted depending upon my query.. rather than hard coding categories by sheer force of will.
@@ -22,7 +22,7 @@ The problem is that information is not so neatly organized, since each subject i
 
 Originally organized in the channels of a [discord server](http://crypt0library.net), this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
 
-* [Source ⧉ Crypto](https://discord.gg/ahTuPMY) - I collect and categorize links in here, on the fly.
+* [Source⧉Crypto](https://discord.gg/ahTuPMY) - I collect and categorize links in here, on the fly.
 ![](https://i.imgur.com/hLOk7yL.png)
 * [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto) - Later I enter the links into machine readable TOML format.
 
@@ -34,7 +34,7 @@ Now we're, here, and I'm building web-pages around all of it. I didn't plan it t
 
 At some point, I will need an app (or a few scripts) to grab all links from the files in a repository, check them against our database, and output a list of links that need to be added.
 
-### [⧉ SuperSource](http://crypt0library.net) Directory [**^**](#research-index)
+### [Source⧉Crypto](http://crypt0library.net) Discord Directory [**^**](#research-index)
 
 
 It's quite navigable, using `ctrl+k` (in the desktop app), or by using the channel directory I've made in-server.
@@ -65,13 +65,13 @@ It's quite navigable, using `ctrl+k` (in the desktop app), or by using the chann
 
 <b><a href="https://discord.gg/ahTuPMY" target="_blank">discord.gg/ahTuPMY</a></b>
 
-## SuperSource Demo
+## Source⧉Crypto Demo
 
 [![](https://i.imgur.com/N2DWAMF.png)](supersource-demo.mp4)
 
 This is a really basic demo of what we're working to create.
 
-## [crypt0library.net](http://crypt0library.net)
+## [Source⧉Crypto Discord](http://crypt0library.net)
 
 In order to create the database to power our dynamic web-portal, I'm using the [TOML format](https://github.com/toml-lang/toml) to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. 
 
@@ -106,7 +106,7 @@ To be clear these are app specific tags that users will be able to create and na
 
 See "[tag-definitions.md](/toml/tag-definitions.html)" for more information. Feel free to join in on the fun :)
 
-<a href="https://github.com/infominer33/SuperSource">View on GitHub</a>
+<a href="https://github.com/infominer33/SourceCrypto">View on GitHub</a>
 
 
 ---
