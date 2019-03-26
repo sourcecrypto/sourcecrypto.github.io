@@ -88,13 +88,13 @@ twitter:
   username               : infominer33
   title                  : "Source ⧉ Crypto"
   description            : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
-  image                  : "assets/img/source-crypto.png"
+  image                  : "assets/img/source-crypto2.png"
   card                   : "summary"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "assets/img/source-crypto.png"
+og_image                 : "assets/img/source-crypto2.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
