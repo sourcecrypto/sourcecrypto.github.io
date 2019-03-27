@@ -6,7 +6,7 @@ image: https://i.imgur.com/swEAkJm.png
 hide_description: true
 sidebar:
   nav: "infonav"
-
+share: true
 ---
 
 This page is the result of me figuring out how to make PGP a part of my life, for BitcoinTalk escrow, and other Bitcoin related activities. 
