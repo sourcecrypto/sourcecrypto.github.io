@@ -5,7 +5,7 @@
     {
         "icons": [
             {
-                "src": "/SourceCrypto/assets/icons/android-chrome-144x144.png",
+                "src": "https://infominer.id/SourceCrypto/assets/icons/android-chrome-144x144.png",
                 "sizes": "144x144",
                 "type": "image/png"
             }
