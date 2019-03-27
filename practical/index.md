@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Hands-on PGP —Practical Cypherpunk Fundamentals.
-description: On Verifying PGP Signatures, BitcoinTalk Escrow, Phil Zimmerman, DeepDotWeb, Various Apps and Resourses.
+title: Practical Cypherpunk Essentials
+description: Phil Zimmerman, PGP and Bitcoin Signatures, BitcoinTalk Escrow, DeepDotWeb, Various Apps and Resourses.
 image: https://i.imgur.com/swEAkJm.png
 hide_description: true
 sidebar:
@@ -18,19 +18,29 @@ pull-requests-welcome
 
 
 ## Contents
+* [Phil Zimmerman](#phil-zimmerman)
 * [PGP for Newbs](#pgp-for-newbs)
 * [Verifying PGP Signatures](#verifying-pgp-signatures)
   * [Gedit](#gedit)
 * [DeepDotWeb](#deepdotweb)
 * [Escrow Services](#escrow-services)
   * [BitcoinTalk Escrow](#bitcointalk-escrow)
-* [Phil Zimmerman](#phil-zimmerman)
 * [Apps](#apps)
 * [Resources](#resources)
 
 
 
-![](https://i.imgur.com/kzOMg4o.png)
+## Phil Zimmerman
+* [Why I Wrote PGP -Part of the Original 1991 PGP User's Guide](https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html)
+  >It's personal. It's private. And it's no one's business but yours. You may be planning a political campaign, discussing your taxes, or having a secret romance. Or you may be communicating with a political dissident in a repressive country. Whatever it is, you don't want your private electronic mail (email) or confidential documents read by anyone else. There's nothing wrong with asserting your privacy. Privacy is as apple-pie as the Constitution.
+* [https://www.wired.com/1993/02/crypto-rebels/](https://www.wired.com/1993/02/crypto-rebels/)
+  [![](https://i.imgur.com/kzOMg4o.png)](https://www.wired.com/1993/02/crypto-rebels/)
+* [Crypto Wars, Phil Zimmermann and PGP](https://cryptoanarchy.wiki/events/90s-crypto-wars)
+  > Phil Zimmermann was a key player in this period. The PGP software he authored was considered as munitions by the US government and subject to export licenses. The US government at this time was keen to avoid strong crypto falling into the hands of civilians and foreign governments. At this time the US government was also pushing for specialised key-escrowed chips that would perform encryption, but make the plaintext readable to NSA if necessary. This was rightly considered a gross violation of privacy, rights, and a huge security hole by the cypherpunks.
+* [Defending the last missing pixels: Phil Zimmermann speaks out on encryption, privacy, and avoiding a surveillance state](https://www.techrepublic.com/article/defending-the-last-missing-pixels-phil-zimmermann/)
+  >Since writing the PGP encryption software in the 1990s, Phil Zimmermann has been a key figure in the internet privacy debate. With that argument heating up again, his perspective is more relevant than ever.
+* [infominer.id/bitcoin-history/before-bitcoin/cypherpunks/](https://infominer.id/bitcoin-history/before-bitcoin/cypherpunks/)
+
 
 ## PGP for Newbs
 
@@ -117,16 +127,6 @@ These seem to be the currently active bitcointalk threads.
 * [Escrow for anything via discord by Dream (fpga channel mod)
 March 03, 2019](https://bitcointalk.org/index.php?topic=5116510.0)
 ![](https://i.imgur.com/DvuqyGh.png)
-
-
-## Phil Zimmerman
-
-* [Crypto Wars, Phil Zimmermann and PGP](https://cryptoanarchy.wiki/events/90s-crypto-wars)
-  > Phil Zimmermann was a key player in this period. The PGP software he authored was considered as munitions by the US government and subject to export licenses. The US government at this time was keen to avoid strong crypto falling into the hands of civilians and foreign governments. At this time the US government was also pushing for specialised key-escrowed chips that would perform encryption, but make the plaintext readable to NSA if necessary. This was rightly considered a gross violation of privacy, rights, and a huge security hole by the cypherpunks.
-* [Why I Wrote PGP -Part of the Original 1991 PGP User's Guide](https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html)
-* [Defending the last missing pixels: Phil Zimmermann speaks out on encryption, privacy, and avoiding a surveillance state](https://www.techrepublic.com/article/defending-the-last-missing-pixels-phil-zimmermann/)
-  >Since writing the PGP encryption software in the 1990s, Phil Zimmermann has been a key figure in the internet privacy debate. With that argument heating up again, his perspective is more relevant than ever.
-
 
 ## Apps
 
