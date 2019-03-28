@@ -18,19 +18,6 @@ pull-requests-welcome
 ```
 
 
-## Contents
-* [Phil Zimmerman](#phil-zimmerman)
-* [PGP for Newbs](#pgp-for-newbs)
-* [Verifying PGP Signatures](#verifying-pgp-signatures)
-  * [Gedit](#gedit)
-* [DeepDotWeb](#deepdotweb)
-* [Escrow Services](#escrow-services)
-  * [BitcoinTalk Escrow](#bitcointalk-escrow)
-* [Apps](#apps)
-* [Resources](#resources)
-
-
-
 ## Phil Zimmerman
 * [Why I Wrote PGP -Part of the Original 1991 PGP User's Guide](https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html)
   >It's personal. It's private. And it's no one's business but yours. You may be planning a political campaign, discussing your taxes, or having a secret romance. Or you may be communicating with a political dissident in a repressive country. Whatever it is, you don't want your private electronic mail (email) or confidential documents read by anyone else. There's nothing wrong with asserting your privacy. Privacy is as apple-pie as the Constitution.
@@ -117,7 +104,7 @@ Escrow Agents are impartial and trusted intermediaries who hold custody of buyer
 >When some work is uploaded, a community-trusted programmer will check through it, to make sure that the project has been successfully completed.
 
 
-### BitcoinTalk Escrow [**^**](#contents)
+### BitcoinTalk Escrow
 
 These seem to be the currently active bitcointalk threads.
 	
