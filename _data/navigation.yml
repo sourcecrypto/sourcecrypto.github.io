@@ -1,14 +1,21 @@
 # main links
 main:
+  - title: "⧉InfoMine⧉"
+    url: "https://infominer.id/"
+  - title: "Bitcoin Historical Index"
+    description: "Resources on the History leading up to and Surrounding Bitcoin."
+    url: "https://infominer.id/bitcoin-history"
+  - title: "Source⧉Crypto"
+    description: "A Discord Chat for Creating a Database of Information Surrounding Blockchain and Cryptocurrency."
+    url: "https://infominer.id/SourceCrypto"
+  - title: "Learn Crypto Trading"
+    description: "Resources for learning Technical Analysis and the Fundamentals of Crypto Trading"
+    url: "https://infominer.id/learn-crypto-trading"
+  - title: "DIDecentralized"
+    url: "https://infominer.id/DIDecentralized"
   - title: "Quick-Start Guide"
     description: "This Page is in Active Development."
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Blockchain Identity TOML"
-    description: "The contents of two Blockchain-ID TOML files."
-    url: toml/id-toml.html
-  - title: "Practical Crypto"
-    url: "practical/index.html"
-    description:  "On Verifying PGP Signatures, BitcoinTalk Escrow, Phil Zimmerman, DeepDotWeb, Various Apps and Resourses."
   #- title: "Sample Posts"
   #  url: /year-archive/
   #- title: "Sample Collections"
