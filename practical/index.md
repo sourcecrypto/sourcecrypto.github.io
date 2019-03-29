@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Practical Cypherpunk Essentials
-description: Phil Zimmerman, PGP and Bitcoin Signatures, BitcoinTalk Escrow, DeepDotWeb, Various Apps and Resourses.
+description: "Asymmetric Encryption: Phil Zimmerman, PGP and Bitcoin Signatures, BitcoinTalk Escrow, DeepDotWeb, Various Apps and Resourses."
 image: https://i.imgur.com/swEAkJm.png
 hide_description: true
 sidebar:
@@ -10,12 +10,12 @@ share: true
 toc: true
 ---
 
-This page is the result of me figuring out how to make PGP a part of my life, for BitcoinTalk escrow, and other Bitcoin related activities. 
-
 ```
 pull-requests-welcome
 
 ```
+
+* [freelanceforcoins.com/**Business with Crypto 101—Escrow and Key Signatures**](https://freelanceforcoins.com/article/6-escrow) -infominer
 
 
 ## Phil Zimmerman
@@ -36,6 +36,7 @@ pull-requests-welcome
   >With this interactiv instruction we want to explain you, how to encrypt your e-mails with PGP to protect your communication and help stopping mass surveillance.
 * [EMAIL SELF-DEFENSE](https://emailselfdefense.fsf.org/en) - "Learn GnuPG in 30 Minutes"
   > ![](https://i.imgur.com/danqZLd.png)
+* [How To Use GPG to Encrypt and Sign Messages](https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages)
 
 
 ## Protonmail 
@@ -54,7 +55,10 @@ So this is an absolute fundamental of cryptography, and should be a part of ever
 gpg --import singing_key.pub
 gpg --verify signed_file.sig
 ```
+### Bitcoin and Ethereum Signatures
 
+* [How do digital signatures in Bitcoin work?](https://www.cryptocompare.com/wallets/guides/how-do-digital-signatures-in-bitcoin-work/)
+* [Signing a message from your Ethereum wallet with MyEtherWallet](https://medium.com/@vinczhain/signing-a-message-from-your-ethereum-wallet-with-myetherwallet-cfef7acd6f6d)
 
 
 ### Keybase
