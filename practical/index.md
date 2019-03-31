@@ -29,10 +29,8 @@ pull-requests-welcome
   >Since writing the PGP encryption software in the 1990s, Phil Zimmermann has been a key figure in the internet privacy debate. With that argument heating up again, his perspective is more relevant than ever.
 * [infominer.id/bitcoin-history/before-bitcoin/cypherpunks/](https://infominer.id/bitcoin-history/before-bitcoin/cypherpunks/)
 * [Even the Inventor of PGP Doesn’t Use PGP](https://motherboard.vice.com/en_us/article/vvbw9a/even-the-inventor-of-pgp-doesnt-use-pgp)
-* [GnuPG for Daily Use (a Mini How-To...)](http://moser-isi.ethz.ch/gpg.html)
-* [Configuring Yubikeys, GPG, and Keybase](https://ttmm.io/tech/yubikey/)
 
-## PGP for Newbs
+## PGP for Newbs and Beyond
 
 * [How-To-PGP](https://howtopgp.jugendhackt.de/#/) 
   >With this interactiv instruction we want to explain you, how to encrypt your e-mails with PGP to protect your communication and help stopping mass surveillance.
@@ -41,16 +39,21 @@ pull-requests-welcome
 * [How To Use GPG to Encrypt and Sign Messages](https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages)
 * [Quick'n easy gpg cheatsheet](http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/)
 * [GPG Quickstart Guide 🔒](https://medium.com/@acparas/gpg-quickstart-guide-d01f005ca99)
+* [GPG Tutorial and PGP Public Key for ∀lan ∃liasen](https://futureboy.us/pgp.html)
+* [GnuPG for Daily Use (a Mini How-To...)](http://moser-isi.ethz.ch/gpg.html)
+* [Configuring Yubikeys, GPG, and Keybase](https://ttmm.io/tech/yubikey/)
 
 ### SSH 
 
-Also public key encryption, allows you to remotely connect to a server, without typing in your user\name password. 
+Another form of public key encryption, allows you to remotely connect to a server, without typing in your user\name password. 
 
 * <a href="https://help.github.com/en/articles/connecting-to-github-with-ssh" target="_blank">Connecting to GitHub with SSH</a>
 * <a href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">Generating a new SSH key and adding it to the SSH agent</a>
 * <a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="_blank">Adding a new SSH key to your GitHub Account</a>
 * <a href="https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca" target="_blank">How to manage multiple GitHub accounts on a single machine with SSH keys</a>
 
+Signing Commits
+* [managing-commit-signature-verification](https://help.github.com/en/articles/managing-commit-signature-verification)
 
 ## Protonmail 
 
