@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Practical Cypherpunk Essentials
-description: "Asymmetric Encryption: Phil Zimmerman, PGP and Bitcoin Signatures, BitcoinTalk Escrow, DeepDotWeb, Various Apps and Resourses."
+title: Practical Crypto
+description: "Asymmetric Encryption: Phil Zimmerman, PGP and Bitcoin Signatures, BitcoinTalk Escrow, DeepDotWeb, SSL, Various Apps and Resourses."
 image: https://i.imgur.com/swEAkJm.png
 hide_description: true
 sidebar:
@@ -42,14 +42,22 @@ pull-requests-welcome
 * [Quick'n easy gpg cheatsheet](http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/)
 * [GPG Quickstart Guide 🔒](https://medium.com/@acparas/gpg-quickstart-guide-d01f005ca99)
 
+### SSH 
+
+Also public key encryption, allows you to remotely connect to a server, without typing in your user\name password. 
+
+* <a href="https://help.github.com/en/articles/connecting-to-github-with-ssh" target="_blank">Connecting to GitHub with SSH</a>
+* <a href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">Generating a new SSH key and adding it to the SSH agent</a>
+* <a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="_blank">Adding a new SSH key to your GitHub Account</a>
+* <a href="https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca" target="_blank">How to manage multiple GitHub accounts on a single machine with SSH keys</a>
+
+
 ## Protonmail 
 
 Has built in support for PGP for your e-mails... but doesn't make it super easy to verify messages from outside.
 * [https://protonmail.com/support/knowledge-base/how-to-use-pgp/](https://protonmail.com/support/knowledge-base/how-to-use-pgp/)
 
 ## Verifying PGP Signatures
-
-So this is an absolute fundamental of cryptography, and should be a part of everyone's skill-set. However, when you start to use PGP from the command-line, the first time... erm. I'll save my rant on that for later.
 
 * [HOW TO VERIFY YOUR DOWNLOADED FILES ARE AUTHENTIC](https://www.deepdotweb.com/jolly-rogers-security-guide-for-beginners/how-to-verify-your-downloaded-files-are-authentic/)
 * [VERIFYING SIGNED MESSAGES WITH SIGNATURES AND SIGNING YOUR OWN MESSAGES](https://www.deepdotweb.com/jolly-rogers-security-guide-for-beginners/verifying-signed-messages-with-signatures-and-signing-your-own-messages/)
