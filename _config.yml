@@ -315,14 +315,5 @@ defaults:
       toc_label   : "Contents"
       toc_icon    : "link"
       toc_sticky  : true
-  
-
-
-# copyright:             Infominer ⧉  Creative Commons [(CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)  Public Domain
-
-# accent_image:          "https://infominer.id/images/crypt0library.jpg"
-
-
-
-
-
+      sidebar:
+        nav: "sourcenav"
