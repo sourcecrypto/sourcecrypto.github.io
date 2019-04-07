@@ -311,6 +311,11 @@ defaults:
       comments: # true
       share: true
       related: true
+      toc: true
+      toc_label   : "Contents"
+      toc_icon    : "link"
+      toc_sticky  : true
+  
 
 
 # copyright:             Infominer ⧉  Creative Commons [(CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)  Public Domain
