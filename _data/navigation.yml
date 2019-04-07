@@ -1,27 +1,22 @@
 # main links
 main:
-  - title: "⧉InfoMine⧉"
+  - title: "Inf⧉Mine⧉"
     url: "https://infominer.id/"
-  - title: "DIDecentralized"
-    url: "https://infominer.id/DIDecentralized"
   - title: "Bitcoin Historical Index"
     description: "Resources on the History leading up to and Surrounding Bitcoin."
     url: "https://infominer.id/bitcoin-history"
-  - title: "Source⧉Crypto"
+  - title: "S⧉urce Crypt⧉"
     description: "A Discord Chat for Creating a Database of Information Surrounding Blockchain and Cryptocurrency."
     url: "https://infominer.id/SourceCrypto"
   - title: "Learn Crypto Trading"
     description: "Resources for learning Technical Analysis and the Fundamentals of Crypto Trading"
     url: "https://infominer.id/learn-crypto-trading"
-  - title: "Quick-Start Guide"
-    description: "This Page is in Active Development."
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  #- title: "Sample Posts"
-  #  url: /year-archive/
-  #- title: "Sample Collections"
-  #  url: /collection-archive/
-  #- title: "Sitemap"
-  #  url: /sitemap/
+  - title: "DIDecentralized"
+    url: "https://infominer.id/DIDecentralized"
+  - title: "Github Pages Starter Pack"
+    url: "https://infominer.id/gh-pages-starter-pack.html"
+
+
 
 infonav:
   - title: Source⧉Nav
@@ -42,4 +37,14 @@ infonav:
         url: "https://infominer.id/learn-crypto-trading"
       - title: "Source⧉Crypto"
         url: "https://infominer.id/SourceCrypto"
-      
+  - title: Featured
+    children:
+      - title: "DID Related GitHub Repositories"
+        url: "https://infominer.id/DIDecentralized/identity-github/"
+      - title: "RebootingWebofTrust - Papers Index"
+        url: "https://infominer.id/DIDecentralized/workshops/rebooting-web-of-trust/"
+      - title: "Practical Cryptography - PGP and Me"
+        url: "https://infominer.id/bitcoin-history/pgp-and-me/"
+      - title: "Github Pages Starter Pack"
+        url: "https://infominer.id/gh-pages-starter-pack.html"
+  
