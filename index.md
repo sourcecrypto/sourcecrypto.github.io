@@ -8,7 +8,8 @@ toc: true
 toc_label   : "Contents"
 toc_icon    : "link"
 toc_sticky  : true
-      
+sidebar:
+  nav: "sourcenav" 
 ---
 
 **Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
