@@ -5,9 +5,9 @@ description: Building an Open-Source Database of Crypto Knowledge.
 header: 
   image: "assets/img/SourceCrypto.png"
 toc: true
-      toc_label   : "Contents"
-      toc_icon    : "link"
-      toc_sticky  : true
+toc_label   : "Contents"
+toc_icon    : "link"
+toc_sticky  : true
       
 ---
 
