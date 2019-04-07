@@ -1,182 +1,153 @@
-infominer8/7/2018, 11:48:30 PM(edited)
 BurnBox: Self-Revocable Encryption in a World Of Compelled Access
 https://eprint.iacr.org/2018/638.pdf
 
-infominer8/8/2018, 12:04:19 AM
 https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/
 
-infominer8/8/2018, 12:40:39 AM
 https://fieldnotes.resistant.tech/
 
-infominer8/9/2018, 4:28:53 AM(edited)
 https://blockstream.com/2018/01/23/musig-key-aggregation-schnorr-signatures.html
 "MuSig, in the form that this article describes, is not secure"
 
-infominer8/9/2018, 8:52:35 AM
-https://eprint.iacr.org/2018/417.pdf - re: above
+https://eprint.iacr.org/2018/417.pdf
 
-infominer8/9/2018, 10:11:11 AM
 https://twitter.com/pwuille/status/998314349969031170
 
-(Formatted embeds are currently not supported)
 
-infominer8/10/2018, 11:00:54 PM
 https://medium.com/zkcapital/the-state-of-hashing-algorithms-the-why-the-how-and-the-future-b21d5c0440de
 
-infominer8/11/2018, 9:03:40 PM
+
 https://www.bouncycastle.org/about.html
 
-infominer8/13/2018, 3:24:01 PM(edited)
 Lest We Remember: Cold Boot Attacks on Encryption Keys
 -https://jhalderm.com/pub/papers/coldboot-sec08.pdf
 
-infominer8/13/2018, 3:27:09 PM(edited)
 New Directions in Cryptography 
 -https://ee.stanford.edu/~hellman/publications/24.pdf
 
-infominer8/13/2018, 3:58:15 PM
+
 Validation of Elliptic Curve Public Keys
 -https://iacr.org/archive/pkc2003/25670211/25670211.pdf
 
-infominer8/21/2018, 7:04:42 PM(edited)
+
 -choosing safe curves for elliptic-curve cryptography
 https://safecurves.cr.yp.to/
 
-infominer8/22/2018, 11:49:15 PM
 https://twitter.com/newmichwill/status/1031577869548314624
 
-(Formatted embeds are currently not supported)
 
-infominer8/25/2018, 8:39:41 PM
 https://zkp.science/
 
-infominer8/25/2018, 9:35:00 PM
+
 https://twitter.com/jmcorgan/status/1015274476567552000
 
-(Formatted embeds are currently not supported)
 
-infominer8/25/2018, 10:04:51 PM
 https://twitter.com/lopp/status/1007269070008352768
 
-(Formatted embeds are currently not supported)
 
-infominer8/25/2018, 10:18:03 PM
 https://twitter.com/SFBitcoinDevs/status/1020969813944905728
 
-(Formatted embeds are currently not supported)
 
-infominer8/25/2018, 10:39:55 PM
 https://nakamotoinstitute.org/static/docs/cyphernomicon.txt
 
-infominer8/25/2018, 10:52:21 PM
+
 https://twitter.com/SarahJamieLewis/status/1025461049112182784
 
-(Formatted embeds are currently not supported)
 
-infominer8/26/2018, 12:00:48 AM
 https://twitter.com/SarahJamieLewis/status/1026340294818582533
 
-(Formatted embeds are currently not supported)
 
-infominer8/26/2018, 12:07:25 AM
 https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html
 
-infominer8/27/2018, 7:29:31 AM
+
 https://twitter.com/mjos_crypto/status/1034039485766529024
 
-(Formatted embeds are currently not supported)
 
-infominer8/27/2018, 2:35:42 PM
 https://www.deepdotweb.com/2016/02/08/nsa-switches-to-quantum-resistant-cryptography/
 
-infominer8/30/2018, 7:34:22 PM
+
 https://twitter.com/AisConnolly/status/1033388947118977031
 
-(Formatted embeds are currently not supported)
 
-infominer9/4/2018, 11:58:00 AM
 https://github.com/google/tink
 
-infominer9/7/2018, 2:38:17 AM
+
 SNARKS -https://eprint.iacr.org/2013/879.pdf
 
 STARKS -https://eprint.iacr.org/2018/046
 http://www.zeroknowledge.fm/40
 
-vincent9/15/2018, 5:48:25 AM
+
 https://joinmarket.me/blog/blog/bulletpoints-on-bulletproofs/
 
-infominer9/17/2018, 12:18:34 AM(edited)
-The Science of Secrecy from Ancient Egypt to Quantum Cryptography
--Simon Singh](https://www.math.uci.edu/~brusso/freshman6.pdf)
 
-infominer10/1/2018, 12:55:21 PM
+The Science of Secrecy from Ancient Egypt to Quantum Cryptography
+-Simon Singh
+https://www.math.uci.edu/~brusso/freshman6.pdf
+
+
 https://www.youtube.com/watch?v=LjDJGTpK_lE
 
-infominer10/3/2018, 3:08:50 AM
+
 https://www.youtube.com/watch?v=nVVF8dgKC38
 
-infominer10/4/2018, 4:15:14 AM
+
 introduction to bulletproofs
 http://diyhpl.us/wiki/transcripts/scalingbitcoin/tokyo-2018/edgedevplusplus/bulletproofs/
 
-infominer10/7/2018, 4:55:35 AM
+
 https://blockchainlibrary.org/2017/11/most-cited-elliptic-curve-signature-algorithm-publications/
 
-infominer10/7/2018, 5:00:56 AM
+
 https://blockchainlibrary.org/2017/11/most-cited-merkle-tree-publications/
 
-infominer10/12/2018, 3:52:42 PM
+
 https://github.com/sobolevn/awesome-cryptography
 
-infominer10/12/2018, 4:21:41 PM
+
 https://crypto.stanford.edu/~dabo/cryptobook/
 
-infominer10/12/2018, 4:22:04 PM
+
 http://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
 
-infominer10/13/2018, 3:09:13 PM
+
 https://tls.ulfheim.net/
 
-infominer10/13/2018, 3:15:02 PM
+
 https://blog.trailofbits.com/2018/10/12/introduction-to-verifiable-delay-functions-vdfs/
 
-infominer11/25/2018, 8:56:52 PM
+
 https://twitter.com/cryptinfominer/status/1057667990345474048
 
-(Formatted embeds are currently not supported)
 
-infominer12/5/2018, 6:48:01 AM
 https://medium.com/cryptoadvance/bls-signatures-better-than-schnorr-5a7fe30ea716
 
-infominer12/17/2018, 5:50:29 PM(edited)
+
 https://discord.gg/Ua6gScX
 
-infominer12/22/2018, 4:46:40 PM
+
 http://dominictarr.com/post/106497926352/asymmetric-cryptography-works-like-magic
 
-infominer12/22/2018, 4:47:22 PM
+
 http://dominictarr.com/post/154769946347/fairly-tale-cryptography-2-hashes
 
-infominer12/25/2018, 3:45:26 PM
+
 https://archive.org/stream/B-001-001-250/B-001-001-250_djvu.txt
 
-infominer12/25/2018, 3:45:49 PM(edited)
+
 The Art of Computer Programming, Volume 3 sorting and searching (73?)
 
-infominer12/25/2018, 3:49:08 PM
 Download g-36-619_142482.pdf
-infominer12/25/2018, 3:49:45 PM
+
 Foundations of Secure Computation  '78
 
-infominer12/25/2018, 3:50:03 PM
+
 https://crypto.stackexchange.com/questions/56404/what-was-the-first-hash-and-what-problem-was-it-supposed-to-solve
 
-infominer12/27/2018, 3:22:54 PM
+
 https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/
 
-infominer12/30/2018, 8:00:42 PM
+
 https://discord.gg/bfSJYYp
 
-infominer12/30/2018, 9:10:56 PM
+
 http://www.academia.edu/4903458/Crypto_-_How_the_Code_Rebels_Beat_the_Government_-_Sa
