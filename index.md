@@ -6,6 +6,7 @@ header:
   image: "assets/img/SourceCrypto.png"
 sidebar:
   nav: "sourcenav" 
+toc: true
 ---
 
 **Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**

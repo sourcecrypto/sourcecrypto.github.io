@@ -312,7 +312,7 @@ defaults:
       share: true
       related: true
       sidebar:
-        nav: "didnav"
+        nav: "sourcenav"
       toc: true
       toc_label   : "Contents"
       toc_icon    : "link"
