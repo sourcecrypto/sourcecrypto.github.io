@@ -4,6 +4,8 @@ classes: wide
 title: Blockchain Identity Reources - TOML
 description: The beginnings of a tagged database for blockchain identity related resources.
 permalink: toml/id-toml.html
+sidebar:
+  nav: sourcenav
 ---
 
 My first page besides "home" with the minimal mistakes theme. All of my pages will migrate to minimal mistakes, and integrated, once I get the feel for it.
