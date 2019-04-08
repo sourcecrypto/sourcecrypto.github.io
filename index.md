@@ -35,7 +35,7 @@ Now we're, here, and I'm building web-pages around all of it. I didn't plan it t
 
 At some point, I will need an app (or a few scripts) to grab all links from the files in a repository, check them against our database, and output a list of links that need to be added.
 
-### [Source⧉Crypto](http://crypt0library.net) Discord Directory [**^**](#research-index)
+### [Source⧉Crypto](http://crypt0library.net) Discord Directory 
 
 
 It's quite navigable, using `ctrl+k` (in the desktop app), or by using the channel directory I've made in-server.
