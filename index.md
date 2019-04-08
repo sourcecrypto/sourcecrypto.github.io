@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Research Index and Discord Chat
+title: Crypto-Research-Index
 description: Building an Open-Source Database of Crypto Knowledge.
 header: 
   image: "assets/img/SourceCrypto.png"
