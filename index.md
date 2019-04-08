@@ -1,15 +1,10 @@
 ---
-layout: home
+layout: single
 title: Research Index and Discord Chat
 description: Building an Open-Source Database of Crypto Knowledge.
 header: 
   image: "assets/img/SourceCrypto.png"
-toc: true
-toc_label   : "Contents"
-toc_icon    : "link"
-toc_sticky  : true
-sidebar:
-  nav: "sourcenav" 
+
 ---
 
 **Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
