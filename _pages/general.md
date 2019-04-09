@@ -6,3 +6,5 @@ collection: general
 entries_layout: grid
 classes: wide
 ---
+
+Channels for collecting general resources around cryptocurrencies. 
