@@ -1,19 +1,9 @@
 ---
-layout: default
+layout: archive
 ---
 
-<article class="post">
+{{ content }}
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
-
-</article>
-
-{% assign collection_name = page.collection %}
-{% assign collection = site.collections | where:"label", collection_name | first %}
-{% assign posts = site[collection_name] | where:"layout", "post" %}
+<div class="entries-{{ page.entries_layout }}">
+  {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>
