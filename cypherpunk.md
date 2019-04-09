@@ -1246,6 +1246,3 @@ For example: Tim&#39;s famous first articulation of &quot;Blacknet,&quot; an con
             </div>
         </div>
 </div>
-
-</body>
-</html>
