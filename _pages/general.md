@@ -1,6 +1,6 @@
 ---
 title: "Category: General - SourceDisco"
-layout: collection
+layout: archive
 permalink: /discolog/general/
 collection: general
 entries_layout: grid

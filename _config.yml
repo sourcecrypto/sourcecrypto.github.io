@@ -299,7 +299,7 @@ compress_html:
     envs: development
 
 # Collections
-collections_dir: discolog
+collections_dir: collections
 collections:
   general:
     output: true
