@@ -163,6 +163,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -297,6 +298,21 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  general:
+    output: true
+    permalink: /:collection/:path/
+#  recipes:
+#    output: true
+#    permalink: /:collection/:path/
+#  pets:
+#    output: true
+#    permalink: /:collection/:path/
+#  portfolio:
+#    output: true
+#    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -307,7 +323,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: # true
       comments: # true
       share: true
       related: true
@@ -319,3 +335,17 @@ defaults:
       toc_sticky  : true
       twitter:
         card: summary_large_image
+   # _general
+   - scope:
+      path: ""
+      type: general
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcenav"
+      classes: wide
+      disco: true
