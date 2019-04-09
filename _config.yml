@@ -303,28 +303,28 @@ collections_dir: collections
 collections:
   general:
     output: true
-    permalink: discolog/:collection/:path/
+    permalink: /discolog/general/:path/
   resources:
     output: true
-    permalink: discolog/:collection/:path/
+    permalink: /discolog/resources/:path/
   crypto:
     output: true
-    permalink: discolog/:collection/:path/
+    permalink: /discolog/crypto/:path/
   privacy:
     output: true
-    permalink: discolog/:collection/:path/
+    permalink: /discolog/privacy/:path/
   consensus:
     output: true
-    permalink: discolog/:collection/:path/
+    permalink: /discolog/consensus/:path/
   tech:
     output: true
-    permalink: discolog/:collection/:path/
+    permalink: /discolog/tech/:path/
   development:
     output: true
-    permalink: discolog/:collection/:path/
+    permalink: /discolog/development/:path/
   application:
     output: true
-    permalink: discolog/:collection/:path/
+    permalink: /discolog/application/:path/
   
 
 
