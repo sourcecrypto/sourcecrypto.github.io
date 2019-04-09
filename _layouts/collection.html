@@ -17,4 +17,3 @@ layout: default
 {% assign collection_name = page.collection %}
 {% assign collection = site.collections | where:"label", collection_name | first %}
 {% assign posts = site[collection_name] | where:"layout", "post" %}
-{% if posts.size > 0 %}
