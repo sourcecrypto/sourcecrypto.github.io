@@ -299,32 +299,32 @@ compress_html:
     envs: development
 
 # Collections
-collections_dir: collections
+collections_dir: discolog
 collections:
   general:
     output: true
-    permalink: /discolog/general/:path/
+    permalink: /:collection/:path/
   resources:
     output: true
-    permalink: /discolog/resources/:path/
+    permalink: /:collection/:path/
   crypto:
     output: true
-    permalink: /discolog/crypto/:path/
+    permalink: /:collection/:path/
   privacy:
     output: true
-    permalink: /discolog/privacy/:path/
+    permalink: /:collection/:path/
   consensus:
     output: true
-    permalink: /discolog/consensus/:path/
+    permalink: /:collection/:path/
   tech:
     output: true
-    permalink: /discolog/tech/:path/
+    permalink: /:collection/:path/
   development:
     output: true
-    permalink: /discolog/development/:path/
+    permalink: /:collection/:path/
   application:
     output: true
-    permalink: /discolog/application/:path/
+    permalink: /:collection/:path/
   
 
 
