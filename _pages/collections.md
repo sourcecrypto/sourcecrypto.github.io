@@ -3,12 +3,12 @@ layout: archive
 title: "SourceCrypto Directory and Archive"
 permalink: /discolog/
 author_profile: true
-#toc: true
-#toc_label: "Contents"
-#toc_icon: "link"
-#toc_sticky: true
-#sidebar:
-#  nav: "sourcenav" 
+toc: true
+toc_label: "Contents"
+toc_icon: "link"
+toc_sticky: true
+sidebar:
+  nav: "sourcenav" 
 
 ---
 
