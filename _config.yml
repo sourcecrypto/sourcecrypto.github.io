@@ -351,7 +351,7 @@ defaults:
       toc_sticky  : true
       twitter:
         card: summary_large_image
-   # _general
+   # collections
   - scope:
       path: ""
       type: collections
