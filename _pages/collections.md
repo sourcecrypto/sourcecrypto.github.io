@@ -12,6 +12,7 @@ sidebar:
 
 ---
 
+Where disorder becomes order.
 
 {% capture written_label %}'None'{% endcapture %}
 
