@@ -6,5 +6,3 @@ collection: general
 entries_layout: grid
 classes: wide
 ---
-
-## The "General Category" of Source Crypto
