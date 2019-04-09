@@ -163,7 +163,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _
+  - collections
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -303,15 +303,31 @@ collections:
   general:
     output: true
     permalink: /:collection/:path/
-#  recipes:
-#    output: true
-#    permalink: /:collection/:path/
-#  pets:
-#    output: true
-#    permalink: /:collection/:path/
-#  portfolio:
-#    output: true
-#    permalink: /:collection/:path/
+  resources:
+    output: true
+    permalink: /:collection/:path/
+  crypto:
+    output: true
+    permalink: /:collection/:path/
+  privacy:
+    output: true
+    permalink: /:collection/:path/
+  consensus:
+    output: true
+    permalink: /:collection/:path/
+  tech:
+    output: true
+    permalink: /:collection/:path/
+  privacy:
+    output: true
+    permalink: /:collection/:path/
+  development:
+    output: true
+    permalink: /:collection/:path/
+  application:
+    output: true
+    permalink: /:collection/:path/
+  
 
 
 # Defaults
@@ -338,7 +354,7 @@ defaults:
    # _general
   - scope:
       path: ""
-      type: general
+      type: collections
     values:
       layout: single
       author_profile: true
