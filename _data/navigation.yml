@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Source⧉Crypto - Discord Index"
+  - title: "Discord Index"
     url: "http://infominer.id/SourceCrypto/discolog/"
   - title: "Inf⧉Mine⧉"
     url: "https://infominer.id/"
@@ -23,7 +23,7 @@ main:
 sourcenav:
   - title: Source⧉Nav
     children:
-      - title: "Source⧉Crypto - Discord Index"
+      - title: "Discord Index"
         url: "http://infominer.id/SourceCrypto/discolog/"
       - title: "Blockchain-ID TOML"
         url: "toml/id-toml.html"
