@@ -12,17 +12,17 @@ html {
     /* apply a natural box layout model to all elements */
     box-sizing: border-box;
     background-color: $background-color;
-    font-size: 14px;
+    font-size: 13px;
   
     @include breakpoint($medium) {
-      font-size: 17px;
+      font-size: 16px;
     }
   
     @include breakpoint($large) {
-      font-size: 19px;
+      font-size: 18px;
     }
   
     @include breakpoint($x-large) {
-      font-size: 21px;
+      font-size: 20px;
     }
   }
