@@ -336,7 +336,7 @@ defaults:
       twitter:
         card: summary_large_image
    # _general
-   - scope:
+  - scope:
       path: ""
       type: general
     values:
