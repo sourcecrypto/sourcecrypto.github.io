@@ -163,7 +163,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  - collections
+  - discolog
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -298,33 +298,34 @@ compress_html:
   ignore:
     envs: development
 
+
 # Collections
-collections_dir: collections
+collections_dir: discolog
 collections:
   general:
     output: true
-    permalink: /:collection/:path/
+    permalink: /discolog/:collection/:path/
   resources:
     output: true
-    permalink: /:collection/:path/
+    permalink: /discolog/:collection/:path/
   crypto:
     output: true
-    permalink: /:collection/:path/
+    permalink: /discolog/:collection/:path/
   privacy:
     output: true
-    permalink: /:collection/:path/
+    permalink: /discolog/:collection/:path/
   consensus:
     output: true
-    permalink: /:collection/:path/
+    permalink: /discolog/:collection/:path/
   tech:
     output: true
-    permalink: /:collection/:path/
+    permalink: /discolog/:collection/:path/
   development:
     output: true
-    permalink: /:collection/:path/
+    permalink: /discolog/:collection/:path/
   application:
     output: true
-    permalink: /:collection/:path/
+    permalink: /discolog/:collection/:path/
   
 
 
