@@ -303,27 +303,51 @@ compress_html:
 collections_dir: discolog
 collections:
   general:
+    title: General Knowledge
+    description: For information broadly related to all cryptocurrency and blockchain.
     output: true
+    sequence: 1
     permalink: /discolog/:collection/:path/
   resources:
+    title: Resources Channels
+    descrioption: For collections of resources.
+    sequence: 2
     output: true
     permalink: /discolog/:collection/:path/
   crypto:
+    title: Crypto(currency) 
+    description: For cryptocurrencies, and popular cryptographyic systems
+    sequence: 3
     output: true
     permalink: /discolog/:collection/:path/
   privacy:
+    title: Privacy Preserving Technolgy
+    description: Cause govts don't want you to
+    sequence: 4
     output: true
     permalink: /discolog/:collection/:path/
   consensus:
+    title: Channels for Blockchain Consensus
+    description: PoW, PoS, PoEverything Else
+    sequence: 5
     output: true
     permalink: /discolog/:collection/:path/
   tech:
+    title: Technologies Related to Bitcoin
+    description: tech tech tech
+    sequence: 6
     output: true
     permalink: /discolog/:collection/:path/
   development:
+    title: Blockchain Development
+    description: For Building Blocks and Chains of BLocks
+    sequence: 7
     output: true
     permalink: /discolog/:collection/:path/
   application:
+    title: Blockchain Applications 
+    description: There are many... I try to avoid thinkikng about ICOs
+    sequence: 8
     output: true
     permalink: /discolog/:collection/:path/
   
