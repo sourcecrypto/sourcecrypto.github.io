@@ -1,13 +1,13 @@
 ---
-title: "Category: Tech - SourceDisco"
+title: "Category: Development - SourceDisco"
 layout: collection
-permalink: /discolog/tech/
+permalink: /discolog/development/
 collection: tech
 entries_layout: grid
 classes: wide
 sidebar:
   nav: "sourcenav" 
-order: 6
+order: 7
 ---
 
 Technologies related to Blockchain, Perhaps Tangentally.

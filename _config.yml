@@ -328,15 +328,15 @@ collections:
     order: 2
     output: true
     permalink: /discolog/:collection/:path/
-  crypto:
-    title: Crypto(currency) 
-    description: For cryptocurrencies, and popular cryptographyic systems
-    order: 3
-    output: true
-    permalink: /discolog/:collection/:path/
   privacy:
     title: Privacy Preserving Technolgy
     description: Cause govts don't want you to
+    order: 3
+    output: true
+    permalink: /discolog/:collection/:path/
+  crypto:
+    title: Crypto(currency) 
+    description: For cryptocurrencies, and popular cryptographyic systems
     order: 4
     output: true
     permalink: /discolog/:collection/:path/

@@ -7,6 +7,7 @@ entries_layout: grid
 classes: wide
 sidebar:
   nav: "sourcenav" 
+order: 5
 ---
 
 Channels related to "blockchain consensus".
