@@ -123,40 +123,55 @@ author:
   location         : "I spend most of my time right here."
   email            : infominer@protonmail.com
   links:
+    - label: "Inf⧉Mine"
+      icon: "fa fa-fw fa-cube"
+      url: "https://infominer.id"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:infominer@protonmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+    - label: "Keybase"
+      icon: "fab fa-fw fa-keybase"
+      url:  "https://keybase.io/infominer"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/infominer33/SourceCrypto"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/infominer33"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/infominer33"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/ahTuPMY"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/InfoMiner33"
+   # - label: "Bitcoin"
+    #  icon: "fab fa-fw fa-bitcoin"
+     # url: 
 
 # Site Footer
 footer:
   links:
+    - label: "Inf⧉Mine"
+      icon: "fa fa-fw fa-cube"
+      url: "https://infominer.id"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:infominer@protonmail.com"
+    - label: "Keybase"
+      icon: "fab fa-fw fa-keybase"
+      url:  "https://keybase.io/infominer"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/infominer33/SourceCrypto"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/infominer33"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/infominer33"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/ahTuPMY"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/InfoMiner33"
 
 
 # Reading Files
@@ -164,6 +179,8 @@ include:
   - .htaccess
   - _pages
   - discolog
+  - practical
+  - toml
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
