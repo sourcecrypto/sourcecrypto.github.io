@@ -88,7 +88,7 @@ discolog:
         url: "http://infominer.id/SourceCrypto/discolog/#crypto"
       - title: "Tech"
         description: "Related Technologies"
-        url: "http://infominer.id/SourceCrypto/discolog/#tech/"
+        url: "http://infominer.id/SourceCrypto/discolog/#tech"
       - title: "Privacy"
         url: "http://infominer.id/SourceCrypto/discolog/#privacy"
       - title: "Consensus"
