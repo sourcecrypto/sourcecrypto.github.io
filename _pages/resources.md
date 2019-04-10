@@ -2,7 +2,7 @@
 title: "Category: Resources - SourceDisco"
 layout: collection
 permalink: /discolog/resources/
-collection: privacy
+collection: resources
 entries_layout: grid
 classes: wide
 ---
