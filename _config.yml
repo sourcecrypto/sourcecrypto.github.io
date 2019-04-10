@@ -119,9 +119,6 @@ author:
 author:
   name             : "⧉ Infominer"
   avatar           : "/assets/img/bio-photo.jpg"
-  #bio              : "I used to want to be known for my good deeds — Now I try to minimize the involvement of my *self* and  good deeds to be known — A Subtle but powerful distinction. "
-  location         : "I spend most of my time right here."
-  email            : infominer@protonmail.com
   links:
     - label: "Inf⧉Mine"
       icon: "fa fa-fw fa-cube"
