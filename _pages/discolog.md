@@ -3,12 +3,9 @@ layout: archive
 title: "SourceCrypto Directory and Archive"
 permalink: /discolog/
 author_profile: true
-toc: true
 sidebar:
   nav: "sourcenav" 
-
 ---
-
 
 {% capture written_label %}'None'{% endcapture %}
 
