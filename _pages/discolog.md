@@ -5,6 +5,7 @@ permalink: /discolog/
 author_profile: true
 sidebar:
   nav: "sourcenav" 
+  
 ---
 
 {% capture written_label %}'None'{% endcapture %}
