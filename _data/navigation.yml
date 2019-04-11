@@ -76,7 +76,7 @@ sourcenav:
     
 
 discolog:
-  - title: "On Page Nav for /discolog/"
+  - title: "On Page Nav for Discord Index"
     children:
       - title: "General"
         url: "http://infominer.id/SourceCrypto/discolog/#general"
