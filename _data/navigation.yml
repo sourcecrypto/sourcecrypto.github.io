@@ -46,18 +46,6 @@ sourcenav:
       - title: "Application"
         description: "Various applications, and potential applciations of Blockchain"
         url: "discolog/application/"
-  - title: Info⧉Nav
-    children:
-      - title: "⧉InfoMine⧉"
-        url: "https://infominer.id"
-      - title: "Bitcoin Historical Index"
-        url: "https://infominer.id/bitcoin-history"
-      - title: "DIDecentralized"
-        url: "https://infominer.id/DIDecentralized"
-      - title: "Learn Crypto Trading"
-        url: "https://infominer.id/learn-crypto-trading"
-      - title: "Source⧉Crypto"
-        url: "https://infominer.id/SourceCrypto"
   - title: Featured
     children:
       - title: "Github Pages Starter Pack"
@@ -72,6 +60,18 @@ sourcenav:
         url: "https://infominer.id/DIDecentralized/workshops/rebooting-web-of-trust/"
       - title: "Minimal Mistakes Quickstart Guide"
         url: "https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/"
+  - title: Info⧉Nav
+    children:
+      - title: "⧉InfoMine⧉"
+        url: "https://infominer.id"
+      - title: "Bitcoin Historical Index"
+        url: "https://infominer.id/bitcoin-history"
+      - title: "DIDecentralized"
+        url: "https://infominer.id/DIDecentralized"
+      - title: "Learn Crypto Trading"
+        url: "https://infominer.id/learn-crypto-trading"
+      - title: "Source⧉Crypto"
+        url: "https://infominer.id/SourceCrypto"
   
     
 
