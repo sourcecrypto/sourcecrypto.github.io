@@ -24,7 +24,7 @@ You may have noticed this site going through some transformations lately. You ca
   * [Development](discolog/development/)
   * [Application](discolog/application/)
 
-So, for now you can browse the entire index of channels at once, or one category at a time... later I will have a complete navigation index built. More info on how I did that, below.        
+So, for now you can browse the entire index of channels at once, or one category at a time... later I will have a complete navigation index built. More info on that, below.        
 
 
 ![](https://i.imgur.com/7d2fDDT.png){: .align-center}
