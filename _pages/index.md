@@ -18,11 +18,12 @@ I also found out about [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/Di
 
 Source Crypto discord is a landing pad.. I drop links there on the fly, so those pages are not organized well, and maybe not all the links are 100% the best ever... Next will be to systematically go through and start building better, more organized resources built and driven by research.
 
-So little by little, we'll map out the ecosystem of information around blockchain and cryptocurrencies.
+So little by little, we'll map out the ecosystem of information around blockchain and cryptocurrencies, and those un-organized pages will grow to become each a formidible resource of its own.
 
-I'll be working on this site over the coming weeks to create a nice foundation for what's to come.
 
-![](assets/img/SourceCrypto.png)
+![](../assets/img/SourceCrypto.png)
+
+*What follows is somewhat depreciated.. but I'll leave it until I have time to really focus on it.*
 
 
 The problem is that information is not so neatly organized, since each subject is related to the others. I **could** make a page that goes in-depth on every subject, but then I'd be re-producing the same information over and over in a bunch of different places. We need a properly tagged database, so that the information displayed is adjusted depending upon my query.. 

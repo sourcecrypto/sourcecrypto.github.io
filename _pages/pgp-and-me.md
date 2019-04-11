@@ -6,6 +6,7 @@ image: https://i.imgur.com/swEAkJm.png
 sidebar:
   nav: "sourcenav"
 toc: true
+permalink: pgp-and-me/
 ---
 
 ```
