@@ -15,7 +15,7 @@ permalink: /
 You may have noticed this site going through some transformations lately. You can now browse the contents of our discord server, right here from the comfort of this website.
 {: .notice--success}
 
-* [Discord Index](http://infominer.id/SourceCrypto/discolog/)
+* [Discord Index](discolog/)
   * [General](discolog/general/)
   * [Resources](discolog/resources/)
   * [Crypto](discolog/crypto/)

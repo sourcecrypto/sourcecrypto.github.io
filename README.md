@@ -1,90 +1,99 @@
-# The Crypto Library ⧉ Super Source
-<a href="https://infominer.id"><img src="https://infominer.id/DIDecentralized/infominer.png" align="right" width="150"></a>
+---
+layout: single
+title: Crypto-Research-Index
+description: Building an Open-Source Database of Crypto Knowledge.
+header: 
+  image: "assets/img/SourceCrypto.png"
+sidebar:
+  nav: "sourcenav" 
+toc: true
+permalink: /
+---
 
-Creating a collaborative web-directory of "source-grade" content, searchable and manually navigable — perhaps with chat bot search engines, to make it portable. For writers, students, and research nerds to easily find information on the topics we're studying at any given moment. 
+**Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
 
-Originally organized in the channels of a [discord server](http://crypt0library.net), this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
+You may have noticed this site going through some transformations lately. You can now browse the contents of our discord server, from the comfort of the SourceCrypto website.
+{: .notice--success}
 
-<a href="https://github.com/infominer33/SuperSource">View on GitHub</a>
+* [Discord Index](https://infominer.id/SourceCrypto/discolog/)
+  * [General](https://infominer.id/SourceCrypto/discolog/general/)
+  * [Resources](https://infominer.id/SourceCrypto/discolog/resources/)
+  * [Crypto](https://infominer.id/SourceCrypto/discolog/crypto/)
+  * [Tech](https://infominer.id/SourceCrypto/discolog/tech/)
+  * [Privacy](https://infominer.id/SourceCrypto/discolog/privacy/)
+  * [Consensus](https://infominer.id/SourceCrypto/discolog/consensus/)
+  * [Development](https://infominer.id/SourceCrypto/discolog/development/)
+  * [Application](https://infominer.id/SourceCrypto/discolog/application/)
 
-<center><img src="https://i.imgur.com/HxFqaQg.png" /></center>
+So, for now you can browse the entire index of channels at once, or one category at a time... later I will have a complete navigation index built. More info on that, below.        
 
-### [⧉ SuperSource](http://crypt0library.net) Directory [**^**](#research-index)
+For those who would like to browse from discord, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the discolog are in `discolog`, all the data is in `_data`.  
 
-I'll share the server directory here, to give you an idea of what you're missing out on. It's quite navigable, using `ctrl+k` (in the discord app), or by using the channel directory I've made in-server.
+Everything else is the website. pretty straightforward.
 
-**General Knowledge**
 
-\#101, #history, #satoshi, #wallets, #exchanges, #cypherpunk, #icos, #evaluation, #economics, #governance, #trading, #mining, #regulation, #walstreet, #wallets, #growth-adoption, #traditional-finance, #classification, 
+![](https://i.imgur.com/7d2fDDT.png){: .align-center}
 
-**Resources**
+## SourceCrypto
 
-\#resources, #assorted-media, #twitter-follows, #communities, #news-sites, #swag, #women, #earn-crypto, #conferences, #books, #research-papers, #non-english, #data, #send-crypto
+Source Crypto discord is a landing pad.. I drop links there on the fly, so those pages are not organized well, and maybe not all the links are 100% the best ever... Next will be to systematically go through and start building better, more organized resources built and driven by research.
 
-**Crypto**
+The aim is to create a repository of information, generally mapping out the history and knowledge related to Bitcoin\blockchain.
 
-\#gen-crypto, #bitcoin, #btc-layer2, #ethereum, #eth-layer2, #eth-consensus, #stable-coins, #doge, #zcash, #cardano, #stellar, #ripple, #tron, #bch, #dash, #litecoin, #monero, #iota, #neo, #etc, #steem, #eos, #bitshares, #nano, #hyperledger, #corda, #etcetera, #bytom, #tezos, #cosmos, #enterprise-dlt, #grin-mimblewimble, #blockstack, #central-bank-digital-currency
+So little by little, we'll map out the ecosystem of information around blockchain and cryptocurrencies, and those un-organized pages will grow to become each a formidible resource of its own.
 
-**Tech**
+The great thing is that gh-pages\jekyll are designed to generate content based upon structured data. So I'm a lot closer to the dream of creating a reasonably complete repository of knowledge related to crypto.
 
-\#cryptography, #decentralization, #privacy, #security, #protocols, #hash-algos, #open-source, #forks, #smart-contracts, #dapps, #sidechains, #master-nodes, #databases, #ipfs, #tor, #pi-rasberry, #bittorrent, #oracles, #interoperability, #identification, #p2p, #drivechains, #internet-protocols 
 
-**Distributed Consensus**
+![](/assets/img/SourceCrypto.png)
 
-\#distributed-systems, #consensus, #pow, #pos, #tendermint, #hashgraph, Development, #discussion-dev, #hackathons, #gen-developing, #blockchain-developing, #forking, #bitcoin-dev, #ethereum-dev, #state-channels, #id-dev, #corda-dev, #steem-dev, #hyperledger-dev, #quant-trading, #nano-dev, #cardano-dev, #design
+## A Machine Readable Repository on Every Subject In Crypto.
 
-**Application**
 
-\#security-tokens, #identity-did, #finance, #payment-processing, #institutional-derivitives, #prediction-markets, #dao, #fiat-onramp, #publishing, #united-nations, #government, #voting, #supplychain, #social-media, #music, #art-collectibles, #iot, #ai, #intellectual-propery, #games, #energy, #services, #marketplaces, #notary, #criminal, #bots, #utility, #china, #crypto-selfregulation
+* [Source⧉Crypto](https://discord.gg/ahTuPMY) - I collect and categorize links in here, on the fly.
+![](https://i.imgur.com/hLOk7yL.png)
+
+Previously, I was putting information in TOML format. Then, after I started to learn GitHub pages, and working with some other people on a similar project for Decentralized Identity, I realized that GitHub Pages \ Jekyll have built-in support for yaml, csv, and json... so, yaml is nice and we'll go with that. 
+
+Recently, I found [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter/issues/75) which quickly turned the entire contents of Source Crypto Discord Server into 170+ html files. 
+
+Then, I used minimal-mistakes collections feature to quickly publish the lot of them, using VSCode to easily edit all of the files at the same time.
+
+ That was a super quick and dirty way to get all that content up here on the web where anyone can access it more easily.
+
+
+* [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto/_data/toml) -  Now I have a few complete and proper toml files converted to json that I can use to experiment with generating pages - listing by title, tag, and incorporating search functionality, or perhaps filter by user-input.
+
+I'm looking into ways to take a list of links and pull title description image automatically into yaml or json, and pages can be generated with jekyll.
+
+Further down the line, each subject area will become the focus of its own landing page with well researched information, building with and from the structured data. Compared to currently we've got whatever I've happened upon in my travels of the web, with some contributions from the community, with a focus on history and identity. 
+
+* [GitHub Pages Starter Pack](https://infominer.id/gh-pages-starter-pack.html)
+* [Minimal Mistakes Quickstart Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+
+
+![](https://i.imgur.com/pYydLx7.png)
+
+I didn't exactly plan for things to work as they have, but everything I've been doing has naturally built upon what I've been working towards, and it's all coming together nicely. 
 
 <b><a href="https://discord.gg/ahTuPMY" target="_blank">discord.gg/ahTuPMY</a></b>
 
-## SuperSource Demo
+## Tagging
 
-[![](https://i.imgur.com/N2DWAMF.png)](supersource-demo.mp4)
+[tag-definitions.md](/tag-definitions/) is where I was working on my idea of tagging.
 
-This is a really basic demo of what we're working to create.
+@MaciekLaskus suggested:
+>this is very interesting, but I think you're making a fundamental mistake with tagging this by topics
+>
+>what's really missing is tagging all of these resources by authors, co-authors, references/citations
+>
+> Maciek (April NYC & SF; May LA)
+ once this is done, topical tags can be derived algorithmically
+* [Enabling Author-Centric Ranking of Web Content](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.8960&rep=rep1&type=pdf)
 
-## [crypt0library.net](http://crypt0library.net)
+## <a href="https://infominer.id/SourceCrypto">infominer.id/SourceCrypto</a>
 
-In order to create the database to power our dynamic web-portal, I'm using the [TOML format](https://github.com/toml-lang/toml) to organize the information and describe it and tag it. TOML is a simple format that we are using to prepare our information to be transformed into a mongo database. 
-
-I've scraped the server, and copied all of its contents into files in this repository. Once transformed into TOML, many of them will be made into "[awesome lists](/projects.md)", which is part of my process in gathering more resources for the database. Of course, all of this research makes it easier to write articles on any of the subjects within the repo, which also leads to gathering more information.
-  
-### The Format
-
-```
-["The **Title** of the entry and must always be different from previous entries"] 
-Link = ["https://Blah.com"]
-Description = "Description can be whatever text is valuable to communicate.\nTypically copied directly from the source; sometimes requiring creativity. "
-Tags = ["blah", "blah-blah"]
-```
-
->* **For any label that can potentially have multiple values it must always be ["bracketed"] even though sometimes there is only one value.**
->* **I made "Link" a bracketed ["array"] so that sometimes a supporting link can be included. occasionally this will be helpful.**
->* **Also, all entries have to have the same fields and format**
->* **If you use \n for a newline, you can't actually use a newline, the open " and closing " must be on the same line**
->* **Be careful of quotation marks in text copied descriptions. Change to ' or use an escape character \\" in front of the quotation mark**
->* **TOML is Case Sensitive. All the tags should be lower case. All the value names must always begin with a capital and be identical**
-
-<img src="https://i.imgur.com/1nmrAAu.png"/></br>
-The result of this process, once it's landed on github ^^^
-
-### Tagging
-
-Tagging is a complex topic. We need enough unique tags to make this directory ideally navigable, and to use a consistent schema for tagging over the course of this project. If you are jumping in and getting involved, just tag as best you can, I'll be going over the tagging many times.
-
-Once this project is living in a web app it will become a more streamlined collaborative process: so that tags can be suggested and also flagged as unhelpful. 
-
-To be clear these are app specific tags that users will be able to create and navigate via. Not every possible keyword, that will come later on another layer.
-
-See "[tag-definitions.md](https://github.com/infominer33/Crypto-library/blob/master/toml/tag-definitions.md)" for more information. Feel free to join in on the fun :)
-
-<a href="https://github.com/infominer33/SuperSource">View on GitHub</a>
-
-
----
-### Tips Jar 
+## Tips Jar 
 
 BTC— 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
 
