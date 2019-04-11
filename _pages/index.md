@@ -10,9 +10,9 @@ toc: true
 permalink: /
 ---
 
-**Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**{: .notice--success}
+**Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
 
-You may have noticed this site going through some transformations lately. You can now browse the contents of our discord server, right here from the comfort of this website.
+You may have noticed this site going through some transformations lately. You can now browse the contents of our discord server, right here from the comfort of this website.{: .notice--success}
 
 * [Discord Index](http://infominer.id/SourceCrypto/discolog/)
   * [General](discolog/general/)
