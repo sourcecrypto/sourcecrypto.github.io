@@ -61,7 +61,7 @@ I didn't exactly plan for things to work as they have, but everything I've been 
 
 [![](https://i.imgur.com/N2DWAMF.png)](supersource-demo.mp4)
 
-This is a really basic demo that gives you some idea of the potential.
+This is basic demo created with a backend mongo db... from before I realized what I could do right here on GitHub.
 
 ### Tagging
 
