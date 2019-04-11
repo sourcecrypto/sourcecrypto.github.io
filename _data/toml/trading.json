@@ -121,7 +121,7 @@
     ]
   },
   "@CryptoCred on trading plans": {
-    "Description": "Have a trading plan for the day/session. Here's a basic outline you can use \ud83d\udc47 \n\nWhat's price reaching for? (Thesis)\nWhat does price have to do for me to enter a trade? (Setup)\nWhere might a Setup arise? (Entry)\nWhere would the Setup fail? (Risk)\nWhat's the Setup target? (Reward)",
+    "Description": "Have a trading plan for the day-session. Here's a basic outline you can use: What's price reaching for? (Thesis) — What does price have to do for me to enter a trade? (Setup)\nWhere might a Setup arise? (Entry) — Where would the Setup fail? (Risk) — What's the Setup target? (Reward)",
     "Link": [
       "https://twitter.com/CryptoCred/status/1036714196027801600"
     ],
