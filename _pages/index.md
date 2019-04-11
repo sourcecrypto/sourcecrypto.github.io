@@ -12,38 +12,48 @@ permalink: /
 
 **Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
 
-You may have noticed this site going through some transformations lately. First of all, I realized that GitHub Pages \ Jekyll have built-in support for yaml, csv, and json... so, yaml is nice and we'll go with that. the great thing is that pages is designed to generate content based upon structured data. So we'll be a lot closer to the dream now.
+You may have noticed this site going through some transformations lately. 
 
-I also found out about [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter/issues/75) and how to use its exe file from the linux command line.. well that app will take your entire server and turn it into HTML... so that's what we have here, I integrated that with the site :D  
+First, I found [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter/issues/75) which quickly turned the entire contents of Source Crypto Discord Server into 170+ html files. 
+
+Then, I used minimal-mistakes collections feature to quickly publish the lot of them, using VSCode to easily edit all of the files at the same time.
+
+ That was a super quick and dirty way to get all that content up here on the web where anyone can access it more easily.
+
+---
 
 Source Crypto discord is a landing pad.. I drop links there on the fly, so those pages are not organized well, and maybe not all the links are 100% the best ever... Next will be to systematically go through and start building better, more organized resources built and driven by research.
 
+The aim is to create a repository of information, generally mapping out the history and knowledge related to Bitcoin\blockchain.
+
 So little by little, we'll map out the ecosystem of information around blockchain and cryptocurrencies, and those un-organized pages will grow to become each a formidible resource of its own.
 
+![](https://i.imgur.com/7d2fDDT.png){: .align-center}
+
+Previously, I was putting information in TOML format. Then, after I started to learn GitHub pages, and working with some other people on a similar project for Decentralized Identity, I realized that GitHub Pages \ Jekyll have built-in support for yaml, csv, and json... so, yaml is nice and we'll go with that. 
+
+The great thing is that pages is designed to generate content based upon structured data. So I'm a lot closer to the dream of creating a reasonably complete repository of knowledge related to crypto.
+
+Now I have a few complete and proper toml files converted to json that I can use to experiment with generating pages - listing by title, tag, and incorporating search functionality, or perhaps filter by user-input.
 
 ![](../assets/img/SourceCrypto.png)
-
-*What follows is somewhat depreciated.. but I'll leave it until I have time to really focus on it.*
-
-
-The problem is that information is not so neatly organized, since each subject is related to the others. I **could** make a page that goes in-depth on every subject, but then I'd be re-producing the same information over and over in a bunch of different places. We need a properly tagged database, so that the information displayed is adjusted depending upon my query.. 
 
 
 ### A Machine Readable Repository on Every Subject In Crypto.
 
-Originally organized in the channels of a [discord server](http://crypt0library.net), this is a landing pad in the process of making a machine readable repository of information on every subject in crypto.
-
 * [Source⧉Crypto](https://discord.gg/ahTuPMY) - I collect and categorize links in here, on the fly.
 ![](https://i.imgur.com/hLOk7yL.png)
-* [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto) - Later I enter the links into machine readable TOML format.
+* [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto) - Now I have some of that information in json format, with relevant metadata. I'm looking into ways to take a list of links and pull title description image automatically into yaml or json, and pages can be generated with jekyll.
 
-Even further down the line, those links get organized some more, and added to the human-readable .md files of various github repositories.
+Further down the line, each subject area will become the focus of its own landing page with well researched information, as opposed to currently is whatever I've happened upon in my travels of the web, with a focus on history and identity. 
 
-![](https://i.imgur.com/zZMwrqV.png)
+* [GitHub Pages Starter Pack](https://infominer.id/gh-pages-starter-pack.html)
+* [Minimal Mistakes Quickstart Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
-Now we're, here, and I'm building web-pages around all of it. I didn't plan it that way, but it's all coming together nicely. 
 
-At some point, I will need an app (or a few scripts) to grab all links from the files in a repository, check them against our database, and output a list of links that need to be added.
+![](https://i.imgur.com/pYydLx7.png)
+
+I didn't exactly plan for things to work as they have, but everything I've been doing has naturally built upon what I've been working towards, and it's all coming together nicely. 
 
 <b><a href="https://discord.gg/ahTuPMY" target="_blank">discord.gg/ahTuPMY</a></b>
 
@@ -55,13 +65,16 @@ This is a really basic demo that gives you some idea of the potential.
 
 ### Tagging
 
-Tagging is a complex topic. We need enough unique tags to make this directory ideally navigable, and to use a consistent schema for tagging over the course of this project. If you are jumping in and getting involved, just tag as best you can, I'll be going over the tagging many times.
+[tag-definitions.md](/tag-definitions/) is where I was working on my idea of tagging.
 
-Once this project is living in a web app it will become a more streamlined collaborative process: so that tags can be suggested and also flagged as unhelpful. 
-
-To be clear these are app specific tags that users will be able to create and navigate via. Not every possible keyword, that will come later on another layer.
-
-See "[tag-definitions.md](/tag-definitions/)" for more information. Feel free to join in on the fun :)
+@MaciekLaskus suggested:
+>this is very interesting, but I think you're making a fundamental mistake with tagging this by topics
+>
+>what's really missing is tagging all of these resources by authors, co-authors, references/citations
+>
+> Maciek (April NYC & SF; May LA)
+ once this is done, topical tags can be derived algorithmically
+* [Enabling Author-Centric Ranking of Web Content](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.8960&rep=rep1&type=pdf)
 
 <a href="https://github.com/infominer33/SourceCrypto">View on GitHub</a>
 
