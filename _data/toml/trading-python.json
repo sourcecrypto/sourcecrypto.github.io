@@ -85,7 +85,7 @@
       "podcast"
     ]
   },
-  "166: The trader\u2019s guide for learning to code\u2014with data scientist, Hugo Bowne-Anderson": {
+  "166: The trader's guide for learning to code\u2014with data scientist, Hugo Bowne-Anderson": {
     "Description": "The idea for asking Hugo to appear on this episode, was to chat about learning a programming language. Because for some traders, having the ability to write code can have great advantages\u2014such as having the ability to collect stats on market behavior, perform research in a robust data-driven way, visualize large amounts of data, backtest and analyse trading ideas, implement algorithmic strategies, etc.",
     "Link": [
       "https://chatwithtraders.com/ep-166-hugo-bowne-anderson/"
@@ -98,7 +98,7 @@
     ]
   },
   "9 Great Tools for Algo Trading": {
-    "Description": "In the last 5\u201310 years algorithmic trading, or algo trading, has gained popularity with the individual investor. The rise in popularity has been accompanied by a proliferation of tools and services, to both test and trade with algorithms. I\u2019ve put together a list of 9 tools you should consider using for your algo trading process.",
+    "Description": "In the last 5\u201310 years algorithmic trading, or algo trading, has gained popularity with the individual investor. The rise in popularity has been accompanied by a proliferation of tools and services, to both test and trade with algorithms. I've put together a list of 9 tools you should consider using for your algo trading process.",
     "Link": [
       "https://hackernoon.com/9-great-tools-for-algo-trading-e0938a6856cd"
     ],
@@ -222,7 +222,7 @@
     ]
   },
   "Algorithmic Trading 101\u200a\u2014\u200aLesson 4: Portfolio Management and Machine Learning in Python": {
-    "Description": "Portfolio Management 101\nHowever, before we delve into machine learning, it\u2019s important to talk about portfolio management strategy \u2014an essential component of long-term trading success.\n\nPortfolio management doesn\u2019t just mean what types of assets, but also:\n\nWhat types of strategies\nHow much of my net worth allocated to each\nHow often do I adjust",
+    "Description": "Portfolio Management 101\nHowever, before we delve into machine learning, it's important to talk about portfolio management strategy \u2014an essential component of long-term trading success.\n\nPortfolio management doesn't just mean what types of assets, but also:\n\nWhat types of strategies\nHow much of my net worth allocated to each\nHow often do I adjust",
     "Link": [
       "https://medium.com/the-ocean-trade/algorithmic-trading-101-lesson-4-portfolio-management-and-machine-learning-in-python-bc50cd53abbd"
     ],
@@ -247,7 +247,7 @@
     ]
   },
   "Algorithmic trading in less than 100 lines of Python code": {
-    "Description": "Algorithmic trading refers to the computerized, automated trading of financial instruments (based on some algorithm or rule) with little or no human intervention during trading hours. Almost any kind of financial instrument \u2014 be it stocks, currencies, commodities, credit products or volatility \u2014 can be traded in such a fashion. Not only that, in certain market segments, algorithms are responsible for the lion\u2019s share of the trading volume. The books The Quants by Scott Patterson and More Money Than God by Sebastian Mallaby paint a vivid picture of the beginnings of algorithmic trading and the personalities behind its rise.",
+    "Description": "Algorithmic trading refers to the computerized, automated trading of financial instruments (based on some algorithm or rule) with little or no human intervention during trading hours. Almost any kind of financial instrument \u2014 be it stocks, currencies, commodities, credit products or volatility \u2014 can be traded in such a fashion. Not only that, in certain market segments, algorithms are responsible for the lion's share of the trading volume. The books The Quants by Scott Patterson and More Money Than God by Sebastian Mallaby paint a vivid picture of the beginnings of algorithmic trading and the personalities behind its rise.",
     "Link": [
       "https://www.oreilly.com/learning/algorithmic-trading-in-less-than-100-lines-of-python-code"
     ],
@@ -285,7 +285,7 @@
     ]
   },
   "Best Python Libraries/Packages for Finance and Financial Data Scientists": {
-    "Description": "Finance professionals involved in data analytics and data science make use of R, Python and other programming languages to perform analysis on a variety of data sets. Python has been gathering a lot of interest and is becoming a language of choice for data analysis. Python also has a very active community which doesn\u2019t shy from contributing to the growth of python libraries. If you search on Github, a popular code hosting platform, you will see that there is a python package to do almost anything you want.This article provides a list of the best python packages and libraries used by finance professionals, quants, and financial data scientists.",
+    "Description": "Finance professionals involved in data analytics and data science make use of R, Python and other programming languages to perform analysis on a variety of data sets. Python has been gathering a lot of interest and is becoming a language of choice for data analysis. Python also has a very active community which doesn't shy from contributing to the growth of python libraries. If you search on Github, a popular code hosting platform, you will see that there is a python package to do almost anything you want.This article provides a list of the best python packages and libraries used by finance professionals, quants, and financial data scientists.",
     "Link": [
       "https://www.linkedin.com/pulse/best-python-librariespackages-finance-financial-data-majid-aliakbar/"
     ],
@@ -323,7 +323,7 @@
     ]
   },
   "Catalyst -an algorithmic trading library crypto-assets written in Python": {
-    "Description": "Catalyst is an algorithmic trading library for crypto-assets written in Python. It allows trading strategies to be easily expressed and backtested against historical data (with daily and minute resolution), providing analytics and insights regarding a particular strategy\u2019s performance. Catalyst also supports live-trading of crypto-assets starting with four exchanges (Binance, Bitfinex, Bittrex, and Poloniex) with more being added over time. Catalyst empowers users to share and curate data and build profitable, data-driven investment strategies.",
+    "Description": "Catalyst is an algorithmic trading library for crypto-assets written in Python. It allows trading strategies to be easily expressed and backtested against historical data (with daily and minute resolution), providing analytics and insights regarding a particular strategy's performance. Catalyst also supports live-trading of crypto-assets starting with four exchanges (Binance, Bitfinex, Bittrex, and Poloniex) with more being added over time. Catalyst empowers users to share and curate data and build profitable, data-driven investment strategies.",
     "Link": [
       "https://enigma.co/catalyst/",
       "http://catalystcrypto.io",
@@ -400,7 +400,7 @@
     ]
   },
   "Detailed overview of building Python algo trading system with Bitcoin an crypto currency focus": {
-    "Description": "OVERVIEW \u2013 As Bitcoin ruled the financial news cycle in recent times, many have had a peak interest in cyrpto currency along with systematic trading. There are many advanced trading research techniques including machine learning, AI, or quant. This course was created for the \u2018newbie\u2019 who has a basic understand in popular programming languages but easy to learn such as Python. A focus of technical analysis was chosen since it is popular among retail traders. It is also seems to offer more predictable results as opposed to harder to learn concepts such as quant or machine learning. In essence, a simpler with more effective techniques were purposely chosen to get someone with basic programming knowledge (eg. Python) to get ramped up faster! It is very hopeful any student will become more confident in their capabilities to complete this without the unnecessary complexities that usually hold back their success.",
+    "Description": "OVERVIEW \u2013 As Bitcoin ruled the financial news cycle in recent times, many have had a peak interest in cyrpto currency along with systematic trading. There are many advanced trading research techniques including machine learning, AI, or quant. This course was created for the \u2018newbie' who has a basic understand in popular programming languages but easy to learn such as Python. A focus of technical analysis was chosen since it is popular among retail traders. It is also seems to offer more predictable results as opposed to harder to learn concepts such as quant or machine learning. In essence, a simpler with more effective techniques were purposely chosen to get someone with basic programming knowledge (eg. Python) to get ramped up faster! It is very hopeful any student will become more confident in their capabilities to complete this without the unnecessary complexities that usually hold back their success.",
     "Link": [
       "https://www.youtube.com/watch?v=wn7sA3jZcyI",
       "https://quantlabs.net/blog/2018/03/new-course-building-python-algo-trading-system-with-bitcoin-an-crypto-currency-focus/"
@@ -512,7 +512,7 @@
     ]
   },
   "High Frequency Trading on the Coinbase Exchange": {
-    "Description": "I\u2019ve recently started trading bitcoins algorithmically on the new Coinbase exchange. After reading about high-frequency trading in the book Flash Boys by Michael Lewis, I decided I\u2019d give it a shot myself, albeit in a clumsier, more amateurish way.\n\nThe experience has been fascinating, both on a technical level, and in a strategic sense. Writing logic that controls money itself is a strange thing. Setting it loose for the first time, knowing that any bug could literally throw away cash, was terrifying.\n\nBitcoin is an incredibly open system that is particularly friendly to no-name developers. The exchanges have open API\u2019s that allow anyone, literally anyone, to trade. There\u2019s no premium access, no expensive trading floor credentials. It\u2019s totally open \u2013 I love that.",
+    "Description": "I've recently started trading bitcoins algorithmically on the new Coinbase exchange. After reading about high-frequency trading in the book Flash Boys by Michael Lewis, I decided I'd give it a shot myself, albeit in a clumsier, more amateurish way.\n\nThe experience has been fascinating, both on a technical level, and in a strategic sense. Writing logic that controls money itself is a strange thing. Setting it loose for the first time, knowing that any bug could literally throw away cash, was terrifying.\n\nBitcoin is an incredibly open system that is particularly friendly to no-name developers. The exchanges have open API's that allow anyone, literally anyone, to trade. There's no premium access, no expensive trading floor credentials. It's totally open \u2013 I love that.",
     "Link": [
       "https://www.coindesk.com/high-frequency-trading-on-the-coinbase-exchange/"
     ],
@@ -587,7 +587,7 @@
     ]
   },
   "My Foray Into Algorithmic Crypto Trading": {
-    "Description": "Yep, it seems that everyone and their dogecoin is climbing onto the cryptocurrency bandwagon in one way or another. I\u2019m not sure if it was the relentless barrage of headlines, those soaring price charts, or just the feeling that something truly disruptive was happening, but I have to admit I was intrigued.\n\nAnd so it was that about a month ago I started playing around with algorithmic cryptocurrency trading. A month later I haven\u2019t made a cent, but I did manage to have fun and learned quite a bit so thought it might be worth sharing. I also ended up writing a fairly flexible trading bot in Python which I wanted to share. (You can find it on GitHub.)",
+    "Description": "Yep, it seems that everyone and their dogecoin is climbing onto the cryptocurrency bandwagon in one way or another. I'm not sure if it was the relentless barrage of headlines, those soaring price charts, or just the feeling that something truly disruptive was happening, but I have to admit I was intrigued.\n\nAnd so it was that about a month ago I started playing around with algorithmic cryptocurrency trading. A month later I haven't made a cent, but I did manage to have fun and learned quite a bit so thought it might be worth sharing. I also ended up writing a fairly flexible trading bot in Python which I wanted to share. (You can find it on GitHub.)",
     "Link": [
       "https://blog.madebywindmill.com/my-foray-into-algorithmic-crypto-trading-beac9113de36"
     ],
@@ -599,7 +599,7 @@
     ]
   },
   "Popular Python Trading Platforms For Algorithmic Trading": {
-    "Description": "With this article on \u2018Python Libraries and Platforms\u2019, we would be covering the most popular and widely used Python Trading Platforms and Python Trading Libraries for quantitative trading.",
+    "Description": "With this article on \u2018Python Libraries and Platforms', we would be covering the most popular and widely used Python Trading Platforms and Python Trading Libraries for quantitative trading.",
     "Link": [
       "https://www.quantinsti.com/blog/python-trading-library/"
     ],
@@ -611,7 +611,7 @@
     ]
   },
   "Python Algorithmic Trading Library": {
-    "Description": "PyAlgoTrade is a Python Algorithmic Trading Library with focus on backtesting and support for paper-trading and live-trading. Let\u2019s say you have an idea for a trading strategy and you\u2019d like to evaluate it with historical data and see how it behaves. PyAlgoTrade allows you to do so with minimal effort.",
+    "Description": "PyAlgoTrade is a Python Algorithmic Trading Library with focus on backtesting and support for paper-trading and live-trading. Let's say you have an idea for a trading strategy and you'd like to evaluate it with historical data and see how it behaves. PyAlgoTrade allows you to do so with minimal effort.",
     "Link": [
       "http://gbeced.github.io/pyalgotrade/"
     ],
@@ -636,7 +636,7 @@
     ]
   },
   "Python for Finance - Yves Hilpisch (Oreily)": {
-    "Description": "Not too long ago, Python as a programming language and platform technology was considered exotic \u2014 if not completely irrelevant \u2014 in the financial industry. By contrast, in 2014 there are many examples of large financial institutions \u2014 like Bank of America Merrill Lynch with its Quartz project, or JP Morgan Chase with the Athena project \u2014 that strategically use Python alongside other established technologies to build, enhance, and maintain some of their core IT systems. There is also a multitude of larger and smaller hedge funds that make heavy use of Python\u2019s capabilities when it comes to efficient financial application development and productive financial analytics efforts.\n\nSimilarly, many of today\u2019s Master of Financial Engineering programs (or programs awarding similar degrees) use Python as one of the core languages for teaching the translation of quantitative finance theory into executable computer code. Educational programs and trainings targeted to finance professionals are also increasingly incorporating Python into their curricula. Some now teach it as the main implementation language.",
+    "Description": "Not too long ago, Python as a programming language and platform technology was considered exotic \u2014 if not completely irrelevant \u2014 in the financial industry. By contrast, in 2014 there are many examples of large financial institutions \u2014 like Bank of America Merrill Lynch with its Quartz project, or JP Morgan Chase with the Athena project \u2014 that strategically use Python alongside other established technologies to build, enhance, and maintain some of their core IT systems. There is also a multitude of larger and smaller hedge funds that make heavy use of Python's capabilities when it comes to efficient financial application development and productive financial analytics efforts.\n\nSimilarly, many of today's Master of Financial Engineering programs (or programs awarding similar degrees) use Python as one of the core languages for teaching the translation of quantitative finance theory into executable computer code. Educational programs and trainings targeted to finance professionals are also increasingly incorporating Python into their curricula. Some now teach it as the main implementation language.",
     "Link": [
       "https://doc.lagout.org/programmation/python/Python%20for%20Finance_%20Analyze%20Big%20Financial%20Data%20%5BHilpisch%202014-12-27%5D.pdf"
     ],
@@ -749,7 +749,7 @@
     ]
   },
   "RenkoTrading: an embarrassingly simple algorithm for cryptocurrency trading that will deprecate the old notion that \\\u201chodling is the best strategy' (part I)": {
-    "Description": "Over the last months, I\u2019ve explored ways not only to invest in crypto but also maximizing the profits from it. One of the first ideas that came to my mind was to develop an automatic trading bot to perform a type of trading known as arbitrage. Although there are different subtypes of arbitrage, in my case, essentially consisted in finding two cryptocurrency exchanges and profit from divergences in their exchange prices. For instance, with enough patience, the automatic trader could find an opportunity where one could sell 1 Bitcoin for 8000 dollars in GDAX and buy 1 Bitcoin for 7950 dollars in Kraken with a profit margin of 50$. Although the concept is of a magnificent simplicity, the reality is that the algorithm could become exponentially complex when one started to introduce fancy high-frequency limit orders (instead of market orders) trying to outperform a ferocious competition equipped with low-latency internet connections and besieging the exchanges from the nearer buildings. The result: an arbitrage nightmare and a waste of time supervising the algorithm performance for very little revenue. My conclusion: can be an interesting project for a full-time dedicated PhD student willing to mingle with a Frankenstein Python code.",
+    "Description": "Over the last months, I've explored ways not only to invest in crypto but also maximizing the profits from it. One of the first ideas that came to my mind was to develop an automatic trading bot to perform a type of trading known as arbitrage. Although there are different subtypes of arbitrage, in my case, essentially consisted in finding two cryptocurrency exchanges and profit from divergences in their exchange prices. For instance, with enough patience, the automatic trader could find an opportunity where one could sell 1 Bitcoin for 8000 dollars in GDAX and buy 1 Bitcoin for 7950 dollars in Kraken with a profit margin of 50$. Although the concept is of a magnificent simplicity, the reality is that the algorithm could become exponentially complex when one started to introduce fancy high-frequency limit orders (instead of market orders) trying to outperform a ferocious competition equipped with low-latency internet connections and besieging the exchanges from the nearer buildings. The result: an arbitrage nightmare and a waste of time supervising the algorithm performance for very little revenue. My conclusion: can be an interesting project for a full-time dedicated PhD student willing to mingle with a Frankenstein Python code.",
     "Link": [
       "https://cryptodigestnews.com/renkotrading-660d9f64c904"
     ],
@@ -774,7 +774,7 @@
     ]
   },
   "The Best Open Source (And Free) Crypto Trading Bots": {
-    "Description": "Crypto trading bots are tools used by traders to take the fear and emotion out of their trading. These bots allow you to run trading strategies 24/7 (assuming the exchange is working properly) and provide the customization needed to make the bot trade anyway you like. We\u2019ve compiled a list of the best open source (and free) crypto trading bots currently available.All of these bots are available to download and require just a bit of command line experience to get up and running. Even though they are free, each offer many features to keep your automated trading profitable.",
+    "Description": "Crypto trading bots are tools used by traders to take the fear and emotion out of their trading. These bots allow you to run trading strategies 24/7 (assuming the exchange is working properly) and provide the customization needed to make the bot trade anyway you like. We've compiled a list of the best open source (and free) crypto trading bots currently available.All of these bots are available to download and require just a bit of command line experience to get up and running. Even though they are free, each offer many features to keep your automated trading profitable.",
     "Link": [
       "https://www.cryptotrader.tax/blog/the-best-open-source-and-free-crypto-trading-bots"
     ],
@@ -787,7 +787,7 @@
     ]
   },
   "This Python for Finance tutorial introduces you to algorithmic trading, and much more": {
-    "Description": "Technology has become an asset in finance: financial institutions are now evolving to technology companies rather than just staying occupied with just the financial aspect: besides the fact that technology brings about innovation the speeds and can help to gain a competitive advantage, the speed and frequency of financial transactions, together with the large data volumes, makes that financial institutions\u2019 attention for technology has increased over the years and that technology has indeed become a main enabler in finance.",
+    "Description": "Technology has become an asset in finance: financial institutions are now evolving to technology companies rather than just staying occupied with just the financial aspect: besides the fact that technology brings about innovation the speeds and can help to gain a competitive advantage, the speed and frequency of financial transactions, together with the large data volumes, makes that financial institutions' attention for technology has increased over the years and that technology has indeed become a main enabler in finance.",
     "Link": [
       "https://www.datacamp.com/community/tutorials/finance-python-trading"
     ],
@@ -835,7 +835,7 @@
     ]
   },
   "Using LSTMs For Stock Market Predictions (Tensorflow)": {
-    "Description": "In this tutorial, you will see how you can use a time-series model known as Long Short-Term Memory. LSTM models are powerful, especially for retaining a long-term memory, by design, as you will see later. You\u2019ll tackle the following topics in this tutorial:",
+    "Description": "In this tutorial, you will see how you can use a time-series model known as Long Short-Term Memory. LSTM models are powerful, especially for retaining a long-term memory, by design, as you will see later. You'll tackle the following topics in this tutorial:",
     "Link": [
       "https://towardsdatascience.com/using-lstms-for-stock-market-predictions-tensorflow-9e83999d4653"
     ],

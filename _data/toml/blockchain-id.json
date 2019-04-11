@@ -70,7 +70,7 @@
     ]
   },
   "A Primer on Functional Identity": {
-    "Description": "There are many ways to approach identity. For the Rebooting Web of Trust, we prefer a functional approach to focus conversations on how identity works and how we use it.\n\nThe varied facets of identity are so rich that we each bring our own hot buttons and agendas to any discussion. Some people engage from a philosophical perspective, others cultural. Some dive into political issues and others get meta-physical and spiritual. These different perspectives are valid views of identity\u2019s impact on our lives. More than valid. Vital. They help answer the question of \"Why?\" Why identity matters, why we should care. Unfortunately, they also inflame passions. We sometimes talk past each other to make points that have minimal relevance for others, leaving people frustrated and unheard.\n\nAs engineers and system designers, we\u2019re concerned with how things work. We want to fix what\u2019s broken and build new things. To do that, we want to discuss how things function. With identity, this functional perspective sidesteps the inflammatory rabbit holes, without dismissing them. Functional Identity lets us investigate the HOW without prejudice to WHY, viewing identity systems based on how they work and then, in turn, how they affect individuals and society.",
+    "Description": "There are many ways to approach identity. For the Rebooting Web of Trust, we prefer a functional approach to focus conversations on how identity works and how we use it.\n\nThe varied facets of identity are so rich that we each bring our own hot buttons and agendas to any discussion. Some people engage from a philosophical perspective, others cultural. Some dive into political issues and others get meta-physical and spiritual. These different perspectives are valid views of identity's impact on our lives. More than valid. Vital. They help answer the question of \"Why?\" Why identity matters, why we should care. Unfortunately, they also inflame passions. We sometimes talk past each other to make points that have minimal relevance for others, leaving people frustrated and unheard.\n\nAs engineers and system designers, we're concerned with how things work. We want to fix what's broken and build new things. To do that, we want to discuss how things function. With identity, this functional perspective sidesteps the inflammatory rabbit holes, without dismissing them. Functional Identity lets us investigate the HOW without prejudice to WHY, viewing identity systems based on how they work and then, in turn, how they affect individuals and society.",
     "Link": [
       "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/functional-identity-primer.md"
     ],
@@ -84,7 +84,7 @@
     ]
   },
   "A Universal Resolver for self-sovereign identifiers": {
-    "Description": "DIF is introducing a community preview of the Universal Resolver\u200a\u2014\u200aa core building block of a decentralized identity system. This is a first step in fulfilling DIF\u2019s mission to help individuals and organizations to control their digital identity, without being dependent on any intermediary party.",
+    "Description": "DIF is introducing a community preview of the Universal Resolver\u200a\u2014\u200aa core building block of a decentralized identity system. This is a first step in fulfilling DIF's mission to help individuals and organizations to control their digital identity, without being dependent on any intermediary party.",
     "Link": [
       "https://medium.com/decentralized-identity/a-universal-resolver-for-self-sovereign-identifiers-48e6b4a5cc3c"
     ],
@@ -198,7 +198,7 @@
     ]
   },
   "Amira 1.0": {
-    "Description": "In our scenario, Amira is a successful programmer working in Boston at a prestigious multi-national bank. Outside of working hours, Amira wants to give back to her community by writing software that matters. On the advice of her friend Charlene, Amira joins RISK, a self-sovereign reputation network that connects developers with projects while protecting participants\u2019 anonymity, building reputation, and sending & receiving secure payments.\n\nInformation Lifecycle Engagement Model\n\nWe describe Amira\u2019s interactions with RISK using the Information Lifecycle Engagement Model. This 15-stage model captures the experience of a single, fictitious individual as she interacts with a proposed system. The model intentionally limits our focus to the connected experience of a single human protagonist and the people they engage along the way, in one or more paragraphs about interactions in each of the 15 stages.",
+    "Description": "In our scenario, Amira is a successful programmer working in Boston at a prestigious multi-national bank. Outside of working hours, Amira wants to give back to her community by writing software that matters. On the advice of her friend Charlene, Amira joins RISK, a self-sovereign reputation network that connects developers with projects while protecting participants' anonymity, building reputation, and sending & receiving secure payments.\n\nInformation Lifecycle Engagement Model\n\nWe describe Amira's interactions with RISK using the Information Lifecycle Engagement Model. This 15-stage model captures the experience of a single, fictitious individual as she interacts with a proposed system. The model intentionally limits our focus to the connected experience of a single human protagonist and the people they engage along the way, in one or more paragraphs about interactions in each of the 15 stages.",
     "Link": [
       "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/final-documents/amira.md"
     ],
@@ -212,7 +212,7 @@
     ]
   },
   "An Accumulator Based on Bilinear Maps and Efficient Revocation for Anonymous Credentials": {
-    "Description": "Abstract. The success of electronic authentication systems, be it eID card systems or Internet authentication systems such as CardSpace, highly depends on the provided level of user-privacy. Thereby, an important requirement is an efficient means for revocation of the authentication credentials. In this paper we consider the problem of revocation for certificate-based privacy-protecting authentication systems. To date, the most efficient solutions for revocation for such systems are based on cryptographic accumulators. Here, an accumulate of all currently valid certificates is published regularly and each user holds a witness enabling her to prove the validity of her (anonymous) credential while retaining anonymity. Unfortunately, the users\u2019 witnesses must be updated at least each time a credential is revoked. For the know solutions, these updates are computationally very expensive for users and/or certificate issuers which is very problematic as revocation is a frequent event as practice shows.\nIn this paper, we propose a new dynamic accumulator scheme based on bilinear maps and show how to apply it to the problem of revocation of anonymous credentials. In the resulting scheme, proving a credential\u2019s validity and updating witnesses both come at (virtually) no cost for credential owners and verifiers. In particular, updating a witness requires the issuer to do only one multiplication per addition or revocation of a credential and can also be delegated to untrusted entities from which a user could just retrieve the updated witness. We believe that thereby we provide the first authentication system offering privacy protection suitable for implementation with electronic tokens such as eID cards or drivers\u2019 licenses.",
+    "Description": "Abstract. The success of electronic authentication systems, be it eID card systems or Internet authentication systems such as CardSpace, highly depends on the provided level of user-privacy. Thereby, an important requirement is an efficient means for revocation of the authentication credentials. In this paper we consider the problem of revocation for certificate-based privacy-protecting authentication systems. To date, the most efficient solutions for revocation for such systems are based on cryptographic accumulators. Here, an accumulate of all currently valid certificates is published regularly and each user holds a witness enabling her to prove the validity of her (anonymous) credential while retaining anonymity. Unfortunately, the users' witnesses must be updated at least each time a credential is revoked. For the know solutions, these updates are computationally very expensive for users and/or certificate issuers which is very problematic as revocation is a frequent event as practice shows.\nIn this paper, we propose a new dynamic accumulator scheme based on bilinear maps and show how to apply it to the problem of revocation of anonymous credentials. In the resulting scheme, proving a credential's validity and updating witnesses both come at (virtually) no cost for credential owners and verifiers. In particular, updating a witness requires the issuer to do only one multiplication per addition or revocation of a credential and can also be delegated to untrusted entities from which a user could just retrieve the updated witness. We believe that thereby we provide the first authentication system offering privacy protection suitable for implementation with electronic tokens such as eID cards or drivers' licenses.",
     "Link": [
       "https://eprint.iacr.org/2008/539.pdf"
     ],
@@ -303,7 +303,7 @@
     ]
   },
   "BCGov Verifiable Organization Network \u2013 Impressive Client Demo": {
-    "Description": "One of my favourite client projects (Verifiable Organization Network) was demonstrated at last month\u2019s Rebooting the Web of Trust conference in Santa Barbara. John Jordan runs an incredible project out of the Office of the CIO for British Columbia. I play a minor role providing executive leadership and advising. John nailed the presentation.",
+    "Description": "One of my favourite client projects (Verifiable Organization Network) was demonstrated at last month's Rebooting the Web of Trust conference in Santa Barbara. John Jordan runs an incredible project out of the Office of the CIO for British Columbia. I play a minor role providing executive leadership and advising. John nailed the presentation.",
     "Link": [
       "https://www.continuumloop.com/bcgov-verifiable-organization-network/"
     ],
@@ -437,7 +437,7 @@
     ]
   },
   "Blockchains and Data Protection in the European Union": {
-    "Description": "Max Planck Institute for Innovation & Competition Research Paper No. 18-01\n\nThis paper examines data protection on blockchains and other forms of distributed ledger technology (\u2018DLT\u2019). Transactional data stored on a blockchain, whether in plain text, encrypted form or after having undergone a hashing process, constitutes personal data for the purposes of the GDPR. Public keys equally qualify as personal data as a matter of EU data protection law. We examine the consequences flowing from that state of affairs and suggest that in interpreting the GDPR with respect to blockchains, fundamental rights protection and the promotion of innovation, two normative objectives of the European legal order, must be reconciled. This is even more so given that, where designed appropriately, distributed ledgers have the potential to further the GDPR\u2019s objective of data sovereignty.",
+    "Description": "Max Planck Institute for Innovation & Competition Research Paper No. 18-01\n\nThis paper examines data protection on blockchains and other forms of distributed ledger technology (\u2018DLT'). Transactional data stored on a blockchain, whether in plain text, encrypted form or after having undergone a hashing process, constitutes personal data for the purposes of the GDPR. Public keys equally qualify as personal data as a matter of EU data protection law. We examine the consequences flowing from that state of affairs and suggest that in interpreting the GDPR with respect to blockchains, fundamental rights protection and the promotion of innovation, two normative objectives of the European legal order, must be reconciled. This is even more so given that, where designed appropriately, distributed ledgers have the potential to further the GDPR's objective of data sovereignty.",
     "Link": [
       "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3080322"
     ],
@@ -875,7 +875,7 @@
     ]
   },
   "Decentralized Identity Foundation Grows To 56 Members In Our First Year": {
-    "Description": "Today marks the Decentralized Identity Foundation\u2019s first anniversary. Over the past year, DIF has grown from a handful of founding organizations to 56 members. Together, we\u2019re working to shape the future of decentralized identity technology and standards.",
+    "Description": "Today marks the Decentralized Identity Foundation's first anniversary. Over the past year, DIF has grown from a handful of founding organizations to 56 members. Together, we're working to shape the future of decentralized identity technology and standards.",
     "Link": [
       "https://medium.com/decentralized-identity/decentralized-identity-foundation-grows-to-56-members-in-our-first-year-3ec117e811d8"
     ],
@@ -929,7 +929,7 @@
     ]
   },
   "Decentralized Public Key Infrastructure": {
-    "Description": "Today\u2019s Internet places control of online identities into the hands of third-parties. Email addresses, usernames, and website domains are borrowed or \"rented\" through DNS, X.509, and social networks. This results in severe usability and security challenges Internet-wide. This paper describes a possible alternate approach called decentralized public key infrastructure (DPKI), which returns control of online identities to the entities they belong to. By doing so, DPKI addresses many usability and security challenges that plague traditional public key infrastructure (PKI). DPKI has advantages at each stage of the PKI life cycle. It makes permissionless bootstrapping of online identities possible and provides for the simple creation of stronger SSL certificates. In usage, it can help \"Johnny\" to finally encrypt thanks to its relegation of public key management to secure decentralized datastores. Finally, it includes mechanisms to recover lost or compromised identifiers.",
+    "Description": "Today's Internet places control of online identities into the hands of third-parties. Email addresses, usernames, and website domains are borrowed or \"rented\" through DNS, X.509, and social networks. This results in severe usability and security challenges Internet-wide. This paper describes a possible alternate approach called decentralized public key infrastructure (DPKI), which returns control of online identities to the entities they belong to. By doing so, DPKI addresses many usability and security challenges that plague traditional public key infrastructure (PKI). DPKI has advantages at each stage of the PKI life cycle. It makes permissionless bootstrapping of online identities possible and provides for the simple creation of stronger SSL certificates. In usage, it can help \"Johnny\" to finally encrypt thanks to its relegation of public key management to secure decentralized datastores. Finally, it includes mechanisms to recover lost or compromised identifiers.",
     "Link": [
       "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/dpki.pdf",
       "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/dpki.docx"
@@ -943,7 +943,7 @@
     ]
   },
   "Decentralizing Privacy: Using Blockchain to Protect Personal Data": {
-    "Description": "Abstract\u2014The recent increase in reported incidents of surveillance and security breaches compromising users\u2019 privacy call into question the current model, in which third-parties collect and control massive amounts of personal data. Bitcoin has demonstrated in the financial space that trusted, auditable computing is possible using a decentralized network of peers accompanied by a public ledger. In this paper, we describe a decentralized personal data management system that ensures users own and control their data. We implement a protocol that turns a blockchain into an automated access-control manager that does not require trust in a third party. Unlike Bitcoin, transactions in our system are not strictly financial \u2013 they are used to carry instructions, such as storing, querying and sharing data. Finally, we discuss possible future extensions to blockchains that could harness them into a well-rounded solution for trusted computing problems in society",
+    "Description": "Abstract\u2014The recent increase in reported incidents of surveillance and security breaches compromising users' privacy call into question the current model, in which third-parties collect and control massive amounts of personal data. Bitcoin has demonstrated in the financial space that trusted, auditable computing is possible using a decentralized network of peers accompanied by a public ledger. In this paper, we describe a decentralized personal data management system that ensures users own and control their data. We implement a protocol that turns a blockchain into an automated access-control manager that does not require trust in a third party. Unlike Bitcoin, transactions in our system are not strictly financial \u2013 they are used to carry instructions, such as storing, querying and sharing data. Finally, we discuss possible future extensions to blockchains that could harness them into a well-rounded solution for trusted computing problems in society",
     "Link": [
       "http://web.media.mit.edu/~guyzys/data/ZNP15.pdf"
     ],
@@ -1199,7 +1199,7 @@
     ]
   },
   "Evernym": {
-    "Description": "Self-sovereign identity: now that it's possible, it's inevitable. Humanity deserves digital identity that is permanent, portable, private and completely secure; in other words: self-sovereign. Shortcomings in the internet\u2019s original design made this impossible, at a cost of trillions each year. Today, the invention of distributed ledger technology makes self-sovereign digital identity a possibility for the first time. Now that self-sovereign identity is possible, it\u2019s inevitable. And it\u2019s going to change everything.",
+    "Description": "Self-sovereign identity: now that it's possible, it's inevitable. Humanity deserves digital identity that is permanent, portable, private and completely secure; in other words: self-sovereign. Shortcomings in the internet's original design made this impossible, at a cost of trillions each year. Today, the invention of distributed ledger technology makes self-sovereign digital identity a possibility for the first time. Now that self-sovereign identity is possible, it's inevitable. And it's going to change everything.",
     "Link": [
       "https://www.evernym.com/"
     ],
@@ -1279,7 +1279,7 @@
     ]
   },
   "Global Blockchain Identity Management Market 2018-2022": {
-    "Description": "Technavio\u2019s latest market research report on the global blockchain identity management market is supporting clients by providing them with detailed insights into the rapidly changing market scenario and vendor landscape. This study on the global blockchain identity management market is expected to help businesses achieve a competitive edge and market dominance across the globe.The global blockchain identity management market size will grow by more than USD 1 billion by 2022. This report provides an analysis of the blockchain identity management market share by application (end-point, network, and infrastructure), end-user (government, BFSI, healthcare, and others), and geography (the Americas, APAC, and EMEA). The report also provides an analysis of the market\u2019s competitive landscape and offers information on several companies including Amazon.com, Civic Technologies, IBM, ShoCard, and SecureKey Technologies.",
+    "Description": "Technavio's latest market research report on the global blockchain identity management market is supporting clients by providing them with detailed insights into the rapidly changing market scenario and vendor landscape. This study on the global blockchain identity management market is expected to help businesses achieve a competitive edge and market dominance across the globe.The global blockchain identity management market size will grow by more than USD 1 billion by 2022. This report provides an analysis of the blockchain identity management market share by application (end-point, network, and infrastructure), end-user (government, BFSI, healthcare, and others), and geography (the Americas, APAC, and EMEA). The report also provides an analysis of the market's competitive landscape and offers information on several companies including Amazon.com, Civic Technologies, IBM, ShoCard, and SecureKey Technologies.",
     "Link": [
       "https://www.technavio.com/report/global-blockchain-identity-management-market-analysis-share-2018"
     ],
@@ -1291,7 +1291,7 @@
     ]
   },
   "How Blockchain Revolutionizes Identity Management": {
-    "Description": "As we generate more data, our identities become more complicated. Traditional identity management systems simply can\u2019t keep up with our evolving needs. Blockchain provides a decentralized, secure solution that fosters innovation and puts users back in control.",
+    "Description": "As we generate more data, our identities become more complicated. Traditional identity management systems simply can't keep up with our evolving needs. Blockchain provides a decentralized, secure solution that fosters innovation and puts users back in control.",
     "Link": [
       "https://www.accenture-insights.nl/en-us/articles/how-blockchain-will-revolutionize-identity-management"
     ],
@@ -1319,7 +1319,7 @@
     ]
   },
   "How do we start tackling the existing identity problem?": {
-    "Description": "Identity and control of personal identity is top of mind, given recent events as well as the European Union\u2019s General Data Protection Regulation (GDPR). A lot of our identity is shared without our explicit consent, gets stored in locations we are unaware of, and when compromised creates tremendous setbacks. Almost everything we do in the digital world is user name and password driven. With decentralized identity, you reduce risk by associating credentials typically used for in-person interactions, as instruments for virtual interactions where it is difficult to verify who or what is on the other side of the screen.",
+    "Description": "Identity and control of personal identity is top of mind, given recent events as well as the European Union's General Data Protection Regulation (GDPR). A lot of our identity is shared without our explicit consent, gets stored in locations we are unaware of, and when compromised creates tremendous setbacks. Almost everything we do in the digital world is user name and password driven. With decentralized identity, you reduce risk by associating credentials typically used for in-person interactions, as instruments for virtual interactions where it is difficult to verify who or what is on the other side of the screen.",
     "Link": [
       "https://www.ibm.com/blogs/blockchain/2018/06/how-do-we-start-tackling-the-existing-identity-problem/"
     ],
@@ -1370,7 +1370,7 @@
     ]
   },
   "Hyperledger Welcomes Project Indy": {
-    "Description": "We\u2019re excited to announce Indy, a new Hyperledger project for supporting independent identity on distributed ledgers. Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other silo.",
+    "Description": "We're excited to announce Indy, a new Hyperledger project for supporting independent identity on distributed ledgers. Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other silo.",
     "Link": [
       "https://www.hyperledger.org/blog/2017/05/02/hyperledger-welcomes-project-indy"
     ],
@@ -1476,7 +1476,7 @@
     ]
   },
   "Identity 2.0": {
-    "Description": "A birth certificate is a document of almost incalculable value. It allows us to go to school, prove our citizenship, exercise the right to vote, access healthcare, and open a bank account. A birth certificate gives someone a unique legal identity.\n\nThose of us living in highly developed countries take our birth certificates for granted. For us, births and deaths are routinely and accurately documented. Yet more than 100 developing countries lack functional civil registration and vital statistics (CRVS) systems, and 230 million children under the age of five haven\u2019t been registered. Some countries like Malawi and Ethiopia have registration rates in the single digits. Experts estimate that there are 1.5 billion people without a legal identity. That\u2019s the equivalent of all of China going untracked.",
+    "Description": "A birth certificate is a document of almost incalculable value. It allows us to go to school, prove our citizenship, exercise the right to vote, access healthcare, and open a bank account. A birth certificate gives someone a unique legal identity.\n\nThose of us living in highly developed countries take our birth certificates for granted. For us, births and deaths are routinely and accurately documented. Yet more than 100 developing countries lack functional civil registration and vital statistics (CRVS) systems, and 230 million children under the age of five haven't been registered. Some countries like Malawi and Ethiopia have registration rates in the single digits. Experts estimate that there are 1.5 billion people without a legal identity. That's the equivalent of all of China going untracked.",
     "Link": [
       "https://id2020.org/news/2016/12/2/identity-20"
     ],
@@ -1502,7 +1502,7 @@
     ]
   },
   "Identity Crisis: Clear Identity through Correlation": {
-    "Description": "The term \"identity\" is a challenge.\n\nBoth laypeople and experts struggle to communicate clearly about it. The term has numerous rich and useful meanings. That same flexibility and expressivity also makes it easy to misunderstand subtle nuances and often leads to ideological debate rather than understanding and applications. We compensate with adjectives, creating new phrases like \u201cdigital identity\u201d or \u201clegal identity\u201d, but we often still speak past each other. We regularly refer to \u201cidentities\u201d as things that are assigned to us or that we own, things we control or present, instead of using more rigorous terms such as \u201cidentifiers\u201d or \u201ccredentials\u201d. This fluidity often confuses because, at its core, identity is an emergent phenomenon that doesn\u2019t have an existence independent of the observer.",
+    "Description": "The term \"identity\" is a challenge.\n\nBoth laypeople and experts struggle to communicate clearly about it. The term has numerous rich and useful meanings. That same flexibility and expressivity also makes it easy to misunderstand subtle nuances and often leads to ideological debate rather than understanding and applications. We compensate with adjectives, creating new phrases like \u201cdigital identity\u201d or \u201clegal identity\u201d, but we often still speak past each other. We regularly refer to \u201cidentities\u201d as things that are assigned to us or that we own, things we control or present, instead of using more rigorous terms such as \u201cidentifiers\u201d or \u201ccredentials\u201d. This fluidity often confuses because, at its core, identity is an emergent phenomenon that doesn't have an existence independent of the observer.",
     "Link": [
       "https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/identity-crisis.pdf",
       "https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/identity-crisis.docx"
@@ -1531,7 +1531,7 @@
     ]
   },
   "Identity Validation as a Public Sector Digital Service?": {
-    "Description": "I\u2019ve written before about the role that the public sector currently has in identity establishment, but not in identity validation. This absence has led to an online ecosystem in the U.S. that depends on non-authoritative information for identity validation. These are some initial thoughts on what an attribute validation service, which provides validation of identity attributes using authoritative public sector sources, could look like.",
+    "Description": "I've written before about the role that the public sector currently has in identity establishment, but not in identity validation. This absence has led to an online ecosystem in the U.S. that depends on non-authoritative information for identity validation. These are some initial thoughts on what an attribute validation service, which provides validation of identity attributes using authoritative public sector sources, could look like.",
     "Link": [
       "https://blog.aniljohn.com/2014/07/identity-validation-as-a-public-sector-digital-service.html"
     ],
@@ -1701,7 +1701,7 @@
     ]
   },
   "Is Self Sovereign Identity the Ultimate GDPR Compliance Tool? 1/3": {
-    "Description": "Few topics are as popular right now as the European Union\u2019s new data protection law, the General Data Protection Regulation (the \"GDPR\" or \"Regulation\"), perhaps with the exceptions of self-sovereign identity (\"SSI\") and blockchain. Likewise, few topics are as misunderstood or oversimplified. In an attempt to dispel some of the mythology and encourage a more nuanced approach to the conversation, this is the first in a series of posts to assess SSI through the lens of the GDPR.",
+    "Description": "Few topics are as popular right now as the European Union's new data protection law, the General Data Protection Regulation (the \"GDPR\" or \"Regulation\"), perhaps with the exceptions of self-sovereign identity (\"SSI\") and blockchain. Likewise, few topics are as misunderstood or oversimplified. In an attempt to dispel some of the mythology and encourage a more nuanced approach to the conversation, this is the first in a series of posts to assess SSI through the lens of the GDPR.",
     "Link": [
       "https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-9d8110752f89",
       "https://medium.com/evernym/is-self-sovereign-identity-ssi-the-ultimate-gdpr-compliance-tool-40db94c1c437",
@@ -1806,7 +1806,7 @@
     ]
   },
   "Keyp": {
-    "Description": "Welcome to Europe\u2019s fastest growing open digital identity ecosystem.\n100+ identity solutions\n50+ ecosystem partners\n10+ technology partners\n\ndoes not use blockchain, but still offers a self-sovereign digital identity infrastructure. A resource asks the user for specific attributes, which are stored in a wallet on a secure device. The wallet redirects the request to a specific \"authenticator\" that can validate the attribute.\"\u2014#peacekeeper",
+    "Description": "Welcome to Europe's fastest growing open digital identity ecosystem.\n100+ identity solutions\n50+ ecosystem partners\n10+ technology partners\n\ndoes not use blockchain, but still offers a self-sovereign digital identity infrastructure. A resource asks the user for specific attributes, which are stored in a wallet on a secure device. The wallet redirects the request to a specific \"authenticator\" that can validate the attribute.\"\u2014#peacekeeper",
     "Link": [
       "https://keyp.io/"
     ],
@@ -1967,7 +1967,7 @@
     ]
   },
   "Mooti": {
-    "Description": "We work in the digital identity and data integrity space to help our clients and partners securely identify and authenticate their users.\n\nOur strong belief in the idea of a self-sovereign digital identity is what guides our projects. This idea goes beyond the concept of standard organization based identity and provides users with\u2013individual control, security and full portability. This is accomplished by creating or enhancing your existing Android and iOS Mobile Apps to securely allow for the usage and management of asymmetric cryptographic key pairs for digital interactions. Our hosted or an on-prem server solution receives communication from your mobile apps to verify a user\u2019s identity, enables password-less login via QR code, and aligns internal data hashes to public blockchains.\n\n\"offers an \"identity chain\" technology that makes it possible to issue and revoke verified claims (e.g. governmental, medical, financial, etc.). The platform uses elliptic curve cryptography (curve25519, secp256k1) and includes privay-enhancing features e.g. to obfuscate issuers and holders of claims. A lightweight mobile client is available.\"-#peacekeeper",
+    "Description": "We work in the digital identity and data integrity space to help our clients and partners securely identify and authenticate their users.\n\nOur strong belief in the idea of a self-sovereign digital identity is what guides our projects. This idea goes beyond the concept of standard organization based identity and provides users with\u2013individual control, security and full portability. This is accomplished by creating or enhancing your existing Android and iOS Mobile Apps to securely allow for the usage and management of asymmetric cryptographic key pairs for digital interactions. Our hosted or an on-prem server solution receives communication from your mobile apps to verify a user's identity, enables password-less login via QR code, and aligns internal data hashes to public blockchains.\n\n\"offers an \"identity chain\" technology that makes it possible to issue and revoke verified claims (e.g. governmental, medical, financial, etc.). The platform uses elliptic curve cryptography (curve25519, secp256k1) and includes privay-enhancing features e.g. to obfuscate issuers and holders of claims. A lightweight mobile client is available.\"-#peacekeeper",
     "Link": [
       "https://mooti.co/",
       "https://docs.mooti.co/"
@@ -1980,7 +1980,7 @@
     ]
   },
   "Mydata": {
-    "Description": "We are entrepreneurs, activists, academics, listed corporations, public agencies, and developers. For years, we\u2019ve been using different words for what we do \u2013 MyData, Self Data, VRM (Vendor Relationship Management), Internet of Me, PIMS (Personal Information Management Services) etc, while sharing a common goal: to empower individuals with their personal data, thus helping them and their communities develop knowledge, make informed decisions, and interact more consciously and efficiently with each other as well as with organisations.",
+    "Description": "We are entrepreneurs, activists, academics, listed corporations, public agencies, and developers. For years, we've been using different words for what we do \u2013 MyData, Self Data, VRM (Vendor Relationship Management), Internet of Me, PIMS (Personal Information Management Services) etc, while sharing a common goal: to empower individuals with their personal data, thus helping them and their communities develop knowledge, make informed decisions, and interact more consciously and efficiently with each other as well as with organisations.",
     "Link": [
       "http://mydata.org/",
       "https://mydata.org/papers/",
@@ -2064,7 +2064,7 @@
     ]
   },
   "One World Identity": {
-    "Description": "One World Identity (\u2018OWI\u2019) is an independent advisory and digital strategy consultancy focused on trust and the data economy. We help business leaders, governments, and investors stay ahead of market trends so they can build sustainable, forward-looking products and strategies.",
+    "Description": "One World Identity (\u2018OWI') is an independent advisory and digital strategy consultancy focused on trust and the data economy. We help business leaders, governments, and investors stay ahead of market trends so they can build sustainable, forward-looking products and strategies.",
     "Link": [
       "https://oneworldidentity.com/"
     ],
@@ -2258,7 +2258,7 @@
     ]
   },
   "Proof of Authority": {
-    "Description": "First, PoA was proposed by a group of developers in March 2017 (the term was coined by Gavin Wood) as a blockchain based on the Ethereum protocol. It was developed primarily as a solution to the problem of spam attacks on Ethereum\u2019s Ropsten test network. The new network was named Kovan and is a primary test network available to all Ethereum users today.\n\nPoA consensus is essentially an optimized Proof of Stake model that leverages identity as the form of stake rather than actually staking tokens. The identity is staked by a group of validators (authorities) that are pre-approved to validate transactions and blocks within the respective network. The group of validators is usually supposed to remain fairly small (~25 or less) in order to ensure efficiency and manageable security of the network.",
+    "Description": "First, PoA was proposed by a group of developers in March 2017 (the term was coined by Gavin Wood) as a blockchain based on the Ethereum protocol. It was developed primarily as a solution to the problem of spam attacks on Ethereum's Ropsten test network. The new network was named Kovan and is a primary test network available to all Ethereum users today.\n\nPoA consensus is essentially an optimized Proof of Stake model that leverages identity as the form of stake rather than actually staking tokens. The identity is staked by a group of validators (authorities) that are pre-approved to validate transactions and blocks within the respective network. The group of validators is usually supposed to remain fairly small (~25 or less) in order to ensure efficiency and manageable security of the network.",
     "Link": [
       "https://blockonomi.com/proof-of-authority/"
     ],
@@ -2342,7 +2342,7 @@
     ]
   },
   "Re-Imagining What Users Really Want": {
-    "Description": "The following five individuals represent a diverse sampling of normal, everyday people whose lives could be improved by self-sovereign identity. Today, these five aren\u2019t using enhanced digital identity. For each, we describe their current lack of engagement and provide at least one opportunity that could reframe self-sovereign identity as a clear win for them.",
+    "Description": "The following five individuals represent a diverse sampling of normal, everyday people whose lives could be improved by self-sovereign identity. Today, these five aren't using enhanced digital identity. For each, we describe their current lack of engagement and provide at least one opportunity that could reframe self-sovereign identity as a clear win for them.",
     "Link": [
       "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2017/blob/master/final-documents/what-users-really-want.md"
     ],
@@ -2356,7 +2356,7 @@
     ]
   },
   "Rebooting Web of Trust": {
-    "Description": "The Web of Trust is a buzzword for a new model of decentralized self-sovereign identity. It\u2019s a phrase that dates back almost twenty-five years, the classic definition derives from PGP.\n\nBut some use it as a term to include self-sovereign identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the concept we aim to reboot it.",
+    "Description": "The Web of Trust is a buzzword for a new model of decentralized self-sovereign identity. It's a phrase that dates back almost twenty-five years, the classic definition derives from PGP.\n\nBut some use it as a term to include self-sovereign identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the concept we aim to reboot it.",
     "Link": [
       "https://www.weboftrust.info/"
     ],
@@ -2371,7 +2371,7 @@
     ]
   },
   "Rebranding the Web of Trust": {
-    "Description": "The Web of Trust. It\u2019s the buzzword for a new model of decentralized identity. However, it\u2019s also a phrase that dates back almost twenty-five years and has been heavily overloaded with meaning during that time. The classic definition of Web of Trust derives from PGP, but the top Google results refer to a website reputation rating system created by a Finnish internet company. Meanwhile, some use it as a big tent that includes identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the classic concept.",
+    "Description": "The Web of Trust. It's the buzzword for a new model of decentralized identity. However, it's also a phrase that dates back almost twenty-five years and has been heavily overloaded with meaning during that time. The classic definition of Web of Trust derives from PGP, but the top Google results refer to a website reputation rating system created by a Finnish internet company. Meanwhile, some use it as a big tent that includes identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the classic concept.",
     "Link": [
       "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/rebranding-web-of-trust.pdf",
       "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/rebranding-web-of-trust.docx"
@@ -2469,7 +2469,7 @@
     ]
   },
   "SecureKey Technologies partners with IBM": {
-    "Description": "\"Las Vegas \u2013 IBM InterConnect\t- 20 Mar 2017: IBM (NYSE: IBM) and SecureKey Technologies today announced they are working together to enable a new digital identity and attribute sharing network based on IBM Blockchain. The network will be designed to make it easier for consumers to verify they are who they say they are, in a privacy-enhanced, security-rich and efficient way. When launched later this year, consumers can use the network to instantly verify their identity for services such as new bank accounts, driver\u2019s licenses or utilities.\"\n\n\"to build a digital identity and attribute sharing network for Canadian consumers, using the permissioned, private Hyperledger Fabric blockchain.-#peacekeeper",
+    "Description": "\"Las Vegas \u2013 IBM InterConnect\t- 20 Mar 2017: IBM (NYSE: IBM) and SecureKey Technologies today announced they are working together to enable a new digital identity and attribute sharing network based on IBM Blockchain. The network will be designed to make it easier for consumers to verify they are who they say they are, in a privacy-enhanced, security-rich and efficient way. When launched later this year, consumers can use the network to instantly verify their identity for services such as new bank accounts, driver's licenses or utilities.\"\n\n\"to build a digital identity and attribute sharing network for Canadian consumers, using the permissioned, private Hyperledger Fabric blockchain.-#peacekeeper",
     "Link": [
       "(http://securekey.com/",
       "http://www-03.ibm.com/press/us/en/pressrelease/51841.wss"
@@ -2612,7 +2612,7 @@
     ]
   },
   "Smarter Signatures: Experiments in Verifications": {
-    "Description": "Technologies like the Web of Trust and PKI lay the foundation for identity on the internet: they map a human persona to a cryptographic construct that is represented by a public key and protected by a private key. Digital signatures are fundamental to these digital identities and have been widely used in a variety of applications. They\u2019re the heart of SSH, the foundation of certificates, and the core of newer technologies like blockchain.\n\nHowever, today\u2019s simplistic signatures are just the start; they can be improved, to create more powerful and more complex signatures that can truly be better and smarter.",
+    "Description": "Technologies like the Web of Trust and PKI lay the foundation for identity on the internet: they map a human persona to a cryptographic construct that is represented by a public key and protected by a private key. Digital signatures are fundamental to these digital identities and have been widely used in a variety of applications. They're the heart of SSH, the foundation of certificates, and the core of newer technologies like blockchain.\n\nHowever, today's simplistic signatures are just the start; they can be improved, to create more powerful and more complex signatures that can truly be better and smarter.",
     "Link": [
       "https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/requirements-for-dids.pdf",
       "https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/final-documents/smarter-signatures.docx"
@@ -2627,7 +2627,7 @@
     ]
   },
   "Sovrin": {
-    "Description": "Identity For All \u2014Permanent Digital Identities that Don\u2019t Require a Central Authority",
+    "Description": "Identity For All \u2014Permanent Digital Identities that Don't Require a Central Authority",
     "Link": [
       "https://sovrin.org/",
       "https://forum.sovrin.org/",
@@ -2744,7 +2744,7 @@
     ]
   },
   "Swipe Right on Verifiably Credentials": {
-    "Description": "IBM\u2019s Trusted Identity team has just released its first public-facing proof-of-concept on top of a promising open-source project, Hyperledger Indy. Our PoC demonstrates a simple use case for verifiable credentials. The demo shows how a self-sovereign identity (SSI) can obtain credentials from an issuer and supply these credentials to a verifier in response to a proof request, thus providing a verifiable proof. Though just a small example of how verifiable credentials are exchanged in a Hyperledger Indy environment, it\u2019s a great way to learn and start planning your own solution using verifiable credentials.",
+    "Description": "IBM's Trusted Identity team has just released its first public-facing proof-of-concept on top of a promising open-source project, Hyperledger Indy. Our PoC demonstrates a simple use case for verifiable credentials. The demo shows how a self-sovereign identity (SSI) can obtain credentials from an issuer and supply these credentials to a verifier in response to a proof request, thus providing a verifiable proof. Though just a small example of how verifiable credentials are exchanged in a Hyperledger Indy environment, it's a great way to learn and start planning your own solution using verifiable credentials.",
     "Link": [
       "https://developer.ibm.com/code/2018/05/22/swipe-right-on-verifiable-credentials/"
     ],
@@ -2789,7 +2789,7 @@
     ]
   },
   "TU Delft helps develop digital ID for use on your phone": {
-    "Description": "In addition to your passport and driving licence, a phone application that enables you to prove your identity quickly and securely and also offers even more privacy options could soon be possible. As part of the Dutch Blockchain Coalition, Delft University of Technology (TU Delft, The Netherlands) has joined forces with the Netherlands Identity Data Agency (RvIG), a division of the Ministry of Foreign Affairs and Kingdom Relations (BZK), IDEMIA (the current manufacturer of Dutch passports) and law firm CMS, in developing an initial prototype for a digital stamp that could fulfil this purpose in the future. This digital identity is based on TU Delft\u2019s innovative blockchain technology, known as Trustchain. The prototype was demonstrated at a BZK event held on 7 June. After the summer, a consumer trial of this technology will be launched in two Dutch municipalities.",
+    "Description": "In addition to your passport and driving licence, a phone application that enables you to prove your identity quickly and securely and also offers even more privacy options could soon be possible. As part of the Dutch Blockchain Coalition, Delft University of Technology (TU Delft, The Netherlands) has joined forces with the Netherlands Identity Data Agency (RvIG), a division of the Ministry of Foreign Affairs and Kingdom Relations (BZK), IDEMIA (the current manufacturer of Dutch passports) and law firm CMS, in developing an initial prototype for a digital stamp that could fulfil this purpose in the future. This digital identity is based on TU Delft's innovative blockchain technology, known as Trustchain. The prototype was demonstrated at a BZK event held on 7 June. After the summer, a consumer trial of this technology will be launched in two Dutch municipalities.",
     "Link": [
       "https://www.tudelft.nl/en/2018/tu-delft/tu-delft-helps-develop-digital-id-for-use-on-your-phone/"
     ],
@@ -2914,7 +2914,7 @@
     ]
   },
   "The Path to Self-Soverereign Identity": {
-    "Description": "Today I head out to a month-long series of events associated with identity: I\u2019m starting with the 22st (!) Internet Identity Workshop next week; then I\u2019m speaking at the blockchain conference Consensus about identity; next I am part of the team putting together the first ID2020 Summit on Digital Identity at the United Nations; and finally I'm hosting the second #RebootingWebOfTrust design workshop on decentralized identity.",
+    "Description": "Today I head out to a month-long series of events associated with identity: I'm starting with the 22st (!) Internet Identity Workshop next week; then I'm speaking at the blockchain conference Consensus about identity; next I am part of the team putting together the first ID2020 Summit on Digital Identity at the United Nations; and finally I'm hosting the second #RebootingWebOfTrust design workshop on decentralized identity.",
     "Link": [
       "http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html"
     ],
@@ -2930,7 +2930,7 @@
     ]
   },
   "The Relationship Between Blockchain and Digital Identity": {
-    "Description": "\u2018Identity\u2019 is a word often used to mean subtly different things.  The Oxford English Dictionary defines it succinctly as \u201cThe fact of being who or what a person or thing is\u201d; ISO29115 prefers the broader \u201cSet of attributes related to an entity\u201d.Identity, therefore is not a singular characteristic but rather a set of attributes that vary by relationship and moreover the plurality of these relationships can enhance the confidence level that the identity being asserted is genuine through corroboration.",
+    "Description": "\u2018Identity' is a word often used to mean subtly different things.  The Oxford English Dictionary defines it succinctly as \u201cThe fact of being who or what a person or thing is\u201d; ISO29115 prefers the broader \u201cSet of attributes related to an entity\u201d.Identity, therefore is not a singular characteristic but rather a set of attributes that vary by relationship and moreover the plurality of these relationships can enhance the confidence level that the identity being asserted is genuine through corroboration.",
     "Link": [
       "http://www.gsma.com/personaldata/the-relationship-between-blockchain-and-digital-identity"
     ],
@@ -2941,7 +2941,7 @@
     ]
   },
   "The Rise of Self-Sovereign Identity - Hyperledger Indy": {
-    "Description": "On the Internet, anyone can represent any identity, and it's difficult to verify those identities. Think of an organization that needs to track the activities of thousands of employees who work from all around the world. This can be a headache for the management. That\u2019s how identity management became a fundamental requirement for any computer system. You can find the key terms related to identity management in the Additional Info section at the end of this blog.",
+    "Description": "On the Internet, anyone can represent any identity, and it's difficult to verify those identities. Think of an organization that needs to track the activities of thousands of employees who work from all around the world. This can be a headache for the management. That's how identity management became a fundamental requirement for any computer system. You can find the key terms related to identity management in the Additional Info section at the end of this blog.",
     "Link": [
       "https://wso2.com/blog/research/the-rise-of-self-sovereign-identity-hyperledger-indy"
     ],
@@ -2966,7 +2966,7 @@
       "blog"
     ]
   },
-  "The Three Models of Digital Identity Relationships \u2014 How self-sovereign identity (SSI) is different, and why it\u2019s better.": {
+  "The Three Models of Digital Identity Relationships \u2014 How self-sovereign identity (SSI) is different, and why it's better.": {
     "Description": "As a relative \"noob\" in the identity world\u200a\u2014\u200afive years and counting\u200a\u2014\u200ait may seem presumptuous for me to distill all the types of digital identity relationships into just three models. But it needs doing.",
     "Link": [
       "https://medium.com/evernym/the-three-models-of-digital-identity-relationships-ca0727cb5186"
@@ -3037,7 +3037,7 @@
     ]
   },
   "Transforming our world: the 2030 Agenda for Sustainable Development": {
-    "Description": "That document details 17 sustainable development goals with 169 specific points between them. The overarching mission contained within these goals, \"to achieving sustainable development in its three dimensions \u2013 economic, social and environmental \u2013 in a balanced and integrated manner.\" Prominently among the agenda\u2019s goals is providing proper identification to the world, by 2030.",
+    "Description": "That document details 17 sustainable development goals with 169 specific points between them. The overarching mission contained within these goals, \"to achieving sustainable development in its three dimensions \u2013 economic, social and environmental \u2013 in a balanced and integrated manner.\" Prominently among the agenda's goals is providing proper identification to the world, by 2030.",
     "Link": [
       "https://sustainabledevelopment.un.org/post2015/transformingourworld"
     ],
@@ -3281,7 +3281,7 @@
       "decentralized-id"
     ]
   },
-  "White Paper: Canada\u2019s Digital ID Future - A Federated Approach": {
+  "White Paper: Canada's Digital ID Future - A Federated Approach": {
     "Description": "In this brief, we highlight why Canada needs a digital identity system, how other countries have made progress in this area and the lessons we can learn from those experiences to build a system in Canada.",
     "Link": [
       "https://www.cba.ca/embracing-digital-id-in-canada"
@@ -3319,7 +3319,7 @@
     ]
   },
   "Zug ID: Exploring the First Publicly Verified Blockchain Identity": {
-    "Description": "We recently announced our cooperation with the Swiss City of Zug and local development partner ti&m to introduce the world\u2019s first live implementation of a self-sovereign government issued identity on Ethereum. Thus far, more than 50 citizens in Zug have successfully verified their uPort identity in person with the City, enabling them to access a new suite of e-government services in a trusted and self-reliant manner. With all the excitement around this launch, we wanted to outline for all of you the underlying mechanics of the Zug identity verification system, the benefits this provides for various stakeholders, as well as future use cases and its evolution.",
+    "Description": "We recently announced our cooperation with the Swiss City of Zug and local development partner ti&m to introduce the world's first live implementation of a self-sovereign government issued identity on Ethereum. Thus far, more than 50 citizens in Zug have successfully verified their uPort identity in person with the City, enabling them to access a new suite of e-government services in a trusted and self-reliant manner. With all the excitement around this launch, we wanted to outline for all of you the underlying mechanics of the Zug identity verification system, the benefits this provides for various stakeholders, as well as future use cases and its evolution.",
     "Link": [
       "https://medium.com/uport/zug-id-exploring-the-first-publicly-verified-blockchain-identity-38bd0ee3702"
     ],

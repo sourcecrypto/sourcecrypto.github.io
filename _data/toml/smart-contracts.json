@@ -63,7 +63,7 @@
     ]
   },
   "Building a non-fungible token sales smart contract": {
-    "Description": "Selling non-fungible tokens and the ERC721 standard\n\nIf you\u2019re working on a Ethereum NFT (ERC721) project, you may have noticed the standard describes mechanisms for transferring tokens through functions such as safeTransferFrom() and, while some of the functions are payable, the standard leaves out any details on how to implement the mechanism to actually sell tokens in exchange for ether or other tokens. While this is obviously intentional and well thought out, you may still have to come up with a way to sell the tokens.",
+    "Description": "Selling non-fungible tokens and the ERC721 standard\n\nIf you're working on a Ethereum NFT (ERC721) project, you may have noticed the standard describes mechanisms for transferring tokens through functions such as safeTransferFrom() and, while some of the functions are payable, the standard leaves out any details on how to implement the mechanism to actually sell tokens in exchange for ether or other tokens. While this is obviously intentional and well thought out, you may still have to come up with a way to sell the tokens.",
     "Link": [
       "https://medium.com/coinmonks/building-a-non-fungible-token-sales-smart-contract-6573350d5a33"
     ],
@@ -116,7 +116,7 @@
     ]
   },
   "Comparison of Smart Contract Platforms": {
-    "Description": "    Ivy-lang, Plutus, Solidity, Scrypto, Michelson, Hoon, Rust, \u2026\n\nYou serious??\n\nWhen should I find the time to explore all these languages? Most of them are barely used, making it incredibly hard to adopt them. Solidity is leading the pack, although, it\u2019s not an easy language to get started with. This article will criticize and give new insights in the following platforms: Ethereum, Hyperledger Fabric, NEM, Stellar, iOlite, Neblio, and Lisk.",
+    "Description": "    Ivy-lang, Plutus, Solidity, Scrypto, Michelson, Hoon, Rust, \u2026\n\nYou serious??\n\nWhen should I find the time to explore all these languages? Most of them are barely used, making it incredibly hard to adopt them. Solidity is leading the pack, although, it's not an easy language to get started with. This article will criticize and give new insights in the following platforms: Ethereum, Hyperledger Fabric, NEM, Stellar, iOlite, Neblio, and Lisk.",
     "Link": [
       "https://hackernoon.com/comparison-of-smart-contract-platforms-2796e34673b7"
     ],
@@ -169,7 +169,7 @@
     ]
   },
   "Ethereum in BigQuery: a Public Dataset for smart contract analytics": {
-    "Description": "Ethereum and other cryptocurrencies have captured the imagination of technologists, financiers, and economists. Digital currencies are only one application of the underlying blockchain technology. Earlier this year, we made the Bitcoin dataset publicly available for analysis in Google BigQuery. Today we\u2019re making the Ethereum dataset available.",
+    "Description": "Ethereum and other cryptocurrencies have captured the imagination of technologists, financiers, and economists. Digital currencies are only one application of the underlying blockchain technology. Earlier this year, we made the Bitcoin dataset publicly available for analysis in Google BigQuery. Today we're making the Ethereum dataset available.",
     "Link": [
       "https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics"
     ],
@@ -226,7 +226,7 @@
     ]
   },
   "Learn Solidity: The Ethereum Smart Contract Programming Language": {
-    "Description": "In the course of time that I am involved in Ethereum development, I have noticed that not much information exists yet to learn Solidity (outside of the Solidity documentation).\n\nI have saved the information that I found in the meantime and the goal of this article is to share all my gathered resources, so other people new in this world don\u2019t have to search, but can start learning Solidity immediately.",
+    "Description": "In the course of time that I am involved in Ethereum development, I have noticed that not much information exists yet to learn Solidity (outside of the Solidity documentation).\n\nI have saved the information that I found in the meantime and the goal of this article is to share all my gathered resources, so other people new in this world don't have to search, but can start learning Solidity immediately.",
     "Link": [
       "https://medium.com/@robbertvermeulen/learn-solidity-the-ethereum-smart-contract-programming-language-7f106fc26d6"
     ],
@@ -295,7 +295,7 @@
     ]
   },
   "On the intersection of Ricardian and Smart Contracts": {
-    "Description": "Bitcoin\u2019s inclusion of the smart contract form invented by Nick Szabo has thrust this design into the forefront. An alternate design, the Ricardian Contract designed by the present author \"Grigg\", is currently used by a few innovatory systems such as OpenTransactions, OpenBazaar, Askemos and CommonAccord [WebFunds].\n\nMark Miller sees these as two halves of a split contract, but a more popular view is to see it as an either/or choice [AMIX]. So let\u2019s try that out: which should you choose? Smart or Ricardian? Let\u2019s find out.\n\nThe original Ricardian Contract captures the legal contract behind an issuance, which is generally a simple payment system moving money from and even what will be one account to another. It is a document that includes all the good stuff people need to know, and a little technical stuff the program needs to know as well. On the whole, the Riccy looks like a contract, by design. It\u2019s intended to be familiar to people, not machines.",
+    "Description": "Bitcoin's inclusion of the smart contract form invented by Nick Szabo has thrust this design into the forefront. An alternate design, the Ricardian Contract designed by the present author \"Grigg\", is currently used by a few innovatory systems such as OpenTransactions, OpenBazaar, Askemos and CommonAccord [WebFunds].\n\nMark Miller sees these as two halves of a split contract, but a more popular view is to see it as an either/or choice [AMIX]. So let's try that out: which should you choose? Smart or Ricardian? Let's find out.\n\nThe original Ricardian Contract captures the legal contract behind an issuance, which is generally a simple payment system moving money from and even what will be one account to another. It is a document that includes all the good stuff people need to know, and a little technical stuff the program needs to know as well. On the whole, the Riccy looks like a contract, by design. It's intended to be familiar to people, not machines.",
     "Link": "http://iang.org/papers/intersection_ricardian_smart.html",
     "Tags": [
       "smart-contracts",
@@ -340,7 +340,7 @@
     ]
   },
   "Scriptless Scripts: How Bitcoin Can Support Smart Contracts Without Smart Contracts": {
-    "Description": "Bitcoin\u2019s capacity is limited. Meanwhile, smart contracts can be resource intensive. So even though Bitcoin has always supported basic smart contract functionality, the two have never been a natural match.\n\nBut a recent topic of research spearheaded by Blockstream mathematician Andrew Poelstra could help fix this. Recently presented as key part of his presentation at Scaling Bitcoin Stanford, \u201cScriptless Scripts\u201d have the potential to completely move certain smart contracts off of Bitcoin\u2019s blockchain \u2014 while still leveraging all of Bitcoin\u2019s security.",
+    "Description": "Bitcoin's capacity is limited. Meanwhile, smart contracts can be resource intensive. So even though Bitcoin has always supported basic smart contract functionality, the two have never been a natural match.\n\nBut a recent topic of research spearheaded by Blockstream mathematician Andrew Poelstra could help fix this. Recently presented as key part of his presentation at Scaling Bitcoin Stanford, \u201cScriptless Scripts\u201d have the potential to completely move certain smart contracts off of Bitcoin's blockchain \u2014 while still leveraging all of Bitcoin's security.",
     "Link": [
       "https://bitcoinmagazine.com/articles/scriptless-scripts-how-bitcoin-can-support-smart-contracts-without-smart-contracts/"
     ],
@@ -455,7 +455,7 @@
     ]
   },
   "The Truth about Smart Contracts": {
-    "Description": "The key feature of a smart contract is that it has trustless execution. That is, you don\u2019t need to rely on a third party to execute various conditions. Instead of relying on the other party to make good on their word or even worse, relying on lawyers and the legal system to remedy things should something go wrong, a smart contract executes what\u2019s supposed to happen timely and objectively.",
+    "Description": "The key feature of a smart contract is that it has trustless execution. That is, you don't need to rely on a third party to execute various conditions. Instead of relying on the other party to make good on their word or even worse, relying on lawyers and the legal system to remedy things should something go wrong, a smart contract executes what's supposed to happen timely and objectively.",
     "Link": [
       "https://medium.com/@jimmysong/the-truth-about-smart-contracts-ae825271811f"
     ],
@@ -498,7 +498,7 @@
     ]
   },
   "What are Smart Contracts on Blockchain?": {
-    "Description": "Smart contracts are lines of code that are stored on a blockchain and automatically execute when predetermined terms and conditions are met. At the most basic level, they are programs that run as they\u2019ve been set up to run by the people who developed them. The benefits of smart contracts are most apparent in business collaborations, in which they are typically used to enforce some type of agreement so that all participants can be certain of the outcome without an intermediary\u2019s involvement.",
+    "Description": "Smart contracts are lines of code that are stored on a blockchain and automatically execute when predetermined terms and conditions are met. At the most basic level, they are programs that run as they've been set up to run by the people who developed them. The benefits of smart contracts are most apparent in business collaborations, in which they are typically used to enforce some type of agreement so that all participants can be certain of the outcome without an intermediary's involvement.",
     "Link": [
       "https://www.ibm.com/blogs/blockchain/2018/07/what-are-smart-contracts-on-blockchain/"
     ],
