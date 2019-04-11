@@ -375,7 +375,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: # true
       read_time: # true
       comments: # true
       share: true
@@ -386,15 +386,12 @@ defaults:
       toc_label   : "Contents"
       toc_icon    : "link"
       toc_sticky  : true
-      twitter:
-        card: summary_large_image
-   # _general
+  # _general
   - scope:
       path: ""
       type: general
     values:
       layout: single
-      author_profile: true
       share: true
       comment: true
       related: true
@@ -408,7 +405,6 @@ defaults:
       type: resources
     values:
       layout: single
-      author_profile: true
       share: true
       comment: true
       related: true
@@ -422,7 +418,6 @@ defaults:
       type: crypto
     values:
       layout: single
-      author_profile: true
       share: true
       comment: true
       related: true
@@ -436,7 +431,6 @@ defaults:
       type: privacy
     values:
       layout: single
-      author_profile: true
       share: true
       comment: true
       related: true
@@ -450,7 +444,6 @@ defaults:
       type: consensus
     values:
       layout: single
-      author_profile: true
       share: true
       comment: true
       related: true
@@ -464,7 +457,6 @@ defaults:
       type: tech
     values:
       layout: single
-      author_profile: true
       share: true
       comment: true
       related: true
@@ -478,7 +470,6 @@ defaults:
       type: development
     values:
       layout: single
-      author_profile: true
       share: true
       comment: true
       related: true
@@ -492,7 +483,6 @@ defaults:
       type: application
     values:
       layout: single
-      author_profile: true
       share: true
       comment: true
       related: true
