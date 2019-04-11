@@ -1,4 +1,7 @@
-# Blockchain Data - Quant Trading - Analytics
+---
+title: Blockchain Data - Analytics
+permalink: blockchain-data/
+---
 
 ### Data
 

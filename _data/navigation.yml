@@ -140,6 +140,8 @@ discolog:
         url: "https://infominer.id/SourceCrypto"
   - title: Featured
     children:
+      - title: "Blockchain Data - Analytics"
+        url: blockchain-data/
       - title: "Github Pages Starter Pack"
         url: "https://infominer.id/gh-pages-starter-pack.html"
       - title: "Practical Cryptography - PGP and Me"
