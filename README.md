@@ -27,12 +27,12 @@ You may have noticed this site going through some transformations lately. You ca
 
 So, for now you can browse the entire index of channels at once, or one category at a time... later I will have a complete navigation index built. More info on that, below.        
 
-For those who would like to browse from discord, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the discolog are in `discolog`, all the data is in `_data`.  
+For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the discolog are in `discolog`, all the data is in `_data`.  
 
-Everything else is the website. pretty straightforward.
+Everything else is `minimal-mistakes`. pretty straightforward.
 
 
-![](https://i.imgur.com/7d2fDDT.png){: .align-center}
+![](https://i.imgur.com/7d2fDDT.png)
 
 ## SourceCrypto
 
