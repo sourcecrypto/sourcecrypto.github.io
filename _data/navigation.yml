@@ -142,12 +142,12 @@ discolog:
     children:
       - title: "Blockchain Data - Analytics"
         url: blockchain-data/
-      - title: "Github Pages Starter Pack"
-        url: "https://infominer.id/gh-pages-starter-pack.html"
-      - title: "Practical Cryptography - PGP and Me"
-        url: "https://infominer.id/bitcoin-history/pgp-and-me/"
+      - title: "Practical Crypto - PGP and Me"
+        url: "pgp-and-me/"
       - title: "Blockchain-ID TOML"
         url: "toml/id-toml.html"
+      - title: "Github Pages Starter Pack"
+        url: "https://infominer.id/gh-pages-starter-pack.html"
       - title: "DID Related GitHub Repositories"
         url: "https://infominer.id/DIDecentralized/identity-github/"
       - title: "RebootingWebofTrust - Papers Index"
