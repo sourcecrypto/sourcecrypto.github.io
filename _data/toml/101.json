@@ -60,7 +60,7 @@
     ]
   },
   "Blockchain In a Nutshell": {
-    "Description": "1. Most articles explain Blockchain only related to cryptocurrencies like Bitcoin without giving a clear idea of how it works (what is the consensus protocol, how are the blocks validated, how to get bitcoins, \u2026). We\u2019ll answer these questions here.\nMost articles don\u2019t talk about the other types of blockchains that are currently populating the internet and coming up in many conversations between CEOs. These are the private/federated ones. Below you will find answers to what these are, and how they are different from public blockchain networks (like Bitcoin or Ethereum).",
+    "Description": "1. Most articles explain Blockchain only related to cryptocurrencies like Bitcoin without giving a clear idea of how it works (what is the consensus protocol, how are the blocks validated, how to get bitcoins, \u2026). We'll answer these questions here.\nMost articles don't talk about the other types of blockchains that are currently populating the internet and coming up in many conversations between CEOs. These are the private/federated ones. Below you will find answers to what these are, and how they are different from public blockchain networks (like Bitcoin or Ethereum).",
     "Link": [
       "https://medium.com/@marcosallendelopez/blockchain-in-a-nutshell-38e7a566eac1"
     ],
@@ -111,7 +111,7 @@
     ]
   },
   "Crypto Readings and Resources": {
-    "Description": "Here\u2019s a list of crypto readings and resources. It\u2019s organized from building blocks and basics; foundations (& history); and key concepts \u2014 followed by specific topics such as governance; privacy and security; scaling; consensus and governance; cryptoeconomics, cryptoassets, and investing; fundraising and token distribution; decentralized exchanges; stablecoins; and cryptoeconomic primitives (token curated registries, curation markets, crytocollectibles, games). We also included a section with developer tutorials, practical guides, and maker stories \u2014 as well as other resources, such as newsletters/updates and courses, at the end.",
+    "Description": "Here's a list of crypto readings and resources. It's organized from building blocks and basics; foundations (& history); and key concepts \u2014 followed by specific topics such as governance; privacy and security; scaling; consensus and governance; cryptoeconomics, cryptoassets, and investing; fundraising and token distribution; decentralized exchanges; stablecoins; and cryptoeconomic primitives (token curated registries, curation markets, crytocollectibles, games). We also included a section with developer tutorials, practical guides, and maker stories \u2014 as well as other resources, such as newsletters/updates and courses, at the end.",
     "Link": [
       "https://a16z.com/2018/02/10/crypto-readings-resources/"
     ],
@@ -121,7 +121,7 @@
     ]
   },
   "Cryptocurrency 101": {
-    "Description": "The first part will speak to a broad explanation of what bitcoin and cryptocurrency at large are. The second will discuss my personal investment philosophy as it pertains to crypto. The third will show you step by step how to actually begin investing in crypto, if you so choose. Each section will be clearly delineated, so feel free to skip parts if they\u2019re already familiar to you.",
+    "Description": "The first part will speak to a broad explanation of what bitcoin and cryptocurrency at large are. The second will discuss my personal investment philosophy as it pertains to crypto. The third will show you step by step how to actually begin investing in crypto, if you so choose. Each section will be clearly delineated, so feel free to skip parts if they're already familiar to you.",
     "Link": [
       "https://medium.com/@intenex/cryptocurrency-101-7197684775fd"
     ],
@@ -142,7 +142,7 @@
     ]
   },
   "Do You Really Need A Blockchain For That?": {
-    "Description": "Many different use cases have been proposed for blockchains, relating to financial assets, health records, identity management and supply chains. But when examined in the cold light of day, many of these applications do not need a blockchain at all, and could be implemented perfectly well using a regular relational database. By that I mean either big iron behemoths like Oracle and SQL Server, or for the more adventurous and open-minded, MySQL and Postgres. So before we even start talking about blockchains, it\u2019s important to set one thing straight:\n\nIf your requirements are fulfilled by today\u2019s relational databases, you\u2019d be insane to use a blockchain.",
+    "Description": "Many different use cases have been proposed for blockchains, relating to financial assets, health records, identity management and supply chains. But when examined in the cold light of day, many of these applications do not need a blockchain at all, and could be implemented perfectly well using a regular relational database. By that I mean either big iron behemoths like Oracle and SQL Server, or for the more adventurous and open-minded, MySQL and Postgres. So before we even start talking about blockchains, it's important to set one thing straight:\n\nIf your requirements are fulfilled by today's relational databases, you'd be insane to use a blockchain.",
     "Link": [
       "https://coincenter.org/entry/do-you-really-need-a-blockchain-for-that"
     ],
@@ -182,7 +182,7 @@
     ]
   },
   "The Hard Thing About Learning Hard Things": {
-    "Description": "How do you learn something no one can teach you?\n\nWhatever success I\u2019ve had in my career, I attribute almost entirely to my aptitude for unstructured learning. This is the kind of learning required when delving into a cutting-edge field, navigating a new job, or creating anything genuinely new. Notably, it\u2019s the polar opposite of what is taught in schools and what most people call \u201ceducation.\u201d",
+    "Description": "How do you learn something no one can teach you?\n\nWhatever success I've had in my career, I attribute almost entirely to my aptitude for unstructured learning. This is the kind of learning required when delving into a cutting-edge field, navigating a new job, or creating anything genuinely new. Notably, it's the polar opposite of what is taught in schools and what most people call \u201ceducation.\u201d",
     "Link": [
       "https://medium.freecodecamp.org/the-hard-thing-about-learning-hard-things-168e655ac7f2"
     ],
@@ -194,7 +194,7 @@
     ]
   },
   "The Importance of Deep Work & the 30 Hour Method for Learning a new Skill": {
-    "Description": "The tech industry, especially the security industry, seems outrageously overwhelming to newcomers and even as an intermediate \u201cInfoSec Pro\u201d there seems to be an overwhelming number of paths and topics one can focus on. The problem most of us, especially newcomers, encounter is that we don\u2019t know what to focus on. Even when we find a topic to focus on, we seem to get stuck in the vast pool of resources that are available to us.",
+    "Description": "The tech industry, especially the security industry, seems outrageously overwhelming to newcomers and even as an intermediate \u201cInfoSec Pro\u201d there seems to be an overwhelming number of paths and topics one can focus on. The problem most of us, especially newcomers, encounter is that we don't know what to focus on. Even when we find a topic to focus on, we seem to get stuck in the vast pool of resources that are available to us.",
     "Link": [
       "https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/"
     ],
@@ -206,7 +206,7 @@
     ]
   },
   "Visual Crypto, Vol.1: Acronyms": {
-    "Description": "Being a cryptonewbie is fun. You\u2019re starting from zero, fresh-eyed as Bambi. You\u2019re down for all things decentralization, and Twitter hasn\u2019t hated on you yet. It\u2019s like the first day of school when your pencils are sharp and your notebooks smell fresh, except everyone is speaking a different language.",
+    "Description": "Being a cryptonewbie is fun. You're starting from zero, fresh-eyed as Bambi. You're down for all things decentralization, and Twitter hasn't hated on you yet. It's like the first day of school when your pencils are sharp and your notebooks smell fresh, except everyone is speaking a different language.",
     "Link": [
       "https://medium.com/@fayehays/visual-crypto-vol-1-acronyms-2674a80bba7"
     ],
@@ -215,7 +215,7 @@
     ]
   },
   "Wallets and Backups: How to Secure your Cryptocurrency": {
-    "Description": "Whether you\u2019re a newfound blockchain devotee, or just want exposure to the potential upside, this guide will help get you started on the journey. Before you buy Bitcoin or other cryptocurrencies, you\u2019ll want to know how to keep it secure.",
+    "Description": "Whether you're a newfound blockchain devotee, or just want exposure to the potential upside, this guide will help get you started on the journey. Before you buy Bitcoin or other cryptocurrencies, you'll want to know how to keep it secure.",
     "Link": [
       "https://www.csbtechemporium.com/research/how-to-secure-your-cryptocurrency/"
     ],
@@ -237,7 +237,7 @@
     ]
   },
   "Where to Buy Bitcoin and Other Cryptocurrencies": {
-    "Description": "Whether you want to buy .01 Bitcoin or 10+ Bitcoin, our guide will show you the best sites and exchanges for buying Bitcoin and other cryptos. There are over 200 exchanges listed on coinmarketcap. The right exchange for you will depend on location, the tokens you wish to acquire, payment options, local currency, and other variables. I\u2019ll go over some of the most popular choices for buying your first cryptocurrencies, provide links to more in-depth reviews, and other resources for exploring the world of cryptocurrency exchanges.",
+    "Description": "Whether you want to buy .01 Bitcoin or 10+ Bitcoin, our guide will show you the best sites and exchanges for buying Bitcoin and other cryptos. There are over 200 exchanges listed on coinmarketcap. The right exchange for you will depend on location, the tokens you wish to acquire, payment options, local currency, and other variables. I'll go over some of the most popular choices for buying your first cryptocurrencies, provide links to more in-depth reviews, and other resources for exploring the world of cryptocurrency exchanges.",
     "Link": [
       "https://www.csbtechemporium.com/where-to-buy-bitcoin-and-other-cryptocurrencies/"
     ],
@@ -285,8 +285,8 @@
       "bitcoin"
     ]
   },
-  "\u2018Blockchain\u2019 is meaningless \u2014 \u2018You keep using that word. I do not think it means what you think it mean": {
-    "Description": "bitcoin, Ethereum, and other cryptocurrencies have entered the mainstream discourse, but they\u2019ve also been joined by a concept that is widely circulated, but poorly understood: 'the blockchain' or just 'blockchain.' The idea of a blockchain, the cryptographically enhanced digital ledger that underpins Bitcoin and most cryptocurrencies, is now being used to describe everything from a system for inter-bank transactions to a new supply chain database for Walmart. The term has become so widespread that it\u2019s quickly losing meaning.",
+  "\u2018Blockchain' is meaningless \u2014 \u2018You keep using that word. I do not think it means what you think it mean": {
+    "Description": "bitcoin, Ethereum, and other cryptocurrencies have entered the mainstream discourse, but they've also been joined by a concept that is widely circulated, but poorly understood: 'the blockchain' or just 'blockchain.' The idea of a blockchain, the cryptographically enhanced digital ledger that underpins Bitcoin and most cryptocurrencies, is now being used to describe everything from a system for inter-bank transactions to a new supply chain database for Walmart. The term has become so widespread that it's quickly losing meaning.",
     "Link": [
       "https://www.theverge.com/2018/3/7/17091766/blockchain-bitcoin-ethereum-cryptocurrency-meaning"
     ],

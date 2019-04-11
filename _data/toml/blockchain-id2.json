@@ -32,7 +32,7 @@
     ]
   },
   "Blockpass": {
-    "Description": "Blockpass is an identity application for regulated services and the Internet of \n\nThings (IoT). It is positioned as a first step towards the development of a fully self-sovereign identity protocol for the Internet of Everything (IoE). An identity application is a software product that allows users to establish (verify), store, and manage identities. The identities that an identity application platform can store include those of people, things, and of other objects. The current, initial, release of the Blockpass app provides an identity solution for humans. Future releases will include solutions for devices and objects. \n\nA self-sovereign identity application is a platform where users can establish, store, and manage identities whilst maintaining full control over all data involved. Data collected to establish a self-sovereign identity is not stored on any central server. Instead, the data is passed to the verifier (be it a machine or a human) to view only for so long as is required to create the identity. When the verification is completed, the data is sent back to the user\u2019s own personal device. ",
+    "Description": "Blockpass is an identity application for regulated services and the Internet of \n\nThings (IoT). It is positioned as a first step towards the development of a fully self-sovereign identity protocol for the Internet of Everything (IoE). An identity application is a software product that allows users to establish (verify), store, and manage identities. The identities that an identity application platform can store include those of people, things, and of other objects. The current, initial, release of the Blockpass app provides an identity solution for humans. Future releases will include solutions for devices and objects. \n\nA self-sovereign identity application is a platform where users can establish, store, and manage identities whilst maintaining full control over all data involved. Data collected to establish a self-sovereign identity is not stored on any central server. Instead, the data is passed to the verifier (be it a machine or a human) to view only for so long as is required to create the identity. When the verification is completed, the data is sent back to the user's own personal device. ",
     "Link": [
       "https://www.blockpass.org/",
       "https://www.blockpass.org/downloads/BlockpassWhitepaper.v1.3.2.pdf"
@@ -238,7 +238,7 @@
     ]
   },
   "LifeID": {
-    "Description": "All PII such as name, date of birth, current living address etc., are never stored on the lifeID Platform. This information is encrypted and only stored on a secure device such as the person\u2019s phone. ",
+    "Description": "All PII such as name, date of birth, current living address etc., are never stored on the lifeID Platform. This information is encrypted and only stored on a secure device such as the person's phone. ",
     "Link": [
       "https://lifeid.io/",
       "https://lifeid.io/whitepaper.pdf"
@@ -287,7 +287,7 @@
     ]
   },
   "Shyft Network": {
-    "Description": "supports the collection of users\u2019 data off-chain using traditional databases and collection strategies with the ability to provide attestation points for third-party utilization.",
+    "Description": "supports the collection of users' data off-chain using traditional databases and collection strategies with the ability to provide attestation points for third-party utilization.",
     "Link": [
       "https://www.shyft.network/",
       "https://www.shyft.network/pdfs/Shyft-Network-Inc-Whitepaper_V3.1.pdf"

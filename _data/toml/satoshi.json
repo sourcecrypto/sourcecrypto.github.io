@@ -21,7 +21,7 @@
     ]
   },
   "Does Satoshi have a million bitcoin?": {
-    "Description": "Abstract: We examine the extent to which one miner dominated Bitcoin in 2009. We review Sergio Demian Lerner\u2019s 2013 analysis, where he discovered that the increase in the ExtraNonce value in the block can potentially be used to link different blocks to the same miner. We build on his analysis and conclude that although the evidence is far less robust than many assume, there is reasonable evidence that a single dominant miner in 2009 could have generated around 700,000 bitcoin. Although our analysis itself is weak and there is no perfect way of approaching this problem.",
+    "Description": "Abstract: We examine the extent to which one miner dominated Bitcoin in 2009. We review Sergio Demian Lerner's 2013 analysis, where he discovered that the increase in the ExtraNonce value in the block can potentially be used to link different blocks to the same miner. We build on his analysis and conclude that although the evidence is far less robust than many assume, there is reasonable evidence that a single dominant miner in 2009 could have generated around 700,000 bitcoin. Although our analysis itself is weak and there is no perfect way of approaching this problem.",
     "Link": [
       "https://blog.bitmex.com/satoshis-1-million-bitcoin/"
     ],
@@ -57,7 +57,7 @@
       "satoshi"
     ]
   },
-  "Satoshi Book Review: Verification of \u2018duality\u2019 excerpt using stylometric analysis": {
+  "Satoshi Book Review: Verification of \u2018duality' excerpt using stylometric analysis": {
     "Description": "We verified the authenticity of the new Satoshi document using stylometric data mining methods and used Most Frequent Word culling to minimise bias in our model. Our findings suggest that Satoshi is back and that an autobiography is on its way!",
     "Link": [
       "https://zycrypto.com/satoshi-book-review-verification-of-duality-excerpt-using-stylometric-analysis/"

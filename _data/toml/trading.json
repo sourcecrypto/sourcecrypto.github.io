@@ -49,7 +49,7 @@
     ]
   },
   "@CryptoCred Answer on Bitmex": {
-    "Description": "The answer: \u2018Same\u2019.\n\nThey have the same position size and they\u2019re both up 1%.\n\nRob using higher leverage does NOT mean that he\u2019s trading with more than 100 contracts!\n\nHigher leverage simply means Rob puts up less collateral (margin) to open the same 100 contract position.",
+    "Description": "The answer: \u2018Same'.\n\nThey have the same position size and they're both up 1%.\n\nRob using higher leverage does NOT mean that he's trading with more than 100 contracts!\n\nHigher leverage simply means Rob puts up less collateral (margin) to open the same 100 contract position.",
     "Link": [
       "https://twitter.com/CryptoCred/status/1032329625815457799"
     ],
@@ -85,7 +85,7 @@
     ]
   },
   "@CryptoCred on RSI and Divergence": {
-    "Description": "Important point about RSI: \n\nAfter a big move/candle there will almost always be a regular divergence. \n\nDon\u2019t use it to try to snipe the bottom or top.\n\nDivergences work better when they form during a discernible trend, NOT after a bazooka candle like yesterday.",
+    "Description": "Important point about RSI: \n\nAfter a big move/candle there will almost always be a regular divergence. \n\nDon't use it to try to snipe the bottom or top.\n\nDivergences work better when they form during a discernible trend, NOT after a bazooka candle like yesterday.",
     "Link": [
       "https://twitter.com/CryptoCred/status/1037772897241255936"
     ],
@@ -98,7 +98,7 @@
     ]
   },
   "@CryptoCred on Trading -w- Leverage": {
-    "Description": "Nearly every day, whether on Twitter, Telegram, or Discord, I see traders struggling to understand how to calculate their position sizes and generally make sense of leveraged trading.\n\nIn this article, I\u2019ll break the concepts down to first principles and give you a very simple way to calculate position size, as well as understand how and when to employ leverage.",
+    "Description": "Nearly every day, whether on Twitter, Telegram, or Discord, I see traders struggling to understand how to calculate their position sizes and generally make sense of leveraged trading.\n\nIn this article, I'll break the concepts down to first principles and give you a very simple way to calculate position size, as well as understand how and when to employ leverage.",
     "Link": [
       "https://medium.com/@cryptocreddy/comprehensive-guide-to-position-size-and-leverage-2e27764ce9e0"
     ],
@@ -109,7 +109,7 @@
     ]
   },
   "@CryptoCred on bad trading habits": {
-    "Description": "I traded like crap this week. \n\nSloppy, rushed, arrogant. \n\nI\u2019ve worked through all my losing trades in August so far and identified some common mistakes. \n\nI\u2019ve compiled them into a list of questions \u2014 I hope you find it helpful. ",
+    "Description": "I traded like crap this week. \n\nSloppy, rushed, arrogant. \n\nI've worked through all my losing trades in August so far and identified some common mistakes. \n\nI've compiled them into a list of questions \u2014 I hope you find it helpful. ",
     "Link": [
       "https://twitter.com/CryptoCred/status/1033796583333289986"
     ],
@@ -343,7 +343,7 @@
     ]
   },
   "@cryptocreddy - tradingview tricks": {
-    "Description": "TradingView is a charting platform known and loved by many cryptocurrency traders and analysts. In this article I\u2019ll share five useful TradingView features you can use to make charting more pleasant. This list is by no means exhaustive.",
+    "Description": "TradingView is a charting platform known and loved by many cryptocurrency traders and analysts. In this article I'll share five useful TradingView features you can use to make charting more pleasant. This list is by no means exhaustive.",
     "Link": [
       "https://medium.com/@cryptocreddy/5-useful-tradingview-tricks-30404ed41653"
     ],
@@ -405,7 +405,7 @@
     ]
   },
   "@wolfofpoloniex - Bare Basics of trading Cryptocurrency": {
-    "Description": "I have found that BASIC TA (Triangles, patterns, fib levels) is almost always more powerful than the more advanced stuff like Harmonics (Gartley / Butterfly patterns). I believe this is due to the fact that the large portion of new day-traders learn the basics and it works for them so they just stick to it. TA is supposed to be about understanding the mass\u2019 psychology behind the markets, but with a market that is, for the most part, \u2018simple\u2019\u2026 then keeping it simple will turn out to be a lot more effective than throwing out advanced TA.",
+    "Description": "I have found that BASIC TA (Triangles, patterns, fib levels) is almost always more powerful than the more advanced stuff like Harmonics (Gartley / Butterfly patterns). I believe this is due to the fact that the large portion of new day-traders learn the basics and it works for them so they just stick to it. TA is supposed to be about understanding the mass' psychology behind the markets, but with a market that is, for the most part, \u2018simple'\u2026 then keeping it simple will turn out to be a lot more effective than throwing out advanced TA.",
     "Link": [
       "https://steemit.com/cryptocurrency/@wolfofpoloniex/bare-basics-of-trading-cryptocurrency"
     ],
@@ -416,7 +416,7 @@
     ]
   },
   "ABCD Pattern Trading": {
-    "Description": "The ABCD pattern (AB=CD) is one of the classic chart patterns which is repeated over and over again. The ABCD pattern shows perfect harmony between price and time and is also referred to as \u2018measured moves\u2019. It was developed by Scott Carney and Larry Pesavento after being originally discovered by H.M Gartley.",
+    "Description": "The ABCD pattern (AB=CD) is one of the classic chart patterns which is repeated over and over again. The ABCD pattern shows perfect harmony between price and time and is also referred to as \u2018measured moves'. It was developed by Scott Carney and Larry Pesavento after being originally discovered by H.M Gartley.",
     "Link": [
       "http://www.profitf.com/articles/patterns/abcd-pattern-trading/"
     ],
@@ -486,7 +486,7 @@
     ]
   },
   "Backtesting with Pandas": {
-    "Description": "We were mostly concentrated on forecasting accuracy and experimenting around that before and we touched backtesting issue very briefly and using code from the Mike Halls-Moore\u2019s book. Of course having a nice backtesting code allows to build really good strategies with risk management, money management and consider different scenarios, but if you\u2019re researching just signals obtained from different data sources (even it\u2019s just historical prices) with use of machine learning you need something simpler to understand if these signals to go long or short are really useful. Basically we just want to check the difference between prices and multiply it by signal sign\u200a\u2014\u200aup or down and accumulate this info during test period.",
+    "Description": "We were mostly concentrated on forecasting accuracy and experimenting around that before and we touched backtesting issue very briefly and using code from the Mike Halls-Moore's book. Of course having a nice backtesting code allows to build really good strategies with risk management, money management and consider different scenarios, but if you're researching just signals obtained from different data sources (even it's just historical prices) with use of machine learning you need something simpler to understand if these signals to go long or short are really useful. Basically we just want to check the difference between prices and multiply it by signal sign\u200a\u2014\u200aup or down and accumulate this info during test period.",
     "Link": [
       "https://medium.com/@alexrachnog/neural-networks-for-algorithmic-trading-backtesting-in-pandas-4940fec2175e"
     ],
@@ -508,8 +508,8 @@
       "moving-averages"
     ]
   },
-  "Best RSI Guide for Cryptocurrency You\u2019ll Ever Find": {
-    "Description": "As mentioned before, you only need one type of indicator. So, if you\u2019re using both the RSI and the Stochastic RSI, you\u2019re wasting your time. They both are leading(1) momentum(2) indicators that look at the same thing\u200a\u2014\u200ais a crypto oversold or overbought? Therefore, you just need one. Study the both of them or another momentum indicator that makes the same determination and choose one.\n\nUnderstanding How and When to Use the Indicator",
+  "Best RSI Guide for Cryptocurrency You'll Ever Find": {
+    "Description": "As mentioned before, you only need one type of indicator. So, if you're using both the RSI and the Stochastic RSI, you're wasting your time. They both are leading(1) momentum(2) indicators that look at the same thing\u200a\u2014\u200ais a crypto oversold or overbought? Therefore, you just need one. Study the both of them or another momentum indicator that makes the same determination and choose one.\n\nUnderstanding How and When to Use the Indicator",
     "Link": [
       "https://blog.zerononcense.com/2018/10/23/best-rsi-guide-for-cryptocurrency-on-earth/"
     ],
@@ -531,7 +531,7 @@
     ]
   },
   "Bitmex perpetual swap": {
-    "Description": "A lot of crypto traders trade on Bitmex. It\u2019s one of the most advanced trading platforms I\u2019ve ever seen. The most professional traders mostly trade on Bitmex. There are multiple reasons for a trader to trade on Bitmex.",
+    "Description": "A lot of crypto traders trade on Bitmex. It's one of the most advanced trading platforms I've ever seen. The most professional traders mostly trade on Bitmex. There are multiple reasons for a trader to trade on Bitmex.",
     "Link": [
       "https://medium.com/@romanornr/bitmex-perpetual-swap-2d125a304dd"
     ],
@@ -587,8 +587,8 @@
       "tools"
     ]
   },
-  "CNBC \u2018REVERSE BITCOIN PRICE INDICATOR\u2019 HITS BULLSEYE AGAIN": {
-    "Description": "As Bitcoinist previously reported, cryptocurrency traders had become aware of CNBC\u2019s miscalculation of Bitcoin\u2019s short-term behavior, with one even earning an invitation to speak on the network after publishing the \u2018reverse indicator\u2019 theory.",
+  "CNBC \u2018REVERSE BITCOIN PRICE INDICATOR' HITS BULLSEYE AGAIN": {
+    "Description": "As Bitcoinist previously reported, cryptocurrency traders had become aware of CNBC's miscalculation of Bitcoin's short-term behavior, with one even earning an invitation to speak on the network after publishing the \u2018reverse indicator' theory.",
     "Link": [
       "https://bitcoinist.com/cnbc-reverse-bitcoin-price-impress/"
     ],
@@ -622,7 +622,7 @@
     ]
   },
   "Correct 1D time series forecasting + backtesting": {
-    "Description": "Let\u2019s take historical time series of Apple stock prices starting from 2005 till today. You can easily download them from Yahoo Finance as .csv file. In this file data is in \u201creversed\u201d order\u200a\u2014\u200afrom 2017 till 2005, so we need to reverse it back first and have a look:",
+    "Description": "Let's take historical time series of Apple stock prices starting from 2005 till today. You can easily download them from Yahoo Finance as .csv file. In this file data is in \u201creversed\u201d order\u200a\u2014\u200afrom 2017 till 2005, so we need to reverse it back first and have a look:",
     "Link": [
       "https://medium.com/@alexrachnog/neural-networks-for-algorithmic-trading-1-2-correct-time-series-forecasting-backtesting-9776bfd9e589"
     ],
@@ -710,7 +710,7 @@
     ]
   },
   "Deribit, Bitcoin Options and Volatility": {
-    "Description": "For those unfamiliar with options, there are two types of options: Call options and put options.\n\nCalls give the option holder the right, but not the obligation, to buy the underlying security at the strike price.\n\nPut options give the option buyer the right, but not the obligation, to sell the underlying security at the strike price on or before the expiration date.\n\nYou would buy a call option if you are bullish on the underlying, and buy a put option if you were bearish. The cost or price of an option is called the \u2018option premium\u2019.",
+    "Description": "For those unfamiliar with options, there are two types of options: Call options and put options.\n\nCalls give the option holder the right, but not the obligation, to buy the underlying security at the strike price.\n\nPut options give the option buyer the right, but not the obligation, to sell the underlying security at the strike price on or before the expiration date.\n\nYou would buy a call option if you are bullish on the underlying, and buy a put option if you were bearish. The cost or price of an option is called the \u2018option premium'.",
     "Link": [
       "https://medium.com/@ThinkingUSD/deribit-bitcoin-options-and-volatility-b370ba276761"
     ],
@@ -744,7 +744,7 @@
     ]
   },
   "Does Technical Analysis Work?": {
-    "Description": "I have been delaying writing this article for some time now, simply because of the number of sub-arguments that arise when one tries to answer whether technical analysis works.\n\nI am going to try to keep my arguments as simple and pertinent as possible. This article is primarily aimed at:\n\n\u2014 Those who have heard the term technical analysis but do not know what it entails\n\n\u2014 Those who are well aware of the practice but remain sceptical\n\nIt is at this point I should stress that by no means am I rehashing some orthodox doctrine on what technical analysis is and isn\u2019t (if there were such a thing). These are my personal views and a way of thinking about technical analysis that has made me a better trader.\n\nMoreover, just to make my position clear: I am primarily a technical trader, therefore my implicit position is that technical analysis \u2018works\u2019 (to be defined later).",
+    "Description": "I have been delaying writing this article for some time now, simply because of the number of sub-arguments that arise when one tries to answer whether technical analysis works.\n\nI am going to try to keep my arguments as simple and pertinent as possible. This article is primarily aimed at:\n\n\u2014 Those who have heard the term technical analysis but do not know what it entails\n\n\u2014 Those who are well aware of the practice but remain sceptical\n\nIt is at this point I should stress that by no means am I rehashing some orthodox doctrine on what technical analysis is and isn't (if there were such a thing). These are my personal views and a way of thinking about technical analysis that has made me a better trader.\n\nMoreover, just to make my position clear: I am primarily a technical trader, therefore my implicit position is that technical analysis \u2018works' (to be defined later).",
     "Link": [
       "https://medium.com/@cryptocreddy/does-technical-analysis-work-fa90413a8328"
     ],
@@ -754,7 +754,7 @@
     ]
   },
   "Elliott Wave Principle - Key to Market Behaviour Book Review": {
-    "Description": "Elliott Wave Principle by Frost and Prechter is widely considered to be the most comprehensive overview of Elliott Wave Theory ever written. First published in 1978 and written by two men who understood Elliott\u2019s ideas better than anyone, it has stood the test of time and continues to find new print runs and new fans.\n\nThis book is a must read for anyone who is truly interested in the way markets move on both short and long time frames. But it comes with a warning - this is one seriously dense book! At times it reads more like a mathematical proof; at times like an economic history textbook.",
+    "Description": "Elliott Wave Principle by Frost and Prechter is widely considered to be the most comprehensive overview of Elliott Wave Theory ever written. First published in 1978 and written by two men who understood Elliott's ideas better than anyone, it has stood the test of time and continues to find new print runs and new fans.\n\nThis book is a must read for anyone who is truly interested in the way markets move on both short and long time frames. But it comes with a warning - this is one seriously dense book! At times it reads more like a mathematical proof; at times like an economic history textbook.",
     "Link": [
       "https://steemit.com/@twoblokestrading/elliott-wave-principle-key-to-market-behaviour-book-review"
     ],
@@ -847,7 +847,7 @@
     ]
   },
   "Harmonic Pattern GARTLEY": {
-    "Description": "The harmonic patterns way of trading is an entirely different approach to trading the markets and is based on the discovery by H.M. Gartley whose findings were presented in his book in 1935 entitled \u201cProfits in the stock market\u201d. The book was a lengthy one at that and back in the days it sold for a premium. The most famous aspect of H.M Gartley\u2019s book is the Gartley 222 Pattern, named after the page number where H. M. Gartley outlines the trading methodology using the Gartley pattern.",
+    "Description": "The harmonic patterns way of trading is an entirely different approach to trading the markets and is based on the discovery by H.M. Gartley whose findings were presented in his book in 1935 entitled \u201cProfits in the stock market\u201d. The book was a lengthy one at that and back in the days it sold for a premium. The most famous aspect of H.M Gartley's book is the Gartley 222 Pattern, named after the page number where H. M. Gartley outlines the trading methodology using the Gartley pattern.",
     "Link": [
       "https://www.profitf.com/articles/forex-education/harmonic-pattern-gartley/"
     ],
@@ -900,7 +900,7 @@
     ]
   },
   "Hyperparameters optimization": {
-    "Description": "I think you have noticed that I usually take some architecture of the network as granted and don\u2019t explain why I take this particular number of layers, this particular activation function, this loss function etc. This is really tricky question. Yes, it\u2019s \u201cnormal\u201d in deep learning community to take ReLU (or more modern in 2k17 alternative like ELU or SELU) as activation and be happy with this, but we usually don\u2019t think if it\u2019s correct. Talking about number of layers or learning rate for optimizer\u200a\u2014\u200awe just take something standard. Today I want to talk about the way how to automatize the process of making a choice from these options.",
+    "Description": "I think you have noticed that I usually take some architecture of the network as granted and don't explain why I take this particular number of layers, this particular activation function, this loss function etc. This is really tricky question. Yes, it's \u201cnormal\u201d in deep learning community to take ReLU (or more modern in 2k17 alternative like ELU or SELU) as activation and be happy with this, but we usually don't think if it's correct. Talking about number of layers or learning rate for optimizer\u200a\u2014\u200awe just take something standard. Today I want to talk about the way how to automatize the process of making a choice from these options.",
     "Link": [
       "https://medium.com/@alexrachnog/neural-networks-for-algorithmic-trading-hyperparameters-optimization-cb2b4a29b8ee",
       "https://github.com/Rachnog/Deep-Trading/tree/master/bayesian"
@@ -981,7 +981,7 @@
     ]
   },
   "Multitask and multimodal learning": {
-    "Description": "In this tutorial we will use dataset, that contains not only multivariate time series, but also text data with daily news corresponding to trading days from Kaggle. You can check the details of the dataset on the link before, here is short summary what is inside:\n\nNews data: I crawled historical news headlines from Reddit WorldNews Channel (/r/worldnews). They are ranked by reddit users\u2019 votes, and only the top 25 headlines are considered for a single date. (Range: 2008\u201306\u201308 to 2016\u201307\u201301)\n\nStock data: Dow Jones Industrial Average (DJIA) is used to 'prove the concept'. (Range: 2008\u201308\u201308 to 2016\u201307\u201301)",
+    "Description": "In this tutorial we will use dataset, that contains not only multivariate time series, but also text data with daily news corresponding to trading days from Kaggle. You can check the details of the dataset on the link before, here is short summary what is inside:\n\nNews data: I crawled historical news headlines from Reddit WorldNews Channel (/r/worldnews). They are ranked by reddit users' votes, and only the top 25 headlines are considered for a single date. (Range: 2008\u201306\u201308 to 2016\u201307\u201301)\n\nStock data: Dow Jones Industrial Average (DJIA) is used to 'prove the concept'. (Range: 2008\u201308\u201308 to 2016\u201307\u201301)",
     "Link": [
       "https://becominghuman.ai/neural-networks-for-algorithmic-trading-multimodal-and-multitask-deep-learning-5498e0098caf",
       "https://www.kaggle.com/aaron7sun/stocknews",
@@ -1120,7 +1120,7 @@
     ]
   },
   "Six New and Improved Cryptocurrency Analysis Tools": {
-    "Description": "It\u2019s not just cryptocurrencies that are multiplying: so is the number of sites striving to keep track of them. We\u2019ve previously profiled analytical sites that offer an alternative to Coinmarketcap, the runaway market leader. It is the bitcoin of price analysis platforms. Since then, several new contenders have emerged, each aiming to impact upon CMC\u2019s market dominance and make a name for themselves. A number of alternative blockchain explorers and crypto monitoring sites have also upped their game, adding a string of new features, as the following roundup shows.",
+    "Description": "It's not just cryptocurrencies that are multiplying: so is the number of sites striving to keep track of them. We've previously profiled analytical sites that offer an alternative to Coinmarketcap, the runaway market leader. It is the bitcoin of price analysis platforms. Since then, several new contenders have emerged, each aiming to impact upon CMC's market dominance and make a name for themselves. A number of alternative blockchain explorers and crypto monitoring sites have also upped their game, adding a string of new features, as the following roundup shows.",
     "Link": [
       "https://news.bitcoin.com/six-new-and-improved-cryptocurrency-analysis-tools/"
     ],
@@ -1186,7 +1186,7 @@
     ]
   },
   "The 25 Point Mantra: discipline of": {
-    "Description": "The success that a trader achieves in the markets is directly correlated to one\u2019s trading discipline or lack thereof. Trading discipline is 90 percent of the game. The formula is very simple:Trade with discipline and you will succeed; trade without discipline and you will fail.",
+    "Description": "The success that a trader achieves in the markets is directly correlated to one's trading discipline or lack thereof. Trading discipline is 90 percent of the game. The formula is very simple:Trade with discipline and you will succeed; trade without discipline and you will fail.",
     "Link": [
       "http://www.r-5.org/files/books/trading/schoolbooks/Douglas_E_Zalesky-The_25-point_Mantra-EN.pdf"
     ],
@@ -1257,7 +1257,7 @@
     ]
   },
   "The Road To Becoming A Shark In The Crypto Markets, Part 1.": {
-    "Description": "Almost a decade ago the founder of Cryptol0gy, R1S1N6, was in a position where most people are today. All he had was a hundred dollars on his father\u2019s Forex account, and all he could dream of was turning that into a luxury car and a Rolex watch. While those things seemed unattainable at the time for him, he has shown that it\u2019s possible. It was possible in the regular financial markets, and now with crypto, it\u2019s easier than ever. It won\u2019t happen overnight, but it can happen faster than you might expect.",
+    "Description": "Almost a decade ago the founder of Cryptol0gy, R1S1N6, was in a position where most people are today. All he had was a hundred dollars on his father's Forex account, and all he could dream of was turning that into a luxury car and a Rolex watch. While those things seemed unattainable at the time for him, he has shown that it's possible. It was possible in the regular financial markets, and now with crypto, it's easier than ever. It won't happen overnight, but it can happen faster than you might expect.",
     "Link": [
       "https://medium.com/@cryptol0gy/the-road-to-becoming-a-shark-in-the-crypto-markets-part-1-230675138f29"
     ],
@@ -1268,7 +1268,7 @@
     ]
   },
   "ToneVays: This is a quick reference on Technical Trading and what you need to know": {
-    "Description": "1. Everything Starts and Ends with Candlesticks. If you do not understand how to read candlesticks, you should not be trading. There are infinitely many sites and graphs that explain them, but because when I learned it in 2004 there were very few, I\u2019m still partial to Chart School on StockCharts.com. Try to read a few PDF\u2019s like here, here & here, but if you search the web, you should be able to find books as well.\n\nTone Trading Tip: The candlesticks that matter to me are Doji, Shooting Star & Hammer. If you learn anything from my video\u2019s & seminars, I hope it\u2019s how to utilize these 3 candles.",
+    "Description": "1. Everything Starts and Ends with Candlesticks. If you do not understand how to read candlesticks, you should not be trading. There are infinitely many sites and graphs that explain them, but because when I learned it in 2004 there were very few, I'm still partial to Chart School on StockCharts.com. Try to read a few PDF's like here, here & here, but if you search the web, you should be able to find books as well.\n\nTone Trading Tip: The candlesticks that matter to me are Doji, Shooting Star & Hammer. If you learn anything from my video's & seminars, I hope it's how to utilize these 3 candles.",
     "Link": [
       "http://www.libertylifetrail.com/education/learntrading"
     ],
@@ -1382,7 +1382,7 @@
     ]
   },
   "Volatility forecasting and custom losses": {
-    "Description": "In this tutorial we will reconsider returns forecasting problem, design and check a new loss function for it, transforms returns into some sort of volatility and check different metrics for this problems as well. If you want to see the code first, check it out here.\n\nFirst of all, let\u2019s remember how we switch to returns (or percentage change) from original time series. I think, if we want to predict the return, we can switch all our dimensions (open, high, low, close, volume) to returns\u200a\u2014\u200athey will be already normalized and this is more suitable option\u200a\u2014\u200ahaving our input in form of returns if we plan to forecast return as well:",
+    "Description": "In this tutorial we will reconsider returns forecasting problem, design and check a new loss function for it, transforms returns into some sort of volatility and check different metrics for this problems as well. If you want to see the code first, check it out here.\n\nFirst of all, let's remember how we switch to returns (or percentage change) from original time series. I think, if we want to predict the return, we can switch all our dimensions (open, high, low, close, volume) to returns\u200a\u2014\u200athey will be already normalized and this is more suitable option\u200a\u2014\u200ahaving our input in form of returns if we plan to forecast return as well:",
     "Link": [
       "https://codeburst.io/neural-networks-for-algorithmic-trading-volatility-forecasting-and-custom-loss-functions-c030e316ea7e",
       "https://github.com/Rachnog/Deep-Trading/tree/master/volatility"
@@ -1417,7 +1417,7 @@
       "dead-cat"
     ]
   },
-  "Yarr\u2019s Beginners Guide: How to use Moving Averages to Day Trade": {
+  "Yarr's Beginners Guide: How to use Moving Averages to Day Trade": {
     "Description": "https://whalereports.com/yarrs-beginners-guide-how-to-use-moving-averages-to-day-trade/",
     "Link": [
       "https://whalereports.com/yarrs-beginners-guide-how-to-use-moving-averages-to-day-trade/"
