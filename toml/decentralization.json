@@ -1,0 +1,208 @@
+{
+  "@Melt_Dem on Decentralization": {
+    "Description": "1/ decentralization is a myth. we use 'decentralized' without any specificity as to what that *actually* means. let's untangle the idea of decentralization. i developed a basic grid that breaks it down at the protocol, network, and app layer (dated april 2018)",
+    "Link": [
+      "https://twitter.com/Melt_Dem/status/1031190564639830016"
+    ],
+    "Tags": [
+      "decentralization",
+      "twitter"
+    ]
+  },
+  "@SarahJamieLewis on Decentralization": {
+    "Description": "Since many of my twitter fights devolve into people saying 'but it's actually not centralized tho', let's talk about wtf decentralization actually means.\n\nThis tweetstorm has background reading.",
+    "Link": [
+      "https://twitter.com/SarahJamieLewis/status/1029212002953060352?s=19"
+    ],
+    "Tags": [
+      "decentralization",
+      "twitter"
+    ]
+  },
+  "@SarahJamieLewis on Federation": {
+    "Description": "Me: Federation is a bad model.\nPeople: You're against decentralization! Fascist!\nMe: No, I want *more* decentralization, more equal trust distribution.\nPeople: 'If ideal social power were perfect equality, we'd be ants.'",
+    "Link": [
+      "https://twitter.com/SarahJamieLewis/status/1031301941664440321"
+    ],
+    "Tags": [
+      "decentralization",
+      "federation",
+      "twitter"
+    ]
+  },
+  "@backus on Decentralization and P2P History": {
+    "Description": "Interested in decentralization today? Learn what worked in the 2000s for p2p file sharing: \u2696\ufe0f Decentralization is a legal tactic used alongside activism \u231b Decentralizing the wrong things is a waste of time \u2620\ufe0f Decentralizing everything is suicide by bad UX \u2014 Thread!",
+    "Link": [
+      "https://twitter.com/backus/status/1039701785789620224"
+    ],
+    "Tags": [
+      "decentralization",
+      "p2p",
+      "history",
+      "twitter"
+    ]
+  },
+  "@lopp on Decentralization": {
+    "Description": "Measuring centralization can be an informative academic exercise, but IMO the only way to know if a network is sufficiently decentralized is to attack it. If it can withstand attacks from nation states, it's sufficiently decentralized.",
+    "Link": [
+      "https://twitter.com/lopp/status/1028092364559208448"
+    ],
+    "Tags": [
+      "decentralization",
+      "twitter"
+    ]
+  },
+  "@nic_carter on Decentralization": {
+    "Description": "My thoughts have evolved a bit since this, but the big idea is the same. You have decentralization of validation ('node level'), block formation ('protocol level'), and decision-making and update-management ('political'). Your system isn\u2019t decentralized without all three.",
+    "Link": [
+      "https://twitter.com/nic__carter/status/1008419100136296448"
+    ],
+    "Tags": [
+      "decentralization",
+      "twitter"
+    ]
+  },
+  "@we_are_cordite on Decentralization": {
+    "Description": "One way to measure decentralisation, is by measuring the benefits. But do you think we should look at the technology and the business separately when we consider decentralisation? Or does one influence the other?",
+    "Link": [
+      "https://twitter.com/we_are_cordite/status/1008985334187773952"
+    ],
+    "Tags": [
+      "decentralization",
+      "twitter",
+      "image"
+    ]
+  },
+  "Fat Protocols Arent New": {
+    "Description": "Starting in 1999, we saw an explosion of p2p file sharing technology. We had Gnutella (the protocol behind Limewire), FastTrack (Kazaa), eDonkey, and BitTorrent. Limewire, Kazaa, and eDonkey all died, but the protocols they helped create lived on!",
+    "Link": [
+      "https://medium.com/@jbackus/fat-protocols-arent-new-42d2c538db41"
+    ],
+    "Tags": [
+      "p2p",
+      "protocols",
+      "history"
+    ]
+  },
+  "Field Notes \u2014 Observations on Robust Decentralized Systems": {
+    "Description": "On Emergent Centralization\n\nThere is a principle of Defensive Decentralization: when besieged, a well constructed decentralized system will further decentralize.\n\nThe corollary of which is: A well constructed decentralized system will identify & attack emergent centralization.",
+    "Link": [
+      "https://fieldnotes.resistant.tech/defensive-decentralization/"
+    ],
+    "Tags": [
+      "decentralization"
+    ]
+  },
+  "Free Company \u2014 THE DECENTRALIZED FUTURE OF WORK": {
+    "Description": "The path forward is to create a system that can match this pent up supply of talent with the rampant demand from the projects. An entity or entities that will bring together top talent with top projects in the space, allowing contributors to work broadly across the ecosystem and allowing projects to gain from the spirit of open source. The solution is a Free Company that can be contracted to work on projects collaboratively across the space.",
+    "Link": [
+      "https://www.tokendaily.co/blog/free-company"
+    ],
+    "Tags": [
+      "decentralization",
+      "work-in-crypto"
+    ]
+  },
+  "How to Disincentivize Large Bitcoin Mining Pools": {
+    "Description": "Recently, the GHash mining pool breached Bitcoin etiquette to become a 55% miner for Bitcoin [*]. This collapsed the key value proposition of Bitcoin, namely, its decentralization. In turn, there has been considerable criticism and backlash. Many people in the community, including us, have noted that etiquette or the good will of miners are not sufficient to keep monopolies at bay, and called for technical measures to disincentivize large mining pools.",
+    "Link": [
+      "http://hackingdistributed.com/2014/06/18/how-to-disincentivize-large-bitcoin-mining-pools/"
+    ],
+    "Tags": [
+      "bitcoin",
+      "mining",
+      "decentralization"
+    ]
+  },
+  "Introducing Decenturion: A Decentralized State Built on Blockchain": {
+    "Description": "Decenturion promises to be the first sovereign society governed by direct democracy via blockchain.  The project was unveiled at Consensus 2018, and Decenturion\u2019s Minister of Foreign Affairs, Viktoriia Pirumova, recently spoke at the Blockchain for Impact Summit at the United Nations.  Following the event at the U.N., a reception was held on a yacht cruise on the Hudson River.",
+    "Link": [
+      "https://coinjournal.net/introducing-decenturion-a-decentralized-state-built-on-blockchain/",
+      "https://decenturion.com"
+    ],
+    "Tags": [
+      "decentralization",
+      "decentralized-state",
+      "united-nations"
+    ]
+  },
+  "Quantifying Decentralization": {
+    "Description": "The primary advantage of Bitcoin and Ethereum over their legacy alternatives is widely understood to be decentralization. However, despite the widely acknowledged importance of this property, most discussion on the topic lacks quantification.",
+    "Link": [
+      "https://news.earn.com/quantifying-decentralization-e39db233c28e"
+    ],
+    "Tags": [
+      "decentralization"
+    ]
+  },
+  "Resistant Protocols \u2014 How Decentralization Evolves": {
+    "Description": "Why do we build decentralized technologies? How do we predict what will be successful, what will get shutdown, and what will end up as a science experiment that no one uses in practice?\n\nAs I\u2019ve written before, blockchain isn\u2019t the first decentralization craze and we can learn a lot from studying the history of p2p file sharing. By examining how decentralization for file sharing evolved, I think a few lessons stand out",
+    "Link": [
+      "https://medium.com/@jbackus/resistant-protocols-how-decentralization-evolves-2f9538832ada"
+    ],
+    "Tags": [
+      "decentralization",
+      "p2p",
+      "history"
+    ]
+  },
+  "The Case for Decentralization": {
+    "Descriptoin": "2016 was all about performance and scalability, 2017 was all about security. These are technical challenges. The harder challenges are the social and political ones. One of the key unsolved challenges is the de-centralised business model. I have consistently messaged that \u2018there is no point replacing one centralised business model with another\u2019. I believe 2018 will be the year that many in the blockchain domain wake up to the fact that there is little point distributing the technology if you are not going to distribute the business model. This challenge remains within all the blockchain projects I am focused on.",
+    "Link": [
+      "https://medium.com/@rickcrook/the-case-for-de-centralisation-1ac14935a3fc"
+    ],
+    "Tags": [
+      "decentralization"
+    ]
+  },
+  "The Death of 'Decentralization'": {
+    "Description": "It's no secret that 'decentralization' has been reduced to a marketing buzzword, and it's losing meaning through its misuse. Your project or idea may have some qualities that decentralization facilitates (censorship resistance, immutability, accessibility, etc)\u200a\u2014\u200abut it is not 'decentralized.' This post has been inspired by a few conversations and two articles that have recently surfaced.",
+    "Link": [
+      "https://www.tokendaily.co/blog/the-death-of-decentralization"
+    ],
+    "Tags": [
+      "decentralization"
+    ]
+  },
+  "What could decentralization mean in the context of the law?": {
+    "Description": "SEC Director of Corporate Finance William Hinman\u2019s speech yesterday on tokens has spurred (or perhaps renewed) a debate on what 'decentralization' really means in the context of securities law and cryptocurrency.",
+    "Link": [
+      "https://coincenter.org/entry/what-could-decentralization-mean-in-the-context-of-the-law"
+    ],
+    "Tags": [
+      "decentralization",
+      "regulation"
+    ]
+  },
+  "What is a Decentralized Exchange? (DEX)": {
+    "Description": "I\u2019ve found myself answering this question a lot lately, and I had assumed a decentralised exchange was a well known term. When the crypto and technology community uses the term Decentralised Exchange (or DEX) they mean something very specific.",
+    "Link": [
+      "https://medium.com/@sytaylor/what-is-a-decentralised-exchange-e2b86e844fe9"
+    ],
+    "Tags": [
+      "exchanges",
+      "dex",
+      "decentralization"
+    ]
+  },
+  "What is the difference between decentralized and distributed systems?": {
+    "Description": "Decentralized means that there is no single point where the decision is made. Every node makes a decision for it\u2019s own behaviour and the resulting system behaviour is the aggregate response.",
+    "Link": [
+      "https://medium.com/distributed-economy/what-is-the-difference-between-decentralized-and-distributed-systems-f4190a5c6462"
+    ],
+    "Tags": [
+      "decentralization",
+      "distributed-systems"
+    ]
+  },
+  "r/decentralization Discord Server": {
+    "Description": "Our mission is to liberate ourselves from centralized entities and help the world take back control, and further perpetuate political, fiscal, and economic Decentralization. We are dedicated to making sure that our group is of quality and a constructive place to work together.\n\nPlease Check out our subreddit here https://www.reddit.com/r/decentralization/",
+    "Link": [
+      "https://discord.gg/zkF6aNQ"
+    ],
+    "Tags": [
+      "decentralization",
+      "discord"
+    ]
+  }
+}
