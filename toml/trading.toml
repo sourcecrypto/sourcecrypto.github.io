@@ -40,7 +40,7 @@ Tags = ["algorithmic","trading","forecasting","loss-function","neural-network"]
 
 ["Multitask and multimodal learning"]
 Link = ["https://becominghuman.ai/neural-networks-for-algorithmic-trading-multimodal-and-multitask-deep-learning-5498e0098caf","https://www.kaggle.com/aaron7sun/stocknews","https://github.com/Rachnog/Deep-Trading/tree/master/bayesian"]
-Description = "In this tutorial we will use dataset, that contains not only multivariate time series, but also text data with daily news corresponding to trading days from Kaggle. You can check the details of the dataset on the link before, here is short summary what is inside:\n\nNews data: I crawled historical news headlines from Reddit WorldNews Channel (/r/worldnews). They are ranked by reddit users’ votes, and only the top 25 headlines are considered for a single date. (Range: 2008–06–08 to 2016–07–01)\n\nStock data: Dow Jones Industrial Average (DJIA) is used to \“prove the concept\”. (Range: 2008–08–08 to 2016–07–01)"
+Description = "In this tutorial we will use dataset, that contains not only multivariate time series, but also text data with daily news corresponding to trading days from Kaggle. You can check the details of the dataset on the link before, here is short summary what is inside:\n\nNews data: I crawled historical news headlines from Reddit WorldNews Channel (/r/worldnews). They are ranked by reddit users’ votes, and only the top 25 headlines are considered for a single date. (Range: 2008–06–08 to 2016–07–01)\n\nStock data: Dow Jones Industrial Average (DJIA) is used to 'prove the concept'. (Range: 2008–08–08 to 2016–07–01)"
 Tags = ["algorithmic","trading","sentiment-analysis","neural-network"]
 
 ["Hyperparameters optimization"]

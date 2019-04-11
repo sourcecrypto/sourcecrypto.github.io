@@ -1,0 +1,112 @@
+{
+  "@lopp on Cypherpunks": {
+    "Description": "The cost of maintaining one's privacy continues to rise as the cost of surveillance technology continues to fall. Most folks have neither the time nor the money to properly protect their privacy these days. Cypherpunks are the intolerant minority, the Spartans defending the pass.",
+    "Link": [
+      "https://twitter.com/lopp/status/1026139157125640192"
+    ],
+    "Tags": [
+      "cypherpunks",
+      "twitter"
+    ]
+  },
+  "A Cypherpunk's Manifesto": {
+    "Description": "Privacy is necessary for an open society in the electronic age. Privacy is not secrecy. A private matter is something one doesn't want the whole world to know, but a secret matter is something one doesn't want anybody to know. Privacy is the power to selectively reveal oneself to the world.",
+    "Link": [
+      "https://www.activism.net/cypherpunk/manifesto.html"
+    ],
+    "Tags": [
+      "cypherpunks",
+      "history"
+    ]
+  },
+  "Activism: Cypherpunks": {
+    "Description": "Cypherpunks write code.",
+    "Link": [
+      "https://www.activism.net/cypherpunk/"
+    ],
+    "Tags": [
+      "cypherpunks",
+      "history"
+    ]
+  },
+  "CRYPTOQUIKREAD_163 - A CYPHERPUNK\u2019S MANIFESTO": {
+    "Description": "'Privacy is not secrecy. A private matter is something one doesn't want the whole world to know, but a secret matter is something one doesn't want anybody to know. Privacy is the power to selectively reveal oneself to the world.' - Eric Hughes",
+    "Link": "https://cryptoconomy.podbean.com/e/cryptoquikread_163-a-cypherpunks-manifesto/",
+    "Tags": [
+      "cypherpunks",
+      "history",
+      "audio"
+    ]
+  },
+  "Cyphernomicon": {
+    "Description": "THE CYPHERNOMICON: Cypherpunks FAQ and More, Version 0.666, 1994-09-10, Copyright Timothy C. May",
+    "Link": [
+      "https://nakamotoinstitute.org/static/docs/cyphernomicon.txt",
+      "https://web.archive.org/web/20110514104800/http://www.cypherpunks.to/faq/cyphernomicron/cyphernomicon.html"
+    ],
+    "Tags": [
+      "cypherpunks",
+      "history"
+    ]
+  },
+  "Cypherpunk rising: WikiLeaks, encryption, and the coming surveillance dystopia": {
+    "Description": "EARLY CYPHERPUNK IN FACT AND FICTION\nCYPHERPUNK WAS BOTH AN EXCITING NEW VISION FOR SOCIAL CHANGE AND A FUN SUBCULTURE DEDICATED TO MAKING IT HAPPEN\nFlashback: Berkeley, California 1992. I pick up the ringing phone. My writing partner, St. Jude Milhon, is shouting down the line: 'I\u2019ve got it! Cypherpunk!'",
+    "Link": [
+      "https://www.theverge.com/2013/3/7/4036040/cypherpunks-julian-assange-wikileaks-encryption-surveillance-dystopia"
+    ],
+    "Tags": [
+      "cypherpunks",
+      "history"
+    ]
+  },
+  "The Crypto Anarchist Manifesto": {
+    "Description": "Timothy C. May <tcmay@netcom.com>\nA specter is haunting the modern world, the specter of crypto anarchy.\nComputer technology is on the verge of providing the ability for individuals and groups to communicate and interact with each other in a totally anonymous manner.",
+    "Link": "https://www.activism.net/cypherpunk/crypto-anarchy.html",
+    "Tags": [
+      "cypherpunks",
+      "history"
+    ]
+  },
+  "The Untold History of Bitcoin: Enter the Cypherpunks": {
+    "Description": "In my previous article I addressed the underlying technologies that blockchain runs and the history behind how it all started. The primary focus of that article was the development of PGP encryption by Phil Zimmermann, the wonder of open source software and peer-to-peer networks that are almost impossible to stop.",
+    "Link": [
+      "https://medium.com/swlh/the-untold-history-of-bitcoin-enter-the-cypherpunks-f764dee962a1"
+    ],
+    "Tags": [
+      "cypherpunks",
+      "history",
+      "bitcoin",
+      "pos"
+    ]
+  },
+  "cryptoanarchy.wiki - archive": {
+    "Description": "Crypto Anarchy: Encryption, digital money, anonymous networks, digital pseudonyms, zero knowledge, reputations, information markets, black markets, collapse of governments.",
+    "Link": [
+      "https://mailing-list-archive.cryptoanarchy.wiki/"
+    ],
+    "Tags": [
+      "cypherpunks",
+      "history"
+    ]
+  },
+  "cypherpunks.to - archive": {
+    "Description": "cypherpunks.to is a center for research and development of cypherpunk projects such as remailers, anonymous peer-to-peer services, secure network tunnels, mobile voice encryption, untraceable electronic cash, secure operating environments, etc.",
+    "Link": [
+      "https://web.archive.org/web/20110514104800/http://www.cypherpunks.to"
+    ],
+    "Tags": [
+      "cypherpunks",
+      "history"
+    ]
+  },
+  "cypherpunk\u2014research": {
+    "Description": "This repository is essentially for compiling information about Cypherpunks, the history of the movement, and the people/events of note.",
+    "Link": [
+      "https://github.com/tombusby/cypherpunk-research"
+    ],
+    "Tags": [
+      "cypherpunks",
+      "history"
+    ]
+  }
+}

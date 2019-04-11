@@ -75,7 +75,7 @@ Tags = ["bitcoin","vc","investing"]
 
 ["Capturing Crypto Value"]
 Link = ["https://hackernoon.com/capturing-crypto-value-part-3-3-fattening-the-protocols-dapps-9a7307b8ca35?gi=85b92b10ba33"]
-Description = "In my previous posts (part 1, part 2), I looked at various token designs that could be useful for capturing crypto value. Basically, the aim of a crypto asset should be to become a Store of Value, charge fees or confer control. I believe that whilst the SoV argument is fairly well known, the ability for a crypto system to charge fees or deliver valuable control is often disputed (\“just fork it\”)."
+Description = "In my previous posts (part 1, part 2), I looked at various token designs that could be useful for capturing crypto value. Basically, the aim of a crypto asset should be to become a Store of Value, charge fees or confer control. I believe that whilst the SoV argument is fairly well known, the ability for a crypto system to charge fees or deliver valuable control is often disputed ('just fork it')."
 Tags = ["economics","protocols","dapps"]
 
 ["The Economic Limits of Bitcoin and the Blockchain"]
