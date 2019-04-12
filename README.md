@@ -6,7 +6,7 @@ header:
   image: "assets/img/SourceCrypto.png"
 sidebar:
   nav: "sourcenav" 
-toc: true
+
 permalink: /
 ---
 
