@@ -382,6 +382,10 @@ defaults:
       related: true
       sidebar:
         nav: "sourcenav"
+      toc: true
+      toc_label   : "Contents"
+      toc_icon    : "link"
+      toc_sticky  : true
   # _general
   - scope:
       path: ""
