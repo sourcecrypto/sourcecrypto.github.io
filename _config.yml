@@ -73,7 +73,25 @@ algolia:
   application_id         : 7SQ04IUKA2
   index_name             : Source
   search_only_api_key    : 83b0540a06db15322d3c5231fb605aad
-  powered_by             : # true (default), false
+  powered_by             : true
+  files_to_exclude:
+    - _includes/*
+    - _layouts/*
+  nodes_to_index: 
+    - 'h2'
+    - 'p'
+  extensions_to_index:
+    - 'html'
+    - 'md'
+    - 'json'
+  settings:
+    searchableAttributes:
+      - 'title'
+      - 'headings'
+      - 'collection'
+      - 'unordered(content)'
+      - 'html'
+
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
