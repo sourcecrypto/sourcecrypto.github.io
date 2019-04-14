@@ -67,7 +67,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
-search_full_content      : #true
+search_full_content      : # true
 search_provider          : algolia
 algolia:
   application_id         : 7SQ04IUKA2
@@ -77,20 +77,10 @@ algolia:
   files_to_exclude:
     - _includes/*
     - _layouts/*
-  nodes_to_index: 
-    - 'h2'
-    - 'p'
   extensions_to_index:
     - 'html'
     - 'md'
     - 'json'
-  settings:
-    searchableAttributes:
-      - 'title'
-      - 'headings'
-      - 'collection'
-      - 'unordered(content)'
-      - 'html'
 
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
