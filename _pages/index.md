@@ -25,20 +25,20 @@ You may have noticed this site going through some transformations lately. You ca
   * [Development](discolog/development/)
   * [Application](discolog/application/)
 
-So, for now you can browse the entire index of channels at once, or one category at a time... later I will have a complete navigation index built. More info on that, below.        
+Later I will have a complete navigation index built. More info on that, below.        
 
 
 ![](https://i.imgur.com/7d2fDDT.png){: .align-center}
 
 ## SourceCrypto
 
-Source Crypto discord is a landing pad.. I drop links there on the fly, so those pages are not organized well, and maybe not all the links are 100% the best ever... Next will be to systematically go through and start building better, more organized resources built and driven by research.
+The Source Crypto discord server is a landing pad.. I drop links there on the fly, and the channels aren't perfectly organized, and maybe a few of the links are 100% the best ever... 
 
-The aim is to create a repository of information, generally mapping out the history and knowledge related to Bitcoin\blockchain.
+The next, and gradual step, will be to systematically build better, more organized web-resources using the sources gathered as a starting point.
 
-So little by little, we'll map out the ecosystem of information around blockchain and cryptocurrencies, and those un-organized pages will grow to become each a formidible resource of its own.
+The aim is to generally map out the history and knowledge related to Bitcoin\blockchain.
 
-The great thing is that gh-pages\jekyll are designed to generate content based upon structured data. So I'm a lot closer to the dream of creating a reasonably complete repository of knowledge related to crypto.
+So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
 
 
 ![](../assets/img/SourceCrypto.png)
@@ -55,7 +55,7 @@ Recently, I found [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/Discord
 
 Then, I used minimal-mistakes collections feature to quickly publish the lot of them, using VSCode to easily edit all of the files at the same time.
 
- That was a super quick and dirty way to get all that content up here on the web where anyone can access it more easily.
+That was a super quick and dirty way to get all that content up here on the web where anyone can access it more easily.
 
 
 * [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto) -  Now I have a few complete and proper toml files converted to json that I can use to experiment with generating pages - listing by title, tag, and incorporating search functionality, or perhaps filter by user-input.
@@ -70,8 +70,6 @@ Further down the line, each subject area will become the focus of its own landin
 
 ![](https://i.imgur.com/pYydLx7.png)
 
-I didn't exactly plan for things to work as they have, but everything I've been doing has naturally built upon what I've been working towards, and it's all coming together nicely. 
-
 <b><a href="https://discord.gg/ahTuPMY" target="_blank">discord.gg/ahTuPMY</a></b>
 
 ## Tagging
@@ -81,10 +79,7 @@ I didn't exactly plan for things to work as they have, but everything I've been 
 @MaciekLaskus suggested:
 >this is very interesting, but I think you're making a fundamental mistake with tagging this by topics
 >
->what's really missing is tagging all of these resources by authors, co-authors, references/citations
->
-> Maciek (April NYC & SF; May LA)
- once this is done, topical tags can be derived algorithmically
+>what's really missing is tagging all of these resources by authors, co-authors, references/citations once this is done, topical tags can be derived algorithmically
 * [Enabling Author-Centric Ranking of Web Content](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.8960&rep=rep1&type=pdf)
 
 <a href="https://github.com/infominer33/SourceCrypto">View on GitHub</a>
