@@ -324,7 +324,7 @@ Description = "The answer: ‘Same’.\n\nThey have the same position size and t
 Tags = ["trading","bitmex","quiz","cryptocred"]
 
 ["Distribution Schematic #1: Wyckoff Events and Phases"]
-Link = ["http://i.imgur.com/LbtrMJG.png"]
+Link = ["https://i.imgur.com/LbtrMJG.png"]
 Description = "image of Wyckoff Events and Phases"
 Tags = ["trading","technical-analysis","image","wyckoff"]
 
@@ -379,7 +379,7 @@ Description = "Github commit history of 783 cryptocurrencies based on most popul
 Tags = ["tools","github","commits","trading"]
 
 ["@brian_armstrong's chart of bitcoin moonshots."]
-Link = ["https://twitter.com/brian_armstrong/status/1009192006512328704","http://i.imgur.com/1ODWbbd.png"]
+Link = ["https://twitter.com/brian_armstrong/status/1009192006512328704","https://i.imgur.com/1ODWbbd.png"]
 Description = "About the historical bull and bear markets"
 Tags = ["twitter","thread","markets"]
 
