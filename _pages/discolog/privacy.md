@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "sourcenav" 
 order: 3
+share: true
 ---
 
 Resources related to privacy.

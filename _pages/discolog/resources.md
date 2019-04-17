@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "sourcenav" 
 order: 2
+share: true
 ---
 
 For collections of Resources.

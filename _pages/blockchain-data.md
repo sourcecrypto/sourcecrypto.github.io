@@ -1,6 +1,7 @@
 ---
 title: Blockchain Data - Analytics
 permalink: blockchain-data/
+share: true
 ---
 
 ### Data

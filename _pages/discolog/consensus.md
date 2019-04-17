@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "sourcenav" 
 order: 5
+share: true
 ---
 
 Channels related to "blockchain consensus".

@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "sourcenav" 
 order: 7
+share: true
 ---
 
 Technologies related to Blockchain, Perhaps Tangentally.
