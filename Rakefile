@@ -1,6 +1,18 @@
 require "bundler/gem_tasks"
 require "jekyll"
 require "listen"
+require 'html-proofer'
+
+task :build do
+  puts 'Building site...'.bold
+  Jekyll::Commands::Build.process(profile: true, future: true)
+end
+
+task :html_proofer do
+  Rake::Task['build'].invoke
+  puts 'Running html proofer...'
+  HTMLProofer.check_directory('./_site').run
+end
 
 def listen_ignore_paths(base, options)
   [
