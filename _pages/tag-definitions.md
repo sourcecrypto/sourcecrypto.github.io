@@ -1,7 +1,10 @@
 ---
+layout: single
 title: Tag Definitions - a draft
 permalink: tag-definitions/
 share: true
+toc: false
+classes: wide
 ---
 
 It has become apparent that we need a key for tagging standards. ultimately each tag will have additional tags related to it for search purposes, but this document to define "top-level" tags (or tags that are visible to and navigable by the user) is in progress. 
