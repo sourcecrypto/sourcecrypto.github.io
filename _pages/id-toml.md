@@ -6,6 +6,7 @@ description: The beginnings of a tagged database for blockchain identity related
 permalink: toml/id-toml.html
 sidebar:
   nav: sourcenav
+share: true
 ---
 
 My first page besides "home" with the minimal mistakes theme. All of my pages will migrate to minimal mistakes, and integrated, once I get the feel for it.
