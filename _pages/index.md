@@ -29,7 +29,7 @@ You may have noticed this site going through some transformations lately. You ca
 Later I will have a complete navigation index built. More info on that, below.        
 
 
-![](https://i.imgur.com/7d2fDDT.png){: .align-center}
+![](https://infominer.id/SourceCrypto/assets/img/interlinked.png){: .align-center}
 
 ## SourceCrypto
 
