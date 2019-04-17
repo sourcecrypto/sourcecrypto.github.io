@@ -8,6 +8,7 @@ sidebar:
   nav: "sourcenav" 
 toc: true
 permalink: /
+share: true
 ---
 
 **Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
