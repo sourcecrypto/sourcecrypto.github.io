@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "sourcenav" 
 order: 4
+share: true
 ---
 
 Channels for specific cryptocurrencies, or DLT that have no currency.

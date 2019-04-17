@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "sourcenav" 
 order: 1
+share: true
 ---
 
 Channels for collecting general resources around cryptocurrencies. 

@@ -5,7 +5,7 @@ description: "Asymmetric Encryption: Phil Zimmerman, PGP and Bitcoin Signatures,
 image: https://i.imgur.com/swEAkJm.png
 sidebar:
   nav: "sourcenav"
-
+share: true
 permalink: pgp-and-me/
 ---
 

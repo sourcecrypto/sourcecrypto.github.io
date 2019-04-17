@@ -8,7 +8,7 @@ classes: wide
 sidebar:
   nav: "sourcenav" 
 order: 8
-
+share: true
 ---
 
 Specific Blockchain Applications
