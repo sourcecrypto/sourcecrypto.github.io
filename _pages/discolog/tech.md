@@ -7,7 +7,7 @@ entries_layout: grid
 classes: wide
 sidebar:
   nav: "sourcenav" 
-order: 6
+order: 7
 share: true
 ---
 
