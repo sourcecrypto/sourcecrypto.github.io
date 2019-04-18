@@ -16,20 +16,20 @@ share: true
 You may have noticed this site going through some transformations lately. You can now browse the contents of our discord server, right here from the comfort of this website.
 {: .notice--success}
 
-* [Discord Index](https://infominer.id/SourceCrypto/discolog/)
-  * [General](https://infominer.id/SourceCrypto/discolog/general/)
-  * [Resources](https://infominer.id/SourceCrypto/discolog/resources/)
-  * [Crypto](https://infominer.id/SourceCrypto/discolog/crypto/)
-  * [Tech](https://infominer.id/SourceCrypto/discolog/tech/)
-  * [Privacy](https://infominer.id/SourceCrypto/discolog/privacy/)
-  * [Consensus](https://infominer.id/SourceCrypto/discolog/consensus/)
-  * [Development](https://infominer.id/SourceCrypto/discolog/development/)
-  * [Application](https://infominer.id/SourceCrypto/discolog/application/)
+* [Discord Index](/discolog/)
+  * [General](/discolog/general/)
+  * [Resources](/discolog/resources/)
+  * [Crypto](/discolog/crypto/)
+  * [Tech](/discolog/tech/)
+  * [Privacy](/discolog/privacy/)
+  * [Consensus](/discolog/consensus/)
+  * [Development](/discolog/development/)
+  * [Application](/discolog/application/)
 
 Later I will have a complete navigation index built. More info on that, below.        
 
 
-![](https://infominer.id/SourceCrypto/assets/img/interlinked.png){: .align-center}
+![](/assets/img/interlinked.png){: .align-center}
 
 ## SourceCrypto
 
@@ -42,7 +42,7 @@ The aim is to generally map out the history and knowledge related to Bitcoin\blo
 So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
 
 
-![](https://infominer.id/SourceCrypto/assets/img/SourceCrypto.png)
+![](/assets/img/SourceCrypto.png)
 
 ## A Machine Readable Repository on Every Subject In Crypto.
 
@@ -75,7 +75,7 @@ Further down the line, each subject area will become the focus of its own landin
 
 ## Tagging
 
-[tag-definitions.md](https://infominer.id/SourceCrypto/tag-definitions/) is where I was working on my idea of tagging.
+[tag-definitions.md](/tag-definitions/) is where I was working on my idea of tagging.
 
 @MaciekLaskus suggested:
 >this is very interesting, but I think you're making a fundamental mistake with tagging this by topics

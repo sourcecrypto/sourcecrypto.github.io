@@ -26,7 +26,7 @@ baseurl                  : "/SourceCrypto"
 repository               : "infominer33/SourceCrypto"
 github                   : [metadata]
 teaser                   : # /assets/images/500x300.png
-logo                     : "https://infominer.id/SourceCrypto/assets/icons/source.png"
+logo                     : "/assets/icons/source.png"
 masthead_title           : Research Index — Source ⧉ Crypto — Discord Chat.
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -96,12 +96,12 @@ twitter:
   username               : infominer33
   title                  : "Source ⧉ Crypto"
   description            : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
-  image                  : "https://infominer.id/SourceCrypto/assets/img/SourceCrypto.png"
+  image                  : "/assets/img/SourceCrypto.png"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "https://infominer.id/SourceCrypto/assets/img/SourceCrypto.png"
+og_image                 : "/assets/img/SourceCrypto.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -431,10 +431,23 @@ defaults:
         nav: "sourcenav"
       classes: wide
       disco: true
-    # _privacy
+    # _enterprise
   - scope:
       path: ""
-      type: privacy
+      type: enterprise
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcenav"
+      classes: wide
+      disco: true
+    # _security
+  - scope:
+      path: ""
+      type: security
     values:
       layout: single
       share: true
