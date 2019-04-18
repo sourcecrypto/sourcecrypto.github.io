@@ -41,6 +41,7 @@ pull-requests-welcome
 * [GPG Tutorial and PGP Public Key for ∀lan ∃liasen](https://futureboy.us/pgp.html)
 * [GnuPG for Daily Use (a Mini How-To...)](http://moser-isi.ethz.ch/gpg.html)
 * [Configuring Yubikeys, GPG, and Keybase](https://ttmm.io/tech/yubikey/)
+* [Solving the PGP Revocation Problem with OpenTimestamps for Git Commits](https://petertodd.org/2016/opentimestamps-git-integration)
 
 ### SSH 
 
@@ -72,7 +73,6 @@ gpg --verify signed_file.sig
 
 * [How do digital signatures in Bitcoin work?](https://www.cryptocompare.com/wallets/guides/how-do-digital-signatures-in-bitcoin-work/)
 * [Signing a message from your Ethereum wallet with MyEtherWallet](https://medium.com/@vinczhain/signing-a-message-from-your-ethereum-wallet-with-myetherwallet-cfef7acd6f6d)
-
 
 ### Keybase
 ![](https://i.imgur.com/YJAJSU6.png)
