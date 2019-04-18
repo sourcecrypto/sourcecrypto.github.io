@@ -24,7 +24,7 @@ main:
 sourcenav:
   - title: Featured
     children:
-      - title: "Practical Cryptography - PGP and Me"
+      - title: "• Practical Cryptography - PGP and Me"
         url: "https://infominer.id/bitcoin-history/pgp-and-me/"
       - title: "• Smart Contracts - History"
         url: "https://infominer.id/bitcoin-history/smart-contracts/"
