@@ -334,9 +334,9 @@ collections:
     order: 2
     output: true
     permalink: /discolog/:collection/:path/
-  privacy:
-    title: Privacy Preserving Technolgy
-    description: Cause govts don't want you to
+  security:
+    title: Security
+    description: Channels related to Security
     order: 3
     output: true
     permalink: /discolog/:collection/:path/
@@ -346,22 +346,28 @@ collections:
     order: 4
     output: true
     permalink: /discolog/:collection/:path/
+  enterprise:
+    title: Enterprise Tech
+    description: For institutional use of Blockchain whether public or private chains.
+    order: 5
+    output: true
+    permalink: /discolog/:collection/:path/
   consensus:
     title: Channels for Blockchain Consensus
     description: PoW, PoS, PoEverything Else
-    order: 5
+    order: 6
     output: true
     permalink: /discolog/:collection/:path/
   tech:
     title: Technologies Related to Bitcoin
     description: tech tech tech
-    order: 6
+    order: 7
     output: true
     permalink: /discolog/:collection/:path/
   development:
     title: Blockchain Development
     description: For Building Blocks and Chains of BLocks
-    order: 7
+    order: 8
     output: true
     permalink: /discolog/:collection/:path/
   application:
