@@ -16,15 +16,15 @@ share: true
 You may have noticed this site going through some transformations lately. You can now browse the contents of our discord server, right here from the comfort of this website.
 {: .notice--success}
 
-* [Discord Index](/discolog/)
-  * [General](/discolog/general/)
-  * [Resources](/discolog/resources/)
-  * [Crypto](/discolog/crypto/)
-  * [Tech](/discolog/tech/)
-  * [Privacy](/discolog/privacy/)
-  * [Consensus](/discolog/consensus/)
-  * [Development](/discolog/development/)
-  * [Application](/discolog/application/)
+* [Discord Index](SourceCrypto/discolog/)
+  * [General](SourceCrypto/discolog/general/)
+  * [Resources](SourceCrypto/discolog/resources/)
+  * [Crypto](SourceCrypto/discolog/crypto/)
+  * [Tech](SourceCrypto/discolog/tech/)
+  * [Privacy](SourceCrypto/discolog/privacy/)
+  * [Consensus](SourceCrypto/discolog/consensus/)
+  * [Development](SourceCrypto/discolog/development/)
+  * [Application](SourceCrypto/discolog/application/)
 
 Later I will have a complete navigation index built. More info on that, below.        
 
