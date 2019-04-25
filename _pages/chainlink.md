@@ -1,7 +1,12 @@
 ---
+layout: single
 title: Chain Link
 header: 
-  image: "https://infominer.id/SourceCrypto/assets/img/chainlink.jpg"
+  image: "https://infominer.id/SourceCrypto/assets/img/chainlink.png"
+sidebar:
+  nav: "sourcenav" 
+toc: true
+share: true
 permalink: "chainlink/"
 ---
 
