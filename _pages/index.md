@@ -29,7 +29,7 @@ You may have noticed this site going through some transformations lately. You ca
 Later I will have a complete navigation index built. More info on that, below.        
 
 
-![](/assets/img/interlinked.png){: .align-center}
+![](https://infominer.id/assets/img/interlinked.png){: .align-center}
 
 ## SourceCrypto
 
@@ -42,7 +42,7 @@ The aim is to generally map out the history and knowledge related to Bitcoin\blo
 So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
 
 
-![](/assets/img/SourceCrypto.png)
+![](https://infominer.id/SourceCrypto/assets/img/SourceCrypto.png)
 
 ## A Machine Readable Repository on Every Subject In Crypto.
 
