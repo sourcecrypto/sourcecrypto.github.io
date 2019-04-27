@@ -10,6 +10,8 @@ sidebar:
 toc: true
 permalink: /
 share: true
+twitter:
+  card: summary
 ---
 
 **Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
