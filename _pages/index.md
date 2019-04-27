@@ -2,6 +2,8 @@
 layout: single
 title: Crypto-Research-Index
 description: Building an Open-Source Database of Crypto Knowledge.
+twitter:
+  card: summary
 header: 
   image: "assets/img/SourceCrypto.png"
   og_image: "assets/img/SourceCrypto.png"
@@ -10,8 +12,6 @@ sidebar:
 toc: true
 permalink: /
 share: true
-twitter:
-  card: summary
 ---
 
 **Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
