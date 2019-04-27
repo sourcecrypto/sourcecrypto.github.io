@@ -26,7 +26,7 @@ baseurl                  : "/SourceCrypto"
 repository               : "infominer33/SourceCrypto"
 github                   : [metadata]
 teaser                   : # /assets/images/500x300.png
-logo                     : "/assets/icons/source.png"
+logo                     : "/assets/img/Source.png"
 masthead_title           : Research Index — Source ⧉ Crypto — Discord Chat.
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
