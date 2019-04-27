@@ -4,6 +4,7 @@ title: Crypto-Research-Index
 description: Building an Open-Source Database of Crypto Knowledge.
 header: 
   image: "assets/img/SourceCrypto.png"
+  og_image: "assets/img/SourceCrypto.png"
 sidebar:
   nav: "sourcenav" 
 toc: true
