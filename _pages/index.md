@@ -45,7 +45,7 @@ The aim is to generally map out the history and knowledge related to Bitcoin\blo
 So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
 
 
-![](https://infominer.id/SourceCrypto/assets/img/SourceCrypto.png)
+![](https://infominer.id/SourceCrypto/assets/img/Square-Crypto.png)
 
 ## A Machine Readable Repository on Every Subject In Crypto.
 
