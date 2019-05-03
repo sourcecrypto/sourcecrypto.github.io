@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Source-Crypto Research-Index
+title: Research-Index
 description: Building an Open-Source Database of Crypto Knowledge.
 twitter:
   card: summary
