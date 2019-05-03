@@ -5,8 +5,8 @@ description: Building an Open-Source Database of Crypto Knowledge.
 twitter:
   card: summary
 header: 
-  image: "assets/img/Source-Crypto-banner.png"
-  og_image: "assets/img/Source-Crypto-og.png"
+  image: "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-banner.png"
+  og_image: "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-og.png"
 sidebar:
   nav: "sourcenav" 
 toc: true
@@ -32,7 +32,7 @@ You may have noticed this site going through some transformations lately. You ca
 Later I will have a complete navigation index built. More info on that, below.        
 
 
-![](https://infominer.id/assets/img/Square-Crypto.png){: .align-center}
+![](https://infominer.id/SourceCrypto/assets/img/interlinked.png){: .align-center}
 
 ## SourceCrypto
 
@@ -45,7 +45,7 @@ The aim is to generally map out the history and knowledge related to Bitcoin\blo
 So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
 
 
-![](https://infominer.id/SourceCrypto/assets/img/interlinked.png)
+![](https://infominer.id/SourceCrypto/assets/img/SourceCrypto.png)
 
 ## A Machine Readable Repository on Every Subject In Crypto.
 
