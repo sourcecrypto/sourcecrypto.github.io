@@ -14,11 +14,10 @@ permalink: /
 share: true
 ---
 
-**Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
-
-![](https://infominer.id/SourceCrypto/assets/img/interlinked.png){: .align-center}
-
 ## SourceCrypto
+
+**A discord server and web-portal for creating an open-source database of Crypto Knowledge.**
+
 
 The Source Crypto discord server is a landing pad.. I drop links there on the fly, and the channels aren't perfectly organized, and maybe a few of the links are 100% the best ever... 
 
@@ -29,7 +28,7 @@ The aim is to generally map out the history and knowledge related to Bitcoin\blo
 So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
 
 
-![](https://infominer.id/SourceCrypto/assets/img/Square-Crypto.png)
+![](https://infominer.id/SourceCrypto/assets/img/interlinked.png){: .align-center}
 
 ## A Machine Readable Repository on Every Subject In Crypto.
 
