@@ -2,8 +2,8 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="/SourceCrypto/assets/icons/mstile-150x150.png"/>
-            <TileColor>#0b071d</TileColor>
+            <square150x150logo src="https://infominer.id/SourceCrypto/assets/icons/mstile-150x150.png"/>
+            <TileColor>#19688e</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
