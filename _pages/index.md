@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Crypto-Research-Index
+title: Source-Crypto Research-Index
 description: Building an Open-Source Database of Crypto Knowledge.
 twitter:
   card: summary
@@ -13,8 +13,6 @@ toc: true
 permalink: /
 share: true
 ---
-
-## SourceCrypto
 
 **A discord server and web-portal for creating an open-source database of Crypto Knowledge.**
 
