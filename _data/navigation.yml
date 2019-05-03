@@ -24,20 +24,6 @@ main:
 
 
 sourcenav:
-  - title: Featured
-    children:
-      - title: "• Practical Cryptography - PGP and Me"
-        url: "https://infominer.id/bitcoin-history/pgp-and-me/"
-      - title: "• Smart Contracts - History"
-        url: "https://infominer.id/bitcoin-history/smart-contracts/"
-      - title: "• Transcript: Smart Signatures - Christopher Allen"
-        url: "https://infominer.id/bitcoin-history/transcripts/smart-signatures-christopher-allen/"
-      - title: "• Transcript: Stephan Levira and Andreas Antonopoulos - Bitcoin Maximalism"
-        url: "https://infominer.id/transcripts/SLP53-Antonopolis-on-Maximalism-Transcript/"
-      - title: "• Github Pages Starter Pack"
-        url: "https://infominer.id/web-work/gh-pages-starter-pack/"
-      - title: "• Minimal Mistakes Quickstart Guide"
-        url: "https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/"
   - title: "Disc⧉L⧉g"
     children:
       - title: "• Discord Index"
@@ -387,6 +373,20 @@ sourcenav:
         url: "/discolog/application/utility/"
       - title: "• Voting"
         url: "/discolog/application/traditional-finance/"
+  - title: Featured
+    children:
+      - title: "• Practical Cryptography - PGP and Me"
+        url: "https://infominer.id/bitcoin-history/pgp-and-me/"
+      - title: "• Smart Contracts - History"
+        url: "https://infominer.id/bitcoin-history/smart-contracts/"
+      - title: "• Transcript: Smart Signatures - Christopher Allen"
+        url: "https://infominer.id/bitcoin-history/transcripts/smart-signatures-christopher-allen/"
+      - title: "• Transcript: Stephan Levira and Andreas Antonopoulos - Bitcoin Maximalism"
+        url: "https://infominer.id/transcripts/SLP53-Antonopolis-on-Maximalism-Transcript/"
+      - title: "• Github Pages Starter Pack"
+        url: "https://infominer.id/web-work/gh-pages-starter-pack/"
+      - title: "• Minimal Mistakes Quickstart Guide"
+        url: "https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/"
   - title: Info⧉Nav
     children:
       - title: "• ⧉InfoMine⧉"
