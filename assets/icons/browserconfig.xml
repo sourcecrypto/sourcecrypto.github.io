@@ -3,7 +3,7 @@
     <msapplication>
         <tile>
             <square150x150logo src="https://infominer.id/SourceCrypto/assets/icons/mstile-150x150.png"/>
-            <TileColor>#19688e</TileColor>
+            <TileColor>#79dfce</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
