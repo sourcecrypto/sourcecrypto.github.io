@@ -27,9 +27,6 @@ The aim is to generally map out the history and knowledge related to Bitcoin\blo
 
 So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
 
-
-![](https://infominer.id/SourceCrypto/assets/img/interlinked.png){: .align-center}
-
 ## A Machine Readable Repository on Every Subject In Crypto.
 
 
@@ -58,6 +55,10 @@ Further down the line, each subject area will become the focus of its own landin
 ![](https://i.imgur.com/pYydLx7.png)
 
 <b><a href="https://discord.gg/ahTuPMY" target="_blank">discord.gg/ahTuPMY</a></b>
+
+
+![](https://infominer.id/SourceCrypto/assets/img/interlinked.png){: .align-center}
+
 
 ## Tagging
 
