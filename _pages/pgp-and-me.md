@@ -7,6 +7,7 @@ sidebar:
   nav: "sourcenav"
 share: true
 permalink: pgp-and-me/
+redirect_from: practical/index.html
 ---
 
 ```
