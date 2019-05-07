@@ -2,7 +2,8 @@
 layout: single
 title: Practical Crypto
 description: "Asymmetric Encryption: Phil Zimmerman, PGP and Bitcoin Signatures, BitcoinTalk Escrow, DeepDotWeb, SSL, Various Apps and Resourses."
-image: https://i.imgur.com/swEAkJm.png
+header:
+  og_image: https://i.imgur.com/swEAkJm.png
 sidebar:
   nav: "sourcenav"
 share: true
