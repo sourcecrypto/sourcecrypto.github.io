@@ -7,6 +7,7 @@ twitter:
 header: 
   image: "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-banner.png"
   og_image: "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-og.png"
+  caption: "[Cryptodesign.io](http://Cryptodesign.io)"
 sidebar:
   nav: "sourcenav" 
 toc: true
