@@ -32,7 +32,7 @@ For those who would like to browse from GitHub, all the pages are in `_pages`, a
 Everything else is `minimal-mistakes`. pretty straightforward.
 
 
-![](https://i.imgur.com/7d2fDDT.png)
+![](https://infominer.id/SourceCrypto/assets/img/source-crypto-gh-og.png)
 
 ## SourceCrypto
 
@@ -45,7 +45,7 @@ So little by little, we'll map out the ecosystem of information around blockchai
 The great thing is that gh-pages\jekyll are designed to generate content based upon structured data. So I'm a lot closer to the dream of creating a reasonably complete repository of knowledge related to crypto.
 
 
-![](/assets/img/SourceCrypto.png)
+![](https://infominer.id/SourceCrypto/assets/img/SourceCrypto.png)
 
 ## A Machine Readable Repository on Every Subject In Crypto.
 
