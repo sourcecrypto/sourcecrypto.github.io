@@ -1,18 +1,6 @@
----
-layout: single
-title: Crypto-Research-Index
-description: Building an Open-Source Database of Crypto Knowledge.
-header: 
-  image: "assets/img/SourceCrypto.png"
-sidebar:
-  nav: "sourcenav" 
-permalink: /
----
-
 **Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
 
-You may have noticed this site going through some transformations lately. You can now browse the contents of our discord server, from the comfort of the SourceCrypto website.
-{: .notice--success}
+While I do intend to build sections for each channel, or most of them... being able to simply export the entire discord server and publish it is excellent, for the meantime.
 
 * [Discord Index](https://infominer.id/SourceCrypto/discolog/)
   * [General](https://infominer.id/SourceCrypto/discolog/general/)
@@ -24,7 +12,8 @@ You may have noticed this site going through some transformations lately. You ca
   * [Development](https://infominer.id/SourceCrypto/discolog/development/)
   * [Application](https://infominer.id/SourceCrypto/discolog/application/)
 
-So, for now you can browse the entire index of channels at once, or one category at a time... later I will have a complete navigation index built. More info on that, below.        
+For now you can browse the entire index of channels at once, or one category at a time. On the website the entire directory nav is available in the sidebar.
+
 
 For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the discolog are in `discolog`, all the data is in `_data`.  
 
