@@ -6,7 +6,6 @@ header:
   image: "assets/img/SourceCrypto.png"
 sidebar:
   nav: "sourcenav" 
-
 permalink: /
 ---
 
@@ -45,7 +44,7 @@ So little by little, we'll map out the ecosystem of information around blockchai
 The great thing is that gh-pages\jekyll are designed to generate content based upon structured data. So I'm a lot closer to the dream of creating a reasonably complete repository of knowledge related to crypto.
 
 
-![](https://infominer.id/SourceCrypto/assets/img/SourceCrypto.png)
+![](https://infominer.id/SourceCrypto/assets/img/Square-Crypto.png)
 
 ## A Machine Readable Repository on Every Subject In Crypto.
 
