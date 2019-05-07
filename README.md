@@ -32,7 +32,7 @@ For those who would like to browse from GitHub, all the pages are in `_pages`, a
 Everything else is `minimal-mistakes`. pretty straightforward.
 
 
-![](https://i.imgur.com/7d2fDDT.png)
+![](/assets/img/source-crypto-gh-og.png)
 
 ## SourceCrypto
 
