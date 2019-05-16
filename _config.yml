@@ -60,19 +60,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
 search_full_content      : # true
-search_provider          : algolia
-algolia:
-  application_id         : 7SQ04IUKA2
-  index_name             : Source
-  search_only_api_key    : 83b0540a06db15322d3c5231fb605aad
-  powered_by             : true
-  files_to_exclude:
-    - _includes/*
-    - _layouts/*
-  extensions_to_index:
-    - 'html'
-    - 'md'
-    - 'json'
+search_provider          : lunr
 
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
