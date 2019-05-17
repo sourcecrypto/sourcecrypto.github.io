@@ -60,12 +60,15 @@ Signing Commits
 ## Protonmail 
 
 Has built in support for PGP for your e-mails... but doesn't make it super easy to verify messages from outside.
+
+Somehow you can use PGP with non-protonmail users.. but I haven't figured it out, yet.
+
 * [https://protonmail.com/support/knowledge-base/how-to-use-pgp/](https://protonmail.com/support/knowledge-base/how-to-use-pgp/)
 
 ## Verifying PGP Signatures
 
-* [HOW TO VERIFY YOUR DOWNLOADED FILES ARE AUTHENTIC](https://www.deepdotweb.com/jolly-rogers-security-guide-for-beginners/how-to-verify-your-downloaded-files-are-authentic/)
-* [VERIFYING SIGNED MESSAGES WITH SIGNATURES AND SIGNING YOUR OWN MESSAGES](https://www.deepdotweb.com/jolly-rogers-security-guide-for-beginners/verifying-signed-messages-with-signatures-and-signing-your-own-messages/)
+* [HOW TO VERIFY YOUR DOWNLOADED FILES ARE AUTHENTIC](https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/how-to-verify-your-downloaded-files-are-authentic/)
+* [VERIFYING SIGNED MESSAGES WITH SIGNATURES AND SIGNING YOUR OWN MESSAGES](https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/verifying-signed-messages-with-signatures-and-signing-your-own-messages/)
 
 ```
 gpg --import singing_key.pub
@@ -87,21 +90,20 @@ gpg --verify signed_file.sig
 
 ## deepdotweb
 
-* [About DeepDotWeb](https://www.deepdotweb.com/about-deepdotweb/)
+* [About DeepDotWeb](https://gir.pub/deepdotweb/about-deepdotweb/)
 
 >We established DeepDotWeb in the wake of our friend being arrested by local authorities, for buying drugs from the original Silk Road marketplace. Our aim is make information about dark net markets accessible to everyone, as well as making the dark net safer by reporting on security risks, scams and operations conducted by law enforcement. 
 
-* [Jolly Roger’s Security Guide for Beginners](https://www.deepdotweb.com/jolly-rogers-security-guide-for-beginners/)
-  * [PGP, TAILS, VIRTUAL BOX](https://www.deepdotweb.com/jolly-rogers-security-guide-for-beginners/pgp-tails-virtual-box/)
-  * [PGP CONTINUED](http://www.deepdotweb.com/jolly-rogers-security-guide-for-beginners/pgp-continued/)
-  * [OBTAINING, SENDING AND RECEIVING BITCOINS ANONYMOUSLY](https://www.deepdotweb.com/jolly-rogers-security-guide-for-beginners/obtaining-sending-and-receiving-bitcoins-anonymously/)
-  * [PGP/GPG Email Addresses](https://www.deepdotweb.com/jolly-rogers-security-guide-for-beginners/pgpgpg-email-addresses/)
-* [PGP Tutorial For Newbs (GPA - Gpg4Win)](https://www.deepdotweb.com/2013/11/11/pgp-tutorial-for-newbs-gpg4win/)
-* [PGP Tutorial For Newbs (Kleopatra - Gpg4Win)](https://www.deepdotweb.com/2015/02/21/pgp-tutorial-for-windows-kleopatra-gpg4win/)
-* [PGP Tutorial For Newbs Gpg4usb](https://www.deepdotweb.com/2015/06/21/pgp-tutorial-for-newbs-gpg4usb/)
-* [Basic Guide to PGP On Linux](https://www.deepdotweb.com/2015/02/17/basic-guide-pgp-linux/)
-* [PGP Tutorial for OSX](http://www.deepdotweb.com/2015/02/20/pgp-tutorial-os-x/)
-* [PGP Tutorial for TAILS](https://www.deepdotweb.com/2017/10/22/basic-guide-pgp-tails/)
+* [Jolly Roger’s Security Guide for Beginners](https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/)
+  * [PGP, TAILS, VIRTUAL BOX](https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/pgp-tails-virtual-box/)
+  * [PGP CONTINUED](http://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/pgp-continued/)
+  * [OBTAINING, SENDING AND RECEIVING BITCOINS ANONYMOUSLY](https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/obtaining-sending-and-receiving-bitcoins-anonymously/)
+  * [PGP/GPG Email Addresses](https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/pgpgpg-email-addresses/)
+* [PGP Tutorial For Newbs (GPA - Gpg4Win)](https://gir.pub/deepdotweb/pgp-tutorial-for-newbs-gpg4win/)
+* [PGP Tutorial For Newbs (Kleopatra - Gpg4Win)](https://gir.pub/deepdotweb/pgp-tutorial-for-windows-kleopatra-gpg4win/)
+* [PGP Tutorial For Newbs Gpg4usb](https://gir.pub/deepdotweb/pgp-tutorial-for-newbs-gpg4usb/)
+* [Basic Guide to PGP On Linux](https://gir.pub/deepdotweb/basic-guide-pgp-linux/)
+* [PGP Tutorial for OSX](http://gir.pub/deepdotweb/pgp-tutorial-os-x/)
 
 ## Escrow Services
 
@@ -122,6 +124,11 @@ Escrow Agents are impartial and trusted intermediaries who hold custody of buyer
 
 >When some work is uploaded, a community-trusted programmer will check through it, to make sure that the project has been successfully completed.
 
+### Discord
+
+Yes you can even "unofficially" get encypted chat for discord 
+
+* [leogx9r/DiscordCrypt](https://github.com/leogx9r/DiscordCrypt)
 
 ### BitcoinTalk Escrow
 
