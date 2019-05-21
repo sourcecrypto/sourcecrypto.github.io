@@ -4,8 +4,11 @@ title: Research-Index
 description: Building an Open-Source Database of Crypto Knowledge.
 twitter:
   card: summary
-header: 
-  image: "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-banner.png"
+header:
+  video:
+    id: bxUDZzUJk_A
+    provider: youtube  
+  #image: "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-banner.png"
   og_image: "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-og.png"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 sidebar:
