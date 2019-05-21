@@ -29,6 +29,8 @@ The aim is to generally map out the history and knowledge related to Bitcoin\blo
 
 So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
 
+{% include video id="bxUDZzUJk_A" provider="youtube" %}
+
 ## A Machine Readable Repository on Every Subject In Crypto.
 
 
