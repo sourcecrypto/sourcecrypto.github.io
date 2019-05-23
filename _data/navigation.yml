@@ -1,9 +1,7 @@
 # main links
 main:
-  - title: "Discord Index"
-    url: "/discolog/"
-  - title: "⧉InfoMine⧉"
-    url: "https://infominer.id/"
+  - title: "webwork.tools"
+    url: "https://infominer.id/web-work/"
   - title: "IndieWeb"
     url: "https://infominer.id/indieweb/"
   - title: "Bitcoin Historical Index"
@@ -23,6 +21,8 @@ main:
     url: "https://infominer.id/gh-pages-starter-pack.html"
   - title: "Minimal Mistakes Quickstart Guide"
     url: "https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/"
+  - title: "⧉InfoMine⧉"
+    url: "https://infominer.id/"
 
 
 sourcenav:
