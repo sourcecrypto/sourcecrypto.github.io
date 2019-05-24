@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Sitemap"
+    url: "/sitemap/"
   - title: "webwork.tools"
     url: "https://infominer.id/web-work/"
   - title: "IndieWeb"
