@@ -30,6 +30,8 @@ main:
 sourcenav:
   - title: "Disc⧉L⧉g"
     children:
+      - title: "Sitemap"
+        url: "/sitemap/"
       - title: "• Discord Index"
         url: "/discolog/"
       - title: "• General"
