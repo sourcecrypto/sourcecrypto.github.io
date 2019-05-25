@@ -16,6 +16,7 @@ sidebar:
 toc: true
 permalink: /
 share: true
+last_modified_at: 2019-05-25T05:33:22-05:00
 ---
 
 **A discord server and web-portal for creating an open-source database of Crypto Knowledge.**
@@ -39,11 +40,17 @@ So, little by little, those un-organized pages will grow to become each a formid
 
 Previously, I was putting information in TOML format. Then, after I started to learn GitHub pages, and working with some other people on a similar project for Decentralized Identity, I realized that GitHub Pages \ Jekyll have built-in support for yaml, csv, and json... so, yaml is nice and we'll go with that. 
 
-Recently, I found [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter/issues/75) which quickly turned the entire contents of Source Crypto Discord Server into 170+ html files. 
+Recently, I found [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter/) which quickly turned the entire contents of Source Crypto Discord Server into 170+ html files. 
 
-Then, I used minimal-mistakes collections feature to quickly publish the lot of them, using VSCode to easily edit all of the files at the same time.
+If you're using linux, like me... you just have to make it's .exe executable and run it from the terminal, like so: `./DiscordChatExporter.CLI.exe`.
 
-That was a super quick and dirty way to get all that content up here on the web where anyone can access it more easily.
+Then, I used minimal-mistakes collections feature to quickly publish the lot of them, using VSCode to easily edit all of the files at the same time. 
+
+I cut out the head of each of the files and injected the css to be applied to those pages.
+
+[![](https://imgur.com/zLF17fAl.png)](https://imgur.com/zLF17fA.png)
+
+That's super quick, and not so dirty, way to get all that content up here on the web where anyone can access it more easily.
 
 
 * [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto) -  Now I have a few complete and proper toml files converted to json that I can use to experiment with generating pages - listing by title, tag, and incorporating search functionality, or perhaps filter by user-input.
