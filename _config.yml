@@ -58,9 +58,9 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true
+search                   : #true
 search_full_content      : # true
-search_provider          : lunr
+search_provider          : #lunr
 
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
