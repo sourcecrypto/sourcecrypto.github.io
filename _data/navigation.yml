@@ -30,31 +30,8 @@ sourcedisco:
         url: /sitemap/
       - title: "• Discord Index"
         url: /discolog/
-      - title: "• General"
-        url: /discolog/general/
-      - title: "• Resources"
-        url: /discolog/resources/
-      - title: "• Crypto"
-        url: /discolog/crypto/
-      - title: "• Consensus"
-        url: /discolog/consensus/
-      - title: "• Enterprise"
-        url: /discolog/enterprise/
-      - title: "• Blockchain Tech"
-        url: /discolog/blockchain-tech/
-      - title: "• Security"
-        url: /discolog/security/
-      - title: "• Development"
-        url: /discolog/development/
-      - title: "• Data"
-        url: /discolog/data/
-      - title: "• Tech"
-        url: /discolog/tech/
-      - title: "• Web Work"
-        url: /discolog/web-work/
-      - title: "• Application"
-        url: /discolog/application/
   - title: General
+    url: /discolog/general/
     children:
       - title: "• 101"
         url: /discolog/general/101/
@@ -97,6 +74,7 @@ sourcedisco:
       - title: "• Walstreet"
         url: /discolog/general/walstreet/
   - title: Resources
+    url: /discolog/resources/
     children:
       - title: "• Assorted Media"
         url: /discolog/resources/assorted-media/
@@ -133,6 +111,7 @@ sourcedisco:
       - title: "• Work Online"
         url: /discolog/resources/work-online/
   - title: Crypto
+    url: /discolog/crypto/
     children:
       - title: "• Gen Crypto"
         url: /discolog/crypto/gen-crypto/
@@ -197,8 +176,9 @@ sourcedisco:
       - title: "• ZCash"
         url: /discolog/crypto/zcash/
   - title: Enterprise
+    url: /discolog/enterprise/
     children:
-      - title: "• Enterprise / DLT"
+      - title: "• Enterprise - DLT"
         url: /discolog/enterprise/enterprise-dlt/
       - title: "• Enterprise Ethereum"
         url: /discolog/enterprise/ent-eth/
@@ -207,6 +187,7 @@ sourcedisco:
       - title: "• Hyperledger"
         url: /discolog/enterprise/hyperledger/
   - title: Consensus
+    url: /discolog/consensus/
     children:
       - title: "• Consensus"
         url: /discolog/consensus/consensus/
@@ -219,6 +200,7 @@ sourcedisco:
       - title: "• Eth-Consensus"
         url: /discolog/consensus/eth-consensus/
   - title: Security
+    url: /discolog/security/
     children:
       - title: "• Security"
         url: /discolog/security/security/
@@ -233,6 +215,7 @@ sourcedisco:
       - title: "• Tor"
         url: /discolog/security/tor/
   - title: "Blockchain Tech"
+    url: /discolog/blockchain-tech/
     children:
       - title: "• Decentralization"
         url: /discolog/blockchain-tech/decentralization/
@@ -259,6 +242,7 @@ sourcedisco:
       - title: "• Master-Nodes"
         url: /discolog/blockchain-tech/master-nodes/
   - title: Tech
+    url: /discolog/tech/
     children:
       - title: "• Bit-Torrent"
         url: /discolog/tech/bittorrent/
@@ -273,6 +257,7 @@ sourcedisco:
       - title: "• Design"
         url: /discolog/tech/design/
   - title: Data
+    url: /discolog/data/
     children:
       - title: "• Data"
         url: /discolog/data/data/
@@ -285,6 +270,7 @@ sourcedisco:
       - title: "• Quant Trading"
         url: /discolog/data/quant-trading/
   - title: Development
+    url: /discolog/development/
     children:
       - title: "• Gen Development"
         url: /discolog/development/gen-development/
@@ -313,6 +299,7 @@ sourcedisco:
       - title: "• Web Development"
         url: /discolog/development/web-development/
   - title: "Web Work"
+    url: /discolog/web-work/
     children:
       - title: "• Web Work"
         url: /discolog/web-work/web-work/
@@ -341,6 +328,7 @@ sourcedisco:
       - title: "• Open Source Hardware"
         url: /discolog/web-work/open-source-hardware/
   - title: Application
+    url: /discolog/application/
     children:
       - title: "• Art Collectibles"
         url: /discolog/application/art-collectibles/
