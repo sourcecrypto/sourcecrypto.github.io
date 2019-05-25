@@ -44,6 +44,8 @@ Recently, I found [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/Discord
 
 If you're using linux, like me... you just have to make it's .exe executable and run it from the terminal, like so: `./DiscordChatExporter.CLI.exe`.
 
+I also used a bulk-renaming tool, and Regex.. those are both great tools, and Regex isn't limited to one particular app, but used all over.
+
 Then, I used minimal-mistakes collections feature to quickly publish the lot of them, using VSCode to easily edit all of the files at the same time. 
 
 I cut out the head of each of the files and injected the css to be applied to those pages.
