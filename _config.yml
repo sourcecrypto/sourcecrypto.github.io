@@ -338,7 +338,7 @@ collections:
     permalink: /discolog/:collection/:path/
     share: true
   consensus:
-    title: Channels for Blockchain Consensus
+    title: Blockchain Consensus
     description: PoW, PoS, PoEverything Else
     order: 6
     output: true
@@ -403,7 +403,7 @@ defaults:
       share: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       toc: true
       toc_label   : "Contents"
       toc_icon    : "link"
@@ -418,7 +418,7 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
     # _resources
@@ -431,7 +431,7 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
     # _crypto
@@ -444,7 +444,7 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
     # _enterprise
@@ -457,7 +457,7 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
     # _security
@@ -470,7 +470,7 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
     # _consensus
@@ -483,7 +483,7 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
     # _blockchain-tech
@@ -496,7 +496,7 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
     # _tech
@@ -509,7 +509,7 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
     # _development
@@ -522,7 +522,7 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
     # _application
@@ -535,7 +535,7 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
     # _data
@@ -548,7 +548,7 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
     # _web-work
@@ -561,6 +561,6 @@ defaults:
       comment: true
       related: true
       sidebar:
-        nav: "sourcenav"
+        nav: "sourcedisco"
       classes: wide
       disco: true
