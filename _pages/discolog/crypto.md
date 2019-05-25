@@ -6,7 +6,7 @@ collection: crypto
 entries_layout: grid
 classes: wide
 sidebar:
-  nav: "sourcenav" 
+  nav: sourcedisco 
 #: 4
 share: true
 ---

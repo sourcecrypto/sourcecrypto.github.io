@@ -12,11 +12,12 @@ header:
   og_image: "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-og.png"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 sidebar:
-  nav: "sourcenav" 
+  nav: sourcedisco 
 toc: true
 permalink: /
 share: true
 last_modified_at: 2019-05-25T13:15:59-23:00
+
 ---
 
 **A discord server and web-portal for creating an open-source database of Crypto Knowledge.**

@@ -4,7 +4,7 @@ title: Chain Link
 header: 
   image: "https://infominer.id/SourceCrypto/assets/img/chainlink.png"
 sidebar:
-  nav: "sourcenav" 
+  nav: sourcedisco 
 toc: true
 share: true
 permalink: "chainlink/"

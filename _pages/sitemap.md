@@ -4,7 +4,7 @@ title: "Sitemap"
 permalink: /sitemap/
 author_profile: false
 sidebar:
-  nav: "sourcenav" 
+  nav: sourcedisco 
 share: true
 ---
 
