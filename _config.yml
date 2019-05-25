@@ -345,23 +345,44 @@ collections:
     permalink: /discolog/:collection/:path/
     share: true
   tech:
-    title: Technologies Related to Bitcoin
+    title: Technical Stuff
     description: tech tech tech
     order: 7
+    output: true
+    permalink: /discolog/:collection/:path/
+    share: true
+  data:
+    title: Data
+    description: tech tech tech
+    order: 7
+    output: true
+    permalink: /discolog/:collection/:path/
+    share: true
+  blockchaintech:
+    title: Blockchain Technologies
+    description: tech tech tech
+    order: 8
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   development:
     title: Blockchain Development
     description: For Building Blocks and Chains of BLocks
-    order: 8
+    order: 9
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   application:
     title: Blockchain Applications 
     description: There are many... I try to avoid thinkikng about ICOs
-    order: 8
+    order: 10
+    output: true
+    permalink: /discolog/:collection/:path/
+    share: true
+  webwork:
+    title: Web-Work 
+    description: Webwork.tools
+    order: 10
     output: true
     permalink: /discolog/:collection/:path/
     share: true
@@ -465,6 +486,19 @@ defaults:
         nav: "sourcenav"
       classes: wide
       disco: true
+    # _blockchain-tech
+  - scope:
+      path: ""
+      type: blockchaintech
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcenav"
+      classes: wide
+      disco: true
     # _tech
   - scope:
       path: ""
@@ -495,6 +529,32 @@ defaults:
   - scope:
       path: ""
       type: application
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcenav"
+      classes: wide
+      disco: true
+    # _data
+  - scope:
+      path: ""
+      type: data
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcenav"
+      classes: wide
+      disco: true
+    # _web-work
+  - scope:
+      path: ""
+      type: webwork
     values:
       layout: single
       share: true
