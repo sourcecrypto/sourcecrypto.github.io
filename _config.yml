@@ -21,7 +21,7 @@ rooturl                  : "https://infominer.id/SourceCrypto"
 title_separator          : "⧉ "
 name                     : "Infominer"
 description              : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
-url                      : "http://127.0.0.1:4000"
+url                      : "https://infominer.id"
 baseurl                  : "/SourceCrypto"
 repository               : "infominer33/SourceCrypto"
 github                   : [metadata]
@@ -58,9 +58,9 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : #true
+search                   : true
 search_full_content      : # true
-search_provider          : #lunr
+search_provider          : lunr
 
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
@@ -76,12 +76,12 @@ twitter:
   username               : infominer33
   title                  : "Source ⧉ Crypto"
   description            : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
-  image                  : "/assets/img/Square-Crypto.png"
+  image                  : "https://infominer.id/SourceCrypto/assets/img/Square-Crypto.png"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/img/Source-Crypto-og.png"
+og_image                 : "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-og.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -162,7 +162,7 @@ include:
   - .htaccess
   - _pages
   - discolog
-  - practical
+  - _posts
   - toml
 exclude:
   - "*.sublime-project"
