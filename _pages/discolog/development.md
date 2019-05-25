@@ -2,7 +2,7 @@
 title: "Category: Development - SourceDisco"
 layout: collection
 permalink: /discolog/development/
-collection: tech
+collection: development
 entries_layout: grid
 classes: wide
 sidebar:
