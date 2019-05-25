@@ -6,7 +6,7 @@ collection: security
 entries_layout: grid
 classes: wide
 sidebar:
-  nav: "sourcenav" 
+  nav: sourcedisco 
 #: 6
 share: true
 ---

@@ -6,7 +6,7 @@ collection: enterprise
 entries_layout: grid
 classes: wide
 sidebar:
-  nav: "sourcenav" 
+  nav: sourcedisco 
 #: 3
 share: true
 ---

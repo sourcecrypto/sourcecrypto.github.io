@@ -6,7 +6,7 @@ collection: consensus
 entries_layout: grid
 classes: wide
 sidebar:
-  nav: "sourcenav" 
+  nav: sourcedisco 
 #: 5
 share: true
 ---

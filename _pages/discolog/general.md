@@ -6,7 +6,7 @@ collection: general
 entries_layout: grid
 classes: wide
 sidebar:
-  nav: "sourcenav" 
+  nav: sourcedisco 
 #: 1
 share: true
 ---

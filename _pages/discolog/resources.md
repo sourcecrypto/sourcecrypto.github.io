@@ -6,7 +6,7 @@ collection: resources
 entries_layout: grid
 classes: wide
 sidebar:
-  nav: "sourcenav" 
+  nav: sourcedisco 
 #: 2
 share: true
 ---
