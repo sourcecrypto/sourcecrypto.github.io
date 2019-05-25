@@ -1,390 +1,390 @@
 # main links
 main:
   - title: "Sitemap"
-    url: /sitemap/
+    url: "/sitemap/"
   - title: "Webwork Tools"
-    url: https://infominer.id/web-work
+    url: "https://infominer.id/web-work"
   - title: "IndieWeb"
-    url: https://infominer.id/indieweb
+    url: "https://infominer.id/indieweb"
   - title: "Bitcoin Historical Index"
-    url: https://infominer.id/bitcoin-history
+    url: "https://infominer.id/bitcoin-history"
   - title: "Learn Crypto Trading"
-    url: https://infominer.id/learn-crypto-trading
+    url: "https://infominer.id/learn-crypto-trading"
   - title: "DIDecentralized"
-    url: https://infominer.id/DIDecentralized
+    url: "https://infominer.id/DIDecentralized"
   - title: "Transcripts"
-    url: https://infominer.id/transcripts
+    url: "https://infominer.id/transcripts"
   - title: "Source⧉Crypto"
-    url: https://infominer.id/SourceCrypto
+    url: "https://infominer.id/SourceCrypto"
   - title: "Github Pages Starter Pack"
-    url: https://infominer.id/web-work/github-pages-starter-pack/
+    url: "https://infominer.id/web-work/github-pages-starter-pack/"
   - title: "Minimal Mistakes Quickstart Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: "https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/"
   - title: "⧉InfoMine⧉"
-    url: https://infominer.id/
+    url: "https://infominer.id/"
 
 sourcedisco:
   - title: SourceDisco
     children:
       - title: "• Sitemap"
-        url: /sitemap/
+        url: "/sitemap/"
       - title: "• Discord Index"
-        url: /discolog/
+        url: "/discolog/"
   - title: General
-    url: /discolog/general/
+    url: "/discolog/general/"
     children:
       - title: "• 101"
-        url: /discolog/general/101/
+        url: "/discolog/general/101/"
       - title: "• Classification"
-        url: /discolog/general/classification/
+        url: "/discolog/general/classification/"
       - title: "• Cypherpunk"
-        url: /discolog/general/cypherpunk/
+        url: "/discolog/general/cypherpunk/"
       - title: "• Earn Crypto"
-        url: /discolog/general/earn-crypto/
+        url: "/discolog/general/earn-crypto/"
       - title: "• Economics"
-        url: /discolog/general/economics/
+        url: "/discolog/general/economics/"
       - title: "• Evaluation"
-        url: /discolog/general/evaluation/
+        url: "/discolog/general/evaluation/"
       - title: "• Exchanges"
-        url: /discolog/general/exchanges/
+        url: "/discolog/general/exchanges/"
       - title: "• Governance"
-        url: /discolog/general/governance/
+        url: "/discolog/general/governance/"
       - title: "• Growth - Adoption"
-        url: /discolog/general/growth-adoption/
+        url: "/discolog/general/growth-adoption/"
       - title: "• History"
-        url: /discolog/general/history/
+        url: "/discolog/general/history/"
       - title: "• ICOs"
-        url: /discolog/general/icos/
+        url: "/discolog/general/icos/"
       - title: "• Library Submissions"
-        url: /discolog/general/library-submissions/
+        url: "/discolog/general/library-submissions/"
       - title: "• Memes n Junk"
-        url: /discolog/general/memes-n-junk/
+        url: "/discolog/general/memes-n-junk/"
       - title: "• Mining"
-        url: /discolog/general/mining/
+        url: "/discolog/general/mining/"
       - title: "• Oppression"
-        url: /discolog/general/oppression/
+        url: "/discolog/general/oppression/"
       - title: "• Regulation"
-        url: /discolog/general/regulation/
+        url: "/discolog/general/regulation/"
       - title: "• Satoshi"
-        url: /discolog/general/satoshi/
+        url: "/discolog/general/satoshi/"
       - title: "• Trading"
-        url: /discolog/general/trading/
+        url: "/discolog/general/trading/"
       - title: "• Wallets"
-        url: /discolog/general/wallets/
+        url: "/discolog/general/wallets/"
       - title: "• Walstreet"
-        url: /discolog/general/walstreet/
+        url: "/discolog/general/walstreet/"
   - title: Resources
-    url: /discolog/resources/
+    url: "/discolog/resources/"
     children:
       - title: "• Assorted Media"
-        url: /discolog/resources/assorted-media/
+        url: "/discolog/resources/assorted-media/"
       - title: "• Books"
-        url: /discolog/resources/books/
+        url: "/discolog/resources/books/"
       - title: "• Bots"
-        url: /discolog/resources/bots/
+        url: "/discolog/resources/bots/"
       - title: "• China"
-        url: /discolog/resources/china/
+        url: "/discolog/resources/china/"
       - title: "• Data"
-        url: /discolog/resources/data/
+        url: "/discolog/resources/data/"
       - title: "• Communities"
-        url: /discolog/resources/communities/
+        url: "/discolog/resources/communities/"
       - title: "• Conferences"
-        url: /discolog/resources/conferences/
+        url: "/discolog/resources/conferences/"
       - title: "• News Sites"
-        url: /discolog/resources/news-sites/
+        url: "/discolog/resources/news-sites/"
       - title: "• Non-English"
-        url: /discolog/resources/non-english/
+        url: "/discolog/resources/non-english/"
       - title: "• Research Papers"
-        url: /discolog/resources/research-papers/
+        url: "/discolog/resources/research-papers/"
       - title: "• Resources"
-        url: /discolog/resources/resources/
+        url: "/discolog/resources/resources/"
       - title: "• Send-Crypto"
-        url: /discolog/resources/send-crypto/
+        url: "/discolog/resources/send-crypto/"
       - title: "• Swag"
-        url: /discolog/resources/swag/
+        url: "/discolog/resources/swag/"
       - title: "• Tech in Media"
-        url: /discolog/resources/tech-in-media/
+        url: "/discolog/resources/tech-in-media/"
       - title: "• Twitter Follows"
-        url: /discolog/resources/twitter-follows/
+        url: "/discolog/resources/twitter-follows/"
       - title: "• Women"
-        url: /discolog/resources/women/
+        url: "/discolog/resources/women/"
       - title: "• Work Online"
-        url: /discolog/resources/work-online/
+        url: "/discolog/resources/work-online/"
   - title: Crypto
-    url: /discolog/crypto/
+    url: "/discolog/crypto/"
     children:
       - title: "• Gen Crypto"
-        url: /discolog/crypto/gen-crypto/
+        url: "/discolog/crypto/gen-crypto/"
       - title: "• Bitcoin"
-        url: /discolog/crypto/bitcoin/
+        url: "/discolog/crypto/bitcoin/"
       - title: "• BTC Layer2"
-        url: /discolog/crypto/btc-layer2/
+        url: "/discolog/crypto/btc-layer2/"
       - title: "• B-Cash"
-        url: /discolog/crypto/bch/
+        url: "/discolog/crypto/bch/"
       - title: "• Bitshares"
-        url: /discolog/crypto/bitshares/
+        url: "/discolog/crypto/bitshares/"
       - title: "• Bytom"
-        url: /discolog/crypto/bytom/
+        url: "/discolog/crypto/bytom/"
       - title: "• Cardano"
-        url: /discolog/crypto/cardano/
+        url: "/discolog/crypto/cardano/"
       - title: "• Central Bank Digital Currency"
-        url: /discolog/crypto/central-bank-digital-currency/
+        url: "/discolog/crypto/central-bank-digital-currency/"
       - title: "• Cosmos"
-        url: /discolog/crypto/cosmos/
+        url: "/discolog/crypto/cosmos/"
       - title: "• DASH"
-        url: /discolog/crypto/dash/
+        url: "/discolog/crypto/dash/"
       - title: "• DOGE"
-        url: /discolog/crypto/doge/
+        url: "/discolog/crypto/doge/"
       - title: "• EOS"
-        url: /discolog/crypto/eos/
+        url: "/discolog/crypto/eos/"
       - title: "• ETC - Eth Classic"
-        url: /discolog/crypto/etc/
+        url: "/discolog/crypto/etc/"
       - title: "• Etcetera"
-        url: /discolog/crypto/etcetera/
+        url: "/discolog/crypto/etcetera/"
       - title: "• Ethereum"
-        url: /discolog/crypto/ethereum/
+        url: "/discolog/crypto/ethereum/"
       - title: "• ETH Layer 2"
-        url: /discolog/crypto/eth-layer2/
+        url: "/discolog/crypto/eth-layer2/"
       - title: "• Grin Mimble-Wimble"
-        url: /discolog/crypto/grin-mimblewimble/
+        url: "/discolog/crypto/grin-mimblewimble/"
       - title: "• Hashgraph"
-        url: /discolog/crypto/hashgraph/
+        url: "/discolog/crypto/hashgraph/"
       - title: "• IOT"
-        url: /discolog/crypto/iot/
+        url: "/discolog/crypto/iot/"
       - title: "• IOTA"
-        url: /discolog/crypto/iota/
+        url: "/discolog/crypto/iota/"
       - title: "• Litecoin"
-        url: /discolog/crypto/litecoin/
+        url: "/discolog/crypto/litecoin/"
       - title: "• Monero"
-        url: /discolog/crypto/monero/
+        url: "/discolog/crypto/monero/"
       - title: "• Nano"
-        url: /discolog/crypto/nano/
+        url: "/discolog/crypto/nano/"
       - title: "• NEO"
-        url: /discolog/crypto/neo/
+        url: "/discolog/crypto/neo/"
       - title: "• Ripple"
-        url: /discolog/crypto/ripple/
+        url: "/discolog/crypto/ripple/"
       - title: "• Stable Coins"
-        url: /discolog/crypto/stable-coins/
+        url: "/discolog/crypto/stable-coins/"
       - title: "• Steem"
-        url: /discolog/crypto/steem/
+        url: "/discolog/crypto/steem/"
       - title: "• Stellar"
-        url: /discolog/crypto/stellar/
+        url: "/discolog/crypto/stellar/"
       - title: "• Tezos"
-        url: /discolog/crypto/tezos/
+        url: "/discolog/crypto/tezos/"
       - title: "• Tron"
-        url: /discolog/crypto/tron/
+        url: "/discolog/crypto/tron/"
       - title: "• ZCash"
-        url: /discolog/crypto/zcash/
+        url: "/discolog/crypto/zcash/"
   - title: Enterprise
-    url: /discolog/enterprise/
+    url: "/discolog/enterprise/"
     children:
       - title: "• Enterprise - DLT"
-        url: /discolog/enterprise/enterprise-dlt/
+        url: "/discolog/enterprise/enterprise-dlt/"
       - title: "• Enterprise Ethereum"
-        url: /discolog/enterprise/ent-eth/
+        url: "/discolog/enterprise/ent-eth/"
       - title: "• Corda"
-        url: /discolog/enterprise/corda/
+        url: "/discolog/enterprise/corda/"
       - title: "• Hyperledger"
-        url: /discolog/enterprise/hyperledger/
+        url: "/discolog/enterprise/hyperledger/"
   - title: Consensus
-    url: /discolog/consensus/
+    url: "/discolog/consensus/"
     children:
       - title: "• Consensus"
-        url: /discolog/consensus/consensus/
+        url: "/discolog/consensus/consensus/"
       - title: "• PoW"
-        url: /discolog/consensus/pow/
+        url: "/discolog/consensus/pow/"
       - title: "• PoS"
-        url: /discolog/consensus/pos/
+        url: "/discolog/consensus/pos/"
       - title: "• Tendermint"
-        url: /discolog/consensus/tendermint/
+        url: "/discolog/consensus/tendermint/"
       - title: "• Eth-Consensus"
-        url: /discolog/consensus/eth-consensus/
+        url: "/discolog/consensus/eth-consensus/"
   - title: Security
-    url: /discolog/security/
+    url: "/discolog/security/"
     children:
       - title: "• Security"
-        url: /discolog/security/security/
+        url: "/discolog/security/security/"
       - title: "• Cryptography"
-        url: /discolog/security/cryptography/
+        url: "/discolog/security/cryptography/"
       - title: "• Privacy"
-        url: /discolog/security/privacy/
+        url: "/discolog/security/privacy/"
       - title: "• Cybersecurity"
-        url: /discolog/security/cybersecurity/
+        url: "/discolog/security/cybersecurity/"
       - title: "• Infosec"
-        url: /discolog/security/infosec/
+        url: "/discolog/security/infosec/"
       - title: "• Tor"
-        url: /discolog/security/tor/
+        url: "/discolog/security/tor/"
   - title: "Blockchain Tech"
-    url: /discolog/blockchain-tech/
+    url: "/discolog/blockchain-tech/"
     children:
       - title: "• Decentralization"
-        url: /discolog/blockchain-tech/decentralization/
+        url: "/discolog/blockchain-tech/decentralization/"
       - title: "• Forks"
-        url: /discolog/blockchain-tech/forks/
+        url: "/discolog/blockchain-tech/forks/"
       - title: "• Drivechains"
-        url: /discolog/blockchain-tech/drivechains/
+        url: "/discolog/blockchain-tech/drivechains/"
       - title: "• Hash Algos"
-        url: /discolog/blockchain-tech/hahs-algos/
+        url: "/discolog/blockchain-tech/hahs-algos/"
       - title: "• Interoperability"
-        url: /discolog/blockchain-tech/interoperability/
+        url: "/discolog/blockchain-tech/interoperability/"
       - title: "• Sharding"
-        url: /discolog/blockchain-tech/sharding/
+        url: "/discolog/blockchain-tech/sharding/"
       - title: "• Sidechains"
-        url: /discolog/blockchain-tech/sidechains/
+        url: "/discolog/blockchain-tech/sidechains/"
       - title: "• Smart Contracts"
-        url: /discolog/blockchain-tech/smart-contracts/
+        url: "/discolog/blockchain-tech/smart-contracts/"
       - title: "• Smart Signatures"
-        url: /discolog/blockchain-tech/smart-signatures/
+        url: "/discolog/blockchain-tech/smart-signatures/"
       - title: "• State Channels"
-        url: /discolog/blockchain-tech/state-channels/
+        url: "/discolog/blockchain-tech/state-channels/"
       - title: "• Ethresearch"
-        url: /discolog/blockchain-tech/ethresearch/
+        url: "/discolog/blockchain-tech/ethresearch/"
       - title: "• Master-Nodes"
-        url: /discolog/blockchain-tech/master-nodes/
+        url: "/discolog/blockchain-tech/master-nodes/"
   - title: Tech
-    url: /discolog/tech/
+    url: "/discolog/tech/"
     children:
       - title: "• Bit-Torrent"
-        url: /discolog/tech/bittorrent/
+        url: "/discolog/tech/bittorrent/"
       - title: "• Distributed Systems"
-        url: /discolog/tech/distributed-systems/
+        url: "/discolog/tech/distributed-systems/"
       - title: "• Internet Protocols"
-        url: /discolog/tech/internet-protocols/
+        url: "/discolog/tech/internet-protocols/"
       - title: "• P2P"
-        url: /discolog/tech/P2P/
+        url: "/discolog/tech/P2P/"
       - title: "• Identification"
-        url: /discolog/tech/identification/
+        url: "/discolog/tech/identification/"
       - title: "• Design"
-        url: /discolog/tech/design/
+        url: "/discolog/tech/design/"
   - title: Data
-    url: /discolog/data/
+    url: "/discolog/data/"
     children:
       - title: "• Data"
-        url: /discolog/data/data/
+        url: "/discolog/data/data/"
       - title: "• Data Mining"
-        url: /discolog/data/data-mining/
+        url: "/discolog/data/data-mining/"
       - title: "• Data Science"
-        url: /discolog/data/data-science/
+        url: "/discolog/data/data-science/"
       - title: "• Databases"
-        url: /discolog/data/databases/
+        url: "/discolog/data/databases/"
       - title: "• Quant Trading"
-        url: /discolog/data/quant-trading/
+        url: "/discolog/data/quant-trading/"
   - title: Development
-    url: /discolog/development/
+    url: "/discolog/development/"
     children:
       - title: "• Gen Development"
-        url: /discolog/development/gen-development/
+        url: "/discolog/development/gen-development/"
       - title: "• Blockchain Development"
-        url: /discolog/development/blockchain-development/
+        url: "/discolog/development/blockchain-development/"
       - title: "• Bitcoin Dev"
-        url: /discolog/development/bitcoin-dev/
+        url: "/discolog/development/bitcoin-dev/"
       - title: "• Cardano Dev"
-        url: /discolog/development/cardano-dev/
+        url: "/discolog/development/cardano-dev/"
       - title: "• Corda Dev"
-        url: /discolog/development/corda-dev/
+        url: "/discolog/development/corda-dev/"
       - title: "• Forking"
-        url: /discolog/development/forking/
+        url: "/discolog/development/forking/"
       - title: "• Ethereum Dev"
-        url: /discolog/development/ethereum-dev/
+        url: "/discolog/development/ethereum-dev/"
       - title: "• Hackathons"
-        url: /discolog/development/hackathons/
+        url: "/discolog/development/hackathons/"
       - title: "• Hyperledger Dev"
-        url: /discolog/development/hyperledger-dev/
+        url: "/discolog/development/hyperledger-dev/"
       - title: "• ID Dev"
-        url: /discolog/development/id-dev/
+        url: "/discolog/development/id-dev/"
       - title: "• Nano Dev"
-        url: /discolog/development/nano-dev/
+        url: "/discolog/development/nano-dev/"
       - title: "• Steem Dev"
-        url: /discolog/development/steem-dev/
+        url: "/discolog/development/steem-dev/"
       - title: "• Web Development"
-        url: /discolog/development/web-development/
+        url: "/discolog/development/web-development/"
   - title: "Web Work"
-    url: /discolog/web-work/
+    url: "/discolog/web-work/"
     children:
       - title: "• Web Work"
-        url: /discolog/web-work/web-work/
+        url: "/discolog/web-work/web-work/"
       - title: "• SEO Keyword Reserach"
-        url: /discolog/web-work/seo-keyword-research/
+        url: "/discolog/web-work/seo-keyword-research/"
       - title: "• Archive"
-        url: /discolog/web-work/archive/
+        url: "/discolog/web-work/archive/"
       - title: "• Content Creation"
-        url: /discolog/web-work/content-creation/
+        url: "/discolog/web-work/content-creation/"
       - title: "• Indieweb"
-        url: /discolog/web-work/indieweb/
+        url: "/discolog/web-work/indieweb/"
       - title: "• Kill Slack"
-        url: /discolog/web-work/kill-slack/
+        url: "/discolog/web-work/kill-slack/"
       - title: "• GitHub"
-        url: /discolog/tech/github/
+        url: "/discolog/tech/github/"
       - title: "• Linux"
-        url: /discolog/web-work/Linux/
+        url: "/discolog/web-work/Linux/"
       - title: "• Digital Nomad"
-        url: /discolog/web-work/digital-nomad/
+        url: "/discolog/web-work/digital-nomad/"
       - title: "• Open Source"
-        url: /discolog/web-work/open-source/
+        url: "/discolog/web-work/open-source/"
       - title: "• PI (as in Rasberry)"
-        url: /discolog/web-work/pi-rasberry/
+        url: "/discolog/web-work/pi-rasberry/"
       - title: "• IPFS"
-        url: /discolog/web-work/ipfs/
+        url: "/discolog/web-work/ipfs/"
       - title: "• Open Source Hardware"
-        url: /discolog/web-work/open-source-hardware/
+        url: "/discolog/web-work/open-source-hardware/"
   - title: Application
-    url: /discolog/application/
+    url: "/discolog/application/"
     children:
       - title: "• Art Collectibles"
-        url: /discolog/application/art-collectibles/
+        url: "/discolog/application/art-collectibles/"
       - title: "• Brave"
-        url: /discolog/application/brave/
+        url: "/discolog/application/brave/"
       - title: "• Criminal"
-        url: /discolog/application/criminal/
+        url: "/discolog/application/criminal/"
       - title: "• Crypto Self-Regulation"
-        url: /discolog/application/crypto-selfregulation/
+        url: "/discolog/application/crypto-selfregulation/"
       - title: "• DAO"
-        url: /discolog/application/dao/
+        url: "/discolog/application/dao/"
       - title: "• dApps"
-        url: /discolog/application/dapps/
+        url: "/discolog/application/dapps/"
       - title: "• Energy"
-        url: /discolog/application/energy/
+        url: "/discolog/application/energy/"
       - title: "• Fiat Onramp"
-        url: /discolog/application/fiat-onramp/
+        url: "/discolog/application/fiat-onramp/"
       - title: "• Finance"
-        url: /discolog/application/finance/
+        url: "/discolog/application/finance/"
       - title: "• Games"
-        url: /discolog/application/games/
+        url: "/discolog/application/games/"
       - title: "• Government"
-        url: /discolog/application/government/
+        url: "/discolog/application/government/"
       - title: "• Identity - DID"
-        url: /discolog/application/identity-did/
+        url: "/discolog/application/identity-did/"
       - title: "• Institutional Derivitives"
-        url: /discolog/application/institutional-derivitives/
+        url: "/discolog/application/institutional-derivitives/"
       - title: "• Intellectual Property"
-        url: /discolog/application/intellectual-property/
+        url: "/discolog/application/intellectual-property/"
       - title: "• Marketplaces"
-        url: /discolog/application/marketplaces/
+        url: "/discolog/application/marketplaces/"
       - title: "• Music"
-        url: /discolog/application/music/
+        url: "/discolog/application/music/"
       - title: "• Notary"
-        url: /discolog/application/notary/
+        url: "/discolog/application/notary/"
       - title: "• Oracles"
-        url: /discolog/application/oracles/
+        url: "/discolog/application/oracles/"
       - title: "• Payment Processing"
-        url: /discolog/application/payment-processing/
+        url: "/discolog/application/payment-processing/"
       - title: "• Protocols"
-        url: /discolog/application/protocols/
+        url: "/discolog/application/protocols/"
       - title: "• Publishing"
-        url: /discolog/application/publishing/
+        url: "/discolog/application/publishing/"
       - title: "• Security Tokens"
-        url: /discolog/application/security-tokens/
+        url: "/discolog/application/security-tokens/"
       - title: "• Services"
-        url: /discolog/application/services/
+        url: "/discolog/application/services/"
       - title: "• Social Media"
-        url: /discolog/application/social-media/
+        url: "/discolog/application/social-media/"
       - title: "• Supply Chain"
-        url: /discolog/application/supplychain/
+        url: "/discolog/application/supplychain/"
       - title: "• Traditional Finance"
-        url: /discolog/application/traditional-finance/
+        url: "/discolog/application/traditional-finance/"
       - title: "• United Nations"
-        url: /discolog/application/united-nations/
+        url: "/discolog/application/united-nations/"
       - title: "• Utility"
-        url: /discolog/application/utility/
+        url: "/discolog/application/utility/"
       - title: "• Voting"
-        url: /discolog/application/traditional-finance/ 
+        url: "/discolog/application/traditional-finance/ "
