@@ -21,12 +21,12 @@ rooturl                  : "https://infominer.id/SourceCrypto"
 title_separator          : "⧉ "
 name                     : "Infominer"
 description              : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
-url                      : https://infominer.id
+url                      : "http://127.0.0.1:4000"
 baseurl                  : "/SourceCrypto"
 repository               : "infominer33/SourceCrypto"
 github                   : [metadata]
 teaser                   : # /assets/images/500x300.png
-logo                     : "/assets/img/interlinked.png"
+logo                     : "https://infominer.id/SourceCrypto/assets/img/interlinked.png"
 masthead_title           : Research Index — Source ⧉ Crypto — Discord Chat.
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -172,9 +172,9 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
+  - /assets/js/plugins
+  - /assets/js/_main.js
+  - /assets/js/vendor
   - Capfile
   - CHANGELOG
   - config
@@ -486,7 +486,7 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
-    # _blockchain-tech
+    # _blockchaintech
   - scope:
       path: ""
       type: blockchaintech
@@ -551,7 +551,7 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
-    # _web-work
+    # _webwork
   - scope:
       path: ""
       type: webwork
