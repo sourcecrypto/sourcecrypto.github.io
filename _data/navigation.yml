@@ -214,6 +214,8 @@ sourcenav:
     children:
       - title: "• Enterprise / DLT"
         url: "/discolog/enterprise/enterprise-dlt/"
+      - title: "• Enterprise Ethereum"
+        url: "/discolog/enterprise/ent-eth/"
       - title: "• Corda"
         url: "/discolog/enterprise/corda/"
       - title: "• Hyperledger"
@@ -229,17 +231,19 @@ sourcenav:
       - title: "• Tendermint"
         url: "/discolog/consensus/tendermint/"
       - title: "• Eth-Consensus"
-        url: "/discolog/crypto/eth-consensus/"
+        url: "/discolog/consensus/eth-consensus/"
   - title: Security
     children:
       - title: "• Security"
-        url: "/discolog/consensus/security/"
+        url: "/discolog/security/security/"
       - title: "• Cryptography"
         url: "/discolog/security/cryptography/"
       - title: "• Privacy"
         url: "/discolog/security/privacy/"
       - title: "• Cybersecurity"
         url: "/discolog/security/cybersecurity/"
+      - title: "• Infosec"
+        url: "/discolog/security/infosec/"
       - title: "• Tor"
         url: "/discolog/security/tor/"
   - title: Blockchain Tech
