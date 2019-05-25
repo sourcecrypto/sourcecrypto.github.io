@@ -16,7 +16,6 @@ sidebar:
 toc: true
 permalink: /
 share: true
-last_modified_at: 2019-05-25T13:15:59-23:00
 
 ---
 
