@@ -326,7 +326,7 @@ sourcenav:
         url: "/discolog/development/steem-dev/"
       - title: "• Web Development"
         url: "/discolog/development/web-development/"
-  - title: Web Work
+  - title: "Web Work"
     children:
       - title: "• Web Work"
         url: "/discolog/web-work/web-work/"
@@ -693,7 +693,7 @@ discolog:
       - title: "• Internet Protocols"
         url: "/discolog/tech/internet-protocols/"
       - title: "• P2P"
-        url: "/discolog/tech/P2P/"
+        url: "/discolog/tech/p2p/"
       - title: "• Identification"
         url: "/discolog/tech/identification/"
       - title: "• Design"
@@ -738,7 +738,7 @@ discolog:
         url: "/discolog/development/steem-dev/"
       - title: "• Web Development"
         url: "/discolog/development/web-development/"
-  - title: Web Work
+  - title: "Web Work"
     children:
       - title: "• Web Work"
         url: "/discolog/web-work/web-work/"
