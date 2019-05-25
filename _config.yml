@@ -354,35 +354,35 @@ collections:
   data:
     title: Data
     description: tech tech tech
-    order: 7
+    order: 8
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   blockchaintech:
     title: Blockchain Technologies
     description: tech tech tech
-    order: 8
+    order: 9
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   development:
     title: Blockchain Development
     description: For Building Blocks and Chains of BLocks
-    order: 9
+    order: 10
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   application:
     title: Blockchain Applications 
     description: There are many... I try to avoid thinkikng about ICOs
-    order: 10
+    order: 11
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   webwork:
     title: Web-Work 
     description: Webwork.tools
-    order: 10
+    order: 12
     output: true
     permalink: /discolog/:collection/:path/
     share: true
