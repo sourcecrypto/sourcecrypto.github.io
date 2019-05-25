@@ -24,12 +24,6 @@ main:
     url: "https://infominer.id/"
 
 sourcedisco:
-  - title: SourceDisco
-    children:
-      - title: "• Sitemap"
-        url: "/sitemap/"
-      - title: "• Discord Index"
-        url: "/discolog/"
   - title: General
     url: "/discolog/general/"
     children:
