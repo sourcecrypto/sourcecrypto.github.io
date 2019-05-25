@@ -2,7 +2,7 @@
 main:
   - title: "Sitemap"
     url: /sitemap/
-  - title: "webwork.tools"
+  - title: "Webwork Tools"
     url: https://infominer.id/web-work
   - title: "IndieWeb"
     url: https://infominer.id/indieweb
@@ -22,7 +22,6 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "⧉InfoMine⧉"
     url: https://infominer.id/
-
 
 sourcedisco:
   - title: SourceDisco
