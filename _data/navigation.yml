@@ -246,7 +246,7 @@ sourcenav:
         url: "/discolog/security/infosec/"
       - title: "• Tor"
         url: "/discolog/security/tor/"
-  - title: Blockchain Tech
+  - title: "Blockchain Tech"
     children:
       - title: "• Decentralization"
         url: "/discolog/blockchain-tech/decentralization/"
@@ -658,7 +658,7 @@ discolog:
         url: "/discolog/security/cybersecurity/"
       - title: "• Tor"
         url: "/discolog/security/tor/"
-  - title: Blockchain Tech
+  - title: "Blockchain Tech"
     children:
       - title: "• Decentralization"
         url: "/discolog/blockchain-tech/decentralization/"
