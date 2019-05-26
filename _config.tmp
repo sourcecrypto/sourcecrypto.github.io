@@ -1,7 +1,3 @@
-  resources:
-    output: false
-    permalink: /discolog/:collection/:path/
-    share: true
   security:
     output: false
     permalink: /discolog/:collection/:path/
