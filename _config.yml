@@ -301,6 +301,11 @@ collections:
     output: true
     permalink: /discolog/:collection/:path/
     share: true
+  resources:
+    output: true
+    permalink: /discolog/:collection/:path/
+    share: true
+
 
 # Defaults
 defaults:
@@ -322,6 +327,19 @@ defaults:
   - scope:
       path: ""
       type: general
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+  # _resources
+  - scope:
+      path: ""
+      type: resources
     values:
       layout: single
       share: true

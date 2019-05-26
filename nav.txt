@@ -1,16 +1,4 @@
-    # _resources
-  - scope:
-      path: ""
-      type: resources
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
+
     # _crypto
   - scope:
       path: ""
