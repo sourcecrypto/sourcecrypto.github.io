@@ -14,8 +14,30 @@ share: true
 
 ---
 
+While I do intend to build sections for each channel, or most of them... being able to simply export the entire discord server and publish it is excellent, for the meantime.
+
+* [Discord Index](https://infominer.id/SourceCrypto/discolog/)
+  * [General](https://infominer.id/SourceCrypto/discolog/general/)
+  * [Resources](https://infominer.id/SourceCrypto/discolog/resources/)
+  * [Crypto](https://infominer.id/SourceCrypto/discolog/crypto/)
+  * [Blockchain-Tech](https://infominer.id/SourceCrypto/discolog/blockchain-tech/)
+  * [Tech](https://infominer.id/SourceCrypto/discolog/tech/)
+  * [Development](https://infominer.id/SourceCrypto/discolog/development/)
+  * [Enterprise](https://infominer.id/SourceCrypto/discolog/enterprise/)
+  * [Application](https://infominer.id/SourceCrypto/discolog/application/)
+  * [Web Work](https://infominer.id/SourceCrypto/discolog/web-work/)
+
+For now you can browse the entire index of channels at once, or one category at a time. On the website the entire directory nav is available in the sidebar.
+
+For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the discolog are in `discolog`, all the data is in `_data`.  
+
+Everything else is `minimal-mistakes`. pretty straightforward.
+
+## SourceCrypto
+
 **A discord server and web-portal for creating an open-source database of Crypto Knowledge.**
 
+![](https://infominer.id/SourceCrypto/images/source-crypto-gh-og.png)
 
 The Source Crypto discord server is a landing pad.. I drop links there on the fly, and the channels aren't perfectly organized, and maybe a few of the links are 100% the best ever... 
 
