@@ -17,7 +17,7 @@ share: true
 I just updated this index, because I knew there was a ton of value hidden away in the discord server. I can see, also, that these pages are showing up in search, and that folk are making use. YAY!  You may have noticed the navigation was broken for a day while updating... apparently Jekyll doesn't like more than 10 collections.
 {: .notice--success}
 
-While I do intend to build sections for each channel, or most of them... being able to simply export the entire discord server and publish it is excellent, for the meantime.
+While I do intend to build custom pages for most of these channels, being able to simply export the entire discord server and publish it is excellent.
 
 * [Discord Index](https://infominer.id/SourceCrypto/discolog/)
   * [General](https://infominer.id/SourceCrypto/discolog/general/)
@@ -30,7 +30,7 @@ While I do intend to build sections for each channel, or most of them... being a
   * [Application](https://infominer.id/SourceCrypto/discolog/application/)
   * [Web Work](https://infominer.id/SourceCrypto/discolog/web-work/)
 
-For now you can browse the entire index of channels at once, or one category at a time. On the website the entire directory nav is available in the sidebar.
+For now you can browse the entire index of channels at once, or one category at a time.
 
 For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the discolog are in `discolog`, all the data is in `_data`.  
 
