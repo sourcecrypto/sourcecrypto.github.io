@@ -14,6 +14,9 @@ share: true
 
 ---
 
+I just updated this index, because I knew there was a ton of value hidden away in the discord server. I can see, also, that these pages are showing up in search, and that folk are making use. YAY!  You may have noticed the navigation was broken for a day while updating... apparently Jekyll doesn't like more than 10 collections.
+{: .notice--success}
+
 While I do intend to build sections for each channel, or most of them... being able to simply export the entire discord server and publish it is excellent, for the meantime.
 
 * [Discord Index](https://infominer.id/SourceCrypto/discolog/)
