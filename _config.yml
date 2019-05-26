@@ -298,7 +298,7 @@ compress_html:
 collections_dir: discolog
 collections:
   general:
-    output: false
+    output: true
     permalink: /discolog/:collection/:path/
     share: true
 
