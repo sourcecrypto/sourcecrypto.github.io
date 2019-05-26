@@ -2,10 +2,6 @@
     output: false
     permalink: /discolog/:collection/:path/
     share: true
-  crypto:
-    output: false
-    permalink: /discolog/:collection/:path/
-    share: true
   enterprise:
     output: false
     permalink: /discolog/:collection/:path/
