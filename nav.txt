@@ -24,19 +24,6 @@
         nav: "sourcedisco"
       classes: wide
       disco: true
-    # _consensus
-  - scope:
-      path: ""
-      type: consensus
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
     # _blockchaintech
   - scope:
       path: ""

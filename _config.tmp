@@ -6,10 +6,6 @@
     output: false
     permalink: /discolog/:collection/:path/
     share: true
-  consensus:
-    output: false
-    permalink: /discolog/:collection/:path/
-    share: true
   tech:
     output: false
     permalink: /discolog/:collection/:path/
