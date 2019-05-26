@@ -1,4 +1,3 @@
-**Collecting and Cataloging Quality\Valuable Information, in conjunction with the SuperSource Discord chat.**
 
 While I do intend to build sections for each channel, or most of them... being able to simply export the entire discord server and publish it is excellent, for the meantime.
 
@@ -6,8 +5,8 @@ While I do intend to build sections for each channel, or most of them... being a
   * [General](https://infominer.id/SourceCrypto/discolog/general/)
   * [Resources](https://infominer.id/SourceCrypto/discolog/resources/)
   * [Crypto](https://infominer.id/SourceCrypto/discolog/crypto/)
-  * [Blockchain-Tech](https://infominer.id/SourceCrypto/discolog/blockchain-tech/)
   * [Tech](https://infominer.id/SourceCrypto/discolog/tech/)
+  * [Blockchain Tech](https://infominer.id/SourceCrypto/discolog/blockchain-tech/)
   * [Development](https://infominer.id/SourceCrypto/discolog/development/)
   * [Enterprise](https://infominer.id/SourceCrypto/discolog/enterprise/)
   * [Application](https://infominer.id/SourceCrypto/discolog/application/)
@@ -15,26 +14,25 @@ While I do intend to build sections for each channel, or most of them... being a
 
 For now you can browse the entire index of channels at once, or one category at a time. On the website the entire directory nav is available in the sidebar.
 
-
 For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the discolog are in `discolog`, all the data is in `_data`.  
 
 Everything else is `minimal-mistakes`. pretty straightforward.
 
+## SourceCrypto
+
+**A discord server and web-portal for creating an open-source database of Crypto Knowledge.**
 
 ![](https://infominer.id/SourceCrypto/images/source-crypto-gh-og.png)
 
-## SourceCrypto
+The Source Crypto discord server is a landing pad.. I drop links there on the fly, and the channels aren't perfectly organized, and maybe a few of the links are 100% the best ever... 
 
-Source Crypto discord is a landing pad.. I drop links there on the fly, so those pages are not organized well, and maybe not all the links are 100% the best ever... Next will be to systematically go through and start building better, more organized resources built and driven by research.
+The next, and gradual step, will be to systematically build better, more organized web-resources using the sources gathered as a starting point.
 
-The aim is to create a repository of information, generally mapping out the history and knowledge related to Bitcoin\blockchain.
+The aim is to generally map out the history and knowledge related to Bitcoin\blockchain.
 
-So little by little, we'll map out the ecosystem of information around blockchain and cryptocurrencies, and those un-organized pages will grow to become each a formidible resource of its own.
+So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
 
-The great thing is that gh-pages\jekyll are designed to generate content based upon structured data. So I'm a lot closer to the dream of creating a reasonably complete repository of knowledge related to crypto.
-
-
-![](https://infominer.id/SourceCrypto/images/Square-Crypto.png)
+{% include video id="bxUDZzUJk_A" provider="youtube" %}
 
 ## A Machine Readable Repository on Every Subject In Crypto.
 
@@ -44,28 +42,37 @@ The great thing is that gh-pages\jekyll are designed to generate content based u
 
 Previously, I was putting information in TOML format. Then, after I started to learn GitHub pages, and working with some other people on a similar project for Decentralized Identity, I realized that GitHub Pages \ Jekyll have built-in support for yaml, csv, and json... so, yaml is nice and we'll go with that. 
 
-Recently, I found [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter/issues/75) which quickly turned the entire contents of Source Crypto Discord Server into 170+ html files. 
+Recently, I found [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter/) which quickly turned the entire contents of Source Crypto Discord Server into 170+ html files. 
 
-Then, I used minimal-mistakes collections feature to quickly publish the lot of them, using VSCode to easily edit all of the files at the same time.
+If you're using linux, like me... you just have to make it's .exe executable and run it from the terminal, like so: `./DiscordChatExporter.CLI.exe`.
 
- That was a super quick and dirty way to get all that content up here on the web where anyone can access it more easily.
+I also used a bulk-renaming tool, and Regex.. those are both great tools, and Regex isn't limited to one particular app, but used all over.
+
+Then, I used minimal-mistakes collections feature to quickly publish the lot of them, using VSCode to easily edit all of the files at the same time. 
+
+I cut out the head of each of the files and injected the css to be applied to those pages.
+
+[![](https://imgur.com/zLF17fAl.png)](https://imgur.com/zLF17fA.png)
+
+That's super quick, and not so dirty, way to get all that content up here on the web where anyone can access it more easily.
 
 
-* [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto/_data/toml) -  Now I have a few complete and proper toml files converted to json that I can use to experiment with generating pages - listing by title, tag, and incorporating search functionality, or perhaps filter by user-input.
+* [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto) -  Now I have a few complete and proper toml files converted to json that I can use to experiment with generating pages - listing by title, tag, and incorporating search functionality, or perhaps filter by user-input.
 
 I'm looking into ways to take a list of links and pull title description image automatically into yaml or json, and pages can be generated with jekyll.
 
 Further down the line, each subject area will become the focus of its own landing page with well researched information, building with and from the structured data. Compared to currently we've got whatever I've happened upon in my travels of the web, with some contributions from the community, with a focus on history and identity. 
 
-* [GitHub Pages Starter Pack](https://infominer.id/gh-pages-starter-pack.html)
+* [GitHub Pages Starter Pack](https://infominer.id/web-work/gh-pages-starter-pack/)
 * [Minimal Mistakes Quickstart Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 
 ![](https://i.imgur.com/pYydLx7.png)
 
-I didn't exactly plan for things to work as they have, but everything I've been doing has naturally built upon what I've been working towards, and it's all coming together nicely. 
-
 <b><a href="https://discord.gg/ahTuPMY" target="_blank">discord.gg/ahTuPMY</a></b>
+
+
+![](https://infominer.id/SourceCrypto/images/interlinked.png)
 
 ## Tagging
 
@@ -74,20 +81,5 @@ I didn't exactly plan for things to work as they have, but everything I've been 
 @MaciekLaskus suggested:
 >this is very interesting, but I think you're making a fundamental mistake with tagging this by topics
 >
->what's really missing is tagging all of these resources by authors, co-authors, references/citations
->
-> Maciek (April NYC & SF; May LA)
- once this is done, topical tags can be derived algorithmically
+>what's really missing is tagging all of these resources by authors, co-authors, references/citations once this is done, topical tags can be derived algorithmically
 * [Enabling Author-Centric Ranking of Web Content](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.8960&rep=rep1&type=pdf)
-
-## <a href="https://infominer.id/SourceCrypto">infominer.id/SourceCrypto</a>
-
-## Tips Jar 
-
-BTC— 1GvkjHtiy9LUjVkStnEAXxjhcoS56aCokY
-
-![](https://imgur.com/yXLLm9Bl.png) 
-
-DOGE— DQKkzfJjqnXUD8Z7C3e84vKzvghPe9dXSa
-
-<img src="https://imgur.com/z316u0c.png" width="150"> 
