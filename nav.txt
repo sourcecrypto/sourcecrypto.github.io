@@ -1,3 +1,161 @@
+  # _general
+  - scope:
+      path: ""
+      type: general
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _resources
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _crypto
+  - scope:
+      path: ""
+      type: crypto
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _enterprise
+  - scope:
+      path: ""
+      type: enterprise
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _security
+  - scope:
+      path: ""
+      type: security
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _consensus
+  - scope:
+      path: ""
+      type: consensus
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _blockchaintech
+  - scope:
+      path: ""
+      type: blockchaintech
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _tech
+  - scope:
+      path: ""
+      type: tech
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _development
+  - scope:
+      path: ""
+      type: development
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _application
+  - scope:
+      path: ""
+      type: application
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _data
+  - scope:
+      path: ""
+      type: data
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _webwork
+  - scope:
+      path: ""
+      type: webwork
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+
+
 
 sourcedisco:
   - title: "General"

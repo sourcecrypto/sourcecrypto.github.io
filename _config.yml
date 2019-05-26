@@ -17,8 +17,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 title                    : "Source Crypto"
-rooturl                  : "https://infominer.id/SourceCrypto"
-title_separator          : "⧉ "
+title_separator          : "-"
 name                     : "Infominer"
 description              : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
 url                      : "https://infominer.id"
@@ -31,11 +30,19 @@ masthead_title           : Research Index — Source ⧉ Crypto — Discord Chat
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "information-discovery"
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -58,10 +65,14 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true
-search_full_content      : # true
-search_provider          : lunr
-
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
@@ -72,15 +83,12 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
+# Social Sharing
 twitter:
   username               : infominer33
   title                  : "Source ⧉ Crypto"
   description            : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
   image                  : "https://infominer.id/SourceCrypto/assets/img/Square-Crypto.png"
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
 og_image                 : "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-og.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -96,15 +104,10 @@ analytics:
     tracking_id          : UA-132558656-1
     anonymize_ip         : # true, false (default)
 
-author:
-  name:                
-  email:               
-  twitter:             infominer33
-
 # Site Author
 author:
   name             : "⧉ Infominer"
-  avatar           : "/assets/img/bio-photo2.jpg"
+  avatar           : "https://infominer.id/SourceCrypto/assets/img/bio-photo2.jpg"
   links:
     - label: "Inf⧉Mine"
       icon: "fa fa-fw fa-cube"
@@ -161,9 +164,6 @@ footer:
 include:
   - .htaccess
   - _pages
-  - discolog
-  - _posts
-  - toml
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -172,9 +172,9 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - /assets/js/plugins
-  - /assets/js/_main.js
-  - /assets/js/vendor
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
   - Capfile
   - CHANGELOG
   - config
@@ -238,8 +238,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-mentions
@@ -255,8 +253,6 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-mentions
@@ -303,79 +299,54 @@ compress_html:
 collections_dir: discolog
 collections:
   general:
-    title: General Knowledge
-    description: For information broadly related to all cryptocurrency and blockchain.
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   resources:
-    title: Resources Channels
-    descrioption: For collections of resources.
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   security:
-    title: Security
-    description: Channels related to Security
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   crypto:
-    title: Crypto(currency) 
-    description: For cryptocurrencies, and popular cryptographyic systems
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   enterprise:
-    title: Enterprise Tech
-    description: For institutional use of Blockchain whether public or private chains.
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   consensus:
-    title: Blockchain Consensus
-    description: PoW, PoS, PoEverything Else
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   tech:
-    title: Technical Stuff
-    description: tech tech tech
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   data:
-    title: Data
-    description: tech tech tech
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   blockchaintech:
-    title: "Blockchain Technologies"
-    description: tech tech tech
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   development:
-    title: "Blockchain Development"
-    description: For Building Blocks and Chains of BLocks
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   application:
-    title: "Blockchain Applications"
-    description: There are many... I try to avoid thinkikng about ICOs
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   webwork:
-    title: "Web-Work" 
-    description: "Webwork.tools"
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   
-
 # Defaults
 defaults:
   # _posts
@@ -384,9 +355,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: # true
-      read_time: # true
-      comments: true
+      author_profile: true
+      read_time: true
+      comments: # true
       share: true
       related: true
       sidebar:
@@ -395,159 +366,3 @@ defaults:
       toc_label   : "Contents"
       toc_icon    : "link"
       toc_sticky  : true
-  # _general
-  - scope:
-      path: ""
-      type: general
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-    # _resources
-  - scope:
-      path: ""
-      type: resources
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-    # _crypto
-  - scope:
-      path: ""
-      type: crypto
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-    # _enterprise
-  - scope:
-      path: ""
-      type: enterprise
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-    # _security
-  - scope:
-      path: ""
-      type: security
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-    # _consensus
-  - scope:
-      path: ""
-      type: consensus
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-    # _blockchaintech
-  - scope:
-      path: ""
-      type: blockchaintech
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-    # _tech
-  - scope:
-      path: ""
-      type: tech
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-    # _development
-  - scope:
-      path: ""
-      type: development
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-    # _application
-  - scope:
-      path: ""
-      type: application
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-    # _data
-  - scope:
-      path: ""
-      type: data
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-    # _webwork
-  - scope:
-      path: ""
-      type: webwork
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
