@@ -314,7 +314,7 @@ collections:
     permalink: /discolog/:collection/:path/
     share: true
   blockchaintech:
-    output: false
+    output: true
     permalink: /discolog/blockchain-tech/:path/
     share: true
 
