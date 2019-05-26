@@ -25,7 +25,7 @@ baseurl                  : "/SourceCrypto"
 repository               : "infominer33/SourceCrypto"
 github                   : [metadata]
 teaser                   : # /assets/images/500x300.png
-logo                     : "https://infominer.id/SourceCrypto/assets/img/interlinked.png"
+logo                     : "https://infominer.id/SourceCrypto/images/interlinked.png"
 masthead_title           : Research Index — Source ⧉ Crypto — Discord Chat.
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -88,8 +88,8 @@ twitter:
   username               : infominer33
   title                  : "Source ⧉ Crypto"
   description            : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
-  image                  : "https://infominer.id/SourceCrypto/assets/img/Square-Crypto.png"
-og_image                 : "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-og.png"
+  image                  : "https://infominer.id/SourceCrypto/images/Square-Crypto.png"
+og_image                 : "https://infominer.id/SourceCrypto/images/Source-Crypto-og.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "⧉ Infominer"
-  avatar           : "https://infominer.id/SourceCrypto/assets/img/bio-photo2.jpg"
+  avatar           : "https://infominer.id/SourceCrypto/images/bio-photo2.jpg"
   links:
     - label: "Inf⧉Mine"
       icon: "fa fa-fw fa-cube"
