@@ -313,6 +313,10 @@ collections:
     output: true
     permalink: /discolog/:collection/:path/
     share: true
+  blockchaintech:
+    output: false
+    permalink: /discolog/blockchain-tech/:path/
+    share: true
 
 
 # Defaults

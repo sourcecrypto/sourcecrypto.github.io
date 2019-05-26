@@ -14,10 +14,6 @@
     output: false
     permalink: /discolog/:collection/:path/
     share: true
-  blockchaintech:
-    output: false
-    permalink: /discolog/:collection/:path/
-    share: true
   development:
     output: false
     permalink: /discolog/:collection/:path/
