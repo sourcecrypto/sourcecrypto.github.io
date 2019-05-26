@@ -25,6 +25,15 @@ main:
 
 
 sourcedisco:
+  - title: "Index"
+    url: /discolog/
+    children:
+      - title: "Infomine"
+        url: "https://infominer.id/"
+      - title: "About"
+        url: "https://infominer.id/about/"
+      - title: "Web-Work"
+        url: "https://infominer.id/web-work/"
   - title: "General"
     url: "/discolog/general/"
     children:
