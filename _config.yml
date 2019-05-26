@@ -374,10 +374,10 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
-    # _consensus
+    # _blockchaintech
   - scope:
       path: ""
-      type: consensus
+      type: blockchaintech
     values:
       layout: single
       share: true
