@@ -6,11 +6,12 @@ While I do intend to build sections for each channel, or most of them... being a
   * [General](https://infominer.id/SourceCrypto/discolog/general/)
   * [Resources](https://infominer.id/SourceCrypto/discolog/resources/)
   * [Crypto](https://infominer.id/SourceCrypto/discolog/crypto/)
+  * [Blockchain-Tech](https://infominer.id/SourceCrypto/discolog/blockchain-tech/)
   * [Tech](https://infominer.id/SourceCrypto/discolog/tech/)
-  * [Privacy](https://infominer.id/SourceCrypto/discolog/privacy/)
-  * [Consensus](https://infominer.id/SourceCrypto/discolog/consensus/)
   * [Development](https://infominer.id/SourceCrypto/discolog/development/)
+  * [Enterprise](https://infominer.id/SourceCrypto/discolog/enterprise/)
   * [Application](https://infominer.id/SourceCrypto/discolog/application/)
+  * [Web Work](https://infominer.id/SourceCrypto/discolog/web-work/)
 
 For now you can browse the entire index of channels at once, or one category at a time. On the website the entire directory nav is available in the sidebar.
 
