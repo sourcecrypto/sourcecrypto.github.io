@@ -296,8 +296,6 @@ sourcedisco:
         url: "/discolog/development/nano-dev/"
       - title: "• Steem Dev"
         url: "/discolog/development/steem-dev/"
-      - title: "• Web Development"
-        url: "/discolog/development/web-development/"
   - title: "Web Work"
     url: "/discolog/web-work/"
     children:
@@ -327,6 +325,8 @@ sourcedisco:
         url: "/discolog/web-work/ipfs/"
       - title: "• SEO Keyword Research"
         url: "/discolog/web-work/seo-keyword-reserach/"
+      - title: "• Web Development"
+        url: "/discolog/web-work/web-development/"
   - title: "Application"
     url: "/discolog/application/"
     children:
