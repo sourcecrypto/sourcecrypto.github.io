@@ -294,3 +294,40 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections_dir: discolog
+collections:
+  general:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      toc: true
+  # _general
+  - scope:
+      path: ""
+      type: general
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true

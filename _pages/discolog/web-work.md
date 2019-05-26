@@ -1,7 +1,7 @@
 ---
 title: "SourceDisco -Applications"
 layout: collection
-permalink: "/discolog/webwork/"
+permalink: /discolog/webwork/
 collection: webwork
 entries_layout: grid
 classes: wide

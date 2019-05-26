@@ -1,16 +1,3 @@
-  # _general
-  - scope:
-      path: ""
-      type: general
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
     # _resources
   - scope:
       path: ""

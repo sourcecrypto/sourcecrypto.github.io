@@ -1,7 +1,7 @@
 ---
 title: "SourceDisco -Data"
 layout: collection
-permalink: "/discolog/data/"
+permalink: /discolog/data/
 collection: data
 entries_layout: grid
 classes: wide
