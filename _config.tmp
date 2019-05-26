@@ -1,3 +1,75 @@
+
+# Collections
+collections_dir: discolog
+collections:
+  general:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  resources:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  security:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  crypto:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  enterprise:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  consensus:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  tech:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  data:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  blockchaintech:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  development:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  application:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  webwork:
+    output: false
+    permalink: /discolog/:collection/:path/
+    share: true
+  
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      toc: true
+
+
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
