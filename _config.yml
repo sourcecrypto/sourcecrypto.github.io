@@ -309,6 +309,10 @@ collections:
     output: true
     permalink: /discolog/:collection/:path/
     share: true
+  consensus:
+    output: true
+    permalink: /discolog/:collection/:path/
+    share: true
 
 
 # Defaults
@@ -357,6 +361,19 @@ defaults:
   - scope:
       path: ""
       type: crypto
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+    # _consensus
+  - scope:
+      path: ""
+      type: consensus
     values:
       layout: single
       share: true
