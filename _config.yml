@@ -306,88 +306,75 @@ collections:
     title: General Knowledge
     description: For information broadly related to all cryptocurrency and blockchain.
     output: true
-    order: 1
     permalink: /discolog/:collection/:path/
     share: true
   resources:
     title: Resources Channels
     descrioption: For collections of resources.
-    order: 2
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   security:
     title: Security
     description: Channels related to Security
-    order: 3
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   crypto:
     title: Crypto(currency) 
     description: For cryptocurrencies, and popular cryptographyic systems
-    order: 4
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   enterprise:
     title: Enterprise Tech
     description: For institutional use of Blockchain whether public or private chains.
-    order: 5
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   consensus:
     title: Blockchain Consensus
     description: PoW, PoS, PoEverything Else
-    order: 6
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   tech:
     title: Technical Stuff
     description: tech tech tech
-    order: 7
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   data:
     title: Data
     description: tech tech tech
-    order: 8
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   blockchaintech:
-    title: Blockchain Technologies
+    title: "Blockchain Technologies"
     description: tech tech tech
-    order: 9
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /discolog/blockchain-tech/:path/
     share: true
   development:
-    title: Blockchain Development
+    title: "Blockchain Development"
     description: For Building Blocks and Chains of BLocks
-    order: 10
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   application:
-    title: Blockchain Applications 
+    title: "Blockchain Applications"
     description: There are many... I try to avoid thinkikng about ICOs
-    order: 11
     output: true
     permalink: /discolog/:collection/:path/
     share: true
   webwork:
     title: Web-Work 
-    description: Webwork.tools
-    order: 12
+    description: "Webwork.tools"
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /discolog/web-work/:path/
     share: true
   
-
 
 # Defaults
 defaults:
