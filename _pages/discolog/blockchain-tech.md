@@ -1,7 +1,7 @@
 ---
 title: "SourceDisco -Blockchain Tech"
 layout: collection
-permalink: "/discolog/blockchain-tech/"
+permalink: "/discolog/blockchaintech/"
 collection: blockchaintech
 entries_layout: grid
 classes: wide
