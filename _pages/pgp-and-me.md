@@ -9,6 +9,8 @@ sidebar:
 share: true
 permalink: pgp-and-me/
 redirect_from: practical/index.html
+redirect_to: https://infominer.id/web-work/practical-pgp/
+
 ---
 
 ```
