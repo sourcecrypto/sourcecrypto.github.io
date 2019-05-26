@@ -2,7 +2,7 @@
 layout: single
 title: Chain Link
 header: 
-  image: "https://infominer.id/SourceCrypto/assets/img/chainlink.png"
+  image: "https://infominer.id/SourceCrypto/images/chainlink.png"
 sidebar:
   nav: sourcedisco 
 toc: true

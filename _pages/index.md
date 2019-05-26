@@ -3,8 +3,8 @@ layout: single
 title: Research-Index
 description: Building an Open-Source Database of Crypto Knowledge.
 header:
-  image: "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-banner.png"
-  og_image: "https://infominer.id/SourceCrypto/assets/img/Source-Crypto-og.png"
+  image: "https://infominer.id/SourceCrypto/images/Source-Crypto-banner.png"
+  og_image: "https://infominer.id/SourceCrypto/images/Source-Crypto-og.png"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 sidebar:
   nav: sourcedisco 
@@ -65,7 +65,7 @@ Further down the line, each subject area will become the focus of its own landin
 <b><a href="https://discord.gg/ahTuPMY" target="_blank">discord.gg/ahTuPMY</a></b>
 
 
-![](https://infominer.id/SourceCrypto/assets/img/interlinked.png){: .align-center}
+![](https://infominer.id/SourceCrypto/images/interlinked.png){: .align-center}
 
 
 ## Tagging
