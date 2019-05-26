@@ -354,7 +354,7 @@ collections:
     title: "Blockchain Technologies"
     description: tech tech tech
     output: true
-    permalink: /discolog/blockchain-tech/:path/
+    permalink: /discolog/:collection/:path/
     share: true
   development:
     title: "Blockchain Development"
@@ -369,10 +369,10 @@ collections:
     permalink: /discolog/:collection/:path/
     share: true
   webwork:
-    title: Web-Work 
+    title: "Web-Work" 
     description: "Webwork.tools"
     output: true
-    permalink: /discolog/web-work/:path/
+    permalink: /discolog/:collection/:path/
     share: true
   
 
