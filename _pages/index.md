@@ -19,6 +19,9 @@ I just updated this index, because I knew there was a ton of value hidden away i
 
 While I do intend to build custom pages for most of these channels, being able to simply export the entire discord server and publish it is excellent.
 
+## SourceCrypto
+
+**[discord.gg/ahTuPMY](https://discord.gg/ahTuPMY)**
 * [Discord Index](https://infominer.id/SourceCrypto/discolog/)
   * [General](https://infominer.id/SourceCrypto/discolog/general/)
   * [Resources](https://infominer.id/SourceCrypto/discolog/resources/)
@@ -36,9 +39,9 @@ For those who would like to browse from GitHub, all the pages are in `_pages`, a
 
 Everything else is `minimal-mistakes`. pretty straightforward.
 
-## SourceCrypto
+## Open-Source Index of Crypto Knowledge
 
-**A discord server and web-portal for creating an open-source database of Crypto Knowledge.**
+**A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge.**
 
 ![](https://infominer.id/SourceCrypto/images/source-crypto-gh-og.png)
 
@@ -87,7 +90,8 @@ Further down the line, each subject area will become the focus of its own landin
 
 ![](https://i.imgur.com/pYydLx7.png)
 
-<b><a href="https://discord.gg/ahTuPMY" target="_blank">discord.gg/ahTuPMY</a></b>
+## [discord.gg/ahTuPMY](https://discord.gg/ahTuPMY)
+
 
 
 ![](https://infominer.id/SourceCrypto/images/interlinked.png){: .align-center}
@@ -97,7 +101,7 @@ Further down the line, each subject area will become the focus of its own landin
 
 [tag-definitions.md](/tag-definitions/) is where I was working on my idea of tagging.
 
-@MaciekLaskus suggested:
+@MaciekLaskus suggests:
 >this is very interesting, but I think you're making a fundamental mistake with tagging this by topics
 >
 >what's really missing is tagging all of these resources by authors, co-authors, references/citations once this is done, topical tags can be derived algorithmically
