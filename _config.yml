@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 title                    : "Source Crypto"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Infominer"
 description              : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
 url                      : "https://infominer.id"
