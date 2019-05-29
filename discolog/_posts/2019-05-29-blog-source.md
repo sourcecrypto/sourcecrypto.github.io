@@ -8,10 +8,10 @@ header:
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 sidebar:
   nav: sourcedisco 
-toc: true
+toc: false
 permalink: welcome-blog-feed/
 share: true
-
+classes: wide
 ---
 
 It's safe to say that I'm testing the limits of the Minimal Mistakes theme, here.
