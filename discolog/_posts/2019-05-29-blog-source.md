@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Research-Index
+title: Testing out the Blog Feed.
 description: An Open-Source Index of Crypto Knowledge.
 header:
   image: "https://infominer.id/SourceCrypto/images/source-crypto-gh-og.png"
