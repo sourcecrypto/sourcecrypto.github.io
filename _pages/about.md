@@ -9,10 +9,25 @@ header:
 sidebar:
   nav: sourcedisco 
 toc: true
-permalink: source-crypto-index/
+permalink: /
 share: true
 
 ---
+
+**A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge.**
+
+The Source Crypto discord server is a landing pad.. I drop links there on the fly, and the channels aren't perfectly organized, and maybe a few of the links are 100% the best ever... 
+
+The next, and gradual step, will be to systematically build better, more organized web-resources using the sources gathered as a starting point.
+
+The aim is to generally map out the history and knowledge related to Bitcoin\blockchain.
+
+There is so much to learn about, I mostly manage to avoid thinking about scammy stuff and icos, and really whatever you are hyped about, I probably don't care. So the application section is in rough shape.. I don't spend a lot of time there. Tech, History, Webwork. I care about real web technologies.
+
+So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
+
+{% include video id="bxUDZzUJk_A" provider="youtube" %}
+
 
 While I do intend to build custom pages for most of these channels, being able to simply export the entire discord server and publish it is excellent.
 
@@ -36,21 +51,6 @@ For those who would like to browse from GitHub, all the pages are in `_pages`, a
 
 Everything else is `minimal-mistakes`. pretty straightforward.
 
-## Open-Source Index of Crypto Knowledge
-
-**A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge.**
-
-![](https://infominer.id/SourceCrypto/images/source-crypto-gh-og.png)
-
-The Source Crypto discord server is a landing pad.. I drop links there on the fly, and the channels aren't perfectly organized, and maybe a few of the links are 100% the best ever... 
-
-The next, and gradual step, will be to systematically build better, more organized web-resources using the sources gathered as a starting point.
-
-The aim is to generally map out the history and knowledge related to Bitcoin\blockchain.
-
-So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
-
-{% include video id="bxUDZzUJk_A" provider="youtube" %}
 
 ## A Machine Readable Repository on Every Subject In Crypto.
 

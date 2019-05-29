@@ -1,7 +1,7 @@
 ---
-layout: home
+layout: archive
 author_profile: true
-permalink: '/'
+permalink: 'blog/'
 sidebar:
   nav: sourcedisco 
 header:
@@ -10,5 +10,5 @@ header:
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 share: true
 last_modified_at: 2019-05-28T11:22:33-23:00
-  
+published: false
 ---
