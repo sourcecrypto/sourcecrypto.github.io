@@ -1,16 +1,16 @@
 
 While I do intend to build sections for each channel, or most of them... being able to simply export the entire discord server and publish it is excellent, for the meantime.
 
-* [Discord Index](https://infominer.id/SourceCrypto/discolog/)
-  * [General](https://infominer.id/SourceCrypto/discolog/general/)
-  * [Resources](https://infominer.id/SourceCrypto/discolog/resources/)
-  * [Crypto](https://infominer.id/SourceCrypto/discolog/crypto/)
-  * [Tech](https://infominer.id/SourceCrypto/discolog/tech/)
-  * [Blockchain Tech](https://infominer.id/SourceCrypto/discolog/blockchain-tech/)
-  * [Development](https://infominer.id/SourceCrypto/discolog/development/)
-  * [Enterprise](https://infominer.id/SourceCrypto/discolog/enterprise/)
-  * [Application](https://infominer.id/SourceCrypto/discolog/application/)
-  * [Web Work](https://infominer.id/SourceCrypto/discolog/web-work/)
+* [Discord Index](https://SourceCrypto.pub/discolog/)
+  * [General](https://SourceCrypto.pub/discolog/general/)
+  * [Resources](https://SourceCrypto.pub/discolog/resources/)
+  * [Crypto](https://SourceCrypto.pub/discolog/crypto/)
+  * [Tech](https://SourceCrypto.pub/discolog/tech/)
+  * [Blockchain Tech](https://SourceCrypto.pub/discolog/blockchain-tech/)
+  * [Development](https://SourceCrypto.pub/discolog/development/)
+  * [Enterprise](https://SourceCrypto.pub/discolog/enterprise/)
+  * [Application](https://SourceCrypto.pub/discolog/application/)
+  * [Web Work](https://SourceCrypto.pub/discolog/web-work/)
 
 For now you can browse the entire index of channels at once, or one category at a time. On the website the entire directory nav is available in the sidebar.
 
@@ -22,7 +22,7 @@ Everything else is `minimal-mistakes`. pretty straightforward.
 
 **A discord server and web-portal for creating an open-source database of Crypto Knowledge.**
 
-![](https://infominer.id/SourceCrypto/images/source-crypto-gh-og.png)
+![](https://SourceCrypto.pub/images/source-crypto-gh-og.png)
 
 The Source Crypto discord server is a landing pad.. I drop links there on the fly, and the channels aren't perfectly organized, and maybe a few of the links are 100% the best ever... 
 
@@ -72,7 +72,7 @@ Further down the line, each subject area will become the focus of its own landin
 <b><a href="https://discord.gg/ahTuPMY" target="_blank">discord.gg/ahTuPMY</a></b>
 
 
-![](https://infominer.id/SourceCrypto/images/interlinked.png)
+![](https://SourceCrypto.pub/images/interlinked.png)
 
 ## Tagging
 

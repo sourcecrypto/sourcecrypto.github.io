@@ -21,7 +21,7 @@ title_separator          : "|"
 name                     : "Infominer"
 description              : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
 url                      : "https://sourcecrypto.pub"
-baseurl                  : "/"
+baseurl                  : ""
 repository               : "infominer33/SourceCrypto"
 github                   : [metadata]
 teaser                   : # /assets/images/500x300.png
@@ -88,8 +88,8 @@ twitter:
   username               : infominer33
   title                  : "Source ⧉ Crypto"
   description            : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
-  image                  : "https://infominer.id/SourceCrypto/images/Square-Crypto.png"
-og_image                 : "https://infominer.id/SourceCrypto/images/Source-Crypto-og.png"
+  image                  : "https://SourceCrypto.pub/images/Square-Crypto.png"
+og_image                 : "https://SourceCrypto.pub/images/Source-Crypto-og.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "⧉ Infominer"
-  avatar           : "https://infominer.id/SourceCrypto/images/bio-photo2.jpg"
+  avatar           : "https://SourceCrypto.pub/images/bio-photo2.jpg"
   links:
     - label: "Inf⧉Mine"
       icon: "fa fa-fw fa-cube"
