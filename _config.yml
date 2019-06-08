@@ -20,12 +20,12 @@ title                    : "Source Crypto"
 title_separator          : "|"
 name                     : "Infominer"
 description              : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
-url                      : "https://infominer.id"
-baseurl                  : "/SourceCrypto"
+url                      : "https://sourcecrypto.pub"
+baseurl                  : "/"
 repository               : "infominer33/SourceCrypto"
 github                   : [metadata]
 teaser                   : # /assets/images/500x300.png
-logo                     : "https://infominer.id/SourceCrypto/images/interlinked.png"
+logo                     : "https://sourcecrypto.pub/images/interlinked.png"
 masthead_title           : Research Index — Source ⧉ Crypto — Discord Chat.
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
