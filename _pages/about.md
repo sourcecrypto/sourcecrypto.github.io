@@ -3,8 +3,8 @@ layout: single
 title: SourceCrypto Research-Index
 description: An Open-Source Index of Crypto Knowledge.
 header:
-  image: "https://infominer.id/SourceCrypto/images/Source-Crypto-banner.png"
-  og_image: "https://infominer.id/SourceCrypto/images/source-crypto-gh-og.png"
+  image: "https://SourceCrypto.pub/images/Source-Crypto-banner.png"
+  og_image: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 sidebar:
   nav: sourcedisco 
@@ -34,16 +34,16 @@ While I do intend to build custom pages for most of these channels, being able t
 ## SourceCrypto
 
 **[discord.gg/ahTuPMY](https://discord.gg/ahTuPMY)**
-* [Discord Index](https://infominer.id/SourceCrypto/discolog/)
-  * [General](https://infominer.id/SourceCrypto/discolog/general/)
-  * [Resources](https://infominer.id/SourceCrypto/discolog/resources/)
-  * [Crypto](https://infominer.id/SourceCrypto/discolog/crypto/)
-  * [Blockchain-Tech](https://infominer.id/SourceCrypto/discolog/blockchain-tech/)
-  * [Tech](https://infominer.id/SourceCrypto/discolog/tech/)
-  * [Development](https://infominer.id/SourceCrypto/discolog/development/)
-  * [Enterprise](https://infominer.id/SourceCrypto/discolog/enterprise/)
-  * [Application](https://infominer.id/SourceCrypto/discolog/application/)
-  * [Web Work](https://infominer.id/SourceCrypto/discolog/web-work/)
+* [Discord Index](https://SourceCrypto.pub/discolog/)
+  * [General](https://SourceCrypto.pub/discolog/general/)
+  * [Resources](https://SourceCrypto.pub/discolog/resources/)
+  * [Crypto](https://SourceCrypto.pub/discolog/crypto/)
+  * [Blockchain-Tech](https://SourceCrypto.pub/discolog/blockchain-tech/)
+  * [Tech](https://SourceCrypto.pub/discolog/tech/)
+  * [Development](https://SourceCrypto.pub/discolog/development/)
+  * [Enterprise](https://SourceCrypto.pub/discolog/enterprise/)
+  * [Application](https://SourceCrypto.pub/discolog/application/)
+  * [Web Work](https://SourceCrypto.pub/discolog/web-work/)
 
 For now you can browse the entire index of channels at once, or one category at a time.
 
@@ -91,7 +91,7 @@ Further down the line, each subject area will become the focus of its own landin
 
 
 
-![](https://infominer.id/SourceCrypto/images/interlinked.png){: .align-center}
+![](https://SourceCrypto.pub/images/interlinked.png){: .align-center}
 
 
 ## Tagging

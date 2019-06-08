@@ -3,8 +3,8 @@ layout: single
 title: Testing out the Blog Feed.
 description: An Open-Source Index of Crypto Knowledge.
 header:
-  image: "https://infominer.id/SourceCrypto/images/source-crypto-gh-og.png"
-  og_image: "https://infominer.id/SourceCrypto/images/source-crypto-gh-og.png"
+  image: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
+  og_image: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 sidebar:
   nav: sourcedisco 
