@@ -1,6 +1,3 @@
-/docs/
-/test/
-
 # Logs
 logs
 *.log
@@ -33,8 +30,6 @@ node_modules
 .idea
 .vscode
 
-# Jekyll
-_site
 .sass-cache
 
 # macOS
