@@ -1,4 +1,8 @@
+# [SourceCrypto.pub](https://sourcecrypto.pub) <- we got our own domain name now :)
 
+this makes it easier for this website to grow as big as it wants, not tied to a subdirectory of [infominer.id](https://infominer.id)
+
+## SourceCrypto
 While I do intend to build sections for each channel, or most of them... being able to simply export the entire discord server and publish it is excellent, for the meantime.
 
 * [Discord Index](https://SourceCrypto.pub/discolog/)
