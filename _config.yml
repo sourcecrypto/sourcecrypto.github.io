@@ -22,7 +22,7 @@ name                     : "Infominer"
 description              : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
 url                      : "https://sourcecrypto.pub"
 baseurl                  : ""
-repository               : "SourceCrypto/SourceCrypto.github.io"
+repository               : "sourcecrypto/sourcecrypto.github.io"
 github                   : [metadata]
 teaser                   : # /assets/images/500x300.png
 logo                     : "https://sourcecrypto.pub/images/interlinked.png"
@@ -101,7 +101,7 @@ social:
 analytics:
   provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-132558656-1
+    tracking_id          : UA-132558656-5
     anonymize_ip         : # true, false (default)
 
 # Site Author
