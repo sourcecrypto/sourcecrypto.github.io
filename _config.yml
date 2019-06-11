@@ -85,6 +85,7 @@ naver_site_verification  :
 # Social Sharing
 # Social Sharing
 twitter:
+  site: SourceCrypto
   username               : infominer33
   title                  : "Source ⧉ Crypto"
   description            : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
@@ -120,7 +121,7 @@ author:
       url:  "https://keybase.io/infominer"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/infominer33/SourceCrypto"
+      url: "https://github.com/sourcecrypto/sourcecrypto.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/infominer33"
@@ -148,7 +149,7 @@ footer:
       url:  "https://keybase.io/infominer"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/infominer33/SourceCrypto"
+      url: "https://github.com/sourcecrypto/sourcecrypto.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/infominer33"

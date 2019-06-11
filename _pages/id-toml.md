@@ -11,7 +11,7 @@ share: true
 
 My first page besides "home" with the minimal mistakes theme. All of my pages will migrate to minimal mistakes, and integrated, once I get the feel for it.
 
-This page has two toml files from [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto) embedded into it, with some help from [gist-it.appspot.com](https://gist-it.appspot.com)
+This page has two toml files from [sourcecrypto/sourcecrypto.github.io](https://github.com/sourcecrypto/sourcecrypto.github.io) embedded into it, with some help from [gist-it.appspot.com](https://gist-it.appspot.com)
 
 ## Wish List
 
@@ -33,12 +33,12 @@ Scraping a list of links from wherever I want is simple.. so really the two thin
 
 ## blockchain-id.toml
 
-* [SourceCrypto/toml/application/blockchain-id.toml](https://github.com/infominer33/SourceCrypto/blob/master/toml/application/blockchain-id.toml)
+* [SourceCrypto/toml/application/blockchain-id.toml](https://github.com/sourcecrypto/sourcecrypto.github.io/blob/master/toml/application/blockchain-id.toml)
 
-<script src="https://gist-it.appspot.com/https://github.com/infominer33/SourceCrypto/raw/master/toml/application/blockchain-id.toml"></script>
+<script src="https://gist-it.appspot.com/https://github.com/sourcecrypto/sourcecrypto.github.io/raw/master/toml/application/blockchain-id.toml"></script>
 
 ## blockchain-id2.toml
 
-* [SourceCrypto/toml/application/blockchain-id2.toml](https://github.com/infominer33/SourceCrypto/blob/master/toml/application/blockchain-id2.toml)
+* [SourceCrypto/toml/application/blockchain-id2.toml](https://github.com/sourcecrypto/sourcecrypto.github.io/blob/master/toml/application/blockchain-id2.toml)
 
-<script src="https://gist-it.appspot.com/https://github.com/infominer33/SourceCrypto/raw/master/toml/application/blockchain-id2.toml"></script>
+<script src="https://gist-it.appspot.com/https://github.com/sourcecrypto/sourcecrypto.github.io/raw/master/toml/application/blockchain-id2.toml"></script>
