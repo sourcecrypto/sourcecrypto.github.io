@@ -75,7 +75,7 @@ I cut out the head of each of the files and injected the css to be applied to th
 That's super quick, and not so dirty, way to get all that content up here on the web where anyone can access it more easily.
 
 
-* [infominer33/SourceCrypto](https://github.com/infominer33/SourceCrypto) -  Now I have a few complete and proper toml files converted to json that I can use to experiment with generating pages - listing by title, tag, and incorporating search functionality, or perhaps filter by user-input.
+* [sourcecrypto/sourcecrypto.github.io](https://github.com/sourcecrypto/sourcecrypto.github.io) -  Now I have a few complete and proper toml files converted to json that I can use to experiment with generating pages - listing by title, tag, and incorporating search functionality, or perhaps filter by user-input.
 
 I'm looking into ways to take a list of links and pull title description image automatically into yaml or json, and pages can be generated with jekyll.
 
