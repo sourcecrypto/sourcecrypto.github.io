@@ -30,10 +30,14 @@ sourcedisco:
     children:
       - title: "Infomine"
         url: "https://infominer.id/"
-      - title: "About"
-        url: "https://infominer.id/about/"
-      - title: "Web-Work"
-        url: "https://infominer.id/web-work/"
+      - title: "Learn Crypto Trading"
+        url: "https://learncryptotrading.co"
+      - title: "Bitcoin Histories"
+        url: "https://sourcecrypto.pub/bitcoin-history"
+      - title: "Transcripts"
+        url: "https://sourcecrypto.pub/transcripts"
+      - title: Decentralized Web
+        url: "https://sourcecrypto.pub/decentralized-web/"
   - title: "General"
     url: "/discolog/general/"
     children:
