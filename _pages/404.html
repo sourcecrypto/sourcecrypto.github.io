@@ -15,15 +15,13 @@ sidebar:
 <p><ul>
   <li><a href="https://infominer.id">Infominer.id</a></li>
   <li><a href="https://web-work.tools/">Web-work.tools</a></li>
-  <li><a href="https://web-work.tools/indieweb/">Web-work.tools</a></li>
+  <li><a href="https://web-work.tools/indieweb/">Web-work.tools/indieweb</a></li>
   <li><a href="https://decentralized-id.com/">Decentralized-id.com</a></li>
   <li><a href="https://sourcecrypto.pub/">SourceCrypto.pub</a></li>
   <li><a href="https://sourcecrypto.pub/bitcoin-history/">Sourcecrypto.pub/bitcoin-history/</a></li>
-  <li><a href="https://sourcecrypto.pub/transcripts/">sourcecrypto.pub/transcripts/</a></li>
+  <li><a href="https://sourcecrypto.pub/transcripts/">Sourcecrypto.pub/transcripts/</a></li>
   <li><a href="https://learncryptotrading.co/">Learncryptotrading.co</a></li>
 </ul></p>
-
-
 
 <h2>Pages</h2>
 {% for post in site.pages %}
@@ -35,13 +33,15 @@ sidebar:
   {% include archive-single.html %}
 {% endfor %}
 
+<h2>SourceDiscolog</h2>
+
 {% capture written_label %}'None'{% endcapture %}
 
 {% for collection in site.collections %}
 {% unless collection.output == false or collection.label == "posts" %}
   {% capture label %}{{ collection.label }}{% endcapture %}
   {% if label != written_label %}
-  <h2>{{ label }}</h2>
+  <h3>{{ label }}</h3>
   {% capture written_label %}{{ label }}{% endcapture %}
   {% endif %}
 {% endunless %}
