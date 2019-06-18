@@ -18,6 +18,8 @@ main:
     url: "https://web-work.tools/indieweb"
   - title: "Source⧉Crypto"
     url: "https://SourceCrypto.pub"
+  - title: Decentralized Web
+    url: https://sourcecrypto.pub/decentralized-web/
   - title: "Github Pages Starter Pack"
     url: "https://web-work.tools/github-pages-starter-pack/"
 
