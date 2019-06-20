@@ -62,7 +62,7 @@ feature_row2:
     url: "http://decentralized-id.com/identity-github/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: "https://web-work.tools/images/github-pages.jpeg"
+  - image_path: /images/github-pages-teaser.jpeg
     alt: "GHPages Starter Pack"
     title: "GitHub Pages Starter Pack"
     excerpt: "Publishing a Website via GitHub pages is free, and easy. Everything you need to get going in one place + extended resources."
