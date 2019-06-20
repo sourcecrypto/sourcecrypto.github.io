@@ -7,6 +7,7 @@ header:
   og_image: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
   teaser: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+excerpt: "I'm now able to appreciate the technical limitation for shaping my categorization process. It makes sense to have 10 or less ways to divide the entire ecosystem and break it down from there... even if some overlap. Simplicity <3"
 sidebar:
   nav: sourcedisco 
 toc: false
@@ -40,13 +41,18 @@ Then, I dropped back to 9 and nav came back.
 
 So I wanted to see if I started a blog would the site still work.
 
-9 categories and a blog are ok... 
+**9 categories and a blog**
 
 That's a lot of ways to organize information :)
 
 I doubt I'll stick with the post index home page for long, since I don't expect to be blogging here, much.
 
-However, it's good to know I can, and this is where any long serious crypto articles I write would live. 
+I'm now able to appreciate the technical limitation for shaping my categorization process. It makes sense to have 10 or less ways to divide the entire ecosystem and break it down from there... even if some overlap.
 
--pax
+Simplicity <3
 
+## Featured Content
+
+You'll notice the [/featured/](/featured/) link, where I'll feature the various channels on a rotating basis, until I've created a preview image for all of them. For now, there is only some variety.
+
+## Let's Catch Up Again Soon!
