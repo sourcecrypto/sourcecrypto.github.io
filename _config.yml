@@ -85,8 +85,7 @@ naver_site_verification  :
 # Social Sharing
 # Social Sharing
 twitter:
-  site: SourceCrypto
-  username               : infominer33
+  username               : SourceCrypto
   title                  : "Source ⧉ Crypto"
   description            : Chat Server for Creating an Open-Source Database of Crypto Knowledge.
   image                  : "https://SourceCrypto.pub/images/Square-Crypto.png"
