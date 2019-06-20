@@ -12,7 +12,11 @@ header:
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/discolog/) here. The next step is to systematically build better, more organized resources with the server as a starting point."
 intro: 
-  - excerpt: 'There is so much to learn about, I mostly manage to avoid thinking about scammy stuff and icos, and really whatever you are hyped about, I probably don't care. So the application section is in rough shape.. I don't spend a lot of time there. Tech, History, Development, Webwork. I care about real web technologies.'
+  - image_path: /images/SourceCrypto-discolog.png
+    excerpt: "There is so much to learn about, I mostly manage to avoid thinking about scammy stuff and icos, and really whatever you are hyped about, I probably don't care. So the application section is in rough shape.. I don't spend a lot of time there. Tech, History, Development, Webwork. I care about real web technologies."
+    url: "/discolog/"
+    btn_label: "DiscoLog"
+    btn_class: "btn--primary"
 feature_row:
   - image_path: /images/blockchain-tech-teaser.png
     alt: "Preview image for Blockchain Tech Category."
@@ -39,7 +43,7 @@ feature_row2:
   - image_path: /images/SourceCrypto-discolog.png
     alt: "Digital Rain-B&W"
     title: "Discolog"
-    excerpt: "This is the main index where you can browse all channels of the discord server in one space."
+    excerpt: "This is the main index where you can browse all channels on one page."
     url: "/discolog/"
     btn_label: "Index"
     btn_class: "btn--primary"
