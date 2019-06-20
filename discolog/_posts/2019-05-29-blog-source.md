@@ -1,17 +1,23 @@
 ---
 layout: single
-title: Testing out the Blog Feed.
-description: An Open-Source Index of Crypto Knowledge.
+title: SourceCrypto Blog-Feed
+description: An Open-Source Public-Domain Index of Crypto Knowledge.
 header:
   image: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
   og_image: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
+  teaser: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 sidebar:
   nav: sourcedisco 
 toc: false
-permalink: welcome-blog-feed/
+permalink: blog/welcome-to-SC-blog/
+canonical_url: "https://sourcecrypto.pub/blog/welcome-to-SC-blog/"
 share: true
 classes: wide
+last_modified_at: 2019-06-20T11:22:33-23:00
+categories: [SourceCrypto, blog]
+tags: [bitcoin, blockchain, development, cypherpunks, ethereum, enterrise, fintech, web3, defi, cryptography, distributed systems, cryptocurrencies, p2p]
+
 ---
 
 It's safe to say that I'm testing the limits of the Minimal Mistakes theme.
@@ -43,3 +49,4 @@ I doubt I'll stick with the post index home page for long, since I don't expect 
 However, it's good to know I can, and this is where any long serious crypto articles I write would live. 
 
 -pax
+

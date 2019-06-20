@@ -69,7 +69,7 @@ I'm looking into ways to take a list of links and pull title description image a
 
 Further down the line, each subject area will become the focus of its own landing page with well researched information, building with and from the structured data. Compared to currently we've got whatever I've happened upon in my travels of the web, with some contributions from the community, with a focus on history and identity. 
 
-* [GitHub Pages Starter Pack](https://infominer.id/web-work/gh-pages-starter-pack/)
+* [GitHub Pages Starter Pack](https://web-work.tools/gh-pages-starter-pack/)
 * [Minimal Mistakes Quickstart Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 

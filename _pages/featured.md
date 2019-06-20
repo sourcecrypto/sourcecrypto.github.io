@@ -1,0 +1,55 @@
+---
+title: "Featured Content"
+layout: splash
+permalink: /featured/
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /images/source-crypto-gh-og.png
+  actions:
+    - label: "Learn More"
+      url: "/blog/research-index/"
+  caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/discolog/) here. The next step is to systematically build better, more organized resources with the server as a starting point."
+intro: 
+  - excerpt: 'There is so much to learn about, I mostly manage to avoid thinking about scammy stuff and icos, and really whatever you are hyped about, I probably don't care. So the application section is in rough shape.. I don't spend a lot of time there. Tech, History, Development, Webwork. I care about real web technologies.'
+feature_row:
+  - image_path: /images/blockchain-tech-teaser.png
+    alt: "Preview image for Blockchain Tech Category."
+    title: "Blockchain Tech"
+    excerpt: 'This category is for all blockchain specific technologies.'
+    url: "/discolog/blockchain-tech/"
+    btn_label: "Index"
+    btn_class: "btn--primary"
+  - image_path: /images/tech-teaser.png
+    alt: "Preview image for Tech Category"
+    title: "Tech"
+    excerpt: "This category is for all crypto-related, but not specific to blockchain."
+    url: "/discolog/tech/"
+    btn_label: "Index"
+    btn_class: "btn--primary"
+  - image_path: /images/development-teaser.png
+    alt: "Preview image for Development Category"
+    title: "Development"
+    excerpt: "This category is for all crypto-related development resources, along with some general dev resources for beginners."
+    url: "/discolog/development/"
+    btn_label: "Index"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: /images/SourceCrypto-discolog.png
+    alt: "Digital Rain-B&W"
+    title: "Discolog"
+    excerpt: "This is the main index where you can browse all channels of the discord server in one space."
+    url: "/discolog/"
+    btn_label: "Index"
+    btn_class: "btn--primary"
+published: true
+date: 2016-06-20T11:22:33-22:00
+
+---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+{% include feature_row id="feature_row2" type="center" %}

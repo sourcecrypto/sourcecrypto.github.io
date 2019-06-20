@@ -1,10 +1,23 @@
 ---
+layout: single
 title: Blockchain Data - Analytics
-permalink: blockchain-data/
+description: Resources related to Blockchain Data and Analytics
+permalink: blog/blockchain-data/
 share: true
+last_modified_at: 2019-06-20T11:22:33-23:00
+excerpt: Resources related to Blockchain Data and Analytics
 ---
 
-### Data
+* [topics/blockchain-analytics](https://github.com/topics/blockchain-analytics)
+* [arnaucube/goBlockchainDataAnalysis](https://github.com/arnaucube/goBlockchainDataAnalysis)
+* [blockchain-unica/blockapi](https://github.com/blockchain-unica/blockapi) - A general framework for blockchain analytics
+* [ipfs/sig-blockchain-data](https://github.com/ipfs/sig-blockchain-data)
+* [joshbressers/blockchain-elasticsearch](https://github.com/joshbressers/blockchain-elasticsearch)
+* [unwriter/B](https://github.com/unwriter/B) - Store and reference data on the Bitcoin SV blockchain https://b.bitdb.network
+* [coinbase/btcexport](https://github.com/coinbase/btcexport/) - Export process for Bitcoin blockchain data to CSV
+* [mappum/blockchain-download](https://github.com/mappum/blockchain-download) - Download blockchain data from peers
+
+## Data
 
 * [reddit: I have 5 years of coinmarketcap.com crypto price data in a csv file, feel free download for your own db, its free.](https://www.reddit.com/r/CryptoCurrency/comments/988lxb/i_have_5_years_of_coinmarketcapcom_crypto_price/)
 * [10 YEARS OF BLOCKCHAIN DATA SCIENCE](https://panelpicker.sxsw.com/vote/91245)
@@ -28,14 +41,14 @@ share: true
 * [Ethereum in BigQuery: a Public Dataset for smart contract analytics](https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics)
 * [Ethereum in BigQuery:  how we built this dataset](https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-how-we-built-dataset)
 
-### Nomics
+## Nomics
 
 * [nomics.com](https://nomics.com) - 100% of Nomics Was Created With Our Free Crypto API. Free Instant Access 
   * returns csv format — you can use importdata function in google ss. 
 * [blog.nomics.com](https://blog.nomics.com/) - Great Podcast and Data Driven Analysis
 * [[Podcast] The State of Crypto Market Data w/ Vortex & Nomics’ Co-founders (Ep. 0027)](https://blog.nomics.com/flippening/crypto-market-data/)
 
-### Twitter
+## Twitter
 
 * [BitcoinVisuals.com @BitcoinVisuals](https://twitter.com/BitcoinVisuals) - Making Bitcoin data more accessible. Blockchain, lightning network, market data, and more.
 * [Bitcoin Charts @ChartsBtc](https://twitter.com/ChartsBtc/media) - Excel user since Lotus 1-2-3. Just enough SQL to be dangerous. Click Media on my profile for all my crazy Bitcoin charts.
@@ -45,7 +58,7 @@ share: true
   > "Important Disclaimer: This model is not designed to determine whether the crypto market will rise or fall. It is not designed to select coins that will have the most positive returns or identify coins with negative returns. It is designed to identify the coins that have the greatest chances of outperforming and the coins with the greatest chances of underperforming. Outperforming and underperforming is relative to the crypto universe. Therefore if the average crypto coin is up 1000% the dark green coins, in aggregate, would be attempting to beat that. If the average coin is down 50%, the dark green coins will be trying to beat that. This is not financial advice. This is merely my personal model, and I am sharing how I utilize it."
   * [CryptoQuantamental @CryptoQF Educational Youtube Channel](https://www.youtube.com/channel/UCnVOQqymq5ZQkG536EItX0Q/)
 
-### Quant-Algorithmic Trading  
+## Quant-Algorithmic Trading  
 * [The Market Cycles of ICOs, Bitcoin, and Ether](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3198694)
   > "We apply time series analysis to investigate the market cycles of Initial Coin Offerings (ICOs) as well as bitcoin and Ether. Our results show that shocks to ICO volumes are persistent and that shocks in bitcoin and Ether prices have a substantial and positive effect on these volumes – with the effect of bitcoin shocks being of shorter duration than that of Ether shocks. Moreover, higher ICO volumes cause lower bitcoin and Ether prices. Finally, bitcoin shocks positively influence Ether but not the other way round. Our study has implications for financial practice, in particular for cryptocurrency investors and entrepreneurial firms conducting ICOs. June 2018"
 * [Bitmex perpetual swap](https://medium.com/@romanornr/bitmex-perpetual-swap-2d125a304dd)
