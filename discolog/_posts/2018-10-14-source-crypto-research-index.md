@@ -3,26 +3,29 @@ layout: single
 title: SourceCrypto Research-Index
 description: An Open-Source Index of Crypto Knowledge.
 header:
-  image: "https://SourceCrypto.pub/images/Source-Crypto-banner.png"
-  og_image: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
-  caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+  image: /images/source-crypto-disco.png
+  og_image: /images/source-crypto-disco.png #/images/source-crypto-gh-og.png
+  teaser: /images/source-crypto-disco.png
+  caption: "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 sidebar:
   nav: sourcedisco 
+excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/discolog/) here. The next step is to systematically build better, more organized resources with the server as a starting point."
 toc: true
-permalink: /
+permalink: blog/research-index/
 share: true
+categories: [SourceCrypto, indroduction]
+tags: [bitcoin, blockchain, development, cypherpunks, ethereum, enterrise, fintech, web3, defi, cryptography, distributed systems, cryptocurrencies, p2p]
+last_modified_at: 2019-06-20T11:22:33-23:00
 
 ---
 
 **A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge.**
 
-The Source Crypto discord server is a landing pad.. I drop links there on the fly, and the channels aren't perfectly organized, and maybe a few of the links are 100% the best ever... 
+[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/discolog/) here. The next step is to systematically build better, more organized resources with the server as a starting point.
 
-The next, and gradual step, will be to systematically build better, more organized web-resources using the sources gathered as a starting point.
+The aim is to generally map out the history and knowledge related to Bitcoin and blockchain in general.
 
-The aim is to generally map out the history and knowledge related to Bitcoin\blockchain.
-
-There is so much to learn about, I mostly manage to avoid thinking about scammy stuff and icos, and really whatever you are hyped about, I probably don't care. So the application section is in rough shape.. I don't spend a lot of time there. Tech, History, Webwork. I care about real web technologies.
+There is so much to learn about, I mostly manage to avoid thinking about scammy stuff and icos, and really whatever you are hyped about, I probably don't care. So the application section is in rough shape.. I don't spend a lot of time there. Tech, History, Development, Webwork. I care about real web technologies.
 
 So, little by little, those un-organized pages will grow to become each a formidible resource of its own.
 
@@ -49,7 +52,7 @@ For now you can browse the entire index of channels at once, or one category at 
 
 For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the discolog are in `discolog`, all the data is in `_data`.  
 
-Everything else is `minimal-mistakes`. pretty straightforward.
+Everything else is `mmistakes/minimal-mistakes`. Pretty straightforward: its [open-source](https://github.com/mmistakes/minimal-mistakes)), and [well-documented](https://mmistakes.github.io/minimal-mistakes/).
 
 
 ## A Machine Readable Repository on Every Subject In Crypto.
@@ -81,7 +84,7 @@ I'm looking into ways to take a list of links and pull title description image a
 
 Further down the line, each subject area will become the focus of its own landing page with well researched information, building with and from the structured data. Compared to currently we've got whatever I've happened upon in my travels of the web, with some contributions from the community, with a focus on history and identity. 
 
-* [GitHub Pages Starter Pack](https://infominer.id/web-work/gh-pages-starter-pack/)
+* [GitHub Pages Starter Pack](https://web-work.tools/gh-pages-starter-pack/)
 * [Minimal Mistakes Quickstart Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 
@@ -94,12 +97,3 @@ Further down the line, each subject area will become the focus of its own landin
 ![](https://SourceCrypto.pub/images/interlinked.png){: .align-center}
 
 
-## Tagging
-
-[tag-definitions.md](/tag-definitions/) is where I was working on my idea of tagging.
-
-@MaciekLaskus suggests:
->this is very interesting, but I think you're making a fundamental mistake with tagging this by topics
->
->what's really missing is tagging all of these resources by authors, co-authors, references/citations once this is done, topical tags can be derived algorithmically
-* [Enabling Author-Centric Ranking of Web Content](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.8960&rep=rep1&type=pdf)

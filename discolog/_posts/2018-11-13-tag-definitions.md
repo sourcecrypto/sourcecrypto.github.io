@@ -1,11 +1,50 @@
 ---
 layout: single
 title: Tag Definitions - a draft
-permalink: tag-definitions/
+permalink: blog/tag-definitions/
 share: true
+header: 
+  image: "/images/author-centric-ranking-web.png"
+  teaser: "/images/author-centric-ranking-web.png"
+  caption: "[Enabling Author-Centric Ranking of Web Content](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.8960&rep=rep1&type=pdf)"
 toc: false
 classes: wide
+last_modified_at: 2019-06-20T11:22:33-23:00
+excerpt: "what's really missing is tagging all of these resources by authors, co-authors, references/citations once this is done, topical tags can be derived algorithmically- @MaciekLaskus"
+categories: [SourceCrypto, tagging]
+tags: [metadata, web-work, development, tags]
+
 ---
+
+
+@MaciekLaskus suggests:
+>this is very interesting, but I think you're making a fundamental mistake with tagging this by topics
+>
+>what's really missing is tagging all of these resources by authors, co-authors, references/citations once this is done, topical tags can be derived algorithmically
+* [Enabling Author-Centric Ranking of Web Content](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.8960&rep=rep1&type=pdf)
+
+The limitations of this theme have helped with my efforts for categorization. I can't publish more than 10 different types of collections, that also includes blog-posts.
+
+Posts and Collections alike can be tagged and given categories within this Jekyll Theme, Minimal Mistakes. That's plenty to account for the variety, and futher tagging.
+
+I've updated the categories on the discord server, so they should be arranged the same as this web-site.
+
+* [Discord Index](https://SourceCrypto.pub/discolog/)
+  * [General](https://SourceCrypto.pub/discolog/general/)
+  * [Resources](https://SourceCrypto.pub/discolog/resources/)
+  * [Crypto](https://SourceCrypto.pub/discolog/crypto/)
+  * [Tech](https://SourceCrypto.pub/discolog/tech/)
+  * [Blockchain Tech](https://SourceCrypto.pub/discolog/blockchain-tech/)
+  * [Development](https://SourceCrypto.pub/discolog/development/)
+  * [Enterprise](https://SourceCrypto.pub/discolog/enterprise/)
+  * [Application](https://SourceCrypto.pub/discolog/application/)
+  * [Web-work](https://sourcecrypto.pub/discolog/web-work/)
+
+I'll be using a similar category structure for [DIDecentral](https://decentralized-id.com). You see, I can make as many posts\channels in each category as I like.
+
+So it will be good to distill any topic to 9 categories or less, for publishing and organizing resources on Discord.
+
+## Depreciated
 
 It has become apparent that we need a key for tagging standards. ultimately each tag will have additional tags related to it for search purposes, but this document to define "top-level" tags (or tags that are visible to and navigable by the user) is in progress. 
 

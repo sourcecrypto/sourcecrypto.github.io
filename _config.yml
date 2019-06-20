@@ -24,9 +24,9 @@ url                      : "https://sourcecrypto.pub"
 baseurl                  : ""
 repository               : "sourcecrypto/sourcecrypto.github.io"
 github                   : [metadata]
-teaser                   : # /assets/images/500x300.png
+teaser                   : /images/Source-Crypto-og.png
 logo                     : "https://sourcecrypto.pub/images/interlinked.png"
-masthead_title           : Research Index — Source ⧉ Crypto — Discord Chat.
+masthead_title           : Research Index — Discord Chat
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -66,7 +66,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
-search_full_content      : #true
+search_full_content      : false
 search_provider          : lunr
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -121,7 +121,7 @@ author:
       url:  "https://keybase.io/infominer"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/sourcecrypto/sourcecrypto.github.io"
+      url: "https://github.com/sourcecrypto"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/sourcecrypto"
@@ -149,7 +149,7 @@ footer:
       url:  "https://keybase.io/infominer"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/sourcecrypto/sourcecrypto.github.io"
+      url: "https://github.com/sourcecrypto"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/infominer33"
@@ -226,7 +226,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: #5 # amount of posts to show
+paginate: 7
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -350,8 +350,13 @@ defaults:
       share: true
       related: true
       sidebar:
+        title: "⧉Info⧉"
         nav: "sourcedisco"
       toc: true
+      header:
+       image: /images/Source-Crypto-banner.png
+       teaser: /images/source-crypto-gh-og.png
+       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
   # _general
   - scope:
       path: ""
@@ -362,9 +367,14 @@ defaults:
       comment: true
       related: true
       sidebar:
+        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
+      header:
+       image: /images/Source-Crypto-banner.png
+       teaser: /images/source-crypto-gh-og.png
+       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
   # _resources
   - scope:
       path: ""
@@ -375,9 +385,14 @@ defaults:
       comment: true
       related: true
       sidebar:
+        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
+      header:
+       image: /images/Source-Crypto-banner.png
+       teaser: /images/source-crypto-gh-og.png
+       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _crypto
   - scope:
       path: ""
@@ -388,9 +403,14 @@ defaults:
       comment: true
       related: true
       sidebar:
+        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
+      header:
+       image: /images/Source-Crypto-banner.png
+       teaser: /images/source-crypto-gh-og.png
+       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _blockchaintech
   - scope:
       path: ""
@@ -401,9 +421,14 @@ defaults:
       comment: true
       related: true
       sidebar:
+        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
+      header:
+       image: /images/Source-Crypto-banner.png
+       teaser: /images/source-crypto-gh-og.png
+       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _tech
   - scope:
       path: ""
@@ -414,9 +439,14 @@ defaults:
       comment: true
       related: true
       sidebar:
+        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
+      header:
+       image: /images/Source-Crypto-banner.png
+       teaser: /images/source-crypto-gh-og.png
+       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _development
   - scope:
       path: ""
@@ -427,9 +457,14 @@ defaults:
       comment: true
       related: true
       sidebar:
+        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
+      header:
+       image: /images/Source-Crypto-banner.png
+       teaser: /images/source-crypto-gh-og.png
+       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _enterprise
   - scope:
       path: ""
@@ -440,9 +475,14 @@ defaults:
       comment: true
       related: true
       sidebar:
+        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
+      header:
+       image: /images/Source-Crypto-banner.png
+       teaser: /images/source-crypto-gh-og.png
+       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _application
   - scope:
       path: ""
@@ -453,9 +493,14 @@ defaults:
       comment: true
       related: true
       sidebar:
+        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
+      header:
+       image: /images/Source-Crypto-banner.png
+       teaser: /images/source-crypto-gh-og.png
+       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _webwork
   - scope:
       path: ""
@@ -466,6 +511,11 @@ defaults:
       comment: true
       related: true
       sidebar:
+        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
+      header:
+       image: /images/Source-Crypto-banner.png
+       teaser: /images/source-crypto-gh-og.png
+       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
