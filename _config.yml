@@ -408,7 +408,7 @@ defaults:
       disco: true
       header:
        image: /images/Source-Crypto-banner.png
-       teaser: /images/source-crypto-gh-og.png
+       teaser: /images/crypto-teaser.png
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _blockchaintech
   - scope:
@@ -426,7 +426,7 @@ defaults:
       disco: true
       header:
        image: /images/Source-Crypto-banner.png
-       teaser: /images/source-crypto-gh-og.png
+       teaser: /images/blockchain-tech-teaser.png
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _tech
   - scope:
@@ -444,7 +444,7 @@ defaults:
       disco: true
       header:
        image: /images/Source-Crypto-banner.png
-       teaser: /images/source-crypto-gh-og.png
+       teaser: /images/tech-teaser-1.png
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _development
   - scope:
@@ -462,7 +462,7 @@ defaults:
       disco: true
       header:
        image: /images/Source-Crypto-banner.png
-       teaser: /images/source-crypto-gh-og.png
+       teaser: /images/development.png
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _enterprise
   - scope:
