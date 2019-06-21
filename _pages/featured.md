@@ -1,7 +1,9 @@
 ---
 title: "Featured Content"
 layout: splash
-permalink: /featured/
+redirect_from: /featured/
+permalink: /feature/
+canonical_url: https://sourcecrypto.pub/feature/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
