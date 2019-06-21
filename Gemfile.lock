@@ -75,6 +75,7 @@ GEM
     jekyll-target-blank (1.1.1)
       jekyll (~> 3.0)
       nokogiri (~> 1.8.2)
+    jekyll-twitter-plugin (2.0.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.11.0)
@@ -140,6 +141,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-target-blank
+  jekyll-twitter-plugin
   minimal-mistakes-jekyll
 
 BUNDLED WITH

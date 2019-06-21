@@ -25,8 +25,6 @@ gem "minimal-mistakes-jekyll"
 #   gem "jekyll-data"
 #   gem "jekyll-include-cache"
 #
-# If you have any other plugins, put them here!
-
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-target-blank"
@@ -35,4 +33,5 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-mentions"
   gem "html-proofer"
+  gem "jekyll-twitter-plugin"
 end

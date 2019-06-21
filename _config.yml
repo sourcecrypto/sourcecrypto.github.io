@@ -241,6 +241,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-mentions
+  - jekyll-twitter-plugin
 
 jekyll-mentions:
   base_url: https://twitter.com
@@ -256,7 +257,7 @@ whitelist:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-mentions
-
+  - jekyll-twitter-plugin
 
 # Archives
 #  Type
