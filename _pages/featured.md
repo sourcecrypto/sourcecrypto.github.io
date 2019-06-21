@@ -19,6 +19,13 @@ intro:
     url: "/blog/libra-facebook/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+  - image_path: /images/libra-map-the-block-preview.jpg
+    alt: "The Libra Association Map via @TheBlock_"
+    title: "The Libra Association"
+    excerpt: "Everything related to LibraCoin's Consortium, 'The Libra Association'"
+    url: "/blog/libra-association/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_row:
   - image_path: /images/blockchain-tech-teaser.png
     alt: "Preview image for Blockchain Tech Category."

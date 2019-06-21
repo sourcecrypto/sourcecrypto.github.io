@@ -1,6 +1,6 @@
 ---
 layout: single
-title: The Libra Association - Consortium
+title: The Libra Association
 description: "Everything related to LibraCoin's Consortium, 'The Libra Association'."
 header:
   image: /images/Libra-Association-Founding-Partners.png
@@ -14,7 +14,7 @@ permalink: blog/libra-association/
 canonical_url: "https://sourcecrypto.pub/blog/libra-association/"
 share: true
 last_modified_at: 2019-06-21T11:22:33-23:00
-categories: [enterprise, libra]
+categories: [consortiums, libra]
 tags: [facebook, bitcoin, blockchain, history, permissioned, fintech, web3, cryptocurrencies, libra association]
 
 ---
