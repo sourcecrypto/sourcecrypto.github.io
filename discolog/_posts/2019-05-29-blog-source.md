@@ -17,7 +17,7 @@ share: true
 classes: wide
 last_modified_at: 2019-06-20T11:22:33-23:00
 categories: [SourceCrypto, blog]
-tags: [bitcoin, blockchain, development, cypherpunks, ethereum, enterrise, fintech, web3, defi, cryptography, distributed systems, cryptocurrencies, p2p]
+tags: [bitcoin, blockchain, development, cypherpunks, ethereum, enterprise, fintech, web3, defi, cryptography, distributed systems, cryptocurrencies, p2p]
 
 ---
 
