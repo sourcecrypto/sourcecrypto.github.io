@@ -5,12 +5,12 @@ permalink: /featured/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /images/source-crypto-gh-og.png
+  overlay_image: /images/featured-header.png
   actions:
     - label: "Learn More"
       url: "/blog/research-index/"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/discolog/) here. The next step is to systematically build better, more organized resources with the server as a starting point."
+excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. This page features some of the freshest \ favorite resources of mine."
 intro: 
   - image_path: /images/facebook_libra_exhaustive-og.png
     alt: "Libra Collage, Source Unknonwn"
