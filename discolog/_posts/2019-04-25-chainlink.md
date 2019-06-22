@@ -13,6 +13,7 @@ permalink: blog/chainlink/
 canonical_url: "https://sourcecrypto.pub/blog/chainlink/"
 last_modified_at: 2019-06-20T11:22:33-23:00
 disco: true
+classes: wide
 ---
 
 In leiu of my own content, I'm reproducing the channel history of The Watchers Discord Server.
