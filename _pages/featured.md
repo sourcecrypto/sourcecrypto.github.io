@@ -86,17 +86,19 @@ feature_row2:
     url: "https://web-work.tools/github-pages-starter-pack/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row3:
-  - image_path: /images/SourceCrypto-DiscoLog-teaser.png
-    alt: "Digital Rain-B&W"
-    title: "Discolog"
-    excerpt: "This is the main index where you can browse all channels on one page."
-    url: "/discolog/"
-    btn_label: "SourceDirectory"
-    btn_class: "btn--primary"
+#feature_row3:
+ # - image_path: /images/SourceCrypto-DiscoLog-teaser.png
+ #   alt: "Digital Rain-B&W"
+ #   title: "Discolog"
+ #   excerpt: "This is the main index where you can browse all channels on one page."
+ #   url: "/discolog/"
+ #   btn_label: "SourceDirectory"
+ #   btn_class: "btn--primary"
 
 published: true
 date: 2016-06-22T11:22:33-22:00
+
+#{% include feature_row id="feature_row3" type="center" %}
 
 ---
 
@@ -108,5 +110,4 @@ date: 2016-06-22T11:22:33-22:00
 
 {% include feature_row id="feature_row2" %}
 
-{% include feature_row id="feature_row3" type="center" %}
 
