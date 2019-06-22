@@ -12,7 +12,8 @@ header:
     - label: "Learn More"
       url: "/blog/research-index/"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. This page features some of the freshest \ favorite resources of mine."
+excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is creating an index of crypto knowledge. This page features some of its freshest along with team favorites."
+description: "Source Crypto Discord Chat is creating an index of crypto knowledge. This page features some of its freshest content along with some team favorites."
 intro: 
   - image_path: /images/facebook_libra_exhaustive-og.png
     alt: "Libra Collage, Source Unknonwn"
