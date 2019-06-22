@@ -50,7 +50,7 @@ I've been searching for others like me: who find and make more accessible, massi
 
 ## Episodes
 
-![](https://imgur.com/VEFbNmi.png)
+![](https://imgur.com/rFRrgZa.png)
 
 * CryptoQuikRead_007 - [A Declaration of the Independence of Cyberspace](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_007---A-Declaration-of-the-Independence-of-Cyberspace-e2nduk)
 * CryptoQuikRead_106 - [Working Alone](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_106---Working-Alone-e2ndrb)
