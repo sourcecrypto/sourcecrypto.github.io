@@ -7,7 +7,7 @@ header:
   caption: "[Chainlink Discord Server](https://discord.gg/B7xeAyY)"
 sidebar:
   nav: sourcedisco 
-toc: true
+toc: false
 share: true
 permalink: blog/chainlink/
 canonical_url: "https://sourcecrypto.pub/blog/chainlink/"
