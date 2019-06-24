@@ -20,11 +20,11 @@ tags: [bitcoin, crypto, blockchain, history, literature, history, permissioned, 
 
 ---
 
-You may have noticed that I'm a fan of this podcast....
-
 I've been searching for others like me: who find and make more accessible, massive amounts of valuable information!
 
-@TheCryptoconomy is the first I've been inspired to do a complete index of, because it's just so amazing. Even if nobody visited this site, and this document just lived locally on my harddrive, I'd still find it quite valuable!
+@TheCryptoconomy is the first podcast I've been inspired to do a complete index of, because it's just so amazing.
+
+Even if nobody visited this site, and this document just lived locally on my harddrive, I'd be refrencing it regularly.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Was asked recently why I started The Cryptoconomy Podcast:<br>• I wanted audio of the 1000s of amazing <a href="https://twitter.com/hashtag/Bitcoin?src=hash&amp;ref_src=twsrc%5Etfw">#Bitcoin</a> articles<br>• I realized most only read title &amp; 1st paragraph (caught myself doing it)<br>• The scope of Bitcoin study feels insurmountable w/out help<a href="https://t.co/umoiK05Ijz">https://t.co/umoiK05Ijz</a></p>&mdash; Guy Swann⚡ (@TheCryptoconomy) <a href="https://twitter.com/TheCryptoconomy/status/1119307773760757766?ref_src=twsrc%5Etfw">April 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -35,7 +35,8 @@ I've been searching for others like me: who find and make more accessible, massi
 
 ## Where to Listen
 
-* **Note:** Anchor FM doesn't have descriptions that I noticed, which is what I used and why I didn't copy that info here. Wasn't thinking about it, but it would have taken a lot longer anyhow.
+<iframe src="https://castbox.fm/app/castbox/player/id1614950?v=8.1.0&autoplay=1" frameborder="0" width="100%" height="500"></iframe>
+
 
 * [Anchor.fm/TheCryptoconomy](http://Anchor.fm/TheCryptoconomy) 
 * [Apple](https://podcasts.apple.com/us/podcast/the-cryptoconomy-podcast/id1359544516) 
@@ -50,7 +51,8 @@ I've been searching for others like me: who find and make more accessible, massi
 
 ## Episodes
 
-![](https://imgur.com/rFRrgZa.png)
+<img src='https://imgur.com/rFRrgZa.png'/>
+
 
 * CryptoQuikRead_007 - [A Declaration of the Independence of Cyberspace](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_007---A-Declaration-of-the-Independence-of-Cyberspace-e2nduk)
 * CryptoQuikRead_106 - [Working Alone](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_106---Working-Alone-e2ndrb)
