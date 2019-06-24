@@ -54,6 +54,8 @@ Even if nobody visited this site, and this document just lived locally on my har
 <img src='https://imgur.com/rFRrgZa.png'/>
 
 
+## Assorted
+
 * CryptoQuikRead_007 - [A Declaration of the Independence of Cyberspace](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_007---A-Declaration-of-the-Independence-of-Cyberspace-e2nduk)
 * CryptoQuikRead_106 - [Working Alone](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_106---Working-Alone-e2ndrb)
 * CryptoQuikRead_135 - [The Hard Thing About Learning Hard Things](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_135---The-Hard-Thing-About-Learning-Hard-Things-e2ndqa)
