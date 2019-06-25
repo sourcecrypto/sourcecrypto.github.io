@@ -2,6 +2,8 @@
 main:
   - title: "Featured Content"
     url: "/feature/"
+  - title: "DiscoLog"
+    url: "/discolog/"
   - title: "Info⧉Hub"
     url: "https://infominer.id/"
   - title: "Bitcoin Histories"
