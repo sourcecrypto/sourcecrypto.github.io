@@ -22,7 +22,7 @@ tags: [bitcoin, crypto, blockchain, history, literature, history, permissioned, 
 
 I've been searching for others like me: who find and make more accessible, massive amounts of valuable information!
 
-@TheCryptoconomy is the first podcast I've been inspired to do a complete index of, because it's just so amazing.
+@TheCryptoconomy is the first podcast I've been inspired to do a complete index of, because it's simply incredible.
 
 Even if nobody visited this site, and this document just lived locally on my harddrive, I'd be refrencing it regularly.
 
