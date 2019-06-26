@@ -12,6 +12,9 @@ You are welcome to leave a copy here, for posterity. :bow:
 
 Likewise, you may simply click edit on this or any page and let GitHub take care of the technical stuff (you won't break anything, I promise :)
 
+## More information on Contributing
+
+* [Contributors Intro: InfoHub](https://infominer.id/contributors-intro/)
 
 ## LICENSING
 
