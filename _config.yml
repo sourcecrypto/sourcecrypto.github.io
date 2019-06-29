@@ -225,7 +225,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 9
+paginate: 7
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
