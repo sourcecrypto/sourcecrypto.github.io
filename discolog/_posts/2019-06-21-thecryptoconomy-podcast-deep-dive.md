@@ -20,11 +20,6 @@ tags: [bitcoin, crypto, blockchain, history, history, permissioned, cryptocurren
 
 ---
 
-I've been searching for others like me: who find and make more accessible, massive amounts of valuable information!
-
-@TheCryptoconomy is the first podcast I've been inspired to do a complete index of, because it's simply incredible.
-
-Even if nobody visited this site, and this document just lived locally on my harddrive, I'd be refrencing it regularly.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Was asked recently why I started The Cryptoconomy Podcast:<br>• I wanted audio of the 1000s of amazing <a href="https://twitter.com/hashtag/Bitcoin?src=hash&amp;ref_src=twsrc%5Etfw">#Bitcoin</a> articles<br>• I realized most only read title &amp; 1st paragraph (caught myself doing it)<br>• The scope of Bitcoin study feels insurmountable w/out help<a href="https://t.co/umoiK05Ijz">https://t.co/umoiK05Ijz</a></p>&mdash; Guy Swann⚡ (@TheCryptoconomy) <a href="https://twitter.com/TheCryptoconomy/status/1119307773760757766?ref_src=twsrc%5Etfw">April 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
