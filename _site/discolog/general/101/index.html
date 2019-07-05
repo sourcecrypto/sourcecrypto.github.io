@@ -1,0 +1,4469 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Favicons -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://SourceCrypto.pub/assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://SourceCrypto.pub/assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://SourceCrypto.pub/assets/icons/favicon-16x16.png">
+<link rel="manifest" href="https://SourceCrypto.pub/assets/icons/site.webmanifest">
+<link rel="mask-icon" href="https://SourceCrypto.pub/assets/icons/safari-pinned-tab.svg" color="#79dfce">
+<link rel="shortcut icon" href="https://SourceCrypto.pub/assets/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#79dfce">
+<meta name="msapplication-config" content="https://SourceCrypto.pub/assets/icons/browserconfig.xml">
+<meta name="theme-color" content="#79dfce">
+
+<!-- begin _includes/seo.html --><title>101 | Source Crypto</title>
+<meta name="description" content="                            Source&#10697;Crypto        101        ">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Source Crypto">
+<meta property="og:title" content="101">
+<meta property="og:url" content="https://sourcecrypto.pub/discolog/general/101/">
+
+
+  <meta property="og:description" content="                            Source&#10697;Crypto        101        ">
+
+
+
+  <meta property="og:image" content="https://sourcecrypto.pub/images/Source-Crypto-banner.png">
+
+
+
+  <meta name="twitter:site" content="@SourceCrypto">
+  <meta name="twitter:title" content="101">
+  <meta name="twitter:description" content="                            Source&#10697;Crypto        101        ">
+  <meta name="twitter:url" content="https://sourcecrypto.pub/discolog/general/101/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://sourcecrypto.pub/images/Source-Crypto-banner.png">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-07-05T06:49:23-04:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://sourcecrypto.pub/discolog/general/101/">
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://sourcecrypto.pub",
+      "logo": "https://SourceCrypto.pub/images/Source-Crypto-og.png"
+    }
+  </script>
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Infominer",
+      "url": "https://sourcecrypto.pub",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Source Crypto Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    
+      <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<style>
+
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+display: flex;
+max-width: 100%;
+margin: 0 5px 10px 5px;    
+}
+
+.info__guild-icon-container {
+flex: 0;
+}
+
+.info__guild-icon {
+max-width: 88px;
+max-height: 88px;
+}
+
+.info__metadata {
+flex: 1;
+margin-left: 10px;
+}
+
+.info__guild-name {
+font-size: 1.4em;
+}
+
+.info__channel-name {
+font-size: 1.2em;
+}
+
+.info__channel-topic {
+margin-top: 2px;
+}
+
+.info__channel-message-count {
+margin-top: 2px;
+}
+
+.info__channel-date-range {
+margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+max-width: 100%;
+margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+display: flex;
+margin: 0 10px;
+padding: 15px 0;
+border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+flex: 0;
+width: 40px;
+height: 40px;
+}
+
+.chatlog__author-avatar {
+border-radius: 50%;
+height: 40px;
+width: 40px;
+}
+
+.chatlog__messages {
+flex: 1;
+min-width: 50%;
+margin-left: 20px;
+}
+
+.chatlog__author-name {
+font-size: 1em;
+font-weight: 500;
+}
+
+.chatlog__timestamp {
+margin-left: 5px;
+font-size: .75em;
+}
+
+.chatlog__content {
+padding-top: 5px;
+font-size: .9375em;
+word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+margin-left: 3px;
+font-size: .8em;
+}
+
+.chatlog__attachment {
+margin: 5px 0;
+}
+
+.chatlog__attachment-thumbnail {
+max-width: 100%;
+max-height: 500px;
+border-radius: 3px;
+}
+
+.chatlog__embed {
+display: flex;
+max-width: 520px;
+margin-top: 5px;
+}
+
+.chatlog__embed-color-pill {
+flex-shrink: 0;
+width: 4px;
+border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+display: flex;
+flex-direction: column;
+padding: 8px 10px;
+border: 1px solid;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+width: 100%;
+display: flex;
+}
+
+.chatlog__embed-text {
+flex: 1;
+}
+
+.chatlog__embed-author {
+display: flex;
+align-items: center;
+margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+width: 20px;
+height: 20px;
+margin-right: 9px;
+border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+font-size: .875em;
+font-weight: 600;
+}
+
+.chatlog__embed-title {
+margin-bottom: 4px;
+font-size: .875em;
+font-weight: 600;
+}
+
+.chatlog__embed-description {
+font-weight: 500;
+font-size: 14px;
+}
+
+.chatlog__embed-fields {
+display: flex;
+flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+flex: 0;
+min-width: 100%;
+max-width: 506px;
+padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+flex: 1;
+flex-basis: auto;
+min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+margin-bottom: 4px;
+font-size: .875em;
+font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+font-size: .875em;
+font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+flex: 0;
+margin-left: 20px;
+max-width: 80px;
+max-height: 80px;
+border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+margin-top: 10px;
+}
+
+.chatlog__embed-image {    
+max-width: 500px;
+max-height: 400px;
+border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+margin-right: 4px;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+font-weight: 600;
+font-size: .75em;
+}
+
+.chatlog__reactions {
+display: flex;
+}
+
+.chatlog__reaction {
+display: flex;
+align-items: center;
+margin: 6px 2px 2px 2px;
+padding: 3px 6px;
+border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+min-width: 9px;
+margin-left: 6px;
+font-size: .875em;
+}
+</style>
+<style>
+    /* === GENERAL === */
+
+
+body {
+background-color: #252a34;
+color: #dcddde;
+}
+
+a {
+color: #0096cf;
+}
+
+.spoiler {
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pre {
+background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+border-color: #282b30 !important;
+color: #839496 !important;
+}
+
+.mention {
+color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+color: #ffffff;
+}
+
+.info__channel-name {
+color: #ffffff;
+}
+
+.info__channel-topic {
+color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+color: #ffffff;
+}
+
+.chatlog__timestamp {
+color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__edited-timestamp {
+color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+background-color: rgba(46, 48, 54, 0.3);
+border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+color: #ffffff;
+}
+
+.chatlog__embed-title {
+color: #ffffff;
+}
+
+.chatlog__embed-description {
+color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+color: rgba(255, 255, 255, 0.3);
+}
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.pre--multiline').forEach((block) => {
+            hljs.highlightBlock(block);
+        });
+    });
+</script>
+
+<!-- end custom head snippets -->
+
+    
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="https://sourcecrypto.pub/images/interlinked.png" alt=""></a>
+        
+        <a class="site-title" href="/">Research Index — Discord Chat</a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/feature/">Featured Content</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/discolog/">DiscoLog</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://infominer.id/" target="_blank" rel="noopener noreferrer">Info⧉Hub</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/bitcoin-history">Bitcoin Histories</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/decentralized-web/">Decentralized Web</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/transcripts">Transcripts</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://learncryptotrading.co" target="_blank" rel="noopener noreferrer">Learn Crypto Trading</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://decentralized-id.com" target="_blank" rel="noopener noreferrer">DIDecentralized</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools" target="_blank" rel="noopener noreferrer">Webwork Tools</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/indieweb" target="_blank" rel="noopener noreferrer">IndieWeb</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://SourceCrypto.pub" target="_blank" rel="noopener noreferrer">Source⧉Crypto</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/github-pages-starter-pack/" target="_blank" rel="noopener noreferrer">Github Pages Starter Pack</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero" style=" ">
+  
+    <img src="/images/Source-Crypto-banner.png" alt="101" class="page__hero-image">
+  
+  
+    <span class="page__hero-caption"><table>
+  <tbody>
+    <tr>
+      <td><a href="https://twitter.com/Delpadschnick" class="user-mention">@Delpadschnick</a></td>
+      <td><a href="https://CryptoDesign.io" target="_blank" rel="noopener noreferrer">CryptoDesign.io</a></td>
+    </tr>
+  </tbody>
+</table>
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">⧉Info⧉</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/"><span class="nav__sub-title">DiscoLog</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/sitemap/" class="">• Sitemap</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/featured/" class="">• Featured Content</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://infominer.id/" class="" target="_blank" rel="noopener noreferrer">• Infomine</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://learncryptotrading.co" class="" target="_blank" rel="noopener noreferrer">• Learn Crypto Trading</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/bitcoin-history" class="">• Bitcoin Histories</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/transcripts" class="">• Transcripts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/decentralized-web/" class="">• Decentralized Web</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/general/"><span class="nav__sub-title">General</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/read-me/" class="">• Readme</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/101/" class="active">• 101</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/classification/" class="">• Classification</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/cypherpunk/" class="">• Cypherpunk</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/earn-crypto/" class="">• Earn Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/economics/" class="">• Economics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/evaluation/" class="">• Evaluation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/exchanges/" class="">• Exchanges</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/governance/" class="">• Governance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/growth-adoption/" class="">• Growth - Adoption</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/history/" class="">• History</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/library-submissions/" class="">• Library Submissions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/memes-n-junk/" class="">• Memes n Junk</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/mining/" class="">• Mining</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/oppression/" class="">• Oppression</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/regulation/" class="">• Regulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/satoshi/" class="">• Satoshi</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/trading/" class="">• Trading</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/wallets/" class="">• Wallets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/traditional-finance/" class="">• Traditional Finance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/walstreet/" class="">• Walstreet</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/resources/"><span class="nav__sub-title">Resources</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/assorted-media/" class="">• Assorted Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/books/" class="">• Books</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/bots/" class="">• Bots</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/china/" class="">• China</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/communities/" class="">• Communities</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/conferences/" class="">• Conferences</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/news-sites/" class="">• News Sites</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/non-english/" class="">• Non-English</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/french/" class="">• French</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/research-papers/" class="">• Research Papers</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/resources/" class="">• Resources</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/send-crypto/" class="">• Send-Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/swag/" class="">• Swag</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/tech-in-media/" class="">• Tech in Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/twitter-follows/" class="">• Twitter Follows</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/women/" class="">• Women</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/blockchain-tech/"><span class="nav__sub-title">Blockchain Tech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/consensus/" class="">• Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/pow/" class="">• PoW</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/pos/" class="">• PoS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/tendermint/" class="">• Tendermint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/eth-consensus/" class="">• Eth-Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/decentralization/" class="">• Decentralization</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/forks/" class="">• Forks</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/drivechains/" class="">• Drivechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/hahs-algos/" class="">• Hash Algos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/interoperability/" class="">• Interoperability</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/sharding/" class="">• Sharding</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/sidechains/" class="">• Sidechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/smart-contracts/" class="">• Smart Contracts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/smart-signatures/" class="">• Smart Signatures</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/state-channels/" class="">• State Channels</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/oracles/" class="">• Oracles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/ethresearch/" class="">• Ethresearch</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/master-nodes/" class="">• Master-Nodes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/tech/"><span class="nav__sub-title">Tech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/security/" class="">• Security</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/cryptography/" class="">• Cryptography</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/privacy/" class="">• Privacy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/cybersecurity/" class="">• Cybersecurity</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/infosec/" class="">• Infosec</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/tor/" class="">• Tor</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/bittorrent/" class="">• Bit-Torrent</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/distributed-systems/" class="">• Distributed Systems</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/internet-protocols/" class="">• Internet Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/P2P/" class="">• P2P</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/identification/" class="">• Identification</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/open-source-hardware/" class="">• Open Source Hardware</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/design/" class="">• Design</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/other/" class="">• Other</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/development/"><span class="nav__sub-title">Development</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/gen-development/" class="">• Gen Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/blockchain-development/" class="">• Blockchain Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/bitcoin-dev/" class="">• Bitcoin Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/cardano-dev/" class="">• Cardano Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/corda-dev/" class="">• Corda Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/forking/" class="">• Forking</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/ethereum-dev/" class="">• Ethereum Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/hackathons/" class="">• Hackathons</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/hyperledger-dev/" class="">• Hyperledger Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/id-dev/" class="">• ID Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/nano-dev/" class="">• Nano Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/steem-dev/" class="">• Steem Dev</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/crypto/"><span class="nav__sub-title">Crypto</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/gen-crypto/" class="">• Gen Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/bitcoin/" class="">• Bitcoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/btc-layer2/" class="">• BTC Layer2</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/bch/" class="">• B-Cash</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/bitshares/" class="">• Bitshares</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/blockstack/" class="">• Blockstack</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/bytom/" class="">• Bytom</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/cardano/" class="">• Cardano</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/central-bank-digital-currency/" class="">• Central Bank Digital Currency</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/cosmos/" class="">• Cosmos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/dash/" class="">• DASH</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/doge/" class="">• DOGE</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/eos/" class="">• EOS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/etc/" class="">• ETC - Eth Classic</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/etcetera/" class="">• Etcetera</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/ethereum/" class="">• Ethereum</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/eth-layer2/" class="">• ETH Layer 2</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/grin-mimblewimble/" class="">• Grin Mimble-Wimble</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/hashgraph/" class="">• Hashgraph</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/iota/" class="">• IOTA</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/litecoin/" class="">• Litecoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/monero/" class="">• Monero</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/nano/" class="">• Nano</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/neo/" class="">• NEO</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/ripple/" class="">• Ripple</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/stable-coins/" class="">• Stable Coins</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/steem/" class="">• Steem</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/stellar/" class="">• Stellar</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/tezos/" class="">• Tezos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/tron/" class="">• Tron</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/zcash/" class="">• ZCash</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/enterprise/"><span class="nav__sub-title">Enterprise</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/enterprise/enterprise-dlt/" class="">• Enterprise - DLT</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/enterprise/ent-eth/" class="">• Enterprise Ethereum</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/enterprise/corda/" class="">• Corda</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/enterprise/hyperledger/" class="">• Hyperledger</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/application/"><span class="nav__sub-title">Application</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/art-collectibles/" class="">• Art Collectibles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/ai/" class="">• AI</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/brave/" class="">• Brave</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/criminal/" class="">• Criminal</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/crypto-selfregulation/" class="">• Crypto Self-Regulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/dao/" class="">• DAO</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/defi/" class="">• Defi</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/dapps/" class="">• dApps</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/energy/" class="">• Energy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/fiat-onramp/" class="">• Fiat Onramp</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/finance/" class="">• Finance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/games/" class="">• Games</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/government/" class="">• Government</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/identity-did/" class="">• Identity - DID</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/icos/" class="">• ICOs</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/iot/" class="">• Iot</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/institutional-derivitives/" class="">• Institutional Derivitives</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/intellectual-property/" class="">• Intellectual Property</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/marketplaces/" class="">• Marketplaces</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/music/" class="">• Music</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/notary/" class="">• Notary</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/payment-processing/" class="">• Payment Processing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/protocols/" class="">• Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/publishing/" class="">• Publishing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/prediction-markets/" class="">• Prediction Markets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/security-tokens/" class="">• Security Tokens</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/services/" class="">• Services</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/social-media/" class="">• Social Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/supplychain/" class="">• Supply Chain</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/united-nations/" class="">• United Nations</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/utility/" class="">• Utility</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/voting/" class="">• Voting</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/web-work/"><span class="nav__sub-title">Web Work</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/web-work/" class="">• Web Work</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/seo-keyword-research/" class="">• SEO Keyword Reserach</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/archival/" class="">• Archival</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/content-creation/" class="">• Content Creation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/indieweb/" class="">• Indieweb</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/kill-slack/" class="">• Kill Slack</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/github/" class="">• GitHub</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/linux/" class="">• Linux</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/digital-nomad/" class="">• Digital Nomad</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/open-source/" class="">• Open Source</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/pi-rasberry/" class="">• PI and other SBCs</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/ipfs/" class="">• IPFS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/work-online/" class="">• Work Online</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/seo-keyword-reserach/" class="">• SEO Keyword Research</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/web-development/" class="">• Web Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/data/" class="">• Data</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/data-mining/" class="">• Data Mining</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/data-science/" class="">• Data Science</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/databases/" class="">• Databases</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/web-work/quant-trading/" class="">• Quant Trading</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="101">
+    <meta itemprop="description" content="                            Source⧉Crypto        101        ">
+    <meta itemprop="datePublished" content="July 05, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">101
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://SourceCrypto.pub/images/sourceicon.png">
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source⧉Crypto</div>
+        <div class="info__channel-name">101</div>
+        
+
+        <div class="info__channel-message-count">46 messages</div>
+        
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">08-Aug-18 01:05 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@intenex/cryptocurrency-101-7197684775fd" target="_blank" rel="noopener noreferrer">https://medium.com/@intenex/cryptocurrency-101-7197684775fd</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@intenex/cryptocurrency-101-7197684775fd" target="_blank" rel="noopener noreferrer"><span class="markdown">Cryptocurrency 101 – Ben Yu – Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Ever since Nas Daily’s video came out about how I earned over $400,000 with less than $10,000 investing in Bitcoin and Ethereum, I’ve been…</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*85TP1-4Z0iR0MEKVBzN4QQ.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*85TP1-4Z0iR0MEKVBzN4QQ.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">10-Aug-18 11:00 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@hector_89360/the-blockchain-in-a-nutshell-94e7c4661e4f" target="_blank" rel="noopener noreferrer">https://medium.com/@hector_89360/the-blockchain-in-a-nutshell-94e7c4661e4f</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@hector_89360/the-blockchain-in-a-nutshell-94e7c4661e4f" target="_blank" rel="noopener noreferrer"><span class="markdown">The Blockchain in a Nutshell – Hector – Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Overwhelmed by blockchain complexity, by crypto buzzwords, by speed of innovation? You are not alone. Lost in a jungle of scam ICOs? You…</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">11-Aug-18 08:58 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.csbtechemporium.com/bitcoin-blockchain-cryptocurrency/" target="_blank" rel="noopener noreferrer">https://www.csbtechemporium.com/bitcoin-blockchain-cryptocurrency/</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="21-Oct-18 09:53 PM">(edited)</span>
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.csbtechemporium.com/author/daviddoer" target="_blank" rel="noopener noreferrer">InfoMiner</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.csbtechemporium.com/bitcoin-blockchain-cryptocurrency" target="_blank" rel="noopener noreferrer"><span class="markdown">Bitcoin, Blockchain, and Cryptocurrency | CSB Tech Emporium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Bitcoin is a decentralized digital currency and peer-to-peer payment system, Its transactions are recorded in blocks, and each block is cryptographically linked to previous blocks, making a chain back to the very beginning. Bitcoin has no borders or central organization. Sinc...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.csbtechemporium.com/wp-content/uploads/2018/06/bitcoin-cash-close-up-843700-1-1024x832.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.csbtechemporium.com/wp-content/uploads/2018/06/bitcoin-cash-close-up-843700-1-1024x832.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">13-Aug-18 03:23 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.csbtechemporium.com/how-to-secure-your-cryptocurrency/" target="_blank" rel="noopener noreferrer">https://www.csbtechemporium.com/how-to-secure-your-cryptocurrency/</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="21-Oct-18 10:48 PM">(edited)</span>
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.csbtechemporium.com/author/daviddoer" target="_blank" rel="noopener noreferrer">InfoMiner</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.csbtechemporium.com/how-to-secure-your-cryptocurrency" target="_blank" rel="noopener noreferrer"><span class="markdown">Wallets and Backups: How to Secure Your Cryptocurrency | CSB Tech ...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Whether you’re a newfound blockchain devotee, or just want exposure to the potential upside, this guide will help get you started on the journey. Before you buy Bitcoin or other cryptocurrencies, you’ll want to know how to keep it secure.  Traditional forms of currency, ...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i0.wp.com/www.csbtechemporium.com/wp-content/uploads/2018/08/crypto-wallet.jpg?fit=800%2C533&amp;ssl=1" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://i0.wp.com/www.csbtechemporium.com/wp-content/uploads/2018/08/crypto-wallet.jpg?fit=800%2C533&amp;ssl=1">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">14-Aug-18 03:36 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://anders.com/blockchain/" target="_blank" rel="noopener noreferrer">https://anders.com/blockchain/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://anders.com/blockchain/" target="_blank" rel="noopener noreferrer"><span class="markdown">Blockchain Demo</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A live blockchain demo in a browser.</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">14-Aug-18 04:29 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.freecodecamp.org/the-hard-thing-about-learning-hard-things-168e655ac7f2" target="_blank" rel="noopener noreferrer">https://medium.freecodecamp.org/the-hard-thing-about-learning-hard-things-168e655ac7f2</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.freecodecamp.org/the-hard-thing-about-learning-hard-things-168e655ac7f2" target="_blank" rel="noopener noreferrer"><span class="markdown">The Hard Thing About Learning Hard Things – freeCodeCamp</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">How do you learn something no one can teach you?</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*RSuU-uIUy819WpPcrX2q7Q.jpeg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*RSuU-uIUy819WpPcrX2q7Q.jpeg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">15-Aug-18 01:00 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.youtube.com/playlist?list=PLQIX_E46U4XYE5GR6029FpnaX9aBXbt0B" target="_blank" rel="noopener noreferrer">https://www.youtube.com/playlist?list=PLQIX_E46U4XYE5GR6029FpnaX9aBXbt0B</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,0,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.youtube.com/playlist?list=PLQIX_E46U4XYE5GR6029FpnaX9aBXbt0B" target="_blank" rel="noopener noreferrer"><span class="markdown">Princeton Bitcoin/Blockchain Course - YouTube</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i.ytimg.com/vi/fOMVZXLjKYo/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLD1aSvLh6yfnVsPs3eobnJTVwcG4w" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://i.ytimg.com/vi/fOMVZXLjKYo/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLD1aSvLh6yfnVsPs3eobnJTVwcG4w">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">16-Aug-18 07:50 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://99bitcoins.com" target="_blank" rel="noopener noreferrer">https://99bitcoins.com</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://99bitcoins.com/author/ofirnhm-co-il/" target="_blank" rel="noopener noreferrer">Ofir Beigel</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://99bitcoins.com" target="_blank" rel="noopener noreferrer"><span class="markdown">99Bitcoins | Buy Bitcoin, Bitcoin Guides &amp; Reviews for Bitcoin Newbies</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">99Bitcoins supplies video and text tutorial on how to buy Bitcoins with Paypal, Credit Card, debit card and more. We also supply you with your first Bitcoin</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://99bitcoins.com/wp-content/uploads/2013/06/jason_benjamin-bitcoin-wall4-1600-1140x3951.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://99bitcoins.com/wp-content/uploads/2013/06/jason_benjamin-bitcoin-wall4-1600-1140x3951.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">16-Aug-18 06:00 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/" target="_blank" rel="noopener noreferrer">https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://azeria-labs.com/author/cat/" target="_blank" rel="noopener noreferrer">unknown</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/" target="_blank" rel="noopener noreferrer"><span class="markdown">The Importance of Deep Work &amp; The 30-Hour Method for Learning a Ne...</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://azeria-labs.com/promo.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://azeria-labs.com/promo.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.csbtechemporium.com/where-to-buy-bitcoin-and-other-cryptocurrencies/81" target="_blank" rel="noopener noreferrer">https://www.csbtechemporium.com/where-to-buy-bitcoin-and-other-cryptocurrencies/81</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="21-Oct-18 10:46 PM">(edited)</span>
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.csbtechemporium.com/author/daviddoer" target="_blank" rel="noopener noreferrer">InfoMiner</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.csbtechemporium.com/where-to-buy-bitcoin-and-other-cryptocurrencies/81" target="_blank" rel="noopener noreferrer"><span class="markdown">Where to Buy Bitcoin and Other Cryptocurrencies | CSB Tech Emporium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Our guide will show you the best sites and exchanges for buying Bitcoin and other cryptos. There are over 200 cryptocurrency exchanges. I'll go over some of the most popular choices for buying your first cryptocurrencies, provide links to more in-depth reviews, and other reso...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i2.wp.com/www.csbtechemporium.com/wp-content/uploads/2018/08/crypto-exchanges.jpg?fit=960%2C500&amp;ssl=1" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://i2.wp.com/www.csbtechemporium.com/wp-content/uploads/2018/08/crypto-exchanges.jpg?fit=960%2C500&amp;ssl=1">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">25-Aug-18 01:16 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.smithandcrown.com/research/" target="_blank" rel="noopener noreferrer">https://www.smithandcrown.com/research/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.smithandcrown.com/author/researcher/" target="_blank" rel="noopener noreferrer">Smith+Crown Research Team</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.smithandcrown.com/research/" target="_blank" rel="noopener noreferrer"><span class="markdown">Research - Smith + Crown</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Since 2013 we have been studying the breadth of the public blockchain space with a focus on global trends, industry intelligence, and cryptoeconomic systems</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.smithandcrown.com/wp-content/uploads/2018/03/SC_icon_black.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.smithandcrown.com/wp-content/uploads/2018/03/SC_icon_black.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">29-Aug-18 09:24 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.theverge.com/2018/3/7/17091766/blockchain-bitcoin-ethereum-cryptocurrency-meaning" target="_blank" rel="noopener noreferrer">https://www.theverge.com/2018/3/7/17091766/blockchain-bitcoin-ethereum-cryptocurrency-meaning</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.theverge.com/2018/3/7/17091766/blockchain-bitcoin-ethereum-cryptocurrency-meaning" target="_blank" rel="noopener noreferrer"><span class="markdown">‘Blockchain’ is meaningless</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">"You keep using that word. I do not think it means what you think it means."</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn.vox-cdn.com/thumbor/9inLHdPYtMB1pyO936DAKt3d7b4=/0x215:3000x1786/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/8954807/acastro_170726_1777_0008.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn.vox-cdn.com/thumbor/9inLHdPYtMB1pyO936DAKt3d7b4=/0x215:3000x1786/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/8954807/acastro_170726_1777_0008.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">31-Aug-18 11:58 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://coincenter.org/entry/what-is-a-51-attack-and-what-can-a-successful-attacker-do-1" target="_blank" rel="noopener noreferrer">https://coincenter.org/entry/what-is-a-51-attack-and-what-can-a-successful-attacker-do-1</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(245,130,32,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://coincenter.org/entry/what-is-a-51-attack-and-what-can-a-successful-attacker-do-1" target="_blank" rel="noopener noreferrer"><span class="markdown">What is a 51% attack, and what can a successful attacker do? | Coi...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">This incredibly expensive approach is an unlikely strategy for Bitcoin fraud</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://coincenter.org/thumbs/metatags/2018-08/mining-1.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://coincenter.org/thumbs/metatags/2018-08/mining-1.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">04-Sep-18 08:17 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://files.stlouisfed.org/files/htdocs/publications/review/2018/01/10/a-short-introduction-to-the-world-of-cryptocurrencies.pdf" target="_blank" rel="noopener noreferrer">https://files.stlouisfed.org/files/htdocs/publications/review/2018/01/10/a-short-introduction-to-the-world-of-cryptocurrencies.pdf</a></span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">05-Sep-18 03:14 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://unchainedpodcast.co/crypto-101-everything-you-need-to-know-about-bitcoin-ethereum-blockchains-icos-and-more" target="_blank" rel="noopener noreferrer">http://unchainedpodcast.co/crypto-101-everything-you-need-to-know-about-bitcoin-ethereum-blockchains-icos-and-more</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://unchainedpodcast.co/crypto-101-everything-you-need-to-know-about-bitcoin-ethereum-blockchains-icos-and-more" target="_blank" rel="noopener noreferrer"><span class="markdown">Unchained: Big Ideas From The Worlds Of Blockchain And Cryptocurre...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Love Unchained? Please take this extremely brief survey to help us obtain more sponsors: <a href="https://survey.libsyn.com/unchained" target="_blank" rel="noopener noreferrer">https://survey.libsyn.com/unchained</a>  In this special bonus episode, Laura cover all your basic questions about crypto. What is Bitcoin? What is Ethereum? What is a blockchain? Share thi...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://assets.libsyn.com/show/83245?height=250&amp;width=250&amp;overlay=true" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://assets.libsyn.com/show/83245?height=250&amp;width=250&amp;overlay=true">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">15-Sep-18 05:16 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://a16z.com/2018/02/10/crypto-readings-resources/" target="_blank" rel="noopener noreferrer">https://a16z.com/2018/02/10/crypto-readings-resources/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://a16z.com/author/sonala16z/" target="_blank" rel="noopener noreferrer">sonala16z</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://a16z.com/2018/02/10/crypto-readings-resources/" target="_blank" rel="noopener noreferrer"><span class="markdown">Crypto Canon</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Here’s a list of crypto readings and resources. It's organized from building blocks and basics; foundations (&amp; history); and key concepts -- followed by specific topics such as governance; priv…</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i0.wp.com/s2.wp.com/wp-content/themes/vip/a16z-2015/static/images/a16z-logo.png?fit=440%2C330&amp;ssl=1" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://i0.wp.com/s2.wp.com/wp-content/themes/vip/a16z-2015/static/images/a16z-logo.png?fit=440%2C330&amp;ssl=1">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">17-Sep-18 12:15 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://hackernoon.com/why-bitcoin-why-sooner-rather-than-later-e44aa5373479" target="_blank" rel="noopener noreferrer">https://hackernoon.com/why-bitcoin-why-sooner-rather-than-later-e44aa5373479</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://hackernoon.com/why-bitcoin-why-sooner-rather-than-later-e44aa5373479" target="_blank" rel="noopener noreferrer"><span class="markdown">Why Bitcoin &amp; why sooner rather than later? – Hacker Noon</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">This article was inspired by an investor of ours who was looking to present the case for bitcoin to his firms investment committee. I…</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/0*T9xceDyLrf7spyYG" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/0*T9xceDyLrf7spyYG">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/409535423723864075/2d554bd208160c714b9e5c78f13d2c53.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="EpistemiCrisis#9088">EpistemiCrisis</span>
+                <span class="chatlog__timestamp">19-Sep-18 12:16 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown">I found this video extremely helpful when I was first starting out
+<a href="https://www.youtube.com/watch?v=_160oMzblY8" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=_160oMzblY8</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,0,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.youtube.com/user/anders94" target="_blank" rel="noopener noreferrer">Anders Brownworth</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.youtube.com/watch?v=_160oMzblY8" target="_blank" rel="noopener noreferrer"><span class="markdown">Blockchain 101 - A Visual Demo</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">This is a very basic visual introduction to the concepts behind a blockchain. We introduce the idea of an immutable ledger using an interactive web demo. Par...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i.ytimg.com/vi/_160oMzblY8/maxresdefault.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://i.ytimg.com/vi/_160oMzblY8/maxresdefault.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__reactions">
+                                <div class="chatlog__reaction">
+                                    <img class="emoji emoji--small" alt="💯" title="💯" src="https://twemoji.maxcdn.com/2/72x72/1f4af.png">
+                                    <span class="chatlog__reaction-count">1</span>
+                                </div>
+                        </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">22-Sep-18 09:42 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.coursera.org/learn/blockchain-foundations-and-use-cases" target="_blank" rel="noopener noreferrer">https://www.coursera.org/learn/blockchain-foundations-and-use-cases</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(70,137,198,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.coursera.org/learn/blockchain-foundations-and-use-cases" target="_blank" rel="noopener noreferrer"><span class="markdown">Blockchain: Foundations and Use Cases | Coursera</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Blockchain: Foundations and Use Cases from ConsenSys Academy. This course is the definitive introduction to blockchain for both the developer and non-developer audience. Beyond the technology, this course will introduce you to some of the ...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https:/coursera-course-photos.s3.amazonaws.com/df/5da010ac7b11e883afd1b874a685aa/Course-HeaderBG.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https:/coursera-course-photos.s3.amazonaws.com/df/5da010ac7b11e883afd1b874a685aa/Course-HeaderBG.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">22-Sep-18 10:09 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@fayehays/visual-crypto-vol-1-acronyms-2674a80bba7" target="_blank" rel="noopener noreferrer">https://medium.com/@fayehays/visual-crypto-vol-1-acronyms-2674a80bba7</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@fayehays/visual-crypto-vol-1-acronyms-2674a80bba7" target="_blank" rel="noopener noreferrer"><span class="markdown">Visual Crypto, Vol. 1: Acronyms – Faye Antonia Hays – Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Being a cryptonewbie is fun. You’re starting from zero, fresh-eyed as Bambi. You’re down for all things decentralization, and Twitter…</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*-ZA0wOeDMxQfTqeLpFcjrw.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*-ZA0wOeDMxQfTqeLpFcjrw.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">22-Sep-18 11:35 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/oleganza/status/1034178524389634048" target="_blank" rel="noopener noreferrer">https://twitter.com/oleganza/status/1034178524389634048</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/847493819968872449/lT-9kyU2_bigger.jpg">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/oleganza" target="_blank" rel="noopener noreferrer">Oleg Andreev (@oleganza)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Blockchain is not a database, it's a protocol for syncing the databases. The point of a blockchain is not to "store" or "distribute" data, it is to make sure mutually distrusting parties are all on the same page.</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Retweets</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">1341</span></div>
+                                                    </div>
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">3482</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png">
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">27-Sep-18 11:02 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/The1Brand7/status/989449833302953984" target="_blank" rel="noopener noreferrer">https://twitter.com/The1Brand7/status/989449833302953984</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1001160936936411136/aKh7BitZ_bigger.jpg">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/The1Brand7" target="_blank" rel="noopener noreferrer">⚠️bitcoin-dot-com is fraudulent⚠️ Brand7 (@The1Brand7)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown"><img class="emoji " alt="⚠" title="⚠" src="https://twemoji.maxcdn.com/2/72x72/26a0.png">️ If you are new to #bitcoin then please be aware that bitcoin .com is a fraudulent website.
+ 
+<img class="emoji " alt="⚠" title="⚠" src="https://twemoji.maxcdn.com/2/72x72/26a0.png">️ This website is run by Roger Ver who is a known serial scammer.
+
+<img class="emoji " alt="⚠" title="⚠" src="https://twemoji.maxcdn.com/2/72x72/26a0.png">️ The current main scam is the promotion of #bcash which is a fake version of bitcoin.</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Retweets</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">687</span></div>
+                                                    </div>
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">1376</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png">
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://bitcoin.org" target="_blank" rel="noopener noreferrer">http://bitcoin.org</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="27-Sep-18 11:02 PM">(edited)</span>
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://bitcoin.org/." target="_blank" rel="noopener noreferrer"><span class="markdown">Bitcoin - Open source P2P money</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Bitcoin is an innovative payment network and a new kind of money. Find all you need to know and get started with Bitcoin on bitcoin.org.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://bitcoin.org/img/icons/opengraph.png?1538078757" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://bitcoin.org/img/icons/opengraph.png?1538078757">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">28-Sep-18 08:22 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2832751" target="_blank" rel="noopener noreferrer">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2832751</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2832751" target="_blank" rel="noopener noreferrer"><span class="markdown">Blockchain Technology: What is it Good for? by Saifedean Ammous ::...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">This paper explains the functioning of “blockchain technology” and critically assesses its potential role in improving services in banking, contracts, and datab</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">30-Sep-18 11:17 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.xapo.com/why-own-bitcoin/" target="_blank" rel="noopener noreferrer">https://blog.xapo.com/why-own-bitcoin/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://blog.xapo.com/author/wences" target="_blank" rel="noopener noreferrer">Wences Casares</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.xapo.com/why-own-bitcoin" target="_blank" rel="noopener noreferrer"><span class="markdown">Why Own Bitcoin</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">1- Take 1% of what you have, and buy Bitcoin (all at once and at the market price) 2- Carry it at cost 3- Do not touch it for 10 years</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://blog.xapo.com/wp-content/uploads/2017/06/1416963996270.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://blog.xapo.com/wp-content/uploads/2017/06/1416963996270.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">04-Oct-18 03:44 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://coincenter.org/entry/do-you-really-need-a-blockchain-for-that" target="_blank" rel="noopener noreferrer">https://coincenter.org/entry/do-you-really-need-a-blockchain-for-that</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(245,130,32,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://coincenter.org/entry/do-you-really-need-a-blockchain-for-that" target="_blank" rel="noopener noreferrer"><span class="markdown">Do you really need a blockchain for that? | Coin Center</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Blockchains are essential for some projects and poorly suited for others. Using them where it is not needed could be a costly mistake.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://coincenter.org/thumbs/metatags/2017-07/blockfinchaintech.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://coincenter.org/thumbs/metatags/2017-07/blockfinchaintech.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">08-Oct-18 01:17 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cryptominded.com/glossary-cryptocurrency-terms-need-know/" target="_blank" rel="noopener noreferrer">https://cryptominded.com/glossary-cryptocurrency-terms-need-know/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://cryptominded.com/glossary-cryptocurrency-terms-need-know" target="_blank" rel="noopener noreferrer"><span class="markdown">A Glossary of all the Cryptocurrency Terms you need to know - Cryp...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Scrolling reddit, this site or other cryptocurrency related forums on the internet and having no clue what people are talking about? Well, nor was I when I first started getting involved into cryptocurrencies. Therefore I thought it would be useful to have a glossary of all t...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cryptominded.com/wp-content/uploads/2017/06/cryptominded-banner-final.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cryptominded.com/wp-content/uploads/2017/06/cryptominded-banner-final.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">08-Oct-18 01:44 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@jimmysong/why-blockchain-is-hard-60416ea4c5c" target="_blank" rel="noopener noreferrer">https://medium.com/@jimmysong/why-blockchain-is-hard-60416ea4c5c</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@jimmysong/why-blockchain-is-hard-60416ea4c5c" target="_blank" rel="noopener noreferrer"><span class="markdown">Why Blockchain is Hard – Jimmy Song – Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The hype around blockchain is massive. To hear the blockchain hype train tell it, blockchain will now:</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/0*W3LI86Xp8u_JEGfc.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/0*W3LI86Xp8u_JEGfc.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">09-Oct-18 06:45 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.axiomtech.io/blog-feed/2018/10/9/smart-contracts-uses-cases-dapps-icos" target="_blank" rel="noopener noreferrer">https://www.axiomtech.io/blog-feed/2018/10/9/smart-contracts-uses-cases-dapps-icos</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.axiomtech.io/blog-feed/2018/10/9/smart-contracts-uses-cases-dapps-icos" target="_blank" rel="noopener noreferrer"><span class="markdown">A Look At Smart Contracts, Use cases and DApps.</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Smart contracts  are self-executing code that defines and executes an agreement between multiple parties. That code contains simple “if/when…then…” statements executed within a distributed network that achieves consensus on transactions made within it. For example, a ...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://static1.squarespace.com/static/5b83cf270dbda3e6230cec3d/5b868ba5575d1f9926d3e9c4/5bbcfa49e4966b235e2037fb/1539117903841/Screen-Shot-2017-03-28-at-5.43.08-PM.png?format=1000w" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://static1.squarespace.com/static/5b83cf270dbda3e6230cec3d/5b868ba5575d1f9926d3e9c4/5bbcfa49e4966b235e2037fb/1539117903841/Screen-Shot-2017-03-28-at-5.43.08-PM.png?format=1000w">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">11-Oct-18 12:19 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/Bitboy_Hodl/status/1050235145733791744" target="_blank" rel="noopener noreferrer">https://twitter.com/Bitboy_Hodl/status/1050235145733791744</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1047870666291200001/rhhTrG-f_bigger.jpg">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/Bitboy_Hodl" target="_blank" rel="noopener noreferrer">Spooky BitBoy (@Bitboy_Hodl)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Here's another episode of the Complete Idiot's Guide to #Crypto. In this episode I show you how to open an #Ethereum wallet and the basics on how to use it.
+
+<a href="https://t.co/hiUL4ekuxc" target="_blank" rel="noopener noreferrer">https://t.co/hiUL4ekuxc</a></span></div>
+
+                                    </div>
+
+                                </div>    
+
+                                    <div class="chatlog__embed-image-container">
+                                        <a class="chatlog__embed-image-link" href="https://pbs.twimg.com/media/DpMvSmUVAAAPCZ0.jpg:large" target="_blank" rel="noopener noreferrer">
+                                            <img class="chatlog__embed-image" src="https://pbs.twimg.com/media/DpMvSmUVAAAPCZ0.jpg:large">
+                                        </a>
+                                    </div>
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png">
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">12-Oct-18 03:53 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/0xtokens/awesome-blockchain#whats-cooking" target="_blank" rel="noopener noreferrer">https://github.com/0xtokens/awesome-blockchain#whats-cooking</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/0xtokens/awesome-blockchain" target="_blank" rel="noopener noreferrer"><span class="markdown">0xtokens/awesome-blockchain</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Curated List of awesome Blockchain and Crytocurrency Resources - 0xtokens/awesome-blockchain</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars3.githubusercontent.com/u/38988275?s=400&amp;v=4" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars3.githubusercontent.com/u/38988275?s=400&amp;v=4">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">28-Oct-18 01:13 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/infominer33/Crypto-library/blob/master/library/toml/101.toml" target="_blank" rel="noopener noreferrer">https://github.com/infominer33/Crypto-library/blob/master/library/toml/101.toml</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/infominer33/Crypto-library/blob/master/library/toml/101.toml" target="_blank" rel="noopener noreferrer"><span class="markdown">infominer33/Crypto-library</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Contribute to infominer33/Crypto-library development by creating an account on GitHub.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars0.githubusercontent.com/u/44134283?s=400&amp;v=4" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars0.githubusercontent.com/u/44134283?s=400&amp;v=4">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">30-Oct-18 06:08 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/Querzel/status/960970967383240704" target="_blank" rel="noopener noreferrer">https://twitter.com/Querzel/status/960970967383240704</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1037319275487404032/VkpOfSr5_bigger.jpg">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/Querzel" target="_blank" rel="noopener noreferrer">Quer⚡[0.17.0] (@Querzel)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Good resources for #HODL'rs<img class="emoji " alt="👍" title="👍" src="https://twemoji.maxcdn.com/2/72x72/1f44d.png">
+The daily traded volume in #BTC is just a small fraction of the 16,8 Mio #Bitcoin, even on busy days...
+<a href="https://t.co/tdB8aVwkpy" target="_blank" rel="noopener noreferrer">https://t.co/tdB8aVwkpy</a>
+... so most of the coins seem to be hodled already. This explains why the bull-runs become stronger and stronger....</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png">
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">04-Nov-18 11:08 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/IMmsGNU/status/1048803584605794304" target="_blank" rel="noopener noreferrer">https://twitter.com/IMmsGNU/status/1048803584605794304</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/702387308671180800/D8NKZMc2_bigger.jpg">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/IMmsGNU" target="_blank" rel="noopener noreferrer">Chelsea Palmer (@IMmsGNU)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">As I send this tribute, messaging the address from desktop to mobile, I reflect on #crypto best practices- make sure to visually check that the addresses match after opening. In $btc the standard is compare first &amp; last 4 characters in the address string but can't be too c...</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png">
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">04-Nov-18 01:31 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://thebitcoinnews.com/what-are-blockchain-confirmations-and-why-do-they-matter/" target="_blank" rel="noopener noreferrer">https://thebitcoinnews.com/what-are-blockchain-confirmations-and-why-do-they-matter/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://thebitcoinnews.com/author/coincentral" target="_blank" rel="noopener noreferrer">Coincentral</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://thebitcoinnews.com/what-are-blockchain-confirmations-and-why-do-they-matter" target="_blank" rel="noopener noreferrer"><span class="markdown">What Are Blockchain Confirmations and Why Do They Matter? - The Bi...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">All public blockchains make use of blockchain confirmations. These are important since they can help you understand how confident you can be when making a transaction. When any transaction is first broadcast to the blockchain it starts with zero confirmations. This number the...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://thebitcoinnews.com/wp-content/uploads/2018/10/Bitcoin-Confirmations.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://thebitcoinnews.com/wp-content/uploads/2018/10/Bitcoin-Confirmations.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">10-Nov-18 05:29 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown">Bitcoin with an uppercase B refers to the software that facilitates the trans-
+fer and custody of bitcoin the currency, which starts with a lowercase b.
+•     Bitcoin equals software.
+•     bitcoin equals currency.</span>
+
+                        </div>
+
+
+
+                        <div class="chatlog__content">
+                            <span class="markdown">Cryptoassets - Chris Burniskey</span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">19-Nov-18 11:49 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://coinfeed.com/blog/2018/11/19/coin-vs-token-whats-the-difference/" target="_blank" rel="noopener noreferrer">http://coinfeed.com/blog/2018/11/19/coin-vs-token-whats-the-difference/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="http://coinfeed.com/blog/author/infominer" target="_blank" rel="noopener noreferrer">infominer</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://coinfeed.com/blog/2018/11/19/coin-vs-token-whats-the-difference" target="_blank" rel="noopener noreferrer"><span class="markdown">Coin vs. Token. What's the Difference? - Coinfeed Blog</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Bitcoin is the first decentralized payment network and digital currency, any other cryptocurrency can be called an Altcoin. Leading to the question: technically speaking, what qualifies as a coin?</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://coinfeed.com/blog/wp-content/uploads/2018/11/coinvtoken.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://coinfeed.com/blog/wp-content/uploads/2018/11/coinvtoken.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">25-Nov-18 08:37 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.binance.vision/" target="_blank" rel="noopener noreferrer">https://www.binance.vision/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.binance.vision/" target="_blank" rel="noopener noreferrer"><span class="markdown">Binance Academy</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Binance Academy – Cryptocurrency explained with video and cryptocurrency guides</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.binance.vision/images/meta.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.binance.vision/images/meta.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">25-Nov-18 09:31 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://ambcrypto.com/best-101-bitcoin-facts-the-infographic/" target="_blank" rel="noopener noreferrer">https://ambcrypto.com/best-101-bitcoin-facts-the-infographic/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://ambcrypto.com/author/guest-author" target="_blank" rel="noopener noreferrer">Guest Author</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://ambcrypto.com/best-101-bitcoin-facts-the-infographic" target="_blank" rel="noopener noreferrer"><span class="markdown">Best 101 Bitcoin Facts – the Infographic</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">“So, that’s the end of bitcoin then” that was the title of a Forbes article after the then popular Bitcoin exchange, Mt. Gox was hacked for the first time in 2011. Like Forbes, there have been multiple influential magazines that spelled doom on cryptocurrency over the y...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://ambcrypto.com/wp-content/uploads/2018/11/andre-francois-518771-unsplash-1000x600.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://ambcrypto.com/wp-content/uploads/2018/11/andre-francois-518771-unsplash-1000x600.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">09-Dec-18 01:38 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.coinspeaker.com/blockchain-infografic/" target="_blank" rel="noopener noreferrer">https://www.coinspeaker.com/blockchain-infografic/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.coinspeaker.com/blockchain-infografic/" target="_blank" rel="noopener noreferrer"><span class="markdown">Blockchain Technology, the Biggest Wonder of the 21st Century [Inf...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Since blockchain can be seen as the greatest innovation in the recent history, different industries will have different benefits from implementing blockchain technology. That is what infographic, created by BitFortune, is all about.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.coinspeaker.com/wp-content/uploads/2018/11/blockchain-technology-wonder-21-century.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.coinspeaker.com/wp-content/uploads/2018/11/blockchain-technology-wonder-21-century.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">09-Dec-18 06:12 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cryptominded.com/glossary-cryptocurrency-terms-need-know/" target="_blank" rel="noopener noreferrer">https://cryptominded.com/glossary-cryptocurrency-terms-need-know/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://cryptominded.com/glossary-cryptocurrency-terms-need-know/" target="_blank" rel="noopener noreferrer"><span class="markdown">A Glossary of all the Cryptocurrency Terms you need to know - Cryp...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Scrolling reddit, this site or other cryptocurrency related forums on the internet and having no clue what people are talking about? Well, nor was I when I first started getting involved into cryptocurrencies. Therefore I thought it would be useful to have a glossary of all t...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cryptominded.com/wp-content/uploads/2017/06/cryptominded-banner-final.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cryptominded.com/wp-content/uploads/2017/06/cryptominded-banner-final.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">23-Dec-18 12:08 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.fidelitydigitalassets.com/digital-asset-basics" target="_blank" rel="noopener noreferrer">https://www.fidelitydigitalassets.com/digital-asset-basics</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.fidelitydigitalassets.com/digital-asset-basics" target="_blank" rel="noopener noreferrer"><span class="markdown">Digital Asset Basics - Fidelity Digital Assets</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Digital assets are a maturing asset class. Click here to learn more about the fundamentals of bitcoin and other digital assets.</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">10-Jan-19 05:42 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.youtube.com/watch?v=bBC-nXj3Ng4" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=bBC-nXj3Ng4</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,0,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank" rel="noopener noreferrer">3Blue1Brown</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.youtube.com/watch?v=bBC-nXj3Ng4" target="_blank" rel="noopener noreferrer"><span class="markdown">Ever wonder how Bitcoin (and other cryptocurrencies) actually work?</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Bitcoin explained from the viewpoint of inventing your own cryptocurrency. Videos like these made possible by patreon: <a href="https://patreon.com/3blue1brown" target="_blank" rel="noopener noreferrer">https://patreon.com/3blue1brown</a> Protoc...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i.ytimg.com/vi/bBC-nXj3Ng4/maxresdefault.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://i.ytimg.com/vi/bBC-nXj3Ng4/maxresdefault.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.blockchaindailynews.com/The-difference-between-a-Private-Public-Consortium-Blockchain_a24681.html" target="_blank" rel="noopener noreferrer">https://www.blockchaindailynews.com/The-difference-between-a-Private-Public-Consortium-Blockchain_a24681.html</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.blockchaindailynews.com/The-difference-between-a-Private-Public-Consortium-Blockchain_a24681.html" target="_blank" rel="noopener noreferrer"><span class="markdown">The difference between a Private, Public &amp; Consortium Blockchain.</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A Simple Explanation for Dummies. The difference between a Private, Public &amp; Consortium Blockchain — Intrepid ReviewAs financial institutions begin to explore the possibilities of blockchain technology, they are coming up with systems that complement their existing busi...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.blockchaindailynews.com/photo/art/grande/10463523-17162232.jpg?v=1476168042" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.blockchaindailynews.com/photo/art/grande/10463523-17162232.jpg?v=1476168042">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">11-Mar-19 10:02 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://coinmonks.com/a-free-guide-for-non-coders-to-learn-blockchain-tech-in-6-months-or-less/" target="_blank" rel="noopener noreferrer">https://coinmonks.com/a-free-guide-for-non-coders-to-learn-blockchain-tech-in-6-months-or-less/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://coinmonks.com/author/admin/" target="_blank" rel="noopener noreferrer">admin</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://coinmonks.com/a-free-guide-for-non-coders-to-learn-blockchain-tech-in-6-months-or-less/" target="_blank" rel="noopener noreferrer"><span class="markdown">A free guide for non-coders to learn blockchain tech | Coinmonks Jobs</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">You can easily learn enough to find a job in 6 months, for free. The blockchain industry isn't just for coders. Every position is in demand: copywriters, marketers, PMs, sales execs, and more.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1500/1*gegCVTP39QIGwjB1JqHjjg.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1500/1*gegCVTP39QIGwjB1JqHjjg.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+</div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-07-05T06:49:23-04:00">July 05, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  <h4>ON GITHUB</h4>
+  <p><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/blob/master/_general/101.html" class="edit" target="_blank" rel="noopener noreferrer">Edit this page <i class="fa fa-pencil"></i></a></p>
+    
+  <h4 class="page__share-title">Share on</h4>
+    
+  <a href="https://twitter.com/intent/tweet?via=SourceCrypto&amp;text=101%20https%3A%2F%2Fsourcecrypto.pub%2Fdiscolog%2Fgeneral%2F101%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsourcecrypto.pub%2Fdiscolog%2Fgeneral%2F101%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fsourcecrypto.pub%2Fdiscolog%2Fgeneral%2F101%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.reddit.com/submit?url=/discolog/general/101/&amp;title=101" class="btn btn--reddit" title="Share on Reddit" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> Reddit</span></a>
+  <p><img src="https://infominer.id/assets/img/1pLr.gif"></p>
+  <h4>SUPPORT THE CAUSE</h4>
+  <p>Feel free to <a href="mailto:infominer@protonmail.com">contact me</a>, especially if you're interested in <a href="https://web-work.tools/services/#iso-clients-who-want-bitcoin-related-content" target="_blank" rel="noopener noreferrer">bitcoin related</a> content or research!</p>
+
+    <!-- Beginning of tippin.me Button -->
+    <p></p>
+<div id="tippin-button" data-dest="infominer33"></div>
+    <script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script>
+    <!-- End of tippin.me Button -->
+  <table class="table table-bordered table-hover table-condensed">
+      <thead>
+      <tr>
+        <th title="Field #1">Bitcoin</th>
+        <th title="Field #2">DOGE</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1A1DZfw4VgpHCgnMjnmfDnMjddKf8xdYbd</td>
+        <td>DQKkzfJjqnXUD8Z7C3e84vKzvghPe9dXSa</td>
+      </tr>
+      <tr>
+        <td><img src="https://imgur.com/yXLLm9Bl.png" width="150"></td>
+        <td><img src="https://imgur.com/z316u0c.png" width="150"></td>
+      </tr>
+    </tbody>
+  </table>  
+</section>
+
+
+
+      
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="/discolog/general/classification/" class="pagination--pager" title="classification
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/agoric-papers-teaser.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/agoric-papers-miller-drexler/" rel="permalink">The Agoric Papers
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  40 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Ho...</p>
+  </article>
+</div>
+
+        
+          
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/thecryptoconomy-podcast_guy-swann.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/thecryptoconomy-podcast-deep-dive/" rel="permalink">Down the @TheCryptoconomy Rabbithole
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  13 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Audio for Hundreds of Essential Bitcoin Articles. <a href="https://twitter.com/TheCryptoconomy" class="user-mention">@TheCryptoconomy</a> - Guy Swan….. These Podcasts are essential. So why not make an index of their content, org...</p>
+  </article>
+</div>
+
+        
+          
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/libra-map-the-block-preview.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/libra-association/" rel="permalink">The Libra Association
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Everything related to LibraCoin’s Consortium, ‘The Libra Association’.
+</p>
+  </article>
+</div>
+
+        
+          
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/facebook_libra_exhaustive-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/libra-facebook/" rel="permalink">The Libra Blockchain
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  8 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Everything related to Facebook’s LibraCoin - A simple global currency and financial infrastructure that empowers billions of people.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://infominer.id" rel="noopener noreferrer" target="_blank"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
+        
+      
+        
+          <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://keybase.io/infominer" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
+        
+      
+        
+          <li><a href="https://github.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/infominer33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://discord.gg/ahTuPMY" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+        
+      
+        
+          <li><a href="https://t.me/InfoMiner33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">⧉ <a href="https://infominer.id" target="_blank" rel="noopener noreferrer">infominer</a> ⧉ <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">Creative Commons (CC0 1.0) Public Domain</a> ⧉ Powered by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank">Minimal Mistakes</a> via <a href="https://infominer.id/gh-pages-starter-pack.html" target="_blank" rel="noopener noreferrer">Github Pages</a>. ⧉</div>
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
