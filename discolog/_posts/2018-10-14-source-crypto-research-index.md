@@ -6,7 +6,7 @@ header:
   image: /images/source-crypto-disco.png
   og_image: /images/source-crypto-disco.png #/images/source-crypto-gh-og.png
   teaser: /images/source-crypto-disco.png
-  caption: "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+  caption: #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 sidebar:
   nav: sourcedisco 
 excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/discolog/) here. The next step is to systematically build better, more organized resources with the server as a starting point."
@@ -52,7 +52,7 @@ For now you can browse the entire index of channels at once, or one category at 
 
 For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the discolog are in `discolog`, all the data is in `_data`.  
 
-Everything else is `mmistakes/minimal-mistakes`. Pretty straightforward: its [open-source](https://github.com/mmistakes/minimal-mistakes)), and [well-documented](https://mmistakes.github.io/minimal-mistakes/).
+Everything else is `mmistakes/minimal-mistakes`. Pretty straightforward: its [open-source](https://github.com/mmistakes/minimal-mistakes), and [well-documented](https://mmistakes.github.io/minimal-mistakes/).
 
 
 ## A Machine Readable Repository on Every Subject In Crypto.

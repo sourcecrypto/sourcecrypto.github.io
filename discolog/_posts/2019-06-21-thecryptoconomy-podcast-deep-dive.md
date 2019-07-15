@@ -94,19 +94,6 @@ tags: [bitcoin, crypto, blockchain, history, history, permissioned, cryptocurren
 * CryptoQuikRead_222 - [Decentralized Disruption, Who Dares Wins: BitTorrent Lessons [4 of 4]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_222---Decentralized-Disruption--Who-Dares-Wins-BitTorrent-Lessons-4-of-4-e3hek4)
 
 
-### History of Money
-
-[![](https://imgur.com/WLwOn7F.png)](https://nakamotoinstitute.org/shelling-out/)
-
-
-* Shelling Out - [The Origins of Money](https://anchor.fm/thecryptoconomy/episodes/Shelling-Out---The-Origins-of-Money-e2ndom)
-* CryptoQuikRead_176 - [Shelling Out - The Origins of Money [Part 1]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_176---Shelling-Out---The-Origins-of-Money-Part-1-e2ndor)
-* CryptoQuikRead_177 - [Shelling Out - The Origins of Money [Part 2]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_177---Shelling-Out---The-Origins-of-Money-Part-2-e2ndoq)
-* CryptoQuikRead_178 - [Shelling Out - The Origins of Money [Part 3]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_178---Shelling-Out---The-Origins-of-Money-Part-3-e2ndos)
-* CryptoQuikRead_179 - [Shelling Out - The Origins of Money [Part 4]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_179---Shelling-Out---The-Origins-of-Money-Part-4-e2ndop)
-* CryptoQuikRead_262 - [The Island of Stone Money](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_262---The-Island-of-Stone-Money-e4d6m0)
-* GuysTake_18 - [A Story About Booms & Busts](https://anchor.fm/thecryptoconomy/episodes/GuysTake_18---A-Story-About-Booms--Busts-e4aflh)
-
 ## Economics - Finance
 
 
@@ -153,6 +140,22 @@ tags: [bitcoin, crypto, blockchain, history, history, permissioned, cryptocurren
 * CryptoQuikRead_215 - [Szabo’s Formalizing & Securing Network Relationships [Part 2]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_215---Szabos-Formalizing--Securing-Network-Relationships-Part-2-e3atv9)
 * CryptoQuikRead_216 - [Formalizing & Securing Network Relationships [Part 3]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_216---Formalizing--Securing-Network-Relationships-Part-3-e3ejnd)
 * CryptoQuikRead_261 - [The God Protocols](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_261---The-God-Protocols-e4cstb)
+
+
+
+### History of Money 
+
+[![](https://imgur.com/WLwOn7F.png)](https://nakamotoinstitute.org/shelling-out/)
+
+Yes, also by Szabo.
+
+* Shelling Out - [The Origins of Money](https://anchor.fm/thecryptoconomy/episodes/Shelling-Out---The-Origins-of-Money-e2ndom)
+* CryptoQuikRead_176 - [Shelling Out - The Origins of Money [Part 1]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_176---Shelling-Out---The-Origins-of-Money-Part-1-e2ndor)
+* CryptoQuikRead_177 - [Shelling Out - The Origins of Money [Part 2]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_177---Shelling-Out---The-Origins-of-Money-Part-2-e2ndoq)
+* CryptoQuikRead_178 - [Shelling Out - The Origins of Money [Part 3]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_178---Shelling-Out---The-Origins-of-Money-Part-3-e2ndos)
+* CryptoQuikRead_179 - [Shelling Out - The Origins of Money [Part 4]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_179---Shelling-Out---The-Origins-of-Money-Part-4-e2ndop)
+* CryptoQuikRead_262 - [The Island of Stone Money](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_262---The-Island-of-Stone-Money-e4d6m0)
+* GuysTake_18 - [A Story About Booms & Busts](https://anchor.fm/thecryptoconomy/episodes/GuysTake_18---A-Story-About-Booms--Busts-e4aflh)
 
 
 ## Bitcoin
@@ -407,6 +410,9 @@ tags: [bitcoin, crypto, blockchain, history, history, permissioned, cryptocurren
 
 [![](https://imgur.com/XyMR2ev.png)](https://iterative.capital/thesis/)
 
+* [What's Really Driving the Cryptocurrency Phenomenon? - The Iterative Capital Thesis](https://anchor.fm/thecryptoconomy/episodes/Whats-Really-Driving-the-Cryptocurrency-Phenomenon----The-Iterative-Capital-Thesis-e2u7qq) -Complete
+
+**Quick Reads**
 * CryptoQuikRead_186 - [The Cryptocurrency Phenomenon [Part 1]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_186---The-Cryptocurrency-Phenomenon-Part-1-e2ndoh)
 * CryptoQuikRead_187 - [The Cryptocurrency Phenomenon [Part 2]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_187---The-Cryptocurrency-Phenomenon-Part-2-e2ndoe)
 * CryptoQuikRead_188 - [The Cryptocurrency Phenomenon [Part 3]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_188---The-Cryptocurrency-Phenomenon-Part-3-e2ndod)
@@ -416,7 +422,6 @@ tags: [bitcoin, crypto, blockchain, history, history, permissioned, cryptocurren
 * CryptoQuikRead_192 - [The Cryptocurrency Phenomenon [Part 7]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_192---The-Cryptocurrency-Phenomenon-Part-7-e2ndo9)
 * CryptoQuikRead_193 - [The Cryptocurrency Phenomenon [Part 8]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_193---The-Cryptocurrency-Phenomenon-Part-8-e2ndo5)
 * CryptoQuikRead_194 - [The Cryptocurrency Phenomenon [Part 9]](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_194---The-Cryptocurrency-Phenomenon-Part-9-e2ndo4)
-* [What's Really Driving the Cryptocurrency Phenomenon? - The Iterative Capital Thesis](https://anchor.fm/thecryptoconomy/episodes/Whats-Really-Driving-the-Cryptocurrency-Phenomenon----The-Iterative-Capital-Thesis-e2u7qq)
 
 
 ## Mining
