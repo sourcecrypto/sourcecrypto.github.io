@@ -16,7 +16,7 @@ canonical_url: "https://sourcecrypto.pub/blog/thecryptoconomy-podcast-deep-dive/
 share: true
 last_modified_at: 2019-06-22T11:22:33-23:00
 categories: ["literature","resources"]
-tags: ["podcast" ,"bitcoin", "crypto","history"]
+tags: ["podcast", "bitcoin", "crypto","history"]
 
 ---
 
