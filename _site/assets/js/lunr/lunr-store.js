@@ -640,8 +640,8 @@ var store = [{
         "url": "http://localhost:4000/blog/thecryptoconomy-podcast-deep-dive/",
         "teaser":"http://localhost:4000/images/thecryptoconomy-podcast_guy-swann.png"},{
         "title": "Bitcoin Research Index",
-        "excerpt":"This page, at the moment, is mainly the contents of the Bitcoin Channel of our Discord server. This is my first attempt at organizing information related specifically to Bitcoin. We also have Bitcoin Dev and BTC-Layer2 channels that must be sorted. Ultimately, Bitcoin will get its own site branching off...","categories": ["Bitcoin"],
-        "tags": [],
+        "excerpt":"This page, at the moment, is mainly the contents of the Bitcoin Channel of our Discord server. This is my first attempt at organizing information related specifically to Bitcoin. We also have Bitcoin Dev and BTC-Layer2 channels that must be sorted. Ultimately, Bitcoin will get its own site branching off...","categories": ["crypto"],
+        "tags": ["bitcoin"],
         "url": "http://localhost:4000/blog/Bitcoin/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": null,

@@ -14,7 +14,7 @@ share: true
 last_modified_at: 2019-06-28T11:22:33-23:00
 categories: ["literature"]
 tags: [:Agoric", "Mark Miller", "Eric Drexler", "ObCap", "Smart Contracts", "history"]
-toc_sticky: false
+toc_sticky: true
 permalink: blog/agoric-papers-miller-drexler/
 ---
 
