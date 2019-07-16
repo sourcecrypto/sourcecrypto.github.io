@@ -389,11 +389,6 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/discolog/crypto/stable-coins/",
         "teaser":"http://localhost:4000/images/crypto-teaser.png"},{
-        "title": "steem",
-        "excerpt":"Source&#10697;Crypto steem 18 messages &#10697;infominer 11-Aug-18 09:06 PM https://steem.io (edited) Steem - blockchain-based social media platform A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology https://steem.io/steem-whitepaper.pdf https://smt.steem.io/smt-whitepaper.pdf &#10697;infominer 16-Aug-18 03:36 AM https://bytemaster.github.io/ Bytemaster&#39;s Blog Join me as I explore free market solutions...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/crypto/steem/",
-        "teaser":"http://localhost:4000/images/crypto-teaser.png"},{
         "title": "stellar",
         "excerpt":"Source&#10697;Crypto stellar 5 messages &#10697;infominer 17-Sep-18 12:14 AM https://cointelegraph.com/news/ibm-reveals-stellar-based-near-real-time-blockchain-payment-network IBM Reveals Stellar-Based &#8216;Near Real-Time&#8217; Blockchain Payment ... IBM&#8217;s Stellar-based blockchain platform has been brought out of beta this week. &#10697;infominer 23-Sep-18 12:37 AM https://medium.com/interstellar/announcing-interstellar-24ff0bc2d89c Announcing Interstellar &#8211; Interstellar &#8211; Medium Lightyear has acquired Chain and is now called Interstellar https://twitter.com/adamludwin/status/1039179747714985984...","categories": [],
         "tags": [],
@@ -473,11 +468,6 @@ var store = [{
         "excerpt":"                                 Source&#10697;Crypto         nano-dev                                0 messages                   ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/discolog/development/nano-dev/",
-        "teaser":"http://localhost:4000/images/development.png"},{
-        "title": "steem-dev",
-        "excerpt":"Source&#10697;Crypto steem-dev 6 messages &#10697;infominer 22-Aug-18 11:00 PM https://discord.gg/73KQBgb https://developers.steem.io/ API Docs Steem Developer Documentation. &#10697;infominer 22-Aug-18 11:21 PM https://steemit.com/@steemitdev @steemitdev The latest posts from steemitdev. Follow me at @steemitdev. Join thousands on steemit who share, post and earn rewards. https://steemit.com/@steemitblog @steemitblog The latest posts from steemitblog. Follow me at...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/development/steem-dev/",
         "teaser":"http://localhost:4000/images/development.png"},{
         "title": "corda",
         "excerpt":"Source&#10697;Crypto corda see also #corda-dev 14 messages &#10697;infominer 29-Sep-18 09:50 PM https://medium.com/corda/new-to-corda-start-here-8ba9b48ab96c New to Corda? Start here! &#8211; Corda &#8211; Medium Are you just hearing about Corda for the first time? Want to understand how Corda differs from other platforms and how its unique&#8230; https://gendal.me/2016/04/05/introducing-r3-corda-a-distributed-ledger-designed-for-financial-services/ gendal Introducing R3 Corda: A...","categories": [],
@@ -808,99 +798,4 @@ var store = [{
         "excerpt":"Source&#10697;Crypto tor 10 messages &#10697;infominer 23-Aug-18 09:39 AM https://cryptoinsider.com/content/blockstack-want-build-tor-dns-dark-web-blockchain/index.html &#10697;infominer 25-Aug-18 09:24 PM https://www.cnet.com/news/brave-advances-browser-privacy-with-tor-powered-tabs/ Brave now protects your browsing activity with Tor-powered tabs Onion routing is the way to go. It&#39;s all about the layers of encryption. https://twitter.com/notgrubles/status/1028319690937036805 grubles (@notgrubles) A Tor Hidden Service Mastodon instance, you say? &#160;https://t.co/Omvvl2syZB Twitter...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/discolog/tech/tor/",
-        "teaser":"http://localhost:4000/images/tech-teaser-1.png"},{
-        "title": "archival",
-        "excerpt":"                                 Source&#10697;Crypto         archive                   2 messages                                                                                                               &#10697;infominer                 19-May-19 02:38 PM                                                       https://tags.hawksey.info/                                                                                                                                                                                                                                                                                                                                                     mhawksey                                                                                                                                                                                                     TAGS                                                                                       Twitter Archiving Google Sheet                                                                                                                                                                                                                                                                                                                                                                                                                        https://archiveteam.org/                                                     ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/archival/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "content-creation",
-        "excerpt":"Source&#10697;Crypto content-creation 3 messages &#10697;infominer 06-May-19 09:35 AM https://infohound.net/tidy/ HTML Tidy Online HTML Tidy Online is a tool for checking and cleaning up HTML source files. It is especially useful for finding and correcting errors in deeply nested HTML, or for making grotesque code legible once more. &#10697;infominer 07-May-19 12:27...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/content-creation/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "data-mining",
-        "excerpt":"Source&#10697;Crypto data-mining 4 messages &#10697;infominer 25-Aug-18 09:44 PM @kap4prez now you have librarian privliges kap4prez 25-Aug-18 09:45 PM thanks, i always wanted to be a sexy librarian &#10697;infominer 08-Sep-18 07:25 PM https://n0where.net/simple-twitter-metadata-scraper Simple Twitter Metadata Scraper Simple Twitter Metadata Scraper The goal of this simple python script is to analyze...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/data-mining/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "data-science",
-        "excerpt":"Source&#10697;Crypto data-science 51 messages &#10697;infominer 20-Aug-18 07:02 AM Attachment: GrokkingAlgorithms_SampleChapter2.pdf (4.37 MB) Attachment: GrokkingAlgorithms_SampleChapter6.pdf (4.25 MB) &#10697;infominer 22-Aug-18 10:50 PM https://twitter.com/DD_FaFa_/status/1031113128765939713 fafa.&#128105;&#127995;&#8205;&#128187; (@DD_FaFa_) Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems https://t.co/4gf2O1zQKz Twitter &#10697;infominer 22-Aug-18 11:44 PM https://www.amazon.com/gp/product/1617292230 &#10697;infominer 25-Aug-18 10:11 PM https://twitter.com/mikejcasey/status/1020490221094416385 Michael Casey (@mikejcasey)...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/data-science/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "data",
-        "excerpt":"Source&#10697;Crypto data 29 messages &#10697;infominer 18-Aug-18 05:20 AM https://www.reddit.com/r/CryptoCurrency/comments/988lxb/i_have_5_years_of_coinmarketcapcom_crypto_price/?utm_source=reddit-android r/CryptoCurrency - I have 5 years of coinmarketcap.com crypto pric... 402 votes and 67 comments so far on Reddit &#10697;infominer 25-Aug-18 11:10 PM @kap4prez here you can drop resources of actual data people can run anlysis on (edited) &#10697;infominer 30-Aug-18 07:07...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/data/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "databases",
-        "excerpt":"Source&#10697;Crypto databases 3 messages &#10697;infominer 23-Sep-18 06:29 AM https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf https://cloud.coinfeed.com/share/post/158011815372991/641537299161/25481 Scalable blockchain database BigchainDB releases 2.0.0 Beta 6 Almost 2 months since its latest release, scalable blockchain database BigchainDB today announced an update on the path toward BigchainDB 2.0.0 to come out of Beta. The most significant addition is the...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/databases/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "digital-nomad",
-        "excerpt":"Source&#10697;Crypto digital-nomad 3 messages &#10697;infominer 16-Sep-18 11:51 PM https://techcrunch.com/2018/09/03/shine-grabs-9-3-million-to-build-a-bank-for-freelancers/ Romain Dillet Shine grabs $9.3 million to build a bank for freelancers French startup Shine is raising a $9.3 million (&#8364;8 million) Series A round. The company is building an alternative to traditional bank accounts for freelancers working in France. XAnge...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/digital-nomad/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "github",
-        "excerpt":"Source&#10697;Crypto github 18 messages &#10697;infominer 26-Feb-19 03:55 PM https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account https://help.github.com/en/articles/connecting-to-github-with-ssh https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca (edited) https://infominer.id/notes.html Notes and Resources&#8212;Get Started w GitHub Pages Publishing a Website via GitHub pages is free, and easy. Buy a domain name w Bitcoin (not required) and lets go. &#10697;infominer 30-Mar-19 08:15 PM https://petertodd.org/2016/opentimestamps-git-integration Solving the PGP...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/github/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "indieweb",
-        "excerpt":"Source&#10697;Crypto indieweb 23 messages &#10697;infominer 23-Apr-19 12:59 AM https://www.growdigital.org/posts/static-site-generators-the-indieweb/ http://wordius.com/jekyll-and-the-indieweb/ Jekyll and the IndieWeb Creating an IndieWeb-compliant website with Jekyll &#10697;infominer 23-Apr-19 01:34 AM https://github.com/indieweb IndieWeb The IndieWeb is a people-focused alternative to the &quot;corporate web&quot;. - IndieWeb https://indiewebify.me https://indieweb.org/IndieAuth IndieAuth &#10697;infominer 04-May-19 09:45 PM https://vincentp.me/articles/2018/11/14/20-00/ Implementing the Indieweb on...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/indieweb/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "ipfs",
-        "excerpt":"Source&#10697;Crypto ipfs 10 messages &#10697;infominer 22-Sep-18 09:46 PM https://hacks.mozilla.org/2018/08/dweb-building-cooperation-and-trust-into-the-web-with-ipfs/ Dweb: Building Cooperation and Trust into the Web with IPFS &#8211; Mo... The Interplanetary File System (IPFS) is a new protocol powered by individuals on the internet. Its goal is to &#8220;re-decentralize&#8221; the web by replacing location-oriented HTTP with a content-oriented...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/ipfs/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "kill-slack",
-        "excerpt":"Source&#10697;Crypto kill-slack and discord 8 messages &#10697;infominer 25-Nov-18 09:09 PM https://medium.com/we-distribute/riot-a-decentralized-slack-like-messenger-powered-by-matrix-25f9b72cd24 Riot, a Decentralized Slack&#8208;like Messenger (Powered by Matrix) Look out, this might be your organization&#8217;s next Slack. &#10697;infominer 27-Apr-19 09:12 AM https://blog.apollographql.com/goodbye-slack-hello-spectrum-8fa6b979645b Goodbye, Slack. Hello, Spectrum! TL;DR: We are replacing the Apollo community Slack group with our new Apollo...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/kill-slack/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "linux",
-        "excerpt":"Source&#10697;Crypto linux 17 messages &#10697;infominer 11-Feb-19 11:46 AM https://ryanstutorials.net/linuxtutorial/navigation.php Linux Tutorial - 2. Master File System Navigation This section of the Linux tutorial introduces the basics of the Linux filesystem and commands used to move around it. Also discusses absolute and relative paths. http://linuxcommand.org/lc3_lts0030.php Learning the shell - Lesson 3:...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/linux/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "open-source",
-        "excerpt":"Source&#10697;Crypto open-source 13 messages &#10697;infominer 08-Oct-18 01:35 AM https://github.com/nayafia/lemonade-stand nayafia/lemonade-stand A handy guide to financial support for open source - nayafia/lemonade-stand &#10697;infominer 05-Nov-18 04:31 AM https://www.zdnet.com/article/microsoft-open-sources-its-entire-patent-portfolio/ (edited) &#8203;Microsoft open-sources its patent portfolio | ZDNet UPDATED: By joining the Open Invention Network, Microsoft is offering its entire patent portfolio to all...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/open-source/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "pi-rasberry",
-        "excerpt":"Source&#10697;Crypto pi-rasberry 25 messages &#10697;infominer 25-Aug-18 10:37 PM https://twitter.com/davidknezic/status/1022584169858248705 David Knezi&#263; (@davidknezic) Success! Got a Neutrino Bitcoin light client and #LightningNetwork node running on this $10 marvel. Retweets 145 Likes 690 Twitter &#10697;infominer 25-Aug-18 10:49 PM https://medium.com/tensorflow/tensorflow-1-9-officially-supports-the-raspberry-pi-b91669b0aa0 TensorFlow 1.9 Officially Supports the Raspberry Pi By Pete Warden, Software Engineer &#10697;infominer...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/pi-rasberry/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "quant-trading",
-        "excerpt":"Source&#10697;Crypto quant-trading 10 messages &#10697;infominer 15-Oct-18 09:49 PM https://www.linkedin.com/pulse/best-python-librariespackages-finance-financial-data-majid-aliakbar/ Best Python Libraries/Packages for Finance and Financial Data Scie... Finance professionals involved in data analytics and data science make use of R, Python and other programming languages to perform analysis on a variety of data sets. Python has been gathering a...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/quant-trading/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "seo-keyword-research",
-        "excerpt":"Source&#10697;Crypto seo-keyword-research for resources on SEO and Keyword Research. 29 messages &#10697;infominer 02-Jan-19 10:52 PM https://ahrefs.com/blog/free-keyword-research-tools/ 8&#160;Free Keyword&#160;Research Tools (That CRUSH Google Keyword Planner) Looking for a list of the best free keyword research tools? Then look no further. &#10697;infominer 03-Jan-19 01:36 AM https://searchenginewatch.com/sew/how-to/2406842/5-steps-for-seo-competitive-analysis-research 5 Steps for SEO Competitive Analysis...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/seo-keyword-research/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "web-development",
-        "excerpt":"Source&#10697;Crypto web-development 10 messages &#10697;infominer 04-Mar-19 11:30 PM https://htmldog.com/ https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript https://developer.mozilla.org/en-US/docs/Learn The web standards model - HTML CSS and JavaScript Learn web development Welcome to the MDN learning area. This set of articles aims to provide complete beginners to web development with all that&#160;they need to start coding simple websites....","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/web-development/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "web-work",
-        "excerpt":"Source&#10697;Crypto web-work 47 messages &#10697;infominer 04-Mar-19 11:30 PM https://htmldog.com/ https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript https://developer.mozilla.org/en-US/docs/Learn The web standards model - HTML CSS and JavaScript Learn web development Welcome to the MDN learning area. This set of articles aims to provide complete beginners to web development with all that&#160;they need to start coding simple websites....","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/web-work/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "work-online",
-        "excerpt":"Source&#10697;Crypto work-online 28 messages &#10697;infominer 26-Aug-18 12:05 AM https://n0where.net/best-self-hosted-alternatives Best Self Hosted Alternatives Best Self Hosted Alternatives - Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers. &#10697;infominer 27-Aug-18 09:38 AM https://www.goodreads.com/book/show/8600.Eats_Shoots_Leaves Eats, Shoots &amp; Leaves: The Zero Tolerance Approach to Punctuation ......","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/discolog/web-work/work-online/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"}]
+        "teaser":"http://localhost:4000/images/tech-teaser-1.png"},]
