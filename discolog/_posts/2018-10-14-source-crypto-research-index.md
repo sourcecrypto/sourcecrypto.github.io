@@ -16,7 +16,7 @@ share: true
 categories: [SourceCrypto, indroduction]
 tags: [bitcoin, blockchain, development, cypherpunks, ethereum, enterrise, fintech, web3, defi, cryptography, distributed systems, cryptocurrencies, p2p]
 last_modified_at: 2019-06-20T11:22:33-23:00
-
+categories: ["SourceCrypto"]
 ---
 
 **A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge.**

@@ -16,8 +16,7 @@ canonical_url: "https://sourcecrypto.pub/blog/welcome-to-SC-blog/"
 share: true
 classes: wide
 last_modified_at: 2019-06-20T11:22:33-23:00
-categories: [SourceCrypto, blog]
-tags: [bitcoin, blockchain, development, cypherpunks, ethereum, enterprise, fintech, web3, defi, cryptography, distributed systems, cryptocurrencies, p2p]
+categories: ["SourceCrypto", "blog"]
 
 ---
 
