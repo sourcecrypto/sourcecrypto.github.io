@@ -6,6 +6,8 @@ permalink: blog/blockchain-data/
 share: true
 last_modified_at: 2019-06-20T11:22:33-23:00
 excerpt: Resources related to Blockchain Data and Analytics
+categories: ["tech"]
+tags: ["data"]
 ---
 
 * [topics/blockchain-analytics](https://github.com/topics/blockchain-analytics)

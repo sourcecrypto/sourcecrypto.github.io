@@ -14,8 +14,8 @@ permalink: blog/libra-association/
 canonical_url: "https://sourcecrypto.pub/blog/libra-association/"
 share: true
 last_modified_at: 2019-06-21T11:22:33-23:00
-categories: [consortiums, libra]
-tags: [facebook, bitcoin, blockchain, history, permissioned, fintech, web3, cryptocurrencies, libra association]
+categories: ["private-sector"]
+tags: ["libra"]
 
 ---
 
