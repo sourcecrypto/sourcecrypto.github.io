@@ -1,4 +1,1088 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://sourcecrypto.pub/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sourcecrypto.pub/" rel="alternate" type="text/html" /><updated>2019-07-05T06:49:23-04:00</updated><id>https://sourcecrypto.pub/feed.xml</id><title type="html">Source Crypto</title><subtitle>Chat Server for Creating an Open-Source Database of Crypto Knowledge.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">The Agoric Papers</title><link href="https://sourcecrypto.pub/blog/agoric-papers-miller-drexler/" rel="alternate" type="text/html" title="The Agoric Papers" /><published>2019-06-28T00:00:00-04:00</published><updated>2019-06-29T06:22:33-04:00</updated><id>https://sourcecrypto.pub/blog/agoric-papers</id><content type="html" xml:base="https://sourcecrypto.pub/blog/agoric-papers-miller-drexler/">&lt;p&gt;I was excited to catch this episode of Epicenter, recently. I’ve been interested in Mark Miller’s work since I began studying the &lt;a href=&quot;https://sourcecrypto.pub/bitcoin-history/smart-contracts&quot;&gt;history of smart contracts&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-16T02:48:49-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Source Crypto</title><subtitle>Chat Server for Creating an Open-Source Database of Crypto Knowledge.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">Bitcoin Research Index</title><link href="http://localhost:4000/blog/Bitcoin/" rel="alternate" type="text/html" title="Bitcoin Research Index" /><published>2019-07-15T00:00:00-04:00</published><updated>2019-07-15T00:00:00-04:00</updated><id>http://localhost:4000/blog/bitcoin</id><content type="html" xml:base="http://localhost:4000/blog/Bitcoin/">&lt;p&gt;This page, at the moment, is mainly the contents of the &lt;a href=&quot;https://sourcecrypto.pub/discolog/crypto/bitcoin/&quot;&gt;Bitcoin Channel&lt;/a&gt; of our Discord server.&lt;/p&gt;
+
+&lt;p&gt;This is my first attempt at organizing information related specifically to Bitcoin. We also have &lt;a href=&quot;https://sourcecrypto.pub/discolog/development/bitcoin-dev/&quot;&gt;Bitcoin Dev&lt;/a&gt; and &lt;a href=&quot;https://sourcecrypto.pub/discolog/crypto/btc-layer2/&quot;&gt;BTC-Layer2&lt;/a&gt; channels that must be sorted.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, Bitcoin will get its own site branching off of this domain. However, working here saves me the trouble of building a new site right now. It’s also good practice, as this blog should expand to cover a wide variety of topics, and should be able to manage.&lt;/p&gt;
+
+&lt;h2 id=&quot;loppnetbitcoinhtml&quot;&gt;&lt;a href=&quot;https://lopp.net/bitcoin.html&quot;&gt;lopp.net/bitcoin.html&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Bitcoin Information &amp;amp; Resources&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Bitcoin is a revolutionary system that is quite complex and has a steep learning curve. Below you’ll find curated educational resources and information about Bitcoin. You could spend months sifting through them all. Make sure you have a decent grasp of the system before you store a significant amount of value in it! The same aspects of Bitcoin that make it so valuable also make it unforgiving to those who make mistakes.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/jlopp/lopp.net&quot;&gt;githbu.com/jlopp/jopp.net&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.lopp.net/bitcoin-information/getting-started.html&quot;&gt;Getting Started&lt;/a&gt;
+Bitcoin is a revolutionary system that is quite complex and has a steep learning curve. Make sure you have a decent grasp of the system before you store a significant amount of value in it. If you make a critical mistake such as losing your keys or sending your money to a scammer, no one can fix it!&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;nakamotoinstituteorg&quot;&gt;&lt;a href=&quot;https://nakamotoinstitute.org/&quot;&gt;Nakamotoinstitute.org&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nakamotoinstitute.org/bitcoin/&quot;&gt;&lt;img src=&quot;https://i.imgur.com/3W9sMJGl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Check out the original code and website for Hal Finney’s &lt;a href=&quot;https://nakamotoinstitute.org/finney/rpow/&quot;&gt;Reusable Proofs of Work&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Pay respect to visionary prognosticators at &lt;a href=&quot;https://nakamotoinstitute.org/the-skeptics/&quot;&gt;The Skeptics: A Tribute to Bold Assertions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Read the Crash Course in &lt;a href=&quot;https://nakamotoinstitute.org/crash-course/&quot;&gt;Bitcoin Political Economy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bitcoinorg&quot;&gt;&lt;a href=&quot;https://bitcoin.org&quot;&gt;Bitcoin.org&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;How it works for:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/en/bitcoin-for-individuals&quot;&gt;Individuals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/en/bitcoin-for-businesses&quot;&gt;Businesses&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/en/bitcoin-for-developers&quot;&gt;Developers&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/en/developer-guide&quot;&gt;Developers Guide&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/en/getting-started&quot;&gt;Getting started&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/en/how-it-works&quot;&gt;How it works&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whitepaper&quot;&gt;Whitepaper&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot;&gt;Bitcoin: A Peer-to-Peer Electronic Cash System&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/en/bitcoin-paper&quot;&gt;Bitcoin.org- White Paper&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_id.pdf&quot;&gt;Bahasa Indonesia&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_de.pdf&quot;&gt;Deutsch&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_es.pdf&quot;&gt;Español (España)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_es_latam.pdf&quot;&gt;Español (Latinoamericano)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_fr.pdf&quot;&gt;Français&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_it.pdf&quot;&gt;Italiano&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_lt.pdf&quot;&gt;Lietuvių Kalba&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_hu.pdf&quot;&gt;Magyar Nyelv&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_nl.pdf&quot;&gt;Nederlands&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_pt.pdf&quot;&gt;Português&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_pt_br.pdf&quot;&gt;Português Brasileiro&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_sk.pdf&quot;&gt;Slovenščina&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_se.pdf&quot;&gt;Svenska&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_gr.pdf&quot;&gt;ελληνικά&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_ru.pdf&quot;&gt;Русский&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_vi.pdf&quot;&gt;Tiếng Việt&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_uk.pdf&quot;&gt;Yкраїнська&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_ar.pdf&quot;&gt;العربية&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_kr.pdf&quot;&gt;한국어&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_jp.pdf&quot;&gt;日本語&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_th.pdf&quot;&gt;ภาษาไทย&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/files/bitcoin-paper/bitcoin_zh_cn.pdf&quot;&gt;简化字&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/harding/dabea3d83c695e6b937bf090eddf2bb3&quot;&gt;bitcoin-paper-errata-and-details.md&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;A description of known problems in Satoshi Nakamoto’s paper, “Bitcoin: A Peer-to-Peer Electronic Cash System”, as well as notes on terminology changes and how Bitcoin’s implementation differs from that described in the paper.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/giyom/status/888251611272798208&quot;&gt;giyom (@giyom)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;1/ the bitcoin whitepaper does not mention censorship resistance once but mentions the goal of removing trusted 3rd parties&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coindesk.com/bitcoins-white-paper-gave-us-liberty-lets-not-give-it-back/&quot;&gt;Bitcoin’s White Paper Gave Us Liberty – Let’s Not Give&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Charlie Shrem, one of bitcoin’s earliest entrepreneurs, believes Satoshi’s white paper is about more than just technology.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@nelsonmrosario/the-bitcoin-white-paper-references-857f001f4878&quot;&gt;The Bitcoin White Paper References – Nelson M. Rosario – Medium&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Today is the ten year anniversary of Satoshi Nakamoto publishing the Bitcoin white paper to the Cypherpunk mailing list on October 31…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;whitepaper---annotated&quot;&gt;Whitepaper - Annotated&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;[Fermat’s Library&lt;/td&gt;
+          &lt;td&gt;Bitcoin: A Peer-to-Peer Electronic Cash System](https://fermatslibrary.com/s/bitcoin) - Annotated - Fermat’s Library is a platform for illuminating academic papers.&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://genius.com/Satoshi-nakamoto-bitcoin-a-peer-to-peer-electronic-cash-system-annotated&quot;&gt;Satoshi Nakamoto (Ft. Coinbase) – Bitcoin: A Peer-to-Peer Elec…&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;On October 31st, the programmer/programmers known as Satoshi Nakamoto published this paper through a metzdowd.com cryptography mailing list that describes the Bitcoin currency and&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fundamentals&quot;&gt;Fundamentals&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/byzantine-studio/blockchain-fundamentals-2-what-are-utxos-bfc503df4b99&quot;&gt;Blockchain Fundamentals #2: What are UTXOs? – Byzantine&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Like many complex subjects, the Crypto world is composed of various concepts that are difficult to understand at first. The UTXO is no…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;history&quot;&gt;History&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wiki.p2pfoundation.net/Bitcoin#History&quot;&gt;wiki.p2pfoundation.net/Bitcoin#History&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lopp.net/bitcoin-information/history.html&quot;&gt;Bitcoin History&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin didn’t simply appear out of thin air - it was built upon decades of work and came after many failed digital currency projects. Understanding how we got here will help you understand where we’re going.&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.coindesk.com/the-rise-of-the-cypherpunks/&quot;&gt;The Rise of the Cypherpunks&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.activism.net/cypherpunk/manifesto.html&quot;&gt;A Cypherpunk’s Manifesto&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://queue.acm.org/detail.cfm?id=3136559&quot;&gt;Bitcoin’s Academic Pedigree&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://cryptoanarchy.wiki&quot;&gt;cryptoanarchy.wiki&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://cryptoanarchy.wiki/&quot;&gt;Complete Writings of Satoshi Nakamoto&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.mail-archive.com/search?l=cryptography%40metzdowd.com&amp;amp;q=subject:%22Bitcoin+P2P+e%5C-cash+paper%22&amp;amp;o=oldest&amp;amp;f=1&quot;&gt;Original Announcement Email Thread&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://nakamotoinstitute.org/literature/&quot;&gt;Historical Literature&lt;/a&gt; (work that preceded Bitcoin)&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.essaysonbitcoin.com/&quot;&gt;Essays on Bitcoin&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=apYieuvnUaE&quot;&gt;History from Cypherpunks to JP Morgan&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://historyofbitcoin.org/&quot;&gt;History Timeline&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://diyhpl.us/wiki/transcripts/&quot;&gt;Bryan Bishop’s Bitcoin Event Transcripts&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://99bitcoins.com/bitcoinobituaries/&quot;&gt;Premature Obituaries&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://mapofcoins.com/bitcoin&quot;&gt;Bitcoin’s Family Tree&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@nic__carter/visions-of-bitcoin-4b7b7cbcd24c&quot;&gt;Visions of Bitcoin – Nic Carter&lt;/a&gt; - How major Bitcoin narratives changed over time&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stephanlivera.com/2018/09/20/slp23-economic-eras-of-bitcoin-and-lightning-development-with-rusty-russell-of-blockstream/&quot;&gt;SLP23 – Economic Eras of Bitcoin, and Lightning Development, wit…&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Rusty Russell, a well known and respected Bitcoin Lightning developer at Blockstream  joins me in this episode. We talk about his article, The Three Economic Eras of Bitcoin, and discuss the Lightn…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;governance&quot;&gt;Governance&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@pierre_rochard/bitcoin-governance-37e86299470f&quot;&gt;Bitcoin Governance – Pierre Rochard – Medium&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin’s governance matters because Bitcoin is the first successful, most liquid, and most widely known crypto-currency. In the words of Michael Goldstein, “Sound money is a foundational pillar of civilization, and Bitcoin restores this powerful tool for social coordination.” If Bitcoin’s governance model is flawed, it could prevent Bitcoin from reaching its full potential. If Bitcoin’s governance is flawed, Bitcoin’s stakeholders should work to fix it.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;thebfoundation&quot;&gt;@TheBFoundation&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/ToneVays/status/1043806199660118017&quot;&gt;Tone Vays [@Bitcoin] (@ToneVays)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Big Announcement by @giacomozucco &amp;amp; @AlenaSatoshi at #bh2018 by @hodlhodl of the formation of @TheBFoundation to support #Bitcoin development &amp;amp; education efforts. Afiliated members are @sysmannet @francispouliot @Trezor @WhalePanda @starkness @adam3us @lopp &amp;amp; more.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;philosophy&quot;&gt;Philosophy&lt;/h2&gt;
+
+&lt;h3 id=&quot;maximalism&quot;&gt;Maximalism&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@ferdousbhai/post-bitcoin-maximalism-19f392610d67&quot;&gt;Post-Bitcoin-Maximalism – Ferdous Bhai – Medium&lt;/a&gt; - A call for embracing the currency competition
+&lt;img src=&quot;https://imgur.com/BmeRWTz.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/StopAndDecrypt/status/1064212157414334464&quot;&gt;StopAndDecrypt (@StopAndDecrypt)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Maximalists: Summarize your take on what Bitcoin maximalism is or explain why you self identify as one, in a single tweet. I’m working on something with this so your input is appreciated.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.truthcoin.info/blog/bitcoin-post-maximalism/&quot;&gt;Bitcoin Post-Maximalism&lt;/a&gt; - Has something happened to “Bitcoin Maximalism”? Is Bitcoin “Qwerty” (established and standardized) or “Esperanto” (impractical and perfectionistic)?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.forbes.com/sites/francescoppola/2018/12/30/bitcoin-maximalists-impossible-dream/#7b96179f543b&quot;&gt;Bitcoin Maximalists’ Impossible Dream&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin itself shows us why it can never replace all government-issued currencies.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourcecrypto.pub/transcripts/SLP53-Livera-Antonopolis-Maximalism-Transcript/&quot;&gt;Transcript of Stephan Livera discussing Bitcoin Maximalism with Andreas Antonopoulos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;finance&quot;&gt;Finance&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@kenoshaking/bitcoin-market-value-to-realized-value-mvrv-ratio-3ebc914dbaee&quot;&gt;“Bitcoin Market-Value-to-Realized-Value (MVRV) Ratio
+Introducing realized cap to BTC market cycle analysis”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@melik_87377/satoshi-as-the-base-unit-561e8934b2ee&quot;&gt;Satoshi as the base unit – Melik Manukyan – Medium&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;We’ve seen them all Bitcoin, Bitcent, mBTC, Millibit, Milli, µBTC, Microbitcoin, Mike, Bit, Finney, Satoshi, etc. But I fear that these…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;austrian&quot;&gt;Austrian&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://btcmanager.com/bitcoin-foundation-austrian-economics/&quot;&gt;Bitcoin and its Foundation in Austrian Economics&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The recently published book “The Bitcoin Standard” by economist Saifedean Ammous makes the case that bitcoin is rooted in the principles of Austrian&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;investment&quot;&gt;Investment&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/why-bitcoin-why-sooner-rather-than-later-e44aa5373479&quot;&gt;Why Bitcoin &amp;amp; why sooner rather than later? – Hacker Noon&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;This article was inspired by an investor of ours who was looking to present the case for bitcoin to his firms investment committee. I…
+&lt;img src=&quot;https://imgur.com/cw8UFKs.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@pierre_rochard/bitcoin-investment-theses-part-1-e97670b5389b&quot;&gt;Bitcoin Investment Theses (Part 1) – Pierre Rochard&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;We can classify the investment theses for (and against) investing in Bitcoin into categories. This helps clarify how much of an impact a…
+&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*f_7lcHsQXi3qQM83qaT9xA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;store-of-value&quot;&gt;Store of Value&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/coinmonks/what-makes-bitcoin-a-store-of-value-599869e3ada6&quot;&gt;What Makes Bitcoin a Store of Value? – Coinmonks&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;A cup is not being useful when it sits in the cupboard, only when you drink from it. A bicycle is not useful when it sits in the garage…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tether&quot;&gt;Tether&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0165176518302556&quot;&gt;The impact of Tether grants on Bitcoin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;price&quot;&gt;Price&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/RNR_0/status/1011340240227848196&quot;&gt;[ Romano ] (@RNR_0)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Sell your kidney now to buy bitcoin &amp;amp; buy 3 kidneys back later.&lt;/p&gt;
+
+      &lt;p&gt;Here’s the multi million dollar chart you need.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/DgkAegXWkAAR_Ht?format=jpg&amp;amp;name=4096x4096&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/woonomic/status/1041728401243955200&quot;&gt;Willy Woo (@woonomic)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin has seen only 3 bear markets in its history. We are in the third one now. One signal we can use to determine the end of the bear is for the price to cross above its 200 day moving average.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/DnTXh6VV4AEDeap.jpg:large&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://imgur.com/e6FWAW1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/100trillionUSD/status/1048191104456253442&quot;&gt;plan฿ (@100trillionUSD)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;#bitcoin halving: only 19 months to go … we are in the green zone!
+&lt;img src=&quot;https://pbs.twimg.com/media/Dovr_BaX0AA2GTQ.png:large&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.goodaudience.com/bitcoin-network-momentum-a42346b2f0ce&quot;&gt;Bitcoin Network Momentum – Good Audience&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;A new leading indicator for Bitcoin price during its major market cycles
+&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/0*1bolX6gz9_BSPuLX&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/stephendpalley/status/1074331026736975872&quot;&gt;Palley (@stephendpalley)&lt;/a&gt; -The least interesting thing about bitcoin is its price.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@cburniske/bitcoin-ethereum-prices-are-down-more-than-the-fundamentals-88fd18a86d14&quot;&gt;Bitcoin &amp;amp; Ethereum: Prices are Down More than the Fundamentals&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;To follow is a very rough analysis, zoomed out to give us perspective on Bitcoin’s 10 years of life, and Ethereum’s 3+ years. If you…
+&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*TKAYHtV1M7mm4XJKnEspbQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tech&quot;&gt;Tech&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinmagazine.com/articles/bitcoins-tech-trends-2018-what-year-brought-us-part-2/&quot;&gt;Bitcoin’s Tech Trends of 2018: What This Year Brought Us (Part 2)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin technologies made great progress in 2018. In part two of our series, we look at advances in privacy, sidechains and Schnorr signatures.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/digitalassetresearch/a-guide-to-bitcoins-technical-brilliance-for-non-programmers-e28211e797c0&quot;&gt;A Guide To Bitcoin’s Technical Brilliance (For Non-Programmers)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;18 minutes is all that it takes to understand Bitcoin better than most people.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/bitcoin-core-bug-cve-2018-17144-an-analysis-f80d9d373362&quot;&gt;Bitcoin Core Bug CVE-2018–17144: An Analysis – Hacker Noon&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The Bitcoin world was surprised when last week, 0.16.3 was released to the public and everyone was urged to upgrade as soon as possible…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@pierre_rochard/understanding-the-technical-side-of-bitcoin-2c212dd65c09?_branch_match_id=571220618986969074&quot;&gt;Understanding the Technical Side of Bitcoin – Pierre Rochard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/xavi_xsb/status/1062872517348655106&quot;&gt;Xavi Soler 💾 (@xavi_xsb)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;To my surprise the last @bitcoinoptech newsletter mentions a very small pull request I made that recently got merged into LND. Bitcoin Optech Newsletter is by far the best source of information for the latest fixes and features. Subscribe if you manage Bitcoin nodes.
+&lt;img src=&quot;https://pbs.twimg.com/media/DsATqIsW4AYPmwz.jpg:large&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/SebastienGllmt/status/1060744966618529793&quot;&gt;Sebastien Guillemot (@SebastienGllmt)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Wow this is awesome! Check out this slide deck about the Bitcoin Backbone Model. The math used in this paper is reused in a bunch of papers about crypto (including Cardano) so understanding this will help you understand all the other papers! https://t.co/lUb3NVaOi4&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;block-size&quot;&gt;Block Size&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@jeremyrubin/8-problems-with-bitcoin-to-solve-before-block-size-6b4d35e0c6f9&quot;&gt;8 Problems for the Bitcoin Community to Solve Before Block Size&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Recently the debate around block size has been getting a huge amount of attention, and it is easy to think this is the most important…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;segwit&quot;&gt;Segwit&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/alexbosworth/status/1041354991838027777&quot;&gt;Alex Bosworth ☇ (@alexbosworth)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;SegWit transactions have really taken over:
+Even without fee pressure
+Even with NYA signer refusals to implement
+Even with it being opt-in
+Even with anyone-can-spend FUD
+Even without widespread payment channels
+Steadily approaching half of total outputs - &lt;a href=&quot;https://transactionfee.info/charts/payments/segwit&quot;&gt;transactionfee.info&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://whensegwit.com/&quot;&gt;When Segwit?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitslog.wordpress.com/2017/04/10/the-relation-between-segwit-and-asicboost-covert-and-overt/&quot;&gt;The relation between Segwit and AsicBoost, covert and overt&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;I will try to explain the relation between Segwit and AsicBoost, in both the covert and overt forms, in certain detail. I will also try to explain why a method was recently proposed to reduce the i…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;nodes&quot;&gt;Nodes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitseed.org/product/bitseed-3/&quot;&gt;Bitseed Core - Bitcoin full node&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitseed Core comes preconfigured as a Bitcoin full node, allowing you to keep bitcoin running 24/7 without slowing your PC.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/a-complete-beginners-guide-to-installing-a-bitcoin-full-node-on-linux-2018-edition-cb8e384479ea&quot;&gt;A complete beginners guide to installing a Bitcoin Full Node on Linux (2018 Edition)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;How to compile a Bitcoin Full Node on a fresh installation of Kubuntu 18.04 without any Linux experience whatsoever.
+&lt;img src=&quot;https://imgur.com/hhN0o3F.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/amentum/what-comprises-a-bitcoin-fullnode-implementation-df27989e673a&quot;&gt;What Comprises a Bitcoin Fullnode Implementation? – Amentum&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Often times in the press I see a lot of confusion around what a fullnode implementation of bitcoin actually &lt;em&gt;is&lt;/em&gt;. I saw this as a great…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitnodes.earn.com/nodes/live-map/&quot;&gt;Bitnodes live map&lt;/a&gt; - Live map of reachable nodes in the Bitcoin network being crawled by the Bitnodes crawler.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;scripting&quot;&gt;Scripting&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fc16.ifca.ai/bitcoin/papers/MES16.pdf&quot;&gt;Bitcoin Covenants&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Abstract.This paper presents an extension to Bitcoin’s script language enabling covenants, a primitive that allows transactions to restrict howthe value they transfer is used in the future. Covenants expand the set offinancial instruments expressible in Bitcoin, and enable new powerful andnovel use cases. We illustrate two novel security constructs built usingcovenants.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinmagazine.com/articles/yes-bitcoin-can-do-smart-contracts-and-particl-demonstrates-how/&quot;&gt;Yes, Bitcoin Can Do Smart Contracts and Particl Demonstrates How&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The Bitcoin blockchain is not known for its ability to enable smart contracts. In fact, most developers creating smart contracts use a different blockchain, like Ethereum. But the truth is that the Bitcoin protocol can be used to create smart contracts. Particl.io, the blockc…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinmagazine.com/articles/scriptless-scripts-how-bitcoin-can-support-smart-contracts-without-smart-contracts/&quot;&gt;Bitcoin Magazine - Scriptless Scripts: How Bitcoin Can Support Smart Contracts&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin’s capacity is limited. Meanwhile, smart contracts can be resource intensive. So even though Bitcoin has always supported basic smart contract functionality, the two have never been a natural match.But a recent topic of research spearheaded by Blockstream mathematici…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/lopp/status/1072156493116518400&quot;&gt;Jameson Lopp (@lopp)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;https://t.co/etW1yP65Zr has a neat animated Bitcoin script interpreter and debugger for those who want to better understand script execution. https://t.co/5TAkdoPU7b https://t.co/6UkzUGu4dK&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/liuhongchao/bitcoin4s&quot;&gt;liuhongchao/bitcoin4s&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;decentralization&quot;&gt;Decentralization&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/realLudvigArt/status/1041988293607313408&quot;&gt;Melik Manukyan ⚡️ ludvigart.com (@realLudvigArt)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Decentralization is only a means to an end—the end being 21,000,000 #Bitcoin.&lt;/p&gt;
+
+      &lt;p&gt;Nothing else matters.&lt;/p&gt;
+
+      &lt;p&gt;For if Bitcoin becomes centralized, the first thing to follow is inflation.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pow-energy-use&quot;&gt;PoW Energy Use&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@hassmccook/the-economic-environmental-cost-of-bitcoin-part-i-ac162067721d&quot;&gt;The Cost &amp;amp; Sustainability of Bitcoin — Part I&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.academia.edu/37178295/The_Cost_and_Sustainability_of_Bitcoin_August_2018_&quot;&gt;The Cost &amp;amp; Sustainability of Bitcoin (August 2018)&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;This paper serves to update the assumptions used in a prior version of this research from February 2015 (https://goo.gl/UZ9B3e) , and provides a systematic methodology of modelling the environmental and economic costs of Bitcoin. Furthermore, the&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@laurentmt/gravity-10e1a25d2ab2&quot;&gt;Gravity – LaurentMT – Medium&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;In the last years, a lot has been written about the “huge waste of energy” resulting from Bitcoin’s Proof of Work (PoW). In this series of four posts, we‘re going to challenge this widespread opinion by questioning the main metrics used to highlight the alleged increasing inefficiency of Bitcoin’s PoW.&lt;/p&gt;
+
+      &lt;p&gt;In this first part, we‘ll first discuss the main utility of PoW in the Bitcoin protocol. Then, after a reminder of two important properties of Bitcoin’s PoW, we’ll define a mathematical formalization of this utility (Bitcoin.Days Secured) and we’ll use it to define two new metrics (Unit Cost and Average Cost). At last, we’ll check what these metrics can teach us about the evolution of the efficiency of Bitcoin’s PoW over time.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;privacy&quot;&gt;Privacy&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@thecryptoconomy/dandelions-and-a-bright-future-for-bitcoin-privacy-712dbc4b1ec5&quot;&gt;Dandelions, and a Bright Future for Bitcoin Privacy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinmagazine.com/articles/bitcoin-privacycoin-tech-making-bitcoin-more-private/&quot;&gt;Bitcoin Magazine - Bitcoin as a Privacycoin: This Tech is Making Bitcoin More Private&lt;/a&gt; - Bitcoin is not really private - but these projects are making significant improvements to Bitcoin privacy.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.openbitcoinprivacyproject.org/&quot;&gt;Open Bitcoin Privacy Project - Accelerating Progress to Our Financial Future&lt;/a&gt;
+The Open Bitcoin Privacy Project is an open source, global organization whose mission is to improve financial privacy within the Bitcoin ecosystem.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;forks&quot;&gt;Forks&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/SomsenRuben/status/1023414780260888577&quot;&gt;Ruben Somsen (@SomsenRuben)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;1/8 Thread on why #bitcoin Soft Forks preserve consensus. Confused why people prefer Soft Forks over Hard Forks? Do Soft Forks somehow seem coercive? Do you feel like Hard Forks aren’t such a big deal? Then read this!&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@francispouliot/bylls-bitcoin-fork-policy-65f971761232&quot;&gt;Satoshi Portal (bylls.com) policy on forks of Bitcoin and the definition of Bitcoin&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Satoshi Portal considers “Bitcoin” to be whichever blockchain whose latest block is accepted as valid by our Bitcoin Core 0.14.2 node.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;scaling&quot;&gt;Scaling&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://diyhpl.us/wiki/transcripts/scalingbitcoin/tokyo-2018/accumulators/&quot;&gt;A scalable drop-in replacement for merkle trees&lt;/a&gt; - &lt;a href=&quot;https://twitter.com/kanzure/status/1048454406755168257&quot;&gt;(*)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The UTXO set is a growing problem. We had a talk this morning about dust in the UTXO talk. We have about 60 million UTXOs. The problem is that as we heard in the talk before, the blockchain is quite an inefficient data structure for UTXOs because if I want to download an old block, I need all the blockheaders in between. If I want to download an old transaction and check if it’s unspent and I only have the head of the blockchain, then I need to check all the inbetween transactions and check if they spend my transaction or not.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tokyo2018.scalingbitcoin.org/presentations&quot;&gt;Scaling Bitcoin Workshops - Presentations&lt;/a&gt; - Video recordings of presentations live-streamed during Scaling Bitcoin events.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;development&quot;&gt;Development&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://teachbitcoin.io/&quot;&gt;Teach Bitcoin&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Teach Bitcoin protocol training is an in-depth program that was inspired from the study of several hundred thousand lines of implementation code. It teaches you both the high and low-level designs of the Bitcoin Protocol, so you can greatly accelerate your journey to becoming a Bitcoin implementation developer or protocol researcher.&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://twitter.com/lopp/status/1032985874361974784?s=19&quot;&gt;Jameson Lopp (@lopp)&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;teachbitcoin.io is a work in progress, but already very slick-looking technical education site for developers who want to understand how wallets and transactions are constructed. Adding this to my resources list!&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Bitcoin/comments/979jhq/to_everyone_rushing_back_into_btc_from_altcoins/&quot;&gt;To everyone rushing back into BTC from altcoins: What matters is that you learn why Bitcoin needs to be conservative in its development.&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Over the past year, the prevailing thought among many in the cryptocurrency communities is that bitcoin is not keeping up with other coins. That somehow bitcoin was being intentionally crippled, or that the developers did not know what they were doing. As we are seeing with the bitcoin dominance going up, that prevailing thought was wrong. The coins who were supposedly going to kill bitcoin have been all but abandoned in many cases. Many others are in the process of dying a slow death (which may take years to fully play out).&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YSUVRj8iznU&quot;&gt;Taproot, and Schnorr, and SIGHASH_NOINPUT, oh my!&lt;/a&gt; - Pieter Wuille, Bitcoin Core developer and Blockstream co-founder, spoke about Taproot, Schnorr, and SIGHASH_NOINPUT.
+    &lt;blockquote&gt;
+      &lt;p&gt;In this talk Pieter went into the benefits of these ideas and discussed an upcoming proposal for a first step that combines a subset of these ideas. Some ideas will be left for future extensions, in order to avoid complexity and limiting the design space. Yet, this would bring privacy and flexibility benefits to Bitcoin, as well as moderate scaling advantages. The main focus is Taproot, which has the potential to make all outputs look identical, by merging pay-to-pubkey and pay-to-scripthash into one - but other changes will be needed to make it widely applicable and efficient.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;ul&gt;
+      &lt;li&gt;[Slides](https://prezi.com/view/YkJwE7LYJzAzJw9g1bWV/&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://diyhpl.us/wiki/transcripts/scalingbitcoin/tokyo-2018/edgedevplusplus/bitcoin-toolchain-unit-testing-and-deterministic-builds/&quot;&gt;Bitcoin toolchain, unit testing &amp;amp; deterministic builds&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The build system is based on autotools, so it should just work anywhere where autotools runs. Just run ./autogen.sh ./configure and then make, that’s it.&lt;/p&gt;
+
+      &lt;p&gt;We recently added support for MSVC for Windows developers in the build system.&lt;/p&gt;
+
+      &lt;p&gt;For release builds, we use cross-compilation which is currently only supported on Ubuntu.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://masonicboom.github.io/btcrpcapi/&quot;&gt;A Map of the Bitcoin Core RPC API across Versions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;101&quot;&gt;101&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/udiWertheimer/status/1059371877775433728&quot;&gt;Udi Wertheimer 🧽 [#wumbo] (@udiWertheimer)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;@DeHuntisOn 1/ Here are a few examples for using the command line to deepen your understanding of Bitcoin: * Use bitcoin-cli to work with your full node and learn its capabilities. @aantonop’s 3rd chapter of Mastering Bitcoin and @ChristopherA’s tutorial will help - &lt;a href=&quot;https://github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line&quot;&gt;ChristopherA/Learning-Bitcoin-from-the-Command-Line&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bips&quot;&gt;BIPs&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://coindoo.com/what-is-a-bip-the-most-famous-bitcoin-improvement-proposals/&quot;&gt;What is a BIP? | The Most Famous Bitcoin Improvement Proposals&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;There are some that argue that these BIPs can and will eventually lead to more forks in the network which is generally considered to be a bag thing in the […]&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bitcoin-core&quot;&gt;Bitcoin Core&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5VVIybc8APk&amp;amp;feature=youtu.be&quot;&gt;The Bitcoin Game #51: Jonas Schnelli, The Bitcoin Core Project Explained&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The Bitcoin Game is an audio podcast available at The Bitcoin Game.com. Episode 51 is an edited talk by Bitcoin Core developer Jonas Schnelli, given on October 17, 2017, at the Los Angeles Bitcoin Meetup Group. Photo courtesy Brooke @BitcoinMom.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinops.org/en/newsletters/2018/09/18/&quot;&gt;Bitcoin Optech Newsletter #13&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;This week’s newsletter includes action items related to the security release of Bitcoin Core 0.16.3 and Bitcoin Core 0.17RC4, the newly-proposed BIP322, and Optech’s upcoming Paris workshop; a link to the C-Lightning 0.6.1 release, more information about BIP322, and some …&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/francispouliot_/status/1027729881541632000&quot;&gt;Francis Pouliot ⚡️ (@francispouliot_)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin Core is not a political tribe. Bitcoin is a political tribe. Bitcoin Core is just a tool, a software that is compliant with the current consensus rules. Any other tribe is currently an altcoin. Also, note that libbitcoin and knots are both still Bitcoin and not Core.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;application&quot;&gt;Application&lt;/h2&gt;
+
+&lt;h3 id=&quot;rootstock&quot;&gt;Rootstock&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.rootstock.io/&quot;&gt;www.rootstock.io&lt;/a&gt; - RSK, bitcoin´s smart contract platform.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;btcpay-server&quot;&gt;BTCPay Server&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinmagazine.com/articles/year-after-launch-btcpay-has-grown-larger-its-creator-expected/&quot;&gt;A Year After Launch, BTCPay Has Grown Larger Than Its Creator Expected&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;BTCPay has become a meteoric success. But for what started out as a hobbyist’s side project, this success has, in some respects, become unwieldy.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lightning&quot;&gt;Lightning&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/pierre_rochard/status/1055159992733626368&quot;&gt;Pierre Rochard [⚡️] (@pierre_rochard)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The LND node software now runs from within the Excel plugin. With neutrino, that means that a Windows + Excel user can be making and receiving LN payments with a few clicks. https://t.co/qeP2dCJSqp&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/btc/status/1052973003867271168&quot;&gt;#Bitcoin doesn’t compete with Visa. #Lightning does. ⚡️⚡️⚡️&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/wbobeirne/status/1131989707389329408?s=12&quot;&gt;Will O’Beirne (@wbobeirne)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Need plans for the long weekend? Why not get started on making your own Lightning App! Over the next couple of weeks I’ll be posting a 5 part series on building a modern web app that takes lightning payments, and how to host it securely. https://t.co/gDsAAUKrnj&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/fulmolightning/status/1035183579196743680&quot;&gt;Fulmo ⚡ @fulmolightning&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Get ready to rumble! The latest batch of 20 #RaspiBlitz, a full #Bitcoin and #LightningNetwork node running on a Raspberry Pi, is ready to be picked up and plugged in at the #LightningHackday! If you can’t attend in person, you can build one yourself:&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;ul&gt;
+      &lt;li&gt;https://github.com/rootzoll/raspiblitz
+&lt;img src=&quot;https://imgur.com/edaW3pO.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mining&quot;&gt;Mining&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1vkk7yI7F2QGDIBhHf_aYVHzpWrcaPVZA/view&quot;&gt;Mining Share Transactions.docx&lt;/a&gt;
+&lt;img src=&quot;https://lh5.googleusercontent.com/pClKT1G7DrGW_hWbJAf3beTecIgi3lt-xG4WmVhIhVLQx85idJbmUqiaae8=w1200-h630-p&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.bitcoin.it/wiki/Main_Page&quot;&gt;en.bitcoin.it/wiki/Main_Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;podcasts&quot;&gt;Podcasts&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soundcloud.com/noded-bitcoin-podcast/noded-0270-with-vortex&quot;&gt;Noded Bitcoin Podcast&lt;/a&gt; - Noded 0.27.0 with Vortex&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://anitaposch.com/andreas-antonopoulos-bitcoin-podcast/&quot;&gt;Andreas M. Antonopoulos on Bitcoin, privacy, human rights and the …&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Andreas M. Antonopoulos is one of the rare bitcoin and open blockchain experts who approaches the subject from an educational, political, cultural, and human perspective - not only discussing the technology in investment terms. We discuss Bitcoin in the context of human righ…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bitcointechweekly.com/&quot;&gt;bitcointechweekly.com&lt;/a&gt;
+Weekly News and Articles on Bitcoin Technology&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;video&quot;&gt;Video&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PL05dEp7goGNiKWYdiE4nurEPFMmF9XpzF&quot;&gt;BitcoinExplainers.com Learn About Bitcoin on YouTube&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The best way to learn about bitcoin is to actually use it. Perhaps the second best way is to watch some introductory videos. Please keep in mind the dates th…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCHFL9uTsDbOuBtkhfabU38w&quot;&gt;Crypto Cast Network&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/aantonop/bitcoinbook&quot;&gt;bitcoinbook/bitcoinbook&lt;/a&gt; - Mastering Bitcoin 2nd Edition - Programming the Open Blockchain&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Book-Satoshi-Collected-Writings-Nakamoto/dp/0996061312&quot;&gt;The Book of Satoshi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X&quot;&gt;Digital Gold&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Age-Cryptocurrency-Bitcoin-Challenging-Economic/dp/1250065631/&quot;&gt;The Age of Cryptocurrency&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720&quot;&gt;The Sovereign Individual&lt;/a&gt; (pre-Bitcoin)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.wiley.com/en-us/The+Bitcoin+Standard%3A+The+Decentralized+Alternative+to+Central+Banking-p-9781119473862&quot;&gt;The Bitcoin Standard: The Decentralized Alternative to Central Banking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assorted&quot;&gt;Assorted&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/xyZgkKE.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/66ZoGUAnY9s&quot;&gt;Baltic Honeybadger 2018 Bitcoin conference, Riga, day 1&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Timestamp:
+35:48 - The Reserve Currency Fallacy by Eric Voskuil
+1:05:34 - Trustlessness, Scalability, and Directions in Security Models by Matt Corallo
+1:41:42 - 1 on 1: Current state of the market &amp;amp; institutional investors Leo Weiss with Tone Vays &amp;amp; Bruce Fenton
+2:38:19 - The future of Bitcoin smart contracts by Max Keidun
+3:02:50 - The Bitcoin Standard as a layered scaling solution by Saifedean Ammous (via Skype)
+3:36:10 - Beyond Bitcoin: Decentralized collaboration by Yurii Rashkovskii 
+4:06:30 - 1 on 1: The future of Bitcoin wallets with Pavol Rusnak &amp;amp; Lawrence Nahum, moderated by Giacomo Zucco
+5:48:10 - Extreme OPSEC for the Modern Cypherpunk by Jameson Lopp
+6:24:20 - 1 on 1: Bitcoin payment processing and merchants with Sergej Kotliar &amp;amp; Alena Vranova, moderated by Vortex
+6:55:01 - 1 on 1: Present and future tech challenges in Bitcoin with Peter Todd &amp;amp; Adam Back, moderated by Pierre Roberge
+7:48:45 - The Future of Lightning by Elizabeth Stark
+8:24:10 - 1 on 1: Investing in bitcoin businesses with Nic Carter &amp;amp; Florian Maier, moderated by Matthew Mežinskis
+8:52:10 - Closing panel with Elizabeth Stark, Peter Todd, Jameson Lopp, Eric Voskuil, Alex Petrov, moderated by Roman Snitko&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitdb.network/&quot;&gt;bitdb.network&lt;/a&gt; - The Random Access Memory for Bitcoin&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@zackvoell/sorry-bitcoin-is-still-anarchist-3e995d2fbbf1&quot;&gt;Sorry, Bitcoin is still Anarchist – Zack Voell&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.theblockcrypto.com/2018/11/01/mapping-out-bitcoins-supply-chain/&quot;&gt;Mapping out bitcoin’s supply chain - The Block&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The Block complements our writings and analyses with charts, graphs, and maps is to give our readers a comprehensive look at the complex crypto ecosystem. Even the veteran Bitcoiner can get lost in the twist and turns that is the bitcoin labyrinth. Here, we take a high-level…
+&lt;img src=&quot;https://imgur.com/1XOFJBx.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/KryptykHex/status/1005079233075515393&quot;&gt;Jonathan Bitcoin Not Blockchain (@KryptykHex)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;#Bitcoin is by far the most energy efficient monetary system we’ve ever designed.
+&lt;img src=&quot;https://pbs.twimg.com/media/DfLCOxlUwAAIegz.jpg:large&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@lightcoin/the-problem-bitcoin-solves-8b3944ea77a7&quot;&gt;The problem bitcoin solves – John Light – Medium&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The problem that Bitcoin solves is the reversibility of electronic payments. In the seminal Bitcoin whitepaper, Satoshi Nakamoto wrote,&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/bitcoin-core-bug-cve-2018-17144-an-analysis-f80d9d373362&quot;&gt;Bitcoin Core Bug CVE-2018–17144: An Analysis – Hacker&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The Bitcoin world was surprised when last week, 0.16.3 was released to the public and everyone was urged to upgrade as soon as possible…
+&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*x3mlUTuK20BjqXobENf2Sw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cryptoconomy.life/2018/03/09/the-bullish-case-for-bitcoin/&quot;&gt;The Bullish case For Bitcoin&lt;/a&gt; - Is this crash the end of Bitcoin? Or is this an inevitable blip that comes when shifting the foundations of society? Listen to find out in Vijay’s thought provoking article, “The Bullis…&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thebitcoinnews.com/bestmixer-ios-bitcoin-blender-aims-to-bring-anonymity-back-to-crypto/&quot;&gt;BestMixer.io’s Bitcoin Blender Aims to Bring Anonymity Back to C…&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The BestMixer.io development team has introduced their next generation bitcoin blender in an effort aimed at disrupting the quickening pace of blockchain analysis firms such as Chainalysis. The reason behind the move is simple: cryptocurrency is not anonymous but it pretends …&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@timevalueofbtc/the-business-of-bitcoin-cold-storage-148fba7f1255&quot;&gt;The Business of Bitcoin Cold Storage – Nik Bhatia&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin is digital gold, and this continues to be its most appropriate and concise metaphor. I recently discussed some parallels between…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/pierre_rochard/status/988403000682139649&quot;&gt;Pierre Rochard [⚡️] (@pierre_rochard)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Why I’m focused on Bitcoin: • Schelling point consensus • p2p network governance with full nodes • proof-of-work secure timestamping • Lindy effect / first mover advantage • fixed issuance schedule • prudent engineering culture • promising research: lightni…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/PKeAZi4YKb0&quot;&gt;Bitcoin or Shitcoin? (highlights from our Spectator debate)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;BitMEX’s recent live event with The Spectator (“Who’s afraid of Bitcoin?”) was an exclusive affair, with fewer than 200 people in the theatre. All the sessio…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/tierion/how-to-create-and-verify-a-chainpoint-proof-eba52a7700e3&quot;&gt;How to Create and Verify a Chainpoint Proof – Tierion&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;This guide shows how developers can use a Chainpoint Node to create and verify a Chainpoint proof. Chainpoint is an open standard for…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/s/story/bitcoins-social-contract-1f8b05ee24a9&quot;&gt;Unpacking Bitcoin’s Social Contract – Member Feature Stories&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;All monetary systems rely on social contracts, and Bitcoin’s no exception. The difference is who holds the power: the government, or the people.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/TheLTBNetwork/status/1062773855289270272&quot;&gt;The LTB Network [Jan/3➞₿ 🔑∎] (@TheLTBNetwork)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Check out the latest episode of @TheCryptoShow featuring @ProfFaustus and @DanielKrawisz - this time discussing thoughts on the #fork, the origins of #bitcoin and #LightningNetwork. https://t.co/TpRGZ4MPMM&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinmagazine.com/articles/bitcoins-tech-trends-2018-what-year-brought-us-part-1/&quot;&gt;Bitcoin’s Tech Trends of 2018: What This Year Brought Us (Part 1)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Where 2017’s dizzying price highs embedded “hodl” into the public consciousness, 2018 was the year in which “buidl” became a trend in the crypto-industry — and Bitcoin was no exception.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/Beetcoin/status/935460412262375424&quot;&gt;Beetcoin [10K BTC on LN] (@Beetcoin)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;THREAD: Ready to get mindblown by #Bitcoin #CORE implementations and progress? Volunteers around the world gather and cumulate tons of hours from the best minds on this planet about the topic. This is a gift, an invention made to humanity.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/BTCsessions/status/1070777587457175552&quot;&gt;BTC Sessions 🐂₿ [Jan/3➞₿🔑∎] (@BTCsessions)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Full #BullBitcoin launch speech. Premiere today at 5:30pm MST. @francispouliot_ @BitcoinBrains @SatoshiPortal @Bitcoin_Outlet @myBylls https://t.co/Z1Ie6XWrGt&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/Delphi_Digital/status/1072248572433915909&quot;&gt;Delphi Digital (@Delphi_Digital)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;0/ We’re excited to release our first “State of #Bitcoin” report. Read it in full here! https://t.co/xbcKCNHsgJ&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Lx9zgZCMqXE&quot;&gt;How Bitcoin Works Under the Hood&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;A somewhat technical explanation of how Bitcoin works. Want more? Check out my new in-depth course on the latest in Bitcoin, Blockchain, and a survey of the&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://eprint.iacr.org/2015/578.pdf&quot;&gt;Tampering with the Delivery of Blocks and Transactions in Bitcoin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ethz.ch/content/dam/ethz/special-interest/infk/inst-infsec/system-security-group-dam/research/publications/pub2015/tissec15_karame.pdf&quot;&gt;Misbehavior in Bitcoin: A Study of Double-Spending and Accountability&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@festina_lente_2/why-bitcoin-is-not-a-startup-23c6b772f360&quot;&gt;Why Bitcoin Is Not a Startup – The Bitcoin Observer – Part II — MoE As a Unique Type of Economic Good&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@timevalueofbtc/the-bitcoin-risk-spectrum-949f6abec290&quot;&gt;The Bitcoin Risk Spectrum – Nik Bhatia – Medium&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin is already a reserve asset. It is the world’s first true example of decentralized digital scarcity, and its elegant, predetermined…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*j_dLZGVM7rV8wsJRronzyA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@BrandonQuittem/bitcoin-is-a-social-creature-mushroom-part-2-3-6a05c3abe8f0&quot;&gt;Bitcoin is a Social Creature (Mushroom) — Part 2/3&lt;/a&gt; - Exploring Hype Cycles, Ethnomycology, and the Cult of Satoshi&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*ekAy4hmsfFv1NOyo6bQuzg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/AaronvanW/status/1079801323967709185&quot;&gt;Aaron van Wirdum (@AaronvanW)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Blockchain Analysis Is About to Get Harder as P2EP Enters Testing Phase. https://t.co/EtrlMxpW8N Happy new year!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/lopp/status/1080231724104044544&quot;&gt;Jameson Lopp (@lopp)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Libbitcoin developer @evoskuil on risk and security. https://t.co/eu7w1rNMPo&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/Dv3BAhNV4AEzTss.jpg:large&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/coinmonks/why-bitcoin-has-value-by-a-millennial-4ac7eff4ee7d&quot;&gt;Why Bitcoin Has Value by a Millennial – Coinmonks&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Many arguments against Bitcoin can be summed up as, “But it has no intrinsic value!” But what is value, even? The world is currently in a…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@lopp/bitcoin-by-the-numbers-2018-recap-68a91789d804&quot;&gt;Bitcoin By the Numbers: 2018 Recap – Jameson Lopp&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;I’ve always been fascinated with the raw numbers relating to the operational status and growth of Bitcoin, especially as we ride the…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@nopara73/stealing-satoshis-bitcoins-cc4d57919a2b&quot;&gt;Who Will Steal Satoshi’s Bitcoins? – nopara73&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;I woke up in the middle of the night so I fired up Twitter and I encountered two well-known cryptographers’ conversation about quantum…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/0*GWRYyGRclAs1rC4K.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cp0x.com/applications/core/interface/file/attachment.php?id=80&quot;&gt;Inventing-Bitcoin-Print.pdf (2.81 MB)&lt;/a&gt; - talks about what kind of physical, mathematical, cryptographic knowledge, game theory, programming, and economics were needed to invent Bitcoin. A great addition to Antonopoulos’s Mastering Bitcoin.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://m.apograf.io/articles/13486&quot;&gt;Okamoto Beats Schnorr: On the Provable Security of Multi-Signatures&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The insecurity discussion starts near the bottom of page 2 of the paper The security issues the paper discusses are pretty simple to solve theoretically, but they all increase the communication complexity of the signing schemes from O(n^2) to O(n^3) Which means there’s that many more points at which the multisig can be sabotaged or an error of some sort can occur Which basically means that all of those schemes are useless for large numbers of participants Not that they were that useful for any significant number of participants with a complexity of O(n^2)&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apograf.io/main&quot;&gt;apograf.io&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Apograf is the first aggregator for publications on cryptography, distributed computer systems, blockchain technology and other related fields. By collecting metadata from reputable sources, it delivers easy integrated access to complete scientific publications or links to wh…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/btc/comments/8ps659/history_lesson_in_2013_peter_todd_was_paid_off_by/&quot;&gt;r/btc - History lesson: In 2013, Peter Todd was paid off by a gove…&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Bitcoin/comments/adddja/the_weird_nonce_pattern/&quot;&gt;r/Bitcoin - The weird nonce pattern&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://external-preview.redd.it/tRXRLScPWuo9RGJ6m_AOX_1PvvMsOkfYJSVMZznw19Y.jpg?auto=webp&amp;amp;s=fdb00a52ceb4db3f69cb5e6006e4b426410c48a9&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/crossphd/status/1080196216011534336&quot;&gt;Christopher Ross (@crossphd)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin and the Promise of Independent Property Rights by @hasufl https://t.co/W53PwjpNdE&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/casa/the-evolution-of-bitcoin-key-management-c2fd29ba35d6&quot;&gt;The Evolution of Bitcoin Key Management&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Let’s revisit important milestones in how we experienced Bitcoin HODLing over the past 10 years, and what we can expect from 2019.&lt;/p&gt;
+
+      &lt;p&gt;In this post, I’m not talking about custodial “vaults” — exchanges and wallets that hold crypto on the customer’s behalf — nor all the security faux-pas and breaches that happened in custody. This is merely my appreciation for the development of the sovereign Bitcoiner.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/the-bitcoin-knowledge-podcast/id301670981?mt=2&amp;amp;i=1000429693505&quot;&gt;Legendary guest Dr. Adam Back updates his Bitcoin observations. The Bitcoin Knowledge Podcast&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Legendary guest Dr. Adam Back, cofounder and CEO of Blockstream, gives his latest observations of the Bitcoin ecosystem.&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;ul&gt;
+      &lt;li&gt;^^^good overview lightning and liquid&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://techcrunch.com/2019/01/19/bitcoin-social-layer/&quot;&gt;The social layer is ironically key to Bitcoin’s security&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;A funny thing happened in the second half of 2018. At some moment, all the people active in crypto looked around and realized there weren’t very many of us. The friends we’d convinced during the last holiday season were no longer speaking to us. They had stopped checking …&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://techcrunch.com/wp-content/uploads/2019/01/GettyImages-700711715.jpg?w=599&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/ChristopherA/status/1088999047367553025&quot;&gt;Christopher Allen (@ChristopherA)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The view amongst most bitcoin people I know is not that they don’t care about privacy or fungibility — they care very very much…But it’s one that cannot fail, or it’s one that we better not cause to fail. And that takes precedence over everything else.”— A…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/btcblackcab/status/1088975839595773953&quot;&gt;Bitcoin Black Cab (@btcblackcab)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;I’m fed up with being judged as unreasonable for supporting bitcoin. I’m interested in bitcoin. No one says to an ethereum supporter “why don’t you give credence to dentacoin or doge or whatever”. I back bitcoin and I back people that back bitcoin. https://t.co/…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/seth586/status/1111675972728832001&quot;&gt;Seth586😈guides [BIP157+FULL NODE]⚡ (@seth586)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;I just published Neutrino can be dangerous, so lets grow Bitcoin’s immunity with a BIP/BOLT https://t.co/I0IBwtR8x7&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/evoskuil/status/1116242776092336133?s=12&quot;&gt;Eric Voskuil (@evoskuil)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;“Substitution Principle” is the 62nd topic in the series on understanding #bitcoin: https://t.co/f00mq70Edp&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kauri.io/article/ef32ddae59094e8b99c92131b9148200&quot;&gt;Visualizing Bitcoin Transactions in 3D and Virtual Reality&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Abstract Bitcoin transactions form a graph that can be visualized in 3D and Virtual Reality (VR). This article explores how you can see these visualizations. The image below shows some of the network of transactions linked to the bitcoin pizza transaction . The red cubes are …&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/csuwildcat/status/1121765393419235333?s=12&quot;&gt;Daniel Ƀ (@csuwildcat)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Someone asked about Bitcoin/cryptocurrency volatility last night at an event, suggesting it can’t be good at what it’s supposed to do unless it’s as stable as USD - my response: “It operates as the most advanced DPKI layer we’ve ever seen, whether the price is $1 or $1 mil…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/ericturnr/status/1122589759644360706?s=12&quot;&gt;Eric Turner (@ericturnr)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Started putting together some research on “bitcoin banks” inspired by @nic__carter. So far I am interested but not sold on the idea. What sources am I missing? https://t.co/6QaEakpLZg&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/ragnarly/status/1129951605787226112?s=12&quot;&gt;Ragnar Lifthrasir 🏴 (@Ragnarly)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;@brian_trollz @peterktodd Bitcoin is a place where we can all learn, make mistakes, and sometimes be assholes, but be quickly forgiven. Unless you don’t admit your mistakes anddouble down on them. I think Bitcoin is a relatively benign, forgiving place. But I grew up dif…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/imacallyoujawdy/status/1130852270470385665?s=12&quot;&gt;Permabull Niño (@ImacallyouJawdy)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;As part 1 of a 4 part series that @MustStopMurad and myself are teaming up for, we’re excited to explore Bitcoin with you from an accounting point of view, via: https://t.co/kBrK3NYqX5&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;takes&quot;&gt;Takes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/francispouliot_/status/921419339785437184&quot;&gt;Francis Pouliot ⚡️ (@francispouliot_)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Blockchain is not the “underlying tech behind Bitcoin”: it’s the output of BTC P2P network consensus. Bitcoin is the tech behind blockchain.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/francispouliot_/status/1025778795201085440&quot;&gt;Francis Pouliot ⚡️ (@francispouliot_)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin is the name of the protocol.&lt;/p&gt;
+
+      &lt;p&gt;Bitcoin $BTC is the name of the currency the protocol uses.&lt;/p&gt;
+
+      &lt;p&gt;Bitcoin Core is the name of the most popular Bitcoin protocol node software.&lt;/p&gt;
+
+      &lt;p&gt;Bitcoin mainnet is the name of network of Bitcoin nodes where $BTC txs+blocks are broadcast/val…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/dksf/status/1039955893675155456&quot;&gt;David 🖍 @dksf&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;1/ Censorship Resistant Non-Sovereign Monetary Store Of Value is a simple Bitcoin utility which doesn’t require that I find the other participants to transact with to get utility (though I must believe they exist). It’s functionally similar to a single-player mode for Bitcoin.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/patmillertime/status/1041197819913134080&quot;&gt;P.Miller (@patmillertime)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin is a decentralized P2P network.&lt;/p&gt;
+
+      &lt;p&gt;Bitcoin core is an open-source software implementation.&lt;/p&gt;
+
+      &lt;p&gt;Segregated Witness is a forwards compatible upgrade.&lt;/p&gt;
+
+      &lt;p&gt;SegWit fixed transaction malleability on opt-in basis, lowered fees, incentivized UTXO consolidation &amp;amp; blockweight effic…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/KyleSamani/status/1042784168487387137&quot;&gt;Kyle Samani (@KyleSamani)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;0/ Bitcoin is by definition a pyramid scheme / multi-level marketing scheme&lt;/p&gt;
+
+      &lt;p&gt;To be fair, it’s the most “fair” and egalitarian pyramid scheme ever devised, but it is none the less a pyramid scheme&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/jaybny/status/1004929885528178689&quot;&gt;Jay 4.669 [ #NOhalfX ]&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Fundamental theory of Bitcoin: Distributed consensus can be reached on the condition, 
+1) nodes continuously and indpendently derived the same random variables 
+2) outcome is independently verifiable
+3) real world effort implicitly tied to digital signatures&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/SatoshiLite/status/1048468911929274368&quot;&gt;Charlie Lee [LTC⚡] (@SatoshiLite)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;1/ On-chain Bitcoin and Litecoin payments are not peer-to-peer. Payments are sent from sender to miners, who record it on a distributed ledger. The recipient receives the payment when it’s recorded. BUT, this is facilitated by a p2p network where transactions are broadcast…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/misir_mahmudov/status/1039561835240939524&quot;&gt;Misir Mahmudov (@misir_mahmudov)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;strong&gt;Mandatory Bitcoin articles&lt;/strong&gt;&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Bullish Case for Bitcoin @real_vijay&lt;/li&gt;
+        &lt;li&gt;Crash Course in Bitcoin Pol. Economy @NakamotoInst&lt;/li&gt;
+        &lt;li&gt;Money, blockchains &amp;amp; social scalability @NickSzabo4&lt;/li&gt;
+        &lt;li&gt;An Inst. Investor’s Take on Cryptoassets @jlppfeffer&lt;/li&gt;
+        &lt;li&gt;Cryptocurrencies are money, not equity @BMB…
+&lt;img src=&quot;https://pbs.twimg.com/media/Dm1Azy4V4AAdaDw.png:large&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.patreon.com/posts/its-time-to-stop-14695811&quot;&gt;Its time to stop ‘pretending’. You don’t own Bitcoin.&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Official Post from Chris DeRose: You don’t own Bitcoin. There, someone had to say it. Might as well be me. Owning Bitcoin was a great meme. Had an awesome run. But you don’t own it, and never did. Sound delusional? Nope. By the end of this article, you will probably agree. W…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coindesk.com/blockchain-bullies-truth-trolling-bitcoin-uncensoreds-big-short/&quot;&gt;Blockchain ‘Bullies’: Truth, Trolls and Bitcoin Uncensored&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bailey Reutzel speaks to the controversial pair behind Bitcoin Uncensored and tries to separate their truths from their blockchain industry trolling.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.picks.co/bitcoins-distribution-was-fair-e2ef7bbbc892&quot;&gt;Bitcoin’s Distribution Was Fair – Picks &amp;amp; Shovels
+Debunking FUD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinmagazine.com/articles/op-ed-there-grain-truth-every-joke/&quot;&gt;Op Ed: There Is a Satoshi of Truth in Every Joke&lt;/a&gt;
+&lt;img src=&quot;https://btcmag.portal.btcm.ag/wp-content/uploads/sites/5/2019/06/gp-truth-in-joke.width-800-722x401.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@laurentmt/the-yin-and-yang-of-bitcoin-bf056f3fd58c&quot;&gt;The Yin and Yang of Bitcoin – LaurentMT – Medium&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;“Countless words count less than the silent balance between yin and yang” - Laotzi&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@laurentmt/cliffhangers-cb87ed47124e&quot;&gt;Cliffhangers – LaurentMT – Medium&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;“Be like the cliff against which the waves continually break; but it stands firm and tames the fury of the water around it.” — Marcus…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/why-isnt-bitcoin-banned-everywhere-32a2caec90&quot;&gt;Why isn’t Bitcoin banned everywhere? – Hacker Noon&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Bitcoin was supposed to be the enemy of governments. And yet most countries have ushered it through the front door. What’s the explanation?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@2W/the-exact-definition-of-blockchain-225b96a5e2b9&quot;&gt;The Exact Definition of ‘Blockchain’ – Tim Pastoor&lt;/a&gt;
+&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*545rq_Hfo9G2vAupqDAKfQ.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/danheld/status/1055499653930672129&quot;&gt;Dan Hedl (@danheld)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;1/ Bitcoin’s origin is akin to planting a tree. It wasn’t just Satoshi’s selection of the species (code), but the season (timing), soil (distribution), and gardening (community) that were essential to its success Part 1: Species https://t.co/mfgMaDx70Z Thread 👇&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;blockstream&quot;&gt;Blockstream&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@whalecalls/fud-or-fact-blockstream-inc-is-the-main-force-behind-bitcoin-and-taken-over-160aed93c003&quot;&gt;Fact or FUD — “BlockStream , Inc is the main force behind Bitcoin (and taken over)”&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The first user selected topic on “BlockStream” and the perpetuated belief that they are in control of Bitcoin. In typical WhaleCalls fashion, we will address and discuss the verifiable facts first, then our commentary will follow. This way you can choose to stop reading.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;satoshi&quot;&gt;Satoshi&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/deadalnix/status/1007548856375095296?s=09&quot;&gt;Deadal Nix (@deadalnix)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Some people seems to adulate Satoshi, think he can do nothing wrong and his word are to be interpreted as gospel. While I share Satoshi’s plan to create peer to peer digital cash, I do think it is important that we think for ourselves. Here are some errors Satoshi made:&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;deflationary&quot;&gt;Deflationary&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;[CryptoZerp (@CryptoZerp)]https://twitter.com/CryptoZerp/status/1027337724150337536
+    &lt;blockquote&gt;
+      &lt;p&gt;Eventually, you will need to accept the fact that #bitcoin was hard coded to pump. 1) Every 4 years the supply cuts in half. 2) Every single day more and more people want to buy it.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://neweconomicperspectives.org/2013/04/talking-bitcoin.html&quot;&gt;Bitcoin’s Deflationary Weirdness&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The purpose of our brief discussion was just to provide some general background information for Arnie’s listeners about Bitcoin, including what bitcoins are and why anyone would buy them or accept them in exchange for goods and services.   We touched on several topics related to the Bitcoin phenomenon, but there is one very peculiar and puzzling feature of Bitcoin that we didn’t get to discuss and that seems especially important to me:  the Bitcoin system has what appears to be a built-in deflationary architecture.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;immutability&quot;&gt;Immutability&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/eiaine/status/1028300589019488256&quot;&gt;Elaine Ou 🐤 (@eiaine)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;People like to point out that Bitcoin’s irreversible transactions enable fraud, but never bother to mention that merchants lose $190 BILLION to chargebacks every year. Risk doesn’t ever disappear, we just push the liability on to someone else. https://t.co/ZfabEgJjtP
+&lt;img src=&quot;https://pbs.twimg.com/media/DkP3acuV4AE7mvw?format=jpg&amp;amp;name=small&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;china&quot;&gt;China&lt;/h3&gt;
+
+&lt;p&gt;https://arxiv.org/pdf/1810.02466.pdf -“looming threat of china”&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/bkaiser93/status/1050090124900331520&quot;&gt;Ben Kaiser (@bkaiser93)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;1/8 A thread on my research with @mireya_anita and @A_led analyzing China’s influence on Bitcoin: https://t.co/LsIMEbePQk Important: we’re still waiting on peer review! We claim that China is a motivated, capable, and overall credible threat to Bitcoin. More on each adje…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;regulation&quot;&gt;Regulation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.bitcoin.com/california-passes-bill-defining-blockchain-and-crypto-terms&quot;&gt;California Passes Bill Defining Blockchain and Crypto Terms&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;A draft law designed to amend California’s legislation to create legal grounds for the implementation of crypto-related technologies has been passed by the state’s legislature. Assembly Bill 2658 contains important definitions of some key blockchain and crypto terms.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fees&quot;&gt;Fees&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://transactionfee.info/charts/payments/segwit&quot;&gt;transactionfee.info&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><summary type="html">Bitcoin Information organized by Category</summary></entry><entry><title type="html">The Agoric Papers</title><link href="http://localhost:4000/blog/agoric-papers-miller-drexler/" rel="alternate" type="text/html" title="The Agoric Papers" /><published>2019-06-28T00:00:00-04:00</published><updated>2019-06-29T06:22:33-04:00</updated><id>http://localhost:4000/blog/agoric-papers</id><content type="html" xml:base="http://localhost:4000/blog/agoric-papers-miller-drexler/">&lt;p&gt;I was excited to catch this episode of Epicenter, recently. I’ve been interested in Mark Miller’s work since I began studying the &lt;a href=&quot;https://sourcecrypto.pub/bitcoin-history/smart-contracts&quot;&gt;history of smart contracts&lt;/a&gt;.&lt;/p&gt;
 
 &lt;!-- Courtesy of embedresponsively.com //--&gt;
 &lt;div class=&quot;responsive-video-container&quot;&gt;
@@ -552,13 +1636,7 @@
   &lt;li&gt;[33] Epstein, Richard A., Takings: Private Property and the Power of Eminent Domain (Harvard University Press, Cambridge, MA, 1985).&lt;/li&gt;
   &lt;li&gt;[34] Buchanan, James M. and Tullock, Gordon, The Calculus of Consent: Logical Foundations of Constitutional Democracy (University of Michigan Press, Ann Arbor, MI, 1965).&lt;/li&gt;
   &lt;li&gt;[35] Tullock, Gordon, The Vote Motive (The Institute of Economic Affairs, Westminster, London, 1976).&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="Agoric" /><category term="Mark Miller" /><category term="Eric Drexler" /><category term="ObCap" /><category term="Smart Contracts" /><category term="history" /><summary type="html">These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988</summary></entry><entry><title type="html">Down the @TheCryptoconomy Rabbithole</title><link href="https://sourcecrypto.pub/blog/thecryptoconomy-podcast-deep-dive/" rel="alternate" type="text/html" title="Down the @TheCryptoconomy Rabbithole" /><published>2019-06-21T00:00:00-04:00</published><updated>2019-06-23T06:22:33-04:00</updated><id>https://sourcecrypto.pub/blog/thecryptoconomy-podcast-deep-dive</id><content type="html" xml:base="https://sourcecrypto.pub/blog/thecryptoconomy-podcast-deep-dive/">&lt;p&gt;I’ve been searching for others like me: who find and make more accessible, massive amounts of valuable information!&lt;/p&gt;
-
-&lt;p&gt;@TheCryptoconomy is the first podcast I’ve been inspired to do a complete index of, because it’s simply incredible.&lt;/p&gt;
-
-&lt;p&gt;Even if nobody visited this site, and this document just lived locally on my harddrive, I’d be refrencing it regularly.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Was asked recently why I started The Cryptoconomy Podcast:&lt;br /&gt;• I wanted audio of the 1000s of amazing &lt;a href=&quot;https://twitter.com/hashtag/Bitcoin?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Bitcoin&lt;/a&gt; articles&lt;br /&gt;• I realized most only read title &amp;amp; 1st paragraph (caught myself doing it)&lt;br /&gt;• The scope of Bitcoin study feels insurmountable w/out help&lt;a href=&quot;https://t.co/umoiK05Ijz&quot;&gt;https://t.co/umoiK05Ijz&lt;/a&gt;&lt;/p&gt;&amp;mdash; Guy Swann⚡ (@TheCryptoconomy) &lt;a href=&quot;https://twitter.com/TheCryptoconomy/status/1119307773760757766?ref_src=twsrc%5Etfw&quot;&gt;April 19, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="Agoric" /><category term="Mark Miller" /><category term="Eric Drexler" /><category term="ObCap" /><category term="Smart Contracts" /><category term="history" /><summary type="html">These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988</summary></entry><entry><title type="html">Down the @TheCryptoconomy Rabbithole</title><link href="http://localhost:4000/blog/thecryptoconomy-podcast-deep-dive/" rel="alternate" type="text/html" title="Down the @TheCryptoconomy Rabbithole" /><published>2019-06-21T00:00:00-04:00</published><updated>2019-06-23T06:22:33-04:00</updated><id>http://localhost:4000/blog/thecryptoconomy-podcast-deep-dive</id><content type="html" xml:base="http://localhost:4000/blog/thecryptoconomy-podcast-deep-dive/">&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Was asked recently why I started The Cryptoconomy Podcast:&lt;br /&gt;• I wanted audio of the 1000s of amazing &lt;a href=&quot;https://twitter.com/hashtag/Bitcoin?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Bitcoin&lt;/a&gt; articles&lt;br /&gt;• I realized most only read title &amp;amp; 1st paragraph (caught myself doing it)&lt;br /&gt;• The scope of Bitcoin study feels insurmountable w/out help&lt;a href=&quot;https://t.co/umoiK05Ijz&quot;&gt;https://t.co/umoiK05Ijz&lt;/a&gt;&lt;/p&gt;&amp;mdash; Guy Swann⚡ (@TheCryptoconomy) &lt;a href=&quot;https://twitter.com/TheCryptoconomy/status/1119307773760757766?ref_src=twsrc%5Etfw&quot;&gt;April 19, 2019&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;h2 id=&quot;thecryptoconomy&quot;&gt;@TheCryptoconomy&lt;/h2&gt;
@@ -652,20 +1730,6 @@
   &lt;li&gt;CryptoQuikRead_222 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_222---Decentralized-Disruption--Who-Dares-Wins-BitTorrent-Lessons-4-of-4-e3hek4&quot;&gt;Decentralized Disruption, Who Dares Wins: BitTorrent Lessons [4 of 4]&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;history-of-money&quot;&gt;History of Money&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://nakamotoinstitute.org/shelling-out/&quot;&gt;&lt;img src=&quot;https://imgur.com/WLwOn7F.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Shelling Out - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/Shelling-Out---The-Origins-of-Money-e2ndom&quot;&gt;The Origins of Money&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_176 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_176---Shelling-Out---The-Origins-of-Money-Part-1-e2ndor&quot;&gt;Shelling Out - The Origins of Money [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_177 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_177---Shelling-Out---The-Origins-of-Money-Part-2-e2ndoq&quot;&gt;Shelling Out - The Origins of Money [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_178 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_178---Shelling-Out---The-Origins-of-Money-Part-3-e2ndos&quot;&gt;Shelling Out - The Origins of Money [Part 3]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_179 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_179---Shelling-Out---The-Origins-of-Money-Part-4-e2ndop&quot;&gt;Shelling Out - The Origins of Money [Part 4]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_262 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_262---The-Island-of-Stone-Money-e4d6m0&quot;&gt;The Island of Stone Money&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_18 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_18---A-Story-About-Booms--Busts-e4aflh&quot;&gt;A Story About Booms &amp;amp; Busts&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&quot;economics---finance&quot;&gt;Economics - Finance&lt;/h2&gt;
 
 &lt;figure class=&quot;&quot;&gt;
@@ -728,6 +1792,22 @@
   &lt;li&gt;CryptoQuikRead_215 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_215---Szabos-Formalizing--Securing-Network-Relationships-Part-2-e3atv9&quot;&gt;Szabo’s Formalizing &amp;amp; Securing Network Relationships [Part 2]&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;CryptoQuikRead_216 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_216---Formalizing--Securing-Network-Relationships-Part-3-e3ejnd&quot;&gt;Formalizing &amp;amp; Securing Network Relationships [Part 3]&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;CryptoQuikRead_261 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_261---The-God-Protocols-e4cstb&quot;&gt;The God Protocols&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;history-of-money&quot;&gt;History of Money&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nakamotoinstitute.org/shelling-out/&quot;&gt;&lt;img src=&quot;https://imgur.com/WLwOn7F.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, also by Szabo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Shelling Out - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/Shelling-Out---The-Origins-of-Money-e2ndom&quot;&gt;The Origins of Money&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CryptoQuikRead_176 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_176---Shelling-Out---The-Origins-of-Money-Part-1-e2ndor&quot;&gt;Shelling Out - The Origins of Money [Part 1]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CryptoQuikRead_177 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_177---Shelling-Out---The-Origins-of-Money-Part-2-e2ndoq&quot;&gt;Shelling Out - The Origins of Money [Part 2]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CryptoQuikRead_178 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_178---Shelling-Out---The-Origins-of-Money-Part-3-e2ndos&quot;&gt;Shelling Out - The Origins of Money [Part 3]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CryptoQuikRead_179 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_179---Shelling-Out---The-Origins-of-Money-Part-4-e2ndop&quot;&gt;Shelling Out - The Origins of Money [Part 4]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CryptoQuikRead_262 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_262---The-Island-of-Stone-Money-e4d6m0&quot;&gt;The Island of Stone Money&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GuysTake_18 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_18---A-Story-About-Booms--Busts-e4aflh&quot;&gt;A Story About Booms &amp;amp; Busts&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;bitcoin&quot;&gt;Bitcoin&lt;/h2&gt;
@@ -1009,6 +2089,11 @@
 &lt;p&gt;&lt;a href=&quot;https://iterative.capital/thesis/&quot;&gt;&lt;img src=&quot;https://imgur.com/XyMR2ev.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/Whats-Really-Driving-the-Cryptocurrency-Phenomenon----The-Iterative-Capital-Thesis-e2u7qq&quot;&gt;What’s Really Driving the Cryptocurrency Phenomenon? - The Iterative Capital Thesis&lt;/a&gt; -Complete&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Quick Reads&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
   &lt;li&gt;CryptoQuikRead_186 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_186---The-Cryptocurrency-Phenomenon-Part-1-e2ndoh&quot;&gt;The Cryptocurrency Phenomenon [Part 1]&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;CryptoQuikRead_187 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_187---The-Cryptocurrency-Phenomenon-Part-2-e2ndoe&quot;&gt;The Cryptocurrency Phenomenon [Part 2]&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;CryptoQuikRead_188 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_188---The-Cryptocurrency-Phenomenon-Part-3-e2ndod&quot;&gt;The Cryptocurrency Phenomenon [Part 3]&lt;/a&gt;&lt;/li&gt;
@@ -1018,7 +2103,6 @@
   &lt;li&gt;CryptoQuikRead_192 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_192---The-Cryptocurrency-Phenomenon-Part-7-e2ndo9&quot;&gt;The Cryptocurrency Phenomenon [Part 7]&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;CryptoQuikRead_193 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_193---The-Cryptocurrency-Phenomenon-Part-8-e2ndo5&quot;&gt;The Cryptocurrency Phenomenon [Part 8]&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;CryptoQuikRead_194 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_194---The-Cryptocurrency-Phenomenon-Part-9-e2ndo4&quot;&gt;The Cryptocurrency Phenomenon [Part 9]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/Whats-Really-Driving-the-Cryptocurrency-Phenomenon----The-Iterative-Capital-Thesis-e2u7qq&quot;&gt;What’s Really Driving the Cryptocurrency Phenomenon? - The Iterative Capital Thesis&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;mining&quot;&gt;Mining&lt;/h2&gt;
@@ -1065,7 +2149,7 @@
   &lt;li&gt;CryptoQuikRead_231 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_231---The-Case-for-Electronic-Cash-Part-2-e3n1t5&quot;&gt;The Case for Electronic Cash [Part 2]&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;CryptoQuikRead_232 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_232---The-Case-for-Electronic-Cash-Part-3-e3nbhu&quot;&gt;The Case for Electronic Cash [Part 3]&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;CryptoQuikRead_233 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_233---Exit--Freedom-e3nleo&quot;&gt;Exit &amp;amp; Freedom&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="bitcoin" /><category term="crypto" /><category term="blockchain" /><category term="history" /><category term="history" /><category term="permissioned" /><category term="cryptocurrencies" /><category term="ethereum" /><summary type="html">Audio for Hundreds of Essential Bitcoin Articles. @TheCryptoconomy - Guy Swan..... These Podcasts are essential. So why not make an index of their content, organized by topic?</summary></entry><entry><title type="html">The Libra Association</title><link href="https://sourcecrypto.pub/blog/libra-association/" rel="alternate" type="text/html" title="The Libra Association" /><published>2019-06-20T00:00:00-04:00</published><updated>2019-06-22T06:22:33-04:00</updated><id>https://sourcecrypto.pub/blog/libra-association</id><content type="html" xml:base="https://sourcecrypto.pub/blog/libra-association/">&lt;ul&gt;
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="bitcoin" /><category term="crypto" /><category term="blockchain" /><category term="history" /><category term="history" /><category term="permissioned" /><category term="cryptocurrencies" /><category term="ethereum" /><summary type="html">Audio for Hundreds of Essential Bitcoin Articles. @TheCryptoconomy - Guy Swan..... These Podcasts are essential. So why not make an index of their content, organized by topic?</summary></entry><entry><title type="html">The Libra Association</title><link href="http://localhost:4000/blog/libra-association/" rel="alternate" type="text/html" title="The Libra Association" /><published>2019-06-20T00:00:00-04:00</published><updated>2019-06-22T06:22:33-04:00</updated><id>http://localhost:4000/blog/libra-association</id><content type="html" xml:base="http://localhost:4000/blog/libra-association/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://libra.org/en-US/white-paper/#introduction&quot;&gt;White Paper&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf&quot;&gt;The Libra Blockchain&lt;/a&gt; - Technical Paper&lt;/li&gt;
 &lt;/ul&gt;
@@ -1135,7 +2219,7 @@
       &lt;/ul&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="facebook" /><category term="bitcoin" /><category term="blockchain" /><category term="history" /><category term="permissioned" /><category term="fintech" /><category term="web3" /><category term="cryptocurrencies" /><category term="libra association" /><summary type="html">Everything related to LibraCoin's Consortium, 'The Libra Association'.</summary></entry><entry><title type="html">The Libra Blockchain</title><link href="https://sourcecrypto.pub/blog/libra-facebook/" rel="alternate" type="text/html" title="The Libra Blockchain" /><published>2019-06-19T00:00:00-04:00</published><updated>2019-06-22T06:22:33-04:00</updated><id>https://sourcecrypto.pub/blog/libra</id><content type="html" xml:base="https://sourcecrypto.pub/blog/libra-facebook/">&lt;ul&gt;
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="facebook" /><category term="bitcoin" /><category term="blockchain" /><category term="history" /><category term="permissioned" /><category term="fintech" /><category term="web3" /><category term="cryptocurrencies" /><category term="libra association" /><summary type="html">Everything related to LibraCoin's Consortium, 'The Libra Association'.</summary></entry><entry><title type="html">The Libra Blockchain</title><link href="http://localhost:4000/blog/libra-facebook/" rel="alternate" type="text/html" title="The Libra Blockchain" /><published>2019-06-19T00:00:00-04:00</published><updated>2019-06-22T06:22:33-04:00</updated><id>http://localhost:4000/blog/libra</id><content type="html" xml:base="http://localhost:4000/blog/libra-facebook/">&lt;ul&gt;
   &lt;li&gt;@TechCrunch -&lt;a href=&quot;https://techcrunch.com/2019/06/18/facebook-libra/&quot;&gt;Facebook announces Libra cryptocurrency&lt;/a&gt;
     &lt;blockquote&gt;
       &lt;p&gt;&lt;strong&gt;The risk and reward of building the new PayPal&lt;/strong&gt;&lt;/p&gt;
@@ -1361,7 +2445,7 @@ The advent of the internet and mobile broadband has empowered billions of people
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.theblockcrypto.com/tiny/facebooks-cryptocurrency-libra-decried-by-french-finance-minister-saying-it-must-not-happen/&quot;&gt;Facebook’s cryptocurrency Libra decried by French finance minister, saying it ‘must not happen’&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="facebook" /><category term="bitcoin" /><category term="blockchain" /><category term="history" /><category term="permissioned" /><category term="fintech" /><category term="web3" /><category term="cryptocurrencies" /><summary type="html">Everything related to Facebook's LibraCoin - A simple global currency and financial infrastructure that empowers billions of people.</summary></entry><entry><title type="html">SourceCrypto Blog-Feed</title><link href="https://sourcecrypto.pub/blog/welcome-to-SC-blog/" rel="alternate" type="text/html" title="SourceCrypto Blog-Feed" /><published>2019-05-29T00:00:00-04:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>https://sourcecrypto.pub/blog/blog-source</id><content type="html" xml:base="https://sourcecrypto.pub/blog/welcome-to-SC-blog/">&lt;p&gt;It’s safe to say that I’m testing the limits of the Minimal Mistakes theme.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="facebook" /><category term="bitcoin" /><category term="blockchain" /><category term="history" /><category term="permissioned" /><category term="fintech" /><category term="web3" /><category term="cryptocurrencies" /><summary type="html">Everything related to Facebook's LibraCoin - A simple global currency and financial infrastructure that empowers billions of people.</summary></entry><entry><title type="html">SourceCrypto Blog-Feed</title><link href="http://localhost:4000/blog/welcome-to-SC-blog/" rel="alternate" type="text/html" title="SourceCrypto Blog-Feed" /><published>2019-05-29T00:00:00-04:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>http://localhost:4000/blog/blog-source</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-SC-blog/">&lt;p&gt;It’s safe to say that I’m testing the limits of the Minimal Mistakes theme.&lt;/p&gt;
 
 &lt;p&gt;I decided to try out the blog format, mostly just to see if it would work.&lt;/p&gt;
 
@@ -1395,7 +2479,7 @@ The advent of the internet and mobile broadband has empowered billions of people
 
 &lt;p&gt;You’ll notice the &lt;a href=&quot;/featured/&quot;&gt;/featured/&lt;/a&gt; link, where I’ll feature the various channels on a rotating basis, until I’ve created a preview image for all of them. For now, there is only some variety.&lt;/p&gt;
 
-&lt;h2 id=&quot;lets-catch-up-again-soon&quot;&gt;Let’s Catch Up Again Soon!&lt;/h2&gt;</content><author><name>⧉ Infominer</name></author><category term="bitcoin" /><category term="blockchain" /><category term="development" /><category term="cypherpunks" /><category term="ethereum" /><category term="enterprise" /><category term="fintech" /><category term="web3" /><category term="defi" /><category term="cryptography" /><category term="distributed systems" /><category term="cryptocurrencies" /><category term="p2p" /><summary type="html">I'm now able to appreciate the technical limitation for shaping my categorization process. It makes sense to have 10 or less ways to divide the entire ecosystem and break it down from there... even if some overlap. Simplicity &lt;3</summary></entry><entry><title type="html">Chain Link</title><link href="https://sourcecrypto.pub/blog/chainlink/" rel="alternate" type="text/html" title="Chain Link" /><published>2019-04-25T00:00:00-04:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>https://sourcecrypto.pub/blog/chainlink</id><content type="html" xml:base="https://sourcecrypto.pub/blog/chainlink/">&lt;p&gt;In leiu of my own content, I’m reproducing the channel history of The Watchers Discord Server.&lt;/p&gt;
+&lt;h2 id=&quot;lets-catch-up-again-soon&quot;&gt;Let’s Catch Up Again Soon!&lt;/h2&gt;</content><author><name>⧉ Infominer</name></author><category term="bitcoin" /><category term="blockchain" /><category term="development" /><category term="cypherpunks" /><category term="ethereum" /><category term="enterprise" /><category term="fintech" /><category term="web3" /><category term="defi" /><category term="cryptography" /><category term="distributed systems" /><category term="cryptocurrencies" /><category term="p2p" /><summary type="html">I'm now able to appreciate the technical limitation for shaping my categorization process. It makes sense to have 10 or less ways to divide the entire ecosystem and break it down from there... even if some overlap. Simplicity &lt;3</summary></entry><entry><title type="html">Chain Link</title><link href="http://localhost:4000/blog/chainlink/" rel="alternate" type="text/html" title="Chain Link" /><published>2019-04-25T00:00:00-04:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>http://localhost:4000/blog/chainlink</id><content type="html" xml:base="http://localhost:4000/blog/chainlink/">&lt;p&gt;In leiu of my own content, I’m reproducing the channel history of The Watchers Discord Server.&lt;/p&gt;
 
 &lt;p&gt;Though, eventually I’ll turn this into a more organized page :)&lt;/p&gt;
 
@@ -9528,7 +10612,7 @@ Next all in: $LTC @ $129&lt;/span&gt;&lt;/div&gt;
 
             &lt;/div&gt;
         &lt;/div&gt;
-&lt;/div&gt;</content><author><name>⧉ Infominer</name></author><summary type="html">In leiu of my own content, I’m reproducing the channel history of The Watchers Discord Server.</summary></entry><entry><title type="html">Blockchain Identity Reources - TOML</title><link href="https://sourcecrypto.pub/blog/id-toml/" rel="alternate" type="text/html" title="Blockchain Identity Reources - TOML" /><published>2019-03-25T00:00:00-04:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>https://sourcecrypto.pub/blog/id-toml</id><content type="html" xml:base="https://sourcecrypto.pub/blog/id-toml/">&lt;p&gt;This page has two toml files from &lt;a href=&quot;https://github.com/sourcecrypto/sourcecrypto.github.io&quot;&gt;sourcecrypto/sourcecrypto.github.io&lt;/a&gt; embedded into it, with some help from &lt;a href=&quot;https://gist-it.appspot.com&quot;&gt;gist-it.appspot.com&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name>⧉ Infominer</name></author><summary type="html">In leiu of my own content, I’m reproducing the channel history of The Watchers Discord Server.</summary></entry><entry><title type="html">Blockchain Identity Reources - TOML</title><link href="http://localhost:4000/blog/id-toml/" rel="alternate" type="text/html" title="Blockchain Identity Reources - TOML" /><published>2019-03-25T00:00:00-04:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>http://localhost:4000/blog/id-toml</id><content type="html" xml:base="http://localhost:4000/blog/id-toml/">&lt;p&gt;This page has two toml files from &lt;a href=&quot;https://github.com/sourcecrypto/sourcecrypto.github.io&quot;&gt;sourcecrypto/sourcecrypto.github.io&lt;/a&gt; embedded into it, with some help from &lt;a href=&quot;https://gist-it.appspot.com&quot;&gt;gist-it.appspot.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;Note: Clearly that embed is not working, or at least not for me… maybe my ublock extension is working too hard.&lt;/p&gt;
 
@@ -9574,7 +10658,7 @@ Next all in: $LTC @ $129&lt;/span&gt;&lt;/div&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/sourcecrypto/sourcecrypto.github.io/raw/master/_data/toml/blockchain-id.toml&quot;&gt;SourceCrypto/toml/application/blockchain-id2.toml&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;script src=&quot;https://github.com/sourcecrypto/sourcecrypto.github.io/raw/master/_data/toml/blockchain-id.toml&quot;&gt;&lt;/script&gt;</content><author><name>⧉ Infominer</name></author><category term="metadata" /><category term="web-work" /><category term="development" /><category term="tags" /><summary type="html">This page has two toml files from sourcecrypto/sourcecrypto.github.io embedded into it, with some help from gist-it.appspot.com</summary></entry><entry><title type="html">Blockchain Data - Analytics</title><link href="https://sourcecrypto.pub/blog/blockchain-data/" rel="alternate" type="text/html" title="Blockchain Data - Analytics" /><published>2019-01-11T00:00:00-05:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>https://sourcecrypto.pub/blog/blockchain-data</id><content type="html" xml:base="https://sourcecrypto.pub/blog/blockchain-data/">&lt;ul&gt;
+&lt;script src=&quot;https://github.com/sourcecrypto/sourcecrypto.github.io/raw/master/_data/toml/blockchain-id.toml&quot;&gt;&lt;/script&gt;</content><author><name>⧉ Infominer</name></author><category term="metadata" /><category term="web-work" /><category term="development" /><category term="tags" /><summary type="html">This page has two toml files from sourcecrypto/sourcecrypto.github.io embedded into it, with some help from gist-it.appspot.com</summary></entry><entry><title type="html">Blockchain Data - Analytics</title><link href="http://localhost:4000/blog/blockchain-data/" rel="alternate" type="text/html" title="Blockchain Data - Analytics" /><published>2019-01-11T00:00:00-05:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>http://localhost:4000/blog/blockchain-data</id><content type="html" xml:base="http://localhost:4000/blog/blockchain-data/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/topics/blockchain-analytics&quot;&gt;topics/blockchain-analytics&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/arnaucube/goBlockchainDataAnalysis&quot;&gt;arnaucube/goBlockchainDataAnalysis&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/blockchain-unica/blockapi&quot;&gt;blockchain-unica/blockapi&lt;/a&gt; - A general framework for blockchain analytics&lt;/li&gt;
@@ -9711,7 +10795,7 @@ Next all in: $LTC @ $129&lt;/span&gt;&lt;/div&gt;
       &lt;p&gt;“We were mostly concentrated on forecasting accuracy and experimenting around that before and we touched backtesting issue very briefly and using code from the Mike Halls-Moore’s book. Of course having a nice backtesting code allows to build really good strategies with risk management, money management and consider different scenarios, but if you’re researching just signals obtained from different data sources (even it’s just historical prices) with use of machine learning you need something simpler to understand if these signals to go long or short are really useful. Basically we just want to check the difference between prices and multiply it by signal sign — up or down and accumulate this info during test period.”&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><summary type="html">Resources related to Blockchain Data and Analytics</summary></entry><entry><title type="html">Tag Definitions - a draft</title><link href="https://sourcecrypto.pub/blog/tag-definitions/" rel="alternate" type="text/html" title="Tag Definitions - a draft" /><published>2018-11-13T00:00:00-05:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>https://sourcecrypto.pub/blog/tag-definitions</id><content type="html" xml:base="https://sourcecrypto.pub/blog/tag-definitions/">&lt;p&gt;@MaciekLaskus suggests:&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><summary type="html">Resources related to Blockchain Data and Analytics</summary></entry><entry><title type="html">Tag Definitions - a draft</title><link href="http://localhost:4000/blog/tag-definitions/" rel="alternate" type="text/html" title="Tag Definitions - a draft" /><published>2018-11-13T00:00:00-05:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>http://localhost:4000/blog/tag-definitions</id><content type="html" xml:base="http://localhost:4000/blog/tag-definitions/">&lt;p&gt;@MaciekLaskus suggests:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;this is very interesting, but I think you’re making a fundamental mistake with tagging this by topics&lt;/p&gt;
 
@@ -9842,88 +10926,4 @@ Generally speaking tags should be used liberally, so that ‘bitcoin’, for exa
   &lt;li&gt;‘evernym’ - originators of the codebase that was passed on to the sovrin foundation&lt;/li&gt;
   &lt;li&gt;‘sovrin’ - and further developed and deployed, passing forward the code to the hyperledger foundation&lt;/li&gt;
   &lt;li&gt;‘indy’ -&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="metadata" /><category term="web-work" /><category term="development" /><category term="tags" /><summary type="html">what's really missing is tagging all of these resources by authors, co-authors, references/citations once this is done, topical tags can be derived algorithmically- @MaciekLaskus</summary></entry><entry><title type="html">SourceCrypto Research-Index</title><link href="https://sourcecrypto.pub/blog/research-index/" rel="alternate" type="text/html" title="SourceCrypto Research-Index" /><published>2018-10-14T00:00:00-04:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>https://sourcecrypto.pub/blog/source-crypto-research-index</id><content type="html" xml:base="https://sourcecrypto.pub/blog/research-index/">&lt;p&gt;&lt;strong&gt;A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://discord.gg/ahTuPMY&quot;&gt;Source Crypto Discord Chat&lt;/a&gt; is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the &lt;a href=&quot;/discolog/&quot;&gt;channels&lt;/a&gt; here. The next step is to systematically build better, more organized resources with the server as a starting point.&lt;/p&gt;
-
-&lt;p&gt;The aim is to generally map out the history and knowledge related to Bitcoin and blockchain in general.&lt;/p&gt;
-
-&lt;p&gt;There is so much to learn about, I mostly manage to avoid thinking about scammy stuff and icos, and really whatever you are hyped about, I probably don’t care. So the application section is in rough shape.. I don’t spend a lot of time there. Tech, History, Development, Webwork. I care about real web technologies.&lt;/p&gt;
-
-&lt;p&gt;So, little by little, those un-organized pages will grow to become each a formidible resource of its own.&lt;/p&gt;
-
-&lt;!-- Courtesy of embedresponsively.com //--&gt;
-&lt;div class=&quot;responsive-video-container&quot;&gt;
-
-  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/bxUDZzUJk_A&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;While I do intend to build custom pages for most of these channels, being able to simply export the entire discord server and publish it is excellent.&lt;/p&gt;
-
-&lt;h2 id=&quot;sourcecrypto&quot;&gt;SourceCrypto&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://discord.gg/ahTuPMY&quot;&gt;discord.gg/ahTuPMY&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://SourceCrypto.pub/discolog/&quot;&gt;Discord Index&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://SourceCrypto.pub/discolog/general/&quot;&gt;General&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://SourceCrypto.pub/discolog/resources/&quot;&gt;Resources&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://SourceCrypto.pub/discolog/crypto/&quot;&gt;Crypto&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://SourceCrypto.pub/discolog/blockchain-tech/&quot;&gt;Blockchain-Tech&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://SourceCrypto.pub/discolog/tech/&quot;&gt;Tech&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://SourceCrypto.pub/discolog/development/&quot;&gt;Development&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://SourceCrypto.pub/discolog/enterprise/&quot;&gt;Enterprise&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://SourceCrypto.pub/discolog/application/&quot;&gt;Application&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://SourceCrypto.pub/discolog/web-work/&quot;&gt;Web Work&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For now you can browse the entire index of channels at once, or one category at a time.&lt;/p&gt;
-
-&lt;p&gt;For those who would like to browse from GitHub, all the pages are in &lt;code class=&quot;highlighter-rouge&quot;&gt;_pages&lt;/code&gt;, all the files that become (via jekyll collections) the pages of the discolog are in &lt;code class=&quot;highlighter-rouge&quot;&gt;discolog&lt;/code&gt;, all the data is in &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Everything else is &lt;code class=&quot;highlighter-rouge&quot;&gt;mmistakes/minimal-mistakes&lt;/code&gt;. Pretty straightforward: its &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes&quot;&gt;open-source&lt;/a&gt;), and &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;well-documented&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-machine-readable-repository-on-every-subject-in-crypto&quot;&gt;A Machine Readable Repository on Every Subject In Crypto.&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://discord.gg/ahTuPMY&quot;&gt;Source⧉Crypto&lt;/a&gt; - I collect and categorize links in here, on the fly.
-&lt;img src=&quot;https://i.imgur.com/hLOk7yL.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Previously, I was putting information in TOML format. Then, after I started to learn GitHub pages, and working with some other people on a similar project for Decentralized Identity, I realized that GitHub Pages \ Jekyll have built-in support for yaml, csv, and json… so, yaml is nice and we’ll go with that.&lt;/p&gt;
-
-&lt;p&gt;Recently, I found &lt;a href=&quot;https://github.com/Tyrrrz/DiscordChatExporter/&quot;&gt;Tyrrrz/DiscordChatExporter&lt;/a&gt; which quickly turned the entire contents of Source Crypto Discord Server into 170+ html files.&lt;/p&gt;
-
-&lt;p&gt;If you’re using linux, like me… you just have to make it’s .exe executable and run it from the terminal, like so: &lt;code class=&quot;highlighter-rouge&quot;&gt;./DiscordChatExporter.CLI.exe&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;I also used a bulk-renaming tool, and Regex.. those are both great tools, and Regex isn’t limited to one particular app, but used all over.&lt;/p&gt;
-
-&lt;p&gt;Then, I used minimal-mistakes collections feature to quickly publish the lot of them, using VSCode to easily edit all of the files at the same time.&lt;/p&gt;
-
-&lt;p&gt;I cut out the head of each of the files and injected the css to be applied to those pages.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imgur.com/zLF17fA.png&quot;&gt;&lt;img src=&quot;https://imgur.com/zLF17fAl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;That’s super quick, and not so dirty, way to get all that content up here on the web where anyone can access it more easily.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/sourcecrypto/sourcecrypto.github.io&quot;&gt;sourcecrypto/sourcecrypto.github.io&lt;/a&gt; -  Now I have a few complete and proper toml files converted to json that I can use to experiment with generating pages - listing by title, tag, and incorporating search functionality, or perhaps filter by user-input.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I’m looking into ways to take a list of links and pull title description image automatically into yaml or json, and pages can be generated with jekyll.&lt;/p&gt;
-
-&lt;p&gt;Further down the line, each subject area will become the focus of its own landing page with well researched information, building with and from the structured data. Compared to currently we’ve got whatever I’ve happened upon in my travels of the web, with some contributions from the community, with a focus on history and identity.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/gh-pages-starter-pack/&quot;&gt;GitHub Pages Starter Pack&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/&quot;&gt;Minimal Mistakes Quickstart Guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/pYydLx7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;discordggahtupmy&quot;&gt;&lt;a href=&quot;https://discord.gg/ahTuPMY&quot;&gt;discord.gg/ahTuPMY&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://SourceCrypto.pub/images/interlinked.png&quot; alt=&quot;&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;</content><author><name>⧉ Infominer</name></author><category term="bitcoin" /><category term="blockchain" /><category term="development" /><category term="cypherpunks" /><category term="ethereum" /><category term="enterrise" /><category term="fintech" /><category term="web3" /><category term="defi" /><category term="cryptography" /><category term="distributed systems" /><category term="cryptocurrencies" /><category term="p2p" /><summary type="html">[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/discolog/) here. The next step is to systematically build better, more organized resources with the server as a starting point.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="metadata" /><category term="web-work" /><category term="development" /><category term="tags" /><summary type="html">what's really missing is tagging all of these resources by authors, co-authors, references/citations once this is done, topical tags can be derived algorithmically- @MaciekLaskus</summary></entry></feed>
