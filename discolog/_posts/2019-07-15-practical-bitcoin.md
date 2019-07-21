@@ -171,28 +171,51 @@ Escrow Agents are impartial and trusted intermediaries who hold custody of buyer
 
 >While managing your own keys ensures that you can't lose your money due to the negligence or maliciousness of a custodian, running a full node ensures that you can't be tricked into accepting invalid bitcoin payments. Running and using your own node gives you the strongest security model Bitcoin has to offer.
 
+![](https://raw.githubusercontent.com/PierreRochard/node-launcher/master/macos.png)
+*[*lightning-power-users/node-launcher*](https://github.com/lightning-power-users/node-launcher)
 
-* [Why Run a Full Node?
-* [How to Run a Full Node
-* [Bitcoin Core Config File Generator
-* [Node Launcher]()
-* [Raspberry Pi Node Guide]()
-* [RaspPiBolt Guide]()
-* [Startnode]()
-
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Other full node options:<br>* <a href="https://twitter.com/CasaHODL?ref_src=twsrc%5Etfw">@CasaHODL</a>: <a href="https://t.co/JqpJeMGZVU">https://t.co/JqpJeMGZVU</a><br>* <a href="https://twitter.com/nodl_it?ref_src=twsrc%5Etfw">@nodl_it</a>: <a href="https://t.co/QyzOK9leWO">https://t.co/QyzOK9leWO</a><br>* Cyphernode: <a href="https://t.co/tMXS1kCgHW">https://t.co/tMXS1kCgHW</a><br><br>And of course, just running Bitcoin Core directly:<br>* &quot;Running a Full Node&quot;: <a href="https://t.co/D6Fs5WlZE9">https://t.co/D6Fs5WlZE9</a><br>* Bitcoin Core: <a href="https://t.co/OHW7H8oRzM">https://t.co/OHW7H8oRzM</a></p>&mdash; Michael Goldstein (@bitstein) <a href="https://twitter.com/bitstein/status/1091334121274646528?ref_src=twsrc%5Etfw">February 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-* [https://www.lopp.net/bitcoin-information/full-node.html
-* [Bitseed Core - Bitcoin full node](https://bitseed.org/product/bitseed-3/)
-  > Bitseed Core comes preconfigured as a Bitcoin full node, allowing you to keep bitcoin running 24/7 without slowing your PC.
+* [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin)
+* [Why Run a Full Node?](https://blog.lopp.net/securing-your-financial-sovereignty/)
+* [bitcoin.org - How to Run a Full Node](https://bitcoin.org/en/full-node)
+* [Bitcoin Core Config File Generator](https://github.com/jlopp/bitcoin-core-config-generator)
+* [Node Launcher](https://github.com/lightning-power-users/node-launcher)
+* [Raspberry Pi Node Guide](https://medium.com/@meeDamian/bitcoin-full-node-on-rbp3-revised-88bb7c8ef1d1)
+* [RaspPiBolt Guide](https://stadicus.github.io/RaspiBolt/)
+* [Startnode](https://startnode.org/)
 * [A complete beginners guide to installing a Bitcoin Full Node on Linux (2018 Edition)](https://hackernoon.com/a-complete-beginners-guide-to-installing-a-bitcoin-full-node-on-linux-2018-edition-cb8e384479ea)
   >How to compile a Bitcoin Full Node on a fresh installation of Kubuntu 18.04 without any Linux experience whatsoever.
   ![](https://imgur.com/hhN0o3F.png)
 * [What Comprises a Bitcoin Fullnode Implementation? – Amentum](https://medium.com/amentum/what-comprises-a-bitcoin-fullnode-implementation-df27989e673a)
   >Often times in the press I see a lot of confusion around what a fullnode implementation of bitcoin actually *is*. I saw this as a great…
 * [402 Payment Required Youtube Playlist - The Bitcoin Core Client](https://www.youtube.com/watch?v=q0Uen8p4feM&list=PLmoQ11MXEmag9I2ibHnubzJdjDqypujCk)
-* [Setting up your Casa Node](https://www.youtube.com/watch?v=C0FirXi_d0I)
+
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Other full node options:<br>* <a href="https://twitter.com/CasaHODL?ref_src=twsrc%5Etfw">@CasaHODL</a>: <a href="https://t.co/JqpJeMGZVU">https://t.co/JqpJeMGZVU</a><br>* <a href="https://twitter.com/nodl_it?ref_src=twsrc%5Etfw">@nodl_it</a>: <a href="https://t.co/QyzOK9leWO">https://t.co/QyzOK9leWO</a><br>* Cyphernode: <a href="https://t.co/tMXS1kCgHW">https://t.co/tMXS1kCgHW</a><br><br>And of course, just running Bitcoin Core directly:<br>* &quot;Running a Full Node&quot;: <a href="https://t.co/D6Fs5WlZE9">https://t.co/D6Fs5WlZE9</a><br>* Bitcoin Core: <a href="https://t.co/OHW7H8oRzM">https://t.co/OHW7H8oRzM</a></p>&mdash; Michael Goldstein (@bitstein) <a href="https://twitter.com/bitstein/status/1091334121274646528?ref_src=twsrc%5Etfw">February 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+[**Full Node Software**](https://www.lopp.net/bitcoin-information/full-node.html#node_software):
+
+* [bitcoin.org/en/download](https://bitcoin.org/en/download)
+  >Bitcoin Core initial synchronization will take time and download a lot of data. You should make sure that you have enough bandwidth and storage for the full block chain size (over 200GB). If you have a good Internet connection, you can help strengthen the network by keeping your PC running with Bitcoin Core and port 8333 open. Read the full node guide for details.
+* [Bcoin](https://github.com/bcoin-org/bcoin/releases) 
+  - Javascript bitcoin library for node.js and browsers http://bcoin.io
+* [BTCD](https://github.com/btcsuite/btcd) - An alternative full node bitcoin implementation written in Go (golang) 
+  - https://github.com/btcsuite/btcd/tree/master/docs
+* [Gocoin](https://gocoin.pl/) - Gocoin is a full Bitcoin solution written in Go language (golang). + tools 
+* [Libbitcoin Node](https://github.com/libbitcoin/libbitcoin-node/releases)
+  >These binaries require no installation, simply download and run the single file. Mainnet and testnet are supported based on configuration differences. You can verify the downloads using the signed SHA256 hashes below.
+
+[**Plug & Play Node Hardware**](https://www.lopp.net/bitcoin-information/full-node.html#node_hardware):
+
+* [Casa](https://keys.casa/lightning-bitcoin-node/#node-plans)
+  * [Setting up your Casa Node](https://www.youtube.com/watch?v=C0FirXi_d0I)
+* [Fulmo](https://shop.fulmo.org/?product=raspiblitz-lightning-node-1-tb)
+* [NODL](https://shop.nodl.it/en/)
+* [Startnode](http://startnode.org/PreBuilt/)
+* [Bitseed Core - Bitcoin full node](https://bitseed.org/product/bitseed-3/)
+  > Bitseed Core comes preconfigured as a Bitcoin full node, allowing you to keep bitcoin running 24/7 without slowing your PC.
+
 
 ### Scripting
 
@@ -222,7 +245,6 @@ Escrow Agents are impartial and trusted intermediaries who hold custody of buyer
   >For release builds, we use cross-compilation which is currently only supported on Ubuntu.
 
 
-
 ### 101
 
 * [ChristopherA/Learning-Bitcoin-from-the-Command-Line](https://github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line)
@@ -250,24 +272,17 @@ Escrow Agents are impartial and trusted intermediaries who hold custody of buyer
   - https://github.com/rootzoll/raspiblitz
   ![](https://imgur.com/edaW3pO.png)
 
-### Mining
-
-
-
 
 ### Books
 
 * [bitcoinbook/bitcoinbook](https://github.com/aantonop/bitcoinbook) - Mastering Bitcoin 2nd Edition - Programming the Open Blockchain
-
+* [kallerosenbaum/grokkingbitcoin](https://github.com/kallerosenbaum/grokkingbitcoin) - Source repository for Grokking Bitcoin
+  - [Manning - Grokking Bitcoin](https://www.manning.com/books/grokking-bitcoin)
 
 ## Assorted
 
 
 * [bitdb.network](https://bitdb.network/) - The Random Access Memory for Bitcoin
-* [Mapping out bitcoin's supply chain - The Block](https://www.theblockcrypto.com/2018/11/01/mapping-out-bitcoins-supply-chain/)
-  >The Block complements our writings and analyses with charts, graphs, and maps is to give our readers a comprehensive look at the complex crypto ecosystem. Even the veteran Bitcoiner can get lost in the twist and turns that is the bitcoin labyrinth. Here, we take a high-level...
-  >![](https://imgur.com/1XOFJBx.png)
-
 * [BestMixer.io’s Bitcoin Blender Aims to Bring Anonymity Back to C...](https://thebitcoinnews.com/bestmixer-ios-bitcoin-blender-aims-to-bring-anonymity-back-to-crypto/)
   >The BestMixer.io development team has introduced their next generation bitcoin blender in an effort aimed at disrupting the quickening pace of blockchain analysis firms such as Chainalysis. The reason behind the move is simple: cryptocurrency is not anonymous but it pretends ...
 * [The Business of Bitcoin Cold Storage – Nik Bhatia](https://medium.com/@timevalueofbtc/the-business-of-bitcoin-cold-storage-148fba7f1255)
@@ -283,33 +298,13 @@ Escrow Agents are impartial and trusted intermediaries who hold custody of buyer
   >Are you looking for more #LightningNetwork resources and information? Check out: https://t.co/m9aRwlno69 https://t.co/BqXexWLHCa https://t.co/hAvtZyBdtc https://t.co/PaeCg5f6Um https://t.co/2ykoLIrzFp
 
 
-* [Nick Szabo⚡️ (@NickSzabo4)](https://twitter.com/NickSzabo4/status/846492284036145152)
-  >"Bitcoin .. needs .. a secondary level of payment[s] which is lighter weight." -- Hal Finney 2010 https://t.co/tIbkVF2ezc ht @rextar4444
 
-
-* [The Code for an Anonymous Lightning Network is Now Live](https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/)
-  >A private version of the crypto protocol lightning network is headed to zcash, with the potential it could be added for other blockchains soon.
- 
-* [The Lightning Network: How to install and (hopefully) make money -Ronald Mannak](https://medium.com/coinmonks/the-lightning-network-how-to-install-and-hopefully-make-money-6e3058e3fa7c)
-  >Note: This document was written in July 2018. Lightning is new and improving fast. If you find any out-of-date information or omissions, please leave a comment.
-
-* [The perfect Bitcoin ⚡️Lightning️⚡ node – Stadicus](https://medium.com/@stadicus/perfect-low-cost-%EF%B8%8Flightning%EF%B8%8F-node-4c2f42a4ff7b) -This page is no longer maintained. Please check out the latest and enhanced version of this guide on Github:
- 
-* [The Bitcoin Second Layer – Nik Bhatia – Medium
-The Lightning Network Reference Rate](https://medium.com/@timevalueofbtc/the-bitcoin-second-layer-d503949d0a06), Part 1 of 4
  
 * [lightningnetworkstores.com](http://lightningnetworkstores.com/)
 * [bcongdon/awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network) ⚡ awesome-lightning-network ⚡ A curated list of awesome Lightning Network projects for developers and crypto enthusiasts
- 
-* [dev.lightning.community/resources/](https://dev.lightning.community/resources/) - Lightning Resources - Developer resources and documentation for the Lightning Network Daemon.
-
-
+ * [dev.lightning.community/resources/](https://dev.lightning.community/resources/) - Lightning Resources - Developer resources and documentation for the Lightning Network Daemon.
 * [Making sense of Lightning network nodes and money transmission licensing](https://coincenter.org/entry/making-sense-of-lightning-network-nodes-and-money-transmission-licensing) -An update on Coin Center’s work to avoid unnecessary regulatory burdens on technologists.
  
-* [Dan Hedl (@danheld)](https://twitter.com/danheld/status/1033044447842336768)
-  >1/ A complete debunking of top Lightning FUD claims:
-
-* [The Lightning Times - Issue #2](https://the-lightning-times.ongoodbits.com/2018/08/27/issue-2)
 
 * [Fulmo ⚡ (@fulmolightning)](https://twitter.com/fulmolightning/status/1035183579196743680) - [rootzoll/raspiblitz](https://github.com/rootzoll/raspiblitz)
   >Get ready to rumble! The latest batch of 20 #RaspiBlitz, a full #Bitcoin and #LightningNetwork node running on a Raspberry Pi, is ready to be picked up and plugged in at the #LightningHackday! If you can't attend in person, you can build one yourself: 
