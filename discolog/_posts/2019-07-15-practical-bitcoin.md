@@ -37,8 +37,6 @@ Please. Do your own research.
 There may be newer materials or advisaries for any of the following projects. Be sure to have a look around for additional information, rather than relying entirely upon this research.
 
 ## Primary Sources
-https://twitter.com/6102bitcoin/status/1151953399040106496?s=19
-I'll list all primary sources here, as this is not primarily the results of my own research, but a curating of the curators and caretakers of the Bitcoin universe.
 
 * [lopp.net/bitcoin.html](https://lopp.net/bitcoin.html)
 
@@ -49,13 +47,9 @@ I'll list all primary sources here, as this is not primarily the results of my o
 * [bitcoin-only.com](https://bitcoin-only.com)
 
 >For a project to be listed on bitcoin-only it must simply meet the following two requirements;
->	Requirement
 >1.	Support bitcoin.
 >2.	Reject ever supporting altcoins.
->
->**Why bitcoin only?**
->
->Max Hillebrand made a [great video](https://www.youtube.com/watch?v=AQAtkjlQUOs) that explains why being bitcoin only makes sense.
+
 
 ## Privacy
 
@@ -91,31 +85,29 @@ I'll list all primary sources here, as this is not primarily the results of my o
 * [Armory](https://www.bitcoinarmory.com/)	Cold Storage & Multisig 	Desktop
 * [ABCore](http://abco.re/en/releases/)	Bitcoin Core Full Node for Android	Android
 
-[bitcoin-only.com - Other Hardware](https://bitcoin-only.com/#hardware)
+[**bitcoin-only.com - Other Hardware**](https://bitcoin-only.com/#hardware)
 * [revealer](https://revealer.cc/)	Optical Seed Encryption Tool
 * [ColdCard](https://coldcardwallet.com/) Hardware Wallet 
-* [Opendime]() Bitcoin Bearer Bond
-* [Bitpiggys]()	Piggybank + Opendime
+* [Opendime](https://opendime.com/) Bitcoin Bearer Bond
+* [Bitpiggys](https://www.bitpiggys.com/)	Piggybank + Opendime
 
 [**lopp.net - Recommended Wallets**](https://www.lopp.net/bitcoin-information/recommended-wallets.html)
 
-A couplewallets which are not *only* for bitcoin are worth noting, here.
+A couple wallets which are not *only* used for bitcoin are worth noting, here.
 
 >* Hardware: [Trezor](https://shop.trezor.io/) or [Ledger Nano X](https://shop.ledger.com/pages/ledger-nano-x)
 >* Web: [BitGo](https://www.bitgo.com/)
 >* Extreme Privacy: [Wasabi](https://wasabiwallet.io/)
 >* Extreme Security: [Casa Keymaster](https://keys.casa/keymaster/)
 
-Some of these wallets are very simple to use, however, I will list here the best guides I can find for each of them. Even simple to use wallets can have additional features available to the technically enabled.
+Some of these wallets are very simple to use, however, I will list here the best guides I can find for each of them. Even simple to use wallets can have additional features available to the technically empowered.
 
 ### Wallet Guides\Tutorials
-
 
 [**Electrum**](https://electrum.org/)
   * [Welcome to the Electrum Documentation!](http://docs.electrum.org/en/latest/)
   * [Unofficial guides for Electrum](https://bitcoinelectrum.com)
   * [[Guide] How to Create a Watch-only Wallet (for Electrum)](https://bitcointalk.org/index.php?topic=4573616.0) - great way to safely "watch" the status of your (offline) cold-storage wallet.
-   * []()
 
 [**Paper Wallets**](https://en.bitcoin.it/wiki/Paper_wallet)
   * [p4fg/secure-paper-wallet](https://github.com/p4fg/secure-paper-wallet) (fork of [pointbiz/bitaddress.org](https://github.com/pointbiz/bitaddress.org))
@@ -137,9 +129,16 @@ Some of these wallets are very simple to use, however, I will list here the best
 
 [**Wasabi**](https://wasabiwallet.io/)
 
-
+* [MIT Bitcoin Expo 2019 - Wasabi Wallet: Unfairly Private](https://www.youtube.com/watch?v=JtDY7Gb-L5s)
+* [zkSNACKs/WalletWasabi](https://github.com/zkSNACKs/WalletWasabi)
+  * [FAQ](https://github.com/zkSNACKs/WalletWasabi/blob/master/WalletWasabi.Documentation/FAQ.md)
+  * [DOJO](https://github.com/zkSNACKs/WalletWasabi/blob/master/WalletWasabi.Community/Dojo.md) - Community contributions: Guides, Reviews, Etc.
+* [402 Payment Required - Wasabi wallet Youtube Playlist](https://www.youtube.com/watch?v=zPKpC9cRcZo&list=PLmoQ11MXEmahCG1nkbKK6DiAwVx9giJCi)
 
 [**Casa Keymaster**](https://keys.casa/keymaster/)
+
+* [Casa Keymaster Security: Mobile Key Overview](https://blog.keys.casa/casa-keymaster-security-mobile-key-overview/)
+* [Setting up Keymaster by Casa (basic multisig)](https://www.youtube.com/watch?v=B-JpOC1Knx8)
 
 [**Trezor**](https://shop.trezor.io/) 
   * [Trezor Wiki / User/ User manual](https://wiki.trezor.io/User_manual)
@@ -154,6 +153,7 @@ Some of these wallets are very simple to use, however, I will list here the best
 [**Cold Card**](https://coldcardwallet.com)
   * [Official getting started with your new Coldcard guide](https://coldcardwallet.com/docs/quick)
   * [coldcardwallet.com/docs/#guides-by-others](https://coldcardwallet.com/docs/#guides-by-others)
+  * [402 Payment Required ColdCard Walkthrus](https://www.youtube.com/watch?v=f8dBNrlwJ0k&list=PLmoQ11MXEmahiHdXhOIUM0ja3Hzf_hVvc&index=2)
   
 ## Fee Calculators
 
@@ -167,10 +167,23 @@ Escrow Agents are impartial and trusted intermediaries who hold custody of buyer
 * [jobs4btc-escrow.appspot.com](http://jobs4btc-escrow.appspot.com/)
 * [Bitcoin Escrow and Key Signatures](https://web-work.tools/practical-public-key-crypto/)
 
-### Nodes
+### [Running a Bitcoin Full Node](https://www.lopp.net/bitcoin-information/full-node.html)
+
+>While managing your own keys ensures that you can't lose your money due to the negligence or maliciousness of a custodian, running a full node ensures that you can't be tricked into accepting invalid bitcoin payments. Running and using your own node gives you the strongest security model Bitcoin has to offer.
+
+
+* [Why Run a Full Node?
+* [How to Run a Full Node
+* [Bitcoin Core Config File Generator
+* [Node Launcher]()
+* [Raspberry Pi Node Guide]()
+* [RaspPiBolt Guide]()
+* [Startnode]()
+
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Other full node options:<br>* <a href="https://twitter.com/CasaHODL?ref_src=twsrc%5Etfw">@CasaHODL</a>: <a href="https://t.co/JqpJeMGZVU">https://t.co/JqpJeMGZVU</a><br>* <a href="https://twitter.com/nodl_it?ref_src=twsrc%5Etfw">@nodl_it</a>: <a href="https://t.co/QyzOK9leWO">https://t.co/QyzOK9leWO</a><br>* Cyphernode: <a href="https://t.co/tMXS1kCgHW">https://t.co/tMXS1kCgHW</a><br><br>And of course, just running Bitcoin Core directly:<br>* &quot;Running a Full Node&quot;: <a href="https://t.co/D6Fs5WlZE9">https://t.co/D6Fs5WlZE9</a><br>* Bitcoin Core: <a href="https://t.co/OHW7H8oRzM">https://t.co/OHW7H8oRzM</a></p>&mdash; Michael Goldstein (@bitstein) <a href="https://twitter.com/bitstein/status/1091334121274646528?ref_src=twsrc%5Etfw">February 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
+* [https://www.lopp.net/bitcoin-information/full-node.html
 * [Bitseed Core - Bitcoin full node](https://bitseed.org/product/bitseed-3/)
   > Bitseed Core comes preconfigured as a Bitcoin full node, allowing you to keep bitcoin running 24/7 without slowing your PC.
 * [A complete beginners guide to installing a Bitcoin Full Node on Linux (2018 Edition)](https://hackernoon.com/a-complete-beginners-guide-to-installing-a-bitcoin-full-node-on-linux-2018-edition-cb8e384479ea)
@@ -178,6 +191,8 @@ Escrow Agents are impartial and trusted intermediaries who hold custody of buyer
   ![](https://imgur.com/hhN0o3F.png)
 * [What Comprises a Bitcoin Fullnode Implementation? – Amentum](https://medium.com/amentum/what-comprises-a-bitcoin-fullnode-implementation-df27989e673a)
   >Often times in the press I see a lot of confusion around what a fullnode implementation of bitcoin actually *is*. I saw this as a great…
+* [402 Payment Required Youtube Playlist - The Bitcoin Core Client](https://www.youtube.com/watch?v=q0Uen8p4feM&list=PLmoQ11MXEmag9I2ibHnubzJdjDqypujCk)
+* [Setting up your Casa Node](https://www.youtube.com/watch?v=C0FirXi_d0I)
 
 ### Scripting
 
