@@ -20,6 +20,22 @@ last_modified_at: 2019-07-16T11:22:33-23:00
   >Need plans for the long weekend? Why not get started on making your own Lightning App! Over the next couple of weeks I'll be posting a 5 part series on building a modern web app that takes lightning payments, and how to host it securely. https://t.co/gDsAAUKrnj
 * [Bitcoin Lightning Network:Resource and Information Guide](https://lnroute.com)
 * [402 Payment Required Youtube Playlist - Lightning Howtos](https://www.youtube.com/playlist?list=PLmoQ11MXEmajsUw95Fq6fHzXnVmoMPIeV)
+* [P.Miller (@patmillertime)](https://twitter.com/patmillertime/status/1020742512112095233)
+  >Are you looking for more #LightningNetwork resources and information? Check out: https://t.co/m9aRwlno69 https://t.co/BqXexWLHCa https://t.co/hAvtZyBdtc https://t.co/PaeCg5f6Um https://t.co/2ykoLIrzFp
+* [lightningnetworkstores.com](http://lightningnetworkstores.com/)
+* [bcongdon/awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network) ⚡ awesome-lightning-network ⚡ A curated list of awesome Lightning Network projects for developers and crypto enthusiasts
+ * [dev.lightning.community/resources/](https://dev.lightning.community/resources/) - Lightning Resources - Developer resources and documentation for the Lightning Network Daemon.
+* [ZigZag](https://zigzag.io/#/) - lightning enabled crypto exchange
+* [BTCPayServer](https://nbitstack.com/c/btcpayserver)
+  >Anything related to the free, open-source .NET cryptocurrency payment processor BTCPayServer.
+
+## Hardare
+
+### Casa Lightning Node
+
+* [Casa Lightning Node](https://store.casa/lightning-node/) - Simple, easy to use Lightning Network node
+* [Fulmo ⚡ (@fulmolightning)](https://twitter.com/fulmolightning/status/1035183579196743680) - [rootzoll/raspiblitz](https://github.com/rootzoll/raspiblitz)
+  >Get ready to rumble! The latest batch of 20 #RaspiBlitz, a full #Bitcoin and #LightningNetwork node running on a Raspberry Pi, is ready to be picked up and plugged in at the #LightningHackday! If you can't attend in person, you can build one yourself: 
 
 
 ## [lopp.net - Lightning Network Resources](https://www.lopp.net/lightning-information.html) ([source](https://github.com/jlopp/lopp.net/blob/master/lightning-information.html))
@@ -426,3 +442,8 @@ Another series of games that use the Lightning Network
   >Classical memory game on Lightning. Pair up the 8 different images and if you beat the highscore, you win the jackpot.
 * [fortune.lngames.net](https://fortune.lngames.net/)
   >Lightning Wheel of Fortune
+
+
+## Assorted
+
+* [Making sense of Lightning network nodes and money transmission licensing](https://coincenter.org/entry/making-sense-of-lightning-network-nodes-and-money-transmission-licensing) -An update on Coin Center’s work to avoid unnecessary regulatory burdens on technologists.
