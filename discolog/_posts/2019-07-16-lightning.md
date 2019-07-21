@@ -26,8 +26,9 @@ last_modified_at: 2019-07-16T11:22:33-23:00
 * [bcongdon/awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network) ⚡ awesome-lightning-network ⚡ A curated list of awesome Lightning Network projects for developers and crypto enthusiasts
  * [dev.lightning.community/resources/](https://dev.lightning.community/resources/) - Lightning Resources - Developer resources and documentation for the Lightning Network Daemon.
 * [ZigZag](https://zigzag.io/#/) - lightning enabled crypto exchange
-* [BTCPayServer](https://nbitstack.com/c/btcpayserver)
-  >Anything related to the free, open-source .NET cryptocurrency payment processor BTCPayServer.
+* [Bitcoin Lightning Joule Chrome Extension](https://medium.com/lightning-power-users/bitcoin-lightning-joule-chrome-extension-ac149bb05cb9)
+  >Lightning Joule is an awesome Chrome plugin being developed by William O'Beirne, check out his presentation at the Chaincode Labs…
+* [Easiest #Bitcoin Lightning Guide!](https://medium.com/lightning-power-users/windows-macos-lightning-network-284bd5034340)
 
 ## Hardare
 
