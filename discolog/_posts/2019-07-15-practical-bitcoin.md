@@ -313,17 +313,10 @@ Escrow Agents are impartial and trusted intermediaries who hold custody of buyer
 
 * [How to Create an Online Store & Accept Bitcoin](https://bitcoinshirt.co/how-to-create-store-accept-bitcoin)
   >Learn how to build an online e-commerce store and accept Bitcoin payments with no coding or web-designing skills required. Using free and open-source software: WordPress, WooCommerce and BTCPay. No steps skipped and video tutorials.
-* [Bitcoin Lightning Joule Chrome Extension](https://medium.com/lightning-power-users/bitcoin-lightning-joule-chrome-extension-ac149bb05cb9)
-  >Lightning Joule is an awesome Chrome plugin being developed by William O'Beirne, check out his presentation at the Chaincode Labs…
- 
-
- * [JeffVandrewJr/patron](https://github.com/JeffVandrewJr/patron)
-
+* [JeffVandrewJr/patron](https://github.com/JeffVandrewJr/patron)
 * [lightninglayer.com](https://lightninglayer.com/)
 * [Andreas Brekken (@abrkn)](https://twitter.com/abrkn/status/1079116127542726656)
   >Explained why I took my LN hub down. Every maximalist attacked me, without reading my review Asked how to add LN as a payment option for my startup. No one replied This is why https://www.shitcoin.com/ exists. We prove that no one is using what they shill. But I do. https:...
-
 * [Blockstream/liquid](https://github.com/Blockstream/liquid) -Liquid daemon and cli. Contribute to Blockstream/liquid development by creating an account on GitHub.
- 
-
-* [Easiest #Bitcoin Lightning Guide!](https://medium.com/lightning-power-users/windows-macos-lightning-network-284bd5034340)
+* [BTCPayServer](https://nbitstack.com/c/btcpayserver)
+  >Anything related to the free, open-source .NET cryptocurrency payment processor BTCPayServer.
