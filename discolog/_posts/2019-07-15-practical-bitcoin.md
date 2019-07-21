@@ -313,30 +313,11 @@ Escrow Agents are impartial and trusted intermediaries who hold custody of buyer
 
 * [How to Create an Online Store & Accept Bitcoin](https://bitcoinshirt.co/how-to-create-store-accept-bitcoin)
   >Learn how to build an online e-commerce store and accept Bitcoin payments with no coding or web-designing skills required. Using free and open-source software: WordPress, WooCommerce and BTCPay. No steps skipped and video tutorials.
- 
-
 * [Bitcoin Lightning Joule Chrome Extension](https://medium.com/lightning-power-users/bitcoin-lightning-joule-chrome-extension-ac149bb05cb9)
   >Lightning Joule is an awesome Chrome plugin being developed by William O'Beirne, check out his presentation at the Chaincode Labs…
  
-* [Is the Lightning network ready for commerce?](https://www.scipioerp.com/2018/12/12/is-lightning-ready-for-commerce/)
-  >We have been experimenting with Lightning (Bitcoin) payments. But is it ready for commerce applications? Here's what we think...
- 
 
-
-* [Alex Bosworth ☇ (@alexbosworth)](https://twitter.com/alexbosworth/status/1078353292768403456)
-  - Ways I can tell LN routing is not a mature market yet: - I’m charging 25x more than anyone and routing more than ever before - The largest capacity owner assigns capacity at random - Almost no one charges any fees at all for routing - Most public nodes aren’t even reli...
-
-* [Nik Bhatia (@timevalueofbtc)](https://twitter.com/timevalueofbtc/status/1078337607493332992) 
-  >Recent interviews given by @roasbeef @bitconner and tweets by @alexbosworth confirm my initial theory about the potential for operating a profitable Lightning node: payment channel management skill is the primary driver of profits. Merely staking capital ensures nothing.
-
-* [[Lightning-dev] An Argument For Single-Asset Lightning Network](https://lists.linuxfoundation.org/pipermail/lightning-dev/2018-December/001752.html)
-  >In theory, the Lightning Network could potentially perform "seamless" currency conversions, allowing a payer to spend one currency to pay a payee requesting for another currency.
-  >
-  >However, a significant technical barrier prevents implementation of such feature as of current designs (late 2018) for Lightning.
-
-* [Jeff Vandrew Jr Attorney+CPA (@vandrewattycpa)](https://twitter.com/vandrewattycpa/status/1079471260978040833)
-  >Today I released LibrePatron, an alternative to Partreon backed by @BtcpayServer. Most Patreon alternatives don't implement the full Patreon feature set. This seeks to change that. Sample site (alpha not mobile responsive, mobile coming soon!): 
-  * [JeffVandrewJr/patron](https://github.com/JeffVandrewJr/patron)
+ * [JeffVandrewJr/patron](https://github.com/JeffVandrewJr/patron)
 
 * [lightninglayer.com](https://lightninglayer.com/)
 * [Andreas Brekken (@abrkn)](https://twitter.com/abrkn/status/1079116127542726656)
