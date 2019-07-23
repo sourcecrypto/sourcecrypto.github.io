@@ -16,7 +16,7 @@ redirect_from:
   - /practical-crypto
   - /practical-pgp
 date: 2019-03-22
-published: false
+published: false 
 modified: 2019-06-16T13:15:59-23:00
 ---
 
