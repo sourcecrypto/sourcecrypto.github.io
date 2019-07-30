@@ -7,20 +7,20 @@ All redirects should be in place, please let me know in the issues.
 ## SourceCrypto
 While I do intend to build sections for each channel, or most of them... being able to simply export the entire discord server and publish it is excellent, for the meantime.
 
-* [Discord Index](https://SourceCrypto.pub/discolog/)
-  * [General](https://SourceCrypto.pub/discolog/general/)
-  * [Resources](https://SourceCrypto.pub/discolog/resources/)
-  * [Crypto](https://SourceCrypto.pub/discolog/crypto/)
-  * [Tech](https://SourceCrypto.pub/discolog/tech/)
-  * [Blockchain Tech](https://SourceCrypto.pub/discolog/blockchain-tech/)
-  * [Development](https://SourceCrypto.pub/discolog/development/)
-  * [Enterprise](https://SourceCrypto.pub/discolog/enterprise/)
-  * [Application](https://SourceCrypto.pub/discolog/application/)
-  * [Web Work](https://SourceCrypto.pub/discolog/web-work/)
+* [Discord Index](https://SourceCrypto.pub/archive/)
+  * [General](https://SourceCrypto.pub/archive/general/)
+  * [Resources](https://SourceCrypto.pub/archive/resources/)
+  * [Crypto](https://SourceCrypto.pub/archive/crypto/)
+  * [Tech](https://SourceCrypto.pub/archive/tech/)
+  * [Blockchain Tech](https://SourceCrypto.pub/archive/blockchain-tech/)
+  * [Development](https://SourceCrypto.pub/archive/development/)
+  * [Enterprise](https://SourceCrypto.pub/archive/enterprise/)
+  * [Application](https://SourceCrypto.pub/archive/application/)
+  * [Web Work](https://SourceCrypto.pub/archive/web-work/)
 
 For now you can browse the entire index of channels at once, or one category at a time. On the website the entire directory nav is available in the sidebar.
 
-For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the discolog are in `discolog`, all the data is in `_data`.  
+For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the archive are in `archive`, all the data is in `_data`.  
 
 Everything else is `minimal-mistakes`. pretty straightforward.
 

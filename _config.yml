@@ -300,39 +300,35 @@ compress_html:
 collections:
   general:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /archive/:collection/:path/
     share: true
   resources:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /archive/:collection/:path/
     share: true
   crypto:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /archive/:collection/:path/
     share: true
   blockchaintech:
     output: true
-    permalink: /discolog/blockchain-tech/:path/
+    permalink: /archive/blockchain-tech/:path/
     share: true
   tech:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /archive/:collection/:path/
     share: true
   development:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /archive/:collection/:path/
     share: true
   enterprise:
     output: true
-    permalink: /discolog/:collection/:path/
+    permalink: /archive/:collection/:path/
     share: true
   application:
     output: true
-    permalink: /discolog/:collection/:path/
-    share: true
-  webwork:
-    output: true
-    permalink: /discolog/web-work/:path/
+    permalink: /archive/:collection/:path/
     share: true
 
 
@@ -371,6 +367,7 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
+      redirect_from: /discolog/general/:path/
       header:
        image: /images/Source-Crypto-banner.png
        teaser: /images/source-crypto-gh-og.png
@@ -389,6 +386,7 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
+      redirect_from: /discolog/resources/:path/
       header:
        image: /images/Source-Crypto-banner.png
        teaser: /images/source-crypto-gh-og.png
@@ -407,6 +405,7 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
+      redirect_from: /discolog/crypto/:path/
       header:
        image: /images/Source-Crypto-banner.png
        teaser: /images/crypto-teaser.png
@@ -424,6 +423,7 @@ defaults:
         title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
+      redirect_from: /discolog/blockchain-tech/:path/
       disco: true
       header:
        image: /images/Source-Crypto-banner.png
@@ -442,6 +442,7 @@ defaults:
         title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
+      redirect_from: /discolog/tech/:path/
       disco: true
       header:
        image: /images/Source-Crypto-banner.png
@@ -461,6 +462,7 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
+      redirect_from: /discolog/development/:path/
       header:
        image: /images/Source-Crypto-banner.png
        teaser: /images/development.png
@@ -479,6 +481,7 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
+      redirect_from: /discolog/enterprise/:path/
       header:
        image: /images/Source-Crypto-banner.png
        teaser: /images/source-crypto-gh-og.png
@@ -496,24 +499,7 @@ defaults:
         title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
-      disco: true
-      header:
-       image: /images/Source-Crypto-banner.png
-       teaser: /images/source-crypto-gh-og.png
-       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-    # _webwork
-  - scope:
-      path: "_webwork"
-      type: webwork
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        title: "⧉Info⧉"
-        nav: "sourcedisco"
-      classes: wide
+      redirect_from: /discolog/application/:path/
       disco: true
       header:
        image: /images/Source-Crypto-banner.png

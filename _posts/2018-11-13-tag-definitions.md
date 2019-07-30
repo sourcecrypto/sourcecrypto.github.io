@@ -31,16 +31,16 @@ Posts and Collections alike can be tagged and given categories within this Jekyl
 
 I've updated the categories on the discord server, so they should be arranged the same as this web-site.
 
-* [Discord Index](https://SourceCrypto.pub/discolog/)
-  * [General](https://SourceCrypto.pub/discolog/general/)
-  * [Resources](https://SourceCrypto.pub/discolog/resources/)
-  * [Crypto](https://SourceCrypto.pub/discolog/crypto/)
-  * [Tech](https://SourceCrypto.pub/discolog/tech/)
-  * [Blockchain Tech](https://SourceCrypto.pub/discolog/blockchain-tech/)
-  * [Development](https://SourceCrypto.pub/discolog/development/)
-  * [Enterprise](https://SourceCrypto.pub/discolog/enterprise/)
-  * [Application](https://SourceCrypto.pub/discolog/application/)
-  * [Web-work](https://sourcecrypto.pub/discolog/web-work/)
+* [Discord Index](https://SourceCrypto.pub/archive/)
+  * [General](https://SourceCrypto.pub/archive/general/)
+  * [Resources](https://SourceCrypto.pub/archive/resources/)
+  * [Crypto](https://SourceCrypto.pub/archive/crypto/)
+  * [Tech](https://SourceCrypto.pub/archive/tech/)
+  * [Blockchain Tech](https://SourceCrypto.pub/archive/blockchain-tech/)
+  * [Development](https://SourceCrypto.pub/archive/development/)
+  * [Enterprise](https://SourceCrypto.pub/archive/enterprise/)
+  * [Application](https://SourceCrypto.pub/archive/application/)
+  * [Web-work](https://sourcecrypto.pub/archive/web-work/)
 
 I'll be using a similar category structure for [DIDecentral](https://decentralized-id.com). You see, I can make as many posts\channels in each category as I like.
 

@@ -2,7 +2,7 @@
 layout: single
 title: SourceCrypto Research-Index
 description: An Open-Source Index of Crypto Knowledge.
-excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/discolog/) here. The next step is to systematically build better, more organized resources with the server as a starting point."
+excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/archive/) here. The next step is to systematically build better, more organized resources with the server as a starting point."
 header:
   image: /images/source-crypto-disco.png
   og_image: /images/source-crypto-disco.png #/images/source-crypto-gh-og.png
@@ -22,7 +22,7 @@ redirect_from:
 
 **A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge.**
 
-[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/discolog/) here. The next step is to systematically build better, more organized resources with the server as a starting point.
+[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/archive/) here. The next step is to systematically build better, more organized resources with the server as a starting point.
 
 The aim is to generally map out the history and knowledge related to Bitcoin and blockchain in general.
 
@@ -38,20 +38,20 @@ While I do intend to build custom pages for most of these channels, being able t
 ## SourceCrypto
 
 **[discord.gg/ahTuPMY](https://discord.gg/ahTuPMY)**
-* [Discord Index](https://SourceCrypto.pub/discolog/)
-  * [General](https://SourceCrypto.pub/discolog/general/)
-  * [Resources](https://SourceCrypto.pub/discolog/resources/)
-  * [Crypto](https://SourceCrypto.pub/discolog/crypto/)
-  * [Blockchain-Tech](https://SourceCrypto.pub/discolog/blockchain-tech/)
-  * [Tech](https://SourceCrypto.pub/discolog/tech/)
-  * [Development](https://SourceCrypto.pub/discolog/development/)
-  * [Enterprise](https://SourceCrypto.pub/discolog/enterprise/)
-  * [Application](https://SourceCrypto.pub/discolog/application/)
-  * [Web Work](https://SourceCrypto.pub/discolog/web-work/)
+* [Discord Index](https://SourceCrypto.pub/archive/)
+  * [General](https://SourceCrypto.pub/archive/general/)
+  * [Resources](https://SourceCrypto.pub/archive/resources/)
+  * [Crypto](https://SourceCrypto.pub/archive/crypto/)
+  * [Blockchain-Tech](https://SourceCrypto.pub/archive/blockchain-tech/)
+  * [Tech](https://SourceCrypto.pub/archive/tech/)
+  * [Development](https://SourceCrypto.pub/archive/development/)
+  * [Enterprise](https://SourceCrypto.pub/archive/enterprise/)
+  * [Application](https://SourceCrypto.pub/archive/application/)
+  * [Web Work](https://SourceCrypto.pub/archive/web-work/)
 
 For now you can browse the entire index of channels at once, or one category at a time.
 
-For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the discolog are in `discolog`, all the data is in `_data`.  
+For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the archive are in `archive`, all the data is in `_data`.  
 
 Everything else is `mmistakes/minimal-mistakes`. Pretty straightforward: its [open-source](https://github.com/mmistakes/minimal-mistakes), and [well-documented](https://mmistakes.github.io/minimal-mistakes/).
 
