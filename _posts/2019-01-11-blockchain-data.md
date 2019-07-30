@@ -2,7 +2,7 @@
 layout: single
 title: Blockchain Data - Analytics
 description: Resources related to Blockchain Data and Analytics
-permalink: posts/analytics/blockchain-data/
+permalink: /posts/analytics/blockchain-data/
 redirect_from: blog/blockchain-data/
 share: true
 last_modified_at: 2019-06-20T11:22:33-23:00
