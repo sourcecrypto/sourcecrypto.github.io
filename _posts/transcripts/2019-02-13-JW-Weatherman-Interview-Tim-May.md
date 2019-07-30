@@ -14,11 +14,10 @@ header:
 toc: false
 classes: wide
 last_modified_at: 2019-04-20T11:22:33-23:00
-categories: ["transcripts","cypherpunks"]
+categories: ["transcripts","history"]
 tags: 
-  - cypherpunk
+  - Cypherpunk
   - Tim May
-  - history
 redirect_from:
   - /transcripts/JW-Weatherman-Interview-Tim-May/
 permalink: /posts/transcripts/JW-Weatherman-Interview-Tim-May/

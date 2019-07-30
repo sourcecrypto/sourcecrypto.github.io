@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-30T05:13:32-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Source Crypto</title><subtitle>Chat Server for Creating an Open-Source Database of Crypto Knowledge.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">Bitcoin Info</title><link href="http://localhost:4000/posts/Bitcoin/" rel="alternate" type="text/html" title="Bitcoin Info" /><published>2019-07-15T00:00:00-04:00</published><updated>2019-07-23T06:22:33-04:00</updated><id>http://localhost:4000/posts/bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/">&lt;p&gt;This page, at the moment, is mainly the contents of the &lt;a href=&quot;https://sourcecrypto.pub/archive/crypto/bitcoin/&quot;&gt;Bitcoin Channel&lt;/a&gt; from SourceCrypto Discord server.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-30T05:40:43-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Source Crypto</title><subtitle>Chat Server for Creating an Open-Source Database of Crypto Knowledge.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">Bitcoin Info</title><link href="http://localhost:4000/posts/Bitcoin/" rel="alternate" type="text/html" title="Bitcoin Info" /><published>2019-07-15T00:00:00-04:00</published><updated>2019-07-23T06:22:33-04:00</updated><id>http://localhost:4000/posts/bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/">&lt;p&gt;This page, at the moment, is mainly the contents of the &lt;a href=&quot;https://sourcecrypto.pub/archive/crypto/bitcoin/&quot;&gt;Bitcoin Channel&lt;/a&gt; from SourceCrypto Discord server.&lt;/p&gt;
 
 &lt;p&gt;This is my first attempt at organizing information related specifically to Bitcoin. We also have &lt;a href=&quot;https://sourcecrypto.pub/archive/development/bitcoin-dev/&quot;&gt;Bitcoin Dev&lt;/a&gt; and &lt;a href=&quot;https://sourcecrypto.pub/archive/crypto/btc-layer2/&quot;&gt;BTC-Layer2&lt;/a&gt; channels that must be sorted.&lt;/p&gt;
 
@@ -2587,7 +2587,171 @@ The advent of the internet and mobile broadband has empowered billions of people
 
 &lt;p&gt;You’ll notice the &lt;a href=&quot;/featured/&quot;&gt;/featured/&lt;/a&gt; link, where I’ll feature the various channels on a rotating basis, until I’ve created a preview image for all of them. For now, there is only some variety.&lt;/p&gt;
 
-&lt;h2 id=&quot;lets-catch-up-again-soon&quot;&gt;Let’s Catch Up Again Soon!&lt;/h2&gt;</content><author><name>⧉ Infominer</name></author><category term="welcome" /><summary type="html">I'm now able to appreciate the technical limitation for shaping my categorization process. It makes sense to have 10 or less ways to divide the entire ecosystem and break it down from there... even if some overlap. Simplicity &lt;3</summary></entry><entry><title type="html">Chain Link</title><link href="http://localhost:4000/blog/chainlink/" rel="alternate" type="text/html" title="Chain Link" /><published>2019-04-25T00:00:00-04:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>http://localhost:4000/blog/chainlink</id><content type="html" xml:base="http://localhost:4000/blog/chainlink/">&lt;p&gt;In leiu of my own content, I’m reproducing the channel history of The Watchers Discord Server.&lt;/p&gt;
+&lt;h2 id=&quot;lets-catch-up-again-soon&quot;&gt;Let’s Catch Up Again Soon!&lt;/h2&gt;</content><author><name>⧉ Infominer</name></author><category term="welcome" /><summary type="html">I'm now able to appreciate the technical limitation for shaping my categorization process. It makes sense to have 10 or less ways to divide the entire ecosystem and break it down from there... even if some overlap. Simplicity &lt;3</summary></entry><entry><title type="html">The Birth of Rare Art on the Bitcoin Blockchain</title><link href="http://localhost:4000/posts/bitcoin/rare-pepe/" rel="alternate" type="text/html" title="The Birth of Rare Art on the Bitcoin Blockchain" /><published>2019-05-28T00:00:00-04:00</published><updated>2019-05-29T06:22:33-04:00</updated><id>http://localhost:4000/posts/bitcoin/rare-pepe-bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/bitcoin/rare-pepe/">&lt;p&gt;&lt;img src=&quot;https://sourcecrypto.pub/rare-digital-art/img/pepebanner.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;in-the-beginning&quot;&gt;In The Beginning&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In 2005, artist &lt;a href=&quot;http://www.mattfurie.com/&quot;&gt;Matt Furie&lt;/a&gt; created the comic series Boy’s Club, which stars the teenage monster characters Pepe, Brett, Andy and Landwolf.
+&lt;a href=&quot;https://knowyourmeme.com/memes/pepe-the-frog&quot;&gt;pepe-the-frog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://sourcecrypto.pub/rare-digital-art/img/boys-club-pepe-history.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.vice.com/en_us/article/avy3aj/feels-good-man-728&quot;&gt;The Creator of Pepe the Frog Talks About Making Comics in the Post-Meme World&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;“I’ve made my mark on the internet, so I can relax. I’m retired now, living off all the shares and likes.​”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;feels-good-man&quot;&gt;Feels Good Man&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://sourcecrypto.pub/rare-digital-art/img/feels-good-man.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://knowyourmeme.com/memes/feels-good-man&quot;&gt;knowyourmeme.com/memes/feels-good-man&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Feels Good Man is a catchphrase and exploitable from a comic strip authored by artist Matt Furie. The phrase is in reference to the emotions one of the characters in the strip feels when he goes to the bathroom standing up, with his pants all the way down.&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://knowyourmeme.com/memes/exploitables&quot;&gt;knowyourmeme.com/memes/exploitables&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Exploitables are image templates that are missing a defining characteristic and easy to edit, dying to be filled with your wit &amp;amp; candor. They are used very frequently on image-boards like 4chan.
+Early 2008, a user on 4Chan’s /b/ board decided to upload a scan of one page from the comic, involving Pepe pulling his pants all the way down to his ankles to pee, leaving his bare ass exposed.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.kym-cdn.com/photos/images/newsfeed/000/001/148/466px-Feels_good_man_full_comic.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dailydot.com/unclick/4chan-pepe-the-frog-renaissance/&quot;&gt;4chan’s Pepe the Frog is bigger than ever—and his creator feels good, man&lt;/a&gt; -2017&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-birth-of-rare-pepe&quot;&gt;The Birth of Rare Pepe&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://knowyourmeme.com/memes/rare-pepe&quot;&gt;knowyourmeme.com/memes/rare-pepe&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Starting in October 2014, users on the /r9k/ (robot9000) board on 4chan began referring to original illustrations and photoshops of Pepe the Frog as “Rare Pepes”; sharing the “rare” images of Pepe as if they were trading cards, some of which were posted with watermarks to retain their value (shown below).
+&lt;img src=&quot;https://i.kym-cdn.com/photos/images/newsfeed/001/015/708/3bc.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;biggest-meme-of-2015&quot;&gt;Biggest Meme of 2015&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nymag.com/intelligencer/2015/12/tumblr-was-here-for-pepe-the-frog-in-2015.html&quot;&gt;Tumblr’s Biggest Meme of 2015 Was Pepe the Frog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mustacheese.deviantart.com/art/Rare-Pepe-Mosaic-NOT-FOR-NORMIES-567803519&quot;&gt;Rare Pepe Mosaic&lt;/a&gt;
+&lt;img src=&quot;https://i.imgur.com/addGH5k.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ohmycat.club/reddit-rare-pepe-memes.html&quot;&gt;Reddit Rare Pepe Memes&lt;/a&gt;
+&lt;a href=&quot;https://imgur.com/r/4chan/awRrhwX&quot;&gt;&lt;img src=&quot;https://sourcecrypto.pub/rare-digital-art/img/rare-pepe.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;alt-right-drives-away-normies&quot;&gt;Alt-Right Drives Away Normies&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thedailybeast.com/how-pepe-the-frog-became-a-nazi-trump-supporter-and-alt-right-symbol&quot;&gt;How Pepe the Frog Became a Nazi Trump Supporter and Alt-Right Symbol&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;“Most memes are ephemeral by nature, but Pepe is not,” @JaredTSwift told me. “He’s a reflection of our souls, to most of us. It’s disgusting to see people (‘normies,’ if you will) use him so trivially. He belongs to us. And we’ll make him toxic if we have to.”&lt;/p&gt;
+
+      &lt;p&gt;@JaredTSwift said some of the support for Trump was in jest, but for most of his cohorts, it’s sincere. He even claimed to have voted for Trump in the primary himself, wherever it is he lives, and said he’d vote for him in the general, too.&lt;/p&gt;
+
+      &lt;p&gt;“In a sense, we’ve managed to push white nationalism into a very mainstream position,” he said. “Trump’s online support has been crucial to his success, I believe, and the fact is that his biggest and most devoted online supporters are white nationalists.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/pepedapp/is-pepe-the-frog-just-a-racist-meme-1083ab8f4b99&quot;&gt;Is Pepe the Frog just a racist meme?&lt;/a&gt; - Pepe is about love, not hate.
+    &lt;blockquote&gt;
+      &lt;p&gt;In fact, the very same Anti-Defamation League that added Pepe to its list of hate symbols stated on its own website:&lt;/p&gt;
+
+      &lt;p&gt;“However, because so many Pepe the Frog memes are not bigoted in nature, it is important to examine use of the meme only in context. The mere fact of posting a Pepe meme does not mean that someone is racist or white supremacist.”5&lt;/p&gt;
+
+      &lt;p&gt;This, however, does not take away from specific use cases, but it does imply that as a meme is used, so it evolves.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;enter-bitcoin&quot;&gt;Enter Bitcoin&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcointalk.org/index.php?topic=1617264.0&quot;&gt;[ANN] The first truly rare Pepes on the Bitcoin Blockchain! [ANN]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/a880QQ3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For years people have been trying to preserve the rarest of pepes from being stolen.&lt;/p&gt;
+
+  &lt;p&gt;Thanks to Bitcoin and Counterparty we can associate these Rare Pepes with tokens to make them truly rare.  Now Pepe’s can preserve their rareness and actually be traded on the market.
+  &lt;a href=&quot;http://rarepepedirectory.com/?page_id=122&quot;&gt;&lt;img src=&quot;https://sourcecrypto.pub/rare-digital-art/img/pepe-scientist.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://counterparty.io/&quot;&gt;counterparty.io&lt;/a&gt;
+Counterparty extends Bitcoin’s functionality by “writing in the margins” of regular Bitcoin transactions, opening the door for innovation and advanced features not possible with ordinary Bitcoin software.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/KHQLBsrk5ME&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;first-live-auction&quot;&gt;First Live Auction&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://motherboard.vice.com/en_us/article/ev57p4/i-went-to-the-first-live-auction-for-rare-pepes-on-the-blockchain&quot;&gt;I went to the first live auction for rare pepes on the blockchain.&lt;/a&gt;
+&lt;a href=&quot;https://motherboard.vice.com/en_us/article/ev57p4/i-went-to-the-first-live-auction-for-rare-pepes-on-the-blockchain&quot;&gt;&lt;img src=&quot;https://video-images.vice.com/_uncategorized/1516305655454-Salvador-Pepe-rare-Pepe-auction-RT-1-13-18.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://sourcecrypto.pub/rare-digital-art/img/homer-pepe.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;recent-news&quot;&gt;Recent News&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.bitcoin.com/rare-pepe-blockchain-cards-produce-more-value-than-most-icos/&quot;&gt;Rare Pepe Blockchain Cards Have Produced More Value Than Most ICOs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.vice.com/en_us/article/ev57p4/i-went-to-the-first-live-auction-for-rare-pepes-on-the-blockchain&quot;&gt;I Went to the First Live Auction for Rare Pepes on the Blockchain&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;should-pepe-live-on-bitcoin&quot;&gt;Should Pepe Live on Bitcoin?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitsonline.com/counterparty-bitcoin-fees-contentious/&quot;&gt;Counterparty Wants to Stay on Bitcoin but Fees Remain a Contentious Issue&lt;/a&gt; - December 27, 2017
+    &lt;blockquote&gt;
+      &lt;p&gt;“Earlier in 2017, when the Counterparty community was still largely intact, I created two proposals that would have led to Counterparty moving off of Bitcoin Core. I thought Counterparty should either embrace Bitcoin Cash (at the time it was Bitcoin Classic) for the block space Counterparty needs or move to Litecoin where a metaprotocol like Counterparty would be welcome.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’ve also heard some vague accusations that counterparty\rare-pepe are not good for bitcoin… although I’ve not seen any detailed discussion of the topic. Pls reach out if you have more information on pepe and Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;I know there are a lot of newer projects, like memes, memecoins get copied. That doesn’t interest me as much as the other digital art projects, and mostly the history.&lt;/p&gt;
+
+&lt;p class=&quot;notice--warning&quot;&gt;There are many other aspects of digital art that interest me, and I’ll be diving in, beyond pepe, coming soon. You can have a sneek peek of my new &lt;a href=&quot;https://sourcecrypto.pub/rare-digital-art/&quot;&gt;Rare Digital Art&lt;/a&gt; page now, although it’s not ready for production, and this resource belongs over here, anyway.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://sourcecrypto.pub/rare-digital-art/img/pepe-recall.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddup.co/r/rarepepemarket&quot;&gt;https://www.reddup.co/r/rarepepemarket&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.artnome.com/news/2018/1/23/rare-pepe-wallet-the-birth-of-cryptoart&quot;&gt;Artnome- The Birth of Cryptoart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fivethirtyeight.com/features/pepe-the-frog-symbolism-cryptoart-blockchain/&quot;&gt;fivethirtyeight.com - People Paying Thousands To Own Pictures Of Pepe The Frog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://motherboard.vice.com/en_us/article/ev57p4/i-went-to-the-first-live-auction-for-rare-pepes-on-the-blockchain&quot;&gt;I went to the first Live Auction for Rare Pepes on the Blockchain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://knowyourmeme.com/memes/pepe-the-frog&quot;&gt;Know Your Meme- Pepe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://knowyourmeme.com/memes/rare-pepe&quot;&gt;Know Your Meme- Rare Pepe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mattfurie.com/&quot;&gt;Matt Furie&lt;/a&gt;- Originator of Pepe&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rarepepewallet.com&quot;&gt;rarepepewallet.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rarepepedirectory.com&quot;&gt;rarepepedirectory.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://counterparty.io&quot;&gt;counterparty.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thedailybeast.com/how-pepe-the-frog-became-a-nazi-trump-supporter-and-alt-right-symbol&quot;&gt;How Pepe the Frog became a Nazi Trump Supporter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thedailybeast.com/the-creator-of-pepe-is-winning-his-war-on-the-alt-right&quot;&gt;The Creator of Pepe Is Winning His War on the Alt-Right&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="Rare Digital Art" /><category term="Counterparty" /><category term="Rare Pepe" /><summary type="html">Starting in October 2014, users on the /r9k/ (robot9000) board on 4chan began referring to original illustrations and photoshops of Pepe the Frog as &quot;Rare Pepes&quot;; sharing the &quot;rare&quot; images of Pepe as if they were trading cards, some of which were posted with watermarks to retain their value (shown below).</summary></entry><entry><title type="html">Chain Link</title><link href="http://localhost:4000/blog/chainlink/" rel="alternate" type="text/html" title="Chain Link" /><published>2019-04-25T00:00:00-04:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>http://localhost:4000/blog/chainlink</id><content type="html" xml:base="http://localhost:4000/blog/chainlink/">&lt;p&gt;In leiu of my own content, I’m reproducing the channel history of The Watchers Discord Server.&lt;/p&gt;
 
 &lt;p&gt;Though, eventually I’ll turn this into a more organized page :)&lt;/p&gt;
 
@@ -11070,4 +11234,4 @@ consensus.&lt;/p&gt;
   &lt;p&gt;private and public together is powerful and is the Internet of the future and I think I’ll predict that when CEOs start just like back in the day remember Richard that you and I there was a guy at IBM that was managed out of the business for saying blockchain too soon and then for most later we could all say blockchain yeah because because the world had changed right it can happen pretty quick I think that right now saying public main net or public network watching scares a lot of CEOs but I predict that as soon as we show how you can have very very private things happening on these side chains and It was an unfortunate term side-chain I would call Corvo I would even call Bitcoin a side chain but I say that in respect it that side chains are where the action it is when those things can operate in conjunction with a public main net and where the where we have that join between a fast finality system on the side and a eventual consistency of machine gun system coordinating them I think then CEOs are going to wake up and say I not only am okay with public blockchain I demand it in the system just not all of it it’s like chili powder it should be it’s not the stake it’s the it’s not the meals it’s the chili powder it’s a small piece of of how we make all this stuff work if the poison is in the dough&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;gentlemen I’m afraid we’re out of time but I’ve absolutely loved this podcast I mean we touch on some incredible points which as you mentioned John you guys are gonna have to take off line and and come talk and debate about it but some of the points that came up we’re we’re not nearly near not production-grade there’s conversations about building this one protocol there is still some issues regarding finality nan some differences in your opinions but I very much the idea the like of the public and the private becoming the foundation on this future of the Internet so I’d like to thank you both very much for this wonderful debate and this wraps up this in intro blocks podcast we’ve hope you’ve enjoyed this episode and I hope to have you both back in the show maybe even at a conference perhaps we can organize it so I thank you very much both of you for attending this podcast like so much great speaking with you John pleasure as always and thanks for elite it was great you&lt;/p&gt;</content><author><name>⧉ Infominer</name></author><category term="Permissionless" /><category term="Ethereum" /><category term="Permissioned" /><category term="DLT" /><category term="R3" /><category term="IBM" /><category term="John Wolpert" /><category term="Richard Gendal Brown" /><summary type="html">Now we're seeing I think a lot of entities like your former employer IBM, you know, certainly Deloitte, big-name businesses that are interested in blockchains - but they're also interested in crypto assets. I think for a lot of people consensus 2018 might be this convergence point. Let's wind back the clock, where did we start and how did we get here? Because I know early on these two communities were a bit like oil and water.</summary></entry><entry><title type="html">Blockchain Identity Reources - TOML</title><link href="http://localhost:4000/blog/id-toml/" rel="alternate" type="text/html" title="Blockchain Identity Reources - TOML" /><published>2019-03-25T00:00:00-04:00</published><updated>2019-03-25T00:00:00-04:00</updated><id>http://localhost:4000/blog/id-toml</id><content type="html" xml:base="http://localhost:4000/blog/id-toml/"></content><author><name>⧉ Infominer</name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;gentlemen I’m afraid we’re out of time but I’ve absolutely loved this podcast I mean we touch on some incredible points which as you mentioned John you guys are gonna have to take off line and and come talk and debate about it but some of the points that came up we’re we’re not nearly near not production-grade there’s conversations about building this one protocol there is still some issues regarding finality nan some differences in your opinions but I very much the idea the like of the public and the private becoming the foundation on this future of the Internet so I’d like to thank you both very much for this wonderful debate and this wraps up this in intro blocks podcast we’ve hope you’ve enjoyed this episode and I hope to have you both back in the show maybe even at a conference perhaps we can organize it so I thank you very much both of you for attending this podcast like so much great speaking with you John pleasure as always and thanks for elite it was great you&lt;/p&gt;</content><author><name>⧉ Infominer</name></author><category term="Permissionless" /><category term="Ethereum" /><category term="Permissioned" /><category term="DLT" /><category term="R3" /><category term="IBM" /><category term="John Wolpert" /><category term="Richard Gendal Brown" /><summary type="html">Now we're seeing I think a lot of entities like your former employer IBM, you know, certainly Deloitte, big-name businesses that are interested in blockchains - but they're also interested in crypto assets. I think for a lot of people consensus 2018 might be this convergence point. Let's wind back the clock, where did we start and how did we get here? Because I know early on these two communities were a bit like oil and water.</summary></entry></feed>
