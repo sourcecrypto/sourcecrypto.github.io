@@ -7,8 +7,15 @@ excerpt: >
 permalink: /posts/crypto/keysigs-escrow-bitcoin-ethereum-pgp/
 share: true
 last_modified_at: 2019-06-20T11:22:33-23:00
-categories: ["crypto"]
-tags: [pgp, deepdotweb, security, privacy, resources,practical]
+categories: ["Crypto"]
+tags: 
+  - PGP
+  - Escrow
+  - Key Signatures
+  - Bitcoin
+  - Ethereum
+  - DeepDotWeb
+  - Practical
 header:
   image: https://web-work.tools/images/pgp-banner.png
   teaser: https://web-work.tools/images/pgp-og.png

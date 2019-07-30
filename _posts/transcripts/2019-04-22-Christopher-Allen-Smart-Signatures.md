@@ -7,7 +7,7 @@ share: true
 header:
   image: /images/smart-signatures.png
   teaser: /images/smart-signatures.png
-categories: ["transcripts","crypto"]
+categories: ["Transcripts"]
 tags:
   - Christopher Allen
   - Smart Signatures

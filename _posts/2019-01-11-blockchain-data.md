@@ -7,8 +7,8 @@ redirect_from: blog/blockchain-data/
 share: true
 last_modified_at: 2019-06-20T11:22:33-23:00
 excerpt: Resources related to Blockchain Data and Analytics
-categories: ["analytics"]
-tags: ["data"]
+categories: ["Analytics"]
+tags: ["Data"]
 ---
 
 * [topics/blockchain-analytics](https://github.com/topics/blockchain-analytics)

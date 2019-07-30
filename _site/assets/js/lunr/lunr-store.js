@@ -645,7 +645,7 @@ var store = [{
         "url": "http://localhost:4000/posts/analytics/blockchain-data/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Verifiable Organizations Network - A Production Government Deployment of Hyperledger Indy",
-        "excerpt":"Transcript: John Jordan and Stephen Curran’s Presentation of the Verifiable Organizations Network at the 2018 Hyperledger Global Forum. -Published on Dec 27, 2018 John Jordan, Province of British Columbia &amp; Stephen Curran, CloudCompass Computing The Verifiable Organizations Network (VON) enables governments and organizations to exchange data in trustworthy ways based...","categories": ["transcripts","decentralized identity"],
+        "excerpt":"Transcript: John Jordan and Stephen Curran’s Presentation of the Verifiable Organizations Network at the 2018 Hyperledger Global Forum. -Published on Dec 27, 2018 John Jordan, Province of British Columbia &amp; Stephen Curran, CloudCompass Computing The Verifiable Organizations Network (VON) enables governments and organizations to exchange data in trustworthy ways based...","categories": ["Transcripts","Decentralized Identity"],
         "tags": ["Indy","Identity","VON","DID"],
         "url": "http://localhost:4000/posts/transcripts/VON-Presentation-Jordan-Curran-HGF/",
         "teaser":"http://localhost:4000/images/OrgBook-Hyperledger-Indy-Case-Study.png"},{
@@ -655,17 +655,17 @@ var store = [{
         "url": "http://localhost:4000/posts/history/permissioned-ledgers/",
         "teaser":"https://sourcecrypto.pub/images/bitcoin-history/permissioned-ledger-2015.png"},{
         "title": "Hyperledger Global Forum 2018 — Microledgers and Edge-Chains",
-        "excerpt":"A Primer - Daniel Hardman, Evernym Daniel Hardman, Chief Architect - Evernym Daniel Hardman has a quarter century of experience in enterprise software. As a technical director or chief architect, he’s led engineering teams at small startups, an incubator, and a continent-spanning business unit at a Fortune 500 company. He...","categories": ["transcripts","decentralized identity"],
+        "excerpt":"A Primer - Daniel Hardman, Evernym Daniel Hardman, Chief Architect - Evernym Daniel Hardman has a quarter century of experience in enterprise software. As a technical director or chief architect, he’s led engineering teams at small startups, an incubator, and a continent-spanning business unit at a Fortune 500 company. He...","categories": ["Transcripts","Decentralized Identity"],
         "tags": ["State Channels","Edge Chains","Indy","HGF2018","Design Theory"],
         "url": "http://localhost:4000/posts/transcripts/Microledgers-Edgechains-Dan-Hardman/",
         "teaser":"https://imgur.com/qbVl47T.png"},{
         "title": "JW Weatherman Inverviews Cypherpunk Legend",
-        "excerpt":"Much appreciation to JW Weatherman for arranging the interview, and Tim May for helping to get this all started. I decided to get this in text form, because there are so many things\\books\\people that May references, I would like to be able to gather. Pull Requests Welcome Transcript: Lightly edited...","categories": ["transcripts","history"],
+        "excerpt":"Much appreciation to JW Weatherman for arranging the interview, and Tim May for helping to get this all started. I decided to get this in text form, because there are so many things\\books\\people that May references, I would like to be able to gather. Pull Requests Welcome Transcript: Lightly edited...","categories": ["Transcripts","History"],
         "tags": ["Cypherpunk","Tim May"],
         "url": "http://localhost:4000/posts/transcripts/JW-Weatherman-Interview-Tim-May/",
         "teaser":"https://i.imgur.com/janGoN1.png"},{
         "title": "History of Blockchains for Business at HGF2018",
-        "excerpt":"This talk focuses on the history of blockchains in a business context as lived and told by the CEO of the first company to build a permissioned, smart contract compatible blockchain codebase (the codebase currently known as Hyperledger Burrow). There are three phases to the talk and a predominant lesson...","categories": ["transcripts","enterprise"],
+        "excerpt":"This talk focuses on the history of blockchains in a business context as lived and told by the CEO of the first company to build a permissioned, smart contract compatible blockchain codebase (the codebase currently known as Hyperledger Burrow). There are three phases to the talk and a predominant lesson...","categories": ["Transcripts","Enterprise"],
         "tags": ["Bitcoin","HGF2018","Permissioned","DLT","History"],
         "url": "http://localhost:4000/posts/transcripts/JW-Weatherman-Interview-Tim-May/",
         "teaser":"http://localhost:4000/images/business-blockchain-history-monax.png"},{
@@ -675,17 +675,17 @@ var store = [{
         "url": "http://localhost:4000/posts/history/united-nations/",
         "teaser":"https://sourcecrypto.pub/images/bitcoin-history/unblockchain.jpg"},{
         "title": "Stephan Livera Podcast 53 with Andreas Antonopolous",
-        "excerpt":"Stephan Livera and Andreas M. Antonopoulos - On Bitcoin Maximalism Editors Note: I've taken to working on youtube transcripts of podcasts and videos whos content is valuable and not easily accessible in text form, so that it will be easier for anyone to reference. Lightly edited, just enough to make...","categories": ["transcripts","Bitcoin"],
-        "tags": ["Bitcoin","enterprise","permissioned","DLT"],
+        "excerpt":"Stephan Livera and Andreas M. Antonopoulos - On Bitcoin Maximalism Editors Note: I've taken to working on youtube transcripts of podcasts and videos whos content is valuable and not easily accessible in text form, so that it will be easier for anyone to reference. Lightly edited, just enough to make...","categories": ["Transcripts","Bitcoin"],
+        "tags": ["Stephan Livera","Andreas Antonopolous","Bitcoin Maximalism"],
         "url": "http://localhost:4000/posts/transcripts/SLP53-Livera-Antonopolis-Maximalism-Transcript/",
         "teaser":"http://localhost:4000/images/antonop-livera-maximalism.png"},{
         "title": "John Wolpert of ConsenSys talks awesomeness at Consensus 2018 CoinDeskLIVE",
-        "excerpt":"May 16, Consensus 2018. Pete Rizzo of @Coindesk interviews John Wolpert, Consensys Studios (former head of IBM’s blockchain Division). I found the video at https://www.pscp.tv/coindesk/1mnGeXaANqEKX then ported it to youtube for their autotranscription. Video note: I’ve included my youtube copy here, rather than the original, because periscope videos are not...","categories": ["transcripts","enterprise"],
-        "tags": ["permissionless","Ethereum","permissioned","DLT","John Wolpert"],
+        "excerpt":"May 16, Consensus 2018. Pete Rizzo of @Coindesk interviews John Wolpert, Consensys Studios (former head of IBM’s blockchain Division). I found the video at https://www.pscp.tv/coindesk/1mnGeXaANqEKX then ported it to youtube for their autotranscription. Video note: I’ve included my youtube copy here, rather than the original, because periscope videos are not...","categories": ["Transcripts","Enterprise"],
+        "tags": ["Permissionless","Ethereum","Permissioned","DLT","John Wolpert"],
         "url": "http://localhost:4000/posts/transcripts/JohnWolpert-Consensus2018/",
         "teaser":"http://localhost:4000/images/john-wolpert-consensys-2018-coindesk.png"},{
         "title": "Using PGP and Cryptocurrency Keysignatures",
-        "excerpt":"\"Public key encryption: supporting secure transactions online since 1991!!\" I created this resource while researching the following article: freelanceforcoins.com/Business with Crypto 101—Escrow and Key Signatures -infominer This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with...","categories": ["crypto"],
+        "excerpt":"\"Public key encryption: supporting secure transactions online since 1991!!\" I created this resource while researching the following article: freelanceforcoins.com/Business with Crypto 101—Escrow and Key Signatures -infominer This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with...","categories": ["Crypto"],
         "tags": ["pgp","deepdotweb","security","privacy","resources","practical"],
         "url": "http://localhost:4000/posts/crypto/keysigs-escrow-bitcoin-ethereum-pgp/",
         "teaser":"https://web-work.tools/images/pgp-og.png"},{
@@ -695,12 +695,12 @@ var store = [{
         "url": "http://localhost:4000/blog/id-toml/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Public vs Private Blockchains for the Enterprise",
-        "excerpt":"This is a very special podcast for us as it is our first debate format on Insureblocks. We were extremely privileged to have two titans/Jedi Masters from the blockchain community join us for this podcast. On one side we have Richard Brown, Chief Technology Officer from R3, builders of Corda,...","categories": ["transcripts","enterprise"],
+        "excerpt":"This is a very special podcast for us as it is our first debate format on Insureblocks. We were extremely privileged to have two titans/Jedi Masters from the blockchain community join us for this podcast. On one side we have Richard Brown, Chief Technology Officer from R3, builders of Corda,...","categories": ["Transcripts","Enterprise"],
         "tags": ["Permissionless","Ethereum","Permissioned","DLT","R3","IBM","John Wolpert","Richard Gendal Brown"],
         "url": "http://localhost:4000/posts/transcripts/public-private-blockchain-wolpert-gendal-brown/",
         "teaser":"http://localhost:4000/images/wolpert-gendal-brown-public-vs-private-blockchain.png"},{
         "title": "Smart Signatures - Christopher Allen",
-        "excerpt":"Video Slideshare — Smart Signatures—Experiments in Authentication (Stanford BPASE 2018 final) Transcript Note: This is mostly just a copy paste of the youtube transcript - I haven’t finished cleaning it up, yet. okay good afternoon my name is Christopher Allen I’m with Blockstream and today I wanted to give you...","categories": ["transcripts","crypto"],
+        "excerpt":"Video Slideshare — Smart Signatures—Experiments in Authentication (Stanford BPASE 2018 final) Transcript Note: This is mostly just a copy paste of the youtube transcript - I haven’t finished cleaning it up, yet. okay good afternoon my name is Christopher Allen I’m with Blockstream and today I wanted to give you...","categories": ["Transcripts"],
         "tags": ["Christopher Allen","Smart Signatures"],
         "url": "http://localhost:4000/posts/transcripts/smart-signatures-christopher-allen/",
         "teaser":"http://localhost:4000/images/smart-signatures.png"},{
@@ -745,8 +745,8 @@ var store = [{
         "url": "http://localhost:4000/posts/Bitcoin/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Mark Miller on Epicenter Podcast - Hyperlink Annotated Transcript",
-        "excerpt":"This is a transcript of the epicenter podcast, where Brian Fabien Crain interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of...","categories": ["transcripts","Agoric"],
-        "tags": ["Agoric","Mark Miller","Eric Drexler","ObCap","Smart Contracts","literature"],
+        "excerpt":"This is a transcript of the epicenter podcast, where Brian Fabien Crain interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of...","categories": ["Transcripts","Agoric"],
+        "tags": ["Mark Miller","Eric Drexler","ObCap","Smart Contracts","Literature"],
         "url": "http://localhost:4000/posts/transcripts/mark-miller-agoric-epicenter/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "assorted-media",
