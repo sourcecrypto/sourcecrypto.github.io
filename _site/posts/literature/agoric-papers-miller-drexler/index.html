@@ -1,0 +1,2886 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Favicons -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://SourceCrypto.pub/assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://SourceCrypto.pub/assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://SourceCrypto.pub/assets/icons/favicon-16x16.png">
+<link rel="manifest" href="https://SourceCrypto.pub/assets/icons/site.webmanifest">
+<link rel="mask-icon" href="https://SourceCrypto.pub/assets/icons/safari-pinned-tab.svg" color="#79dfce">
+<link rel="shortcut icon" href="https://SourceCrypto.pub/assets/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#79dfce">
+<meta name="msapplication-config" content="https://SourceCrypto.pub/assets/icons/browserconfig.xml">
+<meta name="theme-color" content="#79dfce">
+
+<!-- begin _includes/seo.html --><title>The Agoric Papers | Source Crypto</title>
+<meta name="description" content="These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Source Crypto">
+<meta property="og:title" content="The Agoric Papers">
+<meta property="og:url" content="https://agoric-records.xyz/posts/markets-incentive-ecosystems/">
+
+
+  <meta property="og:description" content="These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/images/agoric-papers-teaser.png">
+
+
+
+  <meta name="twitter:site" content="@SourceCrypto">
+  <meta name="twitter:title" content="The Agoric Papers">
+  <meta name="twitter:description" content="These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988">
+  <meta name="twitter:url" content="https://agoric-records.xyz/posts/markets-incentive-ecosystems/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:4000/images/agoric-papers-teaser.png">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-06-28T00:00:00-04:00">
+
+
+
+  <meta property="article:modified_time" content="2019-06-29T06:22:33-04:00">
+
+
+
+
+<link rel="canonical" href="https://agoric-records.xyz/posts/markets-incentive-ecosystems/">
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "http://localhost:4000",
+      "logo": "https://SourceCrypto.pub/images/Source-Crypto-og.png"
+    }
+  </script>
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Infominer",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Source Crypto Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="https://sourcecrypto.pub/images/interlinked.png" alt=""></a>
+        
+        <a class="site-title" href="/">Research Index — Discord Chat</a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/categories/">Categories Archive</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/feature/">Featured Content</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/discolog/">DiscoLog</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://infominer.id/" target="_blank" rel="noopener noreferrer">Info⧉Hub</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/bitcoin-history" target="_blank" rel="noopener noreferrer">Bitcoin Histories</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/decentralized-web/" target="_blank" rel="noopener noreferrer">Decentralized Web</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/transcripts" target="_blank" rel="noopener noreferrer">Transcripts</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://learncryptotrading.co" target="_blank" rel="noopener noreferrer">Learn Crypto Trading</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://decentralized-id.com" target="_blank" rel="noopener noreferrer">DIDecentralized</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools" target="_blank" rel="noopener noreferrer">Webwork Tools</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/indieweb" target="_blank" rel="noopener noreferrer">IndieWeb</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://SourceCrypto.pub" target="_blank" rel="noopener noreferrer">Source⧉Crypto</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/github-pages-starter-pack/" target="_blank" rel="noopener noreferrer">Github Pages Starter Pack</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero" style=" ">
+  
+    <img src="/images/Source-Crypto-banner.png" alt="The Agoric Papers" class="page__hero-image">
+  
+  
+    <span class="page__hero-caption"><table>
+  <tbody>
+    <tr>
+      <td><a href="https://twitter.com/Delpadschnick" class="user-mention">@Delpadschnick</a></td>
+      <td><a href="https://CryptoDesign.io" target="_blank" rel="noopener noreferrer">CryptoDesign.io</a></td>
+    </tr>
+  </tbody>
+</table>
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="https://SourceCrypto.pub/images/bio-photo2.jpg" alt="⧉ Infominer" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">⧉ Infominer</h3>
+    
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://infominer.id" rel="noopener noreferrer" target="_blank"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
+          
+        
+          
+            <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+          
+            <li><a href="https://keybase.io/infominer" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
+          
+        
+          
+            <li><a href="https://github.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+            <li><a href="https://discord.gg/ahTuPMY" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+          
+        
+          
+            <li><a href="https://t.me/InfoMiner33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">⧉Info⧉</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/"><span class="nav__sub-title">DiscoLog</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/sitemap/" class="">• Sitemap</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/featured/" class="">• Featured Content</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://infominer.id/" class="" target="_blank" rel="noopener noreferrer">• Infomine</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://learncryptotrading.co" class="" target="_blank" rel="noopener noreferrer">• Learn Crypto Trading</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/bitcoin-history" class="" target="_blank" rel="noopener noreferrer">• Bitcoin Histories</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/transcripts" class="" target="_blank" rel="noopener noreferrer">• Transcripts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/decentralized-web/" class="" target="_blank" rel="noopener noreferrer">• Decentralized Web</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/general/"><span class="nav__sub-title">General</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/read-me/" class="">• Readme</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/101/" class="">• 101</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/classification/" class="">• Classification</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/cypherpunk/" class="">• Cypherpunk</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/earn-crypto/" class="">• Earn Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/economics/" class="">• Economics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/evaluation/" class="">• Evaluation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/exchanges/" class="">• Exchanges</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/governance/" class="">• Governance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/growth-adoption/" class="">• Growth - Adoption</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/history/" class="">• History</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/library-submissions/" class="">• Library Submissions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/memes-n-junk/" class="">• Memes n Junk</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/mining/" class="">• Mining</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/oppression/" class="">• Oppression</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/regulation/" class="">• Regulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/satoshi/" class="">• Satoshi</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/trading/" class="">• Trading</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/wallets/" class="">• Wallets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/traditional-finance/" class="">• Traditional Finance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/general/walstreet/" class="">• Walstreet</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/resources/"><span class="nav__sub-title">Resources</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/assorted-media/" class="">• Assorted Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/books/" class="">• Books</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/bots/" class="">• Bots</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/china/" class="">• China</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/communities/" class="">• Communities</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/conferences/" class="">• Conferences</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/news-sites/" class="">• News Sites</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/non-english/" class="">• Non-English</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/french/" class="">• French</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/research-papers/" class="">• Research Papers</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/resources/" class="">• Resources</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/send-crypto/" class="">• Send-Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/swag/" class="">• Swag</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/tech-in-media/" class="">• Tech in Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/twitter-follows/" class="">• Twitter Follows</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/resources/women/" class="">• Women</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/blockchain-tech/"><span class="nav__sub-title">Blockchain Tech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/consensus/" class="">• Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/pow/" class="">• PoW</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/pos/" class="">• PoS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/tendermint/" class="">• Tendermint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/eth-consensus/" class="">• Eth-Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/decentralization/" class="">• Decentralization</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/forks/" class="">• Forks</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/drivechains/" class="">• Drivechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/hahs-algos/" class="">• Hash Algos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/interoperability/" class="">• Interoperability</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/sharding/" class="">• Sharding</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/sidechains/" class="">• Sidechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/smart-contracts/" class="">• Smart Contracts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/smart-signatures/" class="">• Smart Signatures</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/state-channels/" class="">• State Channels</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/oracles/" class="">• Oracles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/ethresearch/" class="">• Ethresearch</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/blockchain-tech/master-nodes/" class="">• Master-Nodes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/tech/"><span class="nav__sub-title">Tech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/security/" class="">• Security</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/cryptography/" class="">• Cryptography</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/privacy/" class="">• Privacy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/cybersecurity/" class="">• Cybersecurity</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/infosec/" class="">• Infosec</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/tor/" class="">• Tor</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/bittorrent/" class="">• Bit-Torrent</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/distributed-systems/" class="">• Distributed Systems</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/internet-protocols/" class="">• Internet Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/P2P/" class="">• P2P</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/tech/design/" class="">• Design</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/development/"><span class="nav__sub-title">Development</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/gen-development/" class="">• Gen Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/blockchain-development/" class="">• Blockchain Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/bitcoin-dev/" class="">• Bitcoin Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/cardano-dev/" class="">• Cardano Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/corda-dev/" class="">• Corda Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/forking/" class="">• Forking</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/ethereum-dev/" class="">• Ethereum Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/hackathons/" class="">• Hackathons</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/hyperledger-dev/" class="">• Hyperledger Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/id-dev/" class="">• ID Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/development/nano-dev/" class="">• Nano Dev</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/crypto/"><span class="nav__sub-title">Crypto</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/gen-crypto/" class="">• Gen Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/bitcoin/" class="">• Bitcoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/btc-layer2/" class="">• BTC Layer2</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/bch/" class="">• B-Cash</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/bitshares/" class="">• Bitshares</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/blockstack/" class="">• Blockstack</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/bytom/" class="">• Bytom</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/cardano/" class="">• Cardano</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/central-bank-digital-currency/" class="">• Central Bank Digital Currency</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/cosmos/" class="">• Cosmos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/dash/" class="">• DASH</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/doge/" class="">• DOGE</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/eos/" class="">• EOS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/etc/" class="">• ETC - Eth Classic</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/etcetera/" class="">• Etcetera</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/ethereum/" class="">• Ethereum</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/eth-layer2/" class="">• ETH Layer 2</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/grin-mimblewimble/" class="">• Grin Mimble-Wimble</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/hashgraph/" class="">• Hashgraph</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/iota/" class="">• IOTA</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/litecoin/" class="">• Litecoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/monero/" class="">• Monero</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/nano/" class="">• Nano</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/neo/" class="">• NEO</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/ripple/" class="">• Ripple</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/stable-coins/" class="">• Stable Coins</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/stellar/" class="">• Stellar</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/tezos/" class="">• Tezos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/tron/" class="">• Tron</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/crypto/zcash/" class="">• ZCash</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/enterprise/"><span class="nav__sub-title">Enterprise</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/enterprise/enterprise-dlt/" class="">• Enterprise - DLT</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/enterprise/ent-eth/" class="">• Enterprise Ethereum</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/enterprise/corda/" class="">• Corda</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/enterprise/hyperledger/" class="">• Hyperledger</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/discolog/application/"><span class="nav__sub-title">Application</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/art-collectibles/" class="">• Art Collectibles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/ai/" class="">• AI</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/brave/" class="">• Brave</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/criminal/" class="">• Criminal</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/crypto-selfregulation/" class="">• Crypto Self-Regulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/dao/" class="">• DAO</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/defi/" class="">• Defi</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/dapps/" class="">• dApps</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/energy/" class="">• Energy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/fiat-onramp/" class="">• Fiat Onramp</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/finance/" class="">• Finance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/games/" class="">• Games</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/government/" class="">• Government</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/identity-did/" class="">• Identity - DID</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/icos/" class="">• ICOs</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/iot/" class="">• Iot</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/institutional-derivitives/" class="">• Institutional Derivitives</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/intellectual-property/" class="">• Intellectual Property</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/marketplaces/" class="">• Marketplaces</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/music/" class="">• Music</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/notary/" class="">• Notary</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/payment-processing/" class="">• Payment Processing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/protocols/" class="">• Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/publishing/" class="">• Publishing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/prediction-markets/" class="">• Prediction Markets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/security-tokens/" class="">• Security Tokens</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/services/" class="">• Services</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/social-media/" class="">• Social Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/supplychain/" class="">• Supply Chain</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/united-nations/" class="">• United Nations</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/utility/" class="">• Utility</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/discolog/application/voting/" class="">• Voting</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title"></span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="The Agoric Papers">
+    <meta itemprop="description" content="These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988">
+    <meta itemprop="datePublished" content="June 28, 2019">
+    <meta itemprop="dateModified" content="June 28, 2019">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">The Agoric Papers
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  40 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title">
+<i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#mark-s-miller">Mark S Miller</a></li>
+  <li><a href="#eric-drexler">Eric Drexler</a></li>
+  <li><a href="#the-agoric-papers">The Agoric Papers</a></li>
+  <li><a href="#markets-and-computation-agoric-open-systems">Markets and Computation: Agoric Open Systems</a></li>
+  <li><a href="#incentive-engineering-for-computational-resource-management">Incentive Engineering: for Computational Resource Management</a></li>
+  <li><a href="#comparative-ecology-a-computational-perspective">Comparative Ecology: A Computational Perspective</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <p>I was excited to catch this episode of Epicenter, recently. I’ve been interested in Mark Miller’s work since I began studying the <a href="https://sourcecrypto.pub/bitcoin-history/smart-contracts" target="_blank" rel="noopener noreferrer">history of smart contracts</a>.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+<div class="responsive-video-container">
+
+  <iframe src="https://www.youtube-nocookie.com/embed/j5SuqIrgRJU" frameborder="0" allowfullscreen=""></iframe>
+
+</div>
+
+<ul>
+  <li>
+<a href="https://epicenter.tv/episode/286/" target="_blank" rel="noopener noreferrer">Mark Miller: Agoric and the Decades-Long Quest for Secure Smart Contracts.</a> -Epicenter Podcast</li>
+</ul>
+
+<p>I’ll be diving deeper into ObCap, Elang, and Agoric over the coming months. In the mean-time, I had a moment to review and create this directory to the Agoric Papers.</p>
+
+<p>At the moment, its pretty simple. I’ve made a link, and chose a selection to quote by the link.</p>
+
+<p>This will allow anyone to quickly review the papers, at a glance. Eventually I’d like to include related links, and maybe even some images, who knows. :)</p>
+
+<p>Besides that just a little information to familiarize ourselves with the authors.</p>
+
+<h2 id="mark-s-miller">Mark S Miller</h2>
+
+<blockquote>
+  <p>Mark S. Miller is an American computer scientist. He is known for his work as one of the participants in the 1979 hypertext project known as Project Xanadu; for inventing Miller columns; as the co-creator of the Agoric Paradigm[1] of market-based distributed secure computing; and the open-source coordinator of the E programming language. He also designed the Caja programming language.</p>
+
+  <p>Miller earned a BS in computer science from Yale in 1980 and published his Johns Hopkins PhD thesis in 2006.[2] Previously Chief Architect with the Virus-Safe Computing Initiative at HP Labs, he is now a research scientist at Google[3] and a member of the ECMAScript (JavaScript) committee.[4] - <a href="https://en.wikipedia.org/wiki/Mark_S._Miller" target="_blank" rel="noopener noreferrer">Wikipedia</a></p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://twitter.com/marksammiller" target="_blank" rel="noopener noreferrer">twitter.com/marksammiller</a>
+    <ul>
+      <li><a href="https://ai.google/research/people/author35958" target="_blank" rel="noopener noreferrer">ai.google/research/people/author35958</a></li>
+      <li><a href="https://agoric.com/authors/mark-s-miller/" target="_blank" rel="noopener noreferrer">agoric.com/authors/mark-s-miller</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="eric-drexler">Eric Drexler</h2>
+
+<ul>
+  <li><a href="http://metamodern.com/about-the-author/" target="_blank" rel="noopener noreferrer">Eric Drexler</a></li>
+</ul>
+
+<blockquote>
+  <p>Often described as “the founding father of nanotechnology”, Eric Drexler introduced the concept in his seminal 1981 paper in the Proceedings of the National Academy of Sciences, which established fundamental principles of molecular engineering and outlined development paths to advanced nanotechnologies. In his 1986 book, Engines of Creation: The Coming Era of Nanotechnology, he introduced a broad audience to a fundamental technology objective: using machines that work at the molecular scale to structure matter from the bottom up. Drexler’s research in this field has been the basis for numerous journal articles and a comprehensive, physics-based analysis in Nanosystems: Molecular Machinery, Manufacturing, and Computation. In his publications and lectures, Dr. Drexler describes the implementation and applications of advanced nanotechnologies and shows how they can be used solve, not merely delay, large-scale problems such as global warming.</p>
+</blockquote>
+
+<ul>
+  <li><a href="https://agoric.com/authors/k-eric-drexler/" target="_blank" rel="noopener noreferrer">agoric.com/authors/k-eric-drexler/</a></li>
+  <li><a href="https://ethw.org/K._Eric_Drexler" target="_blank" rel="noopener noreferrer">ethw.org/K._Eric_Drexler</a></li>
+</ul>
+
+<h2 id="the-agoric-papers"><a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers.html" target="_blank" rel="noopener noreferrer">The Agoric Papers</a></h2>
+
+<blockquote>
+  <p>These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988.</p>
+</blockquote>
+
+<h2 id="markets-and-computation-agoric-open-systems">Markets and Computation: Agoric Open Systems</h2>
+
+<blockquote>
+  <p>Like all systems involving goals, resources, and actions, computation can be viewed in economic terms. This paper examines markets as a model for computation and proposes a framework–agoric systems–for applying the power of market mechanisms to the software domain. It then explores the consequences of this model and outlines initial market strategies.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.0.html" target="_blank" rel="noopener noreferrer">Agorics Open Systems Abstract</a> (5k)</p>
+  </li>
+  <li>Mark S. Miller -Xerox Palo Alto Research Center,</li>
+  <li>K. Eric Drexler - MIT Artificial Intelligence Laboratory,</li>
+</ul>
+
+<blockquote>
+  <p>Like all systems involving goals, resources, and actions, computation can be viewed in economic terms. Computer science has moved from centralized toward increasingly decentralized models of control and action; use of market mechanisms would be a natural extension of this development. The ability of trade and price mechanisms to combine local decisions by diverse parties into globally effective behavior suggests their value for organizing computation in large systems.</p>
+</blockquote>
+
+<blockquote>
+  <p>This paper examines markets as a model for computation and proposes a framework-agoric systems-for applying the power of market mechanisms to the software domain. It then explores the consequences of this model at a variety of levels. Initial market strategies are outlined which, if used by objects locally, lead to distributed resource allocation algorithms that encourage adaptive modification based on local knowledge. If used as the basis for large, distributed systems, open to the human market, agoric systems can serve as a software publishing and distribution marketplace providing strong incentives for the development of reusable software components. It is argued that such a system should give rise to increasingly intelligent behavior as an emergent property of interactions among software entities and people.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.1.html" target="_blank" rel="noopener noreferrer">Introduction</a> (9k)</li>
+</ul>
+
+<blockquote>
+  <p>This line of investigation leads us to propose what may be called the agoric approach to software systems. Agoric stems from agora, the Greek term for a meeting and market place. An agoric system is defined as a software system using market mechanisms, based on foundations that provide for the encapsulation and communication of information, access, and resources among objects. Each of these notions plays a role in supporting computational markets.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.2.html" target="_blank" rel="noopener noreferrer">Overview of later sections</a> (5k)</p>
+  </li>
+  <li>
+<strong>Section 3: Computation and economic order.</strong> - Basic characteristics of human markets illuminate the expected nature of computational markets. This section describes some of these characteristics and sketches some of the special issues raised in the context of computation.</li>
+  <li>
+<strong>Section 4: Foundations.</strong> The foundations needed for agoric open systems may be summarized as support for the encapsulation and communication of information, access, and resources. This section describes these foundations and their role in computational markets.</li>
+  <li>
+<strong>Section 5:</strong> Agents and strategies. The foundations of computational markets handle neither resource management (such as processor scheduling and garbage collection) nor market transactions. This section describes the idea of business agents and their use both in replacing centralized resource-allocation algorithms (discussed further by [III]) and in managing complex market behavior.</li>
+  <li>
+<strong>Section 6:</strong> Agoric systems in the large. Large, evolved agoric systems are expected to have valuable emergent properties. This section describes how they can provide a more productive software market in human society-opening major new business opportunities-and how they can further the goal of artificial intelligence.</li>
+  <li>
+<strong>Section 7:</strong> The absence of agoric systems. If market-based computation is a good idea, why has it not yet been developed? This section attempts to show why the current absence of agoric systems is consistent with their being a good idea.</li>
+  <li>
+<strong>Appendix I:</strong> Issues, levels, and scale. Agoric open systems will be large and complex, spanning many levels of scale and complexity. This section surveys how issues such as security, reasoning, and trust manifest themselves at different levels of agoric systems.</li>
+  <li>
+    <p><strong>Appendix II:</strong> Comparison with other systems. Here are reviewed works ranging from those that draw analogies between human society and computational systems to those that explore adaptive computation from an economic point of view.</p>
+  </li>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.3.html" target="_blank" rel="noopener noreferrer">Computation and economic order</a> (26k)</li>
+</ul>
+
+<blockquote>
+  <p>The objects participating in computational markets must initially be much simpler than the human participants in human markets. Can they participate successfully? Human markets are based on intelligent systems, but this does not show the impossibility of basing markets on simple objects-it merely shows that the argument for agoric systems cannot rest on analogy alone. Explicit attention must be paid to the question of the minimal competence and complexity necessary for an object to participate in a market system. (These issues provide another motivation to form computational “firms” and to open computational markets to human participation.)</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.4.html" target="_blank" rel="noopener noreferrer">Foundations</a> (23k)</li>
+</ul>
+
+<blockquote>
+  <p>Computational foundations are frequently expressed in the form of programming language or operating system designs. Programming languages have evolved chiefly to provide abstractions for organizing computation on a small scale-the computation occurring inside a single machine and serving a single user. This has unfortunately led many programming lan- guage designers to make decisions (such as providing for global variables or access to arbitrary memory addresses) that make these languages unsuitable for organizing computation on a very large scale. The Actor languages, Argus, the concurrent logic programming languages (such as FCP), and the Mach operating system are examples of systems which have been designed to be extensible to large, open systems. These are covered in this book respectively in [II], [III], [IV], [V], and [VI]. All these projects have arrived at broadly similar models of computation from different directions, suggesting that their common elements will be of general value. This section briefly outlines some of the properties they share-properties which seem important for the implemention of computational markets.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.5.html" target="_blank" rel="noopener noreferrer">Agents and strategies</a> (33k)</li>
+</ul>
+
+<blockquote>
+  <p>Current resource allocation policies leave much to be desired. One sign of this is that most computing resources-including CPUs, disk heads, local area networks, and much more-sit idle most of the time. But such resources have obvious uses, including improving their own efficiency during later use. For example, heavily-used programs can be recompiled through optimizing compilers or partial evaluators; pages on disk can be rearranged to keep files contiguous; objects can be rearranged according to referencing structure to minimize paging [47], and so forth. In a computational market, a set of unused resources would typically have a zero or near-zero price of use, reflecting only the cost of whatever power consumption or maintenance could be saved by genuine idleness or complete shutdown. Almost any use, however trivial, would then be profitable. In practice, contention for use would bid up prices until they reflected the marginal value of use [5]. Idle time is a blatant sign of wasteful resource allocation policies; one suspects that it is just the tip of a very large iceberg.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.6.html" target="_blank" rel="noopener noreferrer">Agoric systems in the large</a> (26k)</li>
+</ul>
+
+<blockquote>
+  <p>Agoric systems will naturally support a charge-per-use market for software. In any market, software producers will attempt to extract substantial charges from high-volume users. With charge per use, however, the charges to be paid by high-volume users will no longer stand in the way of low-volume users; as a result, they will use expensive software that they could not afford today. At the same time, high-volume users will experience a finite marginal price for using software, rather than buying it and paying a zero marginal price for using it; they will cut back on some of their marginal, low-value uses. The overall benefit of numerous low-volume users making high-value use of the software will likely outweigh the loss associated with a few high-volume users cutting back on their low-value uses, yielding a net social benefit. It seems likely that some of this benefit will appear as increased revenues to software producers, encouraging increased software production.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.7.html" target="_blank" rel="noopener noreferrer">The absence of agoric systems</a> (6k)</li>
+</ul>
+
+<blockquote>
+  <p>Why have agoric open systems not been implemented already? In part, because the software community has lacked an immediate, compelling need. Advances have been made, through better programming environments and methodologies (including the encapsulation and communication of information and access), and through tools for making larger structures visible to programmers [64]-all without building markets. These environments and method- ologies have extended the programmer’s conceptual span of control, enabling one mind or a few closely-coordinated, mutually-trusting minds to build ever larger and more complex programs. These advances have decreased the urgency of enabling extensive cooperation without mutual trust or extensive communications.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.8.html" target="_blank" rel="noopener noreferrer">Conclusions</a> (5k)</li>
+</ul>
+
+<blockquote>
+  <p>This paper has examined many of the concrete issues involved in actually creating computational markets, from hardware and software foundations, to initial market strategies for resource management (chiefly in [III]), to the organization of systems of objects and agents able to interact in a market context. As yet, no obstacle to their realization has been found.</p>
+</blockquote>
+
+<blockquote>
+  <p>Distributed systems based on the charge-per-use sale of software services and computational resources promise a more flexible and effective software market, in which large systems will more often be built from pre-existing parts. With many minds building knowledge and competence into market objects, and with incentives favoring cooperation among these objects, the overall problem-solving ability of the system can be expected to grow rapidly.</p>
+</blockquote>
+
+<blockquote>
+  <p>On a small scale, central planning makes sense; on a larger scale, market mechanisms make sense. Computer science began in a domain where central planning made sense, and central planning has thus been traditional. It seems likely, however, that some modern computer systems are already large and diverse enough to benefit from decentralized market coordination. As systems grow in scale and complexity, so will the advantages of market-based computational systems.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.9.html" target="_blank" rel="noopener noreferrer">Agorics Open Systems Appendix I</a> (17k)</li>
+</ul>
+
+<blockquote>
+  <p>This section has examined how a range of issues-security, compatibility, trust, reasoning, and coordination-may appear at different levels of market-based open systems. Certain themes have appeared repeatedly. Mechanisms at low levels often support those at higher levels, as (for example) high-level coordination mechanisms using simple serializers. Further, higher levels can inherit characteristics of lower levels, such as encapsulation and conservation laws.</p>
+</blockquote>
+
+<blockquote>
+  <p>Issues often blur at the higher levels-security and trust become intertwined, and may both depend on due-process reasoning. The bulk of this paper concentrates on low- and mid-level concerns which must be addressed first, but high-level issues all present a wealth of important research topics.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.10.html" target="_blank" rel="noopener noreferrer">Appendix II. Comparison with other systems</a> (24k)</li>
+</ul>
+
+<blockquote>
+  <p>The Xanadu hypertext publishing system This paper has compared agoric systems to other systems for computation. Our first exposure to many of the central ideas of markets and computation, however, stems from our work with the Xanadu hypertext system [23]. Xanadu is a proposed on-line publishing medium for hypertext documents. A hypertext document differs from the normal notion of a document in that it contains links, connections between documents which readers can follow at the click of a mouse. Published documents thus form not a set of disconnected islands, but a web connected by references, quotes, criticisms, comments, and rebuttals.</p>
+
+  <p>How can a reader find a path in such an interconnected web? Rather than proposing that someone (somehow) create a single, official system index, the Xanadu project proposes support for decentralized indexing, and hence for pluralism. Any reader can author and publish a guide to any set of public documents. Other readers can then use this guide to sort material and orient themselves. Anyone can, of course, publish guides to other guides. Xanadu relies on the expectation that this activity will result in a spontaneous order-a richly-connected world of documents in which readers can find their way.</p>
+
+  <p>Why will indexing be done where needed? In part because readers will do much of the basic searching and sorting for themselves, and then publish the results (since publishing is easy). In addition, however, Xanadu provides a charge-per-read royalty arrangement to encourage publication of material for which there is a demand. Just as charge-per-use software will make it economical to assemble software from diverse components, so Xanadu’s royalty arrangement is designed to encourage the assembly of documents from parts of other documents: if one document quotes another, a reader’s royalty payments are split between them.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/aos/aos.refs.html" target="_blank" rel="noopener noreferrer">References</a> (41k)</li>
+</ul>
+
+<p>Papers referenced with roman numerals can be found in the present volume: Huberman, Bernardo (ed.), Ecology of Computation (Elsevier Science Publishers/North-Holland, 1988).</p>
+
+<ul>
+  <li>[I] Miller, Mark S., and Drexler, K. Eric, “Comparative Ecology: A Computational Perspective”, this volume.</li>
+  <li>[II] Hewitt, Carl, “Offices are Open Systems”, this volume.</li>
+  <li>[III] Drexler, K. Eric, and Miller, Mark S., “Incentive Engineering for Computational Resource Management”, this volume.</li>
+  <li>[IV] Kahn, Kenneth, and Miller, Mark S., “Language Design and Open Systems”, this volume.</li>
+  <li>[V] Liskov, Barbara, “Guardians and Actions: Linguistic Support for Robust, Distributed Programs”, this volume.</li>
+  <li>[VI] Rashid, Richard, “From RIG to Accent to Mach: The Evolution of a Network Operating System”, this volume.</li>
+  <li>[VII] Stefik, Mark, “The Next Knowledge Medium”, this volume.</li>
+  <li>[VIII] Malone, Thomas W., Fikes, R. E., and Howard, M. T., “Enterprise: A Market-Like Task Scheduler for Distributed Computing Environments”, this volume.</li>
+  <li>[IX] Lenat, Douglas B., and Brown, John Seely, “Why AM and EURISKO Appear to Work”, this volume.</li>
+  <li>[1] Popper, Karl R., Objective Knowledge: An Evolutionary Approach (Oxford University Press, London, 1972).</li>
+  <li>[2] Hayek, Friedrich A., The Counter-Revolution of Science: Studies on the Abuse of Reason (Liberty Press, Indianapolis, 1979).</li>
+  <li>[3] Clinger, Will, Foundations of Actor Semantics (MIT, Cambridge, MA, May 1981) MIT AI-TR-633.</li>
+  <li>[4] Agha, Gul, Actors: A Model of Concurrent Computation in Distributed Systems (MIT Press, Cambridge, MA, 1986).</li>
+  <li>[5] Alchian, Armen A., and Allen, William R., University Economics (Wadsworth, Belmont, CA, 1968, Second Edition).</li>
+  <li>[6] Hayek, Friedrich A., The Constitution of Liberty (University of Chicago Press, Chicago, 1960) p.156.</li>
+  <li>[7] Smith, Adam, An Inquiry into the Nature and Causes of The Wealth of Nations (University of Chicago Press, Chicago, 1976) p.531.</li>
+  <li>[8] Hayek, Friedrich A., “Competition as a Discovery Procedure”, in: New Studies in Philosophy, Politics, Economics and the History of Ideas (University of Chicago Press, Chicago, 1978) p.179-190.</li>
+  <li>[9] Hayek, Friedrich A., “Economics and Knowledge”, from: Economica, New Series (1937), Vol. IV, pp.33-54; reprinted in: Hayek, Friedrich A., (ed.), Individualism and Economic Order (University of Chicago Press, Chicago, 1948).</li>
+  <li>[10] Hayek, Friedrich A., New Studies in Philosophy, Politics, Economics and the History of Ideas (University of Chicago Press, Chicago, 1978) p.71.</li>
+  <li>[11] Drexler, K. Eric, “Molecular Engineering: An Approach to the Development of General Capabilities for Molecular Manipulation”, in: Proceedings of the National Academy of Science USA (Sept. 1981) Vol. 78, No.9, pp.5275-5278.</li>
+  <li>[12] Drexler, K. Eric, “Rod Logic and Thermal Noise in the Molecular Nanocomputer”, in: Proceedings of the Third International Symposium on Molecular Electronic Devices (Elsevier Science Publishers / North Holland, 1987).</li>
+  <li>[13] Drexler, K. Eric, Engines of Creation (Anchor Press / Doubleday, Garden City, New York, 1986).</li>
+  <li>[14] Coase, R. H., “The Nature of the Firm”, in: Economica, New Series (1937), Vol. IV, pp.386-405; reprinted in: Stigler, G. J., and Boulding, K. E., (eds.), Readings in Price Theory (Richard D. Irwin, Inc., Chicago, 1952).</li>
+  <li>[15] Williamson, Oliver, Markets and Hierarchies: Analysis and Anti-Trust Implications (Free Press, New York, 1975).</li>
+  <li>[16] Malone, Thomas W.; Yates, JoAnne; and Benjamin, Robert I., “Electronic Markets and Electronic Hierarchies”, in: Communications of the ACM (June 1987) Vol.30, No. 6, pp.484-497.</li>
+  <li>[17] Smith, Vernon L., “Experimental Methods in the Political Economy of Exchange”, in: Science (10 October 1986) Vol.234, pp.167-173.</li>
+  <li>[18] Star, Spencer, “TRADER: A Knowledge-Based System for Trading in Markets”, in: Economics and Artificial Intelligence First International Conference (Aix-En-Provence, France, September 1986).</li>
+  <li>[19] Hoare, C.A.R., Communicating Sequential Processes (Prentice-Hall, New York, 1985).</li>
+  <li>[20] INMOS Limited, Occam Programming Manual (Prentice-Hall International, London, 1984).</li>
+  <li>[21] Shapiro, Ehud, (ed.), Concurrent Prolog: Collected Papers (MIT Press, Cambridge, MA, 1987) in press.</li>
+  <li>[22] Artsy, Yeshayahu, and Livny, Miron, An Approach to the Design of Fully Open Computing Systems (University of Wisconsin / Madison, March 1987) Computer Sciences Technical Report #689.</li>
+  <li>[23] Nelson, Theodor, Literary Machines (published by author, version 87.1, 1987, available from Project Xanadu, 8480 Fredricksburg #8, San Antonio, TX 78229. Available as hypertext on disk from Owl International, 14218 NE 21st St., Bellevue, WA 98007. 1981).</li>
+  <li>[24] Granovetter, Mark, “The Strength of Weak Ties”, in: American Journal of Sociology (1977) Vol. 78, pp.1360-1380.</li>
+  <li>[25] Miller, Mark S., Bobrow, Daniel G., Tribble, Eric Dean, and Levy, Jacob, “Logical Secrets”, in: Shapiro, Ehud, (ed.), Concurrent Prolog: Collected Papers (MIT Press, Cambridge, MA, 1987) in press.</li>
+  <li>[26] Hardin, Garrett, “The Tragedy of the Commons”, in: Science (13 December 1968) Vol. 162, pp.1243-1248.</li>
+  <li>[27] Kurose, James F., Schwartz, Mischa, and Yemini, Yechiam, “A Microeconomic Approach to Decentralized Optimization of Channel Access Policies in Multiaccess Networks”, in: Proceedings of the Fifth International Conference on Distributed Computing Systems (IEEE, Denver CO, May 1985) pp.70-77.</li>
+  <li>[28] Goldberg, Adele, and Robson, Dave, Smalltalk-80: The Language and its Implementation (Addison-Wesley, Reading MA, 1983).</li>
+  <li>[29] Rivest, R., Shamir, A., and Adelman, L., “A Method for Obtaining Digital Signatures and Public-Key Cryptosystems”, in: Communications of the ACM (Feb. 1978) Vol. 21, No. 2, pp.120-126.</li>
+  <li>[30] Tanenbaum, Andrew S., and van Renesse, Robbert, “Distributed Operating Systems”, in: ACM Computing Surveys (ACM, New York, December 1985) Vol. 17, No. 4, pp.419-470.</li>
+  <li>[31] Hayek, Friedrich A., Denationalisation of Money (The Institute of Economic Affairs, Westminster, London, 1978, Second Edition).</li>
+  <li>[32] Denning, Peter J., “The Working Set Model for Program Behavior”, in: Communications of the ACM (May 1968) Vol 2, No. 5, pp.323-333.</li>
+  <li>[33] Artsy, Y., Chang, H-Y, and Finkel, R., Processes Migrate in Charlotte (University of Wisconsin / Madison, August 1986) Computer Sciences Technical Report #655.</li>
+  <li>[34] Artsy, Y., and Finkel, R., “Simplicity, Efficiency, and Functionality in Designing a Process Migration Facility”, in: Proceedings of the Second Israel Conference on Computer Systems and Software Engineering (IEEE, Tel-Aviv, Israel, May 1987) 3.1.2, pp.1-12.</li>
+  <li>[35] Cheriton, D.R., “The V Kernel: A Software Base for Distributed Systems”, in: IEEE Software (April 1984) 1, 2, pp.19-42.</li>
+  <li>[36] Leach, P.J., Levine, P.H., Douros, B.P., Hamilton, J. A., Nelson, D.L., and Stumph, B.L., “The Architecture of an Integrated Local Network”, in: IEEE Journal on Selected Areas in Communication (IEEE, November 1983) SAC-1, 5, 842-857.</li>
+  <li>[37] Bishop, Peter B., Computers with a Large Address Space and Garbage Collection (MIT, Cambridge, MA, May 1977) MIT/LCS/TR-178.</li>
+  <li>[38] Birrell, Andrew D.; Levin, Roy; Needham, Roger M.; and Schroeder, Michael D., “Grapevine: an Exercise in Distributed Computing”, in: Communications of the ACM (April 1982) Vol. 25, No. 4.</li>
+  <li>[39] Terry, Douglas Brian, Distributed Name Servers: Naming and Caching in Large Distributed Environments (Xerox PARC, February 1985) CSL-85-1.</li>
+  <li>[40] Barak, A., and Shiloh, A., “A Distributed Load-Balancing Policy for a Multicomputer” in: Software Practice and Experience (September 1985) 15, pp.901-913.</li>
+  <li>[41] Shapiro, Ehud, “Systolic Programming: A Paradigm for Parallel Processing”, in: Proceedings of the International Conference on Fifth Generation Computer Systems (1984) pp.458-471.</li>
+  <li>[42] Kahn, Kenneth, A Partial Evaluator of Lisp Written in a Prolog Written in Lisp Intended to be Applied to the Prolog and Itself which in turn is Intended to be Given to Itself Together with the Prolog to Produce a Prolog Compiler (University of Uppsala, Sweden, 1983) UPMAIL Tech. Report No. 17.</li>
+  <li>[43] Theriault, D., Issues in the Design and Implementation of Act 2 (MIT AI Lab, Cambridge, MA., 1983) AI-TR-728.</li>
+  <li>[44] Winograd, Terry, and Flores, Fernando, Understanding Computers and Cognition (Ablex, Norwood, NJ, 1986).</li>
+  <li>[45] Witham, Steve, personal communication (1987).</li>
+  <li>[46] Safra, S., and Shapiro, Ehud, “Meta-Interpreters For Real”, in: Proceedings, IFIP-86 (1986) pp.271-278.</li>
+  <li>[47] Stamos, James W., A Large Object-Oriented Virtual Memory: Grouping Strategies, Measurements, and Performance (Xerox PARC, Palo Alto, CA, May 1982) SCG-82-2.</li>
+  <li>[48] Stanley, Terry, personal communication (1987).</li>
+  <li>[49] Hamming, R. W., “One Man’s View of Computer Science”, in: Ashenhurst, Robert L., and Graham, Susan, (eds.), ACM Turing Award Lectures: The First Twenty Years 1966-1985 (Addison-Wesley, Reading, MA, 1987) pp.216.</li>
+  <li>[50] Cox, Brad J., Object Oriented Programming: An Evolutionary Approach (Addison-Wesley, Reading, MA, 1986) pp.26-28.</li>
+  <li>[51] Jacobson, Gary, and Hillkirk, John, Xerox: American Samurai (Macmillan, New York, 1986).</li>
+  <li>[52] Chaum, David, “Design Concepts for Tamper Responding Systems”, in: Advances in Cryptology: Proceedings of Crypto ‘83 (Plenum Press, NY, 1984) pp.387-392.</li>
+  <li>[53] Levy, Henry M., Capability-Based Computer Systems (Digital Press, Bedford, MA, 1984).</li>
+  <li>[54] Gehringer, Edward F., Capability Architectures and Small Objects (UMI Research Press, Ann Arbor, MI, 1982).</li>
+  <li>[55] Organick, Elliott I., A Programmer’s View of the Intel 432 System (McGraw-Hill, New York, 1983).</li>
+  <li>[56] Rees, Jonathan A., and Adams, Norman I., IV, “T: a Dialect of Lisp or, Lambda: The Ultimate Software Tool”, in: Proceedings of the 1982 ACM Symposium on Lisp and Functional Programming (August 1982).</li>
+  <li>[57] Conway, M.E., “How Do Committees Invent?”, in: Datamation (April 1968) 14, 4, pp.28-31.</li>
+  <li>[58] Brooks, Frederick P., Jr., The Mythical Man Month (Addison-Wesley Publishing Company, Reading, MA, 1975) pp.111.</li>
+  <li>[59] Hayek, Friedrich A., “Cosmos and Taxis” in: Law, Legislation and Liberty, Vol. 1: Rules and Order, (University of Chicago Press, Chicago, 1973) pp.35-54.</li>
+  <li>[60] Minsky, Marvin, The Society of Mind (Simon and Schuster, New York, 1986).</li>
+  <li>[61] Kornfeld, William A., and Hewitt, Carl, “The Scientific Community Metaphor”, in: IEEE Transactions on Systems, Man, and Cybernetics (IEEE, 1981) SMC-11, pp.24-33.</li>
+  <li>[63] March, J. G., “Footnotes to Organizational Change”, in: Administrative Science Quarterly (1981) 26, pp.563-577.</li>
+  <li>[64] Barstow, David R., Shrobe, Howard E., and Sandewall, Erik, (eds.), Interactive Programming Environments (McGraw-Hill, New York, 1984).</li>
+  <li>[65] Xerox, Courier: The Remote Procedure Call Protocol (Xerox Corp, Stamford CT, 1982) p.5.</li>
+  <li>[66] Rao, Ramana Balusu, Toward Interoperability and Extensibility in Window Environments via Object-Oriented Programming (MIT Press, 1987) submitted as Masters Thesis.</li>
+  <li>[67] Shrager, Jeff, and Klahr, David, “Instructionless Learning about a Complex Device: The Paradigm and Observations”, in: Int. J. Man-Machine Studies (1986) 25, pp.153-189.</li>
+  <li>[68] Dawkins, Richard, The Selfish Gene (Oxford University Press, New York, 1976).</li>
+  <li>[69] Axelrod, Robert, The Evolution of Cooperation (Basic Books, New York, 1984).</li>
+  <li>[70] McDermott, Drew, “A Critique of Pure Reason”, to appear in: Levesque, Hector, (ed.), Computational Intelligence (National Research Council of Canada, August or September, 1987).</li>
+  <li>[71] Dijkstra, E. W., “Co-operating Sequential Processes”, in: Genuys, F., (ed.), Programming Languages (Academic Press, New York, 1968) pp.43-112.</li>
+  <li>[72] Demers, Alan, Greene, Dan, Hauser, Carl, Irish, Wes, Larson, John, Shenker, Scott, Sturgis, Howard, Swinehart, Dan, and Terry, Doug, “Epidemic Algorithms for Replicated Database Maintenance”, in: Proceedings of the Sixth Annual ACM Symposium on Principles of Distributed Computing (ACM, Vancouver, British Columbia, Canada, August 10-12, 1987) pp.1-12.</li>
+  <li>[73] Hanson, Robin, Toward Hypertext Publishing: Issues and Choices in Database Design (draft available from Foresight Institute, Palo Alto, CA, 1987).</li>
+  <li>[74] Stefik, Mark, Foster, Gregg, Bobrow, Daniel G., Lahn, Kenneth, Lanning, Stan, and Suchman, Lucy, “Beyond the Chalkboard: Computer Support for Colaboration and Problem Solving in Meetings”, in: Communications of the ACM (January 1987) Vol. 30, No. 1, pp.32-47.</li>
+  <li>[75] Hewitt, Carl, “Robert’s Rules of Order” (in press).</li>
+  <li>[76] Malone, Thomas W., “Organizing Information Processing Systems: Parallels Between Human Organizations and Computer Systems”, in: Zacharay, W., Robertson, S., and Black, J., (eds.), Cognition, Computation, and Cooperation (Ablex Publishing Corp., Norwood, NJ, 1986).</li>
+  <li>[77] Lenat, Douglas B., “The Role of Heuristics in Learning by Discovery: Three Case Studies”, in: Michalski, Ryszard S., Carbonell, Jaime G., and Mitchell, Tom M. (eds.), Machine Learning: An Artificial Intelligence Approach (Tioga Publishing Company, Palo Alto, CA, 1983) pp.243-306.</li>
+  <li>[78] Harris, Jed, Yu, Chee, Harris, Britton, Market Based Scheduling (1987) in preparation.</li>
+  <li>[79] Sutherland, I.E., “A Futures Market in Computer Time”, in: Communications of the ACM (June 1968) Volume 11, Number 6.</li>
+  <li>[80] McClelland, James L., Rumelhart, David E., and PDP Research Group, Parallel Distributed Processing (MIT Press, Cambridge, MA, 1986) Volumes 1 and 2.</li>
+  <li>[81] Holland, John H., Holyoak, Keith J., Nisbett, Richard E., and Thagard, Paul R., Induction: Processes of Inference, Learning, and Discovery (MIT Press, Cambridge, MA, 1986).</li>
+  <li>[82] Holland, John H., Holyoak, Keith J., Nisbett, Richard E., and Thagard, Paul R., Induction: Processes of Inference, Learning, and Discovery (MIT Press, Cambridge, MA, 1986) pp.72-75, 79.</li>
+  <li>[83] Barto, Andrew G., “Game Theoretic Cooperativity in Networks of Self-Interested Units”, in: Denker, John S. (ed.), Neural Networks for Computing (American Institute of Physics, New York, 1986) pp.41-46.</li>
+  <li>[84] Minsky, Marvin, “Steps Toward Artificial Intelligence”, in: Feigenbaum, Edward A., and Feldman, Julian, (eds.), Computers and Thought (Robert E. Krieger, Malabar, FL, 1981) pp.406-450.</li>
+  <li>[85] Minsky, Marvin, personal communication (1987).</li>
+</ul>
+
+<h2 id="incentive-engineering-for-computational-resource-management">Incentive Engineering: for Computational Resource Management</h2>
+
+<blockquote>
+  <p>Agoric computation will require market-compatible mechanisms for the allocation of processor time and storage space. Recasting processor scheduling as an auction process yields a flexible priority system. Recasting storage management as a system of decentralized market negotiations yields a distributed garbage collection algorithm able to collect unreferenced loops that cross trust boundaries. Algorithms that manage processor time and storage in ways that enable both conventional computation and market-based decision making will be useful in establishing agoric systems: they lie at the boundary between design and evolution. Algorithms are described in detail.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ie/ie0.html" target="_blank" rel="noopener noreferrer">Incentive Engineering: Abstract</a> (3k)</li>
+</ul>
+
+<blockquote>
+  <p>Agoric computation [I,II] will require market-compatible mechanisms for the allocation of processor time and storage space. Recasting processor scheduling as an auction process yields a flexible priority system. Recasting storage management as a system of decentralized market negotiations yields a distributed garbage collection algorithm able to collect unreferenced loops that cross trust boundaries. Algorithms that manage processor time and storage in ways that enable both conventional computation and market-based decision making will be useful in establishing agoric systems: they lie at the boundary between design and evolution. We describe such algorithms in some detail.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ie/ie1.html" target="_blank" rel="noopener noreferrer">Introduction</a> (21k)</li>
+</ul>
+
+<p>Several systems-programming constraints are important in storage management. First, non-garbage-everything reachable by a chain of strong pointers leading from a well-funded object-must not be collected. Second, garbage-everything that is unreferenced and cannot induce other objects to reference or pay it-should eventually be collected. Finally, overhead costs should be reasonable: bookkeeping storage per object should be bounded and the computational burden of the algorithms should scale roughly linearly (at most) with the number of objects.</p>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ie/ie2.html" target="_blank" rel="noopener noreferrer">Processor scheduling</a> (21k)</li>
+</ul>
+
+<blockquote>
+  <p>This section describes initial market strategies for both sellers and buyers. In processor scheduling, we will term the time-seller (or agent for the seller) an auction house, and a time-buyer (or agent for a buyer) a bidder. A system may have any number of competing sellers.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ie/ie3.html" target="_blank" rel="noopener noreferrer">Storage management</a> (44k)</li>
+</ul>
+
+<blockquote>
+  <p>In rent-based storage management, we again must specify strategies both for the relationships between buyers and sellers (here, renters and landlords) and for the relationships among renters (in their roles as clients and consultants). The latter are complex.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ie/ie4.html" target="_blank" rel="noopener noreferrer">Initial strategies</a> for trust (5k)</li>
+</ul>
+
+<blockquote>
+  <p>Many of the above algorithms make strategic sense only if one object can trust another object to follow them. For example, there are direct financial incentives to embezzle funds or misreport earnings by violating the dividend algorithm, and there are market-share incentives to produce falsely low cost estimates by violating the base-demand algorithm. Further, improper market intelligence (who is using what services?) can be gleaned by comparing alert- ID values arriving via different consultants. Thus, one needs what may be called initial strategies for trust.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ie/ie5.html" target="_blank" rel="noopener noreferrer">Probabilistic cash</a> flows (9k)</li>
+</ul>
+
+<blockquote>
+  <p>As noted in the discussion of accounting overhead in the dividend algorithm, the incentive structure of an algorithm (in the absence of risk aversion) is determined by its average expected payoffs, which can deviate from its actual payoffs on any given occasion. This principle has general applicability.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ie/ie6.html" target="_blank" rel="noopener noreferrer">Conclusions</a> (5k)</li>
+</ul>
+
+<blockquote>
+  <p>This paper has explored mechanisms for the allocation of processor time and storage that are compatible both with programming practice and with market mechanisms. Processor scheduling through an auction process yields a flexible, decentralized priority system, allowing a variety of strategies that make tradeoffs involving the speed, certainty, and cost of service. Storage can be managed through auctioning of rental space and decentralized networks of client-consultant relationships. This yields a distributed garbage collection algorithm able both to collect unreferenced loops that cross trust boundaries and to accumulate rough price information to guide economic decisions regarding, for example, local caching in distributed systems.</p>
+</blockquote>
+
+<blockquote>
+  <p>Some of these algorithms (e.g., for processor scheduling) have per-decision costs comparable to those of non-market mechanisms in current use; others have costs that are much greater. In general, these costs will be acceptable for objects of sufficient size and processes of sufficient duration.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ie/ieappendix.html" target="_blank" rel="noopener noreferrer">Incentive Engineering Appendix</a> (3k)</li>
+</ul>
+
+<blockquote>
+  <p>The alert algorithm is the most procedurally intricate of the initial strategies described here, hence it is the one least suited to description in English. It is documented here by code written in the programming language FCP [V,16]; this code has not been run. To facilitate object-oriented programming, we are using a form of syntactic sugar known as “keyword terms” [17].</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ie/ie.refs.html" target="_blank" rel="noopener noreferrer">References</a> (11k)</li>
+</ul>
+
+<p>Papers referenced with roman numerals can be found in the present volume: Huberman, Bernardo (ed.), Ecology of Computation (Elsevier Science Publishers/North-Holland, 1988).</p>
+
+<ul>
+  <li>[I] Miller, Mark S., and Drexler, K. Eric, “Comparative Ecology: A Computational Perspective”, this volume.</li>
+  <li>[II] Miller, Mark S., and Drexler, K. Eric, “Markets and Computation: Agoric Open Systems”, this volume.</li>
+  <li>[III] Liskov, Barbara, “Guardians and Actions: Linguistic Support for Robust, Distributed Programs”, this volume.</li>
+  <li>[IV] Rashid, Richard F., “From RIG to Accent to Mach: The Evolution of a Network Operating System”, this volume.</li>
+  <li>[V] Kahn, Kenneth, and Miller, Mark S., “Language Design and Open Systems”, this volume.</li>
+  <li>[1] Lieberman-Hewitt Algorithm: Lieberman, Henry, and Hewitt, Carl, “A Real-Time Garbage Collector Based on the Lifetimes of Objects”, in: Communications of the ACM (June 1983) 26, 6, pp.419-429.</li>
+  <li>[2] Quarterman, John S., Silbershatz, Abraham, Peterson, James L., “4.2BSD and 4.3BSD as Examples of the UNIX System”, in: ACM Computing Surveys (December 1985) Vol. 17 No. 4 pp.379-418.</li>
+  <li>[3] Rees, Jonathan A., and Adams, Norman I., IV, “T: a Dialect of Lisp or, Lambda: The Ultimate Software Tool”, in: Proceedings of the 1982 ACM Symposium on Lisp and Functional Programming (August 1982).</li>
+  <li>[4] Bishop, Peter B., Computers with a Large Address Space and Garbage Collection (MIT, Cambridge, MA, May 1977) MIT/LCS/TR-178.</li>
+  <li>[5] Smith, Vernon L., “Experimental Methods in the Political Economy of Exchange”, in: Science (10 October 1986) Vol. 234, pp.167-173.</li>
+  <li>[6] Friedman, Daniel, “On the Efficiency of Experimental Double Auction Markets”, in: American Economic Review (March 1984) Vol. 24, No. 1, pp. 60-72.</li>
+  <li>[7] Theriault, D., Issues in the Design and Implementation of Act 2 (MIT AI Lab, Cambridge, MA., 1983) AI-TR-728.</li>
+  <li>[8] Kornfeld, William A., “Using Parallel Processing for Problem Solving” (MIT AI Lab, Cambridge, MA, 1979) MIT-AI-561.</li>
+  <li>[9] Ungar, David Michael, The Design and Evaluation of a High Performance Smalltalk System (MIT Press, Cambridge, MA, 1987).</li>
+  <li>[10] Axelrod, Robert, The Evolution of Cooperation (Basic Books, New York, 1984).</li>
+  <li>[11] Agha, Gul, Actors: A Model of Concurrent Computation in Distributed Systems (MIT Press, Cambridge, MA, 1986).</li>
+  <li>[12] Raffia, Howard, Decision Analysis: Introductory Lectures on Choices under Uncertainty (Addison-Wesley, Reading, MA, 1970).</li>
+  <li>[13] Dawkins, Richard, The Selfish Gene (Oxford University Press, New York, 1976).</li>
+  <li>[14] Hofstadter, Douglas R., “Dilemmas for Superrational Thinkers, Leading Up to a Luring Lottery”, in: Metamagical Themas: Questing for the Essence of Mind and Pattern (Basic Books, New York, 1985) pp. 739-755.</li>
+  <li>[15] Genesereth, M. R., Ginsberg, M. L., and Rosenschein, J. S., Cooperation without Communication (1984) HPP Report 84-41.</li>
+  <li>[16] Shapiro, Ehud, (ed.), Concurrent Prolog: Collected Papers (MIT Press, Cambridge, MA, 1987) in press.</li>
+  <li>[17] Hirsh, Susan, Kahn, Kenneth M., and Miller, Mark S., Interming: Unifying Keyword and Positional Notations (Xerox PARC, Palo Alto, CA, 1987) in press.</li>
+</ul>
+
+<h2 id="comparative-ecology-a-computational-perspective">Comparative Ecology: A Computational Perspective</h2>
+
+<blockquote>
+  <p>A long-standing dream in the field of artificial intelligence has been to use evolutionary processes to produce systems of greater competence than those we can directly design. This paper compares different evolutionary models–such as biological ecosystems, markets, and EURISKO–with respect to this goal. This comparison suggests that a form of ecosystem here termed a direct market (as opposed to the indirect market of human society) is a promising basis for computational ecosystems.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ce/ce0.html" target="_blank" rel="noopener noreferrer">Comparative Ecology Abstract</a> (3k)</li>
+</ul>
+
+<blockquote>
+  <p>A long-standing dream in the field of artificial intelligence has been to use evolutionary processes to produce systems of greater competence than those we can directly design. This paper compares different evolutionary models-such as biological ecosystems, markets, and EURISKO-with respect to this goal. This comparison suggests that a form of ecosystem here termed a direct market (as opposed to the indirect market of human society) is a promising basis for computational ecosystems. Related papers [I,II] in this book elaborate a vision of direct computational markets termed agoric open systems.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ce/ce1.html" target="_blank" rel="noopener noreferrer">Introduction</a> (8k)</li>
+</ul>
+
+<blockquote>
+  <p>Ecosystems discussed in this paper include Axelrod’s iterated prisoner’s dilemma game [5], which can serve as a sort of E. coli of ecosystems, and biological ecosystems, which are familiar enough to serve as a point of reference for the rest. Others discussed are Lenat’s EURISKO program [III,6], political ecosystems, and what will here be termed direct and indirect market ecosystems. Markets are the central theme-other ecosystems are compared to markets, and markets themselves are generalized from existing human systems to proposed computational systems.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ce/ce2.html" target="_blank" rel="noopener noreferrer">Evolution in ecosystems</a> (12k)</li>
+</ul>
+
+<blockquote>
+  <p>The Axelrod tournament Robert Axelrod developed an ecosystem in which the entities interact in rounds of iterated prisoner’s dilemma games [5]. To understand it, one must first understand the dilemma itself. Instead of the traditional scenario of prisoners being interrogated, Hofstadter’s illustration with the following scenario seems more intuitive.</p>
+</blockquote>
+
+<blockquote>
+  <p>Two dealers arrange to trade items. Each dealer agrees to place his item in a bag and leave it at a designated place to be retrieved by the other dealer. The dilemma presents itself when each dealer considers how best to interact with the other-given that they are strangers, will not meet face to face for this exchange, and will never deal with each other in the future. As Hofstadter describes, each dealer reasons as follows:</p>
+</blockquote>
+
+<blockquote>
+  <p>“`If the [other] dealer brings a full bag, I’ll be better off having left an empty bag, because I’ll have gotten all that I wanted and given away nothing. If the dealer brings an empty bag, I’ll be better off having left an empty bag, because I’ll not have been cheated. I’ll have gained nothing but lost nothing either. Thus it seems that no matter what the dealer chooses to do, I’m better off leaving an empty bag. So I’ll leave an empty bag.’ . . .And so both of you, with your impeccable (or impeccable-seeming) logic, leave empty bags, and go away empty handed. How sad, for if you both had just cooperated, you could have each gained something you wanted to have. Does logic prevent cooperation? This is the issue of the Prisoner’s Dilemma.” [emphasis in the original] [9]</p>
+</blockquote>
+
+<blockquote>
+  <p>The underlying strategic situation can be made precise in the following fashion: In a single prisoner’s dilemma interaction, two players each choose between moves (termed cooperate and defect) in ignorance of the other’s choice. If both cooperate, both are rewarded (in Axelrod’s case, with a payoff of 3 points). If one cooperates and the other defects, the defector receives an even greater reward (5 points), while the cooperator receives nothing (0 points). If both defect, both are punished (by receiving only 1 point).</p>
+</blockquote>
+
+<blockquote>
+  <p>In a single move, each player has an incentive to defect regardless of the other player’s move, but double-cooperation is better than double-defection. Overall, pairs of players that cooperate earn higher scores than those that do not.</p>
+</blockquote>
+
+<blockquote>
+  <p>In an iterated prisoner’s dilemma game, two players go through a long series of moves, and can base their actions on the history of play. When one expects (and hopes for) further transactions with the other party, simple defection no longer seems as attractive. Indeed, by running a computer tournament, Axelrod showed that the logic of an iterated prisoner’s dilemma actually fosters cooperation.</p>
+</blockquote>
+
+<blockquote>
+  <p>Robert Axelrod ran a Computer Prisoner’s Dilemma Tournament based on the above rules. A diverse group of game theorists were invited to submit programs to play against each other in a round-robin of games, each averaging 200 single moves. After the first tournament, Axelrod circulated the results-including the nature of the winning program, judged by cumulative points-and solicited entries for a second tournament.</p>
+</blockquote>
+
+<blockquote>
+  <p>Axelrod’s pair of tournaments may be described as a simple evolutionary ecosystem. The replicators were the programs themselves (or the strategies those programs embody), the variation mechanism was human ingenuity (since programs were modified between tournaments), and the selection criterion during a tournament was simply the number of points earned. Programs interacted with each other in an environment imposing certain rules, and their success depended on each others’ behavior. Further, Axelrod went on to simulate the population dynamics of a set of programs, given the assumption that points earned determined the “population density” of that program in the next time period.</p>
+</blockquote>
+
+<blockquote>
+  <p>In both tournaments a very simple program won. That program was TIT FOR TAT, submitted by psychologist Anatol Rapoport. In the population dynamics simulation, the success of TIT FOR TAT was even more pronounced. Analyzing TIT FOR TAT’s success can suggest how to analyze other ecosystems.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ce/ce3.html" target="_blank" rel="noopener noreferrer">Evolutionarily stable strategies</a> (6k)</li>
+</ul>
+
+<blockquote>
+  <p>A single population-dynamics process can be described as an ecosystem, but not as an evolutionary ecosystem, since there is no source of variation. Axelrod’s series of two tournaments included variation from one to the next, and hence qualifies. To transform it into a better example of an evolutionary ecosystem, imagine a continuing tournament open to outside contestants able to create new strategies and introduce them in small numbers. In any such open, evolving ecosystem, given no special restrictions on allowable variations, one should expect the ecosystem to become populated primarily by an ESS. The properties of such an ESS will often indicate emergent properties of the system. For example, in any open Axelrod ecosystem most moves will be cooperative.</p>
+</blockquote>
+
+<blockquote>
+  <p>The above discussion of Axelrod’s system benefits from hindsight. The original game-theory experts who submitted the original strategies knew the rules, and those who submitted strategies for the second tournament even had the benefit of a bit of hindsight from the first tournament. Nevertheless, in both cases most of the strategies submitted were not nice, and so were not ESSs. The analyses which follow cover much more complex ecosystems, in which the nature of strategies and payoffs are much more subtle.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ce/ce4.html" target="_blank" rel="noopener noreferrer">Biological and market ecosystems</a> (30k)</li>
+</ul>
+
+<blockquote>
+  <p>Biological and market ecosystems both contain a mixture of symbiotic and negative-sum relationships. This paper argues that biological ecosystems involve more predation, while idealized market ecosystems involve more symbiosis. Indeed, one can make a case that this is so even for human market ecosystems-that biological ecosystems are, overall, dominated by predation, while market ecosystems are, overall, dominated by symbiosis.</p>
+</blockquote>
+
+<blockquote>
+  <p>In human markets (as in idealized markets) producers within an industry compete, but chains of symbiotic trade connect industry to industry. Competition in biology likewise occurs most often among those occupying the same niche, but here, it is predation that connects from niche to niche. Because of the lack of reputations and trademarks, symbiosis in biology occurs most often in situations where the “players” find themselves in a highly-iterated game. In the extreme, the symbiotic system itself becomes so tightly woven that it is considered a single organism-as with lichens composed of fungi and algae, or animals composed of eukaryotic cells containing mitochondria. Predation, of course, links one symbiotic island to the next.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ce/ce5.html" target="_blank" rel="noopener noreferrer">EURISKO and markets</a> (15k)</li>
+</ul>
+
+<blockquote>
+  <p>Lenat’s EURISKO system [6] may be viewed as an ecosystem in which the replicators are interacting, evolving heuristics-that is, evolving, computational rules of thumb. Two kinds of heuristics populate EURISKO: object-level heuristics whose subject domain is some topic to be explored (such as war games or three-dimensional VLSI), and meta-heuristics whose subject domain is heuristics. Variation occurs as meta-heuristics create new heuristics from old ones via mutation, and selection occurs as meta-heuristics judge and determine the “interestingness” of heuristics (a numeric value associated with a heuristic). This quantity determines allocation of processing resources, so heuristics compete for survival and influence based on their degree of “interestingness”.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ce/ce6.html" target="_blank" rel="noopener noreferrer">Memes and markets: direct and indirect market ecosystems</a> (11k)</li>
+</ul>
+
+<blockquote>
+  <p>Human cultures evolve. Their replicators are any of the information patterns which make up a culture, and which spread (with variation) from human to human via imitation. By analogy with genes, these replicators are known as memes [7]; they include ideas, beliefs, habits, morals, fashions, designs, techniques, jokes, and more. Any pattern which can spread via imitation is a meme, even if its human host cannot articulate it or is unaware of its existence.</p>
+</blockquote>
+
+<blockquote>
+  <p>It is important to recognize that the replicators of human culture are memes, not people. The lack of this distinction has led to the unfortunate confusion called “social darwinism”. Our ability to change our minds allows cultural evolution to proceed not by selection of humans, but, as Karl Popper says, by “letting our theories die in our stead” [4].</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ce/ce7.html" target="_blank" rel="noopener noreferrer">Computational legal systems and markets</a> (20k)</li>
+</ul>
+
+<p>Like human markets, direct computational markets will have many problems. Computational markets are enough like human societies that it is worth examining mechanisms-such as law and regulation-used by human societies to try to deal with these problems. However, these analogies must be used with care-there are also many differences between human and computational markets.</p>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ce/ce8.html" target="_blank" rel="noopener noreferrer">Conclusions</a> (3k)</li>
+</ul>
+
+<blockquote>
+  <p>Although evolutionary reasoning is most often applied to biological ecosystems, it is also of use in understanding human markets, culture, and politics, and adaptive computational systems such as EURISKO. By assuming that an ecosystem’s foundational rules will shape its evolutionarily stable strategies, and that these strategies will dominate behavior in the ecosystem, one can relate foundations to emergent properties-including properties sought by a designer. This paper has examined a variety of evolutionary ecosystems and compared them with “direct, idealized-market ecosystems”; for the purpose of evolving useful computational behavior, the latter have strong advantages. Other papers in this volume explore the implementation and properties of computational markets of this sort in greater depth [I,II].</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers/ce/ce.refs.html" target="_blank" rel="noopener noreferrer">References</a> (20k)</li>
+</ul>
+
+<p>Papers referenced with roman numerals can be found in the present volume: Huberman, Bernardo (ed.), Ecology of Computation (Elsevier Science Publishers/North-Holland, 1988).</p>
+<ul>
+  <li>[I] Miller, Mark S., and Drexler, K. Eric, “Markets and Computation: Agoric Open Systems”, this volume.</li>
+  <li>[II] Miller, Mark S., and Drexler, K. Eric, “Incentive Engineering for Computational Resources”, this volume.</li>
+  <li>[III] Lenat, Douglas B. and Brown, John Seely,, “Why AM and EURISKO Appear to Work”, this volume.</li>
+  <li>[IV] Kahn, Kenneth, and Miller, Mark S., “Language Design and Open Systems”, this volume.</li>
+  <li>[V] Rashid, Richard F., “From RIG to Accent to Mach: The Evolution of a Network Operating System”, this volume.</li>
+  <li>[VI] Perlis, Alan, “The Evolution of Software Systems”, this volume.</li>
+  <li>[VII] Stefik, Mark, “The Next Knowledge Medium”, this volume.</li>
+  <li>[1] Dawkins, Richard, “The Blind Watchmaker: Why the Evidence of Evolution Reveals a Universe Without Design (W.W. Norton and Company, New York, 1986</li>
+  <li>[2] Hayek, Friedrich A., “Cosmos and Taxis”, in: Law, Legislation and Liberty, Vol. 1: Rules and Order (University of Chicago Press, Chicago, 1973) pp.35-54.</li>
+  <li>[3] Gardner, Martin, Wheels, Life, and Other Mathematical Amusements (W. H. Freeman, New York, 1983).</li>
+  <li>[4] Popper, Karl R., “Evolutionary Epistomology”, in Miller, David, (ed.), Popper Selections (Princeton University Press, Princeton NJ, 1985) pp.78-86.</li>
+  <li>[5] Axelrod, Robert, The Evolution of Cooperation (Basic Books, New York, 1984).</li>
+  <li>[6] Lenat, Douglas B., “The Role of Heuristics in Learning by Discovery: Three Case Studies”,in Michalski, Ryszard S., Carbonell, Jaime G., and Mitchell, Tom M. (eds.), Machine Learning: An Artificial Intelligence Approach (Tioga Publishing Company, Palo Alto, CA, 1983) pp.243-306.</li>
+  <li>[7] Dawkins, Richard, The Selfish Gene (Oxford University Press, New York, 1976).</li>
+  <li>[8] Wilson, Edward O., Sociobiology (Belknap Press/ Harvard University Press, Cambridge, MA, 1975).</li>
+  <li>[9] Hofstadter, Douglas R., “The Prisoner’s Dilemma Computer Tournaments and the Evolution of Cooperation”, in Metamagical Themas: Questing for the Essence of Mind and Pattern (Basic Books, New York, 1985) pp.715-716.</li>
+  <li>[10] Smith, Maynard J. and Price, G.R., “The Logic of Animal Conflicts”, in Nature (1973) 246, pp.15-18.</li>
+  <li>[11] Drexler, K. Eric, “Molecular Engineering: An Approach to the Development of General Capabilities for Molecular Manipulation”, in: Proceedings of the National Academy of Science USA (Sept. 1981) Vol. 78, No 9, pp. 5275-5278.</li>
+  <li>[12] Drexler, K. Eric, Engines of Creation (Anchor Press/Doubleday, Garden City, New York, 1986).</li>
+  <li>[13] Rivest, R., Shamir, A., and Adelman, L., “A Method for Obtaining Digital Signatures and Public-Key Cryptosystems” in: Communications of the ACM (Feb. 1978) Vol. 21, No. 2, pp. 120-126.</li>
+  <li>[14] Miller, Mark S.; Bobrow, Daniel G.; Tribble, Eric Dean; and Levy, Jacob, “Logical Secrets”, in Shapiro, Ehud, (ed.), Concurrent Prolog: Colected Papers (MIT Press, Cambridge, MA, 1987) in press.</li>
+  <li>[15] Hayek, Friedrich A., Denationalisation of Money (The Institute of Economic Affairs, Westminster, London, 1978, Second Edition).</li>
+  <li>[16] Keynes, John Maynard, The General Theory of Employment, Interest, and Money (Harcourt Brace Jovanovich, San Diego, CA, 1964).</li>
+  <li>[17] Wickler, Wolfgang, Mimicry in Plants and Animals (World University Library/ MaGraw-Hill, New York, 1968).</li>
+  <li>[18] Dawkins, Richard, The Extended Phenotype (Oxford University Press, New York, 1982).</li>
+  <li>[19] Holland, John H., Holyoak, Keith J., Nisbett, Richard E., and Thagard, Paul R., Induction: Processes of Inference, Learning, and Discovery (MIT Press, Cambridge, MA, 1986).</li>
+  <li>[20] Ames, Bruce N., Magaw, Renae, and Gold, Lois Swirsky, “Ranking Possible Carcinogenic Hazards”, in Science (17 April 1987) Vol. 236, pp. 271-285.</li>
+  <li>[21] Nisbett, Richard, and Ross, Lee, Human Inference: Strategies and Shortcomings of Social Judgment (Prentice-Hall, Englewood Cliffs, NJ, 1980).</li>
+  <li>[22] Haase, Kenneth W., Jr., “Discovery Systems”, in ECAI ‘86: The 7th European Conference on Artificial Intelligence (July 1986) Vol. 1, pp. 546-555.</li>
+  <li>[23] Hardin, Garret, “The Tragedy of the Commons”, in Science (13 December 1968) Vol. 162, pp. 1243-1248.</li>
+  <li>[24] Tullock, Gordon, The Organization of Inquiry (Duke University Press, Durham, NC, 1966).</li>
+  <li>[25] Nelson, Theodor, Literary Machines (published by author, version 87.1, 1987, available from Project Xanadu, 8480 Fredricksburg #8, San Antonio, TX 78229. Available as hypertext on disk from Owl International, 14218 NE 21st St., Bellevue, WA 98007. 1981).</li>
+  <li>[26] Drexler, K., Eric, Hypertext Publishing and the Evolution of Knowledge (Foresight Institute, Los Altos, CA, 1986).</li>
+  <li>[27] Kornfield, William A., and Hewitt, Carl, “The Scientific Community Metaphor”, in IEEE Transactions on Systems, Man, and Cybernetics (IEEE, 1981) SMC-11, pp. 24-33.</li>
+  <li>[28] Kornfield, William A., “Using Parallel Processing for Problem Solving” (MIT AI Lab, Cambridge, MA, 1979) MIT-AI-561.</li>
+  <li>[29] Hayek, Friedrich A., Unemployment and Monetary Policy: Government as a Generator of the “Business Cycle” (Cato Institute, San Francisco, CA, 1979).</li>
+  <li>[30] Friedman, David, The Machinery of Freedom: Guide to a Radical Capitalism (Harper and Row, New York, 1973).</li>
+  <li>[31] Friedman, Milton, and Schwartz, Anna, “The Great Contraction”, in A Monetary History of the United States, 1867-1960 (Princeton University Press/ National Bureau of Economic Research, 1963) Chap. 7.</li>
+  <li>[32] McGee, John S., “Predatory Price Cutting; The Standard Oil (NJ) Case”, in Journal of Law and Economics (October 1958) 1, 137.</li>
+  <li>[33] Epstein, Richard A., Takings: Private Property and the Power of Eminent Domain (Harvard University Press, Cambridge, MA, 1985).</li>
+  <li>[34] Buchanan, James M. and Tullock, Gordon, The Calculus of Consent: Logical Foundations of Constitutional Democracy (University of Michigan Press, Ann Arbor, MI, 1965).</li>
+  <li>[35] Tullock, Gordon, The Vote Motive (The Institute of Economic Affairs, Westminster, London, 1976).</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#agoric" class="page__taxonomy-item" rel="tag">Agoric</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#eric-drexler" class="page__taxonomy-item" rel="tag">Eric Drexler</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#history" class="page__taxonomy-item" rel="tag">history</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#mark-miller" class="page__taxonomy-item" rel="tag">Mark Miller</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#obcap" class="page__taxonomy-item" rel="tag">ObCap</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#smart-contracts" class="page__taxonomy-item" rel="tag">Smart Contracts</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#literature" class="page__taxonomy-item" rel="tag">literature</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-06-28">June 28, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  <h2><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/blob/master/_posts/2019-06-28-agoric-papers.md" class="edit" target="_blank" rel="noopener noreferrer">Edit this page <i class="fa fa-pencil"></i></a></h2>
+  <h3>Social Share</h3>
+  <a href="https://twitter.com/intent/tweet?via=SourceCrypto&amp;text=The+Agoric+Papers%20http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fliterature%2Fagoric-papers-miller-drexler%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fliterature%2Fagoric-papers-miller-drexler%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fliterature%2Fagoric-papers-miller-drexler%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fliterature%2Fagoric-papers-miller-drexler%2F&amp;title=The+Agoric+Papers" class="btn btn--reddit" title="Share on Reddit" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> Reddit</span></a>
+  <p><img src="https://infominer.id/assets/img/1pLr.gif"></p>
+  <h3>Tips Welcome</h3>
+    <p>Feel free to <a href="mailto:infominer@protonmail.com">contact me</a> if you're interested in <a href="https://web-work.tools/services/#iso-clients-who-want-bitcoin-related-content" target="_blank" rel="noopener noreferrer">Bitcoin related content / research</a>!</p>
+  <table class="table table-bordered table-hover table-condensed">
+    <thead>
+      <tr>
+        <th title="Field #1">Bitcoin</th>
+        <th title="Field #2">DOGE</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1A1DZfw4VgpHCgnMjnmfDnMjddKf8xdYbd</td>
+        <td>DQKkzfJjqnXUD8Z7C3e84vKzvghPe9dXSa</td>
+      </tr>
+      <tr>
+        <td><img src="https://imgur.com/yXLLm9Bl.png" width="150"></td>
+        <td><img src="https://imgur.com/z316u0c.png" width="150"></td>
+      </tr>
+    </tbody>
+  </table>  
+  <!-- Beginning of tippin.me Button -->
+  <div id="tippin-button" data-dest="infominer33"></div>
+  <script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script>
+  <!-- End of tippin.me Button -->
+</section>
+
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/posts/literature/thecryptoconomy-podcast-deep-dive/" class="pagination--pager" title="Down the @TheCryptoconomy Rabbithole
+">Previous</a>
+    
+    
+      <a href="/posts/Bitcoin/" class="pagination--pager" title="Bitcoin Info
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/" rel="permalink">Bitcoin Info
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  37 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Bitcoin is a revolutionary system that is quite complex and has a steep learning curve. Below you’ll find curated educational resources and information about...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/thecryptoconomy-podcast_guy-swann.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/literature/thecryptoconomy-podcast-deep-dive/" rel="permalink">Down the @TheCryptoconomy Rabbithole
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  13 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Audio for Hundreds of Essential Bitcoin Articles. <a href="https://twitter.com/TheCryptoconomy" class="user-mention">@TheCryptoconomy</a> - Guy Swan….. These Podcasts are essential. So why not make an index of their content, org...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/libra-map-the-block-preview.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/enterprise/libra-association/" rel="permalink">The Libra Association
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Everything related to LibraCoin’s Consortium, ‘The Libra Association’.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/facebook_libra_exhaustive-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/libra-facebook/" rel="permalink">The Libra Blockchain
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  8 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Everything related to Facebook’s LibraCoin - A simple global currency and financial infrastructure that empowers billions of people.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://infominer.id" rel="noopener noreferrer" target="_blank"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
+        
+      
+        
+          <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://keybase.io/infominer" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
+        
+      
+        
+          <li><a href="https://github.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/infominer33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://discord.gg/ahTuPMY" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+        
+      
+        
+          <li><a href="https://t.me/InfoMiner33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">⧉ <a href="https://infominer.id" target="_blank" rel="noopener noreferrer">infominer</a> ⧉ <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">Creative Commons (CC0 1.0) Public Domain</a> ⧉ Powered by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank">Minimal Mistakes</a> via <a href="https://infominer.id/gh-pages-starter-pack.html" target="_blank" rel="noopener noreferrer">Github Pages</a>. ⧉</div>
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

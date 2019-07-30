@@ -162,6 +162,7 @@ footer:
 
 # Reading Files
 include:
+  - _posts/transcripts/
   - .htaccess
   - _pages
 exclude:
@@ -224,8 +225,8 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 7
+permalink: /posts/:categories/:slug/
+paginate: 8
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -296,7 +297,6 @@ compress_html:
     envs: development
 
 # Collections
-collections_dir: discolog
 collections:
   general:
     output: true
@@ -340,7 +340,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -359,7 +359,7 @@ defaults:
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
   # _general
   - scope:
-      path: ""
+      path: "_general"
       type: general
     values:
       layout: single
@@ -377,7 +377,7 @@ defaults:
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
   # _resources
   - scope:
-      path: ""
+      path: "_resources"
       type: resources
     values:
       layout: single
@@ -395,7 +395,7 @@ defaults:
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _crypto
   - scope:
-      path: ""
+      path: "_crypto"
       type: crypto
     values:
       layout: single
@@ -413,7 +413,7 @@ defaults:
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _blockchaintech
   - scope:
-      path: ""
+      path: "_blockchaintech"
       type: blockchaintech
     values:
       layout: single
@@ -431,7 +431,7 @@ defaults:
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _tech
   - scope:
-      path: ""
+      path: "_tech"
       type: tech
     values:
       layout: single
@@ -449,7 +449,7 @@ defaults:
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _development
   - scope:
-      path: ""
+      path: "_development"
       type: development
     values:
       layout: single
@@ -467,7 +467,7 @@ defaults:
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _enterprise
   - scope:
-      path: ""
+      path: "_enterprise"
       type: enterprise
     values:
       layout: single
@@ -485,7 +485,7 @@ defaults:
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _application
   - scope:
-      path: ""
+      path: "_application"
       type: application
     values:
       layout: single
@@ -503,7 +503,7 @@ defaults:
        caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
     # _webwork
   - scope:
-      path: ""
+      path: "_webwork"
       type: webwork
     values:
       layout: single
