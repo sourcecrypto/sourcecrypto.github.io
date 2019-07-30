@@ -604,6 +604,41 @@ var store = [{
         "tags": ["metadata","web-work","development","tags"],
         "url": "http://localhost:4000/posts/tag-definitions/",
         "teaser":"http://localhost:4000/images/author-centric-ranking-web.png"},{
+        "title": "Bahamas: The 'Silicon Valley' of the Caribbean",
+        "excerpt":"Pristine beaches and palm trees are the first thing that come to mind. Of course, the Bahamas are also famous for their tax-protected off-shore banking. However, the Bahamas are now digital pioneers, with an eye to become the tech leaders of the Caribbean. I’m assembling this repository in collaboration with...","categories": ["history"],
+        "tags": ["Bahamas","Caribbean"],
+        "url": "http://localhost:4000/posts/history/blockchain-bahamas-crypto-caribbean/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
+        "title": "Bitcoin History",
+        "excerpt":"www.thetimes03jan2009.com For now this is just an assorted list. Shortly I’ll be diving deeper into the history of bitcoin itself. Thusfar, I’ve been circling around it, so to speak. I’ve been gathering all of the necessary background research, in order to do justice to the story of Bitcoin itself Bitcoin’s...","categories": ["history","Bitcoin"],
+        "tags": ["Bitcoin"],
+        "url": "http://localhost:4000/posts/Bitcoin/history/",
+        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/chancellor-brink-bailout-banks.png"},{
+        "title": "Cypherpunks and the Crypto Wars",
+        "excerpt":"A Resource for learning about the Cypherpunk Movement. This repository was created, in part while researching: Electronic Currency, Before Bitcoin Crypto Wars Birth of Cypherpunks: Short wiki.openrightsgroup.org/wiki/Crypto_Wars wikipedia.org/wiki/Crypto_Wars Untold History of Blockchain Phil Zimmerman creates PGP(‘91), the first publicly available encryption allowing people to communicate using 128-bit encryption and Diffie-Hellman...","categories": ["history"],
+        "tags": ["Cypherpunk","Before Bitcoin"],
+        "url": "http://localhost:4000/posts/history/before-bitcoin/cypherpunks/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
+        "title": "History of Cryptocurrencies",
+        "excerpt":"http://bitpaper.info/paper/5722646637445120 ^^^ rejection of coloured coins leads to ethereum https://www.youtube.com/watch?v=3FA3UjA0igY 81:48 there is a guy named aviv zohar was 81:50 written some great papers one of them is 81:51 on ghost which is what etherium is based 81:54 on and he’s got a follow up to that his World’s oldest...","categories": ["history"],
+        "tags": ["Cryptocurrency"],
+        "url": "http://localhost:4000/posts/history/cryptocurrencies/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
+        "title": "Electronic Cash, Before Bitcoin",
+        "excerpt":"DigiCash Digicash enables First Electronic Payment - 1994 eCash - Timeline [1998] E-MONEY (THAT’S WHAT I WANT) How DigiCash Blew Everything [ϟ] A Brief History of Digital Currencies History of digital currencies of the 90’s with DigiCash as the primary example FirstVirtual and CyberCash Early History of Digital Cash and...","categories": ["history"],
+        "tags": ["Before Bitcoin","Virtual Currency"],
+        "url": "http://localhost:4000/posts/history/before-bitcoin/electronic-cash/",
+        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/electronic-cash-2013.png"},{
+        "title": "Before Bitcoin",
+        "excerpt":"Short-form Crypto Fundamentals -by Infominer What’s a Cryptographic Primitive? Cryptographic Hash Functions Proof of Work in a Nutshell Zero Knowledge Proofs David Chaum - The Father of Digital Cash The Birth of the Cypherpunks The Rise of the Cypherpunks /cypherpunks/ and the Crypto Wars Crypto Wars Cypherpunk Mailing-list Modern Crypto...","categories": ["history","Bitcoin"],
+        "tags": ["Before Bitcoin","Virtual Currency"],
+        "url": "http://localhost:4000/posts/history/before-bitcoin/",
+        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/crab-17-10-10-2018-economist-world-currency.png"},{
+        "title": "Smart Contract History and Related Resources",
+        "excerpt":"I was writing this basic introduction, Smart Contracts: Use cases, and DApps Smart contracts are self-executing code that defines and executes an agreement between multiple parties. That code contains simple “if/when…then…” statements executed within a distributed network that achieves consensus on transactions made within it. When I came across: lambda-the-ultimate.org/node/5003#comment-94645...","categories": ["history"],
+        "tags": ["Smart Contracts"],
+        "url": "http://localhost:4000/posts/history/smart-contracts/",
+        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/elems10.png"},{
         "title": "Blockchain Data - Analytics",
         "excerpt":"topics/blockchain-analytics arnaucube/goBlockchainDataAnalysis blockchain-unica/blockapi - A general framework for blockchain analytics ipfs/sig-blockchain-data joshbressers/blockchain-elasticsearch unwriter/B - Store and reference data on the Bitcoin SV blockchain https://b.bitdb.network coinbase/btcexport - Export process for Bitcoin blockchain data to CSV mappum/blockchain-download - Download blockchain data from peers Data reddit: I have 5 years of coinmarketcap.com crypto...","categories": ["analytics"],
         "tags": ["data"],
@@ -614,14 +649,19 @@ var store = [{
         "tags": ["Indy","Identity","VON","DID"],
         "url": "http://localhost:4000/posts/transcripts/VON-Presentation-Jordan-Curran-HGF/",
         "teaser":"http://localhost:4000/images/OrgBook-Hyperledger-Indy-Case-Study.png"},{
+        "title": "History of Permissioned Ledgers",
+        "excerpt":"I used this space as prep for writing this article: The Times and History of Permissioned Ledgers Source Crypto I collect links in the SourceCrypto Discord Server #history channel, and occasionally I export them to this website: https://sourcecrypto.pub/discolog/general/history/ You can expect that page and the discord server to have information...","categories": ["history"],
+        "tags": ["Permissioned Ledgers"],
+        "url": "http://localhost:4000/posts/history/permissioned-ledgers/",
+        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/permissioned-ledger-2015.png"},{
         "title": "Hyperledger Global Forum 2018 — Microledgers and Edge-Chains",
         "excerpt":"A Primer - Daniel Hardman, Evernym Daniel Hardman, Chief Architect - Evernym Daniel Hardman has a quarter century of experience in enterprise software. As a technical director or chief architect, he’s led engineering teams at small startups, an incubator, and a continent-spanning business unit at a Fortune 500 company. He...","categories": ["transcripts","decentralized identity"],
         "tags": ["State Channels","Edge Chains","Indy","HGF2018","Design Theory"],
         "url": "http://localhost:4000/posts/transcripts/Microledgers-Edgechains-Dan-Hardman/",
         "teaser":"https://imgur.com/qbVl47T.png"},{
         "title": "JW Weatherman Inverviews Cypherpunk Legend",
-        "excerpt":"Much appreciation to JW Weatherman for arranging the interview, and Tim May for helping to get this all started. I decided to get this in text form, because there are so many things\\books\\people that May references, I would like to be able to gather. Pull Requests Welcome Transcript: Lightly edited...","categories": ["transcripts","cypherpunks"],
-        "tags": ["cypherpunk","Tim May","history"],
+        "excerpt":"Much appreciation to JW Weatherman for arranging the interview, and Tim May for helping to get this all started. I decided to get this in text form, because there are so many things\\books\\people that May references, I would like to be able to gather. Pull Requests Welcome Transcript: Lightly edited...","categories": ["transcripts","history"],
+        "tags": ["Cypherpunk","Tim May"],
         "url": "http://localhost:4000/posts/transcripts/JW-Weatherman-Interview-Tim-May/",
         "teaser":"https://i.imgur.com/janGoN1.png"},{
         "title": "History of Blockchains for Business at HGF2018",
@@ -629,6 +669,11 @@ var store = [{
         "tags": ["Bitcoin","HGF2018","Permissioned","DLT","History"],
         "url": "http://localhost:4000/posts/transcripts/JW-Weatherman-Interview-Tim-May/",
         "teaser":"http://localhost:4000/images/business-blockchain-history-monax.png"},{
+        "title": "Blockchain and the United Nations",
+        "excerpt":"The organizations are listed roughly in order of when they got involved with blockchain. I’m sure to have missed a few things. Please leave an issue, pull request, or contact me if there’s anything you’d like included. Off the top of my head: Bitcoin, Ethereum, Stellar and IOTA have worked...","categories": ["history"],
+        "tags": ["United Nations"],
+        "url": "http://localhost:4000/posts/history/united-nations/",
+        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/unblockchain.jpg"},{
         "title": "Stephan Livera Podcast 53 with Andreas Antonopolous",
         "excerpt":"Stephan Livera and Andreas M. Antonopoulos - On Bitcoin Maximalism Editors Note: I've taken to working on youtube transcripts of podcasts and videos whos content is valuable and not easily accessible in text form, so that it will be easier for anyone to reference. Lightly edited, just enough to make...","categories": ["transcripts","Bitcoin"],
         "tags": ["Bitcoin","enterprise","permissioned","DLT"],
@@ -664,6 +709,11 @@ var store = [{
         "tags": ["chainlink"],
         "url": "http://localhost:4000/blog/chainlink/",
         "teaser":"http://localhost:4000/images/chain-link-teaser.png"},{
+        "title": "The Birth of Rare Art on the Bitcoin Blockchain",
+        "excerpt":"In The Beginning In 2005, artist Matt Furie created the comic series Boy’s Club, which stars the teenage monster characters Pepe, Brett, Andy and Landwolf. pepe-the-frog The Creator of Pepe the Frog Talks About Making Comics in the Post-Meme World “I’ve made my mark on the internet, so I can...","categories": ["history","Bitcoin"],
+        "tags": ["Rare Digital Art","Counterparty","Rare Pepe"],
+        "url": "http://localhost:4000/posts/bitcoin/rare-pepe/",
+        "teaser":"https://sourcecrypto.pub/rare-digital-art/img/Salvador-Pepe-rare-Pepe-auction-1-13-18.jpeg"},{
         "title": "SourceCrypto Blog-Feed",
         "excerpt":"It’s safe to say that I’m testing the limits of the Minimal Mistakes theme. I decided to try out the blog format, mostly just to see if it would work. A neat thing w blogs, is by using tags and categories there are many different ways to display and interact...","categories": ["SourceCrypto"],
         "tags": ["welcome"],
