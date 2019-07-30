@@ -32,7 +32,7 @@ feature_row4:
     btn_class: "btn--primary"
   - image_path: /images/SourceCrypto-DiscoLog-teaser.png
     excerpt: "There is so much to learn about, I mostly manage to avoid thinking about scammy stuff and icos, and really whatever you are hyped about, I probably don't care. So the application section is in rough shape.. I don't spend a lot of time there. Tech, History, Development, Webwork. I care about real web technologies."
-    url: "/discolog/"
+    url: "/archive/"
     btn_label: "DiscoLog"
     btn_class: "btn--primary"
   - image_path: /images/libra-map-the-block-preview.jpg
@@ -47,21 +47,21 @@ feature_row:
     alt: "Preview image for Blockchain Tech Category."
     title: "Blockchain Tech"
     excerpt: 'This category is for all blockchain specific technologies.'
-    url: "/discolog/blockchain-tech/"
+    url: "/archive/blockchain-tech/"
     btn_label: "Collection DIrectory"
     btn_class: "btn--primary"
   - image_path: /images/tech-teaser-1.png
     alt: "Preview image for Tech Category"
     title: "Tech"
     excerpt: "This category is for all crypto-related, but not specific to blockchain."
-    url: "/discolog/tech/"
+    url: "/archive/tech/"
     btn_label: "Collection DIrectory"
     btn_class: "btn--primary"
   - image_path: /images/development.png
     alt: "Preview image for Development Category"
     title: "Development"
     excerpt: "This category is for all crypto-related development resources, along with some general dev resources for beginners."
-    url: "/discolog/development/"
+    url: "/archive/development/"
     btn_label: "Collection DIrectory"
     btn_class: "btn--primary"
 feature_row2:
@@ -89,9 +89,9 @@ feature_row2:
 #feature_row3:
  # - image_path: /images/SourceCrypto-DiscoLog-teaser.png
  #   alt: "Digital Rain-B&W"
- #   title: "Discolog"
+ #   title: "Archive"
  #   excerpt: "This is the main index where you can browse all channels on one page."
- #   url: "/discolog/"
+ #   url: "/archive/"
  #   btn_label: "SourceDirectory"
  #   btn_class: "btn--primary"
 

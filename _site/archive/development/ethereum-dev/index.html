@@ -1,0 +1,3684 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Favicons -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://SourceCrypto.pub/assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://SourceCrypto.pub/assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://SourceCrypto.pub/assets/icons/favicon-16x16.png">
+<link rel="manifest" href="https://SourceCrypto.pub/assets/icons/site.webmanifest">
+<link rel="mask-icon" href="https://SourceCrypto.pub/assets/icons/safari-pinned-tab.svg" color="#79dfce">
+<link rel="shortcut icon" href="https://SourceCrypto.pub/assets/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#79dfce">
+<meta name="msapplication-config" content="https://SourceCrypto.pub/assets/icons/browserconfig.xml">
+<meta name="theme-color" content="#79dfce">
+
+<!-- begin _includes/seo.html --><title>ethereum-dev | Source Crypto</title>
+<meta name="description" content="                            Source&#10697;Crypto        ethereum-dev                    ">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Source Crypto">
+<meta property="og:title" content="ethereum-dev">
+<meta property="og:url" content="http://localhost:4000/archive/development/ethereum-dev/">
+
+
+  <meta property="og:description" content="                            Source&#10697;Crypto        ethereum-dev                    ">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/images/Source-Crypto-banner.png">
+
+
+
+  <meta name="twitter:site" content="@SourceCrypto">
+  <meta name="twitter:title" content="ethereum-dev">
+  <meta name="twitter:description" content="                            Source&#10697;Crypto        ethereum-dev                    ">
+  <meta name="twitter:url" content="http://localhost:4000/archive/development/ethereum-dev/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:4000/images/Source-Crypto-banner.png">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-07-30T05:06:31-04:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/archive/development/ethereum-dev/">
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "http://localhost:4000",
+      "logo": "https://SourceCrypto.pub/images/Source-Crypto-og.png"
+    }
+  </script>
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Infominer",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Source Crypto Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    
+      <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<style>
+
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+display: flex;
+max-width: 100%;
+margin: 0 5px 10px 5px;    
+}
+
+.info__guild-icon-container {
+flex: 0;
+}
+
+.info__guild-icon {
+max-width: 88px;
+max-height: 88px;
+}
+
+.info__metadata {
+flex: 1;
+margin-left: 10px;
+}
+
+.info__guild-name {
+font-size: 1.4em;
+}
+
+.info__channel-name {
+font-size: 1.2em;
+}
+
+.info__channel-topic {
+margin-top: 2px;
+}
+
+.info__channel-message-count {
+margin-top: 2px;
+}
+
+.info__channel-date-range {
+margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+max-width: 100%;
+margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+display: flex;
+margin: 0 10px;
+padding: 15px 0;
+border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+flex: 0;
+width: 40px;
+height: 40px;
+}
+
+.chatlog__author-avatar {
+border-radius: 50%;
+height: 40px;
+width: 40px;
+}
+
+.chatlog__messages {
+flex: 1;
+min-width: 50%;
+margin-left: 20px;
+}
+
+.chatlog__author-name {
+font-size: 1em;
+font-weight: 500;
+}
+
+.chatlog__timestamp {
+margin-left: 5px;
+font-size: .75em;
+}
+
+.chatlog__content {
+padding-top: 5px;
+font-size: .9375em;
+word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+margin-left: 3px;
+font-size: .8em;
+}
+
+.chatlog__attachment {
+margin: 5px 0;
+}
+
+.chatlog__attachment-thumbnail {
+max-width: 100%;
+max-height: 500px;
+border-radius: 3px;
+}
+
+.chatlog__embed {
+display: flex;
+max-width: 520px;
+margin-top: 5px;
+}
+
+.chatlog__embed-color-pill {
+flex-shrink: 0;
+width: 4px;
+border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+display: flex;
+flex-direction: column;
+padding: 8px 10px;
+border: 1px solid;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+width: 100%;
+display: flex;
+}
+
+.chatlog__embed-text {
+flex: 1;
+}
+
+.chatlog__embed-author {
+display: flex;
+align-items: center;
+margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+width: 20px;
+height: 20px;
+margin-right: 9px;
+border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+font-size: .875em;
+font-weight: 600;
+}
+
+.chatlog__embed-title {
+margin-bottom: 4px;
+font-size: .875em;
+font-weight: 600;
+}
+
+.chatlog__embed-description {
+font-weight: 500;
+font-size: 14px;
+}
+
+.chatlog__embed-fields {
+display: flex;
+flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+flex: 0;
+min-width: 100%;
+max-width: 506px;
+padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+flex: 1;
+flex-basis: auto;
+min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+margin-bottom: 4px;
+font-size: .875em;
+font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+font-size: .875em;
+font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+flex: 0;
+margin-left: 20px;
+max-width: 80px;
+max-height: 80px;
+border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+margin-top: 10px;
+}
+
+.chatlog__embed-image {    
+max-width: 500px;
+max-height: 400px;
+border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+margin-right: 4px;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+font-weight: 600;
+font-size: .75em;
+}
+
+.chatlog__reactions {
+display: flex;
+}
+
+.chatlog__reaction {
+display: flex;
+align-items: center;
+margin: 6px 2px 2px 2px;
+padding: 3px 6px;
+border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+min-width: 9px;
+margin-left: 6px;
+font-size: .875em;
+}
+</style>
+<style>
+    /* === GENERAL === */
+
+
+body {
+background-color: #252a34;
+color: #dcddde;
+}
+
+a {
+color: #0096cf;
+}
+
+.spoiler {
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pre {
+background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+border-color: #282b30 !important;
+color: #839496 !important;
+}
+
+.mention {
+color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+color: #ffffff;
+}
+
+.info__channel-name {
+color: #ffffff;
+}
+
+.info__channel-topic {
+color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+color: #ffffff;
+}
+
+.chatlog__timestamp {
+color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__edited-timestamp {
+color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+background-color: rgba(46, 48, 54, 0.3);
+border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+color: #ffffff;
+}
+
+.chatlog__embed-title {
+color: #ffffff;
+}
+
+.chatlog__embed-description {
+color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+color: rgba(255, 255, 255, 0.3);
+}
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.pre--multiline').forEach((block) => {
+            hljs.highlightBlock(block);
+        });
+    });
+</script>
+
+<!-- end custom head snippets -->
+
+    
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="https://sourcecrypto.pub/images/interlinked.png" alt=""></a>
+        
+        <a class="site-title" href="/">Research Index — Discord Chat</a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/categories/">Categories Archive</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/feature/">Featured Content</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/archive/">DiscoLog</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://infominer.id/" target="_blank" rel="noopener noreferrer">Info⧉Hub</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/bitcoin-history" target="_blank" rel="noopener noreferrer">Bitcoin Histories</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/decentralized-web/" target="_blank" rel="noopener noreferrer">Decentralized Web</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/transcripts" target="_blank" rel="noopener noreferrer">Transcripts</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://learncryptotrading.co" target="_blank" rel="noopener noreferrer">Learn Crypto Trading</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://decentralized-id.com" target="_blank" rel="noopener noreferrer">DIDecentralized</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools" target="_blank" rel="noopener noreferrer">Webwork Tools</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/indieweb" target="_blank" rel="noopener noreferrer">IndieWeb</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://SourceCrypto.pub" target="_blank" rel="noopener noreferrer">Source⧉Crypto</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/github-pages-starter-pack/" target="_blank" rel="noopener noreferrer">Github Pages Starter Pack</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero" style=" ">
+  
+    <img src="/images/Source-Crypto-banner.png" alt="ethereum-dev" class="page__hero-image">
+  
+  
+    <span class="page__hero-caption"><table>
+  <tbody>
+    <tr>
+      <td><a href="https://twitter.com/Delpadschnick" class="user-mention">@Delpadschnick</a></td>
+      <td><a href="https://CryptoDesign.io" target="_blank" rel="noopener noreferrer">CryptoDesign.io</a></td>
+    </tr>
+  </tbody>
+</table>
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">⧉Info⧉</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/"><span class="nav__sub-title">DiscoLog</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/sitemap/" class="">• Sitemap</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/featured/" class="">• Featured Content</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://infominer.id/" class="" target="_blank" rel="noopener noreferrer">• Infomine</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://learncryptotrading.co" class="" target="_blank" rel="noopener noreferrer">• Learn Crypto Trading</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/bitcoin-history" class="" target="_blank" rel="noopener noreferrer">• Bitcoin Histories</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/transcripts" class="" target="_blank" rel="noopener noreferrer">• Transcripts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/decentralized-web/" class="" target="_blank" rel="noopener noreferrer">• Decentralized Web</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/general/"><span class="nav__sub-title">General</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/read-me/" class="">• Readme</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/101/" class="">• 101</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/classification/" class="">• Classification</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/cypherpunk/" class="">• Cypherpunk</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/earn-crypto/" class="">• Earn Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/economics/" class="">• Economics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/evaluation/" class="">• Evaluation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/exchanges/" class="">• Exchanges</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/governance/" class="">• Governance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/growth-adoption/" class="">• Growth - Adoption</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/history/" class="">• History</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/library-submissions/" class="">• Library Submissions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/memes-n-junk/" class="">• Memes n Junk</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/mining/" class="">• Mining</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/oppression/" class="">• Oppression</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/regulation/" class="">• Regulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/satoshi/" class="">• Satoshi</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/trading/" class="">• Trading</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/wallets/" class="">• Wallets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/traditional-finance/" class="">• Traditional Finance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/walstreet/" class="">• Walstreet</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/resources/"><span class="nav__sub-title">Resources</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/assorted-media/" class="">• Assorted Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/books/" class="">• Books</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/bots/" class="">• Bots</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/china/" class="">• China</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/communities/" class="">• Communities</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/conferences/" class="">• Conferences</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/news-sites/" class="">• News Sites</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/non-english/" class="">• Non-English</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/french/" class="">• French</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/research-papers/" class="">• Research Papers</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/resources/" class="">• Resources</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/send-crypto/" class="">• Send-Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/swag/" class="">• Swag</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/tech-in-media/" class="">• Tech in Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/twitter-follows/" class="">• Twitter Follows</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/women/" class="">• Women</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/blockchain-tech/"><span class="nav__sub-title">Blockchain Tech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/consensus/" class="">• Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/pow/" class="">• PoW</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/pos/" class="">• PoS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/tendermint/" class="">• Tendermint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/eth-consensus/" class="">• Eth-Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/decentralization/" class="">• Decentralization</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/forks/" class="">• Forks</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/drivechains/" class="">• Drivechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/hahs-algos/" class="">• Hash Algos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/interoperability/" class="">• Interoperability</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/sharding/" class="">• Sharding</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/sidechains/" class="">• Sidechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/smart-contracts/" class="">• Smart Contracts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/smart-signatures/" class="">• Smart Signatures</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/state-channels/" class="">• State Channels</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/oracles/" class="">• Oracles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/ethresearch/" class="">• Ethresearch</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/master-nodes/" class="">• Master-Nodes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/tech/"><span class="nav__sub-title">Tech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/security/" class="">• Security</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/cryptography/" class="">• Cryptography</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/privacy/" class="">• Privacy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/cybersecurity/" class="">• Cybersecurity</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/infosec/" class="">• Infosec</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/tor/" class="">• Tor</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/bittorrent/" class="">• Bit-Torrent</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/distributed-systems/" class="">• Distributed Systems</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/internet-protocols/" class="">• Internet Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/P2P/" class="">• P2P</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/design/" class="">• Design</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/development/"><span class="nav__sub-title">Development</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/gen-development/" class="">• Gen Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/blockchain-development/" class="">• Blockchain Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/bitcoin-dev/" class="">• Bitcoin Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/cardano-dev/" class="">• Cardano Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/corda-dev/" class="">• Corda Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/forking/" class="">• Forking</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/ethereum-dev/" class="active">• Ethereum Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/hackathons/" class="">• Hackathons</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/hyperledger-dev/" class="">• Hyperledger Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/id-dev/" class="">• ID Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/nano-dev/" class="">• Nano Dev</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/crypto/"><span class="nav__sub-title">Crypto</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/gen-crypto/" class="">• Gen Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bitcoin/" class="">• Bitcoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/btc-layer2/" class="">• BTC Layer2</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bch/" class="">• B-Cash</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bitshares/" class="">• Bitshares</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/blockstack/" class="">• Blockstack</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bytom/" class="">• Bytom</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/cardano/" class="">• Cardano</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/central-bank-digital-currency/" class="">• Central Bank Digital Currency</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/cosmos/" class="">• Cosmos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/dash/" class="">• DASH</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/doge/" class="">• DOGE</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/eos/" class="">• EOS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/etc/" class="">• ETC - Eth Classic</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/etcetera/" class="">• Etcetera</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/ethereum/" class="">• Ethereum</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/eth-layer2/" class="">• ETH Layer 2</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/grin-mimblewimble/" class="">• Grin Mimble-Wimble</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/hashgraph/" class="">• Hashgraph</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/iota/" class="">• IOTA</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/litecoin/" class="">• Litecoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/monero/" class="">• Monero</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/nano/" class="">• Nano</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/neo/" class="">• NEO</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/ripple/" class="">• Ripple</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/stable-coins/" class="">• Stable Coins</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/stellar/" class="">• Stellar</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/tezos/" class="">• Tezos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/tron/" class="">• Tron</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/zcash/" class="">• ZCash</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/enterprise/"><span class="nav__sub-title">Enterprise</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/enterprise-dlt/" class="">• Enterprise - DLT</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/ent-eth/" class="">• Enterprise Ethereum</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/corda/" class="">• Corda</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/hyperledger/" class="">• Hyperledger</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/application/"><span class="nav__sub-title">Application</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/art-collectibles/" class="">• Art Collectibles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/ai/" class="">• AI</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/brave/" class="">• Brave</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/criminal/" class="">• Criminal</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/crypto-selfregulation/" class="">• Crypto Self-Regulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/dao/" class="">• DAO</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/defi/" class="">• Defi</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/dapps/" class="">• dApps</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/energy/" class="">• Energy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/fiat-onramp/" class="">• Fiat Onramp</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/finance/" class="">• Finance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/games/" class="">• Games</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/government/" class="">• Government</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/identity-did/" class="">• Identity - DID</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/icos/" class="">• ICOs</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/iot/" class="">• Iot</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/institutional-derivitives/" class="">• Institutional Derivitives</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/intellectual-property/" class="">• Intellectual Property</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/marketplaces/" class="">• Marketplaces</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/music/" class="">• Music</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/notary/" class="">• Notary</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/payment-processing/" class="">• Payment Processing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/protocols/" class="">• Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/publishing/" class="">• Publishing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/prediction-markets/" class="">• Prediction Markets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/security-tokens/" class="">• Security Tokens</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/services/" class="">• Services</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/social-media/" class="">• Social Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/supplychain/" class="">• Supply Chain</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/united-nations/" class="">• United Nations</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/utility/" class="">• Utility</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/voting/" class="">• Voting</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title"></span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="" class=""></a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="ethereum-dev">
+    <meta itemprop="description" content="                            Source⧉Crypto        ethereum-dev                    ">
+    <meta itemprop="datePublished" content="July 30, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">ethereum-dev
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://SourceCrypto.pub/images/sourceicon.png">
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source⧉Crypto</div>
+        <div class="info__channel-name">ethereum-dev</div>
+        
+            <div class="info__channel-topic"></div>
+
+        <div class="info__channel-message-count">36 messages</div>
+        
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">22-Aug-18 11:03 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://solidified.io/" target="_blank" rel="noopener noreferrer">https://solidified.io/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://solidified.io/" target="_blank" rel="noopener noreferrer"><span class="markdown">Solidified - Audit Platform for Smart Contracts</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A platform for crowd-sourced review of smart contracts, where any developer can bring their contract for review with a large network of verified blockchain experts.</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://media.consensys.net/preparing-for-a-smart-contract-code-audit-83691200cb9c" target="_blank" rel="noopener noreferrer">https://media.consensys.net/preparing-for-a-smart-contract-code-audit-83691200cb9c</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://media.consensys.net/preparing-for-a-smart-contract-code-audit-83691200cb9c" target="_blank" rel="noopener noreferrer"><span class="markdown">Preparing for a Smart Contract Code Audit – ConsenSys Media</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">If you are planning to launch a project on the Ethereum blockchain, you probably know the importance of a third-party code audit. An…</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*pAZAFQj6zcjP4TMCblkFOQ.jpeg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*pAZAFQj6zcjP4TMCblkFOQ.jpeg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://dappsforbeginners.wordpress.com/" target="_blank" rel="noopener noreferrer">https://dappsforbeginners.wordpress.com/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://dappsforbeginners.wordpress.com/author/kennethkappler/" target="_blank" rel="noopener noreferrer">kennethkappler</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://dappsforbeginners.wordpress.com/" target="_blank" rel="noopener noreferrer"><span class="markdown">Dapps for Beginners</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Ethereum contract tutorials.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://dappsforbeginners.files.wordpress.com/2015/02/earlyeditor.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://dappsforbeginners.files.wordpress.com/2015/02/earlyeditor.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://remix.ethereum.org/" target="_blank" rel="noopener noreferrer">https://remix.ethereum.org/</a></span>
+
+                        </div>
+
+
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@robbertvermeulen/learn-solidity-the-ethereum-smart-contract-programming-language-7f106fc26d6" target="_blank" rel="noopener noreferrer">https://medium.com/@robbertvermeulen/learn-solidity-the-ethereum-smart-contract-programming-language-7f106fc26d6</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@robbertvermeulen/learn-solidity-the-ethereum-smart-contract-programming-language-7f106fc26d6" target="_blank" rel="noopener noreferrer"><span class="markdown">Learn Solidity — The Ethereum smart contract programming language</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">In the course of time that I am involved in Ethereum development, I have noticed that not much information exists yet to learn Solidity…</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*_KbmufKq3eXr8iX2YQXBIg.jpeg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*_KbmufKq3eXr8iX2YQXBIg.jpeg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://solidity.readthedocs.io/" target="_blank" rel="noopener noreferrer">https://solidity.readthedocs.io/</a></span>
+
+                        </div>
+
+
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://ethereum.org/greeter" target="_blank" rel="noopener noreferrer">https://ethereum.org/greeter</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://ethereum.org/greeter" target="_blank" rel="noopener noreferrer"><span class="markdown">Create a Hello World Contract in ethereum</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Ethereum is a decentralized platform for applications that run exactly as programmed without any chance of fraud, censorship or third-party interference.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://ethereum.org/images/social-greeter.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://ethereum.org/images/social-greeter.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cryptozombies.io/" target="_blank" rel="noopener noreferrer">https://cryptozombies.io/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://cryptozombies.io/" target="_blank" rel="noopener noreferrer"><span class="markdown">CryptoZombies - Learn to code games on Ethereum. Powered by Loom N...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">CryptoZombies is an interactive code school that teaches you to write smart contracts in Solidity through building your own crypto-collectables game.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cryptozombies.io/course/static/image/preview-zombie.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cryptozombies.io/course/static/image/preview-zombie.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">22-Aug-18 11:17 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown">see also: <span class="mention">#ethereum</span></span>
+
+                        </div>
+
+
+
+                        <div class="chatlog__content">
+                            <span class="markdown">Pinned a message.</span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">23-Aug-18 12:47 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/uport/different-approaches-to-ethereum-identity-standards-a09488347c87" target="_blank" rel="noopener noreferrer">https://medium.com/uport/different-approaches-to-ethereum-identity-standards-a09488347c87</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/uport/different-approaches-to-ethereum-identity-standards-a09488347c87" target="_blank" rel="noopener noreferrer"><span class="markdown">Different Approaches to Ethereum Identity Standards</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Identity as a concept affects all of us. Yet, depending on who you ask, there are many different ideas of what Identity is as a technology.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*DAaPHEVFyrAw70aAR8IMlA.jpeg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*DAaPHEVFyrAw70aAR8IMlA.jpeg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">31-Aug-18 11:50 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://hackernoon.com/libsubmarine-temporarily-hide-transactions-on-ethereum-cheaply-6910191f46f2" target="_blank" rel="noopener noreferrer">https://hackernoon.com/libsubmarine-temporarily-hide-transactions-on-ethereum-cheaply-6910191f46f2</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="31-Aug-18 11:51 PM">(edited)</span>
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://hackernoon.com/libsubmarine-temporarily-hide-transactions-on-ethereum-cheaply-6910191f46f2" target="_blank" rel="noopener noreferrer"><span class="markdown">LibSubmarine: Temporarily hide transactions on ethereum (cheaply!)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The State of Privacy</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*swdhIDMSjoLTLHErtChZcw.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*swdhIDMSjoLTLHErtChZcw.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">25-Sep-18 03:03 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://web3py.readthedocs.io/" target="_blank" rel="noopener noreferrer">https://web3py.readthedocs.io/</a></span>
+
+                        </div>
+
+
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/ethereum/go-ethereum" target="_blank" rel="noopener noreferrer">https://github.com/ethereum/go-ethereum</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/ethereum/go-ethereum" target="_blank" rel="noopener noreferrer"><span class="markdown">ethereum/go-ethereum</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Official Go implementation of the Ethereum protocol - ethereum/go-ethereum</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars3.githubusercontent.com/u/6250754?s=400&amp;v=4" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars3.githubusercontent.com/u/6250754?s=400&amp;v=4">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">29-Sep-18 11:16 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://nethereum.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">https://nethereum.readthedocs.io/en/latest/</a>
+.net library for ethereum</span>
+
+                                <span class="chatlog__edited-timestamp" title="29-Sep-18 11:17 PM">(edited)</span>
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://nethereum.readthedocs.io/en/latest" target="_blank" rel="noopener noreferrer"><span class="markdown">Home - Nethereum</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">None</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">30-Sep-18 08:06 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://securify.chainsecurity.com/" target="_blank" rel="noopener noreferrer">https://securify.chainsecurity.com/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://securify.chainsecurity.com/" target="_blank" rel="noopener noreferrer"><span class="markdown">Securify: Security Scanner for Ethereum Smart Contract</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Scan any Ethereum contract for critical security vulnerabilities for free.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://securify.ch/images/og_img.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://securify.ch/images/og_img.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.zklabs.io/zk-labs-community-audits-initiative-for-non-ico-projects-ea7830d082f8" target="_blank" rel="noopener noreferrer">https://blog.zklabs.io/zk-labs-community-audits-initiative-for-non-ico-projects-ea7830d082f8</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.zklabs.io/zk-labs-community-audits-initiative-for-non-ico-projects-ea7830d082f8" target="_blank" rel="noopener noreferrer"><span class="markdown">ZK Labs Community Audits Initiative for non-ICO Projects</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">As part of a broader pursuit to securing the ecosystem, we at ZK Labs are excited to announce our Community Audits initiative to sponsor…</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*5MhkC9VYTnibbdpnwGKCog.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*5MhkC9VYTnibbdpnwGKCog.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">03-Oct-18 08:12 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://ethdocs.org" target="_blank" rel="noopener noreferrer">http://ethdocs.org</a></span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">12-Oct-18 03:55 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/pirapira/awesome-ethereum-virtual-machine" target="_blank" rel="noopener noreferrer">https://github.com/pirapira/awesome-ethereum-virtual-machine</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/pirapira/awesome-ethereum-virtual-machine" target="_blank" rel="noopener noreferrer"><span class="markdown">pirapira/awesome-ethereum-virtual-machine</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Ethereum Virtual Machine Awesome List. Contribute to pirapira/awesome-ethereum-virtual-machine development by creating an account on GitHub.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars2.githubusercontent.com/u/44281?s=400&amp;v=4" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars2.githubusercontent.com/u/44281?s=400&amp;v=4">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">12-Oct-18 04:36 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/index.html" target="_blank" rel="noopener noreferrer">https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/index.html</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/index.html" target="_blank" rel="noopener noreferrer"><span class="markdown">Introduction | Ethereum Tutorials and Tips by Hudson</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Tips and tutorials for some of the most asked about Ethereum issues.</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">13-Oct-18 11:48 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/ethereumbook/ethereumbook" target="_blank" rel="noopener noreferrer">https://github.com/ethereumbook/ethereumbook</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/ethereumbook/ethereumbook" target="_blank" rel="noopener noreferrer"><span class="markdown">ethereumbook/ethereumbook</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Mastering Ethereum, by Andreas M. Antonopoulos, Gavin Wood - ethereumbook/ethereumbook</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars2.githubusercontent.com/u/20952070?s=400&amp;v=4" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars2.githubusercontent.com/u/20952070?s=400&amp;v=4">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">16-Oct-18 11:06 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown">[Sneak peek of Formality, an upcoming EVM-targeting language featuring formal proofs] 
+<a href="https://github.com/MaiaVictor/formality/blob/master/README.md" target="_blank" rel="noopener noreferrer">https://github.com/MaiaVictor/formality/blob/master/README.md</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/MaiaVictor/formality/blob/master/README.md" target="_blank" rel="noopener noreferrer"><span class="markdown">MaiaVictor/formality</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">An efficient programming language and proof assistant. - MaiaVictor/formality</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars2.githubusercontent.com/u/13090166?s=400&amp;v=4" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars2.githubusercontent.com/u/13090166?s=400&amp;v=4">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">31-Oct-18 05:50 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@dan_30977/learn-the-ethereum-language-vyper-from-within-your-browser-b084ec51302" target="_blank" rel="noopener noreferrer">https://medium.com/@dan_30977/learn-the-ethereum-language-vyper-from-within-your-browser-b084ec51302</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@dan_30977/learn-the-ethereum-language-vyper-from-within-your-browser-b084ec51302" target="_blank" rel="noopener noreferrer"><span class="markdown">Learn the Ethereum language Vyper from within your browser!</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">We’re excited to introduce ChainShot’s first interactive lesson for the Vyper language. This is a good module to get your feet wet with…</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*wf2MO1VfoNwyt8f-CLQNZA.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*wf2MO1VfoNwyt8f-CLQNZA.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">09-Nov-18 08:27 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://quickblocks.io/" target="_blank" rel="noopener noreferrer">https://quickblocks.io/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://quickblocks.io/author/admin" target="_blank" rel="noopener noreferrer">admin</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://quickblocks.io/" target="_blank" rel="noopener noreferrer"><span class="markdown">Homepage - QuickBlocks</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Ethereum QuickBlocks: The fastest, fully-decentralized way to access data from any Ethereum address or smart contract. Ethereum Libraries and tools</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://quickblocks.io/wp-content/uploads/2017/10/quickblocks-twitter-card.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://quickblocks.io/wp-content/uploads/2017/10/quickblocks-twitter-card.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">25-Nov-18 08:41 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/coinmonks/learn-the-ethereum-language-vyper-from-within-your-browser-b084ec51302" target="_blank" rel="noopener noreferrer">https://medium.com/coinmonks/learn-the-ethereum-language-vyper-from-within-your-browser-b084ec51302</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/coinmonks/learn-the-ethereum-language-vyper-from-within-your-browser-b084ec51302" target="_blank" rel="noopener noreferrer"><span class="markdown">Learn the Ethereum language Vyper from within your browser!</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">We’re excited to introduce ChainShot’s first interactive lesson for the Vyper language. This is a good module to get your feet wet with…</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*wf2MO1VfoNwyt8f-CLQNZA.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*wf2MO1VfoNwyt8f-CLQNZA.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">25-Nov-18 09:36 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://hackernoon.com/introducing-solidity-koans-cf51a5bc25e5" target="_blank" rel="noopener noreferrer">https://hackernoon.com/introducing-solidity-koans-cf51a5bc25e5</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://hackernoon.com/introducing-solidity-koans-cf51a5bc25e5" target="_blank" rel="noopener noreferrer"><span class="markdown">Introducing Solidity Koans – Hacker Noon</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Learn Solidity through simple programming exercises</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*r1KvYIVrV9wD-ES4CWF0jA.jpeg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*r1KvYIVrV9wD-ES4CWF0jA.jpeg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">09-Dec-18 01:25 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@leonardoalt/formal-verification-in-solidity-5cbff7b7ff8" target="_blank" rel="noopener noreferrer">https://medium.com/@leonardoalt/formal-verification-in-solidity-5cbff7b7ff8</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@leonardoalt/formal-verification-in-solidity-5cbff7b7ff8" target="_blank" rel="noopener noreferrer"><span class="markdown">Formal Verification in Solidity – Leonardo Alt – Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">a</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">09-Dec-18 01:36 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.codementor.io/learn/blockchain/solidity-tutorials" target="_blank" rel="noopener noreferrer">https://www.codementor.io/learn/blockchain/solidity-tutorials</a></span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">22-Dec-18 11:42 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/code/status/1063146570034696192" target="_blank" rel="noopener noreferrer">https://twitter.com/code/status/1063146570034696192</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/922911523328081920/jEKFRPKV_bigger.jpg">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/code" target="_blank" rel="noopener noreferrer">Visual Studio Code (@code)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Build and deploy #ethereum smart contracts using the new <a href="https://twitter.com/trufflesuite" class="user-mention">@trufflesuite</a> extension for #VSCode from <a href="https://twitter.com/MSFTBlockchain" class="user-mention">@MSFTBlockchain</a> <a href="https://t.co/0gKivFbBHG" target="_blank" rel="noopener noreferrer">https://t.co/0gKivFbBHG</a> <a href="https://t.co/0Rpv5QGcTU" target="_blank" rel="noopener noreferrer">https://t.co/0Rpv5QGcTU</a></span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Retweets</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">144</span></div>
+                                                    </div>
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">427</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://pbs.twimg.com/amplify_video_thumb/1063146483153809409/img/ZifPHUuUTZS1cjJk.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://pbs.twimg.com/amplify_video_thumb/1063146483153809409/img/ZifPHUuUTZS1cjJk.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png">
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">12-Feb-19 04:10 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/trufflesuite/status/1078055142681993221" target="_blank" rel="noopener noreferrer">https://twitter.com/trufflesuite/status/1078055142681993221</a></span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">12-Feb-19 05:28 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://paulrberg.com/post/2018/12/30/upgradeable-smart-contracts/" target="_blank" rel="noopener noreferrer">https://paulrberg.com/post/2018/12/30/upgradeable-smart-contracts/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://paulrberg.com/post/2018/12/30/upgradeable-smart-contracts/" target="_blank" rel="noopener noreferrer"><span class="markdown">How to Write Upgradeable Smart Contracts with Truffle ^5.0 and Zep...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Step-by-step tutorial to get up and running with upgradeable smart contracts</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://paulrberg.com/post/upgradeable-smart-contracts/preview.jpg" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://paulrberg.com/post/upgradeable-smart-contracts/preview.jpg">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">19-Feb-19 07:54 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/ethereum/EIPs/issues/859" target="_blank" rel="noopener noreferrer">https://github.com/ethereum/EIPs/issues/859</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/ethereum/EIPs/issues/859" target="_blank" rel="noopener noreferrer"><span class="markdown">Account abstraction for main chain · Issue #859 · ethereum/EIPs</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The following is a copy of the account abstraction proposal discussed here but coalesced into one piece and adapted for the ethereum main chain by adding back in mandatory in-transaction nonces. Sp...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars2.githubusercontent.com/u/2230894?s=400&amp;v=4" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars2.githubusercontent.com/u/2230894?s=400&amp;v=4">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown">^^^ Basically all user accounts would be a type of smart contract, which means you can make the code to allow you to access that account's funds whatever you want ou'd obviously be able to use your default secp256k1 and whatever
+or you could change it in to anything you want... skip down to the "Account Strategy" heading</span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">19-Feb-19 08:58 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/ConsenSys/smart-contract-best-practices" target="_blank" rel="noopener noreferrer">https://github.com/ConsenSys/smart-contract-best-practices</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/ConsenSys/smart-contract-best-practices" target="_blank" rel="noopener noreferrer"><span class="markdown">ConsenSys/smart-contract-best-practices</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A guide to smart contract security best practices. Contribute to ConsenSys/smart-contract-best-practices development by creating an account on GitHub.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars1.githubusercontent.com/u/10818037?s=400&amp;v=4" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars1.githubusercontent.com/u/10818037?s=400&amp;v=4">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">11-Mar-19 09:45 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.0xproject.com/new-ethereum-dev-tools-from-0x-db80ee9e802?gi=b22218dfba3" target="_blank" rel="noopener noreferrer">https://blog.0xproject.com/new-ethereum-dev-tools-from-0x-db80ee9e802?gi=b22218dfba3</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.0xproject.com/new-ethereum-dev-tools-from-0x-db80ee9e802?gi=b22218dfba3" target="_blank" rel="noopener noreferrer"><span class="markdown">New Ethereum Dev Tools from 0x</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Four tools to help you write better smart contracts</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*cuocdzR9wmIr5diOP9cydA.png" target="_blank" rel="noopener noreferrer">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*cuocdzR9wmIr5diOP9cydA.png">
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://SourceCrypto.pub/images/avatar.png">
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="⧉infominer#2551">⧉infominer</span>
+                <span class="chatlog__timestamp">13-May-19 02:38 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.w3.org/community/groups/proposed/#evm" target="_blank" rel="noopener noreferrer">https://www.w3.org/community/groups/proposed/#evm</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.w3.org/community/groups/proposed/" target="_blank" rel="noopener noreferrer"><span class="markdown">Proposed Groups | Community and Business Groups</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+</div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#development" class="page__taxonomy-item" rel="tag">Development</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-07-30T05:06:31-04:00">July 30, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  <h2><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/blob/master/_development/ethereum-dev.html" class="edit" target="_blank" rel="noopener noreferrer">Edit this page <i class="fa fa-pencil"></i></a></h2>
+  <h3>Social Share</h3>
+  <a href="https://twitter.com/intent/tweet?via=SourceCrypto&amp;text=ethereum-dev%20http%3A%2F%2Flocalhost%3A4000%2Farchive%2Fdevelopment%2Fethereum-dev%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Farchive%2Fdevelopment%2Fethereum-dev%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A4000%2Farchive%2Fdevelopment%2Fethereum-dev%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2Farchive%2Fdevelopment%2Fethereum-dev%2F&amp;title=ethereum-dev" class="btn btn--reddit" title="Share on Reddit" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> Reddit</span></a>
+  <p><img src="https://infominer.id/assets/img/1pLr.gif"></p>
+  <h3>Tips Welcome</h3>
+    <p>Feel free to <a href="mailto:infominer@protonmail.com">contact me</a> if you're interested in <a href="https://web-work.tools/services/#iso-clients-who-want-bitcoin-related-content" target="_blank" rel="noopener noreferrer">Bitcoin related content / research</a>!</p>
+  <table class="table table-bordered table-hover table-condensed">
+    <thead>
+      <tr>
+        <th title="Field #1">Bitcoin</th>
+        <th title="Field #2">DOGE</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1A1DZfw4VgpHCgnMjnmfDnMjddKf8xdYbd</td>
+        <td>DQKkzfJjqnXUD8Z7C3e84vKzvghPe9dXSa</td>
+      </tr>
+      <tr>
+        <td><img src="https://imgur.com/yXLLm9Bl.png" width="150"></td>
+        <td><img src="https://imgur.com/z316u0c.png" width="150"></td>
+      </tr>
+    </tbody>
+  </table>  
+  <!-- Beginning of tippin.me Button -->
+  <div id="tippin-button" data-dest="infominer33"></div>
+  <script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script>
+  <!-- End of tippin.me Button -->
+</section>
+
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/archive/development/discussion-dev/" class="pagination--pager" title="discussion-dev
+">Previous</a>
+    
+    
+      <a href="/archive/development/forking/" class="pagination--pager" title="forking
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/" rel="permalink">Bitcoin Info
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  35 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Bitcoin is a revolutionary system that is quite complex and has a steep learning curve. Below you’ll find curated educational resources and information about...</p>
+  </article>
+</div>
+
+        
+          
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/agoric-papers-teaser.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/literature/agoric-papers-miller-drexler/" rel="permalink">The Agoric Papers
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  40 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Ho...</p>
+  </article>
+</div>
+
+        
+          
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/thecryptoconomy-podcast_guy-swann.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/literature/thecryptoconomy-podcast-deep-dive/" rel="permalink">Down the @TheCryptoconomy Rabbithole
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  13 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Audio for Hundreds of Essential Bitcoin Articles. <a href="https://twitter.com/TheCryptoconomy" class="user-mention">@TheCryptoconomy</a> - Guy Swan….. These Podcasts are essential. So why not make an index of their content, org...</p>
+  </article>
+</div>
+
+        
+          
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/libra-map-the-block-preview.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/enterprise/libra-association/" rel="permalink">The Libra Association
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Everything related to LibraCoin’s Consortium, ‘The Libra Association’.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://infominer.id" rel="noopener noreferrer" target="_blank"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
+        
+      
+        
+          <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://keybase.io/infominer" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
+        
+      
+        
+          <li><a href="https://github.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/infominer33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://discord.gg/ahTuPMY" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+        
+      
+        
+          <li><a href="https://t.me/InfoMiner33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">⧉ <a href="https://infominer.id" target="_blank" rel="noopener noreferrer">infominer</a> ⧉ <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">Creative Commons (CC0 1.0) Public Domain</a> ⧉ Powered by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank">Minimal Mistakes</a> via <a href="https://infominer.id/gh-pages-starter-pack.html" target="_blank" rel="noopener noreferrer">Github Pages</a>. ⧉</div>
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
