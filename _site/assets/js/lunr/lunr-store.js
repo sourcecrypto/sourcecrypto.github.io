@@ -615,9 +615,9 @@ var store = [{
         "url": "http://localhost:4000/posts/Bitcoin/history/",
         "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/chancellor-brink-bailout-banks.png"},{
         "title": "Cypherpunks and the Crypto Wars",
-        "excerpt":"A Resource for learning about the Cypherpunk Movement. This repository was created, in part while researching: Electronic Currency, Before Bitcoin Crypto Wars Birth of Cypherpunks: Short wiki.openrightsgroup.org/wiki/Crypto_Wars wikipedia.org/wiki/Crypto_Wars Untold History of Blockchain Phil Zimmerman creates PGP(‘91), the first publicly available encryption allowing people to communicate using 128-bit encryption and Diffie-Hellman...","categories": ["history"],
-        "tags": ["Cypherpunk","Before Bitcoin"],
-        "url": "http://localhost:4000/posts/history/before-bitcoin/cypherpunks/",
+        "excerpt":"A Resource for learning about the Cypherpunk Movement. This repository was created, in part while researching: Electronic Currency, Before Bitcoin Crypto Wars Birth of Cypherpunks: Short wiki.openrightsgroup.org/wiki/Crypto_Wars wikipedia.org/wiki/Crypto_Wars Untold History of Blockchain Phil Zimmerman creates PGP(‘91), the first publicly available encryption allowing people to communicate using 128-bit encryption and Diffie-Hellman...","categories": ["history","Bitcoin"],
+        "tags": ["Cypherpunk","Pre-History"],
+        "url": "http://localhost:4000/posts/Bitcoin/pre-history/cypherpunks/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "History of Cryptocurrencies",
         "excerpt":"http://bitpaper.info/paper/5722646637445120 ^^^ rejection of coloured coins leads to ethereum https://www.youtube.com/watch?v=3FA3UjA0igY 81:48 there is a guy named aviv zohar was 81:50 written some great papers one of them is 81:51 on ghost which is what etherium is based 81:54 on and he’s got a follow up to that his World’s oldest...","categories": ["history"],
@@ -625,14 +625,14 @@ var store = [{
         "url": "http://localhost:4000/posts/history/cryptocurrencies/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Electronic Cash, Before Bitcoin",
-        "excerpt":"DigiCash Digicash enables First Electronic Payment - 1994 eCash - Timeline [1998] E-MONEY (THAT’S WHAT I WANT) How DigiCash Blew Everything [ϟ] A Brief History of Digital Currencies History of digital currencies of the 90’s with DigiCash as the primary example FirstVirtual and CyberCash Early History of Digital Cash and...","categories": ["history"],
-        "tags": ["Before Bitcoin","Virtual Currency"],
-        "url": "http://localhost:4000/posts/history/before-bitcoin/electronic-cash/",
+        "excerpt":"DigiCash Digicash enables First Electronic Payment - 1994 eCash - Timeline [1998] E-MONEY (THAT’S WHAT I WANT) How DigiCash Blew Everything [ϟ] A Brief History of Digital Currencies History of digital currencies of the 90’s with DigiCash as the primary example FirstVirtual and CyberCash Early History of Digital Cash and...","categories": ["history","Bitcoin"],
+        "tags": ["Pre-History","Virtual Currency"],
+        "url": "http://localhost:4000/posts/Bitcoin/pre-history/electronic-cash/",
         "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/electronic-cash-2013.png"},{
         "title": "Before Bitcoin",
         "excerpt":"Short-form Crypto Fundamentals -by Infominer What’s a Cryptographic Primitive? Cryptographic Hash Functions Proof of Work in a Nutshell Zero Knowledge Proofs David Chaum - The Father of Digital Cash The Birth of the Cypherpunks The Rise of the Cypherpunks /cypherpunks/ and the Crypto Wars Crypto Wars Cypherpunk Mailing-list Modern Crypto...","categories": ["history","Bitcoin"],
-        "tags": ["Before Bitcoin","Virtual Currency"],
-        "url": "http://localhost:4000/posts/history/before-bitcoin/",
+        "tags": ["Pre-History"],
+        "url": "http://localhost:4000/posts/Bitcoin/pre-history/",
         "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/crab-17-10-10-2018-economist-world-currency.png"},{
         "title": "Smart Contract History and Related Resources",
         "excerpt":"I was writing this basic introduction, Smart Contracts: Use cases, and DApps Smart contracts are self-executing code that defines and executes an agreement between multiple parties. That code contains simple “if/when…then…” statements executed within a distributed network that achieves consensus on transactions made within it. When I came across: lambda-the-ultimate.org/node/5003#comment-94645...","categories": ["history"],

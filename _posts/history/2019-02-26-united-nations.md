@@ -5,13 +5,14 @@ description: A Reasonably Comprehensive History of Blockchain and Cryptocurrency
 excerpt: "2010, the UN Commission on Science and Technology for Development [CSTD] proposed the introduction of a technology-driven universal currency. A BitMint would allow users to transmit funds globally and carry them around on a usb stick."
 
 header:
-  image: "https://sourcecrypto.pub/bitcoin-history/assets/img/SDG_FINAL-2015-02.png"
+  image: "https://sourcecrypto.pub/images/bitcoin-history/SDG_FINAL-2015-02.png"
   caption: "[https://www.islamic-relief.org/wp-content/uploads/2015/09/SDG_FINAL-2015-02.png](https://www.islamic-relief.org/wp-content/uploads/2015/09/SDG_FINAL-2015-02.png)"
-  og_image: "https://sourcecrypto.pub/bitcoin-history/assets/img/unblockchain.jpg"
-  teaser: "https://sourcecrypto.pub/bitcoin-history/assets/img/unblockchain.jpg"
+  og_image: "https://sourcecrypto.pub/images/bitcoin-history/unblockchain.jpg"
+  teaser: "https://sourcecrypto.pub/images/bitcoin-history/unblockchain.jpg"
 redirect_from: 
-  - #UnitedNations
-  - #UnitedNations/
+  - /bitcoin-history/united-nations/
+  - /bitcoin-history/UnitedNations
+  - /bitcoin-history/UnitedNations/
 permalink: posts/history/united-nations/
 canonical_url: 'https://sourcecrypto.pub/posts/history/united-nations/'
 toc_sticky: false
