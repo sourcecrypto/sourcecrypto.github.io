@@ -735,14 +735,19 @@ var store = [{
         "url": "http://localhost:4000/posts/Bitcoin/thecryptoconomy-podcast-deep-dive/",
         "teaser":"http://localhost:4000/images/thecryptoconomy-podcast_guy-swann.png"},{
         "title": "The Agoric Papers",
-        "excerpt":"I was excited to catch this episode of Epicenter, recently. I’ve been interested in Mark Miller’s work since I began studying the history of smart contracts. Mark Miller: Agoric and the Decades-Long Quest for Secure Smart Contracts. -Epicenter Podcast I’ll be diving deeper into ObCap, Elang, and Agoric over the...","categories": ["history"],
-        "tags": ["Agoric","Mark Miller","Eric Drexler","ObCap","Smart Contracts","literature"],
+        "excerpt":"I was excited to catch this episode of Epicenter, recently. I’ve been interested in Mark Miller’s work since I began studying the history of smart contracts. Mark Miller: Agoric and the Decades-Long Quest for Secure Smart Contracts. -Epicenter Podcast I’ll be diving deeper into ObCap, Elang, and Agoric over the...","categories": ["history","Agoric"],
+        "tags": ["Mark Miller","Eric Drexler","ObCap","Smart Contracts","literature"],
         "url": "http://localhost:4000/posts/history/agoric-papers-miller-drexler/",
         "teaser":"http://localhost:4000/images/agoric-papers-teaser.png"},{
         "title": "Bitcoin Info",
         "excerpt":"This page, at the moment, is mainly the contents of the Bitcoin Channel from SourceCrypto Discord server. This is my first attempt at organizing information related specifically to Bitcoin. We also have Bitcoin Dev and BTC-Layer2 channels that must be sorted. To be honest, much of the contents of the...","categories": ["Bitcoin"],
         "tags": ["Resources"],
         "url": "http://localhost:4000/posts/Bitcoin/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
+        "title": "Mark Miller on Epicenter Podcast - Hyperlink Annotated Transcript",
+        "excerpt":"This is a transcript of the epicenter podcast, where Brian Fabien Crain interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of...","categories": ["transcripts","Agoric"],
+        "tags": ["Agoric","Mark Miller","Eric Drexler","ObCap","Smart Contracts","literature"],
+        "url": "http://localhost:4000/posts/transcripts/mark-miller-agoric-epicenter/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "assorted-media",
         "excerpt":"Source&#10697;Crypto assorted-media 66 messages &#10697;infominer 08-Aug-18 08:41 PM https://bitcoinhackers.org/about Bitcoin Mastodon A mastodon instance for Bitcoiners No Scams, no impersonation, no begging, and no illegal content Keep it civil and we should all survive :) &#10697;infominer 11-Aug-18 08:52 PM https://www.youtube.com/user/aantonop aantonop Videos about Bitcoin, Ethereum and other Open Blockchain topics...","categories": ["Resources"],
