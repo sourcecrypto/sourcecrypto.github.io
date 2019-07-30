@@ -367,7 +367,6 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
-      redirect_from: /discolog/general/:path/
       header:
        image: /images/Source-Crypto-banner.png
        teaser: /images/source-crypto-gh-og.png
@@ -386,7 +385,6 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
-      redirect_from: /discolog/resources/:path/
       header:
        image: /images/Source-Crypto-banner.png
        teaser: /images/source-crypto-gh-og.png
@@ -405,7 +403,6 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
-      redirect_from: /discolog/crypto/:path/
       header:
        image: /images/Source-Crypto-banner.png
        teaser: /images/crypto-teaser.png
@@ -423,7 +420,6 @@ defaults:
         title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
-      redirect_from: /discolog/blockchain-tech/:path/
       disco: true
       header:
        image: /images/Source-Crypto-banner.png
@@ -442,7 +438,6 @@ defaults:
         title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
-      redirect_from: /discolog/tech/:path/
       disco: true
       header:
        image: /images/Source-Crypto-banner.png
@@ -462,7 +457,6 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
-      redirect_from: /discolog/development/:path/
       header:
        image: /images/Source-Crypto-banner.png
        teaser: /images/development.png
@@ -481,7 +475,6 @@ defaults:
         nav: "sourcedisco"
       classes: wide
       disco: true
-      redirect_from: /discolog/enterprise/:path/
       header:
        image: /images/Source-Crypto-banner.png
        teaser: /images/source-crypto-gh-og.png
@@ -499,7 +492,6 @@ defaults:
         title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
-      redirect_from: /discolog/application/:path/
       disco: true
       header:
        image: /images/Source-Crypto-banner.png
