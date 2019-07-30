@@ -7,8 +7,8 @@ share: true
 header:
   image: #/images/smart-signatures.png
   teaser: #/images/smart-signatures.png
-categories: ["transcripts","Agoric"]
-tags: ["Agoric", "Mark Miller", "Eric Drexler", "ObCap", "Smart Contracts", "literature"]
+categories: ["Transcripts","Agoric"]
+tags: ["Mark Miller", "Eric Drexler", "ObCap", "Smart Contracts", "Literature"]
 permalink: /posts/transcripts/mark-miller-agoric-epicenter/
 redirect_from: 
   - #/transcripts/smart-signatures-christopher-allen/

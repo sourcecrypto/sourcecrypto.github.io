@@ -14,11 +14,11 @@ header:
 toc: false
 classes: wide
 last_modified_at: 2019-04-20T11:22:33-23:00
-categories: ["transcripts","enterprise"]
+categories: ["Transcripts","Enterprise"]
 tags:
-  - permissionless
+  - Permissionless
   - Ethereum
-  - permissioned
+  - Permissioned
   - DLT
   - "John Wolpert"
 redirect_from:

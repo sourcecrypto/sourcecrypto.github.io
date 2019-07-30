@@ -10,12 +10,11 @@ header:
 toc: false
 classes: wide
 last_modified_at: 2019-04-20T11:22:33-23:00
-categories: ["transcripts","Bitcoin"]
+categories: ["Transcripts","Bitcoin"]
 tags:
-  - Bitcoin
-  - enterprise
-  - permissioned
-  - DLT
+  - Stephan Livera
+  - Andreas Antonopolous
+  - Bitcoin Maximalism
 redirect_from:
   - /transcripts/SLP53-Livera-Antonopolis-Maximalism-Transcript/
 permalink: '/posts/transcripts/SLP53-Livera-Antonopolis-Maximalism-Transcript/'

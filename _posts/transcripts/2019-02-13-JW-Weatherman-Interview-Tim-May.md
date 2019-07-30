@@ -14,7 +14,7 @@ header:
 toc: false
 classes: wide
 last_modified_at: 2019-04-20T11:22:33-23:00
-categories: ["transcripts","history"]
+categories: ["Transcripts","History"]
 tags: 
   - Cypherpunk
   - Tim May
