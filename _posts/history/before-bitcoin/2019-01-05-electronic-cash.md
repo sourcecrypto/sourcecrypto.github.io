@@ -4,16 +4,17 @@ title: Electronic Cash, Before Bitcoin
 description: An arrangement of resources related to the quest for digital cash, before Bitcoin.
 excerpt: "Each RPOW or POW token can only be used once but since it gives birth to a new one, it is as though the same token can be handed from person to person."
 header: 
-  image: "https://sourcecrypto.pub/bitcoin-history/assets/img/2013-Virtual-Currency-Infographic.png"
+  image: "https://sourcecrypto.pub/images/bitcoin-history/2013-Virtual-Currency-Infographic.png"
   caption: "[Dec 2013 - History of Virtual Currency](https://www.course5i.com/blogs/wp-content/uploads/2013/12/virtual-currency_infographics_new2.pdf)"
-  teaser: "https://sourcecrypto.pub/bitcoin-history/assets/img/electronic-cash-2013.png"
-  og_image: "https://sourcecrypto.pub/bitcoin-history/assets/img/electronic-cash-2013.png"
-permalink: /posts/history/before-bitcoin/electronic-cash/
-canonical_url: 'https://sourcecrypto.pub/posts/history/before-bitcoin/electronic-cash/'
+  teaser: "https://sourcecrypto.pub/images/bitcoin-history/electronic-cash-2013.png"
+  og_image: "https://sourcecrypto.pub/images/bitcoin-history/electronic-cash-2013.png"
+permalink: /posts/Bitcoin/pre-history/electronic-cash/
+canonical_url: 'https://sourcecrypto.pub/posts/Bitcoin/pre-history/electronic-cash/'
 author_profile: false
 last_modified_at: 2019-05-27T13:22:33-23:00
-categories: ["history"]
-tags: ["Before Bitcoin","Virtual Currency"]
+categories: ["history","Bitcoin"]
+tags: ["Pre-History","Virtual Currency"]
+redirect_from: /bitcoin-history/before-bitcoin/electronic-cash/
 ---
 
 

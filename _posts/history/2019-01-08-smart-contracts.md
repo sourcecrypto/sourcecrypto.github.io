@@ -5,12 +5,13 @@ description: From Szabo and E Lang - to Ethereum, the DAO, Smart Signatures, and
 excerpt: >
   The capability paradigm is about access control. When a system, such as an OS or a website, is presented with a request for a service it provides, it needs to decide if it should actually do what the requestor is asking for. 
 header:
-  teaser: https://sourcecrypto.pub/bitcoin-history/assets/img/elems10.png
-  image: https://sourcecrypto.pub/bitcoin-history/assets/img/elems10.png
+  teaser: https://sourcecrypto.pub/images/bitcoin-history/elems10.png
+  image: https://sourcecrypto.pub/images/bitcoin-history/elems10.png
   caption: "[erights.org - CapTP Ops: provideFor()](http://www.erights.org/elib/distrib/captp/provideFor.html) '98"
 toc_sticky: false
 author_profile: true
 permalink: /posts/history/smart-contracts/
+redirect_from: /bitcoin-history/smart-contracts/
 canonical_url: 'https://sourcecrypto.pub/posts/history/smart-contracts/'
 categories: ["history"]
 tags: ["Smart Contracts"]
@@ -41,7 +42,7 @@ However, sooon this Bitcoin History is gonna get filled out proper...
 
 ## Smart Contract History
 
-![](https://sourcecrypto.pub/bitcoin-history/assets/img/elems10.png)<br>
+![](https://sourcecrypto.pub/images/bitcoin-history/elems10.png)<br>
   > VatA (the donor) deposits a reference to gift at nonce in VatC's (the host's) from-VatA-for-VatB table, and returns a Vine for the gift-entry. 
 
 ## Object Capabilities (ObCap)

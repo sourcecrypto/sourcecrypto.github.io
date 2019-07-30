@@ -14,6 +14,7 @@ tags:
   - "Counterparty"
   - "Rare Pepe"
 permalink: posts/bitcoin/rare-pepe/
+redirect_from: /bitcoin-history/rare-pepe/
 canonical_url: 'https://sourcecrypto.pub/posts/bitcoin/rare-pepe/'
 categories: ["history","Bitcoin"]
 ---

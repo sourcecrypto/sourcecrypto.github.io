@@ -6,6 +6,7 @@ canonical_url: 'https://sourcecrypto.pub/posts/history/cryptocurrencies/'
 last_modified_at: 2019-05-27T13:22:33-23:00
 excerpt: >
   This is probably the least developed resource on the website. I'm still busy picking up on all the pre-history.
+redirect_from: /bitcoin-history/cryptocurrencies/
 categories: ["history"]
 tags: ["Cryptocurrency"]
 

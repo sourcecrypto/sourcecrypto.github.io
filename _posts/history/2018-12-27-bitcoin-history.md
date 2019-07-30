@@ -9,19 +9,19 @@ categories: ["history","Bitcoin"]
 tags: ["Bitcoin"]
 
 header:
-  image: https://sourcecrypto.pub/bitcoin-history/assets/img/Happy-birthday-bitcoin-log-chart-in-The-Times.jpg
+  image: https://sourcecrypto.pub/images/bitcoin-history/Happy-birthday-bitcoin-log-chart-in-The-Times.jpg
   caption: "[Happy Birthday Bitcoin! Your Gift: A Log Chart in the Times](https://ftalphaville.ft.com/2019/01/03/1546533333000/Happy-birthday-bitcoin--Your-gift--a-log-chart-in-the-The-Times/)"
-  og_image: https://sourcecrypto.pub/bitcoin-history/assets/img/chancellor-brink-bailout-banks.png
-  teaser: https://sourcecrypto.pub/bitcoin-history/assets/img/chancellor-brink-bailout-banks.png
+  og_image: https://sourcecrypto.pub/images/bitcoin-history/chancellor-brink-bailout-banks.png
+  teaser: https://sourcecrypto.pub/images/bitcoin-history/chancellor-brink-bailout-banks.png
 permalink: "posts/Bitcoin/history/"
 canonical_url: 'https://sourcecrypto.pub/posts/Bitcoin/history/'
-
+redirect_from: /bitcoin-history/bitcoin/
 
 last_modified_at: 2019-05-27T13:22:33-23:00
 ---
 
 
-![](https://sourcecrypto.pub/bitcoin-history/assets/img/genesis-block-newspaper-chancellor-brink-bailout-banks.png)<br/>
+![](https://sourcecrypto.pub/images/bitcoin-history/genesis-block-newspaper-chancellor-brink-bailout-banks.png)<br/>
 [www.thetimes03jan2009.com](https://web.archive.org/web/20180829032336/https://www.thetimes03jan2009.com/){: .btn .btn--light-outline}
 
 
