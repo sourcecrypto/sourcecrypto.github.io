@@ -640,8 +640,8 @@ var store = [{
         "url": "http://localhost:4000/posts/history/smart-contracts/",
         "teaser":"https://sourcecrypto.pub/images/bitcoin-history/elems10.png"},{
         "title": "Blockchain Data - Analytics",
-        "excerpt":"topics/blockchain-analytics arnaucube/goBlockchainDataAnalysis blockchain-unica/blockapi - A general framework for blockchain analytics ipfs/sig-blockchain-data joshbressers/blockchain-elasticsearch unwriter/B - Store and reference data on the Bitcoin SV blockchain https://b.bitdb.network coinbase/btcexport - Export process for Bitcoin blockchain data to CSV mappum/blockchain-download - Download blockchain data from peers Data reddit: I have 5 years of coinmarketcap.com crypto...","categories": ["analytics"],
-        "tags": ["data"],
+        "excerpt":"topics/blockchain-analytics arnaucube/goBlockchainDataAnalysis blockchain-unica/blockapi - A general framework for blockchain analytics ipfs/sig-blockchain-data joshbressers/blockchain-elasticsearch unwriter/B - Store and reference data on the Bitcoin SV blockchain https://b.bitdb.network coinbase/btcexport - Export process for Bitcoin blockchain data to CSV mappum/blockchain-download - Download blockchain data from peers Data reddit: I have 5 years of coinmarketcap.com crypto...","categories": ["Analytics"],
+        "tags": ["Data"],
         "url": "http://localhost:4000/posts/analytics/blockchain-data/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Verifiable Organizations Network - A Production Government Deployment of Hyperledger Indy",
