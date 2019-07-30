@@ -11,13 +11,15 @@ excerpt: "Audio for Hundreds of Essential Bitcoin Articles. @TheCryptoconomy - G
 sidebar:
   nav: sourcedisco 
 toc: true
-permalink: /posts/literature/thecryptoconomy-podcast-deep-dive/
-redirect_from: blog/thecryptoconomy-podcast-deep-dive/
-canonical_url: "https://sourcecrypto.pub/posts/literature/thecryptoconomy-podcast-deep-dive/"
+permalink: /posts/Bitcoin/thecryptoconomy-podcast-deep-dive/
+redirect_from: 
+  - blog/thecryptoconomy-podcast-deep-dive/
+  - /literature/thecryptoconomy-podcast-deep-dive/
+canonical_url: "https://sourcecrypto.pub/posts/Bitcoin/thecryptoconomy-podcast-deep-dive/"
 share: true
 last_modified_at: 2019-06-22T11:22:33-23:00
-categories: ["literature","resources"]
-tags: ["podcast", "bitcoin", "crypto","history"]
+categories: ["history","Bitcoin"]
+tags: ["podcast","literature"]
 
 ---
 

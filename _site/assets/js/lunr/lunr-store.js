@@ -613,7 +613,7 @@ var store = [{
         "excerpt":"www.thetimes03jan2009.com For now this is just an assorted list. Shortly I’ll be diving deeper into the history of bitcoin itself. Thusfar, I’ve been circling around it, so to speak. I’ve been gathering all of the necessary background research, in order to do justice to the story of Bitcoin itself Bitcoin’s...","categories": ["history","Bitcoin"],
         "tags": ["Bitcoin"],
         "url": "http://localhost:4000/posts/Bitcoin/history/",
-        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/chancellor-brink-bailout-banks.png"},{
+        "teaser":"https://sourcecrypto.pub/images/bitcoin-history/chancellor-brink-bailout-banks.png"},{
         "title": "Cypherpunks and the Crypto Wars",
         "excerpt":"A Resource for learning about the Cypherpunk Movement. This repository was created, in part while researching: Electronic Currency, Before Bitcoin Crypto Wars Birth of Cypherpunks: Short wiki.openrightsgroup.org/wiki/Crypto_Wars wikipedia.org/wiki/Crypto_Wars Untold History of Blockchain Phil Zimmerman creates PGP(‘91), the first publicly available encryption allowing people to communicate using 128-bit encryption and Diffie-Hellman...","categories": ["history","Bitcoin"],
         "tags": ["Cypherpunk","Pre-History"],
@@ -628,17 +628,17 @@ var store = [{
         "excerpt":"DigiCash Digicash enables First Electronic Payment - 1994 eCash - Timeline [1998] E-MONEY (THAT’S WHAT I WANT) How DigiCash Blew Everything [ϟ] A Brief History of Digital Currencies History of digital currencies of the 90’s with DigiCash as the primary example FirstVirtual and CyberCash Early History of Digital Cash and...","categories": ["history","Bitcoin"],
         "tags": ["Pre-History","Virtual Currency"],
         "url": "http://localhost:4000/posts/Bitcoin/pre-history/electronic-cash/",
-        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/electronic-cash-2013.png"},{
+        "teaser":"https://sourcecrypto.pub/images/bitcoin-history/electronic-cash-2013.png"},{
         "title": "Before Bitcoin",
         "excerpt":"Short-form Crypto Fundamentals -by Infominer What’s a Cryptographic Primitive? Cryptographic Hash Functions Proof of Work in a Nutshell Zero Knowledge Proofs David Chaum - The Father of Digital Cash The Birth of the Cypherpunks The Rise of the Cypherpunks /cypherpunks/ and the Crypto Wars Crypto Wars Cypherpunk Mailing-list Modern Crypto...","categories": ["history","Bitcoin"],
         "tags": ["Pre-History"],
         "url": "http://localhost:4000/posts/Bitcoin/pre-history/",
-        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/crab-17-10-10-2018-economist-world-currency.png"},{
+        "teaser":"https://sourcecrypto.pub/images/bitcoin-history/crab-17-10-10-2018-economist-world-currency.png"},{
         "title": "Smart Contract History and Related Resources",
         "excerpt":"I was writing this basic introduction, Smart Contracts: Use cases, and DApps Smart contracts are self-executing code that defines and executes an agreement between multiple parties. That code contains simple “if/when…then…” statements executed within a distributed network that achieves consensus on transactions made within it. When I came across: lambda-the-ultimate.org/node/5003#comment-94645...","categories": ["history"],
         "tags": ["Smart Contracts"],
         "url": "http://localhost:4000/posts/history/smart-contracts/",
-        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/elems10.png"},{
+        "teaser":"https://sourcecrypto.pub/images/bitcoin-history/elems10.png"},{
         "title": "Blockchain Data - Analytics",
         "excerpt":"topics/blockchain-analytics arnaucube/goBlockchainDataAnalysis blockchain-unica/blockapi - A general framework for blockchain analytics ipfs/sig-blockchain-data joshbressers/blockchain-elasticsearch unwriter/B - Store and reference data on the Bitcoin SV blockchain https://b.bitdb.network coinbase/btcexport - Export process for Bitcoin blockchain data to CSV mappum/blockchain-download - Download blockchain data from peers Data reddit: I have 5 years of coinmarketcap.com crypto...","categories": ["analytics"],
         "tags": ["data"],
@@ -653,7 +653,7 @@ var store = [{
         "excerpt":"I used this space as prep for writing this article: The Times and History of Permissioned Ledgers Source Crypto I collect links in the SourceCrypto Discord Server #history channel, and occasionally I export them to this website: https://sourcecrypto.pub/discolog/general/history/ You can expect that page and the discord server to have information...","categories": ["history"],
         "tags": ["Permissioned Ledgers"],
         "url": "http://localhost:4000/posts/history/permissioned-ledgers/",
-        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/permissioned-ledger-2015.png"},{
+        "teaser":"https://sourcecrypto.pub/images/bitcoin-history/permissioned-ledger-2015.png"},{
         "title": "Hyperledger Global Forum 2018 — Microledgers and Edge-Chains",
         "excerpt":"A Primer - Daniel Hardman, Evernym Daniel Hardman, Chief Architect - Evernym Daniel Hardman has a quarter century of experience in enterprise software. As a technical director or chief architect, he’s led engineering teams at small startups, an incubator, and a continent-spanning business unit at a Fortune 500 company. He...","categories": ["transcripts","decentralized identity"],
         "tags": ["State Channels","Edge Chains","Indy","HGF2018","Design Theory"],
@@ -673,7 +673,7 @@ var store = [{
         "excerpt":"The organizations are listed roughly in order of when they got involved with blockchain. I’m sure to have missed a few things. Please leave an issue, pull request, or contact me if there’s anything you’d like included. Off the top of my head: Bitcoin, Ethereum, Stellar and IOTA have worked...","categories": ["history"],
         "tags": ["United Nations"],
         "url": "http://localhost:4000/posts/history/united-nations/",
-        "teaser":"https://sourcecrypto.pub/bitcoin-history/assets/img/unblockchain.jpg"},{
+        "teaser":"https://sourcecrypto.pub/images/bitcoin-history/unblockchain.jpg"},{
         "title": "Stephan Livera Podcast 53 with Andreas Antonopolous",
         "excerpt":"Stephan Livera and Andreas M. Antonopoulos - On Bitcoin Maximalism Editors Note: I've taken to working on youtube transcripts of podcasts and videos whos content is valuable and not easily accessible in text form, so that it will be easier for anyone to reference. Lightly edited, just enough to make...","categories": ["transcripts","Bitcoin"],
         "tags": ["Bitcoin","enterprise","permissioned","DLT"],
@@ -730,14 +730,14 @@ var store = [{
         "url": "http://localhost:4000/posts/enterprise/libra-association/",
         "teaser":"http://localhost:4000/images/libra-map-the-block-preview.jpg"},{
         "title": "Down the @TheCryptoconomy Rabbithole",
-        "excerpt":"Was asked recently why I started The Cryptoconomy Podcast: • I wanted audio of the 1000s of amazing #Bitcoin articles • I realized most only read title &amp; 1st paragraph (caught myself doing it) • The scope of Bitcoin study feels insurmountable w/out helphttps://t.co/umoiK05Ijz &mdash; Guy Swann⚡ (@TheCryptoconomy) April 19,...","categories": ["literature","resources"],
-        "tags": ["podcast","bitcoin","crypto","history"],
-        "url": "http://localhost:4000/posts/literature/thecryptoconomy-podcast-deep-dive/",
+        "excerpt":"Was asked recently why I started The Cryptoconomy Podcast: • I wanted audio of the 1000s of amazing #Bitcoin articles • I realized most only read title &amp; 1st paragraph (caught myself doing it) • The scope of Bitcoin study feels insurmountable w/out helphttps://t.co/umoiK05Ijz &mdash; Guy Swann⚡ (@TheCryptoconomy) April 19,...","categories": ["history","Bitcoin"],
+        "tags": ["podcast","literature"],
+        "url": "http://localhost:4000/posts/Bitcoin/thecryptoconomy-podcast-deep-dive/",
         "teaser":"http://localhost:4000/images/thecryptoconomy-podcast_guy-swann.png"},{
         "title": "The Agoric Papers",
-        "excerpt":"I was excited to catch this episode of Epicenter, recently. I’ve been interested in Mark Miller’s work since I began studying the history of smart contracts. Mark Miller: Agoric and the Decades-Long Quest for Secure Smart Contracts. -Epicenter Podcast I’ll be diving deeper into ObCap, Elang, and Agoric over the...","categories": ["literature"],
-        "tags": ["Agoric","Mark Miller","Eric Drexler","ObCap","Smart Contracts","history"],
-        "url": "http://localhost:4000/posts/literature/agoric-papers-miller-drexler/",
+        "excerpt":"I was excited to catch this episode of Epicenter, recently. I’ve been interested in Mark Miller’s work since I began studying the history of smart contracts. Mark Miller: Agoric and the Decades-Long Quest for Secure Smart Contracts. -Epicenter Podcast I’ll be diving deeper into ObCap, Elang, and Agoric over the...","categories": ["history"],
+        "tags": ["Agoric","Mark Miller","Eric Drexler","ObCap","Smart Contracts","literature"],
+        "url": "http://localhost:4000/posts/history/agoric-papers-miller-drexler/",
         "teaser":"http://localhost:4000/images/agoric-papers-teaser.png"},{
         "title": "Bitcoin Info",
         "excerpt":"This page, at the moment, is mainly the contents of the Bitcoin Channel from SourceCrypto Discord server. This is my first attempt at organizing information related specifically to Bitcoin. We also have Bitcoin Dev and BTC-Layer2 channels that must be sorted. To be honest, much of the contents of the...","categories": ["Bitcoin"],
