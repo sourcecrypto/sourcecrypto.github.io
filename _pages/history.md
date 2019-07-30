@@ -43,7 +43,9 @@ feature_row:
 classes: wide
 toc: false
 permalink: '/posts/history/'
-redirect_from: "/history/"
+redirect_from:
+  - "/history/"
+  - /bitcoin-history/
 canonical_url: "https://sourcecrypto.pub/posts/history/"
 ---
 
