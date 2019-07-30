@@ -686,7 +686,7 @@ var store = [{
         "teaser":"http://localhost:4000/images/john-wolpert-consensys-2018-coindesk.png"},{
         "title": "Using PGP and Cryptocurrency Keysignatures",
         "excerpt":"\"Public key encryption: supporting secure transactions online since 1991!!\" I created this resource while researching the following article: freelanceforcoins.com/Business with Crypto 101—Escrow and Key Signatures -infominer This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with...","categories": ["Crypto"],
-        "tags": ["pgp","deepdotweb","security","privacy","resources","practical"],
+        "tags": ["PGP","Escrow","Key Signatures","Bitcoin","Ethereum","DeepDotWeb","Practical"],
         "url": "http://localhost:4000/posts/crypto/keysigs-escrow-bitcoin-ethereum-pgp/",
         "teaser":"https://web-work.tools/images/pgp-og.png"},{
         "title": "Blockchain Identity Reources - TOML",
