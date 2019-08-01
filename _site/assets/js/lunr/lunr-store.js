@@ -759,7 +759,7 @@ var store = [{
         "tags": ["Resources"],
         "url": "http://localhost:4000/posts/Bitcoin/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "Mark Miller on Epicenter Podcast - (to be a) Hyperlink Annotated Transcript",
+        "title": "Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript",
         "excerpt":"This is a transcript of the epicenter podcast, where Brian Fabien Crain interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of...","categories": ["Transcripts","History","Agoric"],
         "tags": ["Mark Miller","Eric Drexler","ObCap","Smart Contracts","Literature"],
         "url": "http://localhost:4000/posts/transcripts/mark-miller-agoric-epicenter/",
