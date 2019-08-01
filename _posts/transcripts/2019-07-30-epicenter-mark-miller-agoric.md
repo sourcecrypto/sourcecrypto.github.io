@@ -1,20 +1,19 @@
 ---
 layout: single
-title: "Mark Miller on Epicenter Podcast - Hyperlink Annotated Transcript"
+title: "Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript"
 description: Agoric and the Decades-Long Quest for Secure Smart Contracts - Hyperlink Annotated Transcript
 excerpt: "We discussed his visionary 1988 Agoric papers, which explored how markets could be applied to the world of software. We also covered how his view of smart contracts, which focused on secure bilateral agreements complements and converges with blockchain. Finally, we covered his new company Agoric and their conceptualization of higher order smart contracts."
 share: true
 header:
   image: #/images/smart-signatures.png
   teaser: #/images/smart-signatures.png
-categories: ["Transcripts","Agoric"]
+categories: ["Transcripts","History","Agoric"]
 tags: ["Mark Miller", "Eric Drexler", "ObCap", "Smart Contracts", "Literature"]
 permalink: /posts/transcripts/mark-miller-agoric-epicenter/
 redirect_from: 
   - #/transcripts/smart-signatures-christopher-allen/
 cannonical_url: 'https://epicenter.tv/episode/286/'
 last_modified_at: 2019-06-30T11:22:33-23:00
-contents: true
 classes: wide
 ---
 
