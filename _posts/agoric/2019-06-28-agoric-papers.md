@@ -2,7 +2,7 @@
 layout: single
 title: "The Agoric Papers"
 description: "These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988"
-excerpt: "These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988"
+excerpt: "This paper examines markets as a model for computation and proposes a framework--agoric systems--for applying the power of market mechanisms to the software domain."
 sidebar:
   nav: sourcedisco 
 toc: true
@@ -14,8 +14,10 @@ last_modified_at: 2019-06-28T11:22:33-23:00
 categories: ["history","Agoric"]
 tags: ["Mark Miller", "Eric Drexler", "ObCap", "Smart Contracts", "literature"]
 toc_sticky: true
-permalink: /posts/history/agoric-papers-miller-drexler/
-redirect_from: /literature/agoric-papers-miller-drexler/
+permalink: /posts/agoric/papers-miller-drexler/
+redirect_from: 
+  - /posts/history/agoric-papers-miller-drexler/
+  - /literature/agoric-papers-miller-drexler/
 canonical_url: "https://agoric-records.xyz/posts/markets-incentive-ecosystems/"
 ---
 

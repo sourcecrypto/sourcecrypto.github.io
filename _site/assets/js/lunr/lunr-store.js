@@ -700,7 +700,7 @@ var store = [{
         "url": "http://localhost:4000/posts/transcripts/public-private-blockchain-wolpert-gendal-brown/",
         "teaser":"http://localhost:4000/images/wolpert-gendal-brown-public-vs-private-blockchain.png"},{
         "title": "Smart Signatures - Christopher Allen",
-        "excerpt":"Video Slideshare — Smart Signatures—Experiments in Authentication (Stanford BPASE 2018 final) Transcript Note: This is mostly just a copy paste of the youtube transcript - I haven’t finished cleaning it up, yet. okay good afternoon my name is Christopher Allen I’m with Blockstream and today I wanted to give you...","categories": ["Transcripts"],
+        "excerpt":"Video Slideshare — Smart Signatures—Experiments in Authentication (Stanford BPASE 2018 final) Transcript Note: This is mostly just a copy paste of the youtube transcript - I haven’t finished cleaning it up, yet. okay good afternoon my name is Christopher Allen I’m with Blockstream and today I wanted to give you...","categories": ["Crypto","Transcripts"],
         "tags": ["Christopher Allen","Smart Signatures"],
         "url": "http://localhost:4000/posts/transcripts/smart-signatures-christopher-allen/",
         "teaser":"http://localhost:4000/images/smart-signatures.png"},{
@@ -734,18 +734,33 @@ var store = [{
         "tags": ["podcast","literature"],
         "url": "http://localhost:4000/posts/Bitcoin/thecryptoconomy-podcast-deep-dive/",
         "teaser":"http://localhost:4000/images/thecryptoconomy-podcast_guy-swann.png"},{
+        "title": "E Language an Object Capability Language",
+        "excerpt":"erights.org wiki.c3.com - E Language An ObjectCapabilityLanguage Mailing list ARChives— e-lang The E capability-secure scripting language monte.readthedocs.io Monte is a programming language inspired by the E and Python programming languages. Monte aims to be: A reliable scaffold for secure distributed computing An example of capability-safe programming language design A model...","categories": ["History","Crypto","Agoric"],
+        "tags": ["Mark Miller","Eric Drexler","ObCap","Smart Contracts","literature"],
+        "url": "http://localhost:4000/posts/crypto/e-rights/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
+        "title": "Mark Sam Miller",
+        "excerpt":"Mark S Miller Mark S. Miller is an American computer scientist. He is known for his work as one of the participants in the 1979 hypertext project known as Project Xanadu; for inventing Miller columns; as the co-creator of the Agoric Paradigm[1] of market-based distributed secure computing; and the open-source...","categories": ["History","Agoric"],
+        "tags": ["Mark Miller","ObCap","Smart Contracts","people"],
+        "url": "http://localhost:4000/posts/agoric/mark-miller/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
+        "title": "Object Capabilities (ObCap)",
+        "excerpt":"The object-capability model was first proposed by Jack Dennis and Earl C. Van Horn in the 1966 paper. Programming Semantics for Multiprogrammed Computations The semantics are defined for a number of meta-instructions which perform operations essential to the writing of programs in multiprogrammed computer systems. These meta-instructions relate to parallel...","categories": ["Crypto","Agoric"],
+        "tags": ["Mark Miller","ObCap","Smart Contracts","people"],
+        "url": "http://localhost:4000/posts/crypto/object-capabilities/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "The Agoric Papers",
         "excerpt":"I was excited to catch this episode of Epicenter, recently. I’ve been interested in Mark Miller’s work since I began studying the history of smart contracts. Mark Miller: Agoric and the Decades-Long Quest for Secure Smart Contracts. -Epicenter Podcast I’ll be diving deeper into ObCap, Elang, and Agoric over the...","categories": ["history","Agoric"],
         "tags": ["Mark Miller","Eric Drexler","ObCap","Smart Contracts","literature"],
-        "url": "http://localhost:4000/posts/history/agoric-papers-miller-drexler/",
+        "url": "http://localhost:4000/posts/agoric/papers-miller-drexler/",
         "teaser":"http://localhost:4000/images/agoric-papers-teaser.png"},{
         "title": "Bitcoin Info",
         "excerpt":"This page, at the moment, is mainly the contents of the Bitcoin Channel from SourceCrypto Discord server. This is my first attempt at organizing information related specifically to Bitcoin. We also have Bitcoin Dev and BTC-Layer2 channels that must be sorted. To be honest, much of the contents of the...","categories": ["Bitcoin"],
         "tags": ["Resources"],
         "url": "http://localhost:4000/posts/Bitcoin/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "Mark Miller on Epicenter Podcast - Hyperlink Annotated Transcript",
-        "excerpt":"This is a transcript of the epicenter podcast, where Brian Fabien Crain interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of...","categories": ["Transcripts","Agoric"],
+        "title": "Mark Miller on Epicenter Podcast - (to be a) Hyperlink Annotated Transcript",
+        "excerpt":"This is a transcript of the epicenter podcast, where Brian Fabien Crain interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of...","categories": ["Transcripts","History","Agoric"],
         "tags": ["Mark Miller","Eric Drexler","ObCap","Smart Contracts","Literature"],
         "url": "http://localhost:4000/posts/transcripts/mark-miller-agoric-epicenter/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
