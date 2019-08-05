@@ -11,13 +11,14 @@ header:
   og_image: /images/agoric-papers-teaser.png
 share: true
 last_modified_at: 2019-06-28T11:22:33-23:00
-categories: ["history","Agoric"]
-tags: ["Mark Miller", "Eric Drexler", "ObCap", "Smart Contracts", "literature"]
+categories: ["History","Agoric"]
+tags: ["Mark Miller", "Eric Drexler", "ObCap", "Smart Contracts", "Literature"]
 toc_sticky: true
 permalink: /posts/agoric/papers-miller-drexler/
 redirect_from: 
   - /posts/history/agoric-papers-miller-drexler/
   - /literature/agoric-papers-miller-drexler/
+  - /blog/agoric-papers-miller-drexler/
 canonical_url: "https://agoric-records.xyz/posts/markets-incentive-ecosystems/"
 ---
 

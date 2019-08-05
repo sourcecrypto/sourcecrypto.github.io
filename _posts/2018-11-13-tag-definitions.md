@@ -13,9 +13,9 @@ toc: false
 classes: wide
 last_modified_at: 2019-06-20T11:22:33-23:00
 excerpt: "what's really missing is tagging all of these resources by authors, co-authors, references/citations once this is done, topical tags can be derived algorithmically- @MaciekLaskus"
-categories: [SourceCrypto]
-tags: [metadata, web-work, development, tags]
-
+categories: ["SourceCrypto"]
+tags: [ "tags"]
+published: false
 ---
 
 

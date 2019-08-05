@@ -13,7 +13,7 @@ cannonical_url: "https://sourcecrypto.pub/posts/history/permissioned-ledgers/"
 redirect_from:
   - /posts/history/permissioned/
   - /bitcoin-history/permissioned-ledgers/
-categories: ["history"]
+categories: ["History"]
 tags: ["Permissioned Ledgers"]
 ---
 

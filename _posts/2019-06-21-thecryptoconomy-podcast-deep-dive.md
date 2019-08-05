@@ -18,8 +18,8 @@ redirect_from:
 canonical_url: "https://sourcecrypto.pub/posts/Bitcoin/thecryptoconomy-podcast-deep-dive/"
 share: true
 last_modified_at: 2019-06-22T11:22:33-23:00
-categories: ["history","Bitcoin"]
-tags: ["podcast","literature"]
+categories: ["History","Bitcoin"]
+tags: ["Podcast","Literature"]
 
 ---
 

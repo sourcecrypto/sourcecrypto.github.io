@@ -16,7 +16,7 @@ redirect_from:
   - /bitcoin-history/before-bitcoin
 canonical_url: 'https://sourcecrypto.pub/posts/Bitcoin/pre-history/'
 last_modified_at: 2019-05-27T13:22:33-23:00
-categories: ["history","Bitcoin"]
+categories: ["History","Bitcoin"]
 tags: ["Pre-History"]
 
 ---

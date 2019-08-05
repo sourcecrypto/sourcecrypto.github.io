@@ -5,7 +5,7 @@ description: >
   An assorted open-source collection of resources on the history of Bitcoin.
 excerpt: >
   "The first recorded claim of bitcoin’s demise was in 2010, on a little-known blog that found itself posted on a record of 'bitcoin obituaries' collected by 99Bitcoins, a bitcoin information site."
-categories: ["history","Bitcoin"]
+categories: ["History","Bitcoin"]
 tags: ["Bitcoin"]
 
 header:
