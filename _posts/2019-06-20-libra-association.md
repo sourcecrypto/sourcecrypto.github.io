@@ -16,7 +16,7 @@ redirect_from:
 canonical_url: "https://sourcecrypto.pub/posts/Libra/association/"
 share: true
 last_modified_at: 2019-06-21T11:22:33-23:00
-categories: ["Libra","enterprise"]
+categories: ["Libra","Enterprise"]
 tags: ["Consortium"]
 
 ---

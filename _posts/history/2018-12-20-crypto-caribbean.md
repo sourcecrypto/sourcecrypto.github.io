@@ -9,7 +9,7 @@ redirect_from: /bitcoin-history/blockchain-bahamas-crypto-caribbean/
 canonical_url: 'https://sourcecrypto.pub/posts/history/blockchain-bahamas-crypto-caribbean/'
 classes: wide
 toc: false
-categories: ["history"]
+categories: ["History"]
 tags: ["Bahamas","Caribbean"]
 last_modified_at: 2019-05-27T13:22:33-23:00
 

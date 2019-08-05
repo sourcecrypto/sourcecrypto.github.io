@@ -14,8 +14,8 @@ canonical_url: "https://sourcecrypto.pub/posts/chainlink/"
 last_modified_at: 2019-06-20T11:22:33-23:00
 disco: true
 classes: wide
-categories: ["enterprise"]
-tags: ["chainlink"]
+categories: ["Enterprise"]
+tags: ["Chainlink"]
 ---
 
 In leiu of my own content, I'm reproducing the channel history of The Watchers Discord Server.

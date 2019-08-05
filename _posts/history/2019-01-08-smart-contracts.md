@@ -13,7 +13,7 @@ author_profile: true
 permalink: /posts/history/smart-contracts/
 redirect_from: /bitcoin-history/smart-contracts/
 canonical_url: 'https://sourcecrypto.pub/posts/history/smart-contracts/'
-categories: ["history"]
+categories: ["History"]
 tags: ["Smart Contracts"]
 
 ---

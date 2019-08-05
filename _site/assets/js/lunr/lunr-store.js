@@ -596,46 +596,41 @@ var store = [{
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "SourceCrypto Research-Index",
         "excerpt":"A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge. Source Crypto Discord Chat is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the channels here. The next step is to systematically build better, more organized resources with the server...","categories": ["SourceCrypto"],
-        "tags": ["introduction"],
+        "tags": ["Introduction"],
         "url": "http://localhost:4000/posts/research-index/",
         "teaser":"http://localhost:4000/images/source-crypto-disco.png"},{
-        "title": "Tag Definitions - a draft",
-        "excerpt":"@MaciekLaskus suggests: this is very interesting, but I think you’re making a fundamental mistake with tagging this by topics what’s really missing is tagging all of these resources by authors, co-authors, references/citations once this is done, topical tags can be derived algorithmically Enabling Author-Centric Ranking of Web Content The limitations...","categories": ["SourceCrypto"],
-        "tags": ["metadata","web-work","development","tags"],
-        "url": "http://localhost:4000/posts/tag-definitions/",
-        "teaser":"http://localhost:4000/images/author-centric-ranking-web.png"},{
         "title": "Bahamas: The 'Silicon Valley' of the Caribbean",
-        "excerpt":"Pristine beaches and palm trees are the first thing that come to mind. Of course, the Bahamas are also famous for their tax-protected off-shore banking. However, the Bahamas are now digital pioneers, with an eye to become the tech leaders of the Caribbean. I’m assembling this repository in collaboration with...","categories": ["history"],
+        "excerpt":"Pristine beaches and palm trees are the first thing that come to mind. Of course, the Bahamas are also famous for their tax-protected off-shore banking. However, the Bahamas are now digital pioneers, with an eye to become the tech leaders of the Caribbean. I’m assembling this repository in collaboration with...","categories": ["History"],
         "tags": ["Bahamas","Caribbean"],
         "url": "http://localhost:4000/posts/history/blockchain-bahamas-crypto-caribbean/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Bitcoin History",
-        "excerpt":"www.thetimes03jan2009.com For now this is just an assorted list. Shortly I’ll be diving deeper into the history of bitcoin itself. Thusfar, I’ve been circling around it, so to speak. I’ve been gathering all of the necessary background research, in order to do justice to the story of Bitcoin itself Bitcoin’s...","categories": ["history","Bitcoin"],
+        "excerpt":"www.thetimes03jan2009.com For now this is just an assorted list. Shortly I’ll be diving deeper into the history of bitcoin itself. Thusfar, I’ve been circling around it, so to speak. I’ve been gathering all of the necessary background research, in order to do justice to the story of Bitcoin itself Bitcoin’s...","categories": ["History","Bitcoin"],
         "tags": ["Bitcoin"],
         "url": "http://localhost:4000/posts/Bitcoin/history/",
         "teaser":"https://sourcecrypto.pub/images/bitcoin-history/chancellor-brink-bailout-banks.png"},{
         "title": "Cypherpunks and the Crypto Wars",
-        "excerpt":"A Resource for learning about the Cypherpunk Movement. This repository was created, in part while researching: Electronic Currency, Before Bitcoin Crypto Wars Birth of Cypherpunks: Short wiki.openrightsgroup.org/wiki/Crypto_Wars wikipedia.org/wiki/Crypto_Wars Untold History of Blockchain Phil Zimmerman creates PGP(‘91), the first publicly available encryption allowing people to communicate using 128-bit encryption and Diffie-Hellman...","categories": ["history","Bitcoin"],
+        "excerpt":"A Resource for learning about the Cypherpunk Movement. This repository was created, in part while researching: Electronic Currency, Before Bitcoin Crypto Wars Birth of Cypherpunks: Short wiki.openrightsgroup.org/wiki/Crypto_Wars wikipedia.org/wiki/Crypto_Wars Untold History of Blockchain Phil Zimmerman creates PGP(‘91), the first publicly available encryption allowing people to communicate using 128-bit encryption and Diffie-Hellman...","categories": ["History","Bitcoin"],
         "tags": ["Cypherpunk","Pre-History"],
         "url": "http://localhost:4000/posts/Bitcoin/pre-history/cypherpunks/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "History of Cryptocurrencies",
-        "excerpt":"http://bitpaper.info/paper/5722646637445120 ^^^ rejection of coloured coins leads to ethereum https://www.youtube.com/watch?v=3FA3UjA0igY 81:48 there is a guy named aviv zohar was 81:50 written some great papers one of them is 81:51 on ghost which is what etherium is based 81:54 on and he’s got a follow up to that his World’s oldest...","categories": ["history"],
+        "excerpt":"http://bitpaper.info/paper/5722646637445120 ^^^ rejection of coloured coins leads to ethereum https://www.youtube.com/watch?v=3FA3UjA0igY 81:48 there is a guy named aviv zohar was 81:50 written some great papers one of them is 81:51 on ghost which is what etherium is based 81:54 on and he’s got a follow up to that his World’s oldest...","categories": ["History"],
         "tags": ["Cryptocurrency"],
         "url": "http://localhost:4000/posts/history/cryptocurrencies/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Electronic Cash, Before Bitcoin",
-        "excerpt":"DigiCash Digicash enables First Electronic Payment - 1994 eCash - Timeline [1998] E-MONEY (THAT’S WHAT I WANT) How DigiCash Blew Everything [ϟ] A Brief History of Digital Currencies History of digital currencies of the 90’s with DigiCash as the primary example FirstVirtual and CyberCash Early History of Digital Cash and...","categories": ["history","Bitcoin"],
+        "excerpt":"DigiCash Digicash enables First Electronic Payment - 1994 eCash - Timeline [1998] E-MONEY (THAT’S WHAT I WANT) How DigiCash Blew Everything [ϟ] A Brief History of Digital Currencies History of digital currencies of the 90’s with DigiCash as the primary example FirstVirtual and CyberCash Early History of Digital Cash and...","categories": ["History","Bitcoin"],
         "tags": ["Pre-History","Virtual Currency"],
         "url": "http://localhost:4000/posts/Bitcoin/pre-history/electronic-cash/",
         "teaser":"https://sourcecrypto.pub/images/bitcoin-history/electronic-cash-2013.png"},{
         "title": "Before Bitcoin",
-        "excerpt":"Short-form Crypto Fundamentals -by Infominer What’s a Cryptographic Primitive? Cryptographic Hash Functions Proof of Work in a Nutshell Zero Knowledge Proofs David Chaum - The Father of Digital Cash The Birth of the Cypherpunks The Rise of the Cypherpunks /cypherpunks/ and the Crypto Wars Crypto Wars Cypherpunk Mailing-list Modern Crypto...","categories": ["history","Bitcoin"],
+        "excerpt":"Short-form Crypto Fundamentals -by Infominer What’s a Cryptographic Primitive? Cryptographic Hash Functions Proof of Work in a Nutshell Zero Knowledge Proofs David Chaum - The Father of Digital Cash The Birth of the Cypherpunks The Rise of the Cypherpunks /cypherpunks/ and the Crypto Wars Crypto Wars Cypherpunk Mailing-list Modern Crypto...","categories": ["History","Bitcoin"],
         "tags": ["Pre-History"],
         "url": "http://localhost:4000/posts/Bitcoin/pre-history/",
         "teaser":"https://sourcecrypto.pub/images/bitcoin-history/crab-17-10-10-2018-economist-world-currency.png"},{
         "title": "Smart Contract History and Related Resources",
-        "excerpt":"I was writing this basic introduction, Smart Contracts: Use cases, and DApps Smart contracts are self-executing code that defines and executes an agreement between multiple parties. That code contains simple “if/when…then…” statements executed within a distributed network that achieves consensus on transactions made within it. When I came across: lambda-the-ultimate.org/node/5003#comment-94645...","categories": ["history"],
+        "excerpt":"I was writing this basic introduction, Smart Contracts: Use cases, and DApps Smart contracts are self-executing code that defines and executes an agreement between multiple parties. That code contains simple “if/when…then…” statements executed within a distributed network that achieves consensus on transactions made within it. When I came across: lambda-the-ultimate.org/node/5003#comment-94645...","categories": ["History"],
         "tags": ["Smart Contracts"],
         "url": "http://localhost:4000/posts/history/smart-contracts/",
         "teaser":"https://sourcecrypto.pub/images/bitcoin-history/elems10.png"},{
@@ -650,7 +645,7 @@ var store = [{
         "url": "http://localhost:4000/posts/transcripts/VON-Presentation-Jordan-Curran-HGF/",
         "teaser":"http://localhost:4000/images/OrgBook-Hyperledger-Indy-Case-Study.png"},{
         "title": "History of Permissioned Ledgers",
-        "excerpt":"I used this space as prep for writing this article: The Times and History of Permissioned Ledgers Source Crypto I collect links in the SourceCrypto Discord Server #history channel, and occasionally I export them to this website: https://sourcecrypto.pub/discolog/general/history/ You can expect that page and the discord server to have information...","categories": ["history"],
+        "excerpt":"I used this space as prep for writing this article: The Times and History of Permissioned Ledgers Source Crypto I collect links in the SourceCrypto Discord Server #history channel, and occasionally I export them to this website: https://sourcecrypto.pub/discolog/general/history/ You can expect that page and the discord server to have information...","categories": ["History"],
         "tags": ["Permissioned Ledgers"],
         "url": "http://localhost:4000/posts/history/permissioned-ledgers/",
         "teaser":"https://sourcecrypto.pub/images/bitcoin-history/permissioned-ledger-2015.png"},{
@@ -670,7 +665,7 @@ var store = [{
         "url": "http://localhost:4000/posts/transcripts/JW-Weatherman-Interview-Tim-May/",
         "teaser":"http://localhost:4000/images/business-blockchain-history-monax.png"},{
         "title": "Blockchain and the United Nations",
-        "excerpt":"The organizations are listed roughly in order of when they got involved with blockchain. I’m sure to have missed a few things. Please leave an issue, pull request, or contact me if there’s anything you’d like included. Off the top of my head: Bitcoin, Ethereum, Stellar and IOTA have worked...","categories": ["history"],
+        "excerpt":"The organizations are listed roughly in order of when they got involved with blockchain. I’m sure to have missed a few things. Please leave an issue, pull request, or contact me if there’s anything you’d like included. Off the top of my head: Bitcoin, Ethereum, Stellar and IOTA have worked...","categories": ["History"],
         "tags": ["United Nations"],
         "url": "http://localhost:4000/posts/history/united-nations/",
         "teaser":"https://sourcecrypto.pub/images/bitcoin-history/unblockchain.jpg"},{
@@ -705,12 +700,12 @@ var store = [{
         "url": "http://localhost:4000/posts/transcripts/smart-signatures-christopher-allen/",
         "teaser":"http://localhost:4000/images/smart-signatures.png"},{
         "title": "Chain Link",
-        "excerpt":"In leiu of my own content, I’m reproducing the channel history of The Watchers Discord Server. Though, eventually I’ll turn this into a more organized page :) The Watchers chainlink 416 messages AJ 03-May-19 09:47 AM WatchBro 03-May-19 01:06 PM Whats you opinion @AJ that Ethereum needs Chainlink more than...","categories": ["enterprise"],
-        "tags": ["chainlink"],
+        "excerpt":"In leiu of my own content, I’m reproducing the channel history of The Watchers Discord Server. Though, eventually I’ll turn this into a more organized page :) The Watchers chainlink 416 messages AJ 03-May-19 09:47 AM WatchBro 03-May-19 01:06 PM Whats you opinion @AJ that Ethereum needs Chainlink more than...","categories": ["Enterprise"],
+        "tags": ["Chainlink"],
         "url": "http://localhost:4000/blog/chainlink/",
         "teaser":"http://localhost:4000/images/chain-link-teaser.png"},{
         "title": "The Birth of Rare Art on the Bitcoin Blockchain",
-        "excerpt":"In The Beginning In 2005, artist Matt Furie created the comic series Boy’s Club, which stars the teenage monster characters Pepe, Brett, Andy and Landwolf. pepe-the-frog The Creator of Pepe the Frog Talks About Making Comics in the Post-Meme World “I’ve made my mark on the internet, so I can...","categories": ["history","Bitcoin"],
+        "excerpt":"In The Beginning In 2005, artist Matt Furie created the comic series Boy’s Club, which stars the teenage monster characters Pepe, Brett, Andy and Landwolf. pepe-the-frog The Creator of Pepe the Frog Talks About Making Comics in the Post-Meme World “I’ve made my mark on the internet, so I can...","categories": ["History","Bitcoin"],
         "tags": ["Rare Digital Art","Counterparty","Rare Pepe"],
         "url": "http://localhost:4000/posts/bitcoin/rare-pepe/",
         "teaser":"https://sourcecrypto.pub/rare-digital-art/img/Salvador-Pepe-rare-Pepe-auction-1-13-18.jpeg"},{
@@ -720,38 +715,38 @@ var store = [{
         "url": "http://localhost:4000/posts/welcome/",
         "teaser":"https://SourceCrypto.pub/images/source-crypto-gh-og.png"},{
         "title": "The Libra Blockchain",
-        "excerpt":"@TechCrunch -Facebook announces Libra cryptocurrency The risk and reward of building the new PayPal In cryptocurrencies, Facebook saw both a threat and an opportunity. They held the promise of disrupting how things are bought and sold by eliminating transaction fees common with credit cards. That comes dangerously close to Facebook’s...","categories": ["Libra","enterprise"],
+        "excerpt":"@TechCrunch -Facebook announces Libra cryptocurrency The risk and reward of building the new PayPal In cryptocurrencies, Facebook saw both a threat and an opportunity. They held the promise of disrupting how things are bought and sold by eliminating transaction fees common with credit cards. That comes dangerously close to Facebook’s...","categories": ["Libra","Enterprise"],
         "tags": ["Resources"],
         "url": "http://localhost:4000/blog/libra-facebook/",
         "teaser":"http://localhost:4000/images/facebook_libra_exhaustive-og.png"},{
         "title": "The Libra Association",
-        "excerpt":"White Paper The Libra Blockchain - Technical Paper Association Facebook’s cryptocurrency partners revealed—we obtained the entire list of inaugural backers As recently reported by The Wall Street Journal, Facebook’s cryptocurrency will be governed by a consortium of firms known as the Libra Association, which includes the likes of Visa, Mastercard,...","categories": ["Libra","enterprise"],
+        "excerpt":"White Paper The Libra Blockchain - Technical Paper Association Facebook’s cryptocurrency partners revealed—we obtained the entire list of inaugural backers As recently reported by The Wall Street Journal, Facebook’s cryptocurrency will be governed by a consortium of firms known as the Libra Association, which includes the likes of Visa, Mastercard,...","categories": ["Libra","Enterprise"],
         "tags": ["Consortium"],
         "url": "http://localhost:4000/posts/enterprise/libra-association/",
         "teaser":"http://localhost:4000/images/libra-map-the-block-preview.jpg"},{
         "title": "Down the @TheCryptoconomy Rabbithole",
-        "excerpt":"Was asked recently why I started The Cryptoconomy Podcast: • I wanted audio of the 1000s of amazing #Bitcoin articles • I realized most only read title &amp; 1st paragraph (caught myself doing it) • The scope of Bitcoin study feels insurmountable w/out helphttps://t.co/umoiK05Ijz &mdash; Guy Swann⚡ (@TheCryptoconomy) April 19,...","categories": ["history","Bitcoin"],
-        "tags": ["podcast","literature"],
+        "excerpt":"Was asked recently why I started The Cryptoconomy Podcast: • I wanted audio of the 1000s of amazing #Bitcoin articles • I realized most only read title &amp; 1st paragraph (caught myself doing it) • The scope of Bitcoin study feels insurmountable w/out helphttps://t.co/umoiK05Ijz &mdash; Guy Swann⚡ (@TheCryptoconomy) April 19,...","categories": ["History","Bitcoin"],
+        "tags": ["Podcast","Literature"],
         "url": "http://localhost:4000/posts/Bitcoin/thecryptoconomy-podcast-deep-dive/",
         "teaser":"http://localhost:4000/images/thecryptoconomy-podcast_guy-swann.png"},{
         "title": "E Language an Object Capability Language",
         "excerpt":"erights.org wiki.c3.com - E Language An ObjectCapabilityLanguage Mailing list ARChives— e-lang The E capability-secure scripting language monte.readthedocs.io Monte is a programming language inspired by the E and Python programming languages. Monte aims to be: A reliable scaffold for secure distributed computing An example of capability-safe programming language design A model...","categories": ["History","Crypto","Agoric"],
-        "tags": ["Mark Miller","Eric Drexler","ObCap","Smart Contracts","literature"],
+        "tags": ["Mark Miller","Eric Drexler","ObCap","Smart Contracts","Literature"],
         "url": "http://localhost:4000/posts/crypto/e-rights/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Mark Sam Miller",
-        "excerpt":"Mark S Miller Mark S. Miller is an American computer scientist. He is known for his work as one of the participants in the 1979 hypertext project known as Project Xanadu; for inventing Miller columns; as the co-creator of the Agoric Paradigm[1] of market-based distributed secure computing; and the open-source...","categories": ["History","Agoric"],
-        "tags": ["Mark Miller","ObCap","Smart Contracts","people"],
+        "excerpt":"Mark S Miller Mark S. Miller is an American computer scientist. He is known for his work as one of the participants in the 1979 hypertext project known as Project Xanadu; for inventing Miller columns; as the co-creator of the Agoric Paradigm[1] of market-based distributed secure computing; and the open-source...","categories": ["Agoric","People"],
+        "tags": ["Mark Miller","ObCap","Smart Contracts"],
         "url": "http://localhost:4000/posts/agoric/mark-miller/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Object Capabilities (ObCap)",
         "excerpt":"The object-capability model was first proposed by Jack Dennis and Earl C. Van Horn in the 1966 paper. Programming Semantics for Multiprogrammed Computations The semantics are defined for a number of meta-instructions which perform operations essential to the writing of programs in multiprogrammed computer systems. These meta-instructions relate to parallel...","categories": ["Crypto","Agoric"],
-        "tags": ["Mark Miller","ObCap","Smart Contracts","people"],
+        "tags": ["Mark Miller","ObCap","Smart Contracts"],
         "url": "http://localhost:4000/posts/crypto/object-capabilities/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "The Agoric Papers",
-        "excerpt":"I was excited to catch this episode of Epicenter, recently. I’ve been interested in Mark Miller’s work since I began studying the history of smart contracts. Mark Miller: Agoric and the Decades-Long Quest for Secure Smart Contracts. -Epicenter Podcast I’ll be diving deeper into ObCap, Elang, and Agoric over the...","categories": ["history","Agoric"],
-        "tags": ["Mark Miller","Eric Drexler","ObCap","Smart Contracts","literature"],
+        "excerpt":"I was excited to catch this episode of Epicenter, recently. I’ve been interested in Mark Miller’s work since I began studying the history of smart contracts. Mark Miller: Agoric and the Decades-Long Quest for Secure Smart Contracts. -Epicenter Podcast I’ll be diving deeper into ObCap, Elang, and Agoric over the...","categories": ["History","Agoric"],
+        "tags": ["Mark Miller","Eric Drexler","ObCap","Smart Contracts","Literature"],
         "url": "http://localhost:4000/posts/agoric/papers-miller-drexler/",
         "teaser":"http://localhost:4000/images/agoric-papers-teaser.png"},{
         "title": "Bitcoin Info",

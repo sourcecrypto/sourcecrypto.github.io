@@ -9,8 +9,8 @@ toc: false
 classes: wide
 share: true
 last_modified_at: 2019-06-25T11:22:33-23:00
-categories: ["History","Agoric"]
-tags: ["Mark Miller", "ObCap", "Smart Contracts", "people"]
+categories: ["Agoric", "People"]
+tags: ["Mark Miller", "ObCap", "Smart Contracts"]
 toc_sticky: true
 permalink: /posts/agoric/mark-miller/
 canonical_url: "https://agoric-records.xyz/posts/mark-miller/"

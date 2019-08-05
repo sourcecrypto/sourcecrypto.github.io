@@ -12,7 +12,7 @@ sidebar:
   nav: sourcedisco 
 toc: true
 share: true
-tags: [introduction]
+tags: ["Introduction"]
 last_modified_at: 2019-06-20T11:22:33-23:00
 categories: ["SourceCrypto"]
 permalink: posts/research-index/
