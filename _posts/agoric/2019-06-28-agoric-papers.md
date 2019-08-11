@@ -20,6 +20,8 @@ redirect_from:
   - /literature/agoric-papers-miller-drexler/
   - /blog/agoric-papers-miller-drexler/
 canonical_url: "https://agoric-records.xyz/posts/markets-incentive-ecosystems/"
+classes: wide
+
 ---
 
 I was excited to catch this episode of Epicenter, recently. I've been interested in Mark Miller's work since I began studying the [history of smart contracts](https://sourcecrypto.pub/bitcoin-history/smart-contracts).
