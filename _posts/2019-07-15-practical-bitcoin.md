@@ -15,11 +15,15 @@ last_modified_at: 2019-07-16T11:22:33-23:00
 
 I'll try to order this content as a user might progress naturally through the Bitcoin software ecosystem.
 
-1. Wallets
-2. Nodes
-4. Layer 1 Apps
-4. Lightning
-5. Lightning Apps
+1. Onramps
+2. Wallets
+3. P2P BTC
+4. Nodes
+  * mining
+5. Layer 1 Apps
+  * musig \ escrow
+6. Lightning
+  * Lightning Apps
 7. Pi
 8. Sattelite
 
