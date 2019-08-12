@@ -46,7 +46,9 @@ permalink: '/posts/history/'
 redirect_from:
   - "/history/"
   - /bitcoin-history/
-canonical_url: "https://sourcecrypto.pub/posts/history/"
+canonical_url: "https://sourcecrypto.pub/categories/#history"
+redirect_to:
+  - "https://sourcecrypto.pub/categories/#history"
 ---
 
 I've merged the bitcoin history site into this one. Now that I know how to use Minimal Mistakes Jekyll better, I can see how it makes more sense to have them in the same site setup.
