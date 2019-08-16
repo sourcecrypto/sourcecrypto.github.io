@@ -3,7 +3,7 @@ title: "Practical Lightning: Wallets, Applications, Guides and Development"
 description: This page is for collecting and organizing information related to using the Lightning Network.
 toc_sticky: false
 excerpt: Links to code, howtos, and other resources related to practical use of Lightning.
-permalink: blog/Bitcoin/lightning/
+permalink: posts/Bitcoin/lightning/
 published: true
 header:
   image: "https://imgur.com/QjmwITb.png"

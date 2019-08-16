@@ -1,4 +1,404 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-05T04:30:19-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Source Crypto</title><subtitle>Chat Server for Creating an Open-Source Database of Crypto Knowledge.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript</title><link href="http://localhost:4000/posts/transcripts/mark-miller-agoric-epicenter/" rel="alternate" type="text/html" title="Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript" /><published>2019-07-30T00:00:00-04:00</published><updated>2019-07-01T06:22:33-04:00</updated><id>http://localhost:4000/posts/transcripts/epicenter-mark-miller-agoric</id><content type="html" xml:base="http://localhost:4000/posts/transcripts/mark-miller-agoric-epicenter/">&lt;p&gt;This is a transcript of the epicenter podcast, where &lt;a href=&quot;https://epicenter.tv/episode/286/&quot;&gt;Brian Fabien Crain interviews Mark Miller on the history of smart contracts&lt;/a&gt;, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of the transcription from their web-site (licensed &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;Creative Commons BY-NC-SA&lt;/a&gt;).
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-16T09:16:03-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Source Crypto</title><subtitle>Chat Server for Creating an Open-Source Database of Crypto Knowledge.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">Practical Bitcoin Guides: Wallets, Applications, and Development</title><link href="http://localhost:4000/posts/Bitcoin/practical/" rel="alternate" type="text/html" title="Practical Bitcoin Guides: Wallets, Applications, and Development" /><published>2019-08-01T00:00:00-04:00</published><updated>2019-08-17T06:22:33-04:00</updated><id>http://localhost:4000/posts/Bitcoin/practical-bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/practical/">&lt;p&gt;I started with whatever I had come across over the past year, and saved. Then I went to lopp.net, bitcoin.org, and few of the other of the top Bitcoin resources, such as LNRoute. I’ve gone through those sites gathering a link at a time, to sort them all in an iterative process, figuring out categories as I go. Then I got into the Awesome lists, and really started feeling like I had surveyed a broad swath of the Bitcoin information ecosystem. That’s when I dove face first into the &lt;a href=&quot;https://github.com/topics/bitcoin&quot;&gt;Bitcoin Topic on Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As far as finding practical applcations interacting with Bitcoin in some way, it’s hard to find a more comprehensive source than that. I’m still not through the entire list.. and since my Bitcoin History repo only has 4 stars, I will have to sroll through to the very bottom where I’m sure some other gems are found.&lt;/p&gt;
+
+&lt;p&gt;I won’t be able to list all of the practical Bitcoin links I’ve found here, so at the end, I’ll share a link to where I’m collecting and organizing.&lt;/p&gt;
+
+&lt;h2 id=&quot;practical-bitcoin-resources&quot;&gt;Practical Bitcoin Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lopp.net/bitcoin-information.html&quot;&gt;lopp.net/bitcoin-information.html&lt;/a&gt; - A pre-eminent source on Everything Bitcoin.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin-only.com/&quot;&gt;bitcoin-only.com&lt;/a&gt; - Requirement: Support Bitcoin, Not Support Altcoins.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/&quot;&gt;bitcoin.&lt;em&gt;org&lt;/em&gt;&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://btcinformation.org/en/developer-documentation&quot;&gt;btcinformation.org/en/developer-documentation&lt;/a&gt; - Community led and supported fork of Bitcoin.org.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;developers-resources&quot;&gt;Developers Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/igorbarinov/awesome-bitcoin&quot;&gt;igorbarinov/awesome-bitcoin&lt;/a&gt; - A curated list of bitcoin services and tools for software developers.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/chaincodelabs/bitcoin-curriculum&quot;&gt;chaincodelabs/bitcoin-curriculum&lt;/a&gt; &lt;em&gt;!!!!!!!!&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/en/developer-reference&quot;&gt;bitcoin.org/en/developer-reference&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://btcinformation.org/en/developer-documentation&quot;&gt;btcinformation.org/en/developer-documentation&lt;/a&gt; - Community led and supported fork of Bitcoin.org.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;https://github.com/aantonop/bitcoinbook - Mastering Bitcoin 2nd Edition - Programming the Open Blockchain&lt;/li&gt;
+  &lt;li&gt;https://github.com/kallerosenbaum/grokkingbitcoin
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.manning.com/books/grokking-bitcoin&quot;&gt;Manning - Grokking Bitcoin&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;https://bitcoin.stackexchange.com/&lt;/li&gt;
+  &lt;li&gt;https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/&lt;/li&gt;
+  &lt;li&gt;https://github.com/bitcoin-studio/Bitcoin-Programming-with-BitcoinJS&lt;/li&gt;
+  &lt;li&gt;https://github.com/jimmysong/programmingbitcoin&lt;/li&gt;
+  &lt;li&gt;https://github.com/MrHash/bitcoin-dev-stack&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Those resources alone are plenty for anyone to get seriously hands on with bitcoin. Everything from detailed literature and developers documentation, to apps for provably fair gambling, dashboards, and exploring the blockchain like a database, with SQL queries.&lt;/p&gt;
+
+&lt;h2 id=&quot;you-must-do-your-own-research&quot;&gt;You MUST Do Your Own Research&lt;/h2&gt;
+
+&lt;p&gt;This is intended to be a starting point for anyone who is interested in using Bitcoin code \ hardware. These guides and tutorials are a great jumping off point, from which you can explore a variety of technologies you may not even have known were available.&lt;/p&gt;
+
+&lt;p&gt;Please. Do your own research.&lt;/p&gt;
+
+&lt;p&gt;There may be newer materials or advisaries for any of the following projects. Be sure to have a look around for additional information, rather than relying entirely upon this “hastily crafted” essay.&lt;/p&gt;
+
+&lt;h3 id=&quot;buying-bitcoin&quot;&gt;Buying Bitcoin&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jlopp.github.io/bitcoin-savings-plan/&quot;&gt;Bitcoin Savings Plan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin-only.com/#get-bitcoin&quot;&gt;bitcoin-only.com/#get-bitcoin&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://fastbitcoins.com/&quot;&gt;FastBitcoins&lt;/a&gt; Buy and Sell Bitcoin	Canada &amp;amp; UK&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://cash.app/&quot;&gt;Cash App&lt;/a&gt;	Buy bitcoin with debit card	USA&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bullbitcoin.com/&quot;&gt;BullBitcoin&lt;/a&gt; Non-Custodial Bitcoin Services	Canada&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.getbittr.com/&quot;&gt;Bittr&lt;/a&gt;	Regular Automated Buying	Europe&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitonic.nl/&quot;&gt;Bitonic&lt;/a&gt; Buy and Sell Bitcoin	Netherlands&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://getamber.io/&quot;&gt;Amber&lt;/a&gt;	Regular Automated Buying (Beta)	Australia&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;earn-bitcoin&quot;&gt;Earn Bitcoin&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin-only.com/#get-bitcoin&quot;&gt;bitcoin-only.com/#get-bitcoin&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tallyco.in/&quot;&gt;TallyCoin&lt;/a&gt; [&lt;a href=&quot;https://bitcoin-only.com/#get-bitcoin&quot;&gt;*&lt;/a&gt;]	Bitcoin Fundraising&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.jfgi.cc/&quot;&gt;jfgi&lt;/a&gt; [&lt;a href=&quot;https://bitcoin-only.com/#get-bitcoin&quot;&gt;*&lt;/a&gt;]	Bitcoin Fundraising&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.lndwork.com/&quot;&gt;LNDwork&lt;/a&gt;	Micro-Freelancing&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://microlancer.io/&quot;&gt;MicroLancer&lt;/a&gt; Micro-Freelancing&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;privacy&quot;&gt;Privacy&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;bitcoin_anonymity_guide_2019_How_to_use_BTC_like_a_straight_up_G.pdf&quot;&gt;Bitcoin Anonymity Guide 2019: How to use BTC like a straight up G&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[Jolly Rogers Security Guide for Beginners](https://gir.pub/deepdotweb/jolly-rogers-security-guide-for-beginners/ (oldie but a goodie)&lt;/li&gt;
+  &lt;li&gt;https://99bitcoins.com/buy-bitcoin/anonymously-without-id/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;escrow&quot;&gt;Escrow&lt;/h3&gt;
+
+&lt;p&gt;Escrow Agents are impartial and trusted intermediaries who hold custody of buyer’s funds until pre-defined conditions are met. They allow parties who don’t know or trust each-other to engage in commerce, online.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bitrated.com/&quot;&gt;Bitrated.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jobs4btc-escrow.appspot.com/&quot;&gt;jobs4btc-escrow.appspot.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web-work.tools/practical-public-key-crypto/&quot;&gt;Bitcoin Escrow and Key Signatures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fees&quot;&gt;Fees&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://b10c.me/A-list-of-public-feerate-estimator-APIs/&lt;/li&gt;
+  &lt;li&gt;http://statoshi.info/dashboard/db/fee-estimates&lt;/li&gt;
+  &lt;li&gt;https://bitcoiner.live/&lt;/li&gt;
+  &lt;li&gt;https://bitcoinfees.earn.com/&lt;/li&gt;
+  &lt;li&gt;https://fees.truelevel.io/#/btc&lt;/li&gt;
+  &lt;li&gt;https://whatthefee.io/&lt;/li&gt;
+  &lt;li&gt;https://transactionfee.info/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;explorers&quot;&gt;Explorers&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;http://chain.so/ - Multi-Currency Block Explorer and API&lt;/li&gt;
+  &lt;li&gt;https://blockchain.com/&lt;/li&gt;
+  &lt;li&gt;https://www.blocktrail.com/BTC&lt;/li&gt;
+  &lt;li&gt;https://github.com/JornC/bitcoin-transaction-explorer&lt;/li&gt;
+  &lt;li&gt;https://blockexplorer.com/&lt;/li&gt;
+  &lt;li&gt;https://www.smartbit.com.au/&lt;/li&gt;
+  &lt;li&gt;https://bitkit.live/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wallets&quot;&gt;Wallets&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lopp.net/bitcoin-information/recommended-wallets.html&quot;&gt;lopp.net - Recommended Wallets&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Do not use wallets that don’t give you recovery data; these wallets are likely controlling your keys.&lt;/li&gt;
+        &lt;li&gt;Do not use paper wallets unless you’re an advanced user who understands all the risks.&lt;/li&gt;
+        &lt;li&gt;Do not store large amounts of value in single signature wallets.&lt;/li&gt;
+        &lt;li&gt;Make sure your heirs know how to recover your wallets without you!&lt;/li&gt;
+      &lt;/ul&gt;
+
+      &lt;p&gt;Note that it is NOT recommended that novices use the Bitcoin Core wallet. If you want to use a wallet backed by a fully validating node you run, read &lt;a href=&quot;https://blog.lopp.net/securing-your-financial-sovereignty/&quot;&gt;Securing Your Financial Sovereignty&lt;/a&gt;.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin-only.com/#wallets&quot;&gt;bitcoin-only.com - Wallets&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.bitcoin.it/wiki/How_to_set_up_a_secure_offline_savings_wallet&quot;&gt;https://en.bitcoin.it/wiki/How_to_set_up_a_secure_offline_savings_wallet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;samourai-wallet&quot;&gt;&lt;a href=&quot;https://samouraiwallet.com/&quot;&gt;Samourai Wallet&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.samourai.wallet&quot;&gt;Samourai Wallet&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCb4Y89L9Bokuo6OWqjAhMoA&quot;&gt;Samoria Wallet - Youtube Channel&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;wasabi-wallet&quot;&gt;&lt;a href=&quot;https://wasabiwallet.io/&quot;&gt;Wasabi Wallet&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;During the research for this project, I set up Wasabi for the first time. Works like a charm, I wouldn’t have known it was using Tor, if they didn’t advertise that feature. :D&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zkSNACKs/WalletWasabi&quot;&gt;zkSNACKs/WalletWasabi&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/zkSNACKs/WalletWasabi/blob/master/WalletWasabi.Documentation/FAQ.md&quot;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/zkSNACKs/WalletWasabi/blob/master/WalletWasabi.Community/Dojo.md&quot;&gt;DOJO&lt;/a&gt; - Community contributions: Guides, Reviews, Etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zPKpC9cRcZo&amp;amp;list=PLmoQ11MXEmahCG1nkbKK6DiAwVx9giJCi&quot;&gt;402 Payment Required - Wasabi wallet Youtube Playlist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=JtDY7Gb-L5s&quot;&gt;MIT Bitcoin Expo 2019 - Wasabi Wallet: Unfairly Private&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/JtDY7Gb-L5s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;electrum&quot;&gt;&lt;a href=&quot;https://electrum.org/#home&quot;&gt;Electrum&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://docs.electrum.org/en/latest/&quot;&gt;Welcome to the Electrum Documentation!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinelectrum.com&quot;&gt;Unofficial guides for Electrum&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcointalk.org/index.php?topic=4573616.0&quot;&gt;[Guide] How to Create a Watch-only Wallet (for Electrum)&lt;/a&gt; - great way to safely “watch” the status of your (offline) cold-storage wallet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;blockstream-green&quot;&gt;&lt;a href=&quot;https://blockstream.com/green/&quot;&gt;Blockstream Green&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.blockstream.com/green/getting-started/getting-started-index.html&quot;&gt;docs.blockstream.com - Getting Started&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blockstream.com/green/&quot;&gt;Blockstream Green&lt;/a&gt;	Easy to use wallet. Use Google Authentication not Email/Phone.	iOS &amp;amp; Android&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/greenaddress/WalletElectron/releases/tag/v0.1.04&quot;&gt;GreenAddress&lt;/a&gt;	Desktop companion to Blockstream Green mobile wallet.	Deskop&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bitgo&quot;&gt;&lt;a href=&quot;https://www.bitgo.com/&quot;&gt;BitGo&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitgo.github.io/bitgo-docs/&quot;&gt;bitgo.github.io/bitgo-docs/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://static1.squarespace.com/static/5956707b6b49988d1df0001a/t/5ae161608a922d28394af452/1524719979322/BitGo+User+Guide042518.pdf&quot;&gt;Bitgo User Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This document provides step-by-step details about how to use the non-custodial BitGo servicethrough the Web interface as well as how to administer the service and configure policies.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;paper-wallets&quot;&gt;&lt;a href=&quot;https://en.bitcoin.it/wiki/Paper_wallet&quot;&gt;Paper Wallets&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/p4fg/secure-paper-wallet&quot;&gt;p4fg/secure-paper-wallet&lt;/a&gt; (fork of &lt;a href=&quot;https://github.com/pointbiz/bitaddress.org&quot;&gt;pointbiz/bitaddress.org&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dbasch/bitcoin-paper-wallet&quot;&gt;dbasch/bitcoin-paper-wallet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nurupo/paper-store&quot;&gt;nurupo/paper-store&lt;/a&gt; - Cold store small files on paper as QR&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hardware-wallets&quot;&gt;Hardware Wallets&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://keys.casa/keymaster/&quot;&gt;Casa Keymaster&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://blog.keys.casa/casa-keymaster-security-mobile-key-overview/&quot;&gt;Casa Keymaster Security: Mobile Key Overview&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=B-JpOC1Knx8&quot;&gt;Setting up Keymaster by Casa (basic multisig)&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shop.trezor.io/&quot;&gt;Trezor&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://wiki.trezor.io/User_manual&quot;&gt;Trezor Wiki / User/ User manual&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/K7fqbNGgTXU&quot;&gt;How to transfer bitcoin from Coinbase to Trezor hardware wallet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitcointalk.org/index.php?topic=5136349.0&quot;&gt;[TUTORIAL] Send Bitcoin to Multiple Addresses in One Transaction Only - TREZOR&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=lab9_L61ZY0&quot;&gt;NEW 2019 TREZOR model T - Complete Setup, Backup and Restore Tutorial&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/romanz/trezor-agent&quot;&gt;romanz/trezor-agent&lt;/a&gt; -Hardware-based SSH/PGP agent&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shop.ledger.com/pages/ledger-nano-x&quot;&gt;Ledger Nano X&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=lHzFY4ucTYQ&quot;&gt;LEDGER NANO X BEST SET-UP GUIDE, UNBOXING AND STEP BY STEP TUTORIAL 2019&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://coldcardwallet.com&quot;&gt;Cold Card&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://coldcardwallet.com/docs/quick&quot;&gt;Official getting started with your new Coldcard guide&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://coldcardwallet.com/docs/#guides-by-others&quot;&gt;coldcardwallet.com/docs/#guides-by-others&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=f8dBNrlwJ0k&amp;amp;list=PLmoQ11MXEmahiHdXhOIUM0ja3Hzf_hVvc&amp;amp;index=2&quot;&gt;402 Payment Required ColdCard Walkthrus&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin-only.com/#hardware&quot;&gt;bitcoin-only.com - Other Hardware&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;running-a-bitcoin-full-node&quot;&gt;&lt;a href=&quot;https://www.lopp.net/bitcoin-information/full-node.html&quot;&gt;Running a Bitcoin Full Node&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;While managing your own keys ensures that you can’t lose your money due to the negligence or maliciousness of a custodian, running a full node ensures that you can’t be tricked into accepting invalid bitcoin payments. Running and using your own node gives you the strongest security model Bitcoin has to offer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.lopp.net/securing-your-financial-sovereignty/&quot;&gt;Why Run a Full Node?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/amentum/what-comprises-a-bitcoin-fullnode-implementation-df27989e673a&quot;&gt;What Comprises a Bitcoin Fullnode Implementation? – Amentum&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Often times in the press I see a lot of confusion around what a fullnode implementation of bitcoin actually &lt;em&gt;is&lt;/em&gt;. I saw this as a great…&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/en/full-node&quot;&gt;bitcoin.org - How to Run a Full Node&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/a-complete-beginners-guide-to-installing-a-bitcoin-full-node-on-linux-2018-edition-cb8e384479ea&quot;&gt;A complete beginners guide to installing a Bitcoin Full Node on Linux (2018 Edition)&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;How to compile a Bitcoin Full Node on a fresh installation of Kubuntu 18.04 without any Linux experience whatsoever.
+&lt;img src=&quot;https://imgur.com/hhN0o3F.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/en/download&quot;&gt;bitcoin.org/en/download&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin Core initial synchronization will take time and download a lot of data. You should make sure that you have enough bandwidth and storage for the full block chain size (over 200GB). If you have a good Internet connection, you can help strengthen the network by keeping your PC running with Bitcoin Core and port 8333 open. Read the full node guide for details.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bitcoin/bitcoin&quot;&gt;bitcoin/bitcoin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoincore.org/&quot;&gt;Bitcoin Core&lt;/a&gt;	Full node &amp;amp; Bitcoin wallet.	Desktop
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/jlopp/bitcoin-core-config-generator&quot;&gt;Bitcoin Core Config File Generator&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=q0Uen8p4feM&amp;amp;list=PLmoQ11MXEmag9I2ibHnubzJdjDqypujCk&quot;&gt;402 Payment Required Youtube Playlist - The Bitcoin Core Client&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Other full node options:&lt;br /&gt;* &lt;a href=&quot;https://twitter.com/CasaHODL?ref_src=twsrc%5Etfw&quot;&gt;@CasaHODL&lt;/a&gt;: &lt;a href=&quot;https://t.co/JqpJeMGZVU&quot;&gt;https://t.co/JqpJeMGZVU&lt;/a&gt;&lt;br /&gt;* &lt;a href=&quot;https://twitter.com/nodl_it?ref_src=twsrc%5Etfw&quot;&gt;@nodl_it&lt;/a&gt;: &lt;a href=&quot;https://t.co/QyzOK9leWO&quot;&gt;https://t.co/QyzOK9leWO&lt;/a&gt;&lt;br /&gt;* Cyphernode: &lt;a href=&quot;https://t.co/tMXS1kCgHW&quot;&gt;https://t.co/tMXS1kCgHW&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;And of course, just running Bitcoin Core directly:&lt;br /&gt;* &amp;quot;Running a Full Node&amp;quot;: &lt;a href=&quot;https://t.co/D6Fs5WlZE9&quot;&gt;https://t.co/D6Fs5WlZE9&lt;/a&gt;&lt;br /&gt;* Bitcoin Core: &lt;a href=&quot;https://t.co/OHW7H8oRzM&quot;&gt;https://t.co/OHW7H8oRzM&lt;/a&gt;&lt;/p&gt;&amp;mdash; Michael Goldstein (@bitstein) &lt;a href=&quot;https://twitter.com/bitstein/status/1091334121274646528?ref_src=twsrc%5Etfw&quot;&gt;February 1, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;other-implementations&quot;&gt;Other Implementations&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.lopp.net/bitcoin-information/full-node.html#node_software&quot;&gt;&lt;strong&gt;Full Node Software&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bcoin-org/bcoin/releases&quot;&gt;Bcoin&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Javascript bitcoin library for node.js and browsers http://bcoin.io&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/btcsuite/btcd&quot;&gt;BTCD&lt;/a&gt; - An alternative full node bitcoin implementation written in Go (golang)
+    &lt;ul&gt;
+      &lt;li&gt;https://github.com/btcsuite/btcd/tree/master/docs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gocoin.pl/&quot;&gt;Gocoin&lt;/a&gt; - Gocoin is a full Bitcoin solution written in Go language (golang). + tools&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/libbitcoin/libbitcoin-node/releases&quot;&gt;Libbitcoin Node&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;These binaries require no installation, simply download and run the single file. Mainnet and testnet are supported based on configuration differences. You can verify the downloads using the signed SHA256 hashes below.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/PierreRochard/node-launcher/master/macos.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lightning-power-users/node-launcher&quot;&gt;Node Launcher - Easiest BTC/LN desktop app, for Windows, macOS, and Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;node-hardware&quot;&gt;Node Hardware&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.lopp.net/bitcoin-information/full-node.html#node_hardware&quot;&gt;&lt;strong&gt;Plug &amp;amp; Play Node Hardware&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://keys.casa/lightning-bitcoin-node/#node-plans&quot;&gt;Casa&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=C0FirXi_d0I&quot;&gt;Setting up your Casa Node&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shop.fulmo.org/?product=raspiblitz-lightning-node-1-tb&quot;&gt;Fulmo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shop.nodl.it/en/&quot;&gt;NODL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://startnode.org/PreBuilt/&quot;&gt;Startnode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitseed.org/product/bitseed-3/&quot;&gt;Bitseed Core - Bitcoin full node&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitseed Core comes preconfigured as a Bitcoin full node, allowing you to keep bitcoin running 24/7 without slowing your PC.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;raspberry---sbcs&quot;&gt;Raspberry - SBCs&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://medium.com/@meeDamian/c-lightning-node-on-rbp3-b950660fb835&lt;/li&gt;
+  &lt;li&gt;https://medium.com/@meeDamian/bitcoin-full-node-on-rbp3-revised-88bb7c8ef1d1&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Stadicus/guides/blob/master/raspibolt/README.md&quot;&gt;Beginner’s Guide to Lightning️ on a Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;https://stadicus.github.io/RaspiBolt/&lt;/li&gt;
+  &lt;li&gt;https://github.com/rootzoll/raspiblitz -Fastest and cheapest way to get your own Lightning Node running - on a RaspberryPi with a nice LCD
+&lt;img src=&quot;https://imgur.com/edaW3pO.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jochemin/raspnode&quot;&gt;Bitcoin Core + LND 0.4 Beta (mainnet) Installer for Raspberry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.electromaker.io/tutorial/blog/cryptocurrency-mining-on-the-raspberry-pi-60&quot;&gt;Cryptocurrency Mining on the Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;https://photochirp.com/r-pi/raspberry-pi-bitcoin-monitor-oled-ticker/- Raspberry Pi Bitcoin Monitor with OLED Ticker&lt;/li&gt;
+  &lt;li&gt;https://raspnode.com/diyBitcoin.html&lt;/li&gt;
+  &lt;li&gt;http://www.raspberrypifullnode.com&lt;/li&gt;
+  &lt;li&gt;https://www.raspberrypi.org/blog/seans-diy-bitcoin-lottery/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;application&quot;&gt;Application&lt;/h2&gt;
+
+&lt;h3 id=&quot;open-bazaar&quot;&gt;Open Bazaar&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://www.openbazaar.org - A FREE ONLINE MARKETPLACE. NO PLATFORM FEES.&lt;/li&gt;
+  &lt;li&gt;https://tgmweed.co.uk/a-step-by-step-guide-for-buying-in-openbazaar/&lt;/li&gt;
+  &lt;li&gt;https://openbazaar.org/blog/the-beginners-guide-to-decentralization/&lt;/li&gt;
+  &lt;li&gt;https://docs.openbazaar.org&lt;/li&gt;
+  &lt;li&gt;https://openbazaar.org/blog/The-Beginners-Guide-to-Buying-Goods-Services-and-Cryptocurrency-on-OpenBazaar/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;proofs&quot;&gt;Proofs&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/ligi/SatoshiProof - Satoshi Proof is your personal notary leveraging the power of the Bitcoin network to prove existence of text or images at a certain time.&lt;/li&gt;
+  &lt;li&gt;https://github.com/opentimestamps/&lt;/li&gt;
+  &lt;li&gt;https://github.com/Tierion/blockchain-anchor - A Node.js library for anchoring data onto the Bitcoin blockchain and confirming anchored data on Bitcoin and Ethereum. - Tierion/blockchain-anchor&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/tierion/how-to-create-and-verify-a-chainpoint-proof-eba52a7700e3&quot;&gt;Create and Verify a Chainpoint Proof&lt;/a&gt; - Chainpoint is an open standard for…
+    &lt;ul&gt;
+      &lt;li&gt;https://github.com/chainpoint/chainpoint-cli&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;btcpay-server&quot;&gt;BTCPay Server&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/btcpayserver/&lt;/li&gt;
+  &lt;li&gt;https://github.com/btcpayserver/btcpayserver-doc - Documentation of BTCPayServer. Contribute to btcpayserver/btcpayserver-doc development by creating an account on GitHub.&lt;/li&gt;
+  &lt;li&gt;https://github.com/btcpayserver/commerce_btcpay -BTCPay server plugin for Drupal Commerce 2.x. Contribute to btcpayserver/commerce_btcpay development by creating an account on GitHub.&lt;/li&gt;
+  &lt;li&gt;https://bitcoinshirt.co/how-to-create-store-accept-bitcoin&lt;/li&gt;
+  &lt;li&gt;https://github.com/k3tan172/ubuntu-node-box&lt;/li&gt;
+  &lt;li&gt;https://github.com/astupidmoose/btcpay_taxreport-for-woocommerce -This is a transaction history plugin for BTCPay for tax reporting - astupidmoose/btcpay_taxreport-for-woocommerce&lt;/li&gt;
+  &lt;li&gt;https://github.com/Skyfleet/NBitcoin - Comprehensive Bitcoin library for the .NET framework. - Skyfleet/NBitcoin&lt;/li&gt;
+  &lt;li&gt;https://github.com/talvasconcelos/btc-terminal - Payment terminal for BTC with BTCPay Server. Contribute to talvasconcelos/btc-terminal development by creating an account on GitHub.&lt;/li&gt;
+  &lt;li&gt;https://github.com/djseeds/btcpay-browser-client - BTCPay client to create invoices and display a payment modal from the browser - djseeds/btcpay-browser-client&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightninginabox.co/2018/12/how-to-install-btcpayserver-on-raspberry-pi-3-b/&quot;&gt;How to Install BTCPayServer on Raspberry Pi 3 B+ (with pruning and FastSync)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;https://docs.btcpayserver.org/deployment/raspberrypideployment&lt;/li&gt;
+  &lt;li&gt;https://www.hackster.io/JontyDIY/bitcoin-tracker-using-a-raspberry-pi-a76856&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;layer-2&quot;&gt;Layer 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;rootstock&quot;&gt;Rootstock&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.rootstock.io/&quot;&gt;www.rootstock.io&lt;/a&gt; - RSK, bitcoin´s smart contract platform.&lt;/li&gt;
+  &lt;li&gt;https://github.com/rsksmart/tutorials/wiki&lt;/li&gt;
+  &lt;li&gt;https://bitcoin.stackexchange.com/questions/54036/can-someone-show-me-an-example-rootstock-smart-contract-that-is-the-equivalent-o&lt;/li&gt;
+  &lt;li&gt;https://twitter.com/JWWeatherman_/status/1069232488604729344
+    &lt;blockquote&gt;
+      &lt;p&gt;Is still planning to introduce a security flaw they call “drive chains”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;liquid&quot;&gt;Liquid&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://elementsproject.org/how-it-works&lt;/li&gt;
+  &lt;li&gt;https://github.com/ElementsProject/elements&lt;/li&gt;
+  &lt;li&gt;https://github.com/Blockstream/liquid&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="Practical" /><summary type="html">Links to code, howtos, and other resources related to practical use of Bitcoin.</summary></entry><entry><title type="html">Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript</title><link href="http://localhost:4000/posts/transcripts/mark-miller-agoric-epicenter/" rel="alternate" type="text/html" title="Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript" /><published>2019-07-30T00:00:00-04:00</published><updated>2019-07-01T06:22:33-04:00</updated><id>http://localhost:4000/posts/transcripts/epicenter-mark-miller-agoric</id><content type="html" xml:base="http://localhost:4000/posts/transcripts/mark-miller-agoric-epicenter/">&lt;p&gt;This is a transcript of the epicenter podcast, where &lt;a href=&quot;https://epicenter.tv/episode/286/&quot;&gt;Brian Fabien Crain interviews Mark Miller on the history of smart contracts&lt;/a&gt;, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of the transcription from their web-site (licensed &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;Creative Commons BY-NC-SA&lt;/a&gt;).
 { .notice}&lt;/p&gt;
 
 &lt;h2 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h2&gt;
@@ -144,7 +544,758 @@
 
 &lt;p&gt;&lt;strong&gt;Brian&lt;/strong&gt;: Cool. Well thanks so much Mark. I think that there’s so much there to talk about and then dive into and there’s a lot of resources we talked about that we’ll put in the episode links so if people want to dive in there’s definitely plenty to keep someone busy for weeks or months. Yeah and we’re very much looking forward to seeing what comes out in terms of practical use cases from Agoric and hopefully we can do another episode at some point in the future. So thanks so much for joining us today.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Mark&lt;/strong&gt;: Yeah. You’re welcome. It was a real pleasure.&lt;/p&gt;</content><author><name>⧉ Infominer</name></author><category term="Mark Miller" /><category term="Eric Drexler" /><category term="ObCap" /><category term="Smart Contracts" /><category term="Literature" /><summary type="html">We discussed his visionary 1988 Agoric papers, which explored how markets could be applied to the world of software. We also covered how his view of smart contracts, which focused on secure bilateral agreements complements and converges with blockchain. Finally, we covered his new company Agoric and their conceptualization of higher order smart contracts.</summary></entry><entry><title type="html">Bitcoin Info</title><link href="http://localhost:4000/posts/Bitcoin/" rel="alternate" type="text/html" title="Bitcoin Info" /><published>2019-07-15T00:00:00-04:00</published><updated>2019-07-23T06:22:33-04:00</updated><id>http://localhost:4000/posts/bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/">&lt;p&gt;This page, at the moment, is mainly the contents of the &lt;a href=&quot;https://sourcecrypto.pub/archive/crypto/bitcoin/&quot;&gt;Bitcoin Channel&lt;/a&gt; from SourceCrypto Discord server.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mark&lt;/strong&gt;: Yeah. You’re welcome. It was a real pleasure.&lt;/p&gt;</content><author><name>⧉ Infominer</name></author><category term="Mark Miller" /><category term="Eric Drexler" /><category term="ObCap" /><category term="Smart Contracts" /><category term="Literature" /><summary type="html">We discussed his visionary 1988 Agoric papers, which explored how markets could be applied to the world of software. We also covered how his view of smart contracts, which focused on secure bilateral agreements complements and converges with blockchain. Finally, we covered his new company Agoric and their conceptualization of higher order smart contracts.</summary></entry><entry><title type="html">Practical Lightning: Wallets, Applications, Guides and Development</title><link href="http://localhost:4000/posts/Bitcoin/lightning/" rel="alternate" type="text/html" title="Practical Lightning: Wallets, Applications, Guides and Development" /><published>2019-07-22T00:00:00-04:00</published><updated>2019-08-17T06:22:33-04:00</updated><id>http://localhost:4000/posts/Bitcoin/lightning</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/lightning/">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lnroute.com&quot;&gt;Lightning Network - Resource and Information Guide - LNRoute&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightninghood.com/&quot;&gt;LightningHood&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lopp.net/lightning-information.html&quot;&gt;lopp.net - Lightning Network Resources&lt;/a&gt; (&lt;a href=&quot;https://github.com/jlopp/lopp.net/blob/master/lightning-information.html&quot;&gt;source&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;https://github.com/lightningnetwork/lightning-rfc -Lightning Network Specifications&lt;/li&gt;
+  &lt;li&gt;https://lightninginabox.co&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lightning-nodes&quot;&gt;Lightning Nodes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/lightning-power-users/windows-macos-lightning-network-284bd5034340&quot;&gt;Easiest Bitcoin Lightning Guide!&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/lightning-power-users/node-launcher&quot;&gt;Easiest BTC/LN desktop app, for Windows, macOS, and Linux&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nayutaco/ptarmigan&quot;&gt;Lightning Network BOLT implementation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thebitcoin.pub/t/the-perfect-bitcoin-lightning-node-tutorial/33437&quot;&gt;The perfect Bitcoin Lightning️ node - Tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;https://github.com/mit-dci/lit -Lightning Network node software&lt;/li&gt;
+  &lt;li&gt;https://www.nodl.it/ - Lightning hardware Device&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lightning Node Match – maximize te number of nodes reached in a minimum number of hops.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.moneni.com/mcb/nodematch&quot;&gt;www.moneni.com/mcb/nodematch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lnd---lightning-network-daemon&quot;&gt;LND - Lightning Network Daemon&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/lightningnetwork/lnd/releases&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/pierre_rochard/status/1055159992733626368&quot;&gt;Pierre Rochard (@pierre_rochard) - twitter.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The LND node software now runs from within the Excel plugin. With neutrino, that means that a Windows + Excel user can be making and receiving LN payments with a few clicks. https://t.co/qeP2dCJSqp&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;https://github.com/mably/lncli-web - Light-weight web client for the lnd daemon written in NodeJS / Angular. - mably/lncli-web&lt;/li&gt;
+  &lt;li&gt;https://github.com/janoside/lnd-admin - Admin UI for LND. Contribute to janoside/lnd-admin development by creating an account on GitHub.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ShahanaFarooqui/RTL/blob/master/README.md&quot;&gt;Ride The Lightning - A full function web browser app for LND - ShahanaFarooqui/RTL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;https://github.com/djmelik/lndash - A simple web dashboard for lnd. Contribute to djmelik/lndash development by creating an account on GitHub.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/bretton/0b22a0503a9eba09df86a23f3d625c13&quot;&gt;Setup LND 0.4 beta and bitcoind on Ubuntu 16.04&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lndwork.com/&quot;&gt;LNDwork&lt;/a&gt;	Micro-Freelancing&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/alexbosworth/lnd-gui&quot;&gt;alexbosworth/lnd-gui&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rstmsn/lnd-for-wp&quot;&gt;github.com/rstmsn/lnd-for-wp&lt;/a&gt; -WordPress plugin for managing &amp;amp; using your LND node
+    &lt;ul&gt;
+      &lt;li&gt;manage your LND node from your WordPress admin panel&lt;/li&gt;
+      &lt;li&gt;fully functional wallet interface&lt;/li&gt;
+      &lt;li&gt;send / recieve funds with ease&lt;/li&gt;
+      &lt;li&gt;responsive UI adapts to fit any web enabled desktop, tablet or mobile device.&lt;/li&gt;
+      &lt;li&gt;Search Lightning Network graph, manage peer connections, open &amp;amp; close channels with ease.&lt;/li&gt;
+      &lt;li&gt;QR support&lt;/li&gt;
+      &lt;li&gt;WordPress ‘shortcodes’, embed LND functionality directly in your pages and posts.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lnd-testnet-2.mably.com/&quot;&gt;lnd-testnet-2.mably.com&lt;/a&gt; -Testnet Slack Tipping Bot&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.opencart.com/index.php?route=marketplace/extension/info&amp;amp;extension_id=36414&quot;&gt;OpenCart Payment Gateway&lt;/a&gt; (for LND node)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lndecode.com/&quot;&gt;lndecode.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://graph.lndexplorer.com/&quot;&gt;graph.lndexplorer.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lndlife.com&quot;&gt;lndlife.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/janoside/lnd-admin&quot;&gt;github.com/janoside/lnd-admin&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Admin UI for LND. See https://lnd-admin.chaintools.io/ for an example.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bitromortac/lndmanage&quot;&gt;github.com/bitromortac/lndmanage&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Control tool for lightning network daemon (lnd) node operators, optimized for remote control.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;eclair---scala-implementation-of-the-lightning-network&quot;&gt;Eclair - Scala implementation of the Lightning Network.&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/ACINQ/eclair -A scala implementation of the Lightning Network.&lt;/li&gt;
+  &lt;li&gt;https://github.com/ACINQ/eclair-mobile - An Android wallet for the Lightning Network&lt;/li&gt;
+  &lt;li&gt;https://github.com/bitcoin-s/bitcoin-s&lt;/li&gt;
+  &lt;li&gt;https://github.com/fiatjaf/kwh - browser extension&lt;/li&gt;
+  &lt;li&gt;https://github.com/darwin/simverse&lt;/li&gt;
+  &lt;li&gt;https://github.com/t-bast/lightning-confs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;c-lightning&quot;&gt;C-Lightning&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ElementsProject/lightning&quot;&gt;c-lightning — a Lightning Network implementation in C&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.crypto-lyon.fr/setup-lightning-node-bitcoin.html&quot;&gt;setup C-lightning on Debian, with or without TOR (french)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@notgrubles/spark-a-new-gui-for-c-lightning-2cf2f024500c&quot;&gt;Spark GUI for c-lightning&lt;/a&gt; by Nadav Ivgi
+    &lt;ul&gt;
+      &lt;li&gt;https://github.com/shesek/spark-wallet&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lightningd/plugins/tree/master/autopilot&quot;&gt;github.com/lightningd/plugins/tree/master/autopilot&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The C-Lightning plugin repository received an autopilot plugin that can help users choose one or more channels to open to start sending LN payments. The plugin is based on an earlier PR to the main C-Lightning codebase.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ElementsProject/lightning-charge&quot;&gt;Lightning Charge&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ElementsProject/nanotip&quot;&gt;nanotip&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;https://github.com/lightningd/plugins&lt;/li&gt;
+  &lt;li&gt;https://github.com/leblitzdick/lightning-bike&lt;/li&gt;
+  &lt;li&gt;https://github.com/k3tan172/ubuntu-node-box&lt;/li&gt;
+  &lt;li&gt;https://github.com/fiatjaf/lightningd-gjson-rpc&lt;/li&gt;
+  &lt;li&gt;https://github.com/darosior/c-simple&lt;/li&gt;
+  &lt;li&gt;https://github.com/darwin/simverse&lt;/li&gt;
+  &lt;li&gt;https://github.com/0xB10C/c-lightning-plugin-csvexportpays&lt;/li&gt;
+  &lt;li&gt;https://github.com/rsbondi/clightning-mobile&lt;/li&gt;
+  &lt;li&gt;https://github.com/fiatjaf/sparko&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;setup-and-tutorials&quot;&gt;&lt;a href=&quot;https://lnroute.com/setup-tutorials/&quot;&gt;Setup and Tutorials&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLmoQ11MXEmajsUw95Fq6fHzXnVmoMPIeV&quot;&gt;402 Payment Required - Lightning Howtos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/PierreRochard/node-launcher&quot;&gt;Pierre Rochard’s Bitcoin and Lightning Node Launchers&lt;/a&gt; - Windows /macOS Bitcoin / Lightning executables.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@jadmubaslat/bitcoin-lightning-network-node-easy-setup-tutorial-for-windows-desktop-users-a-how-to-guide-9937b5a8a669&quot;&gt;Setup Tutorial for Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=w3PGlgiM0ZQ&quot;&gt;ZAP Wallet setup for Windows (video)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@dougvk/run-your-own-mainnet-lightning-node-2d2eab628a8b&quot;&gt;Run your own Lightning Node&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blockstream.com/2018/04/21/portable-lightning-node-tutorial.html&quot;&gt;How to build your own portable plug-in Lightning node!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wallets&quot;&gt;Wallets&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/lightninglabs/lightning-app&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lnwallet.io/&quot;&gt;lnwallet.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitlum.io/?utm_source=lnroute.com&quot;&gt;bitlum.io&lt;/a&gt; - Bitlum Chrome Extension Wallet
+    &lt;blockquote&gt;
+      &lt;p&gt;The wallet referral system will allow you to onboard new people in Lightning within 3 minutes, by giving them a free $0.1 bonus on registration, so that they can try the Lightning Network even without having Bitcoin.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lnroutecomdesktop-wallets&quot;&gt;&lt;a href=&quot;https://lnroute.com/desktop-wallets/&quot;&gt;lnroute.com/desktop-wallets/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Lightning Desktop App&lt;/strong&gt; by &lt;a href=&quot;https://github.com/lightninglabs&quot;&gt;Lightning Labs&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lightninglabs/lightning-app&quot;&gt;lightninglabs/lightning-app&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zap.jackmallers.com/&quot;&gt;ZAP Wallet for Desktop and Mobile&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/shesek/spark-wallet&quot;&gt;shesek/spark-wallet&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightningpeach.com/peach-wallet&quot;&gt;LightningPeach Wallet&lt;/a&gt; by Lightning Peach&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/darosior/c-simple&quot;&gt;darosior/c-simple&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lnroutecommobile-wallets&quot;&gt;&lt;a href=&quot;https://lnroute.com/mobile-wallets/&quot;&gt;LNRoute.com/mobile-wallets/&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Some wallets also require you to run your own lightning full-node.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lightning-wallet.com/&quot;&gt;bitcoin lightning wallet&lt;/a&gt; Android&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rawtx.com/&quot;&gt;rawtx&lt;/a&gt; Android iOS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.swiftlightning.io/&quot;&gt;swiftlightning.io&lt;/a&gt; iOS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/neogeno/shango-lightning-wallet&quot;&gt;neogeno/shango-lightning-wallet&lt;/a&gt; -Android iOS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cryptotec.com/cipherbook/&quot;&gt;Cipherbook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://coinos.io/&quot;&gt;CoinOS&lt;/a&gt; Android&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shocknet.github.io/&quot;&gt;shocknet.github.io&lt;/a&gt; -Own full-node&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/marzig76/fulmo&quot;&gt;marzig76/fulmo&lt;/a&gt; -Fulmo Own full-node&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zap.jackmallers.com/&quot;&gt;https://zap.jackmallers.com/&lt;/a&gt; iOS Own full-node&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bluewallet.io/&quot;&gt;bluewallet.io&lt;/a&gt; -iOS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/shesek/spark-wallet&quot;&gt;shesek/spark-wallet&lt;/a&gt; -Android Own full-node&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://breez.technology/&quot;&gt;breez.technology&lt;/a&gt; -Android Neutrino&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.walletofsatoshi.com/&quot;&gt;WalletOfSatoshi&lt;/a&gt; - Android iOS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hoo.com/&quot;&gt;Hoo Wallet&lt;/a&gt;- Android iOS Own full-node&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/darosior/c-simple&quot;&gt;darosior/c-simple&lt;/a&gt;
+c-simple Android&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.mobileln&quot;&gt;Mobile LN&lt;/a&gt; Android&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zeusln.app/&quot;&gt;zeusln.app&lt;/a&gt;
+Zeus Android iOS Own full-node&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://muun.com/&quot;&gt;muun.com&lt;/a&gt;
+Muun Wallet Android&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lnroutecomcategorywalletsonline-wallets&quot;&gt;&lt;a href=&quot;https://lnroute.com/category/wallets/online-wallets/&quot;&gt;LNRoute.com/category/wallets/online-wallets&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bottle.li&quot;&gt;Bottle&lt;/a&gt; -Bottle uses the Lightning Network and Social networks to help make Bitcoin accessible for everyone.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tippin.me&quot;&gt;tippin.me&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lnwallet.io/&quot;&gt;lnwallet.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lnroutecomcategorywalletswallet-tools&quot;&gt;&lt;a href=&quot;https://lnroute.com/category/wallets/wallet-tools/&quot;&gt;LNRoute.com/category/wallets/wallet-tools/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://light.yuyaogawa.com/faucet/&quot;&gt;Lightning Mainnet Faucet&lt;/a&gt; - A lightning faucet where you can claim an invoice of 200 sats. Maximum one claim per day.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://submarineswaps.org/&quot;&gt;Submarine Swap Tool&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lndecode.com/&quot;&gt;Lightning Payment Request Decoder&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;For decoding lightning network payment requests as defined in BOLT #11&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightningdecoder.com/&quot;&gt;Lightning Decoder&lt;/a&gt; - Another online tool to decode Lightning Network Invoice (BOLT11)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://singles.shock.network/&quot;&gt;Lightning Singles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lnroute--implementations&quot;&gt;&lt;a href=&quot;https://lnroute.com/category/implementations/&quot;&gt;&lt;strong&gt;LNRoute -Implementations&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nayuta.co/&quot;&gt;nayuta.co&lt;/a&gt; - &lt;a href=&quot;https://github.com/nayutaco&quot;&gt;github.com/nayutaco&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Ptarmigan by Nayuta Co is a 4th Lightning implementation,
+ focused on the Internet of Things.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinvisuals.com/lightning&quot;&gt;bitcoinvisuals.com/lightning&lt;/a&gt; -Bitcoin Visuals Lightning Statistics&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://joltfun.com/&quot;&gt;joltfun.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Joltfun&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thecryptocloak.com/&quot;&gt;thecryptocloak.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;CryptoCloaks&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.moonstuff.co/&quot;&gt;www.moonstuff.co&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;moonstuff&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://singles.shock.network/&quot;&gt;singles.shock.network&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Lightning Singles&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mocacinno.com/lightning/&quot;&gt;www.mocacinno.com/lightning&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Image Unblurrer&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.btcduke.com/&quot;&gt;www.btcduke.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zigzag.bitlum.io&quot;&gt;zigzag.bitlum.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.opennode.co/&quot;&gt;www.opennode.co&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://globee.com/&quot;&gt;globee.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://coingate.com/lightning-network&quot;&gt;coingate.com/lightning-network&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://strike.acinq.co/&quot;&gt;strike.acinq.co&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightninginabox.co/&quot;&gt;lightninginabox.co&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://btcwonderland.com&quot;&gt;btcwonderland.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.excellion.com&quot;&gt;www.excellion.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoin-lightning.de&quot;&gt;bitcoin-lightning.de&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://torguard.net/&quot;&gt;torguard.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hodlmonkey.com/&quot;&gt;hodlmonkey.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://coincards.ca&quot;&gt;coincards.ca&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lnroute--explorers-and-statistics--forget-statistics-reality-is-better&quot;&gt;&lt;a href=&quot;https://lnroute.com/explorers-and-statistics/&quot;&gt;&lt;strong&gt;LNRoute -Explorers and Statistics&lt;/strong&gt;&lt;/a&gt;  (&lt;a href=&quot;https://lnroute.com/2018/09/forget-lightning-statistics-reality-is-even-better/&quot;&gt;Forget Statistics, Reality is Better&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;h3 id=&quot;lightning-stats&quot;&gt;Lightning Stats&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://p2sh.info/dashboard/db/lightning-network&quot;&gt;p2sh.info/dashboard/db/lightning-network&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightningpeach.com/ln-monitor&quot;&gt;lightningpeach.com/ln-monitor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinvisuals.com/lightning&quot;&gt;bitcoinvisuals.com/lightning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;https://github.com/edouardparis/lntop - zap LN terminal dashboard bar_chart&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mainnet-explorers&quot;&gt;Mainnet Explorers&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://explorer.acinq.co/&quot;&gt;explorer.acinq.co&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://explore.casa/&quot;&gt;explore.casa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightning.chaintools.io/&quot;&gt;lightning.chaintools.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinvisuals.com/lightning&quot;&gt;bitcoinvisuals.com/lightning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.robtex.com/lightning/node/&quot;&gt;www.robtex.com/lightning/node&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lnmainnet.rompert.com/&quot;&gt;lnmainnet.rompert.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinexchangerate.org/lightning&quot;&gt;bitcoinexchangerate.org/lightning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://1ml.com/&quot;&gt;1ml.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lightblock.me&quot;&gt;lightblock.me&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lapps&quot;&gt;LAPPS&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://dev.lightning.community/lapps/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ln-payments&quot;&gt;LN Payments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.opencart.com/&quot;&gt;www.opencart.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;A free payment gateway for Bitcoin Lightning Network for store owners who use OpenCart and have their own LN node.
+For decoding lightning network payment requests as defined in BOLT #11&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bitrefill.com/&quot;&gt;www.bitrefill.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Buy 30+ Vouchers, refill your phone and pay your bills with Lightning.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightningjoule.com/&quot;&gt;lightningjoule.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bring the power of lightning to the web with in-browser payments and identity, all with your own node. Available for Chrome, Firefox, Opera and Brave.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cryptochill.com/&quot;&gt;cryptochill.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin and Lightning Network payment gateway focused on security, customizability and simple integration.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.buyabeerwithlightning.com/&quot;&gt;buyabeerwithlightning.com&lt;/a&gt; - zap POS implementation
+    &lt;blockquote&gt;
+      &lt;p&gt;Zap is developing Point of Sale solutions for the Lightning Network. Check out this site for a demonstration.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;merchant-tools&quot;&gt;Merchant Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/btcpayserver/btcpayserver&quot;&gt;BTCPay (self hosted payment processor)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://coingate.com/&quot;&gt;CoinGate&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cryptochill.com/&quot;&gt;CryptoChill&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ElementsProject/filebazaar&quot;&gt;FileBazaar (sell digital files)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://globee.com/&quot;&gt;GloBee&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightningcollect.com/&quot;&gt;Lightning Collect&lt;/a&gt; (payment processor)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lnwallet.io/&quot;&gt;LNWallet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ElementsProject/nanopos&quot;&gt;Nano PoS&lt;/a&gt; (for Lightning Charge)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.opennode.co/&quot;&gt;OpenNode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/JASchilz/pystrike&quot;&gt;Python Strike library&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://strike.acinq.co/&quot;&gt;Strike&lt;/a&gt; (Stripe-like API)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ElementsProject/woocommerce-gateway-lightning&quot;&gt;WooCommerce gateway&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tips&quot;&gt;Tips&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitpatron.co/&quot;&gt;BitPatron&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightning.gifts/&quot;&gt;Lightning Gifts&lt;/a&gt; (add tipping to web pages)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/lntipbot/wiki/index&quot;&gt;LNTipBot&lt;/a&gt; (reddit)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/CryptoFR/ln-tip-slack&quot;&gt;Slack Tipbot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tippin.me&quot;&gt;tippin.me&lt;/a&gt; (twitter tips)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ln-marketplace&quot;&gt;LN Marketplace&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://acceptlightning.com/&quot;&gt;Accept Lightning store list/map&lt;/a&gt;
+&lt;a href=&quot;http://lightningnetworkstores.com/&quot;&gt;Lightning Network Stores&lt;/a&gt;
+&lt;a href=&quot;https://lnroute.com/category/implementations/stores/&quot;&gt;LNRoute store list&lt;/a&gt;
+&lt;a href=&quot;https://messari.io/resource/lightning-network#heading-6&quot;&gt;Messari merchant list&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://store.casa/lightning-node/&quot;&gt;store.casa/lightning-node&lt;/a&gt; -Casa Lightning Node&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://funraiden.com/&quot;&gt;funraiden.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Funraiden offers cool and geeky products from collectibles to stickers and merch, payed with Bitcoin/Lightning.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://crypto-coffee.org&quot;&gt;crypto-coffee.org&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Buy coffee and stickers with Lightning&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bitcointunnels.com/&quot;&gt;bitcointunnels.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin and Lightning merchandise&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shop.energy-kitchen.ch/#/shop&quot;&gt;shop.energy-kitchen.ch/#/shop&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;energyKitchen&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.empowermindbodylife.com/shop/&quot;&gt;www.empowermindbodylife.com/shop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://store.blockstream.com/shop/&quot;&gt;store.blockstream.com/shop&lt;/a&gt; -Blockstream Lightning Store&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cryptoidshop.com/&quot;&gt;www.cryptoidshop.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vapecrypto.com/shop&quot;&gt;vapecrypto.com/shop&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Providing the best prices on authentic Vape Gear, Juices and Accessories. We’re your one stop shop for vape gear&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hipptee.com/&quot;&gt;hipptee.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin T-shirt&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://neverfiat.com/&quot;&gt;neverfiat.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;NeverFiat Crypto Marketplace&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinshirt.co/&quot;&gt;bitcoinshirt.co&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.travelbybit.com&quot;&gt;www.travelbybit.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;We help travellers explore the world using cryptocurrency. Lightning payments are accepted.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://internetsuper.store&quot;&gt;internetsuper.store&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin online store that accepts Lightning payments&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://satoshis.pictures/&quot;&gt;satoshis.pictures&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Experience the power of the lightning network by advertising your products and solutions in satoshis.pictures&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lnsh.pw/&quot;&gt;lnsh.pw&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Lightning Shell allows you to get root access to a Docker container for just 42 satoshis per hour . Pay with Lightning and get access to a shell with 200MB RAM, 0.5 CPU and up to 200MBit/s network connection!&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coinmall.com/&quot;&gt;www.coinmall.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightning-space.com/get-space/&quot;&gt;lightning-space.com/get-space&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Buy webspace with Bitcoin Lightning. You will receive the specified amount of SSD-webspace for the specified amount of days. Included is PHP 7.2, a MySQL (MariaDB) database, SSH and FTP access and an email address (username@lightning-space.com)&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cryptoho.st/&quot;&gt;cryptoho.st&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin and LN powered Virtual Private Server (VPS) store&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bosstalgia.com&quot;&gt;bosstalgia.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bosstalgia Medicinals (@bosstalgia) is the first Canadian Company to accept payments on the Bitcoin Lightning network.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ln.pizza/&quot;&gt;ln.pizza&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Order Domino’s Pizza via the Lightning Network from anywhere in the US. Get 5% off when paying with Lightning!&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hodlgang.store/&quot;&gt;www.hodlgang.store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ln-earn&quot;&gt;LN Earn&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lndwork.com/&quot;&gt;www.lndwork.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Lightning Tasks&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://microlancer.io/&quot;&gt;microlancer.io&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Earn bitcoin with microtasks&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://proofofplays.hopto.org/&quot;&gt;proofofplays.hopto.org&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;A platform for content creators to showcase their videos and get paid satoshis.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;http://light-tube.surge.sh/ - Videos w lightning rewards&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tallyco.in/&quot;&gt;tallyco.in&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bitcoin and Lightning fundraising platform. Create crowdfunding campaigns for your project and get funded by fellow bitcoiners!&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ln-faucet&quot;&gt;LN Faucet&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://light.yuyaogawa.com/faucet/&quot;&gt;light.yuyaogawa.com/faucet&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;A lightning faucet where you can claim an invoice of 200 sats. Maximum one claim per day.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;testnet&quot;&gt;Testnet&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://faucet.lightning.community/&quot;&gt;Bitcoin Testnet Lightning Network Faucet – Receive tBTC via Lightning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lnroute.com/shop/&quot;&gt;lnroute.com/shop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://testnet.lightninggem.com/&quot;&gt;testnet.lightninggem.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Testnet Lightning Gem Game&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://1ml.com/testnet/&quot;&gt;1ml.com/testnet&lt;/a&gt; -Explorers&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://testnet.satoshis.place/&quot;&gt;testnet.satoshis.place&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Testnet Satoshi’s Place&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://starblocks.acinq.co/#/&quot;&gt;starblocks.acinq.co/#&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Testnet Starblocks Coffee Shop&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lnroute.com/shop/&quot;&gt;lnroute.com/shop&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Testnet LNROUTE Tea Store&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/coinclip-testnet/id1372927440&quot;&gt;CoinClip&lt;/a&gt; iOS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ln-exhange--signals--api&quot;&gt;LN Exhange / Signals / API&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cryptoally.io/&quot;&gt;cryptoally.io&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;CryptoAlly.io is a place to discover quotes of Satoshis and Bitcoin in 100+ currencies at real time. The value transfer of Satoshis is powered by Lightning Network.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://crypto.slamtrade.com/&quot;&gt;crypto.slamtrade.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;24/7 streaming of high-performance Crypto-Currency trading signals presented in a single view for professional trading. Find out where to buy/sell or when to buy/sell at any point in time in seconds. Also discover liquidity, market making, and arbitraging opportunities.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://boltz.exchange/&quot;&gt;boltz.exchange&lt;/a&gt; (&lt;a href=&quot;https://medium.com/boltzhq/announcing-the-first-boltz-release-6cb630701432&quot;&gt;*&lt;/a&gt;)
+    &lt;blockquote&gt;
+      &lt;p&gt;An instant, account free, and non-custodial digital asset exchange built on top of the lightning network.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://suredbits.com&quot;&gt;suredbits.com&lt;/a&gt; - NFL, NBA and Crypto API’s -Use of API charged via Lightning Network per call or streaming period.
+    &lt;blockquote&gt;
+      &lt;p&gt;Suredbits’ Lightning App API allows you to query NFL, NBA and Crypto Exchange data. Their NFL and NBA APIs offer multiple channels including teams, players, games, scores, and statistics. Their Crypto Exchange API allows you to stream data on Trades, Tickers and Order Books.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zebpay.com/&quot;&gt;www.zebpay.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;App-enabled cryptocurrency exchange and wallet provider, Zebpay, has announced that it is enabling Lightning Network payments for all its users. Zebpay claim that it will even pay the fees for Lightning transactions made through its wallet.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ln-social&quot;&gt;LN Social&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lightningwall.tips&quot;&gt;lightningwall.tips&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Post public messages on the wall and receive satoshis from people who like your message.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://salttie.com/&quot;&gt;salttie.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Micro Blogging Platform&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bottle.li&quot;&gt;bottle.li&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Bottle uses the Lightning Network andSocial networks to help make Bitcoin accessible for everyone.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mainnet.yalls.org/&quot;&gt;mainnet.yalls.org&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Read and write articles, with Lightning Network micropayments.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://limichat.herokuapp.com/&quot;&gt;limichat.herokuapp.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Limichat is a chat application that limits messages based on payment via Lightning. Sending a message gets cheaper over time, but doubles when someone pays, resulting in one message per ~10 min!&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blockclock.live/&quot;&gt;blockclock.live&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;A Block Clock powered by the Lightning Network. You can send a lightning payment to write a message on the BlockClock that is being live streamed on Twitch!&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kriptode.com/satsforlikes/index.html&quot;&gt;kriptode.com/satsforlikes/index.html&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Pay people to like your tweets or follow you.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lncast.com/#!/&quot;&gt;lncast.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Lightning Network Podcasts&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cointippy.com/&quot;&gt;cointippy.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;CoinTippy helps you reward content on Reddit, Twitter, Telegram and Twitch with cryptocurrencies&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ln-art&quot;&gt;LN Art&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://satoshis.place/&quot;&gt;satoshis.place&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;collaborative artboard. Inspired by Reddit Place, and the Million Dollar Homepage. There are 1 million pixels on the canvas and each pixel costs 1 satoshi to paint. Pixels can be painted over indefinitely. Satoshi’s Place is a great way to experience the power of micro-transactions through the Bitcoin Lightning Network.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://trustedcoins.co.uk/sweetsugarleaf/&quot;&gt;trustedcoins.co.uk/sweetsugarleaf&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Cute Cannabis themed artwork by a Medical Marijuana advocate in the UK&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ludvigart.com/&quot;&gt;ludvigart.com&lt;/a&gt; -Bitcoin Art&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ln-music&quot;&gt;LN Music&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://moifay.online/&quot;&gt;moifay.online&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Official release of first ever Music Album of Moifay, sold online for #Lightning $BTC. Each song is $1 only.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://modularsynth.fun&quot;&gt;modularsynth.fun&lt;/a&gt; -Audo Samples&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sogbazaar.com&quot;&gt;sogbazaar.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ln-wordpress&quot;&gt;LN WordPress&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wordpress.org/plugins/btcpay-for-woocommerce/&quot;&gt;wordpress.org/plugins/btcpay-for-woocommerce&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;BTCPay Server is a free and open-source cryptocurrency payment processor which allows you to receive payments in Bitcoin and altcoins directly, with no fees, transaction cost or a middleman.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wordpress.org/plugins/opennode-for-woocommerce/&quot;&gt;wordpress.org/plugins/opennode-for-woocommerce&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;This plugin allows stores that use WordPress WooCommerce shopping cart system to accept Bitcoin and Bitcoin through Lightning Network via OpenNode.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wordpress.org/plugins/lightning-publisher/#description&quot;&gt;wordpress.org/plugins/lightning-publisher/#description&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/ElementsProject/wordpress-lightning-publisher&quot;&gt;github.com/ElementsProject/wordpress-lightning-publisher&lt;/a&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;Lightning Publisher for WordPress is developed by Blockstream and allows you to offer previews of your blog posts and require a Lightning Network payment to release the rest.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ln-shopify&quot;&gt;LN Shopify&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mailchi.mp/cf60f9bb7278/opennode-can-now-be-used-on-shopify&quot;&gt;mailchi.mp/cf60f9bb7278/opennode-can-now-be-used-on-shopify&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Opennode released a plugin for Shopify that allows you to accept Bitcoin and Bitcoin Lightning payments.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ln-games&quot;&gt;LN Games&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.luckythunder.com/#/&quot;&gt;www.luckythunder.com/#&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;LuckyThunder is a slot machine built on top of the bitcoin lightning network. No login required, provably fair, high win percentage.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@BR_Robin/a-bitcoin-lightning-network-powered-rpg-penguinshooter-6d36cc34de0c&quot;&gt;medium.com/@BR_Robin/a-bitcoin-lightning-network-powered-rpg-penguinshooter-6d36cc34de0c&lt;/a&gt; - Penguin Shooter -A Bitcoin Lightning Network powered RPG&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightningscratchcard.io/&quot;&gt;lightningscratchcard.io&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Pay Satoshis with Lightning Network to scratch letters and help reveal a hidden message. Or post a message yourself and make it attractive so people want to discover.
+Oc2 (Off chain On chain https://oc2realm.com/) - India’s first Decentralised Exchange, 0x Relayer and early adopters of Lightning.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightning.oc2realm.com/&quot;&gt;lightning.oc2realm.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;To support their vision, they have created a Slot Machine on top of Lightning Network.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://miniroulette.lngames.net/&quot;&gt;miniroulette.lngames.net&lt;/a&gt; -Mini Casino Roulette
+    &lt;blockquote&gt;
+      &lt;p&gt;Lightning Network simple casino roulette game&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://playhammerland.com/&quot;&gt;playhammerland.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;A role-playing game using Lightning for in-game payments&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://koalastud.io/&quot;&gt;koalastud.io&lt;/a&gt; -Koala Studio’s first game is Lightning Powered online Chess&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://satoshis.games/&quot;&gt;satoshis.games&lt;/a&gt;
+Another series of games that use the Lightning Network&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lngames.net/&quot;&gt;lngames.net&lt;/a&gt; -Several games to experience the use of the Lightning Network.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kriptode.com/&quot;&gt;kriptode.com&lt;/a&gt; -A series of Lightning Apps and Games. Three Card Monte, Receive SMS, LN Hunt, MicroMine, Scratch and Win and Backgammon&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightning-casino.com/&quot;&gt;lightning-casino.com&lt;/a&gt; -Another Lightning Network powered Slot Machine&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lightningslotmachine.com/&quot;&gt;www.lightningslotmachine.com&lt;/a&gt; -A Lightning Network powered Slot Machine&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://microbet.fun/&quot;&gt;microbet.fun&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;prediction and betting game&lt;/li&gt;
+      &lt;li&gt;make a prediction about sports events or back/lay the others players bets&lt;/li&gt;
+      &lt;li&gt;backers or layers get all satoshis divided equally amongst each participant.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lightningspin.com/&quot;&gt;www.lightningspin.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Lightning Spin is a bitcoin gambling game that lives on top of the Lightning Network. It’s a simple yet exciting game – enter your wager, select a multiplier and spin the wheel. If the wheel lands on your target multiplier, you win!&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightninggem.com/&quot;&gt;lightninggem.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;The Lightning Gem is a fun game as well as an exercise in psychology. You can think of it as a series of speculative bubbles&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lightning-roulette.com/&quot;&gt;lightning-roulette.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Lightning Roulette is another Bitcoin Lightning Network powered online multiplayer game. This LApp uses a provably fair system that enables you to verify each spin result and make sure you are not being cheated.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lightningflip.xyz&quot;&gt;lightningflip.xyz&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;LN coinflipping game&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lightningduel.com/&quot;&gt;www.lightningduel.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Provably fair gamble game with instant deposits and withdrawals. A good showcase of the power of the Lightning network.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thundersats.com/&quot;&gt;thundersats.com&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Miniature Roulette Game on top of the Bitcoin Lightning Network.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://unlock.lngames.net/&quot;&gt;unlock.lngames.net&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Open the correct lock and get satoshis&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rgbslot.lngames.net/&quot;&gt;rgbslot.lngames.net&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Three colors and  three wheels. Simple and different slot machine game.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://poke.lightningwiki.net/&quot;&gt;poke.lightningwiki.net&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Play Pokémon with your fellow bitcoiners a collaborative gameboy powered by Lightning&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://whereisnakamoto.lngames.net/&quot;&gt;whereisnakamoto.lngames.net&lt;/a&gt; -The player that finds Nakamoto is awarded 50% of the jackpot.
+    &lt;blockquote&gt;
+      &lt;p&gt;Satoshi Nakamoto is hidden in one of 256 cards of the board. At the beginning of each game, all cards are closed. When Nakamoto is found, the game ends and another begins with all the cards closed again.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.satoshibet.io/&quot;&gt;www.satoshibet.io&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Satoshibet is a provably fair roulette with a trollbox and a tipping bot. Play roulette while talking with fellow players in the chat.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://satoshi-go-bet.alhur.es/&quot;&gt;satoshi-go-bet.alhur.es&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Satoshi Go Bet is a betting platform for online Go games. Choose any of the live Go games and make bets on the player you think will win.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bc.game&quot;&gt;bc.game&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;BC.Game is a BlockChain Game platform with provably fair, fast payouts, a free faucet and Lightning Network support. Some of the games available are Crash, Dice and Blackjack.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://memory.lngames.net/&quot;&gt;memory.lngames.net&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Classical memory game on Lightning. Pair up the 8 different images and if you beat the highscore, you win the jackpot.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fortune.lngames.net/&quot;&gt;fortune.lngames.net&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Lightning Wheel of Fortune&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="Layer 2" /><category term="Lightning" /><summary type="html">Links to code, howtos, and other resources related to practical use of Lightning.</summary></entry><entry><title type="html">Bitcoin Info</title><link href="http://localhost:4000/posts/Bitcoin/" rel="alternate" type="text/html" title="Bitcoin Info" /><published>2019-07-15T00:00:00-04:00</published><updated>2019-07-23T06:22:33-04:00</updated><id>http://localhost:4000/posts/bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/">&lt;p&gt;This page, at the moment, is mainly the contents of the &lt;a href=&quot;https://sourcecrypto.pub/archive/crypto/bitcoin/&quot;&gt;Bitcoin Channel&lt;/a&gt; from SourceCrypto Discord server.&lt;/p&gt;
 
 &lt;p&gt;This is my first attempt at organizing information related specifically to Bitcoin. We also have &lt;a href=&quot;https://sourcecrypto.pub/archive/development/bitcoin-dev/&quot;&gt;Bitcoin Dev&lt;/a&gt; and &lt;a href=&quot;https://sourcecrypto.pub/archive/crypto/btc-layer2/&quot;&gt;BTC-Layer2&lt;/a&gt; channels that must be sorted.&lt;/p&gt;
 
@@ -2578,264 +3729,4 @@ Introducing realized cap to BTC market cycle analysis”&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="Consortium" /><summary type="html">Everything related to LibraCoin's Consortium, 'The Libra Association'.</summary></entry><entry><title type="html">The Libra Blockchain</title><link href="http://localhost:4000/blog/libra-facebook/" rel="alternate" type="text/html" title="The Libra Blockchain" /><published>2019-06-19T00:00:00-04:00</published><updated>2019-06-22T06:22:33-04:00</updated><id>http://localhost:4000/blog/libra</id><content type="html" xml:base="http://localhost:4000/blog/libra-facebook/">&lt;ul&gt;
-  &lt;li&gt;@TechCrunch -&lt;a href=&quot;https://techcrunch.com/2019/06/18/facebook-libra/&quot;&gt;Facebook announces Libra cryptocurrency&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;The risk and reward of building the new PayPal&lt;/strong&gt;&lt;/p&gt;
-
-      &lt;p&gt;In cryptocurrencies, Facebook saw both a threat and an opportunity. They held the promise of disrupting how things are bought and sold by eliminating transaction fees common with credit cards. That comes dangerously close to Facebook’s ad business that influences what is bought and sold. If a competitor like Google or an upstart built a popular coin and could monitor the transactions, they’d learn what people buy and could muscle in on the billions spent on Facebook marketing. Meanwhile, the 1.7 billion people who lack a bank account might choose whoever offers them a financial services alternative as their online identity provider too. That’s another thing Facebook wants to be.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;official-libra-links&quot;&gt;Official &lt;a href=&quot;https://libra.org/en-US/&quot;&gt;Libra&lt;/a&gt; Links&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/libra/website/master/libra.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://libra.org/en-US/white-paper/#introduction&quot;&gt;White Paper&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Libra’s mission is to enable a simple global currency and financial infrastructure that empowers billions of people.&lt;/p&gt;
-
-      &lt;p&gt;This document outlines our plans for a new decentralized blockchain, a low-volatility cryptocurrency, and a smart contract platform that together aim to create a new opportunity for responsible financial services innovation.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;4.&amp;quot;Unlike previous blockchains, which view the blockchain as a collection of blocks of transactions, the Libra is a single data structure that records the history of transactions and states over time&amp;quot; 🤔&lt;br /&gt;5. Try Libra: &lt;a href=&quot;https://t.co/FMfvcVNspw&quot;&gt;https://t.co/FMfvcVNspw&lt;/a&gt; &lt;a href=&quot;https://t.co/kJ4cSBKhXY&quot;&gt;pic.twitter.com/kJ4cSBKhXY&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julien Bouteloup - giver of Libra (@bneiluj) &lt;a href=&quot;https://twitter.com/bneiluj/status/1140945721690140673?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2019&lt;/a&gt;
-&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;6. Libra reserve = central bank &lt;a href=&quot;https://t.co/PROlglP2OS&quot;&gt;https://t.co/PROlglP2OS&lt;/a&gt;&lt;br /&gt;7. Life of a tx: &lt;a href=&quot;https://t.co/ZUFpPCx9j6&quot;&gt;https://t.co/ZUFpPCx9j6&lt;/a&gt;&lt;br /&gt;8. LibraBFT from HotStuff 😅: &lt;a href=&quot;https://t.co/D3Zpimxo2G&quot;&gt;https://t.co/D3Zpimxo2G&lt;/a&gt; &lt;a href=&quot;https://t.co/I7Lk314dTL&quot;&gt;pic.twitter.com/I7Lk314dTL&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julien Bouteloup - giver of Libra (@bneiluj) &lt;a href=&quot;https://twitter.com/bneiluj/status/1140945724630294530?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;dev&quot;&gt;Dev&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/libra&quot;&gt;github.com/libra&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/libra/website&quot;&gt;libra/website&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/libra/libra&quot;&gt;libra/libra&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;tldr&quot;&gt;TLDR:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/community/contributing&quot;&gt;Contrbuting guide&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/blog/2019/06/18/the-path-forward&quot;&gt;blog&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/welcome-to-libra&quot;&gt;Welcome&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/libra-protocol&quot;&gt;Libra Protocol: Key Concepts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/life-of-a-transaction&quot;&gt;Life of a Transaction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/blog/2019/06/18/the-path-forward/&quot;&gt;Libra: The Path Forward&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://community.libra.org&quot;&gt;Libra Discourse&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/newsletter_form&quot;&gt;newsletter&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- Courtesy of embedresponsively.com //--&gt;
-&lt;div class=&quot;responsive-video-container&quot;&gt;
-
-  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/K_4zvd0trT0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Try Libra Core&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/my-first-transaction&quot;&gt;My First Transaction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/move-overview&quot;&gt;Getting Started With Move&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Technical Papers&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf&quot;&gt;The Libra Blockchain&lt;/a&gt; - Technical Paper
-    &lt;blockquote&gt;
-      &lt;p&gt;Abstract.The Libra Blockchain is a decentralized, programmable database designed to support alow-volatility cryptocurrency that will have the ability to serve as an efficient medium of exchange forbillions of people around the world. We present a proposal for the Libra protocol, which implementsthe Libra Blockchain and aims to create a financial infrastructure that can foster innovation, lowerbarriers to entry, and improve access to financial services. To validate the design of the Libra protocol,we have built an open-source prototype implementation —Libra Core— in anticipation of a globalcollaborative effort to advance this new ecosystem&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/move-paper&quot;&gt;Move: A Language With Programmable Resources&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/state-machine-replication-paper&quot;&gt;State Machine Replication in the Libra Blockchain&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Libra Codebase&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/libra-core-overview&quot;&gt;Libra Core Overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/crates/admission-control&quot;&gt;Admission Control&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/crates/bytecode-verifier&quot;&gt;Bytecode Verifier&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/crates/consensus&quot;&gt;Consensus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/crates/crypto&quot;&gt;Crypto&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/crates/execution&quot;&gt;Execution&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/crates/mempool&quot;&gt;Mempool&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/crates/ir-to-bytecode&quot;&gt;Move IR Compiler&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/crates/move-language&quot;&gt;Move Language&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/crates/network&quot;&gt;Network&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/crates/storage&quot;&gt;Storage&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/crates/vm&quot;&gt;Virtual Machine&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;commentary&quot;&gt;Commentary&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/LefterisJP/status/1140955674656067586?s=20&quot;&gt;1/X Thread on #Libra and its new language (#MOVE) : So I am reading about #Libra today and find it rather interesting they made their own VM and programming language: developers.libra.org/docs/move-paper&lt;/a&gt;
-&lt;img src=&quot;https://pbs.twimg.com/media/D9V44uUXkAIj9Ix?format=jpg&amp;amp;name=small&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/LefterisJP/status/1140955676501524481?s=20&quot;&gt;&lt;img src=&quot;https://imgur.com/bsGnk2Q.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://twitter.com/LefterisJP/status/1140955679978659841?s=20&quot;&gt;&lt;img src=&quot;https://imgur.com/2nHrNnt.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.libra.org/docs/assets/papers/libra-move-a-language-with-programmable-resources.pdf&quot;&gt;Move: A Language With Programmable Resources&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Abstract.We present Move, a safe and flexible programming language for the Libra Blockchain. Move is an executable bytecode language used to implement custom transactions and smart contracts.&lt;/p&gt;
-
-      &lt;p&gt;The key feature of Move is the ability to define custom resource types with semantics inspired by linear logic a resource can never be copied or implicitly discarded, only moved between program storage locations.&lt;/p&gt;
-
-      &lt;p&gt;These safety guarantees are enforced statically by Move’s type system. Despite thesespecial protections, resources are ordinary program values — they can be stored in data structures, passed as arguments to procedures, and so on.&lt;/p&gt;
-
-      &lt;p&gt;First-class resources are a very general concept thatprogrammers can use not only to implement safe digital assets but also to write correct businesslogic for wrapping assets and enforcing access control policies.&lt;/p&gt;
-
-      &lt;p&gt;The safety and expressivity of Move have enabled us to implement significant parts of the Libra protocol in Move, including Libra coin,transaction processing, and validator management. -&lt;a href=&quot;https://twitter.com/bneiluj/status/1140945720389840896?s=20&quot;&gt;[source]&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;reaction&quot;&gt;Reaction&lt;/h2&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I hate myself for saying this, but as much as I worry about the privacy properties of Libra: at very least it’s an attempt to democratize payments. The alternative is a cartel payment/banking system that eats a huge chunk of people’s income.&lt;/p&gt;&amp;mdash; Matthew Green (@matthew_d_green) &lt;a href=&quot;https://twitter.com/matthew_d_green/status/1141505368746549248?ref_src=twsrc%5Etfw&quot;&gt;June 20, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cryptoglobe.com/latest/2019/06/everything-you-need-to-know-about-libra-facebooks-new-cryptocurrency/&quot;&gt;Everything you need to know about the Libra Facebook&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cryptoglobe.com/latest/2019/06/cnbcs-brian-kelly-explains-the-huge-difference-between-libra-and-bitcoin/&quot;&gt;CNBC’s Brian Kelly Explains the ‘Huge Difference’ Between Libra and Bitcoin&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.whatbitcoindid.com/podcast/caitlin-long-on-why-facebooks-libra-coin-is-good-for-bitcoin&quot;&gt;&lt;img src=&quot;https://imgur.com/JdxKoK3.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt; -&lt;a href=&quot;https://twitter.com/PeterMcCormack/status/1140959137251188737?s=20&quot;&gt;[source]&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://twitter.com/caitlinlong_/status/1140963988546547713?s=12&quot;&gt;@CaitlinLong_ 1/ &lt;/a&gt; FIRST ANALYSIS of @facebook
-‘s #Libra: Facebook completely misunderstands money. 
-🤣
-😩
-Facebook understands payment systems–but that’s not the same as money. Two telling quotes: “Libra is backed by a reserve of real assets.” “Many cryptocurrencies today (eg #Bitcoin &amp;amp; #Ether…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://qz.com/1642172/jack-dorsey-on-bitcoin-facebooks-crypto-and-the-end-of-cash/&quot;&gt;Jack Dorsey says now is our chance to build a global currency for the internet&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;This is our one opportunity to align every community, and every country, around the world, which I think provides a lot of clarity, enables a lot more innovation, and most importantly creates a probability of much greater access for more people. As we bring more people online, we can also imagine a trend in parallel where they all have access to the same currency, and there are still conversions to a local currency like the pound, but being able to have one currency really takes away some of the barriers of the past and how we think about global markets.&lt;/p&gt;
-
-      &lt;p&gt;…
-&lt;strong&gt;Do you think bitcoin could be the internet’s currency?&lt;/strong&gt;&lt;/p&gt;
-
-      &lt;p&gt;I haven’t seen any other currency that would challenge it across the dimensions that I think are really important. First, I think it has an amazing brand. The other thing that I think makes it probably the strongest candidate is that the principles behind it are very pure. The creation of it was very pure, and focused on a public good, rather than any other particular agenda. The fact that it’s meant to be deflationary, meant to incentivize savings instead of spending, I think is a net positive for the world and how we think about consuming. Because it is a scarce resource, it has a probability of always increasing in value, which makes you consider a lot more how you spend it. Because you know that spending it today—it might go up in a week. And purchasing coffee, or a new sofa, with that really puts everything in perspective. Do I really need this? So from a psychological perspective, I think that’s interesting.
-&lt;a href=&quot;https://twitter.com/jamestodaromd/status/1139527922358898688?s=12&quot;&gt;H/T @jamestodaromd&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;quot;Libra doesn&amp;#39;t compete with central banks, they&amp;#39;re using a basket of currencies&amp;quot;&lt;br /&gt;&lt;br /&gt;Think about what happens in, say India, when they decide to apply monetary policy (devalue) and people have access to a &amp;quot;hard&amp;quot; Libra alternative. It undermines their power of monetary policy&lt;/p&gt;&amp;mdash; Andreas M. Antonopoulos (@aantonop) &lt;a href=&quot;https://twitter.com/aantonop/status/1141258739867107329?ref_src=twsrc%5Etfw&quot;&gt;June 19, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.coindesk.com/facebook-launches-subsidiary-to-support-new-libra-crypto&quot;&gt;Facebook Unveils Libra Cryptocurrency, Targeting 1.7 Billion Unbanked&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.wired.com/story/ambitious-plan-behind-facebooks-cryptocurrency-libra/&quot;&gt;The Ambitious Plan Behind Facebook’s Cryptocurrency, Libra&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.vox.com/the-goods/2019/6/19/18691549/facebook-cryptocurrency-libra-how-does-it-work&quot;&gt;Should you care about Facebook cryptocurrency?&lt;/a&gt; - It’s not bitcoin. It’s also not Venmo. It’s more like an attempt at the internet-age US dollar.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/the-main-features-of-facebooks-libra-and-how-it-can-impact-the-crypto-industry-f80322a61023&quot;&gt;The Main Features of Facebook’s Libra and How it Can Impact the Crypto Industry&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/libra-coin-currency-of-corporations-not-people-609614e2a76c&quot;&gt;Libra-coin Currency Corporations Not People (redirect-loop atm)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=20210791&quot;&gt;Facebook reveals its cryptocurrency Libra (decrypt.co)&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://decrypt.co/7502/facebook-libra-coin-cryptocurrency-launch-calibra&quot;&gt;Facebook says its “stablecoin,” will empower billions and underpin a stunningly ambitious global economy, without selling your data.&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tech&quot;&gt;Tech&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Libra tech in 1 tweet: Pseudonymous base-layer. Smart contracts. 1000 tx/s onchain so forget about running a full node. You’ll DL a Merkle root with &amp;gt;2/3 sigs to know your balance - full trust in signatories (like XRP). Consensus algo called “HotStuff” (improved PBFT). Rust impl. -&lt;a href=&quot;https://twitter.com/ercwl/status/1141008434520821760?s=20&quot;&gt;@ercwl&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Leo and Sophia are cited in the Libra technical whitepaper for their work on accumulators. Boston University is a hotbed of cryptocurrency research.&lt;br /&gt;CC: &lt;a href=&quot;https://twitter.com/BUCompSci?ref_src=twsrc%5Etfw&quot;&gt;@BUCompSci&lt;/a&gt; &lt;a href=&quot;https://twitter.com/BU_Tweets?ref_src=twsrc%5Etfw&quot;&gt;@BU_Tweets&lt;/a&gt; &lt;a href=&quot;https://t.co/5AQCuaI4xE&quot;&gt;https://t.co/5AQCuaI4xE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ethan ✨ Heilman (@Ethan_Heilman) &lt;a href=&quot;https://twitter.com/Ethan_Heilman/status/1141349114367684608?ref_src=twsrc%5Etfw&quot;&gt;June 19, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The &lt;a href=&quot;https://twitter.com/Libra_?ref_src=twsrc%5Etfw&quot;&gt;@Libra_&lt;/a&gt; release looks really amazing. Based on HotStuff (which is itself inspired by Tendermint!), written in Rust, with a new smart contract environment, open source license, and non-profit governance. All fantastic things. But the social implications are terrifying to me.&lt;/p&gt;&amp;mdash; Ethan Buchman (@buchmanster) &lt;a href=&quot;https://twitter.com/buchmanster/status/1140993066016358400?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2019&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/trbouma/status/1140993395042783243?s=12&quot;&gt;&lt;img src=&quot;https://imgur.com/Uc9RZVP.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;annotated-white-paper&quot;&gt;Annotated White Paper&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/PhABC/LibraWhitepaper/blob/master/the-libra-blockchain_Annotated_by_PhABC.pdf&quot;&gt;Annotated Libra White Paper&lt;/a&gt; - &lt;a href=&quot;https://twitter.com/phabcd/status/1140996440212328449?s=12&quot;&gt;[source]&lt;/a&gt;
-&lt;a href=&quot;https://github.com/PhABC/LibraWhitepaper/blob/master/the-libra-blockchain_Annotated_by_PhABC.pdf&quot;&gt;&lt;img src=&quot;https://imgur.com/1GyCQ1y.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Improvements on Ethereum?&lt;br /&gt;&lt;br /&gt;📦 Libra uses modules instead of contracts (good for storage rent, which Libra is exploring)&lt;br /&gt;&lt;br /&gt;🔐 Strongly typed modules and variables (security!)&lt;br /&gt;&lt;br /&gt;🤖Native account abstraction (Ethereum? Smart wallets)&lt;br /&gt;&lt;br /&gt;📄One-time tx (see &lt;a href=&quot;https://t.co/T9Z0dJe67C&quot;&gt;https://t.co/T9Z0dJe67C&lt;/a&gt;)&lt;br /&gt;&lt;br /&gt;3/&lt;/p&gt;&amp;mdash; Philippe Castonguay ♢ (@PhABCD) &lt;a href=&quot;https://twitter.com/PhABCD/status/1140996442028482560?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2019&lt;/a&gt;&lt;/blockquote&gt;
-    &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://muneebali.com/static/files/libra-muneeb.pdf&quot;&gt;Annotated Libra White-Paper&lt;/a&gt; - &lt;a href=&quot;https://twitter.com/muneeb/status/1141339321527689220?s=20&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Libra’s mission is to enable a simple global currency and financial infrastructure that empowers billions of people. This document outlines our plans for a new decentralized blockchain, a low-volatility cryptocurrency, and a smart contract platform that together aim to create a new opportunity for responsible financial services innovation.&lt;/p&gt;
-
-      &lt;p&gt;Problem Statement:
-The advent of the internet and mobile broadband has empowered billions of people globally to have access to the world’s knowledge and  information, high-fidelity communications, and a wide range  of  lower-cost, more convenient services.&lt;/p&gt;
-
-      &lt;p&gt;These services are now accessible using a $40 smartphone from almost anywhere in the world.&lt;/p&gt;
-
-      &lt;p&gt;1 This connectivity has driven economic empowerment by enabling more people to access the financial ecosystem.  Working  together,  technology  companies and financial  institutions  have  also  found solutions to help increase economic empowerment around the world. Despite this progress, large swaths of the world’s population are still left behind — 1.7 billion adults globally remain outside of the financial system with no access to a traditional bank, even though one billion have a mobile phone and nearly half a billion have internet access.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The biggest question for me while researching &lt;a href=&quot;https://twitter.com/Libra_?ref_src=twsrc%5Etfw&quot;&gt;@Libra_&lt;/a&gt; today was this: Is it possible for users who aren’t “founding members” (&lt;a href=&quot;https://twitter.com/facebook?ref_src=twsrc%5Etfw&quot;&gt;@facebook&lt;/a&gt;, paypal, visa, uber, etc) to gain access to the network and fully validate the “chain”?&lt;br /&gt;&lt;br /&gt;The answer is a resounding NO. &lt;a href=&quot;https://t.co/C8EawEzgjC&quot;&gt;pic.twitter.com/C8EawEzgjC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Udi Wertheimer (@udiWertheimer) &lt;a href=&quot;https://twitter.com/udiWertheimer/status/1141005009292840963?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;response-from-the-state&quot;&gt;Response from the State&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cointelegraph.com/news/chair-of-house-financial-services-committee-requests-halt-on-facebooks-crypto-project&quot;&gt;Chair of House Financial Services Committee Requests Halt on Facebook’s Crypto Project&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The US gov&amp;#39;t is calling for hearings blocking Facebook Libra token. &lt;br /&gt;&lt;br /&gt;Over the past 10 years, they have largely left &lt;a href=&quot;https://twitter.com/hashtag/Bitcoin?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Bitcoin&lt;/a&gt; alone while creating regulations around the industry, some good and some bad. &lt;br /&gt;&lt;br /&gt;Facebook may have just fucked us. &lt;a href=&quot;https://t.co/OPfZCStjSx&quot;&gt;https://t.co/OPfZCStjSx&lt;/a&gt;. Listen now🚀 &lt;a href=&quot;https://t.co/2dhlf052Ey&quot;&gt;pic.twitter.com/2dhlf052Ey&lt;/a&gt;&lt;/p&gt;&amp;mdash; Charlie Shrem (@CharlieShrem) &lt;a href=&quot;https://twitter.com/CharlieShrem/status/1141350843255578626?ref_src=twsrc%5Etfw&quot;&gt;June 19, 2019&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.apnews.com/3bf6c7a4810749f58ba65c94af0cc8c7&quot;&gt;The Latest: Fed sees no risk to dollar from cryptocurrencies&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;NEW: The top lawmakers on the House Financial Services Committee are targeting Facebook’s new cryptocurrency, &lt;a href=&quot;https://twitter.com/hashtag/Libra?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Libra&lt;/a&gt;. &lt;br /&gt;&lt;br /&gt;Chairwoman Maxine Waters says it’s another example of Facebook’s “unchecked expansion,” urges execs to testify and calls on FB to stop working on the currency. &lt;a href=&quot;https://t.co/xOklWsfLdx&quot;&gt;pic.twitter.com/xOklWsfLdx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Brian Fung (@b_fung) &lt;a href=&quot;https://twitter.com/b_fung/status/1141096663760723968?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2019&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.theblockcrypto.com/tiny/facebooks-cryptocurrency-libra-decried-by-french-finance-minister-saying-it-must-not-happen/&quot;&gt;Facebook’s cryptocurrency Libra decried by French finance minister, saying it ‘must not happen’&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="Resources" /><summary type="html">Everything related to Facebook's LibraCoin - A simple global currency and financial infrastructure that empowers billions of people.</summary></entry><entry><title type="html">SourceCrypto Blog-Feed</title><link href="http://localhost:4000/posts/welcome/" rel="alternate" type="text/html" title="SourceCrypto Blog-Feed" /><published>2019-05-29T00:00:00-04:00</published><updated>2019-06-21T06:22:33-04:00</updated><id>http://localhost:4000/posts/blog-source</id><content type="html" xml:base="http://localhost:4000/posts/welcome/">&lt;p&gt;It’s safe to say that I’m testing the limits of the Minimal Mistakes theme.&lt;/p&gt;
-
-&lt;p&gt;I decided to try out the blog format, mostly just to see if it would work.&lt;/p&gt;
-
-&lt;p&gt;A neat thing w blogs, is by using tags and categories there are many different ways to display and interact with the content.&lt;/p&gt;
-
-&lt;p&gt;I found out that using too many collections will break this theme.&lt;/p&gt;
-
-&lt;blockquote class=&quot;notice--success&quot;&gt;
-  &lt;p&gt;I just updated this index, because I knew there was a ton of value hidden away in the discord server. I can see, also, that these pages are showing up in search, and that folk are making use. YAY!  You may have noticed the navigation was broken for a day while updating… apparently Jekyll doesn’t like more than 10 collections.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Collections are a simple way to throw a bunch of similar type of documents in a directory and display them together, without a bunch of manual labor.&lt;/p&gt;
-
-&lt;p&gt;I expanded to 12 categories, and it broke.&lt;/p&gt;
-
-&lt;p&gt;Then, I dropped back to 9 and nav came back.&lt;/p&gt;
-
-&lt;p&gt;So I wanted to see if I started a blog would the site still work.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;9 categories and a blog&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;That’s a lot of ways to organize information :)&lt;/p&gt;
-
-&lt;p&gt;I doubt I’ll stick with the post index home page for long, since I don’t expect to be blogging here, much.&lt;/p&gt;
-
-&lt;p&gt;I’m now able to appreciate the technical limitation for shaping my categorization process. It makes sense to have 10 or less ways to divide the entire ecosystem and break it down from there… even if some overlap.&lt;/p&gt;
-
-&lt;p&gt;Simplicity &amp;lt;3&lt;/p&gt;
-
-&lt;h2 id=&quot;featured-content&quot;&gt;Featured Content&lt;/h2&gt;
-
-&lt;p&gt;You’ll notice the &lt;a href=&quot;/featured/&quot;&gt;/featured/&lt;/a&gt; link, where I’ll feature the various channels on a rotating basis, until I’ve created a preview image for all of them. For now, there is only some variety.&lt;/p&gt;
-
-&lt;h2 id=&quot;lets-catch-up-again-soon&quot;&gt;Let’s Catch Up Again Soon!&lt;/h2&gt;</content><author><name>⧉ Infominer</name></author><category term="welcome" /><summary type="html">I'm now able to appreciate the technical limitation for shaping my categorization process. It makes sense to have 10 or less ways to divide the entire ecosystem and break it down from there... even if some overlap. Simplicity &lt;3</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="Consortium" /><summary type="html">Everything related to LibraCoin's Consortium, 'The Libra Association'.</summary></entry></feed>
