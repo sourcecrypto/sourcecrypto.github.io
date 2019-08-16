@@ -1,0 +1,3033 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Favicons -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://SourceCrypto.pub/assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://SourceCrypto.pub/assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://SourceCrypto.pub/assets/icons/favicon-16x16.png">
+<link rel="manifest" href="https://SourceCrypto.pub/assets/icons/site.webmanifest">
+<link rel="mask-icon" href="https://SourceCrypto.pub/assets/icons/safari-pinned-tab.svg" color="#79dfce">
+<link rel="shortcut icon" href="https://SourceCrypto.pub/assets/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#79dfce">
+<meta name="msapplication-config" content="https://SourceCrypto.pub/assets/icons/browserconfig.xml">
+<meta name="theme-color" content="#79dfce">
+
+<!-- begin _includes/seo.html --><title>Practical Lightning: Wallets, Applications, Guides and Development | Source Crypto</title>
+<meta name="description" content="This page is for collecting and organizing information related to using the Lightning Network.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Source Crypto">
+<meta property="og:title" content="Practical Lightning: Wallets, Applications, Guides and Development">
+<meta property="og:url" content="http://localhost:4000/posts/Bitcoin/lightning/">
+
+
+  <meta property="og:description" content="This page is for collecting and organizing information related to using the Lightning Network.">
+
+
+
+  <meta property="og:image" content="https://imgur.com/QjmwITb.png">
+
+
+
+  <meta name="twitter:site" content="@SourceCrypto">
+  <meta name="twitter:title" content="Practical Lightning: Wallets, Applications, Guides and Development">
+  <meta name="twitter:description" content="This page is for collecting and organizing information related to using the Lightning Network.">
+  <meta name="twitter:url" content="http://localhost:4000/posts/Bitcoin/lightning/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://imgur.com/QjmwITb.png">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-07-22T00:00:00-04:00">
+
+
+
+  <meta property="article:modified_time" content="2019-08-17T06:22:33-04:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/posts/Bitcoin/lightning/">
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "http://localhost:4000",
+      "logo": "https://SourceCrypto.pub/images/Source-Crypto-og.png"
+    }
+  </script>
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Infominer",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Source Crypto Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="https://sourcecrypto.pub/images/interlinked.png" alt=""></a>
+        
+        <a class="site-title" href="/">Research Index — Discord Chat</a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/posts/">Posts by Date</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/feature/">Feature</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/archive/">Archive</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://infominer.id/" target="_blank" rel="noopener noreferrer">Info⧉Hub</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/decentralized-web/" target="_blank" rel="noopener noreferrer">Decentralized Web</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://learncryptotrading.co" target="_blank" rel="noopener noreferrer">Learn Crypto Trading</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://decentralized-id.com" target="_blank" rel="noopener noreferrer">DIDecentralized</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools" target="_blank" rel="noopener noreferrer">Webwork Tools</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/indieweb" target="_blank" rel="noopener noreferrer">IndieWeb</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/github-pages-starter-pack/" target="_blank" rel="noopener noreferrer">Github Pages Starter Pack</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero" style=" ">
+  
+    <img src="https://imgur.com/QjmwITb.png" alt="Practical Lightning: Wallets, Applications, Guides and Development" class="page__hero-image">
+  
+  
+    <span class="page__hero-caption"><table>
+  <tbody>
+    <tr>
+      <td><a href="https://twitter.com/Delpadschnick" class="user-mention">@Delpadschnick</a></td>
+      <td><a href="https://CryptoDesign.io" target="_blank" rel="noopener noreferrer">CryptoDesign.io</a></td>
+    </tr>
+  </tbody>
+</table>
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="https://SourceCrypto.pub/images/bio-photo2.jpg" alt="⧉ Infominer" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">⧉ Infominer</h3>
+    
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://infominer.id" rel="noopener noreferrer" target="_blank"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
+          
+        
+          
+            <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+          
+            <li><a href="https://keybase.io/infominer" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
+          
+        
+          
+            <li><a href="https://github.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+            <li><a href="https://discord.gg/ahTuPMY" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+          
+        
+          
+            <li><a href="https://t.me/InfoMiner33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">⧉Info⧉</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="https://infominer.id/" target="_blank" rel="noopener noreferrer"><span class="nav__sub-title">InfoHub</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://agoric-records.xyz" class="" target="_blank" rel="noopener noreferrer">• Agoric Records</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://learncryptotrading.co" class="" target="_blank" rel="noopener noreferrer">• Learn Crypto Trading</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/bitcoin-history" class="" target="_blank" rel="noopener noreferrer">• Bitcoin Histories</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/transcripts" class="" target="_blank" rel="noopener noreferrer">• Transcripts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/decentralized-web/" class="" target="_blank" rel="noopener noreferrer">• Decentralized Web Histories</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://decentralized-id.com" class="" target="_blank" rel="noopener noreferrer">• DIDecentral</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://web-work.tools" class="" target="_blank" rel="noopener noreferrer">• Webwork Tools</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/general/"><span class="nav__sub-title">General</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/read-me/" class="">• Readme</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/101/" class="">• 101</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/classification/" class="">• Classification</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/cypherpunk/" class="">• Cypherpunk</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/earn-crypto/" class="">• Earn Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/economics/" class="">• Economics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/evaluation/" class="">• Evaluation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/exchanges/" class="">• Exchanges</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/governance/" class="">• Governance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/growth-adoption/" class="">• Growth - Adoption</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/history/" class="">• History</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/library-submissions/" class="">• Library Submissions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/memes-n-junk/" class="">• Memes n Junk</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/mining/" class="">• Mining</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/oppression/" class="">• Oppression</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/regulation/" class="">• Regulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/satoshi/" class="">• Satoshi</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/trading/" class="">• Trading</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/wallets/" class="">• Wallets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/traditional-finance/" class="">• Traditional Finance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/walstreet/" class="">• Walstreet</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/resources/"><span class="nav__sub-title">Resources</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/assorted-media/" class="">• Assorted Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/books/" class="">• Books</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/bots/" class="">• Bots</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/china/" class="">• China</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/communities/" class="">• Communities</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/conferences/" class="">• Conferences</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/news-sites/" class="">• News Sites</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/non-english/" class="">• Non-English</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/french/" class="">• French</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/research-papers/" class="">• Research Papers</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/resources/" class="">• Resources</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/send-crypto/" class="">• Send-Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/swag/" class="">• Swag</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/tech-in-media/" class="">• Tech in Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/twitter-follows/" class="">• Twitter Follows</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/women/" class="">• Women</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/blockchain-tech/"><span class="nav__sub-title">Blockchain Tech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/consensus/" class="">• Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/pow/" class="">• PoW</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/pos/" class="">• PoS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/tendermint/" class="">• Tendermint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/eth-consensus/" class="">• Eth-Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/decentralization/" class="">• Decentralization</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/forks/" class="">• Forks</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/drivechains/" class="">• Drivechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/hahs-algos/" class="">• Hash Algos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/interoperability/" class="">• Interoperability</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/sharding/" class="">• Sharding</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/sidechains/" class="">• Sidechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/smart-contracts/" class="">• Smart Contracts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/smart-signatures/" class="">• Smart Signatures</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/state-channels/" class="">• State Channels</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/oracles/" class="">• Oracles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/ethresearch/" class="">• Ethresearch</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/master-nodes/" class="">• Master-Nodes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/tech/"><span class="nav__sub-title">Tech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/security/" class="">• Security</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/cryptography/" class="">• Cryptography</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/privacy/" class="">• Privacy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/cybersecurity/" class="">• Cybersecurity</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/infosec/" class="">• Infosec</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/tor/" class="">• Tor</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/bittorrent/" class="">• Bit-Torrent</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/distributed-systems/" class="">• Distributed Systems</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/internet-protocols/" class="">• Internet Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/P2P/" class="">• P2P</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/design/" class="">• Design</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/development/"><span class="nav__sub-title">Development</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/gen-development/" class="">• Gen Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/blockchain-development/" class="">• Blockchain Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/bitcoin-dev/" class="">• Bitcoin Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/cardano-dev/" class="">• Cardano Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/corda-dev/" class="">• Corda Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/forking/" class="">• Forking</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/ethereum-dev/" class="">• Ethereum Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/hackathons/" class="">• Hackathons</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/hyperledger-dev/" class="">• Hyperledger Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/id-dev/" class="">• ID Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/nano-dev/" class="">• Nano Dev</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/crypto/"><span class="nav__sub-title">Crypto</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/gen-crypto/" class="">• Gen Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bitcoin/" class="">• Bitcoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/btc-layer2/" class="">• BTC Layer2</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bch/" class="">• B-Cash</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bitshares/" class="">• Bitshares</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/blockstack/" class="">• Blockstack</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bytom/" class="">• Bytom</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/cardano/" class="">• Cardano</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/central-bank-digital-currency/" class="">• Central Bank Digital Currency</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/cosmos/" class="">• Cosmos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/dash/" class="">• DASH</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/doge/" class="">• DOGE</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/eos/" class="">• EOS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/etc/" class="">• ETC - Eth Classic</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/etcetera/" class="">• Etcetera</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/ethereum/" class="">• Ethereum</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/eth-layer2/" class="">• ETH Layer 2</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/grin-mimblewimble/" class="">• Grin Mimble-Wimble</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/hashgraph/" class="">• Hashgraph</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/iota/" class="">• IOTA</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/litecoin/" class="">• Litecoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/monero/" class="">• Monero</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/nano/" class="">• Nano</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/neo/" class="">• NEO</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/ripple/" class="">• Ripple</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/stable-coins/" class="">• Stable Coins</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/stellar/" class="">• Stellar</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/tezos/" class="">• Tezos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/tron/" class="">• Tron</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/zcash/" class="">• ZCash</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/enterprise/"><span class="nav__sub-title">Enterprise</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/enterprise-dlt/" class="">• Enterprise - DLT</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/ent-eth/" class="">• Enterprise Ethereum</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/corda/" class="">• Corda</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/hyperledger/" class="">• Hyperledger</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/application/"><span class="nav__sub-title">Application</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/art-collectibles/" class="">• Art Collectibles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/ai/" class="">• AI</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/brave/" class="">• Brave</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/criminal/" class="">• Criminal</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/crypto-selfregulation/" class="">• Crypto Self-Regulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/dao/" class="">• DAO</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/defi/" class="">• Defi</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/dapps/" class="">• dApps</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/energy/" class="">• Energy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/fiat-onramp/" class="">• Fiat Onramp</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/finance/" class="">• Finance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/games/" class="">• Games</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/government/" class="">• Government</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/identity-did/" class="">• Identity - DID</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/icos/" class="">• ICOs</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/iot/" class="">• Iot</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/institutional-derivitives/" class="">• Institutional Derivitives</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/intellectual-property/" class="">• Intellectual Property</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/marketplaces/" class="">• Marketplaces</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/music/" class="">• Music</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/notary/" class="">• Notary</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/payment-processing/" class="">• Payment Processing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/protocols/" class="">• Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/publishing/" class="">• Publishing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/prediction-markets/" class="">• Prediction Markets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/security-tokens/" class="">• Security Tokens</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/services/" class="">• Services</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/social-media/" class="">• Social Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/supplychain/" class="">• Supply Chain</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/united-nations/" class="">• United Nations</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/utility/" class="">• Utility</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/voting/" class="">• Voting</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Practical Lightning: Wallets, Applications, Guides and Development">
+    <meta itemprop="description" content="Links to code, howtos, and other resources related to practical use of Lightning.">
+    <meta itemprop="datePublished" content="July 22, 2019">
+    <meta itemprop="dateModified" content="August 16, 2019">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Practical Lightning: Wallets, Applications, Guides and Development
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  11 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title">
+<i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li>
+<a href="#lightning-nodes">Lightning Nodes</a>
+    <ul>
+      <li><a href="#lnd---lightning-network-daemon">LND - Lightning Network Daemon</a></li>
+      <li><a href="#eclair---scala-implementation-of-the-lightning-network">Eclair - Scala implementation of the Lightning Network.</a></li>
+      <li><a href="#c-lightning">C-Lightning</a></li>
+      <li><a href="#setup-and-tutorials">Setup and Tutorials</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#wallets">Wallets</a>
+    <ul>
+      <li><a href="#lnroutecomdesktop-wallets">lnroute.com/desktop-wallets/</a></li>
+      <li><a href="#lnroutecommobile-wallets">LNRoute.com/mobile-wallets/</a></li>
+      <li><a href="#lnroutecomcategorywalletsonline-wallets">LNRoute.com/category/wallets/online-wallets</a></li>
+      <li><a href="#lnroutecomcategorywalletswallet-tools">LNRoute.com/category/wallets/wallet-tools/</a></li>
+    </ul>
+  </li>
+  <li><a href="#lnroute--implementations">LNRoute -Implementations</a></li>
+  <li>
+<a href="#lnroute--explorers-and-statistics--forget-statistics-reality-is-better">LNRoute -Explorers and Statistics  (Forget Statistics, Reality is Better)</a>
+    <ul>
+      <li><a href="#lightning-stats">Lightning Stats</a></li>
+      <li><a href="#mainnet-explorers">Mainnet Explorers</a></li>
+    </ul>
+  </li>
+  <li><a href="#lapps">LAPPS</a></li>
+  <li>
+<a href="#ln-payments">LN Payments</a>
+    <ul>
+      <li><a href="#merchant-tools">Merchant Tools</a></li>
+      <li><a href="#tips">Tips</a></li>
+    </ul>
+  </li>
+  <li><a href="#ln-marketplace">LN Marketplace</a></li>
+  <li>
+<a href="#ln-earn">LN Earn</a>
+    <ul>
+      <li><a href="#ln-faucet">LN Faucet</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#testnet">Testnet</a>
+    <ul>
+      <li><a href="#ln-exhange--signals--api">LN Exhange / Signals / API</a></li>
+      <li><a href="#ln-social">LN Social</a></li>
+      <li><a href="#ln-art">LN Art</a></li>
+      <li><a href="#ln-music">LN Music</a></li>
+      <li><a href="#ln-wordpress">LN WordPress</a></li>
+      <li><a href="#ln-shopify">LN Shopify</a></li>
+      <li><a href="#ln-games">LN Games</a></li>
+    </ul>
+  </li>
+</ul>
+            </nav>
+          </aside>
+        
+        <ul>
+  <li><a href="https://lnroute.com" target="_blank" rel="noopener noreferrer">Lightning Network - Resource and Information Guide - LNRoute</a></li>
+  <li><a href="https://lightninghood.com/" target="_blank" rel="noopener noreferrer">LightningHood</a></li>
+  <li>
+<a href="https://www.lopp.net/lightning-information.html" target="_blank" rel="noopener noreferrer">lopp.net - Lightning Network Resources</a> (<a href="https://github.com/jlopp/lopp.net/blob/master/lightning-information.html" target="_blank" rel="noopener noreferrer">source</a>)</li>
+  <li>https://github.com/lightningnetwork/lightning-rfc -Lightning Network Specifications</li>
+  <li>https://lightninginabox.co</li>
+</ul>
+
+<h2 id="lightning-nodes">Lightning Nodes</h2>
+
+<ul>
+  <li>
+<a href="https://medium.com/lightning-power-users/windows-macos-lightning-network-284bd5034340" target="_blank" rel="noopener noreferrer">Easiest Bitcoin Lightning Guide!</a>
+    <ul>
+      <li><a href="https://github.com/lightning-power-users/node-launcher" target="_blank" rel="noopener noreferrer">Easiest BTC/LN desktop app, for Windows, macOS, and Linux</a></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/nayutaco/ptarmigan" target="_blank" rel="noopener noreferrer">Lightning Network BOLT implementation</a></li>
+  <li><a href="https://thebitcoin.pub/t/the-perfect-bitcoin-lightning-node-tutorial/33437" target="_blank" rel="noopener noreferrer">The perfect Bitcoin Lightning️ node - Tutorial</a></li>
+  <li>https://github.com/mit-dci/lit -Lightning Network node software</li>
+  <li>https://www.nodl.it/ - Lightning hardware Device</li>
+</ul>
+
+<p>Lightning Node Match – maximize te number of nodes reached in a minimum number of hops.</p>
+<ul>
+  <li><a href="https://www.moneni.com/mcb/nodematch" target="_blank" rel="noopener noreferrer">www.moneni.com/mcb/nodematch</a></li>
+</ul>
+
+<h3 id="lnd---lightning-network-daemon">LND - Lightning Network Daemon</h3>
+
+<ul>
+  <li>https://github.com/lightningnetwork/lnd/releases</li>
+  <li>
+<a href="https://twitter.com/pierre_rochard/status/1055159992733626368" target="_blank" rel="noopener noreferrer">Pierre Rochard (@pierre_rochard) - twitter.com</a>
+    <blockquote>
+      <p>The LND node software now runs from within the Excel plugin. With neutrino, that means that a Windows + Excel user can be making and receiving LN payments with a few clicks. https://t.co/qeP2dCJSqp</p>
+    </blockquote>
+  </li>
+  <li>https://github.com/mably/lncli-web - Light-weight web client for the lnd daemon written in NodeJS / Angular. - mably/lncli-web</li>
+  <li>https://github.com/janoside/lnd-admin - Admin UI for LND. Contribute to janoside/lnd-admin development by creating an account on GitHub.</li>
+  <li><a href="https://github.com/ShahanaFarooqui/RTL/blob/master/README.md" target="_blank" rel="noopener noreferrer">Ride The Lightning - A full function web browser app for LND - ShahanaFarooqui/RTL</a></li>
+  <li>https://github.com/djmelik/lndash - A simple web dashboard for lnd. Contribute to djmelik/lndash development by creating an account on GitHub.</li>
+  <li><a href="https://gist.github.com/bretton/0b22a0503a9eba09df86a23f3d625c13" target="_blank" rel="noopener noreferrer">Setup LND 0.4 beta and bitcoind on Ubuntu 16.04</a></li>
+  <li>
+<a href="https://www.lndwork.com/" target="_blank" rel="noopener noreferrer">LNDwork</a>	Micro-Freelancing</li>
+  <li><a href="https://github.com/alexbosworth/lnd-gui" target="_blank" rel="noopener noreferrer">alexbosworth/lnd-gui</a></li>
+  <li>
+<a href="https://github.com/rstmsn/lnd-for-wp" target="_blank" rel="noopener noreferrer">github.com/rstmsn/lnd-for-wp</a> -WordPress plugin for managing &amp; using your LND node
+    <ul>
+      <li>manage your LND node from your WordPress admin panel</li>
+      <li>fully functional wallet interface</li>
+      <li>send / recieve funds with ease</li>
+      <li>responsive UI adapts to fit any web enabled desktop, tablet or mobile device.</li>
+      <li>Search Lightning Network graph, manage peer connections, open &amp; close channels with ease.</li>
+      <li>QR support</li>
+      <li>WordPress ‘shortcodes’, embed LND functionality directly in your pages and posts.</li>
+    </ul>
+  </li>
+  <li>
+<a href="https://lnd-testnet-2.mably.com/" target="_blank" rel="noopener noreferrer">lnd-testnet-2.mably.com</a> -Testnet Slack Tipping Bot</li>
+  <li>
+<a href="https://www.opencart.com/index.php?route=marketplace/extension/info&amp;extension_id=36414" target="_blank" rel="noopener noreferrer">OpenCart Payment Gateway</a> (for LND node)</li>
+  <li><a href="https://lndecode.com/" target="_blank" rel="noopener noreferrer">lndecode.com</a></li>
+  <li><a href="https://graph.lndexplorer.com/" target="_blank" rel="noopener noreferrer">graph.lndexplorer.com</a></li>
+  <li><a href="https://lndlife.com" target="_blank" rel="noopener noreferrer">lndlife.com</a></li>
+  <li>
+<a href="https://github.com/janoside/lnd-admin" target="_blank" rel="noopener noreferrer">github.com/janoside/lnd-admin</a>
+    <blockquote>
+      <p>Admin UI for LND. See https://lnd-admin.chaintools.io/ for an example.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://github.com/bitromortac/lndmanage" target="_blank" rel="noopener noreferrer">github.com/bitromortac/lndmanage</a>
+    <blockquote>
+      <p>Control tool for lightning network daemon (lnd) node operators, optimized for remote control.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="eclair---scala-implementation-of-the-lightning-network">Eclair - Scala implementation of the Lightning Network.</h3>
+
+<ul>
+  <li>https://github.com/ACINQ/eclair -A scala implementation of the Lightning Network.</li>
+  <li>https://github.com/ACINQ/eclair-mobile - An Android wallet for the Lightning Network</li>
+  <li>https://github.com/bitcoin-s/bitcoin-s</li>
+  <li>https://github.com/fiatjaf/kwh - browser extension</li>
+  <li>https://github.com/darwin/simverse</li>
+  <li>https://github.com/t-bast/lightning-confs</li>
+</ul>
+
+<h3 id="c-lightning">C-Lightning</h3>
+
+<ul>
+  <li><a href="https://github.com/ElementsProject/lightning" target="_blank" rel="noopener noreferrer">c-lightning — a Lightning Network implementation in C</a></li>
+  <li><a href="https://www.crypto-lyon.fr/setup-lightning-node-bitcoin.html" target="_blank" rel="noopener noreferrer">setup C-lightning on Debian, with or without TOR (french)</a></li>
+  <li>
+<a href="https://medium.com/@notgrubles/spark-a-new-gui-for-c-lightning-2cf2f024500c" target="_blank" rel="noopener noreferrer">Spark GUI for c-lightning</a> by Nadav Ivgi
+    <ul>
+      <li>https://github.com/shesek/spark-wallet</li>
+    </ul>
+  </li>
+  <li>
+<a href="https://github.com/lightningd/plugins/tree/master/autopilot" target="_blank" rel="noopener noreferrer">github.com/lightningd/plugins/tree/master/autopilot</a>
+    <blockquote>
+      <p>The C-Lightning plugin repository received an autopilot plugin that can help users choose one or more channels to open to start sending LN payments. The plugin is based on an earlier PR to the main C-Lightning codebase.</p>
+    </blockquote>
+  </li>
+  <li><a href="https://github.com/ElementsProject/lightning-charge" target="_blank" rel="noopener noreferrer">Lightning Charge</a></li>
+  <li><a href="https://github.com/ElementsProject/nanotip" target="_blank" rel="noopener noreferrer">nanotip</a></li>
+  <li>https://github.com/lightningd/plugins</li>
+  <li>https://github.com/leblitzdick/lightning-bike</li>
+  <li>https://github.com/k3tan172/ubuntu-node-box</li>
+  <li>https://github.com/fiatjaf/lightningd-gjson-rpc</li>
+  <li>https://github.com/darosior/c-simple</li>
+  <li>https://github.com/darwin/simverse</li>
+  <li>https://github.com/0xB10C/c-lightning-plugin-csvexportpays</li>
+  <li>https://github.com/rsbondi/clightning-mobile</li>
+  <li>https://github.com/fiatjaf/sparko</li>
+</ul>
+
+<h3 id="setup-and-tutorials"><a href="https://lnroute.com/setup-tutorials/" target="_blank" rel="noopener noreferrer">Setup and Tutorials</a></h3>
+
+<ul>
+  <li><a href="https://www.youtube.com/playlist?list=PLmoQ11MXEmajsUw95Fq6fHzXnVmoMPIeV" target="_blank" rel="noopener noreferrer">402 Payment Required - Lightning Howtos</a></li>
+  <li>
+<a href="https://github.com/PierreRochard/node-launcher" target="_blank" rel="noopener noreferrer">Pierre Rochard’s Bitcoin and Lightning Node Launchers</a> - Windows /macOS Bitcoin / Lightning executables.</li>
+  <li><a href="https://medium.com/@jadmubaslat/bitcoin-lightning-network-node-easy-setup-tutorial-for-windows-desktop-users-a-how-to-guide-9937b5a8a669" target="_blank" rel="noopener noreferrer">Setup Tutorial for Windows</a></li>
+  <li><a href="https://www.youtube.com/watch?v=w3PGlgiM0ZQ" target="_blank" rel="noopener noreferrer">ZAP Wallet setup for Windows (video)</a></li>
+  <li><a href="https://medium.com/@dougvk/run-your-own-mainnet-lightning-node-2d2eab628a8b" target="_blank" rel="noopener noreferrer">Run your own Lightning Node</a></li>
+  <li><a href="https://blockstream.com/2018/04/21/portable-lightning-node-tutorial.html" target="_blank" rel="noopener noreferrer">How to build your own portable plug-in Lightning node!</a></li>
+</ul>
+
+<h2 id="wallets">Wallets</h2>
+
+<ul>
+  <li>https://github.com/lightninglabs/lightning-app</li>
+  <li><a href="https://lnwallet.io/" target="_blank" rel="noopener noreferrer">lnwallet.io</a></li>
+  <li>
+<a href="https://bitlum.io/?utm_source=lnroute.com" target="_blank" rel="noopener noreferrer">bitlum.io</a> - Bitlum Chrome Extension Wallet
+    <blockquote>
+      <p>The wallet referral system will allow you to onboard new people in Lightning within 3 minutes, by giving them a free $0.1 bonus on registration, so that they can try the Lightning Network even without having Bitcoin.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="lnroutecomdesktop-wallets"><a href="https://lnroute.com/desktop-wallets/" target="_blank" rel="noopener noreferrer">lnroute.com/desktop-wallets/</a></h3>
+
+<p><strong>Lightning Desktop App</strong> by <a href="https://github.com/lightninglabs" target="_blank" rel="noopener noreferrer">Lightning Labs</a></p>
+<ul>
+  <li><a href="https://github.com/lightninglabs/lightning-app" target="_blank" rel="noopener noreferrer">lightninglabs/lightning-app</a></li>
+  <li>
+<a href="https://zap.jackmallers.com/" target="_blank" rel="noopener noreferrer">ZAP Wallet for Desktop and Mobile</a>
+    <ul>
+      <li><a href="https://github.com/shesek/spark-wallet" target="_blank" rel="noopener noreferrer">shesek/spark-wallet</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="https://lightningpeach.com/peach-wallet" target="_blank" rel="noopener noreferrer">LightningPeach Wallet</a> by Lightning Peach</li>
+  <li><a href="https://github.com/darosior/c-simple" target="_blank" rel="noopener noreferrer">darosior/c-simple</a></li>
+</ul>
+
+<h3 id="lnroutecommobile-wallets"><a href="https://lnroute.com/mobile-wallets/" target="_blank" rel="noopener noreferrer">LNRoute.com/mobile-wallets/</a></h3>
+<blockquote>
+  <p>Some wallets also require you to run your own lightning full-node.</p>
+</blockquote>
+
+<ul>
+  <li>
+<a href="http://lightning-wallet.com/" target="_blank" rel="noopener noreferrer">bitcoin lightning wallet</a> Android</li>
+  <li>
+<a href="https://rawtx.com/" target="_blank" rel="noopener noreferrer">rawtx</a> Android iOS</li>
+  <li>
+<a href="https://www.swiftlightning.io/" target="_blank" rel="noopener noreferrer">swiftlightning.io</a> iOS</li>
+  <li>
+<a href="https://github.com/neogeno/shango-lightning-wallet" target="_blank" rel="noopener noreferrer">neogeno/shango-lightning-wallet</a> -Android iOS</li>
+  <li><a href="https://www.cryptotec.com/cipherbook/" target="_blank" rel="noopener noreferrer">Cipherbook</a></li>
+  <li>
+<a href="https://coinos.io/" target="_blank" rel="noopener noreferrer">CoinOS</a> Android</li>
+  <li>
+<a href="https://shocknet.github.io/" target="_blank" rel="noopener noreferrer">shocknet.github.io</a> -Own full-node</li>
+  <li>
+<a href="https://github.com/marzig76/fulmo" target="_blank" rel="noopener noreferrer">marzig76/fulmo</a> -Fulmo Own full-node</li>
+  <li>
+<a href="https://zap.jackmallers.com/" target="_blank" rel="noopener noreferrer">https://zap.jackmallers.com/</a> iOS Own full-node</li>
+  <li>
+<a href="https://bluewallet.io/" target="_blank" rel="noopener noreferrer">bluewallet.io</a> -iOS</li>
+  <li>
+<a href="https://github.com/shesek/spark-wallet" target="_blank" rel="noopener noreferrer">shesek/spark-wallet</a> -Android Own full-node</li>
+  <li>
+<a href="https://breez.technology/" target="_blank" rel="noopener noreferrer">breez.technology</a> -Android Neutrino</li>
+  <li>
+<a href="https://www.walletofsatoshi.com/" target="_blank" rel="noopener noreferrer">WalletOfSatoshi</a> - Android iOS</li>
+  <li>
+<a href="https://hoo.com/" target="_blank" rel="noopener noreferrer">Hoo Wallet</a>- Android iOS Own full-node</li>
+  <li>
+<a href="https://github.com/darosior/c-simple" target="_blank" rel="noopener noreferrer">darosior/c-simple</a>
+c-simple Android</li>
+  <li>
+<a href="https://play.google.com/store/apps/details?id=com.mobileln" target="_blank" rel="noopener noreferrer">Mobile LN</a> Android</li>
+  <li>
+<a href="https://zeusln.app/" target="_blank" rel="noopener noreferrer">zeusln.app</a>
+Zeus Android iOS Own full-node</li>
+  <li>
+<a href="https://muun.com/" target="_blank" rel="noopener noreferrer">muun.com</a>
+Muun Wallet Android</li>
+</ul>
+
+<h3 id="lnroutecomcategorywalletsonline-wallets"><a href="https://lnroute.com/category/wallets/online-wallets/" target="_blank" rel="noopener noreferrer">LNRoute.com/category/wallets/online-wallets</a></h3>
+
+<ul>
+  <li>
+<a href="https://bottle.li" target="_blank" rel="noopener noreferrer">Bottle</a> -Bottle uses the Lightning Network and Social networks to help make Bitcoin accessible for everyone.</li>
+  <li><a href="https://tippin.me" target="_blank" rel="noopener noreferrer">tippin.me</a></li>
+  <li><a href="https://lnwallet.io/" target="_blank" rel="noopener noreferrer">lnwallet.io</a></li>
+</ul>
+
+<h3 id="lnroutecomcategorywalletswallet-tools"><a href="https://lnroute.com/category/wallets/wallet-tools/" target="_blank" rel="noopener noreferrer">LNRoute.com/category/wallets/wallet-tools/</a></h3>
+
+<ul>
+  <li>
+<a href="https://light.yuyaogawa.com/faucet/" target="_blank" rel="noopener noreferrer">Lightning Mainnet Faucet</a> - A lightning faucet where you can claim an invoice of 200 sats. Maximum one claim per day.</li>
+  <li><a href="https://submarineswaps.org/" target="_blank" rel="noopener noreferrer">Submarine Swap Tool</a></li>
+  <li>
+<a href="https://lndecode.com/" target="_blank" rel="noopener noreferrer">Lightning Payment Request Decoder</a>
+    <blockquote>
+      <p>For decoding lightning network payment requests as defined in BOLT #11</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://lightningdecoder.com/" target="_blank" rel="noopener noreferrer">Lightning Decoder</a> - Another online tool to decode Lightning Network Invoice (BOLT11)</li>
+  <li><a href="https://singles.shock.network/" target="_blank" rel="noopener noreferrer">Lightning Singles</a></li>
+</ul>
+
+<h2 id="lnroute--implementations"><a href="https://lnroute.com/category/implementations/" target="_blank" rel="noopener noreferrer"><strong>LNRoute -Implementations</strong></a></h2>
+
+<ul>
+  <li>
+<a href="https://nayuta.co/" target="_blank" rel="noopener noreferrer">nayuta.co</a> - <a href="https://github.com/nayutaco" target="_blank" rel="noopener noreferrer">github.com/nayutaco</a>
+    <blockquote>
+      <p>Ptarmigan by Nayuta Co is a 4th Lightning implementation,
+ focused on the Internet of Things.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://bitcoinvisuals.com/lightning" target="_blank" rel="noopener noreferrer">bitcoinvisuals.com/lightning</a> -Bitcoin Visuals Lightning Statistics</li>
+  <li>
+<a href="https://joltfun.com/" target="_blank" rel="noopener noreferrer">joltfun.com</a>
+    <blockquote>
+      <p>Joltfun</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://thecryptocloak.com/" target="_blank" rel="noopener noreferrer">thecryptocloak.com</a>
+    <blockquote>
+      <p>CryptoCloaks</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://www.moonstuff.co/" target="_blank" rel="noopener noreferrer">www.moonstuff.co</a>
+    <blockquote>
+      <p>moonstuff</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://singles.shock.network/" target="_blank" rel="noopener noreferrer">singles.shock.network</a>
+    <blockquote>
+      <p>Lightning Singles</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://www.mocacinno.com/lightning/" target="_blank" rel="noopener noreferrer">www.mocacinno.com/lightning</a>
+    <blockquote>
+      <p>Image Unblurrer</p>
+    </blockquote>
+  </li>
+  <li><a href="https://www.btcduke.com/" target="_blank" rel="noopener noreferrer">www.btcduke.com</a></li>
+  <li><a href="https://zigzag.bitlum.io" target="_blank" rel="noopener noreferrer">zigzag.bitlum.io</a></li>
+  <li><a href="https://www.opennode.co/" target="_blank" rel="noopener noreferrer">www.opennode.co</a></li>
+  <li><a href="https://globee.com/" target="_blank" rel="noopener noreferrer">globee.com</a></li>
+  <li><a href="https://coingate.com/lightning-network" target="_blank" rel="noopener noreferrer">coingate.com/lightning-network</a></li>
+  <li><a href="https://strike.acinq.co/" target="_blank" rel="noopener noreferrer">strike.acinq.co</a></li>
+  <li><a href="https://lightninginabox.co/" target="_blank" rel="noopener noreferrer">lightninginabox.co</a></li>
+  <li><a href="https://btcwonderland.com" target="_blank" rel="noopener noreferrer">btcwonderland.com</a></li>
+  <li><a href="https://www.excellion.com" target="_blank" rel="noopener noreferrer">www.excellion.com</a></li>
+  <li><a href="https://bitcoin-lightning.de" target="_blank" rel="noopener noreferrer">bitcoin-lightning.de</a></li>
+  <li><a href="https://torguard.net/" target="_blank" rel="noopener noreferrer">torguard.net</a></li>
+  <li><a href="https://hodlmonkey.com/" target="_blank" rel="noopener noreferrer">hodlmonkey.com</a></li>
+  <li><a href="https://coincards.ca" target="_blank" rel="noopener noreferrer">coincards.ca</a></li>
+</ul>
+
+<h2 id="lnroute--explorers-and-statistics--forget-statistics-reality-is-better">
+<a href="https://lnroute.com/explorers-and-statistics/" target="_blank" rel="noopener noreferrer"><strong>LNRoute -Explorers and Statistics</strong></a>  (<a href="https://lnroute.com/2018/09/forget-lightning-statistics-reality-is-even-better/" target="_blank" rel="noopener noreferrer">Forget Statistics, Reality is Better</a>)</h2>
+
+<h3 id="lightning-stats">Lightning Stats</h3>
+<ul>
+  <li><a href="https://p2sh.info/dashboard/db/lightning-network" target="_blank" rel="noopener noreferrer">p2sh.info/dashboard/db/lightning-network</a></li>
+  <li><a href="https://lightningpeach.com/ln-monitor" target="_blank" rel="noopener noreferrer">lightningpeach.com/ln-monitor</a></li>
+  <li><a href="https://bitcoinvisuals.com/lightning" target="_blank" rel="noopener noreferrer">bitcoinvisuals.com/lightning</a></li>
+  <li>https://github.com/edouardparis/lntop - zap LN terminal dashboard bar_chart</li>
+</ul>
+
+<h3 id="mainnet-explorers">Mainnet Explorers</h3>
+<ul>
+  <li><a href="https://explorer.acinq.co/" target="_blank" rel="noopener noreferrer">explorer.acinq.co</a></li>
+  <li><a href="https://explore.casa/" target="_blank" rel="noopener noreferrer">explore.casa</a></li>
+  <li><a href="https://lightning.chaintools.io/" target="_blank" rel="noopener noreferrer">lightning.chaintools.io</a></li>
+  <li><a href="https://bitcoinvisuals.com/lightning" target="_blank" rel="noopener noreferrer">bitcoinvisuals.com/lightning</a></li>
+  <li><a href="https://www.robtex.com/lightning/node/" target="_blank" rel="noopener noreferrer">www.robtex.com/lightning/node</a></li>
+  <li><a href="https://lnmainnet.rompert.com/" target="_blank" rel="noopener noreferrer">lnmainnet.rompert.com</a></li>
+  <li><a href="https://bitcoinexchangerate.org/lightning" target="_blank" rel="noopener noreferrer">bitcoinexchangerate.org/lightning</a></li>
+  <li><a href="https://1ml.com/" target="_blank" rel="noopener noreferrer">1ml.com</a></li>
+  <li><a href="http://lightblock.me" target="_blank" rel="noopener noreferrer">lightblock.me</a></li>
+</ul>
+
+<h2 id="lapps">LAPPS</h2>
+
+<ul>
+  <li>https://dev.lightning.community/lapps/</li>
+</ul>
+
+<h2 id="ln-payments">LN Payments</h2>
+
+<ul>
+  <li>
+<a href="https://www.opencart.com/" target="_blank" rel="noopener noreferrer">www.opencart.com</a>
+    <blockquote>
+      <p>A free payment gateway for Bitcoin Lightning Network for store owners who use OpenCart and have their own LN node.
+For decoding lightning network payment requests as defined in BOLT #11</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://www.bitrefill.com/" target="_blank" rel="noopener noreferrer">www.bitrefill.com</a>
+    <blockquote>
+      <p>Buy 30+ Vouchers, refill your phone and pay your bills with Lightning.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://lightningjoule.com/" target="_blank" rel="noopener noreferrer">lightningjoule.com</a>
+    <blockquote>
+      <p>Bring the power of lightning to the web with in-browser payments and identity, all with your own node. Available for Chrome, Firefox, Opera and Brave.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://cryptochill.com/" target="_blank" rel="noopener noreferrer">cryptochill.com</a>
+    <blockquote>
+      <p>Bitcoin and Lightning Network payment gateway focused on security, customizability and simple integration.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="http://www.buyabeerwithlightning.com/" target="_blank" rel="noopener noreferrer">buyabeerwithlightning.com</a> - zap POS implementation
+    <blockquote>
+      <p>Zap is developing Point of Sale solutions for the Lightning Network. Check out this site for a demonstration.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="merchant-tools">Merchant Tools</h3>
+
+<ul>
+  <li><a href="https://github.com/btcpayserver/btcpayserver" target="_blank" rel="noopener noreferrer">BTCPay (self hosted payment processor)</a></li>
+  <li><a href="https://coingate.com/" target="_blank" rel="noopener noreferrer">CoinGate</a></li>
+  <li><a href="https://cryptochill.com/" target="_blank" rel="noopener noreferrer">CryptoChill</a></li>
+  <li><a href="https://github.com/ElementsProject/filebazaar" target="_blank" rel="noopener noreferrer">FileBazaar (sell digital files)</a></li>
+  <li><a href="https://globee.com/" target="_blank" rel="noopener noreferrer">GloBee</a></li>
+  <li>
+<a href="https://lightningcollect.com/" target="_blank" rel="noopener noreferrer">Lightning Collect</a> (payment processor)</li>
+  <li><a href="https://lnwallet.io/" target="_blank" rel="noopener noreferrer">LNWallet</a></li>
+  <li>
+<a href="https://github.com/ElementsProject/nanopos" target="_blank" rel="noopener noreferrer">Nano PoS</a> (for Lightning Charge)</li>
+  <li><a href="https://www.opennode.co/" target="_blank" rel="noopener noreferrer">OpenNode</a></li>
+  <li><a href="https://github.com/JASchilz/pystrike" target="_blank" rel="noopener noreferrer">Python Strike library</a></li>
+  <li>
+<a href="https://strike.acinq.co/" target="_blank" rel="noopener noreferrer">Strike</a> (Stripe-like API)</li>
+  <li><a href="https://github.com/ElementsProject/woocommerce-gateway-lightning" target="_blank" rel="noopener noreferrer">WooCommerce gateway</a></li>
+</ul>
+
+<h3 id="tips">Tips</h3>
+
+<ul>
+  <li><a href="https://bitpatron.co/" target="_blank" rel="noopener noreferrer">BitPatron</a></li>
+  <li>
+<a href="https://lightning.gifts/" target="_blank" rel="noopener noreferrer">Lightning Gifts</a> (add tipping to web pages)</li>
+  <li>
+<a href="https://www.reddit.com/r/lntipbot/wiki/index" target="_blank" rel="noopener noreferrer">LNTipBot</a> (reddit)</li>
+  <li><a href="https://github.com/CryptoFR/ln-tip-slack" target="_blank" rel="noopener noreferrer">Slack Tipbot</a></li>
+  <li>
+<a href="https://tippin.me" target="_blank" rel="noopener noreferrer">tippin.me</a> (twitter tips)</li>
+</ul>
+
+<h2 id="ln-marketplace">LN Marketplace</h2>
+
+<p><a href="https://acceptlightning.com/" target="_blank" rel="noopener noreferrer">Accept Lightning store list/map</a>
+<a href="http://lightningnetworkstores.com/" target="_blank" rel="noopener noreferrer">Lightning Network Stores</a>
+<a href="https://lnroute.com/category/implementations/stores/" target="_blank" rel="noopener noreferrer">LNRoute store list</a>
+<a href="https://messari.io/resource/lightning-network#heading-6" target="_blank" rel="noopener noreferrer">Messari merchant list</a></p>
+
+<ul>
+  <li>
+<a href="https://store.casa/lightning-node/" target="_blank" rel="noopener noreferrer">store.casa/lightning-node</a> -Casa Lightning Node</li>
+  <li>
+<a href="https://funraiden.com/" target="_blank" rel="noopener noreferrer">funraiden.com</a>
+    <blockquote>
+      <p>Funraiden offers cool and geeky products from collectibles to stickers and merch, payed with Bitcoin/Lightning.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="http://crypto-coffee.org" target="_blank" rel="noopener noreferrer">crypto-coffee.org</a>
+    <blockquote>
+      <p>Buy coffee and stickers with Lightning</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://www.bitcointunnels.com/" target="_blank" rel="noopener noreferrer">bitcointunnels.com</a>
+    <blockquote>
+      <p>Bitcoin and Lightning merchandise</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://shop.energy-kitchen.ch/#/shop" target="_blank" rel="noopener noreferrer">shop.energy-kitchen.ch/#/shop</a>
+    <blockquote>
+      <p>energyKitchen</p>
+    </blockquote>
+  </li>
+  <li><a href="https://www.empowermindbodylife.com/shop/" target="_blank" rel="noopener noreferrer">www.empowermindbodylife.com/shop</a></li>
+  <li>
+<a href="https://store.blockstream.com/shop/" target="_blank" rel="noopener noreferrer">store.blockstream.com/shop</a> -Blockstream Lightning Store</li>
+  <li><a href="https://www.cryptoidshop.com/" target="_blank" rel="noopener noreferrer">www.cryptoidshop.com</a></li>
+  <li>
+<a href="https://vapecrypto.com/shop" target="_blank" rel="noopener noreferrer">vapecrypto.com/shop</a>
+    <blockquote>
+      <p>Providing the best prices on authentic Vape Gear, Juices and Accessories. We’re your one stop shop for vape gear</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://hipptee.com/" target="_blank" rel="noopener noreferrer">hipptee.com</a>
+    <blockquote>
+      <p>Bitcoin T-shirt</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://neverfiat.com/" target="_blank" rel="noopener noreferrer">neverfiat.com</a>
+    <blockquote>
+      <p>NeverFiat Crypto Marketplace</p>
+    </blockquote>
+  </li>
+  <li><a href="https://bitcoinshirt.co/" target="_blank" rel="noopener noreferrer">bitcoinshirt.co</a></li>
+  <li>
+<a href="https://www.travelbybit.com" target="_blank" rel="noopener noreferrer">www.travelbybit.com</a>
+    <blockquote>
+      <p>We help travellers explore the world using cryptocurrency. Lightning payments are accepted.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://internetsuper.store" target="_blank" rel="noopener noreferrer">internetsuper.store</a>
+    <blockquote>
+      <p>Bitcoin online store that accepts Lightning payments</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://satoshis.pictures/" target="_blank" rel="noopener noreferrer">satoshis.pictures</a>
+    <blockquote>
+      <p>Experience the power of the lightning network by advertising your products and solutions in satoshis.pictures</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://lnsh.pw/" target="_blank" rel="noopener noreferrer">lnsh.pw</a>
+    <blockquote>
+      <p>Lightning Shell allows you to get root access to a Docker container for just 42 satoshis per hour . Pay with Lightning and get access to a shell with 200MB RAM, 0.5 CPU and up to 200MBit/s network connection!</p>
+    </blockquote>
+  </li>
+  <li><a href="https://www.coinmall.com/" target="_blank" rel="noopener noreferrer">www.coinmall.com</a></li>
+  <li>
+<a href="https://lightning-space.com/get-space/" target="_blank" rel="noopener noreferrer">lightning-space.com/get-space</a>
+    <blockquote>
+      <p>Buy webspace with Bitcoin Lightning. You will receive the specified amount of SSD-webspace for the specified amount of days. Included is PHP 7.2, a MySQL (MariaDB) database, SSH and FTP access and an email address (username@lightning-space.com)</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://cryptoho.st/" target="_blank" rel="noopener noreferrer">cryptoho.st</a>
+    <blockquote>
+      <p>Bitcoin and LN powered Virtual Private Server (VPS) store</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://bosstalgia.com" target="_blank" rel="noopener noreferrer">bosstalgia.com</a>
+    <blockquote>
+      <p>Bosstalgia Medicinals (<a href="https://twitter.com/bosstalgia" class="user-mention">@bosstalgia</a>) is the first Canadian Company to accept payments on the Bitcoin Lightning network.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://ln.pizza/" target="_blank" rel="noopener noreferrer">ln.pizza</a>
+    <blockquote>
+      <p>Order Domino’s Pizza via the Lightning Network from anywhere in the US. Get 5% off when paying with Lightning!</p>
+    </blockquote>
+  </li>
+  <li><a href="https://www.hodlgang.store/" target="_blank" rel="noopener noreferrer">www.hodlgang.store</a></li>
+</ul>
+
+<h2 id="ln-earn">LN Earn</h2>
+
+<ul>
+  <li>
+<a href="https://www.lndwork.com/" target="_blank" rel="noopener noreferrer">www.lndwork.com</a>
+    <blockquote>
+      <p>Lightning Tasks</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://microlancer.io/" target="_blank" rel="noopener noreferrer">microlancer.io</a>
+    <blockquote>
+      <p>Earn bitcoin with microtasks</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://proofofplays.hopto.org/" target="_blank" rel="noopener noreferrer">proofofplays.hopto.org</a>
+    <blockquote>
+      <p>A platform for content creators to showcase their videos and get paid satoshis.</p>
+    </blockquote>
+  </li>
+  <li>http://light-tube.surge.sh/ - Videos w lightning rewards</li>
+  <li>
+<a href="https://tallyco.in/" target="_blank" rel="noopener noreferrer">tallyco.in</a>
+    <blockquote>
+      <p>Bitcoin and Lightning fundraising platform. Create crowdfunding campaigns for your project and get funded by fellow bitcoiners!</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="ln-faucet">LN Faucet</h3>
+<ul>
+  <li>
+<a href="https://light.yuyaogawa.com/faucet/" target="_blank" rel="noopener noreferrer">light.yuyaogawa.com/faucet</a>
+    <blockquote>
+      <p>A lightning faucet where you can claim an invoice of 200 sats. Maximum one claim per day.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="testnet">Testnet</h2>
+
+<ul>
+  <li><a href="https://faucet.lightning.community/" target="_blank" rel="noopener noreferrer">Bitcoin Testnet Lightning Network Faucet – Receive tBTC via Lightning</a></li>
+  <li><a href="https://lnroute.com/shop/" target="_blank" rel="noopener noreferrer">lnroute.com/shop</a></li>
+  <li>
+<a href="https://testnet.lightninggem.com/" target="_blank" rel="noopener noreferrer">testnet.lightninggem.com</a>
+    <blockquote>
+      <p>Testnet Lightning Gem Game</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://1ml.com/testnet/" target="_blank" rel="noopener noreferrer">1ml.com/testnet</a> -Explorers</li>
+  <li>
+<a href="https://testnet.satoshis.place/" target="_blank" rel="noopener noreferrer">testnet.satoshis.place</a>
+    <blockquote>
+      <p>Testnet Satoshi’s Place</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://starblocks.acinq.co/#/" target="_blank" rel="noopener noreferrer">starblocks.acinq.co/#</a>
+    <blockquote>
+      <p>Testnet Starblocks Coffee Shop</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://lnroute.com/shop/" target="_blank" rel="noopener noreferrer">lnroute.com/shop</a>
+    <blockquote>
+      <p>Testnet LNROUTE Tea Store</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://itunes.apple.com/us/app/coinclip-testnet/id1372927440" target="_blank" rel="noopener noreferrer">CoinClip</a> iOS</li>
+</ul>
+
+<h3 id="ln-exhange--signals--api">LN Exhange / Signals / API</h3>
+
+<ul>
+  <li>
+<a href="https://cryptoally.io/" target="_blank" rel="noopener noreferrer">cryptoally.io</a>
+    <blockquote>
+      <p>CryptoAlly.io is a place to discover quotes of Satoshis and Bitcoin in 100+ currencies at real time. The value transfer of Satoshis is powered by Lightning Network.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://crypto.slamtrade.com/" target="_blank" rel="noopener noreferrer">crypto.slamtrade.com</a>
+    <blockquote>
+      <p>24/7 streaming of high-performance Crypto-Currency trading signals presented in a single view for professional trading. Find out where to buy/sell or when to buy/sell at any point in time in seconds. Also discover liquidity, market making, and arbitraging opportunities.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://boltz.exchange/" target="_blank" rel="noopener noreferrer">boltz.exchange</a> (<a href="https://medium.com/boltzhq/announcing-the-first-boltz-release-6cb630701432" target="_blank" rel="noopener noreferrer">*</a>)
+    <blockquote>
+      <p>An instant, account free, and non-custodial digital asset exchange built on top of the lightning network.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://suredbits.com" target="_blank" rel="noopener noreferrer">suredbits.com</a> - NFL, NBA and Crypto API’s -Use of API charged via Lightning Network per call or streaming period.
+    <blockquote>
+      <p>Suredbits’ Lightning App API allows you to query NFL, NBA and Crypto Exchange data. Their NFL and NBA APIs offer multiple channels including teams, players, games, scores, and statistics. Their Crypto Exchange API allows you to stream data on Trades, Tickers and Order Books.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://www.zebpay.com/" target="_blank" rel="noopener noreferrer">www.zebpay.com</a>
+    <blockquote>
+      <p>App-enabled cryptocurrency exchange and wallet provider, Zebpay, has announced that it is enabling Lightning Network payments for all its users. Zebpay claim that it will even pay the fees for Lightning transactions made through its wallet.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="ln-social">LN Social</h3>
+
+<ul>
+  <li>
+<a href="http://lightningwall.tips" target="_blank" rel="noopener noreferrer">lightningwall.tips</a>
+    <blockquote>
+      <p>Post public messages on the wall and receive satoshis from people who like your message.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://salttie.com/" target="_blank" rel="noopener noreferrer">salttie.com</a>
+    <blockquote>
+      <p>Micro Blogging Platform</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://bottle.li" target="_blank" rel="noopener noreferrer">bottle.li</a>
+    <blockquote>
+      <p>Bottle uses the Lightning Network andSocial networks to help make Bitcoin accessible for everyone.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://mainnet.yalls.org/" target="_blank" rel="noopener noreferrer">mainnet.yalls.org</a>
+    <blockquote>
+      <p>Read and write articles, with Lightning Network micropayments.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://limichat.herokuapp.com/" target="_blank" rel="noopener noreferrer">limichat.herokuapp.com</a>
+    <blockquote>
+      <p>Limichat is a chat application that limits messages based on payment via Lightning. Sending a message gets cheaper over time, but doubles when someone pays, resulting in one message per ~10 min!</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://blockclock.live/" target="_blank" rel="noopener noreferrer">blockclock.live</a>
+    <blockquote>
+      <p>A Block Clock powered by the Lightning Network. You can send a lightning payment to write a message on the BlockClock that is being live streamed on Twitch!</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://kriptode.com/satsforlikes/index.html" target="_blank" rel="noopener noreferrer">kriptode.com/satsforlikes/index.html</a>
+    <blockquote>
+      <p>Pay people to like your tweets or follow you.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://lncast.com/#!/" target="_blank" rel="noopener noreferrer">lncast.com</a>
+    <blockquote>
+      <p>Lightning Network Podcasts</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://cointippy.com/" target="_blank" rel="noopener noreferrer">cointippy.com</a>
+    <blockquote>
+      <p>CoinTippy helps you reward content on Reddit, Twitter, Telegram and Twitch with cryptocurrencies</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="ln-art">LN Art</h3>
+<ul>
+  <li>
+<a href="https://satoshis.place/" target="_blank" rel="noopener noreferrer">satoshis.place</a>
+    <blockquote>
+      <p>collaborative artboard. Inspired by Reddit Place, and the Million Dollar Homepage. There are 1 million pixels on the canvas and each pixel costs 1 satoshi to paint. Pixels can be painted over indefinitely. Satoshi’s Place is a great way to experience the power of micro-transactions through the Bitcoin Lightning Network.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://trustedcoins.co.uk/sweetsugarleaf/" target="_blank" rel="noopener noreferrer">trustedcoins.co.uk/sweetsugarleaf</a>
+    <blockquote>
+      <p>Cute Cannabis themed artwork by a Medical Marijuana advocate in the UK</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://ludvigart.com/" target="_blank" rel="noopener noreferrer">ludvigart.com</a> -Bitcoin Art</li>
+</ul>
+
+<h3 id="ln-music">LN Music</h3>
+
+<ul>
+  <li>
+<a href="https://moifay.online/" target="_blank" rel="noopener noreferrer">moifay.online</a>
+    <blockquote>
+      <p>Official release of first ever Music Album of Moifay, sold online for #Lightning $BTC. Each song is $1 only.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://modularsynth.fun" target="_blank" rel="noopener noreferrer">modularsynth.fun</a> -Audo Samples</li>
+  <li><a href="https://sogbazaar.com" target="_blank" rel="noopener noreferrer">sogbazaar.com</a></li>
+</ul>
+
+<h3 id="ln-wordpress">LN WordPress</h3>
+
+<ul>
+  <li>
+<a href="https://wordpress.org/plugins/btcpay-for-woocommerce/" target="_blank" rel="noopener noreferrer">wordpress.org/plugins/btcpay-for-woocommerce</a>
+    <blockquote>
+      <p>BTCPay Server is a free and open-source cryptocurrency payment processor which allows you to receive payments in Bitcoin and altcoins directly, with no fees, transaction cost or a middleman.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://wordpress.org/plugins/opennode-for-woocommerce/" target="_blank" rel="noopener noreferrer">wordpress.org/plugins/opennode-for-woocommerce</a>
+    <blockquote>
+      <p>This plugin allows stores that use WordPress WooCommerce shopping cart system to accept Bitcoin and Bitcoin through Lightning Network via OpenNode.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://wordpress.org/plugins/lightning-publisher/#description" target="_blank" rel="noopener noreferrer">wordpress.org/plugins/lightning-publisher/#description</a>
+    <ul>
+      <li>
+<a href="https://github.com/ElementsProject/wordpress-lightning-publisher" target="_blank" rel="noopener noreferrer">github.com/ElementsProject/wordpress-lightning-publisher</a>
+        <blockquote>
+          <p>Lightning Publisher for WordPress is developed by Blockstream and allows you to offer previews of your blog posts and require a Lightning Network payment to release the rest.</p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="ln-shopify">LN Shopify</h3>
+
+<ul>
+  <li>
+<a href="https://mailchi.mp/cf60f9bb7278/opennode-can-now-be-used-on-shopify" target="_blank" rel="noopener noreferrer">mailchi.mp/cf60f9bb7278/opennode-can-now-be-used-on-shopify</a>
+    <blockquote>
+      <p>Opennode released a plugin for Shopify that allows you to accept Bitcoin and Bitcoin Lightning payments.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="ln-games">LN Games</h3>
+
+<ul>
+  <li>
+<a href="https://www.luckythunder.com/#/" target="_blank" rel="noopener noreferrer">www.luckythunder.com/#</a>
+    <blockquote>
+      <p>LuckyThunder is a slot machine built on top of the bitcoin lightning network. No login required, provably fair, high win percentage.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://medium.com/@BR_Robin/a-bitcoin-lightning-network-powered-rpg-penguinshooter-6d36cc34de0c" target="_blank" rel="noopener noreferrer">medium.com/@BR_Robin/a-bitcoin-lightning-network-powered-rpg-penguinshooter-6d36cc34de0c</a> - Penguin Shooter -A Bitcoin Lightning Network powered RPG</li>
+  <li>
+<a href="https://lightningscratchcard.io/" target="_blank" rel="noopener noreferrer">lightningscratchcard.io</a>
+    <blockquote>
+      <p>Pay Satoshis with Lightning Network to scratch letters and help reveal a hidden message. Or post a message yourself and make it attractive so people want to discover.
+Oc2 (Off chain On chain https://oc2realm.com/) - India’s first Decentralised Exchange, 0x Relayer and early adopters of Lightning.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://lightning.oc2realm.com/" target="_blank" rel="noopener noreferrer">lightning.oc2realm.com</a>
+    <blockquote>
+      <p>To support their vision, they have created a Slot Machine on top of Lightning Network.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://miniroulette.lngames.net/" target="_blank" rel="noopener noreferrer">miniroulette.lngames.net</a> -Mini Casino Roulette
+    <blockquote>
+      <p>Lightning Network simple casino roulette game</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://playhammerland.com/" target="_blank" rel="noopener noreferrer">playhammerland.com</a>
+    <blockquote>
+      <p>A role-playing game using Lightning for in-game payments</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://koalastud.io/" target="_blank" rel="noopener noreferrer">koalastud.io</a> -Koala Studio’s first game is Lightning Powered online Chess</li>
+  <li>
+<a href="https://satoshis.games/" target="_blank" rel="noopener noreferrer">satoshis.games</a>
+Another series of games that use the Lightning Network</li>
+  <li>
+<a href="https://lngames.net/" target="_blank" rel="noopener noreferrer">lngames.net</a> -Several games to experience the use of the Lightning Network.</li>
+  <li>
+<a href="https://kriptode.com/" target="_blank" rel="noopener noreferrer">kriptode.com</a> -A series of Lightning Apps and Games. Three Card Monte, Receive SMS, LN Hunt, MicroMine, Scratch and Win and Backgammon</li>
+  <li>
+<a href="https://lightning-casino.com/" target="_blank" rel="noopener noreferrer">lightning-casino.com</a> -Another Lightning Network powered Slot Machine</li>
+  <li>
+<a href="https://www.lightningslotmachine.com/" target="_blank" rel="noopener noreferrer">www.lightningslotmachine.com</a> -A Lightning Network powered Slot Machine</li>
+  <li>
+<a href="https://microbet.fun/" target="_blank" rel="noopener noreferrer">microbet.fun</a>
+    <ul>
+      <li>prediction and betting game</li>
+      <li>make a prediction about sports events or back/lay the others players bets</li>
+      <li>backers or layers get all satoshis divided equally amongst each participant.</li>
+    </ul>
+  </li>
+  <li>
+<a href="https://www.lightningspin.com/" target="_blank" rel="noopener noreferrer">www.lightningspin.com</a>
+    <blockquote>
+      <p>Lightning Spin is a bitcoin gambling game that lives on top of the Lightning Network. It’s a simple yet exciting game – enter your wager, select a multiplier and spin the wheel. If the wheel lands on your target multiplier, you win!</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://lightninggem.com/" target="_blank" rel="noopener noreferrer">lightninggem.com</a>
+    <blockquote>
+      <p>The Lightning Gem is a fun game as well as an exercise in psychology. You can think of it as a series of speculative bubbles</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://lightning-roulette.com/" target="_blank" rel="noopener noreferrer">lightning-roulette.com</a>
+    <blockquote>
+      <p>Lightning Roulette is another Bitcoin Lightning Network powered online multiplayer game. This LApp uses a provably fair system that enables you to verify each spin result and make sure you are not being cheated.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="http://lightningflip.xyz" target="_blank" rel="noopener noreferrer">lightningflip.xyz</a>
+    <blockquote>
+      <p>LN coinflipping game</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://www.lightningduel.com/" target="_blank" rel="noopener noreferrer">www.lightningduel.com</a>
+    <blockquote>
+      <p>Provably fair gamble game with instant deposits and withdrawals. A good showcase of the power of the Lightning network.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://thundersats.com/" target="_blank" rel="noopener noreferrer">thundersats.com</a>
+    <blockquote>
+      <p>Miniature Roulette Game on top of the Bitcoin Lightning Network.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://unlock.lngames.net/" target="_blank" rel="noopener noreferrer">unlock.lngames.net</a>
+    <blockquote>
+      <p>Open the correct lock and get satoshis</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://rgbslot.lngames.net/" target="_blank" rel="noopener noreferrer">rgbslot.lngames.net</a>
+    <blockquote>
+      <p>Three colors and  three wheels. Simple and different slot machine game.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://poke.lightningwiki.net/" target="_blank" rel="noopener noreferrer">poke.lightningwiki.net</a>
+    <blockquote>
+      <p>Play Pokémon with your fellow bitcoiners a collaborative gameboy powered by Lightning</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://whereisnakamoto.lngames.net/" target="_blank" rel="noopener noreferrer">whereisnakamoto.lngames.net</a> -The player that finds Nakamoto is awarded 50% of the jackpot.
+    <blockquote>
+      <p>Satoshi Nakamoto is hidden in one of 256 cards of the board. At the beginning of each game, all cards are closed. When Nakamoto is found, the game ends and another begins with all the cards closed again.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://www.satoshibet.io/" target="_blank" rel="noopener noreferrer">www.satoshibet.io</a>
+    <blockquote>
+      <p>Satoshibet is a provably fair roulette with a trollbox and a tipping bot. Play roulette while talking with fellow players in the chat.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://satoshi-go-bet.alhur.es/" target="_blank" rel="noopener noreferrer">satoshi-go-bet.alhur.es</a>
+    <blockquote>
+      <p>Satoshi Go Bet is a betting platform for online Go games. Choose any of the live Go games and make bets on the player you think will win.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://bc.game" target="_blank" rel="noopener noreferrer">bc.game</a>
+    <blockquote>
+      <p>BC.Game is a BlockChain Game platform with provably fair, fast payouts, a free faucet and Lightning Network support. Some of the games available are Crash, Dice and Blackjack.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://memory.lngames.net/" target="_blank" rel="noopener noreferrer">memory.lngames.net</a>
+    <blockquote>
+      <p>Classical memory game on Lightning. Pair up the 8 different images and if you beat the highscore, you win the jackpot.</p>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://fortune.lngames.net/" target="_blank" rel="noopener noreferrer">fortune.lngames.net</a>
+    <blockquote>
+      <p>Lightning Wheel of Fortune</p>
+    </blockquote>
+  </li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#layer-2" class="page__taxonomy-item" rel="tag">Layer 2</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#lightning" class="page__taxonomy-item" rel="tag">Lightning</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#bitcoin" class="page__taxonomy-item" rel="tag">Bitcoin</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-08-16">August 16, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  <h2><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/blob/master/_posts/2019-07-22-lightning.md" class="edit" target="_blank" rel="noopener noreferrer">Edit this page <i class="fa fa-pencil"></i></a></h2>
+  <h3>Social Share</h3>
+  <a href="https://twitter.com/intent/tweet?via=SourceCrypto&amp;text=Practical+Lightning%3A+Wallets%2C+Applications%2C+Guides+and+Development%20http%3A%2F%2Flocalhost%3A4000%2Fposts%2FBitcoin%2Flightning%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FBitcoin%2Flightning%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FBitcoin%2Flightning%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FBitcoin%2Flightning%2F&amp;title=Practical+Lightning%3A+Wallets%2C+Applications%2C+Guides+and+Development" class="btn btn--reddit" title="Share on Reddit" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> Reddit</span></a>
+  <p><img src="https://infominer.id/assets/img/1pLr.gif"></p>
+  <h3>Tips Welcome</h3>
+    <p>Feel free to <a href="mailto:infominer@protonmail.com">contact me</a> if you're interested in <a href="https://web-work.tools/services/#iso-clients-who-want-bitcoin-related-content" target="_blank" rel="noopener noreferrer">Bitcoin related content / research</a>!</p>
+  <table class="table table-bordered table-hover table-condensed">
+    <thead>
+      <tr>
+        <th title="Field #1">Bitcoin</th>
+        <th title="Field #2">DOGE</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1A1DZfw4VgpHCgnMjnmfDnMjddKf8xdYbd</td>
+        <td>DQKkzfJjqnXUD8Z7C3e84vKzvghPe9dXSa</td>
+      </tr>
+      <tr>
+        <td><img src="https://imgur.com/yXLLm9Bl.png" width="150"></td>
+        <td><img src="https://imgur.com/z316u0c.png" width="150"></td>
+      </tr>
+    </tbody>
+  </table>  
+  <!-- Beginning of tippin.me Button -->
+  <div id="tippin-button" data-dest="infominer33"></div>
+  <script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script>
+  <!-- End of tippin.me Button -->
+</section>
+
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/posts/Bitcoin/" class="pagination--pager" title="Bitcoin Info
+">Previous</a>
+    
+    
+      <a href="/posts/transcripts/mark-miller-agoric-epicenter/" class="pagination--pager" title="Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/practical/" rel="permalink">Practical Bitcoin Guides: Wallets, Applications, and Development
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  8 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Links to code, howtos, and other resources related to practical use of Bitcoin.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/transcripts/mark-miller-agoric-epicenter/" rel="permalink">Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  43 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">We discussed his visionary 1988 Agoric papers, which explored how markets could be applied to the world of software. We also covered how his view of smart co...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/" rel="permalink">Bitcoin Info
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  35 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Bitcoin is a revolutionary system that is quite complex and has a steep learning curve. Below you’ll find curated educational resources and information about...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/agoric-papers-teaser.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/agoric/papers-miller-drexler/" rel="permalink">The Agoric Papers
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  40 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This paper examines markets as a model for computation and proposes a framework–agoric systems–for applying the power of market mechanisms to the software do...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://infominer.id" rel="noopener noreferrer" target="_blank"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
+        
+      
+        
+          <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://keybase.io/infominer" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
+        
+      
+        
+          <li><a href="https://github.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/infominer33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://discord.gg/ahTuPMY" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+        
+      
+        
+          <li><a href="https://t.me/InfoMiner33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">⧉ <a href="https://infominer.id" target="_blank" rel="noopener noreferrer">infominer</a> ⧉ <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">Creative Commons (CC0 1.0) Public Domain</a> ⧉ Powered by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank">Minimal Mistakes</a> via <a href="https://infominer.id/gh-pages-starter-pack.html" target="_blank" rel="noopener noreferrer">Github Pages</a>. ⧉</div>
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

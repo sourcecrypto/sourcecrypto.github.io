@@ -9,7 +9,7 @@ sidebar:
   nav: sourcedisco 
 toc: false
 share: true
-permalink: blog/chainlink/
+permalink: posts/chainlink/
 canonical_url: "https://sourcecrypto.pub/posts/chainlink/"
 last_modified_at: 2019-06-20T11:22:33-23:00
 disco: true

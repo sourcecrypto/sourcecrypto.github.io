@@ -687,7 +687,7 @@ var store = [{
         "title": "Blockchain Identity Reources - TOML",
         "excerpt":" ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/blog/id-toml/",
+        "url": "http://localhost:4000/posts/id-toml/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Public vs Private Blockchains for the Enterprise",
         "excerpt":"This is a very special podcast for us as it is our first debate format on Insureblocks. We were extremely privileged to have two titans/Jedi Masters from the blockchain community join us for this podcast. On one side we have Richard Brown, Chief Technology Officer from R3, builders of Corda,...","categories": ["Transcripts","Enterprise"],
@@ -702,7 +702,7 @@ var store = [{
         "title": "Chain Link",
         "excerpt":"In leiu of my own content, I’m reproducing the channel history of The Watchers Discord Server. Though, eventually I’ll turn this into a more organized page :) The Watchers chainlink 416 messages AJ 03-May-19 09:47 AM WatchBro 03-May-19 01:06 PM Whats you opinion @AJ that Ethereum needs Chainlink more than...","categories": ["Enterprise"],
         "tags": ["Chainlink"],
-        "url": "http://localhost:4000/blog/chainlink/",
+        "url": "http://localhost:4000/posts/chainlink/",
         "teaser":"http://localhost:4000/images/chain-link-teaser.png"},{
         "title": "The Birth of Rare Art on the Bitcoin Blockchain",
         "excerpt":"In The Beginning In 2005, artist Matt Furie created the comic series Boy’s Club, which stars the teenage monster characters Pepe, Brett, Andy and Landwolf. pepe-the-frog The Creator of Pepe the Frog Talks About Making Comics in the Post-Meme World “I’ve made my mark on the internet, so I can...","categories": ["History","Bitcoin"],
@@ -717,7 +717,7 @@ var store = [{
         "title": "The Libra Blockchain",
         "excerpt":"@TechCrunch -Facebook announces Libra cryptocurrency The risk and reward of building the new PayPal In cryptocurrencies, Facebook saw both a threat and an opportunity. They held the promise of disrupting how things are bought and sold by eliminating transaction fees common with credit cards. That comes dangerously close to Facebook’s...","categories": ["Libra","Enterprise"],
         "tags": ["Resources"],
-        "url": "http://localhost:4000/blog/libra-facebook/",
+        "url": "http://localhost:4000/posts/libra-facebook/",
         "teaser":"http://localhost:4000/images/facebook_libra_exhaustive-og.png"},{
         "title": "The Libra Association",
         "excerpt":"White Paper The Libra Blockchain - Technical Paper Association Facebook’s cryptocurrency partners revealed—we obtained the entire list of inaugural backers As recently reported by The Wall Street Journal, Facebook’s cryptocurrency will be governed by a consortium of firms known as the Libra Association, which includes the likes of Visa, Mastercard,...","categories": ["Libra","Enterprise"],
@@ -754,10 +754,20 @@ var store = [{
         "tags": ["Resources"],
         "url": "http://localhost:4000/posts/Bitcoin/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
+        "title": "Practical Lightning: Wallets, Applications, Guides and Development",
+        "excerpt":"Lightning Network - Resource and Information Guide - LNRoute LightningHood lopp.net - Lightning Network Resources (source) https://github.com/lightningnetwork/lightning-rfc -Lightning Network Specifications https://lightninginabox.co Lightning Nodes Easiest Bitcoin Lightning Guide! Easiest BTC/LN desktop app, for Windows, macOS, and Linux Lightning Network BOLT implementation The perfect Bitcoin Lightning️ node - Tutorial https://github.com/mit-dci/lit -Lightning Network...","categories": ["Bitcoin"],
+        "tags": ["Layer 2","Lightning"],
+        "url": "http://localhost:4000/posts/Bitcoin/lightning/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript",
         "excerpt":"This is a transcript of the epicenter podcast, where Brian Fabien Crain interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of...","categories": ["Transcripts","History","Agoric"],
         "tags": ["Mark Miller","Eric Drexler","ObCap","Smart Contracts","Literature"],
         "url": "http://localhost:4000/posts/transcripts/mark-miller-agoric-epicenter/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
+        "title": "Practical Bitcoin Guides: Wallets, Applications, and Development",
+        "excerpt":"I started with whatever I had come across over the past year, and saved. Then I went to lopp.net, bitcoin.org, and few of the other of the top Bitcoin resources, such as LNRoute. I’ve gone through those sites gathering a link at a time, to sort them all in an...","categories": ["Bitcoin"],
+        "tags": ["Practical"],
+        "url": "http://localhost:4000/posts/Bitcoin/practical/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "assorted-media",
         "excerpt":"Source&#10697;Crypto assorted-media 66 messages &#10697;infominer 08-Aug-18 08:41 PM https://bitcoinhackers.org/about Bitcoin Mastodon A mastodon instance for Bitcoiners No Scams, no impersonation, no begging, and no illegal content Keep it civil and we should all survive :) &#10697;infominer 11-Aug-18 08:52 PM https://www.youtube.com/user/aantonop aantonop Videos about Bitcoin, Ethereum and other Open Blockchain topics...","categories": ["Resources"],

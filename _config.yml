@@ -213,9 +213,9 @@ sass:
 
 
 # Outputting
-permalink: /posts/:categories/:slug/
+permalink: /posts/:slug/
 paginate: 8
-paginate_path: /page:num/
+paginate_path: /posts/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
