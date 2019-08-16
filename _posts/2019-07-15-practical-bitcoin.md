@@ -3,7 +3,7 @@ title: "Practical Bitcoin Guides: Wallets, Applications, and Development"
 description: This page is for collecting and organizing information related to using Bitcoin in one way shape or form.
 toc_sticky: false
 excerpt: Links to code, howtos, and other resources related to practical use of Bitcoin.
-permalink: blog/Bitcoin/
+permalink: blog/Bitcoin/practical/
 published: true
 header:
   image: "http://bitcoins.idealogue.io/assets/img/illustrations/getting_started_hero.png"
