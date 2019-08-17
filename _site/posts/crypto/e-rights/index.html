@@ -1,0 +1,2004 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Favicons -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://SourceCrypto.pub/assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://SourceCrypto.pub/assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://SourceCrypto.pub/assets/icons/favicon-16x16.png">
+<link rel="manifest" href="https://SourceCrypto.pub/assets/icons/site.webmanifest">
+<link rel="mask-icon" href="https://SourceCrypto.pub/assets/icons/safari-pinned-tab.svg" color="#79dfce">
+<link rel="shortcut icon" href="https://SourceCrypto.pub/assets/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#79dfce">
+<meta name="msapplication-config" content="https://SourceCrypto.pub/assets/icons/browserconfig.xml">
+<meta name="theme-color" content="#79dfce">
+
+<!-- begin _includes/seo.html --><title>E Language an Object Capability Language | Source Crypto</title>
+<meta name="description" content="it lets programs handle permissions like other objects, keeping them apart and thus reducing the attack surface and preventing Confused Deputy attacks.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Source Crypto">
+<meta property="og:title" content="E Language an Object Capability Language">
+<meta property="og:url" content="https://agoric-records.xyz/posts/e-language/">
+
+
+  <meta property="og:description" content="it lets programs handle permissions like other objects, keeping them apart and thus reducing the attack surface and preventing Confused Deputy attacks.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/images/Source-Crypto-banner.png">
+
+
+
+  <meta name="twitter:site" content="@SourceCrypto">
+  <meta name="twitter:title" content="E Language an Object Capability Language">
+  <meta name="twitter:description" content="it lets programs handle permissions like other objects, keeping them apart and thus reducing the attack surface and preventing Confused Deputy attacks.">
+  <meta name="twitter:url" content="https://agoric-records.xyz/posts/e-language/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:4000/images/Source-Crypto-banner.png">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-06-24T00:00:00-04:00">
+
+
+
+  <meta property="article:modified_time" content="2019-06-25T06:22:33-04:00">
+
+
+
+
+<link rel="canonical" href="https://agoric-records.xyz/posts/e-language/">
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "http://localhost:4000",
+      "logo": "https://SourceCrypto.pub/images/Source-Crypto-og.png"
+    }
+  </script>
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Infominer",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Source Crypto Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="https://sourcecrypto.pub/images/interlinked.png" alt=""></a>
+        
+        <a class="site-title" href="/">Research Index — Discord Chat</a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/posts/">Recent Posts</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/feature/">Feature</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/archive/">Archive</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://infominer.id/" target="_blank" rel="noopener noreferrer">Info⧉Hub</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/decentralized-web/" target="_blank" rel="noopener noreferrer">Decentralized Web</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://learncryptotrading.co" target="_blank" rel="noopener noreferrer">Learn Crypto Trading</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://decentralized-id.com" target="_blank" rel="noopener noreferrer">DIDecentralized</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools" target="_blank" rel="noopener noreferrer">Webwork Tools</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/indieweb" target="_blank" rel="noopener noreferrer">IndieWeb</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/github-pages-starter-pack/" target="_blank" rel="noopener noreferrer">Github Pages Starter Pack</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero" style=" ">
+  
+    <img src="/images/Source-Crypto-banner.png" alt="E Language an Object Capability Language" class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="https://SourceCrypto.pub/images/bio-photo2.jpg" alt="⧉ Infominer" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">⧉ Infominer</h3>
+    
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://infominer.id" rel="noopener noreferrer" target="_blank"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
+          
+        
+          
+            <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+          
+            <li><a href="https://keybase.io/infominer" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
+          
+        
+          
+            <li><a href="https://github.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+            <li><a href="https://discord.gg/ahTuPMY" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+          
+        
+          
+            <li><a href="https://t.me/InfoMiner33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">⧉Info⧉</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="https://infominer.id/" target="_blank" rel="noopener noreferrer"><span class="nav__sub-title">InfoHub</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://infominer.id/" class="" target="_blank" rel="noopener noreferrer">• Info⧉Hub</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://learncryptotrading.co" class="" target="_blank" rel="noopener noreferrer">• Learn Crypto Trading</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/decentralized-web/" class="" target="_blank" rel="noopener noreferrer">• Decentralized Web Histories</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://decentralized-id.com" class="" target="_blank" rel="noopener noreferrer">• DIDecentral</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://web-work.tools" class="" target="_blank" rel="noopener noreferrer">• Webwork Tools</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/info/"><span class="nav__sub-title">Info</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/info/101/" class="">• 101</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/info/classification/" class="">• Classification</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/info/criminal/" class="">• Criminal</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/info/governance/" class="">• Governance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/info/growth-adoption/" class="">• Growth - Adoption</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/info/library-submissions/" class="">• Library Submissions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/info/memes-n-junk/" class="">• Memes n Junk</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/info/oppression/" class="">• Oppression</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/info/women-and-crypto/" class="">• Women and Crypto</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/hub/"><span class="nav__sub-title">S⧉C Discord Servers</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/hub/bitcoin-history/" class="">• Bitcoin History</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/hub/btc-nerds/" class="">• Bitcoin Info</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/hub/crypto-finance/" class="">• CryptoFinance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/hub/didecentral/" class="">• DIDecentral</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/hub/lightning-network/" class="">• Lightning Network</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/hub/practical-bitcoin/" class="">• Practical Bitcoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/hub/web-work-tools/" class="">• Web-work.tools</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/resources/"><span class="nav__sub-title">Resources</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/assorted-media/" class="">• Assorted Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/books/" class="">• Books</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/communities/" class="">• Communities</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/conferences/" class="">• Conferences</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/news-sites/" class="">• Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/french/" class="">• French</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/literature/" class="">• Literature</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/news-sites/" class="">• News Outlets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/non-english/" class="">• Non-English</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/privacy/" class="">• Privacy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/research-papers/" class="">• Research Papers</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/resources/" class="">• Resources</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/swag/" class="">• Swag</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/twitter-follows/" class="">• Twitter Follows</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/blockchain/"><span class="nav__sub-title">Blockchain</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/crypto-general/" class="">• Gen Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/decentralized/" class="">• Decentralized</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/agoric/" class="">• Agoric</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/bitcoin/" class="">• Bitcoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/bch/" class="">• B-Cash</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/bitshares/" class="">• Bitshares</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/blockstack/" class="">• Blockstack</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/bytom/" class="">• Bytom</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/cardano/" class="">• Cardano</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/doge/" class="">• DOGE</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/eos/" class="">• EOS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/enterprise-dlt/" class="">• Enterprise DLT</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/etc/" class="">• Eth Classic</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/grin-mimblewimble/" class="">• Grin Mimble-Wimble</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/hashgraph/" class="">• Hashgraph</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/iota/" class="">• IOTA</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/libra/" class="">• Libra</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/monero/" class="">• Monero</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/stable-coins/" class="">• Stable Coins</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/tezos/" class="">• Tezos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/zcash/" class="">• ZCash</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Interop</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/interop/chainlink/" class="">• Chainlink</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/interop/cosmos/" class="">• Cosmos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/interop/hyperledger/" class="">• Hyperledger</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/interop/komodo/" class="">• Komodo</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/interop/ontology/" class="">• Ontology</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/interop/polkadot/" class="">• Polkadot</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/interop/quant-network/" class="">• Quant Network</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Ethereum</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/ethereum/ethereum/" class="">• Ethereum</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/ethereum/ethereum-dev/" class="">• Ethereum Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/ethereum/eth-ent-alliance/" class="">• Ethereum Enterprise Alliance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/ethereum/eth-consensus/" class="">• Ethereum Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/ethereum/eth2-0/" class="">• Ethereum 2.0</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/ethereum/ethresearch/" class="">• Ethresearch</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/ethereum/evm/" class="">• EVM</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/entertainment/"><span class="nav__sub-title">Entertainment</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/entertainment/art-collectibles/" class="">• Art Collectibles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/entertainment/games/" class="">• Ethereum Games</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/entertainment/games/" class="">• Games</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/entertainment/komodore64/" class="">• Komodore64</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/entertainment/music/" class="">• Music</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Banking</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/banking/corda/" class="">• Corda</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/banking/ripple/" class="">• Ripple</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain/banking/stellar/" class="">• Stellar</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/chaintech/"><span class="nav__sub-title">ChainTech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/blockchain-dev/" class="">• Blockchain Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/dao/" class="">• Dao</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/decentralization/" class="">• Decentralization</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/forks/" class="">• Forks</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/drivechains/" class="">• Drivechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/hackathons/" class="">• Hackathons</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/mining-news/" class="">• <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"> Mining News <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/mining-repository/" class="">• <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"> Mining Repository <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"></a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/randomness/" class="">• Randomness</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/oracles/" class="">• Oracles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/protocols/" class="">• Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/sidechains/" class="">• Sidechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/smart-contracts/" class="">• Smart Contracts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/smart-signatures/" class="">• Smart Signatures</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/chaintech/state-channels/" class="">• State Channels</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/layer1/"><span class="nav__sub-title">Layer 1</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/layer1/consensus/" class="">• Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/layer1/hash-algos/" class="">• Hash Algos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/layer1/pow/" class="">• PoW</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/layer1/pos/" class="">• PoS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/layer1/tendermint/" class="">• Tendermint</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/tech/"><span class="nav__sub-title">Tech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/cryptography/" class="">• Cryptography</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/data/" class="">• Data</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/databases/" class="">• Databases</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/design/" class="">• Design</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/distributed-systems/" class="">• Distributed Systems</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/infosec/" class="">• Infosec</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/internet-protocols/" class="">• Internet Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/P2P/" class="">• P2P</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/public-key-crypto/" class="">• Public key crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/security/" class="">• Security</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/state-channels/" class="">• State Channels</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/tech-in-media/" class="">• Tech in Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/tor/" class="">• Tor</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/web3/" class="">• Web3</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/application/"><span class="nav__sub-title">Application</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/ai/" class="">• AI</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/brave/" class="">• Brave</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/dapps/" class="">• dApps</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/energy/" class="">• Energy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/government/" class="">• Government</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/intellectual-property/" class="">• Intellectual Property</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/iot/" class="">• Iot</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/notary/" class="">• Notary</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/prediction-markets/" class="">• Prediction Markets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/publishing/" class="">• Publishing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/social-media/" class="">• Social Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/supply-chain/" class="">• Supply Chain</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/utility/" class="">• Utility</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="E Language an Object Capability Language">
+    <meta itemprop="description" content="Modern smart contract systems should learn a lesson or five from it, most importantly, (object) capability security. […] it lets programs handle permissions like other objects, keeping them apart and thus reducing the attack surface and preventing Confused Deputy attacks.">
+    <meta itemprop="datePublished" content="June 24, 2019">
+    <meta itemprop="dateModified" content="June 24, 2019">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">E Language an Object Capability Language
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <ul>
+  <li><a href="http://www.erights.org/smart-contracts/" target="_blank" rel="noopener noreferrer">erights.org</a></li>
+  <li><a href="http://wiki.c2.com/?EeLanguage" target="_blank" rel="noopener noreferrer">wiki.c3.com - E Language An ObjectCapabilityLanguage</a></li>
+  <li><a href="https://marc.info/?l=e-lang" target="_blank" rel="noopener noreferrer">Mailing list ARChives— e-lang The E capability-secure scripting language</a></li>
+  <li>
+<a href="https://monte.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">monte.readthedocs.io</a>
+    <blockquote>
+      <ul>
+        <li>Monte is a programming language inspired by the E and Python programming languages. Monte aims to be:</li>
+        <li>A reliable scaffold for secure distributed computing</li>
+        <li>An example of capability-safe programming language design</li>
+        <li>A model for misuse-resistant programming</li>
+      </ul>
+    </blockquote>
+  </li>
+  <li>
+<a href="https://news.ycombinator.com/item?id=19981720#19985614" target="_blank" rel="noopener noreferrer">news.ycombinator.com - E Programming Language</a>
+    <ul>
+      <li>
+<a href="https://news.ycombinator.com/item?id=19987621" target="_blank" rel="noopener noreferrer">kentonv</a>
+        <blockquote>
+          <p>I’m always astounded by the depth to which Mark has explored this space. On more than a few occasions, I’ve come up with an interesting idea for a new protocol or programming language feature or piece of distributed systems infrastructure and told Mark about it, only to find he had already thought of that problem and discovered and solved several issues I hadn’t even thought about yet.</p>
+
+          <p>Cap’n Proto RPC <a href="https://capnproto.org/rpc.html" target="_blank" rel="noopener noreferrer">https://capnproto.org/rpc.html</a> is based on E’s network protocol, CapTP, e.g. utilizing The Four Tables:</p>
+
+          <p><a href="http://erights.org/elib/distrib/captp/4tables.html" target="_blank" rel="noopener noreferrer">http://erights.org/elib/distrib/captp/4tables.html</a></p>
+
+          <p><a href="https://github.com/capnproto/capnproto/blob/master/c++/src/capnp/rpc.capnp#L116" target="_blank" rel="noopener noreferrer">https://github.com/capnproto/capnproto/blob/master/c++/src/capnp/rpc.capnp#L116</a></p>
+
+          <p>(You can think of this design as an extension of the file descriptor table concept in Unix, except that both sides may export descriptors to the other side (so that calls can flow either way), and either side can be responsible for assigning the numeric descriptor value for any particular description (which makes it easier to compensate for a high-latency transport).)</p>
+
+          <p>When I first told Mark I was working on an object-oriented RPC protocol, he insisted I visit him and listen while he explained all this to me, and boy am I glad he did… would have taken a lot longer for me to figure it out myself.</p>
+
+          <p>It’s crazy that most of the content of erights.org was written over 10 years ago – I think some of it goes back to the 90’s, even.</p>
+        </blockquote>
+      </li>
+      <li>
+<a href="https://news.ycombinator.com/item?id=19986189" target="_blank" rel="noopener noreferrer">7373737373</a>
+        <blockquote>
+          <p>Modern smart contract systems should learn a lesson or five from it, most importantly, (object) capability security.</p>
+
+          <p>Why? Because it lets programs handle permissions like other objects, keeping them apart and thus reducing the attack surface and preventing Confused Deputy [0] attacks.</p>
+
+          <p><a href="https://en.m.wikipedia.org/wiki/Confused_deputy_problem" target="_blank" rel="noopener noreferrer">https://en.m.wikipedia.org/wiki/Confused_deputy_problem</a></p>
+        </blockquote>
+      </li>
+      <li>
+<a href="https://news.ycombinator.com/item?id=19987751" target="_blank" rel="noopener noreferrer">ghosthamlet - news.ycombinator</a>
+        <blockquote>
+          <p>The E on Common Lisp Project website is down, code on github: https://github.com/kpreid/e-on-cl</p>
+
+          <p>e-on-javascript: https://github.com/kpreid/e-on-javascript</p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#eric-drexler" class="page__taxonomy-item" rel="tag">Eric Drexler</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#literature" class="page__taxonomy-item" rel="tag">Literature</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#mark-miller" class="page__taxonomy-item" rel="tag">Mark Miller</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#obcap" class="page__taxonomy-item" rel="tag">ObCap</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#smart-contracts" class="page__taxonomy-item" rel="tag">Smart Contracts</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#agoric" class="page__taxonomy-item" rel="tag">Agoric</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#crypto" class="page__taxonomy-item" rel="tag">Crypto</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#history" class="page__taxonomy-item" rel="tag">History</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-06-24">June 24, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  <h2><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/blob/master/_posts/agoric/2019-06-24-e-rights.md" class="edit" target="_blank" rel="noopener noreferrer">Edit this page <i class="fa fa-pencil"></i></a></h2>
+  <h3>Social Share</h3>
+  <a href="https://twitter.com/intent/tweet?via=SourceCrypto&amp;text=E+Language+an+Object+Capability+Language%20http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fcrypto%2Fe-rights%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fcrypto%2Fe-rights%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fcrypto%2Fe-rights%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fcrypto%2Fe-rights%2F&amp;title=E+Language+an+Object+Capability+Language" class="btn btn--reddit" title="Share on Reddit" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> Reddit</span></a>
+  <p><img src="https://infominer.id/assets/img/1pLr.gif"></p>
+  <h3>Tips Welcome</h3>
+    <p>Feel free to <a href="mailto:infominer@protonmail.com">contact me</a> if you're interested in <a href="https://web-work.tools/services/#iso-clients-who-want-bitcoin-related-content" target="_blank" rel="noopener noreferrer">Bitcoin related content / research</a>!</p>
+  <table class="table table-bordered table-hover table-condensed">
+    <thead>
+      <tr>
+        <th title="Field #1">Bitcoin</th>
+        <th title="Field #2">DOGE</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1A1DZfw4VgpHCgnMjnmfDnMjddKf8xdYbd</td>
+        <td>DQKkzfJjqnXUD8Z7C3e84vKzvghPe9dXSa</td>
+      </tr>
+      <tr>
+        <td><img src="https://imgur.com/yXLLm9Bl.png" width="150"></td>
+        <td><img src="https://imgur.com/z316u0c.png" width="150"></td>
+      </tr>
+    </tbody>
+  </table>  
+  <!-- Beginning of tippin.me Button -->
+  <div id="tippin-button" data-dest="infominer33"></div>
+  <script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script>
+  <!-- End of tippin.me Button -->
+</section>
+
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/posts/Bitcoin/thecryptoconomy-podcast-deep-dive/" class="pagination--pager" title="Down the @TheCryptoconomy Rabbithole
+">Previous</a>
+    
+    
+      <a href="/posts/agoric/mark-miller/" class="pagination--pager" title="Mark Sam Miller
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/practical/" rel="permalink">Practical Bitcoin Guides: Wallets, Applications, and Development
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  8 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Links to code, howtos, and other resources related to practical use of Bitcoin.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/transcripts/mark-miller-agoric-epicenter/" rel="permalink">Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  43 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">We discussed his visionary 1988 Agoric papers, which explored how markets could be applied to the world of software. We also covered how his view of smart co...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/lightning/" rel="permalink">Practical Lightning: Wallets, Applications, Guides and Development
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  13 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Links to code, howtos, and other resources related to practical use of Lightning.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/" rel="permalink">Bitcoin Info
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  37 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Bitcoin is a revolutionary system that is quite complex and has a steep learning curve. Below you’ll find curated educational resources and information about...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://infominer.id" rel="noopener noreferrer" target="_blank"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
+        
+      
+        
+          <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://keybase.io/infominer" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
+        
+      
+        
+          <li><a href="https://github.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://discord.gg/ahTuPMY" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+        
+      
+        
+          <li><a href="https://t.me/InfoMiner33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">⧉ <a href="https://infominer.id" target="_blank" rel="noopener noreferrer">infominer</a> ⧉ <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">Creative Commons (CC0 1.0) Public Domain</a> ⧉ Powered by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank">Minimal Mistakes</a> via <a href="https://infominer.id/gh-pages-starter-pack.html" target="_blank" rel="noopener noreferrer">Github Pages</a>. ⧉</div>
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
