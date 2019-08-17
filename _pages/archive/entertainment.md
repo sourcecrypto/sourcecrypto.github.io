@@ -1,13 +1,13 @@
 ---
-title: "Archive: Tech"
+title: "Archive: Entertainment"
 layout: collection
-permalink: /archive/tech/
-redirect_from: "/discolog/tech/"
-collection: tech
+permalink: /archive/entertainment/
+collection: entertainment
 entries_layout: grid
 classes: wide
 sidebar:
   nav: sourcedisco 
+#: 8
 share: true
 ---
 
