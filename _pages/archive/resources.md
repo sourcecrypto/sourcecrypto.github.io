@@ -1,5 +1,5 @@
 ---
-title: "Category: Resources - SourceDisco"
+title: "Archive: Resources"
 layout: collection
 permalink: /archive/resources/
 redirect_from: "/discolog/resources/"

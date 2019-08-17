@@ -1,5 +1,5 @@
 ---
-title: "SourceDisco -Applications"
+title: "Archive: Application"
 layout: collection
 permalink: "/archive/application/"
 redirect_from: "/discolog/application/"
