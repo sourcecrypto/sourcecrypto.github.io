@@ -4,8 +4,6 @@ main:
     url: /posts/
   - title: "Tags"
     url: /tags/
-  - title: "Feature"
-    url: "/feature/"
   - title: "Archive"
     url: "/archive/"
   - title: "Info⧉Hub"
