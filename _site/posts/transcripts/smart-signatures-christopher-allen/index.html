@@ -1,0 +1,2228 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Favicons -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://SourceCrypto.pub/assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://SourceCrypto.pub/assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://SourceCrypto.pub/assets/icons/favicon-16x16.png">
+<link rel="manifest" href="https://SourceCrypto.pub/assets/icons/site.webmanifest">
+<link rel="mask-icon" href="https://SourceCrypto.pub/assets/icons/safari-pinned-tab.svg" color="#79dfce">
+<link rel="shortcut icon" href="https://SourceCrypto.pub/assets/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#79dfce">
+<meta name="msapplication-config" content="https://SourceCrypto.pub/assets/icons/browserconfig.xml">
+<meta name="theme-color" content="#79dfce">
+
+<!-- begin _includes/seo.html --><title>Smart Signatures - Christopher Allen | Source Crypto</title>
+<meta name="description" content="TRANSCRIPT: BPASE ‘18, January 24-26th 2018, Stanford University Stanford Cyber Initiative">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Source Crypto">
+<meta property="og:title" content="Smart Signatures - Christopher Allen">
+<meta property="og:url" content="http://localhost:4000/posts/transcripts/smart-signatures-christopher-allen/">
+
+
+  <meta property="og:description" content="TRANSCRIPT: BPASE ‘18, January 24-26th 2018, Stanford University Stanford Cyber Initiative">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/images/smart-signatures.png">
+
+
+
+  <meta name="twitter:site" content="@SourceCrypto">
+  <meta name="twitter:title" content="Smart Signatures - Christopher Allen">
+  <meta name="twitter:description" content="TRANSCRIPT: BPASE ‘18, January 24-26th 2018, Stanford University Stanford Cyber Initiative">
+  <meta name="twitter:url" content="http://localhost:4000/posts/transcripts/smart-signatures-christopher-allen/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:4000/images/smart-signatures.png">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-04-22T00:00:00-04:00">
+
+
+
+  <meta property="article:modified_time" content="2019-04-21T06:22:33-04:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/posts/transcripts/smart-signatures-christopher-allen/">
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "http://localhost:4000",
+      "logo": "https://SourceCrypto.pub/images/Source-Crypto-og.png"
+    }
+  </script>
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Infominer",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Source Crypto Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="https://sourcecrypto.pub/images/interlinked.png" alt=""></a>
+        
+        <a class="site-title" href="/">Research Index — Discord Chat</a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/posts/">Posts by Date</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/feature/">Feature</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/archive/">Archive</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://infominer.id/" target="_blank" rel="noopener noreferrer">Info⧉Hub</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://sourcecrypto.pub/decentralized-web/" target="_blank" rel="noopener noreferrer">Decentralized Web</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://learncryptotrading.co" target="_blank" rel="noopener noreferrer">Learn Crypto Trading</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://decentralized-id.com" target="_blank" rel="noopener noreferrer">DIDecentralized</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools" target="_blank" rel="noopener noreferrer">Webwork Tools</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/indieweb" target="_blank" rel="noopener noreferrer">IndieWeb</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="https://web-work.tools/github-pages-starter-pack/" target="_blank" rel="noopener noreferrer">Github Pages Starter Pack</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero" style=" ">
+  
+    <img src="/images/smart-signatures.png" alt="Smart Signatures - Christopher Allen" class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="https://SourceCrypto.pub/images/bio-photo2.jpg" alt="⧉ Infominer" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">⧉ Infominer</h3>
+    
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://infominer.id" rel="noopener noreferrer" target="_blank"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
+          
+        
+          
+            <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+          
+            <li><a href="https://keybase.io/infominer" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
+          
+        
+          
+            <li><a href="https://github.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+            <li><a href="https://discord.gg/ahTuPMY" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+          
+        
+          
+            <li><a href="https://t.me/InfoMiner33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">⧉Info⧉</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="https://infominer.id/" target="_blank" rel="noopener noreferrer"><span class="nav__sub-title">InfoHub</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://agoric-records.xyz" class="" target="_blank" rel="noopener noreferrer">• Agoric Records</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://learncryptotrading.co" class="" target="_blank" rel="noopener noreferrer">• Learn Crypto Trading</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/bitcoin-history" class="" target="_blank" rel="noopener noreferrer">• Bitcoin Histories</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/transcripts" class="" target="_blank" rel="noopener noreferrer">• Transcripts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://sourcecrypto.pub/decentralized-web/" class="" target="_blank" rel="noopener noreferrer">• Decentralized Web Histories</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://decentralized-id.com" class="" target="_blank" rel="noopener noreferrer">• DIDecentral</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://web-work.tools" class="" target="_blank" rel="noopener noreferrer">• Webwork Tools</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/general/"><span class="nav__sub-title">General</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/read-me/" class="">• Readme</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/101/" class="">• 101</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/classification/" class="">• Classification</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/cypherpunk/" class="">• Cypherpunk</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/earn-crypto/" class="">• Earn Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/economics/" class="">• Economics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/evaluation/" class="">• Evaluation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/exchanges/" class="">• Exchanges</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/governance/" class="">• Governance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/growth-adoption/" class="">• Growth - Adoption</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/history/" class="">• History</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/library-submissions/" class="">• Library Submissions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/memes-n-junk/" class="">• Memes n Junk</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/mining/" class="">• Mining</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/oppression/" class="">• Oppression</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/regulation/" class="">• Regulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/satoshi/" class="">• Satoshi</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/trading/" class="">• Trading</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/wallets/" class="">• Wallets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/traditional-finance/" class="">• Traditional Finance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/general/walstreet/" class="">• Walstreet</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/resources/"><span class="nav__sub-title">Resources</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/assorted-media/" class="">• Assorted Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/books/" class="">• Books</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/bots/" class="">• Bots</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/china/" class="">• China</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/communities/" class="">• Communities</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/conferences/" class="">• Conferences</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/news-sites/" class="">• News Sites</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/non-english/" class="">• Non-English</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/french/" class="">• French</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/research-papers/" class="">• Research Papers</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/resources/" class="">• Resources</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/send-crypto/" class="">• Send-Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/swag/" class="">• Swag</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/tech-in-media/" class="">• Tech in Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/twitter-follows/" class="">• Twitter Follows</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/resources/women/" class="">• Women</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/blockchain-tech/"><span class="nav__sub-title">Blockchain Tech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/consensus/" class="">• Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/pow/" class="">• PoW</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/pos/" class="">• PoS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/tendermint/" class="">• Tendermint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/eth-consensus/" class="">• Eth-Consensus</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/decentralization/" class="">• Decentralization</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/forks/" class="">• Forks</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/drivechains/" class="">• Drivechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/hahs-algos/" class="">• Hash Algos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/interoperability/" class="">• Interoperability</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/sharding/" class="">• Sharding</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/sidechains/" class="">• Sidechains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/smart-contracts/" class="">• Smart Contracts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/smart-signatures/" class="">• Smart Signatures</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/state-channels/" class="">• State Channels</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/oracles/" class="">• Oracles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/ethresearch/" class="">• Ethresearch</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/blockchain-tech/master-nodes/" class="">• Master-Nodes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/tech/"><span class="nav__sub-title">Tech</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/security/" class="">• Security</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/cryptography/" class="">• Cryptography</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/privacy/" class="">• Privacy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/cybersecurity/" class="">• Cybersecurity</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/infosec/" class="">• Infosec</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/tor/" class="">• Tor</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/bittorrent/" class="">• Bit-Torrent</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/distributed-systems/" class="">• Distributed Systems</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/internet-protocols/" class="">• Internet Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/P2P/" class="">• P2P</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/tech/design/" class="">• Design</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/development/"><span class="nav__sub-title">Development</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/gen-development/" class="">• Gen Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/blockchain-development/" class="">• Blockchain Development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/bitcoin-dev/" class="">• Bitcoin Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/cardano-dev/" class="">• Cardano Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/corda-dev/" class="">• Corda Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/forking/" class="">• Forking</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/ethereum-dev/" class="">• Ethereum Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/hackathons/" class="">• Hackathons</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/hyperledger-dev/" class="">• Hyperledger Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/id-dev/" class="">• ID Dev</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/development/nano-dev/" class="">• Nano Dev</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/crypto/"><span class="nav__sub-title">Crypto</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/gen-crypto/" class="">• Gen Crypto</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bitcoin/" class="">• Bitcoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/btc-layer2/" class="">• BTC Layer2</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bch/" class="">• B-Cash</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bitshares/" class="">• Bitshares</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/blockstack/" class="">• Blockstack</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/bytom/" class="">• Bytom</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/cardano/" class="">• Cardano</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/central-bank-digital-currency/" class="">• Central Bank Digital Currency</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/cosmos/" class="">• Cosmos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/dash/" class="">• DASH</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/doge/" class="">• DOGE</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/eos/" class="">• EOS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/etc/" class="">• ETC - Eth Classic</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/etcetera/" class="">• Etcetera</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/ethereum/" class="">• Ethereum</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/eth-layer2/" class="">• ETH Layer 2</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/grin-mimblewimble/" class="">• Grin Mimble-Wimble</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/hashgraph/" class="">• Hashgraph</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/iota/" class="">• IOTA</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/litecoin/" class="">• Litecoin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/monero/" class="">• Monero</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/nano/" class="">• Nano</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/neo/" class="">• NEO</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/ripple/" class="">• Ripple</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/stable-coins/" class="">• Stable Coins</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/stellar/" class="">• Stellar</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/tezos/" class="">• Tezos</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/tron/" class="">• Tron</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/crypto/zcash/" class="">• ZCash</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/enterprise/"><span class="nav__sub-title">Enterprise</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/enterprise-dlt/" class="">• Enterprise - DLT</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/ent-eth/" class="">• Enterprise Ethereum</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/corda/" class="">• Corda</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/enterprise/hyperledger/" class="">• Hyperledger</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/archive/application/"><span class="nav__sub-title">Application</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/art-collectibles/" class="">• Art Collectibles</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/ai/" class="">• AI</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/brave/" class="">• Brave</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/criminal/" class="">• Criminal</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/crypto-selfregulation/" class="">• Crypto Self-Regulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/dao/" class="">• DAO</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/defi/" class="">• Defi</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/dapps/" class="">• dApps</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/energy/" class="">• Energy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/fiat-onramp/" class="">• Fiat Onramp</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/finance/" class="">• Finance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/games/" class="">• Games</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/government/" class="">• Government</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/identity-did/" class="">• Identity - DID</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/icos/" class="">• ICOs</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/iot/" class="">• Iot</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/institutional-derivitives/" class="">• Institutional Derivitives</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/intellectual-property/" class="">• Intellectual Property</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/marketplaces/" class="">• Marketplaces</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/music/" class="">• Music</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/notary/" class="">• Notary</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/payment-processing/" class="">• Payment Processing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/protocols/" class="">• Protocols</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/publishing/" class="">• Publishing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/prediction-markets/" class="">• Prediction Markets</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/security-tokens/" class="">• Security Tokens</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/services/" class="">• Services</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/social-media/" class="">• Social Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/supplychain/" class="">• Supply Chain</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/united-nations/" class="">• United Nations</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/utility/" class="">• Utility</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/archive/application/voting/" class="">• Voting</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Smart Signatures - Christopher Allen">
+    <meta itemprop="description" content="I want to talk about smart signatures, there have been a number of experiments in this area, the most successful is Bitcoin. The first attempt to come up with a language for smart signature requirements was the deterministic predicate expressions language by Peter Todd…">
+    <meta itemprop="datePublished" content="April 22, 2019">
+    <meta itemprop="dateModified" content="April 20, 2019">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Smart Signatures - Christopher Allen
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  26 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title">
+<i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#video">Video</a></li>
+  <li><a href="#transcript">Transcript</a></li>
+  <li><a href="#signature-authorization">Signature Authorization</a></li>
+  <li><a href="#bitcoin">Bitcoin</a></li>
+  <li><a href="#deterministic-predicate-expressions-language--peter-todd">Deterministic Predicate Expressions Language -Peter Todd</a></li>
+  <li><a href="#mickelson--tezos">Mickelson -Tezos</a></li>
+  <li><a href="#object-capabilities">Object Capabilities</a></li>
+  <li><a href="#rebooting-web-of-trust">Rebooting Web of Trust</a></li>
+  <li><a href="#decentralized-identity">Decentralized Identity</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <h2 id="video">Video</h2>
+
+<div class="video-responsive">
+  <iframe width="853" height="505" src="https://www.youtube-nocookie.com/embed/E9sbWKbfyJU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<ul>
+  <li>Slideshare — <a href="https://www.slideshare.net/ChristopherA/smart-signaturesexperiments-in-authentication-stanford-bpase-2018-final" target="_blank" rel="noopener noreferrer">Smart Signatures—Experiments in Authentication (Stanford BPASE 2018 final)</a>
+</li>
+</ul>
+
+<h2 id="transcript">Transcript</h2>
+
+<p class="notice">Note: This is mostly just a copy paste of the youtube transcript - I haven’t finished cleaning it up, yet.</p>
+
+<p><img src="https://i.imgur.com/iHhsvuB.png" alt=""></p>
+
+<p>okay good afternoon my name is Christopher Allen I’m with Blockstream and today I wanted to give you an introduction to something, it isn’t about consensus isn’t about proof of stake, and other things. Want to pop up a level, I want to talk about smart signatures, these are a number of experiments in authorization.</p>
+
+<p><img src="https://i.imgur.com/bDqKx8n.png" alt=""></p>
+
+<p>First we need to recap what is a digital signature so it demonstrates the validity of a message it was invented in 1976 you know the year before Star Wars came out okay it was patented in 1980 and the expiration the patent expired it was made practical by Rivest Shamir and Adleman in the RSA algorithm and became part of the standards world in 1988 using the X dot 509 digital signature standard</p>
+
+<p><img src="https://i.imgur.com/3x4KvUu.png" alt=""></p>
+
+<p>The fundamental architecture of digital signatures has not significantly changed in over 40 years. The traditional data digital signature it validates the message by canonicalizing it, it hashes it, it encrypts it with a private key and it validates it with a public key. These are then embodied in various certificate data formats the most popular of which is that original one SN dot one which is a data format standard from the 70s I believe originally and the X dot 509 these certificates are then signed and turned by hierarchies of certificates and then finally confirmed by a trust policy and this is where things often break down.</p>
+
+<p><img src="https://i.imgur.com/K8SQqvL.png" alt=""></p>
+
+<p>so what are trust policies well right now our trust policies are defined by a certificate authority or actually in more reality by the app a browser or the operating system the trust policy is not defined by the signer who basically signs these things nor the verifier who’s basically trying to determine that things are all correct is the intent of the signer fully expressed I’m not sure does the verifier understand the intent of the signer probably not and does the CA or app understand the trust requirements of the verifier this is the I think it is most important no I do not believe so.</p>
+
+<p><img src="https://i.imgur.com/6W79QA0.png" alt=""></p>
+
+<p>another challenge for traditional digital signatures is that modern crypto is allowing a lot more new forms we have multi signatures being talked about tomorrow in Peter Woolies and Andrew pollsters talk we have ring signatures used by Monero by our own products at block stream blind signatures at different forms aggregated signatures confidential signatures etc the traditional digital signature data formats have had very difficult times adapting to these new forms so we have to like look at the roots what is the duration traditional digital signature doing what is its core use well its core use is for authorization basically a trust policy ensures that the conditions have been met for a particular task you know have we gone through and authorized this party to have access to this website or whatever so the traditional digital signature authenticates that a specific party signed a message and then certifies that the signing party is authorized to do the task.</p>
+
+<p><img src="https://i.imgur.com/ZNb3i6Z.png" alt=""></p>
+
+<p>That’s the real challenge. does the signing party actually is it actually authorized to you do that task and I think we can do better this is where we come up with this concept of smart signatures its core use is also for authorization except instead we’re using scripts a smart signature has additional parties that can be authorized the parties can offer delegation services you know you can basically say that somebody else now has the privilege to be able to do this we want to be able to support and and/or expressions and we want a lot more kinds of conditions so fundamentally the difference between a traditional digital signature and a smart signature is that the trust policy is interpreted is not interpreted by a CA or encode executed by an app browser or us instead the trust policy is embedded embedded by the signer into the signature itself.</p>
+
+<p>this concept was come up at the rebooting web of trust in the fall of 2015 some of the contributors early on include Peter Maxwell McHugh with Greg Maxwell Joseph bono Joseph poon tighter clothes etc so our inspiration was the Bitcoin transaction signature because it works it uses a stateless predicate language sometimes known as script the the script is created by the signer and it’s based on the signers Trust policy thus can support ands and ORS and multi SIG’s various complex things like time locks and puzzles and even other scripts there are many many use cases so what are some of the use cases well clearly the most important one right now is multi factor expressions we want n of n signatures M of n signatures we want the logical ands and ORS but there may be other elements we want to be able to include biometrics and signatures proof of Hardware control etc we want to support that signature delegation we want to be able to delegate to another party and we want to limit that delegation we want maybe to say that somebody can use it for a month for only purchases and purchases that aren’t more than 5 K</p>
+
+<p>we also potentially want to have the ability to permanently pass control to someone else in case usage of a keys ceases which could be because of an employment change or because of some significant scenario like a disaster or death we want to be able to combine these in multiple and interesting ways for instance in a development release or a continuous integration tool chain it might have at the top level of multi-factor three of five signature but then one of those three at one of those five signatures has authorized their assistant to be able to do the signing for the development release because he’s on leave and then another signer has a very strong security policy that requires two of two of keys to be applied to the signature where one those keys is stored on a hardware token finally we want to be able to support transactions because that’s one of the primary uses for authenticate authentication.</p>
+
+<h2 id="signature-authorization">Signature Authorization</h2>
+
+<p>so signature authorization signatures are often part of a larger process they can prove that specific transactional States exist before they proceed we want to be able to test against various Oracle’s for instance we want to be able to say no more than five K has already been spent this month which basically means it needs to know that how much has already been spent by other authorizations in the history of the smart signature there may be other uses such as provenance may be a piece of art requires a transactional history in order for you to be able to purchase it in looking at a lot of these different usage scenarios we’ve come up with some requirements for smart signatures I will divide them into two big categories there are requirements around the language and then there the rate requirements around the system</p>
+
+<p>the first requirement is composability so a smart signature language should be something that allows you to take simple behavior small things well described well understood and then basically build them into more complex ones we really need to have simple data structures stacks lists etc and the reason why we have both of those requirements is that the constrained set of operations allows us to do sufficient security review to understand what is actually going on, that errors are not being encountered our inspirations around composable languages our fourth scheme haskell etc</p>
+
+<p>the second requirement is inspect ability so this is really about the the program or the developer we want it to be the the script to be understood by a qualified programmer we want those elements of the signature script to be brought out and exemplified so the developer can actually know this is what it is going to do and how it’s going to function and because in the end the programmer has to evaluate is this going to do the business function that I want to have authorized a third language requirement is we want it to be provable so a smart signature language should be formally analyzable to prove correctness and it should support a variety of expert tools to discover hidden bugs so those are our three language requirements we have three sort of system requirements the system as a whole needs to be deterministic the scripts should always produce the same result even on a different Oz or hardware and I might even add if in the future there is a new version of the script language it should still function the second system requirement is that it should be bounded execution should not exceed the appropriate CPU or memory limitations the script size should be minimal in order to lemon limit bandwidth and storage costs and then to go back to kind of the previous requirement in order to do this bounding those bounds need to be deterministic so we have you know we these all interact with each other</p>
+
+<p>finally there’s a requirement of efficiency now we are not putting in requirements on the difficulty for creating signatures in fact you know if it takes several seconds or even longer to create a signature that’s acceptable where we’re really concerned about efficiency is that the cost of verifying should be extremely low so these are all of the primary requirements that we wanted to have in any smart signature system I do want to add in something we were considering as a seventh requirement which is privacy so there’s always a trade-off between flexibility of a sophisticated smart signature and the privacy that it offers because every time you do a signature its revealing information about the signers</p>
+
+<h2 id="bitcoin">Bitcoin</h2>
+
+<p>that’s certainly a lesson that we’ve learned from Bitcoin smart signature functionality may allow for correlation and some scenarios that can be bad in particular in transactional scenarios it reduces substitutability and it can break fungibility and various bearer aspects of authorizations so I don’t consider privacy to be a requirement but it is something you should carefully consider some advice limit sharing of the smart cart signatures themselves execute them off chain as much as possible if you and I have a contract then we don’t need everybody else to see it unless there’s a problem be transparent and be very deliberate in your privacy designs think about privacy as one of your considerations</p>
+
+<p>so there have been a number of experiments in this area obviously the most successful experiment is Bitcoin it’s you know securing billions of dollars worth of transactions Bitcoin script itself is a fourth like language in that it is stacked based it is well tested well trusted but obviously has some limited capabilities this is a good thing from a security review perspective it’s gonna if it’s going to secure these billions of dollars we have to be very careful about what we put in it there are some things coming out masked and snore and other improvements that will continue to help Bitcoin</p>
+
+<p>it’s a great sort of starting place because we’ve just we’ve demonstrated the deterministic aspects we’ve demonstrated that that’s possible we’ve demonstrated that it’s bounded we’ve demonstrated that it’s efficient well we have not demonstrated as a Bitcoin script is very composable being able to combine scripts in various ways is hard it’s definitely not very inspectable most people can’t just like look at a bitcoins script and basically say what they know what’s going on and it is not at this point provable we cannot have a formal proof of Bitcoin script there have been some experiments to extend Bitcoin script the most notable is IV from chain com it basically compiles to Bitcoin script but it has a much easier syntax it adds name variables it adds static types this makes it kind of an inspector boleyn of Bitcoin script but other than that it has the same limitations that as Bitcoin script does mainly that it’s not provable</p>
+
+<h2 id="deterministic-predicate-expressions-language--peter-todd">Deterministic Predicate Expressions Language -Peter Todd</h2>
+<p>First Attempt to Create a Language for Smart Signature Requirements</p>
+
+<p>the first sort of attempt to take smart signature requirements and come up with a language for it was the deterministic predicate expressions language by Peter Todd in it he discusses a scheme like lambda calculus that’s really optimized for hash trees which among other things allows for partial proofs which I think is kind of cool I can basically give you a long dex predicate that you may only be able to solve a small part of it you can basically collapse that to a hash give it to the next party who is able to take a different part of it and collapse it to a hash bring it back to me and I can basically prove that the particular authorization is allowed without necessarily knowing all the other aspects it’s specifically designed to support state machines and systems that need state machines</p>
+
+<p>it is composable it’s deterministic efficient and bounded I’m not quite sure about its inspect ability or prove ability it is strongly typed and with some additional work is probably provable one of the most interesting experiments in smart signatures is Russell O’Connor’s simplicity which is from my company block stream it is a sequent calculus which is something a lot of people may not be familiar with which offers finite airy functions with bounded complexity basically we it allows you to create scripts that are very very solidly understood it already has a formable provable semantics and then scripts that are written in simplicity can be provable via the the tool called caulk</p>
+
+<p>thus it is of all the different experiments right now is the most provable deterministic bounded efficient composable where it is challenging is that it’s not very inspectable at this point maybe as it evolves will create higher level things that allow us to do it but I just can’t look at a simplicity script and have a you know intuitive feeling oh here’s the expression of the intent of the author of this script and what it’s going to do you’re going to hear a lot more about this in a session tomorrow at 10:50 a.m. where Russell is going to be talking more about simplicity another experiment is Sigma state by Alexander chirp Noi it uses Sigma protocols which is a class of digital signatures and crypto systems that are optimized for ZK proofs</p>
+
+<p>some interesting things about it is that it supports natively ring and threshold signatures so it’s sort of different than a lot of the other languages in order to support hopefully ultimately prove ability it does have strong types and some other features it looks like it’s reasonably inspectable composable should be able to be deterministic and efficient at this point he doesn’t have a formal proof of the language itself so the path to prove ability is still to be determined and I personally have some questions about the boundedness of it it’s supposed to be non Turing complete but there may be some accidental Turing isms in there</p>
+
+<h2 id="mickelson--tezos">Mickelson -Tezos</h2>
+<p>Mickelson is the next experiment that I’m finding interesting it’s by tezo’s it is sort of in the Bitcoin family of of being stacked based but it is using sort of Oh camel as its language mechanism it is very strongly tight its composable inspectable and efficient at this point there is not a strong proofs for it but I believe that it is provable and is likely bounded and deterministic in the same way that bitcoin is but there are no formal proofs of that at this point</p>
+
+<p>this is radically different this is not a script but this is another approach to a sort of addressing the constraints problem so crypto conditions is not a late a language it is a JSON description of a number of keys which basically allows you to do a very deterministic boolean algebra the advantage of this particular technique it is very easily to test is this code properly Express the intent of the of the user because it you know it’s all deterministic boolean we can test the hell out of it and get you know a real thing but it has no flexibility at all it either fits into the JSON format or it doesn’t so it is bounded it is efficient it is deterministic</p>
+
+<p>I find Jason a little bit hard to read but that’s okay so it’s in the questionable category it is explicitly not composable there are no composable elements of it and i don’t really know how to prove it either I can test it but I can’t necessarily prove it so what are the status of these various experiments obviously Bitcoin script is fully integrated in Bitcoin but at this point there is no standalone version you just can’t take the Bitcoin script interpreter and use it there is a open source project from Cali wolf which is called BTC dev which is a Bitcoin debugger</p>
+
+<p>I noticed that the latest version of it adds masked the the in one of the branches so basically people can begin to experiment with extending Bitcoin script ivy has a full white paper and they have a full script playground available where you can basically try out various IV functions and there’s even now a IV to BTC Debb branch going on right now so you can actually debug IV Dex Peter Todd well he’s written a blog post about and done a couple of presentations but at this point there is no white paper and as far as I know there is no implementation</p>
+
+<p>so it’s interesting as one of the first attempts in this area but there’s not a lot you can do with it at the moment simplicity which is again gonna be talked about by Russell tomorrow the white paper is available I’ve seen some people try to do some things based on the white paper but there isn’t any public code yet it’s coming but it’s not available Sigma state the white paper is supposed to be out next month I don’t have all the details there is no public code out but he’s been working on some you know hopefully we’ll know more about the state of next month</p>
+
+<p>Mickelson has a whitepaper has a script playground you can definitely do some things with Mickelson now and finally crypto conditions it’s part of the inner lecturer reference release and they’re in the process of standardizing crypto conditions I’m watching some other efforts so these aren’t necessarily experiments smarm by Christopher Lamar Weber has basically been designing a scheme like language that is maybe gonna be on top of simplicity when simplicity comes out so it basically allows some of the scheme composability and those elements you know at the top but basically compiles to simplicity it can also compile to native code</p>
+
+<p>so it’s kind of an interesting effort at this point it we only have a requirements documents for that but presuming that the requirements are met it would be composable and spectable deterministic can the proof proofs move up from simplicity to it at this point there’s not a formal description for that so i don’t know yet but it’s at least an interesting project worth watching frozen realms</p>
+
+<p>this is part of the ECMCA this is the JavaScript community it’s by Miller Morningstar and PT know it’s a safe subset of JavaScript with limited prime Oriels it compiles may compile to Assam I just think it’s there’s some interesting things we might be able to learn from this language it certainly has is composable and in spectable in the same way javascript is will it ever be able to be provable I’m not sure and finally you know it is a turing-complete language so boundedness is always going to be a challenge for turing-complete languages</p>
+
+<p>you can do it with gas and other different different mechanisms but you can’t prove it in the ethereum community there is a high-level language called bamboo it’s JavaScript like like solidity and such but it very much tries to call out the explicit state transactions state transitions which is one of the classic bugs that happens when you’re doing a variant Hren C and I’m sorry interested in it from a inspect ability point of view like can they are they allowing the programmer to more explicitly understand the various reenter SC issues that you have with any kind of asynchronous script</p>
+
+<p>that’s why I’m watching a bamboo not on there I have not studied the ke VM which is also trying to prove ability of the EVM layer of ethereum the community that is beginning to work on these we have a number of open questions one area is the area of context in Bitcoin the context is the trend the previous transaction so you basically start with the previous transaction you have a script and then it executes but in these smart signatures we want to be able to refer to things</p>
+
+<p>like we want to look at the transaction and go hey it’s you know it’s $5,000 but the script says you can’t do $5,000 but those messages might be lists they might be trees or they may even be very complex basically graphs so how does the script refer to the contents of the message that it is signing there’s also runtime context what is the time what is it being executed by what information needs to be passed and is available to the script while it’s executing from the runtime if you think about it from bitcoins perspective we know the block height and so there is a variety different things that can be passed the script that allows it to do its functionality when we start talking about stuff that’s outside the message the external process State things like the Bitcoin script does not have access to the whole blockchain it can’t know that that particular set of keys was used in another transaction elsewhere it can only know that it wasn’t used with the prior transaction so how do we handle external process States which sort of leads to this larger problem of Oracle anytime you have this sort of asynchronous state we end up into much more complex territory.</p>
+
+<p>how do we preserve the execution boundaries when we’re in these sort of asynchronous states and then within them in the same way that we’ve kind of constrained script to be predicate expressions what are the simplest minimum viable product Oracle’s that are out there I mean obviously we need a time Oracle we may want some Bitcoin price Oracle’s etc how those work how do we want to assure them etc</p>
+
+<p>there was a big long discussion by the smart signature team around revocation like revocation turns out to be a real hard problem I think originally you know Peter Wooley and Peter Todd we’re both talking about that it should be able to be in the primary script that you can basically have the revocation as a and type of operator inside the the script in and I think we’re all in rough consensus that likely revocation cannot be done directly within a signature script do we how are we going to do revocation do we want some kind of proof of non revocation as another script or we’re not really clear here clearly one of the answers is to basically make the scripts very short-lived so you know maybe a day a month or whatever and that way you don’t necessarily need to do revocation</p>
+
+<h2 id="object-capabilities">Object Capabilities</h2>
+
+<p>there is another sort of system security architecture than what we is popular today called object capabilities I don’t know how many people here are familiar with the concept of object capabilities so it’s a very minority architecture it’s however been in development for over 10 years has some very interesting properties it turns out that Oh cap and various least authority architectures may really benefit from smart signatures so you know if we’re gonna add that as another use case we need to understand their requirements more and it may enable some of the types of things that they would be able to do that can really significantly increase the security of our systems another open question is the cryptographic primitives what do we want to include in our smart signature systems if we look at Bitcoin a lot of the underlying operators were deprecated because they caused various kinds of you know challenges could make basically you know allows an attacker to do a denial service by you know using up a lot of memory etc so do we want to offer some cryptographic primitives</p>
+
+<p>I know I’m personally interested and the script being able directly derive HD keys I think that would be a very useful primitive Andrew Polster ax has been talking at various conferences about script list scripts where we’re basically embedding into a single signature multiple signatures in a form that kind of resembles simple script operations can we leverage that that gives us some privacy may give us some other capabilities and then there’s sort of this line between the smart signature and the smart contract</p>
+
+<p>I mean a smart signature is a predicate script it basically is returning true or false but is there some value in some non predicate scripts where basically we are providing true and false and maybe a hash or something of that nature so there’s some interesting open questions there and then of course all of these experiments are not turing-complete they’re not they’re very much exploring sort of the efficient and bounded side of things by not attempting to be fully Turing complete but where is the line between a smart signature contract and a true smart contract is it purely is Turing the only difference between the two there are a lot of things that we can do without becoming fully turing-complete…</p>
+
+<p>unknown at this point references the the most recent paper is bitly smart signature smarter signatures and that will basically get you the paper that was published last spring you can obviously look at the tag smart signatures in Twitter and you’ll see other discussions about it but we are evolving it it was</p>
+
+<h2 id="rebooting-web-of-trust">Rebooting Web of Trust</h2>
+
+<p>the concept came up at the first rebooting web of trust we’re gonna have our six rebooting web of trust in Santa Barbara in just a few weeks March 6 through 8 if you’re a language geek and this is something that really gets you excited and you basically go that experiment is okay I want you to come to this event and tell us what’s wrong and help us fix it</p>
+
+<p>okay I would like to really begin to explore some of these use cases these requirements and actually begin to have some more solid demos of what the future of smart signatures is so again it’s rebooting web of trust and it’s in March six and seven six to eight my name is Christopher Allen and you can reach me at Christopher a at block stream comm</p>
+
+<p>[Applause] 
+[Music] 
+[Applause]</p>
+
+<p>very interesting topic about smart signature my question is is it possible because it’s still early in the stage in terms of experiments so you don’t want to have a standard right yeah like x5 909 certificate is it possible to have a kind of extension to expire nice certificate to including this math signature language constructs you clear the data structure and I think that there has been some exploration of how we can extend existing digital signatures with some of these scripts I mean to a certain extent you can just put in the signature field the script exam and all of the predicate expression in there I’m more interested in what’s happening in the w3c there is something called the verifiable credentials community verifiable claims community and they’re using a special form of JSON that is a graph Jason it’s called json-ld and it can be signed as a graph signature which is I think very intriguing</p>
+
+<h2 id="decentralized-identity">Decentralized Identity</h2>
+
+<p>so I’m more expecting that the innovation in this space will evolve in the json-ld signatures area rather than the X dot 509 thank you so another question is they use it like this sinus policy is kind of like a self solving identity it’s seeing another space about like as a sign or the code of the key can decide the policies is this a nice idea they’re usually kind of for bio-port or consensus the IBM they have a kind of for what is called a decentralized the identity folks group right you guys talking well I’m the I coined the term self sovereign identity and rebooting web of trust is where the decentralized identifiers spec was first bootstrapped</p>
+
+<p>so basically the decentralized identifiers spec is allows multiple block chains to create centralized identifiers x’ that can be used for a variety of purposes including self sovereign identity on ethereum there’s uPort there’s a Bitcoin version of it there’s a big chain DB there’s a a public but permissioned blockchain called sovereign that is also using D IDs and we’re basically meeting every Tuesday morning to try to move that forward in the w3c thank you</p>
+
+<p>I’m a little unclear you were saying it’s a smart signature as a predicate language but she showed simplicity and I thought simplicity was more than that yes simplicity is more than that but to be clear it also it’s not Turing complete basically it unwinds all the loops and all the different aspects of it so that you can basically have a complete expression and I think for what most people want to use it for right now is for you know things like provable predicate scripts but clearly can be used for more than just a predicate again it has the same sort of the same open questions you know when we start hitting you know various levels we start talking about asynchronously having scripts talk to each other we run into all the problems that we already know about from the ethereum world every entrance ii and things of that nature</p>
+
+<p>so there’s still a lot of work to do and I think you mentioned if I missed it what so the relationship with your work in the sovereign foundation I’m not part of the sovereign foundation the they are part of the rebooting web of trust community so they’re one of the many different people many of which are in this room today that cooperated at rebooting web a trust to incubate the di D standard and then basically last June the w3c basically gave permission to move it forward as a work item so it’s it is not an on the on a standards track right now it’s in you know the first stage we we had a big meeting last week to try to reconcile the last draft and hopefully this year we’ll be moving it to standards track where it will actually become a potential international standard thank you okay that’s all the questions I think well thank you very much again reshaping media 
+[Music]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#christopher-allen" class="page__taxonomy-item" rel="tag">Christopher Allen</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#smart-signatures" class="page__taxonomy-item" rel="tag">Smart Signatures</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#crypto" class="page__taxonomy-item" rel="tag">Crypto</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#transcripts" class="page__taxonomy-item" rel="tag">Transcripts</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-04-20">April 20, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  <h2><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/blob/master/_posts/transcripts/2019-04-22-Christopher-Allen-Smart-Signatures.md" class="edit" target="_blank" rel="noopener noreferrer">Edit this page <i class="fa fa-pencil"></i></a></h2>
+  <h3>Social Share</h3>
+  <a href="https://twitter.com/intent/tweet?via=SourceCrypto&amp;text=Smart+Signatures+-+Christopher+Allen%20http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftranscripts%2Fsmart-signatures-christopher-allen%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftranscripts%2Fsmart-signatures-christopher-allen%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftranscripts%2Fsmart-signatures-christopher-allen%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftranscripts%2Fsmart-signatures-christopher-allen%2F&amp;title=Smart+Signatures+-+Christopher+Allen" class="btn btn--reddit" title="Share on Reddit" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> Reddit</span></a>
+  <p><img src="https://infominer.id/assets/img/1pLr.gif"></p>
+  <h3>Tips Welcome</h3>
+    <p>Feel free to <a href="mailto:infominer@protonmail.com">contact me</a> if you're interested in <a href="https://web-work.tools/services/#iso-clients-who-want-bitcoin-related-content" target="_blank" rel="noopener noreferrer">Bitcoin related content / research</a>!</p>
+  <table class="table table-bordered table-hover table-condensed">
+    <thead>
+      <tr>
+        <th title="Field #1">Bitcoin</th>
+        <th title="Field #2">DOGE</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1A1DZfw4VgpHCgnMjnmfDnMjddKf8xdYbd</td>
+        <td>DQKkzfJjqnXUD8Z7C3e84vKzvghPe9dXSa</td>
+      </tr>
+      <tr>
+        <td><img src="https://imgur.com/yXLLm9Bl.png" width="150"></td>
+        <td><img src="https://imgur.com/z316u0c.png" width="150"></td>
+      </tr>
+    </tbody>
+  </table>  
+  <!-- Beginning of tippin.me Button -->
+  <div id="tippin-button" data-dest="infominer33"></div>
+  <script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script>
+  <!-- End of tippin.me Button -->
+</section>
+
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/posts/transcripts/public-private-blockchain-wolpert-gendal-brown/" class="pagination--pager" title="Public vs Private Blockchains for the Enterprise
+">Previous</a>
+    
+    
+      <a href="/posts/chainlink/" class="pagination--pager" title="Chain Link
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/practical/" rel="permalink">Practical Bitcoin Guides: Wallets, Applications, and Development
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  8 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Links to code, howtos, and other resources related to practical use of Bitcoin.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/transcripts/mark-miller-agoric-epicenter/" rel="permalink">Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  43 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">We discussed his visionary 1988 Agoric papers, which explored how markets could be applied to the world of software. We also covered how his view of smart co...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/lightning/" rel="permalink">Practical Lightning: Wallets, Applications, Guides and Development
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  13 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Links to code, howtos, and other resources related to practical use of Lightning.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/images/source-crypto-gh-og.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/" rel="permalink">Bitcoin Info
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  37 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Bitcoin is a revolutionary system that is quite complex and has a steep learning curve. Below you’ll find curated educational resources and information about...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://infominer.id" rel="noopener noreferrer" target="_blank"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
+        
+      
+        
+          <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://keybase.io/infominer" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
+        
+      
+        
+          <li><a href="https://github.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/sourcecrypto" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://discord.gg/ahTuPMY" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+        
+      
+        
+          <li><a href="https://t.me/InfoMiner33" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">⧉ <a href="https://infominer.id" target="_blank" rel="noopener noreferrer">infominer</a> ⧉ <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">Creative Commons (CC0 1.0) Public Domain</a> ⧉ Powered by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank">Minimal Mistakes</a> via <a href="https://infominer.id/gh-pages-starter-pack.html" target="_blank" rel="noopener noreferrer">Github Pages</a>. ⧉</div>
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

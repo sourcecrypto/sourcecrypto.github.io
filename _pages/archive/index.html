@@ -15,8 +15,8 @@ share: true
 
 ---
 
-
 {% capture written_label %}'None'{% endcapture %}
+
 
 {% for collection in site.collections %}
   {% unless collection.output == false or collection.label == "posts" %}
@@ -35,11 +35,7 @@ share: true
 
 <section class="page__share">
   <h2>Share or Edit this Page</h2>
-  {% if page.disco %}  
-    <p><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/edit/master/archive/{{ page.path }}" class="edit">Edit this page <i class="fa fa-pencil"></i></a></p>
-  {% else %}
-    <p><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/edit/master/{{ page.path }}" class="edit">Edit this page <i class="fa fa-pencil"></i></a></p>
-  {% endif %}
+    <p><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/blob/master/{{ page.path }}" class="edit">Edit this page <i class="fa fa-pencil"></i></a></p>
   {% if site.data.ui-text[site.locale].share_on_label %}
     <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4>
   {% endif %}
