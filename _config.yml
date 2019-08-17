@@ -303,7 +303,7 @@ collections:
     permalink: /archive/:collection/:path/
   chaintech:
     output: true
-    permalink: /archive/blockchain-tech/:path/
+    permalink: /archive/:collection/:path/
   tech:
     output: true
     permalink: /archive/:collection/:path/
