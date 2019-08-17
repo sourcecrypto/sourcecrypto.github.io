@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Source&#10697;Crypto - &#129518;iota</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        /* === GENERAL === */
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    white-space: pre-wrap;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.spoiler {
+    border-radius: 3px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, Monospace;
+}
+
+.pre--multiline {
+    margin-top: 4px;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 5px;    
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.mention {
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+    display: flex;
+    max-width: 100%;
+    margin: 0 5px 10px 5px;    
+}
+
+.info__guild-icon-container {
+    flex: 0;
+}
+
+.info__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.info__metadata {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info__guild-name {
+    font-size: 1.4em;
+}
+
+.info__channel-name {
+    font-size: 1.2em;
+}
+
+.info__channel-topic {
+    margin-top: 2px;
+}
+
+.info__channel-message-count {
+    margin-top: 2px;
+}
+
+.info__channel-date-range {
+    margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+    display: flex;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+    flex: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    flex: 1;
+    min-width: 50%;
+    margin-left: 20px;
+}
+
+.chatlog__author-name {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+.chatlog__content {
+    padding-top: 5px;
+    font-size: .9375em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 3px;
+    font-size: .8em;
+}
+
+.chatlog__attachment {
+    margin: 5px 0;
+}
+
+.chatlog__attachment-thumbnail {
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__embed {
+    display: flex;
+    max-width: 520px;
+    margin-top: 5px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    width: 100%;
+    display: flex;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 10px;
+}
+
+.chatlog__embed-image {    
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-weight: 600;
+    font-size: .75em;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 6px 2px 2px 2px;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 6px;
+    font-size: .875em;
+}
+    </style>
+    <style>
+        /* === GENERAL === */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #839496 !important;
+}
+
+.mention {
+    color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+    color: #ffffff;
+}
+
+.info__channel-name {
+    color: #ffffff;
+}
+
+.info__channel-topic {
+    color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</head>
+<body>
+    
+<div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png" />
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source&#10697;Crypto</div>
+        <div class="info__channel-name">&#129518;iota</div>
+        
+            <div class="info__channel-topic"></div>
+
+        <div class="info__channel-message-count">14 messages</div>
+        
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">25-Sep-18 01:30 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.quora.com/Who-are-IOTAs-competitors">https://www.quora.com/Who-are-IOTAs-competitors</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.quora.com/Who-are-IOTAs-competitors"><span class="markdown">Who are IOTA&#39;s competitors? - Quora</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The competitors of IOTA have to be coins targeting the internet of things market. Just read their slogan: &#8220;The backbone of IoT is here&#8221; There are currently 3 big cryptocurrencies 100% involved in IOT right now, let&#8217;s take a look at their advantage...</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">29-Sep-18 10:03 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://iotatoken.com/IOTA_Whitepaper.pdf">http://iotatoken.com/IOTA_Whitepaper.pdf</a></span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">01-Oct-18 03:09 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.financemagnates.com/cryptocurrency/news/whats-going-on-with-iota-a-brief-technological-and-financial-overview/">https://www.financemagnates.com/cryptocurrency/news/whats-going-on-with-iota-a-brief-technological-and-financial-overview/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.financemagnates.com/author/finance-magnates-staff">Finance Magnates Staff</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.financemagnates.com/cryptocurrency/news/whats-going-on-with-iota-a-brief-technological-and-financial-overview"><span class="markdown">A Brief Technological and Financial Overview of IOTA | Finance Mag...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">There are several features of the IOTA network that have been implemented to make it highly suitable for integration with the Internet of Things</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.financemagnates.com/wp-content/uploads/2018/01/IOTA.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.financemagnates.com/wp-content/uploads/2018/01/IOTA.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">04-Nov-18 02:11 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.iota.org/attack-analysis-the-simple-parasite-chain-42a34bfeaf23">https://blog.iota.org/attack-analysis-the-simple-parasite-chain-42a34bfeaf23</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.iota.org/attack-analysis-the-simple-parasite-chain-42a34bfeaf23"><span class="markdown">Attack analysis - the simple parasite chain &#8211; IOTA</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Note: This blog post is intended for a reader with a basic understanding of the Tangle. In particular, we heavily rely on concepts like a&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*cvJ7hrvDgmYCsjl-3ZmJcg.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*cvJ7hrvDgmYCsjl-3ZmJcg.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">25-Nov-18 09:20 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blokt.com/news/iota-is-seeking-community-help-to-make-a-great-documentation-portal">https://blokt.com/news/iota-is-seeking-community-help-to-make-a-great-documentation-portal</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(21,30,35,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://blokt.com/author/shilpa-lama">Shilpa Lama</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blokt.com/news/iota-is-seeking-community-help-to-make-a-great-documentation-portal"><span class="markdown">IOTA Is Seeking Community Help to Make a &#39;Great Documentation Portal&#39;</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">IOTA Foundation publishes a blog post seeking help from the community to make a comprehensive dedicated documentation portal featuring &#8220;information from across the whole ecosystem.&#8221;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://blokt.com/wp-content/uploads/2018/10/Iota-cryptocurrency-physical-coin-held-in-the-hand-next-to-autumn-branches.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://blokt.com/wp-content/uploads/2018/10/Iota-cryptocurrency-physical-coin-held-in-the-hand-next-to-autumn-branches.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">26-May-19 09:25 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://mobile.twitter.com/SarahJamieLewis/status/1015395299035045890">https://mobile.twitter.com/SarahJamieLewis/status/1015395299035045890</a></span>
+
+                        </div>
+
+
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://bitcoinist.com/iota-threatens-researchers-and-denies-critical-flaw-but-fixes-it-anyway/">https://bitcoinist.com/iota-threatens-researchers-and-denies-critical-flaw-but-fixes-it-anyway/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://bitcoinist.com/author/adamjames/">Adam James</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://bitcoinist.com/iota-threatens-researchers-and-denies-critical-flaw-but-fixes-it-anyway/"><span class="markdown">IOTA Threatens Researchers and Denies Critical Flaw - but Fixes it...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Over the weekend, various high-level security researchers and academic cryptographers gave cryptocurrency project IOTA a failing grade - exposing a critical weakness and suggesting investors sell their coins while asking researchers to ignore or abandon the project.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://bitcoinist.com/wp-content/uploads/2018/02/dp-security-flaw.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://bitcoinist.com/wp-content/uploads/2018/02/dp-security-flaw.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">13-Aug-19 04:28 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown">@tangleblog Let us not forget that we skipped over the &quot;no seriously, to build a robust gossip network you really need to know all the nodes in advance, you can&#39;t build sybil resistance from nothing&quot;
+
+So let&#39;s pop the stack, and conclude.</span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">14-Aug-19 02:02 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/tangleblog/status/968082872736321538?s=12">https://twitter.com/tangleblog/status/968082872736321538?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/879400759007338496/7k6y4NkO_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/tangleblog">Tangleblog.com &#8987; Coordicide is coming &#8987; (@tangleblog)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Email leak debunks reports of IOTA cryptographic vulnerabilities | <a href="https://t.co/Pp273wdTSf">https://t.co/Pp273wdTSf</a> Australian Press about the leaks <a href="https://t.co/wmNbPTq9vr">https://t.co/wmNbPTq9vr</a> via @reddit</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">14-Aug-19 10:11 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown">Official IOTA Foundation Response to the Digital Currency Initiative at the MIT Media Lab &#8212; Part 2 / 4
+
+<a href="https://blog.iota.org/official-iota-foundation-response-to-the-digital-currency-initiative-at-the-mit-media-lab-part-2-9ce650ad789c">https://blog.iota.org/official-iota-foundation-response-to-the-digital-currency-initiative-at-the-mit-media-lab-part-2-9ce650ad789c</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.iota.org/official-iota-foundation-response-to-the-digital-currency-initiative-at-the-mit-media-lab-part-2-9ce650ad789c"><span class="markdown">Official IOTA Foundation Response to the Digital Currency Initiati...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Editor&#8217;s Note:
+All of the information and links contained in this multi-part document were publicly available prior to publication. None of&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://miro.medium.com/max/1200/1*t1oJcczFU5TrMYSIUVpHhw.jpeg">
+                                                <img class="chatlog__embed-thumbnail" src="https://miro.medium.com/max/1200/1*t1oJcczFU5TrMYSIUVpHhw.jpeg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown">MIT media lab DCI allegations proven wrong: IOTA&#39;s alleged vulnerability debunked publicly, see this convo on Twitter between IOTA devs and the MIT Media lab - CryptoCurrency
+
+<a href="https://www.reddit.com/r/CryptoCurrency/comments/7svr8r/mit_media_lab_dci_allegations_proven_wrong_iotas/">https://www.reddit.com/r/CryptoCurrency/comments/7svr8r/mit_media_lab_dci_allegations_proven_wrong_iotas/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.reddit.com/r/CryptoCurrency/comments/7svr8r/mit_media_lab_dci_allegations_proven_wrong_iotas/"><span class="markdown">r/CryptoCurrency - MIT media lab DCI allegations proven wrong: IOT...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">904 votes and 518 comments so far on Reddit</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://external-preview.redd.it/Op1AvOnyaliye1XqmcCaTcNjeiQnm9BfL3vgSdKRuqo.jpg?auto=webp&s=26524aa62cc7db248901fb0c2a72681d2d248e20">
+                                                <img class="chatlog__embed-thumbnail" src="https://external-preview.redd.it/Op1AvOnyaliye1XqmcCaTcNjeiQnm9BfL3vgSdKRuqo.jpg?auto=webp&s=26524aa62cc7db248901fb0c2a72681d2d248e20" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/matthew_d_green/status/967073310604488707?s=12">https://twitter.com/matthew_d_green/status/967073310604488707?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1143686988463296513/zUYwilW2_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/matthew_d_green">Matthew Green (@matthew_d_green)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">If you want a postcard summary of why you should avoid the Iota project &#8212; with your brains and your money &#8212; this conversation is it.</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">125</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>    
+
+                                    <div class="chatlog__embed-image-container">
+                                        <a class="chatlog__embed-image-link" href="https://pbs.twimg.com/media/DWu8C-TW4AEsAJT.jpg:large">
+                                            <img class="chatlog__embed-image" src="https://pbs.twimg.com/media/DWu8C-TW4AEsAJT.jpg:large" />
+                                        </a>
+                                    </div>
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/gort_robot/status/1161628221726777344?s=12">https://twitter.com/gort_robot/status/1161628221726777344?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/948761771443187712/pNOZ-6oc_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/GORT_ROBOT">GORTROBOT &#8987; Coordicide is coming &#8987; (@GORT_ROBOT)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">@infominer33 @dalmatin23 @SarahJamieLewis Take your time. I can wait.<img class="emoji " alt="😊" title="😊" src="https://twemoji.maxcdn.com/2/72x72/1f60a.png" />
+btw. this may help:
+<a href="https://t.co/yjzyJBKuNj">https://t.co/yjzyJBKuNj</a>
+Also to be mentioned: MIT-DLC &gt; Guy Zyskind &amp; Alex Pentland &gt; Enigma <a href="https://t.co/TOSHYGPRmF">https://t.co/TOSHYGPRmF</a>
+MIT-DLC &gt; Ethan Heilmann &gt; DAGLabs &gt; Spectre <a href="https://t.co/n3u0">https://t.co/n3u0</a>...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://pbs.twimg.com/tweet_video_thumb/EB7utMaX4AE1TBC.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://pbs.twimg.com/tweet_video_thumb/EB7utMaX4AE1TBC.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">15-Aug-19 04:15 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/sarahjamielewis/status/1161738096234254336?s=12">https://twitter.com/sarahjamielewis/status/1161738096234254336?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1091174026649583616/qyAjyiOO_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/SarahJamieLewis">Sarah Jamie Lewis (@SarahJamieLewis)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">So after attempting extortion, then publishing a blog, wherein they admit to attempted extortion (and state it was justified because I have researched sex tech). They have now published an apology blog post saying it was &quot;poker play&quot; and they didn&#39;t &quot;intend to harm&quot; me. ht...</span></div>
+
+                                    </div>
+
+                                </div>    
+
+                                    <div class="chatlog__embed-image-container">
+                                        <a class="chatlog__embed-image-link" href="https://pbs.twimg.com/media/EB9SowoVAAARu2o.png:large">
+                                            <img class="chatlog__embed-image" src="https://pbs.twimg.com/media/EB9SowoVAAARu2o.png:large" />
+                                        </a>
+                                    </div>
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Source&#10697;Crypto - &#128205;criminal</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        /* === GENERAL === */
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    white-space: pre-wrap;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.spoiler {
+    border-radius: 3px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, Monospace;
+}
+
+.pre--multiline {
+    margin-top: 4px;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 5px;    
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.mention {
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+    display: flex;
+    max-width: 100%;
+    margin: 0 5px 10px 5px;    
+}
+
+.info__guild-icon-container {
+    flex: 0;
+}
+
+.info__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.info__metadata {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info__guild-name {
+    font-size: 1.4em;
+}
+
+.info__channel-name {
+    font-size: 1.2em;
+}
+
+.info__channel-topic {
+    margin-top: 2px;
+}
+
+.info__channel-message-count {
+    margin-top: 2px;
+}
+
+.info__channel-date-range {
+    margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+    display: flex;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+    flex: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    flex: 1;
+    min-width: 50%;
+    margin-left: 20px;
+}
+
+.chatlog__author-name {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+.chatlog__content {
+    padding-top: 5px;
+    font-size: .9375em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 3px;
+    font-size: .8em;
+}
+
+.chatlog__attachment {
+    margin: 5px 0;
+}
+
+.chatlog__attachment-thumbnail {
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__embed {
+    display: flex;
+    max-width: 520px;
+    margin-top: 5px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    width: 100%;
+    display: flex;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 10px;
+}
+
+.chatlog__embed-image {    
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-weight: 600;
+    font-size: .75em;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 6px 2px 2px 2px;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 6px;
+    font-size: .875em;
+}
+    </style>
+    <style>
+        /* === GENERAL === */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #839496 !important;
+}
+
+.mention {
+    color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+    color: #ffffff;
+}
+
+.info__channel-name {
+    color: #ffffff;
+}
+
+.info__channel-topic {
+    color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</head>
+<body>
+    
+<div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png" />
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source&#10697;Crypto</div>
+        <div class="info__channel-name">&#128205;criminal</div>
+        
+            <div class="info__channel-topic"></div>
+
+        <div class="info__channel-message-count">16 messages</div>
+        
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">30-Sep-18 06:52 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.coindesk.com/wsj-investigation-alleges-88-million-laundered-through-46-crypto-exchanges/">https://www.coindesk.com/wsj-investigation-alleges-88-million-laundered-through-46-crypto-exchanges/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.coindesk.com/wsj-investigation-alleges-88-million-laundered-through-46-crypto-exchanges"><span class="markdown">WSJ Investigation Alleges $88 Million Laundered Through 46 Crypto ...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The Wall Street Journal claimed Friday that 46 crypto exchanges were used to launder nearly $90 million &#8211; with $9 million going through ShapeShift.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://media.coindesk.com/uploads/2018/09/laundry.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://media.coindesk.com/uploads/2018/09/laundry.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">30-Sep-18 09:45 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/s/the-crypto-collection/a-glimpse-into-the-dark-underbelly-of-cryptocurrency-markets-d1690b761eaf">https://medium.com/s/the-crypto-collection/a-glimpse-into-the-dark-underbelly-of-cryptocurrency-markets-d1690b761eaf</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/s/the-crypto-collection/a-glimpse-into-the-dark-underbelly-of-cryptocurrency-markets-d1690b761eaf"><span class="markdown">The Dark Underbelly of Cryptocurrency Markets &#8211; The Crypto Colle...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">In this post I&#8217;ll investigate the key drivers of the unrelenting cryptocurrency/cryptoasset markets, and explain why they aren&#8217;t likely to go away soon. In particular, I will focus on the incentives&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/focal/1200/632/47/54/0*6maUNBK2Z9MB2vy7">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/focal/1200/632/47/54/0*6maUNBK2Z9MB2vy7" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">04-Oct-18 04:17 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.ccn.com/bitcoin-fraudsters-impersonated-u-s-regulators-forged-cftc-documents/">https://www.ccn.com/bitcoin-fraudsters-impersonated-u-s-regulators-forged-cftc-documents/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.ccn.com/bitcoin-fraudsters-impersonated-u-s-regulators-forged-cftc-documents"><span class="markdown">Bitcoin Fraudsters Impersonated Regulators, Forged CFTC Documents</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Two bitcoin fraudsters impersonated CFTC regulators and forged documents as part of their cryptocurrency-stealing scheme.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.ccn.com/wp-content/uploads/2018/10/bitcoin-crime-handcuffs.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.ccn.com/wp-content/uploads/2018/10/bitcoin-crime-handcuffs.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">03-Nov-18 11:37 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.coindesk.com/wsj-investigation-alleges-88-million-laundered-through-46-crypto-exchanges/">https://www.coindesk.com/wsj-investigation-alleges-88-million-laundered-through-46-crypto-exchanges/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.coindesk.com/wsj-investigation-alleges-88-million-laundered-through-46-crypto-exchanges"><span class="markdown">WSJ Investigation Alleges $88 Million Laundered Through 46 Crypto ...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The Wall Street Journal claimed Friday that 46 crypto exchanges were used to launder nearly $90 million &#8211; with $9 million going through ShapeShift.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://media.coindesk.com/uploads/2018/09/laundry.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://media.coindesk.com/uploads/2018/09/laundry.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">05-Nov-18 04:25 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/nopara73/status/1050451616497901569">https://twitter.com/nopara73/status/1050451616497901569</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/853008873124384768/K7ea0TCP_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/nopara73">nopara73 (@nopara73)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">&quot;Individuals want to be able to have a level of confidence that the bitcoin addresses with which they are sending or receiving coins have not been use by a criminal element before a transaction takes place and this is what BitRank<img class="emoji " alt="®" title="®" src="https://twemoji.maxcdn.com/2/72x72/ae.png" /> offers.&quot;
+<a href="https://t.co/blWsPZ2K4o">https://t.co/blWsPZ2K4o</a></span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">25-Nov-18 08:01 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.theblockcrypto.com/tiny/researchers-study-over-500-cryptocurrency-pump-and-dump-schemes/">https://www.theblockcrypto.com/tiny/researchers-study-over-500-cryptocurrency-pump-and-dump-schemes/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.theblockcrypto.com/author/steven_tb">Steven Zheng</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.theblockcrypto.com/tiny/researchers-study-over-500-cryptocurrency-pump-and-dump-schemes"><span class="markdown">Researchers study over 500 cryptocurrency pump and dump schemes - ...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A group of researchers from major universities released a paper examining 500 crypto-related&#160;pump and dump (P&amp;D)&#160;schemes. Examining data from May 15, 2017 to August 26, 2018, researchers found 3,400+ P&amp;D announcements from 80 active Telegram channels. Of these announcements...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.theblockcrypto.com/wp-content/uploads/2018/09/theblock-default.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.theblockcrypto.com/wp-content/uploads/2018/09/theblock-default.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">09-Dec-18 01:45 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.coindesk.com/victims-sue-att-t-mobile-over-sim-swap-crypto-hacks">https://www.coindesk.com/victims-sue-att-t-mobile-over-sim-swap-crypto-hacks</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.coindesk.com/victims-sue-att-t-mobile-over-sim-swap-crypto-hacks"><span class="markdown">Victims Sue AT&amp;T, T-Mobile Over &#39;SIM Swap&#39; Crypto Hacks - CoinDesk</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A cryptocurrency-focused law firm in the U.S. says it has filed lawsuits against AT&amp;T and T-Mobile on behalf of victims of &quot;SIM swapping&quot; hacks.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.coindesk.com/wp-content/uploads/2018/11/shutterstock_419339026.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.coindesk.com/wp-content/uploads/2018/11/shutterstock_419339026.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">23-Dec-18 04:38 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://elementus.io/blog/tether-hack/">https://elementus.io/blog/tether-hack/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://elementus.io/blog/tether-hack/"><span class="markdown">Visualizing the transactions behind the $31m Tether hack</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">By following the transaction flows through the bitcoin blockchain, the analysis lays out a timeline of the events leading up to and following the attack. It also manages to link the attacker to:</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://s3-us-east-2.amazonaws.com/elementus-assets/2017/11/tether-all-transactions-fb2-1.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://s3-us-east-2.amazonaws.com/elementus-assets/2017/11/tether-all-transactions-fb2-1.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">22-Jan-19 10:01 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.theblockcrypto.com/2018/12/10/two-identities-one-man-the-story-of-800-million-hedge-fund-fraudster-boaz-manor-who-led-the-alleged-31-million-blockchain-terminal-ico/">https://www.theblockcrypto.com/2018/12/10/two-identities-one-man-the-story-of-800-million-hedge-fund-fraudster-boaz-manor-who-led-the-alleged-31-million-blockchain-terminal-ico/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.theblockcrypto.com/author/frank_tb/">Frank Chaparro</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.theblockcrypto.com/2018/12/10/two-identities-one-man-the-story-of-800-million-hedge-fund-fraudster-boaz-manor-who-led-the-alleged-31-million-blockchain-terminal-ico/"><span class="markdown">Two identities, one man: the story of $800 million hedge fund frau...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">BCT looked good on paper.&#160; It had an all-star team, a product that promised to give Bloomberg a run for its money &#8211; the aptly-named Blockchain Terminal, and funding to run a massive ICO campaign. The founder, a mysteriously well-capitalized investor, was zealously dedicate...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.theblockcrypto.com/wp-content/uploads/2018/12/dingo-1200x675.gif">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.theblockcrypto.com/wp-content/uploads/2018/12/dingo-1200x675.gif" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">23-Jan-19 02:26 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.theblockcrypto.com/tiny/university-researchers-identified-over-4800-pump-and-dump-schemes-involving-crypto-over-a-six-month-period/">https://www.theblockcrypto.com/tiny/university-researchers-identified-over-4800-pump-and-dump-schemes-involving-crypto-over-a-six-month-period/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.theblockcrypto.com/author/steven_tb/">Steven Zheng</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.theblockcrypto.com/tiny/university-researchers-identified-over-4800-pump-and-dump-schemes-involving-crypto-over-a-six-month-period/"><span class="markdown">University researchers identified over 4,800 pump and dump schemes...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A group of university researchers published a study&#160;examining pump and dump (P&amp;D) signals from Telegram and Discord channels. According to the study, the researchers were able to identify&#160;3,767 different pump signals advertised on Telegram and&#160;1,051 different pump signals ...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.theblockcrypto.com/wp-content/uploads/2018/09/theblock-default.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.theblockcrypto.com/wp-content/uploads/2018/09/theblock-default.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">11-Mar-19 10:07 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://decryptmedia.com/4629/darknet-hacker-provides-evidence-binance-hack-kyc-fake">https://decryptmedia.com/4629/darknet-hacker-provides-evidence-binance-hack-kyc-fake</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(156,39,176,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://decryptmedia.com/4629/darknet-hacker-provides-evidence-binance-hack-kyc-fake"><span class="markdown">Darknet hacker provides evidence of massive Binance KYC data dump</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A darknet hacker claiming to have stolen thousands of KYC documents from leading exchanges breaks cover to provide evidence of the theft.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i1.wp.com/wp.decryptmedia.com/wp-content/uploads/2019/01/shutterstock_5416953311.jpg?fit=640%2C360&ssl=1">
+                                                <img class="chatlog__embed-thumbnail" src="https://i1.wp.com/wp.decryptmedia.com/wp-content/uploads/2019/01/shutterstock_5416953311.jpg?fit=640%2C360&ssl=1" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">24-Apr-19 04:47 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/a_greenberg/status/1120665753307496449?s=12">https://twitter.com/a_greenberg/status/1120665753307496449?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/2601083013/qo2txnvd2e0hgf96fhr0_bigger.png" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/a_greenberg">Andy Greenberg (@a_greenberg)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Researchers checked 34 billion insufficiently random Ethereum keys, and found that 732 of the associated addresses had already been emptied, likely by thieves. One of those thieves had amassed a fortune that was at one point worth $54 million. <a href="https://t.co/7fUVMpIC93">https://t.co/7fUVMpIC93</a></span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Retweets</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">376</span></div>
+                                                    </div>
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">555</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">20-May-19 11:09 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/cooncesean/status/1130493867734605824?s=12">https://twitter.com/cooncesean/status/1130493867734605824?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/880031213540392961/PQISEEKd_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/cooncesean">Sean Coonce (@cooncesean)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">My personal identity was hacked last week. The attacker was able to steal $100k+ in a sweep of my Coinbase account. I&#39;m equal parts embarrassed, hurt, and deeply remorseful.
+
+In an effort to raise awareness about the attack, I wrote about it here: <a href="https://t.co/ZnbB0AN6Gd">https://t.co/ZnbB0AN6Gd</a></span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Retweets</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">598</span></div>
+                                                    </div>
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">1070</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">01-Jun-19 06:08 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/">https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://variety.com/author/johnhopewell1/">John Hopewell</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/"><span class="markdown">Netflix&#8217;s &#8216;How to Sell Drugs Online (Fast)&#8217;s&#8217; Creators on ...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">CANNES &#8212; Netflix&#8217;s &#8220;How to Sell Drugs Online (Fast)&#8221; kicks off with a police special unit, automatic rifles trained, moving in silently for &#160;asking. The target, a buff teen drug dealer, at wo&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://pmcvariety.files.wordpress.com/2019/04/how-to-sell-drugs-online-fast-lars-montagcopyright.jpg?w=700&h=393&crop=1">
+                                                <img class="chatlog__embed-thumbnail" src="https://pmcvariety.files.wordpress.com/2019/04/how-to-sell-drugs-online-fast-lars-montagcopyright.jpg?w=700&h=393&crop=1" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">02-Jun-19 11:59 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.wired.com/story/bitcoin-drug-deals-silk-road-blockchain/">https://www.wired.com/story/bitcoin-drug-deals-silk-road-blockchain/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.wired.com/story/bitcoin-drug-deals-silk-road-blockchain/"><span class="markdown">Your Sloppy Bitcoin Drug Deals Will Haunt You for Years</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Scouring the blockchain, researchers found years-old evidence tying Silk Road transaction to users&#39; public accounts.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://media.wired.com/photos/5a6a600b7890df36f56254a4/191:100/pass/BitcoinSilkRoad.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://media.wired.com/photos/5a6a600b7890df36f56254a4/191:100/pass/BitcoinSilkRoad.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">09-Jun-19 12:13 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/mycrypto/discovering-fake-trezor-metamask-and-mycrypto-android-apks-596168761f54">https://medium.com/mycrypto/discovering-fake-trezor-metamask-and-mycrypto-android-apks-596168761f54</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/mycrypto/discovering-fake-trezor-metamask-and-mycrypto-android-apks-596168761f54"><span class="markdown">Discovering Fake Trezor, MetaMask, and MyCrypto Android APKs</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+</div>
+
+</body>
+</html>

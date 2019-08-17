@@ -1,0 +1,2115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Source&#10697;Crypto - &#128187;data</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        /* === GENERAL === */
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    white-space: pre-wrap;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.spoiler {
+    border-radius: 3px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, Monospace;
+}
+
+.pre--multiline {
+    margin-top: 4px;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 5px;    
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.mention {
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+    display: flex;
+    max-width: 100%;
+    margin: 0 5px 10px 5px;    
+}
+
+.info__guild-icon-container {
+    flex: 0;
+}
+
+.info__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.info__metadata {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info__guild-name {
+    font-size: 1.4em;
+}
+
+.info__channel-name {
+    font-size: 1.2em;
+}
+
+.info__channel-topic {
+    margin-top: 2px;
+}
+
+.info__channel-message-count {
+    margin-top: 2px;
+}
+
+.info__channel-date-range {
+    margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+    display: flex;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+    flex: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    flex: 1;
+    min-width: 50%;
+    margin-left: 20px;
+}
+
+.chatlog__author-name {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+.chatlog__content {
+    padding-top: 5px;
+    font-size: .9375em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 3px;
+    font-size: .8em;
+}
+
+.chatlog__attachment {
+    margin: 5px 0;
+}
+
+.chatlog__attachment-thumbnail {
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__embed {
+    display: flex;
+    max-width: 520px;
+    margin-top: 5px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    width: 100%;
+    display: flex;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 10px;
+}
+
+.chatlog__embed-image {    
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-weight: 600;
+    font-size: .75em;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 6px 2px 2px 2px;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 6px;
+    font-size: .875em;
+}
+    </style>
+    <style>
+        /* === GENERAL === */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #839496 !important;
+}
+
+.mention {
+    color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+    color: #ffffff;
+}
+
+.info__channel-name {
+    color: #ffffff;
+}
+
+.info__channel-topic {
+    color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</head>
+<body>
+    
+<div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png" />
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source&#10697;Crypto</div>
+        <div class="info__channel-name">&#128187;data</div>
+        
+            <div class="info__channel-topic"></div>
+
+        <div class="info__channel-message-count">41 messages</div>
+        
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">18-Aug-18 05:20 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.reddit.com/r/CryptoCurrency/comments/988lxb/i_have_5_years_of_coinmarketcapcom_crypto_price/?utm_source=reddit-android">https://www.reddit.com/r/CryptoCurrency/comments/988lxb/i_have_5_years_of_coinmarketcapcom_crypto_price/?utm_source=reddit-android</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.reddit.com/r/CryptoCurrency/comments/988lxb/i_have_5_years_of_coinmarketcapcom_crypto_price/?utm_source=reddit-android"><span class="markdown">r/CryptoCurrency - I have 5 years of coinmarketcap.com crypto pric...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">402 votes and 67 comments so far on Reddit</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i.redditmedia.com/D-smYRmeS10zkrWJj6M6vJ0dJyP8aX0o0D2Cjs7rFhU.jpg?s=5019d06b86eb8c77466affd2d8739ec0">
+                                                <img class="chatlog__embed-thumbnail" src="https://i.redditmedia.com/D-smYRmeS10zkrWJj6M6vJ0dJyP8aX0o0D2Cjs7rFhU.jpg?s=5019d06b86eb8c77466affd2d8739ec0" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">25-Aug-18 11:10 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><span class="mention" title="This Is An Adventure#1556">@This Is An Adventure</span> here you can drop resources of actual data people can run anlysis on <img class="emoji " alt="😃" title="😃" src="https://twemoji.maxcdn.com/2/72x72/1f603.png" /></span>
+
+                                <span class="chatlog__edited-timestamp" title="25-Aug-18 11:11 PM">(edited)</span>
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">30-Aug-18 07:07 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://panelpicker.sxsw.com/vote/91245">https://panelpicker.sxsw.com/vote/91245</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://panelpicker.sxsw.com/vote/91245"><span class="markdown">10 Years of Blockchain Data Science</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">tl;dr; Bitcoin turns 10 years old in 2019 and has been continuously recording data in its blockchain the whole time. In this talk, I will present the most beautiful visualizations and fascinating analyses of this and other blockchains made by data scientists such as myself.
+
+...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.sxsw.com/wp-content/uploads/2018/08/19_PanelPickerVoting_Conference-TW.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.sxsw.com/wp-content/uploads/2018/08/19_PanelPickerVoting_Conference-TW.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">30-Aug-18 07:18 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.blockchaintransparency.org/reports">https://www.blockchaintransparency.org/reports</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.blockchaintransparency.org/reports"><span class="markdown">State of Blockchain Reports</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://static1.squarespace.com/static/5b7af4a10dbda33516a40cfd/t/5b7d91164d7a9c43b184d197/1534955800693/bchain2.jpg?format=1000w">
+                                                <img class="chatlog__embed-thumbnail" src="http://static1.squarespace.com/static/5b7af4a10dbda33516a40cfd/t/5b7d91164d7a9c43b184d197/1534955800693/bchain2.jpg?format=1000w" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">02-Sep-18 09:29 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blockchair.com/">https://blockchair.com/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blockchair.com/"><span class="markdown">Blockchair</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Blockchair is a blockchain search and analytics engine featuring Bitcoin, Bitcoin Cash, Ethereum, and Litecoin explorers, as well as full-text search over blockchain data.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://blockchair.com/images/twitter_card.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://blockchair.com/images/twitter_card.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">08-Sep-18 09:06 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics">https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics"><span class="markdown">Ethereum in BigQuery: a Public Dataset for smart contract analytic...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Ethereum transactions, like some other cryptocurrencies, are stored in a public ledger. Learn how to analyze that ledger in BigQuery to better understand transaction and even contracts history.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://storage.googleapis.com/gweb-cloudblog-publish/original_images/eretheum_blog_1.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://storage.googleapis.com/gweb-cloudblog-publish/original_images/eretheum_blog_1.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">22-Sep-18 09:27 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.trustnodes.com/2018/08/16/nearly-one-trillion-dollars-worth-bitcoin-transferred-2018-close-half-trillion-ethereum">https://www.trustnodes.com/2018/08/16/nearly-one-trillion-dollars-worth-bitcoin-transferred-2018-close-half-trillion-ethereum</a></span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">24-Sep-18 11:56 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.chainalysis.com/reports/money-supply-q3">https://blog.chainalysis.com/reports/money-supply-q3</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.chainalysis.com/reports/money-supply-q3"><span class="markdown">Bitcoin Investors and Speculators Hold Their Positions over the Summer</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The cryptocurrency monetary aggregates have been updated for the summer months and show that the market continues to stabilize, in spite of price declines.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://uploads-ssl.webflow.com/5a95e929b010650001bae4c6/5ba8d54431e009cb55d035cf_Price-Movements.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://uploads-ssl.webflow.com/5a95e929b010650001bae4c6/5ba8d54431e009cb55d035cf_Price-Movements.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">27-Sep-18 08:53 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/ChartsBtc/media">https://twitter.com/ChartsBtc/media</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://twitter.com/ChartsBtc/media"><span class="markdown">Bitcoin Charts (no TA) (@ChartsBtc)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Excel user since Lotus 1-2-3.   Just enough SQL to be dangerous.  Click Media on my profile for all my crazy Bitcoin charts.</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Tweets</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">495</span></div>
+                                                    </div>
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Followers</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">1927</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://pbs.twimg.com/profile_images/1002664239671099392/Up-PPatp_normal.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://pbs.twimg.com/profile_images/1002664239671099392/Up-PPatp_normal.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">27-Sep-18 09:03 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/BitcoinVisuals">https://twitter.com/BitcoinVisuals</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://twitter.com/BitcoinVisuals"><span class="markdown">BitcoinVisuals.com <img class="emoji " alt="⚡" title="⚡" src="https://twemoji.maxcdn.com/2/72x72/26a1.png" />&#65039; (@BitcoinVisuals)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Making Bitcoin data more accessible. Blockchain, lightning network, market data, and more.</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Tweets</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">153</span></div>
+                                                    </div>
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Followers</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">751</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://pbs.twimg.com/profile_images/949295078820007937/UOYVAsHe_normal.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://pbs.twimg.com/profile_images/949295078820007937/UOYVAsHe_normal.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">27-Sep-18 11:26 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/coinmetrics">https://twitter.com/coinmetrics</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://twitter.com/coinmetrics"><span class="markdown">CoinMetrics.io (@coinmetrics)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Cryptoasset analytics, exportable data, and visualizations. In pursuit of rigor and clarity.</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Tweets</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">994</span></div>
+                                                    </div>
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Followers</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">8602</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://pbs.twimg.com/profile_images/874601150699450369/Rzzx2CNo_normal.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://pbs.twimg.com/profile_images/874601150699450369/Rzzx2CNo_normal.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">27-Sep-18 10:51 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-how-we-built-dataset">https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-how-we-built-dataset</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-how-we-built-dataset"><span class="markdown">Ethereum in BigQuery: &#8202;how we built this dataset | Google Cloud Blog</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Learn from CoinFi&#39;s Evgeny Medvedev how to build the tooling to import Ethereum blockchain data into BigQuery for analysis.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/image5_b8UnrYB.max-2000x2000.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/image5_b8UnrYB.max-2000x2000.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">28-Sep-18 10:25 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://epicenter.tv/episode/254/">https://epicenter.tv/episode/254/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(20,164,122,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://epicenter.tv/episode/254"><span class="markdown">Allen Day - Google&#8217;s Mission to Provide Open Datasets for Public...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">We&#39;re joined by Allen Day, Science Advocate at Google. Earlier this year, he and his team released both Bitcoin and Ethereum as public datasets in Big Query, Google big data IaaS offering.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://epicenter.tv/app/uploads/2018/09/kenpttemons.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://epicenter.tv/app/uploads/2018/09/kenpttemons.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">29-Sep-18 02:12 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://docs.google.com/spreadsheets/d/1ioxvJgJiZui9ZD1nud2oLpClYCFcnzvgvMucI56uy-g/edit#gid=1772156349">https://docs.google.com/spreadsheets/d/1ioxvJgJiZui9ZD1nud2oLpClYCFcnzvgvMucI56uy-g/edit#gid=1772156349</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://docs.google.com/spreadsheets/d/1ioxvJgJiZui9ZD1nud2oLpClYCFcnzvgvMucI56uy-g/edit"><span class="markdown">Public - ICO Returns 2014-2018</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">ICOs that came onto market
+
+ Project, Ticker, Amount Raised( USD), ICO Date Completed, Sale Price( USD), Current Price( USD), Return(%), What$ 1 Invested at ICO Price Would Be Worth, Date Compiled: 9/ 11/ 18, https:// theblockcrypto. com
+ Bolenum, BLN,$ 18, 606, Aug. 2017,$ 0...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://lh5.googleusercontent.com/bVjpPzFh00TdGAX-I5BJrAG8wl6rMF03DUrLpwllHG0-hJhDPLqCwCEWCtZ5vls7ZjCE-Q=w1200-h630-p">
+                                                <img class="chatlog__embed-thumbnail" src="https://lh5.googleusercontent.com/bVjpPzFh00TdGAX-I5BJrAG8wl6rMF03DUrLpwllHG0-hJhDPLqCwCEWCtZ5vls7ZjCE-Q=w1200-h630-p" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">30-Sep-18 02:12 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.nomics.com/flippening/crypto-market-data/">https://blog.nomics.com/flippening/crypto-market-data/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://blog.nomics.com/author/ombzyfz8dehv">Arison Cain</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.nomics.com/flippening/crypto-market-data"><span class="markdown">[Podcast] The State of Crypto Market Data w/ Nomics&#39; Co-founders</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Subscribe:&#160;iTunes&#160;|&#160;Stitcher&#160;| Google Play Description My guest today is actually me and my co-founder at Nomics, Nick Gauthier. In this episode, we&#8217;re interviewed by the creator of the Crypto Cast Network, who goes by the name of Vortex. This interview is a deep dive i...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://blog.nomics.com/wp-content/uploads/2018/09/The-State-of-Crypto-Market-Data-w-Vortex-Nomics-Co-founders.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://blog.nomics.com/wp-content/uploads/2018/09/The-State-of-Crypto-Market-Data-w-Vortex-Nomics-Co-founders.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">30-Sep-18 02:23 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://nomics.com">https://nomics.com</a></span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">30-Sep-18 10:06 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://messari.substack.com/p/cmc-doesnt-suck-unqualified-opinions-4?utm_medium=web&utm_campaign=share-web">https://messari.substack.com/p/cmc-doesnt-suck-unqualified-opinions-4?utm_medium=web&amp;utm_campaign=share-web</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://messari.substack.com/p/cmc-doesnt-suck-unqualified-opinions-4?utm_medium=web&utm_campaign=share-web"><span class="markdown">CMC Doesn&#39;t Suck - Unqualified Opinions #4</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Hidden inflation is a tricky, material, fundamental crypto metric. Messari&#8217;s Unqualified Opinions Issue #4 TLDR: As most of you know, we&#8217;ve been working for the past year to create simple, common-sense disclosures standards for ICO teams. If we accomplish one thing, I hop...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://d3b3sm9t19x0yd.cloudfront.net/image/fetch/h_600/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F09a7eb44-9f8f-4d84-8bef-9b0b7dd4e8f5_240x235">
+                                                <img class="chatlog__embed-thumbnail" src="https://d3b3sm9t19x0yd.cloudfront.net/image/fetch/h_600/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F09a7eb44-9f8f-4d84-8bef-9b0b7dd4e8f5_240x235" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">04-Oct-18 04:48 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cryptowest.com/wp-content/uploads/2018/08/us-fsi-2018-global-blockchain-survey-report.pdf">https://cryptowest.com/wp-content/uploads/2018/08/us-fsi-2018-global-blockchain-survey-report.pdf</a></span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">08-Oct-18 12:51 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cointelegraph.com/news/public-records-show-us-government-tripled-investment-in-blockchain-analysis-firms-in-2018">https://cointelegraph.com/news/public-records-show-us-government-tripled-investment-in-blockchain-analysis-firms-in-2018</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://cointelegraph.com/news/public-records-show-us-government-tripled-investment-in-blockchain-analysis-firms-in-2018"><span class="markdown">Public Records Show US Government Tripled Investment in Blockchain...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">New research into publicly available records shows that U.S. government agencies have tripled their investment in blockchain intelligence firms this year.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://images.cointelegraph.com/images/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy81ODEwMmE4ZWNhZDJhNTU5YTcwNTgyOGU5Y2QzOWNkMi5qcGc=.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://images.cointelegraph.com/images/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy81ODEwMmE4ZWNhZDJhNTU5YTcwNTgyOGU5Y2QzOWNkMi5qcGc=.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">08-Oct-18 01:29 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://bitdb.network/">https://bitdb.network/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://bitdb.network/"><span class="markdown">bitdb</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The Random Access Memory for Bitcoin</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://bitdb.network/bitdb.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://bitdb.network/bitdb.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">23-Oct-18 02:01 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://coinmetrics.io/data-downloads/">https://coinmetrics.io/data-downloads/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://coinmetrics.io/author/whateverpal">whateverpal</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://coinmetrics.io/data-downloads"><span class="markdown">Data downloads - Coin Metrics</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">We provide daily cryptocurrency data (transaction count, on-chain transaction volume, value of created coins, price, market cap, and exchange volume) in CSV format. The data sample stretches back to December 2013. We explain the column titles and some shortcomings here. You c...</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">29-Oct-18 05:35 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown">v<a href="https://www.madewithtea.com/solutions-to-extract-data-from-ethereum.html">https://www.madewithtea.com/solutions-to-extract-data-from-ethereum.html</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.madewithtea.com/solutions-to-extract-data-from-ethereum.html"><span class="markdown">Solutions to Extract Data from Ethereum</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Ethereum is easy and fun, but it is also relatively new. The developer solutions today are going through the teething stage - so, it&#226;&#8364;<img class="emoji " alt="™" title="™" src="https://twemoji.maxcdn.com/2/72x72/2122.png" />s new and cool but also slightly painful. As an example, take data extraction from the Ethereum blockchain. I&#226;&#8364;<img class="emoji " alt="™" title="™" src="https://twemoji.maxcdn.com/2/72x72/2122.png" />ve been keeping an ...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.madewithtea.com/theme/img/twittercard.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.madewithtea.com/theme/img/twittercard.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">14-Nov-18 04:51 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.bitmex.com/app/apiOverview">https://www.bitmex.com/app/apiOverview</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(216,237,248,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.bitmex.com/app/apiOverview"><span class="markdown">API Overview - BitMEX</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">BitMEX is the world&#39;s most advanced P2P crypto-products trading platform and API. Trade with up to 100x leverage with only Bitcoin as collateral.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.bitmex.com/img/bitmex-logo-alt.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.bitmex.com/img/bitmex-logo-alt.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__reactions">
+                                <div class="chatlog__reaction">
+                                    <img class="emoji emoji--small" alt="💜" title="💜" src="https://twemoji.maxcdn.com/2/72x72/1f49c.png" />
+                                    <span class="chatlog__reaction-count">1</span>
+                                </div>
+                        </div>
+                        <div class="chatlog__content">
+                            <span class="markdown">maybe that would hlep</span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">09-Dec-18 01:38 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://thebitcoinnews.com/japanese-cybersecurity-group-debuts-blockchain-scan-tool-partners-with-consensys-diligence/">https://thebitcoinnews.com/japanese-cybersecurity-group-debuts-blockchain-scan-tool-partners-with-consensys-diligence/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://thebitcoinnews.com/author/cointelegraph/">Cointelegraph</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://thebitcoinnews.com/japanese-cybersecurity-group-debuts-blockchain-scan-tool-partners-with-consensys-diligence/"><span class="markdown">Japanese Cybersecurity Group Debuts Blockchain Scan Tool, Partners...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A cybersecurity subsidiary of Japan&#8217;s Nomura Research Institute (NRI) unveiled a new blockchain security alert tool in a press release Nov. 8, also confirming a partnership with U.S. blockchain software company ConsenSys. With the tool, dubbed the &#8220;Blockchain Security Mon...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://thebitcoinnews.com/wp-content/uploads/2018/11/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84YjU4ZmIwNTM2MTVjYzlhMzZhNmFjYWQ5ZGFhMjY3Zi5qcGc.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://thebitcoinnews.com/wp-content/uploads/2018/11/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84YjU4ZmIwNTM2MTVjYzlhMzZhNmFjYWQ5ZGFhMjY3Zi5qcGc.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">11-Dec-18 07:22 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/jdourlens/awesome-ethereum-analytics">https://github.com/jdourlens/awesome-ethereum-analytics</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/jdourlens/awesome-ethereum-analytics"><span class="markdown">jdourlens/awesome-ethereum-analytics</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A curated list of projects around Ethereum analytics. - jdourlens/awesome-ethereum-analytics</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars0.githubusercontent.com/u/1624124?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars0.githubusercontent.com/u/1624124?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">22-Dec-18 07:06 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://thebitcoinnews.com/japanese-cybersecurity-group-debuts-blockchain-scan-tool-partners-with-consensys-diligence/">https://thebitcoinnews.com/japanese-cybersecurity-group-debuts-blockchain-scan-tool-partners-with-consensys-diligence/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://thebitcoinnews.com/author/cointelegraph/">Cointelegraph</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://thebitcoinnews.com/japanese-cybersecurity-group-debuts-blockchain-scan-tool-partners-with-consensys-diligence/"><span class="markdown">Japanese Cybersecurity Group Debuts Blockchain Scan Tool, Partners...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A cybersecurity subsidiary of Japan&#8217;s Nomura Research Institute (NRI) unveiled a new blockchain security alert tool in a press release Nov. 8, also confirming a partnership with U.S. blockchain software company ConsenSys. With the tool, dubbed the &#8220;Blockchain Security Mon...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://thebitcoinnews.com/wp-content/uploads/2018/11/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84YjU4ZmIwNTM2MTVjYzlhMzZhNmFjYWQ5ZGFhMjY3Zi5qcGc.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://thebitcoinnews.com/wp-content/uploads/2018/11/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84YjU4ZmIwNTM2MTVjYzlhMzZhNmFjYWQ5ZGFhMjY3Zi5qcGc.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">08-Apr-19 04:44 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/dbohdan/structured-text-tools">https://github.com/dbohdan/structured-text-tools</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/dbohdan/structured-text-tools"><span class="markdown">dbohdan/structured-text-tools</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A list of command line tools for manipulating structured text data - dbohdan/structured-text-tools</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars2.githubusercontent.com/u/3179832?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars2.githubusercontent.com/u/3179832?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">29-Apr-19 04:51 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://news.ycombinator.com/item?id=19780387">https://news.ycombinator.com/item?id=19780387</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            htiek
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://news.ycombinator.com/item?id=19780387"><span class="markdown">Topics in Advanced Data Structures [pdf]</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://news.ycombinator.com/y18.gif" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Hacker News
+                                                     • 
+
+                                                29-Apr-19 01:19 PM
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">26-May-19 04:18 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/chainyoda/status/1132554098602139648?s=12">https://twitter.com/chainyoda/status/1132554098602139648?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1131869724562907137/6PC1aJmT_bigger.png" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/chainyoda">Ajit Tripathi (@chainyoda)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Anyone writing a &quot;Data Modeling for #Blockchain&quot; book yet?</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">26-May-19 07:18 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://player.fm/series/data-skeptic/neural-turing-machines">https://player.fm/series/data-skeptic/neural-turing-machines</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(201,226,142,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://player.fm/series/data-skeptic/neural-turing-machines"><span class="markdown">Neural Turing Machines by Data Skeptic</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Kyle and Linh Da discuss the concepts behind the neural Turing machine.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn1.player.fm/images/157270/series/7KuqBqUYQ1n0fiQc/128.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn1.player.fm/images/157270/series/7KuqBqUYQ1n0fiQc/128.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">03-Jun-19 10:25 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://link.medium.com/w4p8EIlKdX">https://link.medium.com/w4p8EIlKdX</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://link.medium.com/w4p8EIlKdX"><span class="markdown">Sandcastle Brings SQL to Ethereum Smart Contracts</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The latest Pre-Alpha Release of the SQL Ethereum smart contract language is available!</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/fit/t/3840/2160/1*5LaF-1b4DDCj2acCuz6wfQ.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/fit/t/3840/2160/1*5LaF-1b4DDCj2acCuz6wfQ.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">12-Jun-19 03:59 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/nlw/status/1138821744838492160?s=12">https://twitter.com/nlw/status/1138821744838492160?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/489898911738245121/2J4Hybs7_bigger.jpeg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/nlw">Nathaniel Whittemore (@nlw)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">1/ Crypto might not have Mary Meeker&#39;s annual Internet Trends report, but we have something much better: an absolute phalanx of researchers who don&#39;t wait a year but share insights monthly, weekly, daily. 
+
+Here are 20 slides of charts &amp; goodies about the latest in BTC &amp; c...</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">110</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://pbs.twimg.com/tweet_video_thumb/D83oVUIWsAA-iEA.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://pbs.twimg.com/tweet_video_thumb/D83oVUIWsAA-iEA.jpg" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">24-Jul-19 08:51 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.cryptodatadownload.com">https://www.cryptodatadownload.com</a></span>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">03-Aug-19 08:23 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.circl.lu/opendata/circl-ail-dataset-01/">https://www.circl.lu/opendata/circl-ail-dataset-01/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.circl.lu/opendata/circl-ail-dataset-01/"><span class="markdown">CIRCL &#187; CIRCL Images AIL Dataset - Open Data at CIRCL</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">CIRCL Images AIL Dataset - Open Data at CIRCL</span></div>
+
+                                    </div>
+
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">10-Aug-19 08:52 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/johnyleebrown/years-of-crypto-data">https://github.com/johnyleebrown/years-of-crypto-data</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/johnyleebrown/years-of-crypto-data"><span class="markdown">johnyleebrown/years-of-crypto-data</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Parsed crypto data from twitter. Contribute to johnyleebrown/years-of-crypto-data development by creating an account on GitHub.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars1.githubusercontent.com/u/10441153?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars1.githubusercontent.com/u/10441153?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">10-Aug-19 11:14 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://news.ycombinator.com/item?id=20663471">https://news.ycombinator.com/item?id=20663471</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            tardis_thad
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://news.ycombinator.com/item?id=20663471"><span class="markdown">Show HN: Historical order book reconstruction API for crypto markets</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>    
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://news.ycombinator.com/y18.gif" />
+                                        
+                                        <span class="chatlog__embed-footer-text">
+                                                    Hacker News
+                                                     • 
+
+                                                10-Aug-19 01:45 PM
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">11-Aug-19 03:34 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://tardis.dev/">https://tardis.dev/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(247,250,252,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://tardis.dev/"><span class="markdown">Historical tick-level cryptocurrency market data replay API</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">High precision raw historical data for cryptocurrency markets &#8212; full order book depth snapshots and incremental updates, tick-by-tick trades, quotes, liquidations and more available via HTTP and WebSocket API. BitMEX, Binance, Deribit, Bitfinex, Bitstamp, Crypto Facilities,...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://tardis.dev/assets/preview-card.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://tardis.dev/assets/preview-card.png" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">12-Aug-19 01:08 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/Blockmodo/coin_registry">https://github.com/Blockmodo/coin_registry</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/Blockmodo/coin_registry"><span class="markdown">Blockmodo/coin_registry</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A registry of JSON formatted files on 1500+ cryptocurrency tokens. Provides information like chat rooms, communities, explorers, and contact information on each coin. Used by <a href="https://blockmodo.com">https://blockmodo.com</a> ...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars1.githubusercontent.com/u/38028814?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars1.githubusercontent.com/u/38028814?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">12-Aug-19 02:49 AM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/prouast/coinmarketcap-scraper">https://github.com/prouast/coinmarketcap-scraper</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/prouast/coinmarketcap-scraper"><span class="markdown">prouast/coinmarketcap-scraper</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Python-based scraper for market cap, supply, exchange price, and exchange volume data from coinmarketcap.com - prouast/coinmarketcap-scraper</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars3.githubusercontent.com/u/7644676?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars3.githubusercontent.com/u/7644676?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>            
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551">&#10697;infominer</span>
+                <span class="chatlog__timestamp">14-Aug-19 10:48 PM</span>
+
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/Zombie-3000/Bitfinex-historical-data">https://github.com/Zombie-3000/Bitfinex-historical-data</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/Zombie-3000/Bitfinex-historical-data"><span class="markdown">Zombie-3000/Bitfinex-historical-data</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">historical 1-minute candles from bitfinex-exchange - Zombie-3000/Bitfinex-historical-data</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars2.githubusercontent.com/u/39772692?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars2.githubusercontent.com/u/39772692?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>    
+
+
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+</div>
+
+</body>
+</html>

@@ -286,38 +286,33 @@ compress_html:
 
 # Collections
 collections:
-  general:
+  info:
     output: true
     permalink: /archive/:collection/:path/
-    share: true
+  hub:
+    output: true
+    permalink: /archive/:collection/:path/
   resources:
     output: true
     permalink: /archive/:collection/:path/
-    share: true
-  crypto:
+  blockchain:
     output: true
     permalink: /archive/:collection/:path/
-    share: true
-  blockchaintech:
+  layer1:
+    output: true
+    permalink: /archive/:collection/:path/
+  chaintech:
     output: true
     permalink: /archive/blockchain-tech/:path/
-    share: true
   tech:
     output: true
     permalink: /archive/:collection/:path/
-    share: true
-  development:
+  entertainment:
     output: true
     permalink: /archive/:collection/:path/
-    share: true
-  enterprise:
-    output: true
-    permalink: /archive/:collection/:path/
-    share: true
   application:
     output: true
     permalink: /archive/:collection/:path/
-    share: true
 
 
 # Defaults
@@ -338,13 +333,12 @@ defaults:
         nav: "sourcedisco"
       toc: true
       header:
-       image: /images/Source-Crypto-banner.png
-       teaser: /images/source-crypto-gh-og.png
-       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-  # _general
+        image: /images/Source-Crypto-banner.png
+        teaser: /images/source-crypto-gh-og.png
+  # _info
   - scope:
-      path: "_general"
-      type: general
+      path: "_info"
+      type: info
     values:
       layout: single
       share: true
@@ -356,9 +350,27 @@ defaults:
       classes: wide
       disco: true
       header:
-       image: /images/Source-Crypto-banner.png
-       teaser: /images/source-crypto-gh-og.png
-       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+        image: /images/Source-Crypto-banner.png
+        teaser: /images/source-crypto-gh-og.png
+      order: 10
+  # _hub
+  - scope:
+      path: "_hub"
+      type: hub
+    values:
+      layout: single
+      share: true
+      comment: true
+      related: true
+      sidebar:
+        title: "⧉Info⧉"
+        nav: "sourcedisco"
+      classes: wide
+      disco: true
+      header:
+        image: /images/Source-Crypto-banner.png
+        teaser: /images/source-crypto-gh-og.png
+      order: 20
   # _resources
   - scope:
       path: "_resources"
@@ -374,13 +386,13 @@ defaults:
       classes: wide
       disco: true
       header:
-       image: /images/Source-Crypto-banner.png
-       teaser: /images/source-crypto-gh-og.png
-       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-    # _crypto
+        image: /images/Source-Crypto-banner.png
+        teaser: /images/source-crypto-gh-og.png
+      order: 30
+    # _blockchain
   - scope:
-      path: "_crypto"
-      type: crypto
+      path: "_blockchain"
+      type: blockchain
     values:
       layout: single
       share: true
@@ -392,13 +404,13 @@ defaults:
       classes: wide
       disco: true
       header:
-       image: /images/Source-Crypto-banner.png
-       teaser: /images/crypto-teaser.png
-       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-    # _blockchaintech
+        image: /images/Source-Crypto-banner.png
+        teaser: /images/crypto-teaser.png
+      order: 40
+    # _chaintech
   - scope:
-      path: "_blockchaintech"
-      type: blockchaintech
+      path: "_chaintech"
+      type: chaintech
     values:
       layout: single
       share: true
@@ -410,9 +422,9 @@ defaults:
       classes: wide
       disco: true
       header:
-       image: /images/Source-Crypto-banner.png
-       teaser: /images/blockchain-tech-teaser.png
-       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+        image: /images/Source-Crypto-banner.png
+        teaser: /images/blockchain-tech-teaser.png
+      order: 50
     # _tech
   - scope:
       path: "_tech"
@@ -428,13 +440,13 @@ defaults:
       classes: wide
       disco: true
       header:
-       image: /images/Source-Crypto-banner.png
-       teaser: /images/tech-teaser-1.png
-       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-    # _development
+        image: /images/Source-Crypto-banner.png
+        teaser: /images/tech-teaser-1.png
+      order: 60
+    # _entertainment
   - scope:
-      path: "_development"
-      type: development
+      path: "_entertainment"
+      type: entertainment
     values:
       layout: single
       share: true
@@ -446,27 +458,9 @@ defaults:
       classes: wide
       disco: true
       header:
-       image: /images/Source-Crypto-banner.png
-       teaser: /images/development.png
-       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
-    # _enterprise
-  - scope:
-      path: "_enterprise"
-      type: enterprise
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        title: "⧉Info⧉"
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-      header:
-       image: /images/Source-Crypto-banner.png
-       teaser: /images/source-crypto-gh-og.png
-       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+        image: /images/Source-Crypto-banner.png
+        teaser: /images/development.png
+      order: 70
     # _application
   - scope:
       path: "_application"
@@ -482,6 +476,6 @@ defaults:
       classes: wide
       disco: true
       header:
-       image: /images/Source-Crypto-banner.png
-       teaser: /images/source-crypto-gh-og.png
-       caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
+        image: /images/Source-Crypto-banner.png
+        teaser: /images/source-crypto-gh-og.png
+      order: 50
