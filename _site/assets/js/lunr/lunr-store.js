@@ -630,7 +630,7 @@ var store = [{
         "url": "http://localhost:4000/posts/agoric/mark-miller/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Object Capabilities (ObCap)",
-        "excerpt":"The object-capability model was first proposed by Jack Dennis and Earl C. Van Horn in the 1966 paper. Programming Semantics for Multiprogrammed Computations The semantics are defined for a number of meta-instructions which perform operations essential to the writing of programs in multiprogrammed computer systems. These meta-instructions relate to parallel...","categories": ["Crypto","Agoric"],
+        "excerpt":"The object-capability model was first proposed by Jack Dennis and Earl C. Van Horn in the 1966 paper. Programming Semantics for Multiprogrammed Computations The semantics are defined for a number of meta-instructions which perform operations essential to the writing of programs in multiprogrammed computer systems. These meta-instructions relate to parallel...","categories": ["Agoric","Crypto"],
         "tags": ["Mark Miller","ObCap","Smart Contracts"],
         "url": "http://localhost:4000/posts/crypto/object-capabilities/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{

@@ -9,7 +9,7 @@ toc: false
 classes: wide
 share: true
 last_modified_at: 2019-06-25T11:22:33-23:00
-categories: ["Crypto","Agoric"]
+categories: ["Agoric","Crypto"]
 tags: ["Mark Miller", "ObCap", "Smart Contracts"]
 toc_sticky: true
 permalink: /posts/crypto/object-capabilities/
