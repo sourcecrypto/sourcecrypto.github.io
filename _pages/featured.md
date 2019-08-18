@@ -10,7 +10,7 @@ header:
   overlay_image: /images/featured-header.png
   actions:
     - label: "Learn More"
-      url: "/blog/research-index/"
+      url: "/about/"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is creating an index of crypto knowledge. This page features some of its freshest along with team favorites."
 description: "Source Crypto Discord Chat is creating an index of crypto knowledge. This page features some of its freshest content along with some team favorites."
@@ -19,7 +19,7 @@ intro:
     alt: "Down the @TheCryptoconomy Rabbithole"
     title: "Guy Swan - @TheCryptoconomy Essential Episodes"
     excerpt: "Audio for Hundreds of Essential Bitcoin Articles. @TheCryptoconomy - Guy Swan..... These Podcasts are essential. So I made an index of them, organized by topic."
-    url: "blog/thecryptoconomy-podcast-deep-dive/"
+    url: "/posts/Bitcoin/thecryptoconomy-podcast-deep-dive/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
@@ -27,7 +27,7 @@ feature_row4:
     alt: "Bitcoin Raspberri Pi Art"
     title: "Practical Bitcoin: Tools, Apps, Libraries and HowTos."
     excerpt: "All information related to using Bitcoin. Buying and selling p2p, escrow, key signatures, proofs, payments, games, development, and more."
-    url: "/blog/Bitcoin/practial/"
+    url: "/posts/Bitcoin/practial/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /images/SourceCrypto-DiscoLog-teaser.png
@@ -39,7 +39,7 @@ feature_row4:
     alt: "commons.wikimedia.org/wiki/File:Bitcoin_lightning_sticker.png"
     title: "The Bitcoin Lightnign Network: Tools, Apps, Guides and other Information."
     excerpt: "Everything related to Bitcoin's Lightning Network. Games, Apps, Tools, Statistics and more."
-    url: "/blog/Bitcoin/lightning/"
+    url: "/posts/Bitcoin/lightning/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row:
