@@ -325,11 +325,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
       share: true
       related: true
       sidebar:
-        title: "⧉Info⧉"
         nav: "sourcedisco"
       toc: true
       header:
@@ -342,10 +340,8 @@ defaults:
     values:
       layout: single
       share: true
-      comment: true
       related: true
       sidebar:
-        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
@@ -363,7 +359,6 @@ defaults:
       comment: true
       related: true
       sidebar:
-        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
@@ -378,10 +373,8 @@ defaults:
     values:
       layout: single
       share: true
-      comment: true
       related: true
       sidebar:
-        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
@@ -396,10 +389,8 @@ defaults:
     values:
       layout: single
       share: true
-      comment: true
       related: true
       sidebar:
-        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
@@ -414,10 +405,8 @@ defaults:
     values:
       layout: single
       share: true
-      comment: true
       related: true
       sidebar:
-        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
@@ -432,10 +421,8 @@ defaults:
     values:
       layout: single
       share: true
-      comment: true
       related: true
       sidebar:
-        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
@@ -450,16 +437,13 @@ defaults:
     values:
       layout: single
       share: true
-      comment: true
       related: true
       sidebar:
-        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
       header:
         image: /images/Source-Crypto-banner.png
-        teaser: /images/development.png
       order: 70
     # _application
   - scope:
@@ -468,14 +452,12 @@ defaults:
     values:
       layout: single
       share: true
-      comment: true
       related: true
       sidebar:
-        title: "⧉Info⧉"
         nav: "sourcedisco"
       classes: wide
       disco: true
       header:
         image: /images/Source-Crypto-banner.png
         teaser: /images/source-crypto-gh-og.png
-      order: 50
+      order: 80
