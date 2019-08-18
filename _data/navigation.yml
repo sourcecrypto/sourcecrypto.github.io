@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Feature"
+    url: /feature/
   - title: "Recent Posts"
     url: /posts/
   - title: "Archive"

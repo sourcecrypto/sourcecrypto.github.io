@@ -17,52 +17,52 @@ description: "Source Crypto Discord Chat is creating an index of crypto knowledg
 intro:
   - image_path: /images/thecryptoconomy-podcast_guy-swann.png
     alt: "Down the @TheCryptoconomy Rabbithole"
-    title: "Guy Swan - @TheCryptoconomy Essential Episods"
+    title: "Guy Swan - @TheCryptoconomy Essential Episodes"
     excerpt: "Audio for Hundreds of Essential Bitcoin Articles. @TheCryptoconomy - Guy Swan..... These Podcasts are essential. So I made an index of them, organized by topic."
     url: "blog/thecryptoconomy-podcast-deep-dive/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /images/facebook_libra_exhaustive-og.png
-    alt: "Libra Collage, Source Unknonwn"
-    title: "The Libra Blockchain"
-    excerpt: "Everything related to Facebook's LibraCoin - A simple global currency and financial infrastructure that empowers billions of people."
-    url: "/blog/libra-facebook/"
+  - image_path: /images/practical-bitcoin-raspberry-pi.jpeg
+    alt: "Bitcoin Raspberri Pi Art"
+    title: "Practical Bitcoin: Tools, Apps, Libraries and HowTos."
+    excerpt: "All information related to using Bitcoin. Buying and selling p2p, escrow, key signatures, proofs, payments, games, development, and more."
+    url: "/blog/Bitcoin/practial/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /images/SourceCrypto-DiscoLog-teaser.png
-    excerpt: "There is so much to learn about, I mostly manage to avoid thinking about scammy stuff and icos, and really whatever you are hyped about, I probably don't care. So the application section is in rough shape.. I don't spend a lot of time there. Tech, History, Development, Webwork. I care about real web technologies."
+    excerpt: "A regularly updated archive of the SourceCrypto Discord Chat Social Curation Initiative.."
     url: "/archive/"
-    btn_label: "DiscoLog"
+    btn_label: "Social Archive"
     btn_class: "btn--primary"
-  - image_path: /images/libra-map-the-block-preview.jpg
-    alt: "The Libra Association Map via @TheBlock_"
-    title: "The Libra Association"
-    excerpt: "Everything related to LibraCoin's Consortium, 'The Libra Association'"
-    url: "/blog/libra-association/"
+  - image_path: /images/Bitcoin_lightning_network-teaser.png
+    alt: "commons.wikimedia.org/wiki/File:Bitcoin_lightning_sticker.png"
+    title: "The Bitcoin Lightnign Network: Tools, Apps, Guides and other Information."
+    excerpt: "Everything related to Bitcoin's Lightning Network. Games, Apps, Tools, Statistics and more."
+    url: "/blog/Bitcoin/lightning/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row:
   - image_path: /images/blockchain-tech-teaser.png
-    alt: "Preview image for Blockchain Tech Category."
-    title: "Blockchain Tech"
+    alt: "Preview image for ChainTech."
+    title: "Blockchain Tech Archive"
     excerpt: 'This category is for all blockchain specific technologies.'
-    url: "/archive/blockchain-tech/"
-    btn_label: "Collection DIrectory"
+    url: "/archive/chaintech/"
+    btn_label: "Social Archive"
     btn_class: "btn--primary"
   - image_path: /images/tech-teaser-1.png
     alt: "Preview image for Tech Category"
-    title: "Tech"
-    excerpt: "This category is for all crypto-related, but not specific to blockchain."
+    title: "Technical"
+    excerpt: "Tech subjects tangentally related to Crypto."
     url: "/archive/tech/"
-    btn_label: "Collection DIrectory"
+    btn_label: "Social Archive"
     btn_class: "btn--primary"
-  - image_path: /images/development.png
-    alt: "Preview image for Development Category"
-    title: "Development"
-    excerpt: "This category is for all crypto-related development resources, along with some general dev resources for beginners."
-    url: "/archive/development/"
-    btn_label: "Collection DIrectory"
+  - image_path: /images/blockchain.png
+    alt: "Preview image for Blockchain Category"
+    title: "Blockchain"
+    excerpt: "Information on various blockchain and cryptocurrencies."
+    url: "/archive/blockchain/"
+    btn_label: "Social Archive"
     btn_class: "btn--primary"
 feature_row2:
   - image_path: "https://web-work.tools/images/100s-SEO-tools.png"
