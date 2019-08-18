@@ -47,8 +47,6 @@ redirect_from:
   - "/history/"
   - /bitcoin-history/
 canonical_url: "https://sourcecrypto.pub/categories/#history"
-redirect_to:
-  - "https://sourcecrypto.pub/categories/#history"
 ---
 
 I've merged the bitcoin history site into this one. Now that I know how to use Minimal Mistakes Jekyll better, I can see how it makes more sense to have them in the same site setup.
@@ -59,7 +57,7 @@ I've merged the bitcoin history site into this one. Now that I know how to use M
 
 <h2>History related to Bitcoin</h2>
 
-{% for post in site.categories.history %}
+{% for post in site.categories.History %}
   {% include archive-single.html %}
 {% endfor %}
 

@@ -7,17 +7,17 @@ header:
   image: /images/source-crypto-disco.png
   og_image: /images/source-crypto-disco.png #/images/source-crypto-gh-og.png
   teaser: /images/source-crypto-disco.png
-  caption: #"@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 sidebar:
   nav: sourcedisco 
 toc: true
 share: true
 tags: ["Introduction"]
-last_modified_at: 2019-06-20T11:22:33-23:00
-categories: ["SourceCrypto"]
-permalink: posts/research-index/
+last_modified_at: 2019-08-17T11:22:33-23:00
+categories: ["About","SourceCrypto"]
+permalink: /about/
 redirect_from:
   - blog/research-index/
+  - posts/research-index/
 ---
 
 **A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge.**
@@ -35,40 +35,19 @@ So, little by little, those un-organized pages will grow to become each a formid
 
 While I do intend to build custom pages for most of these channels, being able to simply export the entire discord server and publish it is excellent.
 
-## SourceCrypto
-
-**[discord.gg/ahTuPMY](https://discord.gg/ahTuPMY)**
-* [Discord Index](https://SourceCrypto.pub/archive/)
-  * [General](https://SourceCrypto.pub/archive/general/)
-  * [Resources](https://SourceCrypto.pub/archive/resources/)
-  * [Crypto](https://SourceCrypto.pub/archive/crypto/)
-  * [Blockchain-Tech](https://SourceCrypto.pub/archive/blockchain-tech/)
-  * [Tech](https://SourceCrypto.pub/archive/tech/)
-  * [Development](https://SourceCrypto.pub/archive/development/)
-  * [Enterprise](https://SourceCrypto.pub/archive/enterprise/)
-  * [Application](https://SourceCrypto.pub/archive/application/)
-  * [Web Work](https://SourceCrypto.pub/archive/web-work/)
-
-For now you can browse the entire index of channels at once, or one category at a time.
-
-For those who would like to browse from GitHub, all the pages are in `_pages`, all the files that become (via jekyll collections) the pages of the archive are in `archive`, all the data is in `_data`.  
-
-Everything else is `mmistakes/minimal-mistakes`. Pretty straightforward: its [open-source](https://github.com/mmistakes/minimal-mistakes), and [well-documented](https://mmistakes.github.io/minimal-mistakes/).
-
 
 ## A Machine Readable Repository on Every Subject In Crypto.
 
+* [Server Archive](https://SourceCrypto.pub/archive/)
+* [sourcecrypto/sourcecrypto.github.io](https://github.com/sourcecrypto/sourcecrypto.github.io)
 
-* [Source⧉Crypto](https://discord.gg/ahTuPMY) - I collect and categorize links in here, on the fly.
+
+[**Source⧉Crypto Discord server**](https://discord.gg/ahTuPMY) - I collect and categorize links in here, on the fly.
 ![](https://i.imgur.com/hLOk7yL.png)
 
-Previously, I was putting information in TOML format. Then, after I started to learn GitHub pages, and working with some other people on a similar project for Decentralized Identity, I realized that GitHub Pages \ Jekyll have built-in support for yaml, csv, and json... so, yaml is nice and we'll go with that. 
+Previously, I was putting information in TOML format. Then, after I started to learn GitHub pages, and working with some other people on a similar project for Decentralized Identity, I realized that GitHub Pages \ Jekyll have built-in support for yaml, csv, and json... but I haven't really gotten so far as figuring that out. 
 
 Recently, I found [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter/) which quickly turned the entire contents of Source Crypto Discord Server into 170+ html files. 
-
-If you're using linux, like me... you just have to make it's .exe executable and run it from the terminal, like so: `./DiscordChatExporter.CLI.exe`.
-
-I also used a bulk-renaming tool, and Regex.. those are both great tools, and Regex isn't limited to one particular app, but used all over.
 
 Then, I used minimal-mistakes collections feature to quickly publish the lot of them, using VSCode to easily edit all of the files at the same time. 
 
@@ -76,25 +55,36 @@ I cut out the head of each of the files and injected the css to be applied to th
 
 [![](https://imgur.com/zLF17fAl.png)](https://imgur.com/zLF17fA.png)
 
-That's super quick, and not so dirty, way to get all that content up here on the web where anyone can access it more easily.
-
+That's a super quick way to get all that content up here on the web where anyone can access it more easily.
 
 * [sourcecrypto/sourcecrypto.github.io](https://github.com/sourcecrypto/sourcecrypto.github.io) -  Now I have a few complete and proper toml files converted to json that I can use to experiment with generating pages - listing by title, tag, and incorporating search functionality, or perhaps filter by user-input.
 
-I'm looking into ways to take a list of links and pull title description image automatically into yaml or json, and pages can be generated with jekyll.
-
-Further down the line, each subject area will become the focus of its own landing page with well researched information, building with and from the structured data. Compared to currently we've got whatever I've happened upon in my travels of the web, with some contributions from the community, with a focus on history and identity. 
-
 * [GitHub Pages Starter Pack](https://web-work.tools/gh-pages-starter-pack/)
 * [Minimal Mistakes Quickstart Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
-
+* [Publishing Discord Server Archives via Minimal Mistakes](https://didecentral.com/contributors-guide/discord-archive-howto/)
 
 ![](https://i.imgur.com/pYydLx7.png)
 
-## [discord.gg/ahTuPMY](https://discord.gg/ahTuPMY)
+[![](https://SourceCrypto.pub/images/interlinked.png)](https://discord.gg/ahTuPMY)
 
+## Related Servers
 
+### Web-work.tools
 
-![](https://SourceCrypto.pub/images/interlinked.png){: .align-center}
+* [Web-work.tools](https://web-work.tools)
+* [Web-work.tools Discord Chat](https://discord.gg/29mZwPQ)
 
+### Crypto Finance
 
+* [CryptoFinance Discord Chat](https://discord.gg/TGG3T7H)
+
+### Bitcoin Nerds
+
+Eventually all of the info in these Bitcoin servers will be published on the same site.
+
+* [bitcoin-nerds.xyz](https://bitcoin-nerds.xyz/)
+* [github.com/bitcoin-nerds](https://github.com/bitcoin-nerds/)
+* [BTC-Nerds Discord Chat](https://discord.gg/nxcACHc)
+* [Practical Bitcoin Discord Chat](https://discord.gg/c2Rrbx5)
+* [Lightning Network Info](https://discord.gg/2c4Sd7u)
+* [Bitcoin History Discord Chat](https://discord.gg/Evk84Kk)

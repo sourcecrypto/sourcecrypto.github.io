@@ -490,9 +490,9 @@ var store = [{
         "url": "http://localhost:4000/archive/layer1/tendermint/",
         "teaser":"http://localhost:4000/images/Source-Crypto-og.png"},{
         "title": "SourceCrypto Research-Index",
-        "excerpt":"A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge. Source Crypto Discord Chat is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the channels here. The next step is to systematically build better, more organized resources with the server...","categories": ["SourceCrypto"],
+        "excerpt":"A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge. Source Crypto Discord Chat is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the channels here. The next step is to systematically build better, more organized resources with the server...","categories": ["About","SourceCrypto"],
         "tags": ["Introduction"],
-        "url": "http://localhost:4000/posts/research-index/",
+        "url": "http://localhost:4000/about/",
         "teaser":"http://localhost:4000/images/source-crypto-disco.png"},{
         "title": "Bahamas: The 'Silicon Valley' of the Caribbean",
         "excerpt":"Pristine beaches and palm trees are the first thing that come to mind. Of course, the Bahamas are also famous for their tax-protected off-shore banking. However, the Bahamas are now digital pioneers, with an eye to become the tech leaders of the Caribbean. I’m assembling this repository in collaboration with...","categories": ["History"],
@@ -579,11 +579,6 @@ var store = [{
         "tags": ["PGP","Escrow","Key Signatures","Bitcoin","Ethereum","DeepDotWeb","Practical"],
         "url": "http://localhost:4000/posts/crypto/keysigs-escrow-bitcoin-ethereum-pgp/",
         "teaser":"https://web-work.tools/images/pgp-og.png"},{
-        "title": "Blockchain Identity Reources - TOML",
-        "excerpt":" ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/posts/id-toml/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Public vs Private Blockchains for the Enterprise",
         "excerpt":"This is a very special podcast for us as it is our first debate format on Insureblocks. We were extremely privileged to have two titans/Jedi Masters from the blockchain community join us for this podcast. On one side we have Richard Brown, Chief Technology Officer from R3, builders of Corda,...","categories": ["Transcripts","Enterprise"],
         "tags": ["Permissionless","Ethereum","Permissioned","DLT","R3","IBM","John Wolpert","Richard Gendal Brown"],
