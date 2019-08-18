@@ -2,10 +2,12 @@
 main:
   - title: "Recent Posts"
     url: /posts/
-  - title: "Tags"
-    url: /tags/
   - title: "Archive"
     url: "/archive/"
+  - title: "Tags"
+    url: /tags/
+  - title: About
+    url: /about/
   - title: "Info⧉Hub"
     url: "https://infominer.id/"
   - title: "Decentralized Web"
@@ -20,12 +22,16 @@ main:
     url: "https://web-work.tools/indieweb"
   - title: "Github Pages Starter Pack"
     url: "https://web-work.tools/github-pages-starter-pack/"
+  - title: "Publishing Discord Server Archives via Minimal Mistakes"
+    url: "https://didecentral.com/contributors-guide/discord-archive-howto/"
 
 
 sourcedisco:
   - title: "Info⧉Hub"
     url: "https://infominer.id/"
     children:
+      - title: "• About SourceCrypto"
+        url: /about/
       - title: "• Learn Crypto Trading"
         url: "https://learncryptotrading.co"
       - title: "• Decentralized Web Histories"
