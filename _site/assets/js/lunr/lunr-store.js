@@ -343,27 +343,27 @@ var store = [{
         "excerpt":"Source&#10697;Crypto &#128760;art-collectibles DIgitally Rare Items including art, baseball cards, mlb collectibles, cryptokitties etc. 20 messages &#10697;infominer 08-Aug-18 09:18 PM https://www.rareart.io/ R.A.R.E. Digital Art Network The first platform for artists to sell scarce copies of their digital art. &#10697;infominer 23-Aug-18 12:06 AM https://twitter.com/PowerDada/status/1032351294919458825 DADA (@PowerDada) A really NIFTY conversation between 3...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/archive/entertainment/art-collectibles/",
-        "teaser":"http://localhost:4000/images/development.png"},{
+        "teaser":"http://localhost:4000/images/Source-Crypto-og.png"},{
         "title": "eth-games",
         "excerpt":"                                 Source&#10697;Crypto         &#128760;eth-games                                1 messages                                                                                                               &#10697;infominer                 02-Aug-19 03:14 PM                                                       https://twitter.com/econoar/status/1155607758500061184?s=12                                                                                                                                                                                                                                                                                                                                                                                                          Eric Conner (@econoar)                                                                                                                                             I need to try out some Ethereum games finally. What should I try?                                                                                                                                                                Likes                                                             106                                                                                                                                                                                                                                                                                                                                                                                                            Twitter                                                                                                                                                                                                                 ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/archive/entertainment/eth-games/",
-        "teaser":"http://localhost:4000/images/development.png"},{
+        "teaser":"http://localhost:4000/images/Source-Crypto-og.png"},{
         "title": "games",
         "excerpt":"Source&#10697;Crypto &#128760;games 29 messages &#10697;infominer 08-Aug-18 11:39 PM http://www.wob.games/ &#10697;infominer 09-Sep-18 01:36 AM https://www.justcryptonews.com/press-releases/179/open-source-blockchain-gaming-distribution-platform-xenio-new-release Open-Source Blockchain Gaming Distribution Platform Xenio New Release After months of closed development, the team behind the open source Xenio project have released version 0.2 of their blockchain source code, the first in a planned series...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/archive/entertainment/games/",
-        "teaser":"http://localhost:4000/images/development.png"},{
+        "teaser":"http://localhost:4000/images/Source-Crypto-og.png"},{
         "title": "komodore64",
         "excerpt":"Source&#10697;Crypto &#128760;komodore64 13 messages &#10697;infominer 02-Aug-19 03:17 PM https://www.komodore64.com/ Komodore64 - Next Level Gaming - K64 Komodore64 is a Dutch video game company creating the next level entertainment experience for everyone. We lead the mass adoption of blockchain games by introducing K64 Virtual Console. https://expo.komodore64.com/ Marius Komodore64.com K64 BLOCKCHAIN GAME...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/archive/entertainment/komodore64/",
-        "teaser":"http://localhost:4000/images/development.png"},{
+        "teaser":"http://localhost:4000/images/Source-Crypto-og.png"},{
         "title": "music",
         "excerpt":"Source&#10697;Crypto &#128444;music 45 messages &#10697;infominer 02-Aug-19 10:18 PM http://myceliaformusic.org/ Carlotta MYCELIA HOME https://hbr.org/2017/06/blockchain-could-help-musicians-make-money-again Blockchain Could Help Musicians Make Money Again It has the potential to give us a new golden age of music. http://open-music.org/ Open Music Initiative The Open Music Initiative dramatically simplifies the way music creators and rights owners...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/archive/entertainment/music/",
-        "teaser":"http://localhost:4000/images/development.png"},{
+        "teaser":"http://localhost:4000/images/Source-Crypto-og.png"},{
         "title": "Bitcoin HIstory",
         "excerpt":"Source&#10697;Crypto &#10697;-bitcoin-history-&#10697; 3 messages &#10697;infominer 06-Aug-19 06:08 PM https://discord.gg/Evk84Kk &#10697;infominer 08-Aug-19 01:04 AM https://btc-nerds.xyz/bitcoin-history/ A growing assortment of knowledge related to the history of Bitcoin. Histories of Bitcoin and related fields. &#10697;infominer 10-Aug-19 08:30 AM This server has all information related to the history of bitcoin... but &quot;general&quot; internet history...","categories": [],
         "tags": [],
