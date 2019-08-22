@@ -23,8 +23,8 @@ tags:
 redirect_from:
   - /transcripts/blockchain-business-history/
   - /transcripts/history-business-blockchain-kuhlman-monax/
-permalink: /posts/transcripts/JW-Weatherman-Interview-Tim-May/
-cannonical_url: 'https://sourcecrypto.pub/posts/transcripts/JW-Weatherman-Interview-Tim-May/'
+permalink: /posts/transcripts/blockchain-business-history/
+cannonical_url: 'https://sourcecrypto.pub/posts/transcripts/blockchain-business-history/'
 
 ---
 
