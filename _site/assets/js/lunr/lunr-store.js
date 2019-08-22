@@ -557,7 +557,7 @@ var store = [{
         "title": "History of Blockchains for Business at HGF2018",
         "excerpt":"This talk focuses on the history of blockchains in a business context as lived and told by the CEO of the first company to build a permissioned, smart contract compatible blockchain codebase (the codebase currently known as Hyperledger Burrow). There are three phases to the talk and a predominant lesson...","categories": ["Transcripts","Enterprise"],
         "tags": ["Bitcoin","HGF2018","Permissioned","DLT","History"],
-        "url": "http://localhost:4000/posts/transcripts/JW-Weatherman-Interview-Tim-May/",
+        "url": "http://localhost:4000/posts/transcripts/blockchain-business-history/",
         "teaser":"http://localhost:4000/images/business-blockchain-history-monax.png"},{
         "title": "Blockchain and the United Nations",
         "excerpt":"The organizations are listed roughly in order of when they got involved with blockchain. I’m sure to have missed a few things. Please leave an issue, pull request, or contact me if there’s anything you’d like included. Off the top of my head: Bitcoin, Ethereum, Stellar and IOTA have worked...","categories": ["History"],
