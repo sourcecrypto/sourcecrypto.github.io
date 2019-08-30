@@ -1,0 +1,334 @@
+I"›
+<div class="feature__wrapper">
+
+  
+
+    
+
+    <div class="feature__item--center">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/agoric-papers-teaser.png" alt="The Agoric Papers Teaser Image" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">The Agoric Papers</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988</p>
+
+            </div>
+          
+
+          
+            <p><a href="/posts/agoric/papers-miller-drexler/" class="btn btn--primary">Read More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<div class="feature__wrapper">
+
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/practical-bitcoin-raspberry-pi.jpeg" alt="Bitcoin Raspberri Pi Art" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Practical Bitcoin: Tools, Apps, Libraries and HowTos.</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>All information related to using Bitcoin. Buying and selling p2p, escrow, key signatures, proofs, payments, games, development, and more.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/posts/Bitcoin/practial/" class="btn btn--primary">Read More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/SourceCrypto-DiscoLog-teaser.png" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>A regularly updated archive of the SourceCrypto Discord Chat Social Curation Initiative..</p>
+
+            </div>
+          
+
+          
+            <p><a href="/archive/" class="btn btn--primary">Social Archive</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/Bitcoin_lightning_network-teaser.png" alt="commons.wikimedia.org/wiki/File:Bitcoin_lightning_sticker.png" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">The Bitcoin Lightnign Network: Tools, Apps, Guides and other Information.</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Everything related to Bitcoinâ€™s Lightning Network. Games, Apps, Tools, Statistics and more.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/posts/Bitcoin/lightning/" class="btn btn--primary">Read More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<div class="feature__wrapper">
+
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/blockchain-tech-teaser.png" alt="Preview image for ChainTech." />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Blockchain Tech Archive</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>This category is for all blockchain specific technologies.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/archive/chaintech/" class="btn btn--primary">Social Archive</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/tech-teaser-1.png" alt="Preview image for Tech Category" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Technical</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Tech subjects tangentally related to Crypto.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/archive/tech/" class="btn btn--primary">Social Archive</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/blockchain.png" alt="Preview image for Blockchain Category" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Blockchain</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Information on various blockchain and cryptocurrencies.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/archive/blockchain/" class="btn btn--primary">Social Archive</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<div class="feature__wrapper">
+
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://web-work.tools/images/100s-SEO-tools.png" alt="SEO-Tools" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">100s of Free SEO Tools</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>An Open-Source Directory of mostly free SEO Tools.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://web-work.tools/seo-tools/" class="btn btn--primary">Read More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://decentralized-id.com/images/decentralized-identity-github-repositories.png" alt="Open Source Identity Solutions" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">SSI-DID Github Repositories</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>A start at listing all DID-SSI related GitHub Repositories.</p>
+
+            </div>
+          
+
+          
+            <p><a href="http://decentralized-id.com/identity-github/" class="btn btn--primary">Read More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+    
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/images/github-pages-teaser.jpeg" alt="GHPages Starter Pack" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">GitHub Pages Starter Pack</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Publishing a Website via GitHub pages is free, and easy. Everything you need to get going in one place + extended resources.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://web-work.tools/github-pages-starter-pack/" class="btn btn--primary">Read More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+:ET

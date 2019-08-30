@@ -15,11 +15,11 @@ header:
 excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is creating an index of crypto knowledge. This page features some of its freshest along with team favorites."
 description: "Source Crypto Discord Chat is creating an index of crypto knowledge. This page features some of its freshest content along with some team favorites."
 intro:
-  - image_path: /images/thecryptoconomy-podcast_guy-swann.png
-    alt: "Down the @TheCryptoconomy Rabbithole"
-    title: "Guy Swan - @TheCryptoconomy Essential Episodes"
-    excerpt: "Audio for Hundreds of Essential Bitcoin Articles. @TheCryptoconomy - Guy Swan..... These Podcasts are essential. So I made an index of them, organized by topic."
-    url: "/posts/Bitcoin/thecryptoconomy-podcast-deep-dive/"
+  - image_path: images/agoric-papers-teaser.png
+    alt: "The Agoric Papers Teaser Image"
+    title: "The Agoric Papers"
+    excerpt: "These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988"
+    url: "/posts/agoric/papers-miller-drexler/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
@@ -96,7 +96,7 @@ feature_row2:
  #   btn_class: "btn--primary"
 
 published: true
-date: 2016-06-22T11:22:33-22:00
+last_modified_at: 2019-08-29T11:22:33-23:00
 
 #{% include feature_row id="feature_row3" type="center" %}
 
