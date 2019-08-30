@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Infominer.id"
+    url: "https://infominer.id/"
   - title: "Feature"
     url: /feature/
   - title: "Recent Posts"
@@ -10,8 +12,6 @@ main:
     url: /tags/
   - title: About
     url: /about/
-  - title: "Info⧉Hub"
-    url: "https://infominer.id/"
   - title: "Decentralized Web"
     url: https://sourcecrypto.pub/decentralized-web/
   - title: "Learn Crypto Trading"
@@ -34,18 +34,18 @@ sourcedisco:
     children:
       - title: "• About SourceCrypto"
         url: /about/
-      - title: "• Learn Crypto Trading"
-        url: "https://learncryptotrading.co"
-      - title: "• Decentralized Web Histories"
-        url: "https://sourcecrypto.pub/decentralized-web/"
       - title: "• Decentralized-id.com"
         url: "https://decentralized-id.com"
       - title: "• DIDecentral Community"
         url: "https://didecentral.com"
       - title: "• Webwork Tools"
         url: "https://web-work.tools"
+      - title: "• Learn Crypto Trading"
+        url: "https://learncryptotrading.co"
       - title: "• IndieWeb"
         url: "https://web-work.tools/indieweb"
+      - title: "• Decentralized Web Histories"
+        url: "https://sourcecrypto.pub/decentralized-web/"
   - title: "Collab⧉Curate"
     children:
       - title: "• Bitcoin Nerds"
