@@ -4,6 +4,12 @@ layout: archive
 
 {{ content }}
 
+{% include feature_row id="collab" type="right" %}
+
+<h2>Feature</h2>
+
+{% include feature_row id="intro" type="left" %}
+
 <h2>Categories</h2>
 
 {% assign categories_max = 0 %}
@@ -27,12 +33,7 @@ layout: archive
   {% endfor %}
 </ul>
 
-<h2>Feature</h2>
-
-{% include feature_row id="intro" type="center" %}
-
 <h2>Posts by Category</h2>
-
 
 {% for i in (1..categories_max) reversed %}
   {% for category in site.categories %}
