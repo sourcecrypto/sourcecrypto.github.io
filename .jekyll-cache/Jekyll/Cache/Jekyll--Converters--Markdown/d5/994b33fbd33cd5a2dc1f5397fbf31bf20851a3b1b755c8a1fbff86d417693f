@@ -1,0 +1,2 @@
+I"V<p>Modern smart contract systems should learn a lesson or five from it, most importantly, (object) capability security. [<a href="https://news.ycombinator.com/item?id=19986189">…</a>] it lets programs handle permissions like other objects, keeping them apart and thus reducing the attack surface and preventing Confused Deputy attacks.</p>
+:ET

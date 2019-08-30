@@ -1,0 +1,52 @@
+I"ï<ul class="toc__menu">
+  <li><a href="#practical-bitcoin-resources">Practical Bitcoin Resources</a>
+    <ul>
+      <li><a href="#developers-resources">Developers Resources</a></li>
+    </ul>
+  </li>
+  <li><a href="#you-must-do-your-own-research">You MUST Do Your Own Research</a>
+    <ul>
+      <li><a href="#buying-bitcoin">Buying Bitcoin</a></li>
+      <li><a href="#earn-bitcoin">Earn Bitcoin</a></li>
+      <li><a href="#privacy">Privacy</a></li>
+      <li><a href="#escrow">Escrow</a></li>
+      <li><a href="#fees">Fees</a></li>
+      <li><a href="#explorers">Explorers</a></li>
+    </ul>
+  </li>
+  <li><a href="#wallets">Wallets</a>
+    <ul>
+      <li><a href="#samourai-wallet">Samourai Wallet</a></li>
+      <li><a href="#wasabi-wallet">Wasabi Wallet</a></li>
+      <li><a href="#electrum">Electrum</a></li>
+      <li><a href="#blockstream-green">Blockstream Green</a></li>
+      <li><a href="#bitgo">BitGo</a></li>
+      <li><a href="#paper-wallets">Paper Wallets</a></li>
+      <li><a href="#hardware-wallets">Hardware Wallets</a></li>
+    </ul>
+  </li>
+  <li><a href="#running-a-bitcoin-full-node">Running a Bitcoin Full Node</a>
+    <ul>
+      <li><a href="#other-implementations">Other Implementations</a></li>
+    </ul>
+  </li>
+  <li><a href="#node-hardware">Node Hardware</a>
+    <ul>
+      <li><a href="#raspberry---sbcs">Raspberry - SBCs</a></li>
+    </ul>
+  </li>
+  <li><a href="#application">Application</a>
+    <ul>
+      <li><a href="#open-bazaar">Open Bazaar</a></li>
+      <li><a href="#proofs">Proofs</a></li>
+      <li><a href="#btcpay-server">BTCPay Server</a></li>
+    </ul>
+  </li>
+  <li><a href="#layer-2">Layer 2</a>
+    <ul>
+      <li><a href="#rootstock">Rootstock</a></li>
+      <li><a href="#liquid">Liquid</a></li>
+    </ul>
+  </li>
+</ul>
+:ET

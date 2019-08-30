@@ -1,0 +1,194 @@
+I"�3<h3 id="digicash">DigiCash</h3>
+<ul>
+  <li><a href="https://www.chaum.com/ecash/articles/1994/05-27-94%20-%20World_s%20first%20electronic%20cash%20payment%20over%20computer%20networks.pdf">Digicash enables First Electronic Payment</a> - 1994</li>
+  <li><a href="https://www.chaum.com/ecash/">eCash</a> - Timeline [1998]</li>
+  <li><a href="https://www.wired.com/1994/12/emoney/">E-MONEY (THAT’S WHAT I WANT)</a></li>
+  <li><a href="https://satoshiwatch.com/hall-of-fame/dr-david-chaum/in-depth/digicash-blew-everything-david-chaums/">How DigiCash Blew Everything</a> [<a href="https://cryptome.org/jya/digicrash.htm"><strong>ϟ</strong></a>]</li>
+  <li><a href="https://ebrary.net/7927/education/brief_history_digital_currencies">A Brief History of Digital Currencies</a>
+    <ul>
+      <li>History of digital currencies of the 90’s with DigiCash as the primary example</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="firstvirtual-and-cybercash">FirstVirtual and CyberCash</h3>
+
+<ul>
+  <li><a href="https://medium.com/@danielsfskim/the-early-history-of-digital-cash-and-cryptocurrency-b87436711de0">Early History of Digital Cash and Cryptocurrency</a>
+    <ul>
+      <li>In 1994, FirstVirtual offered online payments, like paypal, via e-mail.</li>
+      <li>1994 - CyberCash - utilizing SET architecture to provide micro-payments
+        <blockquote>
+          <p>Secure electronic transaction (SET) was an early protocol for electronic credit card payments. As the name implied, SET was used to facilitate the secure transmission of consumer credit card information via electronic avenues, such as the Internet. SET blocked out the details of credit card information, thus preventing merchants, hackers and electronic thieves from accessing this information. -<a href="https://www.investopedia.com/terms/s/secure-electronic-transaction-set.asp">investopedia</a></p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+  <li><a href="https://tools.ietf.org/html/rfc1898">CyberCash Credit Card Protocol Version 0.8</a></li>
+</ul>
+
+<h3 id="netcash">NetCash</h3>
+
+<ul>
+  <li><a href="https://quod.lib.umich.edu/j/jep/3336451.0001.126?view=text;rgn=main">NetCheque, NetCash, and the Characteristics of Internet Payment Services</a> ‘95
+    <blockquote>
+      <p>Secure methods of payment are needed before we will see widespread commercial use of the Internet. Recently proposed and implemented payment methods follow one of three models: electronic currency, credit-debit, and secure credit card transactions. Such payment services have different strengths and weaknesses with respect to the requirements of security, reliability, scalability, anonymity, acceptability, customer base, reliability, convertibility, efficiency, ease of integration with applications, and ease of use. NetCheque and NetCash are payment systems under development at the Information Sciences Institute of the University of Southern California. NetCheque and NetCash are described and their strengths with respect to these requirements are discussed.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="modex">Modex</h3>
+
+<h3 id="project-café">Project CAFÉ</h3>
+
+<h3 id="e-gold">e-Gold</h3>
+<ul>
+  <li><a href="https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/Bitcoins/e-gold.html">e-Gold</a> Founded in 1996</li>
+  <li><a href="https://www.wired.com/2009/06/e-gold/">Bullion and Bandits: The Improbable Rise and Fall of E-Gold</a></li>
+  <li><a href="https://www.wired.com/2008/07/e-gold-founder/">E-GOLD FOUNDER PLEADS GUILTY TO MONEY LAUNDERING</a></li>
+  <li><a href="https://medium.com/blockwhat/96-oncologist-gold-revolution-c08a8dc26880">e-Gold</a></li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>[’96</td>
+          <td>Oncologist + Gold = Revolution?](https://medium.com/blockwhat/96-oncologist-gold-revolution-c08a8dc26880)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>https://en.bitcoinwiki.org/wiki/E-gold</li>
+</ul>
+
+<blockquote>
+  <p>In April 2007, the US government ordered e-gold administration to lock approximately 58 e-gold accounts, including ones owned by The Bullion Exchange, AnyGoldNow, IceGold, GitGold, The Denver Gold Exchange, GoldPouch Express, 1MDC (a Digital Gold Currency, based on e-gold), and forced OmniPay’s owner, G&amp;SR, to liquidate the seized assets.-<a href="http://www.economicpolicyjournal.com/2013/04/bitcoiners-remember-what-happened-to.html">Bitcoiners: Remember what happened to eGold</a></p>
+</blockquote>
+
+<h3 id="hashcash">Hashcash</h3>
+
+<ul>
+  <li><a href="http://www.hashcash.org/">Hashcash</a> is a proof-of-work algorithm, invented by Adam Back in 1997</li>
+  <li><a href="https://www.bitcoinmining.com/what-is-hashcash/">What is Hashcash?</a></li>
+  <li><a href="https://btcmanager.com/the-history-of-bitcoin-part-1-what-is-hashcash/">The History of Bitcoin Part 1: What is Hashcash?</a></li>
+  <li><a href="https://medium.com/blockwhat/97-anybody-interested-in-some-hash-cash-7fd422dc5e79">Anybody interested in some Hash Cash?</a></li>
+  <li><a href="https://bitcoinmagazine.com/articles/genesis-files-hashcash-or-how-adam-back-designed-bitcoins-motor-block/">The Genesis Files: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</a></li>
+  <li><a href="https://en.bitcoin.it/wiki/Hashcash">bitcoin.it/wiki/Hashcash</a></li>
+  <li><a href="https://www.cl.cam.ac.uk/~rnc1/proofwork.pdf">Proof of Work Proves not to Work</a></li>
+  <li>https://security.stackexchange.com/questions/14262/hashcash-is-this-really-used</li>
+  <li><a href="https://sourcecrypto.pub/bitcoin-history/people/adam-back/"><strong>» More Resources for Adam Back »</strong></a></li>
+</ul>
+
+<h3 id="b-money">B-money</h3>
+
+<ul>
+  <li><a href="https://medium.com/blockwhat/98-wei-dai-who-dat-f93c4e4bcfc9">Wei Dai, Who Dat?</a></li>
+  <li><a href="https://bitcoinmagazine.com/articles/genesis-files-if-bitcoin-had-first-draft-wei-dais-b-money-was-it/">If Bitcoin had a first Draft - B-money was it</a></li>
+  <li>https://www.investopedia.com/terms/b/bmoney.asp</li>
+  <li><a href="https://sourcecrypto.pub/bitcoin-history/people/wei-dai/"><strong>» More Information on Wei Dai »</strong></a></li>
+</ul>
+
+<h3 id="beenz-and-flooz">Beenz and Flooz</h3>
+
+<p>An early clickworking site that rewarded users with its own digital currency.</p>
+<ul>
+  <li><a href="https://thehustle.co/beenz-pre-bitcoin-digital-currency">A decade before crypto, one digital currency conquered the world — then failed spectacularly</a></li>
+  <li><a href="https://www.computerworld.com/article/2596386/financial-it/what-it-s-like-to-work-at-beenz-com-inc-.html">What It’s Like to Work at Beenz.com Inc.</a></li>
+  <li><a href="https://www.ecommercetimes.com/story/12892.html">Beenz.com Closes Internet Currency Business</a></li>
+  <li><a href="https://en.bitcoinwiki.org/wiki/Beenz.com">bitcoinwiki - Beenz</a>
+    <blockquote>
+      <p>Flooz had a similar name, model, and was a direct competitor with Beenz: Users were rewarded for activity with flooz, which served as a medium of exchange among its network of partners. Like Beenz, also, Flooz went bust in the dot-com crash.</p>
+    </blockquote>
+  </li>
+  <li><a href="http://mentalfloss.com/article/517911/bitcoin-rise-and-fall-flooz-e-currency">The Rise and Fall of Flooz</a></li>
+  <li><a href="https://en.bitcoinwiki.org/wiki/Flooz.com">bitcoinwiki - Flooz</a></li>
+  <li><a href="https://www.ecommercetimes.com/story/12704.html">Internet Currency Site Flooz Suspends Operations</a></li>
+  <li><a href="https://medium.com/@ParolaAnalytics/bitcoin-etc-what-can-we-learn-from-flooz-and-beenz-73566f140932">What we can Learn from Flooz and Beenz</a></li>
+</ul>
+
+<h3 id="internetcash">InternetCash</h3>
+
+<h3 id="e-bullion">E-Bullion</h3>
+
+<h3 id="dexit">Dexit</h3>
+
+<h3 id="peppercoin">Peppercoin</h3>
+
+<ul>
+  <li><a href="https://people.csail.mit.edu/rivest/pubs/Riv04c.pdf">Peppercoin Whitepaper</a>, by Ronald L. Rivest Computer Science and Artificial Intelligence Laboratory</li>
+  <li><a href="https://www.theguardian.com/technology/2003/feb/25/comment.comment">About Digicash and Peppercoin</a> - Micropayments</li>
+  <li><a href="https://people.csail.mit.edu/rivest/pubs/Riv04c.slides.slides.pdf">Peppercoin Micropayment Slides</a></li>
+  <li><a href="https://www.techdirt.com/articles/20070417/012124.shtml">Peppercoin Sold, and Almost Noone Noticed</a></li>
+  <li><a href="https://link.springer.com/chapter/10.1007/978-3-540-27809-2_2">International Conference on Financial Cryptography — Peppercoin Micropayments</a></li>
+</ul>
+
+<h3 id="reusable-proof-of-work">Reusable Proof of Work</h3>
+
+<ul>
+  <li><a href="https://cryptome.org/rpow.htm">Subject: RPOW - Reusable Proofs of Work</a> -03 [<a href="https://nakamotoinstitute.org/finney/rpow/world.html"><strong>ϟ</strong></a>]
+    <blockquote>
+      <p>This system receives hashcash as a Proof of Work (POW) token, and in exchange creates RSA-signed tokens which I call Reusable Proof of Work (RPOW) tokens.  RPOWs can then be transferred from person to person and exchanged for new RPOWs at each step.  Each RPOW or POW token can only be used once but since it gives birth to a new one, it is as though the same token can be handed from person to person.</p>
+    </blockquote>
+  </li>
+  <li><a href="https://medium.com/blockwhat/04-use-me-baby-one-more-time-d0dd599c8357">Use me Baby one more Time</a></li>
+  <li>https://github.com/NakamotoInstitute/RPOW</li>
+  <li>https://slashdot.org/story/04/08/18/1345258/rpow—reusable-proofs-of-work</li>
+  <li><a href="https://sourcecrypto.pub/bitcoin-history/people/hal-finney/"><strong>» More Information on Hal Finney »</strong></a></li>
+</ul>
+
+<h3 id="bit-gold">Bit Gold</h3>
+<p><a href="https://twitter.com/NickSzabo4/status/1012373493252419584"><img src="https://imgur.com/sKwIgP4l.png" /></a></p>
+
+<ul>
+  <li><a href="https://unenumerated.blogspot.com/2005/12/bit-gold.html">2005 - Bit Gold Proposal</a> [<a href="https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html"><strong>ϟ</strong></a>]</li>
+  <li><a href="https://medium.com/@insearchofsatoshi/bit-gold-and-bitcoin-9357176cd420">Bit Gold and Bitcoin</a></li>
+  <li><a href="https://btcmanager.com/the-history-of-bitcoin-part-2-bit-gold/">The History of Bitcoin - Part 2 - Bit Gold</a></li>
+  <li><a href="https://bitcoinmagazine.com/articles/genesis-files-bit-gold-szabo-was-inches-away-inventing-bitcoin/">Genesis Files: Bit Gold - Szabo was Inches Away from Inventing Bitcoin</a></li>
+  <li><a href="https://medium.com/blockwhat/98-make-it-rain-bit-gold-dc1bd896827b">Make It Rain (Bit) Gold!</a></li>
+  <li><a href="https://bitcointalk.org/index.php?topic=342.msg4508#msg4508">Re: They want to delete the Wikipedia article</a> - satoshi
+    <blockquote>
+      <p>Bitcoin is an implementation of Wei Dai’s b-money proposal http://weidai.com/bmoney.txt on Cypherpunks http://en.wikipedia.org/wiki/Cypherpunks in 1998 and Nick Szabo’s Bitgold proposal http://unenumerated.blogspot.com/2005/12/bit-gold.html</p>
+    </blockquote>
+  </li>
+  <li><a href="https://coincentral.com/what-is-bit-gold-the-brainchild-of-blockchain-pioneer-nick-szabo/">What is Bit Gold? The Brainchild of Blockchain Pioneer - Nick Szabo</a></li>
+  <li><a href="https://sourcecrypto.pub/bitcoin-history/people/nick-szabo/"><strong>» More Information on Nick Szabo »</strong></a></li>
+</ul>
+
+<h3 id="liberty-reserve">Liberty Reserve</h3>
+
+<ul>
+  <li>https://www.aol.com/on/digital-currency-liberty-reserve-money-laundering/</li>
+  <li>https://www.bbc.com/news/technology-36247289</li>
+  <li>https://www.justice.gov/opa/pr/founder-liberty-reserve-pleads-guilty-laundering-more-250-million-through-his-digital</li>
+  <li>https://www.reuters.com/article/net-us-cybercrime-digital-currency-idUSBRE9780GM20130809</li>
+</ul>
+
+<h3 id="resources">Resources</h3>
+
+<ul>
+  <li><a href="https://bitcoinmagazine.com/articles/digital-vs-virtual-currencies-1408735507/">Digital vs Virtual Currencies</a></li>
+  <li><a href="http://ganges.cs.tcd.ie//mepeirce/project.html">Network Payment Mechanisms and Digital Cash</a></li>
+  <li><a href="https://www.w3.org/Payments/roadmap.html">Electronic Payment Schemes</a> by Dr Phillip M. Hallam-Baker, of the World Wide Web Consortium.</li>
+  <li><a href="http://www.bcneuman.com/ecommerce/">Evolution of Network Payment and E-Commerce Technologies</a></li>
+  <li><a href="http://www.ra.ethz.ch/WWW/WWW8/tutorial_5.html">Electronic Payment Systems</a> from the eighth World Wide Web conference in toronto, canada</li>
+  <li><a href="http://www.dmi.unipg.it/bista/didattica/sicurezza-pg/sistemi-pagamento/e-cash-payment.v1.10.20.pdf">Electronic Cash Payment Protocols and Systems</a> ‘00
+    <ul>
+      <li>Ecash (Digital Cash)</li>
+      <li>NetCash</li>
+      <li>Modex</li>
+      <li>Project CAFÉ</li>
+    </ul>
+  </li>
+  <li><a href="https://www.mobilepaymentstoday.com/blogs/does-virtual-currencys-past-dictate-its-future-3/">Does Virtual Currency’s Past Dictate its Future?</a>
+    <ul>
+      <li>digicash</li>
+      <li>cybercash</li>
+      <li>Beenz</li>
+      <li>Flooz</li>
+      <li>Internetcash</li>
+      <li>E-Bullion</li>
+      <li>E-Gold</li>
+      <li>Dexit</li>
+    </ul>
+  </li>
+</ul>
+:ET
