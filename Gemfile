@@ -21,17 +21,11 @@ gem "minimal-mistakes-jekyll"
 #   gem "jekyll-sitemap"
 #   gem "jekyll-gist"
 #   gem "jekyll-feed"
-#   gem "jemoji"
-#   gem "jekyll-data"
 #   gem "jekyll-include-cache"
 #
 # If you have any plugins, put them here!
+
 group :jekyll_plugins do
-  gem "jekyll-target-blank"
-  gem "jekyll-optional-front-matter"
   gem "jekyll-redirect-from"
-  gem "jekyll-seo-tag"
   gem "jekyll-mentions"
-  gem "html-proofer"
-  gem "jekyll-twitter-plugin"
 end

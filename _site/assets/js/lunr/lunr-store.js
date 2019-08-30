@@ -555,8 +555,8 @@ var store = [{
         "url": "http://localhost:4000/posts/transcripts/JW-Weatherman-Interview-Tim-May/",
         "teaser":"https://i.imgur.com/janGoN1.png"},{
         "title": "History of Blockchains for Business at HGF2018",
-        "excerpt":"This talk focuses on the history of blockchains in a business context as lived and told by the CEO of the first company to build a permissioned, smart contract compatible blockchain codebase (the codebase currently known as Hyperledger Burrow). There are three phases to the talk and a predominant lesson...","categories": ["Transcripts","Enterprise"],
-        "tags": ["Bitcoin","HGF2018","Permissioned","DLT","History"],
+        "excerpt":"This talk focuses on the history of blockchains in a business context as lived and told by the CEO of the first company to build a permissioned, smart contract compatible blockchain codebase (the codebase currently known as Hyperledger Burrow). There are three phases to the talk and a predominant lesson...","categories": ["History","Transcripts","Enterprise"],
+        "tags": ["Bitcoin","HGF2018","Permissioned","DLT"],
         "url": "http://localhost:4000/posts/transcripts/blockchain-business-history/",
         "teaser":"http://localhost:4000/images/business-blockchain-history-monax.png"},{
         "title": "Blockchain and the United Nations",
