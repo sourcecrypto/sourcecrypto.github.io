@@ -5,10 +5,10 @@ description: Agoric and the Decades-Long Quest for Secure Smart Contracts - Hype
 excerpt: "We discussed his visionary 1988 Agoric papers, which explored how markets could be applied to the world of software. We also covered how his view of smart contracts, which focused on secure bilateral agreements complements and converges with blockchain. Finally, we covered his new company Agoric and their conceptualization of higher order smart contracts."
 share: true
 header:
-  image: #/images/smart-signatures.png
-  teaser: #/images/smart-signatures.png
+  image: /images/mark-miller-epicenter-header.png
+  teaser: /images/mark-miller-epicenter-teaser.png
 categories: ["Transcripts","History","Agoric"]
-tags: ["Mark Miller", "Eric Drexler", "ObCap", "Smart Contracts", "Literature"]
+tags: ["Mark Miller", "ObCap", "Smart Contracts"]
 permalink: /posts/transcripts/mark-miller-agoric-epicenter/
 redirect_from: 
   - #/transcripts/smart-signatures-christopher-allen/
