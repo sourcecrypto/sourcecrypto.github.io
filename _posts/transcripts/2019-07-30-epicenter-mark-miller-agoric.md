@@ -13,7 +13,7 @@ permalink: /posts/transcripts/mark-miller-agoric-epicenter/
 redirect_from: 
   - #/transcripts/smart-signatures-christopher-allen/
 cannonical_url: 'https://epicenter.tv/episode/286/'
-last_modified_at: 2019-06-30T11:22:33-23:00
+last_modified_at: 2019-09-02T11:22:33-23:00
 classes: wide
 ---
 
