@@ -1,5 +1,4 @@
-I"L�<p>This is a transcript of the epicenter podcast, where <a href="https://epicenter.tv/episode/286/">Brian Fabien Crain interviews Mark Miller on the history of smart contracts</a>, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of the transcription from their web-site (licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA</a>).
-{ .notice}</p>
+I"I�<p class="notice">This is a transcript of the epicenter podcast, where <a href="https://epicenter.tv/episode/286/">Brian Fabien Crain interviews Mark Miller on the history of smart contracts</a>, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of the transcription from their web-site (licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA</a>).</p>
 
 <h2 id="show-notes">Show Notes</h2>
 
@@ -52,7 +51,14 @@
 
 <h2 id="transcript">Transcript</h2>
 
-<p><strong>Brian Fabian Crain</strong>: So we’re here today with Mark Miller and I actually tried to have Mark on the show around four years ago in 2015, somewhere I had stumbled on his work so he had done this work on kind of smart contracts you know a very long time ago much before Bitcoin  and blockchain and all that and I know that he wasn’t working in the blockchain or Bitcoin space back then but I found his email and and I emailed him and he was at Google at the time and he sent me a talk that he did in 1997 about smart contracts and the kind of legal ramifications and technology implications smart contracts which was just amazingly prescient. You would watch the talk and it’s astonishing how many of the ideas that later became you know kind of widely used were there so unfortunately it didn’t happen back then that we had them on but since then Mark has transitioned, he’s left Google and he’s working fully on kind of decentralized networks and digital money and kind of the blockchain space in general. So I’m really excited that you know finally the episode is happening and we’re having you on Mark.</p>
+<p><strong>Brian Fabian Crain</strong>: So we’re here today with Mark Miller and I actually tried to have Mark on the show around four years ago in 2015, somewhere I had stumbled on his work so he had done this work on kind of smart contracts you know a very long time ago much before Bitcoin and blockchain and all that, and I know that he wasn’t working in the blockchain or Bitcoin space back then but I found his email and and I emailed him and he was at Google at the time and he <em>sent me a talk that he did in 1997</em> (<em>video featured below</em>) about smart contracts and the kind of legal ramifications and technology implications smart contracts which was just amazingly prescient. You would watch the talk and it’s astonishing how many of the ideas that later became you know kind of widely used were there so unfortunately it didn’t happen back then that we had them on but since then Mark has transitioned, he’s left Google and he’s working fully on kind of decentralized networks and digital money and kind of the blockchain space in general. So I’m really excited that you know finally the episode is happening and we’re having you on Mark.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+<div class="responsive-video-container">
+
+  <iframe src="https://www.youtube-nocookie.com/embed/kOFzisF7aNw" frameborder="0" allowfullscreen=""></iframe>
+
+</div>
 
 <p><strong>Mark Miller</strong>: Well I’m very happy to be here.</p>
 
