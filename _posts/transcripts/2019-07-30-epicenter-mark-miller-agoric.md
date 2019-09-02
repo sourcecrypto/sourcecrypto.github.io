@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Mark Miller on Epicenter Podcast - (to be) Hyperlink Annotated Transcript"
+title: "Agoric and the Decades-Long Quest for Secure Smart Contracts - Epicenter Podcast - Hyperlink Annotated Transcript (in progress)"
 description: Agoric and the Decades-Long Quest for Secure Smart Contracts - Hyperlink Annotated Transcript
 excerpt: "We discussed his visionary 1988 Agoric papers, which explored how markets could be applied to the world of software. We also covered how his view of smart contracts, which focused on secure bilateral agreements complements and converges with blockchain. Finally, we covered his new company Agoric and their conceptualization of higher order smart contracts."
 share: true
@@ -52,6 +52,13 @@ This is a transcript of the epicenter podcast, where [Brian Fabien Crain intervi
 
 >* Cosmos: Join the most interoperable ecosystem of connected blockchains. Learn more at [cosmos.network/epicenter](http://cosmos.network/epicenter).
 >* Microsoft Azure: Deploy enterprise-ready consortium blockchain networks that scale in just a few clicks. More at [aka.ms/epicenter](https://aka.ms/epicenter).
+
+
+## Agoric and the Decades-Long Quest for Secure Smart Contracts - Epicenter Podcast - Hyperlink Annotated Transcript (in progress)
+
+{% include video id="j5SuqIrgRJU" provider="youtube" %}
+
+[Agoric and the Decades-Long Quest for Secure Smart Contracts](https://epicenter.tv/episode/286/)
 
 ## Transcript
 
