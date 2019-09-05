@@ -7,7 +7,7 @@ header:
   teaser: /images/thecryptoconomy-podcast_guy-swann.png
   og_image: /images/thecryptoconomy-podcast_guy-swann.png
   caption   : "[@TheCryptoconomy](https://mobile.twitter.com/TheCryptoconomy) - Guy Swann - [cryptoconomy.life](https://cryptoconomy.life) - [Anchor.fm/TheCryptoconomy](http://Anchor.fm/TheCryptoconomy)"
-excerpt: "Audio for Hundreds of Essential Bitcoin Articles. @TheCryptoconomy - Guy Swan..... These Podcasts are essential. So why not make an index of their content, organized by topic?"
+excerpt: "Guy Swan has been recording audio for Hundreds of Essential Bitcoin Articles, for over a year. If you haven't listened yet, yer doing it wrong!"
 sidebar:
   nav: sourcedisco 
 toc: true
