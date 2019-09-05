@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Infominer.id"
-    url: "https://infominer.id/"
   - title: "Feature"
     url: /feature/
   - title: "Recent Posts"
@@ -14,19 +12,14 @@ main:
     url: /about/
   - title: "Decentralized Web"
     url: https://sourcecrypto.pub/decentralized-web/
-  - title: "Learn Crypto Trading"
-    url: "https://learncryptotrading.co"
   - title: "DIDecentralized"
     url: "https://decentralized-id.com"
   - title: "Web-work.tools"
     url: "https://web-work.tools"
   - title: "IndieWeb"
     url: "https://web-work.tools/indieweb"
-  - title: "Github Pages Starter Pack"
-    url: "https://web-work.tools/github-pages-starter-pack/"
-  - title: "Publishing Discord Server Archives via Minimal Mistakes"
-    url: "https://didecentral.com/contributors-guide/discord-archive-howto/"
-
+  - title: "Infominer.id"
+    url: "https://infominer.id"
 
 sourcedisco:
   - title: "Info⧉Hub"
@@ -46,6 +39,10 @@ sourcedisco:
         url: "https://web-work.tools/indieweb"
       - title: "• Decentralized Web Histories"
         url: "https://sourcecrypto.pub/decentralized-web/"
+      - title: "• Github Pages Starter Pack"
+        url: "https://web-work.tools/github-pages-starter-pack/"
+      - title: "• Publishing Discord Server Archives via Minimal Mistakes"
+        url: "https://didecentral.com/contributors-guide/discord-archive-howto/"
   - title: "Collab⧉Curate"
     children:
       - title: "• Bitcoin Nerds"
