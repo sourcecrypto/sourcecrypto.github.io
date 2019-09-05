@@ -11,6 +11,7 @@ excerpt: "Audio for Hundreds of Essential Bitcoin Articles. @TheCryptoconomy - G
 sidebar:
   nav: sourcedisco 
 toc: true
+classes: wide
 permalink: /posts/Bitcoin/thecryptoconomy-podcast-deep-dive/
 redirect_from: 
   - blog/thecryptoconomy-podcast-deep-dive/
