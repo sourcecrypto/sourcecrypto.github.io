@@ -9,7 +9,7 @@ header:
   teaser: "/images/OrgBook-Hyperledger-Indy-Case-Study.png"
   caption: "[hyperledger.org/resources/publications/orgbook-case-study](https://www.hyperledger.org/resources/publications/orgbook-case-study)"
   og_image: "https://i.imgur.com/bf3lLTq.png"
-toc: false
+toc: true
 classes: wide
 last_modified_at: 2019-04-20T11:22:33-23:00
 categories: ["Transcripts","Decentralized Identity"]
