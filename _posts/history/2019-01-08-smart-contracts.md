@@ -28,17 +28,15 @@ When I came across:
   * *A Next Generation Smart Contract and Decentralized Application Platform* (Vitaliks ANN post on lambda-the-ultimate)
     > Smart contracts and related languages have a long discussion history on LtU
     
-Which took me down the rabbithole and led to [the creation](https://github.com/sourcecrypto/bitcoin-history/commit/29700115d9c74eebb72b04023dd0085057e0ecd6#diff-cd3d4ba11ddc27e38cd09a3284beeb87) of this resource.
+Which took me down the rabbithole and led to [the creation](https://github.com/sourcecrypto/bitcoin-history/commit/29700115d9c74eebb72b04023dd0085057e0ecd6#diff-cd3d4ba11ddc27e38cd09a3284beeb87) of this page.
 
-## Source Crypto
+## Bitcoin History Discord Chat
 
-I collect links in the SourceCrypto Discord Server [#smart-contracts channel](https://discord.gg/esTMt4r), and occasionally I export them to this website:
+Previously I was tracking all my information in one discord server, but I realized I would need more.
 
-* [https://sourcecrypto.pub/discolog/blockchain-tech/smart-contracts/](https://sourcecrypto.pub/discolog/blockchain-tech/smart-contracts/)
+Recently, I made a separate server just for [Bitcoin History](https://discord.gg/Evk84Kk). So you can find a ton of stuff there... and then there is the archive page from the original: [sourcecrypto.pub / smart-contracts](https://sourcecrypto.pub/archive/chaintech/smart-contracts/)
 
-You can expect that page and the discord server to have information that isn't on this page, as exporting the contents of a discord server is faster than sorting through it all and updating each individual page.
-
-However, sooon this Bitcoin History is gonna get filled out proper... 
+There is still much work to be done, and right now all my Bitcoin content is being gathered together and should make a formiddable resource, soon!
 
 ## Smart Contract History
 
