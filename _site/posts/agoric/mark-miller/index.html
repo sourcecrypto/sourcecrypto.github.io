@@ -155,11 +155,8 @@
         
           <a class="site-logo" href="/"><img src="https://sourcecrypto.pub/images/interlinked.png" alt=""></a>
         
-        <a class="site-title" href="/">Blockchain Research Collaborative</a>
+        <a class="site-title" href="/">Research Collaborative</a>
         <ul class="visible-links">
-<li class="masthead__menu-item">
-              <a href="https://infominer.id/">Infominer.id</a>
-            </li>
 <li class="masthead__menu-item">
               <a href="/feature/">Feature</a>
             </li>
@@ -179,9 +176,6 @@
               <a href="https://sourcecrypto.pub/decentralized-web/">Decentralized Web</a>
             </li>
 <li class="masthead__menu-item">
-              <a href="https://learncryptotrading.co">Learn Crypto Trading</a>
-            </li>
-<li class="masthead__menu-item">
               <a href="https://decentralized-id.com">DIDecentralized</a>
             </li>
 <li class="masthead__menu-item">
@@ -191,10 +185,7 @@
               <a href="https://web-work.tools/indieweb">IndieWeb</a>
             </li>
 <li class="masthead__menu-item">
-              <a href="https://web-work.tools/github-pages-starter-pack/">Github Pages Starter Pack</a>
-            </li>
-<li class="masthead__menu-item">
-              <a href="https://didecentral.com/contributors-guide/discord-archive-howto/">Publishing Discord Server Archives via Minimal Mistakes</a>
+              <a href="https://infominer.id">Infominer.id</a>
             </li>
 </ul>
         
@@ -444,6 +435,22 @@
             
 
             <li><a href="https://sourcecrypto.pub/decentralized-web/" class="">• Decentralized Web Histories</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://web-work.tools/github-pages-starter-pack/" class="">• Github Pages Starter Pack</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://didecentral.com/contributors-guide/discord-archive-howto/" class="">• Publishing Discord Server Archives via Minimal Mistakes</a></li>
           
         </ul>
         
@@ -1601,7 +1608,7 @@
 
 
 
-  less than 1 minute read
+  14 minute read
 </p>
           
         </header>
@@ -1635,6 +1642,155 @@
 <a href="https://epicenter.tv/episode/286/">Mark Miller: Agoric and the Decades-Long Quest for Secure Smart Contracts.</a> -Epicenter Podcast</li>
 </ul>
 
+<h3 id="dissertation">Dissertation</h3>
+
+<ul>
+  <li>
+<a href="http://www.erights.org/talks/thesis/markm-thesis.pdf">Robust Composition: Towards a Unified Approach to Access Control and Concurrency Control</a> by Mark Samuel Miller
+    <ul>
+      <li>A dissertation submitted to Johns Hopkins University in conformity with the requirements for the degree of Doctor of Philosophy.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="271--contributions">27.1  Contributions</h4>
+
+<blockquote>
+  <p>This dissertation makes seven primary contributions:</p>
+  <ul>
+    <li>The object-capability model, a new model of secure computation that is abstract enough to describe both prior object-capability languages and operating systems, and concrete enough to describe authority-manipulating behavior.</li>
+    <li>A novel approach to concurrency control in terms of attenuating authority, including a unified architecture in which both access control and concurrency control concerns may be addressed together.</li>
+    <li>A clearly framed distinction between “permission” and “authority.” We develop a taxonomy of computable bounds on eventual permission and authority, enabling us to reason about many simple access abstractions. Using this framework, we provide a unified account of access control and authority in distributed systems consisting of object-capability islands sending messages to each other over a cryptographic capability sea.</li>
+    <li>A system of reference states, transition rules, and message delivery properties associated with each state, that reify partial failures in a manner that permits robust application-level recovery. In E, these are coupled to language constructs that enable programmers to anticipate and handle distributed plan failures at the syntactic locus where a dependency on remote behavior is introduced. These same syntactic constructs alert the programmer of the loci where interleavings of execution may occur.</li>
+    <li>A generalization of prior work on promise pipelining from asymmetric client-serversystems to symmetric peer-to-peer systems. Promises enable explicit expression ofdataflow in distributed computation. Promise pipelining enables this computationalstructure to be exploited without cascading round trips.</li>
+    <li>An adaptation of non-signaling errors to the propagation of broken references, allowingprogrammers to consistently defer handling of reference failure when direct defense is inappropriate, and to compose chains of data-dependent computation whose referencefailure propagation has a sensible semantics. By providing a coherent error reporting behavior for promise pipelines, this mechanism provides a manageable foundation forrecovery from delayed errors in distributed dataflow computations.</li>
+    <li>Finally, we introduce E-ORDER, a message delivery ordering constraint that achieves an enforceable middle ground between CAUSAL and FIFO message orderings. The resulting ordering is strong enough to prevent adversaries from exploiting race conditions to obtain inappropriate access, but weak enough to be enforceable. We show how the delivery ordering may be defined in terms of an attenuation of the authority provided by passed references. This allows us to reason about the effects of messaging within our unified model of concurrency and access control.</li>
+  </ul>
+
+  <p>Several programming systems described in Chapter 26 have adopted (in varying subsets) each of the contributions noted above by borrowing elements from the E system. Twisted Python, in particular, is reported to be in use in more than 50 real-world applications at the time of this writing.</p>
+</blockquote>
+
+<h4 id="bibliography">Bibliography</h4>
+
+<ul>
+  <li>[AW04] Mart ́ın Abadi and Ted Wobber. A Logical Account of NGSCB. InProc. For-mal Techniques for Networked and Distributed Systems – Forte 2004. Springer-Verlag, Berlin Germany, September 2004.</li>
+  <li>[Bej96] Arturo Bejar.  The Electric Communities Distributed Garbage Collector,1996. www.crockford.com/ec/dgc.html.</li>
+  <li>[BH77] Henry G. Baker, Jr. and Carl E. Hewitt. The Incremental Garbage Collectionof Processes. InProc. International Joint Conference on Artificial Intelligence,pages 55–59, Cambridge, Massachusetts, August 1977. IJCAI.</li>
+  <li>[Bir05] Kenneth P. Birman.Reliable Distributed Systems. Springer Verlag, 2005.</li>
+  <li>[BJ87] Ken Birman and T. Joseph. Exploiting Virtual Synchrony in Distributed Sys-tems. InSOSP ’87: Proc. Eleventh ACM Symposium on Operating SystemsPrinciples, pages 123–138, New York, NY, USA, 1987. ACM Press.</li>
+  <li>[BL94] Phillip Bogle and Barbara Liskov. Reducing Cross Domain Call OverheadUsing Batched Futures. InOOPSLA ’94: Proc. Ninth Annual Conference onObject-Oriented Programming Systems, Language, and Applications, pages341–354, New York, NY, USA, 1994. ACM Press.</li>
+  <li>[Bla85] Andrew P. Black.  Supporting Distributed Applications:  Experience withEden. InProc. Tenth Annual Symposium on Operating Systems Principles,pages 181–193. ACM, December 1985.</li>
+  <li>[BNOW94] Andrew Birrell, Greg Nelson, Susan Owicki, and Edward Wobber. NetworkObjects. InProc. Fourteenth ACM Symposium on Operating Systems Princi-ples, pages 217–230, Asheville, NC, 1994. ACM Press.</li>
+  <li>[Boe84] W. E. Boebert. On the Inability of an Unmodified Capability Machine to En-force the *-property. InProc. 7th DoD/NBS Computer Security Conference,pages 291–293, Gaithersburg, MD, USA, September 1984. National Bureauof Standards.</li>
+  <li>[Boe03] Earl Boebert. Comments on Capability Myths Demolished, 2003. www.eros-os.org/pipermail/cap-talk/2003-March/001133.html.</li>
+  <li>[Boe05] Hans-J. Boehm. Threads Cannot be Implemented as a Library.SIGPLANNotices, 40(6):261–268, 2005.</li>
+  <li>[Bre73] T. H. Bredt. A Survey of Models for Parallel Computing. Technical ReportCSL-TR-70-8, Stanford University Computer Systems Laboratory, Stanford,CA, December 1973.</li>
+  <li>[BS79] Matt Bishop and Lawrence Snyder.  The Transfer of Information and Au-thority in a Protection System. InProc. 7th ACM Symposium on OperatingSystems Principles, pages 45–54, December 1979.  Published as OperatingSystem Review, Vol 13, No 4.188</li>
+  <li>[BST89] H. E. Bal, J. G. Steiner, and A. S. Tanenbaum. Programming Languages forDistributed Computing Systems.ACM Computing Surveys, 21(3):261–322,September 1989.</li>
+  <li>[Car97] Luca Cardelli. Program Fragments, Linking, and Modularization. InThe 24thACM SIGPLAN-SIGACT Symposium on Principles of Programming Lan-guages, pages 266–277, Paris, January15–17 1997.</li>
+  <li>[CC96] Antonio Cau and Pierre Collette.  Parallel Composition of Assumption-Commitment Specifications: A Unifying Approach for Shared Variable andDistributed Message Passing Concurrency.Acta Informatica, 33(2):153–176,1996.</li>
+  <li>[CDM01] A. Chander, D. Dean, and J. Mitchell. A State-Transition Model of TrustManagement and Access Control. In14th IEEE Computer Security Founda-tions Workshop, Cape Breton, Nova Scotia, June 2001.</li>
+  <li>[CF91] R. Cartwright and M. Fagan. Soft Typing. InProc. SIGPLAN ’91 Conferenceon Programming Language Design and Implementation, pages 278–292, 1991.</li>
+  <li>[Chu41] Alonzo Church.The Calculi of Lambda Conversion. Number 6 in Annals ofMathematical Studies. Princeton University Press, 1941.</li>
+  <li>[CL85] K. Mani Chandy and Leslie Lamport. Distributed Snapshots: DeterminingGlobal States of Distributed Systems.ACM Transactions on Computer Sys-tems, 3(1):63–75, 1985.</li>
+  <li>[CL02] Miguel Castro and Barbara Liskov. Practical Byzantine Fault Tolerance andProactive Recovery.ACM Transactions on Computer Systems, 20(4):398–461,2002.</li>
+  <li>[Cli81] W. D. Clinger.Foundations of Actor Semantics. PhD thesis, Dept. of Math-ematics, Massachusetts Institute of Technology, Cambridge, MA, 1981.</li>
+  <li>[Clo04a] Tyler Close. Decentralized Identification, 2004. www.waterken.com/dev/YURL/Definition/.</li>
+  <li>[Clo04b] Tyler Close. Waterken YURL, 2004. www.waterken.com/dev/YURL/httpsy/.</li>
+  <li>[Clo04c] Tyler Close. Web-calculus, 2004. www.waterken.com/dev/Web/.</li>
+  <li>[Clo06] Tyler Close. Credit Transfer Within Market-based Resource Allocation In-frastructure. Tech Report HPL-2006-5, Hewlett Packard Laboratories, 2006.</li>
+  <li>[Con67] Control Data Corporation.6400/6500/6600 Computer Systems; ReferenceManual. Control Data Corp., Documentation Dept., Palo Alto, CA, USA,revised May 1967 edition, 1967. ed-thelen.org/comp-hist/CDC-6600-R-M.html.</li>
+  <li>[Cro97] Douglas Crockford, 1997. Personal communication.189</li>
+  <li>[Cud99] Brian Cudahy.The Malbone Street Wreck. Fordham University Press, NewYork, 1999.</li>
+  <li>[CW87] D. D. Clark and D. R. Wilson. A Comparison of Commercial and MilitaryComputer Security Policies. InProc. 1987 IEEE Symposium on Security andPrivacy, pages 184–195, 1987.</li>
+  <li>[DA99] T. Dierks and C. Allen. The TLS protocol version 1.0, January 1999. InternetRFC 2246.</li>
+  <li>[Den87] Daniel C. Dennett.The Intentional Stance. MIT Press, Cambridge, Mas-sachusetts, 1987.</li>
+  <li>[DH65] J. B. Dennis and E. C. Van Horn.  Programming Semantics for Multipro-grammed Computations. Technical Report MIT/LCS/TR-23, M.I.T. Labo-ratory for Computer Science, 1965.</li>
+  <li>[Dij72] Edsger W. Dijkstra. The Humble Programmer.Communications of the ACM,15(10):859–866, 1972.</li>
+  <li>[Dij76] Edsger W. Dijkstra.A Discipline of Programming. Prentice-Hall, EnglewoodCliffs, New Jersey, 1976.</li>
+  <li>[DLP79] Richard A. DeMillo, Richard J. Lipton, and Alan J. Perlis.  Social Pro-cesses and Proofs of Theorems and Programs.Communications of the ACM,22(5):271–280, 1979.</li>
+  <li>[DN66] Ole-Johan Dahl and Kristen Nygaard. SIMULA - an ALGOL-based simula-tion language.Communications of the ACM, 9(9):671–678, 1966.</li>
+  <li>[Don76] Jed Donnelley. A Distributed Capability Computing System, 1976.nersc.gov/∼jed/papers/DCCS/.</li>
+  <li>[Don79] James E. Donnelley. Components of a Network Operating System.ComputerNetworks, 3:389–399, 1979.</li>
+  <li>[DZK+02] Frank Dabek, Nickolai Zeldovich, Frans Kaashoek, David Mazieres, andRobert Morris.  Event-driven Programming for Robust Software.  InProc.10th ACM SIGOPS European Workshop, September 2002.</li>
+  <li>[EA03] Dawson Engler and Ken Ashcraft.  RacerX: Effective, Static Detection ofRace Conditions and Deadlocks. InProc. 19th ACM Symposium on OperatingSystems Principles, pages 237–252, Bolton Landing, NY, October 2003.</li>
+  <li>[EFL+99] Carl Ellison, Bill Frantz, Butler Lampson, Ronald Rivest, B. Thomas, andT. Ylonen. SPKI Certificate Theory (IETF RFC 2693), September 1999.</li>
+  <li>[Ell96] Carl Ellison. Establishing Identity Without Certification Authorities. InProc.Sixth USENIX Security Symposium, pages 67–76, Berkeley, 1996. Usenix.</li>
+  <li>[Eng97] Robert Englander.Developing Java Beans. O’Reilly &amp; Associates, Inc., 981Chestnut Street, Newton, MA 02164, USA, 1997</li>
+  <li>[ES90] Margaret A. Ellis and Bjarne Stroustrup.The Annotated C++ ReferenceManual. Addison-Wesley, 1990.</li>
+  <li>[Fab74] R. S. Fabry.  Capability-based Addressing.Communications of the ACM,17(7):403–412, 1974.</li>
+  <li>[FF02] Robert Bruce Findler and Matthias Felleisen. Contracts for higher-order func-tions.SIGPLAN Notices, 37(9):48–59, September 2002.</li>
+  <li>[Fie00] Roy Thomas Fielding.Architectural Styles and the Design of Network-basedSoftware Architectures. PhD thesis, Dept. of Information and Computer Sci-ence, University of California at Irvine, 2000.</li>
+  <li>[Fro03] A. Michael Froomkin. Toward a Critical Theory of Cyberspace.Harvard LawReview, 116(3):750–871, 2003. www.icannwatch.org/article.pl?sid=03/01/16/057208.</li>
+  <li>[FW76a] Daniel P. Friedman and D. S. Wise.  Cons Should not Evaluate its Argu-ments.  In S. Michaelson and Robin Milner, editors,Automata, Languagesand Programming, pages 257–284. Edinburgh University Press, 1976.</li>
+  <li>[FW76b] Daniel P. Friedman and David S. Wise. The impact of Applicative Program-ming on Multiprocessing. InProc. 1976 International Conference on Paral-lel Processing (ICPP’76), pages 263–272, Walden Woods, Michigan, August1976. IEEE.</li>
+  <li>[GD72] G. Scott Graham and Peter J. Denning. Protection — Principles and Practice.Proc. Spring Joint Computer Conference, 40:417–429, 1972.</li>
+  <li>[GHJV94] Erich Gamma, Richard Helm, Ralph Johnon, and John Vlissides. Design Patterns, Elements Of Reusable Object-Oriented Software. Addison Wesley,1994.</li>
+  <li>[GK76] Adele Goldberg and Alan Kay. Smalltalk-72 Instruction Manual. TechnicalReport SSL 76-6, Learning Research Group, Xerox Palo Alto Research Center,1976.</li>
+  <li>[GMPS97] L. Gong, M. Mueller, H. Prafullchandra, and R. Schemers. Going Beyondthe Sandbox: An Overview of the New Security Architecture in the JavaDevelopment Kit 1.2. InUSENIX Symposium on Internet Technologies andSystems, pages 103–112, Monterey, CA, 1997.</li>
+  <li>[Gon89] Li Gong. A Secure Identity-based Capability System. InProc. 1989 IEEESymposium on Security and Privacy, pages 56–65, 1989.</li>
+  <li>[Gon99] Li Gong.Inside Java 2 Platform Security. The Java Series. Addison Wesley,1999.</li>
+  <li>[GR83] Adele Goldberg and David Robson.Smalltalk-80, The Language and its Im-plementation. Addison-Wesley, Reading, MA, 1983.</li>
+  <li>[Gra73] Mark Granovetter. The Strength of Weak Ties.American Journal of Sociol-ogy, 78:1360–1380, 1973.</li>
+  <li>[Gra86] Jim Gray.  Why Do Computers Stop and What Can Be Done About It?InProc. 5th Symposium on Reliability in Distributed Software and DatabaseSystems, Los Angeles, CA, January 1986.</li>
+  <li>[Gut04] Peter Gutmann.Cryptographic Security Architecture: Design and Verifica-tion. Springer Verlag, 2004.</li>
+  <li>[Hal85] Robert H. Halstead, Jr.  Multilisp: A Language for Concurrent SymbolicComputation.ACM Transactions on Programming Languages and Systems,7(4):501–538, October 1985.</li>
+  <li>[Han93] Per Brinch Hansen. Monitors and Concurrent Pascal: a Personal History. InHOPL-II: The Second ACM SIGPLAN Conference on History of Program-ming Languages, pages 1–35, New York, NY, USA, 1993. ACM Press.</li>
+  <li>[Har85] Norman Hardy. KeyKOS Architecture.SIGOPS Operating Systems Review,19(4):8–25, 1985.</li>
+  <li>[Har88a] Norm Hardy.  The Confused Deputy.Operating Systems Review, October1988.</li>
+  <li>[Har88b] David Harel. On Visual Formalisms.Communications of the ACM, 31(5):514–530, 1988.</li>
+  <li>[Hay37] Friedrich Hayek.  Economics and Knowledge.Economica IV, pages 33–54,1937.</li>
+  <li>[Hay45] Friedrich Hayek.  The Uses of Knowledge in Society.American EconomicReview, 35:519–530, September 1945.</li>
+  <li>[Hay64] Friedrich Hayek.  The Theory of Complex Phenomena.  In M Bunge, edi-tor,The Critical Approach to Science and Philosophy, pages 332–349. CollierMcMillan, London, 1964.</li>
+  <li>[HB78] Carl Hewitt and Henry Baker. Actors and Continuous Functionals. In E. J.Neuhold, editor,Formal Description of Programming Concepts, pages 367–390. North-Holland, Amsterdam, 1978.</li>
+  <li>[HBS73] Carl Hewitt, Peter Bishop, and Richard Steiger. A Universal Modular AC-TOR Formalism for Artificial Intelligence. In Nils J. Nilsson, editor, Proc. 3rd International Joint Conference on Artificial Intelligence, pages 235–245, Standford, CA, August 1973. William Kaufmann.</li>
+  <li>[HDH03] Martin Hirzel, Amer Diwan, and Matthew Hertz. Connectivity-based GarbageCollection. InProc. ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA ’03), pages 359–373,2003.</li>
+  <li>[Hew77] Carl Hewitt. Viewing Control Structures as Patterns of Passing Messages. Journal of Artificial Intelligence, 8(3):323–364, 1977.</li>
+  <li>[Hew85] Carl Hewitt. The Challenge of Open Systems: Current Logic Programming Methods May be Insufficient for Developing the Intelligent Systems of theFuture. BYTE, 10(4):223–242, 1985.</li>
+  <li>[Hoa65] C.A.R Hoare. Record Handling, in Algol Bulletin 21.3.6, 1965.</li>
+  <li>[Hoa69] C. A. R. Hoare. An Axiomatic Basis for Computer Programming. Commu-nications of the ACM, 12(10):576–580, 583, October 1969.</li>
+  <li>[Hoa74] C. A. R. Hoare. Monitors: an Operating System Structuring Concept. Communications of the ACM, 17(10):549–557, 1974.</li>
+  <li>[Hoa78] C. A. R. Hoare. Communicating Sequential Processes. Communications of the ACM, 21(8):666–677, 1978.</li>
+  <li>[HP97] Lenwood S. Heath and Sriram V. Pemmaraju. Stack and Queue Layoutsof Posets. SIJDM: SIAM Journal on Discrete Mathematics, 10(4):599–625, November 1997.</li>
+  <li>[HPW03] Michael Howard, Jon Pincus, and Jeannette Wing. Measuring Relative Attack Surfaces. Technical Report CMU-TR-03-169, Carnegie Mellon University, August 2003. Proc. 2003 Workshop on Advanced Developments in Software and Systems Security. www.cs.cmu.edu/∼wing/publications/Howard-Wing03.pdf.</li>
+  <li>[HRB+87] Norman C. Hutchinson, Rajindra K. Raj, Andrew P. Black, Henry M. Levy,and Eric Jul. The Emerald Programing Lanuage Report. Technical Report 87-10-07, Department of Computer Science, University of Washington, Seattle,October 1987.</li>
+  <li>[HRU75] Michael A. Harrison, Walter L. Ruzzo, and Jeffrey D. Ullman. On Protectionin Operating Systems. InThe Symposium on Operating Systems Principles,pages 14–24, 1975.</li>
+  <li>[HT91] Kohei Honda and Mario Tokoro. An Object Calculus for Asynchronous Communication. In European Conference on Object Oriented Programming, pages 133–147, 1991.</li>
+  <li>[IBM68] IBM Corporation. IBM System/360 Principles of Operation. IBM Corpora-tion, San Jose, CA, USA, eighth edition, 1968.</li>
+  <li>[IoEE85] American National Standards Institute, Institute of Electrical, and ElectronicEngineers. IEEE Standard for Binary Floating-Point Arithmetic.ANSI/IEEEStandard, Std 754-1985,New York, 1985.</li>
+  <li>[JLS76] Anita K. Jones, Richard J. Lipton, and Lawrence Snyder. A Linear Time Algorithm for Deciding Security. InFoundations of Computer Science, pages 33–41, 1976.</li>
+  <li>[Jon73] Anita K. Jones.Protection in Programmed Systems. PhD thesis, Departmentof Computer Science, Carnegie-Mellon University, June 1973.</li>
+  <li>[Jon83] Cliff B. Jones.  Specification and Design of (Parallel) Programs.  InIFIPCongress, pages 321–332, 1983.</li>
+  <li>[Jon03] Cliff B. Jones.  The Early Search for Tractable Ways of Reasoning aboutPrograms.IEEE Annals of the History of Computing, 25(2):26–49, 2003.</li>
+  <li>[Kah96] William Kahan. Lecture Notes on the Status of the IEEE Standard 754 forBinary Floating Point Arithmetic. www.cs.berkeley.EDU/∼wkahan/ieee754status/ieee754.ps, 1996.</li>
+  <li>[Kar03] Alan H. Karp. Enforce POLA on Processes to Control Viruses. Communications of the ACM, 46(12):27–29, 2003.</li>
+  <li>[Kay93] Alan C. Kay. The Early History Of Smalltalk.SIGPLAN Notices, 28(3):69–95, 1993.</li>
+  <li>[Kay98] Alan Kay. Prototypes vs. Classes, 1998. lists.squeakfoundation.org/pipermail/squeak-dev/1998-October/017019.html.</li>
+  <li>[KCR98] R. Kelsey, W. Clinger, and J. Rees.  Revised5Report on the AlgorithmicLanguage Scheme.ACM Sigplan Notices, pages 26–76, 1998.</li>
+  <li>[Key81] Key Logic, Inc. Gnosis Design Documentation, 1981. www.agorics.com/Library/KeyKos/Gnosis/keywelcome.html.</li>
+  <li>[Key86] Key Logic, Inc.U.S. Patent 4,584,639: Computer Security System. U. S.Patent Office, 1986.</li>
+  <li>[KGRB01] Alan H. Karp, Rajiv Gupta, Guillermo Rozas, and Arindam Banerji. The Client Utility Architecture: The Precursor to E-Speak. Technical Report HPL-2001-136, Hewlett Packard Laboratories, June 09 2001.</li>
+  <li>[KGRB03] Alan H. Karp, R. Gupta, G. J. Rozas, and A. Banerji. Using Split Capabilitiesfor Access Control.IEEE Software, 20(1):42–49, January 2003.</li>
+  <li>[KH84] P. A. Karger and A. J. Herbert. An Augmented Capability Architecture toSupport Lattice Security and Traceability of Access. InProc. 1984 IEEESymposium on Security and Privacy, pages 2–12, Oakland, CA, April 1984.IEEE.</li>
+  <li>[KK02] Alan H. Karp and Vana Kalogeraki. The Client Utility as a Peer-to-Peer System. In Revised Papers from the NETWORKING 2002 Workshops on Web Engineering and Peer-to-Peer Computing, pages 260–273, London, UK,2002. Springer-Verlag.</li>
+  <li>[KL86] Richard Y. Kain and Carl E. Landwehr. On Access Checking in CapabilitySystems. In Proc. 1986 IEEE Symposium on Security and Privacy, pages95–100, 1986.</li>
+  <li>[KM66] Richard M. Karp and Raymond E. Miller. Properties of a Model for Parallel Computations: Determinacy, Termination, Queueing. SIAM J. Appl. Math., 14(6):1390–1411, November 1966.</li>
+  <li>[KM88] Kenneth M. Kahn and Mark S. Miller. Language Design and Open Systems. In Bernardo A. Huberman, editor,Ecology of Computation. Elsevier Science Publishers, North-Holland, 1988.</li>
+  <li>[Kri80] Saul A. Kripke. Naming and Necessity.  Library of Philosophy and Logic.Blackwell, Oxford, 1980.</li>
+  <li>[KTMB87] Kenneth M. Kahn, E. Dean Tribble, Mark S. Miller, and Daniel G. Bo-brow. Vulcan: Logical Concurrent Objects. InResearch Directions in Object-Oriented Programming, pages 75–112. MIT Press, 1987.</li>
+  <li>[Lac56] Ludwig Lachmann. Capital and its Structure. Kansas City: Sheed Andrewsand McNeel Inc., 1956.</li>
+  <li>[Lam73] Butler W. Lampson. A Note on the Confinement Problem.Communicationsof the ACM, 16(10):613–615, 1973.</li>
+  <li>[Lam74] Butler W. Lampson. Protection.Operating Systems Review, 8(1):18–24, January 1974.</li>
+  <li>[Lam78] Leslie Lamport. Time, Clocks, and the Ordering of Events in a Distributed System. Communications of the ACM, 21(7):558–565, 1978.</li>
+  <li>[Lam98] Leslie Lamport. The Part-time Parliament.ACM Transactions on Computer Systems, 16(2):133–169, 1998.</li>
+  <li>[Lan92] Charles R. Landau. The Checkpoint Mechanism in KeyKOS. InProc. Second International Workshop on Object Orientation in Operating Systems, pages 86–91. IEEE, September 1992.</li>
+  <li>[Lee06] Edward A. Lee. The Problem with Threads. Technical Report UCB/EECS-2006-1, EECS Department, University of California, Berkeley, January 102006. www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.html</li>
+  <li>[Lef03] Glyph Lefkowitz. Generalization of Deferred Execution in Python, 2003. python.org/pycon/papers/deferex/.</li>
+  <li>[Lev84] Henry M. Levy. Capability-based Computer Systems. Digital Press, 1984.</li>
+  <li>[LG86] B. Liskov and J. Guttag.Abstraction and Specification in Program Develope-ment. MIT Press, Cambridge, Mass., 1986.</li>
+  <li>[LN79] Hugh C. Lauer and Roger M. Needham. On the Duality of Operating System Structures. In Proc. 2nd International Symposium on Operating Systems, pages 3–19. IRIA, October 1979. ACM Operating System Review.</li>
+  <li>[LS76] Butler W. Lampson and Howard E. Sturgis.  Reflections on an Operating System Design. Communications of the ACM, 19(4):251–265, May 1976.</li>
+</ul>
 
         
       </section>

@@ -5,7 +5,8 @@ description: Agoric and the Decades-Long Quest for Secure Smart Contracts - Hype
 excerpt: "We discussed his visionary 1988 Agoric papers, which explored how markets could be applied to the world of software. We also covered how his view of smart contracts, which focused on secure bilateral agreements complements and converges with blockchain. Finally, we covered his new company Agoric and their conceptualization of higher order smart contracts."
 share: true
 header:
-  image: /images/mark-miller-epicenter-header.png
+  image: /images/mark-s-miller-banner.png
+  caption: "'[Architectures of Robust Openness](https://conf.tube/videos/watch/7a772faf-9a32-4692-b5cd-4dbabfdd9797)' - [ActivityPub Conference](https://conf.tube/video-channels/apconf_channel) Keynote by Mark S. Miller"
   teaser: /images/mark-miller-epicenter-teaser.png
 categories: ["Transcripts","History","Agoric"]
 tags: ["Mark Miller", "ObCap", "Smart Contracts"]
