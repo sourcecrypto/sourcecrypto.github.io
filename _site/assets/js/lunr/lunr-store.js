@@ -589,11 +589,6 @@ var store = [{
         "tags": ["Christopher Allen","Smart Signatures"],
         "url": "http://localhost:4000/posts/transcripts/smart-signatures-christopher-allen/",
         "teaser":"http://localhost:4000/images/smart-signatures.png"},{
-        "title": "Chain Link",
-        "excerpt":"In leiu of my own content, I’m reproducing the channel history of The Watchers Discord Server. Though, eventually I’ll turn this into a more organized page :) The Watchers chainlink 416 messages AJ 03-May-19 09:47 AM WatchBro 03-May-19 01:06 PM Whats you opinion @AJ that Ethereum needs Chainlink more than...","categories": ["Enterprise"],
-        "tags": ["Chainlink"],
-        "url": "http://localhost:4000/posts/chainlink/",
-        "teaser":"http://localhost:4000/images/chain-link-teaser.png"},{
         "title": "The Birth of Rare Art on the Bitcoin Blockchain",
         "excerpt":"In The Beginning In 2005, artist Matt Furie created the comic series Boy’s Club, which stars the teenage monster characters Pepe, Brett, Andy and Landwolf. pepe-the-frog The Creator of Pepe the Frog Talks About Making Comics in the Post-Meme World “I’ve made my mark on the internet, so I can...","categories": ["History","Bitcoin"],
         "tags": ["Rare Digital Art","Counterparty","Rare Pepe"],
