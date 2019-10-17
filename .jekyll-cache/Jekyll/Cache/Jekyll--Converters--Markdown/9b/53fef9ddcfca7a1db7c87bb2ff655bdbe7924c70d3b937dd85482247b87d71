@@ -1,4 +1,4 @@
-I"„«<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
+I"†«<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
 
 <h2>Pages</h2>
 
@@ -138,19 +138,6 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/posts/" rel="permalink">Posts Archive</a>
-      
-    </h2>
-    
-    
-  </article>
-</div>
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
         <a href="/archive/" rel="permalink">SourceCrypto Directory and Archive</a>
       
     </h2>
@@ -164,7 +151,20 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/" rel="permalink">Crypto-Curation for the Commons</a>
+        <a href="/posts/" rel="permalink">Posts Archive</a>
+      
+    </h2>
+    
+    
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/" rel="permalink">Blockchain Research Collaborative</a>
       
     </h2>
     
