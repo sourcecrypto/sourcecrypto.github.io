@@ -140,7 +140,7 @@ This is a transcript of the epicenter podcast, where [Brian Fabien Crain intervi
 
 **Mark**: So I don’t know the EOS approach. I also don’t know of Vitalik’s recent proposals. Right now we don’t have good composable systems of [electronic rights](https://ai.google/research/pubs/pub40673). And I think that that’s really sort of the prior issue. So in that sense I’m responding positively to what you said about EOS even though I don’t know the actual EOS system. Having a foundation in rights and rights transfer is I think the right conceptual starting point such that markets emerge from interaction between multiple parties within a rules based rights based framework. And obviously auctions is one way to do that. A proportional share ownership rights is another way to do that. All of these things are worth exploring. I don’t have a strong opinion that one is better than the other. I will say that that Agoric is planning to implement the escalator algorithm for scheduling on the Agoric blockchain but we also want to encourage all sorts of different experiments there.
 
-### Agroic, Object Capabilities, Secure Smart Contracts
+### Agoric, Object Capabilities, Secure Smart Contracts
 
 **Brian**: Okay. This is perfect because this kind of leading us exactly where I wanted to go. So I mean there were the papers many years ago that had the name Agoric in it but then much more recently also you co-founded a new company that is also called [Agoric](https://agoric.com), so can you tell us a little bit what is the main vision of the company what are you guys trying to accomplish.
 
