@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Agoric and the Decades-Long Quest for Secure Smart Contracts - Hyperlink Annotated Transcript"
+title: "Agoric and the Decades-Long Quest for Secure Smart Contracts - Hyperlink Annotation"
 description: "Agoric and the Decades-Long Quest for Secure Smart Contracts - Epicenter Podcast - Hyperlink Annotated Transcript"
 excerpt: "We discussed his visionary 1988 Agoric papers, which explored how markets could be applied to the world of software. We also covered how his view of smart contracts, which focused on secure bilateral agreements complements and converges with blockchain. Finally, we covered his new company Agoric and their conceptualization of higher order smart contracts."
 share: true
@@ -54,7 +54,7 @@ This is a transcript of the epicenter podcast, where [Brian Fabien Crain intervi
 >* Microsoft Azure: Deploy enterprise-ready consortium blockchain networks that scale in just a few clicks. More at [aka.ms/epicenter](https://aka.ms/epicenter).
 
 
-## Agoric and the Decades-Long Quest for Secure Smart Contracts - Epicenter Podcast - Hyperlink Annotated Transcript (in progress)
+## Agoric and the Decades-Long Quest for Secure Smart Contracts
 
 {% include video id="j5SuqIrgRJU" provider="youtube" %}
 
@@ -79,7 +79,7 @@ This is a transcript of the epicenter podcast, where [Brian Fabien Crain intervi
 
 [![](https://vangogh.teespring.com/v3/image/0R8w-1-KjC570YaNh4vVa2qctsc/480/560.jpg)](https://teespring.com/shop/munitions-t-shirt)
 
-### Early Thoughts and Work on Digital Cash
+### Digital Cash: Early Thoughts and Work
 
 **Brian**: So you talked a little bit about [Xanadu](http://xanadu.com/HISTORY/) and how the thing that you guys saw there was this idea of censorship resistant publishing and this amazing you know force it would be in creating freedom. Of course the parallels to a Bitcoin  are like you know astonishing way because people would always speak about okay censorship resist money and basically speak about it in very similar terms. Did you guys back then as early as you know when you started working on Xanadu, already think about okay maybe there should also be something like censorship resistant money and what that could look like.
 
