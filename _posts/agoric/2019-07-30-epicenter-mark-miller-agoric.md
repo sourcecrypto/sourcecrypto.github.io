@@ -17,7 +17,7 @@ last_modified_at: 2019-09-02T11:22:33-23:00
 classes: wide
 ---
 
-This is a transcript of the epicenter podcast, where Brian Fabien Crain interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I reproduced [Epicenter's transcription](https://epicenter.tv/episode/286/) ([CC-BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)), adding links, and headings, to make this a more navigable document.
+This is a transcript of the epicenter podcast, where Brian Fabien Crain interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I've adapted [Epicenter's transcription](https://epicenter.tv/episode/286/) ([CC-BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)) of that interview - adding links and headings, for acessibility purposes.
 {: .notice}
 
 UPDATE: The Agoric team added some more polish to my adaptation, and re-published on [their medium blog](https://medium.com/agoric/agoric-and-the-decades-long-quest-for-secure-smart-contracts-epicenter-interview-with-mark-s-76c9a0fab6e2)!
