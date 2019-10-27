@@ -10,15 +10,18 @@ header:
   teaser: /images/mark-miller-epicenter-teaser.png
 categories: ["Transcripts","History","Agoric"]
 tags: ["Mark Miller", "ObCap", "Smart Contracts"]
-permalink: /posts/transcripts/mark-miller-agoric-epicenter/
-redirect_from: 
-cannonical_url: 'https://epicenter.tv/episode/286/'
+permalink: /posts/agoric/mark-miller-agoric-epicenter/
+redirect_from: /posts/transcripts/mark-miller-agoric-epicenter/
+cannonical_url: 'https://medium.com/agoric/agoric-and-the-decades-long-quest-for-secure-smart-contracts-epicenter-interview-with-mark-s-76c9a0fab6e2'
 last_modified_at: 2019-09-02T11:22:33-23:00
 classes: wide
 ---
 
-This is a transcript of the epicenter podcast, where [Brian Fabien Crain interviews Mark Miller on the history of smart contracts](https://epicenter.tv/episode/286/), the Agoric Papers, and more. I've reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it's simply a re-production of the transcription from their web-site (licensed [Creative Commons BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)).
+This is a transcript of the epicenter podcast, where Brian Fabien Crain interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I reproduced [Epicenter's transcription](https://epicenter.tv/episode/286/) ([CC-BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)), adding links, and headings, to make this a more navigable document.
 {: .notice}
+
+UPDATE: The Agoric team added some more polish to my adaptation, and re-published on [their medium blog](https://medium.com/agoric/agoric-and-the-decades-long-quest-for-secure-smart-contracts-epicenter-interview-with-mark-s-76c9a0fab6e2)!
+{: .notice--sucess}
 
 ## Show Notes
 
@@ -47,11 +50,6 @@ This is a transcript of the epicenter podcast, where [Brian Fabien Crain intervi
 >* [Distributed Electronic Rights in JavaScript – Google AI](https://ai.google/research/pubs/pub40673)
 >* [Agoric at SF Cryptocurrency Devs - Programming Secure Smart Contracts - YouTube](https://www.youtube.com/watch?v=7u0yVJjBBek&list=PLzDw4TTug5O0ywHrOz4VevVTYr6Kj_KtW)
 >* [The Duality of Smart Contracts and Electronic Rights by Dean Tribble at Web3 Summit 2018 - YouTube](https://www.youtube.com/watch?v=vvdZKzct2-U&list=PLzDw4TTug5O0ywHrOz4VevVTYr6Kj_KtW)
-
->**Sponsored by**
-
->* Cosmos: Join the most interoperable ecosystem of connected blockchains. Learn more at [cosmos.network/epicenter](http://cosmos.network/epicenter).
->* Microsoft Azure: Deploy enterprise-ready consortium blockchain networks that scale in just a few clicks. More at [aka.ms/epicenter](https://aka.ms/epicenter).
 
 
 ## Agoric and the Decades-Long Quest for Secure Smart Contracts
