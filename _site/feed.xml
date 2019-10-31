@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-31T15:30:42-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SourceCrypto</title><subtitle>Chat Server and Web Portal for a Public Domain - Crypto Research Collaborative.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">Practical Bitcoin Guides: Wallets, Applications, and Development</title><link href="http://localhost:4000/posts/Bitcoin/practical/" rel="alternate" type="text/html" title="Practical Bitcoin Guides: Wallets, Applications, and Development" /><published>2019-08-01T00:00:00-04:00</published><updated>2019-08-17T06:22:33-04:00</updated><id>http://localhost:4000/posts/Bitcoin/practical-bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/practical/">&lt;p&gt;I started with whatever I had come across over the past year, and saved. Then I went to lopp.net, bitcoin.org, and few of the other of the top Bitcoin resources, such as LNRoute. I’ve gone through those sites gathering a link at a time, to sort them all in an iterative process, figuring out categories as I go. Then I got into the Awesome lists, and really started feeling like I had surveyed a broad swath of the Bitcoin information ecosystem. That’s when I dove face first into the &lt;a href=&quot;https://github.com/topics/bitcoin&quot;&gt;Bitcoin Topic on Github&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-31T15:31:37-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SourceCrypto</title><subtitle>Chat Server and Web Portal for a Public Domain - Crypto Research Collaborative.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">Practical Bitcoin Guides: Wallets, Applications, and Development</title><link href="http://localhost:4000/posts/Bitcoin/practical/" rel="alternate" type="text/html" title="Practical Bitcoin Guides: Wallets, Applications, and Development" /><published>2019-08-01T00:00:00-04:00</published><updated>2019-08-17T06:22:33-04:00</updated><id>http://localhost:4000/posts/Bitcoin/practical-bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/practical/">&lt;p&gt;I started with whatever I had come across over the past year, and saved. Then I went to lopp.net, bitcoin.org, and few of the other of the top Bitcoin resources, such as LNRoute. I’ve gone through those sites gathering a link at a time, to sort them all in an iterative process, figuring out categories as I go. Then I got into the Awesome lists, and really started feeling like I had surveyed a broad swath of the Bitcoin information ecosystem. That’s when I dove face first into the &lt;a href=&quot;https://github.com/topics/bitcoin&quot;&gt;Bitcoin Topic on Github&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;As far as finding practical applcations interacting with Bitcoin in some way, it’s hard to find a more comprehensive source than that. I’m still not through the entire list.. and since my Bitcoin History repo only has 4 stars, I will have to sroll through to the very bottom where I’m sure some other gems are found.&lt;/p&gt;
 
@@ -325,8 +325,12 @@
   &lt;li&gt;https://medium.com/@meeDamian/bitcoin-full-node-on-rbp3-revised-88bb7c8ef1d1&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/Stadicus/guides/blob/master/raspibolt/README.md&quot;&gt;Beginner’s Guide to Lightning️ on a Raspberry Pi&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;https://stadicus.github.io/RaspiBolt/&lt;/li&gt;
-  &lt;li&gt;https://github.com/rootzoll/raspiblitz -Fastest and cheapest way to get your own Lightning Node running - on a RaspberryPi with a nice LCD
+  &lt;li&gt;https://github.com/rootzoll/raspiblitz
+    &lt;ul&gt;
+      &lt;li&gt;Fastest and cheapest way to get your own Lightning Node running - on a RaspberryPi with a nice LCD
 &lt;img src=&quot;https://imgur.com/edaW3pO.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/jochemin/raspnode&quot;&gt;Bitcoin Core + LND 0.4 Beta (mainnet) Installer for Raspberry&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.electromaker.io/tutorial/blog/cryptocurrency-mining-on-the-raspberry-pi-60&quot;&gt;Cryptocurrency Mining on the Raspberry Pi&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;https://photochirp.com/r-pi/raspberry-pi-bitcoin-monitor-oled-ticker/- Raspberry Pi Bitcoin Monitor with OLED Ticker&lt;/li&gt;
@@ -350,9 +354,17 @@
 &lt;h3 id=&quot;proofs&quot;&gt;Proofs&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;https://github.com/ligi/SatoshiProof - Satoshi Proof is your personal notary leveraging the power of the Bitcoin network to prove existence of text or images at a certain time.&lt;/li&gt;
+  &lt;li&gt;https://github.com/ligi/SatoshiProof
+    &lt;ul&gt;
+      &lt;li&gt;Satoshi Proof is your personal notary leveraging the power of the Bitcoin network to prove existence of text or images at a certain time.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;https://github.com/opentimestamps/&lt;/li&gt;
-  &lt;li&gt;https://github.com/Tierion/blockchain-anchor - A Node.js library for anchoring data onto the Bitcoin blockchain and confirming anchored data on Bitcoin and Ethereum. - Tierion/blockchain-anchor&lt;/li&gt;
+  &lt;li&gt;https://github.com/Tierion/blockchain-anchor
+    &lt;ul&gt;
+      &lt;li&gt;A Node.js library for anchoring data onto the Bitcoin blockchain and confirming anchored data on Bitcoin and Ethereum. - Tierion/blockchain-anchor&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://medium.com/tierion/how-to-create-and-verify-a-chainpoint-proof-eba52a7700e3&quot;&gt;Create and Verify a Chainpoint Proof&lt;/a&gt; - Chainpoint is an open standard for…
     &lt;ul&gt;
       &lt;li&gt;https://github.com/chainpoint/chainpoint-cli&lt;/li&gt;
