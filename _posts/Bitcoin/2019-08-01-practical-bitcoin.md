@@ -232,7 +232,8 @@ During the research for this project, I set up Wasabi for the first time. Works 
 * https://medium.com/@meeDamian/bitcoin-full-node-on-rbp3-revised-88bb7c8ef1d1
 * [Beginner’s Guide to Lightning️ on a Raspberry Pi](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md)
 * https://stadicus.github.io/RaspiBolt/
-* https://github.com/rootzoll/raspiblitz -Fastest and cheapest way to get your own Lightning Node running - on a RaspberryPi with a nice LCD
+* https://github.com/rootzoll/raspiblitz 
+  - Fastest and cheapest way to get your own Lightning Node running - on a RaspberryPi with a nice LCD
   ![](https://imgur.com/edaW3pO.png)
 * [Bitcoin Core + LND 0.4 Beta (mainnet) Installer for Raspberry](https://github.com/jochemin/raspnode)
 * [Cryptocurrency Mining on the Raspberry Pi](https://www.electromaker.io/tutorial/blog/cryptocurrency-mining-on-the-raspberry-pi-60)
@@ -253,9 +254,11 @@ During the research for this project, I set up Wasabi for the first time. Works 
 
 ### Proofs
 
-* https://github.com/ligi/SatoshiProof - Satoshi Proof is your personal notary leveraging the power of the Bitcoin network to prove existence of text or images at a certain time.
+* https://github.com/ligi/SatoshiProof 
+  - Satoshi Proof is your personal notary leveraging the power of the Bitcoin network to prove existence of text or images at a certain time.
 * https://github.com/opentimestamps/
-* https://github.com/Tierion/blockchain-anchor - A Node.js library for anchoring data onto the Bitcoin blockchain and confirming anchored data on Bitcoin and Ethereum. - Tierion/blockchain-anchor
+* https://github.com/Tierion/blockchain-anchor 
+  - A Node.js library for anchoring data onto the Bitcoin blockchain and confirming anchored data on Bitcoin and Ethereum. - Tierion/blockchain-anchor
 * [Create and Verify a Chainpoint Proof](https://medium.com/tierion/how-to-create-and-verify-a-chainpoint-proof-eba52a7700e3) - Chainpoint is an open standard for…
   * https://github.com/chainpoint/chainpoint-cli
 

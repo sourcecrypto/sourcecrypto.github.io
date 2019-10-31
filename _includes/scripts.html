@@ -31,7 +31,7 @@
   {% for script in site.after_footer_scripts %}
     {% if script contains "://" %}
       {% capture script_path %}{{ script }}{% endcapture %}
-    {%{ else %}
+    {% else %}
       {% capture script_path %}{{ script | relative_url }}{% endcapture %}
     {% endif %}
     <script src="{{ script_path }}"></script>
@@ -39,6 +39,6 @@
 {% endif %}
 
      <!--Email Form.-->
-{% if site.frmsub == true %}
+{% if site.frmsub %}
     <script src="https://kwes.io/js/kwes.js"></script>
 {% endif %}

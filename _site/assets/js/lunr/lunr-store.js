@@ -529,16 +529,16 @@ var store = [{
         "tags": ["Smart Contracts"],
         "url": "http://localhost:4000/posts/history/smart-contracts/",
         "teaser":"https://sourcecrypto.pub/images/bitcoin-history/elems10.png"},{
-        "title": "Blockchain Data - Analytics",
-        "excerpt":"topics/blockchain-analytics arnaucube/goBlockchainDataAnalysis blockchain-unica/blockapi - A general framework for blockchain analytics ipfs/sig-blockchain-data joshbressers/blockchain-elasticsearch unwriter/B - Store and reference data on the Bitcoin SV blockchain https://b.bitdb.network coinbase/btcexport - Export process for Bitcoin blockchain data to CSV mappum/blockchain-download - Download blockchain data from peers Data reddit: I have 5 years of coinmarketcap.com crypto...","categories": ["Analytics"],
-        "tags": ["Data"],
-        "url": "http://localhost:4000/posts/analytics/blockchain-data/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Verifiable Organizations Network - A Production Government Deployment of Hyperledger Indy",
         "excerpt":"Transcript: John Jordan and Stephen Curran’s Presentation of the Verifiable Organizations Network at the 2018 Hyperledger Global Forum. -Published on Dec 27, 2018 John Jordan, Province of British Columbia &amp; Stephen Curran, CloudCompass Computing The Verifiable Organizations Network (VON) enables governments and organizations to exchange data in trustworthy ways based...","categories": ["Transcripts","Decentralized Identity"],
         "tags": ["Indy","Identity","VON","DID"],
         "url": "http://localhost:4000/posts/transcripts/VON-Presentation-Jordan-Curran-HGF/",
         "teaser":"http://localhost:4000/images/OrgBook-Hyperledger-Indy-Case-Study.png"},{
+        "title": "Blockchain Data - Analytics",
+        "excerpt":"topics/blockchain-analytics arnaucube/goBlockchainDataAnalysis blockchain-unica/blockapi - A general framework for blockchain analytics ipfs/sig-blockchain-data joshbressers/blockchain-elasticsearch unwriter/B - Store and reference data on the Bitcoin SV blockchain https://b.bitdb.network coinbase/btcexport - Export process for Bitcoin blockchain data to CSV mappum/blockchain-download - Download blockchain data from peers Data reddit: I have 5 years of coinmarketcap.com crypto...","categories": ["Analytics"],
+        "tags": ["Data"],
+        "url": "http://localhost:4000/posts/analytics/blockchain-data/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "History of Permissioned Ledgers",
         "excerpt":"I used this space as prep for writing this article: The Times and History of Permissioned Ledgers Source Crypto I collect links in the SourceCrypto Discord Server #history channel, and occasionally I export them to this website: https://sourcecrypto.pub/discolog/general/history/ You can expect that page and the discord server to have information...","categories": ["History"],
         "tags": ["Permissioned Ledgers"],
@@ -644,10 +644,10 @@ var store = [{
         "tags": ["Layer 2","Lightning"],
         "url": "http://localhost:4000/posts/Bitcoin/lightning/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "Agoric and the Decades-Long Quest for Secure Smart Contracts - Epicenter Podcast - Hyperlink Annotated Transcript (in progress)",
-        "excerpt":"This is a transcript of the epicenter podcast, where Brian Fabien Crain interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I’ve reproduced this here, to add headings and sources, and make this a more navigable research document. For now, it’s simply a re-production of...","categories": ["Transcripts","History","Agoric"],
+        "title": "Agoric and the Decades-Long Quest for Secure Smart Contracts - Hyperlink Annotation",
+        "excerpt":"This is a transcript of the epicenter podcast, where Brian Fabien Crain and Friederike Ernst interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I’ve adapted Epicenter’s transcription (CC-BY-NC-SA) of that interview - adding links and headings, for acessibility purposes. UPDATE: The Agoric team added...","categories": ["Transcripts","History","Agoric"],
         "tags": ["Mark Miller","ObCap","Smart Contracts"],
-        "url": "http://localhost:4000/posts/transcripts/mark-miller-agoric-epicenter/",
+        "url": "http://localhost:4000/posts/agoric/mark-miller-agoric-epicenter/",
         "teaser":"http://localhost:4000/images/mark-miller-epicenter-teaser.png"},{
         "title": "Practical Bitcoin Guides: Wallets, Applications, and Development",
         "excerpt":"I started with whatever I had come across over the past year, and saved. Then I went to lopp.net, bitcoin.org, and few of the other of the top Bitcoin resources, such as LNRoute. I’ve gone through those sites gathering a link at a time, to sort them all in an...","categories": ["Bitcoin"],
