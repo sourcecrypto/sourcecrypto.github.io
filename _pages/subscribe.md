@@ -22,13 +22,13 @@ Eventually, I might experient with a monthly newsletter with an occasional promo
 {: .notice--danger}
 
 <div class="kwes-form">
-    <form method="POST" action="https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU" success-message="Thank You!" error-message="Oops! Your form has errors.">
+    <form method="POST" action="https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU" success-message="Thank You!" error-message="Oops! Your form has errors." mode="test">
         <label for="nym">Nym</label>
         <input type="text" name="nym" rules="max:255">
         <label for="addy">* Email</label>
-        <input type="email" name="addy" id="addy" rules="required|email|max:255">
+        <input type="email" name="addy" rules="required|email|max:255">
         <label for="message">Message</label>
-        <textarea name="message" id="message"></textarea>
+        <textarea name="message"></textarea>
         <button type="submit">Submit</button>
     </form>
 </div>
