@@ -68,3 +68,5 @@ This is all getting some serious re-vamping in the coming months.
 <h2>Featured Content</h2>
 
 {% include feature_row id="feature_row" %}
+
+

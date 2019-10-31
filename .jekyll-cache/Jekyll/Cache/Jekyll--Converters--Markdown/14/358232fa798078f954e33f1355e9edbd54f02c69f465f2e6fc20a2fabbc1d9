@@ -1,4 +1,4 @@
-I"†«<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
+I"Ä­<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
 
 <h2>Pages</h2>
 
@@ -281,6 +281,19 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
+        <a href="/updates/" rel="permalink">Subscribe for Updates!</a>
+      
+    </h2>
+    
+    
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
         <a href="/tags/" rel="permalink">Posts by Tag</a>
       
     </h2>
@@ -450,19 +463,6 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/blog/blockchain-data/" rel="permalink"></a>
-      
-    </h2>
-    
-    
-  </article>
-</div>
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
         <a href="/VerifiableOrganizationsNetwork-HGF.html" rel="permalink"></a>
       
     </h2>
@@ -490,6 +490,19 @@
     <h2 class="archive__item-title" itemprop="headline">
       
         <a href="/transcripts/VON-Presentation-Jordan-Curran-HGF/" rel="permalink"></a>
+      
+    </h2>
+    
+    
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/blockchain-data/" rel="permalink"></a>
       
     </h2>
     
@@ -827,6 +840,19 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
+        <a href="/posts/transcripts/mark-miller-agoric-epicenter/" rel="permalink"></a>
+      
+    </h2>
+    
+    
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
         <a href="/toml/id-toml.html" rel="permalink"></a>
       
     </h2>
@@ -1138,7 +1164,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/posts/transcripts/mark-miller-agoric-epicenter/" rel="permalink">Agoric and the Decades-Long Quest for Secure Smart Contracts - Epicenter Podcast - Hyperlink Annotated Transcript (in progress)
+        <a href="/posts/agoric/mark-miller-agoric-epicenter/" rel="permalink">Agoric and the Decades-Long Quest for Secure Smart Contracts - Hyperlink Annotation
 </a>
       
     </h2>
@@ -1626,28 +1652,6 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/posts/transcripts/VON-Presentation-Jordan-Curran-HGF/" rel="permalink">Verifiable Organizations Network - A Production Government Deployment of Hyperledger Indy
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  31 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">The Verifiable Organizations Network is a Government Production deployment of Hyperledger Indy, live the 10th of September, 2018. John Jordan and Stephen Cur...</p>
-  </article>
-</div>
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
         <a href="/posts/analytics/blockchain-data/" rel="permalink">Blockchain Data - Analytics
 </a>
       
@@ -1663,6 +1667,28 @@
     
     <p class="archive__item-excerpt" itemprop="description">Resources related to Blockchain Data and Analytics
 </p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/transcripts/VON-Presentation-Jordan-Curran-HGF/" rel="permalink">Verifiable Organizations Network - A Production Government Deployment of Hyperledger Indy
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  31 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">The Verifiable Organizations Network is a Government Production deployment of Hyperledger Indy, live the 10th of September, 2018. John Jordan and Stephen Cur...</p>
   </article>
 </div>
 
