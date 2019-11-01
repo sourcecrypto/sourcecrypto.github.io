@@ -17,12 +17,8 @@ I won't sell your information, or even send many e-mails.
 
 Eventually, I might experient with a monthly newsletter with an occasional promotional offer. However, that would be a distinct opt-in list.
 
-
-**Only E-mail Required.**
-{: .notice--danger}
-
 <div class="kwes-form">
-    <form method="POST" action="https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU" success-message="Thank You!" error-message="Oops! Your form has errors." mode="test">
+    <form method="POST" action="https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU" success-message="Thank You!" error-message="Oops! Your form has errors.">
         <label for="addy"> Email</label>
         <input type="email" name="addy" rules="required|email|max:255">
         <button type="submit">Submit</button>
