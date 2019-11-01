@@ -19,6 +19,8 @@ Eventually, I might experient with a monthly newsletter with an occasional promo
 
 <div class="kwes-form">
     <form method="POST" action="https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU" success-message="Thank You!" error-message="Oops! Your form has errors.">
+        <label for="nym"> Nym</label>
+        <input type="text" name="nym" rules="max:255">
         <label for="addy"> Email</label>
         <input type="email" name="addy" rules="required|email|max:255">
         <button type="submit">Submit</button>
