@@ -327,7 +327,23 @@ defaults:
         nav: "sourcedisco"
       toc: true
       header:
-        image: /images/Source-Crypto-banner.png
+        image: /images/SC-banner-lite.png
+        teaser: /images/source-crypto-gh-og.png
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+      sidebar:
+        nav: "sourcedisco"
+      toc: false
+      header:
+        image: /images/SC-banner-lite.png
         teaser: /images/source-crypto-gh-og.png
   # _info
   - scope:
@@ -342,7 +358,7 @@ defaults:
       classes: wide
       disco: true
       header:
-        image: /images/Source-Crypto-banner.png
+        image: /images/SC-banner-lite.png
         teaser: /images/source-crypto-gh-og.png
       order: 10
   # _hub
@@ -359,7 +375,7 @@ defaults:
       classes: wide
       disco: true
       header:
-        image: /images/Source-Crypto-banner.png
+        image: /images/SC-banner-lite.png
         teaser: /images/source-crypto-gh-og.png
       order: 20
   # _resources
@@ -375,7 +391,7 @@ defaults:
       classes: wide
       disco: true
       header:
-        image: /images/Source-Crypto-banner.png
+        image: /images/SC-banner-lite.png
         teaser: /images/source-crypto-gh-og.png
       order: 30
     # _blockchain
@@ -391,7 +407,7 @@ defaults:
       classes: wide
       disco: true
       header:
-        image: /images/Source-Crypto-banner.png
+        image: /images/SC-banner-lite.png
         teaser: /images/crypto-teaser.png
       order: 40
     # _chaintech
@@ -407,7 +423,7 @@ defaults:
       classes: wide
       disco: true
       header:
-        image: /images/Source-Crypto-banner.png
+        image: /images/SC-banner-lite.png
         teaser: /images/blockchain-tech-teaser.png
       order: 50
     # _tech
@@ -423,7 +439,7 @@ defaults:
       classes: wide
       disco: true
       header:
-        image: /images/Source-Crypto-banner.png
+        image: /images/SC-banner-lite.png
         teaser: /images/tech-teaser-1.png
       order: 60
     # _entertainment
@@ -439,7 +455,7 @@ defaults:
       classes: wide
       disco: true
       header:
-        image: /images/Source-Crypto-banner.png
+        image: /images/SC-banner-lite.png
       order: 70
     # _application
   - scope:
@@ -454,6 +470,6 @@ defaults:
       classes: wide
       disco: true
       header:
-        image: /images/Source-Crypto-banner.png
+        image: /images/SC-banner-lite.png
         teaser: /images/source-crypto-gh-og.png
       order: 80
