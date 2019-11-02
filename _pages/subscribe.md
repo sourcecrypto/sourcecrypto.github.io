@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Subscribe for Updates!"
-permalink: updates/
+permalink: subscribe/
 header:
   image: https://SourceCrypto.pub/images/SC-banner-lite.png
 sidebar:
@@ -18,7 +18,7 @@ I won't sell your information, or even send many e-mails.
 Eventually, I might experient with a monthly newsletter with an occasional promotional offer. However, that would be a distinct opt-in list.
 
 <div class="kwes-form">
-    <form method="POST" action="https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU" success-message="Thank You!" error-message="Oops! Your form has errors.">
+    <form method="POST" action="https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU" success-message="Thank You!" error-message="Oops! Your form has errors." mode="test">
         <label for="nym"> Nym</label>
         <input type="text" name="nym" rules="max:255">
         <label for="addy"> Email</label>
