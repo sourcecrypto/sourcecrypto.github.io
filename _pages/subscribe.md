@@ -19,12 +19,12 @@ Eventually, I might experient with a monthly newsletter with an occasional promo
 {: .notice--danger}
 
 <div class="kwes-form">
-    <form method="POST" action="https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU" success-message="Thank You!" error-message="Oops! Your form has errors." mode="test">
-        <label for="nym"> Nym</label>
+    <form method="POST" action="https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU" success-message="Thank You!" error-message="Oops! Your form has errors.">
+        <label for="nym"> Nym:</label>
         <input type="text" name="nym" rules="max:255">
-        <label for="addy"> Email</label>
+        <label for="addy"> Email:</label>
         <input type="email" name="addy" rules="required|email|max:255">
-        <label for="note"> Notes</label>
+        <label for="note"> Note:</label>
         <input type="text" name="note" rules="max:255">
         <button type="submit">Submit</button>
     </form>
