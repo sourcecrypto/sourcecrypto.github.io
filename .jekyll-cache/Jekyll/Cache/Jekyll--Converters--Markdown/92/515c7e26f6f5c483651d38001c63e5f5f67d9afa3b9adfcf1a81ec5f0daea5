@@ -1,1746 +1,4 @@
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="utf-8">
-
-<!-- Favicons -->
-
-<link rel="apple-touch-icon" sizes="180x180" href="https://SourceCrypto.pub/assets/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://SourceCrypto.pub/assets/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://SourceCrypto.pub/assets/icons/favicon-16x16.png">
-<link rel="manifest" href="https://SourceCrypto.pub/assets/icons/site.webmanifest">
-<link rel="mask-icon" href="https://SourceCrypto.pub/assets/icons/safari-pinned-tab.svg" color="#79dfce">
-<link rel="shortcut icon" href="https://SourceCrypto.pub/assets/icons/favicon.ico">
-<meta name="msapplication-TileColor" content="#79dfce">
-<meta name="msapplication-config" content="https://SourceCrypto.pub/assets/icons/browserconfig.xml">
-<meta name="theme-color" content="#79dfce">
-
-<!-- begin _includes/seo.html --><title>Practical Bitcoin: Tools, Apps and Guides | SourceCrypto</title>
-<meta name="description" content="This page is for collecting and organizing information related to using Bitcoin in one way shape or form.">
-
-
-
-<meta property="og:type" content="article">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="SourceCrypto">
-<meta property="og:title" content="Practical Bitcoin: Tools, Apps and Guides">
-<meta property="og:url" content="http://localhost:4000/posts/Bitcoin/practical/">
-
-
-  <meta property="og:description" content="This page is for collecting and organizing information related to using Bitcoin in one way shape or form.">
-
-
-
-  <meta property="og:image" content="http://bitcoins.idealogue.io/assets/img/illustrations/getting_started_hero.png">
-
-
-
-  <meta name="twitter:site" content="@SourceCrypto">
-  <meta name="twitter:title" content="Practical Bitcoin: Tools, Apps and Guides">
-  <meta name="twitter:description" content="This page is for collecting and organizing information related to using Bitcoin in one way shape or form.">
-  <meta name="twitter:url" content="http://localhost:4000/posts/Bitcoin/practical/">
-
-  
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="http://bitcoins.idealogue.io/assets/img/illustrations/getting_started_hero.png">
-  
-
-  
-
-
-
-  <meta property="article:published_time" content="2019-08-01T00:00:00-04:00">
-
-
-
-  <meta property="article:modified_time" content="2019-11-05T05:22:33-05:00">
-
-
-
-
-<link rel="canonical" href="http://localhost:4000/posts/Bitcoin/practical/">
-
-
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "url": "http://localhost:4000",
-      "logo": "https://SourceCrypto.pub/images/Source-Crypto-og.png"
-    }
-  </script>
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Infominer",
-      "url": "http://localhost:4000",
-      "sameAs": null
-    }
-  </script>
-
-
-
-
-
-
-
-<!-- end _includes/seo.html -->
-
-
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="SourceCrypto Feed">
-
-<!-- https://t.co/dKP3o1e -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
-
-<!--[if IE ]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
-
-
-
-    
-  </head>
-
-  <body class="layout--single">
-    <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
-  <ul>
-    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
-  </ul>
-</nav>
-
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-
-    
-
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        
-          <a class="site-logo" href="/"><img src="https://sourcecrypto.pub/images/interlinked.png" alt=""></a>
-        
-        <a class="site-title" href="/">Curated Commons</a>
-        <ul class="visible-links">
-<li class="masthead__menu-item">
-              <a href="/posts/">Recent Posts</a>
-            </li>
-<li class="masthead__menu-item">
-              <a href="/archive/">Archive</a>
-            </li>
-<li class="masthead__menu-item">
-              <a href="/tags/">Tags</a>
-            </li>
-<li class="masthead__menu-item">
-              <a href="/about/">About</a>
-            </li>
-<li class="masthead__menu-item">
-              <a href="/subscribe/">Subscribe</a>
-            </li>
-<li class="masthead__menu-item">
-              <a href="https://infominer.id">Infominer.id</a>
-            </li>
-</ul>
-        
-        <button class="search__toggle" type="button">
-          <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
-        </button>
-        
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
-</div>
-
-
-    <div class="initial-content">
-      
-  
-
-
-
-
-
-
-
-
-
-
-
-<div class="page__hero" style=" ">
-  
-    <img src="http://bitcoins.idealogue.io/assets/img/illustrations/getting_started_hero.png" alt="Practical Bitcoin: Tools, Apps and Guides" class="page__hero-image">
-  
-  
-    <span class="page__hero-caption">http://bitcoins.idealogue.io/getting-started.html
-</span>
-  
-</div>
-
-
-
-
-
-<div id="main" role="main">
-  
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person">
-
-  
-    <div class="author__avatar">
-      
-
-      
-        <img src="https://SourceCrypto.pub/images/bio-photo2.jpg" alt="⧉ Infominer" itemprop="image">
-      
-    </div>
-  
-
-  <div class="author__content">
-    
-      <h3 class="author__name" itemprop="name">⧉ Infominer</h3>
-    
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-
-      
-        
-          
-            <li><a href="https://infominer.id" rel="nofollow noopener noreferrer"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
-          
-        
-          
-            <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
-          
-        
-          
-            <li><a href="https://keybase.io/infominer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
-          
-        
-          
-            <li><a href="https://github.com/sourcecrypto" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-          
-        
-          
-            <li><a href="https://twitter.com/sourcecrypto" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-          
-        
-          
-            <li><a href="https://discord.gg/ahTuPMY" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
-          
-        
-          
-            <li><a href="https://t.me/InfoMiner33" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
-          
-        
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
-  
-    
-      
-      
-      
-      
-    
-    
-      
-
-<nav class="nav__list">
-  
-  <input id="ac-toc" name="accordion-toc" type="checkbox">
-  <label for="ac-toc">Toggle menu</label>
-  <ul class="nav__items">
-    
-      <li>
-        
-          
-          
-
-          <a href="https://infominer.id/"><span class="nav__sub-title">Info⧉Hub</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/about/" class="">• About SourceCrypto</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://decentralized-id.com" class="">• Decentralized-id.com</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://didecentral.com" class="">• DIDecentral Community</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://web-work.tools" class="">• Webwork Tools</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://learncryptotrading.co" class="">• Learn Crypto Trading</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://web-work.tools/indieweb" class="">• IndieWeb</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://sourcecrypto.pub/decentralized-web/" class="">• Decentralized Web Histories</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://web-work.tools/github-pages-starter-pack/" class="">• Github Pages Starter Pack</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://didecentral.com/contributors-guide/discord-archive-howto/" class="">• Publishing Discord Server Archives via Minimal Mistakes</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Collab⧉Curate</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://discord.gg/nxcACHc" class="">• Bitcoin Nerds</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://discord.gg/2c4Sd7u" class="">• Lightning Network Info</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://discord.gg/8pwmz8j" class="">• Practical Bitcoin</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://discord.gg/Evk84Kk" class="">• Bitcoin History</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/hub/crypto-finance/" class="">• CryptoFinance</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://discord.gg/fv5Pcjn" class="">• DIDecentral</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://discord.gg/XWmg25P" class="">• Web-work.tools</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/info/"><span class="nav__sub-title">Info</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/info/101/" class="">• 101</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/info/classification/" class="">• Classification</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/info/criminal/" class="">• Criminal</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/info/governance/" class="">• Governance</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/info/growth-adoption/" class="">• Growth - Adoption</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/info/library-submissions/" class="">• Library Submissions</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/info/memes-n-junk/" class="">• Memes n Junk</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/info/oppression/" class="">• Oppression</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/info/women-and-crypto/" class="">• Women's Resources</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/resources/"><span class="nav__sub-title">Resources</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/assorted-media/" class="">• Assorted Media</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/books/" class="">• Books</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/communities/" class="">• Communities</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/conferences/" class="">• Conferences</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/news-sites/" class="">• Development</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/french/" class="">• French</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/literature/" class="">• Literature</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/news-sites/" class="">• News Outlets</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/non-english/" class="">• Non-English</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/privacy/" class="">• Privacy</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/research-papers/" class="">• Research Papers</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/resources/" class="">• Resources</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/swag/" class="">• Swag</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/twitter-follows/" class="">• Twitter Follows</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/blockchain/"><span class="nav__sub-title">Blockchain</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/crypto-general/" class="">• Gen Crypto</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/decentralized/" class="">• Decentralized</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/agoric/" class="">• Agoric</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/bitcoin/" class="">• Bitcoin</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/bch/" class="">• B-Cash</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/bitshares/" class="">• Bitshares</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/blockstack/" class="">• Blockstack</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/bytom/" class="">• Bytom</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/cardano/" class="">• Cardano</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/doge/" class="">• DOGE</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/eos/" class="">• EOS</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/enterprise-dlt/" class="">• Enterprise DLT</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/etc/" class="">• Eth Classic</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/grin-mimblewimble/" class="">• Grin Mimble-Wimble</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/hashgraph/" class="">• Hashgraph</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/iota/" class="">• IOTA</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/libra/" class="">• Libra</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/monero/" class="">• Monero</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/stable-coins/" class="">• Stable Coins</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/tezos/" class="">• Tezos</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/zcash/" class="">• ZCash</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Interop</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/interop/chainlink/" class="">• Chainlink</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/interop/cosmos/" class="">• Cosmos</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/interop/hyperledger/" class="">• Hyperledger</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/interop/komodo/" class="">• Komodo</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/interop/ontology/" class="">• Ontology</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/interop/polkadot/" class="">• Polkadot</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/interop/quant-network/" class="">• Quant Network</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Ethereum</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/ethereum/ethereum/" class="">• Ethereum</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/ethereum/ethereum-dev/" class="">• Ethereum Development</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/ethereum/eth-ent-alliance/" class="">• Ethereum Enterprise Alliance</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/ethereum/eth-consensus/" class="">• Ethereum Consensus</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/ethereum/eth2-0/" class="">• Ethereum 2.0</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/ethereum/ethresearch/" class="">• Ethresearch</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/ethereum/evm/" class="">• EVM</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/entertainment/"><span class="nav__sub-title">Entertainment</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/entertainment/art-collectibles/" class="">• Art Collectibles</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/entertainment/eth-games/" class="">• Ethereum Games</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/entertainment/games/" class="">• Games</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/entertainment/komodore64/" class="">• Komodore64</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/entertainment/music/" class="">• Music</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Banking</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/banking/corda/" class="">• Corda</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/banking/ripple/" class="">• Ripple</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/banking/stellar/" class="">• Stellar</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/chaintech/"><span class="nav__sub-title">ChainTech</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/blockchain-dev/" class="">• Blockchain Development</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/dao/" class="">• Dao</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/decentralization/" class="">• Decentralization</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/forks/" class="">• Forks</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/drivechains/" class="">• Drivechains</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/hackathons/" class="">• Hackathons</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/mining-news/" class="">• <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"> Mining News <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"></a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/mining-repository/" class="">• <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"> Mining Repository <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"></a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/randomness/" class="">• Randomness</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/oracles/" class="">• Oracles</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/protocols/" class="">• Protocols</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/sidechains/" class="">• Sidechains</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/smart-contracts/" class="">• Smart Contracts</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/smart-signatures/" class="">• Smart Signatures</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/state-channels/" class="">• State Channels</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/layer1/"><span class="nav__sub-title">Layer 1</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/layer1/consensus/" class="">• Consensus</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/layer1/hash-algos/" class="">• Hash Algos</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/layer1/pow/" class="">• PoW</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/layer1/pos/" class="">• PoS</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/layer1/tendermint/" class="">• Tendermint</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/tech/"><span class="nav__sub-title">Tech</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/cryptography/" class="">• Cryptography</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/data/" class="">• Data</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/databases/" class="">• Databases</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/design/" class="">• Design</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/distributed-systems/" class="">• Distributed Systems</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/infosec/" class="">• Infosec</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/internet-protocols/" class="">• Internet Protocols</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/P2P/" class="">• P2P</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/public-key-crypto/" class="">• Public key crypto</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/security/" class="">• Security</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/state-channels/" class="">• State Channels</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/tech-in-media/" class="">• Tech in Media</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/tor/" class="">• Tor</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/web3/" class="">• Web3</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/application/"><span class="nav__sub-title">Application</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/ai/" class="">• AI</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/brave/" class="">• Brave</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/dapps/" class="">• dApps</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/energy/" class="">• Energy</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/government/" class="">• Government</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/intellectual-property/" class="">• Intellectual Property</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/iot/" class="">• Iot</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/notary/" class="">• Notary</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/prediction-markets/" class="">• Prediction Markets</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/publishing/" class="">• Publishing</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/social-media/" class="">• Social Media</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/supplychain/" class="">• Supply Chain</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/utility/" class="">• Utility</a></li>
-          
-        </ul>
-        
-      </li>
-    
-  </ul>
-</nav>
-    
-  
-  </div>
-
-
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Practical Bitcoin: Tools, Apps and Guides">
-    <meta itemprop="description" content="Links to code, howtos, and other resources related to practical use of Bitcoin.">
-    <meta itemprop="datePublished" content="August 01, 2019">
-    <meta itemprop="dateModified" content="November 04, 2019">
-
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Practical Bitcoin: Tools, Apps and Guides
-</h1>
-          
-            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  34 minute read
-</p>
-          
-        </header>
-      
-
-      <section class="page__content" itemprop="text">
-        
-          <aside class="sidebar__right ">
-            <nav class="toc">
-              <header><h4 class="nav__title">
-<i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu">
-  <li><a href="#you-must-do-your-own-research">You MUST Do Your Own Research</a></li>
-  <li>
-<a href="#-resources">⧉ Resources</a>
-    <ul>
-      <li><a href="#-explorers">🗃 Explorers</a></li>
-      <li><a href="#-fees">🗃 Fees</a></li>
-      <li><a href="#-escrow">🗃 Escrow</a></li>
-      <li><a href="#-privacy">🗃 Privacy</a></li>
-      <li><a href="#-visualizations">🗃 Visualizations</a></li>
-    </ul>
-  </li>
-  <li>
-<a href="#-get-bitcoin">⧉ Get Bitcoin</a>
-    <ul>
-      <li><a href="#-earn">💱 Earn</a></li>
-      <li>
-<a href="#-buy">💱 Buy</a>
-        <ul>
-          <li><a href="#--atms">- Atms</a></li>
-          <li><a href="#--europe">- Europe</a></li>
-          <li><a href="#--north-america">- North America</a></li>
-          <li><a href="#--australia">- Australia</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-<a href="#-wallets">⧉ Wallets</a>
-    <ul>
-      <li><a href="#-blockstream-green">👛 Blockstream-green</a></li>
-      <li><a href="#-wasabi">👛 Wasabi</a></li>
-      <li><a href="#-samourai">👛 Samourai</a></li>
-      <li>
-<a href="#-electrum">👛 Electrum</a>
-        <ul>
-          <li><a href="#--electrum-personal-server">- electrum-personal-server</a></li>
-        </ul>
-      </li>
-      <li><a href="#-bitgo">👛 Bitgo</a></li>
-      <li>
-<a href="#-hardware">👛 Hardware</a>
-        <ul>
-          <li><a href="#--trezor">- Trezor</a></li>
-          <li><a href="#--casa-keymaster">- Casa-keymaster</a></li>
-          <li><a href="#--ledger">- Ledger</a></li>
-          <li><a href="#--cold-card">- Cold Card</a></li>
-        </ul>
-      </li>
-      <li><a href="#-cold-storage">👛 Cold Storage</a></li>
-      <li><a href="#-paper">👛 Paper</a></li>
-    </ul>
-  </li>
-  <li>
-<a href="#-full-node">⧉ Full Node</a>
-    <ul>
-      <li><a href="#-raspberry-pi">📶 Raspberry pi</a></li>
-      <li><a href="#-pi2">📶 Pi2</a></li>
-      <li><a href="#-hardware-1">📶 Hardware</a></li>
-    </ul>
-  </li>
-  <li>
-<a href="#-payments">⧉ Payments</a>
-    <ul>
-      <li><a href="#-btcpay">💳 Btcpay</a></li>
-      <li><a href="#-libre-patreon">💳 libre-patreon</a></li>
-    </ul>
-  </li>
-  <li>
-<a href="#-application">⧉ Application</a>
-    <ul>
-      <li><a href="#-layer-one">🧩 Layer One</a></li>
-      <li><a href="#-proofs">🧩 Proofs</a></li>
-      <li><a href="#-openbazaar">🧩 OpenBazaar</a></li>
-      <li><a href="#-satellite">🚧 Satellite</a></li>
-    </ul>
-  </li>
-  <li>
-<a href="#-development">⧉ Development</a>
-    <ul>
-      <li><a href="#-read">🚧 Read</a></li>
-      <li><a href="#-tools">🚧 Tools</a></li>
-      <li><a href="#-api">🚧 Api</a></li>
-      <li><a href="#-scripting">🚧 Scripting</a></li>
-      <li>
-<a href="#-wallet">🚧 Wallet</a>
-        <ul>
-          <li><a href="#--keys">- Keys</a></li>
-        </ul>
-      </li>
-      <li><a href="#-test-nets">🚧 Test-nets</a></li>
-      <li><a href="#-explorers-1">🚧 Explorers</a></li>
-      <li><a href="#-exchange">🚧 Exchange</a></li>
-      <li><a href="#-fork">🚧 Fork</a></li>
-      <li><a href="#-anchor">🚧 Anchor</a></li>
-      <li><a href="#-encryption">🚧 Encryption</a></li>
-      <li><a href="#-mobile">🚧 Mobile</a></li>
-      <li><a href="#-wordpress">🚧 Wordpress</a></li>
-      <li><a href="#-liquid">🚧 Liquid</a></li>
-      <li><a href="#-rootstock">🚧 Rootstock</a></li>
-    </ul>
-  </li>
-  <li>
-<a href="#-libraries">⧉ Libraries</a>
-    <ul>
-      <li><a href="#-java-scala">🏗 Java-scala</a></li>
-      <li><a href="#-javascript">🏗 Javascript</a></li>
-      <li><a href="#-python">🏗 Python</a></li>
-      <li><a href="#-net-libraries">🏗 Net-libraries</a></li>
-      <li><a href="#-ruby">🏗 Ruby</a></li>
-      <li><a href="#-golang">🏗 Golang</a></li>
-      <li><a href="#-c">🏗 C++</a></li>
-      <li><a href="#-php">🏗 PHP</a></li>
-      <li><a href="#-rust">🏗 Rust</a></li>
-    </ul>
-  </li>
-  <li>
-<a href="#-data">⧉ Data</a>
-    <ul>
-      <li><a href="#-data-1">📊 data</a></li>
-      <li><a href="#-trading">📊 trading</a></li>
-      <li><a href="#-chainanalysis">📊 Chainanalysis</a></li>
-      <li><a href="#-google-sheets">📊 Google Sheets</a></li>
-    </ul>
-  </li>
-</ul>
-            </nav>
-          </aside>
-        
-        <p>Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space.  Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus <em>a lot</em> more on acquiring practical experience, aiming towards a sovereign work-flow.</p>
+I"%�<p>Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space.  Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus <em>a lot</em> more on acquiring practical experience, aiming towards a sovereign work-flow.</p>
 
 <p>While there are already a number of excellent infomative lists, resources pages, and other collections, I haven’t noticed any that focused specifically on <em>using</em> Bitcoin.</p>
 
@@ -1756,7 +14,7 @@
 
 <p>There may be newer materials or advisaries for any of these projects. Be sure to check for recent information to be sure it’s something you really want to use.</p>
 
-<p><img src="https://i.imgur.com/wFhzOQx.jpg" alt=""></p>
+<p><img src="https://i.imgur.com/wFhzOQx.jpg" alt="" /></p>
 
 <h2 id="-resources">⧉ Resources</h2>
 
@@ -1781,7 +39,7 @@
 
 <h3 id="-explorers">🗃 Explorers</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://blockchain.com/">blockchain.com/</a></p>
 <blockquote>
@@ -1798,7 +56,7 @@
 
 <h3 id="-fees">🗃 Fees</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://transactionfee.info/">transactionfee.info</a></p>
 <blockquote>
@@ -1821,7 +79,7 @@
 
 <h3 id="-escrow">🗃 Escrow</h3>
 
-<hr>
+<hr />
 
 <p>Escrow Agents should be impartial and trusted intermediaries who hold custody of buyer’s funds until pre-defined conditions are met. With the help of public key encryption, parties who don’t know or trust each-other can engage in commerce, online.</p>
 
@@ -1839,7 +97,7 @@
 
 <h3 id="-privacy">🗃 Privacy</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://www.coincache.net/2019/01/02/bitcoin-anonymity-guide-2019-how-to-use-btc-like-a-straight-up-g/?v=3e8d115eb4b3">Bitcoin Anonymity Guide 2019: How to use BTC like a straight up G</a></p>
 
@@ -1858,7 +116,7 @@
 
 <h3 id="-visualizations">🗃 Visualizations</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/xpfio/awesome-blockchain-visualisation">xpfio/awesome-blockchain-visualisation</a></p>
 
@@ -1870,7 +128,7 @@
 
 <h3 id="-earn">💱 Earn</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://bitcoin-only.com/#get-bitcoin">bitcoin-only.com/#get-bitcoin</a></p>
 
@@ -1905,7 +163,7 @@
 
 <h3 id="-buy">💱 Buy</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://www.buybitcoinworldwide.com/en/buy-bitcoins-with-cash/">Buy Bitcoin with Cash</a></p>
 
@@ -1939,7 +197,7 @@
 
 <h4 id="--atms">- Atms</h4>
 
-<hr>
+<hr />
 
 <p><a href="https://en.wikipedia.org/wiki/Bitcoin_ATM">Bitcoin ATM</a></p>
 <blockquote>
@@ -1969,7 +227,7 @@
 
 <h4 id="--europe">- Europe</h4>
 
-<hr>
+<hr />
 
 <p><a href="https://www.getbittr.com/">getbittr.com/</a></p>
 
@@ -1977,7 +235,7 @@
 
 <h4 id="--north-america">- North America</h4>
 
-<hr>
+<hr />
 
 <p><a href="https://cash.app/">Cash App</a></p>
 
@@ -1987,7 +245,7 @@
 
 <h4 id="--australia">- Australia</h4>
 
-<hr>
+<hr />
 
 <p><a href="https://getamber.io/features.html">Amber - Features</a></p>
 <blockquote>
@@ -2046,7 +304,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-blockstream-green">👛 Blockstream-green</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://docs.blockstream.com/green/getting-started/getting-started-index.html">docs.blockstream.com/green/getting-started/getting-started-index.html</a></p>
 
@@ -2057,7 +315,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-wasabi">👛 Wasabi</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://wasabiwallet.io/">wasabiwallet.io/</a></p>
 
@@ -2113,7 +371,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-samourai">👛 Samourai</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://www.youtube.com/channel/UCb4Y89L9Bokuo6OWqjAhMoA">youtube.com/channel/UCb4Y89L9Bokuo6OWqjAhMoA</a></p>
 
@@ -2129,7 +387,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-electrum">👛 Electrum</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://electrum.org/">electrum.org/</a></p>
 
@@ -2143,7 +401,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <p><a href="https://twitter.com/bitcoinkoala/status/1178053504386129921?s=12">twitter.com/bitcoinkoala/status/1178053504386129921?s=12</a></p>
 <blockquote>
-  <p>-Got electrs (Electrum server) running on my #RaspiBlitz node thanks to <a href="https://twitter.com/openoms" class="user-mention">@openoms</a> tutorial [<a href="https://github.com/openoms/bitcoin-tutorials/blob/master/electrs/README.md">openoms/bitcoin-tutorials/electrs</a>] and now connected to my <a href="https://twitter.com/ShiftCryptoHQ" class="user-mention">@ShiftCryptoHQ</a> #BitBox app. BitBox02 &amp; BitBox app + RaspiBlitz &amp; Electrum</p>
+  <p>-Got electrs (Electrum server) running on my #RaspiBlitz node thanks to @openoms tutorial [<a href="https://github.com/openoms/bitcoin-tutorials/blob/master/electrs/README.md">openoms/bitcoin-tutorials/electrs</a>] and now connected to my @ShiftCryptoHQ #BitBox app. BitBox02 &amp; BitBox app + RaspiBlitz &amp; Electrum</p>
 </blockquote>
 
 <p><a href="https://github.com/spesmilo/electrum">spesmilo/electrum</a></p>
@@ -2198,7 +456,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h4 id="--electrum-personal-server">- electrum-personal-server</h4>
 
-<hr>
+<hr />
 
 <p><a href="https://www.reddit.com/r/Bitcoin/comments/7w6a9k/electrum_personal_server_the_best_way_to_connect/">reddit.com/r/Bitcoin/comments/7w6a9k/electrum_personal_server_the_best_way_to_connect/</a> r/Bitcoin - Electrum Personal Server - The best way to connect you… basically, electrum personal server is the more sovereign way to run the electrum wallet… analogous to using the bitcoin-core wallet with the complete blockchain.</p>
 
@@ -2215,7 +473,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-bitgo">👛 Bitgo</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://www.bitgo.com/">bitgo.com/</a></p>
 
@@ -2228,7 +486,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-hardware">👛 Hardware</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://bitcoin-only.com/#hardware">bitcoin-only.com - Other Hardware</a></p>
 
@@ -2246,7 +504,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h4 id="--trezor">- Trezor</h4>
 
-<hr>
+<hr />
 
 <p><a href="https://shop.trezor.io/">shop.trezor.io/</a></p>
 
@@ -2284,7 +542,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h4 id="--casa-keymaster">- Casa-keymaster</h4>
 
-<hr>
+<hr />
 
 <p><a href="https://keys.casa/keymaster/">keys.casa/keymaster/</a></p>
 
@@ -2299,7 +557,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h4 id="--ledger">- Ledger</h4>
 
-<hr>
+<hr />
 
 <p><a href="https://shop.ledger.com/pages/ledger-nano-x">Ledger Nano X - Secure your crypto</a></p>
 
@@ -2310,7 +568,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h4 id="--cold-card">- Cold Card</h4>
 
-<hr>
+<hr />
 
 <p><a href="https://coldcardwallet.com/">coldcardwallet.com</a></p>
 
@@ -2324,7 +582,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-cold-storage">👛 Cold Storage</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://medium.com/@timevalueofbtc/the-business-of-bitcoin-cold-storage-148fba7f1255">medium.com/@timevalueofbtc/the-business-of-bitcoin-cold-storage-148fba7f1255</a></p>
 <blockquote>
@@ -2343,7 +601,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-paper">👛 Paper</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://en.bitcoin.it/wiki/Paper_wallet">en.bitcoin.it/wiki/Paper_wallet</a></p>
 
@@ -2389,8 +647,8 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 <p><a href="https://twitter.com/bitstein/status/1091334121274646528">twitter.com/bitstein/status/1091334121274646528</a></p>
 <blockquote>
   <p>Other full node options: 
-<a href="https://twitter.com/CasaHODL" class="user-mention">@CasaHODL</a>: <a href="https://t.co/JqpJeMGZVU">t.co/JqpJeMGZVU</a> 
-<a href="https://twitter.com/nodl_it" class="user-mention">@nodl_it</a>: <a href="https://t.co/QyzOK9leWO">t.co/QyzOK9leWO</a> 
+@CasaHODL: <a href="https://t.co/JqpJeMGZVU">t.co/JqpJeMGZVU</a> 
+@nodl_it: <a href="https://t.co/QyzOK9leWO">t.co/QyzOK9leWO</a> 
 Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course, just running Bitcoin Core directly: 
 “Running a Full Node”: <a href="https://t.co/D6Fs5WlZE9">t.co/D6Fs5WlZE9</a> * Bitcoin Core: <a href="https://t.co/OHW7H8oRzM">t.co/OHW7H8oRzM</a></p>
 </blockquote>
@@ -2432,7 +690,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <p><a href="https://twitter.com/PeterMcCormack/status/1165494148759269376?s=20">twitter.com/PeterMcCormack/status/1165494148759269376?s=20</a></p>
 <blockquote>
-  <p>Node update: 1. Downloaded <a href="https://twitter.com/LukeDashjr" class="user-mention">@LukeDashjr</a>’s knots and started sync with pruning 2. Ordered external drive to setup node without pruning 3. Activated <a href="https://twitter.com/CasaHODL" class="user-mention">@CasaHODL</a> 4. Bought a <a href="https://twitter.com/nodl_it" class="user-mention">@nodl_it</a> to test 5. Bought raspberry pi kit to build my own node Will feedback on all.</p>
+  <p>Node update: 1. Downloaded @LukeDashjr’s knots and started sync with pruning 2. Ordered external drive to setup node without pruning 3. Activated @CasaHODL 4. Bought a @nodl_it to test 5. Bought raspberry pi kit to build my own node Will feedback on all.</p>
 </blockquote>
 
 <p><a href="https://www.expressvpn.com/internet-privacy/how-to-set-up-a-home-server-and-use-it-as-a-bitcoin-node/">expressvpn.com - how-to-set-up-a-home-server-and-use-it-as-a-bitcoin-node</a></p>
@@ -2468,7 +726,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-raspberry-pi">📶 Raspberry pi</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://medium.com/@meeDamian/bitcoin-full-node-on-rbp3-revised-88bb7c8ef1d1">medium.com/@meeDamian/bitcoin-full-node-on-rbp3-revised-88bb7c8ef1d1</a> RaspPiBolt Guide</p>
 
@@ -2488,7 +746,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <p><a href="https://twitter.com/btcpayserver/status/1181679617280811014?s=12">twitter.com/btcpayserver/status/1181679617280811014?s=12</a></p>
 <blockquote>
-  <p>We’ve updated our Raspberry Pi docs. Run BTCPay on your own cheap single-board computer. BTCPay on RPI 4 <a href="https://t.co/BeNTJMyjbf">t.co/BeNTJMyjbf</a> BTCPay on RPI 3 <a href="https://t.co/ET3qjNe4yZ">t.co/ET3qjNe4yZ</a> Hugo kudos to our RPI crew for amazing work : <a href="https://twitter.com/wiz" class="user-mention">@wiz</a> <a href="https://twitter.com/lightninginabox" class="user-mention">@lightninginabox</a> <a href="https://twitter.com/DennisReimann" class="user-mention">@DennisReimann</a> and others who hel…</p>
+  <p>We’ve updated our Raspberry Pi docs. Run BTCPay on your own cheap single-board computer. BTCPay on RPI 4 <a href="https://t.co/BeNTJMyjbf">t.co/BeNTJMyjbf</a> BTCPay on RPI 3 <a href="https://t.co/ET3qjNe4yZ">t.co/ET3qjNe4yZ</a> Hugo kudos to our RPI crew for amazing work : @wiz @lightninginabox @DennisReimann and others who hel…</p>
 </blockquote>
 
 <p><a href="https://github.com/jochemin/raspnode">Bitcoin Core + LND 0.4 Beta (mainnet) Installer for Raspberry</a>
@@ -2502,7 +760,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-pi2">📶 Pi2</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://www.element14.com/community/docs/DOC-73827/l/raspberry-pi-2-model-b-1gb-technical-specifications">element14.com/community/docs/DOC-73827/l/raspberry-pi-2-model-b-1gb-technical-specifications</a>
 (The main limitation for pi2 is 1 gig of ram… and I saw in btcpayserver chat the PI4 is even recommended because of the additional ram. However, if you’re not processing a multitude of transactions, perhaps it would suffice to start. It would likely prove necessary to download the blockchain with another device, then copy it to your microsd.)</p>
@@ -2517,7 +775,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-hardware-1">📶 Hardware</h3>
 
-<hr>
+<hr />
 
 <p><a href="http://lopp.net">Lopp.net</a> - <a href="https://www.lopp.net/bitcoin-information/full-node.html#node_hardware">Plug &amp; Play Node Hardware</a></p>
 
@@ -2538,6 +796,8 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h2 id="-payments">⧉ Payments</h2>
 
+<hr />
+
 <p><a href="https://github.com/alexk111/awesome-bitcoin-payment-processors">alexk111/awesome-bitcoin-payment-processors</a></p>
 
 <p><a href="https://github.com/blockchain/thunder">blockchain/thunder</a> - Off-Chain Bitcoin payments using smart contracts</p>
@@ -2556,12 +816,12 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <p><a href="https://twitter.com/pierre_rochard/status/1026999019900465154">twitter.com/pierre_rochard/status/1026999019900465154</a></p>
 <blockquote>
-  <p>I set up an instance of <a href="https://twitter.com/BtcpayServer" class="user-mention">@BtcpayServer</a> on <a href="https://twitter.com/Azure" class="user-mention">@Azure</a> and tested it with <a href="https://twitter.com/wordpressdotcom" class="user-mention">@wordpressdotcom</a> + <a href="https://twitter.com/WooCommerce" class="user-mention">@WooCommerce</a>. It is a fantastic product. Finally someone (<a href="https://twitter.com/NicolasDorier" class="user-mention">@NicolasDorier</a>) has built a sensible, open source platform for Bitcoin merchants! If you have or want a business - go check i…</p>
+  <p>I set up an instance of @BtcpayServer on @Azure and tested it with @wordpressdotcom + @WooCommerce. It is a fantastic product. Finally someone (@NicolasDorier) has built a sensible, open source platform for Bitcoin merchants! If you have or want a business - go check i…</p>
 </blockquote>
 
 <h3 id="-btcpay">💳 Btcpay</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://bitcoinmagazine.com/articles/year-after-launch-btcpay-has-grown-larger-its-creator-expected/">bitcoinmagazine.com/articles/year-after-launch-btcpay-has-grown-larger-its-creator-expected/</a> - BTCPay has become a meteoric success. But for what started out as a hobbyist’s side project, this success has, in some respects, become unwieldy.</p>
 
@@ -2617,20 +877,22 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-libre-patreon">💳 libre-patreon</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/JeffVandrewJr/patron">JeffVandrewJr/patron</a> - LibrePatron: A Self-Hosted Patreon Alternative for BTCPay - JeffVandrewJr/patron</p>
 
 <p><a href="https://twitter.com/vandrewattycpa/status/1079471260978040833">twitter.com/vandrewattycpa/status/1079471260978040833</a></p>
 <blockquote>
-  <p>Today I released LibrePatron, an alternative to Partreon backed by <a href="https://twitter.com/BtcpayServer" class="user-mention">@BtcpayServer</a>. Most Patreon alternatives don’t implement the full Patreon feature set. This seeks to change that. Sample site (alpha not mobile responsive, mobile coming soon!): <a href="https://t.co/ZcHDjUfBfe">t.co/ZcHDjUfBfe</a> T…</p>
+  <p>Today I released LibrePatron, an alternative to Partreon backed by @BtcpayServer. Most Patreon alternatives don’t implement the full Patreon feature set. This seeks to change that. Sample site (alpha not mobile responsive, mobile coming soon!): <a href="https://t.co/ZcHDjUfBfe">t.co/ZcHDjUfBfe</a> T…</p>
 </blockquote>
 
 <h2 id="-application">⧉ Application</h2>
 
+<hr />
+
 <h3 id="-layer-one">🧩 Layer One</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://twitter.com/Beautyon_/status/1062100915925213185">twitter.com/Beautyon_/status/1062100915925213185</a></p>
 <blockquote>
@@ -2655,7 +917,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-proofs">🧩 Proofs</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://medium.com/tierion/how-to-create-and-verify-a-chainpoint-proof-eba52a7700e3">How to Create and Verify a Chainpoint Proof</a></p>
 
@@ -2683,7 +945,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-openbazaar">🧩 OpenBazaar</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://www.openbazaar.org">openbazaar.org</a></p>
 <blockquote>
@@ -2716,7 +978,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-satellite">🚧 Satellite</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://hackernoon.com/building-your-own-bitcoin-satellite-node-6061d3c93e7">hackernoon.com/building-your-own-bitcoin-satellite-node-6061d3c93e7</a></p>
 
@@ -2734,7 +996,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <p><a href="https://blockstream.com/satellite-queue/">blockstream.com/satellite-queue/</a></p>
 
-<p><a href="https://news.ycombinator.com/item?id=18925136">news.ycombinator.com/item?id=18925136</a><br>
+<p><a href="https://news.ycombinator.com/item?id=18925136">news.ycombinator.com/item?id=18925136</a><br />
 <a href="https://news.ycombinator.com/item?id=18925136">Blockstream Satellite API: Pay with BTC via Lightning to Broadcast Data Globally</a></p>
 
 <p><a href="https://medium.com/blockstream/building-your-own-bitcoin-satellite-node-6061d3c93e7">Building Your Own Bitcoin Satellite Node: Part 1 - Hardware Assembly</a></p>
@@ -2748,6 +1010,8 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 <p><a href="https://medium.com/blockstream/build-your-own-wireless-bitcoin-service-provider-complete-with-blockstream-satellite-backhaul-165469036658">Build Your Own Wireless Bitcoin Service Provider — Complete With Blockstream Satellite Backhaul</a></p>
 
 <h2 id="-development">⧉ Development</h2>
+
+<hr />
 
 <p><a href="https://github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line">github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line</a></p>
 
@@ -2785,7 +1049,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <p><a href="https://twitter.com/udiWertheimer/status/1059371877775433728">twitter.com/udiWertheimer/status/1059371877775433728</a></p>
 <blockquote>
-  <p><a href="https://twitter.com/udiWertheimer">Udi Wertheimer (@udiWertheimer)</a> <a href="https://twitter.com/DeHuntisOn" class="user-mention">@DeHuntisOn</a> 1/ Here are a few examples for using the command line to deepen your understanding of Bitcoin: * Use bitcoin-cli to work with your full node and learn its capabilities. <a href="https://twitter.com/aantonop" class="user-mention">@aantonop</a>’s 3rd chapter of Mastering Bitcoin and <a href="https://twitter.com/ChristopherA" class="user-mention">@ChristopherA</a>’s tutorial will help https:/…</p>
+  <p><a href="https://twitter.com/udiWertheimer">Udi Wertheimer (@udiWertheimer)</a> @DeHuntisOn 1/ Here are a few examples for using the command line to deepen your understanding of Bitcoin: * Use bitcoin-cli to work with your full node and learn its capabilities. @aantonop’s 3rd chapter of Mastering Bitcoin and @ChristopherA’s tutorial will help https:/…</p>
 </blockquote>
 
 <p><a href="https://noded.org/podcast/noded-040-with-jimmy-song/">Noded 0.4.0 with Jimmy Song</a> Michael Goldstein and Pierre Rochard have a conversation with Jimmy Song about Bitcoin forks and Programming Blockchain.</p>
@@ -2821,7 +1085,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-read">🚧 Read</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/aantonop/bitcoinbook">aantonop/bitcoinbook</a></p>
 
@@ -2842,7 +1106,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-tools">🚧 Tools</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://bitkey.io/">bitkey.io/</a></p>
 
@@ -2924,7 +1188,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-api">🚧 Api</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://block.io/">block.io/</a></p>
 
@@ -2968,7 +1232,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-scripting">🚧 Scripting</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://twitter.com/lopp/status/1072156493116518400">twitter.com/lopp/status/1072156493116518400</a></p>
 <blockquote>
@@ -3007,7 +1271,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-wallet">🚧 Wallet</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://bitgo.github.io/bitgo-docs/">bitgo.github.io/bitgo-docs/</a></p>
 
@@ -3093,7 +1357,7 @@ piWallet is an open source program developed by Johnathan Martin that allows alm
 
 <h4 id="--keys">- Keys</h4>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/bitcoinjs/bip39">bitcoinjs/bip39</a></p>
 <blockquote>
@@ -3102,7 +1366,7 @@ piWallet is an open source program developed by Johnathan Martin that allows alm
 
 <p><a href="https://github.com/trezor/python-mnemonic">trezor/python-mnemonic</a></p>
 <blockquote>
-  <p><img class="emoji" title=":snake:" alt=":snake:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f40d.png" height="20" width="20"> Mnemonic code for generating deterministic keys, BIP39 - trezor/python-mnemonic</p>
+  <p>:snake: Mnemonic code for generating deterministic keys, BIP39 - trezor/python-mnemonic</p>
 </blockquote>
 
 <p><a href="https://github.com/bitcoinjs/bip38">bitcoinjs/bip38</a></p>
@@ -3141,7 +1405,7 @@ Java Microlibrary implementation of BIP0039.</p>
 
 <h3 id="-test-nets">🚧 Test-nets</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://blockstream.info/testnet/">blockstream.info/testnet/</a></p>
 
@@ -3149,7 +1413,7 @@ Java Microlibrary implementation of BIP0039.</p>
 
 <h3 id="-explorers-1">🚧 Explorers</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/janoside/btc-rpc-explorer">janoside/btc-rpc-explorer</a>
 <a href="https://btc.chaintools.io">btc.chaintools.io</a> (demo)</p>
@@ -3166,7 +1430,7 @@ Java Microlibrary implementation of BIP0039.</p>
 
 <h3 id="-exchange">🚧 Exchange</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://bitcoin-otc.com/">bitcoin-otc.com/</a> #bitcoin-otc is an over-the-counter marketplace for trading with bitcoin. The marketplace is located in #bitcoin-otc channel on the freenode IRC network. If you don’t have an IRC client, click here to visit the channel with your web browser.</p>
 
@@ -3178,7 +1442,7 @@ Java Microlibrary implementation of BIP0039.</p>
 
 <h3 id="-fork">🚧 Fork</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://en.bitcoinwiki.org/wiki/Creating_forks">en.bitcoinwiki.org/wiki/Creating_forks</a></p>
 
@@ -3190,13 +1454,13 @@ Java Microlibrary implementation of BIP0039.</p>
 
 <h3 id="-anchor">🚧 Anchor</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/exonum/exonum-btc-anchoring">exonum/exonum-btc-anchoring</a></p>
 
 <h3 id="-encryption">🚧 Encryption</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/bitauth/bitcoin-ts">bitauth/bitcoin-ts</a></p>
 <blockquote>
@@ -3216,7 +1480,7 @@ Java Microlibrary implementation of BIP0039.</p>
 
 <h3 id="-mobile">🚧 Mobile</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/consenlabs/token-core-ios">consenlabs/token-core-ios</a></p>
 <blockquote>
@@ -3259,13 +1523,13 @@ Java Microlibrary implementation of BIP0039.</p>
 
 <h3 id="-wordpress">🚧 Wordpress</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/cryptoapi/Bitcoin-Wordpress-Plugin">cryptoapi/Bitcoin-Wordpress-Plugin</a></p>
 
 <h3 id="-liquid">🚧 Liquid</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://elementsproject.org/how-it-works">elementsproject.org/how-it-works</a>
 Elements - an open source, sidechain-capable blockchain platform.</p>
@@ -3281,7 +1545,7 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-rootstock">🚧 Rootstock</h3>
 
-<hr>
+<hr />
 
 <p><a href="http://www.rootstock.io/">rootstock.io</a></p>
 <blockquote>
@@ -3307,9 +1571,11 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h2 id="-libraries">⧉ Libraries</h2>
 
+<hr />
+
 <h3 id="-java-scala">🏗 Java-scala</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/knowm/XChange">knowm/XChange</a></p>
 <blockquote>
@@ -3335,7 +1601,7 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-javascript">🏗 Javascript</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/cryptocoinjs/awesome-cryptocoinjs">cryptocoinjs/awesome-cryptocoinjs</a></p>
 <blockquote>
@@ -3382,7 +1648,7 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-python">🏗 Python</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/blocktrail/blocktrail-sdk-python">blocktrail/blocktrail-sdk-python</a></p>
 <blockquote>
@@ -3433,7 +1699,7 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-net-libraries">🏗 Net-libraries</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/MetacoSA/NBitcoin">MetacoSA/NBitcoin</a></p>
 <blockquote>
@@ -3449,7 +1715,7 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-ruby">🏗 Ruby</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/lian/bitcoin-ruby">lian/bitcoin-ruby</a></p>
 <blockquote>
@@ -3458,7 +1724,7 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-golang">🏗 Golang</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/piotrnar/gocoin">piotrnar/gocoin</a></p>
 <blockquote>
@@ -3467,7 +1733,7 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-c">🏗 C++</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://libbitcoin.org/">libbitcoin.org/</a></p>
 
@@ -3483,7 +1749,7 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-php">🏗 PHP</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/coinspark/php-OP_RETURN">coinspark/php-OP_RETURN</a></p>
 <blockquote>
@@ -3499,11 +1765,11 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-rust">🏗 Rust</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/mikispag/bitiodine">mikispag/bitiodine</a></p>
 <blockquote>
-  <p>A Rust Bitcoin blockchain parser with clustering capabilities, allowing to group together addresses in ownership clusters. Please contact <a href="https://twitter.com/mikispag" class="user-mention">@mikispag</a> if interested in using BitIodine for any real-wor…</p>
+  <p>A Rust Bitcoin blockchain parser with clustering capabilities, allowing to group together addresses in ownership clusters. Please contact @mikispag if interested in using BitIodine for any real-wor…</p>
 </blockquote>
 
 <p><a href="https://github.com/cryptean/bitcoinlib">cryptean/bitcoinlib</a></p>
@@ -3518,11 +1784,11 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h2 id="-data">⧉ Data</h2>
 
-<hr>
+<hr />
 
 <h3 id="-data-1">📊 data</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://bitdb.network/">bitdb.network/</a></p>
 
@@ -3616,7 +1882,7 @@ Fast import of the blockchain into PostgreSQL.</p>
 
 <h3 id="-trading">📊 trading</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/ccxt/ccxt">ccxt/ccxt</a></p>
 <blockquote>
@@ -3778,7 +2044,7 @@ Fast import of the blockchain into PostgreSQL.</p>
 
 <h3 id="-chainanalysis">📊 Chainanalysis</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/animeshbchowdhury/bitcoinCodeRepos">animeshbchowdhury/bitcoinCodeRepos</a></p>
 <blockquote>
@@ -3810,331 +2076,7 @@ bitcoin blockchain analysis.</p>
 
 <h3 id="-google-sheets">📊 Google Sheets</h3>
 
-<hr>
+<hr />
 
 <p><a href="https://github.com/cryptofinance-ai/cryptofinance-google-sheets-add-on">cryptofinance-ai/cryptofinance-google-sheets-add-on</a></p>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-  
-
-
-  
-  
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
-    <span itemprop="keywords">
-    
-      
-      
-      <a href="/tags/#practical" class="page__taxonomy-item" rel="tag">Practical</a>
-    
-    </span>
-  </p>
-
-
-
-
-  
-
-
-  
-  
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
-    <span itemprop="keywords">
-    
-      
-      
-      <a href="/categories/#bitcoin" class="page__taxonomy-item" rel="tag">Bitcoin</a>
-    
-    </span>
-  </p>
-
-
-        
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-11-04">November 04, 2019</time></p>
-        
-      </footer>
-
-      <section class="page__share">
-  <h2><a href="https://github.com/sourcecrypto/sourcecrypto.github.io/blob/master/_posts/Bitcoin/2019-08-01-practical-bitcoin.md" class="edit">Edit this page <i class="fa fa-pencil"></i></a></h2>
-  <h3>Social Share</h3>
-  <a href="https://twitter.com/intent/tweet?via=SourceCrypto&amp;text=Practical+Bitcoin%3A+Tools%2C+Apps+and+Guides%20http%3A%2F%2Flocalhost%3A4000%2Fposts%2FBitcoin%2Fpractical%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FBitcoin%2Fpractical%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
-  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FBitcoin%2Fpractical%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
-  <a href="https://www.reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FBitcoin%2Fpractical%2F&amp;title=Practical+Bitcoin%3A+Tools%2C+Apps+and+Guides" class="btn btn--reddit" title="Share on Reddit"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> Reddit</span></a>
-  <p><img src="https://infominer.id/assets/img/1pLr.gif"></p>
-  <h3>Tips Welcome</h3>
-    <p>Feel free to <a href="mailto:infominer@protonmail.com">contact me</a> if you're interested in <a href="https://web-work.tools/services/#iso-clients-who-want-bitcoin-related-content">Bitcoin related content / research</a>!</p>
-  <table class="table table-bordered table-hover table-condensed">
-    <thead>
-      <tr>
-        <th title="Field #1">Bitcoin</th>
-        <th title="Field #2">DOGE</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td>1A1DZfw4VgpHCgnMjnmfDnMjddKf8xdYbd</td>
-        <td>DQKkzfJjqnXUD8Z7C3e84vKzvghPe9dXSa</td>
-      </tr>
-      <tr>
-        <td><img src="https://imgur.com/yXLLm9Bl.png" width="150"></td>
-        <td><img src="https://imgur.com/z316u0c.png" width="150"></td>
-      </tr>
-    </tbody>
-  </table>  
-  <!-- Beginning of tippin.me Button -->
-  <div id="tippin-button" data-dest="infominer33"></div>
-  <script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script>
-  <!-- End of tippin.me Button -->
-</section>
-
-
-
-      
-  <nav class="pagination">
-    
-      <a href="/posts/agoric/mark-miller-agoric-epicenter/" class="pagination--pager" title="Agoric and the Decades-Long Quest for Secure Smart Contracts - Hyperlink Annotation
-">Previous</a>
-    
-    
-      <a href="#" class="pagination--pager disabled">Next</a>
-    
-  </nav>
-
-    </div>
-
-    
-  </article>
-
-  
-  
-    <div class="page__related">
-      <h4 class="page__related-title">You may also enjoy</h4>
-      <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/images/mark-miller-epicenter-teaser.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/posts/agoric/mark-miller-agoric-epicenter/" rel="permalink">Agoric and the Decades-Long Quest for Secure Smart Contracts - Hyperlink Annotation
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  43 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">We discussed his visionary 1988 Agoric papers, which explored how markets could be applied to the world of software. We also covered how his view of smart co...</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/images/source-crypto-gh-og.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/posts/Bitcoin/lightning/" rel="permalink">Practical Lightning: Wallets, Applications, Guides and Development
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  11 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Links to code, howtos, and other resources related to practical use of Lightning.
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/images/source-crypto-gh-og.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/posts/Bitcoin/" rel="permalink">Bitcoin Info
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  35 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Bitcoin is a revolutionary system that is quite complex and has a steep learning curve. Below you’ll find curated educational resources and information about...</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/images/agoric-papers-teaser.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/posts/agoric/papers-miller-drexler/" rel="permalink">The Agoric Papers
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  40 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">This paper examines markets as a model for computation and proposes a framework–agoric systems–for applying the power of market mechanisms to the software do...</p>
-  </article>
-</div>
-
-        
-      </div>
-    </div>
-  
-  
-</div>
-
-    </div>
-
-    
-      <div class="search-content">
-        <div class="search-content__inner-wrap">
-<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
-    <div id="results" class="results"></div>
-</div>
-
-      </div>
-    
-
-    <div id="footer" class="page__footer">
-      <footer>
-        <!-- start custom footer snippets -->
-
-<!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-  <ul class="social-icons">
-    
-      <li><strong>Follow:</strong></li>
-    
-
-    
-      
-        
-          <li><a href="https://infominer.id" rel="nofollow noopener noreferrer"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
-        
-      
-        
-          <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
-        
-      
-        
-          <li><a href="https://keybase.io/infominer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
-        
-      
-        
-          <li><a href="https://github.com/sourcecrypto" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-        
-      
-        
-          <li><a href="https://twitter.com/sourcecrypto" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-        
-      
-        
-          <li><a href="https://discord.gg/ahTuPMY" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
-        
-      
-        
-          <li><a href="https://t.me/InfoMiner33" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
-        
-      
-    
-
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-  </ul>
-</div>
-
-<div class="page__footer-copyright">⧉ <a href="https://infominer.id">infominer</a> ⧉ <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons (CC0 1.0) Public Domain</a> ⧉ Powered by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a> via <a href="https://infominer.id/gh-pages-starter-pack.html">Github Pages</a>. ⧉</div>
-      </footer>
-    </div>
-
-    
-  <script src="/assets/js/main.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
-
-
-
-
-<script src="/assets/js/lunr/lunr.min.js"></script>
-<script src="/assets/js/lunr/lunr-store.js"></script>
-<script src="/assets/js/lunr/lunr-en.js"></script>
-
-
-
-
-
-
-     <!--Email Form.-->
-
-
-  </body>
-</html>
+:ET

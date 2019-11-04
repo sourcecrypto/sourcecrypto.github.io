@@ -129,8 +129,6 @@ Escrow Agents should be impartial and trusted intermediaries who hold custody of
 
 ## ⧉ Get Bitcoin
 
----
-
 ### 💱 Earn
 
 ---
@@ -248,8 +246,6 @@ Escrow Agents should be impartial and trusted intermediaries who hold custody of
 [btcmarkets.net](https://www.btcmarkets.net/)
 
 ## ⧉ Wallets
-
----
 
 [Choose your wallet here](https://btcinformation.org/en/choose-your-wallet)
 > * Do not use wallets that don't give you recovery data; these wallets are likely controlling your keys.
@@ -568,8 +564,6 @@ sudo apt-get install python3-pyqt5
 
 ## ⧉ Full Node
 
----
-
 [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) - [releases](https://github.com/bitcoin/bitcoin/releases)
 
 [bitcoin.org/en/full-node](https://bitcoin.org/en/full-node) - [download](https://bitcoin.org/en/download) 
@@ -714,8 +708,6 @@ Raspberry Pi Bitcoin Monitor with OLED Ticker](https://photochirp.com/r-pi/raspb
 
 ## ⧉ Payments
 
----
-
 [alexk111/awesome-bitcoin-payment-processors](https://github.com/alexk111/awesome-bitcoin-payment-processors)
 
 [blockchain/thunder](https://github.com/blockchain/thunder) - Off-Chain Bitcoin payments using smart contracts
@@ -787,8 +779,6 @@ Raspberry Pi Bitcoin Monitor with OLED Ticker](https://photochirp.com/r-pi/raspb
 > Today I released LibrePatron, an alternative to Partreon backed by @BtcpayServer. Most Patreon alternatives don't implement the full Patreon feature set. This seeks to change that. Sample site (alpha not mobile responsive, mobile coming soon!): [t.co/ZcHDjUfBfe](https://t.co/ZcHDjUfBfe) T...
 
 ## ⧉ Application
-
----
 
 ### 🧩 Layer One
 
@@ -889,8 +879,6 @@ The Blockstream Satellite network broadcasts the Bitcoin blockchain around the w
 [Build Your Own Wireless Bitcoin Service Provider — Complete With Blockstream Satellite Backhaul](https://medium.com/blockstream/build-your-own-wireless-bitcoin-service-provider-complete-with-blockstream-satellite-backhaul-165469036658)
 
 ## ⧉ Development
-
----
 
 [github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line](https://github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line) 
 
@@ -1325,8 +1313,6 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 ## ⧉ Libraries
 
----
-
 ### 🏗 Java-scala
 
 ---
@@ -1473,12 +1459,6 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 > Bitcoin software suite. Contribute to tomasvdw/bitcrust development by creating an account on GitHub.
 
 ## ⧉ Data
-
----
-
-### 📊 data
-
----
 
 [bitdb.network/](https://bitdb.network/)
 
