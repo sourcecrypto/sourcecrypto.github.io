@@ -649,8 +649,8 @@ var store = [{
         "tags": ["Mark Miller","ObCap","Smart Contracts"],
         "url": "http://localhost:4000/posts/agoric/mark-miller-agoric-epicenter/",
         "teaser":"http://localhost:4000/images/mark-miller-epicenter-teaser.png"},{
-        "title": "Practical Bitcoin Guides: Wallets, Applications, and Development",
-        "excerpt":"I started with whatever I had come across over the past year, and saved. Then I went to lopp.net, bitcoin.org, and few of the other of the top Bitcoin resources, such as LNRoute. I’ve gone through those sites gathering a link at a time, to sort them all in an...","categories": ["Bitcoin"],
+        "title": "Practical Bitcoin: Tools, Apps and Guides",
+        "excerpt":"Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space. Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus a lot more on acquiring practical experience, aiming towards a sovereign work-flow. While there are already a number of excellent infomative...","categories": ["Bitcoin"],
         "tags": ["Practical"],
         "url": "http://localhost:4000/posts/Bitcoin/practical/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
