@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-04T08:50:20-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SourceCrypto</title><subtitle>Chat Server and Web Portal for a Public Domain - Crypto Research Collaborative.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">Practical Bitcoin: Tools, Apps and Guides</title><link href="http://localhost:4000/posts/Bitcoin/practical/" rel="alternate" type="text/html" title="Practical Bitcoin: Tools, Apps and Guides" /><published>2019-08-01T00:00:00-04:00</published><updated>2019-11-05T05:22:33-05:00</updated><id>http://localhost:4000/posts/Bitcoin/practical-bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/practical/">&lt;p&gt;Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space.  Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus &lt;em&gt;a lot&lt;/em&gt; more on acquiring practical experience, aiming towards a sovereign work-flow.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-04T08:55:22-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SourceCrypto</title><subtitle>Chat Server and Web Portal for a Public Domain - Crypto Research Collaborative.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">Practical Bitcoin: Tools, Apps and Guides</title><link href="http://localhost:4000/posts/Bitcoin/practical/" rel="alternate" type="text/html" title="Practical Bitcoin: Tools, Apps and Guides" /><published>2019-08-01T00:00:00-04:00</published><updated>2019-11-05T05:22:33-05:00</updated><id>http://localhost:4000/posts/Bitcoin/practical-bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/practical/">&lt;p&gt;Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space.  Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus &lt;em&gt;a lot&lt;/em&gt; more on acquiring practical experience, aiming towards a sovereign work-flow.&lt;/p&gt;
 
 &lt;p&gt;While there are already a number of excellent infomative lists, resources pages, and other collections, I haven’t noticed any that focused specifically on &lt;em&gt;using&lt;/em&gt; Bitcoin.&lt;/p&gt;
 
@@ -7,8 +7,6 @@
 &lt;p&gt;Once I got into the Awesome lists, I felt like I had surveyed a broad swath of the practical Bitcoin info-systems. Next, I dove face first into the &lt;a href=&quot;https://github.com/topics/bitcoin&quot;&gt;Bitcoin Topic&lt;/a&gt; on Github. As far as practical applcations of Bitcoin, it’s hard to find a more comprehensive source than that. I’m still not through the entire list.&lt;/p&gt;
 
 &lt;h2 id=&quot;you-must-do-your-own-research&quot;&gt;You MUST Do Your Own Research&lt;/h2&gt;
-
-&lt;hr /&gt;
 
 &lt;p&gt;This is intended to be a starting point for anyone who is interested in using Bitcoin code \ hardware. These guides and tutorials are a great jumping off point, from which you can explore a variety of technologies you may not even have known were available.&lt;/p&gt;
 
@@ -19,8 +17,6 @@
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/wFhzOQx.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;-resources&quot;&gt;⧉ Resources&lt;/h2&gt;
-
-&lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://bitcoin.org/&quot;&gt;bitcoin.&lt;em&gt;org&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -129,8 +125,6 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/KevinSmall/blockchain3d&quot;&gt;KevinSmall/blockchain3d&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;-get-bitcoin&quot;&gt;⧉ Get Bitcoin&lt;/h2&gt;
-
-&lt;hr /&gt;
 
 &lt;h3 id=&quot;-earn&quot;&gt;💱 Earn&lt;/h3&gt;
 
@@ -261,8 +255,6 @@
 &lt;p&gt;&lt;a href=&quot;https://www.btcmarkets.net/&quot;&gt;btcmarkets.net&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;-wallets&quot;&gt;⧉ Wallets&lt;/h2&gt;
-
-&lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://btcinformation.org/en/choose-your-wallet&quot;&gt;Choose your wallet here&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -623,8 +615,6 @@ Bitcoin thin client for iOS &amp;amp; Android. Built with React Native - BlueWal
 
 &lt;h2 id=&quot;-full-node&quot;&gt;⧉ Full Node&lt;/h2&gt;
 
-&lt;hr /&gt;
-
 &lt;p&gt;&lt;a href=&quot;https://github.com/bitcoin/bitcoin&quot;&gt;bitcoin/bitcoin&lt;/a&gt; - &lt;a href=&quot;https://github.com/bitcoin/bitcoin/releases&quot;&gt;releases&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://bitcoin.org/en/full-node&quot;&gt;bitcoin.org/en/full-node&lt;/a&gt; - &lt;a href=&quot;https://bitcoin.org/en/download&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
@@ -806,8 +796,6 @@ Cyphernode: &lt;a href=&quot;https://t.co/tMXS1kCgHW&quot;&gt;t.co/tMXS1kCgHW&lt
 
 &lt;h2 id=&quot;-payments&quot;&gt;⧉ Payments&lt;/h2&gt;
 
-&lt;hr /&gt;
-
 &lt;p&gt;&lt;a href=&quot;https://github.com/alexk111/awesome-bitcoin-payment-processors&quot;&gt;alexk111/awesome-bitcoin-payment-processors&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/blockchain/thunder&quot;&gt;blockchain/thunder&lt;/a&gt; - Off-Chain Bitcoin payments using smart contracts&lt;/p&gt;
@@ -897,8 +885,6 @@ Cyphernode: &lt;a href=&quot;https://t.co/tMXS1kCgHW&quot;&gt;t.co/tMXS1kCgHW&lt
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;-application&quot;&gt;⧉ Application&lt;/h2&gt;
-
-&lt;hr /&gt;
 
 &lt;h3 id=&quot;-layer-one&quot;&gt;🧩 Layer One&lt;/h3&gt;
 
@@ -1020,8 +1006,6 @@ Cyphernode: &lt;a href=&quot;https://t.co/tMXS1kCgHW&quot;&gt;t.co/tMXS1kCgHW&lt
 &lt;p&gt;&lt;a href=&quot;https://medium.com/blockstream/build-your-own-wireless-bitcoin-service-provider-complete-with-blockstream-satellite-backhaul-165469036658&quot;&gt;Build Your Own Wireless Bitcoin Service Provider — Complete With Blockstream Satellite Backhaul&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;-development&quot;&gt;⧉ Development&lt;/h2&gt;
-
-&lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line&quot;&gt;github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line&lt;/a&gt;&lt;/p&gt;
 
@@ -1580,8 +1564,6 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;-libraries&quot;&gt;⧉ Libraries&lt;/h2&gt;
-
-&lt;hr /&gt;
 
 &lt;h3 id=&quot;-java-scala&quot;&gt;🏗 Java-scala&lt;/h3&gt;
 
