@@ -1,0 +1,112 @@
+I"e<ul class="toc__menu">
+  <li><a href="#you-must-do-your-own-research">You MUST Do Your Own Research</a></li>
+  <li><a href="#resources">Resources</a>
+    <ul>
+      <li><a href="#-explorers">🗃 Explorers</a></li>
+      <li><a href="#-fees">🗃 Fees</a></li>
+      <li><a href="#-escrow">🗃 Escrow</a></li>
+      <li><a href="#-privacy">🗃 Privacy</a></li>
+      <li><a href="#-visualizations">🗃 Visualizations</a></li>
+    </ul>
+  </li>
+  <li><a href="#get-bitcoin">Get Bitcoin</a>
+    <ul>
+      <li><a href="#-earn">💱 Earn</a></li>
+      <li><a href="#-buy">💱 Buy</a>
+        <ul>
+          <li><a href="#atms">Atms</a></li>
+          <li><a href="#europe">Europe</a></li>
+          <li><a href="#north-america">North America</a></li>
+          <li><a href="#australia">Australia</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#wallets">Wallets</a>
+    <ul>
+      <li><a href="#-blockstream-green">👛 Blockstream-green</a></li>
+      <li><a href="#-wasabi">👛 Wasabi</a></li>
+      <li><a href="#-samourai">👛 Samourai</a></li>
+      <li><a href="#-electrum">👛 Electrum</a>
+        <ul>
+          <li><a href="#electrum-personal-server">electrum-personal-server</a></li>
+        </ul>
+      </li>
+      <li><a href="#-bitgo">👛 Bitgo</a></li>
+      <li><a href="#-hardware">👛 Hardware</a>
+        <ul>
+          <li><a href="#trezor">Trezor</a></li>
+          <li><a href="#casa-keymaster">Casa-keymaster</a></li>
+          <li><a href="#ledger">Ledger</a></li>
+          <li><a href="#cold-card">Cold Card</a></li>
+        </ul>
+      </li>
+      <li><a href="#-cold-storage">👛 Cold Storage</a></li>
+      <li><a href="#-paper">👛 Paper</a></li>
+    </ul>
+  </li>
+  <li><a href="#full-node">Full Node</a>
+    <ul>
+      <li><a href="#-raspberry-pi">📶 Raspberry pi</a></li>
+      <li><a href="#-pi2">📶 Pi2</a></li>
+      <li><a href="#-hardware-1">📶 Hardware</a></li>
+    </ul>
+  </li>
+  <li><a href="#payments">Payments</a>
+    <ul>
+      <li><a href="#-btcpay">💳 Btcpay</a></li>
+      <li><a href="#-libre-patreon">💳 libre-patreon</a></li>
+    </ul>
+  </li>
+  <li><a href="#application">Application</a>
+    <ul>
+      <li><a href="#-layer-one">🧩 Layer One</a></li>
+      <li><a href="#-proofs">🧩 Proofs</a></li>
+      <li><a href="#-openbazaar">🧩 OpenBazaar</a></li>
+    </ul>
+  </li>
+  <li><a href="#development">Development</a>
+    <ul>
+      <li><a href="#-read">🚧 Read</a></li>
+      <li><a href="#-development">🚧 Development</a></li>
+      <li><a href="#-tools">🚧 Tools</a></li>
+      <li><a href="#-api">🚧 Api</a></li>
+      <li><a href="#-scripting">🚧 Scripting</a></li>
+      <li><a href="#-keys">🚧 Keys</a></li>
+      <li><a href="#-wallet">🚧 Wallet</a></li>
+      <li><a href="#-test-nets">🚧 Test-nets</a></li>
+      <li><a href="#-explorers-1">🚧 Explorers</a></li>
+      <li><a href="#-exchange">🚧 Exchange</a></li>
+      <li><a href="#-fork">🚧 Fork</a></li>
+      <li><a href="#-anchor">🚧 Anchor</a></li>
+      <li><a href="#-encryption">🚧 Encryption</a></li>
+      <li><a href="#-satellite">🚧 Satellite</a></li>
+      <li><a href="#-mobile">🚧 Mobile</a></li>
+      <li><a href="#-wordpress">🚧 Wordpress</a></li>
+      <li><a href="#-liquid">🚧 Liquid</a></li>
+      <li><a href="#-rootstock">🚧 Rootstock</a></li>
+    </ul>
+  </li>
+  <li><a href="#libraries">Libraries</a>
+    <ul>
+      <li><a href="#-java-scala">🏗 Java-scala</a></li>
+      <li><a href="#-javascript">🏗 Javascript</a></li>
+      <li><a href="#-python">🏗 Python</a></li>
+      <li><a href="#-net-libraries">🏗 Net-libraries</a></li>
+      <li><a href="#-ruby">🏗 Ruby</a></li>
+      <li><a href="#-golang">🏗 Golang</a></li>
+      <li><a href="#-c">🏗 C++</a></li>
+      <li><a href="#-php">🏗 PHP</a></li>
+      <li><a href="#-rust">🏗 Rust</a></li>
+    </ul>
+  </li>
+  <li><a href="#data">Data</a>
+    <ul>
+      <li><a href="#-data">📊 data</a></li>
+      <li><a href="#-trading">📊 trading</a></li>
+      <li><a href="#-chainanalysis">📊 Chainanalysis</a></li>
+      <li><a href="#-google-sheets">📊 Google Sheets</a></li>
+    </ul>
+  </li>
+</ul>
+:ET
