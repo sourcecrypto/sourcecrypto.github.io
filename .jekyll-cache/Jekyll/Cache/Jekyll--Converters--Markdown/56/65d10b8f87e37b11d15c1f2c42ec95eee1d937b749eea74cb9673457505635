@@ -1,4 +1,4 @@
-I"=�<p>Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space.  Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus <em>a lot</em> more on acquiring practical experience, aiming towards a sovereign work-flow.</p>
+I"ڡ<p>Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space.  Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus <em>a lot</em> more on acquiring practical experience, aiming towards a sovereign work-flow.</p>
 
 <p>While there are already a number of excellent infomative lists, resources pages, and other collections, I haven’t noticed any that focused specifically on <em>using</em> Bitcoin.</p>
 
@@ -16,7 +16,7 @@
 
 <p><img src="https://i.imgur.com/wFhzOQx.jpg" alt="" /></p>
 
-<h2 id="-resources">🗃 Resources</h2>
+<h2 id="-resources">⧉ Resources</h2>
 
 <p><a href="https://bitcoin.org/">bitcoin.<em>org</em></a></p>
 
@@ -39,6 +39,8 @@
 
 <h3 id="-explorers">🗃 Explorers</h3>
 
+<hr />
+
 <p><a href="https://blockchain.com/">blockchain.com/</a></p>
 <blockquote>
   <p>Blockchain is the world’s most trusted all-in-one crypto company. We’re connecting the world to the future of finance through our suite of products including the leading crypto wallet, bitcoin explorer, and market information.</p>
@@ -53,6 +55,8 @@
 <p><a href="https://bitkit.live/">bitkit.live/</a></p>
 
 <h3 id="-fees">🗃 Fees</h3>
+
+<hr />
 
 <p><a href="https://transactionfee.info/">transactionfee.info</a></p>
 <blockquote>
@@ -75,6 +79,8 @@
 
 <h3 id="-escrow">🗃 Escrow</h3>
 
+<hr />
+
 <p>Escrow Agents should be impartial and trusted intermediaries who hold custody of buyer’s funds until pre-defined conditions are met. With the help of public key encryption, parties who don’t know or trust each-other can engage in commerce, online.</p>
 
 <p><a href="https://www.bitrated.com/">bitrated.com</a></p>
@@ -90,6 +96,8 @@
 </blockquote>
 
 <h3 id="-privacy">🗃 Privacy</h3>
+
+<hr />
 
 <p><a href="https://www.coincache.net/2019/01/02/bitcoin-anonymity-guide-2019-how-to-use-btc-like-a-straight-up-g/?v=3e8d115eb4b3">Bitcoin Anonymity Guide 2019: How to use BTC like a straight up G</a></p>
 
@@ -108,15 +116,19 @@
 
 <h3 id="-visualizations">🗃 Visualizations</h3>
 
+<hr />
+
 <p><a href="https://github.com/xpfio/awesome-blockchain-visualisation">xpfio/awesome-blockchain-visualisation</a></p>
 
 <p><a href="https://github.com/bitcoin-vr/bitcoin-vr">bitcoin-vr/bitcoin-vr</a></p>
 
 <p><a href="https://github.com/KevinSmall/blockchain3d">KevinSmall/blockchain3d</a></p>
 
-<h2 id="-get-bitcoin">💱 Get Bitcoin</h2>
+<h2 id="-get-bitcoin">⧉ Get Bitcoin</h2>
 
 <h3 id="-earn">💱 Earn</h3>
+
+<hr />
 
 <p><a href="https://bitcoin-only.com/#get-bitcoin">bitcoin-only.com/#get-bitcoin</a></p>
 
@@ -151,6 +163,8 @@
 
 <h3 id="-buy">💱 Buy</h3>
 
+<hr />
+
 <p><a href="https://www.buybitcoinworldwide.com/en/buy-bitcoins-with-cash/">Buy Bitcoin with Cash</a></p>
 
 <p><a href="https://howtobuybitcoins.info">howtobuybitcoins.info</a></p>
@@ -181,7 +195,9 @@
   <p>Automate Stacking Sats is the new Automate Your Finances</p>
 </blockquote>
 
-<h4 id="-atms">💱 Atms</h4>
+<h4 id="--atms">- Atms</h4>
+
+<hr />
 
 <p><a href="https://en.wikipedia.org/wiki/Bitcoin_ATM">Bitcoin ATM</a></p>
 <blockquote>
@@ -209,13 +225,17 @@
 
 <p><a href="https://podcasts.apple.com/us/podcast/the-what-bitcoin-did-podcast/id1317356120?i=1000446698547">‎What Bitcoin Did Podcast -Operating Bitcoin ATMs with Gil Valentine &amp; Eric Gravengaard from Athena Bitcoin</a></p>
 
-<h4 id="-europe">💱 Europe</h4>
+<h4 id="--europe">- Europe</h4>
+
+<hr />
 
 <p><a href="https://www.getbittr.com/">getbittr.com/</a></p>
 
 <p><a href="https://bitonic.nl/">bitonic.nl/</a></p>
 
-<h4 id="-north-america">💱 North America</h4>
+<h4 id="--north-america">- North America</h4>
+
+<hr />
 
 <p><a href="https://cash.app/">Cash App</a></p>
 
@@ -223,7 +243,9 @@
 
 <p><a href="https://fastbitcoins.com/">fastbitcoins.com/</a></p>
 
-<h4 id="-australia">💱 Australia</h4>
+<h4 id="--australia">- Australia</h4>
+
+<hr />
 
 <p><a href="https://getamber.io/features.html">Amber - Features</a></p>
 <blockquote>
@@ -232,7 +254,7 @@
 
 <p><a href="https://www.btcmarkets.net/">btcmarkets.net</a></p>
 
-<h2 id="-wallets">👛 Wallets</h2>
+<h2 id="-wallets">⧉ Wallets</h2>
 
 <p><a href="https://btcinformation.org/en/choose-your-wallet">Choose your wallet here</a></p>
 <blockquote>
@@ -282,6 +304,8 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-blockstream-green">👛 Blockstream-green</h3>
 
+<hr />
+
 <p><a href="https://docs.blockstream.com/green/getting-started/getting-started-index.html">docs.blockstream.com/green/getting-started/getting-started-index.html</a></p>
 
 <p><a href="https://blockstream.com/green/">Blockstream Green</a></p>
@@ -290,6 +314,8 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 </blockquote>
 
 <h3 id="-wasabi">👛 Wasabi</h3>
+
+<hr />
 
 <p><a href="https://wasabiwallet.io/">wasabiwallet.io/</a></p>
 
@@ -345,6 +371,8 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-samourai">👛 Samourai</h3>
 
+<hr />
+
 <p><a href="https://www.youtube.com/channel/UCb4Y89L9Bokuo6OWqjAhMoA">youtube.com/channel/UCb4Y89L9Bokuo6OWqjAhMoA</a></p>
 
 <p><a href="https://play.google.com/store/apps/details?id=com.samourai.wallet">Samourai Wallet - Apps on Google Play</a></p>
@@ -358,6 +386,8 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 </blockquote>
 
 <h3 id="-electrum">👛 Electrum</h3>
+
+<hr />
 
 <p><a href="https://electrum.org/">electrum.org/</a></p>
 
@@ -424,7 +454,9 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <p><code class="highlighter-rouge">sudo ln -s ~/.local/bin/electrum /usr/local/bin/electrum</code></p>
 
-<h4 id="-electrum-personal-server">👛 electrum-personal-server</h4>
+<h4 id="--electrum-personal-server">- electrum-personal-server</h4>
+
+<hr />
 
 <p><a href="https://www.reddit.com/r/Bitcoin/comments/7w6a9k/electrum_personal_server_the_best_way_to_connect/">reddit.com/r/Bitcoin/comments/7w6a9k/electrum_personal_server_the_best_way_to_connect/</a> r/Bitcoin - Electrum Personal Server - The best way to connect you… basically, electrum personal server is the more sovereign way to run the electrum wallet… analogous to using the bitcoin-core wallet with the complete blockchain.</p>
 
@@ -441,6 +473,8 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-bitgo">👛 Bitgo</h3>
 
+<hr />
+
 <p><a href="https://www.bitgo.com/">bitgo.com/</a></p>
 
 <p>[bitgo.github.io/bitgo-docs/](https://bitgo.github.io/bitgo-docs/</p>
@@ -451,6 +485,8 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 </blockquote>
 
 <h3 id="-hardware">👛 Hardware</h3>
+
+<hr />
 
 <p><a href="https://bitcoin-only.com/#hardware">bitcoin-only.com - Other Hardware</a></p>
 
@@ -466,7 +502,9 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <p><a href="https://news.bitcoin.com/bitcoin-bank-less-thirty-minutes-usb-drive/">news.bitcoin.com/bitcoin-bank-less-thirty-minutes-usb-drive/</a></p>
 
-<h4 id="-trezor">👛 Trezor</h4>
+<h4 id="--trezor">- Trezor</h4>
+
+<hr />
 
 <p><a href="https://shop.trezor.io/">shop.trezor.io/</a></p>
 
@@ -502,7 +540,9 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
   <p>Trezor SSH Agent for Windows (Putty, WinSCP and more) + KeepKey supported! - martin-lizner/trezor-ssh-agent</p>
 </blockquote>
 
-<h4 id="-casa-keymaster">👛 Casa-keymaster</h4>
+<h4 id="--casa-keymaster">- Casa-keymaster</h4>
+
+<hr />
 
 <p><a href="https://keys.casa/keymaster/">keys.casa/keymaster/</a></p>
 
@@ -515,7 +555,9 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <p><a href="https://www.youtube.com/watch?v=B-JpOC1Knx8">Setting up Keymaster by Casa (Basic Multisig)</a></p>
 
-<h4 id="-ledger">👛 Ledger</h4>
+<h4 id="--ledger">- Ledger</h4>
+
+<hr />
 
 <p><a href="https://shop.ledger.com/pages/ledger-nano-x">Ledger Nano X - Secure your crypto</a></p>
 
@@ -524,7 +566,9 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
   <p>Brand New Ledger Nano X Step By STep Guide. Unboxing and Complete Set-up Guide from start to finish. This is my fifth tutorial on the Ledger Devices, I’ve be…</p>
 </blockquote>
 
-<h4 id="-cold-card">👛 Cold Card</h4>
+<h4 id="--cold-card">- Cold Card</h4>
+
+<hr />
 
 <p><a href="https://coldcardwallet.com/">coldcardwallet.com</a></p>
 
@@ -537,6 +581,8 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 <p><a href="https://github.com/Coldcard">Coldcard</a></p>
 
 <h3 id="-cold-storage">👛 Cold Storage</h3>
+
+<hr />
 
 <p><a href="https://medium.com/@timevalueofbtc/the-business-of-bitcoin-cold-storage-148fba7f1255">medium.com/@timevalueofbtc/the-business-of-bitcoin-cold-storage-148fba7f1255</a></p>
 <blockquote>
@@ -555,6 +601,8 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <h3 id="-paper">👛 Paper</h3>
 
+<hr />
+
 <p><a href="https://en.bitcoin.it/wiki/Paper_wallet">en.bitcoin.it/wiki/Paper_wallet</a></p>
 
 <p><a href="https://github.com/p4fg/secure-paper-wallet">p4fg/secure-paper-wallet</a></p>
@@ -565,7 +613,7 @@ Bitcoin thin client for iOS &amp; Android. Built with React Native - BlueWallet/
 
 <p><a href="https://github.com/nurupo/paper-store">nurupo/paper-store</a> - Cold store small files on paper as QR codes – PGP keys, Bitcoin keys, Tox keys or any other small files in general. - nurupo/paper-store</p>
 
-<h2 id="-full-node">📶 Full Node</h2>
+<h2 id="-full-node">⧉ Full Node</h2>
 
 <p><a href="https://github.com/bitcoin/bitcoin">bitcoin/bitcoin</a> - <a href="https://github.com/bitcoin/bitcoin/releases">releases</a></p>
 
@@ -678,6 +726,8 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-raspberry-pi">📶 Raspberry pi</h3>
 
+<hr />
+
 <p><a href="https://medium.com/@meeDamian/bitcoin-full-node-on-rbp3-revised-88bb7c8ef1d1">medium.com/@meeDamian/bitcoin-full-node-on-rbp3-revised-88bb7c8ef1d1</a> RaspPiBolt Guide</p>
 
 <p><a href="https://stadicus.github.io/RaspiBolt/">stadicus/RaspiBolt</a></p>
@@ -710,6 +760,8 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-pi2">📶 Pi2</h3>
 
+<hr />
+
 <p><a href="https://www.element14.com/community/docs/DOC-73827/l/raspberry-pi-2-model-b-1gb-technical-specifications">element14.com/community/docs/DOC-73827/l/raspberry-pi-2-model-b-1gb-technical-specifications</a>
 (The main limitation for pi2 is 1 gig of ram… and I saw in btcpayserver chat the PI4 is even recommended because of the additional ram. However, if you’re not processing a multitude of transactions, perhaps it would suffice to start. It would likely prove necessary to download the blockchain with another device, then copy it to your microsd.)</p>
 
@@ -722,6 +774,8 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 <p><a href="https://bitcointalk.org/index.php?topic=1763613.0">Running Bitcoin Core on External Hard Drive</a></p>
 
 <h3 id="-hardware-1">📶 Hardware</h3>
+
+<hr />
 
 <p><a href="http://lopp.net">Lopp.net</a> - <a href="https://www.lopp.net/bitcoin-information/full-node.html#node_hardware">Plug &amp; Play Node Hardware</a></p>
 
@@ -740,7 +794,7 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
   <p>Bitseed Core comes preconfigured as a Bitcoin full node, allowing you to keep bitcoin running 24/7 without slowing your PC.</p>
 </blockquote>
 
-<h2 id="-payments">💳 Payments</h2>
+<h2 id="-payments">⧉ Payments</h2>
 
 <p><a href="https://github.com/alexk111/awesome-bitcoin-payment-processors">alexk111/awesome-bitcoin-payment-processors</a></p>
 
@@ -764,6 +818,8 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 </blockquote>
 
 <h3 id="-btcpay">💳 Btcpay</h3>
+
+<hr />
 
 <p><a href="https://bitcoinmagazine.com/articles/year-after-launch-btcpay-has-grown-larger-its-creator-expected/">bitcoinmagazine.com/articles/year-after-launch-btcpay-has-grown-larger-its-creator-expected/</a> - BTCPay has become a meteoric success. But for what started out as a hobbyist’s side project, this success has, in some respects, become unwieldy.</p>
 
@@ -819,6 +875,8 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-libre-patreon">💳 libre-patreon</h3>
 
+<hr />
+
 <p><a href="https://github.com/JeffVandrewJr/patron">JeffVandrewJr/patron</a> - LibrePatron: A Self-Hosted Patreon Alternative for BTCPay - JeffVandrewJr/patron</p>
 
 <p><a href="https://twitter.com/vandrewattycpa/status/1079471260978040833">twitter.com/vandrewattycpa/status/1079471260978040833</a></p>
@@ -826,9 +884,11 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
   <p>Today I released LibrePatron, an alternative to Partreon backed by @BtcpayServer. Most Patreon alternatives don’t implement the full Patreon feature set. This seeks to change that. Sample site (alpha not mobile responsive, mobile coming soon!): <a href="https://t.co/ZcHDjUfBfe">t.co/ZcHDjUfBfe</a> T…</p>
 </blockquote>
 
-<h2 id="application">Application</h2>
+<h2 id="-application">⧉ Application</h2>
 
 <h3 id="-layer-one">🧩 Layer One</h3>
+
+<hr />
 
 <p><a href="https://twitter.com/Beautyon_/status/1062100915925213185">twitter.com/Beautyon_/status/1062100915925213185</a></p>
 <blockquote>
@@ -852,6 +912,8 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 </blockquote>
 
 <h3 id="-proofs">🧩 Proofs</h3>
+
+<hr />
 
 <p><a href="https://medium.com/tierion/how-to-create-and-verify-a-chainpoint-proof-eba52a7700e3">How to Create and Verify a Chainpoint Proof</a></p>
 
@@ -878,6 +940,8 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 <p><a href="https://github.com/opentimestamps/python-opentimestamps">opentimestamps/python-opentimestamps</a></p>
 
 <h3 id="-openbazaar">🧩 OpenBazaar</h3>
+
+<hr />
 
 <p><a href="https://www.openbazaar.org">openbazaar.org</a></p>
 <blockquote>
@@ -908,28 +972,40 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
   <p>Openbazaar is a marketplace for Bitcoin users where they can trade different stuffs in exchange for the cryptocurrency. What makes it different from other ecommerce is they offer a software for users to download in order to trade. Instead of users visiting a website, they wil…</p>
 </blockquote>
 
-<h2 id="development">Development</h2>
+<h3 id="️-satellite">🛰️ Satellite</h3>
 
-<h3 id="-read">🚧 Read</h3>
+<hr />
 
-<p><a href="https://github.com/aantonop/bitcoinbook">aantonop/bitcoinbook</a></p>
+<p><a href="https://hackernoon.com/building-your-own-bitcoin-satellite-node-6061d3c93e7">hackernoon.com/building-your-own-bitcoin-satellite-node-6061d3c93e7</a></p>
 
-<p><a href="https://www.manning.com/books/grokking-bitcoin">manning.com/books/grokking-bitcoin</a>
-<a href="https://github.com/kallerosenbaum/grokkingbitcoin">kallerosenbaum/grokkingbitcoin</a></p>
-<blockquote>
-  <p>Source repository for Grokking Bitcoin, with clear explanations and many excellent illustrations, this book makes even the most highly technical topic accessible.</p>
-</blockquote>
+<p><a href="https://hackernoon.com/building-your-own-bitcoin-satellite-node-6061d3c93e7">Building Your Own Bitcoin Satellite Node</a></p>
 
-<p><a href="https://bitcoin.stackexchange.com/">bitcoin.stackexchange.com/</a> Q&amp;A for Bitcoin crypto-currency enthusiasts</p>
+<p><a href="https://blockstream.com/satellite/#satellite-resources">blockstream.com/satellite/#satellite-resources</a></p>
 
-<p><a href="https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/">Elliptic Curve Cryptography A Gentle Introduction</a></p>
+<p><a href="https://blockstream.com/satellite-api/">blockstream.com/satellite-api/</a></p>
 
-<p><a href="https://github.com/bitcoin-studio/Bitcoin-Programming-with-BitcoinJS">bitcoin-studio/Bitcoin-Programming-with-BitcoinJS</a> - Bitcoin Programming with BitcoinJS and Bitcoin Core CLI - bitcoin-studio/Bitcoin-Programming-with-BitcoinJS</p>
+<p><a href="https://blockstream.com/satellite-api-documentation/">blockstream.com/satellite-api-documentation/</a></p>
 
-<p><a href="https://github.com/jimmysong/programmingbitcoin">jimmysong/programmingbitcoin</a>
-<a href="https://programmingbitcoin.com/">programmingbitcoin.com</a></p>
+<p>The Blockstream Satellite network broadcasts the Bitcoin blockchain around the world 24/7 for free, protecting against network interruptions and providing an…</p>
 
-<h3 id="-development">🚧 Development</h3>
+<p><a href="https://github.com/Blockstream/satellite">Blockstream/satellite</a></p>
+
+<p><a href="https://blockstream.com/satellite-queue/">blockstream.com/satellite-queue/</a></p>
+
+<p><a href="https://news.ycombinator.com/item?id=18925136">news.ycombinator.com/item?id=18925136</a><br />
+<a href="https://news.ycombinator.com/item?id=18925136">Blockstream Satellite API: Pay with BTC via Lightning to Broadcast Data Globally</a></p>
+
+<p><a href="https://medium.com/blockstream/building-your-own-bitcoin-satellite-node-6061d3c93e7">Building Your Own Bitcoin Satellite Node: Part 1 - Hardware Assembly</a></p>
+
+<p><a href="https://medium.com/blockstream/building-your-own-bitcoin-satellite-node-part-2-software-installation-a94a0b85d089">Building Your Own Bitcoin Satellite Node: Part 2 — Software Installation</a></p>
+
+<p><a href="https://medium.com/blockstream/building-your-own-bitcoin-satellite-node-part-3-dish-alignment-1306b4c21326">Building Your Own Bitcoin Satellite Node: Part 3 — Dish Alignment</a></p>
+
+<p><a href="https://medium.com/hackernoon/completely-offline-bitcoin-transactions-4e58324637bd">Completely Offline Bitcoin Transactions</a></p>
+
+<p><a href="https://medium.com/blockstream/build-your-own-wireless-bitcoin-service-provider-complete-with-blockstream-satellite-backhaul-165469036658">Build Your Own Wireless Bitcoin Service Provider — Complete With Blockstream Satellite Backhaul</a></p>
+
+<h2 id="-development">⧉ Development</h2>
 
 <p><a href="https://github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line">github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line</a></p>
 
@@ -1001,7 +1077,30 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <p><a href="https://github.com/MrHash/bitcoin-dev-stack">MrHash/bitcoin-dev-stack</a></p>
 
+<h3 id="-read">🚧 Read</h3>
+
+<hr />
+
+<p><a href="https://github.com/aantonop/bitcoinbook">aantonop/bitcoinbook</a></p>
+
+<p><a href="https://www.manning.com/books/grokking-bitcoin">manning.com/books/grokking-bitcoin</a>
+<a href="https://github.com/kallerosenbaum/grokkingbitcoin">kallerosenbaum/grokkingbitcoin</a></p>
+<blockquote>
+  <p>Source repository for Grokking Bitcoin, with clear explanations and many excellent illustrations, this book makes even the most highly technical topic accessible.</p>
+</blockquote>
+
+<p><a href="https://bitcoin.stackexchange.com/">bitcoin.stackexchange.com/</a> Q&amp;A for Bitcoin crypto-currency enthusiasts</p>
+
+<p><a href="https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/">Elliptic Curve Cryptography A Gentle Introduction</a></p>
+
+<p><a href="https://github.com/bitcoin-studio/Bitcoin-Programming-with-BitcoinJS">bitcoin-studio/Bitcoin-Programming-with-BitcoinJS</a> - Bitcoin Programming with BitcoinJS and Bitcoin Core CLI - bitcoin-studio/Bitcoin-Programming-with-BitcoinJS</p>
+
+<p><a href="https://github.com/jimmysong/programmingbitcoin">jimmysong/programmingbitcoin</a>
+<a href="https://programmingbitcoin.com/">programmingbitcoin.com</a></p>
+
 <h3 id="-tools">🚧 Tools</h3>
+
+<hr />
 
 <p><a href="https://bitkey.io/">bitkey.io/</a></p>
 
@@ -1083,6 +1182,8 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-api">🚧 Api</h3>
 
+<hr />
+
 <p><a href="https://block.io/">block.io/</a></p>
 
 <p><a href="https://www.blockcypher.com/">blockcypher.com/</a></p>
@@ -1125,6 +1226,8 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <h3 id="-scripting">🚧 Scripting</h3>
 
+<hr />
+
 <p><a href="https://twitter.com/lopp/status/1072156493116518400">twitter.com/lopp/status/1072156493116518400</a></p>
 <blockquote>
   <p><a href="https://nioctib.tech">nioctib.tech</a> has a neat animated Bitcoin script interpreter and debugger for those who want to better understand script execution. <a href="https://nioctib.tech/#/transaction/f2f398dace996dab12e0cfb02fb0b59de0ef0398be393d90ebc8ab397550370b/input/0/interpret?automatic=true">t.co/5TAkdoPU7b</a> <a href="https://twitter.com/i/status/1072156493116518400">gif</a></p>
@@ -1160,53 +1263,9 @@ Cyphernode: <a href="https://t.co/tMXS1kCgHW">t.co/tMXS1kCgHW</a> And of course,
 
 <p><a href="https://github.com/kallewoof/btcdeb">kallewoof/btcdeb</a></p>
 
-<h3 id="-keys">🚧 Keys</h3>
-
-<p><a href="https://github.com/bitcoinjs/bip39">bitcoinjs/bip39</a></p>
-<blockquote>
-  <p>JavaScript implementation of Bitcoin BIP39: Mnemonic code for generating deterministic keys - bitcoinjs/bip39</p>
-</blockquote>
-
-<p><a href="https://github.com/trezor/python-mnemonic">trezor/python-mnemonic</a></p>
-<blockquote>
-  <p>:snake: Mnemonic code for generating deterministic keys, BIP39 - trezor/python-mnemonic</p>
-</blockquote>
-
-<p><a href="https://github.com/bitcoinjs/bip38">bitcoinjs/bip38</a></p>
-<blockquote>
-  <p>BIP38 is a standard process to encrypt Bitcoin and crypto currency private keys that is less susceptible to brute force attacks thus protecting the user. - bitcoinjs/bip38</p>
-</blockquote>
-
-<p><a href="https://github.com/onmyway133/AddressGenerator">onmyway133/AddressGenerator</a></p>
-<blockquote>
-  <p>A macOS app to safely generate cryptocurrency address - onmyway133/AddressGenerator</p>
-</blockquote>
-
-<p><a href="https://github.com/tintinweb/ecdsa-private-key-recovery">tintinweb/ecdsa-private-key-recovery</a></p>
-<blockquote>
-  <p>A simple library to recover the private key of ECDSA and DSA signatures sharing the same nonce k and therefore having identical signature parameter r - tintinweb/ecdsa-private-key-recovery</p>
-</blockquote>
-
-<p><a href="https://github.com/NovaCrypto/BIP39">NovaCrypto/BIP39</a>
-Java Microlibrary implementation of BIP0039.</p>
-
-<p><a href="https://github.com/Destiner/blocksmith">Destiner/blocksmith</a></p>
-
-<p><a href="https://github.com/anderson-arlen/cryptoseed">anderson-arlen/cryptoseed</a></p>
-
-<p><a href="https://github.com/bitcoinjs/bip32-utils">bitcoinjs/bip32-utils</a></p>
-<blockquote>
-  <p>A small set of utilities for use with BIP32 HD key nodes - bitcoinjs/bip32-utils</p>
-</blockquote>
-
-<p><a href="https://medium.com/@thepiratewhocantbenamed/a-new-mnemonic-seed-scheme-idea-7cf5395ac77e">A New Mnemonic Seed Scheme Idea</a></p>
-
-<p><a href="https://medium.com/@notgrubles/network-less-vm-bitcoin-storage-29e7d53a17b0">Network-less VM Bitcoin Storage</a></p>
-<blockquote>
-  <p>Creating an offline virtual machine with Qubes OS to generate Bitcoin keys.</p>
-</blockquote>
-
 <h3 id="-wallet">🚧 Wallet</h3>
+
+<hr />
 
 <p><a href="https://bitgo.github.io/bitgo-docs/">bitgo.github.io/bitgo-docs/</a></p>
 
@@ -1290,13 +1349,65 @@ piWallet is an open source program developed by Johnathan Martin that allows alm
   <p>Bitcoin Privacy Wallet. Contribute to BobWallet/BobWallet development by creating an account on GitHub.</p>
 </blockquote>
 
+<h4 id="--keys">- Keys</h4>
+
+<hr />
+
+<p><a href="https://github.com/bitcoinjs/bip39">bitcoinjs/bip39</a></p>
+<blockquote>
+  <p>JavaScript implementation of Bitcoin BIP39: Mnemonic code for generating deterministic keys - bitcoinjs/bip39</p>
+</blockquote>
+
+<p><a href="https://github.com/trezor/python-mnemonic">trezor/python-mnemonic</a></p>
+<blockquote>
+  <p>:snake: Mnemonic code for generating deterministic keys, BIP39 - trezor/python-mnemonic</p>
+</blockquote>
+
+<p><a href="https://github.com/bitcoinjs/bip38">bitcoinjs/bip38</a></p>
+<blockquote>
+  <p>BIP38 is a standard process to encrypt Bitcoin and crypto currency private keys that is less susceptible to brute force attacks thus protecting the user. - bitcoinjs/bip38</p>
+</blockquote>
+
+<p><a href="https://github.com/onmyway133/AddressGenerator">onmyway133/AddressGenerator</a></p>
+<blockquote>
+  <p>A macOS app to safely generate cryptocurrency address - onmyway133/AddressGenerator</p>
+</blockquote>
+
+<p><a href="https://github.com/tintinweb/ecdsa-private-key-recovery">tintinweb/ecdsa-private-key-recovery</a></p>
+<blockquote>
+  <p>A simple library to recover the private key of ECDSA and DSA signatures sharing the same nonce k and therefore having identical signature parameter r - tintinweb/ecdsa-private-key-recovery</p>
+</blockquote>
+
+<p><a href="https://github.com/NovaCrypto/BIP39">NovaCrypto/BIP39</a>
+Java Microlibrary implementation of BIP0039.</p>
+
+<p><a href="https://github.com/Destiner/blocksmith">Destiner/blocksmith</a></p>
+
+<p><a href="https://github.com/anderson-arlen/cryptoseed">anderson-arlen/cryptoseed</a></p>
+
+<p><a href="https://github.com/bitcoinjs/bip32-utils">bitcoinjs/bip32-utils</a></p>
+<blockquote>
+  <p>A small set of utilities for use with BIP32 HD key nodes - bitcoinjs/bip32-utils</p>
+</blockquote>
+
+<p><a href="https://medium.com/@thepiratewhocantbenamed/a-new-mnemonic-seed-scheme-idea-7cf5395ac77e">A New Mnemonic Seed Scheme Idea</a></p>
+
+<p><a href="https://medium.com/@notgrubles/network-less-vm-bitcoin-storage-29e7d53a17b0">Network-less VM Bitcoin Storage</a></p>
+<blockquote>
+  <p>Creating an offline virtual machine with Qubes OS to generate Bitcoin keys.</p>
+</blockquote>
+
 <h3 id="-test-nets">🚧 Test-nets</h3>
+
+<hr />
 
 <p><a href="https://blockstream.info/testnet/">blockstream.info/testnet/</a></p>
 
 <p><a href="https://blockstream.info/testnet/">Bitcoin Testnet Explorer</a></p>
 
 <h3 id="-explorers-1">🚧 Explorers</h3>
+
+<hr />
 
 <p><a href="https://github.com/janoside/btc-rpc-explorer">janoside/btc-rpc-explorer</a>
 <a href="https://btc.chaintools.io">btc.chaintools.io</a> (demo)</p>
@@ -1313,6 +1424,8 @@ piWallet is an open source program developed by Johnathan Martin that allows alm
 
 <h3 id="-exchange">🚧 Exchange</h3>
 
+<hr />
+
 <p><a href="https://bitcoin-otc.com/">bitcoin-otc.com/</a> #bitcoin-otc is an over-the-counter marketplace for trading with bitcoin. The marketplace is located in #bitcoin-otc channel on the freenode IRC network. If you don’t have an IRC client, click here to visit the channel with your web browser.</p>
 
 <p><a href="https://github.com/ExchangeUnion/xud">ExchangeUnion/xud</a></p>
@@ -1322,6 +1435,8 @@ piWallet is an open source program developed by Johnathan Martin that allows alm
 <p><a href="https://github.com/go-faast/faast-web">go-faast/faast-web</a></p>
 
 <h3 id="-fork">🚧 Fork</h3>
+
+<hr />
 
 <p><a href="https://en.bitcoinwiki.org/wiki/Creating_forks">en.bitcoinwiki.org/wiki/Creating_forks</a></p>
 
@@ -1333,9 +1448,13 @@ piWallet is an open source program developed by Johnathan Martin that allows alm
 
 <h3 id="-anchor">🚧 Anchor</h3>
 
+<hr />
+
 <p><a href="https://github.com/exonum/exonum-btc-anchoring">exonum/exonum-btc-anchoring</a></p>
 
 <h3 id="-encryption">🚧 Encryption</h3>
+
+<hr />
 
 <p><a href="https://github.com/bitauth/bitcoin-ts">bitauth/bitcoin-ts</a></p>
 <blockquote>
@@ -1353,38 +1472,9 @@ piWallet is an open source program developed by Johnathan Martin that allows alm
 
 <p><a href="https://m.apograf.io/articles/13486">Okamoto Beats Schnorr: On the Provable Security of Multi-Signatures</a></p>
 
-<h3 id="-satellite">🚧 Satellite</h3>
-
-<p><a href="https://hackernoon.com/building-your-own-bitcoin-satellite-node-6061d3c93e7">hackernoon.com/building-your-own-bitcoin-satellite-node-6061d3c93e7</a></p>
-
-<p><a href="https://hackernoon.com/building-your-own-bitcoin-satellite-node-6061d3c93e7">Building Your Own Bitcoin Satellite Node</a></p>
-
-<p><a href="https://blockstream.com/satellite/#satellite-resources">blockstream.com/satellite/#satellite-resources</a></p>
-
-<p><a href="https://blockstream.com/satellite-api/">blockstream.com/satellite-api/</a></p>
-
-<p><a href="https://blockstream.com/satellite-api-documentation/">blockstream.com/satellite-api-documentation/</a></p>
-
-<p>The Blockstream Satellite network broadcasts the Bitcoin blockchain around the world 24/7 for free, protecting against network interruptions and providing an…</p>
-
-<p><a href="https://github.com/Blockstream/satellite">Blockstream/satellite</a></p>
-
-<p><a href="https://blockstream.com/satellite-queue/">blockstream.com/satellite-queue/</a></p>
-
-<p><a href="https://news.ycombinator.com/item?id=18925136">news.ycombinator.com/item?id=18925136</a><br />
-<a href="https://news.ycombinator.com/item?id=18925136">Blockstream Satellite API: Pay with BTC via Lightning to Broadcast Data Globally</a></p>
-
-<p><a href="https://medium.com/blockstream/building-your-own-bitcoin-satellite-node-6061d3c93e7">Building Your Own Bitcoin Satellite Node: Part 1 - Hardware Assembly</a></p>
-
-<p><a href="https://medium.com/blockstream/building-your-own-bitcoin-satellite-node-part-2-software-installation-a94a0b85d089">Building Your Own Bitcoin Satellite Node: Part 2 — Software Installation</a></p>
-
-<p><a href="https://medium.com/blockstream/building-your-own-bitcoin-satellite-node-part-3-dish-alignment-1306b4c21326">Building Your Own Bitcoin Satellite Node: Part 3 — Dish Alignment</a></p>
-
-<p><a href="https://medium.com/hackernoon/completely-offline-bitcoin-transactions-4e58324637bd">Completely Offline Bitcoin Transactions</a></p>
-
-<p><a href="https://medium.com/blockstream/build-your-own-wireless-bitcoin-service-provider-complete-with-blockstream-satellite-backhaul-165469036658">Build Your Own Wireless Bitcoin Service Provider — Complete With Blockstream Satellite Backhaul</a></p>
-
 <h3 id="-mobile">🚧 Mobile</h3>
+
+<hr />
 
 <p><a href="https://github.com/consenlabs/token-core-ios">consenlabs/token-core-ios</a></p>
 <blockquote>
@@ -1427,9 +1517,13 @@ piWallet is an open source program developed by Johnathan Martin that allows alm
 
 <h3 id="-wordpress">🚧 Wordpress</h3>
 
+<hr />
+
 <p><a href="https://github.com/cryptoapi/Bitcoin-Wordpress-Plugin">cryptoapi/Bitcoin-Wordpress-Plugin</a></p>
 
 <h3 id="-liquid">🚧 Liquid</h3>
+
+<hr />
 
 <p><a href="https://elementsproject.org/how-it-works">elementsproject.org/how-it-works</a>
 Elements - an open source, sidechain-capable blockchain platform.</p>
@@ -1444,6 +1538,8 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 <p><a href="https://medium.com/blockstream/getting-started-with-lightning-on-the-liquid-network-8b5682752ffe">Getting started with Lighning on the Liquid Network</a></p>
 
 <h3 id="-rootstock">🚧 Rootstock</h3>
+
+<hr />
 
 <p><a href="http://www.rootstock.io/">rootstock.io</a></p>
 <blockquote>
@@ -1467,9 +1563,11 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
   <p>#rsk #rootstock <a href="https://t.co/dmwA7j7U3K">t.co/dmwA7j7U3K</a> Is still planning to introduce a security flaw they call “drive chains” If they get enough fools to put bitcoin on this flawed side chain it will resulting a massive theft of #bitcoin Defend bitcoin by alerting people of the …</p>
 </blockquote>
 
-<h2 id="libraries">Libraries</h2>
+<h2 id="-libraries">⧉ Libraries</h2>
 
 <h3 id="-java-scala">🏗 Java-scala</h3>
+
+<hr />
 
 <p><a href="https://github.com/knowm/XChange">knowm/XChange</a></p>
 <blockquote>
@@ -1494,6 +1592,8 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 </blockquote>
 
 <h3 id="-javascript">🏗 Javascript</h3>
+
+<hr />
 
 <p><a href="https://github.com/cryptocoinjs/awesome-cryptocoinjs">cryptocoinjs/awesome-cryptocoinjs</a></p>
 <blockquote>
@@ -1539,6 +1639,8 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 </blockquote>
 
 <h3 id="-python">🏗 Python</h3>
+
+<hr />
 
 <p><a href="https://github.com/blocktrail/blocktrail-sdk-python">blocktrail/blocktrail-sdk-python</a></p>
 <blockquote>
@@ -1589,6 +1691,8 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-net-libraries">🏗 Net-libraries</h3>
 
+<hr />
+
 <p><a href="https://github.com/MetacoSA/NBitcoin">MetacoSA/NBitcoin</a></p>
 <blockquote>
   <p>Comprehensive Bitcoin library for the .NET framework. - MetacoSA/NBitcoin</p>
@@ -1603,6 +1707,8 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-ruby">🏗 Ruby</h3>
 
+<hr />
+
 <p><a href="https://github.com/lian/bitcoin-ruby">lian/bitcoin-ruby</a></p>
 <blockquote>
   <p>bitcoin utils and protocol in ruby. Contribute to lian/bitcoin-ruby development by creating an account on GitHub.</p>
@@ -1610,12 +1716,16 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-golang">🏗 Golang</h3>
 
+<hr />
+
 <p><a href="https://github.com/piotrnar/gocoin">piotrnar/gocoin</a></p>
 <blockquote>
   <p>Full bitcoin solution written in Go (golang). Contribute to piotrnar/gocoin development by creating an account on GitHub.</p>
 </blockquote>
 
 <h3 id="-c">🏗 C++</h3>
+
+<hr />
 
 <p><a href="https://libbitcoin.org/">libbitcoin.org/</a></p>
 
@@ -1631,6 +1741,8 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 
 <h3 id="-php">🏗 PHP</h3>
 
+<hr />
+
 <p><a href="https://github.com/coinspark/php-OP_RETURN">coinspark/php-OP_RETURN</a></p>
 <blockquote>
   <p>Simple PHP commands and library for using bitcoin OP_RETURNs.</p>
@@ -1644,6 +1756,8 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
 <p><a href="https://github.com/Bit-Wasp/bitcoin-php">Bit-Wasp/bitcoin-php</a></p>
 
 <h3 id="-rust">🏗 Rust</h3>
+
+<hr />
 
 <p><a href="https://github.com/mikispag/bitiodine">mikispag/bitiodine</a></p>
 <blockquote>
@@ -1660,9 +1774,7 @@ Liquid daemon and cli. Contribute to Blockstream/liquid development by creating 
   <p>Bitcoin software suite. Contribute to tomasvdw/bitcrust development by creating an account on GitHub.</p>
 </blockquote>
 
-<h2 id="data">Data</h2>
-
-<h3 id="-data">📊 data</h3>
+<h2 id="-data">⧉ Data</h2>
 
 <p><a href="https://bitdb.network/">bitdb.network/</a></p>
 
@@ -1755,6 +1867,8 @@ Fast import of the blockchain into PostgreSQL.</p>
 </blockquote>
 
 <h3 id="-trading">📊 trading</h3>
+
+<hr />
 
 <p><a href="https://github.com/ccxt/ccxt">ccxt/ccxt</a></p>
 <blockquote>
@@ -1916,6 +2030,8 @@ Fast import of the blockchain into PostgreSQL.</p>
 
 <h3 id="-chainanalysis">📊 Chainanalysis</h3>
 
+<hr />
+
 <p><a href="https://github.com/animeshbchowdhury/bitcoinCodeRepos">animeshbchowdhury/bitcoinCodeRepos</a></p>
 <blockquote>
   <p>Bitcoin Code Written for Long Chain Analysis. Contribute to animeshbchowdhury/bitcoinCodeRepos development by creating an account on GitHub.</p>
@@ -1945,6 +2061,8 @@ Fast import of the blockchain into PostgreSQL.</p>
 bitcoin blockchain analysis.</p>
 
 <h3 id="-google-sheets">📊 Google Sheets</h3>
+
+<hr />
 
 <p><a href="https://github.com/cryptofinance-ai/cryptofinance-google-sheets-add-on">cryptofinance-ai/cryptofinance-google-sheets-add-on</a></p>
 :ET
