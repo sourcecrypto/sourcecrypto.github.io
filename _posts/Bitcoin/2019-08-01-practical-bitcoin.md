@@ -23,11 +23,11 @@ Once I got into the Awesome lists, I felt like I had surveyed a broad swath of t
 
 ## You MUST Do Your Own Research
 
-This is intended to be a starting point for anyone who is interested in using Bitcoin code \ hardware. These guides and tutorials are a great jumping off point, from which you can explore a variety of technologies you may not even have known were available.
+These guides and tutorials are a great jumping off point, from which you can explore a variety of technologies you may not even have known were available.
 
 Please. Do your own research.
 
-There may be newer materials or advisaries for any of these projects. Be sure to check for recent information to be sure it's something you really want to use.
+There may be newer materials or advisaries for any of these products\services. **Be sure to check for recent information!** 
 
 ![](https://i.imgur.com/wFhzOQx.jpg)
 
