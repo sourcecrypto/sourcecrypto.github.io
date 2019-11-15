@@ -845,7 +845,7 @@ Raspberry Pi Bitcoin Monitor with OLED Ticker](https://photochirp.com/r-pi/raspb
 [A STEP-BY-STEP GUIDE FOR BUYING IN OPENBAZAAR - The Green Mile](https://tgmweed.co.uk/a-step-by-step-guide-for-buying-in-openbazaar/)
 > Openbazaar is a marketplace for Bitcoin users where they can trade different stuffs in exchange for the cryptocurrency. What makes it different from other ecommerce is they offer a software for users to download in order to trade. Instead of users visiting a website, they wil...
 
-### 🚧 Satellite
+### 🛰️ Satellite
 
 ---
 

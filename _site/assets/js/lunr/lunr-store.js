@@ -654,6 +654,11 @@ var store = [{
         "tags": ["Practical"],
         "url": "http://localhost:4000/posts/Bitcoin/practical/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
+        "title": "David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement",
+        "excerpt":"Epicenter Podcast #304 Under Creative Commons license by Epicenter Media ltd We’re pleased to be joined by the legendary cryptographer and computer scientist, David Chaum. From his early beginnings at Berkley, David pioneered many of the cryptographic techniques used in secure systems and cryptocurrencies today. Blind signatures, which are used...","categories": ["History","Bitcoin"],
+        "tags": ["Pre-History","Chaum"],
+        "url": "http://localhost:4000/posts/Bitcoin/pre-history/chaum-forfather-cypherpunk-cryptocurrency/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "assorted-media",
         "excerpt":"Source&#10697;Crypto &#128451;assorted-media 79 messages &#10697;infominer 08-Aug-18 08:41 PM https://bitcoinhackers.org/about Bitcoin Mastodon A mastodon instance for Bitcoiners No Scams, no impersonation, no begging, and no illegal content Keep it civil and we should all survive :) &#10697;infominer 11-Aug-18 08:52 PM https://www.youtube.com/user/aantonop aantonop Videos about Bitcoin, Ethereum and other Open Blockchain topics...","categories": [],
         "tags": [],
