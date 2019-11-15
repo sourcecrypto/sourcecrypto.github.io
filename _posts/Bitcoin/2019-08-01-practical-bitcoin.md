@@ -54,6 +54,8 @@ There may be newer materials or advisaries for any of these projects. Be sure to
 
 ---
 
+[blockstream.info](http://blockstream.info)
+
 [blockchain.com/](https://blockchain.com/)
 > Blockchain is the world's most trusted all-in-one crypto company. We're connecting the world to the future of finance through our suite of products including the leading crypto wallet, bitcoin explorer, and market information.
 
@@ -247,12 +249,17 @@ Escrow Agents should be impartial and trusted intermediaries who hold custody of
 
 ## ⧉ Wallets
 
-[Choose your wallet here](https://btcinformation.org/en/choose-your-wallet)
+---
+
 > * Do not use wallets that don't give you recovery data; these wallets are likely controlling your keys.
 > * Do not use paper wallets unless you're an advanced user who understands all the risks.
 > * Do not store large amounts of value in single signature wallets.
 > * Make sure your heirs know how to recover your wallets without you!
 > Note that it is NOT recommended that novices use the Bitcoin Core wallet. If you want to use a wallet backed by a fully validating node you run, read [Securing Your Financial Sovereignty](https://blog.lopp.net/securing-your-financial-sovereignty/).
+
+[Choose your wallet here - bitcoin.org](https://bitcoin.org/en/choose-your-wallet?step=5)
+
+[Choose your wallet here - btcinformation](https://btcinformation.org/en/choose-your-wallet)
 
 [bitcoin-only.com - Wallets](https://bitcoin-only.com/#wallets)
 
@@ -275,8 +282,6 @@ Escrow Agents should be impartial and trusted intermediaries who hold custody of
 [Armory](https://www.bitcoinarmory.com/) Cold Storage & Multisig Desktop
 
 [ABCore](http://abco.re/en/releases/) Bitcoin Core Full Node for Android Android
-
-[Bitcoin Only](https://bitcoin-only.com/)
 
 [Samourai Wallet](https://samouraiwallet.com/))
 
