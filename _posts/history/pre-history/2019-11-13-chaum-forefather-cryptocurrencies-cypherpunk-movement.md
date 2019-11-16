@@ -1,7 +1,8 @@
 ---
 title: David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement
 description: "Transcript of Epicenter Podcast #304"
-permalink: posts/Bitcoin/pre-history/chaum-forfather-cypherpunk-cryptocurrency/
+permalink: posts/Bitcoin/pre-history/chaum-father-digital-cryptography/
+redirect_from: posts/Bitcoin/pre-history/chaum-forfather-cypherpunk-cryptocurrency/
 classes: wide
 published: true
 header:
