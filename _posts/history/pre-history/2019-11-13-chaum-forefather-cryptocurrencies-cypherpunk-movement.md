@@ -1,8 +1,9 @@
 ---
 title: David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement
 description: "Transcript of Epicenter Podcast #304"
-permalink: posts/Bitcoin/pre-history/chaum-father-digital-cryptography/
-redirect_from: posts/Bitcoin/pre-history/chaum-forfather-cypherpunk-cryptocurrency/
+permalink: posts/Bitcoin/pre-history/chaum-forefather-cypherpunk-cryptocurrency/
+redirect_from:
+  - posts/Bitcoin/pre-history/chaum-forfather-cypherpunk-cryptocurrency/
 classes: wide
 published: true
 header:
@@ -60,8 +61,6 @@ last_modified_at: 2019-11-14T11:22:33-23:00
 
 **David Chaum:**        Well, you're taking me, taking me back, but, this was Berkeley. It was a very exciting progressive place and my office mates and colleagues, there were people that, created a lot of famous stuff in the computer science field. I was working in that kind of department, and then [Bill Joy](https://engineering.berkeley.edu/about/berkeley-engineering150/bill-joy-co-founder-sun-microsystems) and [Eric Schmidt](https://en.wikipedia.org/wiki/Eric_Schmidt) and all these people were, people I talk to all the time there and everything. [Dave Patterson with the Risc Architecture](https://engineering.berkeley.edu/about/berkeley-engineering150/david-patterson-winning-risc) and a lot of, key things were happening then as well as in cryptography. Those were really exciting times for all the real basic, research. And, so we had all kinds of people coming through, constantly visiting, talking about there are research and in cryptography and so forth. So it was,  but there was also a kind of,  backdrop of most of the graduate students or being recruited to work for the kind of military industrial complex. But there were a lot of posters up saying, don't do this. So there were a lot of ethical issues in the air. I mean, this was Berkeley, 77 to '80-'82. It was a, quite a mix of interesting things going on.   
 
-### Divide between cryptographers working for the government, those who didn't, and where Chaum fit.
-
 **Sebastien:**        So there were, there were some people that were going to work for kind of the government or it may be in industry. And then there are others that were kind of opposed to that. What were they doing? Were most mostly are working on research or did they have their own ideas about what they wanted to build? I guess you, you fell in that second credit category?  
 
 **David Chaum:**        Yes. Well, I believe that my work was, as far as I know, probably unique in taking advantage of the opportunity to do unconstrained research in order to find a way to use the technology to really advance dramatically the, the causes of public interest.  
@@ -94,13 +93,13 @@ You could say that, but what I'm trying to point out is that the technique was a
 
 **David Chaum:**        yeah, I mean I should maybe say it that way. I think maybe differently put differently. What's really interesting to observe is that there, there has been a kind of inflection point that occurred in the last decade or so where we had enough computing power. It was cheap enough. And the connectivity, everything was there that we could have these unpermitted fund chains and use proof of work, say to control a consensus and that just wasn't technically feasible prior to that. And so in my mind, a whole new idea it was that we really had to wait. There was enough computing power out there and everything to do this and that's the thing that made the world different, In my opinion. 
 
-### Relationship with the Cypherpunks
+### Relationship with Cypherpunks
 
 **Sebastien:**        I want to come back maybe to some, some earlier times when you were at Berkeley and you were working on these things and people were getting arrested for printing the RSA algorithm and trying to get it across the border. And that's where you were, you were, you gravitating around those people, did you know [Mark Miller](https://sourcecrypto.pub/posts/agoric/mark-miller-agoric-epicenter/), what he was up to and all the other cyber cypherpunks?
 
 **David Chaum:**        yes, of course. And in some sense I think the way that it's told is that I was the inspiration behind the whole cypherpunk thing, however, I wasn't really 100% on board with let's say, the tactics that were kind of enlivening the movement. Right. And so, I wasn't a big fan of automatic weapons and explosives and all this other stuff. I was more like, maybe we could just get the powers... trick the powers that be into using stuff that would protect our privacy and we'd be a lot better off because going to war against them didn't make a lot of sense to me. It is a real lot of fun to be in a movement thinking that you could actually do stuff that. But, I didn't think that was, that realistic. It didn't prove to be that realistic. So I was really trying to affect the change and not just have fun doing so. So that's different.  
 
-### On Permissionless Systems Guard Against Government Circumvention
+### On Permissionless Systems Guarding Against Government Circumvention
 
 **Sebastien:**        Do you have similar views about the way you know people in the blockchain space now? And so you were recently at [Web3 summit](https://www.youtube.com/watch?v=Ig-fGao8lMg), all these young people now that are building these privacy technologies and trying to, I guess in some way, fight the system. Do you feel similarly about their approach to trying to build permissionless technologies that can't be circumvented by governments, et cetera?  
 
