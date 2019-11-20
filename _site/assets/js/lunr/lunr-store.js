@@ -653,7 +653,7 @@ var store = [{
         "excerpt":"Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space. Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus a lot more on acquiring practical experience, aiming towards a sovereign work-flow. While there are already a number of excellent infomative...","categories": ["Bitcoin"],
         "tags": ["Practical"],
         "url": "http://localhost:4000/posts/Bitcoin/practical/",
-        "teaser":"http://localhost:4000/images/runing-bitcoin.png"},{
+        "teaser":"http://localhost:4000/images/running-bitcoin.png"},{
         "title": "David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement",
         "excerpt":"Epicenter Podcast #304 Under Creative Commons license by Epicenter Media ltd We’re pleased to be joined by the legendary cryptographer and computer scientist, David Chaum. From his early beginnings at Berkley, David pioneered many of the cryptographic techniques used in secure systems and cryptocurrencies today. Blind signatures, which are used...","categories": ["History","Transcripts"],
         "tags": ["Cypherpunks","Pre-History","Chaum"],

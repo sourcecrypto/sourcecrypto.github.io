@@ -27,8 +27,6 @@ canonical_url: "https://sourcecrypto.pub/posts/recap/"
 frmsub: TRUE
 ---
 
-## Recap
-
 Back in the Summer of 2018, I had a kind of foolish idea. I decided that I should try and organize all the types of information surrounding Bitcoin, Blockchain and Cryptocurrency, and began doing so in the channels of a discord server, SourceCrypto.
 
 Since then, I've created a number of servers, realizing that it was easier to simply split off, and create a new one, once I wanted to get serious about another large subject.
@@ -81,7 +79,7 @@ On the rare occasion I do send out an e-mail, you'll always have the option to u
 {: .notice--danger}
 
 <div class="kwes-form">
-    <form method="POST" action="https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU" success-message="Thank You!" error-message="Oops! Your form has errors."  mode="test">
+    <form method="POST" action="https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU" success-message="Thank You!" error-message="Oops! Your form has errors.">
         <label for="nym"> Nym:</label>
         <input type="text" name="nym" rules="max:255">
         <label for="addy"> Email:</label>
