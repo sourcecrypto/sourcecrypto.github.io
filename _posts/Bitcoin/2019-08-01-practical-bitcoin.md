@@ -9,7 +9,7 @@ header:
   image: "/images/running-bitcoin-header.png"
   og_image: "/images/running-bitcoin.png"
   teaser:  "/images/running-bitcoin.png"
-  caption: "https://twitter.com/halfin/status/1110302988"
+  caption: "[halfin@twitter 'Running Bitcoin'](https://twitter.com/halfin/status/1110302988)"
 categories: ["Bitcoin"]
 tags: ["Practical"]
 last_modified_at: 2019-11-04T11:22:33-23:00
