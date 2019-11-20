@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-15T00:39:38-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SourceCrypto</title><subtitle>Chat Server and Web Portal for a Public Domain - Crypto Research Collaborative.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement</title><link href="http://localhost:4000/posts/Bitcoin/pre-history/chaum-forfather-cypherpunk-cryptocurrency/" rel="alternate" type="text/html" title="David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement" /><published>2019-11-13T00:00:00-05:00</published><updated>2019-11-15T05:22:33-05:00</updated><id>http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cryptocurrencies-cypherpunk-movement</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/pre-history/chaum-forfather-cypherpunk-cryptocurrency/">&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://epicenter.tv/episode/304/&quot;&gt;Epicenter Podcast #304&lt;/a&gt;&lt;/strong&gt; &lt;em&gt;Under &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;Creative Commons&lt;/a&gt; license by Epicenter Media ltd&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-19T21:53:54-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SourceCrypto</title><subtitle>Chat Server and Web Portal for a Public Domain - Crypto Research Collaborative.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement</title><link href="http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cypherpunk-cryptocurrency/" rel="alternate" type="text/html" title="David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement" /><published>2019-11-13T00:00:00-05:00</published><updated>2019-11-15T05:22:33-05:00</updated><id>http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cryptocurrencies-cypherpunk-movement</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cypherpunk-cryptocurrency/">&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://epicenter.tv/episode/304/&quot;&gt;Epicenter Podcast #304&lt;/a&gt;&lt;/strong&gt; &lt;em&gt;Under &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;Creative Commons&lt;/a&gt; license by Epicenter Media ltd&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;We’re pleased to be joined by the legendary cryptographer and computer scientist, David Chaum. From his early beginnings at Berkley, David pioneered many of the cryptographic techniques used in secure systems and cryptocurrencies today. Blind signatures, which are used in zero-knowledge proofs, and mix networks, used in Tor heavily rely on his work. At the dawn of the Internet, David founded DigiCash, what many believe to be a direct ancestor of Bitcoin. Today, David continues to pursue his mission to bring data privacy to all as his most recent project, Elixxir, aims to create a truly private messaging and payment app with a mass-market appeal.&lt;/p&gt;
@@ -57,8 +57,6 @@
 
 &lt;p&gt;&lt;strong&gt;David Chaum:&lt;/strong&gt;        Well, you’re taking me, taking me back, but, this was Berkeley. It was a very exciting progressive place and my office mates and colleagues, there were people that, created a lot of famous stuff in the computer science field. I was working in that kind of department, and then &lt;a href=&quot;https://engineering.berkeley.edu/about/berkeley-engineering150/bill-joy-co-founder-sun-microsystems&quot;&gt;Bill Joy&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Eric_Schmidt&quot;&gt;Eric Schmidt&lt;/a&gt; and all these people were, people I talk to all the time there and everything. &lt;a href=&quot;https://engineering.berkeley.edu/about/berkeley-engineering150/david-patterson-winning-risc&quot;&gt;Dave Patterson with the Risc Architecture&lt;/a&gt; and a lot of, key things were happening then as well as in cryptography. Those were really exciting times for all the real basic, research. And, so we had all kinds of people coming through, constantly visiting, talking about there are research and in cryptography and so forth. So it was,  but there was also a kind of,  backdrop of most of the graduate students or being recruited to work for the kind of military industrial complex. But there were a lot of posters up saying, don’t do this. So there were a lot of ethical issues in the air. I mean, this was Berkeley, 77 to ‘80-‘82. It was a, quite a mix of interesting things going on.&lt;/p&gt;
 
-&lt;h3 id=&quot;divide-between-cryptographers-working-for-the-government-those-who-didnt-and-where-chaum-fit&quot;&gt;Divide between cryptographers working for the government, those who didn’t, and where Chaum fit.&lt;/h3&gt;
-
 &lt;p&gt;&lt;strong&gt;Sebastien:&lt;/strong&gt;        So there were, there were some people that were going to work for kind of the government or it may be in industry. And then there are others that were kind of opposed to that. What were they doing? Were most mostly are working on research or did they have their own ideas about what they wanted to build? I guess you, you fell in that second credit category?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;David Chaum:&lt;/strong&gt;        Yes. Well, I believe that my work was, as far as I know, probably unique in taking advantage of the opportunity to do unconstrained research in order to find a way to use the technology to really advance dramatically the, the causes of public interest.&lt;/p&gt;
@@ -91,13 +89,13 @@ You could say that, but what I’m trying to point out is that the technique was
 
 &lt;p&gt;&lt;strong&gt;David Chaum:&lt;/strong&gt;        yeah, I mean I should maybe say it that way. I think maybe differently put differently. What’s really interesting to observe is that there, there has been a kind of inflection point that occurred in the last decade or so where we had enough computing power. It was cheap enough. And the connectivity, everything was there that we could have these unpermitted fund chains and use proof of work, say to control a consensus and that just wasn’t technically feasible prior to that. And so in my mind, a whole new idea it was that we really had to wait. There was enough computing power out there and everything to do this and that’s the thing that made the world different, In my opinion.&lt;/p&gt;
 
-&lt;h3 id=&quot;relationship-with-the-cypherpunks&quot;&gt;Relationship with the Cypherpunks&lt;/h3&gt;
+&lt;h3 id=&quot;relationship-with-cypherpunks&quot;&gt;Relationship with Cypherpunks&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Sebastien:&lt;/strong&gt;        I want to come back maybe to some, some earlier times when you were at Berkeley and you were working on these things and people were getting arrested for printing the RSA algorithm and trying to get it across the border. And that’s where you were, you were, you gravitating around those people, did you know &lt;a href=&quot;https://sourcecrypto.pub/posts/agoric/mark-miller-agoric-epicenter/&quot;&gt;Mark Miller&lt;/a&gt;, what he was up to and all the other cyber cypherpunks?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;David Chaum:&lt;/strong&gt;        yes, of course. And in some sense I think the way that it’s told is that I was the inspiration behind the whole cypherpunk thing, however, I wasn’t really 100% on board with let’s say, the tactics that were kind of enlivening the movement. Right. And so, I wasn’t a big fan of automatic weapons and explosives and all this other stuff. I was more like, maybe we could just get the powers… trick the powers that be into using stuff that would protect our privacy and we’d be a lot better off because going to war against them didn’t make a lot of sense to me. It is a real lot of fun to be in a movement thinking that you could actually do stuff that. But, I didn’t think that was, that realistic. It didn’t prove to be that realistic. So I was really trying to affect the change and not just have fun doing so. So that’s different.&lt;/p&gt;
 
-&lt;h3 id=&quot;on-permissionless-systems-guard-against-government-circumvention&quot;&gt;On Permissionless Systems Guard Against Government Circumvention&lt;/h3&gt;
+&lt;h3 id=&quot;on-permissionless-systems-guarding-against-government-circumvention&quot;&gt;On Permissionless Systems Guarding Against Government Circumvention&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Sebastien:&lt;/strong&gt;        Do you have similar views about the way you know people in the blockchain space now? And so you were recently at &lt;a href=&quot;https://www.youtube.com/watch?v=Ig-fGao8lMg&quot;&gt;Web3 summit&lt;/a&gt;, all these young people now that are building these privacy technologies and trying to, I guess in some way, fight the system. Do you feel similarly about their approach to trying to build permissionless technologies that can’t be circumvented by governments, et cetera?&lt;/p&gt;
 
@@ -254,7 +252,7 @@ hat are the possibilities that you anticipate?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;David Chaum:&lt;/strong&gt;        Great. Yeah. Well this was really a blast and interesting and I appreciate, your good question is interesting year and your thoughts and, and I look forward to continuing the conversation. Thank you very much.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Sebastien:&lt;/strong&gt;        Thanks so much David. It’s been a real pleasure.&lt;/p&gt;</content><author><name>⧉ Infominer</name></author><category term="Pre-History" /><category term="Chaum" /><summary type="html">Epicenter Podcast #304 Under Creative Commons license by Epicenter Media ltd</summary></entry><entry><title type="html">Practical Bitcoin: Tools, Apps and Guides</title><link href="http://localhost:4000/posts/Bitcoin/practical/" rel="alternate" type="text/html" title="Practical Bitcoin: Tools, Apps and Guides" /><published>2019-08-01T00:00:00-04:00</published><updated>2019-11-05T05:22:33-05:00</updated><id>http://localhost:4000/posts/Bitcoin/practical-bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/practical/">&lt;p&gt;Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space.  Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus &lt;em&gt;a lot&lt;/em&gt; more on acquiring practical experience, aiming towards a sovereign work-flow.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sebastien:&lt;/strong&gt;        Thanks so much David. It’s been a real pleasure.&lt;/p&gt;</content><author><name>⧉ Infominer</name></author><category term="Cypherpunks" /><category term="Pre-History" /><category term="Chaum" /><summary type="html">Epicenter Podcast #304 Under Creative Commons license by Epicenter Media ltd</summary></entry><entry><title type="html">Practical Bitcoin: Tools, Apps and Guides</title><link href="http://localhost:4000/posts/Bitcoin/practical/" rel="alternate" type="text/html" title="Practical Bitcoin: Tools, Apps and Guides" /><published>2019-08-01T00:00:00-04:00</published><updated>2019-11-05T05:22:33-05:00</updated><id>http://localhost:4000/posts/Bitcoin/practical-bitcoin</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/practical/">&lt;p&gt;Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space.  Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus &lt;em&gt;a lot&lt;/em&gt; more on acquiring practical experience, aiming towards a sovereign work-flow.&lt;/p&gt;
 
 &lt;p&gt;While there are already a number of excellent infomative lists, resources pages, and other collections, I haven’t noticed any that focused specifically on &lt;em&gt;using&lt;/em&gt; Bitcoin.&lt;/p&gt;
 
@@ -264,11 +262,11 @@ hat are the possibilities that you anticipate?&lt;/p&gt;
 
 &lt;h2 id=&quot;you-must-do-your-own-research&quot;&gt;You MUST Do Your Own Research&lt;/h2&gt;
 
-&lt;p&gt;This is intended to be a starting point for anyone who is interested in using Bitcoin code \ hardware. These guides and tutorials are a great jumping off point, from which you can explore a variety of technologies you may not even have known were available.&lt;/p&gt;
+&lt;p&gt;These guides and tutorials are a great jumping off point, from which you can explore a variety of technologies you may not even have known were available.&lt;/p&gt;
 
 &lt;p&gt;Please. Do your own research.&lt;/p&gt;
 
-&lt;p&gt;There may be newer materials or advisaries for any of these projects. Be sure to check for recent information to be sure it’s something you really want to use.&lt;/p&gt;
+&lt;p&gt;There may be newer materials or advisaries for any of these products\services. &lt;strong&gt;Be sure to check for recent information!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/wFhzOQx.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -296,6 +294,8 @@ hat are the possibilities that you anticipate?&lt;/p&gt;
 &lt;h3 id=&quot;-explorers&quot;&gt;🗃 Explorers&lt;/h3&gt;
 
 &lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blockstream.info&quot;&gt;blockstream.info&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://blockchain.com/&quot;&gt;blockchain.com/&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -512,7 +512,8 @@ hat are the possibilities that you anticipate?&lt;/p&gt;
 
 &lt;h2 id=&quot;-wallets&quot;&gt;⧉ Wallets&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://btcinformation.org/en/choose-your-wallet&quot;&gt;Choose your wallet here&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
 &lt;blockquote&gt;
   &lt;ul&gt;
     &lt;li&gt;Do not use wallets that don’t give you recovery data; these wallets are likely controlling your keys.&lt;/li&gt;
@@ -522,6 +523,10 @@ hat are the possibilities that you anticipate?&lt;/p&gt;
 Note that it is NOT recommended that novices use the Bitcoin Core wallet. If you want to use a wallet backed by a fully validating node you run, read &lt;a href=&quot;https://blog.lopp.net/securing-your-financial-sovereignty/&quot;&gt;Securing Your Financial Sovereignty&lt;/a&gt;.&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bitcoin.org/en/choose-your-wallet?step=5&quot;&gt;Choose your wallet here - bitcoin.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://btcinformation.org/en/choose-your-wallet&quot;&gt;Choose your wallet here - btcinformation&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://bitcoin-only.com/#wallets&quot;&gt;bitcoin-only.com - Wallets&lt;/a&gt;&lt;/p&gt;
 
@@ -544,8 +549,6 @@ Note that it is NOT recommended that novices use the Bitcoin Core wallet. If you
 &lt;p&gt;&lt;a href=&quot;https://www.bitcoinarmory.com/&quot;&gt;Armory&lt;/a&gt; Cold Storage &amp;amp; Multisig Desktop&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://abco.re/en/releases/&quot;&gt;ABCore&lt;/a&gt; Bitcoin Core Full Node for Android Android&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://bitcoin-only.com/&quot;&gt;Bitcoin Only&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://samouraiwallet.com/&quot;&gt;Samourai Wallet&lt;/a&gt;)&lt;/p&gt;
 
