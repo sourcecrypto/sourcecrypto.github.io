@@ -8,6 +8,8 @@ classes: wide
 published: true
 header:
   image: "/images/bitcoin-history/david-chaum-cypherpunk-cryptocurrency.png"
+  teaser: "/images/bitcoin-history/david-chaum-cypherpunk-cryptocurrency.png"
+  og_image: "/images/bitcoin-history/david-chaum-cypherpunk-cryptocurrency.png"
   caption: "[David Chaum - The Forefather of Cryptocurrencies - Epicenter #304](https://epicenter.tv/episode/304/)"
 categories: ["History", "Transcripts"]
 tags: ["Cypherpunks", "Pre-History", "Chaum"]

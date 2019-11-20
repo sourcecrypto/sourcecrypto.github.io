@@ -6,8 +6,10 @@ excerpt: Links to code, howtos, and other resources related to practical use of 
 permalink: posts/Bitcoin/practical/
 published: true
 header:
-  image: "http://bitcoins.idealogue.io/assets/img/illustrations/getting_started_hero.png"
-  caption: "http://bitcoins.idealogue.io/getting-started.html"
+  image: "/images/runing-bitcoin-header.png"
+  og_image: "/images/runing-bitcoin.png"
+  teaser:  "/images/runing-bitcoin.png"
+  caption: "https://twitter.com/halfin/status/1110302988"
 categories: ["Bitcoin"]
 tags: ["Practical"]
 last_modified_at: 2019-11-04T11:22:33-23:00
