@@ -6,9 +6,9 @@ excerpt: Links to code, howtos, and other resources related to practical use of 
 permalink: posts/Bitcoin/practical/
 published: true
 header:
-  image: "/images/runing-bitcoin-header.png"
-  og_image: "/images/runing-bitcoin.png"
-  teaser:  "/images/runing-bitcoin.png"
+  image: "/images/running-bitcoin-header.png"
+  og_image: "/images/running-bitcoin.png"
+  teaser:  "/images/running-bitcoin.png"
   caption: "https://twitter.com/halfin/status/1110302988"
 categories: ["Bitcoin"]
 tags: ["Practical"]
