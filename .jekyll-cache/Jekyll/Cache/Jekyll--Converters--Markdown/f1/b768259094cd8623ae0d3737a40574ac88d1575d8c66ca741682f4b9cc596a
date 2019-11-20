@@ -1,932 +1,4 @@
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="utf-8">
-
-<!-- Favicons -->
-
-<link rel="apple-touch-icon" sizes="180x180" href="https://SourceCrypto.pub/assets/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://SourceCrypto.pub/assets/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://SourceCrypto.pub/assets/icons/favicon-16x16.png">
-<link rel="manifest" href="https://SourceCrypto.pub/assets/icons/site.webmanifest">
-<link rel="mask-icon" href="https://SourceCrypto.pub/assets/icons/safari-pinned-tab.svg" color="#79dfce">
-<link rel="shortcut icon" href="https://SourceCrypto.pub/assets/icons/favicon.ico">
-<meta name="msapplication-TileColor" content="#79dfce">
-<meta name="msapplication-config" content="https://SourceCrypto.pub/assets/icons/browserconfig.xml">
-<meta name="theme-color" content="#79dfce">
-
-<!-- begin _includes/seo.html --><title>Sitemap | SourceCrypto</title>
-<meta name="description" content="Chat Server and Web Portal for a Public Domain - Crypto Research Collaborative.">
-
-
-
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="SourceCrypto">
-<meta property="og:title" content="Sitemap">
-<meta property="og:url" content="http://localhost:4000/sitemap/">
-
-
-
-
-  <meta property="og:image" content="http://localhost:4000/images/SC-banner-lite.png">
-
-
-
-  <meta name="twitter:site" content="@SourceCrypto">
-  <meta name="twitter:title" content="Sitemap">
-  <meta name="twitter:description" content="Chat Server and Web Portal for a Public Domain - Crypto Research Collaborative.">
-  <meta name="twitter:url" content="http://localhost:4000/sitemap/">
-
-  
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="http://localhost:4000/images/SC-banner-lite.png">
-  
-
-  
-
-
-
-
-
-
-
-
-<link rel="canonical" href="http://localhost:4000/sitemap/">
-
-
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "url": "http://localhost:4000",
-      "logo": "https://SourceCrypto.pub/images/Source-Crypto-og.png"
-    }
-  </script>
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Infominer",
-      "url": "http://localhost:4000",
-      "sameAs": null
-    }
-  </script>
-
-
-
-
-
-
-
-<!-- end _includes/seo.html -->
-
-
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="SourceCrypto Feed">
-
-<!-- https://t.co/dKP3o1e -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
-
-<!--[if IE ]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
-
-
-
-    
-  </head>
-
-  <body class="layout--archive">
-    <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
-  <ul>
-    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
-  </ul>
-</nav>
-
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-
-    
-
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        
-          <a class="site-logo" href="/"><img src="https://sourcecrypto.pub/images/interlinked.png" alt=""></a>
-        
-        <a class="site-title" href="/">SourceCrypto Curative</a>
-        <ul class="visible-links">
-<li class="masthead__menu-item">
-              <a href="/posts/">Recent Posts</a>
-            </li>
-<li class="masthead__menu-item">
-              <a href="/tags/">Tags</a>
-            </li>
-<li class="masthead__menu-item">
-              <a href="/archive/">Archive</a>
-            </li>
-<li class="masthead__menu-item">
-              <a href="/about/">About</a>
-            </li>
-<li class="masthead__menu-item">
-              <a href="/subscribe/">Subscribe</a>
-            </li>
-<li class="masthead__menu-item">
-              <a href="https://infominer.id">Infominer.id</a>
-            </li>
-</ul>
-        
-        <button class="search__toggle" type="button">
-          <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
-        </button>
-        
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
-</div>
-
-
-    <div class="initial-content">
-      
-  
-
-
-
-
-
-
-
-
-
-
-
-<div class="page__hero" style=" ">
-  
-    <img src="/images/SC-banner-lite.png" alt="Sitemap" class="page__hero-image">
-  
-  
-</div>
-
-
-
-
-
-<div id="main" role="main">
-  
-  <div class="sidebar sticky">
-  
-  
-    
-      
-      
-      
-      
-    
-    
-      
-
-<nav class="nav__list">
-  
-  <input id="ac-toc" name="accordion-toc" type="checkbox">
-  <label for="ac-toc">Toggle menu</label>
-  <ul class="nav__items">
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/resources/"><span class="nav__sub-title">Resources</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/resources/" class="">• Resources</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/news-sites/" class="">• News Outlets</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/assorted-media/" class="">• Assorted Media</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/books/" class="">• Books</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/literature/" class="">• Literature</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/research-papers/" class="">• Research Papers</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/communities/" class="">• Communities</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/non-english/" class="">• Non-English</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/privacy/" class="">• Privacy</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/swag/" class="">• Swag</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/resources/twitter-follows/" class="">• Twitter Follows</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/"><span class="nav__sub-title">Curated Archives:</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/info/" class="">INFO</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/interop/" class="">INTEROP</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/ethereum/" class="">ETHEREUM</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/entertainment/" class="">ENTERTAINMENT</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/banking/" class="">BANKING</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/application/" class="">APPLICATION</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/chaintech/"><span class="nav__sub-title">ChainTech</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/blockchain-dev/" class="">• Development</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/dao/" class="">• Dao</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/decentralization/" class="">• Decentralization</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/forks/" class="">• Forks</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/drivechains/" class="">• Drivechains</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/mining-news/" class="">• <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"> Mining News <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"></a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/mining-repository/" class="">• <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"> Mining Repository <img class="emoji" title=":pick:" alt=":pick:" src="https://github.githubassets.com/images/icons/emoji/unicode/26cf.png" height="20" width="20"></a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/randomness/" class="">• Randomness</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/oracles/" class="">• Oracles</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/protocols/" class="">• Protocols</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/sidechains/" class="">• Sidechains</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/smart-contracts/" class="">• Smart Contracts</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/smart-signatures/" class="">• Smart Signatures</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/chaintech/state-channels/" class="">• State Channels</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/layer1/"><span class="nav__sub-title">Consensus</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/layer1/consensus/" class="">• Consensus</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/layer1/hash-algos/" class="">• Hash Algos</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/layer1/pow/" class="">• PoW</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/layer1/pos/" class="">• PoS</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/layer1/tendermint/" class="">• Tendermint</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/tech/"><span class="nav__sub-title">Tech</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/cryptography/" class="">• Cryptography</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/data/" class="">• Data</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/databases/" class="">• Databases</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/design/" class="">• Design</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/distributed-systems/" class="">• Distributed Systems</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/infosec/" class="">• Infosec</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/internet-protocols/" class="">• Internet Protocols</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/P2P/" class="">• P2P</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/public-key-crypto/" class="">• Public key crypto</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/security/" class="">• Security</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/state-channels/" class="">• State Channels</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/tech-in-media/" class="">• Tech in Media</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/tor/" class="">• Tor</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/tech/web3/" class="">• Web3</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="/archive/blockchain/"><span class="nav__sub-title">Blockchain</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/crypto-general/" class="">• Gen Crypto</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/decentralized/" class="">• Decentralized</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/agoric/" class="">• Agoric</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/bitcoin/" class="">• Bitcoin</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/bch/" class="">• B-Cash</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/cardano/" class="">• Cardano</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/doge/" class="">• DOGE</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/eos/" class="">• EOS</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/etc/" class="">• Eth Classic</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/grin-mimblewimble/" class="">• Grin Mimble-Wimble</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/libra/" class="">• Libra</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/monero/" class="">• Monero</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/stable-coins/" class="">• Stable Coins</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/tezos/" class="">• Tezos</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/archive/blockchain/zcash/" class="">• ZCash</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          
-          
-
-          <a href="https://infominer.id/"><span class="nav__sub-title">Info⧉Hub</span></a>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://learncryptotrading.co" class="">• Learn Crypto Trading</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://web-work.tools" class="">• Webwork Tools</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://web-work.tools/indieweb" class="">• IndieWeb</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://decentralized-id.com" class="">• Decentralized-id.com</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://sourcecrypto.pub/decentralized-web/" class="">• Decentralized Web Histories</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://web-work.tools/github-pages-starter-pack/" class="">• Github Pages Starter Pack</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="https://didecentral.com/contributors-guide/discord-archive-howto/" class="">• Publishing Discord Server Archives via Minimal Mistakes</a></li>
-          
-        </ul>
-        
-      </li>
-    
-  </ul>
-</nav>
-    
-  
-  </div>
-
-
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title">Sitemap</h1>
-    
-    <p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
+I"��<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
 
 <h2>Pages</h2>
 
@@ -3027,8 +2099,8 @@
         
     
     
-        Source⧉Crypto
-        🖼ai
+        Source&#10697;Crypto
+        &#128444;ai
         
             
 
@@ -3051,8 +2123,8 @@
         
     
     
-        Source⧉Crypto
-        🖼brave
+        Source&#10697;Crypto
+        &#128444;brave
         
             
 
@@ -3075,8 +2147,8 @@
         
     
     
-        Source⧉Crypto
-        🖼dapps
+        Source&#10697;Crypto
+        &#128444;dapps
         
             
 
@@ -3099,8 +2171,8 @@
         
     
     
-        Source⧉Crypto
-        🖼energy
+        Source&#10697;Crypto
+        &#128444;energy
         
             
 
@@ -3123,8 +2195,8 @@
         
     
     
-        Source⧉Crypto
-        🖼government
+        Source&#10697;Crypto
+        &#128444;government
         
             
 
@@ -3147,8 +2219,8 @@
         
     
     
-        Source⧉Crypto
-        🖼intellectual-propery
+        Source&#10697;Crypto
+        &#128444;intellectual-propery
         
             
 
@@ -3171,8 +2243,8 @@
         
     
     
-        Source⧉Crypto
-        🖼iot
+        Source&#10697;Crypto
+        &#128444;iot
         
             
 
@@ -3195,8 +2267,8 @@
         
     
     
-        Source⧉Crypto
-        🖼notary
+        Source&#10697;Crypto
+        &#128444;notary
         
             
 
@@ -3219,8 +2291,8 @@
         
     
     
-        Source⧉Crypto
-        🖼prediction-markets
+        Source&#10697;Crypto
+        &#128444;prediction-markets
         
             
 
@@ -3243,8 +2315,8 @@
         
     
     
-        Source⧉Crypto
-        🖼publishing
+        Source&#10697;Crypto
+        &#128444;publishing
         
             
 
@@ -3267,8 +2339,8 @@
         
     
     
-        Source⧉Crypto
-        🖼social-media
+        Source&#10697;Crypto
+        &#128444;social-media
         
             
 
@@ -3291,8 +2363,8 @@
         
     
     
-        Source⧉Crypto
-        🖼supplychain
+        Source&#10697;Crypto
+        &#128444;supplychain
         
             
 
@@ -3315,8 +2387,8 @@
         
     
     
-        Source⧉Crypto
-        🖼utility
+        Source&#10697;Crypto
+        &#128444;utility
         
             
 
@@ -3341,8 +2413,8 @@
         
     
     
-        Source⧉Crypto
-        🧮agoric
+        Source&#10697;Crypto
+        &#129518;agoric
         
             
 
@@ -3365,8 +2437,8 @@
         
     
     
-        Source⧉Crypto
-        🏦corda
+        Source&#10697;Crypto
+        &#127974;corda
         
             see also #corda-dev
 
@@ -3389,8 +2461,8 @@
         
     
     
-        Source⧉Crypto
-        🏦ripple
+        Source&#10697;Crypto
+        &#127974;ripple
         
             
 
@@ -3413,8 +2485,8 @@
         
     
     
-        Source⧉Crypto
-        🏦stellar
+        Source&#10697;Crypto
+        &#127974;stellar
         
             
 
@@ -3437,8 +2509,8 @@
         
     
     
-        Source⧉Crypto
-        🧮bch
+        Source&#10697;Crypto
+        &#129518;bch
         
             
 
@@ -3461,7 +2533,7 @@
         
     
     
-        Source⧉Crypto
+        Source&#10697;Crypto
         bitcoin
         
             
@@ -3485,7 +2557,7 @@
         
     
     
-        Source⧉Crypto
+        Source&#10697;Crypto
         bitshares
         
 
@@ -3508,8 +2580,8 @@
         
     
     
-        Source⧉Crypto
-        🧮blockstack
+        Source&#10697;Crypto
+        &#129518;blockstack
         
             
 
@@ -3532,8 +2604,8 @@
         
     
     
-        Source⧉Crypto
-        🧮bytom
+        Source&#10697;Crypto
+        &#129518;bytom
         
             
 
@@ -3556,8 +2628,8 @@
         
     
     
-        Source⧉Crypto
-        🧮cardano
+        Source&#10697;Crypto
+        &#129518;cardano
         
             
 
@@ -3580,8 +2652,8 @@
         
     
     
-        Source⧉Crypto
-        🧮crypto-general
+        Source&#10697;Crypto
+        &#129518;crypto-general
         
             
 
@@ -3604,10 +2676,10 @@
         
     
     
-        Source⧉Crypto
-        🧮decentralized
+        Source&#10697;Crypto
+        &#129518;decentralized
         
-            name any "truely decentralized" cryptocur...</p>
+            name any &quot;truely decentralized&quot; cryptocur...</p>
   </article>
 </div>
 
@@ -3626,8 +2698,8 @@
         
     
     
-        Source⧉Crypto
-        🧮doge
+        Source&#10697;Crypto
+        &#129518;doge
         
             
 
@@ -3650,10 +2722,10 @@
         
     
     
-        Source⧉Crypto
-        🧮enterprise-dlt
+        Source&#10697;Crypto
+        &#129518;enterprise-dlt
         
-            centralized Private Ledger's and other 'ma...</p>
+            centralized Private Ledger&#39;s and other &#39;ma...</p>
   </article>
 </div>
 
@@ -3672,8 +2744,8 @@
         
     
     
-        Source⧉Crypto
-        🧮eos
+        Source&#10697;Crypto
+        &#129518;eos
         
             
 
@@ -3696,8 +2768,8 @@
         
     
     
-        Source⧉Crypto
-        🧮etc
+        Source&#10697;Crypto
+        &#129518;etc
         
             
 
@@ -3720,8 +2792,8 @@
         
     
     
-        Source⧉Crypto
-        🦄eth-consensus
+        Source&#10697;Crypto
+        &#129412;eth-consensus
         
             
 
@@ -3744,8 +2816,8 @@
         
     
     
-        Source⧉Crypto
-        🦄eea-ent-eth-alliance
+        Source&#10697;Crypto
+        &#129412;eea-ent-eth-alliance
         
             Ethereum Enterprise
 
@@ -3768,8 +2840,8 @@
         
     
     
-        Source⧉Crypto
-        🦄eth-layer2
+        Source&#10697;Crypto
+        &#129412;eth-layer2
         
             dApps n-shit
 
@@ -3792,8 +2864,8 @@
         
     
     
-        Source⧉Crypto
-        🦄eth2-0
+        Source&#10697;Crypto
+        &#129412;eth2-0
         
             
 
@@ -3816,8 +2888,8 @@
         
     
     
-        Source⧉Crypto
-        🦄ethereum-dev
+        Source&#10697;Crypto
+        &#129412;ethereum-dev
         
             
 
@@ -3840,8 +2912,8 @@
         
     
     
-        Source⧉Crypto
-        🦄ethereum
+        Source&#10697;Crypto
+        &#129412;ethereum
         
             See Also: #ethereum-dev
 
@@ -3864,8 +2936,8 @@
         
     
     
-        Source⧉Crypto
-        🦄ethresearch
+        Source&#10697;Crypto
+        &#129412;ethresearch
         
             
 
@@ -3888,8 +2960,8 @@
         
     
     
-        Source⧉Crypto
-        🦄evm
+        Source&#10697;Crypto
+        &#129412;evm
         
             
 
@@ -3912,8 +2984,8 @@
         
     
     
-        Source⧉Crypto
-        👁grin-mimblewimble
+        Source&#10697;Crypto
+        &#128065;grin-mimblewimble
         
             
 
@@ -3936,8 +3008,8 @@
         
     
     
-        Source⧉Crypto
-        🧱hashgraph
+        Source&#10697;Crypto
+        &#129521;hashgraph
         
             
 
@@ -3960,8 +3032,8 @@
         
     
     
-        Source⧉Crypto
-        🔀chainlink
+        Source&#10697;Crypto
+        &#128256;chainlink
         
             
 
@@ -3984,8 +3056,8 @@
         
     
     
-        Source⧉Crypto
-        🔀cosmos
+        Source&#10697;Crypto
+        &#128256;cosmos
         
             
 
@@ -4008,8 +3080,8 @@
         
     
     
-        Source⧉Crypto
-        🔀hyperledger-sc
+        Source&#10697;Crypto
+        &#128256;hyperledger-sc
         
             see #hyperledger-dev
 
@@ -4032,8 +3104,8 @@
         
     
     
-        Source⧉Crypto
-        🔀interoperability
+        Source&#10697;Crypto
+        &#128256;interoperability
         
             
 
@@ -4056,8 +3128,8 @@
         
     
     
-        Source⧉Crypto
-        🔀komodo
+        Source&#10697;Crypto
+        &#128256;komodo
         
             see also #komodore64
 
@@ -4080,8 +3152,8 @@
         
     
     
-        Source⧉Crypto
-        🔀ontology-sc
+        Source&#10697;Crypto
+        &#128256;ontology-sc
         
             
 
@@ -4104,8 +3176,8 @@
         
     
     
-        Source⧉Crypto
-        🔀polkadot
+        Source&#10697;Crypto
+        &#128256;polkadot
         
             
 
@@ -4128,8 +3200,8 @@
         
     
     
-        Source⧉Crypto
-        🔀quant-network
+        Source&#10697;Crypto
+        &#128256;quant-network
         
             
 
@@ -4152,8 +3224,8 @@
         
     
     
-        Source⧉Crypto
-        🧮iota
+        Source&#10697;Crypto
+        &#129518;iota
         
             
 
@@ -4176,8 +3248,8 @@
         
     
     
-        Source⧉Crypto
-        🧮libra
+        Source&#10697;Crypto
+        &#129518;libra
         
             
 
@@ -4200,8 +3272,8 @@
         
     
     
-        Source⧉Crypto
-        👁monero
+        Source&#10697;Crypto
+        &#128065;monero
         
             
 
@@ -4224,8 +3296,8 @@
         
     
     
-        Source⧉Crypto
-        🧮stable-coins
+        Source&#10697;Crypto
+        &#129518;stable-coins
         
             
 
@@ -4248,8 +3320,8 @@
         
     
     
-        Source⧉Crypto
-        🧮tezos
+        Source&#10697;Crypto
+        &#129518;tezos
         
             
 
@@ -4272,8 +3344,8 @@
         
     
     
-        Source⧉Crypto
-        👁zcash
+        Source&#10697;Crypto
+        &#128065;zcash
         
             
 
@@ -4298,8 +3370,8 @@
         
     
     
-        Source⧉Crypto
-        💻crypto-development
+        Source&#10697;Crypto
+        &#128187;crypto-development
         
             
 
@@ -4322,8 +3394,8 @@
         
     
     
-        Source⧉Crypto
-        🧱dao
+        Source&#10697;Crypto
+        &#129521;dao
         
             Decentralized Autonomous Organizations
 
@@ -4346,8 +3418,8 @@
         
     
     
-        Source⧉Crypto
-        🧱decentralization
+        Source&#10697;Crypto
+        &#129521;decentralization
         
             
 
@@ -4370,8 +3442,8 @@
         
     
     
-        Source⧉Crypto
-        🧱drivechains
+        Source&#10697;Crypto
+        &#129521;drivechains
         
             
 
@@ -4394,8 +3466,8 @@
         
     
     
-        Source⧉Crypto
-        🧱forks
+        Source&#10697;Crypto
+        &#129521;forks
         
             
 
@@ -4418,8 +3490,8 @@
         
     
     
-        Source⧉Crypto
-        💻hackathons
+        Source&#10697;Crypto
+        &#128187;hackathons
         
             drop hackathon links here
 
@@ -4442,7 +3514,7 @@
         
     
     
-        ⛏Proof of Walken⛏
+        &#9935;Proof of Walken&#9935;
         mining-news
         
 
@@ -4465,7 +3537,7 @@
         
     
     
-        ⛏Proof of Walken⛏
+        &#9935;Proof of Walken&#9935;
         mining-repository
         
 
@@ -4488,8 +3560,8 @@
         
     
     
-        Source⧉Crypto
-        🧱oracles
+        Source&#10697;Crypto
+        &#129521;oracles
         
             
 
@@ -4512,8 +3584,8 @@
         
     
     
-        Source⧉Crypto
-        🧱protocols
+        Source&#10697;Crypto
+        &#129521;protocols
         
             
 
@@ -4536,8 +3608,8 @@
         
     
     
-        Source⧉Crypto
-        🖼randomness
+        Source&#10697;Crypto
+        &#128444;randomness
         
             
 
@@ -4560,8 +3632,8 @@
         
     
     
-        Source⧉Crypto
-        🧱sidechains
+        Source&#10697;Crypto
+        &#129521;sidechains
         
             
 
@@ -4584,8 +3656,8 @@
         
     
     
-        Source⧉Crypto
-        🧱smart-contracts
+        Source&#10697;Crypto
+        &#129521;smart-contracts
         
             see #ethereum-dev
 
@@ -4608,8 +3680,8 @@
         
     
     
-        Source⧉Crypto
-        🧱smart-signatures
+        Source&#10697;Crypto
+        &#129521;smart-signatures
         
             
 
@@ -4632,7 +3704,7 @@
         
     
     
-        Source⧉Crypto
+        Source&#10697;Crypto
         state-channels
         
 
@@ -4657,8 +3729,8 @@
         
     
     
-        Source⧉Crypto
-        🛸art-collectibles
+        Source&#10697;Crypto
+        &#128760;art-collectibles
         
             DIgitally Rare Items including art, baseball car...</p>
   </article>
@@ -4679,8 +3751,8 @@
         
     
     
-        Source⧉Crypto
-        🛸eth-games
+        Source&#10697;Crypto
+        &#128760;eth-games
         
             
 
@@ -4703,8 +3775,8 @@
         
     
     
-        Source⧉Crypto
-        🛸games
+        Source&#10697;Crypto
+        &#128760;games
         
             
 
@@ -4727,8 +3799,8 @@
         
     
     
-        Source⧉Crypto
-        🛸komodore64
+        Source&#10697;Crypto
+        &#128760;komodore64
         
             
 
@@ -4751,8 +3823,8 @@
         
     
     
-        Source⧉Crypto
-        🖼music
+        Source&#10697;Crypto
+        &#128444;music
         
             
 
@@ -4777,8 +3849,8 @@
         
     
     
-        Source⧉Crypto
-        ⧉-bitcoin-history-⧉
+        Source&#10697;Crypto
+        &#10697;-bitcoin-history-&#10697;
         
             
 
@@ -4801,8 +3873,8 @@
         
     
     
-        Source⧉Crypto
-        ⧉-btc-nerds-⧉
+        Source&#10697;Crypto
+        &#10697;-btc-nerds-&#10697;
         
             
 
@@ -4825,8 +3897,8 @@
         
     
     
-        Source⧉Crypto
-        ⧉-crypto-finance-⧉
+        Source&#10697;Crypto
+        &#10697;-crypto-finance-&#10697;
         
             
 
@@ -4849,8 +3921,8 @@
         
     
     
-        Source⧉Crypto
-        ⧉-didecentral-⧉
+        Source&#10697;Crypto
+        &#10697;-didecentral-&#10697;
         
             
 
@@ -4873,8 +3945,8 @@
         
     
     
-        Source⧉Crypto
-        ⧉-lightning-network-⧉
+        Source&#10697;Crypto
+        &#10697;-lightning-network-&#10697;
         
             
 
@@ -4897,8 +3969,8 @@
         
     
     
-        Source⧉Crypto
-        ⧉-practical-bitcoin-⧉
+        Source&#10697;Crypto
+        &#10697;-practical-bitcoin-&#10697;
         
             
 
@@ -4921,7 +3993,7 @@
         
     
     
-        Source⧉Crypto
+        Source&#10697;Crypto
         read-me
         
             
@@ -4945,7 +4017,7 @@
         
     
     
-        Source⧉Crypto
+        Source&#10697;Crypto
         showcase
         
             for SuperSource related creations
@@ -4969,8 +4041,8 @@
         
     
     
-        Source⧉Crypto
-        ⧉-web-work-tools-⧉
+        Source&#10697;Crypto
+        &#10697;-web-work-tools-&#10697;
         
             
 
@@ -4995,8 +4067,8 @@
         
     
     
-        Source⧉Crypto
-        📍101
+        Source&#10697;Crypto
+        &#128205;101
         
             
 
@@ -5019,8 +4091,8 @@
         
     
     
-        Source⧉Crypto
-        📍classification
+        Source&#10697;Crypto
+        &#128205;classification
         
             
 
@@ -5043,8 +4115,8 @@
         
     
     
-        Source⧉Crypto
-        📍criminal
+        Source&#10697;Crypto
+        &#128205;criminal
         
             
 
@@ -5067,8 +4139,8 @@
         
     
     
-        Source⧉Crypto
-        📍governance
+        Source&#10697;Crypto
+        &#128205;governance
         
             
 
@@ -5091,7 +4163,7 @@
         
     
     
-        Source⧉Crypto
+        Source&#10697;Crypto
         growth-adoption
         
             
@@ -5115,8 +4187,8 @@
         
     
     
-        Source⧉Crypto
-        📍hacks
+        Source&#10697;Crypto
+        &#128205;hacks
         
             
 
@@ -5139,7 +4211,7 @@
         
     
     
-        Source⧉Crypto
+        Source&#10697;Crypto
         library-submissions
         
             Drop links here if you think they need to be in the li...</p>
@@ -5161,7 +4233,7 @@
         
     
     
-        Source⧉Crypto
+        Source&#10697;Crypto
         memes-n-junk
         
             
@@ -5185,8 +4257,8 @@
         
     
     
-        Source⧉Crypto
-        📍oppression
+        Source&#10697;Crypto
+        &#128205;oppression
         
             
 
@@ -5209,8 +4281,8 @@
         
     
     
-        Source⧉Crypto
-        📍women-and-crypto
+        Source&#10697;Crypto
+        &#128205;women-and-crypto
         
             awesome women of crypto and related topics
 
@@ -5235,8 +4307,8 @@
         
     
     
-        Source⧉Crypto
-        🏗consensus
+        Source&#10697;Crypto
+        &#127959;consensus
         
             Sybil Resistance Mechanisms, Formerly Known as Consensu...</p>
   </article>
@@ -5257,8 +4329,8 @@
         
     
     
-        Source⧉Crypto
-        🏗hash-algos
+        Source&#10697;Crypto
+        &#127959;hash-algos
         
             
 
@@ -5281,8 +4353,8 @@
         
     
     
-        Source⧉Crypto
-        🏗pos
+        Source&#10697;Crypto
+        &#127959;pos
         
             
 
@@ -5305,8 +4377,8 @@
         
     
     
-        Source⧉Crypto
-        🏗pow
+        Source&#10697;Crypto
+        &#127959;pow
         
             
 
@@ -5329,8 +4401,8 @@
         
     
     
-        Source⧉Crypto
-        🏗scaling-lyr1
+        Source&#10697;Crypto
+        &#127959;scaling-lyr1
         
             
 
@@ -5353,8 +4425,8 @@
         
     
     
-        Source⧉Crypto
-        🏗tendermint
+        Source&#10697;Crypto
+        &#127959;tendermint
         
             
 
@@ -5379,8 +4451,8 @@
         
     
     
-        Source⧉Crypto
-        🗃assorted-media
+        Source&#10697;Crypto
+        &#128451;assorted-media
         
             
 
@@ -5403,8 +4475,8 @@
         
     
     
-        Source⧉Crypto
-        🗃books
+        Source&#10697;Crypto
+        &#128451;books
         
             
 
@@ -5427,8 +4499,8 @@
         
     
     
-        Source⧉Crypto
-        🗃communities
+        Source&#10697;Crypto
+        &#128451;communities
         
             
 
@@ -5451,8 +4523,8 @@
         
     
     
-        Source⧉Crypto
-        🗃conferences
+        Source&#10697;Crypto
+        &#128451;conferences
         
             
 
@@ -5475,8 +4547,8 @@
         
     
     
-        Source⧉Crypto
-        🗃development
+        Source&#10697;Crypto
+        &#128451;development
         
             
 
@@ -5499,8 +4571,8 @@
         
     
     
-        Source⧉Crypto
-        🗃french
+        Source&#10697;Crypto
+        &#128451;french
         
             
 
@@ -5523,8 +4595,8 @@
         
     
     
-        Source⧉Crypto
-        🗃literature
+        Source&#10697;Crypto
+        &#128451;literature
         
             Research papers; often academic.
 
@@ -5547,8 +4619,8 @@
         
     
     
-        Source⧉Crypto
-        🗃news-sites
+        Source&#10697;Crypto
+        &#128451;news-sites
         
             
 
@@ -5571,8 +4643,8 @@
         
     
     
-        Source⧉Crypto
-        🗃non-english
+        Source&#10697;Crypto
+        &#128451;non-english
         
             
 
@@ -5595,8 +4667,8 @@
         
     
     
-        Source⧉Crypto
-        👁privacy
+        Source&#10697;Crypto
+        &#128065;privacy
         
             
 
@@ -5619,7 +4691,7 @@
         
     
     
-        Source⧉Crypto
+        Source&#10697;Crypto
         research-papers
         
             Research papers; often academic.
@@ -5643,8 +4715,8 @@
         
     
     
-        Source⧉Crypto
-        🗃resources
+        Source&#10697;Crypto
+        &#128451;resources
         
             collections of resources
 
@@ -5667,8 +4739,8 @@
         
     
     
-        Source⧉Crypto
-        🗃swag
+        Source&#10697;Crypto
+        &#128451;swag
         
             
 
@@ -5691,8 +4763,8 @@
         
     
     
-        Source⧉Crypto
-        🗃twitter-follows
+        Source&#10697;Crypto
+        &#128451;twitter-follows
         
             
 
@@ -5717,8 +4789,8 @@
         
     
     
-        Source⧉Crypto
-        💻cryptography
+        Source&#10697;Crypto
+        &#128187;cryptography
         
             Lotta overlap between here and #security channel
 
@@ -5741,8 +4813,8 @@
         
     
     
-        Source⧉Crypto
-        💻data
+        Source&#10697;Crypto
+        &#128187;data
         
             
 
@@ -5765,8 +4837,8 @@
         
     
     
-        Source⧉Crypto
-        💻databases
+        Source&#10697;Crypto
+        &#128187;databases
         
             
 
@@ -5789,8 +4861,8 @@
         
     
     
-        Source⧉Crypto
-        💻design
+        Source&#10697;Crypto
+        &#128187;design
         
             
 
@@ -5813,8 +4885,8 @@
         
     
     
-        Source⧉Crypto
-        💻distributed-systems
+        Source&#10697;Crypto
+        &#128187;distributed-systems
         
             see also #consensus
 
@@ -5837,8 +4909,8 @@
         
     
     
-        Source⧉Crypto
-        💻infosec
+        Source&#10697;Crypto
+        &#128187;infosec
         
             
 
@@ -5861,8 +4933,8 @@
         
     
     
-        Source⧉Crypto
-        💻internet-protocols
+        Source&#10697;Crypto
+        &#128187;internet-protocols
         
             
 
@@ -5885,8 +4957,8 @@
         
     
     
-        Source⧉Crypto
-        💻p2p
+        Source&#10697;Crypto
+        &#128187;p2p
         
             
 
@@ -5909,8 +4981,8 @@
         
     
     
-        Source⧉Crypto
-        👁public-key-crypto
+        Source&#10697;Crypto
+        &#128065;public-key-crypto
         
             
 
@@ -5933,8 +5005,8 @@
         
     
     
-        Source⧉Crypto
-        💻security
+        Source&#10697;Crypto
+        &#128187;security
         
             Lotta overlap between here and #cryptography channel
 
@@ -5957,8 +5029,8 @@
         
     
     
-        Source⧉Crypto
-        💻state-channels
+        Source&#10697;Crypto
+        &#128187;state-channels
         
             
 
@@ -5981,8 +5053,8 @@
         
     
     
-        Source⧉Crypto
-        💻tech-in-media
+        Source&#10697;Crypto
+        &#128187;tech-in-media
         
             movies, tv, novels
 
@@ -6005,8 +5077,8 @@
         
     
     
-        Source⧉Crypto
-        💻tor
+        Source&#10697;Crypto
+        &#128187;tor
         
             
 
@@ -6029,8 +5101,8 @@
         
     
     
-        Source⧉Crypto
-        💻web3
+        Source&#10697;Crypto
+        &#128187;web3
         
             
 
@@ -6038,90 +5110,4 @@
   </article>
 </div>
 
-
-  </div>
-</div>
-    </div>
-
-    
-      <div class="search-content">
-        <div class="search-content__inner-wrap">
-<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
-    <div id="results" class="results"></div>
-</div>
-
-      </div>
-    
-
-    <div id="footer" class="page__footer">
-      <footer>
-        <!-- start custom footer snippets -->
-
-<!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-  <ul class="social-icons">
-    
-      <li><strong>Follow:</strong></li>
-    
-
-    
-      
-        
-          <li><a href="https://infominer.id" rel="nofollow noopener noreferrer"><i class="fa fa-fw fa-cube" aria-hidden="true"></i> Info⧉Hub</a></li>
-        
-      
-        
-          <li><a href="mailto:infominer@protonmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
-        
-      
-        
-          <li><a href="https://keybase.io/infominer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-keybase" aria-hidden="true"></i> Keybase</a></li>
-        
-      
-        
-          <li><a href="https://github.com/sourcecrypto" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-        
-      
-        
-          <li><a href="https://twitter.com/sourcecrypto" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-        
-      
-        
-          <li><a href="https://discord.gg/ahTuPMY" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
-        
-      
-        
-          <li><a href="https://t.me/InfoMiner33" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
-        
-      
-    
-
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-  </ul>
-</div>
-
-<div class="page__footer-copyright">⧉ <a href="https://infominer.id">infominer</a> ⧉ <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons (CC0 1.0) Public Domain</a> ⧉ Powered by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a> via <a href="https://infominer.id/gh-pages-starter-pack.html">Github Pages</a>. ⧉</div>
-      </footer>
-    </div>
-
-    
-  <script src="/assets/js/main.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
-
-
-
-
-<script src="/assets/js/lunr/lunr.min.js"></script>
-<script src="/assets/js/lunr/lunr-store.js"></script>
-<script src="/assets/js/lunr/lunr-en.js"></script>
-
-
-
-
-
-
-     <!--Email Form.-->
-
-
-  </body>
-</html>
+:ET
