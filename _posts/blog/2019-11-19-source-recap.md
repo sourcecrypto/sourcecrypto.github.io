@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Reflection: Stepping Back and Moving Forward"
-description: "SourceCrypto- Curated Archives in Motion."
+title: "Reflections: Stepping Back and Moving Forward"
+description: "SourceCrypto -Curated Archives in Motion: 'step back, reflect and optimize the workflow'"
 excerpt: "After a couple years of dedicated curation and learning the landscape, now's a good time to take a step back, reflect and optimize the workflow."
 
 header:
