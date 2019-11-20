@@ -26,7 +26,7 @@ repository               : "sourcecrypto/sourcecrypto.github.io"
 github                   : [metadata]
 teaser                   : /images/Source-Crypto-og.png
 logo                     : "https://sourcecrypto.pub/images/interlinked.png"
-masthead_title           : Curated Commons
+masthead_title           : "SourceCrypto Curative"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
