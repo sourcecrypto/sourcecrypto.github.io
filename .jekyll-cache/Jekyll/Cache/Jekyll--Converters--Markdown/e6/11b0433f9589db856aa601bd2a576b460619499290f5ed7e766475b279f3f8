@@ -1,4 +1,4 @@
-I"Ը<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
+I""�<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
 
 <h2>Pages</h2>
 
@@ -252,11 +252,12 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/" rel="permalink">Blockchain Research Collaborative</a>
+        <a href="/" rel="permalink">Curated Bitcoin and Blockchain Info</a>
       
     </h2>
     
-    <p class="archive__item-excerpt" itemprop="description">we’re often overwhelmed with raw, unfiltered, context-free information. This is fuelling a demand for new content organisation and consumption methods in ord...</p>
+    <p class="archive__item-excerpt" itemprop="description">Overwhelmed with raw, unfiltered, context-free information? New Content Organisation and Consumption Methods. Find Meaningful and Relevant Information.
+</p>
   </article>
 </div>
 
@@ -1005,6 +1006,19 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
+        <a href="/posts/Bitcoin/pre-history/chaum-forfather-cypherpunk-cryptocurrency/" rel="permalink"></a>
+      
+    </h2>
+    
+    
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
         <a href="/toml/id-toml.html" rel="permalink"></a>
       
     </h2>
@@ -1293,7 +1307,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/posts/Bitcoin/pre-history/chaum-forfather-cypherpunk-cryptocurrency/" rel="permalink">David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement
+        <a href="/posts/Bitcoin/pre-history/chaum-forefather-cypherpunk-cryptocurrency/" rel="permalink">David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement
 </a>
       
     </h2>

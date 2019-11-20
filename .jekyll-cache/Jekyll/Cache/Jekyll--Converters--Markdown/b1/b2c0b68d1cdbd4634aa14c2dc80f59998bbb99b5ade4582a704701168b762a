@@ -1,4 +1,27 @@
-I"�<p>I’ve merged the transcripts into this site, proper. Now that I know how to use Minimal Mistakes Jekyll better, I can see how it makes more sense to have them in the same site setup.</p>
+I"<p>I’ve merged the transcripts into this site, proper. Now that I know how to use Minimal Mistakes Jekyll better, I can see how it makes more sense to have them in the same site setup.</p>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/pre-history/chaum-forefather-cypherpunk-cryptocurrency/" rel="permalink">David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  44 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Epicenter Podcast #304 Under Creative Commons license by Epicenter Media ltd
+</p>
+  </article>
+</div>
 
 <div class="list__item">
   <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
@@ -195,6 +218,28 @@
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">The Verifiable Organizations Network is a Government Production deployment of Hyperledger Indy, live the 10th of September, 2018. John Jordan and Stephen Cur...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/posts/Bitcoin/pre-history/cypherpunks/" rel="permalink">Cypherpunks and the Crypto Wars
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  8 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Phil Zimmermann was a key player in this period. The PGP software he authored was considered as munitions by the US government and subject to export licenses...</p>
   </article>
 </div>
 

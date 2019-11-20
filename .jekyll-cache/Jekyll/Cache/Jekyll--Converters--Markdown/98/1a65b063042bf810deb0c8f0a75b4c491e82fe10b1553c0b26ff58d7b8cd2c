@@ -1,4 +1,4 @@
-I"ڡ<p>Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space.  Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus <em>a lot</em> more on acquiring practical experience, aiming towards a sovereign work-flow.</p>
+I"�<p>Now that I’ve studied “the blockchain” for a couple years, it’s getting easier to navigate this space.  Meanwhile, Bitcoin has proven its dominance, and I’m increasingly compelled to focus <em>a lot</em> more on acquiring practical experience, aiming towards a sovereign work-flow.</p>
 
 <p>While there are already a number of excellent infomative lists, resources pages, and other collections, I haven’t noticed any that focused specifically on <em>using</em> Bitcoin.</p>
 
@@ -8,11 +8,11 @@
 
 <h2 id="you-must-do-your-own-research">You MUST Do Your Own Research</h2>
 
-<p>This is intended to be a starting point for anyone who is interested in using Bitcoin code \ hardware. These guides and tutorials are a great jumping off point, from which you can explore a variety of technologies you may not even have known were available.</p>
+<p>These guides and tutorials are a great jumping off point, from which you can explore a variety of technologies you may not even have known were available.</p>
 
 <p>Please. Do your own research.</p>
 
-<p>There may be newer materials or advisaries for any of these projects. Be sure to check for recent information to be sure it’s something you really want to use.</p>
+<p>There may be newer materials or advisaries for any of these products\services. <strong>Be sure to check for recent information!</strong></p>
 
 <p><img src="https://i.imgur.com/wFhzOQx.jpg" alt="" /></p>
 
@@ -40,6 +40,8 @@
 <h3 id="-explorers">🗃 Explorers</h3>
 
 <hr />
+
+<p><a href="http://blockstream.info">blockstream.info</a></p>
 
 <p><a href="https://blockchain.com/">blockchain.com/</a></p>
 <blockquote>
@@ -256,7 +258,8 @@
 
 <h2 id="-wallets">⧉ Wallets</h2>
 
-<p><a href="https://btcinformation.org/en/choose-your-wallet">Choose your wallet here</a></p>
+<hr />
+
 <blockquote>
   <ul>
     <li>Do not use wallets that don’t give you recovery data; these wallets are likely controlling your keys.</li>
@@ -266,6 +269,10 @@
 Note that it is NOT recommended that novices use the Bitcoin Core wallet. If you want to use a wallet backed by a fully validating node you run, read <a href="https://blog.lopp.net/securing-your-financial-sovereignty/">Securing Your Financial Sovereignty</a>.</li>
   </ul>
 </blockquote>
+
+<p><a href="https://bitcoin.org/en/choose-your-wallet?step=5">Choose your wallet here - bitcoin.org</a></p>
+
+<p><a href="https://btcinformation.org/en/choose-your-wallet">Choose your wallet here - btcinformation</a></p>
 
 <p><a href="https://bitcoin-only.com/#wallets">bitcoin-only.com - Wallets</a></p>
 
@@ -288,8 +295,6 @@ Note that it is NOT recommended that novices use the Bitcoin Core wallet. If you
 <p><a href="https://www.bitcoinarmory.com/">Armory</a> Cold Storage &amp; Multisig Desktop</p>
 
 <p><a href="http://abco.re/en/releases/">ABCore</a> Bitcoin Core Full Node for Android Android</p>
-
-<p><a href="https://bitcoin-only.com/">Bitcoin Only</a></p>
 
 <p><a href="https://samouraiwallet.com/">Samourai Wallet</a>)</p>
 
