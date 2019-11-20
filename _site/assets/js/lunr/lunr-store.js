@@ -660,7 +660,7 @@ var store = [{
         "url": "http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cypherpunk-cryptocurrency/",
         "teaser":"http://localhost:4000/images/bitcoin-history/david-chaum-cypherpunk-cryptocurrency.png"},{
         "title": "Reflection: Stepping Back and Moving Forward",
-        "excerpt":"Recap Back in the Summer of 2018, I had a kind of foolish idea. I decided that I should try and organize all the types of information surrounding Bitcoin, Blockchain and Cryptocurrency, and began doing so in the channels of a discord server, SourceCrypto. Since then, I’ve created a number...","categories": ["SourceCrypto"],
+        "excerpt":"Back in the Summer of 2018, I had a kind of foolish idea. I decided that I should try and organize all the types of information surrounding Bitcoin, Blockchain and Cryptocurrency, and began doing so in the channels of a discord server, SourceCrypto. Since then, I’ve created a number of...","categories": ["SourceCrypto"],
         "tags": ["recap"],
         "url": "http://localhost:4000/posts/recap/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
