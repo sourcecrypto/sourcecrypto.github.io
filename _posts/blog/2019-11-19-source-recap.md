@@ -59,9 +59,9 @@ Mattermost and keybase are both strong contenders for group chat platforms, I se
 
 ## Subscribe for Updates
 
-The main reason for this post is to provide an update, since I'm taking a break from social media, particularly Discord and Twitter.. not sure how long of a break that will be, or how deep. However, I've deleted the discord servers, since I'll never develop a new workflow, if I'm continually adding to the old ones.
+This post is meant to provide an update, since I'm taking a break from social media, particularly Discord and Twitter.. not sure how long of a break that will be, or how deep. However, I've deleted the discord servers, since I'll never develop a new workflow if I'm continually adding to the old ones.
 
-That's why I'm backing off from my day to day curation, so I can organize what I've got, learn some new apps, and take it to the next level.
+That's why I'm backing off from my day to day curation, so I can organize what I've got, learn some new apps, and take it all to the next level.
 
 If you'd like e-mail updates, since I won't be on social media, you can sign up here. Eventually, I might experiment with a monthly newsletter or occasional promotional offers. However, that would be a distinct and separate opt-in list. This list is only for major site updates, such as: 
 
@@ -71,9 +71,9 @@ If you'd like e-mail updates, since I won't be on social media, you can sign up 
 
 As this list is growing to include a small collection of people I've worked with in the past year, perhaps an occasional survey to get your feedback would be in order.
 
-Personally, I have a hard time appreciating mailing lists that are sending updates all the time... pushing out content with hopes of generating leads. So yeah, I'm not into that, and this list doesn't even have an auto-reply saying thanks for subscribing, yet.
+I have a hard time appreciating mailing lists that are sending updates all the time... pushing out content with hopes of generating leads. So yeah, I'm not into that, and this list doesn't even have an auto-reply saying thanks for subscribing, yet.
 
-On the rare occasion I do send out an e-mail, you'll always have the option to unsubscribe, and I'll make sure each message is worth your time.
+On the rare occasion I do send an e-mail, you'll have the option to unsubscribe, and I'll make sure each message is worth your while.
 
 **Only Email Required**
 {: .notice--danger}
