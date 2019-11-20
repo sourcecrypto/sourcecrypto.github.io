@@ -6,7 +6,10 @@ excerpt: Links to code, howtos, and other resources related to practical use of 
 permalink: posts/Bitcoin/lightning/
 published: true
 header:
-  image: "https://imgur.com/QjmwITb.png"
+  image: "/images/lightning-network-trustchain.png"
+  og_image: "/images/jack-dorsey-lightning-network-torch-710x458.jpg"
+  teaser: "/images/jack-dorsey-lightning-network-torch-710x458.jpg"
+  caption: "[Coingecko 2019 Q1 Report](https://www.slideshare.net/coingecko/coingecko-2019-q1-cryptoasset-report)"
 categories: ["Bitcoin"]
 tags: ["Layer 2","Lightning"]
 last_modified_at: 2019-08-16T11:22:33-23:00
