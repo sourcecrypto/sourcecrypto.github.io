@@ -2,7 +2,7 @@
 layout: single
 title: "Reflection: Stepping Back and Moving Forward"
 description: "SourceCrypto- Curated Archives in Motion."
-excerpt: "It's been over a year since I first started collecting links in the channels of a discord server. Now's a good time to take a step back and re-organize the workflow."
+excerpt: "After a couple years of dedicated curation and learning the landscape, now's a good time to take a step back, reflect and optimize the workflow."
 
 header:
   image: /images/Source-Crypto-banner.png
