@@ -3,8 +3,8 @@ layout: single
 title: SourceCrypto Blog-Feed
 description: An Open-Source Public-Domain Index of Crypto Knowledge.
 header:
-  image: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
-  og_image: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
+  image: /images/Source-Crypto-banner.png
+  og_image: /images/Source-Crypto-og.png
   teaser: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 excerpt: "I'm now able to appreciate the technical limitation for shaping my categorization process. It makes sense to have 10 or less ways to divide the entire ecosystem and break it down from there... even if some overlap. Simplicity <3"

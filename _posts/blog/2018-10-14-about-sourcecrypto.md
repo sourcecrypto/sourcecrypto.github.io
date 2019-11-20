@@ -4,8 +4,8 @@ title: SourceCrypto Research-Index
 description: An Open-Source Index of Crypto Knowledge.
 excerpt: "[Source Crypto Discord Chat](https://discord.gg/ahTuPMY) is a landing pad.. I drop links there on the fly, occasionaly exporting and publishing the [channels](/archive/) here. The next step is to systematically build better, more organized resources with the server as a starting point."
 header:
-  image: /images/source-crypto-disco.png
-  og_image: /images/source-crypto-disco.png #/images/source-crypto-gh-og.png
+  image: /images/Source-Crypto-banner.png
+  og_image: /images/Source-Crypto-og.png
   teaser: /images/source-crypto-disco.png
 sidebar:
   nav: sourcedisco 
