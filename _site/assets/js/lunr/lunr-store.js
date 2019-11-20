@@ -659,6 +659,11 @@ var store = [{
         "tags": ["Cypherpunks","Pre-History","Chaum"],
         "url": "http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cypherpunk-cryptocurrency/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
+        "title": "Reflection: Stepping Back and Moving Forward",
+        "excerpt":"Recap Back in the Summer of 2018, I had a kind of foolish idea. I decided that I should try and organize all the types of information surrounding Bitcoin, Blockchain and Cryptocurrency, and began doing so in the channels of a discord server, SourceCrypto. Since then, I’ve created a number...","categories": ["SourceCrypto"],
+        "tags": ["recap"],
+        "url": "http://localhost:4000/posts/recap/",
+        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "assorted-media",
         "excerpt":"Source&#10697;Crypto &#128451;assorted-media 79 messages &#10697;infominer 08-Aug-18 08:41 PM https://bitcoinhackers.org/about Bitcoin Mastodon A mastodon instance for Bitcoiners No Scams, no impersonation, no begging, and no illegal content Keep it civil and we should all survive :) &#10697;infominer 11-Aug-18 08:52 PM https://www.youtube.com/user/aantonop aantonop Videos about Bitcoin, Ethereum and other Open Blockchain topics...","categories": [],
         "tags": [],

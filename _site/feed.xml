@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-19T22:08:49-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SourceCrypto</title><subtitle>Chat Server and Web Portal for a Public Domain - Crypto Research Collaborative.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement</title><link href="http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cypherpunk-cryptocurrency/" rel="alternate" type="text/html" title="David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement" /><published>2019-11-13T00:00:00-05:00</published><updated>2019-11-15T05:22:33-05:00</updated><id>http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cryptocurrencies-cypherpunk-movement</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cypherpunk-cryptocurrency/">&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://epicenter.tv/episode/304/&quot;&gt;Epicenter Podcast #304&lt;/a&gt;&lt;/strong&gt; &lt;em&gt;Under &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;Creative Commons&lt;/a&gt; license by Epicenter Media ltd&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-20T01:02:54-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SourceCrypto</title><subtitle>Chat Server and Web Portal for a Public Domain - Crypto Research Collaborative.</subtitle><author><name>⧉ Infominer</name></author><entry><title type="html">Reflection: Stepping Back and Moving Forward</title><link href="http://localhost:4000/posts/recap/" rel="alternate" type="text/html" title="Reflection: Stepping Back and Moving Forward" /><published>2019-11-19T00:00:00-05:00</published><updated>2019-11-20T05:22:33-05:00</updated><id>http://localhost:4000/posts/source-recap</id><content type="html" xml:base="http://localhost:4000/posts/recap/">&lt;h2 id=&quot;recap&quot;&gt;Recap&lt;/h2&gt;
+
+&lt;p&gt;Back in the Summer of 2018, I had a kind of foolish idea. I decided that I should try and organize all the types of information surrounding Bitcoin, Blockchain and Cryptocurrency, and began doing so in the channels of a discord server, SourceCrypto.&lt;/p&gt;
+
+&lt;p&gt;Since then, I’ve created a number of servers, realizing that it was easier to simply split off, and create a new one, once I wanted to get serious about another large subject.&lt;/p&gt;
+
+&lt;p&gt;Between a dozen discord servers, and a handful of twitter accounts, I’ve been seriously retweeting, sharing to focused channels, organizing, archiving and otherwise keeping track of valuable information that would otherwise slip away… into the abyss of the intellect… along with all the other interesting things I’ve read, but didn’t keep references for, over the years.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-collaborative-workflow&quot;&gt;A Collaborative Workflow?&lt;/h2&gt;
+
+&lt;p&gt;A year later, the idea that I could organize the varieties of information surrounding Bitcoin still seems foolish. Perhaps not so much as it did when I began. I never assumed that I could really accomplish my objective, however, I felt it was important to act and believe as though it were possible.&lt;/p&gt;
+
+&lt;p&gt;I’ve only gotten serious about tech in the past few years, and have had quite a steep learning curve to catch up. To begin, I had a little experience maintaining Discord servers, and appreciate it’s UX, so it made sense for me to start there, rather than starting by seeking the ideal solution.&lt;/p&gt;
+
+&lt;p&gt;It’s always been my intent for these resources to be collaborative, and they have been open for such from the beginning. I have appreciated a number of contributors over that time, but the work has primarily been my own. I will admit that I’ve not been very social, or acted as an effective community organizer. Regardless, I’m pretty sure Discord isn’t the ideal venue for this work.&lt;/p&gt;
+
+&lt;h2 id=&quot;foss-ideals-vs-pragmatism&quot;&gt;FOSS Ideals vs Pragmatism&lt;/h2&gt;
+
+&lt;p&gt;Over the past year, I’ve gone deeper and deeper into the world of Bitcoin, FOSS, Indieweb, Decentralized Identity, standards organizations, working groups and mailing lists. I’ve studied histories surrounding AI, Decentralized Web, Cyberpunks, Cypherpunks, MIT hackers, Sovereign Identity, Cryptography, and other histories of computing and the internet.&lt;/p&gt;
+
+&lt;p&gt;During that time, the irony of using discord and twitter while preparing a foundation for a collaborative curation platform. Discord was a matter of convenience, Twitter was an essential component of my education. Despite it’s shortcomings, there is a lot of value to be gained from studying various fields through the lense of Twitter.&lt;/p&gt;
+
+&lt;h2 id=&quot;moving-forward&quot;&gt;Moving Forward&lt;/h2&gt;
+
+&lt;p&gt;It’s time to move forward. I’d like to say I’m moving to 100% sovereign solutions, However, I’m not quite there yet. I have no definite answers, except that I’ll be restructuring this information into markdown and then structured data.&lt;/p&gt;
+
+&lt;p&gt;I’m just getting to know google sheets, and decided I should get to know the GSuite a litte better before dismissing it altogether (my inclinatino). However, spreadsheets are extensible, and an ideal stepping stone, between what’s in the archives, and a variety of applications.&lt;/p&gt;
+
+&lt;p&gt;I’ve also begun to experiment with Notion as a power tool. It allows me to import the individual html files of the archives, transform them into a single page, and then export them to markdown, from which it’s managable to transform into a simple page of links organized by category, and from there to spreadsheets.&lt;/p&gt;
+
+&lt;p&gt;Mattermost and keybase are both strong contenders for group chat platforms, I see them both doing well over the coming years. As far as social media, I think I’m better off looking to forum platforms and mailing lists… that’s a lot closer to the sources of information I tend to be looking for, and my target demographics.&lt;/p&gt;
+
+&lt;h2 id=&quot;subscribe-for-updates&quot;&gt;Subscribe for Updates&lt;/h2&gt;
+
+&lt;p&gt;The main reason for this post is to provide an update, since I’m taking a break from social media, particularly Discord and Twitter.. not sure how long of a break that will be, or how deep. However, I’ve deleted the discord servers, since I’ll never develop a new workflow, if I’m continually adding to the old ones.&lt;/p&gt;
+
+&lt;p&gt;That’s why I’m backing off from my day to day curation, so I can organize what I’ve got, learn some new apps, and take it to the next level.&lt;/p&gt;
+
+&lt;p&gt;If you’d like e-mail updates, since I won’t be on social media, you can sign up here. Eventually, I might experiment with a monthly newsletter or occasional promotional offers. However, that would be a distinct and separate opt-in list. This list is only for major site updates, such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Getting the archives re-structured, and published in a naviable form.&lt;/li&gt;
+  &lt;li&gt;Finding a chat application suitable for collaborative curation&lt;/li&gt;
+  &lt;li&gt;Launch of a shared spreadsheet application of SourceCrypto&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As this list is growing to include a small collection of people I’ve worked with in the past year, perhaps an occasional survey to get your feedback would be in order.&lt;/p&gt;
+
+&lt;p&gt;Personally, I have a hard time appreciating mailing lists that are sending updates all the time… pushing out content with hopes of generating leads. So yeah, I’m not into that, and this list doesn’t even have an auto-reply saying thanks for subscribing, yet.&lt;/p&gt;
+
+&lt;p&gt;On the rare occasion I do send out an e-mail, you’ll always have the option to unsubscribe, and I’ll make sure each message is worth your time.&lt;/p&gt;
+
+&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Only Email Required&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;kwes-form&quot;&gt;
+    &lt;form method=&quot;POST&quot; action=&quot;https://kwes.io/api/foreign/forms/jkYmOb8OJAVfi2S1qfWU&quot; success-message=&quot;Thank You!&quot; error-message=&quot;Oops! Your form has errors.&quot; mode=&quot;test&quot;&gt;
+        &lt;label for=&quot;nym&quot;&gt; Nym:&lt;/label&gt;
+        &lt;input type=&quot;text&quot; name=&quot;nym&quot; rules=&quot;max:255&quot; /&gt;
+        &lt;label for=&quot;addy&quot;&gt; Email:&lt;/label&gt;
+        &lt;input type=&quot;email&quot; name=&quot;addy&quot; rules=&quot;required|email|max:255&quot; /&gt;
+        &lt;label for=&quot;note&quot;&gt; Note:&lt;/label&gt;
+        &lt;input type=&quot;text&quot; name=&quot;note&quot; rules=&quot;max:255&quot; /&gt;
+        &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+    &lt;/form&gt;
+&lt;/div&gt;</content><author><name>⧉ Infominer</name></author><category term="recap" /><summary type="html">It's been over a year since I first started collecting links in the channels of a discord server. Now's a good time to take a step back and re-organize the workflow.</summary></entry><entry><title type="html">David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement</title><link href="http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cypherpunk-cryptocurrency/" rel="alternate" type="text/html" title="David Chaum - Forefather of Cryptocurrencies and the Cypherpunk Movement" /><published>2019-11-13T00:00:00-05:00</published><updated>2019-11-15T05:22:33-05:00</updated><id>http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cryptocurrencies-cypherpunk-movement</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/pre-history/chaum-forefather-cypherpunk-cryptocurrency/">&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://epicenter.tv/episode/304/&quot;&gt;Epicenter Podcast #304&lt;/a&gt;&lt;/strong&gt; &lt;em&gt;Under &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;Creative Commons&lt;/a&gt; license by Epicenter Media ltd&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;We’re pleased to be joined by the legendary cryptographer and computer scientist, David Chaum. From his early beginnings at Berkley, David pioneered many of the cryptographic techniques used in secure systems and cryptocurrencies today. Blind signatures, which are used in zero-knowledge proofs, and mix networks, used in Tor heavily rely on his work. At the dawn of the Internet, David founded DigiCash, what many believe to be a direct ancestor of Bitcoin. Today, David continues to pursue his mission to bring data privacy to all as his most recent project, Elixxir, aims to create a truly private messaging and payment app with a mass-market appeal.&lt;/p&gt;
@@ -5244,517 +5308,4 @@ Introducing realized cap to BTC market cycle analysis”&lt;/a&gt;&lt;/li&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="Mark Miller" /><category term="Eric Drexler" /><category term="ObCap" /><category term="Smart Contracts" /><category term="Literature" /><summary type="html">Modern smart contract systems should learn a lesson or five from it, most importantly, (object) capability security. [[...](https://news.ycombinator.com/item?id=19986189)] it lets programs handle permissions like other objects, keeping them apart and thus reducing the attack surface and preventing Confused Deputy attacks.</summary></entry><entry><title type="html">Down the @TheCryptoconomy Rabbithole</title><link href="http://localhost:4000/posts/Bitcoin/thecryptoconomy-podcast-deep-dive/" rel="alternate" type="text/html" title="Down the @TheCryptoconomy Rabbithole" /><published>2019-06-21T00:00:00-04:00</published><updated>2019-06-23T06:22:33-04:00</updated><id>http://localhost:4000/posts/Bitcoin/thecryptoconomy-podcast-deep-dive</id><content type="html" xml:base="http://localhost:4000/posts/Bitcoin/thecryptoconomy-podcast-deep-dive/">&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Was asked recently why I started The Cryptoconomy Podcast:&lt;br /&gt;• I wanted audio of the 1000s of amazing &lt;a href=&quot;https://twitter.com/hashtag/Bitcoin?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Bitcoin&lt;/a&gt; articles&lt;br /&gt;• I realized most only read title &amp;amp; 1st paragraph (caught myself doing it)&lt;br /&gt;• The scope of Bitcoin study feels insurmountable w/out help&lt;a href=&quot;https://t.co/umoiK05Ijz&quot;&gt;https://t.co/umoiK05Ijz&lt;/a&gt;&lt;/p&gt;&amp;mdash; Guy Swann⚡ (@TheCryptoconomy) &lt;a href=&quot;https://twitter.com/TheCryptoconomy/status/1119307773760757766?ref_src=twsrc%5Etfw&quot;&gt;April 19, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;thecryptoconomy&quot;&gt;@TheCryptoconomy&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/TheCryptoconomy&quot;&gt;twitter - @TheCryptoconomy&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://cryptoconomy.life&quot;&gt;cryptoconomy.life&lt;/a&gt; - Homepage&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;where-to-listen&quot;&gt;Where to Listen&lt;/h2&gt;
-
-&lt;iframe src=&quot;https://castbox.fm/app/castbox/player/id1614950?v=8.1.0&amp;amp;autoplay=1&quot; frameborder=&quot;0&quot; width=&quot;100%&quot; height=&quot;500&quot;&gt;&lt;/iframe&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://Anchor.fm/TheCryptoconomy&quot;&gt;Anchor.fm/TheCryptoconomy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://podcasts.apple.com/us/podcast/the-cryptoconomy-podcast/id1359544516&quot;&gt;Apple&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://castbox.fm/channel/1614950&quot;&gt;Castbox&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy84MGQ1Y2ZjL3BvZGNhc3QvcnNz&quot;&gt;Google&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://overcast.fm/itunes1359544516/the-cryptoconomy-podcast&quot;&gt;Overcast.fm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pca.st/U58X&quot;&gt;Pocket Casts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://radiopublic.com/the-cryptoconomy-podcast-Wxx5q7&quot;&gt;Radio Public&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://open.spotify.com/show/16c6WR2znCZM1wveeeJoSz&quot;&gt;Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.stitcher.com/podcast/anchor-podcasts/the-cryptoconomy-podcast&quot;&gt;Stitcher&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;episodes&quot;&gt;Episodes&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/rFRrgZa.png&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;assorted&quot;&gt;Assorted&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_007 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_007---A-Declaration-of-the-Independence-of-Cyberspace-e2nduk&quot;&gt;A Declaration of the Independence of Cyberspace&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_106 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_106---Working-Alone-e2ndrb&quot;&gt;Working Alone&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_135 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_135---The-Hard-Thing-About-Learning-Hard-Things-e2ndqa&quot;&gt;The Hard Thing About Learning Hard Things&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_195 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_195---Estimating-and-Minimizing-Consumer-Worry-e2ndo7&quot;&gt;Estimating and Minimizing Consumer Worry&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_217 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_217---Sovereignty-as-a-Service-e3f7qt&quot;&gt;Sovereignty as a Service&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_233 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_233---Exit--Freedom-e3nleo&quot;&gt;Exit &amp;amp; Freedom&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_240 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_240---Rothbard-on-Utility-Theory-e3rtft&quot;&gt;Rothbard on Utility Theory&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_241 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_241---Why-I-Dont-Celebrate-Neutrino-e3t0vs&quot;&gt;Why I Don’t Celebrate Neutrino&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_242 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_242---Neutrino-is-Dangerous-to-my-Self-Sovereignty-e3td42&quot;&gt;Neutrino is Dangerous to my Self-Sovereignty&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_250 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_250---Use-of-Knowledge-in-Society-Part-1-e43pfj&quot;&gt;Use of Knowledge in Society [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_251 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_251---Use-of-Knowledge-in-Society-Part-2-e444k0&quot;&gt;Use of Knowledge in Society [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_253 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_253---The-Magic-Dust-of-Cryptography-e45u7u&quot;&gt;The Magic Dust of Cryptography&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;history&quot;&gt;History&lt;/h2&gt;
-
-&lt;figure class=&quot;&quot;&gt;
-  &lt;img src=&quot;https://imgur.com/jJprFal.png&quot; alt=&quot;this is a placeholder image&quot; /&gt;
-  
-    &lt;figcaption&gt;
-      &lt;a href=&quot;https://www.coindesk.com/the-rise-of-the-cypherpunks&quot;&gt;coindesk.com- Bitcoin and the Rise of the Cypherpunks&lt;/a&gt;
-
-    &lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_034 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_034---Bitcoin-and-the-Rise-of-the-Cypherpunks-e2ndtn&quot;&gt;Bitcoin and the Rise of the Cypherpunks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_043 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_043---A-History-of-Lightning-From-Brainstorm-to-Beta-e2ndt8&quot;&gt;A History of Lightning: From Brainstorm to Beta&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_058 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_058---The-Genesis-Files-How-David-Chaum-Spawned-a-Cypherpunk-Dream-e2ndsp&quot;&gt;The Genesis Files: How David Chaum Spawned a Cypherpunk Dream&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_095 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_095---The-Genesis-Files-Hashcash-or-How-Adam-Back-Designed-Bitcoins-Motor-Block-e2ndrl&quot;&gt;The Genesis Files: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_075 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_075---Homo-Sapiens--Evolution--Money--Bitcoin-e2nds7&quot;&gt;Homo Sapiens, Evolution, Money &amp;amp; Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_089 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_089---Bitcoin-Magazines-Week-in-Review-Looking-to-the-Past-and-the-Future-e2ndrt&quot;&gt;Bitcoin Magazine’s Week in Review: Looking to the Past and the Future&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_111 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_111---Genesis-Files---With-Bit-Gold--Nick-Szabo-Was-Inches-From-Inventing-Bitcoin-e2ndr5&quot;&gt;Genesis Files - With Bit Gold, Nick Szabo Was Inches From Inventing Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_141 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_141---Fat-Protocols-Arent-New-e2ndq4&quot;&gt;Fat Protocols Aren’t New&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_150 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_150---Why-I-wrote-PGP-e2ndpp&quot;&gt;Why I wrote PGP&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_161 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_161---Bitcoin--The-Untold-History-e2ndpe&quot;&gt;Bitcoin, The Untold History&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_162 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_162---The-Untold-History-of-Bitcoin--Enter-The-Cypherpunks-e2ndpd&quot;&gt;The Untold History of Bitcoin, Enter The Cypherpunks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_163 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_163---A-Cypherpunks-Manifesto-e2ndpc&quot;&gt;A Cypherpunk’s Manifesto&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_174 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_174---real_vijay-on-How-Cypherpunks-Changed-Economics-for-the-Digital-Age-e2ndou&quot;&gt;@real_vijay on How Cypherpunks Changed Economics for the Digital Age&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_180 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_180---Bitcoin-at-10-e2ndoo&quot;&gt;Bitcoin at 10&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;bittorrent&quot;&gt;BitTorrent&lt;/h3&gt;
-
-&lt;figure class=&quot;&quot;&gt;
-  &lt;img src=&quot;https://imgur.com/Y1q3BvY.png&quot; alt=&quot;&quot; /&gt;
-  
-    &lt;figcaption&gt;
-      &lt;a href=&quot;https://medium.com/@simonhmorris/why-bittorrent-mattered-bittorrent-lessons-for-crypto-1-of-4-fa3c6fcef488&quot;&gt;medium.com - Why BitTorrent Mattered: Lessons for Crypto [1 of 4]&lt;/a&gt;
-
-    &lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_219 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_219---Why-BitTorrent-Mattered-Lessons-for-Crypto-1-of-4-e3ghrs&quot;&gt;Why BitTorrent Mattered: Lessons for Crypto [1 of 4]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_220 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_220---If-Youre-Not-Breaking-the-Rules-Then-Youre-Doing-it-Wrong-BitTorrent-Lessons-2-of-4-e3grft&quot;&gt;If You’re Not Breaking the Rules Then You’re Doing it Wrong: BitTorrent Lessons [2 of 4]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_221 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_221---Intent--Complexity---The-Governance-Paradox-BitTorrent-Lessons-3-of-4-e3h2uj&quot;&gt;Intent, Complexity, &amp;amp; The Governance Paradox: BitTorrent Lessons [3 of 4]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_222 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_222---Decentralized-Disruption--Who-Dares-Wins-BitTorrent-Lessons-4-of-4-e3hek4&quot;&gt;Decentralized Disruption, Who Dares Wins: BitTorrent Lessons [4 of 4]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;economics---finance&quot;&gt;Economics - Finance&lt;/h2&gt;
-
-&lt;figure class=&quot;&quot;&gt;
-  &lt;img src=&quot;https://imgur.com/QeGOBEq.png&quot; alt=&quot;&quot; /&gt;
-  
-    &lt;figcaption&gt;
-      &lt;a href=&quot;http://www.goldtelegraph.com/the-central-bank-bubble&quot;&gt;goldtelegraph.com - The Central Bank Bubble: It Will Be Ugly&lt;/a&gt;
-
-    &lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_039 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_039---The-Central-Banking-Bubble-e2ndte&quot;&gt;The Central Banking Bubble&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_074 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_074---Securing-Your-Financial-Sovereignty-e2nds6&quot;&gt;Securing Your Financial Sovereignty&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_117 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_117---How-Central-Banking-Increased-Inequality-e2ndqt&quot;&gt;How Central Banking Increased Inequality&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_122 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_122---The-Yield-From-Money-Held-Reconsidered-e2ndqn&quot;&gt;“The Yield From Money Held” Reconsidered&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_123 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_123---I--Pencil-e2ndqm&quot;&gt;I, Pencil&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;In closing out the week we have one last piece on the economics behind Bitcoin and the natural market economy.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_125 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_125---Why-Money-Has-Value--Spending-Bitcoin-is-Senseless-e2ndqk&quot;&gt;Why Money Has Value &amp;amp; Spending Bitcoin is Senseless&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_133 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_133---Governments-and-Central-Banks-Should-Look-to-Gold-not-Crypto-e2ndqc&quot;&gt;Governments and Central Banks Should Look to Gold not Crypto&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_168 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_168---Prices-Keep-us-From-Squandering-Resources-e2ndp5&quot;&gt;Prices Keep us From Squandering Resources&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_197 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_197---An-Honest-Account-of-Fiat-Money-e2ndo3&quot;&gt;An Honest Account of Fiat Money&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_234 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_234---How-is-Fiat-Money-Possible-Part-1-e3odu1&quot;&gt;How is Fiat Money Possible [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_235 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_235---How-Is-Fiat-Money-Possible-Part-2-e3oon2&quot;&gt;How Is Fiat Money Possible [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_236 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_236---How-Is-Fiat-Money-Possible-Part-3-e3p2k1&quot;&gt;How Is Fiat Money Possible [Part 3]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;case-for-electronic-cash&quot;&gt;Case for Electronic Cash&lt;/h3&gt;
-
-&lt;figure class=&quot;&quot;&gt;
-  &lt;img src=&quot;https://imgur.com/Z840O7J.png&quot; alt=&quot;&quot; /&gt;
-  
-    &lt;figcaption&gt;
-      &lt;a href=&quot;https://mises.org/library/why-state-demands-control-money&quot;&gt;mises.org - Why the State Demands Control of Money&lt;/a&gt;
-
-    &lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_229 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_229---Why-the-State-Demands-Control-of-Money-e3m7v3&quot;&gt;Why the State Demands Control of Money&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_230 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_230---The-Case-for-Electronic-Cash-Part-1-e3mjj7&quot;&gt;The Case for Electronic Cash [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_231 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_231---The-Case-for-Electronic-Cash-Part-2-e3n1t5&quot;&gt;The Case for Electronic Cash [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_232 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_232---The-Case-for-Electronic-Cash-Part-3-e3nbhu&quot;&gt;The Case for Electronic Cash [Part 3]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_252 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_252---Bitcoins-Security-is-Fine-by-Dan-Held-e44i77&quot;&gt;Bitcoin’s Security is Fine by Dan Held&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/The-Case-for-Electronic-Cash-e3rhj6&quot;&gt;The Case for Electronic Cash - Part 2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;nick-szabo&quot;&gt;Nick Szabo&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://unenumerated.blogspot.com/2007/05/towards-digital-and-private-common-law.html&quot;&gt;&lt;img src=&quot;https://imgur.com/UslnOPl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_029 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_029---Szabos-Towards-a-Digital-and-Private-Common-Law-e2ndtv&quot;&gt;Szabo’s Towards a Digital and Private Common Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_060 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_060---Nick-Szabo-The-Mysterious-Blockchain-Titan-e2ndsq&quot;&gt;Nick Szabo The Mysterious Blockchain Titan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_083 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_083---Trusted-Third-Parties-are-Security-Holes-e2nds2&quot;&gt;Trusted Third Parties are Security Holes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_113 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_113---The-Dawn-of-Trustworthy-Computing-e2ndr3&quot;&gt;The Dawn of Trustworthy Computing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_214 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_214---Szabos-Formalizing--Securing-Network-Relationships-Part-1-e3953d&quot;&gt;Szabo’s Formalizing &amp;amp; Securing Network Relationships [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_215 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_215---Szabos-Formalizing--Securing-Network-Relationships-Part-2-e3atv9&quot;&gt;Szabo’s Formalizing &amp;amp; Securing Network Relationships [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_216 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_216---Formalizing--Securing-Network-Relationships-Part-3-e3ejnd&quot;&gt;Formalizing &amp;amp; Securing Network Relationships [Part 3]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_261 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_261---The-God-Protocols-e4cstb&quot;&gt;The God Protocols&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;history-of-money&quot;&gt;History of Money&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://nakamotoinstitute.org/shelling-out/&quot;&gt;&lt;img src=&quot;https://imgur.com/WLwOn7F.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Yes, also by Szabo.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Shelling Out - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/Shelling-Out---The-Origins-of-Money-e2ndom&quot;&gt;The Origins of Money&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_176 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_176---Shelling-Out---The-Origins-of-Money-Part-1-e2ndor&quot;&gt;Shelling Out - The Origins of Money [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_177 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_177---Shelling-Out---The-Origins-of-Money-Part-2-e2ndoq&quot;&gt;Shelling Out - The Origins of Money [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_178 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_178---Shelling-Out---The-Origins-of-Money-Part-3-e2ndos&quot;&gt;Shelling Out - The Origins of Money [Part 3]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_179 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_179---Shelling-Out---The-Origins-of-Money-Part-4-e2ndop&quot;&gt;Shelling Out - The Origins of Money [Part 4]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_262 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_262---The-Island-of-Stone-Money-e4d6m0&quot;&gt;The Island of Stone Money&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_18 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_18---A-Story-About-Booms--Busts-e4aflh&quot;&gt;A Story About Booms &amp;amp; Busts&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;bitcoin&quot;&gt;Bitcoin&lt;/h2&gt;
-
-&lt;figure class=&quot;&quot;&gt;
-  &lt;img src=&quot;https://imgur.com/ZZZVt6l.png&quot; alt=&quot;&quot; /&gt;
-  
-    &lt;figcaption&gt;
-      &lt;a href=&quot;https://bitcoinmagazine.com/articles/bitcoin-core-0160-released-heres-whats-new&quot;&gt;bitcoinmagazine.com - Bitcoin 0.16.0 is Released: Here’s What’s New&lt;/a&gt;
-
-    &lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_016 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_016---Bitcoin-0-16-0-is-Released-Heres-Whats-New-e2nduc&quot;&gt;Bitcoin 0.16.0 is Released: Here’s What’s New&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_017 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_017---Natural-v--Artifical-Money-Why-Bitcoin-is-the-Greatest-Thing-to-Happen-for-Alternative-Energy-e2ndub&quot;&gt;Natural v. Artifical Money Why Bitcoin is the Greatest Thing to Happen for Alternative Energy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuickRead_021 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuickRead_021---The-Bullish-case-For-Bitcoin-e2ndu7&quot;&gt;The Bullish case For Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_020 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_020---There-is-a-Bitcoin-Patent-War-Going-On-e2ndu8&quot;&gt;There is a Bitcoin Patent War Going On&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_025 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_025---Bitcoins-Anarchy-is-a-Feature--Not-a-Bug-e2ndu3&quot;&gt;Bitcoin’s Anarchy is a Feature, Not a Bug&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_031 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_031---Nobody-Understands-Bitcoin-and-thats-ok-e2ndtt&quot;&gt;Nobody Understands Bitcoin (and that’s ok)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_038 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_038---7-Misunderstandings-of-Bitcoins-Scaling-Problem-e2ndtf&quot;&gt;7 Misunderstandings of Bitcoin’s Scaling Problem&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_040 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_040---Why-Bitcoin-is-Different-e2ndt5&quot;&gt;Why Bitcoin is Different&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_045 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_045---Why-Schnorr-Signatures-will-Solve-2-of-Bitcoins-Biggest-Problems-e2ndt9&quot;&gt;Why Schnorr Signatures will Solve 2 of Bitcoin’s Biggest Problems&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_053 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_053---Pieter-Wuille-Chapioning-Bitcoin-Development-e2ndt0&quot;&gt;Pieter Wuille Chapioning Bitcoin Development&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_054 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_054---The-Long-Road-To-Segwit-e2ndsv&quot;&gt;The Long Road To Segwit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_056 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_056---Five-Myths-About-Bitcoins-Energy-Use-e2ndst&quot;&gt;Five Myths About Bitcoin’s Energy Use&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_073 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_073---Introducing-TxTenna-Decentralizing-the-Last-Mile-in-Bitcoin-e2ndsc&quot;&gt;Introducing TxTenna: Decentralizing the Last Mile in Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_084 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_084---Analysis-of-Batching-in-Bitcoin-e2nds0&quot;&gt;Analysis of Batching in Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_086 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_086---Build-the-Bitcoin-Economy--The-Complete-Contract-Governance-Platform-e2nds1&quot;&gt;Build the Bitcoin Economy, The Complete Contract Governance Platform&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_087 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_087---Introducing-Bitcoin-Contract-Governance-e2ndrv&quot;&gt;Introducing Bitcoin Contract Governance&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_093 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_093---The-Importance-of-Layer-2-e2ndrp&quot;&gt;The Importance of Layer 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_096 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_096---Giacomos-Tweetstorm--Coinage-in-the-Age-of-Bitcoin-e2ndrk&quot;&gt;Giacomo’s Tweetstorm, Coinage in the Age of Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_105 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_105---Why-You-Cant-Understand-Bitcoin-e2ndrc&quot;&gt;Why You Can’t Understand Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_114 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_114---Schnorr-Poised-to-Become-Bitcoins-Biggest-Change-Since-SegWit-e2ndr1&quot;&gt;Schnorr Poised to Become Bitcoin’s Biggest Change Since SegWit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_115 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_115---Announcing-Bitcoin-OpTech-e2ndr0&quot;&gt;Announcing Bitcoin OpTech&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_107 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_107---If-Bitcoin-Had-a-First-Draft--Wei-Dais-B-Money-Was-It-e2ndra&quot;&gt;If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_108 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_108---Bitcoin-Governance-e2ndr8&quot;&gt;Bitcoin Governance&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_109 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_109---The-Bitcoin-Risk-Spectrum-e2ndr7&quot;&gt;The Bitcoin Risk Spectrum&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_118 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_118---Securing-Property-with-Owner-Authority-e2ndqs&quot;&gt;Securing Property with Owner Authority&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_120 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_120---Visions-of-Bitcoin-e2ndqq&quot;&gt;Visions of Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_130 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_130---Media-Coverage-of-Bitcoin-is-Still-a-Total-Disaster-e2ndqf&quot;&gt;Media Coverage of Bitcoin is Still a Total Disaster&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_132 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_132---The-Bitcoin-Second-Layer-e2ndqd&quot;&gt;The Bitcoin Second Layer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_134 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_134---Welcome-to-Bitcoin-Island-e2ndqb&quot;&gt;Welcome to Bitcoin Island&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_137 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_137---Half-of-the-Remaining-Bitcoin-Supply-is-Spoken-For-e2ndq8&quot;&gt;Half of the Remaining Bitcoin Supply is ‘Spoken For’&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_143 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_143---The-Time-Value-of-Bitcoin-e2ndq2&quot;&gt;The Time Value of Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_144 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_144---SegWit2x-Bugs-Explained-e2ndq0&quot;&gt;SegWit2x Bugs Explained&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_146 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_146---The-Three-Economic-Eras-of-Bitcoin-e2ndpu&quot;&gt;The Three Economic Eras of Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_147 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_147---How-to-Critique-Bitcoin--A-Guide-e2ndpt&quot;&gt;How to Critique Bitcoin, A Guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_148 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_148---Bitcoin-as-a-Conflict-Prevention-Protocol-e2ndps&quot;&gt;Bitcoin as a Conflict Prevention Protocol&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_005 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_005---Brady-Swenson-on-Being-an-Informed-Bitcoin-Citizen-e2ndq1&quot;&gt;Brady Swenson on Being an Informed Bitcoin Citizen&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_006 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_006---TheOneVortex-on-Building-for-Bitcoin-e2ndpq&quot;&gt;TheOneVortex on Building for Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_151 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_151---Gravity-Part-1---Bitcoins-POW-e2ndpo&quot;&gt;Gravity [Part 1 - Bitcoin’s POW]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_152 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_152---Yin-and-Yang-of-Bitcoin-Part-2---Bitcoins-POW-e2ndpn&quot;&gt;Yin and Yang of Bitcoin [Part 2 - Bitcoin’s POW]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_153 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_153---Cliffhangers-Part-3---Bitcoins-POW-e2ndpm&quot;&gt;Cliffhangers [Part 3 - Bitcoin’s POW]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_154 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_154---Electric-Money-Part-4---Bitcoins-POW-e2ndpl&quot;&gt;Electric Money [Part 4 - Bitcoin’s POW]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_155 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_155---POW-is-Efficient-e2ndpk&quot;&gt;POW is Efficient&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_157 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_157---The-Bitcoin-Central-Banks-Perfect-Monetary-Policy-e2ndph&quot;&gt;The Bitcoin Central Bank’s Perfect Monetary Policy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_158 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_158---Anatomy-of-Proof-of-Work-Part-1-e2ndpg&quot;&gt;Anatomy of Proof of Work [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_159 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_159---Bitcoin--Chance--and-Randomness-Part-2-e2ndpi&quot;&gt;Bitcoin, Chance, and Randomness [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_160 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_160---Bitcoin--Blockade-Runner-of-the-Information-Age-e2ndpf&quot;&gt;Bitcoin, Blockade Runner of the Information Age&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Guy’sTake_001 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_001---Poor-in-a-World-with-Bitcoin--or-Rich-in-a-World-Without-It-e2ndpb&quot;&gt;Poor in a World with Bitcoin, or Rich in a World Without It?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_164 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_164---Bitcoin-Optechs-Scaling-Bitcoin-Special-e2ndpa&quot;&gt;Bitcoin Optech’s Scaling Bitcoin Special&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_166 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_166---Liquid-Network-Launch-and-Thoughts-from-LucasNuzzi-e2ndp8&quot;&gt;Liquid Network Launch and Thoughts from @LucasNuzzi&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_167 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_167---Deep-Dive-into-Strong-Federations--Foundations-of-Liquid-e2ndp7&quot;&gt;Deep Dive into Strong Federations &amp;amp; Foundations of Liquid&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_007 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_007---The-One-and-Only-Real_Vijay-e2ndp1&quot;&gt;The One and Only @Real_Vijay&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_172 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_172---Bitcoins-Distribution-Was-Fair-e2ndp0&quot;&gt;Bitcoin’s Distribution Was Fair&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_175 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_175---Open-Sourcing-Subzero-e2ndot&quot;&gt;Open Sourcing Subzero&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Alok Menghrajani, security engineer at Square, details their Multisig &amp;amp; Hardware key management system for the cold storage of customer’s Cash app Bitcoin balances.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_181 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_181---Bitcoins-Existential-Crisis-e2ndok&quot;&gt;Bitcoin’s Existential Crisis&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_182 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_182---The-Business-of-Bitcoin-Cold-Storage-e2ndoj&quot;&gt;The Business of Bitcoin Cold Storage&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_184 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_184---How-Many-Forks-Does-it-Take-to-Get-to-the-Center-of-Satoshis-Vision-e2ndog&quot;&gt;How Many Forks Does it Take to Get to the Center of Satoshi’s Vision&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_185 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_185---Sorry-Bitcoin-is-Still-Anarchist-e2ndof&quot;&gt;Sorry Bitcoin is Still Anarchist&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_196 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_196---Understanding-the-Technical-Side-of-Bitcoin-e2ndo6&quot;&gt;Understanding the Technical Side of Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GUYSTAKE_006 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GUYSTAKE_006---100-000--ANCHOR-FM--MASTERING-BITCOIN-e2nijv&quot;&gt;100,000! ANCHOR.FM &amp;amp; MASTERING BITCOIN&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_198 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_198---Unpacking-Bitcoins-Social-Contract-e2oct5&quot;&gt;Unpacking Bitcoin’s Social Contract&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_201 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_201---Bitcoin-is-a-Decentralized-Organism---Mycelium-Part-1-e2sarg&quot;&gt;Bitcoin is a Decentralized Organism - Mycelium [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_007 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_007---Happy-Birthday-Bitcoin--Looking-Back-on-10-Insane-Years-e2sh1j&quot;&gt;Happy Birthday Bitcoin, Looking Back on 10 Insane Years&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_202 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_202---Dan-Hedl-thinks-Satoshis-Vision-is-a-Silly-Endeavor-e2v0j1&quot;&gt;Dan Hedl thinks Satoshi’s Vision is a Silly Endeavor&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_203 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_203---Dont-Trust--Verify--A-Bitcoin-Private-Case-Study-e2vgmt&quot;&gt;Dont Trust, Verify, A Bitcoin Private Case Study&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_204 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_204---Bitcoin--Winner-Takes-All--or-Winner-Takes-Most-e30vht&quot;&gt;Bitcoin, Winner Takes All, or Winner Takes Most?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_212 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_212---5-Things-Ive-Learned-After-a-Year-in-Bitcoin-e3683j&quot;&gt;5 Things I’ve Learned After a Year in Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_213 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_213---MuSig--A-New-MultiSignature-Standard-e38hv5&quot;&gt;MuSig, A New MultiSignature Standard&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_218 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_218---The-Resolution-of-the-Big-Block-Experiment-e3g7ms&quot;&gt;The Resolution of the Big Block Experiment&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_009 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_009---A-Trust-Model-Comparison-Bitcoin-vs--the-Mighty-Dollar-e3if6g&quot;&gt;A Trust Model Comparison: Bitcoin vs. the Mighty Dollar&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_224 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_224---Bitcoin-is-a-Social-Creature--Mycelium-Part-2-e3iq3u&quot;&gt;Bitcoin is a Social Creature, Mycelium Part 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_225 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_225---Bitcoin--the-Promise-of-Independent-Property-Rights-e3j6b8&quot;&gt;Bitcoin &amp;amp; the Promise of Independent Property Rights&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_226 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_226---Schnorr-Signatures--The-Inevitability-of-Privacy-in-Bitcoin-e3jfhi&quot;&gt;Schnorr Signatures &amp;amp; The Inevitability of Privacy in Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/My-Favorite-Bitcoin-Holidays--A-Walk-with-Guy-Through-Bitcoin-History-e3kgpp&quot;&gt;My Favorite Bitcoin Holidays? A Walk with Guy Through Bitcoin History&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_010 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_010---Guy--the-PayPod-on-How-Bitcoin-Will-Change-the-World-e3kpfs&quot;&gt;Guy &amp;amp; the PayPod on How Bitcoin Will Change the World&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_227 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_227---Bitcoin-is-a-Hedge-Against-the-Cashless-Society-e3l5ne&quot;&gt;Bitcoin is a Hedge Against the Cashless Society&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_010 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_010---Guy--the-PayPod-on-How-Bitcoin-Will-Change-the-World-e3kpfs&quot;&gt;Guy &amp;amp; the PayPod on How Bitcoin Will Change the World&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_228 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_228---Minimum-Viable-Decentralization-e3lfo9&quot;&gt;Minimum Viable Decentralization&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_238 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_238---How-to-Scale-Bitcoin-Without-Changing-a-Thing-Part-1-e3qgfg&quot;&gt;How to Scale Bitcoin Without Changing a Thing [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_239 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_239---How-to-Scale-Bitcoin-Without-Changing-a-Thing-Part-2-e3qsvi&quot;&gt;How to Scale Bitcoin Without Changing a Thing [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_243 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_243---Bitcoin-in-Heavy-Accumulation-Part-1-e3tnic&quot;&gt;Bitcoin in Heavy Accumulation [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_243---Bitcoin-in-Heavy-Accumulation-Part-2-e3u1gb&quot;&gt;CryptoQuikRead_243 - Bitcoin in Heavy Accumulation [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_245 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_245---Bitcoins-Gravity-e3urjl&quot;&gt;Bitcoin’s Gravity&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_246 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_246---Errors-in-Satoshis-Whitepaper-e3v701&quot;&gt;Errors in Satoshi’s Whitepaper&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_012 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_012---Full-Nodes-or-Nothing--The-Story-of-Validation-Part-1-e3vk1s&quot;&gt;Full Nodes or Nothing, The Story of Validation [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_013 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_013---Nodes-vs-Miners--Who-Defines-Bitcoin-e3vttt&quot;&gt;Nodes vs Miners, Who Defines Bitcoin?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_247 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_247---The-Ancient-Sin-of-Debt-How-Bitcoin-Can-Make-Amends-e41e3m&quot;&gt;The Ancient Sin of Debt; How Bitcoin Can Make Amends&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_249 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_249---Bitcoin-Has-No-Intrinsic-Value---Thats-Great-e43bcm&quot;&gt;Bitcoin Has No Intrinsic Value, &amp;amp; That’s Great!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_254 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_254---Bitcoin--Software-Reliability-e46lnu&quot;&gt;Bitcoin &amp;amp; Software Reliability&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_255 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_255---Bitcoin-An-Accounting-Revolution-e473tj&quot;&gt;Bitcoin An Accounting Revolution&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_017 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_017---Erlay--Dandelion---BitcoinOps-e491ec&quot;&gt;Erlay, Dandelion, &amp;amp; BitcoinOps&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_260 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_260---Why-America-Cant-Regulate-Bitcoin-e4b4s8&quot;&gt;Why America Can’t Regulate Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_019 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_019---Libra-Doesnt-Compete-with-Bitcoin--But-it-Might-Kill-Ripple-e4chrm&quot;&gt;Libra Doesn’t Compete with Bitcoin, But it Might Kill Ripple&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_262 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_262---The-Bitcoin-Time-Traveler-e4dioc&quot;&gt;The Bitcoin Time Traveler&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;21-lessons-of-the-bitcoin-rabbit-hole&quot;&gt;21 Lessons of the Bitcoin Rabbit Hole&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dergigi.com/bitcoin/lessons/&quot;&gt;&lt;img src=&quot;https://imgur.com/RY9sYIp.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://dergigi.com/bitcoin/lessons/&quot;&gt;dergigi.com/bitcoin/lessons/&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_256 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_256---21-Lessons-of-the-Bitcoin-Rabbit-Hole---Chapter-1-e47u83&quot;&gt;21 Lessons of the Bitcoin Rabbit Hole - Chapter 1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_257 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_257---21-Lessons-of-the-Bitcoin-Rabbit-Hole---Chapter-2-e489f9&quot;&gt;21 Lessons of the Bitcoin Rabbit Hole - Chapter 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_258 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_258---21-Lessons-of-the-Bitcoin-Rabbit-Hole---Chapter-3-e48kao&quot;&gt;21 Lessons of the Bitcoin Rabbit Hole - Chapter 3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;bitcoin---casa&quot;&gt;Bitcoin - Casa&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/casa/casa-privacy-model-ee6d1a08fd82&quot;&gt;&lt;img src=&quot;https://imgur.com/c0eHAmk.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_102 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_102---Casas-Privacy-Model-e2ndri&quot;&gt;Casa’s Privacy Model&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_156 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_156---Features-of-the-Casa-Node-e2ndpj&quot;&gt;Features of the Casa Node&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_003 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_003---Casa-Node-First-Impressions--A-Few-Updates-e2ndon&quot;&gt;Casa Node First Impressions &amp;amp; A Few Updates&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_005 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_005---New-Video---Casa-Node-Setup--Router-Configuration-e2ndob&quot;&gt;New Video - Casa Node Setup &amp;amp; Router Configuration&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_205 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_205---Seven-Guiding-Principles-at-Casa-e31fi9&quot;&gt;Seven Guiding Principles at Casa&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_207 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_207---Announcing-the-Casa-Browser-Extension-e33ao8&quot;&gt;Announcing the Casa Browser Extension&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_237 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_237---Casa-Keymaster-Security---Mobile-Key-Overview-e3pbg1&quot;&gt;Casa Keymaster Security - Mobile Key Overview&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;bitcoin-threat-model&quot;&gt;Bitcoin Threat Model&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/JWWeatherman&quot;&gt;&lt;img src=&quot;https://imgur.com/pfCQUAa.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_208 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_208---The-Bitcoin-Threat-Model-Part-1-e33vc0&quot;&gt;The Bitcoin Threat Model [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_209 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_209---The-Bitcoin-Threat-Model-Part-2-e34ah8&quot;&gt;The Bitcoin Threat Model [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_210 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_210---Human-Threat-Model-Part-1-e352ah&quot;&gt;Human Threat Model [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_211 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_211---Human-Threat-Model-Part-2-e35ejd&quot;&gt;Human Threat Model [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/The-Bitcoin-Threat-Model-e35f5r&quot;&gt;The Bitcoin Threat Model&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;bitcoin---privacy&quot;&gt;Bitcoin - Privacy&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@nopara73/wasabi-privacy-focused-bitcoin-wallet-for-desktop-3962d567045a&quot;&gt;&lt;img src=&quot;https://imgur.com/jkXirjP.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_112 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_112---Wasabi-Privacy-Focused-Bitcoin-Wallet-e2ndr4&quot;&gt;Wasabi Privacy Focused Bitcoin Wallet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_085 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_085---Increasing-Bitcoin-Privacy-Using-the-Lightning-Network-e2ndru&quot;&gt;Increasing Bitcoin Privacy Using the Lightning Network&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_138 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_138---Traditional-Bitcoin-Mixers-e2ndq5&quot;&gt;Traditional Bitcoin Mixers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_149 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_149---Bitcoin-as-a-PrivacyCoin-e2ndpr&quot;&gt;Bitcoin as a PrivacyCoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_165 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_165---Why-Privacy-Matters-e2ndp9&quot;&gt;Why Privacy Matters&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_12 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_12---Talking-Privacy--Bitcoin--the-New-Economy-with-the-Raleigh-Bitcoin-Meetup-e4ar2g&quot;&gt;Talking Privacy, Bitcoin &amp;amp; the New Economy with the Raleigh Bitcoin Meetup&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_227 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_227---Bitcoin-is-a-Hedge-Against-the-Cashless-Society-e3l5ne&quot;&gt;Bitcoin is a Hedge Against the Cashless Society&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_100 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_100---Dandelions-and-a-Bright-Future-for-Bitcoin-Privacy-e2ndrg&quot;&gt;Dandelions and a Bright Future for Bitcoin Privacy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;bitcoin---lightning&quot;&gt;Bitcoin - Lightning&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@melik_87377/lightning-network-enables-unicast-transactions-in-bitcoin-lightning-is-bitcoins-tcp-ip-stack-8ec1d42c14f5&quot;&gt;&lt;img src=&quot;https://imgur.com/k55OjEO.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_011 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_011---Lightning-Enables-Unicast-Transactions-in-Bitcoin-e2nduh&quot;&gt;Lightning Enables Unicast Transactions in Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_027 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_027---The-Barely-Discussed--Incredible-Benefit-of-the-Lightning-Network-e2ndu1&quot;&gt;The Barely Discussed, Incredible Benefit of the Lightning Network&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_047 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_047---Understanding-The-Lightning-Network-Part-1-e2ndtd&quot;&gt;Understanding The Lightning Network Part 1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_048 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_048---Understanding-The-Lightning-Network-Part-2-e2ndt4&quot;&gt;Understanding The Lightning Network Part 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_049 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_049---Understanding-The-Lightning-Network-Part-3-e2ndtc&quot;&gt;Understanding The Lightning Network Part 3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_061 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_061---Eltoo---A-Simplified-Update-Mechanism-for-Lightning-e2ndso&quot;&gt;Eltoo - A Simplified Update Mechanism for Lightning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_062 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_062---This-New-Scaling-Layer-Could-Make-Lightning-More-Effective-e2ndsn&quot;&gt;This New Scaling Layer Could Make Lightning More Effective&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_063 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_063---Atomic-Swaps--How-the-Lightning-Network-Extends-to-Altcoins-e2ndsm&quot;&gt;Atomic Swaps, How the Lightning Network Extends to Altcoins&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_064 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_064---The-Future-of-Bitcoin---What-Lightning-Could-Look-Like-e2ndsk&quot;&gt;The Future of Bitcoin - What Lightning Could Look Like&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_065 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_065---Lightning-User-Experience--A-Day-in-the-Life-of-Carol-e2ndsl&quot;&gt;Lightning User Experience, A Day in the Life of Carol&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_082 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_082---Exploring-Lightning-Network-Routing-e2nds3&quot;&gt;Exploring Lightning Network Routing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_099 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_099---Announcing-C-Lightning-0-6-e2ndrh&quot;&gt;Announcing C-Lightning 0.6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_136 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_136---The-Panama-Canal-and-The-Bitcoin-Lightning-Network-e2ndq9&quot;&gt;The Panama Canal and The Bitcoin Lightning Network&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_139 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_139---Lightning-Network-2-0-Part1-e2ndq7&quot;&gt;Lightning Network 2.0 [Part1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_140 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_140---Lightning-Network-2-0-Part-2-e2ndq6&quot;&gt;Lightning Network 2.0 [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_142 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_142---Chaincodes-Residency-Program-Is-Back--This-Time-With-Lightning-e2ndq3&quot;&gt;Chaincode’s Residency Program Is Back, This Time With Lightning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_002 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_002---The-Lightning-App-I-Want-to-Use-e2ndp6&quot;&gt;The Lightning App I Want to Use&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_169 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_169---Neutrino-The-Lighter-Side-of-Lightning-e2ndp4&quot;&gt;Neutrino: The Lighter Side of Lightning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_183 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_183---Custody-in-the-Age-of-Digital-Assets-e2ndoi&quot;&gt;Custody in the Age of Digital Assets&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_199 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_199---Confidential-Auditing-by-Nick-Szabo-e2oqkk&quot;&gt;Confidential Auditing by Nick Szabo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_200 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_200---Why-Bitcoins-Lightning-Network-is-Ingenious-e2plij&quot;&gt;Why Bitcoin’s Lightning Network is Ingenious&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_008 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_008---Under-the-Lightning-Hood-with-petoveritas--Crypt0PuraVida---CoinBeezy-e2q4gf&quot;&gt;Under the Lightning Hood with @petoveritas, @Crypt0PuraVida, &amp;amp; @CoinBeezy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_206 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_206---Reckless-to-Wumbology--The-Lightning-Network-Infrastructural-Build-Out-e3235m&quot;&gt;#Reckless to Wumbology, The Lightning Network Infrastructural Build-Out&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_008 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_008---The-Lightning-of-my-TCP--or-How-the-Internet-is-Too-Complex-to-Work-e32omd&quot;&gt;The Lightning of my TCP, or How the Internet is Too Complex to Work&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_009 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_009---Holding-the-Lightning-Torch-on-the-Rollo--Slappy-Show-e36t53&quot;&gt;Holding the Lightning Torch on the Rollo &amp;amp; Slappy Show&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_011 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_011---Lightning--Paywall-Link---the-Bootstrap-Bandit-e3smfp&quot;&gt;Lightning, Paywall.Link, &amp;amp; the Bootstrap Bandit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_011 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_011---Why-Lightning-Sucks-e3r95t&quot;&gt;Why Lightning Sucks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_014 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_014---The-What--Why---How-of-Lightning-e41pbe&quot;&gt;The What, Why, &amp;amp; How of Lightning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_248 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_248---Bitrefills-Hottest-Lightning-Tech-of-2019-e426ph&quot;&gt;Bitrefill’s Hottest Lightning Tech of 2019!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_259 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_259---Lightning-at-the-End-of-the-Tunnel-e4a35k&quot;&gt;Lightning at the End of the Tunnel&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;lapps&quot;&gt;LApps&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dev.lightning.community/lapps/&quot;&gt;&lt;img src=&quot;https://imgur.com/qs08w40.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuickRead_031.5 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuickRead_031-5---Lapp-1---FileBazaar-e2ndts&quot;&gt;Lapp 1 - FileBazaar&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_032.5 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_032-5---Lapp-2---Lightning-Publisher-e2ndtq&quot;&gt;Lapp 2 - Lightning Publisher&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_033.5 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_033-5---LApp-3---NanoTip-e2ndto&quot;&gt;LApp 3 - NanoTip&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_034.5 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_034-5---LApp-4---PayPerCall-e2ndtm&quot;&gt;LApp 4 - PayPerCall&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_035.5 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_035-5---LApp-5---Nanopos-for-Simple-Point-of-Sale-e2ndtk&quot;&gt;LApp 5 - Nanopos for Simple Point-of-Sale&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_036.5 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_036-5---LApp-6---Ifpaytt-Brings-Lightning-Payments-to-IFTTT-e2ndth&quot;&gt;LApp 6 - Ifpaytt Brings Lightning Payments to IFTTT&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_037.5 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_037-5---Lapp-7---The-Lightning-Jukebox-e2ndti&quot;&gt;Lapp 7 - The Lightning Jukebox&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ethereum&quot;&gt;Ethereum&lt;/h2&gt;
-
-&lt;figure class=&quot;&quot;&gt;
-  &lt;img src=&quot;https://imgur.com/FuTVcMm.png&quot; alt=&quot;&quot; /&gt;
-  
-    &lt;figcaption&gt;
-      &lt;a href=&quot;https://medium.com/mycrypto/the-future-of-ethereum-doesnt-have-wallets-232fcee708bf&quot;&gt;The Future of Ethereum Doesn’t Have Wallets&lt;/a&gt;
-
-    &lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_019 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_019---The-Future-of-Ethereum-Doesnt-Have-Wallets-e2ndu9&quot;&gt;The Future of Ethereum Doesn’t Have Wallets&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_041 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_041---A-Proof-of-Stake-Design-Philosophy-e2ndtb&quot;&gt;A Proof of Stake Design Philosophy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_042 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_042---Critique-of-Buterins-Proof-of-Stake-Design-Philosophy-e2ndt7&quot;&gt;Critique of Buterin’s Proof of Stake Design Philosophy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_090 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_090---Sharding-Centralizes-Ethereum-e2ndrr&quot;&gt;Sharding Centralizes Ethereum&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_098 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_098---The-Challenges-of-Building-Ethereum-Infrastructure-e2ndrn&quot;&gt;The Challenges of Building Ethereum Infrastructure&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_121 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_121---Ethereum--Fomo3D--and-Dangerous-Game-Theory-e2ndqp&quot;&gt;Ethereum, Fomo3D, and Dangerous Game Theory&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_223 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_223---Ethereum-Architecture-is-Flawed-e3i5k1&quot;&gt;Ethereum Architecture is Flawed&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;crypto&quot;&gt;Crypto&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://venturebeat.com/2018/02/10/what-you-may-not-understand-about-cryptos-millionaires/&quot;&gt;&lt;img src=&quot;https://imgur.com/xZHzzzi.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_006 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_006---What-You-May-Not-Understand-About-Crypto-Millionaires-e2ndul&quot;&gt;What You May Not Understand About Crypto Millionaires&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_014 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_014---Bulletproofs--Faster-Rangeproofs--and-Much-More-e2ndue&quot;&gt;Bulletproofs, Faster Rangeproofs, and Much More&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_015 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_015---Venezuala-Launches-Petros-Cryptocurrency-Amid-Growing-Skepticism-e2ndud&quot;&gt;Venezuala Launches “Petros” Cryptocurrency Amid Growing Skepticism&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_018 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_018---Why-Decentralization-Matters-e2ndua&quot;&gt;Why Decentralization Matters&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_022 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_022---Sidechains---Why-These-Researchers-Think-They-Solved-a-Key-Piece-of-the-Puzzle-e2ndu6&quot;&gt;Sidechains - Why These Researchers Think They Solved a Key Piece of the Puzzle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuickRead_035 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuickRead_035---The-Digital-Age-of-Securities-e2ndtl&quot;&gt;The Digital Age of Securities&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_066 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_066---Money--Blockchains--and-Social-Scalability-e2ndsj&quot;&gt;Money, Blockchains, and Social Scalability&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_067 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_067---Giacomo-Zuccos-Epic-Twitter-Thread-e2ndsi&quot;&gt;Giacomo Zucco’s Epic Twitter Thread&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://threadreaderapp.com/thread/991438132812943369.html&quot;&gt;threadreaderapp.com/thread/991438132812943369.html&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_078 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_078---Tari-Blockchain-for-Digital-Assets-on-Monero-e2nds9&quot;&gt;Tari Blockchain for Digital Assets on Monero&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_079 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_079---The-Security-Token-Thesis-e2nds4&quot;&gt;The Security Token Thesis&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_080 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_080---Amid-Chaos--Our-Decentralized-Future-is-Being-Built-e2ndsb_&quot;&gt;Amid Chaos, Our Decentralized Future is Being Built&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_092 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_092---The-Truth-About-Smart-Contracts-e2ndrq&quot;&gt;The Truth About Smart Contracts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_097 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_097---I-HODL-e2ndrj&quot;&gt;I HODL&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_101 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_101---How-Easy-it-is-to-Buy-ICO-Ratings-e2ndrf&quot;&gt;How Easy it is to Buy ICO Ratings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_103 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_103---Crypto-Commons-e2ndre&quot;&gt;Crypto Commons&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_104 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_104---Crypto-Incrementalism-vs-Crypto-Anarchy-e2ndrd&quot;&gt;Crypto-Incrementalism vs Crypto-Anarchy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_003 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_003---Nik-Bhatia-on-The-Future-of-Bitcoin-Financial-Markets-e2ndqv&quot;&gt;Nik Bhatia on The Future of Bitcoin Financial Markets&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_004 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_004---John-Wolpert-on-Blockchain--Identity--Trust--and-a-New-Internet-e2ndqo&quot;&gt;John Wolpert on Blockchain, Identity, Trust, and a New Internet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_110 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_110---Adversaries--Distributed-Ledgers--and-Decentralization-e2ndr6&quot;&gt;Adversaries, Distributed Ledgers, and Decentralization&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_129 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_129---Responsible-Disclosure-in-the-Era-of-Cryptocurrencies-e2ndqg&quot;&gt;Responsible Disclosure in the Era of Cryptocurrencies&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_131 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_131---BCH-Update-Bitmain--BCH--the-IPO--What-it-All-Actually-Means-e2ndqe&quot;&gt;BCH Update: Bitmain, BCH, the IPO &amp;amp; What it All Actually Means&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_145 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_145---Giacomo-on-SPV-and-Digital-Coinage-e2ndpv&quot;&gt;Giacomo on SPV and Digital Coinage&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_173 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_173---Reimagining-Trusted-Intermediaries-e2ndov&quot;&gt;Reimagining Trusted Intermediaries&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_170 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_170---If-Games-Drive-Crypto-Mass-Adoption--Then-it-Will-be-Grassroots-e2ndp3&quot;&gt;If Games Drive Crypto Mass Adoption, Then it Will be Grassroots&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;“If you build a system meant by its very nature to dis-intermediate third parties and exist independent of governments and legal systems, you have an identity problem.” -Nic Carter Another excellent piece by Nic Carter exploring the very idea of identity in a decentralized system and the ongoing battles for the vision of Bitcoin.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_228 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_228---Minimum-Viable-Decentralization-e3lfo9&quot;&gt;Minimum Viable Decentralization&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;the-cryptocurrency-phenomenon&quot;&gt;The Cryptocurrency Phenomenon&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://iterative.capital/thesis/&quot;&gt;&lt;img src=&quot;https://imgur.com/XyMR2ev.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/Whats-Really-Driving-the-Cryptocurrency-Phenomenon----The-Iterative-Capital-Thesis-e2u7qq&quot;&gt;What’s Really Driving the Cryptocurrency Phenomenon? - The Iterative Capital Thesis&lt;/a&gt; -Complete&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Quick Reads&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_186 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_186---The-Cryptocurrency-Phenomenon-Part-1-e2ndoh&quot;&gt;The Cryptocurrency Phenomenon [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_187 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_187---The-Cryptocurrency-Phenomenon-Part-2-e2ndoe&quot;&gt;The Cryptocurrency Phenomenon [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_188 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_188---The-Cryptocurrency-Phenomenon-Part-3-e2ndod&quot;&gt;The Cryptocurrency Phenomenon [Part 3]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_189 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_189---The-Cryptocurrency-Phenomenon-Part-4-e2ndoc&quot;&gt;The Cryptocurrency Phenomenon [Part 4]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_190 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_190---The-Cryptocurrency-Phenomenon-Part-5-e2ndoa&quot;&gt;The Cryptocurrency Phenomenon [Part 5]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_191 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_191---The-Cryptocurrency-Phenomenon-Part-6-e2ndo8&quot;&gt;The Cryptocurrency Phenomenon [Part 6]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_192 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_192---The-Cryptocurrency-Phenomenon-Part-7-e2ndo9&quot;&gt;The Cryptocurrency Phenomenon [Part 7]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_193 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_193---The-Cryptocurrency-Phenomenon-Part-8-e2ndo5&quot;&gt;The Cryptocurrency Phenomenon [Part 8]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_194 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_194---The-Cryptocurrency-Phenomenon-Part-9-e2ndo4&quot;&gt;The Cryptocurrency Phenomenon [Part 9]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mining&quot;&gt;Mining&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@jimmysong/mining-centralization-scenarios-b74102adbd36&quot;&gt;&lt;img src=&quot;https://imgur.com/nG6qFGn.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_052 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_052---Mining-Centralization-Scenarios-e2ndt1&quot;&gt;Mining Centralization Scenarios&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_088 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_088---Feared-51-Attacks-Are-Now-Becoming-Regular-e2ndrs&quot;&gt;Feared 51% Attacks Are Now Becoming Regular&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_091 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_091---BetterHash-Aims-to-Increase-Bitcoin-Mining-Decentralization-e2ndro&quot;&gt;BetterHash Aims to Increase Bitcoin Mining Decentralization&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_124 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_124---ASIC-Resistance-is-Nothing-but-a-Blockchain-Buzzword-e2ndql&quot;&gt;ASIC Resistance is Nothing but a Blockchain Buzzword&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GuysTake_015 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/GuysTake_015---The-Bcash-51-Attack-e44su2&quot;&gt;The Bcash 51% Attack&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;verge&quot;&gt;Verge&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.theabacus.io/the-verge-hack-explained-7942f63a3017&quot;&gt;&lt;img src=&quot;https://imgur.com/cRWuNOr.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_076 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_076---The-Verge-Hack--Explained-e2nds5&quot;&gt;The Verge Hack, Explained&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_094 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_094---Lets-Do-the-Time-Warp-Again--Verge-Hack-Part-Deux-e2ndrm&quot;&gt;Let’s Do the Time Warp Again, Verge Hack Part Deux&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_001 with Daniel Goldman - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_001-with-Daniel-Goldman---Verge--Digital-Gold--Forks--and-Going-Down-the-Rabbit-Hole-e2ndr9&quot;&gt;Verge, Digital Gold, Forks, and Going Down the Rabbit Hole&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;regulators&quot;&gt;Regulators&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.sec.gov/news/testimony/testimony-virtual-currencies-oversight-role-us-securities-and-exchange-commission&quot;&gt;&lt;img src=&quot;https://imgur.com/8h8rfat.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CryptoQuikRead_005 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_005---SEC-Chairs-Written-Testimony-e2ndum&quot;&gt;SEC Chair’s Written Testimony&lt;/a&gt; - 03/01/18&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_012 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_012---Wyoming-House-Unanimously-Approves-Two-Pro-Blockchain-Bills-e2ndug&quot;&gt;Wyoming House Unanimously Approves Two Pro-Blockchain Bills&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_023 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_023---CFTC-Moves-to-Cement-Authority-Over-Crypto-Fraud-Cases-e2ndu5&quot;&gt;CFTC Moves to Cement Authority Over Crypto Fraud Cases&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_024 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_024---NY-Legislator-Proposes-BitLicense-Alternative-for-Cryptocurrency-Users-e2ndu4&quot;&gt;NY Legislator Proposes BitLicense Alternative for Cryptocurrency Users&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_028 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_028---Congress-Releases-Report-Praising-Cryptocurrency-and-Blockchain-Technology-e2ndu0&quot;&gt;Congress Releases Report Praising Cryptocurrency and Blockchain Technology&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_030 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_030---The-NSA-Tracks-Down-Bitcoin-Users-e2ndtu&quot;&gt;The NSA Tracks Down Bitcoin Users&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_033 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_033---Binance-Seeks-New-Home-in-Malta-e2ndtp&quot;&gt;Binance Seeks New Home in Malta&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_116 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_116---Coindesk--Jake-Chervinsky-on-the-Bitcoin-ETFs-e2ndqu&quot;&gt;Coindesk &amp;amp; Jake Chervinsky on the Bitcoin ETFs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_119 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_119---Deep-Dive-into-ETF-Disapproval-and-SEC-Commissioners-Dissent-e2ndqr&quot;&gt;Deep Dive into ETF Disapproval and SEC Commissioner’s Dissent&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_171 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_171---Mr-Fantastic--A-Response-to-Nouriel-Roubinis-Senate-Testimony-e2ndp2&quot;&gt;Mr Fantastic, A Response to Nouriel Roubini’s Senate Testimony&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoChat_002 with &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoChat_002-with-The-Friends-Against-Government-Podcast-e2ndr2&quot;&gt;The Friends Against Government Podcast&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_229 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_229---Why-the-State-Demands-Control-of-Money-e3m7v3&quot;&gt;Why the State Demands Control of Money&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/The-Case-for-Electronic-Cash-e3rhj6&quot;&gt;The Case for Electronic Cash&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_230 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_230---The-Case-for-Electronic-Cash-Part-1-e3mjj7&quot;&gt;The Case for Electronic Cash [Part 1]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_231 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_231---The-Case-for-Electronic-Cash-Part-2-e3n1t5&quot;&gt;The Case for Electronic Cash [Part 2]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_232 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_232---The-Case-for-Electronic-Cash-Part-3-e3nbhu&quot;&gt;The Case for Electronic Cash [Part 3]&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CryptoQuikRead_233 - &lt;a href=&quot;https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_233---Exit--Freedom-e3nleo&quot;&gt;Exit &amp;amp; Freedom&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="Podcast" /><category term="Literature" /><summary type="html">Guy Swan has been recording audio for Hundreds of Essential Bitcoin Articles, for over a year. If you haven't listened yet, yer doing it wrong!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>⧉ Infominer</name></author><category term="Mark Miller" /><category term="Eric Drexler" /><category term="ObCap" /><category term="Smart Contracts" /><category term="Literature" /><summary type="html">Modern smart contract systems should learn a lesson or five from it, most importantly, (object) capability security. [[...](https://news.ycombinator.com/item?id=19986189)] it lets programs handle permissions like other objects, keeping them apart and thus reducing the attack surface and preventing Confused Deputy attacks.</summary></entry></feed>
