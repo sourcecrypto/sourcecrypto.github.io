@@ -6,13 +6,9 @@ header:
   caption: "[The Bahamas is issuing cryptocurrency regulations to fight fraudulent ICOs](https://thenextweb.com/hardfork/2018/11/09/bahamas-regulating-bitcoin/)"
 permalink: /posts/history/blockchain-bahamas-crypto-caribbean/
 redirect_from: /bitcoin-history/blockchain-bahamas-crypto-caribbean/
-canonical_url: 'https://sourcecrypto.pub/posts/history/blockchain-bahamas-crypto-caribbean/'
-classes: wide
-toc: false
-categories: ["History"]
-tags: ["Bahamas","Caribbean"]
+redirect_to: 'https://github.com/sourcecrypto/bahamas-crypto'
+canonical_url: 'https://github.com/sourcecrypto/bahamas-crypto'
 last_modified_at: 2019-05-27T13:22:33-23:00
-
 ---
 
 Pristine beaches and palm trees are the first thing that come to mind. Of course, the Bahamas are also famous for their tax-protected off-shore banking. However, the Bahamas are now digital pioneers, with an eye to become the tech leaders of the Caribbean. I'm assembling this repository in collaboration with [CSB Tech Emporium](https://www.csbtechemporium.com/grand-bahama-silicon-valley-of-caribbean/), to track the development and adoption of cryptocurrency and blockchain in the Bahamas.

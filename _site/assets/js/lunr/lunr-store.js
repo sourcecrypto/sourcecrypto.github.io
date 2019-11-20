@@ -495,8 +495,8 @@ var store = [{
         "url": "http://localhost:4000/about/",
         "teaser":"http://localhost:4000/images/source-crypto-disco.png"},{
         "title": "Bahamas: The 'Silicon Valley' of the Caribbean",
-        "excerpt":"Pristine beaches and palm trees are the first thing that come to mind. Of course, the Bahamas are also famous for their tax-protected off-shore banking. However, the Bahamas are now digital pioneers, with an eye to become the tech leaders of the Caribbean. I’m assembling this repository in collaboration with...","categories": ["History"],
-        "tags": ["Bahamas","Caribbean"],
+        "excerpt":" ","categories": [],
+        "tags": [],
         "url": "http://localhost:4000/posts/history/blockchain-bahamas-crypto-caribbean/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
         "title": "Bitcoin History",
@@ -643,7 +643,7 @@ var store = [{
         "excerpt":"Lightning Network - Resource and Information Guide - LNRoute LightningHood lopp.net - Lightning Network Resources (source) https://github.com/lightningnetwork/lightning-rfc -Lightning Network Specifications https://lightninginabox.co Lightning Nodes Easiest Bitcoin Lightning Guide! Easiest BTC/LN desktop app, for Windows, macOS, and Linux Lightning Network BOLT implementation The perfect Bitcoin Lightning️ node - Tutorial https://github.com/mit-dci/lit -Lightning Network...","categories": ["Bitcoin"],
         "tags": ["Layer 2","Lightning"],
         "url": "http://localhost:4000/posts/Bitcoin/lightning/",
-        "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
+        "teaser":"http://localhost:4000/images/jack-dorsey-lightning-network-torch-710x458.jpg"},{
         "title": "Agoric and the Decades-Long Quest for Secure Smart Contracts - Hyperlink Annotation",
         "excerpt":"This is a transcript of the epicenter podcast, where Brian Fabien Crain and Friederike Ernst interviews Mark Miller on the history of smart contracts, the Agoric Papers, and more. I’ve adapted Epicenter’s transcription (CC-BY-NC-SA) of that interview - adding links and headings, for acessibility purposes. UPDATE: The Agoric team added...","categories": ["Transcripts","History","Agoric"],
         "tags": ["Mark Miller","ObCap","Smart Contracts"],
