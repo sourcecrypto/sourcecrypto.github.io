@@ -23,6 +23,8 @@ tags:
 
 permalink: /posts/recap/
 canonical_url: "https://sourcecrypto.pub/posts/recap/"
+
+frmsub: TRUE
 ---
 
 ## Recap
