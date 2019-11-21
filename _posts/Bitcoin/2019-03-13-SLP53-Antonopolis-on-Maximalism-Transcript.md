@@ -19,7 +19,7 @@ tags:
 redirect_from:
   - /transcripts/SLP53-Livera-Antonopolis-Maximalism-Transcript/
 permalink: '/posts/transcripts/SLP53-Livera-Antonopolis-Maximalism-Transcript/'
-cannonical_url: 'https://sourcecrypto.pub/posts/transcripts/JW-Weatherman-Interview-Tim-May/'
+cannonical_url: 'https://sourcecrypto.pub/posts/SLP53-Livera-Antonopolis-Maximalism-Transcript/'
 
 ---
 
