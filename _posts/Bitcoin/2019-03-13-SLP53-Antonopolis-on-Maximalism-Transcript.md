@@ -5,8 +5,9 @@ description: Transcript of Stephan Livera with Andreas Antonopoulos - On Bitcoin
 excerpt: "..the term was coined by Vitalik return who used it to criticize the position that only Bitcoin matters or only Bitcoin will survive and I think that might be perhaps overstating it. but it was very quickly embraced by quite a few people who who found it to be a very comfortable position to take, and didn't see that as a provocation by Vitalik."
 share: true
 header: 
-  image: "/images/antonop-livera-maximalism.png"
+  image: "/images/antonop-livera-maximalism-header.png"
   teaser: "/images/antonop-livera-maximalism.png"
+  caption: "[SLP53 ANDREAS M. ANTONOPOULOS – ON BITCOIN MAXIMALISM](https://stephanlivera.com/episode/53)"
 toc: false
 classes: wide
 last_modified_at: 2019-04-20T11:22:33-23:00
@@ -23,11 +24,6 @@ cannonical_url: 'https://sourcecrypto.pub/posts/transcripts/JW-Weatherman-Interv
 ---
 
 **Stephan Livera and Andreas M. Antonopoulos - On Bitcoin Maximalism**
-
-
-<code>Editors Note: I've taken to working on youtube transcripts of podcasts and videos whos content is valuable and not easily accessible in text form, so that it will be easier for anyone to reference. Lightly edited, just enough to make the youtube auto-transcript navigable.</code> 
-
-<code>Concerning this particular transcript, I'm hoping for some maximalist feedback on Andreas' arguments. His case is compelling. This will make community review and response easier—<a href="https://infominer.id">infominer</a></code>
 
 <a href="https://stephanlivera.com/episode/53"><img src="https://i.imgur.com/7HFlgoJ.png"/></a>
 
