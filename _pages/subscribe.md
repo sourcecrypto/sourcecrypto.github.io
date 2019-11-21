@@ -8,6 +8,7 @@ header:
 sidebar:
   nav: sourcedisco
 frmsub: TRUE
+redirect_from: updates/
 ---
 
 I'm taking a step back from social media, so I can focus better on creating informative resources, and curated collections.
