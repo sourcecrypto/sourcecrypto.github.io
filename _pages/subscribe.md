@@ -41,4 +41,4 @@ Eventually, I might experient with a monthly newsletter with an occasional promo
 
 ## Read
 
-{% include feature_row id="collab" %}
+{% include feature_row id="collab" type="left" %}
