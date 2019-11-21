@@ -565,7 +565,7 @@ var store = [{
         "url": "http://localhost:4000/posts/history/united-nations/",
         "teaser":"https://sourcecrypto.pub/images/bitcoin-history/unblockchain.jpg"},{
         "title": "Stephan Livera Podcast 53 with Andreas Antonopolous",
-        "excerpt":"Stephan Livera and Andreas M. Antonopoulos - On Bitcoin Maximalism Editors Note: I've taken to working on youtube transcripts of podcasts and videos whos content is valuable and not easily accessible in text form, so that it will be easier for anyone to reference. Lightly edited, just enough to make...","categories": ["Transcripts","Bitcoin"],
+        "excerpt":"Stephan Livera and Andreas M. Antonopoulos - On Bitcoin Maximalism https://stephanlivera.com/episode/53 Description https://www.youtube.com/watch?v=b9i21sSOImo Andreas M. Antonopoulos (best-selling author, speaker and bitcoin educator) joins me in this episode to talk about his views on Bitcoin Maximalism as contrasted with a multicoin view. Andreas and I disagree and present clashing visions. We...","categories": ["Transcripts","Bitcoin"],
         "tags": ["Stephan Livera","Andreas Antonopolous","Bitcoin Maximalism"],
         "url": "http://localhost:4000/posts/transcripts/SLP53-Livera-Antonopolis-Maximalism-Transcript/",
         "teaser":"http://localhost:4000/images/antonop-livera-maximalism.png"},{
