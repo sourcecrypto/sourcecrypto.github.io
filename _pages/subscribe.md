@@ -9,6 +9,13 @@ sidebar:
   nav: sourcedisco
 frmsub: TRUE
 redirect_from: updates/
+collab:
+  - image_path: "/images/feature-blog-teaser.png"
+    alt: "Contributors Guide"
+    title: "Stepping Back and Moving Forward"
+    excerpt: "After a couple years of dedicated curation and learning the landscape, now's a good time to take a step back, reflect and optimize the workflow."
+    url: "/posts/recap/"
+classes: wide
 ---
 
 I'm taking a step back from social media, so I can focus better on creating informative resources, and curated collections.
@@ -31,3 +38,7 @@ Eventually, I might experient with a monthly newsletter with an occasional promo
         <button type="submit">Submit</button>
     </form>
 </div>
+
+## Read
+
+{% include feature_row id="collab" %}
