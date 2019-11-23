@@ -15,7 +15,7 @@ tags: ["Layer 2","Lightning"]
 last_modified_at: 2019-11-23T11:22:33-23:00
 ---
 
-## Lightni*N*g*Fo*
+## Lightni*N*g*FO*
 
 [lnroute.com](https://lnroute.com/) — Lightning Network Resource and Information Guide
 
