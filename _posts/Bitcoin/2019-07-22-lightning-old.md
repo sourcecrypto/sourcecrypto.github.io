@@ -17,12 +17,6 @@ published: false
 ---
 
 
-* [Lightning Network - Resource and Information Guide - LNRoute](https://lnroute.com)
-* [LightningHood](https://lightninghood.com/)
-* [lopp.net - Lightning Network Resources](https://www.lopp.net/lightning-information.html) ([source](https://github.com/jlopp/lopp.net/blob/master/lightning-information.html))
-* https://github.com/lightningnetwork/lightning-rfc -Lightning Network Specifications
-* https://lightninginabox.co
-
 ## Lightning Nodes
 
 * [Easiest Bitcoin Lightning Guide!](https://medium.com/lightning-power-users/windows-macos-lightning-network-284bd5034340)

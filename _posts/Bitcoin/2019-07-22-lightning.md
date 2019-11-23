@@ -28,7 +28,7 @@ last_modified_at: 2019-11-23T11:22:33-23:00
 [dev.lightning.community/resources](https://dev.lightning.community/resources/)
 > Developer resources and documentation for the Lightning Network Daemon.
 
-[lopp.net/lightning-information.html](https://www.lopp.net/lightning-information.html)
+[lopp.net - Lightning Network Resources](https://www.lopp.net/lightning-information.html) ([source](https://github.com/jlopp/lopp.net/blob/master/lightning-information.html))
 > A comprehensive guide to educational Lightning Network information & resources.
 
 [blog.lightning.engineering](https://blog.lightning.engineering/)
