@@ -6,8 +6,8 @@ header:
   image: /images/thecryptoconomy-podcast_guy-swann-header.png
   teaser: /images/thecryptoconomy-podcast_guy-swann.png
   og_image: /images/thecryptoconomy-podcast_guy-swann.png
-  caption   : "[@TheCryptoconomy](https://mobile.twitter.com/TheCryptoconomy) - Guy Swann - [cryptoconomy.life](https://cryptoconomy.life) - [Anchor.fm/TheCryptoconomy](http://Anchor.fm/TheCryptoconomy)"
-excerpt: "Guy Swan has been recording audio for Hundreds of Essential Bitcoin Articles, for over a year. If you haven't listened yet, yer doing it wrong!"
+  caption   : "[@TheCryptoconomy](https://twitter.com/TheCryptoconomy) - Guy Swann - [cryptoconomy.life](https://cryptoconomy.life) - [Anchor.fm/TheCryptoconomy](http://Anchor.fm/TheCryptoconomy)"
+excerpt: "Guy Swan has recorded thousands of hours, reading essential Bitcoin literature. Here's a linked list of episodes organized by category."
 sidebar:
   nav: sourcedisco 
 toc: true
