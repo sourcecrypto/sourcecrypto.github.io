@@ -639,8 +639,8 @@ var store = [{
         "tags": ["Resources"],
         "url": "http://localhost:4000/posts/Bitcoin/",
         "teaser":"http://localhost:4000/images/source-crypto-gh-og.png"},{
-        "title": "Practical Lightning: Wallets, Applications, Guides and Development",
-        "excerpt":"Lightning Network - Resource and Information Guide - LNRoute LightningHood lopp.net - Lightning Network Resources (source) https://github.com/lightningnetwork/lightning-rfc -Lightning Network Specifications https://lightninginabox.co Lightning Nodes Easiest Bitcoin Lightning Guide! Easiest BTC/LN desktop app, for Windows, macOS, and Linux Lightning Network BOLT implementation The perfect Bitcoin Lightning️ node - Tutorial https://github.com/mit-dci/lit -Lightning Network...","categories": ["Bitcoin"],
+        "title": "LightniNgFo: Wallets, Applications, Guides and Development",
+        "excerpt":"LightniNgFO lnroute.com — Lightning Network Resource and Information Guide bcongdon/awesome-lightning-network A curated list of awesome Lightning Network projects for developers and crypto enthusiasts Making sense of Lightning network nodes and money transmission licensing An update on Coin Center’s work to avoid unnecessary regulatory burdens on technologists. dev.lightning.community/resources Developer resources and...","categories": ["Bitcoin"],
         "tags": ["Layer 2","Lightning"],
         "url": "http://localhost:4000/posts/Bitcoin/lightning/",
         "teaser":"http://localhost:4000/images/jack-dorsey-lightning-network-torch-710x458.jpg"},{

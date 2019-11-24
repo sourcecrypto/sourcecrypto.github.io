@@ -1,4 +1,4 @@
-I"ʽ<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
+I"ֽ<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
 
 <h2>Pages</h2>
 
@@ -252,7 +252,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/" rel="permalink">Curated Bitcoin and Blockchain Info</a>
+        <a href="/" rel="permalink">Bitcoin, Blockchain, Crypto Histories and Relevant Info</a>
       
     </h2>
     
@@ -1411,7 +1411,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/posts/Bitcoin/lightning/" rel="permalink">Practical Lightning: Wallets, Applications, Guides and Development
+        <a href="/posts/Bitcoin/lightning/" rel="permalink">LightniNgFo: Wallets, Applications, Guides and Development
 </a>
       
     </h2>
@@ -1421,7 +1421,7 @@
 
 
 
-  11 minute read
+  24 minute read
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">Links to code, howtos, and other resources related to practical use of Lightning.
