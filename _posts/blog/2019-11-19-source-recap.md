@@ -45,7 +45,7 @@ It's always been my intent for these resources to be collaborative, and they hav
 
 Over the past year, I've gone deeper and deeper into the world of Bitcoin, FOSS, Indieweb, Decentralized Identity, standards organizations, working groups and mailing lists. I've studied histories surrounding AI, Decentralized Web, Cyberpunks, Cypherpunks, MIT hackers, Sovereign Identity, Cryptography, and other histories of computing and the internet.
 
-During that time, the irony of using discord and twitter while preparing a foundation for a collaborative curation platform. Discord was a matter of convenience, Twitter was an essential component of my education. Despite it's shortcomings, there is a lot of value to be gained from studying various fields through the lense of Twitter. 
+The irony of using discord and twitter while laying a foundation for a FOSS principled collaborative curation platform is not lost on me. Discord was a matter of convenience, Twitter was an essential component of my education. Despite it's shortcomings, there is plenty of value to be gained from studying various fields through the lense of Twitter. 
 
 ## Moving Forward
 
@@ -55,7 +55,7 @@ I'm just getting to know google sheets, and decided I should get to know the GSu
 
 I've also begun to experiment with Notion as a power tool. It allows me to import the individual html files of the archives, transform them into a single page, and then export them to markdown, from which it's managable to transform into a simple page of links organized by category, and from there to spreadsheets.
 
-Mattermost and keybase are both strong contenders for group chat platforms, I see them both doing well over the coming years. As far as social media, I think I'm better off looking to forum platforms and mailing lists... that's a lot closer to the sources of information I tend to be looking for, and my target demographics.
+Ultimately, I think a wiki of curated lists is a solid direction to generally aim towards.
 
 ## Subscribe for Updates
 
