@@ -51,7 +51,7 @@ The irony of using discord and twitter while laying a foundation for a FOSS prin
 
 It's time to move forward. I'd like to say I'm moving to 100% sovereign solutions, However, I'm not quite there yet. I have no definite answers, except that I'll be restructuring this information into markdown and then structured data.
 
-I'm just getting to know google sheets, and decided I should get to know the GSuite a litte better before dismissing it altogether (my inclinatino). However, spreadsheets are extensible, and an ideal stepping stone, between what's in the archives, and a variety of applications. 
+I'm just getting to know google sheets, and decided I should get to know the GSuite a litte better before dismissing it altogether (my inclination). Spreadsheets are extensible, and an ideal stepping stone, between the archives and a variety of applications. 
 
 I've also begun to experiment with Notion as a power tool. It allows me to import the individual html files of the archives, transform them into a single page, and then export them to markdown, from which it's managable to transform into a simple page of links organized by category, and from there to spreadsheets.
 
