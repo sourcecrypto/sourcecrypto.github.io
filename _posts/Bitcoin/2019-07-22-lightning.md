@@ -133,7 +133,7 @@ An easy-to-use cross-platform Lightning wallet.
   > An easy-to-use cross-platform Lightning wallet.
 * [LightningPeach Wallet](https://lightningpeach.com/peach-wallet) by Lightning Peach
 
-#### Mobile Wallet
+#### -Mobile
 
 [LNRoute.com/mobile-wallets/](https://lnroute.com/mobile-wallets/)
 
@@ -171,7 +171,7 @@ Muun Wallet Android
   > A mobile Bitcoin app for Lightning Network Daemon (lnd) node operators
 * [pebble.indiesquare.me](https://www.pebble.indiesquare.me/) 
 
-#### Web Based Wallet
+#### -Web Based
 
 [LNRoute online-wallets](https://lnroute.com/category/wallets/online-wallets/)
 
