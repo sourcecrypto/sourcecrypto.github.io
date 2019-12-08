@@ -246,7 +246,7 @@ Need a LN simnet? This tool can generate one for you.
   > Blockstream has expanded its bitcoin satellite service to the Asia-Pacific region and added support for Lightning Network transactions.
 
 
-## ⛈ Lightning Nodes
+## Nodes
 
 * [lightning-power-users/node-launcher](https://github.com/lightning-power-users/node-launcher)
   > Easiest BTC/LN desktop app, for Windows, macOS, and Linux
@@ -306,7 +306,7 @@ lightning payable e-bike.
 PHP interface for the elements/c-lightning RPC API - thorie7912/lightning-php
 
 
-### ⛈ LND - Lightning Network Daemon
+### ⛈ Lightning Network Daemon
 
 * [lightningnetwork/lnd/releases](https://github.com/lightningnetwork/lnd/releases)
 * [topics/lnd](https://github.com/topics/lnd)
@@ -358,7 +358,7 @@ The perfect Bitcoin Lightning️ node The goal is to create the perfect Bitcoin 
 * [BTCPi - Bitcoin Lightning Node and payment processing device.](https://lunanode1.lightninginabox.co/apps/3hucSJM9EYXGmp27fkoLwom8fRzc/crowdfund)
   > The BTCPi is a low cost self-hosted crypto currency payment processing solution featuring BTCPayServer.
 
-### ⛈ PI Raspberry
+#### ⛈ PI Raspberry
 
 * [Fulmo ⚡ (@fulmolightning)](https://twitter.com/fulmolightning/status/1035183579196743680)
 Get ready to rumble! The latest batch of 20 #RaspiBlitz, a full #Bitcoin and #LightningNetwork node running on a Raspberry Pi, is ready to be picked up and plugged in at the #LightningHackday! If you can't attend in person, you can build one yourself
@@ -367,7 +367,7 @@ Fastest and cheapest way to get your own Lightning Node running - on a Raspberry
 * [Stadicus/RaspiBolt](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md)
 Bitcoin & Lightning full node on a Raspberry Pi. 
 
-### ⛈ Casa Nodes
+#### ⛈ Casa Nodes
 
 * [Casa Node + Casa Gold Membership](https://store.casa/lightning-node/)
 Casa Node for Lightning and Bitcoin
@@ -377,7 +377,7 @@ The easiest way to use Lightning available today.
 * [Casa Node + Casa Gold Membership](https://store.casa/lightning-node/)
 Casa Node for Lightning and Bitcoin
 
-#### Casa Apps
+#### -Apps
 
 * [chrome.google.com/webstore/detail/casa-extension/lnaedehiikghclgaikolambpbpeknpef](https://chrome.google.com/webstore/detail/casa-extension/lnaedehiikghclgaikolambpbpeknpef) 
 * [Sats Extension by Casa](https://chrome.google.com/webstore/detail/casa-extension/lnaedehiikghclgaikolambpbpeknpef)
@@ -586,7 +586,7 @@ lightning payable e-bike.
   > Order Domino’s Pizza via the Lightning Network from anywhere in the US. Get 5% off when paying with Lightning! 
 * [hodlgang.store](https://www.hodlgang.store/)
 
-### games
+### ⚡ games
 
 [LNRoute - Bitcoin Lightning Powered Games](https://lnroute.com/category/implementations/games/)
 [satoshis.games](https://satoshis.games/) 
