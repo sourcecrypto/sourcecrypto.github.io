@@ -1,5 +1,5 @@
 ---
-title: "Practical Bitcoin: Tools, Apps and Guides"
+title: "Using Bitcoin: Tools, Apps and Guides"
 description: This page is for collecting and organizing information related to using Bitcoin in one way shape or form.
 toc_sticky: false
 excerpt: Links to code, howtos, and other resources related to practical use of Bitcoin.
@@ -12,10 +12,11 @@ header:
   caption: "[halfin@twitter 'Running Bitcoin'](https://twitter.com/halfin/status/1110302988)"
 categories: ["Bitcoin"]
 tags: ["Practical"]
-last_modified_at: 2019-11-04T11:22:33-23:00
+last_modified_at: 2019-12-08T11:22:33-23:00
 ---
 
-Now that I've studied "the blockchain" for a couple years, it's getting easier to navigate this space.  Meanwhile, Bitcoin has proven its dominance, and I'm increasingly compelled to focus *a lot* more on acquiring practical experience, aiming towards a sovereign work-flow.
+See Also: [Bitcoi*NFo* - Practical](https://docs.google.com/spreadsheets/d/1Z3Ofa4P8097VWV70Z_bMqIMladngvm-Ck24ot9TDNmw/) on Google Sheets 
+{: .notice--success}
 
 While there are already a number of excellent infomative lists, resources pages, and other collections, I haven't noticed any that focused specifically on *using* Bitcoin.
 
