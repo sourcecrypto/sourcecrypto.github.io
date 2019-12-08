@@ -367,7 +367,7 @@ Fastest and cheapest way to get your own Lightning Node running - on a Raspberry
 * [Stadicus/RaspiBolt](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md)
 Bitcoin & Lightning full node on a Raspberry Pi. 
 
-#### ⛈ Casa Nodes
+#### ⛈ Casa
 
 * [Casa Node + Casa Gold Membership](https://store.casa/lightning-node/)
 Casa Node for Lightning and Bitcoin
@@ -377,7 +377,7 @@ The easiest way to use Lightning available today.
 * [Casa Node + Casa Gold Membership](https://store.casa/lightning-node/)
 Casa Node for Lightning and Bitcoin
 
-#### -Apps
+**Apps**
 
 * [chrome.google.com/webstore/detail/casa-extension/lnaedehiikghclgaikolambpbpeknpef](https://chrome.google.com/webstore/detail/casa-extension/lnaedehiikghclgaikolambpbpeknpef) 
 * [Sats Extension by Casa](https://chrome.google.com/webstore/detail/casa-extension/lnaedehiikghclgaikolambpbpeknpef)
