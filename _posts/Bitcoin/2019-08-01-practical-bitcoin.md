@@ -1,8 +1,8 @@
 ---
-title: "Using Bitcoin: Tools, Apps and Guides"
+title: "Running Bitcoin: Tools, Apps and Guides"
 description: This page is for collecting and organizing information related to using Bitcoin in one way shape or form.
 toc_sticky: false
-excerpt: Links to code, howtos, and other resources related to practical use of Bitcoin.
+excerpt: Code, howtos, and other resources related to practical use of Bitcoin.
 permalink: posts/Bitcoin/practical/
 published: true
 header:
