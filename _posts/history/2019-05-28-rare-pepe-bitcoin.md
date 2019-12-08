@@ -90,7 +90,7 @@ categories: ["History","Bitcoin"]
   >Counterparty extends Bitcoin’s functionality by “writing in the margins” of regular Bitcoin transactions, opening the door for innovation and advanced features not possible with ordinary Bitcoin software.
 
 
-{% include video id="KHQLBsrk5ME" provider="youtube" %}
+{% include video id="9n3JqJSLIpc" provider="youtube" %}
 
 
 ## First Live Auction
