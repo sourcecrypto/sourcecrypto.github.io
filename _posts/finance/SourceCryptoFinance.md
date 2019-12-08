@@ -9,61 +9,19 @@ published: false
     [http://boards.4channel.org/biz/](http://boards.4channel.org/biz/)
 
     [/biz/ - Business & Finance - 4chan](http://boards.4channel.org/biz/)
-
-    "/biz/ - Business & Finance" is 4chan's imageboard for the discussion of business and finance, and cryptocurrencies such as Bitcoin and Dogecoin.
-
-
-    ⧉infominer 11-Aug-19 12:29 AM
-
-    [https://github.com/imbaniac/awesome-blockchain](https://github.com/imbaniac/awesome-blockchain)
+    imageboard for the discussion of business and finance, and cryptocurrencies such as Bitcoin and Dogecoin.
 
     [imbaniac/awesome-blockchain](https://github.com/imbaniac/awesome-blockchain)
 
-    [https://avatars0.githubusercontent.com/u/7271991?s=400&v=4](https://avatars0.githubusercontent.com/u/7271991?s=400&v=4)
-
-
-    ⧉infominer 22-Aug-19 07:04 AM
-
     [https://medium.com/@StrongWriters](https://medium.com/@StrongWriters)
-
-    [$trong – Medium](https://medium.com/@StrongWriters)
-
     Read writing from $trong on Medium. Cryptocurrency Writer. Every day, $trong and thousands of other voices read, write, and share important stories on Medium.
 
-    
-
-    ⧉infominer 25-Aug-19 02:23 AM
-
-    [https://flagtheory.com/archives/](https://flagtheory.com/archives/)
-
     [Flag Theory Blog on Offshore Internationalization - Flag Theory](https://flagtheory.com/archives/)
-
     Find actionable information on second passports, tax residency, offshore companies, offshore bank accounts, investments, cryptocurrencies and much more..
-
-    
-
-    ⧉infominer 26-Aug-19 02:49 AM
-
-    [http://premieroffshore.com/](http://premieroffshore.com/) (edited)
 
     [Premier Offshore Company Services - Research, News & Offshore Comp...](http://premieroffshore.com/)
 
-    Research, News & Offshore Company Formation Services
-
 - 📑-literature
-
-
-
-    Crypto⧉Finance
-
-    📑-literature
-
-    4 messages
-
-
-    ⧉infominer 27-Jul-19 12:00 AM
-
-    [https://mises.org/library/ethics-money-production](https://mises.org/library/ethics-money-production)
 
     [The Ethics of Money Production | Jörg Guido Hülsmann](https://mises.org/library/ethics-money-production)
 
@@ -79,16 +37,6 @@ published: false
 
     1/ Important paper published by my friend Prof Tonetti (@ChrisTonetti) and his colleague Prof Jones @StanfordGSB. They have rigorously studied the "economics of data" to show that there are large social gains from letting users own and sell their own data. Some key takeawa...
 
-    Likes
-
-    191
-
-    
-    Twitter
-
-
-    ⧉infominer 12-Aug-19 12:57 AM
-
     [https://github.com/xasos/awesome-decentralized-papers](https://github.com/xasos/awesome-decentralized-papers)
 
     [xasos/awesome-decentralized-papers](https://github.com/xasos/awesome-decentralized-papers)
@@ -100,85 +48,21 @@ published: false
 - 📑-legal
 
 
-
-    Crypto⧉Finance
-
-    📑-legal
-
-    otherwise organized by region
-
-    7 messages
-
-
-    ⧉infominer 27-Jul-19 12:37 AM
-
-    [https://twitter.com/NYcryptolawyer](https://twitter.com/NYcryptolawyer) [26-Jul-19 07:16 AM] ⧉infominer#2551 [https://twitter.com/NelsonMRosario/status/1030960932359467010?s=20](https://twitter.com/NelsonMRosario/status/1030960932359467010?s=20)
-
     [Lewis Cohen (@NYcryptolawyer)](https://twitter.com/NYcryptolawyer)
-
     Co-founder at DLx Law. Living on reds, vitamin C and blockchain. Speaks only for self. A tweet does not legal advice make. Ever. Be safe out there.
-
-    Tweets
-
-    1310
-
-    Followers
-
-    2378
-
     
-    
-    Twitter
-
-    
-    [Nelson M. Rosario (@NelsonMRosario)](https://twitter.com/NelsonMRosario)
-
+    [Nelson M. Rosario (@NelsonMRosario)](https://twitter.com/NelsonMRosario/status/1030960932359467010?s=20)
     @Nogoodtwts @stephendpalley Lots @valkenburgh @PeterTLuce @prestonjbyrne @jasonsomensatto @propelforward @angela_walch @msantoriESQ @awrigh01 @katherineykwu @dcsilver @FJasonSeibert @SamirPatelLaw @hackylawyER @San_person @ZachSmolinski and I'm sure I'm missing some more
-
-    
-    Twitter
-
-
-    ⧉infominer 27-Jul-19 02:42 AM
-
-    [https://twitter.com/notsofast/lists/crypto-law](https://twitter.com/notsofast/lists/crypto-law)
 
     [@notsofast/$crypto law on Twitter](https://twitter.com/notsofast/lists/crypto-law)
 
-    From breaking news and entertainment to sports and politics, get the full story with all the live commentary.
-
-    
-    Twitter
-
-
-    ⧉infominer 09-Aug-19 03:40 AM
-
     [https://twitter.com/cryptolawrev/status/1159577442832572416?s=12](https://twitter.com/cryptolawrev/status/1159577442832572416?s=12)
-
-    
-    [Crypto Law Review (@CryptoLawRev)](https://twitter.com/CryptoLawRev)
-
-    Pleasure help us push past 400 followers & spread the news on Twitter. We’re buzzing on @Medium but want to bring the action to #CryptoTwitter too. Let folks know about @CryptoLawRev by RTing your favorite CLR piece!!!
-
-    
-    Twitter
-
-
-    ⧉infominer 09-Aug-19 07:24 PM
-
-    [https://podcasts.apple.com/us/podcast/internet-history-podcast/id829119009?i=1000429578525](https://podcasts.apple.com/us/podcast/internet-history-podcast/id829119009?i=1000429578525)
 
     [‎Internet History Podcast: 189. A Legal History of the Web Era W...](https://podcasts.apple.com/us/podcast/internet-history-podcast/id829119009?i=1000429578525)
 
     ‎Show Internet History Podcast, Ep 189. A Legal History of the Web Era With Richard Chapo - Feb 10, 2019
 
-    
-
-    ⧉infominer 25-Aug-19 12:21 AM
-
     [https://techcrunch.com/2019/01/10/how-to-get-your-moneys-worth-from-your-startup-lawyer/](https://techcrunch.com/2019/01/10/how-to-get-your-moneys-worth-from-your-startup-lawyer/)
-
-    [Daniel McKenzie](https://techcrunch.com/author/daniel-mckenzie/)
 
     [How to get your money’s worth from your startup lawyer – TechC...](https://techcrunch.com/2019/01/10/how-to-get-your-moneys-worth-from-your-startup-lawyer/)
 
@@ -188,36 +72,22 @@ published: false
     2. Educate yourself and then let your lawyer know you understand the basics. Today there are numerous high-quality, free templates and other resources available for the most common legal tasks facing startups (see links below). If you need new Terms of Service, for example, carefully read one of the many templates available, insert comments where you see fit, and pass on this marvelous example of intellectual aspiration to your attorney for final drafting. This will let the attorney know you have a basic understanding of what the assignment entails and at the very least reduce perceived asymmetries of information, improving your relative bargaining position.
 
 
-    ⧉infominer 13-Sep-19 09:01 PM
-
-    [https://openlaw.io/](https://openlaw.io/)
-
     [OpenLaw — A free legal repository](https://openlaw.io/)
-
     We are home to a passionate group of people, technologists, and dreamers committed to rebuilding the legal industry.
 
     
 - 📑-how-to-earn-crypto
 
-
-
-    Crypto⧉Finance
-
-    📑-how-to-earn-crypto
-
-    8 messages
-
-
-    ⧉infominer 27-Jul-19 12:13 AM
-
-    [https://medium.com/@OpenNode/opennode-affiliate-program-262ad1d42ffc](https://medium.com/@OpenNode/opennode-affiliate-program-262ad1d42ffc) [https://news.bitcoin.com/new-freelancing-platform-supports-12-different-cryptocurrencies/](https://news.bitcoin.com/new-freelancing-platform-supports-12-different-cryptocurrencies/) [https://twitter.com/andreahamel2/status/1110395712863461377?s=12](https://twitter.com/andreahamel2/status/1110395712863461377?s=12) [https://www.reddit.com/r/Jobs4Bitcoins/comments/bfd9vr/from_broke_to_bitcoin_effective_tactics_for/?utm_source=share&utm_medium=ios_app](https://www.reddit.com/r/Jobs4Bitcoins/comments/bfd9vr/from_broke_to_bitcoin_effective_tactics_for/?utm_source=share&utm_medium=ios_app)
+    [https://medium.com/@OpenNode/opennode-affiliate-program-262ad1d42ffc](https://medium.com/@OpenNode/opennode-affiliate-program-262ad1d42ffc) 
+    
+    [https://news.bitcoin.com/new-freelancing-platform-supports-12-different-cryptocurrencies/](https://news.bitcoin.com/new-freelancing-platform-supports-12-different-cryptocurrencies/) 
+    
+    [https://twitter.com/andreahamel2/status/1110395712863461377?s=12](https://twitter.com/andreahamel2/status/1110395712863461377?s=12) 
+    
+    [https://www.reddit.com/r/Jobs4Bitcoins/comments/bfd9vr/from_broke_to_bitcoin_effective_tactics_for/?utm_source=share&utm_medium=ios_app](https://www.reddit.com/r/Jobs4Bitcoins/comments/bfd9vr/from_broke_to_bitcoin_effective_tactics_for/?utm_source=share&utm_medium=ios_app)
 
     [OpenNode Affiliate Program](https://medium.com/@OpenNode/opennode-affiliate-program-262ad1d42ffc)
 
-    Earn bitcoin while you sleep
-
-    
-    
     [New Freelancing Platform Supports 12 Different Cryptocurrencies - ...](https://news.bitcoin.com/new-freelancing-platform-supports-12-different-cryptocurrencies/)
 
     There’s a new freelance platform called Freelance for Coins that provides users with the ability to publish offers and bids for cryptocurrencies.

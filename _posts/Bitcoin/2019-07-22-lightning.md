@@ -15,6 +15,9 @@ tags: ["Layer 2","Lightning"]
 last_modified_at: 2019-12-08T11:22:33-23:00
 ---
 
+See Also: [Lightni*N*g*Fo* - Practical](https://docs.google.com/spreadsheets/d/1Z3Ofa4P8097VWV70Z_bMqIMladngvm-Ck24ot9TDNmw/edit#gid=794843569) on Google Sheets 
+{: .notice--success}
+
 ## Lightni*N*g*Fo*
 
 * [lnroute.com](https://lnroute.com/) — Lightning Network Resource and Information Guide
@@ -36,49 +39,15 @@ Resource and Information Guide
 * [lightningnetwork/lightning-rfc](https://github.com/lightningnetwork/lightning-rfc)
 Lightning Network Specifications. 
 
-### 💡 lightning
+### 💡 info
 
-* [Noded 0.5.0 with Jack Mallers](https://noded.org/podcast/noded-050-with-jack-mallers/)
-  > Michael Goldstein and Pierre Rochard chat with Jack Mallers about the Lightning Network and his Zap wallet.
-* [Noded 0.25.0 with James O'Beirne and Lightning K0ala](https://noded.org/podcast/noded-0250-with-james-obeirne-and-lightning-k0ala/)
-  > Michael Goldstein and Pierre Rochard talk with James O'Beirne and Lightning K0ala about the Chaincode Labs Lightning Residency.
-* [Stadicus 🌮⚡🔑 (@Stadicus3000)](https://twitter.com/Stadicus3000)
-  > @xavierfiechter @is_cooked @wiz You can find the board at Pine64 ([t.co/R04vWu2FxY)](https://t.co/R04vWu2FxY)) and more info how we are using it for the #BitBoxBase in our emerging documentation ([t.co/hFNX5s3HXJ)](https://t.co/hFNX5s3HXJ))
-* [twitter.com/timevalueofbtc/status/1078337607493332992](https://twitter.com/timevalueofbtc/status/1078337607493332992)
-  > Recent interviews given by @roasbeef @bitconner and tweets by @alexbosworth confirm my initial theory about the potential for operating a profitable Lightning node: payment channel management skill is the primary driver of profits. Merely staking capital ensures nothing.
-* [twitter.com/NickSzabo4/status/846492284036145152](https://twitter.com/NickSzabo4/status/846492284036145152)
-* [@timevalueofbtc - The Bitcoin Second Layer](https://medium.com/@timevalueofbtc/the-bitcoin-second-layer-d503949d0a06) 
 * [Making sense of Lightning network nodes and money transmission licensing](https://coincenter.org/entry/making-sense-of-lightning-network-nodes-and-money-transmission-licensing) 
   > An update on Coin Center’s work to avoid unnecessary regulatory burdens on technologists.
-* [twitter.com/stephanlivera/status/1028079725460111360](https://twitter.com/stephanlivera/status/1028079725460111360)
-  > SLP9 - Lightning UX and Routing, with @bvu VP, Product of @lightning We discuss: - Lightning User Experience - Lightning Routing - Benefits for users, merchants and exchanges - Autopilot, watchtowers, AMP, splicing listen, subscribe, share! [t.co/QJAIJezOks](https://t.co/QJAIJezOks)
-* [twitter.com/danheld/status/1033044447842336768](https://twitter.com/danheld/status/1033044447842336768)
-  > 1/ A complete debunking of top Lightning FUD claims:
 * [Easiest Bitcoin Lightning Guide!](https://medium.com/lightning-power-users/windows-macos-lightning-network-284bd5034340)
-* [bcongdon/awesome-lightning-network/readme.md#lightning-network-protocol](https://github.com/bcongdon/awesome-lightning-network/#lightning-network-protocol)
-* [bcongdon/awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network/)
-  > A curated list of awesome Lightning Network projects for developers and crypto enthusiasts
-* [Is the Lightning network ready for commerce?](https://www.scipioerp.com/2018/12/12/is-lightning-ready-for-commerce/)
-* [twitter.com/alexbosworth/status/1078353292768403456](https://twitter.com/alexbosworth/status/1078353292768403456)
-  > Ways I can tell LN routing is not a mature market yet:
-  > - I’m charging 25x more than anyone and routing more than ever before
-  > - The largest capacity owner assigns capacity at random
-  > - Almost no one charges any fees at all for routing
-  > - Most public nodes aren’t even reliably online
 * [#Bitcoin Lightning Network FAQ](https://medium.com/@The1Brand7/lightning-faq-67bd2b957d70)
   > Q 1: What is the Lightning Network?
-* [LightningNetworkStores (@bitcoinLNS)](https://twitter.com/bitcoinLNS)
-  > The most comprehensive directory of venues that accept bitcoin though lightning. New and Trending stores are automatically tweeted.
-* [SLP37 Rene Pickhardt – Bitcoin Lightning Education & Lightning S...](https://stephanlivera.com/episode/37)
-  > Rene Pickhardt, a Bitcoin/Lightning educator, and rising star in the world of Lightning joins me to talk about the Lightning Network. We discuss: How he got into Lightning Involvement in the Pirate…
-* [Lightning Network enables Unicast Transactions in Bitcoin. Lightni...](https://medium.com/@melik_87377/lightning-network-enables-unicast-transactions-in-bitcoin-lightning-is-bitcoins-tcp-ip-stack-8ec1d42c14f5)
-  > It has recently come to my attention that there is a great deal of confusion revolving around the Lightning Network within the Bitcoin and…
-* [‎The DYOR Podcast - Blockchain, Bitcoin & Cryptocurrency: Lightn...](https://podcasts.apple.com/us/podcast/the-dyor-podcast-blockchain-bitcoin-cryptocurrency/id1469404703?i=1000442180425)
-  > ‎Show The DYOR Podcast - Blockchain, Bitcoin & Cryptocurrency, Ep Lightning Network, Private Keys and Bitcoin Nodes with Jameson Lopp- DYOR 002 - Jun 19, 2019
 * [Radar ION - Your guide to the Lightning Network](https://ion.radar.tech/)
   > Master the Lightning Network with our app and wallet recommendations, developer and troubleshooting tools, Lightning wiki, getting started tutorials, and more!
-* [BTCPi - Bitcoin Lightning Node and payment processing device.](https://lunanode1.lightninginabox.co/apps/3hucSJM9EYXGmp27fkoLwom8fRzc/crowdfund)
-  > The BTCPi is a low cost self-hosted crypto currency payment processing solution featuring BTCPayServer.
 
 ### 💡 discussion
 
@@ -115,6 +84,8 @@ Lightning Network Podcasts
   > A comprehensive guide to educational Lightning Network information & resources.
 * [Rusty Russell – Medium](https://medium.com/@rusty_lightning)
   > Read writing from Rusty Russell on Medium. Rusty is a Linux kernel dev who wandered into Blockstream, and is currently trying to produce a prototype and spec for bitcoin lightning. Hodls bitcoin (only).
+* [‎The DYOR Podcast - Blockchain, Bitcoin & Cryptocurrency: Lightn...](https://podcasts.apple.com/us/podcast/the-dyor-podcast-blockchain-bitcoin-cryptocurrency/id1469404703?i=1000442180425)
+  > ‎Show The DYOR Podcast - Blockchain, Bitcoin & Cryptocurrency, Ep Lightning Network, Private Keys and Bitcoin Nodes with Jameson Lopp- DYOR 002 - Jun 19, 2019
 
 
 ### 💡 wallets
@@ -279,7 +250,6 @@ Need a LN simnet? This tool can generate one for you.
 
 * [lightning-power-users/node-launcher](https://github.com/lightning-power-users/node-launcher)
   > Easiest BTC/LN desktop app, for Windows, macOS, and Linux
-* [Easiest Bitcoin Lightning Guide!](https://medium.com/lightning-power-users/windows-macos-lightning-network-284bd5034340)
 * [mit-dci/lit](https://github.com/mit-dci/lit)
   > Lightning Network node software.
 * [nayutaco/ptarmigan](https://github.com/nayutaco/ptarmigan)
@@ -289,7 +259,7 @@ Need a LN simnet? This tool can generate one for you.
 * [‎The World Crypto Network Podcast: Fun With Crypto Podcast, Ligh...](https://podcasts.apple.com/us/podcast/the-world-crypto-network-podcast/id825708806?i=1000445805193)
   > ‎Show The World Crypto Network Podcast, Ep Fun With Crypto Podcast, Lightning Node Roundtable 3 - Jul 31, 2019
 
-### Setup and Tutorials
+### ⛈ HowTo
 
 * [Setup and Tutorials](https://lnroute.com/setup-tutorials/)
 * [402 Payment Required - Lightning Howtos](https://www.youtube.com/playlist?list=PLmoQ11MXEmajsUw95Fq6fHzXnVmoMPIeV)
@@ -385,6 +355,8 @@ The perfect Bitcoin Lightning️ node The goal is to create the perfect Bitcoin 
   > You can find the board at Pine64 ([rockpro64](https://www.pine64.org/rockpro64/)) and more info how we are using it for the #BitBoxBase in our emerging documentation ([BitBoxBase](https://base.shiftcrypto.ch))
 * [BitBox Base](https://shiftcrypto.ch/base/)
   > An easy to use, professional Bitcoin & Lightning full node to equip you for Bitcoin sovereignty.
+* [BTCPi - Bitcoin Lightning Node and payment processing device.](https://lunanode1.lightninginabox.co/apps/3hucSJM9EYXGmp27fkoLwom8fRzc/crowdfund)
+  > The BTCPi is a low cost self-hosted crypto currency payment processing solution featuring BTCPayServer.
 
 ### ⛈ PI Raspberry
 
