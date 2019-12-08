@@ -2,7 +2,7 @@
 title: "LightniNgFo: Wallets, Applications, Guides and Development"
 description: A curated list related to using the Lightning Network.
 toc_sticky: false
-excerpt: Links to code, howtos, and other resources related to practical use of Lightning.
+excerpt: Apps, tools, howtos, and other resources for using the Lightning network.
 permalink: posts/Bitcoin/lightning/
 published: true
 header:
