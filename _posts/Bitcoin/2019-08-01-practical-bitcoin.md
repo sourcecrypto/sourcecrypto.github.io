@@ -2,7 +2,7 @@
 title: "Running Bitcoin: Tools, Apps and Guides"
 description: An epic collection of practical resources for using Bitcoin.
 toc_sticky: false
-excerpt: Code, apps, howtos and other practical  Bitcoin info.
+excerpt: Code, apps, howtos and other practical Bitcoin info.
 permalink: posts/Bitcoin/practical/
 published: true
 header:
@@ -12,7 +12,7 @@ header:
   caption: "[halfin@twitter 'Running Bitcoin'](https://twitter.com/halfin/status/1110302988)"
 categories: ["Bitcoin"]
 tags: ["Practical"]
-last_modified_at: 2019-12-08T11:22:33-23:00
+last_modified_at: 2019-12-09T11:22:33-23:00
 ---
 
 See Also: [Bitcoi*NFo* - Practical](https://docs.google.com/spreadsheets/d/1Z3Ofa4P8097VWV70Z_bMqIMladngvm-Ck24ot9TDNmw/) on Google Sheets 
