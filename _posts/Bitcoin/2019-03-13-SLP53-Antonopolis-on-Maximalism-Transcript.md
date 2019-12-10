@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Stephan Livera Podcast 53 with Andreas Antonopolous
+title: "Stephan Livera and Andreas Antonopolous, on Bitcoin Maximalism - SLP53"
 description: Transcript of Stephan Livera with Andreas Antonopoulos - On Bitcoin Maximalism
 excerpt: "..the term was coined by Vitalik return who used it to criticize the position that only Bitcoin matters or only Bitcoin will survive and I think that might be perhaps overstating it. but it was very quickly embraced by quite a few people who who found it to be a very comfortable position to take, and didn't see that as a provocation by Vitalik."
 share: true
