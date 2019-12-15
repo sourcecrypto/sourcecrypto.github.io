@@ -10,8 +10,8 @@ main:
     url: /about/
   - title: "Subscribe"
     url: /subscribe/
-  - title: "Infominer.id"
-    url: "https://infominer.id"
+  - title: "Infominer.xyz"
+    url: "https://infominerxyz"
 
 sourcedisco:
   - title: "Resources"
@@ -163,7 +163,7 @@ sourcedisco:
       - title: "• ZCash"
         url: "/archive/blockchain/zcash/"
   - title: "Info⧉Hub"
-    url: "https://infominer.id/"
+    url: "https://infominer.xyz/"
     children:
       - title: "• Learn Crypto Trading"
         url: "https://learncryptotrading.co"

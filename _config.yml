@@ -92,7 +92,7 @@ author:
   links:
     - label: "Info⧉Hub"
       icon: "fa fa-fw fa-cube"
-      url: "https://infominer.id"
+      url: "https://infominer.xyz"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:infominer@protonmail.com"
@@ -120,7 +120,7 @@ footer:
   links:
     - label: "Info⧉Hub"
       icon: "fa fa-fw fa-cube"
-      url: "https://infominer.id"
+      url: "https://infominer.xyz"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:infominer@protonmail.com"
@@ -278,9 +278,6 @@ collections:
   info:
     output: true
     permalink: /archive/:collection/:path/
-  hub:
-    output: true
-    permalink: /archive/:collection/:path/
   resources:
     output: true
     permalink: /archive/:collection/:path/
@@ -354,23 +351,6 @@ defaults:
         image: /images/SC-banner-lite.png
         teaser: /images/source-crypto-gh-og.png
       order: 10
-  # _hub
-  - scope:
-      path: "_hub"
-      type: hub
-    values:
-      layout: single
-      share: true
-      comment: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-      header:
-        image: /images/SC-banner-lite.png
-        teaser: /images/source-crypto-gh-og.png
-      order: 20
   # _resources
   - scope:
       path: "_resources"
