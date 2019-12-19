@@ -53,7 +53,7 @@ algolia:
   application_id         : V20JPYSBZV # YOUR_APPLICATION_ID
   index_name             : sc_pub # YOUR_INDEX_NAME
   search_only_api_key    : 2986680f605889b678a4274646102755 # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : true (default) # false
+  powered_by             : true # false
   nodes_to_index         : 'p,blockquote,li,h2,h3,h4'
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
