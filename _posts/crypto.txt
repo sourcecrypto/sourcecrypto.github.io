@@ -1,0 +1,965 @@
+
+## Ethereum
+
+
+{% include figure image_path="https://imgur.com/FuTVcMm.png" caption="[The Future of Ethereum Doesn't Have Wallets](https://medium.com/mycrypto/the-future-of-ethereum-doesnt-have-wallets-232fcee708bf)" %}
+
+
+* CryptoQuikRead_019 - [The Future of Ethereum Doesn't Have Wallets](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_019---The-Future-of-Ethereum-Doesnt-Have-Wallets-e2ndu9)
+* CryptoQuikRead_041 - [A Proof of Stake Design Philosophy](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_041---A-Proof-of-Stake-Design-Philosophy-e2ndtb)
+* CryptoQuikRead_042 - [Critique of Buterin's Proof of Stake Design Philosophy](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_042---Critique-of-Buterins-Proof-of-Stake-Design-Philosophy-e2ndt7)
+* CryptoQuikRead_090 - [Sharding Centralizes Ethereum](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_090---Sharding-Centralizes-Ethereum-e2ndrr)
+* CryptoQuikRead_098 - [The Challenges of Building Ethereum Infrastructure](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_098---The-Challenges-of-Building-Ethereum-Infrastructure-e2ndrn)
+* CryptoQuikRead_121 - [Ethereum, Fomo3D, and Dangerous Game Theory](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_121---Ethereum--Fomo3D--and-Dangerous-Game-Theory-e2ndqp)
+* CryptoQuikRead_223 - [Ethereum Architecture is Flawed](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_223---Ethereum-Architecture-is-Flawed-e3i5k1)
+
+
+[Blockstack](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ)
+
+[Misthos: Decentralizing your cash flow | Decentralizing the World ...](https://youtu.be/e0YX6ovMoCk)
+
+Blockstack Decentralizing the World Tour event in London, October 1, 2018 with Justin Carter, Founder, Misthos. [https://community.blockstack.org/dwt-tour-lon](https://community.blockstack.org/dwt-tour-lon)...
+
+
+# hash-algos
+
+[NIST hash function competition](https://en.wikipedia.org/wiki/NIST_hash_function_competition)
+
+The NIST hash function competition was an open competition held by the US National Institute of Standards and Technology (NIST) to develop a new hash function called SHA-3 to complement the older SHA-1 and SHA-2. The competition was formally announced in the Federal Register ...
+
+[Password Hashing Competition](https://en.wikipedia.org/wiki/Password_Hashing_Competition)
+
+The Password Hashing Competition was an open competition announced in 2013 to select one or more password hash functions that can be recognized as a recommended standard. It was modeled after the successful Advanced Encryption Standard process and NIST hash function competiti...
+
+[Post-Quantum Cryptography | CSRC](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography)
+
+NIST has initiated a process to solicit, evaluate, and standardize one or more quantum-resistant public-key cryptographic algorithms. Full details can be found in the Post-Quantum Cryptography Standardization page. The Round 2 candidates were announced January 30, 2...
+
+#
+
+[State Channel for Dummies: Part 4 – BlockChannel – Medium](https://medium.com/blockchannel/state-channel-for-dummies-part-4-f3ba9d76c7c4)
+
+Ledger Channels and Virtual Channels
+
+[State Channels Q&A – Eric Olszewski – Medium](https://medium.com/@eolszewski/state-channels-q-a-fbdb6ba9c131?source=placement_card_footer_grid---------2-44)
+The Solution to Scaling Blockchain Now
+
+
+"State Channel Education for Everyone" [https://learnchannels.org/](https://learnchannels.org/) 
+
+[State Channels - an explanation](https://www.jeffcoleman.ca/state-channels)
+State channels are a way of moving blockchain interactions into high-speed, low-cost "dedicated highways" between a set of defined participants.
+
+
+[Jeff Tong (@itsjefftong)](https://twitter.com/itsjefftong/status/1045360005845663750)
+@Arjun_Bhuptani from @ConnextNetwork talks about all the knicks and knacks to a production ready state channel network. It's crazy to see how far we've come since that whitepaper days! Check it out here: [https://t.co/tJXLEIchYX](https://t.co/tJXLEIchYX)
+
+[Patrick McCorry ☘️ (@paddykcl)](https://twitter.com/paddykcl/status/1073876560153739267)
+  > Following our FC feedback: [https://t.co/Um6gQbBEBu](https://t.co/Um6gQbBEBu) I updated the battleship paper to better focus it: [https://t.co/2AhiEchgD5](https://t.co/2AhiEchgD5) This is the "year of paper rejection" for me. It is really easy to get annoyed, but that isn't productive. The right attitude...
+
+[https://blog.coinfund.io/the-state-of-state-channels-2018-edition-f5492134ab96](https://blog.coinfund.io/the-state-of-state-channels-2018-edition-f5492134ab96)
+
+
+# media
+
+[Crypto Stories: Bill Tai and Derek Hsue on Mining, Exchanges and t...](https://www.breaker.audio/venture-stories/e/36990779)
+Erik is joined by two very exciting guests for this episode — Bill Tai, venture capitalist and director at Bitfury, and Derek Hsue (@derek_hsue), investor at Blockchain Capital. The three have a very engaging discussion about the mining landscape in cryptocurrencies, the si...
+
+[Conspiratus Podcast #1: Protocol Governance with Vlad Zamfir and A...](https://www.youtube.com/watch?v=IDY_inT-q0U)
+
+Our first full Conspiratus epsiode where we discuss protocol governance with our two guests, Vlad Zamfir and Arthur Breitman. Check out the associated readin...
+
+[Off The Chain](https://offthechain.substack.com/)
+Join thousands of others who receive this daily analysis of crypto markets & news in their inbox every morning - sign up here. The SEC is considering a revamp of investor accreditation laws. SEC Chairman Jay Clayton said he ultimately wants to increase opportunities for retai...
+
+[Austin drops more knowledge and Aishwarya Balaji joins the pod!](https://life-in-the-fast-chain.fireside.fm/12)
+
+Austin Moothart goes over what a "float" is in regard to Corda Enterprise and Aishwarya Balaji from Impact Chain Lab joins to discuss what her company does and their new project Bystander.
+
+
+
+[Flippening - For Cryptocurrency Investors (Bitcoin, Ethereum, and ...](https://pca.st/P5sC)
+
+Flippening is for cryptocurrency investors. Each week we discuss the cryptocurrency economy, new investment strategies for maximizing returns, and stories from the front lines of financial disruption. Flippening is for a new class of investors that were not part of the finan...
+
+[Decentralized Web Summit - 2018 - Hash Lounge : Internet Archive :...](https://archive.org/details/decentralizedwebsummitmedia-2018-hashlounge/DWeb+Hash+Lounge+080118+06.mov)
+
+Panel: Decentralizing Social Networks starts hereTalk: Karissa McKelvey, “The Web of Commons” starts hereTalk: “The Open Index Protocol and its...
+
+[The CoinSec Podcast (@CoinSecPodcast)](https://twitter.com/CoinSecPodcast)
+
+A podcast about #cryptocurrency and #blockchain technologies with a focus on securing them. Hosted by @dafthack, @424f424f, @ustayready, & @ralphte1
+
+[Top Crypto Writers on Medium in 2018 – FutureSin – Medium](https://cloud.coinfeed.com/share/post/103515364377/11536437781/15481)
+
+After my initial list of Top Writers on Medium for 2018, I will continue to break-down the top writers in different categories.
+
+
+[CryptoWendyO](https://www.youtube.com/c/CryptoWendyO)
+
+[The Crypto Street Podcast (@CryptoStreetPod)](https://twitter.com/CryptoStreetPod)
+
+A cryptocurrency podcast hosted by @K1llerWh4le @CryptoDale & @13Prince31 | We interview interesting guests about crypto | Business Inq: TCSP@protonmail.com
+
+[https://epicenter.tv/](https://epicenter.tv/) - Podcast since 2012 
+
+Enjoy weekly interviews with some of the brightest and most influential minds driving the blockchain and distributed technology revolution.
+
+[8 Crypto Podcasts You Should Listen to in 2018 – Argon Group –...](https://medium.com/@argongroup/8-crypto-podcasts-you-should-listen-to-ade5344e05b6)
+
+Written by: Lukas Schor of The Argon Group
+
+
+
+[NEXT Blockchain](https://www.nextdocumentary.com/?wix-vod-comp-id=comp-jdf0mut2)
+
+World’s First Blockchain Docuseries. The best way to learn about blockchain.
+
+
+[shitcointalk (@shitcointalk)](https://twitter.com/shitcointalk/status/1037775232080084992)
+new shitcoin talk episode in about 45 mins or so, come to the chat room as we will be taking questions and requests from the troll box today. see u soon
+
+
+
+[Home | Trust Machine](https://trustmachinefilm.com/)
+Award-winning documentarian Alex Winter (DOWNLOADED, DEEP WEB) drills down on blockchain technology. Why are banks terrified while UNICEF embraces it to feed refugee children? Is blockchain technology poised to be bigger than the Internet or a bubble built on hype? Narrated b...
+
+[Long Reads Sunday Archive](http://whittemore.io/long-reads-sunday-archive)
+Long Reads Sunday LRS #13 – September 23, 2018 LRS #12 – September 16, 2018 LRS #11 – September 9, 2018 LRS #10 – September 2, 2018 LRS #9 – August 26, 2018 LRS #8 &#8…
+
+[Frank Chaparro: Behind the Scenes of Crypto Media – Anthony Pomp...](https://medium.com/@apompliano/frank-chaparro-behind-the-scenes-of-crypto-media-54670472702b)
+
+
+[Crypto Cast Network](https://www.youtube.com/channel/UCHFL9uTsDbOuBtkhfabU38w)
+
+
+
+[The Coin Pod (@thecoinpod)](https://twitter.com/thecoinpod)
+
+Short conversations about Bitcoin with people who build, study, and use it by @zackvoell via @bitcoinpodcasts.
+
+[Coin Mastery - Building Your Cryptocurrency Empire by Carter Thoma...](http://www.coinmastery.com/itunes)
+
+Download past episodes or subscribe to future episodes of Coin Mastery - Building Your Cryptocurrency Empire by Carter Thomas for free.
+
+[77 Crypto Podcasts That Will Make You a Master Trader - unblock.net](https://unblock.net/crypto-podcasts)
+
+An article on the best crypto podcasts.
+
+[Flippening - For Cryptocurrency Investors (Bitcoin, Ethereum, and ...](https://pca.st/P5sC)
+
+Flippening is for cryptocurrency investors. Each week we discuss the cryptocurrency economy, new investment strategies for maximizing returns, and stories from the front lines of financial disruption. Flippening is for a new class of investors that were not part of the finan...
+
+[Categorizing Coinmonks content for better Curation – Medium](https://medium.com/coinmonks/categorizing-coinmonks-content-for-better-curation-2e451477a1b4)
+
+Categorizing Coinmonks Content for better curation
+
+[https://www.thesmartestcontract.com](https://www.thesmartestcontract.com/)
+
+[https://a16z.com](https://a16z.com/)
+
+
+[The Block Crypto – Medium](https://medium.com/the-block-crypto)
+
+Crypto Simplified.
+
+[Long Reads Live](http://nlwcrypto.libsyn.com/)
+
+Conversations about the most interesting current events and ideas in crypto, with the most interesting people in crypto. Hosted by @nlw. Watch live Mondays at 7pm EST: [https://www.youtube.com/c/nathanielwhittemorecrypto](https://www.youtube.com/c/nathanielwhittemorecrypto)
+
+[Crypto Investor Show](https://www.cryptoinvestor.show/)
+
+Europe's Largest Crypto & Blockchain Event for Investors
+
+[Zero Knowledge](https://www.zeroknowledge.fm/)
+
+Where we talk about blockchain technology and development
+
+[Mike Dudas (@mdudas)](https://twitter.com/mdudas/status/1057590646238777344)
+
+Some of my favorite crypto podcasts: Unconfirmed by @laurashin, Off The Chain by @APompliano, @a16z, @MessariCrypto, @eriktorenberg’s, @nlw YouTube interviews. What else?
+
+[Nathaniel Whittemore (@nlw)](https://twitter.com/nlw/status/1054045698776281088)
+
+31/ Find LRS wherever you are: +email: [https://t.co/6WHJY4r6yE](https://t.co/6WHJY4r6yE) +archive: [https://t.co/IgVdeo0ZlN](https://t.co/IgVdeo0ZlN) +Long Reads Live - live crypto chat 7pm EST Mondays: [https://t.co/97P9PopEqY](https://t.co/97P9PopEqY) +Long Reads Live podcast iTunes: [https://t.co/aXyEEDahQJ](https://t.co/aXyEEDahQJ) +LRL Podcast home: [https://t.co/zNXLwUoKQS](https://t.co/zNXLwUoKQS)
+
+[Newsletters You Need to Follow to Stay Updated With Crypto](https://medium.com/the-crypto-almanac/newsletters-you-need-to-follow-to-stay-updated-with-crypto-108a8cb47524)
+
+[Pirate Beachbum – Hacker Noon](https://hackernoon.com/@piratebeachbum)
+
+Read writing from Pirate Beachbum in Hacker Noon.
+
+
+
+[The Crypto Show (@TheCryptoShow)](https://twitter.com/TheCryptoShow/status/1063235669223456768)
+@CaitlinLong_ at @CoinAgenda in #LasVegas with the latest about the #WyomingBlockchain Law on @TheCryptoShow 
+
+[Decentralize This! – Enigma](https://blog.enigma.co/podcast/home)
+
+Decentralize This! is a high-energy, conversational podcast highlighting the individuals building, scaling, and thinking deeply about decentralized technologies and their future. Official Blog of Enigma - We're Making Decentralization Work.
+
+[Half Of The News Outlets We Asked Would Take Cash To Post Our Content](https://breakermag.com/we-asked-crypto-news-outlets-if-theyd-take-money-to-cover-a-project-more-than-half-said-yes/)
+
+Posing as a PR agent, a BREAKER reporter reached out to a range of cryptocurrency media agency asking if they would publish paid content without disclosing it as sponsored. The results were more damning than we expected.
+
+[EthHub (@ethhub_io)](https://twitter.com/ethhub_io/status/1072605447138480129)
+
+The EthHub Weekly Recap is out! -@ConsenSys reorg -New @coinbase listings -Constantinople release date -@0xProject Instant tool -@cyounessi1's article on @UniswapExchange -#DeFi whale watching on @MakerDAO and @compoundfinance Listen at [https://t.co/Ob8FEYxthn](https://t.co/Ob8FEYxthn)
+
+[Dr. Peter McCormack (@PeterMcCormack)](https://twitter.com/petermccormack/status/1136631003487920129?s=12)
+
+@cryptopatrick I mean I love @MartyBent, @stephanlivera and @NodedPodcast but I would probably point them in the direction of specific shows. I think @stephanlivera's recent show on Austrian Economics was amazing, @MartyBent's with @gladstein and @APompliano's with @MustSt...
+
+
+[CryptoBasic (@CryptoBasicPod)](https://twitter.com/CryptoBasicPod)
+
+Crypto Podcast Featuring @Roothlus, @drrungood, and @Brentity on a journey of discovery for crypto. Submit business requests to CryptoBasicPodcast@gmail.com
+
+
+
+[What Grinds My Gears](https://player.fm/series/2452448)
+From Meltem Demirors and Jill Carlson, welcome to What Grinds My Gears, a podcast about the bizarre and buzzworthy happenings in the world of cryptocurrency. Each week, we delve into one key theme in crypto, and examine this theme through a broader financial, political, and c...
+
+[The Best Blockchain and Cryptocurrency Podcasts of 2019](https://blockworksgroup.io/blog/best-blockchain-and-crypto-podcasts-of-2019)
+
+This is a list of the top podcasts on crypto, blockchain, investing and finance in no particular order.
+
+[ALTCOIN MAGAZINE – Medium](https://medium.com/altcoin-magazine)
+
+[Crypto Core Radio](https://soundcloud.com/cryptoradio)
+
+LooTz brings you the latest advancements in Blockchain Technology. This is a great way to start learning about Blockchain Projects and other advances in the crypto world with our blockchain Interviews
+
+
+[Looking Back on 5 Years of Epicenter](https://epicenter.tv/episode/270/)
+This week, we look back on the early days of Epicenter and how the podcast has evolved over the years. We also answer your questions in our first ever AMA.
+
+[The Sovereign Individual](https://podcast.rss.com/sovereignpod/)
+
+[Crypto Canon - Andreessen Horowitz](https://a16z.com/2018/02/10/crypto-readings-resources/)
+
+Here’s a list of crypto readings and resources. It’s organized from building blocks and basics; foundations (& history); and key concepts — followed by specific topics such as governance; privacy and security; scaling; consensus and governance; cryptoeconomics, crypt...
+
+[Crypto Rap - soundcloud](https://soundcloud.com/geoppls/sets/crypto-rap)
+
+[https://soundcloud.com/souljaboymusic/bitcoin](https://soundcloud.com/souljaboymusic/bitcoin)
+
+## 101
+
+[kilimchoi/cryptocurrency](https://github.com/kilimchoi/cryptocurrency)
+Overview of top cryptocurrencies. .
+
+[Blockchain 101: Randomness and Random Beacons with Justin Drake](https://www.zeroknowledge.fm/74)
+In this week's episode, we sit down with Justin Drake to discuss randomness in blockchain, how it can be created and what adversarial models exist. We also discuss the random beacon and how that concept has evolved in the development of ETH2.0
+
+
+[The difference between a Private, Public & Consortium Blockchain.](https://www.blockchaindailynews.com/The-difference-between-a-Private-Public-Consortium-Blockchain_a24681.html)
+
+A Simple Explanation for Dummies. The difference between a Private, Public & Consortium Blockchain — Intrepid ReviewAs financial institutions begin to explore the possibilities of blockchain technology, they are coming up with systems that complement their existing busi...
+
+
+[A free guide for non-coders to learn blockchain tech | Coinmonks Jobs](https://coinmonks.com/a-free-guide-for-non-coders-to-learn-blockchain-tech-in-6-months-or-less/)
+
+You can easily learn enough to find a job in 6 months, for free. The blockchain industry isn't just for coders. Every position is in demand: copywriters, marketers, PMs, sales execs, and more.
+[Binance Academy](https://www.binance.vision/)
+Binance Academy – Cryptocurrency explained with video and cryptocurrency guides
+
+
+[Blockchain Technology, the Biggest Wonder of the 21st Century [Inf...](https://www.coinspeaker.com/blockchain-infografic/)
+Since blockchain can be seen as the greatest innovation in the recent history, different industries will have different benefits from implementing blockchain technology. That is what infographic, created by BitFortune, is all about.
+
+[A Glossary of all the Cryptocurrency Terms you need to know - Cryp...](https://cryptominded.com/glossary-cryptocurrency-terms-need-know/)
+
+Scrolling reddit, this site or other cryptocurrency related forums on the internet and having no clue what people are talking about? Well, nor was I when I first started getting involved into cryptocurrencies. Therefore I thought it would be useful to have a glossary of all t...
+
+[Do you really need a blockchain for that? | Coin Center](https://coincenter.org/entry/do-you-really-need-a-blockchain-for-that)
+
+Blockchains are essential for some projects and poorly suited for others. Using them where it is not needed could be a costly mistake.
+
+
+[Spooky BitBoy (@Bitboy_Hodl)](https://twitter.com/Bitboy_Hodl/status/1050235145733791744)
+Here's another episode of the Complete Idiot's Guide to #Crypto. In this episode I show you how to open an #Ethereum wallet and the basics on how to use it. [https://t.co/hiUL4ekuxc](https://t.co/hiUL4ekuxc)
+
+
+
+[Visual Crypto, Vol. 1: Acronyms – Faye Antonia Hays – Medium](https://medium.com/@fayehays/visual-crypto-vol-1-acronyms-2674a80bba7)
+
+Being a cryptonewbie is fun. You’re starting from zero, fresh-eyed as Bambi. You’re down for all things decentralization, and Twitter…
+
+[Blockchain 101: Cryptoeconomic Primitives and Staking](https://www.zeroknowledge.fm/49)
+  > In this Blockchain 101 episode, we sit down with Axel Ericsson of Vest to talk about Cryptoeconomic Primitives, incentive models, designing for smart equilibria, and staking.
+[Blockchain 101: Transaction lifecycle & the mempool](https://www.zeroknowledge.fm/44)
+  > In this episode, we are joined by Tomasz Drwięga from Parity Technologies to discuss the lifecycle of a transaction on the Ethereum network and how the mempool works. We cover the transaction pool/cue/mempool
+[Blockchain 101: Blocks & Block Headers](https://www.zeroknowledge.fm/31)
+  > In this introductory episode, we discuss what makes up blocks and block headers. We also cover a bit about state vs history, what exactly makes up a transaction and do a tiny intro to a Merkle Tree.
+
+## memesart
+[https://crypto-currency-girls.com/category/cryptogirls/](https://crypto-currency-girls.com/category/cryptogirls/)
+
+
+![https://cdn.discordapp.com/attachments/476456736031506444/589669772065505291/IMG_2664.JPG](https://cdn.discordapp.com/attachments/476456736031506444/589669772065505291/IMG_2664.JPG)
+
+
+
+[MJ (@morganisawizard)](https://twitter.com/morganisawizard/status/1129881373379125248?s=12)
+  > you: tinfoil hat me, an intellectual:
+
+![https://cdn.discordapp.com/attachments/486744084761935872/575565410888450068/on-the-internet-nobody-knows-youre-a-dog-meme-300x219.jpg](https://cdn.discordapp.com/attachments/486744084761935872/575565410888450068/on-the-internet-nobody-knows-youre-a-dog-meme-300x219.jpg)
+
+![https://cdn.discordapp.com/attachments/418887083914952705/570919307941249024/1547673156222.png](https://cdn.discordapp.com/attachments/418887083914952705/570919307941249024/1547673156222.png)
+
+[Ctrl Shift Face: A growing ‘deepfakes’ YouTube channel](https://news.ycombinator.com/item?id=20050428)
+
+![https://cdn.discordapp.com/attachments/486744084761935872/612566305026867241/ECOqY-bXsAAWiDf.png](https://cdn.discordapp.com/attachments/486744084761935872/612566305026867241/ECOqY-bXsAAWiDf.png)
+
+[Nick Szabo 🔑 (@NickSzabo4)](https://twitter.com/NickSzabo4/status/1166831626556297216?s=20)
+  > Living three years in DC, I observed that the "libertarian" think tankers there are often influenced by their neighbors who vote about 90% Democrat (or even further left). Don't want to be shunned at their parties. Donor money can promote much more liberty in Austin than ...
+
+![https://pbs.twimg.com/tweet_video_thumb/EFt0rXVU0AAQmOf.jpg](https://pbs.twimg.com/tweet_video_thumb/EFt0rXVU0AAQmOf.jpg)
+
+
+
+[r/cryptocurrencymemes - Whales](https://www.reddit.com/r/cryptocurrencymemes/comments/curr93/whales/)
+
+
+
+[Infographics - Crypto JH](https://cryptojh.com/infographics/)
+
+
+[Whitney Merrill (@wbm312)](https://twitter.com/wbm312/status/1140851948133818368?s=20)
+
+"Hack the planet!" is a call and response. And so shall Crypto means cryptography! Last year Zero Cool shouted "Crypto means cryptography!" from the police car, this year Cereal Killer yells it back from the crowd.
+
+
+[𝙰𝚗𝚍𝚢 (@ZephrFish)](https://twitter.com/zephrfish/status/1140200516569505793?s=12) thread>>>
+Why do some people call a pentest a PEN test, what does it stand for!
+
+
+[Huobi US (@Huobi_US)](https://twitter.com/huobi_us/status/1116500227471470592?s=12)
+The promised #dogecoin4charity promotion is here! With the @dogecoin team, we'll be awarding 1 DOGE for every Huobi sign-up and L1 Verification! Huobi will donate 1,000 DOGE for every verified sign-up to @GratefulDogsSF. Remember, 1 DOGE = 1 DOGE! [https://t.co/XqEjW7yFWP](https://t.co/XqEjW7yFWP) h...
+
+![https://pbs.twimg.com/tweet_video_thumb/D36am74U0AAuc6o.jpg](https://pbs.twimg.com/tweet_video_thumb/D36am74U0AAuc6o.jpg)
+
+[Richard Heart HEXin4wks (@RichardHeartWin)](https://twitter.com/RichardHeartWin/status/1077861019068846081)
+  > The natives are scared of #crypto [https://t.co/TboVdzjiNa](https://t.co/TboVdzjiNa)
+![https://pbs.twimg.com/ext_tw_video_thumb/1077860994293121025/pu/img/CnTJo9TI9wDP5s4O.jpg](https://pbs.twimg.com/ext_tw_video_thumb/1077860994293121025/pu/img/CnTJo9TI9wDP5s4O.jpg)
+
+[How to compress your GIF images for better sharing](https://gifcop.com/best-tools-compress-gif-images/)
+
+GIF images can get quite large. Fortunately there are many free tools online to compress your GIF images for better social sharing.
+
+![https://gifcop.com/wp-content/uploads/2017/03/astronaut-animation.gif](https://gifcop.com/wp-content/uploads/2017/03/astronaut-animation.gif)
+
+
+[BITCONNECT EDM REMIX (FULL SONG)](https://www.youtube.com/watch?v=e5nyQmaq4k4&feature=youtu.be)
+  > due to the highly requested amount of comments, here is the FULL remix. enjoy. NOW ON SOUNDCLOUD: [https://soundcloud.com/dylanlocke/bitconnect](https://soundcloud.com/dylanlocke/bitconnect) DONATE CRYPTO ...
+
+
+[Paul 'very legal and very cool' Madsen (@paulmadsen)](https://twitter.com/paulmadsen/status/1072813240462110720)
+
+![https://pbs.twimg.com/tweet_video_thumb/DuS-oyAW4AAfZgi.jpg](https://pbs.twimg.com/tweet_video_thumb/DuS-oyAW4AAfZgi.jpg)
+
+
+![https://cdn.discordapp.com/attachments/486744084761935872/526347414173646849/DuNl8ykUUAEz-lm.png](https://cdn.discordapp.com/attachments/486744084761935872/526347414173646849/DuNl8ykUUAEz-lm.png)
+
+[Free Cryptocurrency Icon Packs - Designmodo](https://designmodo.com/free-crypto-icons/)
+  > Some say it is a universal fraud, nothing more than hype; others consider it to be not just our future but already our present. Whether you like it or not, cryptocurrency has become a part of our life. So, in …
+
+
+
+![https://cdn.discordapp.com/attachments/486744084761935872/526252377360171038/DsatmhfVYAAQIlE.png](https://cdn.discordapp.com/attachments/486744084761935872/526252377360171038/DsatmhfVYAAQIlE.png)
+
+![https://cdn.discordapp.com/attachments/486744084761935872/525454747818262548/iu.png](https://cdn.discordapp.com/attachments/486744084761935872/525454747818262548/iu.png)
+
+[Just for fun ICO generator](http://yetanotherico.com/)
+![http://yetanotherico.com/img/yetanotherico1.png](http://yetanotherico.com/img/yetanotherico1.png)
+
+![https://cdn.discordapp.com/attachments/486744084761935872/516420187138949123/DqY2aX1WwAA9RCp.png](https://cdn.discordapp.com/attachments/486744084761935872/516420187138949123/DqY2aX1WwAA9RCp.png)
+[Hunter S. Thompson (@GonzoVice)](https://twitter.com/GonzoVice)
+
+When the going gets weird, the weird turn pro.
+
+
+[Today In Infosec (@todayininfosec)](https://twitter.com/todayininfosec)
+  > 1947: An error in the Mark II computer at Harvard University was due to a moth trapped in a relay. The moth was attached to the log book with notation "first actual case of bug being found." Yes, that's the actual moth taped to the log. Best. Bug. Report. Evah!
+
+
+[Fundamental Wolf (@Wolf__Daddy)](https://twitter.com/Wolf__Daddy/status/1064828567714959360)
+  > @cointradernik WOW [https://t.co/mo7IXWTVsp](https://t.co/mo7IXWTVsp)
+![https://pbs.twimg.com/tweet_video_thumb/DscH4p8WwAAWP12.jpg](https://pbs.twimg.com/tweet_video_thumb/DscH4p8WwAAWP12.jpg)
+
+
+![https://cdn.discordapp.com/attachments/486744084761935872/526276860904996864/Ds_UCJdWoAAV2KJ.png](https://cdn.discordapp.com/attachments/486744084761935872/526276860904996864/Ds_UCJdWoAAV2KJ.png)
+
+## literature
+
+[https://library.cryptotradercentral.com/](https://library.cryptotradercentral.com/)
+
+[BlockChain Technology - Beyond Bitcoin](https://scet.berkeley.edu/wp-content/uploads/BlockchainPaper.pdf)
+  > A blockchain is essentially a distributed database of records or public ledger of all transactions or
+digital events that have been executed and shared among participating parties. Each transaction in
+the public ledger is verified by consensus of a majority of the participants in the system. And, once
+entered, information can never be erased. The blockchain contains a certain and verifiable record of
+every single transaction ever made. Bitcoin, the decentralized peer­to­peer digital currency, is the
+most popular example that uses blockchain technology. The digital currency bitcoin itself is highly
+controversial but the underlying blockchain technology has worked flawlessly and found wide range of
+applications in both financial and non­financial world.
+
+[Marlowe: financial contracts on blockchain — a domain specific language](https://files.zotero.net/9545272979/Seijas%2520and%2520Thompson%2520-%2520Marlowe%2520financial%2520contracts%2520on%2520blockchain.pdf) 
+
+[Vitalik Buterin's website](https://vitalik.ca/)
+
+[IOHK - Research](https://iohk.io/research/)
+Decentralization imposes major technical challenges to financial systems worldwide and IOHK Research is interested in every single one of them. The traditional approach to the financial world has always been centralization, where banks and financial institutions play the main...
+
+[Blockchain government - a next form of infrastructure for the twenty-f](https://link.springer.com/article/10.1186/s40852-018-0086-3)
+Today, more than 100 blockchain projects created to transform government systems are being conducted in more than 30 countries. What leads countries rapidly initiate blockchain projects? I argue that...
+
+[Deployment of a Blockchain-Based Self-Sovereign Identity](https://arxiv.org/pdf/1806.01926.pdf)
+
+[Blockchains and Data Protection in the European Union by Michèle ...](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3080322)
+This paper examines data protection on blockchains and other forms of distributed ledger technology (‘DLT’). Transactional data stored on a blockchain, whether
+
+[Chris Auld (@Chris_Auld)](https://twitter.com/Chris_Auld/status/1028368962688442368)
+  > Canadian economist suspended without pay for publishing peer-reviewed journal article documenting, and investigating effects of, publication in predatory journals at his institution. Newspaper story: [https://t.co/bfmKcdXhIx](https://t.co/bfmKcdXhIx) Paper: [https://t.co/ZCHmXR6u2a](https://t.co/ZCHmXR6u2a)
+
+
+[https://savantspecter.github.io/research/A_DISCOURSE_ON_TOKEN_VALUATION.pdf](https://savantspecter.github.io/research/A_DISCOURSE_ON_TOKEN_VALUATION.pdf)
+
+
+[Blockchain Research Network](http://www.blockchainresearchnetwork.org/)
+An independent and international community of cryptocurrency and blockchain researchers. Join today to view and contribute to the latest research!
+
+A platform for scholarly publishing and peer review that empowers researchers with the Autonomy to pursue their passions, Authority to develop and disseminate their work, and Access to engage with the international community of scholars. [https://researchers.one/](https://researchers.one/)
+
+[The RESEARCHERS.ONE mission](https://www.researchers.one/article/2018-07-1)
+This article describes our motivation behind the development of RESEARCHERS.ONE, our mission, and how the new platform will fulfull this mission. We also compare our approach with other recent reform initiatives such as post-publication peer review and open access publications.
+
+[Liberal Radicalism: Formal Rules for a Society Neutral Among Commu...](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656)
+
+We propose a design for philanthropic or publicly-funded seeding to allow (near) optimal provision of a decentralized, self-organizing ecosystem of public goods
+
+[In Europe, scientists need to share their research for free if the...](https://futurism.com/open-access-science-europe)
+Subscriptions journals may want to start rethinking their business models.
+
+[Formal Barriers to Longest-Chain Proof-of-Stake Protocols](https://arxiv.org/pdf/1809.06528.pdf)
+
+[Study: Shorting Difficulties and Heterogeneous Beliefs Drive Specu...](https://www.dashforcenews.com/study-shorting-difficulties-and-heterogeneous-beliefs-drive-speculative-cryptocurrency-prices/)
+Wang Chun Wei, Ph.D. and a finance lecturer at the University of Queensland in Australia, argues in a new working paper that a significant portion of cryptocurrency values come from the heterogeneo…
+
+[Verifiable Delay Functions](https://eprint.iacr.org/2018/601.pdf)
+
+
+
+[Let’s Publish Everything](https://news.ycombinator.com/item?id=20137283)
+
+
+[Bytom Blockchain](https://bytom.io/wp-content/themes/freddo/book/tensority-v1.2.pdf)
+A digital asset layer protocol is the infrastructure of asset Internet.
+
+[New journal for controversial academics](https://www.bbc.co.uk/news/education-46146766)
+A new journal will allow academics to publish controversial articles under a pseudonym.
+
+[CATEGORY: ACADEMIC PUBLICATIONS](https://blockchainlibrary.org/category/academic-publications/)
+
+
+[Non-Financial Applications of Blockchains: Systematizing the Knowledge](https://www.frontiersin.org/research-topics/8748/non-financial-applications-of-blockchains-systematizing-the-knowledge)
+
+
+[The best free research papers on fintech and blockchain | BankNXT](https://banknxt.com/55778/research-fintech-blockchain/)
+Chris Skinner provides a convenient selection of research articles that talk about fintech, blockchain, bitcoin, payments and security.
+
+["Trustchain"](http://msn.iecs.fcu.edu.tw/report/download.php?id=287) 
+
+[Ethereum holdings in the ICO treasury accounts](https://blog.bitmex.com/ethereum-holdings-in-the-ico-treasury-accounts)
+
+
+[Social relationships more important than hard evidence in partisan...](https://phys.org/news/2018-11-social-relationships-important-hard-evidence.html)
+The basic human need to get along with others results in the formation of extreme political groupings, according to a study from Dartmouth College.
+
+[Jeremy Howard (@jeremyphoward)](https://twitter.com/jeremyphoward/status/1139259318052638720?s=12)
+  > A curated list of decision, classification and regression tree research papers from the last 30 years with implementations. It covers NeurIPS, ICML, ICLR, KDD, ICDM, CIKM, AAAI etc. [https://t.co/JDj6bkTYth](https://t.co/JDj6bkTYth)
+
+[xasos/awesome-decentralized-papers](https://github.com/xasos/awesome-decentralized-papers)
+
+Influential papers in decentralized systems (cryptocurrencies, contracts, consensus, etc.) - xasos/awesome-decentralized-papers
+
+
+## Governance
+
+
+[Notes on Blockchain Governance](http://vitalik.ca/general/2017/12/17/voting.html)
+
+In which I argue that “tightly coupled” on-chain voting is overrated, the status quo of “informal governance” as practiced by Bitcoin, Bitcoin Cash, Ethereum...
+
+[Vitalik Buterin Releases Revolutionary New DAICO Model for ICOs](https://themerkle.com/vitalik-buterin-releases-revolutionary-new-daico-model-for-icos/)
+
+
+[Vote Buying, On-Chain Governance, and Quadratic Plutocracy](https://pdaian.com/blog/vote-buying-on-chain-governance-and-quadratic-plutocracy/)
+  > This post is a continuation/expansion of a previous post, “[On-Chain Vote Buying and the DAO Dark Ages](http://hackingdistributed.com/2018/07/02/on-chain-vote-buying/)“, published on HackingDistributed.  In this initial post, we provided an efficient private vote buying infrastructure that could be used to arbitrarily alter stable game theoretic equilibria in any on-chain voting protocol by allowing votes, identities, and restrictions on behaviors to be bought and sold on an efficient, private, trust-minimizing market.
+
+[Cris Carrascosa (@CarrascosaCris_)](https://twitter.com/CarrascosaCris_/status/1023308530324000769)
+  > For those interested in governance, I would suggest reading something on constitutional law. As @lessig says “constitution as in a lighthouse, a guide that helps anchor fundamental values
+
+
+
+[Delegate Work Entities: Bridging the Gap Between Investors and Act...](https://medium.com/@bsparango/delegate-work-entities-bridging-the-gap-between-investors-and-active-users-65e857936a27)
+  > Second Installment of Value Accrual Exploration with Productive Cryptoassets
+
+[Token Curated Registries: Features and Tradeoffs - Multicoin Capital](https://multicoin.capital/2018/09/05/tcrs-features-and-tradeoffs)  - [pdf](https://cdn.discordapp.com/attachments/477616763765391372/493233768157413396/TCRs_-Features-and-Tradeoffs-2.pdf)
+  > A short overview is presented below. To download our full 10-page report, please click the link below: Executive Summary Token Curated Registries (TCRs) are an idea that gained a fair amount of traction within the cryptocurrency community throughout late 2017 and early 201...
+
+[Vitalik Buterin Discusses On-chain Governance](https://www.youtube.com/watch?v=w-CH_5il9aU)
+  > Vitalik Buterin, the Founder and Chief Scientist of the Ethereum Project, discusses why he had a change of heart about on-chain governance and how coin votin...
+
+
+
+[[Podcast] Bootstrapping A Crypto Nation State From Scratch, w/ Eri...](https://blog.nomics.com/flippening/eric-meltzer-crypto-nation-state)
+
+Our previous episode with Eric has gone on to become one of our most popular episodes to date and this is a second chance to hear from him. This episode stands on its own and includes a very compelling step by step strategy for bootstrapping a crypto nation-state.
+
+[Blockchain Governance – 0x Protocol](https://blog.0xproject.com/blockchain-governance-7ff89e6ec383)
+
+Hi, this is Peter Zeitz, research fellow on the 0x core team. Formerly, I was an assistant professor of economics at the National…
+
+[Hyperledger (@Hyperledger)](https://twitter.com/Hyperledger/status/1044705855705354242)
+  > NEW webinar coming on Oct 16! "Blockchain Governance - Technology is Not the Issue" Learn how @MonetaGo convinced competitive finance receivables exchanges to join a Fraud Mitigation Network based ion Hyperledger Fabric: [https://t.co/6NaDTL8L7o](https://t.co/6NaDTL8L7o)
+
+[Open Banking shouldn’t be written off, the revolution is just st...](https://www.bankingtech.com/2018/09/open-banking-shouldnt-be-written-off-the-revolution-is-just-starting)
+Realising the benefits that Open Banking will deliver will take time.
+
+[Blockchain Governance 101 – Good Audience](https://blog.goodaudience.com/blockchain-governance-101-eea5201d7992)
+  > There’s a lot of confusion about blockchain governance. Many participants and potential participants inside and outside the blockchain…
+
+
+[Cody Born (@codyborn)](https://twitter.com/codyborn/status/1046045404025028611)
+  > One of the difficulties with on-chain governance research is that it often takes years for the game theory process to play out. We need to lower the barrier to run blockchain governance experiments to help the working governance models emerge. [https://t.co/iRBtdThEVs](https://t.co/iRBtdThEVs)
+
+[Jake Brukhman (@jbrukh)](https://twitter.com/jbrukh/status/1043861759055056897)
+  > The properties of stateless smart-nations would be: 1. Virtual, as in galactically distributed 2. Self-Sovereign, as in governed by its constituents within its domain 3. Ethereal, as in opt-in and infinitely forkable at low cost [https://t.co/XPAQZJhmEm](https://t.co/XPAQZJhmEm)
+
+[Blockchain Governance 102 – Crypto Law Review – Medium](https://medium.com/cryptolawreview/blockchain-governance-102-9912a88da91d)
+  > Response to Vlad Zamfir’s Blockchain Governance 101
+
+[My Intentions for Blockchain Governance – Vlad Zamfir – Medium](https://medium.com/@Vlad_Zamfir/my-intentions-for-blockchain-governance-801d19d378e5)
+  > “Blockchain Governance 101” was my attempt to set the scene, as I see it, of what blockchain governance is, what outcomes are at stake…
+
+[Why Autonomy Matters – Luke Duncan – Medium](https://medium.com/@lkngtn/why-autonomy-matters-dec90480f3cf)
+  > This post is in response to Vlad Zamfir’s recent posts on his intentions for blockchain governace where I advocate for blockchain autonomy.
+
+[The Wood-Zamfir Governance Debates – Crypto Law Review – Medium](https://medium.com/cryptolawreview/the-wood-zamfir-governance-debates-80e92436a457)
+  > Two of the sharpest minds in crypto disagree on what it means to agree. Or do they?
+
+[Is plutocratic on-chain governance really a bad thing?](https://medium.com/mosaic-network-blog/is-plutocratic-on-chain-governance-really-a-bad-thing-68132700205c)
+  > Every week the Mosaic research team will delve into important topics within the cryptoasset space.
+
+[(PDF) Governance in the Blockchain Economy: A Framework and Resear...](https://www.researchgate.net/publication/323689461_Governance_in_the_Blockchain_Economy_A_Framework_and_Research_Agenda)
+  > PDF | Blockchain technology is often referred to as a groundbreaking innovation and the harbinger of a new economic era. Blockchains may be capable of engendering a new type of economic system: the blockchain economy. In the blockchain economy, agreed-upon transactions would ...
+
+[Some high level thoughts on cryptocurrency governance](https://thecryptocurrencyinvestor.com/2019/01/29/some-high-level-thoughts-on-cryptocurrency-governance/)
+  > This essay is an overview of some high level concepts in cryptocurrency governance, followed by some specific examples. Governance: Control and Power Governance is the process by which the members …
+
+[What Public Blockchain Protocol Governance Can Learn from Corporat...](https://clsbluesky-law-columbia-edu.cdn.ampproject.org/v/clsbluesky.law.columbia.edu/2019/05/07/what-public-blockchain-protocol-governance-can-learn-from-corporate-governance/amp/?usqp=mq331AQFCAGgAQI%3D&amp_js_v=0.1)
+  > Despite the hype, blockchain technology remains in an early phase of development. Indeed, for many public blockchain protocols, the process of building consensus around the desired trajectory of th…
+
+
+[Vlad and Gav go head-to-head on blockchain governance](https://www.zeroknowledge.fm/52)
+  > In this week's episode, we are joined by a couple greats in the space, Gavin Wood and Vlad Zamfir, to debate the merits of on-chain vs off-chain governance.
+
+[Open Organizations & Governance with Colony](https://www.zeroknowledge.fm/30)
+  > In this episode, we speak with Jack du Rose and Aron Fischer from Colony about governance and open organizations.
+
+[The Balance of Decentralization and Governance](https://www.linkedin.com/pulse/balance-decentralization-governance-lawrence-lundy-bryan/) - Lawrence Lundy-Bryan
+  > A few weeks ago I was at Ethereal Tel Aviv 2019 speaking on a panel on The Balance of Decentralisation and Governance with Gustav Arentoft, Business Development for Europe at MakerDAO; Tegan Kline, International BD at Orchid; Ido Sadeh Man, Founder & Foundation Council President at Saga Foundation; and Igor Lilic, Principal Technical Lead at ConsenSys.
+
+[No such thing as decentralised governance](https://outlierventures.io/research/the-crypto-trias-politica/)
+  > Working toward the crypto trias politica [image id='3556' alignment='none'] This image is licensed under a Creative Commons Attribution 4.0 International License. TL:DR The terms o...
+
+
+## Decentralization
+
+[John Backus (@backus)](https://twitter.com/backus/status/1073353457858301952)
+  > @0xProject @HyszSkies @abandeali1 @burnsbend @mattytay Thanks again for having me! The talk was a random walk through these posts: • Validating @usv’s fat protocol thesis: [https://t.co/Hh8TkamJMN](https://t.co/Hh8TkamJMN) • How decentralization evolves: [https://t.co/OhfhcBkbw5](https://t.co/OhfhcBkbw5) • Ugly duckl...
+
+[redecentralize/alternative-internet](https://github.com/redecentralize/alternative-internet)
+A collection of interesting new networks and tech aiming at decentralisation (in some form). - 
+
+
+
+[Chris Burniske (@cburniske)](https://twitter.com/cburniske/status/1058382995751690240)
+  > 1/ Going to expand on "centralized apps atop decentralized protocols" more, as the idea has incited healthy debate + I want to emphasize that the short-to-medium term architecture (as crypto bootstraps to the mainstream), will be very different from the end-game. https://...
+
+[A New Model For Token Distribution - Multicoin Capital](https://multicoin.capital/2018/11/09/new-models-for-token-distribution/)
+  > Crypto networks are supposed to be decentralized. As Balaji Srinivasan, CTO of Coinbase, has written, decentralization can be measured in a number of dimensions. One of the most important but least discussed measures of decentralization is the distribution of tokens, or in ot...
+
+[https://scuttlebot.io/more/articles/design-challenge-avoid-centralization-and-singletons.html](https://scuttlebot.io/more/articles/design-challenge-avoid-centralization-and-singletons.html)
+
+[Meltem Demirors (@Melt_Dem)](https://twitter.com/Melt_Dem/status/1031190564639830016)
+  > 1/ decentralization is a myth. we use "decentralized" without any specificity as to what that *actually* means. let's untangle the idea of decentralization. i developed a basic grid that breaks it down at the protocol, network, and app layer (dated april 2018)
+
+## Privacy
+
+
+[Sarah Jamie Lewis (@SarahJamieLewis)](https://twitter.com/SarahJamieLewis/status/1032270054669279232)
+  > I spoke to @njkobie about my fears around the privacy & security of the next generation of sex tech, and why I believe we need the protocols facilitating remote sex to be metadata resistant. [https://t.co/XRMJVtyWZ8](https://t.co/XRMJVtyWZ8)
+
+
+
+"Enigma is a permissionless peer-to-peer network that allows (secret contracts) with strong correctness and privacy guarantees. " [https://enigma.co/](https://enigma.co/)
+
+[How blockchain could solve the internet privacy problem](https://www.computerworld.com/article/3267930/blockchain/how-blockchain-could-solve-the-internet-privacy-problem.html)
+  > Blockchain, with its encrypted and immutable record, will eventually be used create universal digital identities, filled with information that only we will control and that will link back to the issuing banks, governments or even employers.
+
+
+
+[Announcing Cwtch: Privacy Preserving Infrastructure for Asynchrono...](https://openprivacy.ca/blog/2018/06/28/announcing-cwtch/)
+  > The Open Privacy Research Society is a non-profit Canadian group based in Vancouver, British Columbia. We believe that moral systems enable consent. Our society exists to invent, create, build, test, publish, deploy, promote, and to encourage the development of such systems
+
+[Privacy Preserving Infrastructure for Asynchronous, Decentralized,...](https://cwtch.im/)
+  > Privacy Preserving Infrastructure for Asynchronous, Decentralized, Multi-Party, and Metadata Resistant Applications
+
+[Nick Szabo⚡️ (@NickSzabo4)](https://twitter.com/NickSzabo4/status/888477025551269889)
+  > Better strategy for online services: anonyms tokens instead of tedious & insecure identity forms. [https://t.co/RW8JRBRL8K](https://t.co/RW8JRBRL8K) ht @1cyrilblanc1 [https://t.co/cUvrXf54Lq](https://t.co/cUvrXf54Lq)
+
+
+[beam-mw/beam](https://github.com/BEAM-mw/BEAM)
+Beam. Scalable Confidential Cryptocurrency. A Mimblewimble implementation - beam-mw/beam
+
+[Brave browser files GDPR breach complaints against Google in the E...](https://www.zdnet.com/article/brave-browser-files-gdpr-breach-complaints-against-google-in-the-eu)
+Google and fellow ad tech firms accused of violating GDPR during the "bid request" process used in behavioral ads.
+
+[Most Cited zkSNARKs Publications](https://blockchainlibrary.org/2017/10/most-cited-zksnarks-publications)
+
+Last updated October 30th, 2017. “Zerocash: Decentralized anonymous payments from bitcoin”. EB Sasson, A Chiesa, C Garman…. 2014. ieeexplore.ieee.org Security and Privacy …. 228 cites. …
+
+[The Best Privacy Coins](https://www.keysheet.io/guides/best-privacy-coin)
+
+In this article, we'll walk you through our recommendations for the best privacy coins and how to use them safely and anonymously.
+
+
+[Matt Odell (@matt_odell)](https://twitter.com/matt_odell/status/1047116230048583685)
+
+You should read @AaronvanW's privacy series: Bitcoin - [https://t.co/awxuDCj1am](https://t.co/awxuDCj1am) Dash - [https://t.co/pXpLfT22eB](https://t.co/pXpLfT22eB) Monero - [https://t.co/tEtcDmGtB1](https://t.co/tEtcDmGtB1) Verge - [https://t.co/QSUlrOQeo9](https://t.co/QSUlrOQeo9) ZCash - [https://t.co/lQCfUE8uTR](https://t.co/lQCfUE8uTR) Mimblewimble - [https://t.co/7NAxHgZOC8](https://t.co/7NAxHgZOC8)
+
+
+
+[Ian Miers (@secparam)](https://twitter.com/secparam/status/1051576795173187589)
+  > ZEXE is basically a zkSNARK based micro-kernel for the blockchain. It provides the absolute minimum in process isolation while ensuring privacy and allowing inter process communication. It also makes all transactions succinct. So its scalable.
+
+[Ian Miers (@secparam)](https://twitter.com/secparam/status/1051575252319395841)
+  > New paper. ZEXE: Zero-knowledge Execution.Think of it like a private OS for the blockchain. Can build private tokens, smart contracts, and maybe even a DEX. Joint work with @matthew_d_green @ebfull @1HowardWu @zkproofs and Alessandro Chiesa [https://t.co/UGEC1vWlua](https://t.co/UGEC1vWlua)
+
+
+
+
+[FRAGMENTED TRANSACTION PROTOCOL](http://diyhpl.us/~bryan/papers2/bitcoin/tom_oct17.txt) - Tom Elvis Jedusor - 17 October, 2018
+  > A protocol is presented, to obsfucate transaction amounts until the moment the coin is spent. In general only the receivers know each other's amounts. They prove this by revealing hash preimages, ownership of whose encodes the fragmented transaction amounts. The script in fragmented transaction is hashed and opaque, not subject to validation by network nodes. This makes this proposal well suited for future improvements in the area such as using zero knowledge proofs or secure multiparty computation that could prove the equation input = sum of outputs to each member of the anonymity group. These future improvements could cause it so that the each others amounts would not be known even by the actual members of the anonymity group.
+
+[STARKs, Part I: Proofs with Polynomials](https://vitalik.ca/general/2017/11/09/starks_part_1.html)
+  > Special thanks to Eli Ben-Sasson for ongoing help, explanations and review, coming up with some of the examples used in this post, and most crucially of all ...
+
+
+[Apps, Trackers, Privacy, and Regulators A Global Study of the Mobile Tracking Ecosystem](http://eprints.networks.imdea.org/1744/1/trackers.pdf)
+
+[Confidential transactions have arrived, a dive into the AZTEC Protocol](https://medium.com/aztec-protocol/confidential-transactions-have-arrived-a-dive-into-the-aztec-protocol-a1794c00c009)
+
+Transaction privacy is a fundamental requirement for many kinds of financial services, and the inability to provide this privacy has…
+
+[Satoshi Has No Clothes: Failures in On-Chain Privacy by Ian Miers ...](https://www.youtube.com/watch?v=9s3EbSKDA3o&feature=youtu.be)
+
+[https://nymtech.net/](https://nymtech.net/)
+
+
+[2018: When Privacy and Decentralization Collided - CoinDesk](https://www.coindesk.com/2018-when-privacy-and-decentralization-collided)
+  > In an op-ed written exclusively for CoinDesk, Enigma CEO Guy Zyskind says 2019 must be about building decentralized solutions for data privacy.
+
+[Crucial biometric privacy law survives Illinois court fight](https://www.theverge.com/2019/1/26/18197567/six-flags-illinois-biometric-information-privacy-act-facial-recognition)
+  > Privacy advocates won a crucial court victory on Friday, as the Illinois Supreme Court dismissed a case that would have pared back a state law limiting the use of facial recognition and other biometrics.
+
+
+
+[Daniel Onggunhao (@onggunhao)](https://twitter.com/onggunhao/status/1144295331481497600?s=12)
+
+I'll be writing a technical-focused analysis of Ethereum privacy projects for @TheBlock__. Currently covering * EY's Nightfall * @aztecprotocol * @clearmatics' Zeth * Stanford's Zether * @argentHQ's Hopper Are there projects I've missed out?
+
+[Sandstorm is an open source platform for self-hosting web apps](https://sandstorm.io)
+
+
+
+[Control as Liability](https://vitalik.ca/general/2019/05/09/control_as_liability.html)
+
+The regulatory and legal environment around internet-based services and applications has changed considerably over the last decade. When large-scale social n...
+
+[James Monaghan (@james_monaghan)](https://twitter.com/james_monaghan/status/1155035448873558018?s=12)
+  > Apple contractors 'regularly hear confidential details' on Siri recordings [https://t.co/gjfSK4y5CP](https://t.co/gjfSK4y5CP)
+
+
+
+[Identifying a person through walls from video footage, using only WiFi](https://news.ycombinator.com/item?id=21124963)
+
+
+[Battle of the Privacycoins: Why Dash Is Not Really That Private](https://bitcoinmagazine.com/articles/battle-privacycoins-why-dash-not-really-private)
+  > Based on blockchain technology, most cryptocurrencies have an open and public ledger. While this is required for these systems to work, it comes with a significant downside: Privacy is often quite limited. Government agencies, analytics companies and other interested parties ...
+
+
+[Let's Encrypt - Free SSL/TLS Certificates](https://letsencrypt.org/)
+  > Let’s Encrypt is a free, automated, and open certificate authority brought to you by the non-profit Internet Security Research Group (ISRG).
+
+### consensus
+
+[Synchrony and Timing Assumptions in Consensus Algorithms Used in P...](https://medium.com/mechanism-labs/synchrony-and-timing-assumptions-in-consensus-algorithms-used-in-proof-of-stake-blockchains-5356fb253459)
+
+[Algorand 2.0 at CESC](https://gist.github.com/Haseeb-Qureshi/d3b49afeec82eb77e6716ff6eb878b95)
+Algorand 2.0 at CESC. GitHub Gist: instantly share code, notes, and snippets.
+
+
+[Marcella Hastings (@marsella_h)](https://twitter.com/marsella_h/status/1060279196440821770)
+Our paper "SoK: General Purpose Compilers for Secure Multi-Party Computation" was accepted to IEEE S&P 2019 and is now available online! [https://t.co/pIB9gqCOKH](https://t.co/pIB9gqCOKH)
+
+
+[Proof of Stake and the History of Distributed Consensus: Part 1, N...](https://medium.com/thunderofficial/proof-of-stake-and-the-history-of-distributed-consensus-part-1-nakamoto-consensus-byzantine-176e0156316e)
+
+
+[Practical Byzantine Fault Tolerance](http://pmg.csail.mit.edu/papers/osdi99.pdf) Miguel Castro and Barbara Liskov
+  > This paper describes a new replication algorithm that is able to tolerate Byzantine faults. We believe that Byzantinefault-tolerant algorithms will be increasingly important in the future because malicious attacks and software errors are increasingly common and can cause faulty nodes to exhibit arbitrary behavior. Whereas previous algorithms assumed a synchronous system or were too slow to be used in practice, the algorithm described in this paper is practical: it works in asynchronous environments like the Internet and incorporates several important optimizations that improve the response time of previous algorithms by more than an order of magnitude. We implemented a Byzantine-fault-tolerant NFS service using our algorithm and measured its performance. The results show that ourservice is only 3% slower than a standard unreplicated NFS
+
+[Alternative Consensus Deep Dive](https://docs.google.com/presentation/d/10YH5ssdES2C228SwDoQI3kM1X-mMw3NhHjlESPYi9iY/edit)
+
+
+
+[Consensus Systems with Ethan Buchman - Software Engineering Daily](https://softwareengineeringdaily.com/2018/03/26/consensus-systems-with-ethan-buchman)
+Consensus protocols are used to allow computers to work together. A consensus protocol lets different servers agree on the state of a system. For decades, these protocols have been used to establish consensus among database nodes, application servers, and other infrastructure...
+
+
+[9 Types of Consensus Mechanisms That You Didn’t Know About](https://medium.com/the-daily-bit/9-types-of-consensus-mechanisms-that-you-didnt-know-about-49ec365179da)
+Reviewing lesser known consensus mechanisms and their implementations in distributed ledgers.
+
+[A Hitchhiker’s Guide to Consensus Algorithms – Hacker Noon](https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3)
+A quick classification of cryptocurrency consensus types
+
+[dgryski/awesome-consensus](https://github.com/dgryski/awesome-consensus)
+Awesome list for Paxos and friends. .
+
+[Web 3 Consensus Mechanisms – imbrexBlog – Medium](https://medium.com/imbrexblog/web-3-consensus-mechanisms-2dcfb7bfaadb)
+
+…and the protocols that use them
+
+
+[zawy12/difficulty-algorithms](https://github.com/zawy12/difficulty-algorithms/issues)
+
+See the Issues for difficulty algorithms. .
+
+[Randomness in Blockchains (Part 1) – Mechanism Labs – Medium](https://medium.com/mechanism-labs/randomness-in-blockchains-part-1-79192b173816)
+Randomness exists all around us. Concepts of luck, probability and fate have all historically been intertwined with the concept of…
+
+
+[Finality in Blockchain Consensus – Mechanism Labs – Medium](https://medium.com/mechanism-labs/finality-in-blockchain-consensus-d1f83c120a9a)
+
+Today, with the swipe of a credit card, I purchased a delightful matcha green tea (shout out to Asha in Berkeley). Just moments after the…
+
+[Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols](https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols/blob/master/MetaAnalysis.pdf)
+
+This paper presents the first systematization of knowledge within these major blockchain protocols, understanding the common challenges and solutions, and providing a formal structure within which...
+
+
+### Security
+
+----
+
+[What Is a Dusting Attack?](https://www.binance.vision/security/what-is-a-dusting-attack)
+  > Have you received a small amount of unsolicited cryptocurrency into your wallet? You may be a victim of a Dusting Attack. Learn about dusting attacks.
+
+[hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence)
+  > A curated list of Awesome Threat Intelligence resources
+
+[Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
+A collection of various awesome lists for hackers, pentesters and security researchers - Hack-with-Github/Awesome-Hacking
+
+[Synesthesia: Detecting Screen Content via Remote Acoustic Side Channels](https://arxiv.org/abs/1809.02629)
+
+[Circuit Swan was Amazonv (@CircuitSwan)](https://twitter.com/circuitswan/status/1140739418875019264?s=12)
+  > If i was trying to categorize security peeps - what am i missing? red team blue team compliance legal abuse / anti-abuse QA/QE IR appsec sec ops threat intel sec research sec automation other
+
+[evyatarmeged/Raccoon](https://github.com/evyatarmeged/Raccoon)
+Raccoon - A high performance offensive security tool for reconnaissance and vulnerability scanning
+
+[Responsible disclosure in the era of cryptocurrencies](https://medium.com/@coryfields/http-coryfields-com-cash-48a99b85aad4)
+My experience disclosing a critical Bitcoin Cash vulnerability
+
+[How not to get hacked during Consenus NYC 2018 – tales from the...](https://medium.com/tales-from-the-crypt-o/how-not-to-get-hacked-during-consenus-nyc-2018-eabc4c8c903c)
+Some useful hints and best practices that will help you not to get hacked during one of the most existing cryptocurrency conferences of…
+
+[Wallets and Backups: How to Secure Your Cryptocurrency | CSB Tech ...](https://www.csbtechemporium.com/research/how-to-secure-your-cryptocurrency/)
+Whether you’re a newfound blockchain devotee, or just want exposure to the potential upside, this guide will help get you started on the journey. Before you buy a significant amount, you’ll need to know how to keep it secure. Traditional forms of currency, issued by...
+
+[Singularity - Microsoft Research](https://www.microsoft.com/en-us/research/project/singularity/)
+OS and tools for building dependable systems. The Singularity research codebase and design evolved to become the Midori advanced-development OS project. While never reaching commercial release, at one time Midori powered all of Microsoft’s natural language search service fo...
+
+[Improving SSL Warnings: Comprehension and Adherence](https://dl.acm.org/citation.cfm?id=2702442) 
+[Reflections on Trusting Trust](https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf) 
+
+![https://www.zerohedge.com/sites/default/files/2018-07/lost%20safe%20box.jpg](https://www.zerohedge.com/sites/default/files/2018-07/lost%20safe%20box.jpg)
+
+[;login: logout -This World of Ours](https://www.usenix.org/system/files/1401_08-12_mickens.pdf) 
+
+[Format String Attacks](http://forum.ouah.org/FormatString.PDF) 
+
+[Getting around non-executable stack (and fix)](http://seclists.org/bugtraq/1997/Aug/63)
+
+[Ceremony Design and Analysis](https://eprint.iacr.org/2007/399.pdf)
+
+[Programming Satan's Computer](https://www.cl.cam.ac.uk/~rja14/Papers/satan.pdf)
+
+[Survivable Key Compromise in Software Update Systems](https://justinsamuel.com/papers/survivable-key-compromise-ccs2010.pdf)
+
+[Some thoughts on security after ten years of qmail 1.0](https://cr.yp.to/qmail/qmailsec-20071101.pdf) 
+
+[NEW YORKERS ON MOBILE MESSAGING AND IMPLICATIONS FOR PRIVACY](https://simplysecure.org/resources/techreports/NYC15-MobMsg.pdf) 
+
+[Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution](https://foreshadowattack.eu/)
+
+[Fern Wifi Cracker - WPA/WPA2 Wireless Password Cracking](https://n0where.net/fern-wifi-cracker)
+Fern Wifi Cracker is a Wireless security auditing and attack software program written using the Python Programming Language and the Python Qt GUI library
+
+[Introduction: Break That Hash](https://n0where.net/hashcat-introduction-break-that-hash)
+
+Break That Hash: Introduction to hash cracking with Hashcat. Principles behind password cracking and cover the specific attacks and command-line examples
+
+![https://n0where.net/wp-content/uploads/2013/07/cat-e1430837569728.jpg](https://n0where.net/wp-content/uploads/2013/07/cat-e1430837569728.jpg)
+
+[CyberPunk - Madness and Obsession on the Electronic Frontier - n0where.net](https://n0where.net/)
+The Best Resource for Information Security Researchers and Penetration Testing Professionals
+
+[Naomi Wu 机械妖姬 (@RealSexyCyborg)](https://twitter.com/RealSexyCyborg)
+So I'm working on a video about protecting yourself against abusive tech and I came across a really nasty bit of business that I thought I should post about. USB chargers with audio listen-in and GPS location have been around for a while- but now even the USB cables can ha...
+
+[Sarah Jamie Lewis (@SarahJamieLewis)](https://twitter.com/SarahJamieLewis/status/1032270054669279232)
+I spoke to @njkobie about my fears around the privacy & security of the next generation of sex tech, and why I believe we need the protocols facilitating remote sex to be metadata resistant. [https://t.co/XRMJVtyWZ8](https://t.co/XRMJVtyWZ8)
+
+[mich (@0x6d696368)](https://twitter.com/0x6d696368/status/929294641270263810)
+I took a look at those Chinese GSM location tracking UBS cables tweeted about by @securelyfitz a while ago. Write up: [https://t.co/YXtLEqiZAA](https://t.co/YXtLEqiZAA)
+
+[Automate Security Audit: Netool.sh](https://n0where.net/automate-security-audit)
+Automate Security Audit with Netool.sh - a bash script to automate frameworks like Metasploit, Nmap, Driftnet, SSLstrip, Ettercap, macchanger, webcrawler.
+
+[OccupytheWeb (@three_cube)](https://twitter.com/three_cube/status/1022327241353527296)
+Wireless Hacking: Cracking the WPS PIN with Reaver #wireless #wifi #cybersecurity #infosec [https://t.co/p31HIA4c6t](https://t.co/p31HIA4c6t)
+
+[zooko (@zooko)](https://twitter.com/zooko/status/1026143881392402432)
+Internet routing (BGP) is fundamentally insecure, which means eventually you're going to have to choose if you want to connect to the Russian internet, the Chinese internet, or the American internet, etc. [https://t.co/7NiI3VzuDG](https://t.co/7NiI3VzuDG) We should fix this.
+
+[Master OTW's Hacker Training Camp -hackers-arise](https://www.hackers-arise.com/digital-forensic-investigator-for-h)
+
+[Sergey Gorbunov (@sergey_nog)](https://twitter.com/sergey_nog/status/1029432662233108482)
+  > A new attack on Intel SGX compromising its confidentiality. "Foreshadow demonstrates how speculative execution can be exploited for reading the contents of SGX-protected memory as well as extracting the machine’s private attestation key" [https://t.co/Fhc7L2eFgh](https://t.co/Fhc7L2eFgh)
+
+[Richard Burton (@ricburton)](https://twitter.com/ricburton/status/1035510693120942081)
+  > The trip to @ethindiaco was well worth it. One of the most impressive hacks came from @_pranav_singhal and his team. They had a new take on splitting up the private key with Shamir’s secret and a network of resetters on Telegram who are paid to help. [https://t.co/UoyRk](https://t.co/UoyRk)...
+
+[Simplifying Domain Fronting – Tim MalcomVetter – Medium](https://medium.com/@malcomvetter/simplifying-domain-fronting-8d23dcb694a0)
+Like many things in InfoSec, we complicate concepts with new terms and lingo, but the concepts at their core are simple. “Domain Fronting”…
+
+[Who done it: Gaining visibility and accountability in the cloud](https://www.sans.org/summit-archives/file/summit-archive-1536356506.pdf)
+
+[Get Involved - openprivacy.ca](https://openprivacy.ca/get-involved)
+The Open Privacy Research Society is a non-profit Canadian group based in Vancouver, British Columbia. We believe that moral systems enable consent. Our society exists to invent, create, build, test, publish, deploy, promote, and to encourage the development of such systems
+
+[Imani Tech Specialist (@Imani_Ortiz)](https://twitter.com/Imani_Ortiz/status/1038180637503631360)
+mt: @fisher85m #IoT attacks: #Top10 things you need to know Infographic #CyberSecurity #infosec #Security #DDoS @Fisher85M #BigData #DataScience #antivirus #Hacking #Firewall
+
+[Ten Commandments of Crypto Security, Updated – Andre Preoteasa ...](https://medium.com/@AndrePreoteasa/ten-commandments-of-crypto-security-updated-1cfd754fbf45)
+  > Information security is my business. As founder and CEO of System of Systems, an IT consulting company, security is an important service…
+
+[Creating a data-secure app with IronCore Labs](https://www.profiq.com/creating-a-data-secure-app-with-ironcore-labs)
+“Cyber crime is the greatest threat to every company in the world.” Ginni Rometty – Chairman, President, and CEO, IBM The consequences of data breaches are devastating. In 2017, …
+
+[https://www.wyden.senate.gov/imo/media/doc/wyden-encrypted-sni-letter-to-dhs.pdf](https://www.wyden.senate.gov/imo/media/doc/wyden-encrypted-sni-letter-to-dhs.pdf)
+  > I urge Department of Homeland Security (DHS) to protect web browsing information about Americans, including U.S. government employees.
+
+[Farewell, Forced Decryption: A Dive into Cypherlock](https://medium.com/chainrift-research/farewell-forced-decryption-a-dive-into-cypherlock-e515223a7123)
+What are you going to do, beat it out of me?
+
+[3D-printed heads let hackers – and cops – unlock your phone](https://techcrunch.com/2018/12/16/3d-printed-heads-unlock-cops-hackers/)
+There’s a lot you can make with a 3D printer: prosthetics, corneas, firearms — even an Olympic-standard luge. You can even 3D-print a life-size replica of a human head — and not just for Hollywood. Forbes reporter Thomas Brewster commissioned a 3D-printed model of his...
+
+[MyCrypto.com (@MyCrypto)](https://twitter.com/MyCrypto)
+  > #MyCryptoWinter - December 17: Your Online Arsenal Install one of the following: -@metamask_io -@sniko’s @EthAddrLookup -@metacert’s Cryptonite This tip was brought to you by our friends at @infura_io! Join #MyCryptoWinter
+
+
+[Everything About HTTPS and SSL (Java) - DZone Security](https://dzone.com/articles/ssl-in-java)
+In this post, we take a closer look at HTTPS and SSL — what they are, what they do, their different types, and why they matter.
+
+
+[Open Standard Repository](https://cryptoconsortium.github.io/CCSS/)
+The CryptoCurrency Certification Consortium (C4) establishes cryptocurrency standards that help ensure a balance of openness & privacy, security & usability, and trust & decentralization.
+
+[Blockchain University](https://www.youtube.com/channel/UCJ5uHx90mZGlK0lC-GSmtzw/videos) 
+
+* CryptoChat_004 - [John Wolpert on Blockchain, Identity, Trust, and a New Internet](https://anchor.fm/thecryptoconomy/episodes/CryptoChat_004---John-Wolpert-on-Blockchain--Identity--Trust--and-a-New-Internet-e2ndqo)
+* CryptoQuikRead_129 - [Responsible Disclosure in the Era of Cryptocurrencies](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_129---Responsible-Disclosure-in-the-Era-of-Cryptocurrencies-e2ndqg)
+* CryptoQuikRead_131 - [BCH Update: Bitmain, BCH, the IPO & What it All Actually Means](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_131---BCH-Update-Bitmain--BCH--the-IPO--What-it-All-Actually-Means-e2ndqe)
+* CryptoQuikRead_145 - [Giacomo on SPV and Digital Coinage](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_145---Giacomo-on-SPV-and-Digital-Coinage-e2ndpv)
+* CryptoQuikRead_170 - [If Games Drive Crypto Mass Adoption, Then it Will be Grassroots](https://anchor.fm/thecryptoconomy/episodes/CryptoQuikRead_170---If-Games-Drive-Crypto-Mass-Adoption--Then-it-Will-be-Grassroots-e2ndp3)
+  >"If you build a system meant by its very nature to dis-intermediate third parties and exist independent of governments and legal systems, you have an identity problem." -Nic Carter Another excellent piece by Nic Carter exploring the very idea of identity in a decentralized system and the ongoing battles for the vision of Bitcoin.
+
+[Unchained: Big Ideas From The Worlds Of Blockchain And Cryptocurrency](http://unchainedpodcast.co/)
+  > Crypto assets and blockchain technology are about to transform every trust-based interaction of our lives, from financial services to identity to the Internet of Things. In this podcast, host Laura Shin, an independent journalist covering all things crypto, talks with industr...
+
+
+
+[MSc in Digital Currency - University of Nicosia](https://www.youtube.com/user/MScDigitalCurrency/videos)
+  > The University of Nicosia is running the first MSc Degree in Digital Currency offered to students worldwide through an online format since Spring 2014. The M...
+[CRI](https://www.youtube.com/channel/UCgo7FCCPuylVk4luP3JAgVw/videos)
+  > Congress can and should reflect the will of the people. Our research strives to achieve this goal by focusing on the institutional design of legislatures. Es...
+[reinvent.money](https://www.youtube.com/user/deBitcoin/videos)
+  > Welcome to reinvent.money where we publish insightful interviews with leading people in the alternative money community.
+[BitMEX](https://www.youtube.com/channel/UCQ9eXM9P9-f93eeRImPcpUA)
+
+
+[Nelson M. Rosario (@NelsonMRosario)](https://twitter.com/NelsonMRosario/status/1016529864269221888)
+  > A common criticism of the #blockchain/#cryptocurrency space is a lack of wisdom with respect to how humans behave. With that in mind, what are some books for a #cryptosyllabus from outside the traditional areas that you think #TheSpace would benefit from? 1/15
+
+[Tiffany Hayden ⚡️ (@haydentiff)](https://twitter.com/haydentiff/status/1028003035912568832)
+  > @Wolfsburg1977 It’s the title of @BrettKing’s book. (FWIW, these are very good books for $XRP supporters. They helped me understand @Ripple’s mission better.) Bank 3.0: Why Banking Is No Longer Somewhere You Go But Something You Do [https://t.co/kwGEW9XNDP](https://t.co/kwGEW9XNDP)
+
+
+[Best Cryptocurrency Books of 2018 - 15 Must Read Crypto Books](http://citizensoftheworld.io/best-cryptocurrency-books/)
+All of these recommended cryptocurrency books are high-quality. Click here for reviews of the best cryptocurrency books available today!
+
+[BLASTbroid (@anambroid)](https://twitter.com/anambroid/status/1032322460308389888)
+  > This is my review for Cryptocurrency - A Trader's Handbook by @cryptorangutang This book is intended for a complete, 100% raw, virgin trader and wants to arm them with the right tools for the cryptocurrency market. In summary, it does a hack job. #cryptobookclub
+
+[Jason Goldberg v0.1 (@betashop)](https://twitter.com/betashop/status/1050753409601740800)
+  > Frankie from Team @OSTdotcom checking out the new #tokenomics book by @thomaspower and @seandotau including a short interview w me (@betashop) amongst many others! Cool stuffs!
+
+[Attachment: Blockchain_Revolution_by_Don_Tapscott_Alex_Tapscott.epub (817.97 KB)](https://cdn.discordapp.com/attachments/477647916497108992/496492318300307457/Blockchain_Revolution_by_Don_Tapscott_Alex_Tapscott.epub)
+
+[Ryan Radloff ⚡️ (@RyanRadloff)](https://twitter.com/RyanRadloff/status/919281645521391617)
+  > For everyone in the bitcoin and crypto-finance space, I strongly recommend reading @nfergus "The Square and the Tower"
+
+[gwern (@gwern)](https://twitter.com/gwern/status/1053857773648265216)
+  > *The Sexual Cycle of Human Warfare*
+  > 
+  > is the hardest book I've ever gotten. It took me over a decade. It's no wonder that despite huge impact on Dune, analyses like @timoreilly's or Touponce just omit Walter entirely - can't get copies! Well,
+
+[List of Cryptocurrency Ebooks to Learn From | UseTheBitcoin](https://usethebitcoin.com/list-of-cryptocurrency-ebooks-to-learn-from)
+With no end to resources available to learn about cryptocurrencies, eBooks can be a great way to get a deep set of understanding about the underlying technology and opportunity in… Continue reading "List of Cryptocurrency Ebooks to Learn From"
+
+[https://www.amazon.com/Blockchain-Architecture-Trust-Information-Policy/dp/0262038935](https://www.amazon.com/Blockchain-Architecture-Trust-Information-Policy/dp/0262038935)
+
+
+[hodlonaut🌮⚡🔑 (@hodlonaut)](https://twitter.com/hodlonaut/status/1174243013037633537?s=20)
+  > Getting back into reading books lately. Any good recommendations? Especially enjoy the history/historical fiction/biography/documentary genres, but any good recommendation is welcome.
+^^^ serious thread, must mine
+
+[Why These Books Are Top Picks Among Powerful Blockchain Influencers](https://www.forbes.com/sites/laurencoleman/2018/09/25/why-these-books-are-top-picks-among-powerful-blockchain-influencers/)
+Ever wonder how the new establishment in crypto and blockchain are lining up success? Maybe it's what they are reading. Find out their top picka now so that you can add them to your reading list pronto!
+
+
+[🧠 (@100MSatoshi)](https://twitter.com/100msatoshi/status/1142290805115088896?s=12)
+  > Alright, I bought all the books you guys recommended. Although, I am so ashamed @*JustinMoon* I have been so behind on Moon University. I think I can do some reading in the next 2 weeks and will focus on Moon University the week of July 4. I *can* #learntocode.
+
+[BlockchainBooks/blockchainbooks.github.io](https://github.com/BlockchainBooks/blockchainbooks.github.io)
+Blockchain Books. .
+
+

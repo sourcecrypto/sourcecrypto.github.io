@@ -13,8 +13,8 @@ author_profile: true
 permalink: /posts/history/smart-contracts/
 redirect_from: /bitcoin-history/smart-contracts/
 canonical_url: 'https://sourcecrypto.pub/posts/history/smart-contracts/'
-categories: ["History"]
-tags: ["Smart Contracts"]
+categories: ["History", "Smart Contracts"]
+tags: []
 
 ---
 
@@ -29,14 +29,6 @@ When I came across:
     > Smart contracts and related languages have a long discussion history on LtU
     
 Which took me down the rabbithole and led to [the creation](https://github.com/sourcecrypto/bitcoin-history/commit/29700115d9c74eebb72b04023dd0085057e0ecd6#diff-cd3d4ba11ddc27e38cd09a3284beeb87) of this page.
-
-## Bitcoin History Discord Chat
-
-Previously I was tracking all my information in one discord server, but I realized I would need more.
-
-Recently, I made a separate server just for [Bitcoin History](https://discord.gg/Evk84Kk). So you can find a ton of stuff there... and then there is the archive page from the original: [sourcecrypto.pub / smart-contracts](https://sourcecrypto.pub/archive/chaintech/smart-contracts/)
-
-There is still much work to be done, and right now all my Bitcoin content is being gathered together and should make a formiddable resource, soon!
 
 ## Smart Contract History
 

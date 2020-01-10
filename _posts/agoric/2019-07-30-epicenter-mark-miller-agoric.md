@@ -8,8 +8,8 @@ header:
   image: /images/mark-s-miller-banner.png
   caption: "'[Architectures of Robust Openness](https://conf.tube/videos/watch/7a772faf-9a32-4692-b5cd-4dbabfdd9797)' - [ActivityPub Conference](https://conf.tube/video-channels/apconf_channel) Keynote by Mark S. Miller"
   teaser: /images/mark-miller-epicenter-teaser.png
-categories: ["Transcripts","History","Agoric"]
-tags: ["Mark Miller", "ObCap", "Smart Contracts"]
+categories: ["History", "Object Capabilities", "Smart Contracts"]
+tags: ["Mark Miller", "Transcript","Agoric"]
 permalink: /posts/agoric/mark-miller-agoric-epicenter/
 redirect_from: /posts/transcripts/mark-miller-agoric-epicenter/
 cannonical_url: 'https://medium.com/agoric/agoric-and-the-decades-long-quest-for-secure-smart-contracts-epicenter-interview-with-mark-s-76c9a0fab6e2'

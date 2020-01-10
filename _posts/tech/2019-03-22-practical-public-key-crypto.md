@@ -7,7 +7,7 @@ excerpt: >
 permalink: /posts/crypto/keysigs-escrow-bitcoin-ethereum-pgp/
 share: true
 last_modified_at: 2019-06-20T11:22:33-23:00
-categories: ["Crypto"]
+categories: ["Cryptography"]
 tags: 
   - PGP
   - Escrow

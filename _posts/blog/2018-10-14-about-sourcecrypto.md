@@ -13,12 +13,14 @@ toc: true
 share: true
 tags: ["Introduction"]
 last_modified_at: 2019-08-17T11:22:33-23:00
-categories: ["About","SourceCrypto"]
+categories: ["SourceCrypto"]
 permalink: /about/
 redirect_from:
   - blog/research-index/
   - posts/research-index/
 ---
+
+### Depreciated
 
 **A discord server and web-portal for creating an open-source, public-domain, index of Crypto Knowledge.**
 
@@ -61,30 +63,19 @@ That's a super quick way to get all that content up here on the web where anyone
 
 * [GitHub Pages Starter Pack](https://web-work.tools/gh-pages-starter-pack/)
 * [Minimal Mistakes Quickstart Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
-* [Publishing Discord Server Archives via Minimal Mistakes](https://didecentral.com/contributors-guide/discord-archive-howto/)
 
 ![](https://i.imgur.com/pYydLx7.png)
 
 [![](https://SourceCrypto.pub/images/interlinked.png)](https://discord.gg/ahTuPMY)
-
-## Related Servers
 
 ### Web-work.tools
 
 * [Web-work.tools](https://web-work.tools)
 * [Web-work.tools Discord Chat](https://discord.gg/29mZwPQ)
 
-### Crypto Finance
-
-* [CryptoFinance Discord Chat](https://discord.gg/TGG3T7H)
-
 ### Bitcoin Nerds
 
 Eventually all of the info in these Bitcoin servers will be published on the same site.
 
-* [bitcoin-nerds.xyz](https://bitcoin-nerds.xyz/)
-* [github.com/bitcoin-nerds](https://github.com/bitcoin-nerds/)
-* [BTC-Nerds Discord Chat](https://discord.gg/nxcACHc)
-* [Practical Bitcoin Discord Chat](https://discord.gg/c2Rrbx5)
-* [Lightning Network Info](https://discord.gg/2c4Sd7u)
-* [Bitcoin History Discord Chat](https://discord.gg/Evk84Kk)
+* [bitcoinfo.xyz](https://bitcoinfo.xyz/)
+* [github.com/bitcoinfo](https://github.com/bitcoinfo/)

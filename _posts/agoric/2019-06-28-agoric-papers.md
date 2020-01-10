@@ -11,8 +11,8 @@ header:
   og_image: /images/agoric-papers-teaser.png
 share: true
 last_modified_at: 2019-06-28T11:22:33-23:00
-categories: ["History","Agoric"]
-tags: ["Mark Miller", "Eric Drexler", "ObCap", "Smart Contracts", "Literature"]
+categories: ["History", "Smart Contracts","Object Capabilities","Literature"]
+tags: ["Mark Miller", "Eric Drexler",  "Agoric"]
 toc_sticky: true
 permalink: /posts/agoric/papers-miller-drexler/
 redirect_from: 

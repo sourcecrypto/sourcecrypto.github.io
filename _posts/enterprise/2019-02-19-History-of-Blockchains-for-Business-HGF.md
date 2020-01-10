@@ -13,11 +13,10 @@ header:
 toc: false
 classes: wide
 last_modified_at: 2019-04-20T11:22:33-23:00
-categories: ["History","Transcripts","Enterprise"]
+categories: ["History","Enterprise"]
 tags:
-  - Bitcoin
+  - "Transcript"
   - HGF2018
-  - Permissioned
   - DLT
 redirect_from:
   - /transcripts/blockchain-business-history/
