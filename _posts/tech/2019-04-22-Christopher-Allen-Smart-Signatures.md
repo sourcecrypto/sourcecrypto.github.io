@@ -7,10 +7,10 @@ share: true
 header:
   image: /images/smart-signatures.png
   teaser: /images/smart-signatures.png
-categories: ["Crypto","Transcripts"]
+categories: ["Cryptography"]
 tags:
-  - Christopher Allen
   - Smart Signatures
+  - Transcript
 permalink: /posts/transcripts/smart-signatures-christopher-allen/
 redirect_from: 
   - /transcripts/smart-signatures-christopher-allen/

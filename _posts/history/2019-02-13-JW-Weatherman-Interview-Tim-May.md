@@ -14,9 +14,9 @@ header:
 toc: false
 classes: wide
 last_modified_at: 2019-04-20T11:22:33-23:00
-categories: ["History", "Transcripts"]
+categories: ["History", "Cypherpunk"]
 tags: 
-  - Cypherpunks
+  - "Transcript"
   - Tim May
 redirect_from:
   - /transcripts/JW-Weatherman-Interview-Tim-May/
