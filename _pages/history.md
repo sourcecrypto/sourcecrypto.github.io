@@ -2,8 +2,8 @@
 layout: single
 title: "A growing assortment of knowledge related to the history of Bitcoin."
 header: 
-  image: "/images/bitcoin-history/bit-coin-history.png"
-  image_description: "Top Moments in Bitcoin History: [Amiga Metals](https://www.amagimetals.com/bitcoin)."
+  image: "/images/bitcoin-history/pre-history.jpeg"
+  caption: "[credits to @btcmrkts and @AnselLindner IIRC](https://twitter.com/weedcoder/status/1154808916792020992?s=20)"
 share: true
 author_profile: false
 sidebar:
