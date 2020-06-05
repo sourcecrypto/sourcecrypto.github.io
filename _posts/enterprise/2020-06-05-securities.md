@@ -1,10 +1,12 @@
 ---
+layout: single
+title: Global Securities Regulations
+description: Curated list about securities laws across the Globe
 published: false
 ---
 
-# Securities
 
-## ⚷ sto-security-tokens
+## Security Tokens (STO)
 
 * [Security Tokens Explained For Dummies! (STOs vs ICOs)](https://www.youtube.com/watch?v=ei3nGzitH20&feature=share) 
 * [Five Things to Know About Security Token Offerings](https://distributed.com/news/five-things-know-about-security-token-offerings) 
@@ -27,9 +29,6 @@ published: false
   > Security token offering services are enterprises that aim to assist companies in conducting an STO. With STOs poised to revolutionize the crypto space, the importance of these service providers are only likely to increase in the future.
 * [Crypto, meet compliance — Republic](https://republic.co/crypto)
   > Simple. Compliant. Proven. The first platform to deliver fully compliant fundraising. Our services are fully SEC-registered, FINRA regulated. Don’t worry about where your investors are based or whether they are accredited. We can handle it.
-
-## ⚷ security-tokens
-
 * [Good Protocols: How to Properly Standardize Security Tokens](https://blog.neufund.org/good-protocols-how-to-properly-standardize-security-tokens-95ff83c81c4a)
 * [How to Write an STO White Paper: A Step-by-Step Guide (Part I)](https://www.ccn.com/how-to-write-an-sto-white-paper-a-step-by-step-guide-part-i/)
 * [Tokenize The World: A Tokenized Securities Documentary](https://blog.nomics.com/flippening/security-token-documentary/)
@@ -55,7 +54,7 @@ published: false
 * [TheTokenist.io (@thetokenist)](https://twitter.com/thetokenist)
   > Security token issuances are one of the main focuses right now for the Ontology Network (@OntologyNetwork). The OEP-506 protocol will allow for compliant, encrypted digital securities to create a streamlined process that is easily managed by the issuer. [https://t.co/YwCJo](https://t.co/YwCJo)...
 
-## ⚷ sec
+## SEC
 
 * [SEC.gov - Joint Staff Statement on Broker-Dealer Custody of Digita...](https://www.sec.gov/news/public-statement/joint-staff-statement-broker-dealer-custody-digital-asset-securities)
   > Joint Staff Statement on Broker-Dealer Custody of Digital Asset Securities
