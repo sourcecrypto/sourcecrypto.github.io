@@ -271,28 +271,28 @@ compress_html:
 # Collections
 collections:
   info:
-    output: true
+    output: false
     permalink: /archive/:collection/:path/
   resources:
-    output: true
+    output: false
     permalink: /archive/:collection/:path/
   blockchain:
-    output: true
+    output: false
     permalink: /archive/:collection/:path/
   layer1:
-    output: true
+    output: false
     permalink: /archive/:collection/:path/
   chaintech:
-    output: true
+    output: false
     permalink: /archive/:collection/:path/
   tech:
-    output: true
+    output: false
     permalink: /archive/:collection/:path/
   entertainment:
-    output: true
+    output: false
     permalink: /archive/:collection/:path/
   application:
-    output: true
+    output: false
     permalink: /archive/:collection/:path/
 
 

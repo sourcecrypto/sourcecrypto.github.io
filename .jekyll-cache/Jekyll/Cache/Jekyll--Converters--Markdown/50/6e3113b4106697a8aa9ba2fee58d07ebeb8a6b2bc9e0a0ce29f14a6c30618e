@@ -1,4 +1,4 @@
-I"©N<blockquote>
+I"¼N<blockquote>
   <p>This talk focuses on the history of blockchains in a business context as lived and told by the CEO of the first company to build a permissioned, smart contract compatible blockchain codebase (the codebase currently known as Hyperledger Burrow).</p>
 
   <p>There are three phases to the talk and a predominant lesson for the future of blockchain network implementations will be gleaned from each phase. In the first phase the talk will focus on the early days â€“ when the community of businesses seeking to utilize blockchains were vanishingly small. This phase, known as the `huh?` phase was formative for where the technology currently is. The second phase of the talk will focus on the hype driven buzz phase of the technology which drove a huge amount of top down activity. Finally, the third phase of the talk will focus on the phase the technology is just entering where all the software folks get to work.</p>
@@ -15,7 +15,7 @@
 
 <h2 id="transcript">Transcript</h2>
 
-<p><code class="highlighter-rouge">lightly edited for readability</code></p>
+<p><code class="language-plaintext highlighter-rouge">lightly edited for readability</code></p>
 
 <h3 id="introduction">Introduction</h3>
 
