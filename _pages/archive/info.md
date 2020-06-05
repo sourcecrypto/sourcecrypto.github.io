@@ -9,4 +9,5 @@ classes: wide
 sidebar:
   nav: sourcedisco 
 share: true
+published: false
 ---

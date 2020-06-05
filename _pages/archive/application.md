@@ -10,6 +10,7 @@ sidebar:
   nav: sourcedisco 
 #: 9
 share: true
+published: false
 ---
 
 Specific Blockchain Applications

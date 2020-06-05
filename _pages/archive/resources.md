@@ -10,6 +10,7 @@ sidebar:
   nav: sourcedisco 
 #: 2
 share: true
+published: false
 ---
 
 For collections of Resources.
