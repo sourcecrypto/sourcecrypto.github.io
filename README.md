@@ -4,9 +4,6 @@
 
 SourceCrypto has become a crypto curators research collaborative, inspired by [the Awesome lists](https://github.com/sindresorhus/awesome).
 
-Join us [on Discord](https://discord.gg/J66uZKq), or on the web:
-
 [![](https://infominer.xyz/assets/icons/android-chrome-512x512.png)](https://sourcecrypto.pub)
 
 -[Infominer](https://infominer.xyz)
-https://discord.gg/J66uZKq
