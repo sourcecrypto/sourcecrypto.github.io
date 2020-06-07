@@ -8,8 +8,6 @@ header:
   teaser: "https://SourceCrypto.pub/images/source-crypto-gh-og.png"
   caption   : "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 excerpt: "I'm now able to appreciate the technical limitation for shaping my categorization process. It makes sense to have 10 or less ways to divide the entire ecosystem and break it down from there... even if some overlap. Simplicity <3"
-sidebar:
-  nav: sourcedisco 
 toc: false
 permalink: /posts/welcome/
 redirect_from:

@@ -6,8 +6,6 @@ redirect_from: "/discolog/blockchain-tech/"
 collection: chaintech
 entries_layout: grid
 classes: wide
-sidebar:
-  nav: sourcedisco 
 share: true
 published: false
 ---

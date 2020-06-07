@@ -5,8 +5,6 @@ permalink: /archive/entertainment/
 collection: entertainment
 entries_layout: grid
 classes: wide
-sidebar:
-  nav: sourcedisco 
 #: 8
 share: true
 published: false

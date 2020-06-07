@@ -6,8 +6,6 @@ redirect_from: "/discolog/tech/"
 collection: tech
 entries_layout: grid
 classes: wide
-sidebar:
-  nav: sourcedisco 
 share: true
 published: false
 ---

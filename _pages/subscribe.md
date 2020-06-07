@@ -5,8 +5,7 @@ permalink: subscribe/
 header:
   image: /images/SC-banner-lite.png
   og_image: http://i.imgur.com/DyMco9B.png
-sidebar:
-  nav: sourcedisco
+
 frmsub: TRUE
 redirect_from: updates/
 collab:

@@ -3,8 +3,6 @@ layout: single
 title: Object Capabilities (ObCap)
 description: "The capability paradigm is about access control, first proposed by Jack Dennis and Earl C. Van Horn in the 1966 paper. When a system (OS or a website) is presented with a request for a service [...] it needs to decide if it should actually do what the requestor is asking for."
 excerpt: "The capability paradigm is about access control, first proposed by Jack Dennis and Earl C. Van Horn in the 1966 paper. When a system (OS or a website) is presented with a request for a service [...] it needs to decide if it should actually do what the requestor is asking for."
-sidebar:
-  nav: sourcedisco 
 toc: false
 classes: wide
 share: true

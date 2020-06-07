@@ -10,7 +10,7 @@ header:
   og_image: "https://sourcecrypto.pub/images/bitcoin-history/electronic-cash-2013.png"
 permalink: /posts/Bitcoin/pre-history/electronic-cash/
 canonical_url: 'https://sourcecrypto.pub/posts/Bitcoin/pre-history/electronic-cash/'
-author_profile: false
+
 last_modified_at: 2019-12-16T13:22:33-23:00
 categories: ["History","Bitcoin"]
 tags: ["Pre-History","Virtual Currency"]

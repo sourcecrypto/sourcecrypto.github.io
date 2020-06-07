@@ -3,8 +3,6 @@ layout: single
 title: Mark Sam Miller
 description: "co-creator of the Agoric Paradigm of market-based distributed secure computing; and the open-source coordinator of the E programming language. He also designed the Caja programming language."
 excerpt: "Mark S. Miller is an American computer scientist. He is known for his work as one of the participants in the 1979 hypertext project known as Project Xanadu; for inventing Miller columns; as the co-creator of the Agoric Paradigm of market-based distributed secure computing; and the open-source coordinator of the E programming language. He also designed the Caja programming language."
-sidebar:
-  nav: sourcedisco 
 toc: false
 classes: wide
 share: true

@@ -9,7 +9,7 @@ header:
   image: https://sourcecrypto.pub/images/bitcoin-history/elems10.png
   caption: "[erights.org - CapTP Ops: provideFor()](http://www.erights.org/elib/distrib/captp/provideFor.html) '98"
 toc_sticky: false
-author_profile: true
+
 permalink: /posts/history/smart-contracts/
 redirect_from: /bitcoin-history/smart-contracts/
 canonical_url: 'https://sourcecrypto.pub/posts/history/smart-contracts/'

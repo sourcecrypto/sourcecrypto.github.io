@@ -19,7 +19,7 @@ repository               : "sourcecrypto/sourcecrypto.github.io"
 github                   : [metadata]
 teaser                   : /images/Source-Crypto-og.png
 logo                     : "https://sourcecrypto.pub/images/interlinked.png"
-masthead_title           : "Blockchain Curated"
+masthead_title           : "Curating Crypto"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -142,6 +142,8 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - archive.old
+  - archive.new
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
@@ -268,33 +270,6 @@ compress_html:
   ignore:
     envs: development
 
-# Collections
-collections:
-  info:
-    output: false
-    permalink: /archive/:collection/:path/
-  resources:
-    output: false
-    permalink: /archive/:collection/:path/
-  blockchain:
-    output: false
-    permalink: /archive/:collection/:path/
-  layer1:
-    output: false
-    permalink: /archive/:collection/:path/
-  chaintech:
-    output: false
-    permalink: /archive/:collection/:path/
-  tech:
-    output: false
-    permalink: /archive/:collection/:path/
-  entertainment:
-    output: false
-    permalink: /archive/:collection/:path/
-  application:
-    output: false
-    permalink: /archive/:collection/:path/
-
 
 # Defaults
 defaults:
@@ -304,13 +279,13 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
       read_time: true
       share: true
       related: true
-      sidebar:
-        nav: "sourcedisco"
       toc: true
+      author_profile: true
+      sidebar:
+        nav: network
       header:
         image: /images/SC-banner-lite.png
         teaser: /images/source-crypto-gh-og.png
@@ -320,124 +295,13 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
       read_time: true
       share: true
       related: true
-      sidebar:
-        nav: "sourcedisco"
       toc: false
+      author_profile: true
+      sidebar:
+        nav: network
       header:
         image: /images/SC-banner-lite.png
         teaser: /images/source-crypto-gh-og.png
-  # _info
-  - scope:
-      path: "_info"
-      type: info
-    values:
-      layout: single
-      share: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-      header:
-        image: /images/SC-banner-lite.png
-        teaser: /images/source-crypto-gh-og.png
-      order: 10
-  # _resources
-  - scope:
-      path: "_resources"
-      type: resources
-    values:
-      layout: single
-      share: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-      header:
-        image: /images/SC-banner-lite.png
-        teaser: /images/source-crypto-gh-og.png
-      order: 30
-    # _blockchain
-  - scope:
-      path: "_blockchain"
-      type: blockchain
-    values:
-      layout: single
-      share: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-      header:
-        image: /images/SC-banner-lite.png
-        teaser: /images/crypto-teaser.png
-      order: 40
-    # _chaintech
-  - scope:
-      path: "_chaintech"
-      type: chaintech
-    values:
-      layout: single
-      share: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-      header:
-        image: /images/SC-banner-lite.png
-        teaser: /images/blockchain-tech-teaser.png
-      order: 50
-    # _tech
-  - scope:
-      path: "_tech"
-      type: tech
-    values:
-      layout: single
-      share: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-      header:
-        image: /images/SC-banner-lite.png
-        teaser: /images/tech-teaser-1.png
-      order: 60
-    # _entertainment
-  - scope:
-      path: "_entertainment"
-      type: entertainment
-    values:
-      layout: single
-      share: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-      header:
-        image: /images/SC-banner-lite.png
-      order: 70
-    # _application
-  - scope:
-      path: "_application"
-      type: application
-    values:
-      layout: single
-      share: true
-      related: true
-      sidebar:
-        nav: "sourcedisco"
-      classes: wide
-      disco: true
-      header:
-        image: /images/SC-banner-lite.png
-        teaser: /images/source-crypto-gh-og.png
-      order: 80

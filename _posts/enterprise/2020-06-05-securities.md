@@ -2,9 +2,11 @@
 layout: single
 title: Global Securities Regulations
 description: Curated list about securities laws across the Globe
-published: false
+toc_sticky: true
+published: true
 ---
 
+> The term "security" is a fungible, negotiable financial instrument that holds some type of monetary value. It represents an ownership position in a publicly-traded corporation—via stock—a creditor relationship with a governmental body or a corporation—represented by owning that entity's bond—or rights to ownership as represented by an option. - [Investopedia](https://www.investopedia.com/terms/s/security.asp)
 
 ## Security Tokens (STO)
 
@@ -53,6 +55,71 @@ published: false
   > Part one of a series on blockchain development in the tokenized securities ecosystem
 * [TheTokenist.io (@thetokenist)](https://twitter.com/thetokenist)
   > Security token issuances are one of the main focuses right now for the Ontology Network (@OntologyNetwork). The OEP-506 protocol will allow for compliant, encrypted digital securities to create a streamlined process that is easily managed by the issuer. [https://t.co/YwCJo](https://t.co/YwCJo)...
+
+### Simple Agreement Future Tokens (SAFT)
+
+* [Simple Agreement for Future Tokens (SAFT)](http://hedgefundlawblog.com/simple-agreement-for-future-tokens-saft.html)
+* [Introduction to Simple Agreement for Future Tokens (SAFT)](https://www.investopedia.com/terms/s/simple-agreement-future-tokens-saft.asp)
+  > Simple Agreement for Future Tokens is an investment contract offered by cryptocurrency developers to accredited investors.
+* [The SAFT Project](https://saftproject.com/)
+  > A forum for the discussion of a compliant framework for token sales. The goal: To develop an industry standard that protects the interests of network creators, investors, and users.
+* [Explaining The “Simple Agreement For Future Tokens” Framework](https://medium.com/@schor/explaining-the-simple-agreement-for-future-tokens-framework-15d5e7543323)
+  > Reasoning behind the SAFT framework
+* [Be Safe—5 Things You Need to Know About SAFE Securities and Crow...](http://www.finra.org/investors/highlights/5-things-you-need-know-about-safe-securities-and-crowdfunding)
+  > Some issuers have been offering a new type of security as part of some crowdfunding offerings—which they have called a SAFE. The acronym stands for Simple Agreement for Future Equity. SAFE accounts come with risks, and are very different from traditional common stock.
+
+### Native Exchange Token
+
+* [Guest Post: The Looming SEC IEO Smackdown - The D&O Diary](https://www.dandodiary.com/2019/05/articles/cryptocurrencies/guest-post-the-looming-sec-ieo-smackdown/)
+  > In the following guest post, John Read Stark, President of John Reed Stark Consulting and former Chief of the SEC’s Office of Internet Enforcement, takes
+* [IEO research: Bitfinex IEO — At $1 billion, how we got here](https://www.inwara.com/ieo-research-1-billion-how-we-got-here)
+  > IEO research: The series of events that lead to Bitfinex launching an Initial Exchange offering valued at $1 billion.
+* [What is Initial Exchange Offering (IEO) and How to Launch it Succe...](https://hackernoon.com/what-is-initial-exchange-offering-ieo-and-how-to-launch-it-successfully-6389c613e241)
+* [Legal and compliance update](https://medium.com/nashsocial/medium-com-update-on-legal-and-compliance-ada51b7364d8)
+  > Why is the Nash Exchange token (NEX) a security ? Putting aside the broad set of advantages mentioned above, we believe that every exchange token is, in practice, a security. These tokens primarily derive their value from the success of the exchanges that issue them, not from any fixed utility or the efforts of those holding the tokens. What would be the value of an exchange token if the exchange stopped running? If the website went offline and no one continued to develop the project? If there was no fee collected by the platform? The true value of exchange tokens is strongly tied to the success of the platform.
+* [Crypto Exchanges Native Tokens: Binance, KuCoin, OKEx, Huobi & More](https://coin360.com/blog/native-exchange-tokens-description-and-controversy)
+  > Crypto exchanges launch their own native tokens. Read about Binance Coin, Huobi Token, OKEx Token, CONI, BitMax Token, KuCoin Shares with prices, stats & features.
+* [r/BNBTrader - As a U.S. Owner of BNB, Should I Buy More or Sell My...](https://www.reddit.com/r/BNBTrader/comments/c0tftk/as_a_us_owner_of_bnb_should_i_buy_more_or_sell_my/)
+  > 8 votes and 13 comments so far on Reddit
+* [Binance U.S. Expansion Puts BNB Under Question, U.S. Block Announced](https://cryptonews.com/news/binance-u-s-partnership-news-puts-bnb-under-question-coin-dr-4044.htm)
+  > Major cryptocurrency exchange Binance confirmed it will enter the U.S. market via partnership with a local company, BAM Trading Services. Now, one of the main questions being discussed is what will happen with Binance Coin (BNB), the native token of the exchange, after the Bi...
+* [The SEC's Looming Initial Exchange Offering Sweep: Part 1 - Law360](https://www.law360.com/articles/1162809/the-sec-s-looming-initial-exchange-offering-sweep-part-1)
+  > An initial exchange offering is an offering administered by a cryptocurrency trading platform on behalf of a company issuing cryptocurrency tokens. While IEOs have captivated cryptocurrency enthusiasts, they are also capturing the attention of the U.S. Securities and Exchange...
+
+## Institutional Derivitives
+
+* [Bitcoinist.com (@bitcoinist)](https://twitter.com/bitcoinist/status/1040499178445721602)
+  > Canadian regulators have approved a regulated Bitcoin trust fund which allows investors to invest in Bitcoin through retirement and savings accounts. [https://t.co/VXbUjIfn83](https://t.co/VXbUjIfn83)
+* [Ethereum Futures Coming To Wall Street](https://globalcoinreport.com/ethereum-futures-wall-street/)
+  > READ LATER - DOWNLOAD THIS POST AS PDFCrypto backed futures contracts have been the subject of debate ever since the CBOE and CME group started offering Bitcoin (BTC) futures contracts back in mid-December 2017. What happened before the investment instrument went live on Wall...
+* [Traders are going crazy over Switzerland's new exchange traded pro...](https://www.theblockcrypto.com/2018/11/26/traders-are-going-crazy-over-switzerlands-new-exchange-traded-product/)
+  > An exchange traded product tracking five of the largest cryptos has become a darling among traders even as the market for digital assets continues to dump. The so-called Amun Crypto Basket ETP began trading on Switzerland’s Six Exchange last week and it now has the highes...
+* [There’s Now an Exchange-Traded Bitcoin Note That American Investors Can Buy](https://www.bloomberg.com/news/articles/2018-08-15/lovelorn-u-s-bitcoin-etf-fans-may-find-satisfaction-in-sweden) (2018)
+
+
+### ETF
+
+* [‎Unchained: Your No-Hype Resource for All Things Crypto: With De...](https://podcasts.apple.com/us/podcast/unchained-your-no-hype-resource-for-all-things-crypto/id1123922160?i=1000380902286)
+  > ‎Show Unchained: Your No-Hype Resource for All Things Crypto, Ep With Deadline Looming, Will The SEC Approve A Bitcoin ETF? - Feb 7, 2017
+* [‎ETF Prime: Bitcoin ETF Debate, Libra, & More on Apple Podcasts](https://podcasts.apple.com/us/podcast/bitcoin-etf-debate-libra-more/id1108570293?i=1000444132940)
+  > ‎Show ETF Prime, Ep Bitcoin ETF Debate, Libra, & More - Jul 10, 2019
+* [‎Odd Lots: Inside the Multi-Year Quest to Create a Bitcoin ETF o...](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=1056200096&i=1000411400617)
+  > ‎Show Odd Lots, Ep Inside the Multi-Year Quest to Create a Bitcoin ETF - May 14, 2018
+* [As Bitcoin’s Price Moves Dramatically, ETF Proposals Remain at a...](https://www.blockchainandthelaw.com/2019/06/as-bitcoins-price-moves-dramatically-etf-proposals-remain-at-a-standstill/)
+  > On June 26, the price of bitcoin surged to a 12-month high of nearly $13,900 (up about 35% on the month) before losing more than $1,700 in a span of 15
+* [Two New Bitcoin ETF Proposals Pending as Cryptocurrency Markets Ma...](https://www.blockchainandthelaw.com/2019/03/two-new-bitcoin-etf-proposals-pending-as-cryptocurrency-markets-mature/)
+  > Two recent proposals for bitcoin exchange-traded funds (“ETFs”) are vying to become the first to receive approval from the U.S. Securities and Exchange
+* [‎Appetite for Disruption: The Business and Regulation of FinTec...](https://podcasts.apple.com/us/podcast/appetite-for-disruption-business-regulation-fintech/id1190934515?i=1000419009278)
+  > ‎Show Appetite for Disruption: The Business and Regulation of FinTech, Ep What Made The SEC Deny a Bitcoin ETF? - Sep 2, 2018
+* [LTB #373 Bitcoin ETFs and the Mainstream Moment?](https://letstalkbitcoin.com/blog/post/ltb-373-bitcoin-etfs-and-the-mainstream-moment)
+  > On Todays Episode of Let's Talk Bitcoin... Andreas Antonopoulos, Stephanie Murphy, Jonathan Mohan and Adam B. Levine are joined by returning guest Caitlin Long for an in-depth discussion of the fascination with, and implications of, bitcoin or cryptocurrency ETFs.
+* [@jchervinsky](https://twitter.com/jchervinsky/status/1072216015801585664)
+  > 0/ Last week, the SEC delayed its decision on the VanEck/SolidX bitcoin ETF for the last time. With a *final* deadline set for February 27, let's discuss:
+  > - key updates from the past few months
+  > - how to interpret this delay
+  > - my prediction on what the SEC will decide
+  > Thread. 👇
+
 
 ## SEC
 
@@ -168,38 +235,8 @@ published: false
 * [‎Chain Reaction: Katherine Wu: Breaking Down The EOS and Block O...](https://podcasts.apple.com/us/podcast/katherine-wu-breaking-down-the-eos-and-block-one-settlement/id1438148082?i=1000453144011)
   > ‎Show Chain Reaction, Ep Katherine Wu: Breaking Down The EOS and Block One Settlement - Oct 11, 2019
 
-## ⚷ saft-agreement-future-tokens
 
-* [Simple Agreement for Future Tokens (SAFT)](http://hedgefundlawblog.com/simple-agreement-for-future-tokens-saft.html)
-* [Introduction to Simple Agreement for Future Tokens (SAFT)](https://www.investopedia.com/terms/s/simple-agreement-future-tokens-saft.asp)
-  > Simple Agreement for Future Tokens is an investment contract offered by cryptocurrency developers to accredited investors.
-* [The SAFT Project](https://saftproject.com/)
-  > A forum for the discussion of a compliant framework for token sales. The goal: To develop an industry standard that protects the interests of network creators, investors, and users.
-* [Explaining The “Simple Agreement For Future Tokens” Framework](https://medium.com/@schor/explaining-the-simple-agreement-for-future-tokens-framework-15d5e7543323)
-  > Reasoning behind the SAFT framework
-* [Be Safe—5 Things You Need to Know About SAFE Securities and Crow...](http://www.finra.org/investors/highlights/5-things-you-need-know-about-safe-securities-and-crowdfunding)
-  > Some issuers have been offering a new type of security as part of some crowdfunding offerings—which they have called a SAFE. The acronym stands for Simple Agreement for Future Equity. SAFE accounts come with risks, and are very different from traditional common stock.
-
-## ⚷ reg-d
-  > Keep in mind that you must raise funding from “accredited investors” for the Form D exemption to apply as noted in Rule 506 of Regulation D . These are investors who usually earn over $200,000 a year or are worth at least $1 million. You can also offer securities to companies worth at least $5 million. By either registering with the SEC or filing Form D, a business has taken the time to show they're not providing an illegal public offering.
-
-* [Form D: Everything You Need to Know](https://www.upcounsel.com/form-d)
-  > Form D is a filing with the SEC that allows companies under Regulation D or Section 4(6) exemption to offer stock to finance businesses without doing an IPO.
-* [The Definitive Guide to Regulation D - WealthForge](https://www.wealthforge.com/understanding-regulation-d)
-  > While Regulation D offerings are exempt from registration with the SEC, both the SEC and the various states require filings providing notice that an offering is occurring. The SEC requires an issuer to file notice on Form D within 15 days of the date of first sale of a Reg D security on the SEC's Edgar System. Form D contains basic information about the offering and the issuer, including industry, whether a broker-dealer is involved, and the amount being raised. In addition, for each state into which the security is sold, the issuer must file a notice filing within 15 days of the first sale in that state. The majority of states use an online database to allow electronic filing. Additionally, with this notice filing, the states require the issuer to pay a filing fee, usually between $100-$500.
-* [3 Ways Reg D Issuers Can Control Offering Costs](https://www.wealthforge.com/insights/3-areas-reg-d-issuers-can-control-offering-costs)
-  > Developing a successful Reg D offering can be an expensive. These tips will help you reduce the cost of your offering and help you better allocate your time.
-* [Private Placements: What happens if you fail to file Form D (or fi...](https://www.strictlybusinesslawblog.com/2011/09/19/private-placements-what-happens-if-you-fail-to-file-form-d-or-file-it-late/)
-  > Form D is a document that the SEC requires a company to file when it issues securities in a private placement under Regulation D. It must be filed with the SEC within 15 days of the first sale of a…
-* [Rule 506 of Regulation D - Investor.gov](https://www.investor.gov/additional-resources/general-resources/glossary/rule-506-regulation-d)
-  > Rule 506 of Regulation D provides two distinct exemptions from registration for companies when they offer and sell securities. Companies relying on the Rule 506 exemptions can raise an unlimited amount of money. Under Rule 506(b), a “safe harbor” under Section 4(a)(2) of the Securities Act, a company can be assured it is within the Section 4(a)(2) exemption by satisfying certain requirements, including the following: The company cannot use general solicitation or advertising to market the securities. The company may sell its securities to an unlimited number of "accredited investors" and up to 35 other purchasers. All non-accredited investors, either alone or with a purchaser representative, must be sophisticated—that is, they must have sufficient knowledge and experience in financial and business matters to make them capable of evaluating the merits and risks of the prospective investment. Companies must decide what information to give to accredited investors, so long as it does not violate the antifraud prohibitions of the federal securities laws. This means that any information a company provides to investors must be free from false or misleading statements. Similarly, a company should not exclude any information if the omission makes what is provided to investors false or misleading. Companies must give non-accredited investors disclosure documents that are generally the same as those used in Regulation A or registered offerings, including financial statements, which in some cases may need to be certified or audited by an accountant. If a company provides information to accredited investors, it must make this information available to non-accredited investors as well. The company must be available to answer questions by prospective purchasers.
-* [Security tokens in the US: regulations and exemptions under the SE...](https://hackernoon.com/security-tokens-in-the-us-regulations-and-exemptions-under-the-sec-laws-4640b5570948)
-* [Sec.gov - Answers: Regulation D Offerings](https://www.sec.gov/fast-answers/answers-regdhtm.html)
-* [Rule 504 of Regulation D: A Small Entity Compliance Guide for Issuers](https://www.sec.gov/divisions/corpfin/guidance/rule504-issuer-small-entity-compliance.html)
-* [Section 3b Securities Registration Exemption](https://thebusinessprofessor.com/knowledge-base/securities-registration-exemption-section-3b/)
-  > This material discusses section 3b securities registration exemption of the Securities Act of 1933.
-
-## ⚷ reg-cf
+### Reg CF
 
 * [Disqualification of Felons and Other "Bad Actors" from Rule 506 Offerings and Related Disclosure Requirements](https://www.sec.gov/info/smallbus/secg/bad-actor-small-entity-compliance-guide.htm)
 * [Regulation Crowdfunding: A Small Entity Compliance Guide for Issuers](https://www.sec.gov/info/smallbus/secg/rccomplianceguide-051316.htm)
@@ -235,8 +272,30 @@ published: false
   > Many Title III Crowdfunding issuers are setting “target amounts” as low as $10,000. Here's why you should think twice:
 * [Best Equity Crowdfunding Platforms](https://hackernoon.com/best-equity-crowdfunding-platforms-885bc1d85356)
 
-## ⚷ reg-a
-  > Blockstack, founded in 2013, spent ten months and $2.8 million on its Reg A+ offering. Reg A+ was adopted as part of the 2012 Jumpstart Our Business Startups Act (the “JOBS Act”), and has fewer disclosure requirements than a full-blown registration statement on Form S-1.
+### Reg D
+
+  > Keep in mind that you must raise funding from “accredited investors” for the Form D exemption to apply as noted in Rule 506 of Regulation D . These are investors who usually earn over $200,000 a year or are worth at least $1 million. You can also offer securities to companies worth at least $5 million. By either registering with the SEC or filing Form D, a business has taken the time to show they're not providing an illegal public offering.
+
+* [Form D: Everything You Need to Know](https://www.upcounsel.com/form-d)
+  > Form D is a filing with the SEC that allows companies under Regulation D or Section 4(6) exemption to offer stock to finance businesses without doing an IPO.
+* [The Definitive Guide to Regulation D - WealthForge](https://www.wealthforge.com/understanding-regulation-d)
+  > While Regulation D offerings are exempt from registration with the SEC, both the SEC and the various states require filings providing notice that an offering is occurring. The SEC requires an issuer to file notice on Form D within 15 days of the date of first sale of a Reg D security on the SEC's Edgar System. Form D contains basic information about the offering and the issuer, including industry, whether a broker-dealer is involved, and the amount being raised. In addition, for each state into which the security is sold, the issuer must file a notice filing within 15 days of the first sale in that state. The majority of states use an online database to allow electronic filing. Additionally, with this notice filing, the states require the issuer to pay a filing fee, usually between $100-$500.
+* [3 Ways Reg D Issuers Can Control Offering Costs](https://www.wealthforge.com/insights/3-areas-reg-d-issuers-can-control-offering-costs)
+  > Developing a successful Reg D offering can be an expensive. These tips will help you reduce the cost of your offering and help you better allocate your time.
+* [Private Placements: What happens if you fail to file Form D (or fi...](https://www.strictlybusinesslawblog.com/2011/09/19/private-placements-what-happens-if-you-fail-to-file-form-d-or-file-it-late/)
+  > Form D is a document that the SEC requires a company to file when it issues securities in a private placement under Regulation D. It must be filed with the SEC within 15 days of the first sale of a…
+* [Rule 506 of Regulation D - Investor.gov](https://www.investor.gov/additional-resources/general-resources/glossary/rule-506-regulation-d)
+  > Rule 506 of Regulation D provides two distinct exemptions from registration for companies when they offer and sell securities. Companies relying on the Rule 506 exemptions can raise an unlimited amount of money. Under Rule 506(b), a “safe harbor” under Section 4(a)(2) of the Securities Act, a company can be assured it is within the Section 4(a)(2) exemption by satisfying certain requirements, including the following: The company cannot use general solicitation or advertising to market the securities. The company may sell its securities to an unlimited number of "accredited investors" and up to 35 other purchasers. All non-accredited investors, either alone or with a purchaser representative, must be sophisticated—that is, they must have sufficient knowledge and experience in financial and business matters to make them capable of evaluating the merits and risks of the prospective investment. Companies must decide what information to give to accredited investors, so long as it does not violate the antifraud prohibitions of the federal securities laws. This means that any information a company provides to investors must be free from false or misleading statements. Similarly, a company should not exclude any information if the omission makes what is provided to investors false or misleading. Companies must give non-accredited investors disclosure documents that are generally the same as those used in Regulation A or registered offerings, including financial statements, which in some cases may need to be certified or audited by an accountant. If a company provides information to accredited investors, it must make this information available to non-accredited investors as well. The company must be available to answer questions by prospective purchasers.
+* [Security tokens in the US: regulations and exemptions under the SE...](https://hackernoon.com/security-tokens-in-the-us-regulations-and-exemptions-under-the-sec-laws-4640b5570948)
+* [Sec.gov - Answers: Regulation D Offerings](https://www.sec.gov/fast-answers/answers-regdhtm.html)
+* [Rule 504 of Regulation D: A Small Entity Compliance Guide for Issuers](https://www.sec.gov/divisions/corpfin/guidance/rule504-issuer-small-entity-compliance.html)
+* [Section 3b Securities Registration Exemption](https://thebusinessprofessor.com/knowledge-base/securities-registration-exemption-section-3b/)
+  > This material discusses section 3b securities registration exemption of the Securities Act of 1933.
+
+
+### Reg A
+
+> Blockstack, founded in 2013, spent ten months and $2.8 million on its Reg A+ offering. Reg A+ was adopted as part of the 2012 Jumpstart Our Business Startups Act (the “JOBS Act”), and has fewer disclosure requirements than a full-blown registration statement on Form S-1.
 
 * [The SEC Clears an ICO under Regulation A+: Blockstack Holds the First Regulated Token Offering](https://www.kutakrock.com/-/media/files/news-and-publications/publications/2019/07/client-alert--the-sec-clears-an-ico-under-regulati.pdf?la=en&hash=F6A7454CD2E1D614463CF27F0329452F0C84F0D9)
   > Buyers of Tokens will not have any equity ownership in Blockstack, but rather will be able to use the Tokens as currency or fuel in Blockstack’s network, a blockchain-based software platform on which developers can build “decentralized applications.” The Blockstack network has been functional since 2015 and has over 100,000 registered users and 171 live applications. The company funded the development of the Blockstack network with $5 million in venture capital financing and $47 million raised from a 2017 token offering that used Regulation D as an exemption under the U.S. securities laws.
@@ -248,32 +307,33 @@ published: false
 * [Republic is “Testing the Waters” of the SEC’s Reg A Exemptio...](https://thetokenist.io/republic-is-testing-the-waters-of-the-secs-reg-a-exemption-by-giving-a-revenue-sharing-token-away-for-free/)
   > As of April 5th 2019, crowdfunding platform Republic has announced the launch of a blockchain-powered token. The token will be given away to users of its platform for free, but by the end of the year, will feature revenue distribution. Republic claims to be “testing the wat...
 
-## ⚷ native-exchange-token
 
-* [Guest Post: The Looming SEC IEO Smackdown - The D&O Diary](https://www.dandodiary.com/2019/05/articles/cryptocurrencies/guest-post-the-looming-sec-ieo-smackdown/)
-  > In the following guest post, John Read Stark, President of John Reed Stark Consulting and former Chief of the SEC’s Office of Internet Enforcement, takes
-* [IEO research: Bitfinex IEO — At $1 billion, how we got here](https://www.inwara.com/ieo-research-1-billion-how-we-got-here)
-  > IEO research: The series of events that lead to Bitfinex launching an Initial Exchange offering valued at $1 billion.
-* [What is Initial Exchange Offering (IEO) and How to Launch it Succe...](https://hackernoon.com/what-is-initial-exchange-offering-ieo-and-how-to-launch-it-successfully-6389c613e241)
-* [Legal and compliance update](https://medium.com/nashsocial/medium-com-update-on-legal-and-compliance-ada51b7364d8)
-  > Why is the Nash Exchange token (NEX) a security ? Putting aside the broad set of advantages mentioned above, we believe that every exchange token is, in practice, a security. These tokens primarily derive their value from the success of the exchanges that issue them, not from any fixed utility or the efforts of those holding the tokens. What would be the value of an exchange token if the exchange stopped running? If the website went offline and no one continued to develop the project? If there was no fee collected by the platform? The true value of exchange tokens is strongly tied to the success of the platform.
-* [Crypto Exchanges Native Tokens: Binance, KuCoin, OKEx, Huobi & More](https://coin360.com/blog/native-exchange-tokens-description-and-controversy)
-  > Crypto exchanges launch their own native tokens. Read about Binance Coin, Huobi Token, OKEx Token, CONI, BitMax Token, KuCoin Shares with prices, stats & features.
-* [r/BNBTrader - As a U.S. Owner of BNB, Should I Buy More or Sell My...](https://www.reddit.com/r/BNBTrader/comments/c0tftk/as_a_us_owner_of_bnb_should_i_buy_more_or_sell_my/)
-  > 8 votes and 13 comments so far on Reddit
-* [Binance U.S. Expansion Puts BNB Under Question, U.S. Block Announced](https://cryptonews.com/news/binance-u-s-partnership-news-puts-bnb-under-question-coin-dr-4044.htm)
-  > Major cryptocurrency exchange Binance confirmed it will enter the U.S. market via partnership with a local company, BAM Trading Services. Now, one of the main questions being discussed is what will happen with Binance Coin (BNB), the native token of the exchange, after the Bi...
-* [The SEC's Looming Initial Exchange Offering Sweep: Part 1 - Law360](https://www.law360.com/articles/1162809/the-sec-s-looming-initial-exchange-offering-sweep-part-1)
-  > An initial exchange offering is an offering administered by a cryptocurrency trading platform on behalf of a company issuing cryptocurrency tokens. While IEOs have captivated cryptocurrency enthusiasts, they are also capturing the attention of the U.S. Securities and Exchange...
+## Finra
 
-## ⚷ masternodes
+* [Register a New Broker-Dealer Firm - FINRA.org](https://www.finra.org/industry/new-bd-firm-registration)
+  > To conduct securities transactions and business with the investing public in the United States, both firms and individuals must be registered with FINRA. Firms must apply and meet certain membership standards to become a FINRA-registered broker-dealer.
+* [1000. MEMBER APPLICATION AND ASSOCIATED PERSON REGISTRATION](https://www.finra.org/rules-guidance/rulebooks/finra-rules/1000?element_id=8333&rbid=2403)
+* [1014. Department Decision](http://finra.complinet.com/en/display/display_main.html?rbid=2403&element_id=13471)
+  > This version is valid from May 08, 2019 through Sep 13, 2020. Amendments have been announced but are not yet effective. To view other versions open the versions tab on the right.
+* [FINRA Issues Regulatory Notice Reminding Members of the SEC’s Ad...](https://www.natlawreview.com/article/finra-issues-regulatory-notice-reminding-members-sec-s-adoption-best-interest)
+  > On August 7, the Financial Industry Regulatory Authority (FINRA) issued Regulatory Notice 19-26, reminding members of the Securities and Exchange Commission&rsquo;s (SEC) adoption of a &ldquo;best int
+* [Regulatory Notice 19-26 Regulation Best Interest SEC Adopts Best Interest Standard of Conduct](http://www.finra.org/sites/default/files/notice_doc_file_ref/Regulatory-Notice-19-26.pdf)
+  > This Notice reminds members of the Securities and Exchange Commission’s (SEC’s) adoption of a best interest standard of conduct for broker-dealers and a relationship summary (Form CRS) delivery obligation, and provides an SEC email address where members may submit questions about the new requirements. As more fully described below, the SEC encourages firms to actively engage with SEC staff as early as possible as questions arise when planning for implementation. Firms may send their questions by email to IABDQuestions@sec.gov. FINRA also will assist members in their implementation of the best interest standard in various ways.
+  > The Advisers Act releases were effective on July 12, 2019. Firms must comply with Reg BI and Form CRS by June 30, 2020. 
+  > See the following SEC resources for details: 
+  > - [Regulation Best Interest: The BrokerDealer Standard of Conduct](https://www.govinfo.gov/content/pkg/FR-2019-07-12/pdf/2019-12164.pdf) 
+  > - [Form CRS Relationship Summary; Amendments to Form ADV](https://www.govinfo.gov/content/pkg/FR-2019-07-12/pdf/2019-12376.pdf) 
+  > - [FORM CRS](https://www.sec.gov/rules/final/2019/34-86032-appendix-b.pdf) 
+  > - [Commission Interpretation Regarding Standard of Conduct for Investment Advisers](https://www.govinfo.gov/content/pkg/FR-2019-07-12/pdf/2019-12208.pdf) 
+  > - [INTERPRETATIVE RELEASES RELATING TO THE INVESTMENT ADVISERS ACT OF 1940 AND GENERAL RULES AND REGULATIONS THEREUNDER](https://www.govinfo.gov/content/pkg/FR-2019-07-12/pdf/2019-12209.pdf)
+  > - [SEC Regulation Best Interest (Reg BI)](http://www.finra.org/industry/regulation-best-interest)
+* [Stonewalled by FINRA, Up to 40 Crypto Securities Wait in Limbo for...](https://www.coindesk.com/stonewalled-by-finra-up-to-40-crypto-securities-wait-in-limbo-for-launch)
+  > Blockchain startups waiting for approvals from U.S. securities regulators are getting restless, and wondering what’s the holdup. The Financial Industry Regulatory Authority (FINRA), Wall Street’s self-regulatory organization (SRO), has sat for months on some 40 applications from companies that touch cryptocurrencies, numerous people who deal with the agency told CoinDesk. Some startups have been waiting at least a year, with a few standing by for as many as 14 months, without seeing any movement from FINRA, three of the sources said.
+* [Why It’s Taking So Long: the SEC and FINRA Issue Guidance on Cry...](https://www.jdsupra.com/legalnews/why-it-s-taking-so-long-the-sec-and-66296/)
+  > The SEC signaled last week that it appears to be growing more comfortable approving certain digital asset activities, qualifying the first two initial...
+  
 
-* [Gulovsen Law Office - Blog - A Brief Intro to Masternodes & Securi...](https://gulovsen.io/masternodessecurities/)
-  > On March 21, 2019, I had an opportunity to be interviewed by Danny Weinberger, CEO of Morpheus.Network (which happens to be one of my clients), on a topic that I have been researching for quite a w…
-* [Legal Update: CEO Dan and Head of Legal Grant Gulovsen discuss fee...](https://www.youtube.com/watch?v=i6Nj8o28o_g)
-  > This week, Dan Weinberger hosted a chat with Morpheus.Network's Head of Legal Grant Gulovsen to discuss fees on the platform, and how masternodes will bring ...
-
-## ⚷ howto-securities
+## Howto Securities
 
 * [A Guide to Launching a Security Token Offering](https://fitznerblockchain.consulting/a-guide-to-launching-a-security-token-offering/)
   > In the future, a majority of stocks, bonds, commodities and other financial assets will be tokenized. These are the step by step ways to start on that path.
@@ -310,46 +370,8 @@ published: false
 * [CoinList](https://coinlist.co/)
   > CoinList is where the best crypto projects in the world raise capital and grow their communities
 
-## ⚷ finra
 
-* [Register a New Broker-Dealer Firm - FINRA.org](https://www.finra.org/industry/new-bd-firm-registration)
-  > To conduct securities transactions and business with the investing public in the United States, both firms and individuals must be registered with FINRA. Firms must apply and meet certain membership standards to become a FINRA-registered broker-dealer.
-* [1000. MEMBER APPLICATION AND ASSOCIATED PERSON REGISTRATION](https://www.finra.org/rules-guidance/rulebooks/finra-rules/1000?element_id=8333&rbid=2403)
-* [1014. Department Decision](http://finra.complinet.com/en/display/display_main.html?rbid=2403&element_id=13471)
-  > This version is valid from May 08, 2019 through Sep 13, 2020. Amendments have been announced but are not yet effective. To view other versions open the versions tab on the right.
-* [FINRA Issues Regulatory Notice Reminding Members of the SEC’s Ad...](https://www.natlawreview.com/article/finra-issues-regulatory-notice-reminding-members-sec-s-adoption-best-interest)
-  > On August 7, the Financial Industry Regulatory Authority (FINRA) issued Regulatory Notice 19-26, reminding members of the Securities and Exchange Commission&rsquo;s (SEC) adoption of a &ldquo;best int
-* [Regulatory Notice 19-26 Regulation Best Interest SEC Adopts Best Interest Standard of Conduct](http://www.finra.org/sites/default/files/notice_doc_file_ref/Regulatory-Notice-19-26.pdf)
-  > This Notice reminds members of the Securities and Exchange Commission’s (SEC’s) adoption of a best interest standard of conduct for broker-dealers and a relationship summary (Form CRS) delivery obligation, and provides an SEC email address where members may submit questions about the new requirements. As more fully described below, the SEC encourages firms to actively engage with SEC staff as early as possible as questions arise when planning for implementation. Firms may send their questions by email to IABDQuestions@sec.gov. FINRA also will assist members in their implementation of the best interest standard in various ways.
-  > The Advisers Act releases were effective on July 12, 2019. Firms must comply with Reg BI and Form CRS by June 30, 2020. 
-  > See the following SEC resources for details: 
-  > - [Regulation Best Interest: The BrokerDealer Standard of Conduct](https://www.govinfo.gov/content/pkg/FR-2019-07-12/pdf/2019-12164.pdf) 
-  > - [Form CRS Relationship Summary; Amendments to Form ADV](https://www.govinfo.gov/content/pkg/FR-2019-07-12/pdf/2019-12376.pdf) 
-  > - [FORM CRS](https://www.sec.gov/rules/final/2019/34-86032-appendix-b.pdf) 
-  > - [Commission Interpretation Regarding Standard of Conduct for Investment Advisers](https://www.govinfo.gov/content/pkg/FR-2019-07-12/pdf/2019-12208.pdf) 
-  > - [INTERPRETATIVE RELEASES RELATING TO THE INVESTMENT ADVISERS ACT OF 1940 AND GENERAL RULES AND REGULATIONS THEREUNDER](https://www.govinfo.gov/content/pkg/FR-2019-07-12/pdf/2019-12209.pdf)
-  > - [SEC Regulation Best Interest (Reg BI)](http://www.finra.org/industry/regulation-best-interest)
-* [Stonewalled by FINRA, Up to 40 Crypto Securities Wait in Limbo for...](https://www.coindesk.com/stonewalled-by-finra-up-to-40-crypto-securities-wait-in-limbo-for-launch)
-  > Blockchain startups waiting for approvals from U.S. securities regulators are getting restless, and wondering what’s the holdup. The Financial Industry Regulatory Authority (FINRA), Wall Street’s self-regulatory organization (SRO), has sat for months on some 40 applications from companies that touch cryptocurrencies, numerous people who deal with the agency told CoinDesk. Some startups have been waiting at least a year, with a few standing by for as many as 14 months, without seeing any movement from FINRA, three of the sources said.
-* [Why It’s Taking So Long: the SEC and FINRA Issue Guidance on Cry...](https://www.jdsupra.com/legalnews/why-it-s-taking-so-long-the-sec-and-66296/)
-  > The SEC signaled last week that it appears to be growing more comfortable approving certain digital asset activities, qualifying the first two initial...
-
-## ⚷ etf
-
-* [‎Unchained: Your No-Hype Resource for All Things Crypto: With De...](https://podcasts.apple.com/us/podcast/unchained-your-no-hype-resource-for-all-things-crypto/id1123922160?i=1000380902286)
-  > ‎Show Unchained: Your No-Hype Resource for All Things Crypto, Ep With Deadline Looming, Will The SEC Approve A Bitcoin ETF? - Feb 7, 2017
-* [‎ETF Prime: Bitcoin ETF Debate, Libra, & More on Apple Podcasts](https://podcasts.apple.com/us/podcast/bitcoin-etf-debate-libra-more/id1108570293?i=1000444132940)
-  > ‎Show ETF Prime, Ep Bitcoin ETF Debate, Libra, & More - Jul 10, 2019
-* [‎Odd Lots: Inside the Multi-Year Quest to Create a Bitcoin ETF o...](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=1056200096&i=1000411400617)
-  > ‎Show Odd Lots, Ep Inside the Multi-Year Quest to Create a Bitcoin ETF - May 14, 2018
-* [As Bitcoin’s Price Moves Dramatically, ETF Proposals Remain at a...](https://www.blockchainandthelaw.com/2019/06/as-bitcoins-price-moves-dramatically-etf-proposals-remain-at-a-standstill/)
-  > On June 26, the price of bitcoin surged to a 12-month high of nearly $13,900 (up about 35% on the month) before losing more than $1,700 in a span of 15
-* [Two New Bitcoin ETF Proposals Pending as Cryptocurrency Markets Ma...](https://www.blockchainandthelaw.com/2019/03/two-new-bitcoin-etf-proposals-pending-as-cryptocurrency-markets-mature/)
-  > Two recent proposals for bitcoin exchange-traded funds (“ETFs”) are vying to become the first to receive approval from the U.S. Securities and Exchange
-* [‎Appetite for Disruption: The Business and Regulation of FinTec...](https://podcasts.apple.com/us/podcast/appetite-for-disruption-business-regulation-fintech/id1190934515?i=1000419009278)
-  > ‎Show Appetite for Disruption: The Business and Regulation of FinTech, Ep What Made The SEC Deny a Bitcoin ETF? - Sep 2, 2018
-
-## ⚷ dex
+## DEX
 
 * [SEC.gov - Statement on Digital Asset Securities Issuance and Trading](https://www.sec.gov/news/public-statement/digital-asset-securites-issuuance-and-trading)
   > Statement by Divisions of Corporation Finance, Investment Management, and Trading and Markets on digital asset securities issuance and trading.
@@ -401,21 +423,3 @@ published: false
 * [List of Decentralized Exchanges - Best DEX Decentralized exchanges](https://defiprime.com/exchanges)
   > A decentralized exchange (DEX) is a cryptocurrency exchange which operates in a decentralized way, without a central authority.
 
-
-## 💹 institutional-derivitives
-
-[https://www.bloomberg.com/news/articles/2018-08-15/lovelorn-u-s-bitcoin-etf-fans-may-find-satisfaction-in-sweden](https://www.bloomberg.com/news/articles/2018-08-15/lovelorn-u-s-bitcoin-etf-fans-may-find-satisfaction-in-sweden)
-[https://twitter.com/bitcoinist/status/1040499178445721602](https://twitter.com/bitcoinist/status/1040499178445721602)
-[https://letstalkbitcoin.com/blog/post/ltb-373-bitcoin-etfs-and-the-mainstream-moment](https://letstalkbitcoin.com/blog/post/ltb-373-bitcoin-etfs-and-the-mainstream-moment)
-[https://globalcoinreport.com/ethereum-futures-wall-street/](https://globalcoinreport.com/ethereum-futures-wall-street/)
-[https://www.theblockcrypto.com/2018/11/26/traders-are-going-crazy-over-switzerlands-new-exchange-traded-product/](https://www.theblockcrypto.com/2018/11/26/traders-are-going-crazy-over-switzerlands-new-exchange-traded-product/)
-[https://twitter.com/jchervinsky/status/1072216015801585664](https://twitter.com/jchervinsky/status/1072216015801585664)
-
-* [Bitcoinist.com (@bitcoinist)](https://twitter.com/bitcoinist)
-  > Canadian regulators have approved a regulated Bitcoin trust fund which allows investors to invest in Bitcoin through retirement and savings accounts. [https://t.co/VXbUjIfn83](https://t.co/VXbUjIfn83)
-* [LTB #373 Bitcoin ETFs and the Mainstream Moment?](https://letstalkbitcoin.com/blog/post/ltb-373-bitcoin-etfs-and-the-mainstream-moment)
-  > On Todays Episode of Let's Talk Bitcoin... Andreas Antonopoulos, Stephanie Murphy, Jonathan Mohan and Adam B. Levine are joined by returning guest Caitlin Long for an in-depth discussion of the fascination with, and implications of, bitcoin or cryptocurrency ETFs.
-* [Ethereum Futures Coming To Wall Street](https://globalcoinreport.com/ethereum-futures-wall-street/)
-  > READ LATER - DOWNLOAD THIS POST AS PDFCrypto backed futures contracts have been the subject of debate ever since the CBOE and CME group started offering Bitcoin (BTC) futures contracts back in mid-December 2017. What happened before the investment instrument went live on Wall...
-* [Traders are going crazy over Switzerland's new exchange traded pro...](https://www.theblockcrypto.com/2018/11/26/traders-are-going-crazy-over-switzerlands-new-exchange-traded-product/)
-  > An exchange traded product tracking five of the largest cryptos has become a darling among traders even as the market for digital assets continues to dump. The so-called Amun Crypto Basket ETP began trading on Switzerland’s Six Exchange last week and it now has the highes...

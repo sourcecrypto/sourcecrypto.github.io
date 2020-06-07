@@ -5,10 +5,8 @@ header:
   image: "/images/bitcoin-history/pre-history.jpeg"
   caption: "[credits to @btcmrkts and @AnselLindner IIRC](https://twitter.com/weedcoder/status/1154808916792020992?s=20)"
 share: true
-author_profile: false
-sidebar:
-  title: "⧉Info⧉"
-  nav: "sourcedisco"
+
+
 intro:
   - image_path: "https://sourcecrypto.pub/images/thecryptoconomy-podcast_guy-swann.png"
     alt: "Down the @TheCryptoconomy Rabbithole"
