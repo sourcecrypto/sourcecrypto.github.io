@@ -3,8 +3,6 @@ layout: single
 title: "The Agoric Papers"
 description: "These three papers by Mark S. Miller and K. Eric Drexler appeared in The Ecology of Computation, Bernardo Huberman (ed.) Elsevier Science Publishers/North-Holland, 1988"
 excerpt: "This paper examines markets as a model for computation and proposes a framework--agoric systems--for applying the power of market mechanisms to the software domain."
-sidebar:
-  nav: sourcedisco 
 toc: true
 header:
   teaser: /images/agoric-papers-teaser.png

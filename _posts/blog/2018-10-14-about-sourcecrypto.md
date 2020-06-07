@@ -7,8 +7,6 @@ header:
   image: /images/Source-Crypto-banner.png
   og_image: /images/Source-Crypto-og.png
   teaser: /images/source-crypto-disco.png
-sidebar:
-  nav: sourcedisco 
 toc: true
 share: true
 tags: ["Introduction"]

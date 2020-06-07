@@ -8,26 +8,21 @@ main:
     url: /about/
   - title: "Subscribe"
     url: /subscribe/
-  - title: "Infominer.xyz"
-    url: "https://infominer.xyz"
 
-sourcedisco:
-  - title: "Info⧉Hub"
-    url: "https://infominer.xyz/"
+network:
+  - title: Curating Info
     children:
-      - title: "• Bitcoinfo"
+      - title: "Bitcoinfo"
         url: "https://bitcoinfo.xyz/"
-      - title: "• Bitcoinfo History"
+      - title: "Bitcoinfo History"
         url: "https://bitcoinfo.xyz/history/"
-      - title: "• Webwork Tools"
+      - title: "Webwork Tools"
         url: "https://web-work.tools"
-      - title: "• IndieWeb"
-        url: "https://web-work.tools/indieweb"
-      - title: "• Decentralized-id.com"
+      - title: "Decentralized-id.com"
         url: "https://decentralized-id.com"
-      - title: "• Learn Crypto Trading"
+      - title: "Learn Crypto Trading"
         url: "https://learncryptotrading.co"
-      - title: "• Github Pages Starter Pack"
+      - title: "Github Pages Starter Pack"
         url: "https://web-work.tools/github-pages-starter-pack/"
-      - title: "• Publishing Discord Server Archives via Minimal Mistakes"
-        url: "https://didecentral.com/contributors-guide/discord-archive-howto/"
+      - title: "Infominer.xyz"
+        url: "https://infominer.xyz"

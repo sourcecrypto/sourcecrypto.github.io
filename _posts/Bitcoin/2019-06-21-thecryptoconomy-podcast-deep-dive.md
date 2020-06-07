@@ -8,8 +8,6 @@ header:
   og_image: /images/thecryptoconomy-podcast_guy-swann.png
   caption   : "[@TheCryptoconomy](https://twitter.com/TheCryptoconomy) - Guy Swann - [cryptoconomy.life](https://cryptoconomy.life) - [Anchor.fm/TheCryptoconomy](http://Anchor.fm/TheCryptoconomy)"
 excerpt: "Guy Swan has recorded thousands of hours, reading essential Bitcoin literature. Here's a linked list of episodes organized by category."
-sidebar:
-  nav: sourcedisco 
 toc: true
 classes: wide
 permalink: /posts/Bitcoin/thecryptoconomy-podcast-deep-dive/

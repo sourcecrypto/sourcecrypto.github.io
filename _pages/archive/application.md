@@ -6,8 +6,6 @@ redirect_from: "/discolog/application/"
 collection: application
 entries_layout: grid
 classes: wide
-sidebar:
-  nav: sourcedisco 
 #: 9
 share: true
 published: false

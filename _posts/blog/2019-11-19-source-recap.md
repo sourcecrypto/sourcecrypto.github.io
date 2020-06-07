@@ -10,8 +10,6 @@ header:
   teaser: /images/source-crypto-gh-og.png
   caption: "@Delpadschnick | [CryptoDesign.io](https://CryptoDesign.io)"
 
-sidebar:
-  nav: sourcedisco 
 toc: false
 share: true
 classes: wide

@@ -6,8 +6,6 @@ redirect_from: "/discolog/resources/"
 collection: resources
 entries_layout: grid
 classes: wide
-sidebar:
-  nav: sourcedisco 
 #: 2
 share: true
 published: false
