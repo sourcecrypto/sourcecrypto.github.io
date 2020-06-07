@@ -1,0 +1,1723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Source&#10697;Crypto - &#128760;-music</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        /* === GENERAL === */
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/3bdef1251a424500c1b3a78dea9b7e57.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/be0060dafb7a0e31d2a1ca17c0708636.woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    white-space: pre-wrap;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.spoiler {
+    border-radius: 3px;
+}
+
+.quote {
+    border-left: 4px solid;
+    border-radius: 3px;
+    margin: 8px 0;
+    padding-left: 10px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+.pre--multiline {
+    margin-top: 4px;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 85%;
+}
+
+.mention {
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+    display: flex;
+    max-width: 100%;
+    margin: 0 5px 10px 5px;
+}
+
+.info__guild-icon-container {
+    flex: 0;
+}
+
+.info__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.info__metadata {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info__guild-name {
+    font-size: 1.4em;
+}
+
+.info__channel-name {
+    font-size: 1.2em;
+}
+
+.info__channel-topic {
+    margin-top: 2px;
+}
+
+.info__channel-message-count {
+    margin-top: 2px;
+}
+
+.info__channel-date-range {
+    margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+    display: flex;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+    flex: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    flex: 1;
+    min-width: 50%;
+    margin-left: 20px;
+}
+
+.chatlog__author-name {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+.chatlog__message {
+    padding: 2px 5px;
+    margin-right: -5px;
+    margin-left: -5px;
+    background-color: transparent;
+    transition: background-color 1s ease;
+}
+
+.chatlog__content {
+    font-size: .9375em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 3px;
+    font-size: .8em;
+}
+
+.chatlog__attachment-thumbnail {
+    margin-top: 5px;
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__embed {
+    margin-top: 5px;
+    display: flex;
+    max-width: 520px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    width: 100%;
+    display: flex;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 10px;
+}
+
+.chatlog__embed-image {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-weight: 500;
+    font-size: .75em;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 6px 2px 2px 2px;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 6px;
+    font-size: .875em;
+}
+
+.chatlog__bot-tag {
+    margin-left: 0.3em;
+    background: #7289da;
+    color: #ffffff;
+    font-size: 0.625em;
+    padding: 1px 2px;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.3;
+    position: relative;
+    top: -.2em;
+}
+    </style>
+    <style>
+        /* === GENERAL === */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.quote {
+    border-color: #4f545c;
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #839496 !important;
+}
+
+.mention {
+    color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+    color: #ffffff;
+}
+
+.info__channel-name {
+    color: #ffffff;
+}
+
+.info__channel-topic {
+    color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__message--highlighted {
+    background-color: rgba(114, 137, 218, 0.2) !important;
+}
+
+.chatlog__message--pinned {
+    background-color: rgba(249, 168, 37, 0.05);
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element !== null && element !== undefined) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png" />
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source&#10697;Crypto</div>
+        <div class="info__channel-name">&#128760;-music</div>
+
+            <div class="info__channel-topic"></div>
+
+        <div class="info__channel-message-count">45 messages</div>
+
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">02-Aug-19 10:18 PM</span>
+
+                    <div class="chatlog__message " data-message-id="607034646500474904" id="message-607034646500474904">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://myceliaformusic.org/">http://myceliaformusic.org/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="http://myceliaformusic.org/author/carlotta/">Carlotta</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://myceliaformusic.org/"><span class="markdown">MYCELIA HOME</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607034670508670996" id="message-607034670508670996">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://hbr.org/2017/06/blockchain-could-help-musicians-make-money-again">https://hbr.org/2017/06/blockchain-could-help-musicians-make-money-again</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://hbr.org/2017/06/blockchain-could-help-musicians-make-money-again"><span class="markdown">Blockchain Could Help Musicians Make Money Again</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">It has the potential to give us a new golden age of music.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://hbr.org/resources/images/article_assets/2017/06/jun17-05-625223826.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://hbr.org/resources/images/article_assets/2017/06/jun17-05-625223826.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607034760367177739" id="message-607034760367177739">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://open-music.org/">http://open-music.org/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://open-music.org/"><span class="markdown">Open Music Initiative</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The Open Music Initiative dramatically simplifies the way music creators and rights owners are identified and compensated.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://static1.squarespace.com/static/56d5e44060b5e9e20a94b16c/t/5c1bf859032be4feca4fc833/1545336935940/OMlogoFINAL+SMALL.jpg?format=1500w">
+                                                <img class="chatlog__embed-thumbnail" src="http://static1.squarespace.com/static/56d5e44060b5e9e20a94b16c/t/5c1bf859032be4feca4fc833/1545336935940/OMlogoFINAL+SMALL.jpg?format=1500w" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607034788028874773" id="message-607034788028874773">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://revelator.com/">http://revelator.com/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://revelator.com/news/author/ljd">ljd</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://revelator.com/"><span class="markdown">Revelator</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Music&#39;s Everything</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://revelator.com/wp-content/themes/revelator-2016/media/share/og.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://revelator.com/wp-content/themes/revelator-2016/media/share/og.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607034813257613312" id="message-607034813257613312">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://colu.com/">http://colu.com/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://colu.com/"><span class="markdown">Colu</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A new decentralized payment system for local communities, that changes the way money is being created and used, by bringing cryptocurrencies to the masses.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.colu.com/wp-content/uploads/2018/12/bird2x.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.colu.com/wp-content/uploads/2018/12/bird2x.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607034886259474452" id="message-607034886259474452">
+                        <div class="chatlog__content">
+                            <span class="markdown">(some kind of partner w revelator ^^^)</span>
+
+                                <span class="chatlog__edited-timestamp" title="02-Aug-19 10:19 PM">(edited)</span>
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607034919310458890" id="message-607034919310458890">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://www.billboard.com/articles/business/6664006/colu-revelator-blockchain">http://www.billboard.com/articles/business/6664006/colu-revelator-blockchain</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://www.billboard.com/articles/business/6664006/colu-revelator-blockchain"><span class="markdown">Blockchain Platform Colu Partners With Revelator in Push to Fix Mu...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">As the potential of blockchain technology for the music industry becomes more and more clear in the hive mind of the business, different companies are coming up with their own ways of implementing its technology.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.billboard.com/files/media/money-protest-power-fist-biz-2015-billboard-650.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.billboard.com/files/media/money-protest-power-fist-biz-2015-billboard-650.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607034956241174550" id="message-607034956241174550">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://ujomusic.com/">http://ujomusic.com/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://ujomusic.com/"><span class="markdown">Ujo Music</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Ujo Music is an Ethereum based, ConsenSys backed music software platform that uses blockchain technology to create a transparent and decentralized music ecosystem using smart contracts and cryptocurrency</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://ipfs.infura.io/ipfs/QmcPXx5TtzfobxkNUT18XDU84boywRuWTWUr327D9isama">
+                                                <img class="chatlog__embed-thumbnail" src="https://ipfs.infura.io/ipfs/QmcPXx5TtzfobxkNUT18XDU84boywRuWTWUr327D9isama" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607034973962240001" id="message-607034973962240001">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://musically.com/2017/07/10/dance-rac-album-ethereum-blockchain/">http://musically.com/2017/07/10/dance-rac-album-ethereum-blockchain/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://musically.com/2017/07/10/dance-rac-album-ethereum-blockchain/"><span class="markdown">Dance artist RAC to release album on ethereum blockchain</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">By which we don&#8217;t mean the world&#8217;s first concept album <em>about</em> blockchain technology. Although heaven help us, that can&#8217;t be far away...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://musically.com/wp-content/uploads/2017/07/2af1385edecc37a0dc951a51cf3e2cfa.1000x1000x1.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://musically.com/wp-content/uploads/2017/07/2af1385edecc37a0dc951a51cf3e2cfa.1000x1000x1.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607034995676282880" id="message-607034995676282880">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://motherboard.vice.com/en_us/article/nevzbz/this-dj-has-released-the-first-full-length-album-using-the-ethereum-blockchain">https://motherboard.vice.com/en_us/article/nevzbz/this-dj-has-released-the-first-full-length-album-using-the-ethereum-blockchain</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(0,15,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://motherboard.vice.com/en_us/article/nevzbz/this-dj-has-released-the-first-full-length-album-using-the-ethereum-blockchain"><span class="markdown">This DJ Has Released the First Full-Length Album Using the Ethereu...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">RAC has collaborated with a number of familiar artists on &#8216;EGO,&#8217; the first album that can be bought on the ethereum blockchain.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://video-images.vice.com/articles/595d2f4724bef02380246af5/lede/1499353531764-DJ.jpeg?crop=1xw:0.8433xh;0xw,0.0563xh&resize=1200:*">
+                                                <img class="chatlog__embed-thumbnail" src="https://video-images.vice.com/articles/595d2f4724bef02380246af5/lede/1499353531764-DJ.jpeg?crop=1xw:0.8433xh;0xw,0.0563xh&resize=1200:*" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035038248468480" id="message-607035038248468480">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://www.mediachain.io/">http://www.mediachain.io/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035057659707403" id="message-607035057659707403">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://docs.mediachain.io/">http://docs.mediachain.io/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://docs.mediachain.io/"><span class="markdown">Mediachain : Documentation</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">an open, universal media library</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035082644914176" id="message-607035082644914176">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://www.zdnet.com/article/spotify-acquires-blockchain-startup-mediachain-to-improve-music-attribution/">http://www.zdnet.com/article/spotify-acquires-blockchain-startup-mediachain-to-improve-music-attribution/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(8,14,20,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://www.zdnet.com/article/spotify-acquires-blockchain-startup-mediachain-to-improve-music-attribution/"><span class="markdown">Spotify acquires blockchain startup Mediachain to improve music at...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Spotify has acquired Mediachain in an effort to create a fairer, more transparent, and more rewarding music industry for creators and rights owners using blockchain technology.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://zdnet2.cbsistatic.com/hub/i/r/2016/08/11/cad2265d-1c51-4065-9f7c-140b6e4b9cbe/thumbnail/770x578/e450f33d57a53b058bdd9d1f6fb06365/9-spotify-mih83-zdnet-eileen-brown.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://zdnet2.cbsistatic.com/hub/i/r/2016/08/11/cad2265d-1c51-4065-9f7c-140b6e4b9cbe/thumbnail/770x578/e450f33d57a53b058bdd9d1f6fb06365/9-spotify-mih83-zdnet-eileen-brown.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035098914619423" id="message-607035098914619423">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/mediachain">https://github.com/mediachain</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/mediachain"><span class="markdown">Mediachain</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A decentralized universal media library. Mediachain has 29 repositories available. Follow their code on GitHub.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars3.githubusercontent.com/u/16711838?s=280&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars3.githubusercontent.com/u/16711838?s=280&v=4" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035119810772992" id="message-607035119810772992">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://dotblockchainmusic.com/">http://dotblockchainmusic.com/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035181995524107" id="message-607035181995524107">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://www.pledgemusic.com/">http://www.pledgemusic.com/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035207387971585" id="message-607035207387971585">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://musically.com/2017/05/24/blockchain-music-service-aurovine-new-features/">http://musically.com/2017/05/24/blockchain-music-service-aurovine-new-features/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://musically.com/2017/05/24/blockchain-music-service-aurovine-new-features/"><span class="markdown">Blockchain music service Aurovine has new features</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">British blockchain startup BlockPool is the company behind music-discovery service Aurovine, which has ben going since 2012.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://musically.com/wp-content/uploads/2017/05/aurovine.jpeg">
+                                                <img class="chatlog__embed-thumbnail" src="https://musically.com/wp-content/uploads/2017/05/aurovine.jpeg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035234591965195" id="message-607035234591965195">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://musically.com/">http://musically.com/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://musically.com/"><span class="markdown">Music Ally Is A Knowledge Company</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">We have over 15 years worth of information, experience and data on the global music business.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://musically.com/wp-content/uploads/2016/04/Music-Ally-logo1.gif">
+                                                <img class="chatlog__embed-thumbnail" src="https://musically.com/wp-content/uploads/2016/04/Music-Ally-logo1.gif" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035254485811200" id="message-607035254485811200">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://musically.com/start-ups/">http://musically.com/start-ups/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035283187433482" id="message-607035283187433482">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://voise.it/">http://voise.it/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035300170039339" id="message-607035300170039339">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@voiseit/updated-roadmap-and-whitepaper-2975a7fbd4e8">https://medium.com/@voiseit/updated-roadmap-and-whitepaper-2975a7fbd4e8</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035328762478615" id="message-607035328762478615">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://voise.it/whitepaper-voise.pdf">https://voise.it/whitepaper-voise.pdf</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035354629013514" id="message-607035354629013514">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://paperchain.io/">https://paperchain.io/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://paperchain.io/"><span class="markdown">Get Paperchain &#8212; faster growth capital for digital media compani...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Paperchain provides faster growth capital for digital media companies using real-time sales data.</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035377773051905" id="message-607035377773051905">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://midem.com/">http://midem.com/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://midem.com/"><span class="markdown">Midem</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Midem - The leading B2B event that gathers the international music ecosystem.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.midem.com/RM/RM_Midem_v2/dev/2019/img/open-graph/midem-2019-og-img-homepage-1200x630.jpg?v=1554899548">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.midem.com/RM/RM_Midem_v2/dev/2019/img/open-graph/midem-2019-og-img-homepage-1200x630.jpg?v=1554899548" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035398039797770" id="message-607035398039797770">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://jaak.io/">http://jaak.io/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035417170280469" id="message-607035417170280469">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://guts.tickets/">https://guts.tickets/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(58,24,62,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Sell or resell honest tickets? GUTS eliminates ticket fraud and exorbitant prices, thanks to blockchain technology. For every event. Join! From theatre to concert or sport match: with GUTS selling and reselling of tickets is simple, transparent and secure.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://guts.tickets/social/guts-en.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://guts.tickets/social/guts-en.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035436719669248" id="message-607035436719669248">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://musicoin.org/">http://musicoin.org/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035460346445854" id="message-607035460346445854">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://resonate.is/">https://resonate.is/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://resonate.is/author/members/">Resonate</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://resonate.is/"><span class="markdown">Resonate &#8211; the ethical music streaming co-op</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Resonate is a streaming music service cooperative owned by the people that use it &#8211; musicians, indie labels, fans + developers. Stream it until you own it.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://resonate.is/wp-content/uploads/2019/04/play-fair.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://resonate.is/wp-content/uploads/2019/04/play-fair.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035475450003505" id="message-607035475450003505">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@musicoin/roadmap-of-musicoin-blockchain-4a65620fefce">https://medium.com/@musicoin/roadmap-of-musicoin-blockchain-4a65620fefce</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@musicoin/roadmap-of-musicoin-blockchain-4a65620fefce"><span class="markdown">Roadmap of Musicoin Blockchain</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Musicoin Project (<a href="http://musicoin.org">http://musicoin.org</a> )
+June 28, 2017</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://miro.medium.com/max/1200/0*5fPfxppFPOHfpchk.">
+                                                <img class="chatlog__embed-thumbnail" src="https://miro.medium.com/max/1200/0*5fPfxppFPOHfpchk." />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035492529209364" id="message-607035492529209364">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://musicoin.org/">http://musicoin.org/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035520329056262" id="message-607035520329056262">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://resonate.is/wp-content/uploads/2015/12/stream-to-own-explained.png">https://resonate.is/wp-content/uploads/2015/12/stream-to-own-explained.png</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://resonate.is/wp-content/uploads/2015/12/stream-to-own-explained.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://resonate.is/wp-content/uploads/2015/12/stream-to-own-explained.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035540100874251" id="message-607035540100874251">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://token.fm/">http://token.fm/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607035563509415957" id="message-607035563509415957">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://token.fm/">http://token.fm/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607036583329267712" id="message-607036583329267712">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://www.billboard.com/articles/business/7752442/ascap-sacem-prs-for-music-initiative-improve-royalty-collection">http://www.billboard.com/articles/business/7752442/ascap-sacem-prs-for-music-initiative-improve-royalty-collection</a>
+<a href="https://steemit.com/muse/@cob/new-muse-blockchain-web-wallet-ready-to-go">https://steemit.com/muse/@cob/new-muse-blockchain-web-wallet-ready-to-go</a>
+<a href="http://peertracks.com/">http://peertracks.com/</a>
+<a href="https://singulardtv.com/">https://singulardtv.com/</a>
+<a href="https://steemit.com/steemdev/@senseiteekay/streams-music-distribution-for-the-steem-blockchain-update">https://steemit.com/steemdev/@senseiteekay/streams-music-distribution-for-the-steem-blockchain-update</a>
+<a href="https://steemit.com/streams/@thirsty/introducing-streams-a-music-streaming-platform-for-the-steem-blockchain">https://steemit.com/streams/@thirsty/introducing-streams-a-music-streaming-platform-for-the-steem-blockchain</a>
+<a href="http://www.billboard.com/articles/business/7752442/ascap-sacem-prs-for-music-initiative-improve-royalty-collection">http://www.billboard.com/articles/business/7752442/ascap-sacem-prs-for-music-initiative-improve-royalty-collection</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://www.billboard.com/articles/business/7752442/ascap-sacem-prs-for-music-initiative-improve-royalty-collection"><span class="markdown">ASCAP, SACEM and PRS For Music Team Up on Initiative to Improve Ro...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Three of the world&#8217;s biggest collection societies -- ASCAP, France-based SACEM and the U.K.&#8217;s PRS for Music -- have joined forces to prototype a new model of metadata recording and management to speed up licensing and royalty payments.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.billboard.com/files/media/business-handshake-2017-billboard-1548.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.billboard.com/files/media/business-handshake-2017-billboard-1548.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://steemit.com/muse/@cob/new-muse-blockchain-web-wallet-ready-to-go"><span class="markdown">New Muse Blockchain Web Wallet ready to go! &#8212; Steemit</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Beta versions of Muse and its first web wallet are out. You may use the wallet to create accounts, claim your stake&#8230; by cob</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://singulardtv.com/"><span class="markdown">Breaker</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Break free with more content that can&#226;&#8364;&#8482;t be found anywhere else. Everything from films and music to podcasts and art.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://images.ctfassets.net/hm230jgktcsd/577zlC7IASVCu2thGTJEUM/7cfe586690e4d5a39484a827d842deb7/breaker-og.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://images.ctfassets.net/hm230jgktcsd/577zlC7IASVCu2thGTJEUM/7cfe586690e4d5a39484a827d842deb7/breaker-og.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://steemit.com/steemdev/@senseiteekay/streams-music-distribution-for-the-steem-blockchain-update"><span class="markdown">Streams - Music distribution for the Steem blockchain [Update] &#8212;...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A music streaming application for the Steem blockchain!            Purchase tracks with STEEM at the click of a&#8230; by senseiteekay</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://steemitimages.com/0x0/http:/www.steemimg.com/images/2017/01/30/streamslogoxslogan21b28d.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://steemitimages.com/0x0/http:/www.steemimg.com/images/2017/01/30/streamslogoxslogan21b28d.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607036622134968332" id="message-607036622134968332">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://steemit.com/blockchain/@bloggersclub/muse-on-openledger-metaverse-foundation-leads-on-creation-of-official-blockchain-alliance-in-china">https://steemit.com/blockchain/@bloggersclub/muse-on-openledger-metaverse-foundation-leads-on-creation-of-official-blockchain-alliance-in-china</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://steemit.com/blockchain/@bloggersclub/muse-on-openledger-metaverse-foundation-leads-on-creation-of-official-blockchain-alliance-in-china"><span class="markdown">MUSE on OpenLedger. Metaverse Foundation Leads on Creation of Offi...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">We have observed that many OpenLedger DEX users have not managed to move their OPEN.MUSE to their own native wallet.&#8230; by bloggersclub</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://i.imgur.com/YUQcNVZ.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="http://i.imgur.com/YUQcNVZ.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607036641319845899" id="message-607036641319845899">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://www.bittunes.org/">http://www.bittunes.org/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607036680951693312" id="message-607036680951693312">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://music.bittunes.com/micro-earnings/">http://music.bittunes.com/micro-earnings/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="http://music.bittunes.com/author/simon_m23y1d5r/">Admin</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://music.bittunes.com/micro-earnings/"><span class="markdown">Micro-Earnings</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607036713348628490" id="message-607036713348628490">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://lbry.io/">http://lbry.io/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(21,91,74,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://lbry.io/"><span class="markdown">LBRY - Content Freedom</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://lbry.com/img/og-image.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://lbry.com/img/og-image.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607036738367389696" id="message-607036738367389696">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.viberate.com/">https://www.viberate.com/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.viberate.com/"><span class="markdown">Viberate - the first truly global music network</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Explore the music scene and find your new favorite artist, epic places to party and unforgettable events.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://viberatecdn.blob.core.windows.net/assets/share/fb-home.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://viberatecdn.blob.core.windows.net/assets/share/fb-home.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607036757560524840" id="message-607036757560524840">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://custostech.com/">https://custostech.com/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.custostech.com/blogchain/author/custosadmin_1337xe/">CustosAdmin_1337xE</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://custostech.com/"><span class="markdown">Home &#8211; Custos Media Technologies</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.custostech.com/wp-content/uploads/2019/04/custos-home-bg.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.custostech.com/wp-content/uploads/2019/04/custos-home-bg.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607036787331825678" id="message-607036787331825678">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://ventureburn.com/2016/04/blockchain-anti-piracy-startup-custos-raises-r4m-seed-round/">http://ventureburn.com/2016/04/blockchain-anti-piracy-startup-custos-raises-r4m-seed-round/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://ventureburn.com/2016/04/blockchain-anti-piracy-startup-custos-raises-r4m-seed-round/"><span class="markdown">Blockchain anti-piracy startup Custos raises R4m seed round - Vent...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A little whole back, we told you about Custos; a startup that uses the Bitcoin blockchain to curb film piracy. It&#8217;s an idea that...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://s5.cdn.ventureburn.com/wp-content/uploads/sites/2/2015/06/CustosTech.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://s5.cdn.ventureburn.com/wp-content/uploads/sites/2/2015/06/CustosTech.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607036895657984030" id="message-607036895657984030">
+                        <div class="chatlog__content">
+                            <span class="markdown">so... all above is research I did back late 2017 early 2018</span>
+
+                                <span class="chatlog__edited-timestamp" title="02-Aug-19 10:28 PM">(edited)</span>
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607036991422595083" id="message-607036991422595083">
+                        <div class="chatlog__content">
+                            <span class="markdown">I didn&#39;t check but just finally merged it from that source... that is way back before I did this as a habit</span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="607037263695839232" id="message-607037263695839232">
+                        <div class="chatlog__content">
+                            <span class="markdown">but realized I have an empty channel where I collected links for already</span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">02-Aug-19 11:41 PM</span>
+
+                    <div class="chatlog__message " data-message-id="607055329527595014" id="message-607055329527595014">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://hackmd.io/@infominer/blockchain-music">https://hackmd.io/@infominer/blockchain-music</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="02-Aug-19 11:43 PM">(edited)</span>
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://hackmd.io/@infominer/blockchain-music"><span class="markdown">Blockchain Music, applications of - HackMD</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">### Mycelia <a href="http://myceliaformusic.org">http://myceliaformusic.org</a>  Founded by Imogen heap, we are a growing collective of cre</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i.imgur.com/HYzQ29Z.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://i.imgur.com/HYzQ29Z.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Source&#10697;Crypto - &#128187;-tech-in-media</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        /* === GENERAL === */
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/3bdef1251a424500c1b3a78dea9b7e57.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/be0060dafb7a0e31d2a1ca17c0708636.woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    white-space: pre-wrap;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.spoiler {
+    border-radius: 3px;
+}
+
+.quote {
+    border-left: 4px solid;
+    border-radius: 3px;
+    margin: 8px 0;
+    padding-left: 10px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+.pre--multiline {
+    margin-top: 4px;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 85%;
+}
+
+.mention {
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+    display: flex;
+    max-width: 100%;
+    margin: 0 5px 10px 5px;
+}
+
+.info__guild-icon-container {
+    flex: 0;
+}
+
+.info__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.info__metadata {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info__guild-name {
+    font-size: 1.4em;
+}
+
+.info__channel-name {
+    font-size: 1.2em;
+}
+
+.info__channel-topic {
+    margin-top: 2px;
+}
+
+.info__channel-message-count {
+    margin-top: 2px;
+}
+
+.info__channel-date-range {
+    margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+    display: flex;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+    flex: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    flex: 1;
+    min-width: 50%;
+    margin-left: 20px;
+}
+
+.chatlog__author-name {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+.chatlog__message {
+    padding: 2px 5px;
+    margin-right: -5px;
+    margin-left: -5px;
+    background-color: transparent;
+    transition: background-color 1s ease;
+}
+
+.chatlog__content {
+    font-size: .9375em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 3px;
+    font-size: .8em;
+}
+
+.chatlog__attachment-thumbnail {
+    margin-top: 5px;
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__embed {
+    margin-top: 5px;
+    display: flex;
+    max-width: 520px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    width: 100%;
+    display: flex;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 10px;
+}
+
+.chatlog__embed-image {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-weight: 500;
+    font-size: .75em;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 6px 2px 2px 2px;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 6px;
+    font-size: .875em;
+}
+
+.chatlog__bot-tag {
+    margin-left: 0.3em;
+    background: #7289da;
+    color: #ffffff;
+    font-size: 0.625em;
+    padding: 1px 2px;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.3;
+    position: relative;
+    top: -.2em;
+}
+    </style>
+    <style>
+        /* === GENERAL === */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.quote {
+    border-color: #4f545c;
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #839496 !important;
+}
+
+.mention {
+    color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+    color: #ffffff;
+}
+
+.info__channel-name {
+    color: #ffffff;
+}
+
+.info__channel-topic {
+    color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__message--highlighted {
+    background-color: rgba(114, 137, 218, 0.2) !important;
+}
+
+.chatlog__message--pinned {
+    background-color: rgba(249, 168, 37, 0.05);
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element !== null && element !== undefined) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png" />
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source&#10697;Crypto</div>
+        <div class="info__channel-name">&#128187;-tech-in-media</div>
+
+            <div class="info__channel-topic">movies, tv, novels</div>
+
+        <div class="info__channel-message-count">29 messages</div>
+
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">26-Aug-18 01:55 AM</span>
+
+                    <div class="chatlog__message " data-message-id="483152606655676416" id="message-483152606655676416">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt1677720/">https://www.imdb.com/title/tt1677720/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt1677720/"><span class="markdown">Ready Player One (2018)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Directed by Steven Spielberg.  With Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Lena Waithe. When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fo...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UY1200_CR90,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UY1200_CR90,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483152890966573076" id="message-483152890966573076">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt2575988/">https://www.imdb.com/title/tt2575988/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt2575988/"><span class="markdown">Silicon Valley (TV Series 2014&#8211; )</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Created by John Altschuler, Mike Judge, Dave Krinsky.  With Thomas Middleditch, T.J. Miller, Josh Brener, Martin Starr. Follows the struggle of Richard Hendricks, a Silicon Valley engineer trying to build his own company called Pied Piper.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BMTAxNTEyODE5MTNeQTJeQWpwZ15BbWU4MDE3MjM3ODQz._V1_UY1200_CR90,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BMTAxNTEyODE5MTNeQTJeQWpwZ15BbWU4MDE3MjM3ODQz._V1_UY1200_CR90,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483153031345602561" id="message-483153031345602561">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt0475784/?ref_=nv_sr_1">https://www.imdb.com/title/tt0475784/?ref_=nv_sr_1</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt0475784/?ref_=nv_sr_1"><span class="markdown">Westworld (TV Series 2016&#8211; )</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">With Evan Rachel Wood, Jeffrey Wright, Ed Harris, Thandie Newton. Set at the intersection of the near future and the reimagined past, explore a world in which every human appetite can be indulged without consequence.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BMjM2MTA5NjIwNV5BMl5BanBnXkFtZTgwNjI2OTMxNTM@._V1_UY1200_CR90,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BMjM2MTA5NjIwNV5BMl5BanBnXkFtZTgwNjI2OTMxNTM@._V1_UY1200_CR90,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483153232055500800" id="message-483153232055500800">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt0113568/?ref_=nv_sr_3">https://www.imdb.com/title/tt0113568/?ref_=nv_sr_3</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt0113568/?ref_=nv_sr_3"><span class="markdown">Ghost in the Shell (1995)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Directed by Mamoru Oshii.  With Atsuko Tanaka, Iemasa Kayumi, Akio &#212;tsuka, K&#244;ichi Yamadera. A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BYWRiYjQyOGItNzQ1Mi00MGI1LWE3NjItNTg1ZDQwNjUwNDM2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY1200_CR90,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BYWRiYjQyOGItNzQ1Mi00MGI1LWE3NjItNTg1ZDQwNjUwNDM2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY1200_CR90,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483153305099436043" id="message-483153305099436043">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt1285016/?ref_=nv_sr_1">https://www.imdb.com/title/tt1285016/?ref_=nv_sr_1</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt1285016/?ref_=nv_sr_1"><span class="markdown">The Social Network (2010)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Directed by David Fincher.  With Jesse Eisenberg, Andrew Garfield, Justin Timberlake, Rooney Mara. Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and th...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BMTM2ODk0NDAwMF5BMl5BanBnXkFtZTcwNTM1MDc2Mw@@._V1_UY1200_CR66,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BMTM2ODk0NDAwMF5BMl5BanBnXkFtZTcwNTM1MDc2Mw@@._V1_UY1200_CR66,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483153380391518209" id="message-483153380391518209">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt2080374/?ref_=nv_sr_1">https://www.imdb.com/title/tt2080374/?ref_=nv_sr_1</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt2080374/?ref_=nv_sr_1"><span class="markdown">Steve Jobs (2015)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Directed by Danny Boyle.  With Michael Fassbender, Kate Winslet, Seth Rogen, Jeff Daniels. Steve Jobs takes us behind the scenes of the digital revolution, to paint a portrait of the man at its epicenter. The story unfolds backstage at three iconic product launches, ending in...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BMjE0NTA2MTEwOV5BMl5BanBnXkFtZTgwNzg4NzU2NjE@._V1_UY1200_CR64,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BMjE0NTA2MTEwOV5BMl5BanBnXkFtZTgwNzg4NzU2NjE@._V1_UY1200_CR64,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483153501359439872" id="message-483153501359439872">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt0343818/?ref_=nv_sr_1">https://www.imdb.com/title/tt0343818/?ref_=nv_sr_1</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt0343818/?ref_=nv_sr_1"><span class="markdown">I, Robot (2004)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Directed by Alex Proyas.  With Will Smith, Bridget Moynahan, Bruce Greenwood, Alan Tudyk. In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BMTQwNzI5NTQ0OF5BMl5BanBnXkFtZTYwMTI3Mjk2._V1_UY1200_CR89,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BMTQwNzI5NTQ0OF5BMl5BanBnXkFtZTYwMTI3Mjk2._V1_UY1200_CR89,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483153793144455169" id="message-483153793144455169">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt0113243/?ref_=nv_sr_1">https://www.imdb.com/title/tt0113243/?ref_=nv_sr_1</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt0113243/?ref_=nv_sr_1"><span class="markdown">Hackers (1995)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Directed by Iain Softley.  With Jonny Lee Miller, Angelina Jolie, Jesse Bradford, Matthew Lillard. This movie is about hackers who are blamed for making a virus that will capsize 5 oil tankers.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BNmExMTkyYjItZTg0YS00NWYzLTkwMjItZWJiOWQ2M2ZkYjE4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY1200_CR90,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BNmExMTkyYjItZTg0YS00NWYzLTkwMjItZWJiOWQ2M2ZkYjE4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY1200_CR90,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483154009302106132" id="message-483154009302106132">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt1798709/?ref_=nv_sr_1">https://www.imdb.com/title/tt1798709/?ref_=nv_sr_1</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt1798709/?ref_=nv_sr_1"><span class="markdown">Her (2013)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Directed by Spike Jonze.  With Joaquin Phoenix, Amy Adams, Scarlett Johansson, Rooney Mara. In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_UY1200_CR90,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_UY1200_CR90,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483154056659992576" id="message-483154056659992576">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt0470752/?ref_=nv_sr_1">https://www.imdb.com/title/tt0470752/?ref_=nv_sr_1</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt0470752/?ref_=nv_sr_1"><span class="markdown">Ex Machina (2014)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Directed by Alex Garland.  With Alicia Vikander, Domhnall Gleeson, Oscar Isaac, Sonoya Mizuno. A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a breath-taking humanoid A.I.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_UY1200_CR90,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_UY1200_CR90,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483154117573738497" id="message-483154117573738497">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt1856101/?ref_=nv_sr_1">https://www.imdb.com/title/tt1856101/?ref_=nv_sr_1</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt1856101/?ref_=nv_sr_1"><span class="markdown">Blade Runner 2049 (2017)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Directed by Denis Villeneuve.  With Harrison Ford, Ryan Gosling, Ana de Armas, Dave Bautista. A young blade runner&#39;s discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who&#39;s been missing for thirty years.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_UY1200_CR90,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_UY1200_CR90,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483154304384106499" id="message-483154304384106499">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt2861424/?ref_=nv_sr_1">https://www.imdb.com/title/tt2861424/?ref_=nv_sr_1</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt2861424/?ref_=nv_sr_1"><span class="markdown">Rick and Morty (TV Series 2013&#8211; )</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Created by Dan Harmon, Justin Roiland.  With Justin Roiland, Chris Parnell, Spencer Grammer, Sarah Chalke. An animated series that follows the exploits of a super scientist and his not-so-bright grandson.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BMjRiNDRhNGUtMzRkZi00MThlLTg0ZDMtNjc5YzFjYmFjMmM4XkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_UY1200_CR103,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BMjRiNDRhNGUtMzRkZi00MThlLTg0ZDMtNjc5YzFjYmFjMmM4XkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_UY1200_CR103,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">27-Aug-18 12:15 AM</span>
+
+                    <div class="chatlog__message " data-message-id="483489627572011018" id="message-483489627572011018">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt4158110/">https://www.imdb.com/title/tt4158110/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt4158110/"><span class="markdown">Mr. Robot (TV Series 2015&#8211; )</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Created by Sam Esmail.  With Rami Malek, Christian Slater, Portia Doubleday, Carly Chaikin. Elliot, a brilliant but highly unstable young cyber-security engineer and vigilante hacker, becomes a key figure in a complex game of global dominance when he and his shadowy allies tr...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BMTYzMDE2MzI4MF5BMl5BanBnXkFtZTgwNTkxODgxOTE@._V1_UY1200_CR90,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BMTYzMDE2MzI4MF5BMl5BanBnXkFtZTgwNTkxODgxOTE@._V1_UY1200_CR90,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">09-Sep-18 06:38 AM</span>
+
+                    <div class="chatlog__message " data-message-id="488297191526367232" id="message-488297191526367232">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.imdb.com/title/tt2543312/">https://www.imdb.com/title/tt2543312/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.imdb.com/title/tt2543312/"><span class="markdown">Halt and Catch Fire (TV Series 2014&#8211;2017)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Created by Christopher Cantwell, Christopher C. Rogers.  With Lee Pace, Scoot McNairy, Mackenzie Davis, Kerry Bish&#233;. Set in the 1980s, this series dramatizes the personal computing boom through the eyes of a visionary, an engineer and a prodigy whose innovations directly con...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://m.media-amazon.com/images/M/MV5BMTczNjAyMDg1Nl5BMl5BanBnXkFtZTgwMDQyNTA2OTE@._V1_UY1200_CR93,0,630,1200_AL_.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://m.media-amazon.com/images/M/MV5BMTczNjAyMDg1Nl5BMl5BanBnXkFtZTgwMDQyNTA2OTE@._V1_UY1200_CR93,0,630,1200_AL_.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">07-Oct-18 06:09 PM</span>
+
+                    <div class="chatlog__message " data-message-id="498617787334524928" id="message-498617787334524928">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://breakermag.com/kchain-science-fiction-premiere-byzantine-empathy/">https://breakermag.com/kchain-science-fiction-premiere-byzantine-empathy/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://breakermag.com/author/kliu">Ken Liu</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://breakermag.com/kchain-science-fiction-premiere-byzantine-empathy"><span class="markdown">Blockchain Science-Fiction Premiere: &#8220;Byzantine Empathy&#8221;</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Byzantine Empathy is a work of fiction by Ken Liu (The Grace of Kings, The Paper Menagerie). It originally appeared in Twelve Tomorrows, published by the MIT Press.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://breakermag.com/wp-content/uploads/2018/07/twitter-profile400x400px_yellow-01.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://breakermag.com/wp-content/uploads/2018/07/twitter-profile400x400px_yellow-01.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">02-Mar-19 06:07 PM</span>
+
+                    <div class="chatlog__message " data-message-id="551540994286419968" id="message-551540994286419968">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.plan99.net/the-science-of-westworld-ec624585e47">https://blog.plan99.net/the-science-of-westworld-ec624585e47</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.plan99.net/the-science-of-westworld-ec624585e47"><span class="markdown">The science of Westworld &#8211; Mike&#8217;s blog</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">How close are we to building the hosts?</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*Glr1ZI-J1oo_ojeW8eLiUQ.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*Glr1ZI-J1oo_ojeW8eLiUQ.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">01-Jun-19 06:09 AM</span>
+
+                    <div class="chatlog__message " data-message-id="584322522762444810" id="message-584322522762444810">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/">https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://variety.com/author/johnhopewell1/">John Hopewell</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/"><span class="markdown">Netflix&#8217;s &#8216;How to Sell Drugs Online (Fast)&#8217;s&#8217; Creators on ...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">CANNES &#8212; Netflix&#8217;s &#8220;How to Sell Drugs Online (Fast)&#8221; kicks off with a police special unit, automatic rifles trained, moving in silently for &#160;asking. The target, a buff teen drug dealer, at wo&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://pmcvariety.files.wordpress.com/2019/04/how-to-sell-drugs-online-fast-lars-montagcopyright.jpg?w=700&h=393&crop=1">
+                                                <img class="chatlog__embed-thumbnail" src="https://pmcvariety.files.wordpress.com/2019/04/how-to-sell-drugs-online-fast-lars-montagcopyright.jpg?w=700&h=393&crop=1" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">07-Jun-19 07:35 PM</span>
+
+                    <div class="chatlog__message " data-message-id="586699895868620801" id="message-586699895868620801">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.artificial-intelligence.blog/ai-movie">https://www.artificial-intelligence.blog/ai-movie</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.artificial-intelligence.blog/ai-movie"><span class="markdown">AI Movie Guide - All Artificial Intelligence Movies</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A huge curated list of the best artificial intelligence movies ever released. Find your next great AI movie to watch here.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://static1.squarespace.com/static/585e8f70bebafb65339930b8/t/5c531d2e758d466a263d9ac6/1548950833128/artificial-intelligence-blog.001.jpeg?format=1500w">
+                                                <img class="chatlog__embed-thumbnail" src="http://static1.squarespace.com/static/585e8f70bebafb65339930b8/t/5c531d2e758d466a263d9ac6/1548950833128/artificial-intelligence-blog.001.jpeg?format=1500w" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">10-Jun-19 12:50 AM</span>
+
+                    <div class="chatlog__message " data-message-id="587503765926445066" id="message-587503765926445066">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/mattoshin/status/1137914686425296901?s=12">https://twitter.com/mattoshin/status/1137914686425296901?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1133164469129887746/0bAPH8pJ_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/MattoshiN">&#120444;&#120458;&#120477;&#120477; &#8383; (@MattoshiN)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Was completely immersed into How To Sell Drugs Online (Fast), right up until they mentioned that their darknet market accepted IOTA.
+
+No one accepts IOTA.</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">17-Jun-19 01:34 AM</span>
+
+                    <div class="chatlog__message " data-message-id="590051743836930067" id="message-590051743836930067">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/melt_dem/status/1140417654605451264?s=12">https://twitter.com/melt_dem/status/1140417654605451264?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1071194579406327811/LozwqvFr_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/Melt_Dem">Meltem Demirors (@Melt_Dem)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">obsessed with sci fi. my reading list over the last few years, with some welcome additions from the friendly folks on crypto twitter <img class="emoji " alt="👇" title="👇" src="https://twemoji.maxcdn.com/2/72x72/1f447.png" />
+
+<a href="https://t.co/myFJFRoOD2">https://t.co/myFJFRoOD2</a></span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/349279905457897473/3350932edb66dd4676bcde01fd7e7a79.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="geo#9820" data-user-id="349279905457897473">geo</span>
+
+
+                <span class="chatlog__timestamp">02-Aug-19 05:39 PM</span>
+
+                    <div class="chatlog__message " data-message-id="606964228318035982" id="message-606964228318035982">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.youtube.com/watch?v=Dcs4wHSfk0Q">https://www.youtube.com/watch?v=Dcs4wHSfk0Q</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">02-Aug-19 05:39 PM</span>
+
+                    <div class="chatlog__message " data-message-id="606964282567163943" id="message-606964282567163943">
+                        <div class="chatlog__content">
+                            <span class="markdown"><img class="emoji " alt="😄" title="😄" src="https://twemoji.maxcdn.com/2/72x72/1f604.png" /> yay</span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="606964378167803980" id="message-606964378167803980">
+                        <div class="chatlog__content">
+                            <span class="markdown">Thats fine, the other channel would be like blockchain music projects</span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">10-Aug-19 02:29 AM</span>
+
+                    <div class="chatlog__message " data-message-id="609634515551387678" id="message-609634515551387678">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.meltemdemirors.com/sci-fi-reading-list">https://www.meltemdemirors.com/sci-fi-reading-list</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.meltemdemirors.com/sci-fi-reading-list"><span class="markdown">Meltem Demirors | Bitcoin and Crypto</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Hello - my name is Meltem Demirors. I try to help people understand what crypto is because it provides freedom of choice and a new lens through which to view the world.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://static.wixstatic.com/media/0fdae8_eb1634ede5f54b189a06daaf4fb4687c%7Emv2.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://static.wixstatic.com/media/0fdae8_eb1634ede5f54b189a06daaf4fb4687c%7Emv2.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">23-Aug-19 04:37 AM</span>
+
+                    <div class="chatlog__message " data-message-id="614377698181120004" id="message-614377698181120004">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.putlockers.me/tv/utopia-season-1-12326.html">https://www.putlockers.me/tv/utopia-season-1-12326.html</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.putlockers.me/tv/utopia-season-1-12326.html"><span class="markdown">Watch Utopia - Season 1 (2013) Free On Putlocker</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Watch Utopia - Season 1 Online For Free On Putlocker, Stream Utopia - Season 1 Online, Utopia - Season 1 Full Movies Free</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">25-Sep-19 10:20 AM</span>
+
+                    <div class="chatlog__message " data-message-id="626422763422220298" id="message-626422763422220298">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://talk.fission.codes/t/book-recommendation/275">https://talk.fission.codes/t/book-recommendation/275</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(51,51,51,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://talk.fission.codes/t/book-recommendation/275"><span class="markdown">Book Recommendation</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Science Fiction The Culture Series by Iain M. Banks    The Culture is a society formed by various humanoid races and artificial intelligences about 9,000 years before the events of novels in the series. Since the majority of its biological population can have virtually anythi...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://talk.fission.codes/uploads/default/original/1X/bede2bbfc0dd4c920b8b57ff7206d400773cc782.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://talk.fission.codes/uploads/default/original/1X/bede2bbfc0dd4c920b8b57ff7206d400773cc782.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">27-Sep-19 09:58 PM</span>
+
+                    <div class="chatlog__message " data-message-id="627323331397419048" id="message-627323331397419048">
+                        <div class="chatlog__content">
+                            <span class="markdown">Novelist Neal Stephenson Once Again Proves He&#39;s the King of the Worlds | WIRED
+
+<a href="https://www.wired.com/2008/08/mf-stephenson/">https://www.wired.com/2008/08/mf-stephenson/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.wired.com/2008/08/mf-stephenson/"><span class="markdown">Novelist Neal Stephenson Once Again Proves He&#39;s the King of the Worlds</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Illustration: Nate Van Dyke Tonight&#39;s subject at the History Book Club: the Vikings. This is primo stuff for the men who gather once a month in Seattle to gab about some long-gone era or icon, from early Romans to Frederick the Great. You really can&#39;t beat tales of merciless ...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.wired.com/images/video-fallback/w-fallback-full.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.wired.com/images/video-fallback/w-fallback-full.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="627323451404845077" id="message-627323451404845077">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.wired.com/2002/10/lessig-3/">https://www.wired.com/2002/10/lessig-3/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.wired.com/2002/10/lessig-3/"><span class="markdown">Lawrence Lessig&#39;s Supreme Showdown</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Lawrence Lessig helped mount the case against Microsoft. He wrote the book on creative rights in the digital age. Now the cyberlaw star is about to tell the Supreme Court to smash apart the copyright machine. What&#8217;s left of a dream is stored at the Stanford Law School libra...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.wired.com/images/video-fallback/w-fallback-full.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.wired.com/images/video-fallback/w-fallback-full.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">26-Oct-19 10:12 PM</span>
+
+                    <div class="chatlog__message " data-message-id="637835893440380968" id="message-637835893440380968">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/">https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://variety.com/author/johnhopewell1/">John Hopewell</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/"><span class="markdown">Netflix&#8217;s &#8216;How to Sell Drugs Online (Fast)&#8217;s&#8217; Creators on ...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">CANNES &#8212; Netflix&#8217;s &#8220;How to Sell Drugs Online (Fast)&#8221; kicks off with a police special unit, automatic rifles trained, moving in silently for &#160;asking. The target, a buff teen drug dealer, at wo&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://pmcvariety.files.wordpress.com/2019/04/how-to-sell-drugs-online-fast-lars-montagcopyright.jpg?w=700&h=393&crop=1">
+                                                <img class="chatlog__embed-thumbnail" src="https://pmcvariety.files.wordpress.com/2019/04/how-to-sell-drugs-online-fast-lars-montagcopyright.jpg?w=700&h=393&crop=1" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+</div>
+
+</body>
+</html>
