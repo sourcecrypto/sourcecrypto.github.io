@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Source&#10697;Crypto - &#129521;-forks</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        /* === GENERAL === */
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/3bdef1251a424500c1b3a78dea9b7e57.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/be0060dafb7a0e31d2a1ca17c0708636.woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    white-space: pre-wrap;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.spoiler {
+    border-radius: 3px;
+}
+
+.quote {
+    border-left: 4px solid;
+    border-radius: 3px;
+    margin: 8px 0;
+    padding-left: 10px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+.pre--multiline {
+    margin-top: 4px;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 85%;
+}
+
+.mention {
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+    display: flex;
+    max-width: 100%;
+    margin: 0 5px 10px 5px;
+}
+
+.info__guild-icon-container {
+    flex: 0;
+}
+
+.info__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.info__metadata {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info__guild-name {
+    font-size: 1.4em;
+}
+
+.info__channel-name {
+    font-size: 1.2em;
+}
+
+.info__channel-topic {
+    margin-top: 2px;
+}
+
+.info__channel-message-count {
+    margin-top: 2px;
+}
+
+.info__channel-date-range {
+    margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+    display: flex;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+    flex: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    flex: 1;
+    min-width: 50%;
+    margin-left: 20px;
+}
+
+.chatlog__author-name {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+.chatlog__message {
+    padding: 2px 5px;
+    margin-right: -5px;
+    margin-left: -5px;
+    background-color: transparent;
+    transition: background-color 1s ease;
+}
+
+.chatlog__content {
+    font-size: .9375em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 3px;
+    font-size: .8em;
+}
+
+.chatlog__attachment-thumbnail {
+    margin-top: 5px;
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__embed {
+    margin-top: 5px;
+    display: flex;
+    max-width: 520px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    width: 100%;
+    display: flex;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 10px;
+}
+
+.chatlog__embed-image {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-weight: 500;
+    font-size: .75em;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 6px 2px 2px 2px;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 6px;
+    font-size: .875em;
+}
+
+.chatlog__bot-tag {
+    margin-left: 0.3em;
+    background: #7289da;
+    color: #ffffff;
+    font-size: 0.625em;
+    padding: 1px 2px;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.3;
+    position: relative;
+    top: -.2em;
+}
+    </style>
+    <style>
+        /* === GENERAL === */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.quote {
+    border-color: #4f545c;
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #839496 !important;
+}
+
+.mention {
+    color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+    color: #ffffff;
+}
+
+.info__channel-name {
+    color: #ffffff;
+}
+
+.info__channel-topic {
+    color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__message--highlighted {
+    background-color: rgba(114, 137, 218, 0.2) !important;
+}
+
+.chatlog__message--pinned {
+    background-color: rgba(249, 168, 37, 0.05);
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element !== null && element !== undefined) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png" />
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source&#10697;Crypto</div>
+        <div class="info__channel-name">&#129521;-forks</div>
+
+            <div class="info__channel-topic"></div>
+
+        <div class="info__channel-message-count">14 messages</div>
+
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">29-Sep-18 06:23 PM</span>
+
+                    <div class="chatlog__message " data-message-id="495722401116585995" id="message-495722401116585995">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.placeholder.vc/blog/2018/9/17/a-brief-study-of-cryptonetwork-forks">https://www.placeholder.vc/blog/2018/9/17/a-brief-study-of-cryptonetwork-forks</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.placeholder.vc/blog/2018/9/17/a-brief-study-of-cryptonetwork-forks"><span class="markdown">A Brief Study of Cryptonetwork Forks</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Summary    The vast majority of child networks resulting from chain forks are  in disuse  and have lost significant value relative to their parent networks.       Despite lower use metrics, child networks trade at  higher  user and transaction value multiples (e.g., NVT ratio...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://static1.squarespace.com/static/5a479ee3b7411c6102f75729/t/5b9fcc28562fa7a16907964d/1537199156462?format=1000w">
+                                                <img class="chatlog__embed-thumbnail" src="http://static1.squarespace.com/static/5a479ee3b7411c6102f75729/t/5b9fcc28562fa7a16907964d/1537199156462?format=1000w" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495722455764172811" id="message-495722455764172811">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@ercwl/chainmerger-unifying-blockchains-after-a-fork-4ccc930907c0">https://medium.com/@ercwl/chainmerger-unifying-blockchains-after-a-fork-4ccc930907c0</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@ercwl/chainmerger-unifying-blockchains-after-a-fork-4ccc930907c0"><span class="markdown">Chainmerger &#8212; unifying blockchains after a fork &#8211; Eric Wall ...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">&#8220;We don&#8217;t have a merge process in Bitcoin. There might be some future ideas eventually in other cryptocurrencies that might allow for&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*1VXG9M0H0FhP4Z_8vu30Ug.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*1VXG9M0H0FhP4Z_8vu30Ug.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495722496557842452" id="message-495722496557842452">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://ethereumworldnews.com/hard-forks-bitcoin-cryptocurrency-2018/">https://ethereumworldnews.com/hard-forks-bitcoin-cryptocurrency-2018/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://ethereumworldnews.com/hard-forks-bitcoin-cryptocurrency-2018"><span class="markdown">New Study: Hard Forks Dangerous to Cryptocurrency Stability - Ethe...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Cryptocurrency&#8211;Hard forks for top of the market coins have had a quiet 2018 compared to last year. The second half of 2017 saw the creation of Bitcoin Cash, forked from the original BTC code commonly referred to as Core, which has led the currency to a position of fourth by...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://ethereumworldnews.com/wp-content/uploads/2018/09/Cryptocurrency-Fork-Study.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://ethereumworldnews.com/wp-content/uploads/2018/09/Cryptocurrency-Fork-Study.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495722623808831489" id="message-495722623808831489">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/SomsenRuben/status/1023414780260888577">https://twitter.com/SomsenRuben/status/1023414780260888577</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1027624975333650432/lu-5FObc_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/SomsenRuben">Ruben Somsen &#9889;&#65039;&#127475;&#127358;&#65039;2&#65039;&#8419;&#10062; (@SomsenRuben)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">1/8 Thread on why #bitcoin Soft Forks preserve consensus. Confused why people prefer Soft Forks over Hard Forks? Do Soft Forks somehow seem coercive? Do you feel like Hard Forks aren&#39;t such a big deal? Then read this!</span></div>
+
+                                    </div>
+
+                                </div>
+
+                                    <div class="chatlog__embed-image-container">
+                                        <a class="chatlog__embed-image-link" href="https://pbs.twimg.com/media/DjPiSp9UwAAxoRy.jpg:large">
+                                            <img class="chatlog__embed-image" src="https://pbs.twimg.com/media/DjPiSp9UwAAxoRy.jpg:large" />
+                                        </a>
+                                    </div>
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495722735939485719" id="message-495722735939485719">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://masterthecrypto.com/guide-to-forks-hard-fork-soft-fork/">https://masterthecrypto.com/guide-to-forks-hard-fork-soft-fork/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://masterthecrypto.com/author/admin">Aziz, Founder of Master the Crypto</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://masterthecrypto.com/guide-to-forks-hard-fork-soft-fork"><span class="markdown">Guide to Forks: Everything You Need to Know About Forks, Hard Fork...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">This is a guide to forks that will explain the most common questions: What is a fork, hard fork and soft fork? Why does it happen? How important is it?</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://masterthecrypto.com/wp-content/uploads/2017/10/wsi-imageoptim-branches-238379_1280-1-1-1-1.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://masterthecrypto.com/wp-content/uploads/2017/10/wsi-imageoptim-branches-238379_1280-1-1-1-1.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495723497671360546" id="message-495723497671360546">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.coindesk.com/short-guide-bitcoin-forks-explained/">https://www.coindesk.com/short-guide-bitcoin-forks-explained/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.coindesk.com/short-guide-bitcoin-forks-explained"><span class="markdown">A Short Guide to Bitcoin Forks - CoinDesk</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Don&#39;t know a hard fork from a soft fork? This guide is designed to help you follow bitcoin&#39;s raging technical debates.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://media.coindesk.com/uploads/2017/03/fork-silverware-e1490556833926.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://media.coindesk.com/uploads/2017/03/fork-silverware-e1490556833926.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">29-Sep-18 07:50 PM</span>
+
+                    <div class="chatlog__message " data-message-id="495744303239266304" id="message-495744303239266304">
+                        <div class="chatlog__content">
+                            <span class="markdown">see also <span class="mention">#deleted-channel</span></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">09-Dec-18 12:04 AM</span>
+
+                    <div class="chatlog__message " data-message-id="521190414447804417" id="message-521190414447804417">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://forkmonitor.info/nodes/btc">https://forkmonitor.info/nodes/btc</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">20-Jul-19 12:32 AM</span>
+
+                    <div class="chatlog__message " data-message-id="601994752522453040" id="message-601994752522453040">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/SomsenRuben/status/102341478026088857">https://twitter.com/SomsenRuben/status/102341478026088857</a>
+
+<a href="https://medium.com/@francispouliot/bylls-bitcoin-fork-policy-65f971761232">https://medium.com/@francispouliot/bylls-bitcoin-fork-policy-65f971761232</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@francispouliot/bylls-bitcoin-fork-policy-65f971761232"><span class="markdown">Satoshi Portal (bylls.com) policy on forks of Bitcoin and the defi...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Satoshi Portal considers &#8220;Bitcoin&#8221; to be whichever blockchain whose latest block is accepted as valid by our Bitcoin Core 0.14.2 node.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://miro.medium.com/max/1200/1*7ktW6_TE_a595Qb5GE7Lxw.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://miro.medium.com/max/1200/1*7ktW6_TE_a595Qb5GE7Lxw.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="601995424164741131" id="message-601995424164741131">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@jordan.baczuk/how-to-fork-bitcoin-c39139506443">https://medium.com/@jordan.baczuk/how-to-fork-bitcoin-c39139506443</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@jordan.baczuk/how-to-fork-bitcoin-c39139506443"><span class="markdown">How to fork Bitcoin - Jordan Baczuk - Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">My full video tutorial on how to fork Bitcoin is available on Udemy:
+## Use promo code MEDIUM2 to get the Udemy course for $9.99 ##</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://miro.medium.com/max/1200/0*3epQexFBB0Ri04v8.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://miro.medium.com/max/1200/0*3epQexFBB0Ri04v8.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">21-Jul-19 10:58 PM</span>
+
+                    <div class="chatlog__message " data-message-id="602695949642498049" id="message-602695949642498049">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://bitcointalk.org/index.php?topic=225690.0">https://bitcointalk.org/index.php?topic=225690.0</a>
+<a href="http://forknote.net/">http://forknote.net/</a>
+<a href="https://medium.com/@jordan.baczuk/how-to-fork-bitcoin-c39139506443">https://medium.com/@jordan.baczuk/how-to-fork-bitcoin-c39139506443</a>
+
+
+<a href="https://en.bitcoinwiki.org/wiki/Creating_forks">https://en.bitcoinwiki.org/wiki/Creating_forks</a>
+
+<a href="https://forkgen.tech/">https://forkgen.tech/</a>
+<a href="https://bitcointalk.org/index.php?topic=3345808.0">https://bitcointalk.org/index.php?topic=3345808.0</a>
+
+<a href="https://www.walletbuilders.com/">https://www.walletbuilders.com/</a>
+
+<a href="https://www.fastcompany.com/3025700/how-to-create-your-own-cryptocurrency">https://www.fastcompany.com/3025700/how-to-create-your-own-cryptocurrency</a>
+
+<a href="https://nulltx.com/altcoins-dying-make-one-hour/">https://nulltx.com/altcoins-dying-make-one-hour/</a>
+
+<a href="https://altcoinsfoundation.com/forum/developers/56-how-to-create-your-own-cryptocurrency-altcoin-1-dev">https://altcoinsfoundation.com/forum/developers/56-how-to-create-your-own-cryptocurrency-altcoin-1-dev</a> (without having to genesis block)</span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://bitcointalk.org/index.php?topic=225690.0"><span class="markdown"><em><strong> Complete Guide on How to Create a New Alt Coin </strong></em></span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown"><em><strong> Complete Guide on How to Create a New Alt Coin </strong></em></span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@jordan.baczuk/how-to-fork-bitcoin-c39139506443"><span class="markdown">How to fork Bitcoin - Jordan Baczuk - Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">My full video tutorial on how to fork Bitcoin is available on Udemy:
+## Use promo code MEDIUM2 to get the Udemy course for $9.99 ##</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://miro.medium.com/max/1200/0*3epQexFBB0Ri04v8.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://miro.medium.com/max/1200/0*3epQexFBB0Ri04v8.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://en.bitcoinwiki.org/wiki/Creating_forks"><span class="markdown">Creating forks</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Create cryptocurrency or create Bitcoin fork is very easy as Bitcoin source code is freely available and anyone can download it, make their changes and, roughly speaking, create a new cryptocurrency.
+This is used by many people: some aim at the improvement of the network by a...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://en.bitcoinwiki.org/resources/new_assets/MetaPicWIKI.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://en.bitcoinwiki.org/resources/new_assets/MetaPicWIKI.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">27-Jul-19 12:04 AM</span>
+
+                    <div class="chatlog__message " data-message-id="604524512171524106" id="message-604524512171524106">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.placeholder.vc/blog/2018/9/17/a-brief-study-of-cryptonetwork-forks">https://www.placeholder.vc/blog/2018/9/17/a-brief-study-of-cryptonetwork-forks</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.placeholder.vc/blog/2018/9/17/a-brief-study-of-cryptonetwork-forks"><span class="markdown">A Brief Study of Cryptonetwork Forks</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Summary    The vast majority of child networks resulting from chain forks are  in disuse  and have lost significant value relative to their parent networks.       Despite lower use metrics, child networks trade at  higher  user and transaction value multiples (e.g., NVT ratio...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://static1.squarespace.com/static/5a479ee3b7411c6102f75729/t/5b9fcc28562fa7a16907964d/1537199156462/?format=1500w">
+                                                <img class="chatlog__embed-thumbnail" src="http://static1.squarespace.com/static/5a479ee3b7411c6102f75729/t/5b9fcc28562fa7a16907964d/1537199156462/?format=1500w" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">04-Aug-19 04:12 PM</span>
+
+                    <div class="chatlog__message " data-message-id="607667090891079681" id="message-607667090891079681">
+                        <div class="chatlog__content">
+                            <span class="markdown">fork(2) - Linux manual page
+
+<a href="http://man7.org/linux/man-pages/man2/fork.2.html">http://man7.org/linux/man-pages/man2/fork.2.html</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">06-Aug-19 11:28 PM</span>
+
+                    <div class="chatlog__message " data-message-id="608501617037410304" id="message-608501617037410304">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://en.bitcoinwiki.org/wiki/Creating_forks">https://en.bitcoinwiki.org/wiki/Creating_forks</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://en.bitcoinwiki.org/wiki/Creating_forks"><span class="markdown">Creating forks</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Create cryptocurrency or create Bitcoin fork is very easy as Bitcoin source code is freely available and anyone can download it, make their changes and, roughly speaking, create a new cryptocurrency.
+This is used by many people: some aim at the improvement of the network by a...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://en.bitcoinwiki.org/resources/new_assets/MetaPicWIKI.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://en.bitcoinwiki.org/resources/new_assets/MetaPicWIKI.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+</div>
+
+</body>
+</html>

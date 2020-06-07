@@ -1,0 +1,3552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Source&#10697;Crypto - &#127959;-consensus</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        /* === GENERAL === */
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/3bdef1251a424500c1b3a78dea9b7e57.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/be0060dafb7a0e31d2a1ca17c0708636.woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    white-space: pre-wrap;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.spoiler {
+    border-radius: 3px;
+}
+
+.quote {
+    border-left: 4px solid;
+    border-radius: 3px;
+    margin: 8px 0;
+    padding-left: 10px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+.pre--multiline {
+    margin-top: 4px;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 85%;
+}
+
+.mention {
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+    display: flex;
+    max-width: 100%;
+    margin: 0 5px 10px 5px;
+}
+
+.info__guild-icon-container {
+    flex: 0;
+}
+
+.info__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.info__metadata {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info__guild-name {
+    font-size: 1.4em;
+}
+
+.info__channel-name {
+    font-size: 1.2em;
+}
+
+.info__channel-topic {
+    margin-top: 2px;
+}
+
+.info__channel-message-count {
+    margin-top: 2px;
+}
+
+.info__channel-date-range {
+    margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+    display: flex;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+    flex: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    flex: 1;
+    min-width: 50%;
+    margin-left: 20px;
+}
+
+.chatlog__author-name {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+.chatlog__message {
+    padding: 2px 5px;
+    margin-right: -5px;
+    margin-left: -5px;
+    background-color: transparent;
+    transition: background-color 1s ease;
+}
+
+.chatlog__content {
+    font-size: .9375em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 3px;
+    font-size: .8em;
+}
+
+.chatlog__attachment-thumbnail {
+    margin-top: 5px;
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__embed {
+    margin-top: 5px;
+    display: flex;
+    max-width: 520px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    width: 100%;
+    display: flex;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 10px;
+}
+
+.chatlog__embed-image {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-weight: 500;
+    font-size: .75em;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 6px 2px 2px 2px;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 6px;
+    font-size: .875em;
+}
+
+.chatlog__bot-tag {
+    margin-left: 0.3em;
+    background: #7289da;
+    color: #ffffff;
+    font-size: 0.625em;
+    padding: 1px 2px;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.3;
+    position: relative;
+    top: -.2em;
+}
+    </style>
+    <style>
+        /* === GENERAL === */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.quote {
+    border-color: #4f545c;
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #839496 !important;
+}
+
+.mention {
+    color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+    color: #ffffff;
+}
+
+.info__channel-name {
+    color: #ffffff;
+}
+
+.info__channel-topic {
+    color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__message--highlighted {
+    background-color: rgba(114, 137, 218, 0.2) !important;
+}
+
+.chatlog__message--pinned {
+    background-color: rgba(249, 168, 37, 0.05);
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element !== null && element !== undefined) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png" />
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source&#10697;Crypto</div>
+        <div class="info__channel-name">&#127959;-consensus</div>
+
+            <div class="info__channel-topic">Sybil Resistance Mechanisms, Formerly Known as Consensus Protocols. see also #distributed-systems</div>
+
+        <div class="info__channel-message-count">88 messages</div>
+
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">12-Aug-18 11:09 PM</span>
+
+                    <div class="chatlog__message " data-message-id="478399659220533279" id="message-478399659220533279">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://i2c.cs.uh.edu/tiki-download_wiki_attachment.php?attId=70">http://i2c.cs.uh.edu/tiki-download_wiki_attachment.php?attId=70</a>
+Proof of elapsed time research paper.</span>
+
+                                <span class="chatlog__edited-timestamp" title="12-Aug-18 11:09 PM">(edited)</span>
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">13-Aug-18 01:23 PM</span>
+
+                    <div class="chatlog__message " data-message-id="478614574518763534" id="message-478614574518763534">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://vitalik.ca/general/2018/08/07/99_fault_tolerant.html">https://vitalik.ca/general/2018/08/07/99_fault_tolerant.html</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://vitalik.ca/general/2018/08/07/99_fault_tolerant.html"><span class="markdown">A Guide to 99% Fault Tolerant Consensus</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Special thanks to Emin Gun Sirer for review</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">13-Aug-18 04:00 PM</span>
+
+                    <div class="chatlog__message " data-message-id="478654149886738461" id="message-478654149886738461">
+                        <div class="chatlog__content">
+                            <span class="markdown">Proof of Stake Velocity
+-<a href="https://www.reddcoin.com/papers/PoSV.pdf">https://www.reddcoin.com/papers/PoSV.pdf</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="13-Aug-18 04:01 PM">(edited)</span>
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="478654253229932544" id="message-478654253229932544">
+                        <div class="chatlog__content">
+                            <span class="markdown">PoW, PoS, &amp; Hybrid protocols: A Matter of Complexity?
+-<a href="https://arxiv.org/pdf/1805.08674.pdf">https://arxiv.org/pdf/1805.08674.pdf</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="478655264053264385" id="message-478655264053264385">
+                        <div class="chatlog__content">
+                            <span class="markdown">Proof of Space Time
+<a href="https://eprint.iacr.org/2016/035.pdf">https://eprint.iacr.org/2016/035.pdf</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">13-Aug-18 04:13 PM</span>
+
+                    <div class="chatlog__message " data-message-id="478657437923016734" id="message-478657437923016734">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://en.bitcoin.it/wiki/Proof_of_burn">https://en.bitcoin.it/wiki/Proof_of_burn</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://en.bitcoin.it/wiki/Proof_of_burn"><span class="markdown">Proof of burn</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">13-Aug-18 04:26 PM</span>
+
+                    <div class="chatlog__message " data-message-id="478660720784048128" id="message-478660720784048128">
+                        <div class="chatlog__content">
+                            <span class="markdown">Practical Byzantine Fault Tolerance
+-<a href="http://pmg.csail.mit.edu/papers/osdi99.pdf">http://pmg.csail.mit.edu/papers/osdi99.pdf</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">23-Aug-18 12:45 AM</span>
+
+                    <div class="chatlog__message " data-message-id="482047764751056906" id="message-482047764751056906">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://azure.microsoft.com/en-us/blog/ethereum-proof-of-authority-on-azure/">https://azure.microsoft.com/en-us/blog/ethereum-proof-of-authority-on-azure/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://azure.microsoft.com/en-us/blog/ethereum-proof-of-authority-on-azure/"><span class="markdown">Ethereum Proof-of-Authority on Azure</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">We&#8217;ve had great traction with our support of Ethereum on Azure. The existing Proof-of-Work solution has been deployed tens of thousands of times across a variety of industry verticals.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/89dc0d33-bf40-4b2a-a69d-e5a40a17d094.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/89dc0d33-bf40-4b2a-a69d-e5a40a17d094.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">26-Aug-18 12:24 AM</span>
+
+                    <div class="chatlog__message " data-message-id="483129656917098499" id="message-483129656917098499">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blockonomi.com/proof-of-authority/">https://blockonomi.com/proof-of-authority/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blockonomi.com/proof-of-authority/"><span class="markdown">What is Proof of Authority Consensus? (PoA) Staking Your Identity</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">PoA consensus is an optimized Proof of Stake model that leverages identity as the form of stake rather than actually staking tokens.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://blockonomi-9fcd.kxcdn.com/wp-content/uploads/2018/07/proof-of-authority.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://blockonomi-9fcd.kxcdn.com/wp-content/uploads/2018/07/proof-of-authority.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="483130717232955392" id="message-483130717232955392">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cryptodisrupt.com/vitalik-proposes-1-consensus-algorithm/">https://cryptodisrupt.com/vitalik-proposes-1-consensus-algorithm/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(213,224,235,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://cryptodisrupt.com/vitalik-proposes-1-consensus-algorithm/"><span class="markdown">Vitalik Buterin Proposes 1% Consensus Algorithm - Crypto Disrupt</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">In a complex document, the Ethereum creator Vitalik Buterin laid out plans for a blockchain consensus algorithm which can survive a 99% attack.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cryptodisrupt.com/wp-content/uploads/2018/08/1-percent-consensus-algorithm-proposed-by-Ethereum-founder-Vitalik-Buterin.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cryptodisrupt.com/wp-content/uploads/2018/08/1-percent-consensus-algorithm-proposed-by-Ethereum-founder-Vitalik-Buterin.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">30-Aug-18 07:44 PM</span>
+
+                    <div class="chatlog__message " data-message-id="484871130230816798" id="message-484871130230816798">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@laurentmt/gravity-10e1a25d2ab2">https://medium.com/@laurentmt/gravity-10e1a25d2ab2</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@laurentmt/gravity-10e1a25d2ab2"><span class="markdown">Gravity &#8211; LaurentMT &#8211; Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">&#8220;Law I: Every UTXO persists in its state, except insofar as it is compelled to change its state by force impressed.&#8221; &#8212; Isaac Newton&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*zbREW5EjAnLUKYDAZRIzlg.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*zbREW5EjAnLUKYDAZRIzlg.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">31-Aug-18 07:01 PM</span>
+
+                    <div class="chatlog__message " data-message-id="485222577770594315" id="message-485222577770594315">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/notsofast/status/1035531840503865344">https://twitter.com/notsofast/status/1035531840503865344</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/481051044948897792/gcRm9oXx_bigger.jpeg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/notsofast">notsofast (@notsofast)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Why has nobody forked $BURST yet? It&#39;s one thing in $crypto that has truly perplexed me.
+That coin is awesome. PoW using committed hard drive space as a substitute for committed energy expenditure.</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">147</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">01-Sep-18 12:04 AM</span>
+
+                    <div class="chatlog__message " data-message-id="485298905094029332" id="message-485298905094029332">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/mechanism-labs/finality-in-blockchain-consensus-d1f83c120a9a">https://medium.com/mechanism-labs/finality-in-blockchain-consensus-d1f83c120a9a</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/mechanism-labs/finality-in-blockchain-consensus-d1f83c120a9a"><span class="markdown">Finality in Blockchain Consensus &#8211; Mechanism Labs &#8211; Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Today, with the swipe of a credit card, I purchased a delightful matcha green tea (shout out to Asha in Berkeley). Just moments after the&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/0*fcdj_vNNJJDR34S9">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/0*fcdj_vNNJJDR34S9" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">02-Sep-18 02:11 PM</span>
+
+                    <div class="chatlog__message " data-message-id="485874358762340382" id="message-485874358762340382">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/zawy12/difficulty-algorithms/issues">https://github.com/zawy12/difficulty-algorithms/issues</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/zawy12/difficulty-algorithms/issues"><span class="markdown">zawy12/difficulty-algorithms</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">See the Issues for difficulty algorithms. Contribute to zawy12/difficulty-algorithms development by creating an account on GitHub.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars0.githubusercontent.com/u/18004719?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars0.githubusercontent.com/u/18004719?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">07-Sep-18 09:56 PM</span>
+
+                    <div class="chatlog__message " data-message-id="487803354353762310" id="message-487803354353762310">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae">https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae"><span class="markdown">Consensus Compare: Casper vs. Tendermint &#8211; Cosmos Blog</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">This technical deep dive is written by Chjango Unchained. Enjoy.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*M-mVmIzJrdSb59R-Z7W98Q.jpeg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*M-mVmIzJrdSb59R-Z7W98Q.jpeg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">07-Sep-18 11:21 PM</span>
+
+                    <div class="chatlog__message " data-message-id="487824821380710411" id="message-487824821380710411">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://eprint.iacr.org/2016/889.pdf">https://eprint.iacr.org/2016/889.pdf</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="487824864791625728" id="message-487824864791625728">
+                        <div class="chatlog__content">
+                            <span class="markdown">Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol</span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/157568029096411136/f902fc1f1d79ee566ec09234f11b122a.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="vincent#9235" data-user-id="157568029096411136">vincent</span>
+
+
+                <span class="chatlog__timestamp">22-Sep-18 10:19 AM</span>
+
+                    <div class="chatlog__message " data-message-id="493063904755318797" id="message-493063904755318797">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/mechanism-labs/randomness-in-blockchains-part-1-79192b173816">https://medium.com/mechanism-labs/randomness-in-blockchains-part-1-79192b173816</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/mechanism-labs/randomness-in-blockchains-part-1-79192b173816"><span class="markdown">Randomness in Blockchains (Part 1) &#8211; Mechanism Labs &#8211; Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Randomness exists all around us. Concepts of luck, probability and fate have all historically been intertwined with the concept of&#8230;</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">29-Sep-18 01:19 AM</span>
+
+                    <div class="chatlog__message " data-message-id="495464722708299776" id="message-495464722708299776">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://pbs.twimg.com/media/Dn5gIkxUwAAoUo2.jpg:large">https://pbs.twimg.com/media/Dn5gIkxUwAAoUo2.jpg:large</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://pbs.twimg.com/media/Dn5gIkxUwAAoUo2.jpg:large">
+                                                <img class="chatlog__embed-thumbnail" src="https://pbs.twimg.com/media/Dn5gIkxUwAAoUo2.jpg:large" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495465383570964482" id="message-495465383570964482">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://docs.google.com/spreadsheets/u/3/d/1IW5AuFQtL4z34HgIZrqpcVfZPnOiifsc3xmA9KIef6I/htmlview">https://docs.google.com/spreadsheets/u/3/d/1IW5AuFQtL4z34HgIZrqpcVfZPnOiifsc3xmA9KIef6I/htmlview</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495466194950815755" id="message-495466194950815755">
+                        <div class="chatlog__content">
+                            <span class="markdown">ML Alternative Consensus_MetaAnalysis_Chart</span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495466332628844544" id="message-495466332628844544">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols/blob/master/MetaAnalysis.pdf">https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols/blob/master/MetaAnalysis.pdf</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols/blob/master/MetaAnalysis.pdf"><span class="markdown">Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">This paper presents the first systematization of knowledge within these major blockchain protocols, understanding the common challenges and solutions, and providing a formal structure within which...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars0.githubusercontent.com/u/39325285?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars0.githubusercontent.com/u/39325285?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495466544214573056" id="message-495466544214573056">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@avivzohar/the-spectre-protocol-7dbbebb707b5">https://medium.com/@avivzohar/the-spectre-protocol-7dbbebb707b5</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@avivzohar/the-spectre-protocol-7dbbebb707b5"><span class="markdown">SPECTRE &#8211; Aviv Zohar &#8211; Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A Fast and Scalable Distributed Ledger Protocol</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*AIn97mEZKvgcrZn8SmXRzw.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*AIn97mEZKvgcrZn8SmXRzw.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495466607577923584" id="message-495466607577923584">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://eprint.iacr.org/2018/104.pdf">https://eprint.iacr.org/2018/104.pdf</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495466660191272961" id="message-495466660191272961">
+                        <div class="chatlog__content">
+                            <span class="markdown">PHANTOM, GHOSTDAG: Two Scalable BlockDAG protocols</span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495466772208680971" id="message-495466772208680971">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://softwareengineeringdaily.com/2018/03/26/consensus-systems-with-ethan-buchman/">https://softwareengineeringdaily.com/2018/03/26/consensus-systems-with-ethan-buchman/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://softwareengineeringdaily.com/2018/03/26/consensus-systems-with-ethan-buchman"><span class="markdown">Consensus Systems with Ethan Buchman - Software Engineering Daily</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Consensus protocols are used to allow computers to work together. A consensus protocol lets different servers agree on the state of a system. For decades, these protocols have been used to establish consensus among database nodes, application servers, and other infrastructure...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i1.wp.com/softwareengineeringdaily.com/wp-content/uploads/2018/03/tendermint1.png?fit=738%2C402&ssl=1">
+                                                <img class="chatlog__embed-thumbnail" src="https://i1.wp.com/softwareengineeringdaily.com/wp-content/uploads/2018/03/tendermint1.png?fit=738%2C402&ssl=1" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495466834930171904" id="message-495466834930171904">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.skycoin.net/blog/statement/obelisk-consensus-algorithm-design-motivations/">https://www.skycoin.net/blog/statement/obelisk-consensus-algorithm-design-motivations/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.skycoin.net/blog/statement/obelisk-consensus-algorithm-design-motivations"><span class="markdown">Obelisk Consensus Algorithm Design Motivations</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495466900768292865" id="message-495466900768292865">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/the-daily-bit/9-types-of-consensus-mechanisms-that-you-didnt-know-about-49ec365179da">https://medium.com/the-daily-bit/9-types-of-consensus-mechanisms-that-you-didnt-know-about-49ec365179da</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/the-daily-bit/9-types-of-consensus-mechanisms-that-you-didnt-know-about-49ec365179da"><span class="markdown">9 Types of Consensus Mechanisms That You Didn&#8217;t Know About</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Reviewing lesser known consensus mechanisms and their implementations in distributed ledgers.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*rCnY3JECUn1OOSKOUgH-YA.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*rCnY3JECUn1OOSKOUgH-YA.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495467091395346442" id="message-495467091395346442">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3">https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3"><span class="markdown">A Hitchhiker&#8217;s Guide to Consensus Algorithms &#8211; Hacker Noon</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A quick classification of cryptocurrency consensus types</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*uHP0pepGVYm0htfs3CE6tw.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*uHP0pepGVYm0htfs3CE6tw.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495467698378244106" id="message-495467698378244106">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@jaybny/on-proof-of-skill-6af149f45ce8">https://medium.com/@jaybny/on-proof-of-skill-6af149f45ce8</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@jaybny/on-proof-of-skill-6af149f45ce8"><span class="markdown">On Proof-of-Skill &#8211; Jay Berg &#8211; Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Reaching Decentralized Distributed Consensus Without POW</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*XG8xfYFlyR1QKLrYGxEdIQ.jpeg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*XG8xfYFlyR1QKLrYGxEdIQ.jpeg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495467761703714816" id="message-495467761703714816">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.singularitynet.io/singularitynet-moves-toward-social-computing-with-proof-of-reputation-14df7c6618f">https://blog.singularitynet.io/singularitynet-moves-toward-social-computing-with-proof-of-reputation-14df7c6618f</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.singularitynet.io/singularitynet-moves-toward-social-computing-with-proof-of-reputation-14df7c6618f"><span class="markdown">SingularityNET Moves Toward Social Computing With Proof-of-Reputation</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Our latest design overcomes one of blockchain&#8217;s major barriers: designing a decentralized reputation management system.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*LUxXxYJXeZXBiEUqRuDhTA.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*LUxXxYJXeZXBiEUqRuDhTA.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495467997817733140" id="message-495467997817733140">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/polkadot-network/consensus-and-finality-in-blockchains-21b1f634fd00">https://medium.com/polkadot-network/consensus-and-finality-in-blockchains-21b1f634fd00</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/polkadot-network/consensus-and-finality-in-blockchains-21b1f634fd00"><span class="markdown">From Bitcoin to Polkadot: A brief history of consensus and finalit...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">This piece will explore the need for fault tolerant consensus algorithms in blockchain networks and where development is headed in the&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*oBj-Anx6PDXVJ9sGuHzzXA.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*oBj-Anx6PDXVJ9sGuHzzXA.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495468100372791306" id="message-495468100372791306">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/polkadot-network/grandpa-block-finality-in-polkadot-an-introduction-part-1-d08a24a021b5">https://medium.com/polkadot-network/grandpa-block-finality-in-polkadot-an-introduction-part-1-d08a24a021b5</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/polkadot-network/grandpa-block-finality-in-polkadot-an-introduction-part-1-d08a24a021b5"><span class="markdown">GRANDPA Block Finality in Polkadot: An Introduction (Part 1)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">This article is the first in a series of articles exploring consensus and finality in Polkadot.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*TYJ-HNyfheirjy89a9hUaw.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*TYJ-HNyfheirjy89a9hUaw.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495468208472719361" id="message-495468208472719361">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.p2pfoundation.net/holochain-vs-hashgraph-and-when-is-consensus-needed-in-distributed-computing/2018/09/25">https://blog.p2pfoundation.net/holochain-vs-hashgraph-and-when-is-consensus-needed-in-distributed-computing/2018/09/25</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://blog.p2pfoundation.net/author/arthur-brock">Arthur Brock</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.p2pfoundation.net/holochain-vs-hashgraph-and-when-is-consensus-needed-in-distributed-computing/2018/09/25"><span class="markdown">Holochain vs. Hashgraph &#8230;and when is consensus needed in distrib...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Hashgraph has been getting some press and many are excited about the speeds it promises... but there are some gaps.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn7-blog.p2pfoundation.net/wp-content/uploads/Holochainvs.jpeg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn7-blog.p2pfoundation.net/wp-content/uploads/Holochainvs.jpeg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="495468591546761216" id="message-495468591546761216">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.reddit.com/r/CryptoTechnology/comments/7znnq8/my_brief_observation_of_most_common_consensus/?utm_source=reddit-android">https://www.reddit.com/r/CryptoTechnology/comments/7znnq8/my_brief_observation_of_most_common_consensus/?utm_source=reddit-android</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.reddit.com/r/CryptoTechnology/comments/7znnq8/my_brief_observation_of_most_common_consensus?utm_source=reddit-android"><span class="markdown">r/CryptoTechnology - My brief observation of most common Consensus...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">161 votes and 50 comments so far on Reddit</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i.redditmedia.com/GpZtY7dJV9MwKZTy7xzY0oSVdnyfTd2TCQga6zGrQwQ.jpg?s=d9f938b90e706f3b1a3056ebf212176e">
+                                                <img class="chatlog__embed-thumbnail" src="https://i.redditmedia.com/GpZtY7dJV9MwKZTy7xzY0oSVdnyfTd2TCQga6zGrQwQ.jpg?s=d9f938b90e706f3b1a3056ebf212176e" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">07-Oct-18 04:54 AM</span>
+
+                    <div class="chatlog__message " data-message-id="498417707176165376" id="message-498417707176165376">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blockchainlibrary.org/2017/10/most-cited-byzantine-consensus-publications/">https://blockchainlibrary.org/2017/10/most-cited-byzantine-consensus-publications/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://blockchainlibrary.org/author/nobu">Mark Hakkarinen</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blockchainlibrary.org/2017/10/most-cited-byzantine-consensus-publications"><span class="markdown">Most Cited Byzantine Consensus Publications</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Last updated October 26th, 2017. &#8220;CONCURRENCY CONTROL AND RECOVERY IN DATABASE SYSTEMS&#8221;. PA Bernstein, V Hadzilacos, N Goodman. 1987. courses.cs.washington.edu . 5808 cites. &#8220;Dist&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://blockchainlibrary.org/wp-content/uploads/2017/10/fractal-880676_640.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://blockchainlibrary.org/wp-content/uploads/2017/10/fractal-880676_640.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">08-Oct-18 01:40 AM</span>
+
+                    <div class="chatlog__message " data-message-id="498731291328380928" id="message-498731291328380928">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://zmnscpxj.github.io/sidechain/mainstake/index.html">https://zmnscpxj.github.io/sidechain/mainstake/index.html</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="498731431942684672" id="message-498731431942684672">
+                        <div class="chatlog__content">
+                            <span class="markdown">Proof-of-mainstake is a sidechain proposal similar to a federated peg, with the federation membership determined by a stake of coins on the mainchain (i.e. the mainstake). As the name suggests, it is similar to proof-of-stake in that staked coins are used to indicate a controlling interest.</span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">08-Oct-18 05:53 AM</span>
+
+                    <div class="chatlog__message " data-message-id="498795026139316224" id="message-498795026139316224">
+                        <div class="chatlog__content">
+                            <span class="markdown">PeerCoin White Paper: <a href="https://peercoin.net/assets/paper/peercoin-paper.pdf">https://peercoin.net/assets/paper/peercoin-paper.pdf</a> - Arguably the first coin to introduce Proof of Stake as an alternative to Proof of Work for distributed consensus.
+BitShares: <a href="https://bitshares.org/technology/delegated-proof-of-stake-consensus/-">https://bitshares.org/technology/delegated-proof-of-stake-consensus/-</a> First coin (that I know of) to use delegated Proof of Stake consensus
+Proof of Stake Thread: <a href="https://bitcointalk.org/index.php?topic=27787.0">https://bitcointalk.org/index.php?topic=27787.0</a> Shows the original idea of PoS and its criticisms and benefits</span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://bitcointalk.org/index.php?topic=27787.0"><span class="markdown">Proof of stake instead of proof of work</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Proof of stake instead of proof of work</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">08-Oct-18 06:02 AM</span>
+
+                    <div class="chatlog__message " data-message-id="498797266933383169" id="message-498797266933383169">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://hackernoon.com/proof-of-work-vs-proof-of-something-else-272d2f5cf20a">https://hackernoon.com/proof-of-work-vs-proof-of-something-else-272d2f5cf20a</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://hackernoon.com/proof-of-work-vs-proof-of-something-else-272d2f5cf20a"><span class="markdown">Proof of Work vs Proof of Something else &#8211; Hacker Noon</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Zoom out of time for a while and imagine how the antlers of a magnificent moose buck evolved into being.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*1d1YDrAXZZa_JZZD-5MQqw.jpeg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*1d1YDrAXZZa_JZZD-5MQqw.jpeg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">08-Oct-18 08:02 AM</span>
+
+                    <div class="chatlog__message " data-message-id="498827461027692575" id="message-498827461027692575">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2">https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2"><span class="markdown">Proof-of-Stake &amp; the Wrong Engineering Mindset &#8211; Hugo Nguyen &#8211;...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Proof-of-Stake (PoS) is all the rage these days. Ethereum Casper, Cardano Ouroboros, etc.</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">09-Oct-18 07:22 PM</span>
+
+                    <div class="chatlog__message " data-message-id="499360998629703682" id="message-499360998629703682">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.chorus.one/classifying-staking-implementations-a-framework/">https://blog.chorus.one/classifying-staking-implementations-a-framework/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.chorus.one/classifying-staking-implementations-a-framework"><span class="markdown">Classifying Staking Implementations: A Framework</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">There is a lot of confusion around Proof-of-Stake and staking cryptoassets in general. This post introduces a framework for classifying implementations and goes into detail distinguishing between DPoS and PoS, as well as delegation in the projects Cosmos, Cardano, Ethereum an...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://blog.chorus.one/content/images/2018/10/rosie-kerr-568115-unsplash.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://blog.chorus.one/content/images/2018/10/rosie-kerr-568115-unsplash.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">12-Oct-18 03:30 PM</span>
+
+                    <div class="chatlog__message " data-message-id="500389739913019393" id="message-500389739913019393">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/dgryski/awesome-consensus">https://github.com/dgryski/awesome-consensus</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/dgryski/awesome-consensus"><span class="markdown">dgryski/awesome-consensus</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Awesome list for Paxos and friends. Contribute to dgryski/awesome-consensus development by creating an account on GitHub.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars0.githubusercontent.com/u/970862?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars0.githubusercontent.com/u/970862?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">12-Oct-18 04:35 PM</span>
+
+                    <div class="chatlog__message " data-message-id="500406093420167169" id="message-500406093420167169">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/proof-of-stake_resources.html">https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/proof-of-stake_resources.html</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="500406528915013632" id="message-500406528915013632">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://bitshares.org/technology/delegated-proof-of-stake-consensus/">https://bitshares.org/technology/delegated-proof-of-stake-consensus/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">12-Oct-18 05:52 PM</span>
+
+                    <div class="chatlog__message " data-message-id="500425534015012865" id="message-500425534015012865">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f">https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f"><span class="markdown">ConsensusPedia: An Encyclopedia of 30 Consensus Algorithms</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A complete list of all consensus algorithms.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/0*y462aeJ4wg8HHYSs">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/0*y462aeJ4wg8HHYSs" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="500426128310403072" id="message-500426128310403072">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/imbrexblog/web-3-consensus-mechanisms-2dcfb7bfaadb">https://medium.com/imbrexblog/web-3-consensus-mechanisms-2dcfb7bfaadb</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/imbrexblog/web-3-consensus-mechanisms-2dcfb7bfaadb"><span class="markdown">Web 3 Consensus Mechanisms &#8211; imbrexBlog &#8211; Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">&#8230;and the protocols that use them</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*Eysgoo0TSvYl6XgJQGnF-g.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*Eysgoo0TSvYl6XgJQGnF-g.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="500427604650885122" id="message-500427604650885122">
+                        <div class="chatlog__content">
+                            <span class="markdown"></span>
+
+                        </div>
+
+                        <div class="chatlog__attachment">
+                            <a href="https://cdn.discordapp.com/attachments/478397112502059029/500427604650885120/Snowflake_to_Avalanche_A_Novel_Metastable_Consensus_Protocol_Family.pdf">
+                                
+                                    Attachment: Snowflake_to_Avalanche_A_Novel_Metastable_Consensus_Protocol_Family.pdf (758.34 KB)
+                            </a>
+                        </div>
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">14-Oct-18 05:05 PM</span>
+
+                    <div class="chatlog__message " data-message-id="501138538117595148" id="message-501138538117595148">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/el33th4xor/status/1006931729679044608">https://twitter.com/el33th4xor/status/1006931729679044608</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/593192767888629760/3tFV3N0k_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/el33th4xor">Emin G&#252;n Sirer (@el33th4xor)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Proof-of-Work and Proof-of-Stake are <strong>sybil control mechanisms</strong>. PoS doesn&#39;t achieve consensus by itself. It has to be coupled with a protocol, such as PBFT, or Ben-Or, or Tendermint/Cosmos, or Avalanche, to make decisions.</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">236</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="501140291500376084" id="message-501140291500376084">
+                        <div class="chatlog__content">
+                            <span class="markdown">^^^ Thread</span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">26-Oct-18 08:50 AM</span>
+
+                    <div class="chatlog__message chatlog__message--pinned" data-message-id="505362705276731392" id="message-505362705276731392">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/coinmonks/a-primer-on-blockchain-design-89605b287a5a">https://medium.com/coinmonks/a-primer-on-blockchain-design-89605b287a5a</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/coinmonks/a-primer-on-blockchain-design-89605b287a5a"><span class="markdown">PoW, PoS and DAGs are NOT consensus protocols &#8211; Coinmonks &#8211; Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The much hyped concepts of Proof-Of-Work, Proof-of-Stake and Directed Acyclic Graphs are often mistakenly advertised as &#8220;consensus&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*i-ZunTGkMrgJwo3OaA9DOQ.jpeg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*i-ZunTGkMrgJwo3OaA9DOQ.jpeg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="505362732795559949" id="message-505362732795559949">
+                        <div class="chatlog__content">
+                            <span class="markdown">Pinned a message.</span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">29-Oct-18 05:15 AM</span>
+
+                    <div class="chatlog__message " data-message-id="506395731024674816" id="message-506395731024674816">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://pmg.csail.mit.edu/papers/osdi99.pdf">http://pmg.csail.mit.edu/papers/osdi99.pdf</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">02-Nov-18 07:57 AM</span>
+
+                    <div class="chatlog__message " data-message-id="507885891042410496" id="message-507885891042410496">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://orbs.com/what-is-proof-of-stake-pos-vs-dpos-vs-rpos/">https://orbs.com/what-is-proof-of-stake-pos-vs-dpos-vs-rpos/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://orbs.com/author/greback">Gedalyah Reback</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://orbs.com/what-is-proof-of-stake-pos-vs-dpos-vs-rpos"><span class="markdown">What is Proof-of-Stake (PoS)? What is Randomized Proof-of-Stake (R...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Randomized Proof-of-stake (RPoS) vs. Proof-of-Stake (PoS) vs. Delegated Proof-of-Stake (DPoS): What the future holds for blockchain consensus</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://orbs.com/wp-content/uploads/2018/07/nodesAsset-19.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://orbs.com/wp-content/uploads/2018/07/nodesAsset-19.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">02-Nov-18 08:33 AM</span>
+
+                    <div class="chatlog__message " data-message-id="507894941205135360" id="message-507894941205135360">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://docs.google.com/presentation/d/10YH5ssdES2C228SwDoQI3kM1X-mMw3NhHjlESPYi9iY/edit#slide=id.g28afb6a179_1_79">https://docs.google.com/presentation/d/10YH5ssdES2C228SwDoQI3kM1X-mMw3NhHjlESPYi9iY/edit#slide=id.g28afb6a179_1_79</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://docs.google.com/presentation/d/10YH5ssdES2C228SwDoQI3kM1X-mMw3NhHjlESPYi9iY/edit"><span class="markdown">Alternative Consensus Deep Dive</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">1 Alexandra Tran, Dev Ojha, Jeremiah Andrews, Steven Elleman, Ashvin Nihalani NOTES FOR 800x600/bad PROJECTORS: Use at least 22pt* font. *FIXED, Proxima Nova is a bit larger than Arial. See here: <a href="http://www.pptfaq.com/FAQ00125_How_big_should_text_be-_What-s_the_ideal_font_siz">http://www.pptfaq.com/FAQ00125_How_big_should_text_be-_What-s_the_ideal_font_siz</a>...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://lh6.googleusercontent.com/TD4-HzhMdCJi7ozKOctEOs9HXUtxE46fuDOCo11IHbelkWJYCjgPYxVerXTkutho07JFcA=w1200-h630-p">
+                                                <img class="chatlog__embed-thumbnail" src="https://lh6.googleusercontent.com/TD4-HzhMdCJi7ozKOctEOs9HXUtxE46fuDOCo11IHbelkWJYCjgPYxVerXTkutho07JFcA=w1200-h630-p" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">04-Nov-18 03:46 AM</span>
+
+                    <div class="chatlog__message " data-message-id="508562626012250113" id="message-508562626012250113">
+                        <div class="chatlog__content">
+                            <span class="markdown">&#8212;updatabased
+
+<a href="https://twitter.com/crainbf/status/1047089258299682817">https://twitter.com/crainbf/status/1047089258299682817</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="04-Nov-18 08:02 AM">(edited)</span>
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/563748184195743744/ygrBPXHF_bigger.jpeg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/crainbf">Brian Fabian Crain (@crainbf)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">1/ This Friday at @delta_summit, I&#39;ll do a talk on the transition from Proof-of-Work to Proof-of-Stake. Here is my attempt to put core argument into a tweetstorm:</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">236</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">04-Nov-18 08:01 AM</span>
+
+                    <div class="chatlog__message " data-message-id="508626872788189196" id="message-508626872788189196">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/kanzure/status/1048039485550690304">https://twitter.com/kanzure/status/1048039485550690304</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/725669700399554560/LWt3BYrN_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/kanzure">Bryan Bishop (@kanzure)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Transcript: &quot;Abstract thinking about consensus systems&quot; (@LukeDashjr) <a href="https://t.co/xD3BLVcsT3">https://t.co/xD3BLVcsT3</a> #bitcoinedge2018 @TheBitcoinEdge</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/157568029096411136/f902fc1f1d79ee566ec09234f11b122a.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="vincent#9235" data-user-id="157568029096411136">vincent</span>
+
+
+                <span class="chatlog__timestamp">07-Nov-18 10:30 AM</span>
+
+                    <div class="chatlog__message " data-message-id="509751579797225473" id="message-509751579797225473">
+                        <div class="chatlog__content">
+                            <span class="markdown">PaLa:  A Simple Partially Synchronous Blockchain
+<a href="https://eprint.iacr.org/2018/981.pdf">https://eprint.iacr.org/2018/981.pdf</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">07-Nov-18 12:19 PM</span>
+
+                    <div class="chatlog__message " data-message-id="509779000118345728" id="message-509779000118345728">
+                        <div class="chatlog__content">
+                            <span class="markdown">got yer finger on the triggter w that one, eh <span class="mention" title="vincent#9235">@vincent</span></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="509779074030239747" id="message-509779074030239747">
+                        <div class="chatlog__content">
+                            <span class="markdown">I just saw that pass by in my twitter feed an hour ago</span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">13-Nov-18 10:52 AM</span>
+
+                    <div class="chatlog__message " data-message-id="511931274781523978" id="message-511931274781523978">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@preethikasireddy/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95">https://medium.com/@preethikasireddy/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@preethikasireddy/lets-take-a-crack-at-understanding-distributed-consensus-dad23d0dc95"><span class="markdown">Let&#8217;s take a crack at understanding distributed &#8220;consensus&#8221;</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Do you know how distributed systems work?
+&#160;
+It can be a tough topic to learn about, mainly because the knowledge surrounding it is&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/0*dTw3dbdcvTX0FmE6.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/0*dTw3dbdcvTX0FmE6.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">18-Nov-18 03:11 AM</span>
+
+                    <div class="chatlog__message " data-message-id="513627334994296868" id="message-513627334994296868">
+                        <div class="chatlog__content">
+                            <span class="markdown">Does Bitcoin Solve Byzantine Consensus?
+<a href="https://brooker.co.za/blog/2015/02/28/bitcoin.html">https://brooker.co.za/blog/2015/02/28/bitcoin.html</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/375738052728848407/3e49a1cabf369f0a3f8cad6444158880.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="This Is An Adventure#1556" data-user-id="375738052728848407">This Is An Adventure</span>
+
+
+                <span class="chatlog__timestamp">18-Nov-18 03:12 AM</span>
+
+                    <div class="chatlog__message " data-message-id="513627524383899658" id="message-513627524383899658">
+                        <div class="chatlog__content">
+                            <span class="markdown">isn&#39;t eth hoping to have a 99% attack free coin?</span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">18-Nov-18 03:13 AM</span>
+
+                    <div class="chatlog__message " data-message-id="513627719192412160" id="message-513627719192412160">
+                        <div class="chatlog__content">
+                            <span class="markdown">well, that was some idea that vitalik had...</span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="513627763467485184" id="message-513627763467485184">
+                        <div class="chatlog__content">
+                            <span class="markdown">that something like that might be possible</span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="513628112500817942" id="message-513628112500817942">
+                        <div class="chatlog__content">
+                            <span class="markdown">I thought that article was in here</span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="513628634855243806" id="message-513628634855243806">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://vitalik.ca/general/2018/08/07/99_fault_tolerant.html">https://vitalik.ca/general/2018/08/07/99_fault_tolerant.html</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://vitalik.ca/general/2018/08/07/99_fault_tolerant.html"><span class="markdown">A Guide to 99% Fault Tolerant Consensus</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Special thanks to Emin Gun Sirer for review</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__reactions">
+                                <div class="chatlog__reaction">
+                                    <img class="emoji emoji--small" alt="🐳" title="🐳" src="https://twemoji.maxcdn.com/2/72x72/1f433.png" />
+                                    <span class="chatlog__reaction-count">1</span>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">25-Nov-18 08:06 PM</span>
+
+                    <div class="chatlog__message " data-message-id="516419344960323586" id="message-516419344960323586">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/nearprotocol/how-unrealistic-is-bribing-frequently-rotated-validators-d859adb464c8">https://medium.com/nearprotocol/how-unrealistic-is-bribing-frequently-rotated-validators-d859adb464c8</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/nearprotocol/how-unrealistic-is-bribing-frequently-rotated-validators-d859adb464c8"><span class="markdown">How Unrealistic is Bribing Frequently Rotated Validators?</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Many proposed blockchain protocols today use some sorts of committees to propose and validate blocks. The committees are at the core of&#8230;</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">25-Nov-18 08:54 PM</span>
+
+                    <div class="chatlog__message " data-message-id="516431434546675722" id="message-516431434546675722">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/mechanism-labs/synchrony-and-timing-assumptions-in-consensus-algorithms-used-in-proof-of-stake-blockchains-5356fb253459">https://medium.com/mechanism-labs/synchrony-and-timing-assumptions-in-consensus-algorithms-used-in-proof-of-stake-blockchains-5356fb253459</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/mechanism-labs/synchrony-and-timing-assumptions-in-consensus-algorithms-used-in-proof-of-stake-blockchains-5356fb253459"><span class="markdown">Synchrony and Timing Assumptions in Consensus Algorithms Used in P...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Co-authored with Alexis Gauba.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*qhlw-Ak-7ZSjnDiRpEKRMQ.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*qhlw-Ak-7ZSjnDiRpEKRMQ.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">03-Dec-18 10:32 AM</span>
+
+                    <div class="chatlog__message " data-message-id="519174044327739392" id="message-519174044327739392">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://gist.github.com/Haseeb-Qureshi/d3b49afeec82eb77e6716ff6eb878b95">https://gist.github.com/Haseeb-Qureshi/d3b49afeec82eb77e6716ff6eb878b95</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://gist.github.com/Haseeb-Qureshi/d3b49afeec82eb77e6716ff6eb878b95"><span class="markdown">Algorand 2.0 at CESC</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Algorand 2.0 at CESC. GitHub Gist: instantly share code, notes, and snippets.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars3.githubusercontent.com/u/10965087?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars3.githubusercontent.com/u/10965087?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">03-Dec-18 09:51 PM</span>
+
+                    <div class="chatlog__message " data-message-id="519344948831715340" id="message-519344948831715340">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.youtube.com/watch?v=_nQE_HAGlmM">https://www.youtube.com/watch?v=_nQE_HAGlmM</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,0,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.youtube.com/user/TheOfficialACM">Association for Computing Machinery (ACM)</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.youtube.com/watch?v=_nQE_HAGlmM"><span class="markdown">&quot;Algorand: A Better Distributed Ledger,&quot; with Silvio Micali</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Title: Algorand: A Better Distributed Ledger Date: 10/13/17 Speaker: Silvio Micali Abstract A distributed ledger is a tamperproof sequence of data that can b...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i.ytimg.com/vi/_nQE_HAGlmM/hqdefault.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://i.ytimg.com/vi/_nQE_HAGlmM/hqdefault.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="chatlog__reactions">
+                                <div class="chatlog__reaction">
+                                    <img class="emoji emoji--small" alt="👍" title="👍" src="https://twemoji.maxcdn.com/2/72x72/1f44d.png" />
+                                    <span class="chatlog__reaction-count">1</span>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">06-Dec-18 12:57 AM</span>
+
+                    <div class="chatlog__message " data-message-id="520116577463435274" id="message-520116577463435274">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://ethresear.ch/t/hashgraph-consensus-timing-vulnerability/2120?u=levalicious">https://ethresear.ch/t/hashgraph-consensus-timing-vulnerability/2120?u=levalicious</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://ethresear.ch/t/hashgraph-consensus-timing-vulnerability/2120?u=levalicious"><span class="markdown">Hashgraph Consensus Timing Vulnerability</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">There is now a lot of interest in &#8220;Hashgraph-the-Blockchain-Killer&#8221; in the Silicon Valley investment community, so I have been asked recently to do a review of the Hashgraph whitepaper.  I am publishing it here because it may be interesting for some people  My humble opin...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://ethresear.ch/uploads/default/original/2X/0/0234f8cc03411f18a804a1bf1fcdb0791f93bb5c.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://ethresear.ch/uploads/default/original/2X/0/0234f8cc03411f18a804a1bf1fcdb0791f93bb5c.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">09-Dec-18 12:30 AM</span>
+
+                    <div class="chatlog__message " data-message-id="521196807385120778" id="message-521196807385120778">
+                        <div class="chatlog__content">
+                            <span class="markdown">Validated Asynchronous Byzantine Agreement with Optimal
+Resilience and Asymptotically Optimal Time and Word
+Communication
+<a href="https://arxiv.org/pdf/1811.01332.pdf">https://arxiv.org/pdf/1811.01332.pdf</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="09-Dec-18 12:30 AM">(edited)</span>
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">22-Dec-18 07:09 PM</span>
+
+                    <div class="chatlog__message " data-message-id="526189504273317888" id="message-526189504273317888">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/marsella_h/status/1060279196440821770">https://twitter.com/marsella_h/status/1060279196440821770</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/550000550092103680/kW955x7B_bigger.jpeg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/marsella_h">Marcella Hastings (@marsella_h)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Our paper &quot;SoK: General Purpose Compilers for Secure Multi-Party Computation&quot; was accepted to IEEE S&amp;P 2019 and is now available online! 
+
+<a href="https://t.co/pIB9gqCOKH">https://t.co/pIB9gqCOKH</a></span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">22-Dec-18 10:04 PM</span>
+
+                    <div class="chatlog__message " data-message-id="526233598479564815" id="message-526233598479564815">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.mangoresearch.co/blockchain-consensus-vs-validation/">https://www.mangoresearch.co/blockchain-consensus-vs-validation/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.mangoresearch.co/author/dexter-shawnhotmail-com/">Shawn Dexter</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.mangoresearch.co/blockchain-consensus-vs-validation/"><span class="markdown">How Are Blockchain Transactions Validated? Consensus VS Validation...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Blockchain Consensus vs Blockchain Validation - You&#39;ve probably heard the terms &quot;consesus&quot; and &quot;validation&quot; being used frequently in blockchain blurb, sometimes even interchangeably. Issue is, the terms represent two very different functions in blockchain tech....</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i0.wp.com/www.mangoresearch.co/wp-content/uploads/2018/04/validationvsconsensus.png?fit=552%2C368&ssl=1">
+                                                <img class="chatlog__embed-thumbnail" src="https://i0.wp.com/www.mangoresearch.co/wp-content/uploads/2018/04/validationvsconsensus.png?fit=552%2C368&ssl=1" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="526233969868406784" id="message-526233969868406784">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://ethresear.ch/t/explaining-the-liveness-guarantee/4228">https://ethresear.ch/t/explaining-the-liveness-guarantee/4228</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://ethresear.ch/t/explaining-the-liveness-guarantee/4228"><span class="markdown">Explaining the liveness guarantee</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">One of the aspects that seem to surprise many people that only casually follow the progress of Ethereum Serenity is the quadratic leak that is imposed upon validators for being offline and missing a slot.  For those unwilling/unable to read the Casper FFG paper, I wrote up a ...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://ethresear.ch/uploads/default/original/2X/0/0234f8cc03411f18a804a1bf1fcdb0791f93bb5c.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://ethresear.ch/uploads/default/original/2X/0/0234f8cc03411f18a804a1bf1fcdb0791f93bb5c.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">23-Dec-18 11:13 PM</span>
+
+                    <div class="chatlog__message " data-message-id="526613410910175233" id="message-526613410910175233">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://towardsdatascience.com/federated-byzantine-agreement-24ec57bf36e0">https://towardsdatascience.com/federated-byzantine-agreement-24ec57bf36e0</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://towardsdatascience.com/federated-byzantine-agreement-24ec57bf36e0"><span class="markdown">Federated Byzantine Agreement &#8211; Towards Data Science</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The next generation in Byzantine Consensus.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*k2iSMnMsp5B7CJWgPg8tRg.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*k2iSMnMsp5B7CJWgPg8tRg.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">24-Dec-18 01:01 AM</span>
+
+                    <div class="chatlog__message " data-message-id="526640428275990530" id="message-526640428275990530">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.youtube.com/watch?v=WndYl3wUzYM&feature=youtu.be">https://www.youtube.com/watch?v=WndYl3wUzYM&amp;feature=youtu.be</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,0,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.youtube.com/channel/UCrsCoXiyIqSsodqwBjtqG_A">Experts @ TruStory</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.youtube.com/watch?v=WndYl3wUzYM&feature=youtu.be"><span class="markdown">Study session: Distributed Systems and Consensus</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Preethi talks about distributed systems, the difficulty with achieving consensus, and the Casper CBC debate. Join the TruStory Expert Community today https:/...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://i.ytimg.com/vi/WndYl3wUzYM/maxresdefault.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://i.ytimg.com/vi/WndYl3wUzYM/maxresdefault.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">10-Jan-19 05:44 AM</span>
+
+                    <div class="chatlog__message " data-message-id="532872462119993345" id="message-532872462119993345">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419">https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419"><span class="markdown">Understanding Blockchain Fundamentals, Part 1: Byzantine Fault Tol...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Articles in this Understanding Blockchain Fundamentals series:</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*HwEcmeFRahIbzdO4ai7jSw@2x.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*HwEcmeFRahIbzdO4ai7jSw@2x.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="532872542940037120" id="message-532872542940037120">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://bitcointalk.org/index.php?topic=99631.0">https://bitcointalk.org/index.php?topic=99631.0</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://bitcointalk.org/index.php?topic=99631.0"><span class="markdown">Bitcoin Theory (Byzantine Generals and Beyond)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Bitcoin Theory (Byzantine Generals and Beyond)</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">10-Jan-19 06:07 AM</span>
+
+                    <div class="chatlog__message " data-message-id="532878111570657280" id="message-532878111570657280">
+                        <div class="chatlog__content">
+                            <span class="markdown">On the security and performance of proof of work blockchains: <a href="https://eprint.iacr.org/2016/555.pdf">https://eprint.iacr.org/2016/555.pdf</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">22-Jan-19 06:40 PM</span>
+
+                    <div class="chatlog__message " data-message-id="537416356124033034" id="message-537416356124033034">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/thunderofficial/proof-of-stake-and-the-history-of-distributed-consensus-part-1-nakamoto-consensus-byzantine-176e0156316e">https://medium.com/thunderofficial/proof-of-stake-and-the-history-of-distributed-consensus-part-1-nakamoto-consensus-byzantine-176e0156316e</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/thunderofficial/proof-of-stake-and-the-history-of-distributed-consensus-part-1-nakamoto-consensus-byzantine-176e0156316e"><span class="markdown">Proof of Stake and the History of Distributed Consensus: Part 1, N...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The Historical Context of Hybrid Consensus</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*pq9I-TEJMr3DhPh1gVP7VQ.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*pq9I-TEJMr3DhPh1gVP7VQ.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">04-Mar-19 04:12 AM</span>
+
+                    <div class="chatlog__message " data-message-id="552055645055090699" id="message-552055645055090699">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cdn.discordapp.com/attachments/409817412842553369/551411842942238741/image_97db37ff-219d-4ee5-9253-ae5ae408992820190302_145231.jpg">https://cdn.discordapp.com/attachments/409817412842553369/551411842942238741/image_97db37ff-219d-4ee5-9253-ae5ae408992820190302_145231.jpg</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn.discordapp.com/attachments/409817412842553369/551411842942238741/image_97db37ff-219d-4ee5-9253-ae5ae408992820190302_145231.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn.discordapp.com/attachments/409817412842553369/551411842942238741/image_97db37ff-219d-4ee5-9253-ae5ae408992820190302_145231.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">11-Aug-19 06:31 PM</span>
+
+                    <div class="chatlog__message " data-message-id="610238966926409772" id="message-610238966926409772">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://podcasts.apple.com/us/podcast/epicenter-learn-about-blockchain-ethereum-bitcoin-distributed/id792338939?i=1000446307025">https://podcasts.apple.com/us/podcast/epicenter-learn-about-blockchain-ethereum-bitcoin-distributed/id792338939?i=1000446307025</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://podcasts.apple.com/us/podcast/epicenter-learn-about-blockchain-ethereum-bitcoin-distributed/id792338939?i=1000446307025"><span class="markdown">&#8206;Epicenter - Learn about Blockchain, Ethereum, Bitcoin and Distr...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">&#8206;Show Epicenter - Learn about Blockchain, Ethereum, Bitcoin and Distributed Technologies, Ep Igor Barinov: POA Network &#8211; Enabling Scaling Through Trust in Public Notaries - Aug 6, 2019</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://is5-ssl.mzstatic.com/image/thumb/Podcasts123/v4/a6/7a/e2/a67ae222-d3c6-1aa6-0cbe-3e9c1bf2cc92/mza_8690950551108475701.png/1200x630wp.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://is5-ssl.mzstatic.com/image/thumb/Podcasts123/v4/a6/7a/e2/a67ae222-d3c6-1aa6-0cbe-3e9c1bf2cc92/mza_8690950551108475701.png/1200x630wp.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">23-Aug-19 01:03 AM</span>
+
+                    <div class="chatlog__message " data-message-id="614323822971322369" id="message-614323822971322369">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/sarahjamielewis/status/1164613365747965952?s=12">https://twitter.com/sarahjamielewis/status/1164613365747965952?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1091174026649583616/qyAjyiOO_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/SarahJamieLewis">Sarah Jamie Lewis (@SarahJamieLewis)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Seems a few communities are explicitly basing their consensus algorithms off of various insect models. Who wants a cryptocurrency thread that is actually a thread about ants? 
+
+Let me tell you about alarm pheromones.</span></div>
+
+                                    </div>
+
+                                </div>
+
+                                    <div class="chatlog__embed-image-container">
+                                        <a class="chatlog__embed-image-link" href="https://pbs.twimg.com/media/ECmJromU0AA4P1P.png:large">
+                                            <img class="chatlog__embed-image" src="https://pbs.twimg.com/media/ECmJromU0AA4P1P.png:large" />
+                                        </a>
+                                    </div>
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">30-Aug-19 03:11 AM</span>
+
+                    <div class="chatlog__message " data-message-id="616892838386597890" id="message-616892838386597890">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blockonomi.com/proof-of-authority/">https://blockonomi.com/proof-of-authority/</a>
+
+<a href="https://komodoplatform.com/delayed-proof-of-work/">https://komodoplatform.com/delayed-proof-of-work/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blockonomi.com/proof-of-authority/"><span class="markdown">What is Proof of Authority Consensus? (PoA) Staking Your Identity</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">PoA consensus is an optimized Proof of Stake model that leverages identity as the form of stake rather than actually staking tokens.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://blockonomi-9fcd.kxcdn.com/wp-content/uploads/2018/07/proof-of-authority.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://blockonomi-9fcd.kxcdn.com/wp-content/uploads/2018/07/proof-of-authority.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://komodoplatform.com/author/admin/">admin</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://komodoplatform.com/delayed-proof-of-work/"><span class="markdown">Delayed Proof of Work (dPow) Security - Komodo</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Delayed Proof of Work is an innovative, second-layer security mechanism developed by the Komodo team. Learn more about delayed Proof of Work security here.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://komodoplatform.com/wp-content/uploads/2019/07/komodo-image-dark.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://komodoplatform.com/wp-content/uploads/2019/07/komodo-image-dark.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">14-Sep-19 03:01 PM</span>
+
+                    <div class="chatlog__message " data-message-id="622507313571561472" id="message-622507313571561472">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.zeroknowledge.fm/15">https://www.zeroknowledge.fm/15</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.zeroknowledge.fm/15"><span class="markdown">Chatting about consensus algorithms with Robert Habermeier</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Fredrik has a chat about consensus algorithms with Parity Technologies in-house consensus expert Robert Habermeier. We cover what a consensus algorithm is and how they work. We try to explain some common terms like safety and liveness, what a fork choice rule is and how real-...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/66a36787-cf18-4f96-ba6b-d00e9f507731/cover_medium.jpg?v=1">
+                                                <img class="chatlog__embed-thumbnail" src="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/66a36787-cf18-4f96-ba6b-d00e9f507731/cover_medium.jpg?v=1" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">15-Nov-19 12:12 PM</span>
+
+                    <div class="chatlog__message " data-message-id="644947740358475777" id="message-644947740358475777">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/MerosCrypto/Merit-Caching/blob/master/Merit%2520Caching.pdf">https://github.com/MerosCrypto/Merit-Caching/blob/master/Merit%20Caching.pdf</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/MerosCrypto/Merit-Caching/blob/master/Merit%20Caching.pdf"><span class="markdown">MerosCrypto/Merit-Caching</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Merit Caching Consensus Mechanism. Contribute to MerosCrypto/Merit-Caching development by creating an account on GitHub.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars1.githubusercontent.com/u/41047489?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars1.githubusercontent.com/u/41047489?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Source&#10697;Crypto - &#128065;-zcash</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        /* === GENERAL === */
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/3bdef1251a424500c1b3a78dea9b7e57.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/be0060dafb7a0e31d2a1ca17c0708636.woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    white-space: pre-wrap;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.spoiler {
+    border-radius: 3px;
+}
+
+.quote {
+    border-left: 4px solid;
+    border-radius: 3px;
+    margin: 8px 0;
+    padding-left: 10px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+.pre--multiline {
+    margin-top: 4px;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 85%;
+}
+
+.mention {
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+    display: flex;
+    max-width: 100%;
+    margin: 0 5px 10px 5px;
+}
+
+.info__guild-icon-container {
+    flex: 0;
+}
+
+.info__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.info__metadata {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info__guild-name {
+    font-size: 1.4em;
+}
+
+.info__channel-name {
+    font-size: 1.2em;
+}
+
+.info__channel-topic {
+    margin-top: 2px;
+}
+
+.info__channel-message-count {
+    margin-top: 2px;
+}
+
+.info__channel-date-range {
+    margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+    display: flex;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+    flex: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    flex: 1;
+    min-width: 50%;
+    margin-left: 20px;
+}
+
+.chatlog__author-name {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+.chatlog__message {
+    padding: 2px 5px;
+    margin-right: -5px;
+    margin-left: -5px;
+    background-color: transparent;
+    transition: background-color 1s ease;
+}
+
+.chatlog__content {
+    font-size: .9375em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 3px;
+    font-size: .8em;
+}
+
+.chatlog__attachment-thumbnail {
+    margin-top: 5px;
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__embed {
+    margin-top: 5px;
+    display: flex;
+    max-width: 520px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    width: 100%;
+    display: flex;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 10px;
+}
+
+.chatlog__embed-image {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-weight: 500;
+    font-size: .75em;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 6px 2px 2px 2px;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 6px;
+    font-size: .875em;
+}
+
+.chatlog__bot-tag {
+    margin-left: 0.3em;
+    background: #7289da;
+    color: #ffffff;
+    font-size: 0.625em;
+    padding: 1px 2px;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.3;
+    position: relative;
+    top: -.2em;
+}
+    </style>
+    <style>
+        /* === GENERAL === */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.quote {
+    border-color: #4f545c;
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #839496 !important;
+}
+
+.mention {
+    color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+    color: #ffffff;
+}
+
+.info__channel-name {
+    color: #ffffff;
+}
+
+.info__channel-topic {
+    color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__message--highlighted {
+    background-color: rgba(114, 137, 218, 0.2) !important;
+}
+
+.chatlog__message--pinned {
+    background-color: rgba(249, 168, 37, 0.05);
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element !== null && element !== undefined) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png" />
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source&#10697;Crypto</div>
+        <div class="info__channel-name">&#128065;-zcash</div>
+
+            <div class="info__channel-topic"></div>
+
+        <div class="info__channel-message-count">18 messages</div>
+
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">23-Aug-18 05:19 PM</span>
+
+                    <div class="chatlog__message " data-message-id="482297983749062663" id="message-482297983749062663">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://local-zec.com">https://local-zec.com</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">26-Aug-18 12:41 AM</span>
+
+                    <div class="chatlog__message " data-message-id="483133860335452171" id="message-483133860335452171">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.z.cash/new-release-2-0-0/">https://blog.z.cash/new-release-2-0-0/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://blog.z.cash/author/sean-bowe/">Sean Bowe</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.z.cash/new-release-2-0-0/"><span class="markdown">New Release: 2.0.0 &#8211; Zcash Blog</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">We&#8217;re happy to announce the release of Zcash 2.0.0, the first Sapling-compatible version of the Zcash node software! Sapling Activation &#8230;</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">06-Sep-18 01:27 AM</span>
+
+                    <div class="chatlog__message " data-message-id="487131745968455680" id="message-487131745968455680">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/devilscompiler/status/1037569332555857920">https://twitter.com/devilscompiler/status/1037569332555857920</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/931058793516908545/nbEKjOt8_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/devilscompiler">Noah Ruderman &#9889; (@devilscompiler)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">This doesn&#39;t get mentioned often, but #zcash is in a super weird position. They cannot afford for ppl to actually use zcash to protect their privacy from govt right now. It&#39;s for their safety, their investors $, and to allow them to continue working on zcash. <a href="https://t.co/">https://t.co/</a>...</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">08-Oct-18 01:09 AM</span>
+
+                    <div class="chatlog__message " data-message-id="498723596106203138" id="message-498723596106203138">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/peterktodd/status/1045210959407706112">https://twitter.com/peterktodd/status/1045210959407706112</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/801927034603794432/H6vCS6tj_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/peterktodd">Peter Todd (@peterktodd)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">There&#39;s been some claims made recently that a compromise of the Zcash trusted setup can&#39;t compromise privacy.
+
+I checked with one of the cryptographers working on zk-SNARKs, and these claims are false.
+
+A compromised MPC absolutely can wreck privacy; Zooko needs to correct...</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">120</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>
+
+                                    <div class="chatlog__embed-image-container">
+                                        <a class="chatlog__embed-image-link" href="https://pbs.twimg.com/media/DoFVzvMXsAArs9b.jpg:large">
+                                            <img class="chatlog__embed-image" src="https://pbs.twimg.com/media/DoFVzvMXsAArs9b.jpg:large" />
+                                        </a>
+                                    </div>
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">05-Nov-18 05:28 AM</span>
+
+                    <div class="chatlog__message " data-message-id="508950693923782656" id="message-508950693923782656">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://z.cash/blog/completion-of-the-sapling-mpc/">https://z.cash/blog/completion-of-the-sapling-mpc/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://z.cash/blog/completion-of-the-sapling-mpc"><span class="markdown">Completion of the Sapling MPC - Zcash</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Zcash&#8217;s next major upgrade, codenamed Sapling, will be activated later this year. One of our final goals before activation is &#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://z.cash/wp-content/uploads/2018/08/neal-300x300.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://z.cash/wp-content/uploads/2018/08/neal-300x300.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">14-Nov-18 05:13 PM</span>
+
+                    <div class="chatlog__message " data-message-id="512389742487404545" id="message-512389742487404545">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://z.cash/technology/zksnarks/">https://z.cash/technology/zksnarks/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://z.cash/technology/zksnarks"><span class="markdown">What are zk-SNARKs? | Zcash</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">zk-SNARKs are a novel form of zero-knowledge cryptography which allow for private Zcash transactions. These transactions can be fully encrypted on the blockchain, yet still be verified by zK-SNARKs as valid under the network&#8217;s consensus rules.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://z.cash/wp-content/uploads/2018/09/arithmetic-circuit_720_2x.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://z.cash/wp-content/uploads/2018/09/arithmetic-circuit_720_2x.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">22-Dec-18 09:49 PM</span>
+
+                    <div class="chatlog__message " data-message-id="526229940782235681" id="message-526229940782235681">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://forum.zcashcommunity.com/t/announcing-zcash-blossom-and-proposed-feature-goals/31891">https://forum.zcashcommunity.com/t/announcing-zcash-blossom-and-proposed-feature-goals/31891</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://forum.zcashcommunity.com/t/announcing-zcash-blossom-and-proposed-feature-goals/31891"><span class="markdown">Announcing Zcash Blossom and proposed feature goals</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Now that Sapling has activated and active work on ecosystem adoption is underway, we&#8217;ve begun early planning for our next protocol upgrade, codenamed Zcash Blossom.  Upgrade Development Process A lot of my personal effort in planning for this upgrade has been initially focu...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://forum.zcashcommunity.com/images/default-apple-touch-icon.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://forum.zcashcommunity.com/images/default-apple-touch-icon.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">22-Dec-18 11:05 PM</span>
+
+                    <div class="chatlog__message " data-message-id="526248862432624661" id="message-526248862432624661">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/peterktodd/status/1062526564133363712">https://twitter.com/peterktodd/status/1062526564133363712</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/801927034603794432/H6vCS6tj_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/peterktodd">Peter Todd (@peterktodd)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Message I got from Zooko re: their efforts to recover the missing Zcash trusted setup ceremony transcript.
+
+Given there is a chance at a market moving hundreds of millions of dollars screw up, I don&#39;t want to be in possession of any insider info. So I&#39;m making this transpa...</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">192</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>
+
+                                    <div class="chatlog__embed-image-container">
+                                        <a class="chatlog__embed-image-link" href="https://pbs.twimg.com/media/Dr7aQz7WsAIEwlE.jpg:large">
+                                            <img class="chatlog__embed-image" src="https://pbs.twimg.com/media/Dr7aQz7WsAIEwlE.jpg:large" />
+                                        </a>
+                                    </div>
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">26-Jan-19 02:44 PM</span>
+
+                    <div class="chatlog__message " data-message-id="538806512605331456" id="message-538806512605331456">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://news.ycombinator.com/item?id=13098882">https://news.ycombinator.com/item?id=13098882</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            mrb
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://news.ycombinator.com/item?id=13098882"><span class="markdown">The Security Behind the Birth of Zcash</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://news.ycombinator.com/y18.gif" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Hacker News
+                                                     • 
+
+                                                04-Dec-16 12:14 AM
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="538806572256854056" id="message-538806572256854056">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://news.ycombinator.com/item?id=18884566">https://news.ycombinator.com/item?id=18884566</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            discovan
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://news.ycombinator.com/item?id=18884566"><span class="markdown">The Dark Side of Zero Knowledge: Masking the initial setup in Zk-SNARK</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://news.ycombinator.com/y18.gif" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Hacker News
+                                                     • 
+
+                                                11-Jan-19 11:26 AM
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">19-Feb-19 01:18 AM</span>
+
+                    <div class="chatlog__message " data-message-id="547300926726078471" id="message-547300926726078471">
+                        <div class="chatlog__content">
+                            <span class="markdown"><div class="pre pre--multiline nohighlight"> I do have issues with the original zcash ceremony
+Namely because a whole 6 people participated which seems (sarcasm heavily implied) super safe and secure
+But there&#39;s a reason there was a another (public) ceremony with an actual decentralized participation that had a hell of a lot more participants
+And that&#39;s why there was a very strong push from the zcash devs to switch the protocol to using the parameters from that ceremony
+Here&#39;s the paper for the powers of tau ceremony
+(the second one that was public)</div>
+<a href="https://eprint.iacr.org/2017/1050">https://eprint.iacr.org/2017/1050</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">21-Jul-19 02:23 AM</span>
+
+                    <div class="chatlog__message " data-message-id="602385197920550913" id="message-602385197920550913">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/">https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.coindesk.com/author/rachelroseoleary">Rachel Rose O&#39;Leary</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/"><span class="markdown">The Code for an Anonymous Lightning Network is Now Live - CoinDesk</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A private version of the crypto protocol lightning network is headed to zcash, with the potential it could be added for other blockchains soon.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://static.coindesk.com/wp-content/uploads/2018/07/BOLT.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://static.coindesk.com/wp-content/uploads/2018/07/BOLT.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">03-Aug-19 10:57 AM</span>
+
+                    <div class="chatlog__message " data-message-id="607225452205047816" id="message-607225452205047816">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.humanaction.io/blogs/news/the-hush-review-with-duke-leto">https://www.humanaction.io/blogs/news/the-hush-review-with-duke-leto</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.humanaction.io/blogs/news/the-hush-review-with-duke-leto"><span class="markdown">The HUSH Review with Duke Leto</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">06-Aug-19 04:26 PM</span>
+
+                    <div class="chatlog__message " data-message-id="608395564337463346" id="message-608395564337463346">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/zooko/status/1158811030673219586?s=12">https://twitter.com/zooko/status/1158811030673219586?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1008479914612277248/xcnlNQOu_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/zooko">zooko (@zooko)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">It&#39;s a widespread mistake to think that the Zcash Founders Reward or a possible future Dev Fund results in higher sell pressure on the coin compared to sending 100% of the coins to miners. Here&#39;s my post on reddit about this in response to a comment: <a href="https://t.co/UbGSocfl0s">https://t.co/UbGSocfl0s</a></span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="chatlog__reactions">
+                                <div class="chatlog__reaction">
+                                    <img class="emoji emoji--small" alt="check" title="check" src="https://cdn.discordapp.com/emojis/533656342930653194.png" />
+                                    <span class="chatlog__reaction-count">1</span>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">07-Aug-19 05:19 AM</span>
+
+                    <div class="chatlog__message " data-message-id="608590026497982464" id="message-608590026497982464">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/udiWertheimer/status/1158998721113313280?s=20">https://twitter.com/udiWertheimer/status/1158998721113313280?s=20</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1117000251779555330/OTRfZBEn_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/udiWertheimer">Udi Wertheimer (@udiWertheimer)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">@sonyasupposedly @nic__carter 1/ It&#8217;s a sticky situation. On the surface level, one would say that &#8220;dev fund bad&#8221;, while on the other hand I see no way for ZEC to stay above water in current state without the high-pay team currently helping to maintain it.
+
+But it&#8217;...</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">09-Aug-19 02:49 AM</span>
+
+                    <div class="chatlog__message " data-message-id="609277021796958248" id="message-609277021796958248">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/">https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.coindesk.com/author/rachelroseoleary">Rachel Rose O&#39;Leary</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/"><span class="markdown">The Code for an Anonymous Lightning Network is Now Live - CoinDesk</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A private version of the crypto protocol lightning network is headed to zcash, with the potential it could be added for other blockchains soon.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://static.coindesk.com/wp-content/uploads/2018/07/BOLT.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://static.coindesk.com/wp-content/uploads/2018/07/BOLT.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">11-Aug-19 09:35 PM</span>
+
+                    <div class="chatlog__message " data-message-id="610285081705316352" id="message-610285081705316352">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://podcasts.apple.com/us/podcast/zero-knowledge/id1326503043?i=1000443533390">https://podcasts.apple.com/us/podcast/zero-knowledge/id1326503043?i=1000443533390</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://podcasts.apple.com/us/podcast/zero-knowledge/id1326503043?i=1000443533390"><span class="markdown">&#8206;Zero Knowledge: Episode 84: Zcash community &amp; more with Amber B...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">&#8206;Show Zero Knowledge, Ep Episode 84: Zcash community &amp; more with Amber Baldet - Jul 3, 2019</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://is4-ssl.mzstatic.com/image/thumb/Podcasts123/v4/ef/28/0e/ef280ef8-518c-6a7d-2c65-f15519f20095/mza_631730386322184654.jpg/1200x630wp.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://is4-ssl.mzstatic.com/image/thumb/Podcasts123/v4/ef/28/0e/ef280ef8-518c-6a7d-2c65-f15519f20095/mza_631730386322184654.jpg/1200x630wp.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">14-Sep-19 02:56 PM</span>
+
+                    <div class="chatlog__message " data-message-id="622505899436671024" id="message-622505899436671024">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.zeroknowledge.fm/50">https://www.zeroknowledge.fm/50</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.zeroknowledge.fm/50"><span class="markdown">Zooko talks Zcash on our 50th episode</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">In this special 50th episode, we invite our friend Zooko to the podcast to chat about his background and explore the history of Zerocoin and Zcash. We dig into the inner workings of Zcash, the trusted setup, the sapling upgrade, and what the future of the project might look like!</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/66a36787-cf18-4f96-ba6b-d00e9f507731/cover_medium.jpg?v=0">
+                                                <img class="chatlog__embed-thumbnail" src="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/66a36787-cf18-4f96-ba6b-d00e9f507731/cover_medium.jpg?v=0" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+</div>
+
+</body>
+</html>

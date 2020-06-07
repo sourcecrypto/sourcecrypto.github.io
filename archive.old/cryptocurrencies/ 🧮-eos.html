@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Source&#10697;Crypto - &#129518;-eos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        /* === GENERAL === */
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/3bdef1251a424500c1b3a78dea9b7e57.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/be0060dafb7a0e31d2a1ca17c0708636.woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    white-space: pre-wrap;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.spoiler {
+    border-radius: 3px;
+}
+
+.quote {
+    border-left: 4px solid;
+    border-radius: 3px;
+    margin: 8px 0;
+    padding-left: 10px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+.pre--multiline {
+    margin-top: 4px;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 85%;
+}
+
+.mention {
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+    display: flex;
+    max-width: 100%;
+    margin: 0 5px 10px 5px;
+}
+
+.info__guild-icon-container {
+    flex: 0;
+}
+
+.info__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.info__metadata {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info__guild-name {
+    font-size: 1.4em;
+}
+
+.info__channel-name {
+    font-size: 1.2em;
+}
+
+.info__channel-topic {
+    margin-top: 2px;
+}
+
+.info__channel-message-count {
+    margin-top: 2px;
+}
+
+.info__channel-date-range {
+    margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+    display: flex;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+    flex: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    flex: 1;
+    min-width: 50%;
+    margin-left: 20px;
+}
+
+.chatlog__author-name {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+.chatlog__message {
+    padding: 2px 5px;
+    margin-right: -5px;
+    margin-left: -5px;
+    background-color: transparent;
+    transition: background-color 1s ease;
+}
+
+.chatlog__content {
+    font-size: .9375em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 3px;
+    font-size: .8em;
+}
+
+.chatlog__attachment-thumbnail {
+    margin-top: 5px;
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__embed {
+    margin-top: 5px;
+    display: flex;
+    max-width: 520px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    width: 100%;
+    display: flex;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 10px;
+}
+
+.chatlog__embed-image {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-weight: 500;
+    font-size: .75em;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 6px 2px 2px 2px;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 6px;
+    font-size: .875em;
+}
+
+.chatlog__bot-tag {
+    margin-left: 0.3em;
+    background: #7289da;
+    color: #ffffff;
+    font-size: 0.625em;
+    padding: 1px 2px;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.3;
+    position: relative;
+    top: -.2em;
+}
+    </style>
+    <style>
+        /* === GENERAL === */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.quote {
+    border-color: #4f545c;
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #839496 !important;
+}
+
+.mention {
+    color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+    color: #ffffff;
+}
+
+.info__channel-name {
+    color: #ffffff;
+}
+
+.info__channel-topic {
+    color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__message--highlighted {
+    background-color: rgba(114, 137, 218, 0.2) !important;
+}
+
+.chatlog__message--pinned {
+    background-color: rgba(249, 168, 37, 0.05);
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element !== null && element !== undefined) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png" />
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source&#10697;Crypto</div>
+        <div class="info__channel-name">&#129518;-eos</div>
+
+            <div class="info__channel-topic"></div>
+
+        <div class="info__channel-message-count">16 messages</div>
+
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">22-Sep-18 08:47 PM</span>
+
+                    <div class="chatlog__message " data-message-id="493221876177567754" id="message-493221876177567754">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://unhashed.com/cryptocurrency-news/mac-eos-first-look-eos-desktop/">https://unhashed.com/cryptocurrency-news/mac-eos-first-look-eos-desktop/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://unhashed.com/cryptocurrency-news/mac-eos-first-look-eos-desktop"><span class="markdown">It&#8217;s Not a Mac, It&#8217;s EOS: First Look at EOS Desktop - UNHASHED</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A new EOS client has been released, and it has a focus on providing a fully immersive crypto workspace. Unlike most clients, which run as a windowed application, EOS Desktop resembles a full desktop environment. The project was developed by Errick Benson Peart, an attorney tu...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://unhashed.com/wp-content/uploads/2018/09/shutterstock_1092579335.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://unhashed.com/wp-content/uploads/2018/09/shutterstock_1092579335.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">27-Sep-18 11:39 PM</span>
+
+                    <div class="chatlog__message " data-message-id="495077014491889695" id="message-495077014491889695">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://t.co/3QBofHTNqg">https://t.co/3QBofHTNqg</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://t.co/3QBofHTNqg"><span class="markdown">DappRadar - Ranked list of EOS dapps</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">DappRadar provides information and insights about all the existing dapps! At the tap of your finger, find the most successful and used decentralized games, casinos, and marketplaces, among others.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://dappradar.com/og-dappradar.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://dappradar.com/og-dappradar.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">29-Sep-18 05:58 PM</span>
+
+                    <div class="chatlog__message " data-message-id="495716072855699477" id="message-495716072855699477">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.trustnodes.com/2018/09/29/rampant-collusion-in-eos-exposed-by-huobi-leak">https://www.trustnodes.com/2018/09/29/rampant-collusion-in-eos-exposed-by-huobi-leak</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.trustnodes.com/author/aquentson">Trustnodes</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.trustnodes.com/2018/09/29/rampant-collusion-in-eos-exposed-by-huobi-leak"><span class="markdown">Rampant Collusion in EOS Exposed by Huobi Leak</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A spreadsheet has been leaked, allegedly authored by&#160;Shi Feifei, a Huobi employee. Titled &#8220;Huobi Pool Node Account Data 20180911,&#8221; the document details mutual voting and sharing of proceeds from producing...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.trustnodes.com/wp-content/uploads/2018/09/huobi-eos-2.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.trustnodes.com/wp-content/uploads/2018/09/huobi-eos-2.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">12-Oct-18 03:32 PM</span>
+
+                    <div class="chatlog__message " data-message-id="500390269896884245" id="message-500390269896884245">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://github.com/EOS-Nation/Awesome-EOS">https://github.com/EOS-Nation/Awesome-EOS</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(30,35,39,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://github.com/EOS-Nation/Awesome-EOS"><span class="markdown">EOS-Nation/Awesome-EOS</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Awesome EOS - a curated list of awesome EOS <img class="emoji " alt="😎" title="😎" src="https://twemoji.maxcdn.com/2/72x72/1f60e.png" />. Contribute to EOS-Nation/Awesome-EOS development by creating an account on GitHub.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://avatars1.githubusercontent.com/u/36919604?s=400&v=4">
+                                                <img class="chatlog__embed-thumbnail" src="https://avatars1.githubusercontent.com/u/36919604?s=400&v=4" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">02-Nov-18 10:20 AM</span>
+
+                    <div class="chatlog__message " data-message-id="507921950442651691" id="message-507921950442651691">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://thenextweb.com/hardfork/2018/11/01/eos-blockchain-benchmark/">https://thenextweb.com/hardfork/2018/11/01/eos-blockchain-benchmark/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(102,0,153,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://thenextweb.com/hardfork/2018/11/01/eos-blockchain-benchmark"><span class="markdown">Research: EOS is not a blockchain, it&#8217;s a glorified cloud comput...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A blockchain benchmarking firm, commissioned by ConsenSys, has made a pretty startling accusation: EOS is not really a blockchain.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F10%2Feosnotblockchain.jpg&signature=d493e252efe5712cc5b5b01d735a5537">
+                                                <img class="chatlog__embed-thumbnail" src="https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F10%2Feosnotblockchain.jpg&signature=d493e252efe5712cc5b5b01d735a5537" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="507922028230213633" id="message-507922028230213633">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/EOS_Report.pdf">https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/EOS_Report.pdf</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">04-Nov-18 01:30 PM</span>
+
+                    <div class="chatlog__message " data-message-id="508709656760156178" id="message-508709656760156178">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://ambcrypto.com/eos-destroys-ethereum-eth-in-dapps-usage-over-4x-more-users-as-gambling-apps-take-the-spotlight/">https://ambcrypto.com/eos-destroys-ethereum-eth-in-dapps-usage-over-4x-more-users-as-gambling-apps-take-the-spotlight/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://ambcrypto.com/author/anirudh-vk">Anirudh VK</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://ambcrypto.com/eos-destroys-ethereum-eth-in-dapps-usage-over-4x-more-users-as-gambling-apps-take-the-spotlight"><span class="markdown">EOS destroys Ethereum [ETH] in dApp usage, over 4x more users as g...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Many have claimed distributed apps [dApps] are the next frontier in the blockchain space. Recently, prominent dApp blockchains Ethereum [ETH] and EOS saw about 65000 daily active users on their platforms. dApps are similar to existing applications, instead offering decentrali...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://ambcrypto.com/wp-content/uploads/2018/10/simson-petrol-133138-unsplash-1000x600.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://ambcrypto.com/wp-content/uploads/2018/10/simson-petrol-133138-unsplash-1000x600.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">05-Nov-18 04:29 AM</span>
+
+                    <div class="chatlog__message " data-message-id="508935954698993674" id="message-508935954698993674">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/myles_snider/status/1050380099353276417">https://twitter.com/myles_snider/status/1050380099353276417</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/905669546396278784/RFqh40fJ_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/myles_snider">Myles Snider (@myles_snider)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Usually I don&#39;t feel compelled to respond to threads like this, but this has 88 RTs despite being full of misinformation. 
+
+Getting the facts right is important, since it helps people make informed decisions. 
+
+<a href="https://t.co/Ln1tvAqW4R">https://t.co/Ln1tvAqW4R</a></span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">128</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="508936087578738688" id="message-508936087578738688">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/el33th4xor/status/1046019798092730369">https://twitter.com/el33th4xor/status/1046019798092730369</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/593192767888629760/3tFV3N0k_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/el33th4xor">Emin G&#252;n Sirer (@el33th4xor)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Cartels are a thing. If you only have 21 participants, as in EOS, they&#39;ll form cartels. 
+
+PoW miners also form cartels, with the net effect of orphaning newcomers&#39; blocks.
+
+The solution is to switch to protocols that enable broader participation. <a href="https://t.co/WPLuTslXnb">https://t.co/WPLuTslXnb</a></span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">221</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">25-Nov-18 08:12 PM</span>
+
+                    <div class="chatlog__message " data-message-id="516421042953256960" id="message-516421042953256960">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://media.consensys.net/a-retrospective-of-the-eos-token-sale-172d3437932b">https://media.consensys.net/a-retrospective-of-the-eos-token-sale-172d3437932b</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://media.consensys.net/a-retrospective-of-the-eos-token-sale-172d3437932b"><span class="markdown">A Retrospective of the EOS Token Sale &#8211; ConsenSys Media</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Noteworthy aspects of the EOS token sale mechanics</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*Hx0gsyyr6jqA8QoOF2XkFg.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*Hx0gsyyr6jqA8QoOF2XkFg.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">25-Nov-18 09:19 PM</span>
+
+                    <div class="chatlog__message " data-message-id="516437866927357963" id="message-516437866927357963">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.cryptoninjas.net/2018/11/04/blockchain-gaming-distribution-platform-ultra-to-bring-eos-to-the-gaming-market/">https://www.cryptoninjas.net/2018/11/04/blockchain-gaming-distribution-platform-ultra-to-bring-eos-to-the-gaming-market/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.cryptoninjas.net/author/developercn">CryptoNinjas</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.cryptoninjas.net/2018/11/04/blockchain-gaming-distribution-platform-ultra-to-bring-eos-to-the-gaming-market"><span class="markdown">Blockchain gaming distribution platform Ultra to bring EOS to the ...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Ultra, the company building a first-class PC game publishing platform and marketplace that puts an end to the current distribution monopoly,...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.cryptoninjas.net/wp-content/uploads/ultra-EOS-RIO-300x166.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.cryptoninjas.net/wp-content/uploads/ultra-EOS-RIO-300x166.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">25-Nov-18 09:30 PM</span>
+
+                    <div class="chatlog__message " data-message-id="516440506339819522" id="message-516440506339819522">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@thomas.cox_39839/db889ba5bcc8">https://medium.com/@thomas.cox_39839/db889ba5bcc8</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@thomas.cox_39839/db889ba5bcc8"><span class="markdown">Yes, EOS is a blockchain (old version) &#8211; Thomas Cox &#8211; Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">[this is where a previous version of this article was to be found]</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">09-Dec-18 12:05 AM</span>
+
+                    <div class="chatlog__message " data-message-id="521190573982613505" id="message-521190573982613505">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@thomas.cox_39839/yes-eos-is-a-blockchain-a5921e5497d5">https://medium.com/@thomas.cox_39839/yes-eos-is-a-blockchain-a5921e5497d5</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@thomas.cox_39839/yes-eos-is-a-blockchain-a5921e5497d5"><span class="markdown">Yes, EOS is a blockchain &#8211; Thomas Cox &#8211; Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">We at the EOS Alliance are delighted to get poked, prodded and challenged because we are, to use Nassim Taleb&#8217;s term, &#8220;antifragile&#8221;. As a&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*AI480WyyrPzoLW4KL2M5WA.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*AI480WyyrPzoLW4KL2M5WA.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">23-Dec-18 05:06 PM</span>
+
+                    <div class="chatlog__message " data-message-id="526520927450562563" id="message-526520927450562563">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/coreyj_miller/status/1072543116522065920">https://twitter.com/coreyj_miller/status/1072543116522065920</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/940319070812913664/OD80KLqs_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/coreyj_miller">Corey Miller (@coreyj_miller)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">1/ Instead of discussing a BTC mining death spiral, perhaps we should be talking about EOS Block Producers turning off their operations. Although the narrative is that EOS BPs are financially well-off, many are currently underwater...</span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Retweets</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">132</span></div>
+                                                    </div>
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">308</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">21-Feb-19 06:03 PM</span>
+
+                    <div class="chatlog__message " data-message-id="548278645731491840" id="message-548278645731491840">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/eosweekly/status/1096549302804074501?s=12">https://twitter.com/eosweekly/status/1096549302804074501?s=12</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/1090394558649708544/WkFVXAa2_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/EOSWeekly">EOS Weekly (@EOSWeekly)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">How did the greatest strength of EOS (its speed) turn into its greatest vulnerability?
+
+For the answer, follow the white rabbit:  <a href="https://t.co/PxgRWeeo7K">https://t.co/PxgRWeeo7K</a>
+
+#EOS #EOSIO
+@greymass @EosSweden @EOS_CryptoLions @EOSTribe @EOS_Canada @eosriobrazil @EOS42io</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">26-Jul-19 12:19 AM</span>
+
+                    <div class="chatlog__message " data-message-id="604165876744192013" id="message-604165876744192013">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.afr.com/markets/currencies/thiel-backed-crypto-start-up-pays-out-6567pc-return-20190523-p51qa0">https://www.afr.com/markets/currencies/thiel-backed-crypto-start-up-pays-out-6567pc-return-20190523-p51qa0</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.afr.com/markets/currencies/thiel-backed-crypto-start-up-pays-out-6567pc-return-20190523-p51qa0"><span class="markdown">Thiel-backed crypto start-up pays out 6567pc return</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Billionaire moneymen Peter Thiel, Alan Howard and Louis Bacon have seen plenty of big paydays-but probably none as unusual as this one.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://static.ffx.io/images/$zoom_0.2648%2C$multiply_0.7554296506137866%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_12/t_crop_custom/t_sharpen%2Cq_auto%2Cf_auto/5f015885fb96dbc1b141dcb8470f8d8c203ac3a6">
+                                                <img class="chatlog__embed-thumbnail" src="https://static.ffx.io/images/$zoom_0.2648%2C$multiply_0.7554296506137866%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_12/t_crop_custom/t_sharpen%2Cq_auto%2Cf_auto/5f015885fb96dbc1b141dcb8470f8d8c203ac3a6" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+</div>
+
+</body>
+</html>

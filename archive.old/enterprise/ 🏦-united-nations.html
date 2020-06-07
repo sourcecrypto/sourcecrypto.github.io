@@ -1,0 +1,1827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Source&#10697;Crypto - &#127974;-united-nations</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        /* === GENERAL === */
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/3bdef1251a424500c1b3a78dea9b7e57.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/be0060dafb7a0e31d2a1ca17c0708636.woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    white-space: pre-wrap;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.spoiler {
+    border-radius: 3px;
+}
+
+.quote {
+    border-left: 4px solid;
+    border-radius: 3px;
+    margin: 8px 0;
+    padding-left: 10px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+.pre--multiline {
+    margin-top: 4px;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 85%;
+}
+
+.mention {
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.45em;
+    height: 1.45em;
+    margin: 0 1px;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1rem;
+    height: 1rem;
+}
+
+.emoji--large {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* === INFO === */
+
+.info {
+    display: flex;
+    max-width: 100%;
+    margin: 0 5px 10px 5px;
+}
+
+.info__guild-icon-container {
+    flex: 0;
+}
+
+.info__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.info__metadata {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info__guild-name {
+    font-size: 1.4em;
+}
+
+.info__channel-name {
+    font-size: 1.2em;
+}
+
+.info__channel-topic {
+    margin-top: 2px;
+}
+
+.info__channel-message-count {
+    margin-top: 2px;
+}
+
+.info__channel-date-range {
+    margin-top: 2px;
+}
+
+/* === CHATLOG === */
+
+.chatlog {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.chatlog__message-group {
+    display: flex;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-top: 1px solid;
+}
+
+.chatlog__author-avatar-container {
+    flex: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    flex: 1;
+    min-width: 50%;
+    margin-left: 20px;
+}
+
+.chatlog__author-name {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+.chatlog__message {
+    padding: 2px 5px;
+    margin-right: -5px;
+    margin-left: -5px;
+    background-color: transparent;
+    transition: background-color 1s ease;
+}
+
+.chatlog__content {
+    font-size: .9375em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 3px;
+    font-size: .8em;
+}
+
+.chatlog__attachment-thumbnail {
+    margin-top: 5px;
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__embed {
+    margin-top: 5px;
+    display: flex;
+    max-width: 520px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    width: 100%;
+    display: flex;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.chatlog__embed-author-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 10px;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 4px;
+    font-size: .875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 10px;
+}
+
+.chatlog__embed-image {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 10px;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-weight: 500;
+    font-size: .75em;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 6px 2px 2px 2px;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 6px;
+    font-size: .875em;
+}
+
+.chatlog__bot-tag {
+    margin-left: 0.3em;
+    background: #7289da;
+    color: #ffffff;
+    font-size: 0.625em;
+    padding: 1px 2px;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.3;
+    position: relative;
+    top: -.2em;
+}
+    </style>
+    <style>
+        /* === GENERAL === */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.quote {
+    border-color: #4f545c;
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #839496 !important;
+}
+
+.mention {
+    color: #7289da;
+}
+
+/* === INFO === */
+
+.info__guild-name {
+    color: #ffffff;
+}
+
+.info__channel-name {
+    color: #ffffff;
+}
+
+.info__channel-topic {
+    color: #ffffff;
+}
+
+/* === CHATLOG === */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__message--highlighted {
+    background-color: rgba(114, 137, 218, 0.2) !important;
+}
+
+.chatlog__message--pinned {
+    background-color: rgba(249, 168, 37, 0.05);
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element !== null && element !== undefined) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="info">
+    <div class="info__guild-icon-container">
+        <img class="info__guild-icon" src="https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png" />
+    </div>
+    <div class="info__metadata">
+        <div class="info__guild-name">Source&#10697;Crypto</div>
+        <div class="info__channel-name">&#127974;-united-nations</div>
+
+            <div class="info__channel-topic"></div>
+
+        <div class="info__channel-message-count">40 messages</div>
+
+    </div>
+</div>
+
+<div class="chatlog">
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">28-Aug-18 01:22 PM</span>
+
+                    <div class="chatlog__message " data-message-id="484050101665267713" id="message-484050101665267713">
+                        <div class="chatlog__content">
+                            <span class="markdown">Technology Driven Universal Currency - UN Commisssion on science and tech 2010
+<a href="http://unctad.org/Sections/wcmu/docs/ecn162010_Israel_en.pdf">http://unctad.org/Sections/wcmu/docs/ecn162010_Israel_en.pdf</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="28-Aug-18 01:24 PM">(edited)</span>
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484050386697584667" id="message-484050386697584667">
+                        <div class="chatlog__content">
+                            <span class="markdown">Transforming our world: the 2030 Agenda for Sustainable Development
+<a href="https://sustainabledevelopment.un.org/post2015/transformingourworld">https://sustainabledevelopment.un.org/post2015/transformingourworld</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="28-Aug-18 01:23 PM">(edited)</span>
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484050825904259075" id="message-484050825904259075">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cointelegraph.com/news/bitnation-registers-first-refugees-on-the-blockchain">https://cointelegraph.com/news/bitnation-registers-first-refugees-on-the-blockchain</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://cointelegraph.com/news/bitnation-registers-first-refugees-on-the-blockchain"><span class="markdown">Bitnation Registers First Refugees on the Blockchain</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A decentralized project called Refugee Emergency Response was recently launched by Bitnation to help resolve the current refugee crisis in Europe by registering undocumented individuals on the blockchain.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://images.cointelegraph.com/images/740_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jYjFkNjdlOWI2MTg0NGE4MmNiYTUwNTU5ZTZjZDIxNC5wbmc=.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://images.cointelegraph.com/images/740_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jYjFkNjdlOWI2MTg0NGE4MmNiYTUwNTU5ZTZjZDIxNC5wbmc=.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484051083589582854" id="message-484051083589582854">
+                        <div class="chatlog__content">
+                            <span class="markdown">How Can Cryptocurrency and Blockchain Technology Play a Role in Building  Social and Solidarity Finance?
+<a href="http://www.unrisd.org/brett-scott">http://www.unrisd.org/brett-scott</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484051326666539048" id="message-484051326666539048">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://id2020.org/">https://id2020.org/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://id2020.org/"><span class="markdown">Home</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://static1.squarespace.com/static/578015396a4963f7d4413498/t/5ae760521ae6cfa5f3c05255/1525112919355/Summit+Screen+Logo+%281%29.png?format=1000w">
+                                                <img class="chatlog__embed-thumbnail" src="http://static1.squarespace.com/static/578015396a4963f7d4413498/t/5ae760521ae6cfa5f3c05255/1525112919355/Summit+Screen+Logo+%281%29.png?format=1000w" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484051639242719233" id="message-484051639242719233">
+                        <div class="chatlog__content">
+                            <span class="markdown">UNDP Hub for Europe and CIS, and the Alternative Finance (AltFin) Lab is exploring new financial technologies with leading firms&#8212;AIDTech, Blockchain.com , and Bitspark&#8212;revolutionizing remittance and e-governance with bitcoin and blockchain. <a href="http://altfinlab.org">http://altfinlab.org</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://altfinlab.org"><span class="markdown">AltFinLab | Alternative Finance Lab (AltFin Lab)</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">GUZGEF SOLAR SCHOOL Project aimed to improve education facilities in rural Tajikistan and provide better education for children.  BRING WATER FOR LIFE Global Crowdfunding Campaign aimed to collect</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484051787205181440" id="message-484051787205181440">
+                        <div class="chatlog__content">
+                            <span class="markdown">2016, The UNICEF Innovation Fund raised $9 million to invest in open source technologies for children, funding innovators in developing countries. Blockchain is one of three key investment areas the innovation fund is targeting. <a href="http://www.unicefinnovationfund.org">http://www.unicefinnovationfund.org</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484051851776622592" id="message-484051851776622592">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.ccn.com/unicef-seeks-developer-for-innovation-projects-including-blockchains-humanitarian-uses/">https://www.ccn.com/unicef-seeks-developer-for-innovation-projects-including-blockchains-humanitarian-uses/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.ccn.com/unicef-seeks-developer-for-innovation-projects-including-blockchains-humanitarian-uses/"><span class="markdown">UNICEF Seeks Developer for Innovation Projects including Blockchai...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">UNICEF is seeking a developer for its innovation projects, which also includes the development of blockchain&#39;s humanitarian uses.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.ccn.com/wp-content/uploads/2016/08/UNICEF-Seeks-Developer-For-Innovation-Projects.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.ccn.com/wp-content/uploads/2016/08/UNICEF-Seeks-Developer-For-Innovation-Projects.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484051933385195530" id="message-484051933385195530">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://insight.wfp.org/what-is-blockchain-and-how-is-it-connected-to-fighting-hunger-7f1b42da9fe">https://insight.wfp.org/what-is-blockchain-and-how-is-it-connected-to-fighting-hunger-7f1b42da9fe</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://insight.wfp.org/what-is-blockchain-and-how-is-it-connected-to-fighting-hunger-7f1b42da9fe"><span class="markdown">What is &#8216;blockchain&#8217; and how is it connected to fighting hunger?</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">&#8216;This can revolutionize assistance to vulnerable families across the globe&#8217;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*2tIMkwgNPSJu4xAM7fE1Rw.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*2tIMkwgNPSJu4xAM7fE1Rw.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484052013580288001" id="message-484052013580288001">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.wfp.org/news/news-release/blockchain-against-hunger-harnessing-technology-support-syrian-refugees">https://www.wfp.org/news/news-release/blockchain-against-hunger-harnessing-technology-support-syrian-refugees</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.wfp.org/news/news-release/blockchain-against-hunger-harnessing-technology-support-syrian-refugees"><span class="markdown">Blockchain Against Hunger: Harnessing Technology In Support Of Syr...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">MUNICH &#8211; The United Nations World Food Programme (WFP) is deploying cutting-edge blockchain technology to make cash-based transfers faster, chea</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484052263514669056" id="message-484052263514669056">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.reuters.com/article/us-un-refugees-blockchain/u-n-glimpses-into-blockchain-future-with-eye-scan-payments-for-refugees-idUSKBN19C0BB">https://www.reuters.com/article/us-un-refugees-blockchain/u-n-glimpses-into-blockchain-future-with-eye-scan-payments-for-refugees-idUSKBN19C0BB</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.reuters.com/article/us-un-refugees-blockchain/u-n-glimpses-into-blockchain-future-with-eye-scan-payments-for-refugees-idUSKBN19C0BB"><span class="markdown">U.N. glimpses into blockchain future with eye scan payments for...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">ROME (Thomson Reuters Foundation) - Thousands of Syrian refugees in Jordan&#39;s Azraq camp don&#39;t pay for their food with cash but by a scan of their eyes.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://s4.reutersmedia.net/resources_v2/images/rcom-default.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://s4.reutersmedia.net/resources_v2/images/rcom-default.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484052332368101377" id="message-484052332368101377">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://culthub.com/pr/blockchain-commission-blockchain-for-impact-launched-at-un-to-advance-the-sustainable-development-goals/9176">http://culthub.com/pr/blockchain-commission-blockchain-for-impact-launched-at-un-to-advance-the-sustainable-development-goals/9176</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="http://culthub.com/author/pwadmin">Harry</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://culthub.com/pr/blockchain-commission-blockchain-for-impact-launched-at-un-to-advance-the-sustainable-development-goals/9176"><span class="markdown">Blockchain Commission &amp; Blockchain for Impact Launched at UN to Ad...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Blockchain Commission was established by Global Partnerships Forum, PVBLIC Foundation &amp; The Fund for Philanthropy in response to the need to develop a framework by which the United Nations and &#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://culthub.com/wp-content/uploads/2017/09/wp.data-source.newswire.pressreleasejet.comwww.newswire.com6e36e80d3-73426adda6d70f7ec586c99d43e86aee9fa85958.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="http://culthub.com/wp-content/uploads/2017/09/wp.data-source.newswire.pressreleasejet.comwww.newswire.com6e36e80d3-73426adda6d70f7ec586c99d43e86aee9fa85958.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484052429047070720" id="message-484052429047070720">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@socialmedia_63108/un-appoints-new-member-to-its-blockchain-commission-for-sustainable-development-b17dfc15ef3">https://medium.com/@socialmedia_63108/un-appoints-new-member-to-its-blockchain-commission-for-sustainable-development-b17dfc15ef3</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@socialmedia_63108/un-appoints-new-member-to-its-blockchain-commission-for-sustainable-development-b17dfc15ef3"><span class="markdown">UN Appoints New Member to Its Blockchain Commission for Sustainabl...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">&#8220;The United Nations has been actively promoting the application of blockchain technology in various projects including food distribution&#8230;</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/0*TsMf0t7uaYjZij2n.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/0*TsMf0t7uaYjZij2n.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484052552321597441" id="message-484052552321597441">
+                        <div class="chatlog__content">
+                            <span class="markdown">November 10th, 2017 The Humanitarian Blockchain Summit brought experts, scholars, and humanitarian practitioners together at the UN Headquarters; enlarging discussion around using blockchain technology for pursuit of the Sustainable Development Goals. 
+<a href="https://unite.un.org/techevents/humanitarian-blockchain">https://unite.un.org/techevents/humanitarian-blockchain</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://unite.un.org/techevents/humanitarian-blockchain"><span class="markdown">Blockchain for the United Nations - humanitarian and other applica...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Blockchain for the United Nations - humanitarian and other applications In collaboration with the&#160;Institute of International Humanitarian Affairs (IIHA), Fordham University. 9 Nov 2017 (3&#160;p.m&#160;- 5:30&#160;p.m.) UN Secretariat Conference Room E</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484052620391088128" id="message-484052620391088128">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.prnewswire.com/news-releases/world-identity-network-and-united-nations-team-up-to-launch-innovative-blockchain-pilot-to-help-prevent-child-trafficking-300553921.html">https://www.prnewswire.com/news-releases/world-identity-network-and-united-nations-team-up-to-launch-innovative-blockchain-pilot-to-help-prevent-child-trafficking-300553921.html</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.prnewswire.com/news-releases/world-identity-network-and-united-nations-team-up-to-launch-innovative-blockchain-pilot-to-help-prevent-child-trafficking-300553921.html"><span class="markdown">World Identity Network and United Nations team up to launch innova...</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://mma.prnewswire.com/media/601494/World_Identity_Network___United_Nations.jpg?p=twitter">
+                                                <img class="chatlog__embed-thumbnail" src="https://mma.prnewswire.com/media/601494/World_Identity_Network___United_Nations.jpg?p=twitter" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484053027309748228" id="message-484053027309748228">
+                        <div class="chatlog__content">
+                            <span class="markdown">At the beginning of 2018, the UN helped found an open initiative called the Climate Chain Coalition. The CCC is composed of 25 organizations committed toward the use of distributed ledger technology for the benefit of the climate.
+<a href="https://unfccc.int/news/un-supports-blockchain-technology-for-climate-action">https://unfccc.int/news/un-supports-blockchain-technology-for-climate-action</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(24,49,74,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://unfccc.int/news/un-supports-blockchain-technology-for-climate-action"><span class="markdown">UN Supports Blockchain Technology for Climate Action | UNFCCC</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">New Climate Chain Coalition Launched, Seeking Members
+
+UN Climate Change News, 22 January 2018 &#8211; Suppose information important to tackling climate cha...</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484053139759169538" id="message-484053139759169538">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blockchainatberkeley.blog/a-bitcoin-miner-and-an-environmentalist-walk-into-a-bar-bbdfb06a5232">https://blockchainatberkeley.blog/a-bitcoin-miner-and-an-environmentalist-walk-into-a-bar-bbdfb06a5232</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blockchainatberkeley.blog/a-bitcoin-miner-and-an-environmentalist-walk-into-a-bar-bbdfb06a5232"><span class="markdown">A Bitcoin Miner and an Environmentalist Walk Into a Bar&#8230;</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Blockchain through the lens of the UN Climate Conference</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*kTrRb8oIf78eFzca0NMw2A.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*kTrRb8oIf78eFzca0NMw2A.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484053196323553290" id="message-484053196323553290">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://bitsonline.com/united-nations-blockchain-refugees/">https://bitsonline.com/united-nations-blockchain-refugees/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(108,156,44,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://bitsonline.com/united-nations-blockchain-refugees/"><span class="markdown">United Nations Expanding Blockchain Use to Help Syrian Refugees</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Since the year 2017, a project from the United Nations World Food Programme associated with the Ethereum blockchain called &#8220;Building Blocks&#8221; has been helping provide aid to Syrian refugees. As of January 2018, through a cash-for-food blockchain-based system, Building Bloc...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://s3.amazonaws.com/bit-wp-repository/wp-content/uploads/2018/05/08102356/ChildIrisScanner.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://s3.amazonaws.com/bit-wp-repository/wp-content/uploads/2018/05/08102356/ChildIrisScanner.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">28-Aug-18 01:45 PM</span>
+
+                    <div class="chatlog__message " data-message-id="484056053416460292" id="message-484056053416460292">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blog.blockchain.com/2018/03/05/future-is-decentralised/">https://blog.blockchain.com/2018/03/05/future-is-decentralised/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blog.blockchain.com/2018/03/05/future-is-decentralised/"><span class="markdown">The Future is Decentralised</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">In our mission to create an open, fair, and accessible financial future, we are committed to supporting a vast array of sustainability, humanitarian, and environmental initiatives. To that end, we recently partnered with volunteers from the UN Refugee Agency (UNHCR), the UN D...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://blog.blockchain.com/content/images/2018/03/Asset-57@2x.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://blog.blockchain.com/content/images/2018/03/Asset-57@2x.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">28-Aug-18 01:53 PM</span>
+
+                    <div class="chatlog__message " data-message-id="484057939863273491" id="message-484057939863273491">
+                        <div class="chatlog__content">
+                            <span class="markdown">THE FUTURE IS DECENTRALISED BLOCK CHAINS, DISTRIBUTED LEDGERS, &amp; THE FUTURE OF SUSTAINABLE DEVELOPMENT
+<a href="https://www.blockchain.com/static/pdf/TheFutureisDecentralised.pdf">https://www.blockchain.com/static/pdf/TheFutureisDecentralised.pdf</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484059317264187408" id="message-484059317264187408">
+                        <div class="chatlog__content">
+                            <span class="markdown">April, UN Centre for Trade Facilitation and E-Business (UN/CEFACT) held a conference about blockchain interoperability, drafting a White Paper on blockchain trade facilitation, blockchain standards, and direction for the future. 
+<a href="https://uncefact.unece.org/display/uncefactpublicreview/Public+Review%253A+Blockchain+Whitepaper">https://uncefact.unece.org/display/uncefactpublicreview/Public+Review%3A+Blockchain+Whitepaper</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://uncefact.unece.org/display/uncefactpublicreview/Public+Review%3A+Blockchain+Whitepaper"><span class="markdown">Public Review: Blockchain Whitepaper</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Download all the files for Public Review for this project</span></div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484061048316362753" id="message-484061048316362753">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://blockchainforimpact.org/bfisummitjune2018/">https://blockchainforimpact.org/bfisummitjune2018/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://blockchainforimpact.org/author/bfiadmin/">bfiadmin</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://blockchainforimpact.org/bfisummitjune2018/"><span class="markdown">BFI Global Summit</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484061246363009024" id="message-484061246363009024">
+                        <div class="chatlog__content">
+                            <span class="markdown">CFTC Commissioner Rostin Behnam spoke at BFI summit: saying that the use of virtual currencies will spread and be outside traditional intermediaries such as governments and banks adding, &#8220;perhaps we are witnessing a modern miracle.&quot;
+<a href="https://www.cftc.gov/PressRoom/SpeechesTestimony/opabehnam7">https://www.cftc.gov/PressRoom/SpeechesTestimony/opabehnam7</a></span>
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">28-Aug-18 02:16 PM</span>
+
+                    <div class="chatlog__message " data-message-id="484063624306884619" id="message-484063624306884619">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://datadriven.yale.edu/data/thoughts-from-the-blockchain-for-social-impact-conference/">https://datadriven.yale.edu/data/thoughts-from-the-blockchain-for-social-impact-conference/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://datadriven.yale.edu/author/adf37/">Andrew Feierman</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://datadriven.yale.edu/data/thoughts-from-the-blockchain-for-social-impact-conference/"><span class="markdown">Thoughts from the Blockchain for Social Impact Conference</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://datadriven.yale.edu/wp-content/uploads/2018/06/BSIC18.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://datadriven.yale.edu/wp-content/uploads/2018/06/BSIC18.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484065176006688778" id="message-484065176006688778">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://news.un.org/en/story/2018/07/1014511">https://news.un.org/en/story/2018/07/1014511</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://news.un.org/en/story/2018/07/1014511"><span class="markdown">UN chief pushes for greater benefits from new technology, as he la...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">A high-profile group of tech experts has been assembled at the request of United Nations Secretary-General Ant&#243;nio Guterres, tasked with putting the benefits of digital technology to more effective use, while also protecting against unwanted or unexpected negative impacts.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2017/04/27177/image770x420cropped.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2017/04/27177/image770x420cropped.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484065380231413761" id="message-484065380231413761">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/aid-tech/the-first-baby-born-on-the-blockchain-e457abd90b49">https://medium.com/aid-tech/the-first-baby-born-on-the-blockchain-e457abd90b49</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/aid-tech/the-first-baby-born-on-the-blockchain-e457abd90b49"><span class="markdown">The first baby born &#8216;on the blockchain&#8217; &#8211; AID:Tech &#8211; Medium</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Directly tethering the digital identity of mother and child, in partnership with PharmAccess Foundation</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/0*CI-N6heV0-zcPQqs.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/0*CI-N6heV0-zcPQqs.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484065459130466314" id="message-484065459130466314">
+                        <div class="chatlog__content">
+                            <span class="markdown">Blockchain Charity Foundation established by Binance in collaboration with the President of Malta and Helen Hai of the United Nations Industrial Development Organization; intending to contribute towards the UN sustainable development goals.
+<a href="https://www.newsbtc.com/2018/07/25/binance-teams-up-with-malta-to-create-the-blockchain-charity-foundation/">https://www.newsbtc.com/2018/07/25/binance-teams-up-with-malta-to-create-the-blockchain-charity-foundation/</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="28-Aug-18 02:23 PM">(edited)</span>
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://www.newsbtc.com/author/thomasjd/">Thomas Delahunty</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.newsbtc.com/2018/07/25/binance-teams-up-with-malta-to-create-the-blockchain-charity-foundation/"><span class="markdown">Binance Teams Up with Malta to Create the Blockchain Charity Found...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Breaking new ground, one of the world&#8217;s largest cryptocurrency exchanges, Binance, has teamed up with the Maltese President&#39;s Trust to create the Binance has teamed up with the Maltese government to create a new crypto charity called the Blockchain Charity Foundation.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://s3.amazonaws.com/main-newsbtc-images/2018/07/25210655/Binance-Charity-Foundation.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://s3.amazonaws.com/main-newsbtc-images/2018/07/25210655/Binance-Charity-Foundation.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484065635937157121" id="message-484065635937157121">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="http://www.rs.undp.org/content/serbia/en/home/blog/2018/blockchain-links-serbian-diaspora-and-their-families-back-home.html">http://www.rs.undp.org/content/serbia/en/home/blog/2018/blockchain-links-serbian-diaspora-and-their-families-back-home.html</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(0,107,182,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://www.rs.undp.org/content/serbia/en/home/blog/2018/blockchain-links-serbian-diaspora-and-their-families-back-home.html"><span class="markdown">Blockchain links Serbian diaspora and their families back home | U...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The new UNDP&#8217;s strategic approach is relying on innovation and experimentation to ensure that key development actors are able to use new technologies to drive the progress towards the achievement of the Agenda 2030 and the global Sustainable Development Goals. To be able to...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="http://www.undp.org/content/dam/serbia/img/undp_rs_BlockchainBlogPhoto.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg">
+                                                <img class="chatlog__embed-thumbnail" src="http://www.undp.org/content/dam/serbia/img/undp_rs_BlockchainBlogPhoto.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484065739423219712" id="message-484065739423219712">
+                        <div class="chatlog__content">
+                            <span class="markdown">9/13 Global Blockchain Conference to be at UN Headquarters in NY; bringing together leaders in government, finance, cryptocurrency, and blockchain to form a global collaborative ecosystem, discuss global Blockchain regulation and plan cooperation <a href="http://www.gbccglobal.net">http://www.gbccglobal.net</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484065817034620957" id="message-484065817034620957">
+                        <div class="chatlog__content">
+                            <span class="markdown">---October 24th&#8212;World Blockchain Organization brings leaders of blockchain industry along with heads of state and senior government officials to discuss Blockchains for Sustainable Development. <a href="http://www.unwbo.org/#whoweare">http://www.unwbo.org/#whoweare</a></span>
+
+                                <span class="chatlog__edited-timestamp" title="28-Aug-18 02:24 PM">(edited)</span>
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(7,36,117,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="http://www.unwbo.org/author/dw258/">dw258</a>
+                                                    </span>
+                                            </div>
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="http://www.unwbo.org/"><span class="markdown">HOME</span></a>
+                                            </div>
+
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484065977777258497" id="message-484065977777258497">
+                        <div class="chatlog__content">
+                            <span class="markdown">Speaking at the event: Changpeng &#8220;CZ&#8221; Zhao of Binance, Louis de Bruin of IBM, and Galia Benartzi of Consensys Social Impact; with presentations from NGO and UN leaders with views on the sustainable development implications of blockchain technologies.
+<a href="http://www.b4sd.net/">http://www.b4sd.net/</a></span>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="484066090566287373" id="message-484066090566287373">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.crowdfundinsider.com/2018/08/137764-blockchain-for-sustainable-development-un-event-focuses-on-public-benefit-of-dlt/">https://www.crowdfundinsider.com/2018/08/137764-blockchain-for-sustainable-development-un-event-focuses-on-public-benefit-of-dlt/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.crowdfundinsider.com/2018/08/137764-blockchain-for-sustainable-development-un-event-focuses-on-public-benefit-of-dlt/"><span class="markdown">Blockchain for Sustainable Development: UN Event Focuses on Public...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">This fall, a diverse group of global blockchain industry types will be convening at the United Nations to discuss the&#160;role of Blockchains for Sustainable Development or &#39;B4SD.&#39; While finance is deemed the hot sector of distributed ledger technology, the benefits of this tech...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn.crowdfundinsider.com/wp-content/uploads/2018/08/geneva-lake-switzerland.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn.crowdfundinsider.com/wp-content/uploads/2018/08/geneva-lake-switzerland.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">28-Aug-18 02:35 PM</span>
+
+                    <div class="chatlog__message " data-message-id="484068500625817610" id="message-484068500625817610">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://medium.com/@michaelx777/bitshares-taking-remittance-industry-by-storm-72c5c3d09433">https://medium.com/@michaelx777/bitshares-taking-remittance-industry-by-storm-72c5c3d09433</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://medium.com/@michaelx777/bitshares-taking-remittance-industry-by-storm-72c5c3d09433"><span class="markdown">BitShares Taking Remittance Industry By Storm &#8211; Michael Taggart ...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Last week Bitcoin dominated headlines after hitting all time highs and breaking the $10,000 barrier.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://cdn-images-1.medium.com/max/1200/1*ZVZIw527N1lZjrnWneyVsw.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://cdn-images-1.medium.com/max/1200/1*ZVZIw527N1lZjrnWneyVsw.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">27-Sep-18 10:47 PM</span>
+
+                    <div class="chatlog__message " data-message-id="495064060723724288" id="message-495064060723724288">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cloud.coinfeed.com/share/post/149993915370524/641537052498/25481">https://cloud.coinfeed.com/share/post/149993915370524/641537052498/25481</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://cloud.coinfeed.com/share/post/149993915370524/641537052498/25481"><span class="markdown">World Economic Forum Outlines Over 65 Blockchain Use Cases for Env...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The World Economic Forum (WEF) foundation has outlined more than 65 blockchain use cases for solving the &#8220;most pressing&#8221; environmental challenges, in a report published September 14.
+In the report, titled &#8220;Building Block(chain)s for a Better Planet,&#8221; the Switzerland-b...</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://thebitcoinnews.com/wp-content/uploads/2018/09/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy82YjRkNmEwZDNjMzMyMmJhZjg5M2Y0Zjc0M2Q3Y2JmYS5qcGc.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://thebitcoinnews.com/wp-content/uploads/2018/09/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy82YjRkNmEwZDNjMzMyMmJhZjg5M2Y0Zjc0M2Q3Y2JmYS5qcGc.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">28-Sep-18 07:35 PM</span>
+
+                    <div class="chatlog__message " data-message-id="495377933284671509" id="message-495377933284671509">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.ccn.com/unicef-france-accepts-cryptocurrency-donations-for-humanitarian-activities/">https://www.ccn.com/unicef-france-accepts-cryptocurrency-donations-for-humanitarian-activities/</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.ccn.com/unicef-france-accepts-cryptocurrency-donations-for-humanitarian-activities"><span class="markdown">UNICEF France Accepts Cryptocurrency Donations for Humanitarian Ac...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Whatever one thinks of &#8216;babies are dying from lack of bitcoin&#8217; comments attributed to a certain cryptocurrency evangelist, you are now no longer limited to fiat currencies if you want to assist needy children.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://www.ccn.com/wp-content/uploads/2018/09/UNICEF.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://www.ccn.com/wp-content/uploads/2018/09/UNICEF.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">11-Mar-19 09:58 PM</span>
+
+                    <div class="chatlog__message " data-message-id="554845686605152278" id="message-554845686605152278">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://cointelegraph.com/news/un-partnership-to-roll-out-blockchain-based-telemedicine-telepsychology-in-east-africa">https://cointelegraph.com/news/un-partnership-to-roll-out-blockchain-based-telemedicine-telepsychology-in-east-africa</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://cointelegraph.com/news/un-partnership-to-roll-out-blockchain-based-telemedicine-telepsychology-in-east-africa"><span class="markdown">UN Partnership to Roll Out Blockchain-Based Telemedicine, Telepsyc...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">The UN Office on Drugs and Crime has partnered with blockchain-based telemedicine and telepsychology firm doc.com.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://images.cointelegraph.com/images/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy83NGVlZWZhNzA1NWY5ZDliMTA3MmFiMzJkYTVjYTQ0Yi5qcGc=.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://images.cointelegraph.com/images/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy83NGVlZWZhNzA1NWY5ZDliMTA3MmFiMzJkYTVjYTQ0Yi5qcGc=.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="554846023621804063" id="message-554846023621804063">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://www.forbes.com/sites/sarahhansen/2018/12/10/unicef-invests-in-six-emerging-market-blockchain-startups/#4d30b04d6ea7">https://www.forbes.com/sites/sarahhansen/2018/12/10/unicef-invests-in-six-emerging-market-blockchain-startups/#4d30b04d6ea7</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.forbes.com/sites/sarahhansen/2018/12/10/unicef-invests-in-six-emerging-market-blockchain-startups/"><span class="markdown">UNICEF Invests In Six Emerging Market Blockchain Startups</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">UNICEF announces investments in six emerging market blockchain startups.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://thumbor.forbes.com/thumbor/600x315/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F179537828%2F960x0.jpg">
+                                                <img class="chatlog__embed-thumbnail" src="https://thumbor.forbes.com/thumbor/600x315/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F179537828%2F960x0.jpg" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chatlog__message " data-message-id="554846082002059265" id="message-554846082002059265">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://twitter.com/EUBlockchain/status/1070975556303417344">https://twitter.com/EUBlockchain/status/1070975556303417344</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+                                            <div class="chatlog__embed-author">
+                                                    <img class="chatlog__embed-author-icon" src="https://pbs.twimg.com/profile_images/962756915569790976/59YQm7Zj_bigger.jpg" />
+
+                                                    <span class="chatlog__embed-author-name">
+                                                            <a class="chatlog__embed-author-name-link" href="https://twitter.com/EUBlockchain">EU Blockchain (@EUBlockchain)</a>
+                                                    </span>
+                                            </div>
+
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Discover our latest report on #Blockchain for #Government and Public Services. Just released here:
+
+<a href="https://t.co/GCyropVR8i">https://t.co/GCyropVR8i</a></span></div>
+
+                                            <div class="chatlog__embed-fields">
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Retweets</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">168</span></div>
+                                                    </div>
+                                                    <div class="chatlog__embed-field  chatlog__embed-field--inline ">
+                                                            <div class="chatlog__embed-field-name"><span class="markdown">Likes</span></div>
+                                                            <div class="chatlog__embed-field-value"><span class="markdown">267</span></div>
+                                                    </div>
+                                            </div>
+                                    </div>
+
+                                </div>
+
+                                    <div class="chatlog__embed-image-container">
+                                        <a class="chatlog__embed-image-link" href="https://pbs.twimg.com/media/DtzdkF3XgAA3ZDu.jpg:large">
+                                            <img class="chatlog__embed-image" src="https://pbs.twimg.com/media/DtzdkF3XgAA3ZDu.jpg:large" />
+                                        </a>
+                                    </div>
+
+                                    <div class="chatlog__embed-footer">
+                                                <img class="chatlog__embed-footer-icon" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" />
+
+                                        <span class="chatlog__embed-footer-text">
+                                                    Twitter
+                                                    
+
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">06-Jun-19 12:53 PM</span>
+
+                    <div class="chatlog__message " data-message-id="586236301083410452" id="message-586236301083410452">
+                        <div class="chatlog__content">
+                            <span class="markdown">Why Blockchain and Crypto Are Picking Up Steam in Tiny Countries | News &amp; Opinion | PCMag.com
+
+<a href="https://www.pcmag.com/news/368788/why-blockchain-and-crypto-are-picking-up-steam-in-tiny-count">https://www.pcmag.com/news/368788/why-blockchain-and-crypto-are-picking-up-steam-in-tiny-count</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(255,255,255,1)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://www.pcmag.com/news/368788/why-blockchain-and-crypto-are-picking-up-steam-in-tiny-count"><span class="markdown">Why Blockchain and Crypto Are Picking Up Steam in Tiny Countries</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">Blockchain can be hard to wrap your head around, but at this week&#39;s Blockchain for Impact Summit, small countries like Liechtenstein, Monaco, and the Marshall Islands explained how they&#39;re making the tech work for them, from regulation to government-backed tokens.</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://assets.pcmag.com/media/images/649896-un-headquarters.jpg?thumb=y&width=810&height=456">
+                                                <img class="chatlog__embed-thumbnail" src="https://assets.pcmag.com/media/images/649896-un-headquarters.jpg?thumb=y&width=810&height=456" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="chatlog__message-group">
+            <div class="chatlog__author-avatar-container">
+                <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png" />
+            </div>
+            <div class="chatlog__messages">
+                <span class="chatlog__author-name" title="&#10697;infominer#2551" data-user-id="331870764024332288">&#10697;infominer</span>
+
+
+                <span class="chatlog__timestamp">11-Aug-19 03:21 AM</span>
+
+                    <div class="chatlog__message " data-message-id="610010006905028608" id="message-610010006905028608">
+                        <div class="chatlog__content">
+                            <span class="markdown"><a href="https://podcasts.apple.com/us/podcast/epicenter-learn-about-blockchain-ethereum-bitcoin-distributed/id792338939?i=1000437366832">https://podcasts.apple.com/us/podcast/epicenter-learn-about-blockchain-ethereum-bitcoin-distributed/id792338939?i=1000437366832</a></span>
+
+                        </div>
+
+
+                        <div class="chatlog__embed">
+                            <div class="chatlog__embed-color-pill" style="background-color: rgba(79,84,92,255)"></div>
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://podcasts.apple.com/us/podcast/epicenter-learn-about-blockchain-ethereum-bitcoin-distributed/id792338939?i=1000437366832"><span class="markdown">&#8206;Epicenter - Learn about Blockchain, Ethereum, Bitcoin and Distr...</span></a>
+                                            </div>
+
+                                        <div class="chatlog__embed-description"><span class="markdown">&#8206;Show Epicenter - Learn about Blockchain, Ethereum, Bitcoin and Distributed Technologies, Ep Christopher Fabian &amp; Shaun Conway: Unicef &amp; Ixo: Towards More Transparent Humanitarian Projects - Dec 19, 2017</span></div>
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://is3-ssl.mzstatic.com/image/thumb/Podcasts123/v4/a4/11/c9/a411c9d1-0535-8380-ad27-640588030f8e/mza_6589343119809855088.jpg/1200x630wp.png">
+                                                <img class="chatlog__embed-thumbnail" src="https://is3-ssl.mzstatic.com/image/thumb/Podcasts123/v4/a4/11/c9/a411c9d1-0535-8380-ad27-640588030f8e/mza_6589343119809855088.jpg/1200x630wp.png" />
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+</div>
+
+</body>
+</html>
