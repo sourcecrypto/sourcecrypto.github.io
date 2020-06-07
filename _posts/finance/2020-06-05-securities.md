@@ -1,8 +1,10 @@
 ---
 layout: single
-title: Global Securities Regulations
+title: Curating Blockchain Securities 
 description: Curated list about securities laws across the Globe
 toc_sticky: true
+categories: ["Finance"]
+tags: ["Regulation"]
 published: true
 ---
 
@@ -370,6 +372,23 @@ published: true
 * [CoinList](https://coinlist.co/)
   > CoinList is where the best crypto projects in the world raise capital and grow their communities
 
+## NASAA 
+
+* [North American Securities Administrators Association (NASAA)](https://www.nasaa.org/about/)
+  > represents state and provincial securities regulators in the United States, Canada and Mexico.
+  > 
+  > NASAA members are the closest regulators to local communities, small businesses and the investing public throughout North America. Members of NASAA have a multifaceted mission of protecting investors from fraud and abuse, conducting investor education, providing guidance and assistance via the established regulatory framework, and ultimately helping power the North American economy by ensuring the integrity of the financial markets.
+* [You searched for crypto - NASAA](https://www.nasaa.org/?s=crypto)
+* [NASAA Updates Coordinated Crypto Crackdown - NASAA](http://www.nasaa.org/45901/nasaa-updates-coordinated-crypto-crackdown/)
+  > August 28, 2018:Borg: “State and provincial securities regulators are committing significant regulatory resources to protect investors from financial harm involving fraudulent ICOs and cryptocurrency-related investment products and also are raising awareness among industry ...
+* [Informed Investor Advisory: Cryptocurrencies - NASAA](https://www.nasaa.org/44848/informed-investor-advisory-cryptocurrencies/?qoid=investor-education)
+  > Before you jump into the crypto craze, be mindful that cryptocurrencies and related financial products may be nothing more than public facing fronts for Ponzi schemes and other frauds. And because these products do not fall neatly into the existing federal/state regulatory fr..
+* [NASAA Releases Annual Enforcement Report - NASAA](https://www.nasaa.org/46133/nasaa-releases-annual-enforcement-report-4/?qoid=newsroom)
+  > Pieciak: “The results from this year’s enforcement survey demonstrate that state securities regulators continue to play a critical role in protecting investors and holding securities law violators responsible for the damage that they cause to individual investors specific...
+* [STATE AND PROVINCIAL SECURITIES REGULATORS CONDUCT COORDINATED INTERNATIONAL CRYPTO CRACKDOWN](https://www.nasaa.org/45121/state-and-provincial-securities-regulators-conduct-coordinated-international-crypto-crackdown-2/)
+  > May 21, 2018:Borg: “The actions announced today are just the tip of the iceberg."
+* [Mike Pieciak: NASAA – A “To The Moon” Approach to Regulating...](https://epicenter.tv/episode/285/)
+  > We're joined by Mike Pieciak, President of the North American Securities Administrators Association. In 2018, “Operation Cryptosweep” investigated over 200 ICOs for potential investor fraud.
 
 ## DEX
 

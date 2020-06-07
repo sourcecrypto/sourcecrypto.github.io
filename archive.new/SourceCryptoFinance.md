@@ -47,6 +47,7 @@ published: false
   > 2. Educate yourself and then let your lawyer know you understand the basics. Today there are numerous high-quality, free templates and other resources available for the most common legal tasks facing startups (see links below). If you need new Terms of Service, for example, carefully read one of the many templates available, insert comments where you see fit, and pass on this marvelous example of intellectual aspiration to your attorney for final drafting. This will let the attorney know you have a basic understanding of what the assignment entails and at the very least reduce perceived asymmetries of information, improving your relative bargaining position.
 * [OpenLaw — A free legal repository](https://openlaw.io/)
   > We are home to a passionate group of people, technologists, and dreamers committed to rebuilding the legal industry.
+
 ## 📑 how-to-earn-crypto
 
 [https://medium.com/@OpenNode/opennode-affiliate-program-262ad1d42ffc](https://medium.com/@OpenNode/opennode-affiliate-program-262ad1d42ffc) 
