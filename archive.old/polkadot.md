@@ -1,16 +1,7 @@
 # 🔀-polkadot
 
-![https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png](https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png)
 
-Source⧉Crypto
 
-🔀-polkadot
-
-5 messages
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 02-Aug-19 01:23 PM
 
 [https://medium.com/@juliankoh/5-differences-between-cosmos-polkadot-67f09535594b](https://medium.com/@juliankoh/5-differences-between-cosmos-polkadot-67f09535594b)
 
@@ -32,15 +23,11 @@ At the Subzero conference in Berlin, Ashley Tyson, the cofounder of the Web 3 Fo
 
 This article is the first in a series of articles exploring consensus and finality in Polkadot.
 
-![https://miro.medium.com/max/1200/1*TYJ-HNyfheirjy89a9hUaw.png](https://miro.medium.com/max/1200/1*TYJ-HNyfheirjy89a9hUaw.png)
-
 [https://medium.com/polkadot-network/consensus-and-finality-in-blockchains-21b1f634fd00](https://medium.com/polkadot-network/consensus-and-finality-in-blockchains-21b1f634fd00)
 
 [From Bitcoin to Polkadot: A brief history of consensus and finalit...](https://medium.com/polkadot-network/consensus-and-finality-in-blockchains-21b1f634fd00)
 
 This piece will explore the need for fault tolerant consensus algorithms in blockchain networks and where development is headed in the near future.
-
-![https://miro.medium.com/max/1200/1*oBj-Anx6PDXVJ9sGuHzzXA.png](https://miro.medium.com/max/1200/1*oBj-Anx6PDXVJ9sGuHzzXA.png)
 
 [https://tokenchannel.net/2019/07/20/difference-between-cosmos-and-polkadot-explained-by-senior-developer/](https://tokenchannel.net/2019/07/20/difference-between-cosmos-and-polkadot-explained-by-senior-developer/)
 

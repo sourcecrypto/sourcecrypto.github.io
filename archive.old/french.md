@@ -1,22 +1,11 @@
 # 🗃-french
 
-![https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png](https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png)
 
-Source⧉Crypto
 
-🗃-french
-
-9 messages
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 27-Apr-19 10:13 AM
 
 [https://discord.gg/Xsp8Ydt](https://discord.gg/Xsp8Ydt)
 
-![https://cdn.discordapp.com/avatars/403316325461786625/ce0c97fd10328afb4edfe41c7e0bd753.png](https://cdn.discordapp.com/avatars/403316325461786625/ce0c97fd10328afb4edfe41c7e0bd753.png)
 
-cryptocrypto 27-Apr-19 06:56 PM
 
 TRADING : LEXIQUE EN FRANCAIS [https://cryptoast.fr/lexique/](https://cryptoast.fr/lexique/)
 
@@ -26,13 +15,9 @@ TRADING : LEXIQUE EN FRANCAIS [https://cryptoast.fr/lexique/](https://cryptoast.
 
 Découvrez notre lexique composé de plus de 100 définitions sur les crypto-monnaies, Bitcoin et la blockchain. Devenez un expert !
 
-![https://cryptoast.fr/wp-content/uploads/2017/12/450x300-Mod%C3%A8les-Fiches-Tutos-Guides-1.png](https://cryptoast.fr/wp-content/uploads/2017/12/450x300-Mod%C3%A8les-Fiches-Tutos-Guides-1.png)
 
-![https://cdn.discordapp.com/avatars/403316325461786625/ce0c97fd10328afb4edfe41c7e0bd753.png](https://cdn.discordapp.com/avatars/403316325461786625/ce0c97fd10328afb4edfe41c7e0bd753.png)
 
-cryptocrypto 27-Apr-19 07:18 PM
-
------------------------------------------------------ L'essentiel avant de démarrer ou pour commencer aux cryptomonnaies ,l'histoire du Bitcoin, ce qu'est une cryptomonnaie,un smartcontract ,etc. Auteur : Alexandre Augrain [https://www.frandroid.com/crypto-monnaie/455178_tout-ce-que-vous-devez-savoir-sur-les-crypto-monnaies-bitcoin-ethereum-dao-ico-smart-contracts](https://www.frandroid.com/crypto-monnaie/455178_tout-ce-que-vous-devez-savoir-sur-les-crypto-monnaies-bitcoin-ethereum-dao-ico-smart-contracts) (edited)
+----------------------------------------------------- L'essentiel avant de démarrer ou pour commencer aux cryptomonnaies ,l'histoire du Bitcoin, ce qu'est une cryptomonnaie,un smartcontract ,etc. Auteur : Alexandre Augrain [https://www.frandroid.com/crypto-monnaie/455178_tout-ce-que-vous-devez-savoir-sur-les-crypto-monnaies-bitcoin-ethereum-dao-ico-smart-contracts](https://www.frandroid.com/crypto-monnaie/455178_tout-ce-que-vous-devez-savoir-sur-les-crypto-monnaies-bitcoin-ethereum-dao-ico-smart-contracts)
 
 [Alexandre Augrain](https://www.frandroid.com/author/alexandrea)
 
@@ -40,31 +25,19 @@ cryptocrypto 27-Apr-19 07:18 PM
 
 La crypto-monnaie pour les nuls Pour ne pas perdre tout le monde, commençons par une explication simple, sans jargon technique. La monnaie
 
-![https://images.frandroid.com/wp-content/uploads/2017/08/visuel-article.png](https://images.frandroid.com/wp-content/uploads/2017/08/visuel-article.png)
-
-![https://twemoji.maxcdn.com/2/72x72/1f60b.png](https://twemoji.maxcdn.com/2/72x72/1f60b.png)
-
 1
 
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
 
-⧉infominer 18-Jun-19 08:34 AM
 
 [https://twitter.com/thebitcoinrabbi/status/1140960384557428736?s=12](https://twitter.com/thebitcoinrabbi/status/1140960384557428736?s=12)
-
-![https://pbs.twimg.com/profile_images/1111638456453734400/c3nqI5Hu_bigger.jpg](https://pbs.twimg.com/profile_images/1111638456453734400/c3nqI5Hu_bigger.jpg)
 
 [The Bitcoin Rabbi (@thebitcoinrabbi)](https://twitter.com/thebitcoinrabbi)
 
 Maintenant en vente! La Monnaie Bitcoin: L'histoire de Bitville Découvrant la Bonne Monnaie La Monnaie Bitcoin est une histoire pour tous les âges, ce qui permet de répondre à la question: Pourquoi Bitcoin? [https://t.co/9Yp34rxL7x](https://t.co/9Yp34rxL7x)
 
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
 Twitter
 
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
 
-⧉infominer 18-Aug-19 03:07 AM
 
 [https://www.youtube.com/channel/UCNS6lmVZ-Oo1-qP8wTgjYAQ](https://www.youtube.com/channel/UCNS6lmVZ-Oo1-qP8wTgjYAQ)
 
@@ -74,13 +47,9 @@ Chaîne Youtube du site Bitcoin.fr
 
 [https://yt3.ggpht.com/a/AGF-l7_GX43-Uo1KRFe9JfTDqD-lHkwweR8l_Hea_A=s900-c-k-c0xffffffff-no-rj-mo](https://yt3.ggpht.com/a/AGF-l7_GX43-Uo1KRFe9JfTDqD-lHkwweR8l_Hea_A=s900-c-k-c0xffffffff-no-rj-mo)
 
-![https://cdn.discordapp.com/avatars/403316325461786625/ce0c97fd10328afb4edfe41c7e0bd753.png](https://cdn.discordapp.com/avatars/403316325461786625/ce0c97fd10328afb4edfe41c7e0bd753.png)
 
-cryptocrypto 26-Oct-19 12:52 AM
 
 L'ordre et le Chaos Théorie Edgard MORIN
-
-![https://twemoji.maxcdn.com/2/72x72/1f4af.png](https://twemoji.maxcdn.com/2/72x72/1f4af.png)
 
 1
 
