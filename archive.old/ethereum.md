@@ -1,1541 +1,542 @@
-# 🦄-ethereum
-
-![https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png](https://cdn.discordapp.com/icons/476456736031506442/0de31e0099c8b1b11666e24438e39a2f.png)
-
-Source⧉Crypto
-
-🦄-ethereum
-
-125 messages
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 10-Aug-18 07:27 PM
-
-[https://blog.gridplus.io/introducing-trusted-relay-networks-6c168f72a6f6](https://blog.gridplus.io/introducing-trusted-relay-networks-6c168f72a6f6)
-
-[Introducing Trusted Relay Networks – Grid+](https://blog.gridplus.io/introducing-trusted-relay-networks-6c168f72a6f6)
-
-(A lightweight scaling solution for Ethereum)
-
-![https://cdn-images-1.medium.com/max/1200/1*TTQ54P6hgRI0zN7jNJdIkQ.jpeg](https://cdn-images-1.medium.com/max/1200/1*TTQ54P6hgRI0zN7jNJdIkQ.jpeg)
-
-[https://entethalliance.org/worlds-largest-blockchain-initiative-launches-three-working-groups/](https://entethalliance.org/worlds-largest-blockchain-initiative-launches-three-working-groups/)
-
-[World's Largest Blockchain Initiative Launches Three Working Group...](https://entethalliance.org/worlds-largest-blockchain-initiative-launches-three-working-groups/)
-
-Enterprise Ethereum Alliance Members Request Digital Identity, Energy and MultiPlatform Working Groups NEW YORK, N.Y., USA – December 19, 2017 ––The Enterprise Ethereum Alliance (EEA), the world’s largest open-source blockchain initiative, launched today three new mem...
-
-![https://entethalliance.org/wp-content/uploads/2017/12/eea-press-release-bg.jpg](https://entethalliance.org/wp-content/uploads/2017/12/eea-press-release-bg.jpg)
-
-[https://themerkle.com/what-is-ethereum-fog/](https://themerkle.com/what-is-ethereum-fog/)
-
-[JP Buntinx](https://nulltx.com/author/writer10/)
-
-[What Is Ethereum Fog?](https://themerkle.com/what-is-ethereum-fog/)
-
-![https://nulltx.com/wp-content/uploads/shutterstock_533311585.jpg](https://nulltx.com/wp-content/uploads/shutterstock_533311585.jpg)
-
-[https://ethresear.ch/t/future-compatibility-for-sharding/386](https://ethresear.ch/t/future-compatibility-for-sharding/386)
-
-[Future-compatibility for sharding](https://ethresear.ch/t/future-compatibility-for-sharding/386)
-
-In my opinion, the current sharding spec as described here [https://github.com/ethereum/sharding/blob/develop/docs/doc.md](https://github.com/ethereum/sharding/blob/develop/docs/doc.md) is basically already good enough to get us to thousands of transactions per second with reasonable security properties, as well as the ability to add cross...
-
-![https://ethresear.ch/uploads/default/original/horzlogo.png](https://ethresear.ch/uploads/default/original/horzlogo.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 10-Aug-18 08:40 PM
-
-[https://medium.com/blockchannel/life-cycle-of-an-ethereum-transaction-e5c66bae0f6e](https://medium.com/blockchannel/life-cycle-of-an-ethereum-transaction-e5c66bae0f6e)
-
-[Life Cycle of an Ethereum Transaction – BlockChannel – Medium](https://medium.com/blockchannel/life-cycle-of-an-ethereum-transaction-e5c66bae0f6e)
-
-Learn How an Ethereum Transaction is Created and Propagated to the Network
-
-![https://cdn-images-1.medium.com/max/1200/1*9DwxWSpfNh1kcGzjI2-rhA.png](https://cdn-images-1.medium.com/max/1200/1*9DwxWSpfNh1kcGzjI2-rhA.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 10-Aug-18 09:35 PM
-
-[https://arxiv.org/abs/1710.09437](https://arxiv.org/abs/1710.09437) - Casper Research Paper (edited)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 10-Aug-18 11:04 PM
-
-[https://medium.com/blockchannel/the-redemptive-greed-that-will-drive-decentralization-generalized-state-channels-in-depth-part-666bd6244a28](https://medium.com/blockchannel/the-redemptive-greed-that-will-drive-decentralization-generalized-state-channels-in-depth-part-666bd6244a28)
-
-[The Redemptive Greed That Will Drive Decentralization & Generalize...](https://medium.com/blockchannel/the-redemptive-greed-that-will-drive-decentralization-generalized-state-channels-in-depth-part-666bd6244a28)
-
-An In-Depth Look into the Growing Ethereum Scalability Toolset
-
-![https://cdn-images-1.medium.com/max/1200/1*Ito-A4zYXUARrHgk04c9KQ.jpeg](https://cdn-images-1.medium.com/max/1200/1*Ito-A4zYXUARrHgk04c9KQ.jpeg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 11-Aug-18 08:59 PM
-
-[https://github.com/ethereum/wiki/wiki/White-Paper](https://github.com/ethereum/wiki/wiki/White-Paper)
-
-[ethereum/wiki](https://github.com/ethereum/wiki/wiki/White-Paper)
-
-wiki - The Ethereum Wiki
-
-[https://avatars3.githubusercontent.com/u/6250754?s=400&v=4](https://avatars3.githubusercontent.com/u/6250754?s=400&v=4)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 13-Aug-18 01:23 PM
-
-[https://vitalik.ca/](https://vitalik.ca/)
-
-[Vitalik Buterin's website](https://vitalik.ca/)
-
-My stuff goes here.
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 13-Aug-18 10:11 PM
-
-[https://bitcoinexchangeguide.com/ethereum-erc725-blockchain-based-self-sovereign-identity-management/](https://bitcoinexchangeguide.com/ethereum-erc725-blockchain-based-self-sovereign-identity-management/)
-
-[Ethereum ERC725: Blockchain-Based Self-Sovereign Identity Management](https://bitcoinexchangeguide.com/ethereum-erc725-blockchain-based-self-sovereign-identity-management/)
-
-What on Earth is ERC725? The Answer to the Question of Self-Sovereign Identity Management on Blockchain The one response that dApps, and the blockchain world for that matter, can give to the world …
-
-![https://bitcoinexchangeguide.com/wp-content/uploads/2018/08/Ethereum-ERC725-Blockchain-Based-Self-Sovereign-Identity-Management.jpg](https://bitcoinexchangeguide.com/wp-content/uploads/2018/08/Ethereum-ERC725-Blockchain-Based-Self-Sovereign-Identity-Management.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 14-Aug-18 01:59 PM
-
-[https://medium.com/@eric.conner/a-case-for-ethereum-block-reward-reduction-in-constantinople-eip-1234-25732431fc77](https://medium.com/@eric.conner/a-case-for-ethereum-block-reward-reduction-in-constantinople-eip-1234-25732431fc77)
-
-[A Case for Ethereum Block Reward Reduction to 2 ETH in Constantino...](https://medium.com/@eric.conner/a-case-for-ethereum-block-reward-reduction-in-constantinople-eip-1234-25732431fc77)
-
-Cryptocurrency supply models have long been a hot topic of conversation and no one has the “right” answer. However, I do think there are…
-
-![https://cdn-images-1.medium.com/max/1200/1*frg_O0SWNC6hLtY9I3Ep2g.png](https://cdn-images-1.medium.com/max/1200/1*frg_O0SWNC6hLtY9I3Ep2g.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 14-Aug-18 02:28 PM
-
-[https://medium.com/@avsa/ecf-and-ethprize-band-together-to-help-fund-universal-logins-demo-599d0a05139d](https://medium.com/@avsa/ecf-and-ethprize-band-together-to-help-fund-universal-logins-demo-599d0a05139d)
-
-[ECF and ETHPrize band together to help fund Universal Logins Demo](https://medium.com/@avsa/ecf-and-ethprize-band-together-to-help-fund-universal-logins-demo-599d0a05139d)
-
-I’ve been helping people launch ethereum projects for a long time now, so I usually anticipate all the same questions: yes, users need…
-
-![https://cdn-images-1.medium.com/max/1200/1*xqwSnm_6v9QNHtiRbuSwZw.png](https://cdn-images-1.medium.com/max/1200/1*xqwSnm_6v9QNHtiRbuSwZw.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 16-Aug-18 05:46 PM
-
-[https://twitter.com/VitalikButerin/status/1029900695925706753](https://twitter.com/VitalikButerin/status/1029900695925706753)
-
-![https://pbs.twimg.com/profile_images/977496875887558661/L86xyLF4_bigger.jpg](https://pbs.twimg.com/profile_images/977496875887558661/L86xyLF4_bigger.jpg)
-
-[Vitalik Non-giver of Ether (@VitalikButerin)](https://twitter.com/VitalikButerin)
-
-1. Today I am going to make a tweet storm explaining the history and state of Ethereum's Casper research, including the FFG vs CBC wars, the hybrid => full switch, the role of randomness, mechanism design issues, and more.
-
-Retweets
-
-997
-
-Likes
-
-2888
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 16-Aug-18 09:09 PM
-
-[https://docs.google.com/spreadsheets/d/1cexYBmRltx_PSkzZV-3YYcsyetcouFdwo6hLcmqkKUQ/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1cexYBmRltx_PSkzZV-3YYcsyetcouFdwo6hLcmqkKUQ/edit?usp=sharing)
-
-[Layer2 Source Directory](https://docs.google.com/spreadsheets/d/1cexYBmRltx_PSkzZV-3YYcsyetcouFdwo6hLcmqkKUQ/edit?usp=sharing)
-
-Ethereum Projects Ethereum Projects Project Name, Rep Name, Position, Twitter, Medium, Reddit Aragon Project, https:// twitter. com/ aragonproject, https:// blog. aragon. one, https:// www. reddit. com/ r/ aragonproject/ Luis Cuende, Project Lead, https:// twitter. com/ ...
-
-[https://lh5.googleusercontent.com/P0qeHwTJdoXZlRIbT_crbMyn3OF-Zj14sZOSlhyWaf9m5wF4OkkBCWYiDrm8pzhDMwuSag=w1200-h630-p](https://lh5.googleusercontent.com/P0qeHwTJdoXZlRIbT_crbMyn3OF-Zj14sZOSlhyWaf9m5wF4OkkBCWYiDrm8pzhDMwuSag=w1200-h630-p)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 18-Aug-18 09:01 PM
-
-[https://www.madewithtea.com/solutions-to-extract-data-from-ethereum.html](https://www.madewithtea.com/solutions-to-extract-data-from-ethereum.html)
-
-[Solutions to Extract Data from Ethereum](https://www.madewithtea.com/solutions-to-extract-data-from-ethereum.html)
-
-Ethereum is easy and fun, but it is also relatively new. The developer solutions today are going through the teething stage - so, itâ€™s new and cool but also slightly painful. As an example, take data extraction from the Ethereum blockchain. Iâ€™ve been keeping an ...
-
-![https://www.madewithtea.com/theme/img/twittercard.jpg](https://www.madewithtea.com/theme/img/twittercard.jpg)
-
-[https://runtimeverification.com/blog/erc-20-verification/](https://runtimeverification.com/blog/erc-20-verification/)
-
-[Brian Marick](https://runtimeverification.com/blog/author/brianmarick/)
-
-[Formal verification of ERC-20 contracts](https://runtimeverification.com/blog/erc-20-verification/)
-
-[https://blog.zeppelin.solutions/deconstructing-a-solidity-contract-part-i-introduction-832efd2d7737](https://blog.zeppelin.solutions/deconstructing-a-solidity-contract-part-i-introduction-832efd2d7737)
-
-[Deconstructing a Solidity Contract —Part I: Introduction](https://blog.zeppelin.solutions/deconstructing-a-solidity-contract-part-i-introduction-832efd2d7737)
-
-By Alejandro Santander in collaboration with Leo Arias.
-
-![https://cdn-images-1.medium.com/max/1200/1*qltEpeeRd87SuZdukANmhw.png](https://cdn-images-1.medium.com/max/1200/1*qltEpeeRd87SuZdukANmhw.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 19-Aug-18 04:21 AM
-
-[https://dappradar.com/](https://dappradar.com/)
-
-[DappRadar - Ranked list of blockchain dapps](https://dappradar.com/)
-
-DappRadar provides information and insights about all the existing dapps! At the tap of your finger, find the most successful and used decentralized games, casinos, and marketplaces, among others.
-
-![https://dappradar.com/og-dappradar.jpg](https://dappradar.com/og-dappradar.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 21-Aug-18 05:44 PM
-
-[https://www.reddit.com/r/ethtrader/comments/9937b1/terrible_token_tuesday_same_plot_as_old_yeller/](https://www.reddit.com/r/ethtrader/comments/9937b1/terrible_token_tuesday_same_plot_as_old_yeller/) This is a weekly reddit post (by the concourse community) to note particularly bad ethereum tokens.
-
-[r/ethtrader - Terrible Token Tuesday - Same Plot as Old Yeller, Bu...](https://www.reddit.com/r/ethtrader/comments/9937b1/terrible_token_tuesday_same_plot_as_old_yeller/)
-
-60 votes and 9 comments so far on Reddit
-
-![https://i.redditmedia.com/JYg19V04xgDT0qNQseJzdKD5Z4V-CKP3vYCVIqKyCdg.jpg?s=3479e16a756f4eb6ba646d055958e567](https://i.redditmedia.com/JYg19V04xgDT0qNQseJzdKD5Z4V-CKP3vYCVIqKyCdg.jpg?s=3479e16a756f4eb6ba646d055958e567)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 22-Aug-18 11:23 PM
-
-See Also #🦄-ethereum-dev for developing with ethereum resources (edited)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 22-Aug-18 11:43 PM
-
-[https://bitsonline.com/ethereum-foundation-new-grants/](https://bitsonline.com/ethereum-foundation-new-grants/)
-
-[Ethereum Foundation Eyes Future With New Round of Grants](https://bitsonline.com/ethereum-foundation-new-grants/)
-
-Going into the weekend, the Ethereum Foundation declared its 'Wave 3' grants for projects in the Ethereum ecosystem focused on scaling, security, education, and more. The new round suggests technical progress is -- and will be -- coming along steadily for the most popular cry...
-
-![https://s3.amazonaws.com/bit-wp-repository/wp-content/uploads/2018/08/19040104/ETH1.jpg](https://s3.amazonaws.com/bit-wp-repository/wp-content/uploads/2018/08/19040104/ETH1.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 23-Aug-18 12:01 AM
-
-[https://twitter.com/EthereumNetw/status/1032177555917484032](https://twitter.com/EthereumNetw/status/1032177555917484032)
-
-![https://pbs.twimg.com/profile_images/791372723133882368/LYJwkiW4_bigger.jpg](https://pbs.twimg.com/profile_images/791372723133882368/LYJwkiW4_bigger.jpg)
-
-[Ethereum Network (@EthereumNetw)](https://twitter.com/EthereumNetw)
-
-What Vitalik Buterin’s tweetstorm means for the future Ethereum blockchain [https://t.co/J0CW4sAW3K](https://t.co/J0CW4sAW3K)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 23-Aug-18 12:45 AM
-
-[https://azure.microsoft.com/en-us/blog/ethereum-proof-of-authority-on-azure/](https://azure.microsoft.com/en-us/blog/ethereum-proof-of-authority-on-azure/)
-
-[Ethereum Proof-of-Authority on Azure](https://azure.microsoft.com/en-us/blog/ethereum-proof-of-authority-on-azure/)
-
-We’ve had great traction with our support of Ethereum on Azure. The existing Proof-of-Work solution has been deployed tens of thousands of times across a variety of industry verticals.
-
-![https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/89dc0d33-bf40-4b2a-a69d-e5a40a17d094.png](https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/89dc0d33-bf40-4b2a-a69d-e5a40a17d094.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 25-Aug-18 10:23 PM
-
-[https://twitter.com/realLudvigArt/status/1021663976155828225](https://twitter.com/realLudvigArt/status/1021663976155828225)
-
-![https://pbs.twimg.com/profile_images/993802751434866688/B8ckpZJH_bigger.jpg](https://pbs.twimg.com/profile_images/993802751434866688/B8ckpZJH_bigger.jpg)
-
-[Melik Manukyan ⚡️ ludvigart.com (@realLudvigArt)](https://twitter.com/realLudvigArt)
-
-#Ethereum is pretty much one big giant ponzi scheme. [https://t.co/uTQiEIA3RH](https://t.co/uTQiEIA3RH) "Every trade, buy or sell, has a 10% flat transaction fee applied. Instead of this going to the exchange, the fee is split between all currently held token holders.."
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-^^^ interesting discussion
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 26-Aug-18 12:49 AM
-
-[http://www.weekinethereum.com/post/177092488703/august-17-2018](http://www.weekinethereum.com/post/177092488703/august-17-2018)
-
-[Week in Ethereum News](http://www.weekinethereum.com/)
-
-[August 17, 2018](http://www.weekinethereum.com/post/177092488703/august-17-2018)
-
-News and LinksProtocol • Latest core devs call. Lane’s notes. • [Casper] Vitalik Buterin’s 75 tweets on the history and current plans of Casper • [Casper] Latest Casper standup • [Casper] Censorship...
-
-![https://78.media.tumblr.com/e25d646c06cd8f6f4de08c91d301ee95/tumblr_inline_pdlvauC9YZ1rxca3y_540.jpg](https://78.media.tumblr.com/e25d646c06cd8f6f4de08c91d301ee95/tumblr_inline_pdlvauC9YZ1rxca3y_540.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 28-Aug-18 10:05 AM
-
-[https://youtu.be/gHmh3yPYe68](https://youtu.be/gHmh3yPYe68)
-
-[Blockhead Media](https://www.youtube.com/channel/UCNukFDg5l3gAzcsRnRATWng)
-
-[How To Use MetaMask (Like A Wizard)](https://youtu.be/gHmh3yPYe68)
-
-Plugin to the future with MetaMask and this light hearted yet informative tutorial. In under 5 minutes, you'll be navigating the Ethereum Blockchain like a w...
-
-![https://i.ytimg.com/vi/gHmh3yPYe68/maxresdefault.jpg](https://i.ytimg.com/vi/gHmh3yPYe68/maxresdefault.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 30-Aug-18 07:09 PM
-
-[https://twitter.com/Jasonhcwong/status/1033390691794280449](https://twitter.com/Jasonhcwong/status/1033390691794280449)
-
-![https://pbs.twimg.com/profile_images/981467742019702784/qLg96h0o_bigger.jpg](https://pbs.twimg.com/profile_images/981467742019702784/qLg96h0o_bigger.jpg)
-
-[Jason Wong (@Jasonhcwong)](https://twitter.com/Jasonhcwong)
-
-I just published “Atomic on-chain ETH to off-chain BTC swap” [https://t.co/5Guo0XAent](https://t.co/5Guo0XAent)
-
-Likes
-
-131
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 04-Sep-18 12:52 AM
-
-[https://whitepaper.localethereum.com/](https://whitepaper.localethereum.com/)
-
-[Whitepaper for localethereum. Without an ICO.](https://whitepaper.localethereum.com/)
-
-Technical guide to localethereum's peer-to-peer marketplace. Learn about the cryptography behind the popular self-custodial end-to-end encrypted marketplace, and the unique design decisions that went into developing the platform. Localethereum is the private, secure and intui...
-
-![https://whitepaper.localethereum.com/assets/images/whitepaper-og.png](https://whitepaper.localethereum.com/assets/images/whitepaper-og.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 04-Sep-18 10:24 PM
-
-[https://medium.com/connext/our-first-hub-is-live-on-mainnet-b5660486635e](https://medium.com/connext/our-first-hub-is-live-on-mainnet-b5660486635e)
-
-[Our First Hub is LIVE on mainnet! – Connext – Medium](https://medium.com/connext/our-first-hub-is-live-on-mainnet-b5660486635e)
-
-![https://twemoji.maxcdn.com/2/72x72/1f389.png](https://twemoji.maxcdn.com/2/72x72/1f389.png)
-
-And it’s magical to use.
-
-![https://cdn-images-1.medium.com/max/1200/1*uH-J4KJz6EYpyEeF_O6aHg.jpeg](https://cdn-images-1.medium.com/max/1200/1*uH-J4KJz6EYpyEeF_O6aHg.jpeg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 13-Sep-18 09:03 AM
-
-[https://bcfocus.com/news/ethereum-co-founder-vitalik-buterin-shares-his-view-on-plasma-sharding-layer-2-solutions/21938/](https://bcfocus.com/news/ethereum-co-founder-vitalik-buterin-shares-his-view-on-plasma-sharding-layer-2-solutions/21938/)
-
-[Ethereum co-founder Vitalik Buterin shares his view on Plasma, sha...](https://bcfocus.com/news/ethereum-co-founder-vitalik-buterin-shares-his-view-on-plasma-sharding-layer-2-solutions/21938/)
-
-Ethereum co-founder, Vitalik Buterin, recently shared his view on whether development should focused on the layer 1 or layer 2 functionalities in blockchains. He presents his point by mentioning that debates regarding the scaling of blockchains is common, in circumstances, su...
-
-![https://bcfocus.com/wp-content/uploads/2018/08/2018082221363025-768x431.jpg](https://bcfocus.com/wp-content/uploads/2018/08/2018082221363025-768x431.jpg)
-
-[https://cloud.coinfeed.com/share/post/115027415359993/641535999310/25481](https://cloud.coinfeed.com/share/post/115027415359993/641535999310/25481)
-
-[Google Releases Tools For Ethereum Blockchain Analysis](https://cloud.coinfeed.com/share/post/115027415359993/641535999310/25481)
-
-Internet giant Google has expanded its big data analytics with the inclusion of tools to explore the Ethereum blockchain.
-
-![https://ethereumworldnews.com/wp-content/uploads/2018/09/bigquery.jpg](https://ethereumworldnews.com/wp-content/uploads/2018/09/bigquery.jpg)
-
-[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656)
-
-[Liberal Radicalism: Formal Rules for a Society Neutral Among Commu...](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656)
-
-We propose a design for philanthropic or publicly-funded seeding to allow (near) optimal provision of a decentralized, self-organizing ecosystem of public goods
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 13-Sep-18 10:08 AM
-
-[https://www.coindesk.com/theres-a-problem-with-crypto-funding-and-vitalik-might-have-a-solution/](https://www.coindesk.com/theres-a-problem-with-crypto-funding-and-vitalik-might-have-a-solution/)
-
-[There's a Problem With Crypto Funding – And Vitalik Just Might H...](https://www.coindesk.com/theres-a-problem-with-crypto-funding-and-vitalik-might-have-a-solution/)
-
-A new paper by Vitalik Buterin and other researchers proposes a novel way to finance the public goods a decentralized ecosystem needs.
-
-![https://media.coindesk.com/uploads/2017/02/vitalik-e1487764760527.jpg](https://media.coindesk.com/uploads/2017/02/vitalik-e1487764760527.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 22-Sep-18 08:53 PM
-
-[https://twitter.com/TuurDemeester/status/1037251413892653056](https://twitter.com/TuurDemeester/status/1037251413892653056)
-
-![https://pbs.twimg.com/profile_images/578236274969960448/-VQIi5wK_bigger.jpeg](https://pbs.twimg.com/profile_images/578236274969960448/-VQIi5wK_bigger.jpeg)
-
-[Tuur Demeester (@TuurDemeester)](https://twitter.com/TuurDemeester)
-
-Google's BigQuery visualization of the Ethereum blockchain. Is the green "head" the mixer? HT Eric Meltzer & @nic__carter [https://t.co/nPVZdMdVbQ](https://t.co/nPVZdMdVbQ)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 22-Sep-18 09:04 PM
-
-[https://medium.com/coinmonks/building-a-non-fungible-token-sales-smart-contract-6573350d5a33](https://medium.com/coinmonks/building-a-non-fungible-token-sales-smart-contract-6573350d5a33)
-
-[Building a non-fungible token sales smart contract – Coinmonks ...](https://medium.com/coinmonks/building-a-non-fungible-token-sales-smart-contract-6573350d5a33)
-
-Selling non-fungible tokens and the ERC721 standard
-
-![https://cdn-images-1.medium.com/max/1200/1*7qzcZFqe4m-QmZmWdcNAyQ.png](https://cdn-images-1.medium.com/max/1200/1*7qzcZFqe4m-QmZmWdcNAyQ.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 22-Sep-18 09:37 PM
-
-[https://medium.com/rocket-pool/ethereum-2-0-whos-building-it-54a735442e](https://medium.com/rocket-pool/ethereum-2-0-whos-building-it-54a735442e)
-
-[Ethereum 2.0 — Who’s building it? – Rocket Pool – Medium](https://medium.com/rocket-pool/ethereum-2-0-whos-building-it-54a735442e)
-
-Ethereum’s roadmap is ambitious. In our last article, we described the Ethereum 2.0 vision.
-
-![https://cdn-images-1.medium.com/max/1200/1*eI4oTKbttsVRTwiBPi0pDQ.png](https://cdn-images-1.medium.com/max/1200/1*eI4oTKbttsVRTwiBPi0pDQ.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 23-Sep-18 06:09 AM
-
-[https://medium.com/ethereums-transition-from-casper-ffg-to-beacon/from-casper-ffg-to-full-casper-chain-cbd522751a7e](https://medium.com/ethereums-transition-from-casper-ffg-to-beacon/from-casper-ffg-to-full-casper-chain-cbd522751a7e)
-
-[From Casper FFG to Full Casper Chain – Ethereums transition from...](https://medium.com/ethereums-transition-from-casper-ffg-to-beacon/from-casper-ffg-to-full-casper-chain-cbd522751a7e)
-
-Why was Casper FFG — a partial Proof-of-Stake algorithm on top of Proof-of-Work — deprecated?
-
-![https://cdn-images-1.medium.com/max/1200/1*q14hGGgMrI888vhq3JHJVA.png](https://cdn-images-1.medium.com/max/1200/1*q14hGGgMrI888vhq3JHJVA.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 27-Sep-18 10:50 PM
-
-[https://ethresear.ch/t/bribery-resistant-voting-schemes-for-smart-contracts/3354](https://ethresear.ch/t/bribery-resistant-voting-schemes-for-smart-contracts/3354)
-
-[Bribery-Resistant Voting Schemes for Smart Contracts](https://ethresear.ch/t/bribery-resistant-voting-schemes-for-smart-contracts/3354)
-
-This is joint work/post with Ian Miers, Oded Naor, and Ari Juels. Recently, a number of proposals and applications have evolved on Ethereum that require voting; from contracts that use voting-based DAOs for governance or other administrative tasks, to boardroom-like votes to...
-
-![https://ethresear.ch/uploads/default/original/horzlogo.png](https://ethresear.ch/uploads/default/original/horzlogo.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 29-Sep-18 09:39 PM
-
-[https://twitter.com/EthereumNetw/status/1032177555917484032](https://twitter.com/EthereumNetw/status/1032177555917484032)
-
-![https://pbs.twimg.com/profile_images/791372723133882368/LYJwkiW4_bigger.jpg](https://pbs.twimg.com/profile_images/791372723133882368/LYJwkiW4_bigger.jpg)
-
-[Ethereum Network (@EthereumNetw)](https://twitter.com/EthereumNetw)
-
-What Vitalik Buterin’s tweetstorm means for the future Ethereum blockchain [https://t.co/J0CW4sAW3K](https://t.co/J0CW4sAW3K)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 01-Oct-18 11:04 PM
-
-[https://blog.bitmex.com/ethereum-holdings-in-the-ico-treasury-accounts/](https://blog.bitmex.com/ethereum-holdings-in-the-ico-treasury-accounts/)
-
-[Ethereum holdings in the ICO treasury accounts](https://blog.bitmex.com/ethereum-holdings-in-the-ico-treasury-accounts)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 02-Oct-18 08:20 PM
-
-[https://unblock.net/who-is-vitalik-buterin/](https://unblock.net/who-is-vitalik-buterin/)
-
-[Stefan Stankovic](https://unblock.net/author/stefan)
-
-[Who is Vitalik Buterin, The Mastermind Behind Ethereum? - unblock.net](https://unblock.net/who-is-vitalik-buterin)
-
-Do not be fooled by his timid, geeky looks nor his love for cats. Being the founder of Ethereum, he's on a mission to conquer the world of cryptocurrency with his intelligence. Read more about this visionary here.
-
-![https://d178njs2swzquh.cloudfront.net/wp-content/uploads/2018/01/vitalik-1024x614.jpg](https://d178njs2swzquh.cloudfront.net/wp-content/uploads/2018/01/vitalik-1024x614.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 03-Oct-18 05:01 PM
-
-[https://www.coinmama.com/guide/history-of-ethereum](https://www.coinmama.com/guide/history-of-ethereum)
-
-[History of Ethereum](https://www.coinmama.com/guide/history-of-ethereum)
-
-History of Ethereum - A brief description of the significant milestones of the Ethereum cryptocurrency and its planned future roadmap. A quick guide to ETH history.
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 03-Oct-18 08:01 PM
-
-[https://vitalik.ca/general/2017/09/14/prehistory.html](https://vitalik.ca/general/2017/09/14/prehistory.html)
-
-[A Prehistory of the Ethereum Protocol](https://vitalik.ca/general/2017/09/14/prehistory.html)
-
-Although the ideas behind the current Ethereum protocol have largely been stable for two years, Ethereum did not emerge all at once, in its current conceptio...
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 03-Oct-18 08:12 PM
-
-[http://ethdocs.org](http://ethdocs.org/)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 04-Oct-18 06:30 PM
-
-[https://www.wired.com/2016/06/the-uncanny-mind-that-built-ethereum/](https://www.wired.com/2016/06/the-uncanny-mind-that-built-ethereum/)
-
-[The Uncanny Mind That Built Ethereum](https://www.wired.com/2016/06/the-uncanny-mind-that-built-ethereum)
-
-Vitalik Buterin invented the world’s hottest new cryptocurrency and inspired a movement — before he’d turned 20.
-
-![https://media.wired.com/photos/5941ec49e9030c15ddbcd8ce/191:100/pass/1EuVTlr3k3ZFEYky4oo6mcA-1.jpeg](https://media.wired.com/photos/5941ec49e9030c15ddbcd8ce/191:100/pass/1EuVTlr3k3ZFEYky4oo6mcA-1.jpeg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 04-Oct-18 07:14 PM
-
-[https://bitcoinexchangeguide.com/vitalik-buterin/](https://bitcoinexchangeguide.com/vitalik-buterin/)
-
-[Vitalik Buterin: Ethereum Creator, Bitcoin Author And Elite Blockc...](https://bitcoinexchangeguide.com/vitalik-buterin)
-
-Though he’s not yet 25 years old, Vitalik Buterin has become one of the most influential figures in cryptocurrency and decentralized applications by creating Ethereum. By introducing support …
-
-![https://bitcoinexchangeguide.com/wp-content/uploads/2018/08/Biography-of-Vitalik-Buterin-Creator-of-Ethereum.jpg](https://bitcoinexchangeguide.com/wp-content/uploads/2018/08/Biography-of-Vitalik-Buterin-Creator-of-Ethereum.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 08-Oct-18 12:50 AM
-
-[https://www.coindesk.com/you-wont-have-to-wait-for-this-ethereum-scaling-solution-it-works-now/](https://www.coindesk.com/you-wont-have-to-wait-for-this-ethereum-scaling-solution-it-works-now/)
-
-[You Won't Have to Wait for This Ethereum Scaling Solution, It Work...](https://www.coindesk.com/you-wont-have-to-wait-for-this-ethereum-scaling-solution-it-works-now)
-
-Most ethereum scaling technologies are a far from completed, but OpenST says it's got a solution that's ready for the "here and now."
-
-![https://media.coindesk.com/uploads/2018/09/shutterstock_314827187.jpg](https://media.coindesk.com/uploads/2018/09/shutterstock_314827187.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 08-Oct-18 01:25 AM
-
-[https://nakamotostudies.org/literature/who-controls-ethereum/](https://nakamotostudies.org/literature/who-controls-ethereum/)
-
-[Who Controls Ethereum? - Nakamoto Studies Institute](https://nakamotostudies.org/literature/who-controls-ethereum)
-
-Out of the Memory Hole I wrote an article a couple years ago called “Who Controls Bitcoin?” which argues that it is not the miners or the core devs who control Bitcoin; rather, it is the investors. Recently, a fork occurred in the Ethereum blockchain which is illustrating...
-
-![https://nakamotostudies.org/wp-content/uploads/2018/09/charlie-chaplin-modern-times.jpg](https://nakamotostudies.org/wp-content/uploads/2018/09/charlie-chaplin-modern-times.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 17-Oct-18 01:40 AM
-
-[https://medium.com/@sebastianhrw/insights-into-the-ethereum-ecosystem-6ffff98e1f0e](https://medium.com/@sebastianhrw/insights-into-the-ethereum-ecosystem-6ffff98e1f0e)
-
-[Insights into the Ethereum ecosystem – Sebastian Wurst – Medium](https://medium.com/@sebastianhrw/insights-into-the-ethereum-ecosystem-6ffff98e1f0e)
-
-Analysis of the top 250 ERC-20 tokens by market cap
-
-![https://cdn-images-1.medium.com/max/1200/1*rPN4u7GbnY55tLNTFupIXg.jpeg](https://cdn-images-1.medium.com/max/1200/1*rPN4u7GbnY55tLNTFupIXg.jpeg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 28-Oct-18 01:24 AM
-
-v
-
-[https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)
-
-[ethereum/wiki](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)
-
-The Ethereum Wiki. Contribute to ethereum/wiki development by creating an account on GitHub.
-
-[https://avatars3.githubusercontent.com/u/6250754?s=400&v=4](https://avatars3.githubusercontent.com/u/6250754?s=400&v=4)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 29-Oct-18 10:44 PM
-
-[https://twitter.com/VitalikButerin/status/929804867568373760](https://twitter.com/VitalikButerin/status/929804867568373760)
-
-![https://pbs.twimg.com/profile_images/977496875887558661/L86xyLF4_bigger.jpg](https://pbs.twimg.com/profile_images/977496875887558661/L86xyLF4_bigger.jpg)
-
-[Vitalik Non-giver of Ether (@VitalikButerin)](https://twitter.com/VitalikButerin)
-
-@JihanWu @rogerkver The very earliest versions of ETH protocol were a counterparty-style metacoin on top of primecoin. Not Bitcoin because the OP_RETURN wars were happening at the time and...
-
-Likes
-
-211
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 30-Oct-18 06:21 AM
-
-[https://vitalik.ca/2017-09-15-prehistory.html](https://vitalik.ca/2017-09-15-prehistory.html)
-
-[A Prehistory of the Ethereum Protocol](https://vitalik.ca/2017-09-15-prehistory.html)
-
-My stuff goes here.
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 31-Oct-18 10:52 AM
-
-[https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/giant_ethereum_resource_list.html](https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/giant_ethereum_resource_list.html)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 31-Oct-18 10:34 PM
-
-[https://medium.com/rocket-pool/ethereum-2-0-whos-building-it-54a735442e](https://medium.com/rocket-pool/ethereum-2-0-whos-building-it-54a735442e)
-
-[Ethereum 2.0 — Who’s building it? – Rocket Pool – Medium](https://medium.com/rocket-pool/ethereum-2-0-whos-building-it-54a735442e)
-
-Ethereum’s roadmap is ambitious. In our last article, we described the Ethereum 2.0 vision.
-
-![https://cdn-images-1.medium.com/max/1200/1*eI4oTKbttsVRTwiBPi0pDQ.png](https://cdn-images-1.medium.com/max/1200/1*eI4oTKbttsVRTwiBPi0pDQ.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 01-Nov-18 10:50 PM
-
-[http://whatthefuckisethereum.com](http://whatthefuckisethereum.com/)
-
-[WTF is Ethereum](http://whatthefuckisethereum.com/)
-
-Ethereum is a computing platform running on computers all over the world. To run programs on the network you pay Ether (ETH); you can program on the Ethereum network using a language named Solidity
-
-^^ this site is kinda neat
-
-has ELI5 ELIStoner\philosopher ELINerd ELISkeptic and soforth
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 04-Nov-18 08:43 AM
-
-[https://twitter.com/itsjefftong/status/1048276048725467137](https://twitter.com/itsjefftong/status/1048276048725467137)
-
-![https://pbs.twimg.com/profile_images/986851842062663680/_veL1YV8_bigger.jpg](https://pbs.twimg.com/profile_images/986851842062663680/_veL1YV8_bigger.jpg)
-
-[Jeff Tong (@itsjefftong)](https://twitter.com/itsjefftong)
-
-Long awaited episode with @raulitojordan from @prylabs. Raul explains all the Eth 2.0 mysteries. We go through PoS, Sharding and eWASM. Check it out on your way to SFBW! [https://t.co/q9cIStP6e0](https://t.co/q9cIStP6e0)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 05-Nov-18 08:58 AM
-
-[https://github.com/cbc-casper/cbc-casper-paper/blob/master/cbc-casper-paper-draft.pdf](https://github.com/cbc-casper/cbc-casper-paper/blob/master/cbc-casper-paper-draft.pdf)
-
-[cbc-casper/cbc-casper-paper](https://github.com/cbc-casper/cbc-casper-paper/blob/master/cbc-casper-paper-draft.pdf)
-
-The paper for Correct-By-Construction Casper consenus protocols - cbc-casper/cbc-casper-paper
-
-[https://avatars0.githubusercontent.com/u/44251388?s=400&v=4](https://avatars0.githubusercontent.com/u/44251388?s=400&v=4)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 05-Nov-18 09:27 AM
-
-[https://twitter.com/econoar/status/1053311930885197825](https://twitter.com/econoar/status/1053311930885197825)
-
-![https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg](https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg)
-
-[Eric Conner (@econoar)](https://twitter.com/econoar)
-
-0/ I see a lot of discussion about the technicals of Ethereum’s Casper PoS but not much discussion around the economics. I’ve been giving a lot of thought to the current incentive structure and here are my thoughts. SPOILER: I think we need more discussion around the e...
-
-Likes
-
-292
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 22-Nov-18 10:03 PM
-
-[https://medium.com/@VitalikButerin/i-think-this-article-is-conflating-a-few-very-different-issues-1fd122ae68e7](https://medium.com/@VitalikButerin/i-think-this-article-is-conflating-a-few-very-different-issues-1fd122ae68e7)
-
-[I think this article is conflating a few very different issues.](https://medium.com/@VitalikButerin/i-think-this-article-is-conflating-a-few-very-different-issues-1fd122ae68e7)
-
-To me it is not at all obvious that predictable access to reading the blockchain is more important than predictable access to writing to…
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 25-Nov-18 07:56 PM
-
-[https://twitter.com/econoar/status/1053311930885197825](https://twitter.com/econoar/status/1053311930885197825)
-
-![https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg](https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg)
-
-[Eric Conner (@econoar)](https://twitter.com/econoar)
-
-0/ I see a lot of discussion about the technicals of Ethereum’s Casper PoS but not much discussion around the economics. I’ve been giving a lot of thought to the current incentive structure and here are my thoughts. SPOILER: I think we need more discussion around the e...
-
-Likes
-
-292
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 25-Nov-18 08:08 PM
-
-[https://twitter.com/econoar/status/1055845633754447872](https://twitter.com/econoar/status/1055845633754447872)
-
-![https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg](https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg)
-
-[Eric Conner (@econoar)](https://twitter.com/econoar)
-
-0/ A thread on Ethereum economic abstraction. I’ve recently seen a lot of nonsense spread about how Ethereum could be wildly successful but ETH itself could be worth 0. It’s time to debunk this myth so why don’t you go on a journey with me into economic abstraction?
-
-Likes
-
-179
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 25-Nov-18 08:34 PM
-
-[https://www.blockchain.com/explorer?currency=ETH](https://www.blockchain.com/explorer?currency=ETH)
-
-[Blockchain Explorer | BTC | ETH](https://www.blockchain.com/explorer?currency=ETH)
-
-The easiest and most trusted transaction search engine and block explorer
-
-![https://www.blockchain.com/explorer/static/explorer_1600x630.png](https://www.blockchain.com/explorer/static/explorer_1600x630.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 25-Nov-18 08:56 PM
-
-[https://www.prnewswire.com/news-releases/ey-launches-the-worlds-first-secure-private-transactions-over-the-ethereum-public-blockchain-300740902.html](https://www.prnewswire.com/news-releases/ey-launches-the-worlds-first-secure-private-transactions-over-the-ethereum-public-blockchain-300740902.html)
-
-[EY launches the world's first secure private transactions over the...](https://www.prnewswire.com/news-releases/ey-launches-the-worlds-first-secure-private-transactions-over-the-ethereum-public-blockchain-300740902.html)
-
-LONDON, Oct. 30, 2018 /PRNewswire/ -- EY today announced the launch of EY Ops Chain Public Edition (PE) prototype, the world's first implementation of...
-
-![https://mma.prnewswire.com/media/708904/EY_Logo.jpg?p=twitter](https://mma.prnewswire.com/media/708904/EY_Logo.jpg?p=twitter)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 25-Nov-18 09:17 PM
-
-[https://www.theblockcrypto.com/tiny/researchers-roughly-60-ethereum-smart-contracts-have-never-been-interacted-with/](https://www.theblockcrypto.com/tiny/researchers-roughly-60-ethereum-smart-contracts-have-never-been-interacted-with/)
-
-[Steven Zheng](https://www.theblockcrypto.com/author/steven_tb)
-
-[Researchers: Roughly 60% of Ethereum smart contracts have never be...](https://www.theblockcrypto.com/tiny/researchers-roughly-60-ethereum-smart-contracts-have-never-been-interacted-with)
-
-A group of researchers from the Northeastern University and the University of Maryland published a paper detailing their analysis of Ethereum’s contract topology. The researchers modify Ethereum’s geth client to log how users and contracts interact with one another. The r...
-
-![https://www.theblockcrypto.com/wp-content/uploads/2018/09/theblock-default.png](https://www.theblockcrypto.com/wp-content/uploads/2018/09/theblock-default.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 10-Dec-18 08:25 AM
-
-[http://www.ethviewer.live/](http://www.ethviewer.live/)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 11-Dec-18 07:22 AM
-
-[https://github.com/jdourlens/awesome-ethereum-analytics](https://github.com/jdourlens/awesome-ethereum-analytics)
-
-[jdourlens/awesome-ethereum-analytics](https://github.com/jdourlens/awesome-ethereum-analytics)
-
-A curated list of projects around Ethereum analytics. - jdourlens/awesome-ethereum-analytics
-
-[https://avatars0.githubusercontent.com/u/1624124?s=400&v=4](https://avatars0.githubusercontent.com/u/1624124?s=400&v=4)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 23-Dec-18 12:40 AM
-
-[https://twitter.com/cburniske/status/1052201578256580608](https://twitter.com/cburniske/status/1052201578256580608)
-
-![https://pbs.twimg.com/profile_images/919289878331797504/FR0PmXKy_bigger.jpg](https://pbs.twimg.com/profile_images/919289878331797504/FR0PmXKy_bigger.jpg)
-
-[Chris Burniske (@cburniske)](https://twitter.com/cburniske)
-
-1/ Great study via @sebastianhrw on #Ethereum's top 250 ERC20s, investigating the fat protocols thesis via value accrual in 4 layers of the stack. [https://t.co/apUz04QhEx](https://t.co/apUz04QhEx)
-
-Likes
-
-140
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 23-Dec-18 05:33 AM
-
-[https://twitter.com/drakefjustin/status/1072256800068644864](https://twitter.com/drakefjustin/status/1072256800068644864)
-
-![https://pbs.twimg.com/profile_images/632301429424816128/OwT0LdXU_bigger.jpg](https://pbs.twimg.com/profile_images/632301429424816128/OwT0LdXU_bigger.jpg)
-
-[Justin Ðrake (@drakefjustin)](https://twitter.com/drakefjustin)
-
-Clarification! Two *totally different* things are known as "Casper". Casper FFG is a simple "Finality Gadget" for Ethereum 2.0. Casper CBC is an abstract family of "Correct-By-Construction" consensus protocols explored as a candidate design space for the Ethereum 3.0 conse...
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-[https://twitter.com/GetGitcoin/status/1072262183508197377](https://twitter.com/GetGitcoin/status/1072262183508197377)
-
-![https://pbs.twimg.com/profile_images/910711045848686592/5q4Ev2f-_bigger.jpg](https://pbs.twimg.com/profile_images/910711045848686592/5q4Ev2f-_bigger.jpg)
-
-[Gitcoin (@GetGitcoin)](https://twitter.com/GetGitcoin)
-
-Looking to learn more about Scaling? @ethhub_io has a podcast for that. Check it out below
-
-![https://twemoji.maxcdn.com/2/72x72/1f447.png](https://twemoji.maxcdn.com/2/72x72/1f447.png)
-
-[https://t.co/zR2wInjmAf](https://t.co/zR2wInjmAf)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 23-Dec-18 04:57 PM
-
-[https://twitter.com/econoar/status/1073301950249132032](https://twitter.com/econoar/status/1073301950249132032)
-
-![https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg](https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg)
-
-[Eric Conner (@econoar)](https://twitter.com/econoar)
-
-0/ Let's talk about incentives. Ethereum can unlock a new world of possibilities when it comes to digital and economic incentive structures. I'm very excited to see what comes out of this long term.
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-[https://github.com/ethhub-io/ethhub/blob/master/other/ethhub-cftc-response.md](https://github.com/ethhub-io/ethhub/blob/master/other/ethhub-cftc-response.md)
-
-[ethhub-io/ethhub](https://github.com/ethhub-io/ethhub/blob/master/other/ethhub-cftc-response.md)
-
-The essential Ethereum information hub. Contribute to ethhub-io/ethhub development by creating an account on GitHub.
-
-[https://avatars2.githubusercontent.com/u/45580088?s=400&v=4](https://avatars2.githubusercontent.com/u/45580088?s=400&v=4)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 04-Jan-19 11:48 PM
-
-[https://docs.ethhub.io/ethereum-roadmap/planned-forks/constantinople](https://docs.ethhub.io/ethereum-roadmap/planned-forks/constantinople)
-
-![https://www.gitbook.com/share/space/thumbnail/-LMdGvCOkUzPEWEf7ygC.png](https://www.gitbook.com/share/space/thumbnail/-LMdGvCOkUzPEWEf7ygC.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 08-Jan-19 02:39 PM
-
-[https://medium.com/mycrypto/ethereum-constantinople-everything-you-need-to-know-a47f3a16f3d2](https://medium.com/mycrypto/ethereum-constantinople-everything-you-need-to-know-a47f3a16f3d2)
-
-[Ethereum Constantinople: Everything You Need To Know](https://medium.com/mycrypto/ethereum-constantinople-everything-you-need-to-know-a47f3a16f3d2)
-
-Learn about the Ethereum fork coming up around January 16!
-
-![https://cdn-images-1.medium.com/max/1200/1*hZEExpwsFzdU91lt6lz6HQ.jpeg](https://cdn-images-1.medium.com/max/1200/1*hZEExpwsFzdU91lt6lz6HQ.jpeg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 09-Jan-19 08:59 AM
-
-block numbers frontier = 0 homestead = 1,150,000 dao fork = 1,920,000 <-- this is where etc diverges tangerine whistle = 2,463,000 spurious dragon = 2,675,000 byzantium = 4,370,000 <-- november 2017 constantinople = 7,080,000 (edited)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 22-Jan-19 09:00 PM
-
-[https://vitalik.ca/general/2018/12/05/cbc_casper.html](https://vitalik.ca/general/2018/12/05/cbc_casper.html)
-
-[A CBC Casper Tutorial](https://vitalik.ca/general/2018/12/05/cbc_casper.html)
-
-Special thanks to Vlad Zamfir, Aditya Asgaonkar, Ameen Soleimani and Jinglan Wang for review
-
-[https://www.coindesk.com/next-gen-buidlers-the-8-teams-working-on-ethereum-2-0](https://www.coindesk.com/next-gen-buidlers-the-8-teams-working-on-ethereum-2-0)
-
-[Christine Kim](https://www.coindesk.com/author/christinekim)
-
-[8 Teams Are Sprinting to Build the Next Generation of Ethereum - C...](https://www.coindesk.com/next-gen-buidlers-the-8-teams-working-on-ethereum-2-0)
-
-CoinDesk looks at the eight teams across the globe spearheading the push to create ethereum 2.0 – the next iteration of the blockchain network.
-
-![https://static.coindesk.com/wp-content/uploads/2018/12/Build.jpg](https://static.coindesk.com/wp-content/uploads/2018/12/Build.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 22-Jan-19 09:57 PM
-
-[https://twitter.com/isTruStory/status/1072162456095477760](https://twitter.com/isTruStory/status/1072162456095477760)
-
-![https://pbs.twimg.com/profile_images/999336936572567552/SY65rL1h_bigger.jpg](https://pbs.twimg.com/profile_images/999336936572567552/SY65rL1h_bigger.jpg)
-
-[TruStory (@isTruStory)](https://twitter.com/isTruStory)
-
-So what’s the deal with Casper CBC? @ethereum has been plagued with scalability issues; @Cryptokitties... Casper is one of the proposed solutions. CBC Casper (Correct-By-Construction) is a new family of consensus protocols that @VladZamfir and @VitalikButerin are desi...
-
-Likes
-
-131
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 22-Jan-19 11:20 PM
-
-[https://twitter.com/leashless/status/1073312917175631872](https://twitter.com/leashless/status/1073312917175631872)
-
-![https://pbs.twimg.com/profile_images/941352351444754432/Aoocrnsd_bigger.jpg](https://pbs.twimg.com/profile_images/941352351444754432/Aoocrnsd_bigger.jpg)
-
-[Vinay Gupta (@leashless)](https://twitter.com/leashless)
-
-My @ethereum #DEVCON4 talk on the future of Ethereum, smart contracts and the blockchain is now online, entitled "How to control the material world with smart contracts." There's a transcript, too. [https://t.co/3DjFJYLgqy](https://t.co/3DjFJYLgqy) Thanks for recording it, guys! @Mattereum
-
-Likes
-
-131
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 23-Jan-19 01:28 AM
-
-[https://twitter.com/nicksdjohnson/status/1074781024779788288](https://twitter.com/nicksdjohnson/status/1074781024779788288)
-
-![https://pbs.twimg.com/profile_images/1011930833509285896/Jpc3bbx5_bigger.jpg](https://pbs.twimg.com/profile_images/1011930833509285896/Jpc3bbx5_bigger.jpg)
-
-[Nick 'no Nick' Johnson (@nicksdjohnson)](https://twitter.com/nicksdjohnson)
-
-@isTruStory @ethereum Since Byzantium, uncles are taken into account for difficulty calculations, per EIP 100 ([https://t.co/plxZtw0nMh)](https://t.co/plxZtw0nMh)). The code to do this is here: [https://t.co/aSIDCcPUAT](https://t.co/aSIDCcPUAT)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 24-Jan-19 12:31 PM
-
-[https://weth.io/](https://weth.io/)
-
-[wETH](https://weth.io/)
-
-A brief overview of wETH and why you need it for decentralized platforms.
-
-![https://weth.io/img/banner.png](https://weth.io/img/banner.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 25-Jan-19 07:27 AM
-
-[https://www.wired.com/2014/01/ethereum/](https://www.wired.com/2014/01/ethereum/)
-
-[Out in the Open: Teenage Hacker Transforms Web Into One Giant Bitc...](https://www.wired.com/2014/01/ethereum/)
-
-Most people think of bitcoin as a form of money, if they think of bitcoin at all. But 19-year-old hacker Vitalik Buterin sees it as something more -- much more. He sees it as a new way of building just about any internet application.
-
-![https://media.wired.com/photos/5932759aaef9a462de982f35/191:100/pass/teenhacker-ft.jpg](https://media.wired.com/photos/5932759aaef9a462de982f35/191:100/pass/teenhacker-ft.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 12-Feb-19 05:00 PM
-
-[https://twitter.com/econoar/status/1079520172233306112](https://twitter.com/econoar/status/1079520172233306112)
-
-![https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg](https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg)
-
-[Eric Conner (@econoar)](https://twitter.com/econoar)
-
-I have a few concerns about Serenity PoS that I’d like to share. That said, I think all can and will be addressed before launch given proper debate.
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 12-Feb-19 05:35 PM
-
-[https://twitter.com/hugohanoi/status/1079639446088118272](https://twitter.com/hugohanoi/status/1079639446088118272)
-
-![https://pbs.twimg.com/profile_images/1006588198993055744/ZT06ypMG_bigger.jpg](https://pbs.twimg.com/profile_images/1006588198993055744/ZT06ypMG_bigger.jpg)
-
-[Hugo Nguyen (@hugohanoi)](https://twitter.com/hugohanoi)
-
-1/ People have asked me to elaborate on the “verification-not-computation” point. And why Ethereum has a flawed architecture from the get-go. Thread.
-
-![https://twemoji.maxcdn.com/2/72x72/1f447.png](https://twemoji.maxcdn.com/2/72x72/1f447.png)
-
-*Note: I use “blockchain systems” to refer to Bitcoin-like blockchains that are based on PoW.
-
-[https://t.co/e](https://t.co/e)
-
-...
-
-Retweets
-
-177
-
-Likes
-
-479
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 13-Feb-19 08:36 PM
-
-[https://twitter.com/austingriffith/status/1079406563582824449](https://twitter.com/austingriffith/status/1079406563582824449)
-
-![https://pbs.twimg.com/profile_images/921411011722096640/vmTtRHaZ_bigger.jpg](https://pbs.twimg.com/profile_images/921411011722096640/vmTtRHaZ_bigger.jpg)
-
-[🛠️ Austin Griffith (@austingriffith)](https://twitter.com/austingriffith)
-
-![https://twemoji.maxcdn.com/2/72x72/1f5dd.png](https://twemoji.maxcdn.com/2/72x72/1f5dd.png)
-
-![https://twemoji.maxcdn.com/2/72x72/1f511.png](https://twemoji.maxcdn.com/2/72x72/1f511.png)
-
-I can encrypt messages with an ethereum public key can’t I? I found a few libraries to do it, but other posts that say you can’t. I get that with asymmetric it will have to be a short message and eth keys aren’t really made for it, but it’s possible right? ...
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 19-Feb-19 03:01 AM
-
-[https://www.reddit.com/r/ethereum/comments/arr7c6/leadership_should_be_held_accountable_to_the/?st=JSBHBDEM&sh=30161ad1](https://www.reddit.com/r/ethereum/comments/arr7c6/leadership_should_be_held_accountable_to_the/?st=JSBHBDEM&sh=30161ad1)
-
-[r/ethereum - Leadership should be held accountable to the community](https://www.reddit.com/r/ethereum/comments/arr7c6/leadership_should_be_held_accountable_to_the/?st=JSBHBDEM&sh=30161ad1)
-
-320 votes and 154 comments so far on Reddit
-
-![https://external-preview.redd.it/jmt9G7G_AlrtNZuYzal2MeGInyknkf1eHfBgwGIEhMI.jpg?auto=webp&s=348428dc710222b55ddc2c829f21b5f9ff03449b](https://external-preview.redd.it/jmt9G7G_AlrtNZuYzal2MeGInyknkf1eHfBgwGIEhMI.jpg?auto=webp&s=348428dc710222b55ddc2c829f21b5f9ff03449b)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 11-Mar-19 09:16 PM
-
-[https://twitter.com/davidiach/status/1085846439299858432](https://twitter.com/davidiach/status/1085846439299858432)
-
-![https://pbs.twimg.com/profile_images/1053250741769527296/gnm05Lzm_bigger.jpg](https://pbs.twimg.com/profile_images/1053250741769527296/gnm05Lzm_bigger.jpg)
-
-[David Iach 🚀 (@davidiach)](https://twitter.com/davidiach)
-
-1/ Mega Thread on running a @ParityTech Ethereum node. Bare with me.
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 11-Mar-19 09:32 PM
-
-[https://twitter.com/econoar/status/1086348375664951296](https://twitter.com/econoar/status/1086348375664951296)
-
-![https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg](https://pbs.twimg.com/profile_images/998934999742136323/yTIsz2ks_bigger.jpg)
-
-[Eric Conner (@econoar)](https://twitter.com/econoar)
-
-Eth 2.0 teams and client names. -Prysmatic Labs: Prysm (Go) -ChainSafe: Loadstar (JavaScript) -Status: Nimbus (Nim) -ZK Labs: yeeth (Swift) -PegaSys: Artemis (Java) -Sigma Prime: Lighthouse (Rust) -Parity: ? (Rust) -Trinity: ? (Python) -Harmony: ? (Java) [https://t.co/QA0](https://t.co/QA0)...
-
-Likes
-
-115
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 11-Mar-19 09:41 PM
-
-[https://arxiv.org/pdf/1901.04620.pdf](https://arxiv.org/pdf/1901.04620.pdf)
-
-Selfish Mining in Ethereum Jianyu Niu and Chen Feng School of Engineering, University of British Columbia (Okanagan Campus), Canada jianyu.niu@ubc.ca, chen.feng@ubc.ca
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 29-Mar-19 05:50 PM
-
-[https://twitter.com/virgilgr/status/1111536065607684096?s=12](https://twitter.com/virgilgr/status/1111536065607684096?s=12)
-
-![https://pbs.twimg.com/profile_images/980422645568102405/-94uHufe_bigger.jpg](https://pbs.twimg.com/profile_images/980422645568102405/-94uHufe_bigger.jpg)
-
-[Virgil Griffith (@virgilgr)](https://twitter.com/virgilgr)
-
-I just published a paper on what Ethereum is for. It is entitled, "Ethereum is game-changing technology, literally." [https://t.co/7Ur9601Yjy](https://t.co/7Ur9601Yjy)
-
-Likes
-
-234
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 05-Apr-19 07:42 PM
-
-[https://vitalik.ca/general/2019/04/03/collusion.html](https://vitalik.ca/general/2019/04/03/collusion.html)
-
-[On Collusion](https://vitalik.ca/general/2019/04/03/collusion.html)
-
-Special thanks to Glen Weyl, Phil Daian and Jinglan Wang for review
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 22-Apr-19 04:46 AM
-
-[https://twitter.com/scott_lew_is/status/1120091925946748928](https://twitter.com/scott_lew_is/status/1120091925946748928)
-
-![https://pbs.twimg.com/profile_images/1027266617066119169/BYu4UHPy_bigger.jpg](https://pbs.twimg.com/profile_images/1027266617066119169/BYu4UHPy_bigger.jpg)
-
-[scott lewis🌾 (@scott_lew_is)](https://twitter.com/scott_lew_is)
-
-great thread explaining how ethereum governance cordons off dissent. [https://t.co/c0Zm5e32Ju](https://t.co/c0Zm5e32Ju)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 28-Apr-19 11:45 PM
-
-Analyzing the Proposed Validator Economics of Ethereum 2.0 – Onur Solmaz [https://solmaz.io/2019/04/24/eth2-phase0-economics/](https://solmaz.io/2019/04/24/eth2-phase0-economics/)
-
-[Analyzing the Proposed Validator Economics of Ethereum 2.0](https://solmaz.io/2019/04/24/eth2-phase0-economics/)
-
-In its next iteration dubbed Ethereum 2.0 or Serenity, Ethereum will move on from Proof-of-Work to Proof-of-Stake, implementing a major change with how the network nodes are incentivized to participate. This is an analysis of the proposal that’s going to be implemented as a...
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 06-May-19 12:06 AM
-
-[https://www.interfluidity.com/v2/7153.html](https://www.interfluidity.com/v2/7153.html)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 10-May-19 01:58 AM
-
-[https://twitter.com/danfinlay/status/1120456490752593922?s=12](https://twitter.com/danfinlay/status/1120456490752593922?s=12)
-
-![https://pbs.twimg.com/profile_images/723268858644037632/u-kjO4___bigger.jpg](https://pbs.twimg.com/profile_images/723268858644037632/u-kjO4___bigger.jpg)
-
-[Dan Finlay (@danfinlay)](https://twitter.com/danfinlay)
-
-This proposed architecture is highly compatible with Eth 1.x goals of reducing on-chain storage by reducing the cost of CALLDATA. With the right stateless contracts on-chain, only revocations and locks (double-spend-proofing) would need to be published. [https://t.co/5GrgE](https://t.co/5GrgE)...
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 13-May-19 02:41 PM
-
-[https://blog.fission.codes/ethereum-10-years-black-swan/](https://blog.fission.codes/ethereum-10-years-black-swan/)
-
-[Ethereum’s 10 year future and Black Swan Threats & Opportunities](https://blog.fission.codes/ethereum-10-years-black-swan/)
-
-Russell Keith-Magee's PyCon 2019 keynote looks at Python's history & its 10 year future, including what black swan events it needs to prepare for. What lessons can we take from this for the Ethereum community?
-
-![https://images.unsplash.com/photo-1544789841-88fdfbdfd1e4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ](https://images.unsplash.com/photo-1544789841-88fdfbdfd1e4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)
-
-[https://www.reddit.com/r/ethtrader/comments/bo788n/winklevi_drive_ethereum_adoption_at_retailers/](https://www.reddit.com/r/ethtrader/comments/bo788n/winklevi_drive_ethereum_adoption_at_retailers/)
-
-[r/ethtrader - Winklevi drive Ethereum adoption at retailers, press...](https://www.reddit.com/r/ethtrader/comments/bo788n/winklevi_drive_ethereum_adoption_at_retailers/)
-
-0 votes and 0 comments so far on Reddit
-
-![https://external-preview.redd.it/EkJVGQ6eoEaVOoiGlU_Zafot0pCZo-f3GHPoSyI-kn4.jpg?auto=webp&s=32b226e9ea7d376a8974094a47dcf432984bdb4a](https://external-preview.redd.it/EkJVGQ6eoEaVOoiGlU_Zafot0pCZo-f3GHPoSyI-kn4.jpg?auto=webp&s=32b226e9ea7d376a8974094a47dcf432984bdb4a)
-
-[https://blog.fission.codes/run-evm-wrap-up/](https://blog.fission.codes/run-evm-wrap-up/)
-
-[RUN EVM Wrap Up](https://blog.fission.codes/run-evm-wrap-up/)
-
-Wrap up of the first RUN EVM held April 16th in Berlin. Covering the Ethereum Virtual Machine (EVM) stack, including sidechains, enterprise usage, and trusted computing.
-
-![https://s3.fission.codes/2019/05/7A030F00-3E14-4410-A061-497D894DD173.png](https://s3.fission.codes/2019/05/7A030F00-3E14-4410-A061-497D894DD173.png)
-
-[https://entethalliance.org/enterprise-ethereum-alliance-releases-dff-chain-trusted-compute-specification-1-0/](https://entethalliance.org/enterprise-ethereum-alliance-releases-dff-chain-trusted-compute-specification-1-0/)
-
-[Enterprise Ethereum Alliance Releases Off-Chain Trusted Compute Sp...](https://entethalliance.org/enterprise-ethereum-alliance-releases-dff-chain-trusted-compute-specification-1-0/)
-
-New Application Programming Interfaces Help Programmers Achieve the Privacy, Low Latency, and Throughput Required for Enterprise Use Cases in Fintech, Supply Chain, IoT, and Other Applications.
-
-![https://entethalliance.org/wp-content/uploads/formidable/10/042-1024x683-1.jpg](https://entethalliance.org/wp-content/uploads/formidable/10/042-1024x683-1.jpg)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 22-May-19 07:57 PM
-
-[https://twitter.com/sassal0x/status/1131340998892695552?s=12](https://twitter.com/sassal0x/status/1131340998892695552?s=12)
-
-![https://pbs.twimg.com/profile_images/1108535832737046533/r2awmYJG_bigger.png](https://pbs.twimg.com/profile_images/1108535832737046533/r2awmYJG_bigger.png)
-
-[Anthony Sassano (@sassal0x)](https://twitter.com/sassal0x)
-
-@jimmysong Here are the teams that have delivered eth2.0 testnet clients (aka *executing*): -@prylabs -@sigp_io -@ethstatus Here's a list of all the teams building eth2 clients: [https://t.co/Um80TifRAd](https://t.co/Um80TifRAd)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-[https://twitter.com/zastrinlab/status/1131228864884215808?s=12](https://twitter.com/zastrinlab/status/1131228864884215808?s=12)
-
-![https://pbs.twimg.com/profile_images/1066379666146107393/ZBWm7wif_bigger.jpg](https://pbs.twimg.com/profile_images/1066379666146107393/ZBWm7wif_bigger.jpg)
-
-[Zastrin (@zastrinlab)](https://twitter.com/zastrinlab)
-
-If you are new to Ethereum and want an easy way to learn the concepts, check out our new flash cards! [https://t.co/ymOvenrDNZ](https://t.co/ymOvenrDNZ)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 27-May-19 01:02 AM
-
-[https://blog.elidourado.com/the-case-for-ethereum-maximalism-e6ec5dc7f7b2](https://blog.elidourado.com/the-case-for-ethereum-maximalism-e6ec5dc7f7b2)
-
-[The case for Ethereum maximalism](https://blog.elidourado.com/the-case-for-ethereum-maximalism-e6ec5dc7f7b2)
-
-Ethereum is going to win it all, the markets just haven’t realized it yet
-
-![https://cdn-images-1.medium.com/max/1200/1*RmU6NsRS6GISOjz4NXl43A.png](https://cdn-images-1.medium.com/max/1200/1*RmU6NsRS6GISOjz4NXl43A.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 27-May-19 07:13 PM
-
-[https://twitter.com/sassal0x/status/1133143338318614528?s=12](https://twitter.com/sassal0x/status/1133143338318614528?s=12)
-
-![https://pbs.twimg.com/profile_images/1108535832737046533/r2awmYJG_bigger.png](https://pbs.twimg.com/profile_images/1108535832737046533/r2awmYJG_bigger.png)
-
-[Anthony Sassano (@sassal0x)](https://twitter.com/sassal0x)
-
-@nvk -All of Defi ([https://t.co/MMaF8tRePA)](https://t.co/MMaF8tRePA)) -@ensdomains has 240k+ registered domains -Ethereum-based games (@GodsUnchained, @CHZWZRDS) -MetaMask Metrics ([https://t.co/5pQsxww46K)](https://t.co/5pQsxww46K)) -General growth metrics ([https://t.co/jZg84Y5A8E)](https://t.co/jZg84Y5A8E))
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 28-May-19 03:52 AM
-
-[https://twitter.com/fubuloubu/status/1133181265870544899?s=12](https://twitter.com/fubuloubu/status/1133181265870544899?s=12)
-
-![https://pbs.twimg.com/profile_images/995511993380487168/ua2LM8Y8_bigger.jpg](https://pbs.twimg.com/profile_images/995511993380487168/ua2LM8Y8_bigger.jpg)
-
-[Bryant Eisenbach (@fubuloubu)](https://twitter.com/fubuloubu)
-
-Had some thoughts, wrote them down. Feel free to read, ask questions, or respond! [https://t.co/YvoF1RxzIG](https://t.co/YvoF1RxzIG)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 11-Jun-19 04:35 AM
-
-[https://twitter.com/scott_lew_is/status/1138197426785984514?s=12](https://twitter.com/scott_lew_is/status/1138197426785984514?s=12)
-
-![https://pbs.twimg.com/profile_images/1027266617066119169/BYu4UHPy_bigger.jpg](https://pbs.twimg.com/profile_images/1027266617066119169/BYu4UHPy_bigger.jpg)
-
-[scott lewis🌾 (@scott_lew_is)](https://twitter.com/scott_lew_is)
-
-I write a short post on r/ethtrader about my observations of the donuts experiment. [https://t.co/gz8y22p3BP](https://t.co/gz8y22p3BP)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 26-Jun-19 06:38 PM
-
-[https://medium.com/@seb2point0/thoughts-on-ethereum-1-x-2dee53ca75ab](https://medium.com/@seb2point0/thoughts-on-ethereum-1-x-2dee53ca75ab)
-
-[Thoughts on Ethereum 1.x - Sebastien Couture - Medium](https://medium.com/@seb2point0/thoughts-on-ethereum-1-x-2dee53ca75ab)
-
-There are benefits to a more progressive approach to evolving Ethereum. However, I do see something which could play in Ethereum’s…
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 27-Jun-19 07:20 AM
-
-[https://twitter.com/sassal0x/status/1086023932514189312?s=12](https://twitter.com/sassal0x/status/1086023932514189312?s=12)
-
-![https://pbs.twimg.com/profile_images/1108535832737046533/r2awmYJG_bigger.png](https://pbs.twimg.com/profile_images/1108535832737046533/r2awmYJG_bigger.png)
-
-[Anthony Sassano (@sassal0x)](https://twitter.com/sassal0x)
-
-0/ There has been a lot of misinformation spread surrounding Ethereum's upcoming issuance reduction - codenamed the #Thirdening In this thread, I’ll explain the process that Ethereum issuance reductions go through before they can be considered “consensus”. (thread)
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 27-Jun-19 11:27 PM
-
-[https://twitter.com/onggunhao/status/1144295331481497600?s=12](https://twitter.com/onggunhao/status/1144295331481497600?s=12)
-
-![https://pbs.twimg.com/profile_images/1133778862700191747/vBBP5Bhy_bigger.png](https://pbs.twimg.com/profile_images/1133778862700191747/vBBP5Bhy_bigger.png)
-
-[Daniel Onggunhao (@onggunhao)](https://twitter.com/onggunhao)
-
-I'll be writing a technical-focused analysis of Ethereum privacy projects for @TheBlock__. Currently covering * EY's Nightfall * @aztecprotocol * @clearmatics' Zeth * Stanford's Zether * @argentHQ's Hopper Are there projects I've missed out?
-
-Likes
-
-103
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 09-Jul-19 05:29 PM
-
-[https://ethgasstation.info/](https://ethgasstation.info/)
-
-[ETH Gas Station](https://ethgasstation.info/)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 10-Aug-19 10:23 PM
-
-[https://github.com/Scanate/EthList](https://github.com/Scanate/EthList)
-
-[Scanate/EthList](https://github.com/Scanate/EthList)
-
-The Comprehensive Ethereum Reading List. Contribute to Scanate/EthList development by creating an account on GitHub.
-
-[https://avatars2.githubusercontent.com/u/26105325?s=400&v=4](https://avatars2.githubusercontent.com/u/26105325?s=400&v=4)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 13-Aug-19 11:03 PM
-
-Advanced Analytics for the Ethereum Blockchain | Alethio [https://company.aleth.io/api](https://company.aleth.io/api)
-
-[Advanced Analytics for the Ethereum Blockchain | Alethio](https://company.aleth.io/api)
-
-Alethio enables enlightenment in the Ethereum ecosystem. We build analytics products to extract knowledge and insights from blockchain data.
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 19-Aug-19 01:46 PM
-
-[https://twitter.com/scott_lew_is/status/1163492765201817602](https://twitter.com/scott_lew_is/status/1163492765201817602)
-
-![https://pbs.twimg.com/profile_images/1027266617066119169/BYu4UHPy_bigger.jpg](https://pbs.twimg.com/profile_images/1027266617066119169/BYu4UHPy_bigger.jpg)
-
-[scott lewis🌾 (@scott_lew_is)](https://twitter.com/scott_lew_is)
-
-@hasufl @cyounessi1 turns out that most of the hypothetical models were actually stupid as fuck, and now you have projects with maybe reasonable products but no good way to work a token into the plan, and so it is just sorta in limbo until *something* can be figured out, i...
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-a hole thread there
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 23-Aug-19 03:18 PM
-
-[https://tokeneconomy.co/visions-of-ether-590858bf848e](https://tokeneconomy.co/visions-of-ether-590858bf848e)
-
-[⟠ Visions of Ether](https://tokeneconomy.co/visions-of-ether-590858bf848e)
-
-How major narratives of Ethereum and $ETH have evolved over time.
-
-![https://miro.medium.com/max/1200/1*ZpdeufZXonF4IXP3NI9ssg.png](https://miro.medium.com/max/1200/1*ZpdeufZXonF4IXP3NI9ssg.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 28-Aug-19 07:16 PM
-
-[https://twitter.com/b9lab/status/1165594760536444929?s=12](https://twitter.com/b9lab/status/1165594760536444929?s=12)
-
-![https://pbs.twimg.com/profile_images/728591311952084992/EZ5Qm6pI_bigger.jpg](https://pbs.twimg.com/profile_images/728591311952084992/EZ5Qm6pI_bigger.jpg)
-
-[B9lab (@b9lab)](https://twitter.com/b9lab)
-
-Want to become a #SmartContract #Auditor but worried you don't have the basics? Worry no more!!! We've added access to our Ethereum Developer Course for FREE so you can get ready for the first EVER Ethereum Smart Contract Auditor Course with @SolidifiedHQ! [https://t.co/tz8](https://t.co/tz8)...
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 31-Aug-19 03:13 AM
-
-[https://www.delphidigital.io/ethereum](https://www.delphidigital.io/ethereum)
-
-[Delphi Digital | Research & Consulting](https://www.delphidigital.io/ethereum)
-
-Premier research & consulting boutique specializing in the digital asset market.
-
-![https://static.wixstatic.com/media/4de8d5_a47e9faf6d6d4251a29aba1fe75c8db0%7Emv2_d_2756_2756_s_4_2.png](https://static.wixstatic.com/media/4de8d5_a47e9faf6d6d4251a29aba1fe75c8db0%7Emv2_d_2756_2756_s_4_2.png)
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 10-Sep-19 09:58 PM
-
-[https://twitter.com/ercwl/status/1159940020331040770?s=20](https://twitter.com/ercwl/status/1159940020331040770?s=20)
-
-![https://pbs.twimg.com/profile_images/1161776854749077504/9N92AIXl_bigger.jpg](https://pbs.twimg.com/profile_images/1161776854749077504/9N92AIXl_bigger.jpg)
-
-[Eric Wall (@ercwl)](https://twitter.com/ercwl)
-
-Going to try the supposedly impossible today, syncing an Ethereum full node from scratch. (Yes, I'm downloading and storing every block and computing and validating each and every state transition from genesis) [https://t.co/ZbpWu0Deba](https://t.co/ZbpWu0Deba)
-
-Likes
-
-312
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-epic thread ^^^ interesting experiement...
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 13-Sep-19 11:57 AM
-
-[https://twitter.com/timbeiko/status/1172535791706398725?s=12](https://twitter.com/timbeiko/status/1172535791706398725?s=12)
-
-![https://pbs.twimg.com/profile_images/1082093593840349184/P2B7Qiyn_bigger.jpg](https://pbs.twimg.com/profile_images/1082093593840349184/P2B7Qiyn_bigger.jpg)
-
-[Tim Beiko (@TimBeiko)](https://twitter.com/TimBeiko)
-
-@anguschampion The original Geth fast sync PR has the best explanation of fast sync and its security tradeoffs I've read: [https://t.co/VvKnOEZ9LN](https://t.co/VvKnOEZ9LN) A bit sad it's not really captured anywhere else as clearly.
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 29-Sep-19 09:17 PM
-
-[https://twitter.com/alethioethstats/status/1176511383195783172?s=12](https://twitter.com/alethioethstats/status/1176511383195783172?s=12)
-
-![https://pbs.twimg.com/profile_images/973258307774410755/mvZMS0j__bigger.jpg](https://pbs.twimg.com/profile_images/973258307774410755/mvZMS0j__bigger.jpg)
-
-[Alethio (@AlethioEthstats)](https://twitter.com/AlethioEthstats)
-
-Amazing to see the evolution of mining pools since 2015 across size and production. Currently Sparkpool produces the most blocks, while Ethermine maintains the most miners; the top 4 pools (Sparkpool, Ethermine, f2pool, Nanopool) produce 72.23% of all blocks on Ethereum
-
-![https://abs.twimg.com/icons/apple-touch-icon-192x192.png](https://abs.twimg.com/icons/apple-touch-icon-192x192.png)
-
-Twitter
-
-![https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png](https://cdn.discordapp.com/avatars/331870764024332288/02e4a4bf5a6afba4a9d2a0b741a3b286.png)
-
-⧉infominer 23-Oct-19 02:54 AM
-
-[https://www.placeholder.vc/blog/2019/10/22/fire-before-growth-the-likely-fate-of-ethereum-killers](https://www.placeholder.vc/blog/2019/10/22/fire-before-growth-the-likely-fate-of-ethereum-killers)
-
-[Fire before Growth: The Likely Fate of Ethereum Killers — Placeh...](https://www.placeholder.vc/blog/2019/10/22/fire-before-growth-the-likely-fate-of-ethereum-killers)
-
-In the coming quarters, a high density of “Ethereum Killers” (EKs) plan to launch their mainnets, and in so doing, release their assets to the public crypto markets. The transition of price discovery from the private to public markets will be an important one to watch and...
-
-![http://static1.squarespace.com/static/5a479ee3b7411c6102f75729/5a81a80c0d92971a09518af4/5daeebfe81ef8d4f64580066/1571777299243/Screen+Shot+2019-10-18+at+5.17.44+PM.png?format=1500w](http://static1.squarespace.com/static/5a479ee3b7411c6102f75729/5a81a80c0d92971a09518af4/5daeebfe81ef8d4f64580066/1571777299243/Screen+Shot+2019-10-18+at+5.17.44+PM.png?format=1500w)
+# Ethereum
+
+* [Introducing Trusted Relay Networks – Grid+](https://blog.gridplus.io/introducing-trusted-relay-networks-6c168f72a6f6)
+  > (A lightweight scaling solution for Ethereum)
+* [World's Largest Blockchain Initiative Launches Three Working Group...](https://entethalliance.org/worlds-largest-blockchain-initiative-launches-three-working-groups/)
+  > Enterprise Ethereum Alliance Members Request Digital Identity, Energy and MultiPlatform Working Groups NEW YORK, N.Y., USA – December 19, 2017 ––The Enterprise Ethereum Alliance (EEA), the world’s largest open-source blockchain initiative, launched today three new mem...
+* [What Is Ethereum Fog?](https://themerkle.com/what-is-ethereum-fog/)
+* [Future-compatibility for sharding](https://ethresear.ch/t/future-compatibility-for-sharding/386)
+  > In my opinion, the current sharding spec as described here [https://github.com/ethereum/sharding/blob/develop/docs/doc.md](https://github.com/ethereum/sharding/blob/develop/docs/doc.md) is basically already good enough to get us to thousands of transactions per second with reasonable security properties, as well as the ability to add cross...
+* [Life Cycle of an Ethereum Transaction – BlockChannel – Medium](https://medium.com/blockchannel/life-cycle-of-an-ethereum-transaction-e5c66bae0f6e)
+  > Learn How an Ethereum Transaction is Created and Propagated to the Network
+* [The Redemptive Greed That Will Drive Decentralization & Generalize...](https://medium.com/blockchannel/the-redemptive-greed-that-will-drive-decentralization-generalized-state-channels-in-depth-part-666bd6244a28)
+  > An In-Depth Look into the Growing Ethereum Scalability Toolset
+* [The Ethereum Wiki/White-Paper](https://github.com/ethereum/wiki/wiki/White-Paper)
+* [Vitalik Buterin's website](https://vitalik.ca/)
+* [Ethereum ERC725: Blockchain-Based Self-Sovereign Identity Management](https://bitcoinexchangeguide.com/ethereum-erc725-blockchain-based-self-sovereign-identity-management/)
+  > What on Earth is ERC725? The Answer to the Question of Self-Sovereign Identity Management on Blockchain The one response that dApps, and the blockchain world for that matter, can give to the world …
+* [A Case for Ethereum Block Reward Reduction to 2 ETH in Constantino...](https://medium.com/@eric.conner/a-case-for-ethereum-block-reward-reduction-in-constantinople-eip-1234-25732431fc77)
+  > Cryptocurrency supply models have long been a hot topic of conversation and no one has the “right” answer. However, I do think there are…
+* [ECF and ETHPrize band together to help fund Universal Logins Demo](https://medium.com/@avsa/ecf-and-ethprize-band-together-to-help-fund-universal-logins-demo-599d0a05139d)
+  > I’ve been helping people launch ethereum projects for a long time now, so I usually anticipate all the same questions: yes, users need…
+* [Layer2 Source Directory](https://docs.google.com/spreadsheets/d/1cexYBmRltx_PSkzZV-3YYcsyetcouFdwo6hLcmqkKUQ/edit?usp=sharing)
+  > Ethereum Projects Ethereum Projects Project Name, Rep Name, Position, Twitter, Medium, Reddit Aragon Project, https:// twitter. com/ aragonproject, https:// blog. aragon. one, https:// www. reddit. com/ r/ aragonproject/ Luis Cuende, Project Lead, https:// twitter. com/ ...
+* [Solutions to Extract Data from Ethereum](https://www.madewithtea.com/solutions-to-extract-data-from-ethereum.html)
+  > Ethereum is easy and fun, but it is also relatively new. The developer solutions today are going through the teething stage - so, itâ€™s new and cool but also slightly painful. As an example, take data extraction from the Ethereum blockchain. Iâ€™ve been keeping an ...
+* [DappRadar - Ranked list of blockchain dapps](https://dappradar.com/)
+  > DappRadar provides information and insights about all the existing dapps! At the tap of your finger, find the most successful and used decentralized games, casinos, and marketplaces, among others.
+* [r/ethtrader - Terrible Token Tuesday - Same Plot as Old Yeller, Bu...](https://www.reddit.com/r/ethtrader/comments/9937b1/terrible_token_tuesday_same_plot_as_old_yeller/)
+* [Ethereum Foundation Eyes Future With New Round of Grants](https://bitsonline.com/ethereum-foundation-new-grants/)
+  > Going into the weekend, the Ethereum Foundation declared its 'Wave 3' grants for projects in the Ethereum ecosystem focused on scaling, security, education, and more. The new round suggests technical progress is -- and will be -- coming along steadily for the most popular cry...
+* [Ethereum Network (@EthereumNetw)](https://twitter.com/EthereumNetw/status/1032177555917484032)
+  > What Vitalik Buterin’s tweetstorm means for the future Ethereum blockchain [https://t.co/J0CW4sAW3K](https://t.co/J0CW4sAW3K)
+* [Ethereum Proof-of-Authority on Azure](https://azure.microsoft.com/en-us/blog/ethereum-proof-of-authority-on-azure/)
+  > We’ve had great traction with our support of Ethereum on Azure. The existing Proof-of-Work solution has been deployed tens of thousands of times across a variety of industry verticals.
+* [Melik Manukyan ⚡️ ludvigart.com (@realLudvigArt)](https://twitter.com/realLudvigArt/status/1021663976155828225)
+  > #Ethereum is pretty much one big giant ponzi scheme. [https://t.co/uTQiEIA3RH](https://t.co/uTQiEIA3RH) "Every trade, buy or sell, has a 10% flat transaction fee applied. Instead of this going to the exchange, the fee is split between all currently held token holders.."
+* [How To Use MetaMask (Like A Wizard)](https://youtu.be/gHmh3yPYe68)
+  > Plugin to the future with MetaMask and this light hearted yet informative tutorial. In under 5 minutes, you'll be navigating the Ethereum Blockchain like a w...
+* [Jason Wong (@Jasonhcwong)](https://twitter.com/Jasonhcwong/status/1033390691794280449)
+  > I just published “Atomic on-chain ETH to off-chain BTC swap” [https://t.co/5Guo0XAent](https://t.co/5Guo0XAent)
+* [Whitepaper for localethereum. Without an ICO.](https://whitepaper.localethereum.com/)
+  > Technical guide to localethereum's peer-to-peer marketplace. Learn about the cryptography behind the popular self-custodial end-to-end encrypted marketplace, and the unique design decisions that went into developing the platform. Localethereum is the private, secure and intui...
+* [Our First Hub is LIVE on mainnet! – Connext – Medium](https://medium.com/connext/our-first-hub-is-live-on-mainnet-b5660486635e)
+  > And it’s magical to use.
+* [Ethereum co-founder Vitalik Buterin shares his view on Plasma, sha...](https://bcfocus.com/news/ethereum-co-founder-vitalik-buterin-shares-his-view-on-plasma-sharding-layer-2-solutions/21938/)
+  > Ethereum co-founder, Vitalik Buterin, recently shared his view on whether development should focused on the layer 1 or layer 2 functionalities in blockchains. He presents his point by mentioning that debates regarding the scaling of blockchains is common, in circumstances, su...
+* [Liberal Radicalism: Formal Rules for a Society Neutral Among Commu...](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656)
+  > We propose a design for philanthropic or publicly-funded seeding to allow (near) optimal provision of a decentralized, self-organizing ecosystem of public goods
+* [There's a Problem With Crypto Funding – And Vitalik Just Might H...](https://www.coindesk.com/theres-a-problem-with-crypto-funding-and-vitalik-might-have-a-solution/)
+  > A new paper by Vitalik Buterin and other researchers proposes a novel way to finance the public goods a decentralized ecosystem needs.
+* [Tuur Demeester (@TuurDemeester)](https://twitter.com/TuurDemeester/status/1037251413892653056)
+  > Google's BigQuery visualization of the Ethereum blockchain. Is the green "head" the mixer? HT Eric Meltzer & @nic__carter [https://t.co/nPVZdMdVbQ](https://t.co/nPVZdMdVbQ)
+* [Building a non-fungible token sales smart contract – Coinmonks ...](https://medium.com/coinmonks/building-a-non-fungible-token-sales-smart-contract-6573350d5a33)
+  > Selling non-fungible tokens and the ERC721 standard
+* [Ethereum Network (@EthereumNetw)](https://twitter.com/EthereumNetw/status/1032177555917484032)
+  > What Vitalik Buterin’s tweetstorm means for the future Ethereum blockchain [https://t.co/J0CW4sAW3K](https://t.co/J0CW4sAW3K)
+* [Ethereum holdings in the ICO treasury accounts](https://blog.bitmex.com/ethereum-holdings-in-the-ico-treasury-accounts)
+* [Who is Vitalik Buterin, The Mastermind Behind Ethereum? - unblock.net](https://unblock.net/who-is-vitalik-buterin)
+  > Do not be fooled by his timid, geeky looks nor his love for cats. Being the founder of Ethereum, he's on a mission to conquer the world of cryptocurrency with his intelligence. Read more about this visionary here.
+* [History of Ethereum](https://www.coinmama.com/guide/history-of-ethereum)
+  > History of Ethereum - A brief description of the significant milestones of the Ethereum cryptocurrency and its planned future roadmap. A quick guide to ETH history.
+* [A Prehistory of the Ethereum Protocol](https://vitalik.ca/general/2017/09/14/prehistory.html)
+  > Although the ideas behind the current Ethereum protocol have largely been stable for two years, Ethereum did not emerge all at once, in its current conceptio...
+* [http://ethdocs.org](http://ethdocs.org/)
+* [The Uncanny Mind That Built Ethereum](https://www.wired.com/2016/06/the-uncanny-mind-that-built-ethereum)
+  > Vitalik Buterin invented the world’s hottest new cryptocurrency and inspired a movement — before he’d turned 20.
+* [Vitalik Buterin: Ethereum Creator, Bitcoin Author And Elite Blockc...](https://bitcoinexchangeguide.com/vitalik-buterin)
+  > Though he’s not yet 25 years old, Vitalik Buterin has become one of the most influential figures in cryptocurrency and decentralized applications by creating Ethereum. By introducing support …
+* [You Won't Have to Wait for This Ethereum Scaling Solution, It Work...](https://www.coindesk.com/you-wont-have-to-wait-for-this-ethereum-scaling-solution-it-works-now)
+  > Most ethereum scaling technologies are a far from completed, but OpenST says it's got a solution that's ready for the "here and now."
+* [Who Controls Ethereum? - Nakamoto Studies Institute](https://nakamotostudies.org/literature/who-controls-ethereum)
+  > Out of the Memory Hole I wrote an article a couple years ago called “Who Controls Bitcoin?” which argues that it is not the miners or the core devs who control Bitcoin; rather, it is the investors. Recently, a fork occurred in the Ethereum blockchain which is illustrating...
+* [Insights into the Ethereum ecosystem – Sebastian Wurst – Medium](https://medium.com/@sebastianhrw/insights-into-the-ethereum-ecosystem-6ffff98e1f0e)
+  > Analysis of the top 250 ERC-20 tokens by market cap
+* [Vitalik Non-giver of Ether (@VitalikButerin)](https://twitter.com/VitalikButerin/status/929804867568373760)
+  > @JihanWu @rogerkver The very earliest versions of ETH protocol were a counterparty-style metacoin on top of primecoin. Not Bitcoin because the OP_RETURN wars were happening at the time and...
+* [A Prehistory of the Ethereum Protocol](https://vitalik.ca/2017-09-15-prehistory.html)
+* [Giant Ethereum Resource List](https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/giant_ethereum_resource_list.html)
+  > These links have helped me set-up Ethereum, create DApps, and understand the platform. Proof-of-Stake and DEVCon resources are on the nested under this page in the menu on the left.
+* [WTF is Ethereum](http://whatthefuckisethereum.com/)
+  > Ethereum is a computing platform running on computers all over the world. To run programs on the network you pay Ether (ETH); you can program on the Ethereum network using a language named Solidity
+* [I think this article is conflating a few very different issues.](https://medium.com/@VitalikButerin/i-think-this-article-is-conflating-a-few-very-different-issues-1fd122ae68e7)
+  > To me it is not at all obvious that predictable access to reading the blockchain is more important than predictable access to writing to…
+* [Eric Conner (@econoar)](https://twitter.com/econoar/status/1055845633754447872)
+  > 0/ A thread on Ethereum economic abstraction. I’ve recently seen a lot of nonsense spread about how Ethereum could be wildly successful but ETH itself could be worth 0. It’s time to debunk this myth so why don’t you go on a journey with me into economic abstraction?
+* [Blockchain Explorer | BTC | ETH](https://www.blockchain.com/explorer?currency=ETH)
+  > The easiest and most trusted transaction search engine and block explorer
+* [EY launches the world's first secure private transactions over the...](https://www.prnewswire.com/news-releases/ey-launches-the-worlds-first-secure-private-transactions-over-the-ethereum-public-blockchain-300740902.html)
+  > LONDON, Oct. 30, 2018 /PRNewswire/ -- EY today announced the launch of EY Ops Chain Public Edition (PE) prototype, the world's first implementation of...
+* [http://www.ethviewer.live/](http://www.ethviewer.live/)
+* [jdourlens/awesome-ethereum-analytics](https://github.com/jdourlens/awesome-ethereum-analytics)
+  > A curated list of projects around Ethereum analytics. - jdourlens/awesome-ethereum-analytics
+* [Chris Burniske (@cburniske)](https://twitter.com/cburniske/status/1052201578256580608)
+  > 1/ Great study via @sebastianhrw on #Ethereum's top 250 ERC20s, investigating the fat protocols thesis via value accrual in 4 layers of the stack. [https://t.co/apUz04QhEx](https://t.co/apUz04QhEx)
+* [Gitcoin (@GetGitcoin)](https://twitter.com/GetGitcoin/status/1072262183508197377)
+  > Looking to learn more about Scaling? @ethhub_io has a podcast for that. Check it out below
+* [Eric Conner (@econoar)](https://twitter.com/econoar/status/1073301950249132032)
+  > 0/ Let's talk about incentives. Ethereum can unlock a new world of possibilities when it comes to digital and economic incentive structures. I'm very excited to see what comes out of this long term.
+* [ethhub-cftc-response.md](https://github.com/ethhub-io/ethhub/blob/master/other/ethhub-cftc-response.md)
+  > The essential Ethereum information hub. Contribute to ethhub-io/ethhub development by creating an account on GitHub.
+* [https://docs.ethhub.io/ethereum-roadmap/planned-forks/constantinople](https://docs.ethhub.io/ethereum-roadmap/planned-forks/constantinople)
+* [Ethereum Constantinople: Everything You Need To Know](https://medium.com/mycrypto/ethereum-constantinople-everything-you-need-to-know-a47f3a16f3d2)
+  >Learn about the Ethereum fork coming up around January 16!
+  >
+  >block numbers frontier = 0 homestead = 1,150,000 dao fork = 1,920,000 <-- this is where etc diverges tangerine whistle = 2,463,000 spurious dragon = 2,675,000 byzantium = 4,370,000 <-- november 2017 constantinople = 7,080,000
+* [Nick 'no Nick' Johnson (@nicksdjohnson)](https://twitter.com/nicksdjohnson/status/1074781024779788288)
+  > @isTruStory @ethereum Since Byzantium, uncles are taken into account for difficulty calculations, per EIP 100 ([https://t.co/plxZtw0nMh)](https://t.co/plxZtw0nMh)). The code to do this is here: [https://t.co/aSIDCcPUAT](https://t.co/aSIDCcPUAT)
+* [wETH](https://weth.io/)
+  > A brief overview of wETH and why you need it for decentralized platforms.
+* [Out in the Open: Teenage Hacker Transforms Web Into One Giant Bitc...](https://www.wired.com/2014/01/ethereum/)
+  > Most people think of bitcoin as a form of money, if they think of bitcoin at all. But 19-year-old hacker Vitalik Buterin sees it as something more -- much more. He sees it as a new way of building just about any internet application.
+* [Eric Conner (@econoar)](https://twitter.com/econoar/status/1079520172233306112)
+  > I have a few concerns about Serenity PoS that I’d like to share. That said, I think all can and will be addressed before launch given proper debate.
+* [Hugo Nguyen (@hugohanoi)](https://twitter.com/hugohanoi/status/1079639446088118272)
+  > 1/ People have asked me to elaborate on the “verification-not-computation” point. And why Ethereum has a flawed architecture from the get-go. Thread.
+  > 
+  > *Note: I use “blockchain systems” to refer to Bitcoin-like blockchains that are based on PoW.
+* [🛠️ Austin Griffith (@austingriffith)](https://twitter.com/austingriffith/status/1079406563582824449)
+  > I can encrypt messages with an ethereum public key can’t I? I found a few libraries to do it, but other posts that say you can’t. I get that with asymmetric it will have to be a short message and eth keys aren’t really made for it, but it’s possible right? ...
+* [r/ethereum - Leadership should be held accountable to the community](https://www.reddit.com/r/ethereum/comments/arr7c6/leadership_should_be_held_accountable_to_the/?st=JSBHBDEM&sh=30161ad1)
+* [David Iach 🚀 (@davidiach)](https://twitter.com/davidiach/status/1085846439299858432)
+  > 1/ Mega Thread on running a @ParityTech Ethereum node. Bare with me.
+* [https://arxiv.org/pdf/1901.04620.pdf](https://arxiv.org/pdf/1901.04620.pdf)
+  > Selfish Mining in Ethereum Jianyu Niu and Chen Feng School of Engineering, University of British Columbia (Okanagan Campus), Canada jianyu.niu@ubc.ca, chen.feng@ubc.ca
+* [Virgil Griffith (@virgilgr)](https://twitter.com/virgilgr/status/1111536065607684096?s=12)
+  > I just published a paper on what Ethereum is for. It is entitled, "Ethereum is game-changing technology, literally." [https://t.co/7Ur9601Yjy](https://t.co/7Ur9601Yjy)
+* [On Collusion](https://vitalik.ca/general/2019/04/03/collusion.html)
+  > Special thanks to Glen Weyl, Phil Daian and Jinglan Wang for review
+* [scott lewis🌾 (@scott_lew_is)](https://twitter.com/scott_lew_is/status/1120091925946748928)
+  > great thread explaining how ethereum governance cordons off dissent. [https://t.co/c0Zm5e32Ju](https://t.co/c0Zm5e32Ju)
+* [https://www.interfluidity.com/v2/7153.html](https://www.interfluidity.com/v2/7153.html)
+* [Dan Finlay (@danfinlay)](https://twitter.com/danfinlay/status/1120456490752593922?s=12)
+  > This proposed architecture is highly compatible with Eth 1.x goals of reducing on-chain storage by reducing the cost of CALLDATA. With the right stateless contracts on-chain, only revocations and locks (double-spend-proofing) would need to be published. [https://t.co/5GrgE](https://t.co/5GrgE)...
+* [Ethereum’s 10 year future and Black Swan Threats & Opportunities](https://blog.fission.codes/ethereum-10-years-black-swan/)
+  > Russell Keith-Magee's PyCon 2019 keynote looks at Python's history & its 10 year future, including what black swan events it needs to prepare for. What lessons can we take from this for the Ethereum community?
+* [r/ethtrader - Winklevi drive Ethereum adoption at retailers, press...](https://www.reddit.com/r/ethtrader/comments/bo788n/winklevi_drive_ethereum_adoption_at_retailers/)
+* [Enterprise Ethereum Alliance Releases Off-Chain Trusted Compute Sp...](https://entethalliance.org/enterprise-ethereum-alliance-releases-dff-chain-trusted-compute-specification-1-0/)
+  > New Application Programming Interfaces Help Programmers Achieve the Privacy, Low Latency, and Throughput Required for Enterprise Use Cases in Fintech, Supply Chain, IoT, and Other Applications.
+* [Zastrin (@zastrinlab)](https://twitter.com/zastrinlab/status/1131228864884215808?s=12)
+  > If you are new to Ethereum and want an easy way to learn the concepts, check out our new flash cards! [https://t.co/ymOvenrDNZ](https://t.co/ymOvenrDNZ)
+* [The case for Ethereum maximalism](https://blog.elidourado.com/the-case-for-ethereum-maximalism-e6ec5dc7f7b2)
+  > Ethereum is going to win it all, the markets just haven’t realized it yet
+* [Anthony Sassano (@sassal0x)](https://twitter.com/sassal0x/status/1133143338318614528?s=12)
+  > @nvk -All of Defi ([https://t.co/MMaF8tRePA)](https://t.co/MMaF8tRePA)) -@ensdomains has 240k+ registered domains -Ethereum-based games (@GodsUnchained, @CHZWZRDS) -MetaMask Metrics ([https://t.co/5pQsxww46K)](https://t.co/5pQsxww46K)) -General growth metrics ([https://t.co/jZg84Y5A8E)](https://t.co/jZg84Y5A8E))
+* [Bryant Eisenbach (@fubuloubu)](https://twitter.com/fubuloubu/status/1133181265870544899?s=12)
+  > Had some thoughts, wrote them down. Feel free to read, ask questions, or respond! [https://t.co/YvoF1RxzIG](https://t.co/YvoF1RxzIG)
+* [scott lewis🌾 (@scott_lew_is)](https://twitter.com/scott_lew_is/status/1138197426785984514?s=12)
+  > I write a short post on r/ethtrader about my observations of the donuts experiment. [https://t.co/gz8y22p3BP](https://t.co/gz8y22p3BP)
+* [Thoughts on Ethereum 1.x - Sebastien Couture - Medium](https://medium.com/@seb2point0/thoughts-on-ethereum-1-x-2dee53ca75ab)
+  > There are benefits to a more progressive approach to evolving Ethereum. However, I do see something which could play in Ethereum’s…
+* [Anthony Sassano (@sassal0x)](https://twitter.com/sassal0x/status/1086023932514189312?s=12)
+  > 0/ There has been a lot of misinformation spread surrounding Ethereum's upcoming issuance reduction - codenamed the #Thirdening In this thread, I’ll explain the process that Ethereum issuance reductions go through before they can be considered “consensus”. (thread)
+* [Daniel Onggunhao (@onggunhao)](https://twitter.com/onggunhao/status/1144295331481497600?s=12)
+  > I'll be writing a technical-focused analysis of Ethereum privacy projects for @TheBlock__. Currently covering * EY's Nightfall * @aztecprotocol * @clearmatics' Zeth * Stanford's Zether * @argentHQ's Hopper Are there projects I've missed out?
+* [ETH Gas Station](https://ethgasstation.info/)
+* [Scanate/EthList](https://github.com/Scanate/EthList)
+  > The Comprehensive Ethereum Reading List. Contribute to Scanate/EthList development by creating an account on GitHub.
+* [Advanced Analytics for the Ethereum Blockchain | Alethio](https://company.aleth.io/api)
+  > Alethio enables enlightenment in the Ethereum ecosystem. We build analytics products to extract knowledge and insights from blockchain data.
+* [scott lewis🌾 (@scott_lew_is)](https://twitter.com/scott_lew_is/status/1163492765201817602)
+  > @hasufl @cyounessi1 turns out that most of the hypothetical models were actually stupid as fuck, and now you have projects with maybe reasonable products but no good way to work a token into the plan, and so it is just sorta in limbo until *something* can be figured out, i...
+* [⟠ Visions of Ether](https://tokeneconomy.co/visions-of-ether-590858bf848e)
+  > How major narratives of Ethereum and $ETH have evolved over time.
+* [B9lab (@b9lab)](https://twitter.com/b9lab/status/1165594760536444929?s=12)
+  > Want to become a #SmartContract #Auditor but worried you don't have the basics? Worry no more!!! We've added access to our Ethereum Developer Course for FREE so you can get ready for the first EVER Ethereum Smart Contract Auditor Course with @SolidifiedHQ! [https://t.co/tz8](https://t.co/tz8)...
+* [Delphi Digital - Research & Consulting - Ethereum](https://www.delphidigital.io/ethereum)
+  > Premier research & consulting boutique specializing in the digital asset market.
+* [Eric Wall (@ercwl)](https://twitter.com/ercwl/status/1159940020331040770?s=20)
+  > Going to try the supposedly impossible today, syncing an Ethereum full node from scratch. (Yes, I'm downloading and storing every block and computing and validating each and every state transition from genesis) [https://t.co/ZbpWu0Deba](https://t.co/ZbpWu0Deba)
+* [Tim Beiko (@TimBeiko)](https://twitter.com/timbeiko/status/1172535791706398725?s=12)
+  > @anguschampion The original Geth fast sync PR has the best explanation of fast sync and its security tradeoffs I've read: [https://t.co/VvKnOEZ9LN](https://t.co/VvKnOEZ9LN) A bit sad it's not really captured anywhere else as clearly.
+* [Alethio (@AlethioEthstats)](https://twitter.com/alethioethstats/status/1176511383195783172?s=12)
+  > Amazing to see the evolution of mining pools since 2015 across size and production. Currently Sparkpool produces the most blocks, while Ethermine maintains the most miners; the top 4 pools (Sparkpool, Ethermine, f2pool, Nanopool) produce 72.23% of all blocks on Ethereum
+* [Fire before Growth: The Likely Fate of Ethereum Killers — Placeh...](https://www.placeholder.vc/blog/2019/10/22/fire-before-growth-the-likely-fate-of-ethereum-killers)
+  > In the coming quarters, a high density of “Ethereum Killers” (EKs) plan to launch their mainnets, and in so doing, release their assets to the public crypto markets. The transition of price discovery from the private to public markets will be an important one to watch and...
+
+## Ethresearch
+
+* [Zether - The first privacy mechanism designed for Ethereum](https://ethresear.ch/t/zether-the-first-privacy-mechanism-designed-for-ethereum/5029/)
+  > I thought this might be share-worthy. Benedikt Bunz (co-author of Bulletproofs), Dan Bohen et al. proposed Zether, the first privacy mechanism built specifically for Ethereum, i.e. account-based smart contract platforms. All notable blockchain privacy mechanisms developed so..
+* [Maximally simple account abstraction without gas refunds](https://ethresear.ch/t/maximally-simple-account-abstraction-without-gas-refunds/5007/3)
+  > For background, see Tradeoffs in Account Abstraction Proposals In this post I’ll make an account abstraction proposal that I would argue achieves significantly greater simplicity, and greater generality, than anything proposed so far, but at a price: transactions whose gas...
+* [NOCUST - A Securely Scalable Commit-Chain](https://ethresear.ch/t/nocust-a-securely-scalable-commit-chain/5026/2)
+  > We are very excited to release an updated version of the NOCUST academic paper. NOCUST is a Commit-Chain or non-custodial side-chain to scale Blockchains through layer 2. We added passive delivery (recipients can now be offline), added an experimental evaluation with gas cos...
+* [Gluon Plasma Full Spec for Non-custodial Exchanges](https://ethresear.ch/t/gluon-plasma-full-spec-for-non-custodial-exchanges/3931/31)
+  > Is this assumption correct? If the operator fails to cancel orders of someone exiting directly from the smart contract, this can be detected and proven via “Exit Insolvency Fraud proof” Who is running the Orderbook? The operator Were any fund safety guarantees d...
+* [Simulating a fraud-proof blockchain](https://ethresear.ch/t/simulating-a-fraud-proof-blockchain/5024/2)
+  > Hi, I want to share a summary of a work I have done regarding a paper about Fraud Proofs written by Mustafa, Alberto, and Vitalik. The original idea was to verify the results presented in Table 1 by simulating the network instead of using mathematical closed-formulas (which...
+* [Zero-Knowledge Proofs Starter Pack](https://ethresear.ch/t/zero-knowledge-proofs-starter-pack/4519/6)
+  > On my journey to join the club of people who possess a reasonable understanding of ZKP cryptography, I stumbled upon many invaluable resources that provided to be very helpful. The problem was that they were rather scattered on the web. The awesome ZKP repo is indeed awesome ...
+* [BlockFlow: introducing a novel sharding algorithm with single-step...](https://ethresear.ch/t/blockflow-introducing-a-novel-sharding-algorithm-with-single-step-cross-shard-transactions/5002/10)
+  > Hi All! I am Cheng, founder of Alephium project. We found a novel sharding protocol which supports native cross-shard transactions, i.e. no two-phase commit is needed for cross-shard txs. We call it blockflow. It’s a general sharding algorithm, but the idea could be applie...
+* [Phase 2 pre-spec: cross-shard mechanics](https://ethresear.ch/t/phase-2-pre-spec-cross-shard-mechanics/4970/13)
+  > THIS IS A WORK IN PROGRESS! The goal of this post is to provide a rough outline of what phase 2 might look like, to help make the discussion about state and execution more concrete as well as to give us an idea of the level and types of complexity that would be involved in im...
+* [Whisper-v2 : Request for requirements for ETH2 unified messaging p...](https://ethresear.ch/t/whisper-v2-request-for-requirements-for-eth2-unified-messaging-protocol/4808/17)
+  > I have started to evaluate what is going on with whisper and with secure messaging in ethereum in general. I found out, that whisper is barely used. Some projects propose to use 3rd party messaging like rabbitMQ, others try develop an own messaging protocol like PSS in Swarm...
+* [Rate-limiting entry/exits, not withdrawals](https://ethresear.ch/t/rate-limiting-entry-exits-not-withdrawals/4942/11)
+  > Currently, validators are able to enter and leave the validator set relatively quickly: each time a validator set transition happens, 1/64 of the validator set can switch in or out, and so in the normal case, every validator can switch out within a day. There is a much slower...
+* [Encumberments as a common mechanism in sharding and L2](https://ethresear.ch/t/encumberments-as-a-common-mechanism-in-sharding-and-l2/4828/3)
+  > The mechanism of encumberments has come up under different names in cross-shard communication and plasma. We argue that recognizing this allows us to systematically construct better mechanisms, e.g. channels-on-plasma with short dispute times, and argue for plasma dispute tim...
+* [RSA Hash accumulator for arbitrary values](https://ethresear.ch/t/rsa-hash-accumulator-for-arbitrary-values/4485/22)
+  > RSA accumulators can efficiently store primes, but are (as far as I know) not efficient with non-prime numbers. My goal is to store arbitrary values, just like you can do in a Merkle tree, but having a shorter proof size. This can have multiple applications, such as in zk-sta...
+* [Roll_up / roll_back snark side chain ~17000 tps](https://ethresear.ch/t/roll-up-roll-back-snark-side-chain-17000-tps/3675/18)
+  > Authors BarryWhitehat, Alex Gluchowski, HarryR, Yondon Fu, Philippe Castonguay Overview A snark based side chain is introduced. It requires constant gas per state transition independent of the number of transactions included in each transition. This limits scalability at the...
+* [Combining Avalanche RANDAO and verifiable delay functions](https://ethresear.ch/t/combining-avalanche-randao-and-verifiable-delay-functions/4544/3)
+  > TL;DR: In the past, it has been questioned whether Avalanche RANDAO and verifiable delay functions (vdfs) are compatible, because Avalanche RANDAO allows large parties in the staking pool a “lookahead” on the entropy, so that they can start the vdf computation early. Howe...
+* [Plasma World Map - the hitchhiker’s guide to the plasma](https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333/23)
+  > Data unavailability is addressed the same way as MVP/plasma classic. There is a mass exit. This is made practical by halting the chain first to avoid gas pressure/network congestion.
+* [Pragmatic signature aggregation with BLS](https://ethresear.ch/t/pragmatic-signature-aggregation-with-bls/2105/37)
+  > I had not quite understood if registration was even the right model. I see. We’re not even talking about account keys, but validator’s signatures. In that case, there isn’t so much difference between the threat models anyways, so probably fine. I’m asking about ...
+* [Synchronous cross-shard transactions with consolidated concurrency...](https://ethresear.ch/t/synchronous-cross-shard-transactions-with-consolidated-concurrency-control-and-consensus-or-how-i-rediscovered-chain-fibers/2318/11)
+  > I’d like to argue against a widespread perception that under the initial sharding protocol, the only way to do cross-shard transactions will be with asynchronous messages (i.e. contract locking/yanking, and so on). I do agree that if we expect the least amount of innovation...
+* [A sketch for a STARK-based accumulator](https://ethresear.ch/t/a-sketch-for-a-stark-based-accumulator/4382/15)
+  > We can define a version of MIMC that works as follows: SimplifiedMiMCHash(x, d) = f^{512}(x), where f(x) = x^3 + d; that is, we apply the permutation x \rightarrow x^3 + d 512 times. Security claim: partial collision resistance - if y = SimplifiedMimChash(....SimplifiedMiMCH...
+* [Avalanche RANDAO – a construction to minimize RANDAO biasability...](https://ethresear.ch/t/avalanche-randao-a-construction-to-minimize-randao-biasability-in-the-face-of-large-coalitions-of-validators/4248/24)
+  > This is an interesting idea. I think I get the gist of it, you are essentially organizing the validators into a binary tree and performing a commit/reveal ceremony at each level of the tree. This essentially takes away the opportunity (or minimizes the likelihood) for a val...
+
+## Smart Contracts
+
+* [LeastAuthority/ethereum-analyses/GasEcon.md](https://github.com/LeastAuthority/ethereum-analyses/blob/master/GasEcon.md)
+  > Ethereum supports computationally-rich contracts, written in a Turing-complete language. This enables a previously-unavailable variety of self-enforcing "smart contracts", where all parties involved can be confident that their funds will be used in a predictable fashion.
+  > 
+  > The downside of this increased flexibility is a new set of costs and threats for the miners and verifiers which execute these programs. Turing-complete programs cannot in general be statically analyzed to determine runtime or resource costs (storage, stack depth, etc). Programs which deliberately (or accidentally) get stuck in an infinite loop have the potential to stall the machine executing it. Programs which are merely complex or CPU-intensive still might "cost" more than the miner is willing to bear.
+* ["https" in blockchain: Verifiable Formal Verification of Smart Contracts](https://ethresear.ch/t/https-in-blockchain-verifiable-formal-verification-of-smart-contracts/3999?u=levalicious)
+  > TL;DR We propose a protocol of verifiable formal verification of smart contracts, which provides a way for wallet apps, dapp browsers and even smart contracts to know whether a target contract is secure and satisfies certain specifications by SN[T]ARKs over formal verificatio...
+* [Writing secure Smart Contracts in Solidity?](https://ethereum.stackexchange.com/questions/6204/writing-secure-smart-contracts-in-solidity)
+  > With the DAO hack, it becomes even more important for developers to write secure smart contracts and be aware of pitfalls. Are there any good reference points/links which can describe the best prac...
+* [Hunting the Ethereum Smart Contract: Color-inspired Inspection of Potential Attacks](https://arxiv.org/pdf/1807.01868.pdf)
+  > Blockchain and Cryptocurrencies are gaining unprecedented popularity and understanding. Meanwhile, Ethereum is gaining a significant popularity in the blockchain community, mainly due to the fact that it is designed in a way that enables developers to write smart contract and decentralized applications (Dapps). This new paradigm of applications opens the door to many possibilities and opportunities. However, the security of Ethereum smart contracts has not received much attention; several Ethereum smart contracts malfunctioning have recently been reported. Unlike many previous works that have applied static and dynamic analyses to find bugs in smart contracts, we do not attempt to define and extract any features; instead we focus on reducing the expert’s labor costs. We first present a new in-depth analysis of potential attacks methodology and then translate the bytecode of solidity into RGB color code. After that, we transform them to a fixed-sized encoded image. Finally, the encoded image is fed to convolutional neural network (CNN) for automatic feature extraction and learning, detecting compiler bugs of Ethereum smart contract.
+* [Building a non-fungible token sales smart contract](https://medium.com/coinmonks/building-a-non-fungible-token-sales-smart-contract-6573350d5a33)
+  > Selling non-fungible tokens and the ERC721 standard
+* [Preparing for a Smart Contract Code Audit](https://media.consensys.net/preparing-for-a-smart-contract-code-audit-83691200cb9c)
+  > If you are planning to launch a project on the Ethereum blockchain, you probably know the importance of a third-party code audit. An…
+* [Solidified - #1 Audit Platform for Smart Contracts](https://solidified.io/)
+  > Solidified is the largest audit platform for Ethereum smart contracts, using over 200 verified security experts to protect your code. Trusted by Polymath, Gnosis, Bankera, Melonport and others.
+* [Researchers: Roughly 60% of Ethereum smart contracts have never be...](https://www.theblockcrypto.com/tiny/researchers-roughly-60-ethereum-smart-contracts-have-never-been-interacted-with/)
+  > A group of researchers from the Northeastern University and the University of Maryland published a paper detailing their analysis of Ethereum’s contract topology. The researchers modify Ethereum’s geth client to log how users and contracts interact with one another. The r...
+* [Scanning Live Ethereum Contracts for the "Unchecked-Se...](http://hackingdistributed.com/2016/06/16/scanning-live-ethereum-contracts-for-bugs/)
+  > In this post, we examine just how prevalent the recently discovered "unchecked-send" bug is in real, live, deployed Ethereum contracts, with the aid of an automated analysis tool ...
+* [Gridlock (a smart contract bug)](https://medium.com/@nmcl/gridlock-a-smart-contract-bug-73b8310608a9)
+  > Edgeware’s Lockdrop smart contract has processed over $900 million of ETH and locked up over $290 million, all while hiding a fatal bug.
+* [ConsenSys/smart-contract-best-practices](https://github.com/ConsenSys/smart-contract-best-practices/blob/master/docs/recommendations.md)
+  > A guide to smart contract security best practices. Contribute to ConsenSys/smart-contract-best-practices development by creating an account on GitHub.
+* [Ethereum Studio | Solidity IDE](https://studio.ethereum.org/)
+  > A tool to help learn, code, build, and deploy smart contracts and decentralized applications. Don’t waste precious time setting up your development environment. Simply open Ethereum Studio in your browser and start coding.
+* [State Fees (formerly State rent) pre-EIP proposal version 3](https://ethresear.ch/t/state-fees-formerly-state-rent-pre-eip-proposal-version-3/4996/10)
+  > Version 3 is now up for discussion. Main changes compared to version 2: Replay protection for externally owned accounts changed from temporal to non-temporal to ensure that account nonces are never reused (reuse of nonces allow re-creation of contracts) Lock-ups are replac...
+* [Vinay Gupta (@leashless)](https://twitter.com/leashless/status/1073312917175631872)
+  > My @ethereum #DEVCON4 talk on the future of Ethereum, smart contracts and the blockchain is now online, entitled "How to control the material world with smart contracts." There's a transcript, too. [https://t.co/3DjFJYLgqy](https://t.co/3DjFJYLgqy) Thanks for recording it, guys! @Mattereum
+* [Researchers: Roughly 60% of Ethereum smart contracts have never be...](https://www.theblockcrypto.com/tiny/researchers-roughly-60-ethereum-smart-contracts-have-never-been-interacted-with)
+  > A group of researchers from the Northeastern University and the University of Maryland published a paper detailing their analysis of Ethereum’s contract topology. The researchers modify Ethereum’s geth client to log how users and contracts interact with one another. The r...
+* [Bribery-Resistant Voting Schemes for Smart Contracts](https://ethresear.ch/t/bribery-resistant-voting-schemes-for-smart-contracts/3354)
+  > This is joint work/post with Ian Miers, Oded Naor, and Ari Juels. Recently, a number of proposals and applications have evolved on Ethereum that require voting; from contracts that use voting-based DAOs for governance or other administrative tasks, to boardroom-like votes to...
+* [Ethereum in BigQuery: a Public Dataset for smart contract analytic...](https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics)
+  > Ethereum transactions, like some other cryptocurrencies, are stored in a public ledger. Learn how to analyze that ledger in BigQuery to better understand transaction and even contracts history.
+* [Formal verification of ERC-20 contracts](https://runtimeverification.com/blog/erc-20-verification/)
+* [Deconstructing a Solidity Contract —Part I: Introduction](https://blog.zeppelin.solutions/deconstructing-a-solidity-contract-part-i-introduction-832efd2d7737)
+  > By Alejandro Santander in collaboration with Leo Arias.
+* [@trufflesuite](https://twitter.com/trufflesuite/status/1078055142681993221)
+  > Curious how Solidity stores variables under the hood? Check out this paper by Truffle’s own @Sniffnoy ! ⚙️
+  > https://ethdebug.github.io/solidity-data-representation/
+  > (Note: contains low-level technical details! 🙃)
+* [How to Write Upgradeable Smart Contracts with Truffle ^5.0 and Zep...](https://paulrberg.com/post/2018/12/30/upgradeable-smart-contracts/)
+  > Step-by-step tutorial to get up and running with upgradeable smart contracts
+
+* [Solidified - Audit Platform for Smart Contracts](https://solidified.io/)
+  > A platform for crowd-sourced review of smart contracts, where any developer can bring their contract for review with a large network of verified blockchain experts.
+* [Preparing for a Smart Contract Code Audit – ConsenSys Media](https://media.consensys.net/preparing-for-a-smart-contract-code-audit-83691200cb9c)
+  > If you are planning to launch a project on the Ethereum blockchain, you probably know the importance of a third-party code audit. An…
+* [Dapps for Beginners](https://dappsforbeginners.wordpress.com/)
+  > Ethereum contract tutorials.
+* [https://remix.ethereum.org/](https://remix.ethereum.org/)
+* [Learn Solidity — The Ethereum smart contract programming language](https://medium.com/@robbertvermeulen/learn-solidity-the-ethereum-smart-contract-programming-language-7f106fc26d6)
+  > In the course of time that I am involved in Ethereum development, I have noticed that not much information exists yet to learn Solidity…
+* [https://solidity.readthedocs.io/](https://solidity.readthedocs.io/)
+* [Create a Hello World Contract in ethereum](https://ethereum.org/greeter)
+  > Ethereum is a decentralized platform for applications that run exactly as programmed without any chance of fraud, censorship or third-party interference.
+* [CryptoZombies - Learn to code games on Ethereum. Powered by Loom N...](https://cryptozombies.io/)
+  > CryptoZombies is an interactive code school that teaches you to write smart contracts in Solidity through building your own crypto-collectables game.
+* [Different Approaches to Ethereum Identity Standards](https://medium.com/uport/different-approaches-to-ethereum-identity-standards-a09488347c87)
+  > Identity as a concept affects all of us. Yet, depending on who you ask, there are many different ideas of what Identity is as a technology.
+* [LibSubmarine: Temporarily hide transactions on ethereum (cheaply!)](https://hackernoon.com/libsubmarine-temporarily-hide-transactions-on-ethereum-cheaply-6910191f46f2)
+  > The State of Privacy
+* [Web3.py](https://web3py.readthedocs.io/)
+  > Web3.py is a python library for interacting with Ethereum. Its API is derived from the Web3.js Javascript API and should be familiar to anyone who has used web3.js.
+* [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)
+  > Official Go implementation of the Ethereum protocol - ethereum/go-ethereum
+* [Home - Nethereum](https://nethereum.readthedocs.io/en/latest)
+  > .net library for ethereum
+* [Securify: Security Scanner for Ethereum Smart Contract](https://securify.chainsecurity.com/)
+  > Scan any Ethereum contract for critical security vulnerabilities for free.
+* [ZK Labs Community Audits Initiative for non-ICO Projects](https://blog.zklabs.io/zk-labs-community-audits-initiative-for-non-ico-projects-ea7830d082f8)
+  > As part of a broader pursuit to securing the ecosystem, we at ZK Labs are excited to announce our Community Audits initiative to sponsor…
+* [http://ethdocs.org](http://ethdocs.org/)
+* [pirapira/awesome-ethereum-virtual-machine](https://github.com/pirapira/awesome-ethereum-virtual-machine)
+  > Ethereum Virtual Machine Awesome List. Contribute to pirapira/awesome-ethereum-virtual-machine development by creating an account on GitHub.
+* [Introduction | Ethereum Tutorials and Tips by Hudson](https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/index.html)
+  > Tips and tutorials for some of the most asked about Ethereum issues.
+* [ethereumbook/ethereumbook](https://github.com/ethereumbook/ethereumbook)
+  > Mastering Ethereum, by Andreas M. Antonopoulos, Gavin Wood - ethereumbook/ethereumbook
+* [MaiaVictor/formality](https://github.com/MaiaVictor/formality/blob/master/README.md)
+  > An lightweight proof-gramming language. It aims to be:
+  > Fast: no garbage-collection, optimal beta-reduction, massively parallel compilers.
+  > Secure: a powerful type system capable of proving mathematical theorems.
+  > Portable: the entire language desugars to a 500 lines core type-theory.
+  > Browse our libraries and come hang out with us on Telegram.
+* [Learn the Ethereum language Vyper from within your browser!](https://medium.com/@dan_30977/learn-the-ethereum-language-vyper-from-within-your-browser-b084ec51302)
+  > We’re excited to introduce ChainShot’s first interactive lesson for the Vyper language. This is a good module to get your feet wet with…
+* [Homepage - QuickBlocks](https://quickblocks.io/)
+  > Ethereum QuickBlocks: The fastest, fully-decentralized way to access data from any Ethereum address or smart contract. Ethereum Libraries and tools
+* [Learn the Ethereum language Vyper from within your browser!](https://medium.com/coinmonks/learn-the-ethereum-language-vyper-from-within-your-browser-b084ec51302)
+  > We’re excited to introduce ChainShot’s first interactive lesson for the Vyper language. This is a good module to get your feet wet with…
+* [Introducing Solidity Koans – Hacker Noon](https://hackernoon.com/introducing-solidity-koans-cf51a5bc25e5)
+  > Learn Solidity through simple programming exercises
+* [Formal Verification in Solidity – Leonardo Alt – Medium](https://medium.com/@leonardoalt/formal-verification-in-solidity-5cbff7b7ff8)
+  > Last week I gave a talk “Using Solidity’s SMTChecker” at Devcon4, as part of the Security track. You can read the slides on GitHub. This post introduces Solidity’s SMTChecker and explains on a (very) high level how it works. Deeper technical details on how the SMTChecker works can be found in [1]. A little bit of background on logic might be useful for the SAT/SMT introduction, although not completely required. If you are interested in more information about SAT/SMT solving, please see [2,3].
+* [Ethereum & Solidity Tutorials](https://www.codementor.io/learn/blockchain/solidity-tutorials)
+  > Solidity is a programming language for creating and implementing smart contracts. These Ethereum and Solidity tutorials will show you how to create smart contracts, deploy your own DApps, create tokens, and more — from beginner to intermediate topics.
+* [Visual Studio Code (@code)](https://twitter.com/code/status/1063146570034696192)
+  > Build and deploy #ethereum smart contracts using the new @trufflesuite extension for #VSCode from @MSFTBlockchain [https://t.co/0gKivFbBHG](https://t.co/0gKivFbBHG) [https://t.co/0Rpv5QGcTU](https://t.co/0Rpv5QGcTU)
+* [Account abstraction for main chain · Issue #859 · ethereum/EIPs](https://github.com/ethereum/EIPs/issues/859)
+  > The following is a copy of the account abstraction proposal discussed here but coalesced into one piece and adapted for the ethereum main chain by adding back in mandatory in-transaction nonces. Sp...
+  > 
+  > ^^^ Basically all user accounts would be a type of smart contract, which means you can make the code to allow you to access that account's funds whatever you want ou'd obviously be able to use your default secp256k1 and whatever or you could change it in to anything you want... skip down to the "Account Strategy" heading
+* [ConsenSys/smart-contract-best-practices](https://github.com/ConsenSys/smart-contract-best-practices)
+  > A guide to smart contract security best practices. Contribute to ConsenSys/smart-contract-best-practices development by creating an account on GitHub.
+* [New Ethereum Dev Tools from 0x](https://blog.0xproject.com/new-ethereum-dev-tools-from-0x-db80ee9e802?gi=b22218dfba3)
+  > Four tools to help you write better smart contracts
+* [dexlab-io/ethereum-developer-tools-list](https://github.com/dexlab-io/ethereum-developer-tools-list)
+  > A guide to available tools and platforms for developing on Ethereum. - dexlab-io/ethereum-developer-tools-list
+* [Olivier Vdb (@oli_vdb)](https://twitter.com/oli_vdb/status/1140690036389752832?s=12)
+  > Excited to release the open-source project I've been working on in the last few months: Hopper, mobile-friendly private transfers for Ethereum [https://t.co/hc4mkYImea](https://t.co/hc4mkYImea)
+* [developer.samsung.com/blockchain](https://developer.samsung.com/blockchain)
+  > The Samsung Blockchain SDK allows: Generation, storage, management and backup of all valid accounts The facilitation of a payment activity showing information to be signed and ensuring that authorization of digital signatures for purchases is done by secured cold wallet with the internal HAL interface of Blockchain SDK. Enablement of cold wallets like Samsung KeyStore or other external cold wallets. (Currently 1 device is allowed at an instance) Creation of transaction and returning the result of transfer to a blockchain node (tx ID) Developers’ mode: set your own HD path and restore customized HD-wallet, get/set RPC, set customized fee policy
+* [Santiago Palladino (@smpalladino)](https://twitter.com/smpalladino/status/1164896456521723904?s=12)
+  > Happy to finally share what I've been working on for the past year. Ethereum for Web Developers, a book on building web apps on Ethereum. This is the book I would have liked to read when I started working on Ethereum. So, I wrote it. [https://t.co/zGFocC6szH](https://t.co/zGFocC6szH)
+* [The path to an ERC standard](https://www.zeroknowledge.fm/62)
+  > In this episode, we discuss tokens, token standards and the ERC process. We cover some of the most popular token standards and discuss what it takes to design a standard and get this accepted. We also have a chat with Matt Lockyer about his experience submitting ERC998.
+* [Get to know a Core Dev: Martin Holst Swende](https://www.zeroknowledge.fm/56)
+  > In this episode, Fredrik sits down Martin, who is a Core Dev working on the Geth client and head of security for the Ethereum foundation. They chat about what got him into the space, his interest in security, and what he would recommend to other devs looking to get into the s...
+* [Hudson Jameson talks EIPs and Ethereum core decision-making](https://www.zeroknowledge.fm/43)
+  > In this episode, Anna chats with Hudson Jameson about how he got involved in the space, the EIP process, and the challenges of decision-making in the decentralised space.
+* [Wisps: The Magical World of Create2](https://blog.ricmoo.com/wisps-the-magical-world-of-create2-5c2177027604)
+  > Our ETHCapeTown project, using CREATE2 for flexible Contract Wallets that live off-chain, reducing their attack surface and gas costs.
+* [Full Ethereum Dapp Tutorial - 5h Course For Beginners](https://dev.to/jklepatch/full-ethereum-dapp-tutorial-5h-course-for-beginners-lc9)
+
+### EVM
+
+* [KEVM: A Complete Semantics of the Ethereum Virtual Machine](https://www.ideals.illinois.edu/bitstream/handle/2142/97207/hildenbrandt-saxena-zhu-rodrigues-guth-daian-rosu-2017-tr.pdf) (2017), E. Hildenbrandt et al. [pdf]
+* [ethereum/wiki - Ethereum Virtual Machine (EVM) Awesome List](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)
+  > The Ethereum Wiki. Contribute to ethereum/wiki development by creating an account on GitHub.
+* [RUN EVM Wrap Up](https://blog.fission.codes/run-evm-wrap-up/)
+  > Wrap up of the first RUN EVM held April 16th in Berlin. Covering the Ethereum Virtual Machine (EVM) stack, including sidechains, enterprise usage, and trusted computing.
+* [W3 - Proposed Groups - Community and Business Groups - #EVM](https://www.w3.org/community/groups/proposed/#evm)
+* [ewasm/design](https://github.com/ewasm/design)
+  > ewasm Design Overview and Specification. Contribute to ewasm/design development by creating an account on GitHub.
+
+
+### ETH Layer 2
+
+* [Tim Beiko (@TimBeiko)](https://twitter.com/TimBeiko/status/1030975246025809921)
+  > Current leads are probably: NFT: @CryptoKitties DEX: @0xProject TCR: @MessariCrypto PM: @AugurProject Excited to see a year from now if they are the teams who’ve delivered most, or if they get leapfrogged! [https://t.co/JKSn3bpiCB](https://t.co/JKSn3bpiCB)
+* [Matt Stephenson (@glyphxzero)](https://twitter.com/glyphxzero/status/1032396370768998400)
+  > 1 So what happened with Fomo-3D? While the dust is still settling, someone close to the project got in touch with me and explained how the big jackpot paid out. I haven't seen a comprehensive write-up yet so I'm sharing their quote here:
+* [MLB Crypto Baseball](https://mlbcryptobaseball.com/)
+  > MLB Crypto Baseball, True Digital Ownership. Experience owning your own favorite MLB Crypto figure and play them live with real live games.
+* [DappRadar - Ranked list of blockchain dapps](https://dappradar.com/)
+  > DappRadar provides information and insights about all the existing dapps! At the tap of your finger, find the most successful and used decentralized games, casinos, and marketplaces, among others.
+* [World Bank's Blockchain Bond Experiment Raises $81 Million - CoinDesk](https://www.coindesk.com/world-banks-blockchain-bond-experiment-raises-81-million/amp/)
+  > The World Bank's blockchain bond raised $110 million AUD, and is based on a private ethereum network.
+* [Tim Francisco (@timfrancisco)](https://twitter.com/timfrancisco/status/1037894465522819072)
+  > Ox Protocol deep dive by Kylan Hurt @ Edge Secure. [https://t.co/QVDjeHJBfr](https://t.co/QVDjeHJBfr)
+* [Updates on Ethereum’s Moon Project – Victor Maia – Medium](https://medium.com/@maiavictor/updates-on-ethereums-moon-project-535f8c0497ef)
+  > Formal proofs, parallel FVM and ideas for mass adoption
+* [Ethereum co-founder Vitalik Buterin shares his view on Plasma, sha...](https://bcfocus.com/news/ethereum-co-founder-vitalik-buterin-shares-his-view-on-plasma-sharding-layer-2-solutions/21938/)
+  > Ethereum co-founder, Vitalik Buterin, recently shared his view on whether development should focused on the layer 1 or layer 2 functionalities in blockchains. He presents his point by mentioning that debates regarding the scaling of blockchains is common, in circumstances, su...
+* [Ethereum in BigQuery: a Public Dataset for smart contract analytic...](https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics)
+  > Ethereum transactions, like some other cryptocurrencies, are stored in a public ledger. Learn how to analyze that ledger in BigQuery to better understand transaction and even contracts history.
+* [Ethereum Network (@EthereumNetw)](https://twitter.com/EthereumNetw/status/1037145287289171968)
+  > The first Connext hub, @SpankChain, is live!! The first time anyone has used noncustodial payment channel hubs *in production* on Ethereum! [https://t.co/dE4RHee57W](https://t.co/dE4RHee57W)
+* [Why is no one really using Augur? – Coinmonks – Medium](https://medium.com/coinmonks/why-is-no-one-really-using-augur-161448a8e198)
+  > My experience in using the platform
+* [Opera becomes first major browser with built-in Crypto Wallet](https://blogs.opera.com/mobile/2018/07/opera-launches-first-browser-with-built-in-crypto-wallet)
+  > The new version of the Opera browser for Android, currently available in a private beta, combines easy-to-use crypto wallet functionality with support for the Ethereum Web3 API. This makes Opera the first major browser to open up a mainstream product to Web 3.0.
+* [Ryan Sean Adams (@RyanSAdams)](https://twitter.com/RyanSAdams/status/1040238932724731904)
+  > A startup launched a bank in December 2017 Since then it's issued 3270 loans worth $114m ($12m per mo) at an interest rate of .5% Oh, and this is its beta product The product is Maker, but you should ignore it because Ethereum isn't used for anything
+* [Plasma snapp - fully verified plasma chain](https://ethresear.ch/t/plasma-snapp-fully-verified-plasma-chain/3391)
+  > Special thanks to the roll_up team for their hard work on building a first PoC for verifiable snapps (snark-dapps) and special thanks to Felix and Ben for their invaluable contribution to this idea. Plasma snapp: TL;DR The following specification outlines a new plasma versio...
+* [You Won't Have to Wait for This Ethereum Scaling Solution, It Work...](https://www.coindesk.com/you-wont-have-to-wait-for-this-ethereum-scaling-solution-it-works-now)
+  > Most ethereum scaling technologies are a far from completed, but OpenST says it's got a solution that's ready for the "here and now."
+* [Top 5 Ethereum dApps: Diamonds in the Rough Edition](https://medium.com/@ryecrypto/top-5-ethereum-dapps-diamonds-in-the-rough-edition-ff4918354fd5)
+  > Ethereum dApps have driven a plethora of ICOs to utilize smart contracts and deploy unique platforms and ecosystems in a decentralized…
+* [Beyond Gaming - Exploring the Utility of ERC-1155 Token Standard!](https://blockgeeks.com/erc-1155-token)
+  > Beyond Gaming - Exploring the Utility of ERC-1155 Token Standard! The ERC-1155 token standard allows the creation of fungible, semi-fungible and non-fungible tokens in a single token standard.
+* [r/MakerDAO - The Impending Dominance of Dai and MakerDao](https://www.reddit.com/r/MakerDAO/comments/9lfr4x/the_impending_dominance_of_dai_and_makerdao)
+  > 47 votes and 20 comments so far on Reddit
+* [Ethereum Network (@EthereumNetw)](https://twitter.com/EthereumNetw/status/1060549504674328576)
+  > AWESOME-MAKERDAO; A Master Github Repo for all things Maker & Dai @makerDAO [https://t.co/f1NmsGoWqs](https://t.co/f1NmsGoWqs)
+* [Amazon Partners On New Ethereum Marketplace For Enterprises](https://www.forbes.com/sites/sarahhansen/2018/11/08/consensys-kaleido-launches-full-stack-marketplace-platform-for-enterprise-blockchains/)
+  > Kaleido, a startup aimed at helping enterprises implement blockchain technology, has launched a new platform in collaboration with Amazon Web Services (AWS).
+* [As Plasma Stalls, Snarks Become New Hope for Scaling Ethereum Now ...](https://www.coindesk.com/as-plasma-stalls-snarks-become-new-hope-for-scaling-ethereum)
+  > As work on ethereum's plasma scaling solution proceeds, some developers are hailing a form of cryptography used by zcash as an alternative.
+* [22 Ideas to Explore with 0x – 0x Blog](https://blog.0xproject.com/22-ideas-to-explore-with-0x-4d551c10dd4e)
+  > Inspiration to move the tokenized economy forward
+* [Ethereum Network (@EthereumNetw)](https://twitter.com/EthereumNetw/status/1074471241384386560)
+  > Opera Releases ‘Web 3-Ready’ Android Browser With Ethereum, DApp Support [https://t.co/AkSbK15Zp2](https://t.co/AkSbK15Zp2)
+* [Urbit.org/primer](https://urbit.org/primer/)
+  > We think the internet can’t be saved. The way things are going, MEGACORP will always control our apps and services because we can no longer run them ourselves.
+  > 
+  > The only way out of this mess is with a completely new platform that’s owned and controlled by its users.
+* [Urbit demo ~2013.9.23](https://youtu.be/Tp9aCEfA6ao)
+  > Original Urbit demo video from 2013.
+* [Maxim Blagov (@maxenjin)](https://twitter.com/maxenjin/status/1077803466955739136)
+  > @ethereum @VitalikButerin the @enjin team has a gift for you soon. EnjinX $ETH explorer, which is built to advance the growing Ethereum ecosystem, enabling users to easily search and understand transactions, blocks, addresses and tokens - without any ads! Releasing within ...
+* [John Wolpert (@jwolpert)](https://twitter.com/jwolpert/status/1125562243750551553?s=12)
+  > We did it. @consensys @web3studio, with the help of @JesseGrushack and @ethereumJoseph minted the first SRNFT 'Bootleg' token today. The band @outside0UTSIDE made a nice sum in the trading. Details tomorrow. Check out [https://t.co/y7sdFFNxQz](https://t.co/y7sdFFNxQz) and start building your bootleg...
+* [0x Launch Kit – Launch your own cryptocurrency exchange or marketplace](https://news.ycombinator.com/item?id=20042355)
+  > Hacker News • 29-May-19 12:41 PM
+* [Sandcastle Brings SQL to Ethereum Smart Contracts](https://link.medium.com/rha4tekKdX)
+  > The latest Pre-Alpha Release of the SQL Ethereum smart contract language is available!
+* [Kyle Samani (@KyleSamani)](https://twitter.com/kylesamani/status/1135872422450802689?s=12)
+  > @panekkkk @JaEsf @nicksdjohnson @econoar It's funny you say this I've been following pretty closely for a while. I have seen 0 user stories. I have seen 0 descriptions of how app devs should think about deploying across shards. I have seen 0 analyses of implications of co...
+* [Witchcraft: the magic of math, functional programming, and community](https://medium.com/open-collective/witchcraft-the-magic-of-math-functional-programming-and-community-b45bc7213ff8)
+  > Interview with Brooklyn Zelenka, blockchain engineer, functional programming math wizard, community builder, and founder of Fission and…
+* [FISSION Interviews: Y3](https://blog.fission.codes/interview-y3/)
+  > Dive into an IPFS hack from ETHNewYork by Kian Molani called Y3: a decentralized and censorship-resistant video streaming application
+* [FISSION Interviews: Diffuse](https://blog.fission.codes/fission-interviews-diffuse/)
+  > Interviewing Steven Vandevelde, the creator of Diffuse: a tool that connects you to your cloud/distributed music storage.
+* [Anthony Sassano (@sassal0x)](https://twitter.com/sassal0x/status/1145952833587433473?s=12)
+  > This is seriously one of the most bullish videos I've watched in a while. The implications of smart contract wallets cannot be understated - it literally changes the game and will be a critical part of what enables mass adoption going forward. Watch it. [https://t.co/PiJN](https://t.co/PiJN)...
+* [Kendrick Tan (@kendricktrh)](https://twitter.com/kendricktrh/status/1146386323449606144?s=12)
+  > My latest DApp - An #Ethereum Mixer based on ring signatures and stealth addresses is now live on the Ropsten network! Blog post: [https://t.co/UkRtWunD8E](https://t.co/UkRtWunD8E)
+* [Eric Conner (@econoar)](https://twitter.com/econoar/status/1155607758500061184?s=12)
+  > I need to try out some Ethereum games finally. What should I try?
+* [‎Unchained: Your No-Hype Resource for All Things Crypto: Will Wa...](https://podcasts.apple.com/us/podcast/unchained-your-no-hype-resource-for-all-things-crypto/id1123922160?i=1000405059419)
+  > ‎Show Unchained: Your No-Hype Resource for All Things Crypto, Ep Will Warren of 0x on Why Decentralized Exchanges Are the Future - Mar 6, 2018
+* [Sandcastle Brings SQL to Ethereum Smart Contracts](https://link.medium.com/eVj3dYFq9Y)
+  > The latest Pre-Alpha Release of the SQL Ethereum smart contract language is available!
+* [How to Create an E-mail with a Decentralized Identity Sent over th...](https://www.alexanderjsingleton.com/how-to-create-an-e-mail-with-a-decentralized-identity-sent-over-the-ethereum-blockchain/)
+  > Alexander J. Singleton teaches how to set-up a metamask wallet within the Google Chrome browser to send and receive ether on the Ethereum Network.
+* [Multi-Coin ENS Support in MEW: One Name for All Crypto Wallets](https://medium.com/myetherwallet/multi-coin-ens-support-in-mew-one-name-for-all-crypto-wallets-fcbeea50de1b)
+  > Did you know there are 42 alpha-numeric characters in your public Ethereum address? Forty-two numbers and letters unconnected by any kind…
+* [State Channels Summit](https://youtu.be/pCtyZsqTNms)
+  > Qingkai Liang, Liam Horne, Lisa Eckey, Sebastian Stammler, Franziska Heintel, Arjun Bhuptani, Augusto Hack, Jeremy Longley, Tom Close
+* [Eric Conner (@econoar)](https://twitter.com/econoar/status/1155607758500061184?s=12)
+  > I need to try out some Ethereum games finally. What should I try?
+* [Making Sense of Ethereum’s Layer 2 Scaling Solutions: State Chan...](https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4)
+  > Interested in helping build layer 2 to scale ethereum? L4 is actively hiring.
+* [The Dawn of Hybrid Layer 2 Protocols](https://vitalik.ca/general/2019/08/28/hybrid_layer_2.html)
+  > Special thanks to the Plasma Group team for review and feedback
+
+
+## ETH 2.0
+
+* [Ethereum 2.0: A Complete Guide](https://link.medium.com/m6dBhFnD1Y)
+  > This article briefly explains Ethereum’s progress up until the present and then discuss the network’s upcoming and much anticipated rele
+* [Ethereum 2.0 Terms Demystified](https://link.medium.com/591NZZLs8Y)
+  > Beacon Chain? Validators? Crosslinks? Slots? Sharding? Short descriptions of what most of the terms used in relation to Serenity mean.
+* [‎Zero Knowledge: Episode 89: Eth2.0 update and a look at Libra w...](https://podcasts.apple.com/us/podcast/zero-knowledge/id1326503043?i=1000446360142)
+  > ‎Show Zero Knowledge, Ep Episode 89: Eth2.0 update and a look at Libra with Raul Jordan - Aug 7, 2019
+* [Actor Factor](https://medium.com/spadebuilders/actor-factor-2b0005fde786)
+  > The Actor Model & Inter-Shard Communication on ETH 2.0
+* [eth2 quick update](https://blog.ethereum.org/2019/10/23/eth2-quick-update/)
+  > Although the internet has been more quiet than usual, we’ve been super busy hacking away on eth2! Between Devcon5 and keeping our heads down to work, it seems we’ve left the community in the dark on a couple of items. Here’s a quick update to fill in the gaps. Deposit...
+* [Ethereum 2.0 — Who’s building it? – Rocket Pool – Medium](https://medium.com/rocket-pool/ethereum-2-0-whos-building-it-54a735442e)
+  > Ethereum’s roadmap is ambitious. In our last article, we described the Ethereum 2.0 vision.
+* [Ethereum 2.0 — Who’s building it? – Rocket Pool – Medium](https://medium.com/rocket-pool/ethereum-2-0-whos-building-it-54a735442e)
+  > Ethereum’s roadmap is ambitious. In our last article, we described the Ethereum 2.0 vision.
+* [Jeff Tong (@itsjefftong)](https://twitter.com/itsjefftong/status/1048276048725467137)
+  > Long awaited episode with @raulitojordan from @prylabs. Raul explains all the Eth 2.0 mysteries. We go through PoS, Sharding and eWASM. Check it out on your way to SFBW! [https://t.co/q9cIStP6e0](https://t.co/q9cIStP6e0)
+* [8 Teams Are Sprinting to Build the Next Generation of Ethereum](https://www.coindesk.com/next-gen-buidlers-the-8-teams-working-on-ethereum-2-0)
+  > CoinDesk looks at the eight teams across the globe spearheading the push to create ethereum 2.0 – the next iteration of the blockchain network.
+* [Eric Conner (@econoar)](https://twitter.com/econoar/status/1086348375664951296)
+  > Eth 2.0 teams and client names. -Prysmatic Labs: Prysm (Go) -ChainSafe: Loadstar (JavaScript) -Status: Nimbus (Nim) -ZK Labs: yeeth (Swift) -PegaSys: Artemis (Java) -Sigma Prime: Lighthouse (Rust) -Parity: ? (Rust) -Trinity: ? (Python) -Harmony: ? (Java) [https://t.co/QA0](https://t.co/QA0)
+* [Analyzing the Proposed Validator Economics of Ethereum 2.0](https://solmaz.io/2019/04/24/eth2-phase0-economics/)
+  > In its next iteration dubbed Ethereum 2.0 or Serenity, Ethereum will move on from Proof-of-Work to Proof-of-Stake, implementing a major change with how the network nodes are incentivized to participate. This is an analysis of the proposal that’s going to be implemented as a...
+* [Anthony Sassano (@sassal0x)](https://twitter.com/sassal0x/status/1131340998892695552?s=12)
+  > @jimmysong Here are the teams that have delivered eth2.0 testnet clients (aka *executing*): -@prylabs -@sigp_io -@ethstatus Here's a list of all the teams building eth2 clients: [https://t.co/Um80TifRAd](https://t.co/Um80TifRAd)
+* [Justin Ðrake (@drakefjustin)](https://twitter.com/drakefjustin/status/1072256800068644864)
+  > Clarification! Two *totally different* things are known as "Casper". Casper FFG is a simple "Finality Gadget" for Ethereum 2.0. Casper CBC is an abstract family of "Correct-By-Construction" consensus protocols explored as a candidate design space for the Ethereum 3.0 conse...
+* [Ethereum 2.0 Data Model: Actors and Assets](https://ethresear.ch/t/ethereum-2-0-data-model-actors-and-assets/4117/31)
+  > let me start first with what we want to achieve for the end-user to get mass-adoption: being able to create for free an immutable account being able to receive for free assets linked to an account being able to send assets linked to an account and pay potentially som...
+
+### Casper
+
+* [Casper CBC, Simplified! – Aditya Asgaonkar – Medium](https://medium.com/@aditya.asgaonkar/casper-cbc-simplified-2370922f9aa6)
+  > A simplified overview of Correct-By-Construction Casper consensus mechanism
+* [Peer Review: CBC Casper – Muneeb Ali – Medium](https://medium.com/@muneeb/peer-review-cbc-casper-30840a98c89a)
+  > A review of CBC Casper (Ethereum Research). It omits the hard problems and uses an unconventional, impractical definition of BFT.
+* [A CBC Casper Tutorial](https://vitalik.ca/general/2018/12/05/cbc_casper.html)
+  > Special thanks to Vlad Zamfir, Aditya Asgaonkar, Ameen Soleimani and Jinglan Wang for review
+* [https://arxiv.org/abs/1710.09437](https://arxiv.org/abs/1710.09437) - Casper Research Paper
+* [Vitalik Non-giver of Ether (@VitalikButerin)](https://twitter.com/VitalikButerin/status/1029900695925706753)
+  > 1. Today I am going to make a tweet storm explaining the history and state of Ethereum's Casper research, including the FFG vs CBC wars, the hybrid => full switch, the role of randomness, mechanism design issues, and more.
+* [Week in Ethereum August 17, 2018](http://www.weekinethereum.com/post/177092488703/august-17-2018)
+  > News and LinksProtocol • Latest core devs call. Lane’s notes. • [Casper] Vitalik Buterin’s 75 tweets on the history and current plans of Casper • [Casper] Latest Casper standup • [Casper] Censorship...
+* [From Casper FFG to Full Casper Chain – Ethereums transition from...](https://medium.com/ethereums-transition-from-casper-ffg-to-beacon/from-casper-ffg-to-full-casper-chain-cbd522751a7e)
+  > Why was Casper FFG — a partial Proof-of-Stake algorithm on top of Proof-of-Work — deprecated?
+* [cbc-casper/cbc-casper-paper](https://github.com/cbc-casper/cbc-casper-paper/blob/master/cbc-casper-paper-draft.pdf)
+  > The paper for Correct-By-Construction Casper consenus protocols - cbc-casper/cbc-casper-paper
+* [Eric Conner (@econoar)](https://twitter.com/econoar/status/1053311930885197825)
+  > 0/ I see a lot of discussion about the technicals of Ethereum’s Casper PoS but not much discussion around the economics. I’ve been giving a lot of thought to the current incentive structure and here are my thoughts. SPOILER: I think we need more discussion around the e...
+* [A CBC Casper Tutorial](https://vitalik.ca/general/2018/12/05/cbc_casper.html)
+  > Special thanks to Vlad Zamfir, Aditya Asgaonkar, Ameen Soleimani and Jinglan Wang for review
+* [TruStory (@isTruStory)](https://twitter.com/isTruStory/status/1072162456095477760)
+  > So what’s the deal with Casper CBC? @ethereum has been plagued with scalability issues; @Cryptokitties... Casper is one of the proposed solutions. CBC Casper (Correct-By-Construction) is a new family of consensus protocols that @VladZamfir and @VitalikButerin are desi...
+* [Beacon-chain friendly CBC Casper](https://ethresear.ch/t/beacon-chain-friendly-cbc-casper/4710/4)
+  > For background on CBC Casper, see: [https://vitalik.ca/general/2018/12/05/cbc_casper.html](https://vitalik.ca/general/2018/12/05/cbc_casper.html) There are two key implementation challenges with CBC Casper as described in this post: Evaluating whether or not a block is valid requires executing the LMD GHOST fork choice rule, whi...
+* [Bitwise LMD GHOST](https://ethresear.ch/t/bitwise-lmd-ghost/4749/7)
+  > Prerequisite: [https://vitalik.ca/general/2018/12/05/cbc_casper.html](https://vitalik.ca/general/2018/12/05/cbc_casper.html) I propose a version of the LMD GHOST fork choice rule and an algorithm that makes it easy to tell whether or not a given block is valid under the CBC validity condition of “a block B with parent P is valid...
+
+## Interop
+
+* [Announcing Hyperledger Besu – Hyperledger](https://www.hyperledger.org/blog/2019/08/29/announcing-hyperledger-besu)
+  > Today we are excited to announce Hyperledger Besu as the latest project to join Hyperledger. Hyperledger Besu, a Java-based Ethereum client formerly known as Pantheon, is the first blockchain project...
+* [What's the point of the Doge-Ethreum bridge? – Jackson Palmer on...](https://www.youtube.com/watch?v=nrjWhs8hbdY)
+  > The Doge-Ethreum bridge created a lot of excitement in the Dogecoin community. It allows Doge holders to move the cryptocurrency in an out of the Ethereum bl...
+* [Vitalik Non-giver of Ether (@VitalikButerin)](https://twitter.com/vitalikbuterin/status/1185392070048960512?s=12)
+  > Danny Ryan proposing adding a two way bridge between eth1 and eth2 sooner than planned before (new proposal: between phases 1 and 2) using ideas from [https://t.co/bVjmRG3jpd](https://t.co/bVjmRG3jpd)
+
+## Enterprise Ethereum Alliance (EEA)
+
+* [Busting the Myth of Private Blockchains](https://media.consensys.net/busting-the-myth-of-private-blockchains-9ae0ed058b0d)
+  > It’s time to talk about layers.
+* [PegaSys](https://pegasys.tech/)
+  > Modular Enterprise Ethereum
+* [5 Reasons Why Enterprise Ethereum Is so Much More Than a Distribut...](https://media.consensys.net/5-reasons-why-enterprise-ethereum-is-so-much-more-than-a-distributed-ledger-technology-c9a89db82cb5)
+  > Here’s how Ethereum compares to other blockchain business solutions.
+* [Standardized Specifications for Enterprise Version of Ethereum Ann...](https://bitcoinmagazine.com/articles/standardized-specifications-enterprise-version-ethereum-announced/)
+  > Enterprise Ethereum Alliance (EEA) announced the new specifications in Prague at DevCon 4.
+* [Auditor EY Unveils Nightfall, An Ambitious Bid to Bring Business t...](https://www.coindesk.com/ey-nightfall-ethereum-enterprise-public-blockchain?utm_source=twitter&utm_medium=coindesk&utm_term=&utm_content=&utm_campaign=Organic%20)
+  > Big Four auditor EY is rolling out free software designed to help companies use the public ethereum blockchain.
+* [r/ethtrader - Paul Brody on EY, Ethereum, and Enterprise](https://www.reddit.com/r/ethtrader/comments/cf4x60/paul_brody_on_ey_ethereum_and_enterprise/)
+  > 148 votes and 36 comments so far on Reddit
+* [Enterprise Ethereum Alliance promotes public Ethereum - Ledger Ins...](https://www.ledgerinsights.com/enterprise-ethereum-alliance-promotes-public-blockchain/)
+  > Today the Enterprise Ethereum Alliance (EEA) announced that the Executive director of the public Ethereum Foundation’s Aya Miyaguchi is joining the EEA board. Additionally, the EEA is launching a working group called the EEA Mainnet Initiative to encourage collaboration bet...
+* [John Wolpert (@jwolpert)](https://twitter.com/jwolpert/status/1161743647303446528?s=12)
+  > Gather round, friends. Remember 2015 when we learned how to say #blockchain in business? Time to take it to the next level. #mainnet “Enterprise Ethereum Alliance’s New Mainnet Initiative Bridges Permissioned and Public Blockchains” by ConsenSys [https://t.co/7voNNdZY](https://t.co/7voNNdZY)...
+* [John Wolpert (@jwolpert)](https://twitter.com/jwolpert/status/1162176636839694336?s=20)
+  > This...is...awesome. Readable, personal account of real world issues obviously lived first hand and seen through new #blockchain #enterprise #mainnet perspective. Tim is driving the #magicbus today: “B2B integration using Ethereum mainnet” by @toktok729 [https://t.co/qY](https://t.co/qY)...
+* [Microsoft To Help Enterprises Mint Their Own Ethereum Tokens](https://www.forbes.com/sites/michaeldelcastillo/2019/11/04/microsoft-to-help-enterprises-mint-their-own-ethereum-tokens/)
+  > While Facebook battles with Congress for the right to issue a cryptocurrency, Microsoft takes the lead in helping enterprises launch a wide range of crypto-assets issued on ethereum, or any other blockchain.
