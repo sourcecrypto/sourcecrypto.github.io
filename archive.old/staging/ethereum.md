@@ -1,4 +1,20 @@
-# Ethereum
+---
+title:  Ethereum Curated
+categories: ["Cryptocurrencies"]
+tags: ["Ethereum"]
+redirect_from: 
+  - /archive/blockchain/ethereum/ethereum/
+  - /archive/blockchain/ethereum/ethresearch/
+  - /archive/blockchain/ethereum/evm/
+  - /archive/blockchain/ethereum/eth-ent-alliance/
+  - /archive/blockchain/ethereum/eth2-0/
+  - /archive/blockchain/ethereum/eth-consensus/
+  - /archive/blockchain/ethereum/ethereum-dev/
+  - /archive/entertainment/eth-games/
+toc: true
+toc_sticky: true
+---
+
 
 * [Introducing Trusted Relay Networks – Grid+](https://blog.gridplus.io/introducing-trusted-relay-networks-6c168f72a6f6)
   > (A lightweight scaling solution for Ethereum)

@@ -11,7 +11,9 @@ header:
 toc_sticky: false
 
 permalink: /posts/history/smart-contracts/
-redirect_from: /bitcoin-history/smart-contracts/
+redirect_from:
+  - /bitcoin-history/smart-contracts/
+  - /archive/chaintech/smart-contracts/
 canonical_url: 'https://sourcecrypto.pub/posts/history/smart-contracts/'
 categories: ["History", "Smart Contracts"]
 tags: []

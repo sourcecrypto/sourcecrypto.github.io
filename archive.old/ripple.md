@@ -1,3 +1,7 @@
+---
+  - "/archive/blockchain/banking/ripple/"
+---
+
 # 🏦-ripple
 
 
