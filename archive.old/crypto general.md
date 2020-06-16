@@ -1,6 +1,10 @@
+---
+redirect_from:
+  - /archive/blockchain/crypto-general/
+  - /archive/blockchain/decentralized/
+---
+
 # 🧮-crypto-general
-
-
 
 
 [https://twitter.com/haydentiff/status/1028003035912568832?s=19](https://twitter.com/haydentiff/status/1028003035912568832?s=19)
@@ -696,3 +700,13 @@ Money can be seen as a social contract between people in society. Decred and Bit
 My personal study of blockchain related technology. - tyrchen/unchained
 
 [https://avatars0.githubusercontent.com/u/473888?s=400&v=4](https://avatars0.githubusercontent.com/u/473888?s=400&v=4)
+
+## Decentralized
+
+
+
+[https://bitcointalk.org/index.php?topic=5138218](https://bitcointalk.org/index.php?topic=5138218)
+
+[Full list of truly decentralized altcoins.](https://bitcointalk.org/index.php?topic=5138218)
+
+Full list of truly decentralized altcoins.

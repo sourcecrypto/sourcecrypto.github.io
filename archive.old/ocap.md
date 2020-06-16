@@ -33,7 +33,7 @@ E: Cryptographic Capabilities for Distributed Smart Contracting
 
 [Distributed Electronic Rights in JavaScript – Google AI](https://ai.google/research/pubs/pub40673)
 
-[https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40673.pdf](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40673.pdf) ESOP'13 22nd European Symposium on Programming, Springer (2013)
+[ESOP'13 22nd European Symposium on Programming, Springer (2013)](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40673.pdf) 
 
 Abstract.Contracts enable mutually suspicious parties to cooperate safelythrough the exchange of rights. Smart contracts are programs whose behaviorenforces the terms of the contract. This paper shows how such contracts can bespecified elegantly and executed safely, given an appropriate distributed, secure,persistent, and ubiquitous computational fabric. JavaScript provides the ubiquitybut must be significantly extended to deal with the other aspects. The first partof this paper is a progress report on our efforts to turn JavaScript into this fabric.To demonstrate the suitability of this design, we describe an escrow exchangecontract implemented in 42 lines of JavaScript code.
 

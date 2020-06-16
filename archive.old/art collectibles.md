@@ -1,43 +1,19 @@
+---
+redirect_from:
+  - /archive/entertainment/art-collectibles/
+---
 # 🛸-art-collectibles
 
-
-
-23 messages
-
-
-
-[https://www.rareart.io/](https://www.rareart.io/)
-
 [R.A.R.E. Digital Art Network](https://www.rareart.io/)
-
 The first platform for artists to sell scarce copies of their digital art.
 
 [https://ipfs.rareart.io/ipfs/Qmb97aQBAw4unnVB7WrLcwXr7nkYaZ38AHftFZxTFeRp2U](https://ipfs.rareart.io/ipfs/Qmb97aQBAw4unnVB7WrLcwXr7nkYaZ38AHftFZxTFeRp2U)
 
-
-
-[https://twitter.com/PowerDada/status/1032351294919458825](https://twitter.com/PowerDada/status/1032351294919458825)
-
-[DADA (@PowerDada)](https://twitter.com/PowerDada)
-
+[DADA (@PowerDada)](https://twitter.com/PowerDada/status/1032351294919458825)
 A really NIFTY conversation between 3 smart blokes: @songadaymann @mattgcondon and @pieratt about authenticity in #blockchain, projects that are #art (like yours truly) and more! Great listening! [https://t.co/hBxCK3WI1T](https://t.co/hBxCK3WI1T)
 
-Twitter
-
-
-
-[https://steemit.com/slothicorn/@inquiringtimes/sarah-meyohas-bitchcoin-and-beyond](https://steemit.com/slothicorn/@inquiringtimes/sarah-meyohas-bitchcoin-and-beyond)
-
-[Sarah Meyohas: Bitchcoin, and Beyond — Steemit](https://steemit.com/slothicorn/@inquiringtimes/sarah-meyohas-bitchcoin-and-beyond)
-
-An Exploration of Art, Finance, Feminism, and Technology The most celebrated artists have often been undervalued in… by inquiringtimes
-
-[https://steemit.com/slothicorn/@inquiringtimes/the-birth-of-crypto-art-meet-rare-pepe](https://steemit.com/slothicorn/@inquiringtimes/the-birth-of-crypto-art-meet-rare-pepe)
-
 [The Birth of Crypto-Art: Meet Rare Pepe! — Steemit](https://steemit.com/slothicorn/@inquiringtimes/the-birth-of-crypto-art-meet-rare-pepe)
-
 I think we're all familiar with Pepe the Frog. Until recently, I had no idea that this frog is an important player in… by inquiringtimes
-
 
 
 [https://www.artnome.com/news/2018/2/2/blockchain-artists-wanted](https://www.artnome.com/news/2018/2/2/blockchain-artists-wanted) [https://cryptoart.com](https://cryptoart.com/) [http://rarepepedirectory.com/?page_id=25](http://rarepepedirectory.com/?page_id=25) [https://community.curio.cards](https://community.curio.cards/) \ [https://mycuriocards.com](https://mycuriocards.com/) [http://archetype.mx](http://archetype.mx/) [https://dada.nyc/](https://dada.nyc/) [https://bitmark.com](https://bitmark.com/) [https://pixura.io/](https://pixura.io/)
