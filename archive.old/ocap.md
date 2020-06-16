@@ -139,4 +139,10 @@ RWOT6 in Santa Barbara, California (March 2018). Contribute to WebOfTrustInfo/rw
 
 Linked Data Capabilities reference implementation. Contribute to digitalbazaar/ocapld.js development by creating an account on GitHub.
 
-[https://avatars2.githubusercontent.com/u/167436?s=400&v=4](https://avatars2.githubusercontent.com/u/167436?s=400&v=4)
+[Mark Miller: Agoric and the Decades-Long Quest for Secure Smart Contracts](https://podcasts.apple.com/us/podcast/epicenter-learn-about-blockchain-ethereum-bitcoin-distributed/id792338939?i=1000437448913)
+
+[Ethereum Object Capabilities](https://ethereum-magicians.org/t/ethereum-object-capabilities/3035)
+  > Reposted from here. As I just presented on the GitCoin live stream. Ethereum Object Capabilities Here I will make the case that Object Capabilities (ocaps) represent a key atomic unit of composition, security, and versatile scalability (both computational and social) that i...
+[https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers.html](https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers.html)
+[Dan Finlay (@danfinlay)](https://twitter.com/danfinlay/status/1111751961009750017?s=12)
+  > Here's the document I presented today. Let's bring Object Capabilities to Ethereum!: [https://t.co/M9gcORUrtw](https://t.co/M9gcORUrtw) [https://t.co/dJGh27AORA](https://t.co/dJGh27AORA)
