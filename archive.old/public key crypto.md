@@ -10,14 +10,10 @@
 [https://blog.bitmex.com/unboxing-bitmain/](https://blog.bitmex.com/unboxing-bitmain/)
 
 [Unboxing Bitmain's IPO](https://blog.bitmex.com/unboxing-bitmain/)
-
-[https://twitter.com/zooko/status/1035877919803854848](https://twitter.com/zooko/status/1035877919803854848)
-
-[zooko (@zooko)](https://twitter.com/zooko)
+[zooko (@zooko)](https://twitter.com/zooko/status/1035877919803854848)
 
 Exciting! Randomized controlled trial shows promise for ketogenic diet against Parkinson's Disease. [https://t.co/eV2iHA93Iw](https://t.co/eV2iHA93Iw) “every single patient in the ketogenic group improved in Part 1, resulting in a substantial 41% reduction” HT @CarynZinn
 
-Twitter
 
 
 

@@ -79,19 +79,15 @@ News on development of GRAVITY
 
 [https://cosmos.network/docs/intro/ocap.html](https://cosmos.network/docs/intro/ocap.html)
 
-[Object-Capability Model | Cosmos SDK Documentation](https://cosmos.network/docs/intro/ocap.html)
+[Object-Capability Model - Cosmos SDK Documentation](https://cosmos.network/docs/intro/ocap.html)
 
 Documentation for the Cosmos SDK and Gaia.
 
 
-
-[https://twitter.com/danfinlay/status/1111751961009750017?s=20](https://twitter.com/danfinlay/status/1111751961009750017?s=20)
-
-[Dan Finlay (@danfinlay)](https://twitter.com/danfinlay)
+[Dan Finlay (@danfinlay)](https://twitter.com/danfinlay/status/1111751961009750017?s=20)
 
 Here's the document I presented today. Let's bring Object Capabilities to Ethereum!: [https://t.co/M9gcORUrtw](https://t.co/M9gcORUrtw) [https://t.co/dJGh27AORA](https://t.co/dJGh27AORA)
 
-Twitter
 
 
 

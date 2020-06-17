@@ -13,7 +13,7 @@
 
 [https://ledgerstatus.com/coin-artist-blockade-games/](https://ledgerstatus.com/coin-artist-blockade-games/)
 
-[Brian](https://ledgerstatus.com/author/brian/)
+
 
 [Building a gaming empire by blending art and crypto - with Coin Ar...](https://ledgerstatus.com/coin-artist-blockade-games/)
 
@@ -33,7 +33,7 @@ Blockade Games specializes in integrating blockchain and alternate reality compo
 
 [https://opensea.io/assets/0xe55c8732de80cb474c756440082270e3b2ac7af7/2](https://opensea.io/assets/0xe55c8732de80cb474c756440082270e3b2ac7af7/2)
 
-[TORCHED H34R7S - coin_artist | currently 12.5 WETH on OpenSea](https://opensea.io/assets/0xe55c8732de80cb474c756440082270e3b2ac7af7/2)
+[TORCHED H34R7S - coin_artist - currently 12.5 WETH on OpenSea](https://opensea.io/assets/0xe55c8732de80cb474c756440082270e3b2ac7af7/2)
 
 TORCHED H34R7S is coin_artist #2: It wasn't surprising that it had taken so long for someone to solve the painting's code, said Peter Todd, a cryptography consultant. "Puzzles like that one aren't things you can just throw com...
 
@@ -81,7 +81,6 @@ Followers
 
 27319
 
-Twitter
 
 [https://choon.co/tracks/0km6eoc0nin/interview-with-coin-artist/](https://choon.co/tracks/0km6eoc0nin/interview-with-coin-artist/)
 

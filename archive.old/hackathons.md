@@ -61,9 +61,9 @@ If anyone is in London
 
 [https://eoshackathon.io/events/london/?utm_source=twitter&utm_medium=utm%20campaign&utm_campaign=EOS%20London](https://eoshackathon.io/events/london/?utm_source=twitter&utm_medium=utm%2520campaign&utm_campaign=EOS%2520London)
 
-[Double Up Digital](https://eoshackathon.io/author/doubleup/)
 
-[London | EOS Global Hackathon](https://eoshackathon.io/events/london/?utm_source=twitter&utm_medium=utm%20campaign&utm_campaign=EOS%20London)
+
+[London - EOS Global Hackathon](https://eoshackathon.io/events/london/?utm_source=twitter&utm_medium=utm%20campaign&utm_campaign=EOS%20London)
 
 September 22nd – September 23rd Register Now #EOSHACKATHON The Challenge The Hackathon Challenge will be released on the day of the event to ensure a level playing field for all participating! In the mean time, start getting familiar with documentation on the EOSIO Develope...
 
@@ -88,7 +88,7 @@ Ethberlin on Sep 6th/7th
 
 [https://ethberlin.com/](https://ethberlin.com/)
 
-[Alexandra Heller](https://ethberlin.com/author/alexandra/)
+
 
 [ETHBerlin Hackathon & Workshops](https://ethberlin.com/)
 
@@ -96,7 +96,7 @@ The biggest hackathon of them all Eth San Francisco
 
 [https://ethsanfrancisco.com/](https://ethsanfrancisco.com/)
 
-[ETHSanFrancisco | October 5 - 7, 2018](https://ethsanfrancisco.com/)
+[ETHSanFrancisco - October 5 - 7, 2018](https://ethsanfrancisco.com/)
 
 ETHSanFrancisco is an Ethereum hackathon starting on October 5th, 2018. Part of ethglobal.co, largest Ethereum hackathon in the world
 
@@ -126,14 +126,10 @@ eff 27-Aug-18 10:39 AM
 Also, please add new hackathons that you come accross , [https://blockchainathons.com/add-hackathon](https://blockchainathons.com/add-hackathon)
 
 
-
-[https://twitter.com/ETHBerlin/status/1037680141932081152](https://twitter.com/ETHBerlin/status/1037680141932081152)
-
-[ETHBerlin (@ETHBerlin)](https://twitter.com/ETHBerlin)
+[ETHBerlin (@ETHBerlin)](https://twitter.com/ETHBerlin/status/1037680141932081152)
 
 A hackathon without a party ain't nothing. So we got two. First join us for a decentralized pub crawl (and a DAI happy hour) and then @fabric_vc, @DharmaProtocol, Cambrial, @ParityTech and of course @SpankChain will meet you at Chalet Berlin - Register at the hackathon!
 
-Twitter
 
 
 
@@ -183,10 +179,7 @@ Will do. I just joined
 Since mid-2017, Ethereum hackathons have been held in many major cities across the globe, to encourage the development of dApps and blockchain systems.
 
 
-
-[https://twitter.com/yeolddoc/status/1042497876486549504](https://twitter.com/yeolddoc/status/1042497876486549504)
-
-[YeOldDoc ⚡📦 (@yeolddoc)](https://twitter.com/yeolddoc)
+[YeOldDoc ⚡📦 (@yeolddoc)](https://twitter.com/yeolddoc/status/1042497876486549504)
 
 Discussing an upcoming hackathon at work: A: "What are the topics?" B: "Same as last time: AI and AR/VR, but also blockchain now." A: "So... decentralized micro-txs facilitated by AI image detection in AR?" B: "Hold my red bull, I'm in the lab." 3 hours later... https...
 
@@ -199,14 +192,10 @@ Discussing an upcoming hackathon at work: A: "What are the topics?" B: "Same as 
 89 votes and 2 comments so far on Reddit
 
 
-
-[https://twitter.com/jamestodaromd/status/1050083449267052544?s=21](https://twitter.com/jamestodaromd/status/1050083449267052544?s=21)
-
-[James Todaro (@JamesTodaroMD)](https://twitter.com/JamesTodaroMD)
+[James Todaro (@JamesTodaroMD)](https://twitter.com/jamestodaromd/status/1050083449267052544?s=21)
 
 Attendance at blockchain hackathons has surpassed that of 2017-style crypto conferences. Prediction: It’s just a matter of time before we see an explosion of hackathons as conference marketing teams pivot. The TokenFest team now has the “blockathon.” #blockchain ...
 
-Twitter
 
 
 
@@ -234,7 +223,7 @@ The WyoHackathon is a celebratory blockchain event for developers, entrepreneurs
 
 
 
-Welcome to the 2019 BTCR Hackathon | btcr-hackathon-2019 [https://weboftrustinfo.github.io/btcr-hackathon-2019/](https://weboftrustinfo.github.io/btcr-hackathon-2019/)
+Welcome to the 2019 BTCR Hackathon - btcr-hackathon-2019 [https://weboftrustinfo.github.io/btcr-hackathon-2019/](https://weboftrustinfo.github.io/btcr-hackathon-2019/)
 
 [Welcome to the 2019 BTCR Hackathon](https://weboftrustinfo.github.io/btcr-hackathon-2019/)
 

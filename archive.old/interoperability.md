@@ -22,16 +22,12 @@ An intro to why it matters and puts/takes on different approaches to achieving c
 noice
 
 
-
-[https://twitter.com/mrjasonchoi/status/1121258015913414656?s=12](https://twitter.com/mrjasonchoi/status/1121258015913414656?s=12)
-
-[Jason Choi (@mrjasonchoi)](https://twitter.com/mrjasonchoi)
+[Jason Choi (@mrjasonchoi)](https://twitter.com/mrjasonchoi/status/1121258015913414656?s=12)
 
 New episode on Polkadot vs. Ethereum vs. Cosmos! @rphmeier shared how @polkadotnetwork compares to @cosmos and Ethereum 2.0. Are they competing/ complementary (...or both)? Find out here
 
 [https://t.co/klhCrzfQ63](https://t.co/klhCrzfQ63)
 
-Twitter
 
 
 
@@ -45,7 +41,7 @@ Dileban Karunamoorthy and Ermyas Teshome
 
 [https://nulltx.com/a-simple-guide-to-cross-chain-projects-such-as-cosmos-polkadot-and-ekt/](https://nulltx.com/a-simple-guide-to-cross-chain-projects-such-as-cosmos-polkadot-and-ekt/)
 
-[Guest](https://nulltx.com/author/guest/)
+
 
 [A Simple Guide to Cross-Chain Projects such as Cosmos, Polkadot, a...](https://nulltx.com/a-simple-guide-to-cross-chain-projects-such-as-cosmos-polkadot-and-ekt/)
 
@@ -97,7 +93,7 @@ Blockchain abstraction layer. Contribute to liquality/chainabstractionlayer deve
 
 [https://interledger.org/rfcs/0027-interledger-protocol-4/](https://interledger.org/rfcs/0027-interledger-protocol-4/)
 
-[Interledger Protocol V4 (ILPv4) | Interledger](https://interledger.org/rfcs/0027-interledger-protocol-4/)
+[Interledger Protocol V4 (ILPv4) - Interledger](https://interledger.org/rfcs/0027-interledger-protocol-4/)
 
 Payments across payment networks
 

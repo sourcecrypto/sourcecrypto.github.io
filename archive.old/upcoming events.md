@@ -24,5 +24,3 @@ Tweets
 Followers
 
 487
-
-Twitter
