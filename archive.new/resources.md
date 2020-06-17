@@ -63,7 +63,7 @@ Welcome to the CoinDesk ICO Tracker. A comprehensive resource for analysts, jour
 CoinSignals.trade allows you to make TradingView charts of all possible cryptocurrencies for free.
 
 
-[Educational Resources | Blockchain Education Network](https://www.blockchainedu.org/education/)
+[Educational Resources - Blockchain Education Network](https://www.blockchainedu.org/education/)
 
 Blockchain Education Network (BEN)
 
@@ -87,7 +87,7 @@ Idea: let's start a thread containing sources (useful websites, links, apps) con
 
 [https://coinmarketbook.cc/](https://coinmarketbook.cc/)
 
-[Coinpedia | Cryptocurrency News, Bitcoin Exchange and Information](https://coinpedia.org/)
+[Coinpedia - Cryptocurrency News, Bitcoin Exchange and Information](https://coinpedia.org/)
   > Get Cryptocurrency News, Bitcoin Exchange and overall Crypto Information at Coinpedia.org. Also browse out the details of cryptocurrency tools, wallets and more
 
 [Categorizing Coinmonks Content for better curation](https://medium.com/coinmonks/categorizing-coinmonks-content-for-better-curation-2e451477a1b4)

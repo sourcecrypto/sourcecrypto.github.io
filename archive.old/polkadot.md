@@ -31,6 +31,6 @@ This piece will explore the need for fault tolerant consensus algorithms in bloc
 
 [https://tokenchannel.net/2019/07/20/difference-between-cosmos-and-polkadot-explained-by-senior-developer/](https://tokenchannel.net/2019/07/20/difference-between-cosmos-and-polkadot-explained-by-senior-developer/)
 
-[Dongbin Jiang](https://tokenchannel.net/author/dongbin/)
+
 
 [Difference Between Cosmos and Polkadot, Explained By Senior Developer](https://tokenchannel.net/2019/07/20/difference-between-cosmos-and-polkadot-explained-by-senior-developer/)

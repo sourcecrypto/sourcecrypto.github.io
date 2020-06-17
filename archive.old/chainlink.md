@@ -28,13 +28,8 @@ Easily connect your applications to blockchains. Contribute to smartcontractkit/
 [SmartContract](https://github.com/smartcontractkit)
 
 SmartContract has 44 repositories available. Follow their code on GitHub.
-
-[https://twitter.com/thecryptodog/status/1160994529928974336?s=12](https://twitter.com/thecryptodog/status/1160994529928974336?s=12)
-
-[The Crypto Dog📈 (@TheCryptoDog)](https://twitter.com/TheCryptoDog)
+[The Crypto Dog📈 (@TheCryptoDog)](https://twitter.com/thecryptodog/status/1160994529928974336?s=12)
 
 @CharlieShrem @_CryptoIQ Truth or FUD? You can actually see what's going on with $LINK and what the blockchain data is saying firsthand at @glassnode They ran a full distribution analysis recently
 
 [https://t.co/zj6wq292m2](https://t.co/zj6wq292m2)
-
-Twitter

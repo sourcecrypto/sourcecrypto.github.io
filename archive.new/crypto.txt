@@ -16,7 +16,7 @@
 
 [Blockstack](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ)
 
-[Misthos: Decentralizing your cash flow | Decentralizing the World ...](https://youtu.be/e0YX6ovMoCk)
+[Misthos: Decentralizing your cash flow - Decentralizing the World ...](https://youtu.be/e0YX6ovMoCk)
 
 Blockstack Decentralizing the World Tour event in London, October 1, 2018 with Justin Carter, Founder, Misthos. [https://community.blockstack.org/dwt-tour-lon](https://community.blockstack.org/dwt-tour-lon)...
 
@@ -31,7 +31,7 @@ The NIST hash function competition was an open competition held by the US Nation
 
 The Password Hashing Competition was an open competition announced in 2013 to select one or more password hash functions that can be recognized as a recommended standard. It was modeled after the successful Advanced Encryption Standard process and NIST hash function competiti...
 
-[Post-Quantum Cryptography | CSRC](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography)
+[Post-Quantum Cryptography - CSRC](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography)
 
 NIST has initiated a process to solicit, evaluate, and standardize one or more quantum-resistant public-key cryptographic algorithms. Full details can be found in the Post-Quantum Cryptography Standardization page. The Round 2 candidates were announced January 30, 2...
 
@@ -99,7 +99,7 @@ After my initial list of Top Writers on Medium for 2018, I will continue to brea
 
 [The Crypto Street Podcast (@CryptoStreetPod)](https://twitter.com/CryptoStreetPod)
 
-A cryptocurrency podcast hosted by @K1llerWh4le @CryptoDale & @13Prince31 | We interview interesting guests about crypto | Business Inq: TCSP@protonmail.com
+A cryptocurrency podcast hosted by @K1llerWh4le @CryptoDale & @13Prince31 - We interview interesting guests about crypto - Business Inq: TCSP@protonmail.com
 
 [https://epicenter.tv/](https://epicenter.tv/) - Podcast since 2012 
 
@@ -121,7 +121,7 @@ new shitcoin talk episode in about 45 mins or so, come to the chat room as we wi
 
 
 
-[Home | Trust Machine](https://trustmachinefilm.com/)
+[Home - Trust Machine](https://trustmachinefilm.com/)
 Award-winning documentarian Alex Winter (DOWNLOADED, DEEP WEB) drills down on blockchain technology. Why are banks terrified while UNICEF embraces it to feed refugee children? Is blockchain technology poised to be bigger than the Internet or a bubble built on hype? Narrated b...
 
 [Long Reads Sunday Archive](http://whittemore.io/long-reads-sunday-archive)
@@ -258,7 +258,7 @@ In this week's episode, we sit down with Justin Drake to discuss randomness in b
 A Simple Explanation for Dummies. The difference between a Private, Public & Consortium Blockchain — Intrepid ReviewAs financial institutions begin to explore the possibilities of blockchain technology, they are coming up with systems that complement their existing busi...
 
 
-[A free guide for non-coders to learn blockchain tech | Coinmonks Jobs](https://coinmonks.com/a-free-guide-for-non-coders-to-learn-blockchain-tech-in-6-months-or-less/)
+[A free guide for non-coders to learn blockchain tech - Coinmonks Jobs](https://coinmonks.com/a-free-guide-for-non-coders-to-learn-blockchain-tech-in-6-months-or-less/)
 
 You can easily learn enough to find a job in 6 months, for free. The blockchain industry isn't just for coders. Every position is in demand: copywriters, marketers, PMs, sales execs, and more.
 [Binance Academy](https://www.binance.vision/)
@@ -272,7 +272,7 @@ Since blockchain can be seen as the greatest innovation in the recent history, d
 
 Scrolling reddit, this site or other cryptocurrency related forums on the internet and having no clue what people are talking about? Well, nor was I when I first started getting involved into cryptocurrencies. Therefore I thought it would be useful to have a glossary of all t...
 
-[Do you really need a blockchain for that? | Coin Center](https://coincenter.org/entry/do-you-really-need-a-blockchain-for-that)
+[Do you really need a blockchain for that? - Coin Center](https://coincenter.org/entry/do-you-really-need-a-blockchain-for-that)
 
 Blockchains are essential for some projects and poorly suited for others. Using them where it is not needed could be a costly mistake.
 
@@ -466,7 +466,7 @@ A new journal will allow academics to publish controversial articles under a pse
 [Non-Financial Applications of Blockchains: Systematizing the Knowledge](https://www.frontiersin.org/research-topics/8748/non-financial-applications-of-blockchains-systematizing-the-knowledge)
 
 
-[The best free research papers on fintech and blockchain | BankNXT](https://banknxt.com/55778/research-fintech-blockchain/)
+[The best free research papers on fintech and blockchain - BankNXT](https://banknxt.com/55778/research-fintech-blockchain/)
 Chris Skinner provides a convenient selection of research articles that talk about fintech, blockchain, bitcoin, payments and security.
 
 ["Trustchain"](http://msn.iecs.fcu.edu.tw/report/download.php?id=287) 
@@ -554,7 +554,7 @@ Realising the benefits that Open Banking will deliver will take time.
   > Every week the Mosaic research team will delve into important topics within the cryptoasset space.
 
 [(PDF) Governance in the Blockchain Economy: A Framework and Resear...](https://www.researchgate.net/publication/323689461_Governance_in_the_Blockchain_Economy_A_Framework_and_Research_Agenda)
-  > PDF | Blockchain technology is often referred to as a groundbreaking innovation and the harbinger of a new economic era. Blockchains may be capable of engendering a new type of economic system: the blockchain economy. In the blockchain economy, agreed-upon transactions would ...
+  > PDF - Blockchain technology is often referred to as a groundbreaking innovation and the harbinger of a new economic era. Blockchains may be capable of engendering a new type of economic system: the blockchain economy. In the blockchain economy, agreed-upon transactions would ...
 
 [Some high level thoughts on cryptocurrency governance](https://thecryptocurrencyinvestor.com/2019/01/29/some-high-level-thoughts-on-cryptocurrency-governance/)
   > This essay is an overview of some high level concepts in cryptocurrency governance, followed by some specific examples. Governance: Control and Power Governance is the process by which the members …
@@ -789,7 +789,7 @@ My experience disclosing a critical Bitcoin Cash vulnerability
 [How not to get hacked during Consenus NYC 2018 – tales from the...](https://medium.com/tales-from-the-crypt-o/how-not-to-get-hacked-during-consenus-nyc-2018-eabc4c8c903c)
 Some useful hints and best practices that will help you not to get hacked during one of the most existing cryptocurrency conferences of…
 
-[Wallets and Backups: How to Secure Your Cryptocurrency | CSB Tech ...](https://www.csbtechemporium.com/research/how-to-secure-your-cryptocurrency/)
+[Wallets and Backups: How to Secure Your Cryptocurrency - CSB Tech ...](https://www.csbtechemporium.com/research/how-to-secure-your-cryptocurrency/)
 Whether you’re a newfound blockchain devotee, or just want exposure to the potential upside, this guide will help get you started on the journey. Before you buy a significant amount, you’ll need to know how to keep it secure. Traditional forms of currency, issued by...
 
 [Singularity - Microsoft Research](https://www.microsoft.com/en-us/research/project/singularity/)
@@ -942,7 +942,7 @@ All of these recommended cryptocurrency books are high-quality. Click here for r
   > 
   > is the hardest book I've ever gotten. It took me over a decade. It's no wonder that despite huge impact on Dune, analyses like @timoreilly's or Touponce just omit Walter entirely - can't get copies! Well,
 
-[List of Cryptocurrency Ebooks to Learn From | UseTheBitcoin](https://usethebitcoin.com/list-of-cryptocurrency-ebooks-to-learn-from)
+[List of Cryptocurrency Ebooks to Learn From - UseTheBitcoin](https://usethebitcoin.com/list-of-cryptocurrency-ebooks-to-learn-from)
 With no end to resources available to learn about cryptocurrencies, eBooks can be a great way to get a deep set of understanding about the underlying technology and opportunity in… Continue reading "List of Cryptocurrency Ebooks to Learn From"
 
 [https://www.amazon.com/Blockchain-Architecture-Trust-Information-Policy/dp/0262038935](https://www.amazon.com/Blockchain-Architecture-Trust-Information-Policy/dp/0262038935)

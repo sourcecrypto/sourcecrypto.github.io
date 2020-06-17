@@ -232,7 +232,7 @@ DappRadar provides information and insights about all the existing dapps! At the
 
 [https://fpga.guide/en/](https://fpga.guide/en/)
 
-[The FPGA Mining Guide | FPGA Guide](https://fpga.guide/en/)
+[The FPGA Mining Guide - FPGA Guide](https://fpga.guide/en/)
 
 FPGA.guide - downloads, tools, and guides on FPGA Crypto Mining. Stay up to date, join our Telegram Group!
 
@@ -240,7 +240,7 @@ FPGA.guide - downloads, tools, and guides on FPGA Crypto Mining. Stay up to date
 
 [https://www.smithandcrown.com/research/](https://www.smithandcrown.com/research/) [https://zkp.science/](https://zkp.science/) [https://github.com/Mechanism-Labs](https://github.com/Mechanism-Labs)
 
-[Smith+Crown Research Team](https://www.smithandcrown.com/author/researcher/)
+
 
 [Research - Smith + Crown](https://www.smithandcrown.com/research/)
 
@@ -348,9 +348,9 @@ if something like that already existed somewhere, to my standards of research, t
 
 and ya know... I plan to make more than the 3rd world wages I'm currently pulling, eventually
 
-[https://www.csbtechemporium.com/author/daviddoer/](https://www.csbtechemporium.com/author/daviddoer/)
 
-[Daniel, Author at CSB Tech Emporium](https://www.csbtechemporium.com/author/daviddoer/)
+
+
 
 ^^ a small collection of articles I've written
 
@@ -366,11 +366,11 @@ Our first full Conspiratus epsiode where we discuss protocol governance with our
 
 [https://cyber.stanford.edu/blockchainconf](https://cyber.stanford.edu/blockchainconf) [https://cyber.stanford.edu/bpase18](https://cyber.stanford.edu/bpase18)
 
-[Blockchain Protocol Analysis and Security Engineering 2017 | Cyber...](https://cyber.stanford.edu/blockchainconf)
+[Blockchain Protocol Analysis and Security Engineering 2017 - Cyber...](https://cyber.stanford.edu/blockchainconf)
 
 The 2018 version of this conference can be found here. January 26-27 2017, Paul Brest Hall, Stanford University Video recordings and slides, where provided by presenters, are posted with talk titles below.
 
-[Blockchain Protocol Analysis and Security Engineering 2018 | Cyber...](https://cyber.stanford.edu/bpase18)
+[Blockchain Protocol Analysis and Security Engineering 2018 - Cyber...](https://cyber.stanford.edu/bpase18)
 
 January 24-26 2018, Arrillaga Alumni Center, Stanford University
 
@@ -909,14 +909,10 @@ I got nothing but runway
 Ah yes, i think that will go to #deleted-channel
 
 
-
-[https://twitter.com/olthoff/status/1141081271621341186?s=12](https://twitter.com/olthoff/status/1141081271621341186?s=12)
-
-[Mike Olthoff ⚡🐶💩👑 (@olthoff)](https://twitter.com/olthoff)
+[Mike Olthoff ⚡🐶💩👑 (@olthoff)](https://twitter.com/olthoff/status/1141081271621341186?s=12)
 
 Are there tools for accessibility for using Bitcoin? Tools for the blind etc? I can't imagine BTC addresses being very easy to verify on say a Ledger or Trezor if you can't read the screen.
 
-Twitter
 
 
 

@@ -63,7 +63,6 @@ Followers
 
 11584
 
-Twitter
 
 [https://wiki.web3.foundation/en/latest/](https://wiki.web3.foundation/en/latest/)
 
@@ -81,4 +80,3 @@ Awesome list of distributed, decentralized, p2p apps and tools
 
 - croqaz/awesome-decentralized
 
-[https://avatars0.githubusercontent.com/u/1748317?s=400&v=4](https://avatars0.githubusercontent.com/u/1748317?s=400&v=4)

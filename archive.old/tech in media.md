@@ -98,7 +98,7 @@ Created by Christopher Cantwell, Christopher C. Rogers. With Lee Pace, Scoot McN
 
 [https://breakermag.com/kchain-science-fiction-premiere-byzantine-empathy/](https://breakermag.com/kchain-science-fiction-premiere-byzantine-empathy/)
 
-[Ken Liu](https://breakermag.com/author/kliu)
+
 
 [Blockchain Science-Fiction Premiere: “Byzantine Empathy”](https://breakermag.com/kchain-science-fiction-premiere-byzantine-empathy)
 
@@ -116,7 +116,7 @@ How close are we to building the hosts?
 
 [https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/](https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/)
 
-[John Hopewell](https://variety.com/author/johnhopewell1/)
+
 
 [Netflix’s ‘How to Sell Drugs Online (Fast)’s’ Creators on ...](https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/)
 
@@ -131,26 +131,18 @@ CANNES — Netflix’s “How to Sell Drugs Online (Fast)” kicks off with a po
 A huge curated list of the best artificial intelligence movies ever released. Find your next great AI movie to watch here.
 
 
-
-[https://twitter.com/mattoshin/status/1137914686425296901?s=12](https://twitter.com/mattoshin/status/1137914686425296901?s=12)
-
-[𝙼𝚊𝚝𝚝 ₿ (@MattoshiN)](https://twitter.com/MattoshiN)
+[𝙼𝚊𝚝𝚝 ₿ (@MattoshiN)](https://twitter.com/mattoshin/status/1137914686425296901?s=12)
 
 Was completely immersed into How To Sell Drugs Online (Fast), right up until they mentioned that their darknet market accepted IOTA. No one accepts IOTA.
 
-Twitter
 
 
-
-[https://twitter.com/melt_dem/status/1140417654605451264?s=12](https://twitter.com/melt_dem/status/1140417654605451264?s=12)
-
-[Meltem Demirors (@Melt_Dem)](https://twitter.com/Melt_Dem)
+[Meltem Demirors (@Melt_Dem)](https://twitter.com/melt_dem/status/1140417654605451264?s=12)
 
 obsessed with sci fi. my reading list over the last few years, with some welcome additions from the friendly folks on crypto twitter
 
 [https://t.co/myFJFRoOD2](https://t.co/myFJFRoOD2)
 
-Twitter
 
 
 
@@ -166,7 +158,7 @@ Thats fine, the other channel would be like blockchain music projects
 
 [https://www.meltemdemirors.com/sci-fi-reading-list](https://www.meltemdemirors.com/sci-fi-reading-list)
 
-[Meltem Demirors | Bitcoin and Crypto](https://www.meltemdemirors.com/sci-fi-reading-list)
+[Meltem Demirors - Bitcoin and Crypto](https://www.meltemdemirors.com/sci-fi-reading-list)
 
 Hello - my name is Meltem Demirors. I try to help people understand what crypto is because it provides freedom of choice and a new lens through which to view the world.
 
@@ -188,7 +180,7 @@ Science Fiction The Culture Series by Iain M. Banks The Culture is a society for
 
 
 
-Novelist Neal Stephenson Once Again Proves He's the King of the Worlds | WIRED [https://www.wired.com/2008/08/mf-stephenson/](https://www.wired.com/2008/08/mf-stephenson/)
+Novelist Neal Stephenson Once Again Proves He's the King of the Worlds - WIRED [https://www.wired.com/2008/08/mf-stephenson/](https://www.wired.com/2008/08/mf-stephenson/)
 
 [Novelist Neal Stephenson Once Again Proves He's the King of the Worlds](https://www.wired.com/2008/08/mf-stephenson/)
 
@@ -204,7 +196,7 @@ Lawrence Lessig helped mount the case against Microsoft. He wrote the book on cr
 
 [https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/](https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/)
 
-[John Hopewell](https://variety.com/author/johnhopewell1/)
+
 
 [Netflix’s ‘How to Sell Drugs Online (Fast)’s’ Creators on ...](https://variety.com/2019/tv/festivals/netflix-how-to-sell-drugs-online-fasts-creators-new-german-original-1203182436/)
 

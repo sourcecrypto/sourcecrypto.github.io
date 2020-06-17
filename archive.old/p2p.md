@@ -2,14 +2,10 @@
 
 
 
-
-[https://twitter.com/neil_neilzone/status/1046726283047194624](https://twitter.com/neil_neilzone/status/1046726283047194624)
-
-[Neil Brown (@neil_neilzone)](https://twitter.com/neil_neilzone)
+[Neil Brown (@neil_neilzone)](https://twitter.com/neil_neilzone/status/1046726283047194624)
 
 I hadn’t seen @BriarApp until today - decentralised, p2p, e2e messaging via Tor. [https://t.co/hSEJTSrslW](https://t.co/hSEJTSrslW)
 
-Twitter
 
 
 
@@ -63,4 +59,3 @@ Building a p2p and decentralized web =================================== Conceiv
 
 Decentralized Fog Computing Platform. SONM has 30 repositories available. Follow their code on GitHub.
 
-[https://avatars3.githubusercontent.com/u/25040195?s=280&v=4](https://avatars3.githubusercontent.com/u/25040195?s=280&v=4)

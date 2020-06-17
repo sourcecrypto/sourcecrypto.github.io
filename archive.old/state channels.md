@@ -32,24 +32,16 @@ The Solution to Scaling Blockchain Now
 State channels are a way of moving blockchain interactions into high-speed, low-cost "dedicated highways" between a set of defined participants.
 
 
-
-[https://twitter.com/itsjefftong/status/1045360005845663750](https://twitter.com/itsjefftong/status/1045360005845663750)
-
-[Jeff Tong (@itsjefftong)](https://twitter.com/itsjefftong)
+[Jeff Tong (@itsjefftong)](https://twitter.com/itsjefftong/status/1045360005845663750)
 
 @Arjun_Bhuptani from @ConnextNetwork talks about all the knicks and knacks to a production ready state channel network. It's crazy to see how far we've come since that whitepaper days! Check it out here: [https://t.co/tJXLEIchYX](https://t.co/tJXLEIchYX)
 
-Twitter
 
 
-
-[https://twitter.com/paddykcl/status/1073876560153739267](https://twitter.com/paddykcl/status/1073876560153739267)
-
-[Patrick McCorry ☘️ (@paddykcl)](https://twitter.com/paddykcl)
+[Patrick McCorry ☘️ (@paddykcl)](https://twitter.com/paddykcl/status/1073876560153739267)
 
 Following our FC feedback: [https://t.co/Um6gQbBEBu](https://t.co/Um6gQbBEBu) I updated the battleship paper to better focus it: [https://t.co/2AhiEchgD5](https://t.co/2AhiEchgD5) This is the "year of paper rejection" for me. It is really easy to get annoyed, but that isn't productive. The right attitude...
 
-Twitter
 
 
 

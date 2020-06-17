@@ -22,10 +22,7 @@ The social network that gives you more Data privacy. Censorship Resistance. Cont
 [tleb/awesome-mastodon](https://github.com/tleb/awesome-mastodon)
 
 Curated list of awesome Mastodon-related stuff! Contribute to tleb/awesome-mastodon development by creating an account on GitHub.
-
-[https://twitter.com/getongab/status/1140306182722093058?s=12](https://twitter.com/getongab/status/1140306182722093058?s=12)
-
-[Gab.com (@getongab)](https://twitter.com/getongab)
+[Gab.com (@getongab)](https://twitter.com/getongab/status/1140306182722093058?s=12)
 
 They banned us from Paypal, Stripe, Square, Coinbase, Bitpay, and more. They blacklisted us. So we became a bitcoin-first business. We introduced bitcoin to nearly a million users in January. You can't shut down our @BtcpayServer. Who is laughing now?
 

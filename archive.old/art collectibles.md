@@ -37,14 +37,10 @@ A community project for artists and collectors
 dedicated to spreading the cryptocurrency/blockchain movement through art!
 
 
-
-[https://twitter.com/PowerDada/status/1032351294919458825](https://twitter.com/PowerDada/status/1032351294919458825)
-
-[DADA (@PowerDada)](https://twitter.com/PowerDada)
+[DADA (@PowerDada)](https://twitter.com/PowerDada/status/1032351294919458825)
 
 A really NIFTY conversation between 3 smart blokes: @songadaymann @mattgcondon and @pieratt about authenticity in #blockchain, projects that are #art (like yours truly) and more! Great listening! [https://t.co/hBxCK3WI1T](https://t.co/hBxCK3WI1T)
 
-Twitter
 
 
 
@@ -55,14 +51,10 @@ Twitter
 MLB Crypto Baseball, True Digital Ownership. Experience owning your own favorite MLB Crypto figure and play them live with real live games.
 
 
-
-[https://twitter.com/droplister/status/1037758368302157824](https://twitter.com/droplister/status/1037758368302157824)
-
-[Dan Anderson 🌽 (@droplister)](https://twitter.com/droplister)
+[Dan Anderson 🌽 (@droplister)](https://twitter.com/droplister/status/1037758368302157824)
 
 Explore the different #cryptocollectibles being traded on-chain using #Counterparty $XCP. Visit: [https://t.co/XLAchVmm4l!](https://t.co/XLAchVmm4l!)
 
-Twitter
 
 
 
@@ -92,27 +84,23 @@ Plasma Bears is an upcoming collectible crafting game from the creators of Neon 
 
 [pixEOS](https://pixeos.io//)
 
-pixEOS | Where Games and Art Collide
+pixEOS - Where Games and Art Collide
 
 
 
 [http://www.coldie3d.com](http://www.coldie3d.com/)
 
 
-
-[https://twitter.com/jwilliamsfstmed/status/1133060860207927298?s=12](https://twitter.com/jwilliamsfstmed/status/1133060860207927298?s=12)
-
-[Jason A. Williams 🦍 (@JWilliamsFstmed)](https://twitter.com/JWilliamsFstmed)
+[Jason A. Williams 🦍 (@JWilliamsFstmed)](https://twitter.com/jwilliamsfstmed/status/1133060860207927298?s=12)
 
 I am totally fascinated by the digital art use case. Displaying this art in your home as a collection of digital works is so cool. Time to decorate the crib. [https://t.co/O7wrtEcqwl](https://t.co/O7wrtEcqwl)
 
-Twitter
 
 
 
-Digital Art 2162 - DigitalArtChain | current bid of 0.0778 WETH on OpenSea [https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162](https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162)
+Digital Art 2162 - DigitalArtChain - current bid of 0.0778 WETH on OpenSea [https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162](https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162)
 
-[Digital Art 2162 - DigitalArtChain | current bid of 0.0778 WETH on...](https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162)
+[Digital Art 2162 - DigitalArtChain - current bid of 0.0778 WETH on...](https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162)
 
 Digital Art 2162 is DigitalArtChain #2162: Digital Art 2162...
 
@@ -131,14 +119,10 @@ Digital Art 2162 is DigitalArtChain #2162: Digital Art 2162...
 by Masha Golovina, Director of Market Analysis
 
 
-
-[https://twitter.com/coldie/status/1161023787317387264?s=12](https://twitter.com/coldie/status/1161023787317387264?s=12)
-
-[Coldie (@Coldie)](https://twitter.com/Coldie)
+[Coldie (@Coldie)](https://twitter.com/coldie/status/1161023787317387264?s=12)
 
 1/1 Decentral Eyes 3D gif portrait collage on @SuperRare_co Highest bid will win Sep. 6 at 10p PT Click to read whole story. 100% of proceeds go to medical care & food for L.A.'s feral kittens. [https://t.co/FG0TzUxvmu](https://t.co/FG0TzUxvmu) #cryptokitties #catart #ethereum #cryptoart @CryptoKi...
 
-Twitter
 
 
 
@@ -152,7 +136,7 @@ Awesome list of crypto art resources :sunglasses:. Contribute to obxium/awesome-
 
 [https://www.coindesk.com/this-artist-explores-the-art-and-politics-of-crypto-culture](https://www.coindesk.com/this-artist-explores-the-art-and-politics-of-crypto-culture) [https://www.independent.co.uk/arts-entertainment/art/features/kevin-abosch-cryptocurrency-art-bitcoin-blockchain-conceptual-potato-photograph-a8396001.html](https://www.independent.co.uk/arts-entertainment/art/features/kevin-abosch-cryptocurrency-art-bitcoin-blockchain-conceptual-potato-photograph-a8396001.html)
 
-[Diana Aguilar](https://www.coindesk.com/author/dianaaguilar)
+
 
 [This Artist Explores the Art and Politics of Crypto Culture - CoinDesk](https://www.coindesk.com/this-artist-explores-the-art-and-politics-of-crypto-culture)
 
@@ -163,11 +147,6 @@ The crypto artist has worked with Dorian Nakamoto and recently expanded his reac
 The artist Kevin Abosch has turned himself into a coin by stamping blockchain tokens in his own blood
 
 
-
-[https://twitter.com/coldie/status/1179800114564485121?s=12](https://twitter.com/coldie/status/1179800114564485121?s=12)
-
-[Coldie (@Coldie)](https://twitter.com/Coldie)
+[Coldie (@Coldie)](https://twitter.com/coldie/status/1179800114564485121?s=12)
 
 Opening day reception for new @cryptovoxels art gallery in Modville ft. my personal #cryptoart #artcollection. Curated by #Coldie, for the people. #Blockchain art collected on @SuperRare_co @KnownOrigin_io. Teleport over and say hi. [https://t.co/c0JNOj2aVw](https://t.co/c0JNOj2aVw)
-
-Twitter
