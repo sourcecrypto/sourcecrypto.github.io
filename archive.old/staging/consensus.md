@@ -191,7 +191,7 @@ People keep asking me, why did I decide to build our Egeon blockchain on Tenderm
 This technical deep dive is written by Chjango Unchained. Enjoy.
 * [List of projects in Cosmos & Tendermint Ecosystem](https://forum.cosmos.network/t/list-of-projects-in-cosmos-tendermint-ecosystem/243)
 * [Kadena (@kadena_io)](https://twitter.com/kadena_io/status/1158729085788532736?s=12)
-  > ANNOUNCEMENT: Introducing Kadenamint - We're bringing our secure smart contract language Pact to @tendermint_team and @cosmos with a grant from @interchain_io! Read the @coindesk story by @christine_dkim at [https://t.co/OmgqWl3zLf](https://t.co/OmgqWl3zLf) #Kadenamint | #Cosmos | #SmarterContracts
+  > ANNOUNCEMENT: Introducing Kadenamint - We're bringing our secure smart contract language Pact to @tendermint_team and @cosmos with a grant from @interchain_io! Read the @coindesk story by @christine_dkim at [https://t.co/OmgqWl3zLf](https://t.co/OmgqWl3zLf) #Kadenamint - #Cosmos - #SmarterContracts
 
 ## Algorand
 

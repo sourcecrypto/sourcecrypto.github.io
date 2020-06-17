@@ -28,7 +28,7 @@ Awesome list for Paxos and friends. Contribute to dgryski/awesome-consensus deve
 
 [http://www.goodmath.org/blog/2015/02/14/simpler-consensus-with-raft/](http://www.goodmath.org/blog/2015/02/14/simpler-consensus-with-raft/)
 
-[markcc](http://www.goodmath.org/blog/author/markcc)
+
 
 [Simpler Consensus with Raft](http://www.goodmath.org/blog/2015/02/14/simpler-consensus-with-raft)
 
@@ -63,10 +63,7 @@ Contribute to infominer33/Crypto-library development by creating an account on G
 What can we expect from distributed systems?
 
 
-
-[https://twitter.com/Coinsurenz/status/1057132206265577472](https://twitter.com/Coinsurenz/status/1057132206265577472)
-
-[ℭoinsure (@Coinsurenz)](https://twitter.com/Coinsurenz)
+[ℭoinsure (@Coinsurenz)](https://twitter.com/Coinsurenz/status/1057132206265577472)
 
 These past 2 weekends I explored some of the possibilities of using txtenna, @gotenna and @SamouraiWallet for censorship resistance. Here is a thread on my findings
 
@@ -94,7 +91,7 @@ Hacker News • 22-Jun-19 11:02 AM
 
 
 
-Operating a large distributed system in a reliable way: practices I learned | Hacker News [https://news.ycombinator.com/item?id=20462349](https://news.ycombinator.com/item?id=20462349)
+Operating a large distributed system in a reliable way: practices I learned - Hacker News [https://news.ycombinator.com/item?id=20462349](https://news.ycombinator.com/item?id=20462349)
 
 gregdoesit
 
@@ -132,7 +129,7 @@ Hacker News • 26-Aug-19 04:50 AM
 
 [https://electrical-engineering-portal.com/north-american-versus-european-distribution-systems](https://electrical-engineering-portal.com/north-american-versus-european-distribution-systems)
 
-[Edvard](https://electrical-engineering-portal.com/author/edvard)
+
 
 [Differences between European and North American distribution systems](https://electrical-engineering-portal.com/north-american-versus-european-distribution-systems)
 
@@ -140,7 +137,7 @@ Distribution systems around the world have evolved into different forms. The two
 
 
 
-Secushare: A decentralized, secure social network built on GNUnet | Hacker News [https://news.ycombinator.com/item?id=20884463](https://news.ycombinator.com/item?id=20884463)
+Secushare: A decentralized, secure social network built on GNUnet - Hacker News [https://news.ycombinator.com/item?id=20884463](https://news.ycombinator.com/item?id=20884463)
 
 federicoponzi
 
