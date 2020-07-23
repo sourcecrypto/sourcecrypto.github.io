@@ -23,15 +23,9 @@ cannonical_url: https://web-work.tools/practical-public-key-crypto/
 ---
   
 
-    "Public key encryption: supporting secure transactions online since 1991!!"
 
 ![](https://web-work.tools/images/pgp-og.png)
 
-
-I created this resource while researching the following article:
-
-* [freelanceforcoins.com/**Business with Crypto 101—Escrow and Key Signatures**](https://freelanceforcoins.com/article/6-escrow) -infominer
-  >This article will explain what is escrow, how to find an escrow agent, and using key signatures to verify who you are communicating with — including the use of Bitcoin and Ethereum signatures to prove (and verify) ownership of a particular address.
 
 [![](https://web-work.tools/images/Cover50.png)](https://web-work.tools/images/gnu-gpg-thumb.png)
 
@@ -174,6 +168,8 @@ March 03, 2019](https://bitcointalk.org/index.php?topic=5116510.0)
 * [mozilla/sops](https://github.com/mozilla/sops) - Secrets management stinks, use some sops!
 
 ## Resources
+
+* [Common Encryption Types, Protocols and Algorithms Explained](https://comparite.ch/encryption-types)
 * [CyPurr-Collective/cryptoparty-presentation](https://github.com/CyPurr-Collective/cryptoparty-presentation)
 * [modernpgp.github.io/about/](https://modernpgp.github.io/about/)
 * [Documentation and Examples](https://github.com/jonathancross/jc-docs)
