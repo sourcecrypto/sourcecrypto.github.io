@@ -36,32 +36,21 @@ Cosmos is generally seen as an interoperability solution, something to connect b
 You may have heard the words Cosmos, Cosmos Hub, Tendermint, and Interchain being used interchangeably in some context or the other…
 
 
-
-[https://twitter.com/jeetsidhu_/status/1056356903515815936](https://twitter.com/jeetsidhu_/status/1056356903515815936)
-
-[jeet🐊 (@jeetsidhu_)](https://twitter.com/jeetsidhu_)
+[jeet🐊 (@jeetsidhu_)](https://twitter.com/jeetsidhu_/status/1056356903515815936)
 
 cosmos thread
 
-Twitter
 
 
-
-[https://twitter.com/zmanian/status/1074940710397403136](https://twitter.com/zmanian/status/1074940710397403136)
-
-[Zaki Manian (@zmanian)](https://twitter.com/zmanian)
+[Zaki Manian (@zmanian)](https://twitter.com/zmanian/status/1074940710397403136)
 
 In 1982, Leslie Lamport described the problem of coming to consensus over an adversarial network. Today @cosmos test's Byzantine Fault Tolerance at an unprecedented scale with 189 nodes working to exploit cartel and censorship behavior to win the Game of Stakes.
 
 
-
-[https://twitter.com/srinitechgeek/status/1108163749632987136?s=12](https://twitter.com/srinitechgeek/status/1108163749632987136?s=12)
-
-[Srinivasa Sivakumar (@SriniTechGeek)](https://twitter.com/SriniTechGeek)
+[Srinivasa Sivakumar (@SriniTechGeek)](https://twitter.com/srinitechgeek/status/1108163749632987136?s=12)
 
 #Blockchain interoperability is now a reality. Cosmos calls itself “the Internet of Blockchains,” it is also the first major decentralized Proof-of-Stake networks to launch. #digitaladvisor [https://t.co/hNlLf9b63K](https://t.co/hNlLf9b63K)
 
-Twitter
 
 
 
@@ -72,10 +61,7 @@ Twitter
 There has been recently a lot of discussions and concerns after the distribution of atoms from All in Bits Inc. In order to increase…
 
 
-
-[https://twitter.com/adriana_kalpa/status/1149073124710866946?s=12](https://twitter.com/adriana_kalpa/status/1149073124710866946?s=12)
-
-[Adriana | KalpaTech (@adriana_kalpa)](https://twitter.com/adriana_kalpa)
+[Adriana - KalpaTech (@adriana_kalpa)](https://twitter.com/adriana_kalpa/status/1149073124710866946?s=12)
 
 1/6 Today in @cosmos:
 
@@ -93,7 +79,6 @@ There has been recently a lot of discussions and concerns after the distribution
 
 ....
 
-Twitter
 
 
 
@@ -107,7 +92,7 @@ Twitter
 
 [https://tokenchannel.net/2019/07/20/difference-between-cosmos-and-polkadot-explained-by-senior-developer/](https://tokenchannel.net/2019/07/20/difference-between-cosmos-and-polkadot-explained-by-senior-developer/)
 
-[Dongbin Jiang](https://tokenchannel.net/author/dongbin/)
+
 
 [Difference Between Cosmos and Polkadot, Explained By Senior Developer](https://tokenchannel.net/2019/07/20/difference-between-cosmos-and-polkadot-explained-by-senior-developer/)
 
@@ -124,16 +109,12 @@ Standards for the Cosmos network & interchain ecosystem. - cosmos/ics
 [cosmos/awesome](https://github.com/cosmos/awesome)
 
 Collection of Cosmos related resources. Contribute to cosmos/awesome development by creating an account on GitHub.
-
-[https://twitter.com/cosmos/status/1171527878619451392?s=12](https://twitter.com/cosmos/status/1171527878619451392?s=12)
-
-[Cosmos - the Internet of Blockchains (@cosmos)](https://twitter.com/cosmos)
+[Cosmos - the Internet of Blockchains (@cosmos)](https://twitter.com/cosmos/status/1171527878619451392?s=12)
 
 New release alert! v1.0.0-rc3 of the IBC specification has been released! Check it out now:
 
 [https://t.co/NHjrt7sqHv](https://t.co/NHjrt7sqHv)
 
-Twitter
 
 
 
@@ -153,7 +134,7 @@ In this week's episode, Anna sits down with Sunny Aggarwal to talk about his jou
 
 [https://cosmos.network/docs/intro/ocap.html](https://cosmos.network/docs/intro/ocap.html)
 
-[Object-Capability Model | Cosmos SDK Documentation](https://cosmos.network/docs/intro/ocap.html)
+[Object-Capability Model - Cosmos SDK Documentation](https://cosmos.network/docs/intro/ocap.html)
 
 Documentation for the Cosmos SDK and Gaia.
 

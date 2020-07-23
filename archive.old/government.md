@@ -5,7 +5,7 @@
 
 [https://www.trustnodes.com/2018/07/24/boston-fed-says-central-banks-can-disrupted-looking-blockchain-tech-not-uberized](https://www.trustnodes.com/2018/07/24/boston-fed-says-central-banks-can-disrupted-looking-blockchain-tech-not-uberized)
 
-[Trustnodes](https://www.trustnodes.com/author/aquentson)
+
 
 [Boston Fed Looking at Blockchain Tech to Not Be "Uberized"](https://www.trustnodes.com/2018/07/24/boston-fed-says-central-banks-can-disrupted-looking-blockchain-tech-not-uberized)
 
@@ -13,7 +13,7 @@ Paul Brassil, vice president of information technology at the Boston branch of t
 
 [https://toshitimes.com/cftc-chairman-talks-blockchain-cooperation-needed-as-cftc-is-four-years-behind/](https://toshitimes.com/cftc-chairman-talks-blockchain-cooperation-needed-as-cftc-is-four-years-behind/)
 
-[Rasmus Pihl](https://toshitimes.com/author/rasmus-pihl/)
+
 
 [CFTC Chairman Talks Blockchain, Cooperation Needed As CFTC is ”F...](https://toshitimes.com/cftc-chairman-talks-blockchain-cooperation-needed-as-cftc-is-four-years-behind/)
 
@@ -26,10 +26,7 @@ The US Commodity Futures Trading Commission’s chairman, Cristopher Giancarlo, 
 [West Virginia to introduce mobile phone voting for midterm elections](https://money.cnn.com/2018/08/06/technology/mobile-voting-west-virginia-voatz/index.html)
 
 
-
-[https://twitter.com/RachelTobac/status/1028437783050776576](https://twitter.com/RachelTobac/status/1028437783050776576)
-
-[Rachel Tobac (@RachelTobac)](https://twitter.com/RachelTobac)
+[Rachel Tobac (@RachelTobac)](https://twitter.com/RachelTobac/status/1028437783050776576)
 
 At @defcon hacking conference and just learned how easy it is to physically gain admin access on a voting machine that is used in 18 states. Requires no tools and takes under 2 minutes. I’m concerned for our upcoming elections. [https://t.co/Kl9erBsrtl](https://t.co/Kl9erBsrtl)
 
@@ -37,7 +34,7 @@ At @defcon hacking conference and just learned how easy it is to physically gain
 
 [https://un-blockchain.org/](https://un-blockchain.org/)
 
-[yoshi3346](https://un-blockchain.org/author/yoshi3346/)
+
 
 [UN Blockchain](https://un-blockchain.org/)
 
@@ -57,7 +54,7 @@ Multi-UN Agency Platform
 
 [http://www.dubaifuture.gov.ae/our-initiatives/global-blockchain-council/](http://www.dubaifuture.gov.ae/our-initiatives/global-blockchain-council/)
 
-[admin](http://www.dubaifuture.gov.ae/author/admin/)
+
 
 [Global Blockchain Council - Dubai Future Foundation](http://www.dubaifuture.gov.ae/our-initiatives/global-blockchain-council/)
 
@@ -110,14 +107,10 @@ The Netherlands’ blockchain hackathon –which claims to be the world’s larg
 US Commodity Futures Trading Commission Commissioner Rostin Behnam labeled cryptocurrencies as a “modern miracle” at a recent summit, sharing a bullish stance on virtual currencies and predicting that blockchain technology will remake economic, social and political struct...
 
 
-
-[https://twitter.com/cryptinfominer/status/1031692981319999488](https://twitter.com/cryptinfominer/status/1031692981319999488)
-
-[InfoMiner (@cryptinfominer)](https://twitter.com/cryptinfominer)
+[InfoMiner (@cryptinfominer)](https://twitter.com/cryptinfominer/status/1031692981319999488)
 
 1. Cryptocurrency, Blockchain, and The United Nations: A Chronological Tweet Storm In 2010 the UN Commission on Science and Technology for Development [CSTD] proposed the introduction of a technology-driven universal currency. [https://t.co/artC88Fuug](https://t.co/artC88Fuug)
 
-Twitter
 
 
 
@@ -140,10 +133,7 @@ Startup will help Franklin County auditor's office manage the backend of a forfe
 [http://en.ibena.ir/news/90482/Iranian-Cryptocurrency-s-Features-Revealed](http://en.ibena.ir/news/90482/Iranian-Cryptocurrency-s-Features-Revealed)
 
 
-
-[https://twitter.com/coindesk/status/1040066224972083202](https://twitter.com/coindesk/status/1040066224972083202)
-
-[CoinDesk (@coindesk)](https://twitter.com/coindesk)
+[CoinDesk (@coindesk)](https://twitter.com/coindesk/status/1040066224972083202)
 
 The Russian state-owned conglomerate will develop a blockchain to manage data on its vast holdings, which include car, helicopter and firearms makers. [https://t.co/ru1hE16iW6](https://t.co/ru1hE16iW6)
 
@@ -155,24 +145,18 @@ The Russian state-owned conglomerate will develop a blockchain to manage data on
 
 [https://www.financemagnates.com/cryptocurrency/news/overstock-pays-its-ohio-state-taxes-in-bitcoin/](https://www.financemagnates.com/cryptocurrency/news/overstock-pays-its-ohio-state-taxes-in-bitcoin/)
 
-[Aziz Abdel-Qader](https://www.financemagnates.com/author/aziz-abdel-qader/)
 
-[Overstock Pays its Taxes in Ohio State with Bitcoin | Finance Magnates](https://www.financemagnates.com/cryptocurrency/news/overstock-pays-its-ohio-state-taxes-in-bitcoin/)
+
+[Overstock Pays its Taxes in Ohio State with Bitcoin - Finance Magnates](https://www.financemagnates.com/cryptocurrency/news/overstock-pays-its-ohio-state-taxes-in-bitcoin/)
 
 Overstock will pay a portion of its business taxes in Ohio in Bitcoin, as the Amazon rival continues to make way for a full-blown bet on cryptocurrency.
 
 
 
-[https://cointelegraph.com/news/nasa-publishes-proposal-for-air-traffic-management-blockchain-based-on-hyperledger](https://cointelegraph.com/news/nasa-publishes-proposal-for-air-traffic-management-blockchain-based-on-hyperledger)
+[NASA proposed an air traffic management blockchain based on the Hyperledger Fabric open-source software.](https://cointelegraph.com/news/nasa-publishes-proposal-for-air-traffic-management-blockchain-based-on-hyperledger)
 
-[NASA Publishes Proposal for Air Traffic Management Blockchain Base...](https://cointelegraph.com/news/nasa-publishes-proposal-for-air-traffic-management-blockchain-based-on-hyperledger)
 
-NASA proposed an air traffic management blockchain based on the Hyperledger Fabric open-source software.
 
-[https://twitter.com/jgrandsenne/status/1067464920780935168](https://twitter.com/jgrandsenne/status/1067464920780935168)
-
-[Jérémie Grandsenne (@jgrandsenne)](https://twitter.com/jgrandsenne)
+[Jérémie Grandsenne (@jgrandsenne)](https://twitter.com/jgrandsenne/status/1067464920780935168)
 
 Report: Distributed Ledger Technologies in Public Services: [https://t.co/fEO50ekjCe](https://t.co/fEO50ekjCe) #dlt #blockchain #publicservices
-
-Twitter

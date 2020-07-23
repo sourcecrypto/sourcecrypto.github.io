@@ -46,11 +46,6 @@ Open wiki documentation for Grin and MimbleWimble. Contribute to mimblewimble/do
 ["Tales from the Crypt #49: Alex Liegl" from Tales from the Crypt b...](https://itunes.apple.com/us/podcast/tales-from-the-crypt/id1292381204?mt=2&i=1000423790698)
 
 
-
-[https://twitter.com/grinMW/status/1082672800987377664](https://twitter.com/grinMW/status/1082672800987377664)
-
-[😶 (@grinMW)](https://twitter.com/grinMW)
+[😶 (@grinMW)](https://twitter.com/grinMW/status/1082672800987377664)
 
 How to mine Grin with Ubuntu?: Is there a way to mine Grin with Ubuntu? is there any good documents for setting up this program? submitted by /u/Laroxide [link] [comments] [https://t.co/MpqExIPDsN](https://t.co/MpqExIPDsN) via r/grincoin #mimblewimble #discussion
-
-Twitter

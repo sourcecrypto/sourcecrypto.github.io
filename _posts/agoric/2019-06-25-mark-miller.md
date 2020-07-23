@@ -11,7 +11,9 @@ categories: ["Object Capabilities", "Smart Contracts"]
 tags: ["Mark Miller", "Agoric"]
 toc_sticky: true
 permalink: /posts/agoric/mark-miller/
-redirect_from:  /posts/crypto/e-rights/
+redirect_from:  
+  - /posts/crypto/e-rights/
+  - /archive/blockchain/agoric/
 canonical_url: "https://agoric-records.xyz/posts/mark-miller/"
 ---
 

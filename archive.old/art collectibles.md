@@ -1,43 +1,19 @@
+---
+redirect_from:
+  - /archive/entertainment/art-collectibles/
+---
 # 🛸-art-collectibles
 
-
-
-23 messages
-
-
-
-[https://www.rareart.io/](https://www.rareart.io/)
-
 [R.A.R.E. Digital Art Network](https://www.rareart.io/)
-
 The first platform for artists to sell scarce copies of their digital art.
 
 [https://ipfs.rareart.io/ipfs/Qmb97aQBAw4unnVB7WrLcwXr7nkYaZ38AHftFZxTFeRp2U](https://ipfs.rareart.io/ipfs/Qmb97aQBAw4unnVB7WrLcwXr7nkYaZ38AHftFZxTFeRp2U)
 
-
-
-[https://twitter.com/PowerDada/status/1032351294919458825](https://twitter.com/PowerDada/status/1032351294919458825)
-
-[DADA (@PowerDada)](https://twitter.com/PowerDada)
-
+[DADA (@PowerDada)](https://twitter.com/PowerDada/status/1032351294919458825)
 A really NIFTY conversation between 3 smart blokes: @songadaymann @mattgcondon and @pieratt about authenticity in #blockchain, projects that are #art (like yours truly) and more! Great listening! [https://t.co/hBxCK3WI1T](https://t.co/hBxCK3WI1T)
 
-Twitter
-
-
-
-[https://steemit.com/slothicorn/@inquiringtimes/sarah-meyohas-bitchcoin-and-beyond](https://steemit.com/slothicorn/@inquiringtimes/sarah-meyohas-bitchcoin-and-beyond)
-
-[Sarah Meyohas: Bitchcoin, and Beyond — Steemit](https://steemit.com/slothicorn/@inquiringtimes/sarah-meyohas-bitchcoin-and-beyond)
-
-An Exploration of Art, Finance, Feminism, and Technology The most celebrated artists have often been undervalued in… by inquiringtimes
-
-[https://steemit.com/slothicorn/@inquiringtimes/the-birth-of-crypto-art-meet-rare-pepe](https://steemit.com/slothicorn/@inquiringtimes/the-birth-of-crypto-art-meet-rare-pepe)
-
 [The Birth of Crypto-Art: Meet Rare Pepe! — Steemit](https://steemit.com/slothicorn/@inquiringtimes/the-birth-of-crypto-art-meet-rare-pepe)
-
 I think we're all familiar with Pepe the Frog. Until recently, I had no idea that this frog is an important player in… by inquiringtimes
-
 
 
 [https://www.artnome.com/news/2018/2/2/blockchain-artists-wanted](https://www.artnome.com/news/2018/2/2/blockchain-artists-wanted) [https://cryptoart.com](https://cryptoart.com/) [http://rarepepedirectory.com/?page_id=25](http://rarepepedirectory.com/?page_id=25) [https://community.curio.cards](https://community.curio.cards/) \ [https://mycuriocards.com](https://mycuriocards.com/) [http://archetype.mx](http://archetype.mx/) [https://dada.nyc/](https://dada.nyc/) [https://bitmark.com](https://bitmark.com/) [https://pixura.io/](https://pixura.io/)
@@ -61,14 +37,10 @@ A community project for artists and collectors
 dedicated to spreading the cryptocurrency/blockchain movement through art!
 
 
-
-[https://twitter.com/PowerDada/status/1032351294919458825](https://twitter.com/PowerDada/status/1032351294919458825)
-
-[DADA (@PowerDada)](https://twitter.com/PowerDada)
+[DADA (@PowerDada)](https://twitter.com/PowerDada/status/1032351294919458825)
 
 A really NIFTY conversation between 3 smart blokes: @songadaymann @mattgcondon and @pieratt about authenticity in #blockchain, projects that are #art (like yours truly) and more! Great listening! [https://t.co/hBxCK3WI1T](https://t.co/hBxCK3WI1T)
 
-Twitter
 
 
 
@@ -79,14 +51,10 @@ Twitter
 MLB Crypto Baseball, True Digital Ownership. Experience owning your own favorite MLB Crypto figure and play them live with real live games.
 
 
-
-[https://twitter.com/droplister/status/1037758368302157824](https://twitter.com/droplister/status/1037758368302157824)
-
-[Dan Anderson 🌽 (@droplister)](https://twitter.com/droplister)
+[Dan Anderson 🌽 (@droplister)](https://twitter.com/droplister/status/1037758368302157824)
 
 Explore the different #cryptocollectibles being traded on-chain using #Counterparty $XCP. Visit: [https://t.co/XLAchVmm4l!](https://t.co/XLAchVmm4l!)
 
-Twitter
 
 
 
@@ -116,27 +84,23 @@ Plasma Bears is an upcoming collectible crafting game from the creators of Neon 
 
 [pixEOS](https://pixeos.io//)
 
-pixEOS | Where Games and Art Collide
+pixEOS - Where Games and Art Collide
 
 
 
 [http://www.coldie3d.com](http://www.coldie3d.com/)
 
 
-
-[https://twitter.com/jwilliamsfstmed/status/1133060860207927298?s=12](https://twitter.com/jwilliamsfstmed/status/1133060860207927298?s=12)
-
-[Jason A. Williams 🦍 (@JWilliamsFstmed)](https://twitter.com/JWilliamsFstmed)
+[Jason A. Williams 🦍 (@JWilliamsFstmed)](https://twitter.com/jwilliamsfstmed/status/1133060860207927298?s=12)
 
 I am totally fascinated by the digital art use case. Displaying this art in your home as a collection of digital works is so cool. Time to decorate the crib. [https://t.co/O7wrtEcqwl](https://t.co/O7wrtEcqwl)
 
-Twitter
 
 
 
-Digital Art 2162 - DigitalArtChain | current bid of 0.0778 WETH on OpenSea [https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162](https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162)
+Digital Art 2162 - DigitalArtChain - current bid of 0.0778 WETH on OpenSea [https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162](https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162)
 
-[Digital Art 2162 - DigitalArtChain | current bid of 0.0778 WETH on...](https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162)
+[Digital Art 2162 - DigitalArtChain - current bid of 0.0778 WETH on...](https://opensea.io/assets/0x323a3e1693e7a0959f65972f3bf2dfcb93239dfe/2162)
 
 Digital Art 2162 is DigitalArtChain #2162: Digital Art 2162...
 
@@ -155,14 +119,10 @@ Digital Art 2162 is DigitalArtChain #2162: Digital Art 2162...
 by Masha Golovina, Director of Market Analysis
 
 
-
-[https://twitter.com/coldie/status/1161023787317387264?s=12](https://twitter.com/coldie/status/1161023787317387264?s=12)
-
-[Coldie (@Coldie)](https://twitter.com/Coldie)
+[Coldie (@Coldie)](https://twitter.com/coldie/status/1161023787317387264?s=12)
 
 1/1 Decentral Eyes 3D gif portrait collage on @SuperRare_co Highest bid will win Sep. 6 at 10p PT Click to read whole story. 100% of proceeds go to medical care & food for L.A.'s feral kittens. [https://t.co/FG0TzUxvmu](https://t.co/FG0TzUxvmu) #cryptokitties #catart #ethereum #cryptoart @CryptoKi...
 
-Twitter
 
 
 
@@ -176,7 +136,7 @@ Awesome list of crypto art resources :sunglasses:. Contribute to obxium/awesome-
 
 [https://www.coindesk.com/this-artist-explores-the-art-and-politics-of-crypto-culture](https://www.coindesk.com/this-artist-explores-the-art-and-politics-of-crypto-culture) [https://www.independent.co.uk/arts-entertainment/art/features/kevin-abosch-cryptocurrency-art-bitcoin-blockchain-conceptual-potato-photograph-a8396001.html](https://www.independent.co.uk/arts-entertainment/art/features/kevin-abosch-cryptocurrency-art-bitcoin-blockchain-conceptual-potato-photograph-a8396001.html)
 
-[Diana Aguilar](https://www.coindesk.com/author/dianaaguilar)
+
 
 [This Artist Explores the Art and Politics of Crypto Culture - CoinDesk](https://www.coindesk.com/this-artist-explores-the-art-and-politics-of-crypto-culture)
 
@@ -187,11 +147,6 @@ The crypto artist has worked with Dorian Nakamoto and recently expanded his reac
 The artist Kevin Abosch has turned himself into a coin by stamping blockchain tokens in his own blood
 
 
-
-[https://twitter.com/coldie/status/1179800114564485121?s=12](https://twitter.com/coldie/status/1179800114564485121?s=12)
-
-[Coldie (@Coldie)](https://twitter.com/Coldie)
+[Coldie (@Coldie)](https://twitter.com/coldie/status/1179800114564485121?s=12)
 
 Opening day reception for new @cryptovoxels art gallery in Modville ft. my personal #cryptoart #artcollection. Curated by #Coldie, for the people. #Blockchain art collected on @SuperRare_co @KnownOrigin_io. Teleport over and say hi. [https://t.co/c0JNOj2aVw](https://t.co/c0JNOj2aVw)
-
-Twitter

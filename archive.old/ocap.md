@@ -33,7 +33,7 @@ E: Cryptographic Capabilities for Distributed Smart Contracting
 
 [Distributed Electronic Rights in JavaScript – Google AI](https://ai.google/research/pubs/pub40673)
 
-[https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40673.pdf](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40673.pdf) ESOP'13 22nd European Symposium on Programming, Springer (2013)
+[ESOP'13 22nd European Symposium on Programming, Springer (2013)](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40673.pdf) 
 
 Abstract.Contracts enable mutually suspicious parties to cooperate safelythrough the exchange of rights. Smart contracts are programs whose behaviorenforces the terms of the contract. This paper shows how such contracts can bespecified elegantly and executed safely, given an appropriate distributed, secure,persistent, and ubiquitous computational fabric. JavaScript provides the ubiquitybut must be significantly extended to deal with the other aspects. The first partof this paper is a progress report on our efforts to turn JavaScript into this fabric.To demonstrate the suitability of this design, we describe an escrow exchangecontract implemented in 42 lines of JavaScript code.
 
@@ -79,19 +79,15 @@ News on development of GRAVITY
 
 [https://cosmos.network/docs/intro/ocap.html](https://cosmos.network/docs/intro/ocap.html)
 
-[Object-Capability Model | Cosmos SDK Documentation](https://cosmos.network/docs/intro/ocap.html)
+[Object-Capability Model - Cosmos SDK Documentation](https://cosmos.network/docs/intro/ocap.html)
 
 Documentation for the Cosmos SDK and Gaia.
 
 
-
-[https://twitter.com/danfinlay/status/1111751961009750017?s=20](https://twitter.com/danfinlay/status/1111751961009750017?s=20)
-
-[Dan Finlay (@danfinlay)](https://twitter.com/danfinlay)
+[Dan Finlay (@danfinlay)](https://twitter.com/danfinlay/status/1111751961009750017?s=20)
 
 Here's the document I presented today. Let's bring Object Capabilities to Ethereum!: [https://t.co/M9gcORUrtw](https://t.co/M9gcORUrtw) [https://t.co/dJGh27AORA](https://t.co/dJGh27AORA)
 
-Twitter
 
 
 
@@ -139,4 +135,10 @@ RWOT6 in Santa Barbara, California (March 2018). Contribute to WebOfTrustInfo/rw
 
 Linked Data Capabilities reference implementation. Contribute to digitalbazaar/ocapld.js development by creating an account on GitHub.
 
-[https://avatars2.githubusercontent.com/u/167436?s=400&v=4](https://avatars2.githubusercontent.com/u/167436?s=400&v=4)
+[Mark Miller: Agoric and the Decades-Long Quest for Secure Smart Contracts](https://podcasts.apple.com/us/podcast/epicenter-learn-about-blockchain-ethereum-bitcoin-distributed/id792338939?i=1000437448913)
+
+[Ethereum Object Capabilities](https://ethereum-magicians.org/t/ethereum-object-capabilities/3035)
+  > Reposted from here. As I just presented on the GitCoin live stream. Ethereum Object Capabilities Here I will make the case that Object Capabilities (ocaps) represent a key atomic unit of composition, security, and versatile scalability (both computational and social) that i...
+[https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers.html](https://e-drexler.com/d/09/00/AgoricsPapers/agoricpapers.html)
+[Dan Finlay (@danfinlay)](https://twitter.com/danfinlay/status/1111751961009750017?s=12)
+  > Here's the document I presented today. Let's bring Object Capabilities to Ethereum!: [https://t.co/M9gcORUrtw](https://t.co/M9gcORUrtw) [https://t.co/dJGh27AORA](https://t.co/dJGh27AORA)

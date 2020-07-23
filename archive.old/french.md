@@ -9,7 +9,7 @@
 
 TRADING : LEXIQUE EN FRANCAIS [https://cryptoast.fr/lexique/](https://cryptoast.fr/lexique/)
 
-[Jean](https://cryptoast.fr/author/jean/)
+
 
 [Vocabulaire Bitcoin, crypto et blockchain - Dictionnaire Cryptoast](https://cryptoast.fr/lexique/)
 
@@ -19,7 +19,7 @@ Découvrez notre lexique composé de plus de 100 définitions sur les crypto-mon
 
 ----------------------------------------------------- L'essentiel avant de démarrer ou pour commencer aux cryptomonnaies ,l'histoire du Bitcoin, ce qu'est une cryptomonnaie,un smartcontract ,etc. Auteur : Alexandre Augrain [https://www.frandroid.com/crypto-monnaie/455178_tout-ce-que-vous-devez-savoir-sur-les-crypto-monnaies-bitcoin-ethereum-dao-ico-smart-contracts](https://www.frandroid.com/crypto-monnaie/455178_tout-ce-que-vous-devez-savoir-sur-les-crypto-monnaies-bitcoin-ethereum-dao-ico-smart-contracts)
 
-[Alexandre Augrain](https://www.frandroid.com/author/alexandrea)
+
 
 [Introduction aux crypto-monnaies : Bitcoin, Ethereum, DAO, ICO, sm...](https://www.frandroid.com/crypto-monnaie/455178_tout-ce-que-vous-devez-savoir-sur-les-crypto-monnaies-bitcoin-ethereum-dao-ico-smart-contracts)
 
@@ -28,14 +28,10 @@ La crypto-monnaie pour les nuls Pour ne pas perdre tout le monde, commençons pa
 1
 
 
-
-[https://twitter.com/thebitcoinrabbi/status/1140960384557428736?s=12](https://twitter.com/thebitcoinrabbi/status/1140960384557428736?s=12)
-
-[The Bitcoin Rabbi (@thebitcoinrabbi)](https://twitter.com/thebitcoinrabbi)
+[The Bitcoin Rabbi (@thebitcoinrabbi)](https://twitter.com/thebitcoinrabbi/status/1140960384557428736?s=12)
 
 Maintenant en vente! La Monnaie Bitcoin: L'histoire de Bitville Découvrant la Bonne Monnaie La Monnaie Bitcoin est une histoire pour tous les âges, ce qui permet de répondre à la question: Pourquoi Bitcoin? [https://t.co/9Yp34rxL7x](https://t.co/9Yp34rxL7x)
 
-Twitter
 
 
 

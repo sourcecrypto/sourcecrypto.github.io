@@ -5,7 +5,7 @@
 
 [https://toshitimes.com/cardano-introduces-smart-contracts-for-financial-transactions/](https://toshitimes.com/cardano-introduces-smart-contracts-for-financial-transactions/)
 
-[Lars Nordmark](https://toshitimes.com/author/lars-nordmark/)
+
 
 [Cardano Introduces Smart Contracts For Financial Transactions - To...](https://toshitimes.com/cardano-introduces-smart-contracts-for-financial-transactions/)
 
@@ -56,10 +56,7 @@ To celebrate the first anniversary of the Cardano project, IOHK has created a se
 Distributed Futures is a very significant part of the Long Finance research programme managed by Z/Yen Group.
 
 
-
-[https://twitter.com/IOHK_Charles/status/1056393807854534656](https://twitter.com/IOHK_Charles/status/1056393807854534656)
-
-[Charles Hoskinson (@IOHK_Charles)](https://twitter.com/IOHK_Charles)
+[Charles Hoskinson (@IOHK_Charles)](https://twitter.com/IOHK_Charles/status/1056393807854534656)
 
 Curious about how stake pools work in cardano? How about a six part series on it? [https://t.co/Pr86z1fnpZ](https://t.co/Pr86z1fnpZ) thanks @SebastienGllmt
 
@@ -72,10 +69,7 @@ Curious about how stake pools work in cardano? How about a six part series on it
 34 votes and 1 comment so far on Reddit
 
 
-
-[https://twitter.com/emurgo_io/status/1060137289806946304](https://twitter.com/emurgo_io/status/1060137289806946304)
-
-[EMURGO (@emurgo_io)](https://twitter.com/emurgo_io)
+[EMURGO (@emurgo_io)](https://twitter.com/emurgo_io/status/1060137289806946304)
 
 We are always building new products like @YoroiWallet, but we also want to help the community, specially devs to build their own projects. That’s why today we are open sourcing a Cardano React Native library!!! [https://t.co/61ZicallJt…🎉](https://t.co/61ZicallJt%E2%80%A6%F0%9F%8E%89) Soon more! iOS, Android an...
 

@@ -18,22 +18,15 @@ Perpetually amazed that major crypto firms don't question how Tether and the oth
 A “stablecoin” is an attempt to create a synthetic asset that is “more stable” than its underlying constituents. In this article we prove…
 
 
-
-[https://twitter.com/APompliano/status/1039141601803685891](https://twitter.com/APompliano/status/1039141601803685891)
-
-[Pomp 🌪 (@APompliano)](https://twitter.com/APompliano)
+[Pomp 🌪 (@APompliano)](https://twitter.com/APompliano/status/1039141601803685891)
 
 Winklevoss twins just announced a stablecoin backed by USD. The Ethereum-based token is: - Approved by NY Department of Financial Services - Dollars held in FDIC-insured State Street account - Audited by multiple third-parties at various times The market continues to mat...
 
 
-
-[https://twitter.com/HaileyLennonBTC/status/1039155375952605184](https://twitter.com/HaileyLennonBTC/status/1039155375952605184)
-
-[Hailey Lennon (@HaileyLennonBTC)](https://twitter.com/HaileyLennonBTC)
+[Hailey Lennon (@HaileyLennonBTC)](https://twitter.com/HaileyLennonBTC/status/1039155375952605184)
 
 Today @GeminiDotCom and @itBit @PaxosGlobal independently announced their own launch of a NYDFS approved stable coin. Interesting development and timing! Article via @coindesk Gemini - [https://t.co/St6wXj7aXi…](https://t.co/St6wXj7aXi%E2%80%A6) Paxos - [https://t.co/A1MzVwuuws…](https://t.co/A1MzVwuuws%E2%80%A6)
 
-Twitter
 
 [https://gemini.com/wp-content/themes/gemini/assets/img/dollar/gemini-dollar-trailofbits-audit.pdf](https://gemini.com/wp-content/themes/gemini/assets/img/dollar/gemini-dollar-trailofbits-audit.pdf)
 
@@ -46,14 +39,10 @@ Twitter
 One academic does not buy into the stablecoin trend.
 
 
-
-[https://twitter.com/iamlevelhead/status/1039968903739260928](https://twitter.com/iamlevelhead/status/1039968903739260928)
-
-[levelhead (@iamlevelhead)](https://twitter.com/iamlevelhead)
+[levelhead (@iamlevelhead)](https://twitter.com/iamlevelhead/status/1039968903739260928)
 
 Some stability models briefly explained.
 
-Twitter
 
 
 
@@ -73,7 +62,7 @@ The impact of Tether grants on Bitcoin
 
 [https://modernconsensus.com/cryptocurrencies/tether/noble-funding-cash-tether/](https://modernconsensus.com/cryptocurrencies/tether/noble-funding-cash-tether/)
 
-[Tether's bank said to be 'desperate' for cash | Modern Consensus |...](https://modernconsensus.com/cryptocurrencies/tether/noble-funding-cash-tether)
+[Tether's bank said to be 'desperate' for cash - Modern Consensus -...](https://modernconsensus.com/cryptocurrencies/tether/noble-funding-cash-tether)
 
 Noble may be looking for funding while Tether traders unsuccessfully try to unload large amounts of the coin A Puerto Rico-based startup bank is said to be struggling to survive and that could have repercussions in the cryptocurrency markets. Noble Bank is trying to keep aflo...
 
@@ -81,7 +70,7 @@ Noble may be looking for funding while Tether traders unsuccessfully try to unlo
 
 [https://news.bitcoin.com/study-finds-no-evidence-usdt-price-manipulation/](https://news.bitcoin.com/study-finds-no-evidence-usdt-price-manipulation/)
 
-[Samuel Haig](https://news.bitcoin.com/author/samuelhaig)
+
 
 [Study Finds “No Evidence” of USDT Price Manipulation](https://news.bitcoin.com/study-finds-no-evidence-usdt-price-manipulation)
 
@@ -129,7 +118,7 @@ A lesson in stablecoin arbitrage
 
 [https://www.theblockcrypto.com/tiny/tether-dominance-drops-to-new-3-year-low-as-other-stablecoins-gain-traction/](https://www.theblockcrypto.com/tiny/tether-dominance-drops-to-new-3-year-low-as-other-stablecoins-gain-traction/)
 
-[Larry Cermak](https://www.theblockcrypto.com/author/larry_tb/)
+
 
 [Tether dominance drops to new 3-year low as other stablecoins gain...](https://www.theblockcrypto.com/tiny/tether-dominance-drops-to-new-3-year-low-as-other-stablecoins-gain-traction/)
 
@@ -144,10 +133,7 @@ Tether dominance, or Tether’s percentage of total stablecoin supply in circula
 Whether it’s the infamous Tether, a newer fiat-backed stablecoin, or innovative projects like Maker, almost everyone in the blockchain…
 
 
-
-[https://twitter.com/lawmaster/status/1130891942731091968?s=12](https://twitter.com/lawmaster/status/1130891942731091968?s=12)
-
-[Larry Cermak (@lawmaster)](https://twitter.com/lawmaster)
+[Larry Cermak (@lawmaster)](https://twitter.com/lawmaster/status/1130891942731091968?s=12)
 
 BREAKING: Tether admitted in court that it used some of its reserves to buy Bitcoin. The judge said: "Tether sounded to me like sort of the calm in the storm of cryptocurrency trading. And so if Tether is backed by bitcoin, how is that consistent" [https://t.co/22w3xY8mc8](https://t.co/22w3xY8mc8)
 

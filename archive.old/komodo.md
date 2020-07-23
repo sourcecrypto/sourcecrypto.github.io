@@ -8,7 +8,7 @@
 
 [https://komodoplatform.com/](https://komodoplatform.com/)
 
-[admin](https://komodoplatform.com/author/admin/)
+
 
 [Komodo - An Open, Composable Smart Chain Platform](https://komodoplatform.com/)
 
@@ -16,7 +16,7 @@ Komodo is introducing the industry's first open, composable Smart Chain platform
 
 [https://komodoplatform.com/about-komodo/](https://komodoplatform.com/about-komodo/) **Media** [https://projects.invisionapp.com/dsm/ideas-by-natures/komodo-website](https://projects.invisionapp.com/dsm/ideas-by-natures/komodo-website) [https://komodoplatform.com/wp-content/uploads/2019/07/KMD-Brand-Assets.zip](https://komodoplatform.com/wp-content/uploads/2019/07/KMD-Brand-Assets.zip) [https://komodoplatform.com/wp-content/uploads/2019/07/Komodo_Style_Guide_2019-compressed.pdf](https://komodoplatform.com/wp-content/uploads/2019/07/Komodo_Style_Guide_2019-compressed.pdf)
 
-[admin](https://komodoplatform.com/author/admin/)
+
 
 [About Komodo - Komodo](https://komodoplatform.com/about-komodo/)
 
@@ -34,7 +34,6 @@ Followers
 
 1288
 
-Twitter
 
 [https://twitter.com/KomodoPlatform](https://twitter.com/KomodoPlatform)
 
@@ -50,7 +49,6 @@ Followers
 
 98293
 
-Twitter
 
 
 
@@ -60,7 +58,7 @@ Twitter
 
 [https://komodoplatform.com/security-delayed-proof-of-work-dpow/](https://komodoplatform.com/security-delayed-proof-of-work-dpow/)
 
-[Daniel](https://komodoplatform.com/author/daniel/)
+
 
 [Security: Delayed Proof of Work (dPoW) - Komodo](https://komodoplatform.com/security-delayed-proof-of-work-dpow/)
 
@@ -80,7 +78,7 @@ Documentation for developers building on Komodo
 
 [https://developers.komodoplatform.com/basic-docs/start-here/about-komodo-platform/about-komodo-platform.html](https://developers.komodoplatform.com/basic-docs/start-here/about-komodo-platform/about-komodo-platform.html)
 
-[Komodo Platform Overview | Komodo Documentation](https://developers.komodoplatform.com/basic-docs/start-here/about-komodo-platform/about-komodo-platform.html)
+[Komodo Platform Overview - Komodo Documentation](https://developers.komodoplatform.com/basic-docs/start-here/about-komodo-platform/about-komodo-platform.html)
 
 Documentation for developers building on Komodo
 
@@ -94,7 +92,7 @@ jl777 has 59 repositories available. Follow their code on GitHub.
 
 Komodo Website: [https://komodoplatform.com](https://komodoplatform.com/) Komodo Blockexplorer: [https://kmdexplorer.io](https://kmdexplorer.io/) Komodo Discord: [https://komodoplatform.com/discord](https://komodoplatform.com/discord) Forum: [https://forum.komodoplatform.com](https://forum.komodoplatform.com/)
 
-[admin](https://komodoplatform.com/author/admin/)
+
 
 [Komodo - An Open, Composable Smart Chain Platform](https://komodoplatform.com/)
 
@@ -128,7 +126,7 @@ Komodo is an end-to-end blockchain infrastructure solutions provider. Recognized
 
 [https://komodoplatform.com/18-ways-to-customize-blockchain/](https://komodoplatform.com/18-ways-to-customize-blockchain/)
 
-[Daniel](https://komodoplatform.com/author/daniel/)
+
 
 [18 Ways To Customize Your Purpose-Built Blockchain With Komodo](https://komodoplatform.com/18-ways-to-customize-blockchain/)
 
@@ -136,7 +134,7 @@ Komodo is an open, multi-chain platform that gives every project an independent 
 
 [https://komodoplatform.com/technology/](https://komodoplatform.com/technology/)
 
-[admin](https://komodoplatform.com/author/admin/)
+
 
 [Blockchain Technology & Platform Overview - Komodo](https://komodoplatform.com/technology/)
 
@@ -144,7 +142,7 @@ Komodo is an open, composable Smart Chain platform with industry-leading blockch
 
 [https://coinmarketcap.com/currencies/komodo/](https://coinmarketcap.com/currencies/komodo/)
 
-[Komodo (KMD) price, charts, market cap, and other metrics | CoinMa...](https://coinmarketcap.com/currencies/komodo/)
+[Komodo (KMD) price, charts, market cap, and other metrics - CoinMa...](https://coinmarketcap.com/currencies/komodo/)
 
 Get Komodo price, charts, and other cryptocurrency info
 
@@ -162,7 +160,7 @@ Komodo(KMD) is a cryptocurrency project that focuses on providing anonymity thro
 
 [https://coin360.com/coin/komodo](https://coin360.com/coin/komodo)
 
-[Komodo (KMD) price, market cap | $1.03 | Charts | COIN360](https://coin360.com/coin/komodo)
+[Komodo (KMD) price, market cap - $1.03 - Charts - COIN360](https://coin360.com/coin/komodo)
 
 Komodo (KMD) is a crypto project that aims to build a secure, scalable and interoperable blockchain. The Komodo platform is built on the Zero Knowledge Proof
 
@@ -170,7 +168,7 @@ Komodo (KMD) is a crypto project that aims to build a secure, scalable and inter
 
 [https://www.coindesk.com/crypto-developer-komodo-hacks-wallet-users-to-foil-13-million-hack](https://www.coindesk.com/crypto-developer-komodo-hacks-wallet-users-to-foil-13-million-hack)
 
-[Benedict Alibasa](https://www.coindesk.com/author/benedictcoindesk-com)
+
 
 [Crypto Developer Komodo 'Hacks' Wallet Users to Foil $13 Million T...](https://www.coindesk.com/crypto-developer-komodo-hacks-wallet-users-to-foil-13-million-hack)
 
@@ -200,19 +198,14 @@ Followers
 
 3947
 
-Twitter
-
-[https://twitter.com/KomodoPlatform/status/1156989241290833923?s=20](https://twitter.com/KomodoPlatform/status/1156989241290833923?s=20)
-
-[Komodo (@KomodoPlatform)](https://twitter.com/KomodoPlatform)
+[Komodo (@KomodoPlatform)](https://twitter.com/KomodoPlatform/status/1156989241290833923?s=20)
 
 Have questions about #Komodo? Need a little help with AtomicDEX, the Antara Composer, or $KMD in general? Check out our Support portal for all the info you need. File a support ticket if you need personal assistance from the Komodo Support Team. [https://t.co/1IXCfe1kQq](https://t.co/1IXCfe1kQq)
 
-Twitter
 
 [https://pirate.black/](https://pirate.black/)
 
-[PirateChain (ARRR) | Secure, Private & Anonymous Cryptocurrency](https://pirate.black/)
+[PirateChain (ARRR) - Secure, Private & Anonymous Cryptocurrency](https://pirate.black/)
 
 Pirate Chain (ARRR) is a 100% private send cryptocurrency. It uses a privacy protocol that cannot be compromised by other users activity on the network.
 
@@ -220,7 +213,7 @@ see #🛸-komodore64
 
 [https://komodoworld.blog/2018/11/16/komodoworlds-short-guide-to-komodo/](https://komodoworld.blog/2018/11/16/komodoworlds-short-guide-to-komodo/)
 
-[komodoworld](https://komodoworld.blog/author/kmdworld/)
+
 
 [KomodoWorld’s Short Guide to Komodo](https://komodoworld.blog/2018/11/16/komodoworlds-short-guide-to-komodo/)
 
@@ -231,24 +224,14 @@ Last changes: 16-april-2019Disclaimer: this is my own take on Komodo, the tech i
 [ANN Komodo ICO - Zero Knowledge Privacy Secured by Bitcoin — Steemit](https://steemit.com/iguana/@jl777/ann-komodo-ico-zero-knowledge-privacy-secured-by-bitcoin)
 
 by jl777
-
-[https://twitter.com/KomodoPlatform/status/1150928864727539712?s=20](https://twitter.com/KomodoPlatform/status/1150928864727539712?s=20)
-
-[Komodo (@KomodoPlatform)](https://twitter.com/KomodoPlatform)
+[Komodo (@KomodoPlatform)](https://twitter.com/KomodoPlatform/status/1150928864727539712?s=20)
 
 Today is one of the most exciting days in Komodo's history: 1. Our new logo and our new messaging are live on [https://t.co/Cc8vIGJUaP](https://t.co/Cc8vIGJUaP) 2. The Komodo blockchain and all Smart Chains have been successfully updated at block 1444000.
-
-[https://twitter.com/KomodoPlatform/status/1156263693413429250?s=20](https://twitter.com/KomodoPlatform/status/1156263693413429250?s=20)
-
-[Komodo (@KomodoPlatform)](https://twitter.com/KomodoPlatform)
+[Komodo (@KomodoPlatform)](https://twitter.com/KomodoPlatform/status/1156263693413429250?s=20)
 
 With the Antara Composer, customizing and launching a Smart Chain is as simple as a few clicks of the mouse. Smart Chains are generated in less than 60 seconds once you confirm your configurations and give the final approval. [https://t.co/GEW845DkPr](https://t.co/GEW845DkPr) #KMD #Blockchain
 
-Twitter
-
-[https://twitter.com/KomodoPlatform/status/1155824646278844416?s=20](https://twitter.com/KomodoPlatform/status/1155824646278844416?s=20)
-
-[Komodo (@KomodoPlatform)](https://twitter.com/KomodoPlatform)
+[Komodo (@KomodoPlatform)](https://twitter.com/KomodoPlatform/status/1155824646278844416?s=20)
 
 More than 1000 beta testers have already come together to test one of our new flagship products, the AtomicDEX. Register for the beta and enjoy the benefits of the world's first mobile-native, asset-agnostic atomic swap DEX [https://t.co/x8S0nRoTR3](https://t.co/x8S0nRoTR3) [https://t.co/tXOLTVPC4b](https://t.co/tXOLTVPC4b)
 
@@ -291,14 +274,10 @@ First let me describe the problem that is often encountered by small PoW blockch
 Read writing from jl777 on Medium. [https://github.com/jl777](https://github.com/jl777). Every day, jl777 and thousands of other voices read, write, and share important stories on Medium.
 
 
-
-[https://twitter.com/0xdufeau/status/1099257279495487488?s=20](https://twitter.com/0xdufeau/status/1099257279495487488?s=20)
-
-[🌱Ronyi (@0xdufeau)](https://twitter.com/0xdufeau)
+[🌱Ronyi (@0xdufeau)](https://twitter.com/0xdufeau/status/1099257279495487488?s=20)
 
 [https://t.co/mdE1EtC8bv](https://t.co/mdE1EtC8bv) @RogueChainkmd Komodo Rouge Gameplay Lvl.1-13
 
-Twitter
 
 First Blockchain Game on Komodo ^^^
 
@@ -316,7 +295,7 @@ Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
 
 [https://hacked.com/why-investors-should-pay-attention-to-komodo-kmd/](https://hacked.com/why-investors-should-pay-attention-to-komodo-kmd/)
 
-[Why Investors Should Pay Attention to Komodo (KMD) | Hacked: Hacki...](https://hacked.com/why-investors-should-pay-attention-to-komodo-kmd/)
+[Why Investors Should Pay Attention to Komodo (KMD) - Hacked: Hacki...](https://hacked.com/why-investors-should-pay-attention-to-komodo-kmd/)
 
 The Komodo (KMD) platform can trace its roots back to 2014’s BitcoinDark, before it underwent a fork of the Zcash blockchain, and an eventual coin rebrand in …
 
@@ -324,7 +303,7 @@ The Komodo (KMD) platform can trace its roots back to 2014’s BitcoinDark, befo
 
 [https://komodoplatform.com/komodo-is-introducing-antara-an-end-to-end-smart-chain-development-framework/](https://komodoplatform.com/komodo-is-introducing-antara-an-end-to-end-smart-chain-development-framework/)
 
-[Daniel](https://komodoplatform.com/author/daniel/)
+
 
 [Komodo Is Introducing Antara, An End-to-End Smart Chain Developmen...](https://komodoplatform.com/komodo-is-introducing-antara-an-end-to-end-smart-chain-development-framework/)
 

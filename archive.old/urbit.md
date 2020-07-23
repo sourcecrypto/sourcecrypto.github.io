@@ -5,7 +5,7 @@
 
 [https://www.coindesk.com/urbit-is-moving-its-virtual-server-galaxy-over-to-ethereum](https://www.coindesk.com/urbit-is-moving-its-virtual-server-galaxy-over-to-ethereum) >“Ethereum’s user experience is notorious; its governance is suspect and unstable; its dilution rate is unconscionable; its dev environment is full of bugs and misfeatures; in short, it’s a classic MVP. It has only one real goal: success. It seems to be doing pretty well with that.”
 
-[Rachel Rose O'Leary](https://www.coindesk.com/author/rachelroseoleary)
+
 
 [Urbit Is Moving Its Virtual Server Galaxy Over to Ethereum - CoinDesk](https://www.coindesk.com/urbit-is-moving-its-virtual-server-galaxy-over-to-ethereum)
 
@@ -71,7 +71,6 @@ Followers
 
 8100
 
-Twitter
 
 [Getting Started - Urbit](https://urbit.org/docs/getting-started/)
 

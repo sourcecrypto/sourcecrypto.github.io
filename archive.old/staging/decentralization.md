@@ -2,14 +2,10 @@
 
 
 
-
-[https://twitter.com/SarahJamieLewis/status/1029212002953060352?s=19](https://twitter.com/SarahJamieLewis/status/1029212002953060352?s=19)
-
-[Sarah Jamie Lewis (@SarahJamieLewis)](https://twitter.com/SarahJamieLewis)
+[Sarah Jamie Lewis (@SarahJamieLewis)](https://twitter.com/SarahJamieLewis/status/1029212002953060352?s=19)
 
 Since many of my twitter fights devolve into people saying "but it's actually not centralized tho", let's talk about wtf decentralization actually means. This tweetstorm has background reading. [https://t.co/gX7y7XujhN](https://t.co/gX7y7XujhN)
 
-Twitter
 
 
 
@@ -28,34 +24,23 @@ We outline a small change to the Bitcoin mining protocol that rules out big, pub
 Leading cryptocurrency exchange Binance has released a demo of its decentralized exchange, saying not “to expect too much” at the moment.
 
 
-
-[https://twitter.com/Melt_Dem/status/1031190564639830016](https://twitter.com/Melt_Dem/status/1031190564639830016)
-
-[Meltem Demirors (@Melt_Dem)](https://twitter.com/Melt_Dem)
+[Meltem Demirors (@Melt_Dem)](https://twitter.com/Melt_Dem/status/1031190564639830016)
 
 1/ decentralization is a myth. we use "decentralized" without any specificity as to what that *actually* means. let's untangle the idea of decentralization. i developed a basic grid that breaks it down at the protocol, network, and app layer (dated april 2018)
-
-[https://twitter.com/SarahJamieLewis/status/1031301941664440321](https://twitter.com/SarahJamieLewis/status/1031301941664440321)
-
-[Sarah Jamie Lewis (@SarahJamieLewis)](https://twitter.com/SarahJamieLewis)
+[Sarah Jamie Lewis (@SarahJamieLewis)](https://twitter.com/SarahJamieLewis/status/1031301941664440321)
 
 Me: Federation is a bad model. People: You're against decentralization! Fascist! Me: No, I want *more* decentralization, more equal trust distribution. People: " If ideal social power were perfect equality, we'd be ants."
 
-Twitter
 
 
 
 [https://discord.gg/zkF6aNQ](https://discord.gg/zkF6aNQ)
 
 
-
-[https://twitter.com/nic__carter/status/1008419100136296448](https://twitter.com/nic__carter/status/1008419100136296448)
-
-[nic carter (@nic__carter)](https://twitter.com/nic__carter)
+[nic carter (@nic__carter)](https://twitter.com/nic__carter/status/1008419100136296448)
 
 My thoughts have evolved a bit since this, but the big idea is the same. You have decentralization of validation (“node level”), block formation (“protocol level”), and decision-making and update-management (“political”). Your system isn’t decentralized witho...
 
-Twitter
 
 
 
@@ -66,10 +51,7 @@ Twitter
 Teams aiming to ship cryptographic protocols are facing the problem of attracting top talent to work with them. There is an opportunity to bring together top multidisciplinary talent in a way that is in service of multiple protocol projects.
 
 
-
-[https://twitter.com/sytaylor/status/1026155964481851392](https://twitter.com/sytaylor/status/1026155964481851392)
-
-[Simon Taylor (@sytaylor)](https://twitter.com/sytaylor)
+[Simon Taylor (@sytaylor)](https://twitter.com/sytaylor/status/1026155964481851392)
 
 I wrote a thing
 
@@ -77,13 +59,9 @@ Why I think policy makers don't have to fear decentralised exchanges (the devil 
 
 [https://t.co/1Pi6Mn3Yb4](https://t.co/1Pi6Mn3Yb4)
 
-Twitter
 
 
-
-[https://twitter.com/lopp/status/1028092364559208448](https://twitter.com/lopp/status/1028092364559208448)
-
-[Jameson Lopp (@lopp)](https://twitter.com/lopp)
+[Jameson Lopp (@lopp)](https://twitter.com/lopp/status/1028092364559208448)
 
 Measuring centralization can be an informative academic exercise, but IMO the only way to know if a network is sufficiently decentralized is to attack it. If it can withstand attacks from nation states, it's sufficiently decentralized.
 
@@ -126,10 +104,7 @@ How Bitcoin's inception helps us understand good policy for securities regulatio
 [Resistant protocols: How decentralization evolves – John Backus ...](https://medium.com/@jbackus/resistant-protocols-how-decentralization-evolves-2f9538832ada)
 
 Decentralization is tough: Too little? You're dead. Too much? Unusable. We can learn a lot from the evolution of p2p file sharing
-
-[https://twitter.com/backus/status/1039701785789620224](https://twitter.com/backus/status/1039701785789620224)
-
-[John Backus (@backus)](https://twitter.com/backus)
+[John Backus (@backus)](https://twitter.com/backus/status/1039701785789620224)
 
 Interested in decentralization today? Learn what worked in the 2000s for p2p file sharing:
 
@@ -151,7 +126,7 @@ Contribute to infominer33/Crypto-library development by creating an account on G
 
 [Blockstack](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ)
 
-[Misthos: Decentralizing your cash flow | Decentralizing the World ...](https://youtu.be/e0YX6ovMoCk)
+[Misthos: Decentralizing your cash flow - Decentralizing the World ...](https://youtu.be/e0YX6ovMoCk)
 
 Blockstack Decentralizing the World Tour event in London, October 1, 2018 with Justin Carter, Founder, Misthos. [https://community.blockstack.org/dwt-tour-lon](https://community.blockstack.org/dwt-tour-lon)...
 
@@ -174,14 +149,10 @@ In this fascinating and compelling panel on Why Decentralization Matters at the 
 If the name of Andy Weir does not sound outright familiar, then the movie “The Martian” will. Andy Weir is the novelist who wrote the book…
 
 
-
-[https://twitter.com/udiWertheimer/status/1049797657118543875](https://twitter.com/udiWertheimer/status/1049797657118543875)
-
-[Udi Wertheimer 🔨 [#reckless] (@udiWertheimer)](https://twitter.com/udiWertheimer)
+[Udi Wertheimer 🔨 [#reckless] (@udiWertheimer)](https://twitter.com/udiWertheimer/status/1049797657118543875)
 
 This is obviously true. Complete decentralization and censorship resistance isn’t necessary for most “dApps”, because most dApps are just colorful landing pages and science fiction novels affectionately named “white papers
 
-Twitter
 
 despite the snark, everything doesn't need to be decentralized
 
@@ -204,10 +175,7 @@ A history of disintermediation and its cousin, decentralization
 [gdamdam/awesome-decentralized-web](https://github.com/gdamdam/awesome-decentralized-web)
 
 an awesome list of decentralized services. Contribute to gdamdam/awesome-decentralized-web development by creating an account on GitHub.
-
-[https://twitter.com/cburniske/status/1058382995751690240](https://twitter.com/cburniske/status/1058382995751690240)
-
-[Chris Burniske (@cburniske)](https://twitter.com/cburniske)
+[Chris Burniske (@cburniske)](https://twitter.com/cburniske/status/1058382995751690240)
 
 1/ Going to expand on "centralized apps atop decentralized protocols" more, as the idea has incited healthy debate + I want to emphasize that the short-to-medium term architecture (as crypto bootstraps to the mainstream), will be very different from the end-game. https://...
 
@@ -220,48 +188,29 @@ an awesome list of decentralized services. Contribute to gdamdam/awesome-decentr
 Crypto networks are supposed to be decentralized. As Balaji Srinivasan, CTO of Coinbase, has written, decentralization can be measured in a number of dimensions. One of the most important but least discussed measures of decentralization is the distribution of tokens, or in ot...
 
 
-
-[https://twitter.com/SarahJamieLewis/status/1066819785869033480](https://twitter.com/SarahJamieLewis/status/1066819785869033480)
-
-[Sarah Jamie Lewis (@SarahJamieLewis)](https://twitter.com/SarahJamieLewis)
+[Sarah Jamie Lewis (@SarahJamieLewis)](https://twitter.com/SarahJamieLewis/status/1066819785869033480)
 
 "A flock isn't a big bird - [in decentralized and self organizing systems] it is important not to confuse levels. Often, people confuse the behaviors of individuals and the behaviors of groups" - Turtles, Termites and Traffic Jams
 
-Twitter
 
 
-
-[https://twitter.com/SarahJamieLewis/status/1066892475141255168](https://twitter.com/SarahJamieLewis/status/1066892475141255168)
-
-[Sarah Jamie Lewis (@SarahJamieLewis)](https://twitter.com/SarahJamieLewis)
+[Sarah Jamie Lewis (@SarahJamieLewis)](https://twitter.com/SarahJamieLewis/status/1066892475141255168)
 
 Some reading for the start of your week. "The Organization of Work in Social Insect Colonies" & "From division of labor to the collective behavior of social insects" The questions we ask impact our observations & conclusions. [https://t.co/8CIiw4Sq4m](https://t.co/8CIiw4Sq4m) [https://t.co/QD66](https://t.co/QD66)...
 
-Twitter
 
 
-
-[https://twitter.com/bravenewcoin/status/1072828433711927297](https://twitter.com/bravenewcoin/status/1072828433711927297)
-
-[Brave New Coin (@bravenewcoin)](https://twitter.com/bravenewcoin)
+[Brave New Coin (@bravenewcoin)](https://twitter.com/bravenewcoin/status/1072828433711927297)
 
 Open source decentralization: The crypto community is realizing, true decentralization might require a degree of anonymity, or a way of collectively sharing the responsibility for #DEX development #BNC #Insights [https://t.co/FMecovAGgr](https://t.co/FMecovAGgr)
 
-Twitter
 
 
-
-[https://twitter.com/backus/status/1073353457858301952](https://twitter.com/backus/status/1073353457858301952)
-
-[John Backus (@backus)](https://twitter.com/backus)
+[John Backus (@backus)](https://twitter.com/backus/status/1073353457858301952)
 
 @0xProject @HyszSkies @abandeali1 @burnsbend @mattytay Thanks again for having me! The talk was a random walk through these posts: • Validating @usv’s fat protocol thesis: [https://t.co/Hh8TkamJMN](https://t.co/Hh8TkamJMN) • How decentralization evolves: [https://t.co/OhfhcBkbw5](https://t.co/OhfhcBkbw5) • Ugly duckl...
 
-Twitter
-
-[https://twitter.com/lwsnbaker/status/1073421922149396480](https://twitter.com/lwsnbaker/status/1073421922149396480)
-
-[lawson baker : 88发 babafa (@lwsnbaker)](https://twitter.com/lwsnbaker)
+[lawson baker : 88发 babafa (@lwsnbaker)](https://twitter.com/lwsnbaker/status/1073421922149396480)
 
 :: 2019 :: : the year anonymous developers return to the cryptocurrency revolution with vengeance. It’s going to be beautiful.
 
@@ -272,10 +221,7 @@ Twitter
 [redecentralize/alternative-internet](https://github.com/redecentralize/alternative-internet)
 
 A collection of interesting new networks and tech aiming at decentralisation (in some form). - redecentralize/alternative-internet
-
-[https://twitter.com/kate_sills/status/924728954178564097?s=12](https://twitter.com/kate_sills/status/924728954178564097?s=12)
-
-[Kate Sills (@kate_sills)](https://twitter.com/kate_sills)
+[Kate Sills (@kate_sills)](https://twitter.com/kate_sills/status/924728954178564097?s=12)
 
 I had known that ancient greeks used random selection (sortition) to elect people to political office, but I was curious how they did it 1/
 
