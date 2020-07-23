@@ -14,27 +14,20 @@ Source⧉Crypto
 
 [https://blog.z.cash/new-release-2-0-0/](https://blog.z.cash/new-release-2-0-0/)
 
-[Sean Bowe](https://blog.z.cash/author/sean-bowe/)
+
 
 [New Release: 2.0.0 – Zcash Blog](https://blog.z.cash/new-release-2-0-0/)
 
 We’re happy to announce the release of Zcash 2.0.0, the first Sapling-compatible version of the Zcash node software! Sapling Activation …
 
 
-
-[https://twitter.com/devilscompiler/status/1037569332555857920](https://twitter.com/devilscompiler/status/1037569332555857920)
-
-[Noah Ruderman ⚡ (@devilscompiler)](https://twitter.com/devilscompiler)
+[Noah Ruderman ⚡ (@devilscompiler)](https://twitter.com/devilscompiler/status/1037569332555857920)
 
 This doesn't get mentioned often, but #zcash is in a super weird position. They cannot afford for ppl to actually use zcash to protect their privacy from govt right now. It's for their safety, their investors $, and to allow them to continue working on zcash. [https://t.co/](https://t.co/)...
 
-Twitter
 
 
-
-[https://twitter.com/peterktodd/status/1045210959407706112](https://twitter.com/peterktodd/status/1045210959407706112)
-
-[Peter Todd (@peterktodd)](https://twitter.com/peterktodd)
+[Peter Todd (@peterktodd)](https://twitter.com/peterktodd/status/1045210959407706112)
 
 There's been some claims made recently that a compromise of the Zcash trusted setup can't compromise privacy. I checked with one of the cryptographers working on zk-SNARKs, and these claims are false. A compromised MPC absolutely can wreck privacy; Zooko needs to correct...
 
@@ -50,7 +43,7 @@ Zcash’s next major upgrade, codenamed Sapling, will be activated later this ye
 
 [https://z.cash/technology/zksnarks/](https://z.cash/technology/zksnarks/)
 
-[What are zk-SNARKs? | Zcash](https://z.cash/technology/zksnarks)
+[What are zk-SNARKs? - Zcash](https://z.cash/technology/zksnarks)
 
 zk-SNARKs are a novel form of zero-knowledge cryptography which allow for private Zcash transactions. These transactions can be fully encrypted on the blockchain, yet still be verified by zK-SNARKs as valid under the network’s consensus rules.
 
@@ -63,10 +56,7 @@ zk-SNARKs are a novel form of zero-knowledge cryptography which allow for privat
 Now that Sapling has activated and active work on ecosystem adoption is underway, we’ve begun early planning for our next protocol upgrade, codenamed Zcash Blossom. Upgrade Development Process A lot of my personal effort in planning for this upgrade has been initially focu...
 
 
-
-[https://twitter.com/peterktodd/status/1062526564133363712](https://twitter.com/peterktodd/status/1062526564133363712)
-
-[Peter Todd (@peterktodd)](https://twitter.com/peterktodd)
+[Peter Todd (@peterktodd)](https://twitter.com/peterktodd/status/1062526564133363712)
 
 Message I got from Zooko re: their efforts to recover the missing Zcash trusted setup ceremony transcript. Given there is a chance at a market moving hundreds of millions of dollars screw up, I don't want to be in possession of any insider info. So I'm making this transpa...
 
@@ -98,7 +88,7 @@ I do have issues with the original zcash ceremony Namely because a whole 6 peopl
 
 [https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/](https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/)
 
-[Rachel Rose O'Leary](https://www.coindesk.com/author/rachelroseoleary)
+
 
 [The Code for an Anonymous Lightning Network is Now Live - CoinDesk](https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/)
 
@@ -111,32 +101,24 @@ A private version of the crypto protocol lightning network is headed to zcash, w
 [The HUSH Review with Duke Leto](https://www.humanaction.io/blogs/news/the-hush-review-with-duke-leto)
 
 
-
-[https://twitter.com/zooko/status/1158811030673219586?s=12](https://twitter.com/zooko/status/1158811030673219586?s=12)
-
-[zooko (@zooko)](https://twitter.com/zooko)
+[zooko (@zooko)](https://twitter.com/zooko/status/1158811030673219586?s=12)
 
 It's a widespread mistake to think that the Zcash Founders Reward or a possible future Dev Fund results in higher sell pressure on the coin compared to sending 100% of the coins to miners. Here's my post on reddit about this in response to a comment: [https://t.co/UbGSocfl0s](https://t.co/UbGSocfl0s)
 
-Twitter
 
 1
 
 
-
-[https://twitter.com/udiWertheimer/status/1158998721113313280?s=20](https://twitter.com/udiWertheimer/status/1158998721113313280?s=20)
-
-[Udi Wertheimer (@udiWertheimer)](https://twitter.com/udiWertheimer)
+[Udi Wertheimer (@udiWertheimer)](https://twitter.com/udiWertheimer/status/1158998721113313280?s=20)
 
 @sonyasupposedly @nic__carter 1/ It’s a sticky situation. On the surface level, one would say that “dev fund bad”, while on the other hand I see no way for ZEC to stay above water in current state without the high-pay team currently helping to maintain it. But it’...
 
-Twitter
 
 
 
 [https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/](https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/)
 
-[Rachel Rose O'Leary](https://www.coindesk.com/author/rachelroseoleary)
+
 
 [The Code for an Anonymous Lightning Network is Now Live - CoinDesk](https://www.coindesk.com/the-code-for-an-anonymous-lightning-network-is-now-live/)
 

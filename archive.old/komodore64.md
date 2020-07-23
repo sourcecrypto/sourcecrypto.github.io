@@ -11,7 +11,7 @@ Komodore64 is a Dutch video game company creating the next level entertainment e
 
 [https://expo.komodore64.com/](https://expo.komodore64.com/)
 
-[Marius](https://expo.komodore64.com/author/marius/)
+
 
 [Komodore64.com](https://expo.komodore64.com/)
 
@@ -31,7 +31,6 @@ Followers
 
 1067
 
-Twitter
 
 [https://medium.com/@cblackbeard/komodore64-a-new-era-for-blockchain-gaming-8baf361c9d43](https://medium.com/@cblackbeard/komodore64-a-new-era-for-blockchain-gaming-8baf361c9d43)
 
@@ -41,7 +40,7 @@ An interview with Sam — Co-Founder & Lead Developer
 
 [http://www.thedailychain.com/blog/komodore64-gaming-on-blockchain-komodo-platform-redfox-labs/](http://www.thedailychain.com/blog/komodore64-gaming-on-blockchain-komodo-platform-redfox-labs/)
 
-[Alex Libertas](http://www.thedailychain.com/blog/author/admin/)
+
 
 [Komodore64 Gaming on Blockchain Komodo Platform RedFOX Labs](http://www.thedailychain.com/blog/komodore64-gaming-on-blockchain-komodo-platform-redfox-labs/)
 

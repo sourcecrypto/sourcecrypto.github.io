@@ -1,37 +1,15 @@
+---
+redirect_from:
+  - /archive/entertainment/social/
+---
 # 🛸-social
 
 
-
-6 messages
-
-
-
-[https://peepeth.com/_](https://peepeth.com/_)
-
-[Blockchain-powered microblogging with a soul.](https://peepeth.com/_)
-
-A fun and easy-to-use microblogging app whose data lives on the blockchain (not controlled by any corporation or government).
-
-
-
-[http://afari.io](http://afari.io/)
-
-The social network that gives you more Data privacy. Censorship Resistance. Content monetization.
-
-
-
-[https://github.com/tleb/awesome-mastodon#readme](https://github.com/tleb/awesome-mastodon#readme)
-
-[tleb/awesome-mastodon](https://github.com/tleb/awesome-mastodon)
-
-Curated list of awesome Mastodon-related stuff! Contribute to tleb/awesome-mastodon development by creating an account on GitHub.
-
-[https://twitter.com/getongab/status/1140306182722093058?s=12](https://twitter.com/getongab/status/1140306182722093058?s=12)
-
-[Gab.com (@getongab)](https://twitter.com/getongab)
-
-They banned us from Paypal, Stripe, Square, Coinbase, Bitpay, and more. They blacklisted us. So we became a bitcoin-first business. We introduced bitcoin to nearly a million users in January. You can't shut down our @BtcpayServer. Who is laughing now?
-
-
-
-[https://uploads-ssl.webflow.com/5da60cd62844b9ab0502a98d/5db6c5ce5613b17b4d07adbb_VisionPaper_ENG.pdf](https://uploads-ssl.webflow.com/5da60cd62844b9ab0502a98d/5db6c5ce5613b17b4d07adbb_VisionPaper_ENG.pdf)
+* [Blockchain-powered microblogging with a soul.](https://peepeth.com/_)
+  > A fun and easy-to-use microblogging app whose data lives on the blockchain (not controlled by any corporation or government).
+* [http://afari.io](http://afari.io/)
+  > The social network that gives you more Data privacy. Censorship Resistance. Content monetization.
+* [tleb/awesome-mastodon](https://github.com/tleb/awesome-mastodon)
+  > Curated list of awesome Mastodon-related stuff! Contribute to tleb/awesome-mastodon development by creating an account on GitHub.
+* [Gab.com (@getongab)](https://twitter.com/getongab/status/1140306182722093058?s=12)
+  > They banned us from Paypal, Stripe, Square, Coinbase, Bitpay, and more. They blacklisted us. So we became a bitcoin-first business. We introduced bitcoin to nearly a million users in January. You can't shut down our @BtcpayServer. Who is laughing now?

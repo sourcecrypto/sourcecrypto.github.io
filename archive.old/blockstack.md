@@ -2,16 +2,13 @@
 
 
 
-
-[https://twitter.com/muneeb/status/1149091053024231424?s=12](https://twitter.com/muneeb/status/1149091053024231424?s=12)
-
-[Muneeb Ali (@muneeb)](https://twitter.com/muneeb)
+[Muneeb Ali (@muneeb)](https://twitter.com/muneeb/status/1149091053024231424?s=12
 
 BREAKING: Blockstack received SEC qualification; first-ever SEC-qualified token offering in US history. [https://t.co/IbbodLCLgS](https://t.co/IbbodLCLgS)
 
 
 
-Launch HN: Stacks (YC S14) – The first SEC-qualified crypto token offering | Hacker News [https://news.ycombinator.com/item?id=20413420](https://news.ycombinator.com/item?id=20413420)
+Launch HN: Stacks (YC S14) – The first SEC-qualified crypto token offering - Hacker News [https://news.ycombinator.com/item?id=20413420](https://news.ycombinator.com/item?id=20413420)
 
 muneeb
 
@@ -44,14 +41,10 @@ particularly the hackernews thread I enjoyed, just above the clarity post
 created by tautvilas, powered by dpage
 
 
-
-[https://twitter.com/bitcoinerrorlog/status/1152882754616532992?s=12](https://twitter.com/bitcoinerrorlog/status/1152882754616532992?s=12)
-
-[John Carvalho (@BitcoinErrorLog)](https://twitter.com/BitcoinErrorLog)
+[John Carvalho (@BitcoinErrorLog)](https://twitter.com/bitcoinerrorlog/status/1152882754616532992?s=12)
 
 @Cypherm0nk wins with his coverage here: [https://t.co/ULXMMGLP6N](https://t.co/ULXMMGLP6N) He mentioned wanting to donate to the amount, so I await his decision. [https://t.co/I6Sf8mdtgx](https://t.co/I6Sf8mdtgx)
 
-Twitter
 
 
 
@@ -69,7 +62,7 @@ The Blockstack Browser. Contribute to blockstack/blockstack-browser development 
 
 [https://www.theblockcrypto.com/2019/08/22/japanese-internet-giant-recruit-holdings-makes-strategic-investment-in-blockstack/?utm_source=newsletter&utm_medium=email&utm_campaign=2019-08-22](https://www.theblockcrypto.com/2019/08/22/japanese-internet-giant-recruit-holdings-makes-strategic-investment-in-blockstack/?utm_source=newsletter&utm_medium=email&utm_campaign=2019-08-22)
 
-[Steven Zheng](https://www.theblockcrypto.com/author/steven_tb/)
+
 
 [Japanese internet giant Recruit Holdings makes strategic investmen...](https://www.theblockcrypto.com/2019/08/22/japanese-internet-giant-recruit-holdings-makes-strategic-investment-in-blockstack/?utm_source=newsletter&utm_medium=email&utm_campaign=2019-08-22)
 

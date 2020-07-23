@@ -5,9 +5,9 @@
 
 [https://www.novatostradingclub.com/analisis-tecnico/como-interpretar-el-volumen/?nabe=5623727743303680%3A1](https://www.novatostradingclub.com/analisis-tecnico/como-interpretar-el-volumen/?nabe=5623727743303680%253A1)
 
-[Uxío Fraga](https://www.novatostradingclub.com/author/admin/)
 
-[Cómo interpretar el volumen (Guía completa) | Novatos Trading Club](https://www.novatostradingclub.com/analisis-tecnico/como-interpretar-el-volumen/?nabe=5623727743303680%3A1)
+
+[Cómo interpretar el volumen (Guía completa) - Novatos Trading Club](https://www.novatostradingclub.com/analisis-tecnico/como-interpretar-el-volumen/?nabe=5623727743303680%3A1)
 
 Descifra el volumen de tus gráficos y da el salto de calidad que siempre has querido
 
@@ -18,10 +18,7 @@ Descifra el volumen de tus gráficos y da el salto de calidad que siempre has qu
 Bienvenido a nuestra página donde podrás conocer más a fondo los temas relacionados con trading en criptomonedas, trading en acciones, trading deportivo, forex etc.
 
 
-
-[https://twitter.com/Mounia_NL/status/1004262532201230336](https://twitter.com/Mounia_NL/status/1004262532201230336)
-
-[Mounia Rabhi, MSc. 🇳🇱 🇲🇦 (@Mounia_NL)](https://twitter.com/Mounia_NL)
+[Mounia Rabhi, MSc. 🇳🇱 🇲🇦 (@Mounia_NL)](https://twitter.com/Mounia_NL/status/1004262532201230336)
 
 @MC2001990 Literature
 
@@ -35,7 +32,6 @@ Bitcoin whitepaper in Dutch
 
 Richard D. Wyckoff: How I Trade and Invest in Stocks and Bonds (thank you @RandyMcMillan for this great source!) https:...
 
-Twitter
 
 
 
@@ -118,15 +114,10 @@ Mastering Bitcoin 2nd Edition 精通比特币（第二版）-- 区块链编程. 
 [tonycai/The-Journal-of-Blockchain](https://github.com/tonycai/The-Journal-of-Blockchain)
 
 区块链自媒体、专注区块链技术学习和实践、IPFS/Filecoin、Bitcoin、Ethereum、EOS、Cosmos、区块链、白皮书、Coinmarketcap、Coindesk、Safe Network、Telegram、Docker、社会治理、经济激励 - tonycai/The-Journal-of-Blockchain
-
-[https://twitter.com/AaronvanW/status/1164990385132843008?s=20](https://twitter.com/AaronvanW/status/1164990385132843008?s=20)
-
-[Aaron van Wirdum (@AaronvanW)](https://twitter.com/AaronvanW)
+[Aaron van Wirdum (@AaronvanW)](https://twitter.com/AaronvanW/status/1164990385132843008?s=20)
 
 It's 2019 and everyone has a podcast. Here's ours! With @GKBoris and @JWBurgers. Only for Dutch language maximalists. (Some more links below
 
 )
 
 [https://t.co/ywhBJt2Ksv](https://t.co/ywhBJt2Ksv)
-
-Twitter

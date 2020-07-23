@@ -27,7 +27,7 @@ Bitcoin, Ethereum and Blockchain News
 
 News Aggregators [https://coinhooked.com/cryptocurrency-news/](https://coinhooked.com/cryptocurrency-news/) [http://bitcoinagile.com/](http://bitcoinagile.com/) [https://coinspectator.com/](https://coinspectator.com/) [https://www.geekwrapped.com/cryptocurrency](https://www.geekwrapped.com/cryptocurrency)
 
-[coinhooked](https://coinhooked.com/author/coinhooked/)
+
 
 [Cryptocurrency News - Coin Hooked - Cryptocurrency News](https://coinhooked.com/cryptocurrency-news/)
 
@@ -39,7 +39,7 @@ BitcoinAgile.com - Real-Time Market Data and News Discovery Paltform.
 
 Monitor the latest cryptocurrency news with our real-time aggregator bringing you the top crypto news today in one simple feed 24/7
 
-[Cryptocurrency News, Charts, Prices, SubReddits, Rates | Live](https://www.geekwrapped.com/cryptocurrency)
+[Cryptocurrency News, Charts, Prices, SubReddits, Rates - Live](https://www.geekwrapped.com/cryptocurrency)
 
 Get all your crypto updates in one place! Live aggregation for leading coins like Bitcoin, Ethereum, Monero, Dash, Ripple, NEM, Litecoin, Steem & more.
 

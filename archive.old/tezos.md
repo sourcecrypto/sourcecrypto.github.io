@@ -7,7 +7,7 @@
 
 [https://medium.com/figment-capital/announcing-tezos-batch-payments-3f99ad806500](https://medium.com/figment-capital/announcing-tezos-batch-payments-3f99ad806500)
 
-[Announcing Tezos Batch Payments! – Figment Capital | Figment Net...](https://medium.com/figment-capital/announcing-tezos-batch-payments-3f99ad806500)
+[Announcing Tezos Batch Payments! – Figment Capital - Figment Net...](https://medium.com/figment-capital/announcing-tezos-batch-payments-3f99ad806500)
 
 To our fellow bakers, we have some exciting news! For the past few months, we at Figment have worked hard to set up a secure and scalable…
 
@@ -43,4 +43,3 @@ Contribute to tacoinfra/developers.tezos.com development by creating an account 
 
 Mirror of the release branches for Tezos, a self-amending cryptographic ledger - tezos/tezos
 
-[https://avatars0.githubusercontent.com/u/21209817?s=400&v=4](https://avatars0.githubusercontent.com/u/21209817?s=400&v=4)

@@ -1,15 +1,14 @@
+---
+  - "/archive/blockchain/banking/ripple/"
+---
+
 # 🏦-ripple
 
 
 
 
-[https://twitter.com/haydentiff/status/1028003035912568832](https://twitter.com/haydentiff/status/1028003035912568832)
-
-[Tiffany Hayden ⚡️ (@haydentiff)](https://twitter.com/haydentiff)
-
+[Tiffany Hayden (@haydentiff)](https://twitter.com/haydentiff/status/1028003035912568832?s=19)
 @Wolfsburg1977 It’s the title of @BrettKing’s book. (FWIW, these are very good books for $XRP supporters. They helped me understand @Ripple’s mission better.) Bank 3.0: Why Banking Is No Longer Somewhere You Go But Something You Do [https://t.co/kwGEW9XNDP](https://t.co/kwGEW9XNDP)
-
-Twitter
 
 
 
@@ -103,7 +102,7 @@ The digital payments processing system and the company behind XRP, Ripple is upg
 
 [https://prestonbyrne.com/2018/09/20/for-the-last-time-ripple-created-xrp/](https://prestonbyrne.com/2018/09/20/for-the-last-time-ripple-created-xrp/)
 
-[prestonbyrne](https://prestonbyrne.com/author/prestonbyrne/)
+
 
 [For the last time, Ripple Labs created XRP](https://prestonbyrne.com/2018/09/20/for-the-last-time-ripple-created-xrp/)
 
@@ -125,7 +124,7 @@ From the time I first started writing about XRP and Ripple, one of my to-do item
 
 [https://observer.com/2015/02/the-race-to-replace-bitcoin/](https://observer.com/2015/02/the-race-to-replace-bitcoin/)
 
-[dispatches](https://observer.com/author/observerdispatches/)
+
 
 [The Race to Replace Bitcoin](https://observer.com/2015/02/the-race-to-replace-bitcoin/)
 
@@ -135,7 +134,7 @@ An epic battle between two bitcoin 2.0 contenders grips the crypto world
 
 [https://ambcrypto.com/ripple-and-xrp-the-convoluted-truth-behind-xrps-creation/](https://ambcrypto.com/ripple-and-xrp-the-convoluted-truth-behind-xrps-creation/)
 
-[Akash Girimath](https://ambcrypto.com/author/akash-girimath/)
+
 
 [Ripple and XRP: The convoluted truth behind XRP’s creation](https://ambcrypto.com/ripple-and-xrp-the-convoluted-truth-behind-xrps-creation/)
 
@@ -171,7 +170,7 @@ Ripple is a real-time gross settlement system, currency exchange and remittance 
 
 [http://www.tr0lly.com/ripple/ripples-200-institutional-clients-claim-is-a-scam/](http://www.tr0lly.com/ripple/ripples-200-institutional-clients-claim-is-a-scam/)
 
-[Trolly McTrollface](http://www.tr0lly.com/author/admin/)
+
 
 [Ripple's "200+ Institutional Clients" Claim Is A Scam - Trolly McT...](http://www.tr0lly.com/ripple/ripples-200-institutional-clients-claim-is-a-scam/)
 
@@ -188,10 +187,7 @@ Swift is showing more swagger in its rivalry with Ripple thanks to progress it h
 [https://assets.sourcemedia.com/dims4/default/6561ffd/2147483647/thumbnail/560x300%3E/quality/90/?url=https%3A%2F%2Fassets.sourcemedia.com%2F6c%2Ff7%2F59c369fa4f61a42d721bb69ba9b4%2Fab-swift-020619.jpeg](https://assets.sourcemedia.com/dims4/default/6561ffd/2147483647/thumbnail/560x300%3E/quality/90/?url=https%3A%2F%2Fassets.sourcemedia.com%2F6c%2Ff7%2F59c369fa4f61a42d721bb69ba9b4%2Fab-swift-020619.jpeg)
 
 
-
-[https://twitter.com/Tr0llyTr0llFace/status/1092438085718212608](https://twitter.com/Tr0llyTr0llFace/status/1092438085718212608)
-
-[Trolly McTrollface (@Tr0llyTr0llFace)](https://twitter.com/Tr0llyTr0llFace)
+[Trolly McTrollface (@Tr0llyTr0llFace)](https://twitter.com/Tr0llyTr0llFace/status/1092438085718212608
 
 "Passionate about coding and the inner workings of a technology he himself invented, he doesn't care that this technology serves no practical purpose. Like all programmers, he likes to write code for the sake of it, and talk about the code he wrote." [https://t.co/TTycTy3rmH](https://t.co/TTycTy3rmH)
 
@@ -208,21 +204,12 @@ Swift is showing more swagger in its rivalry with Ripple thanks to progress it h
 Dissecting a key (Twitter) account from the XRP Army
 
 
-
-[https://twitter.com/cryptoqf/status/1123784404546019329?s=12](https://twitter.com/cryptoqf/status/1123784404546019329?s=12)
-
-[Crypto Quantamental (@CryptoQF)](https://twitter.com/CryptoQF)
+[Crypto Quantamental (@CryptoQF)](https://twitter.com/cryptoqf/status/1123784404546019329?s=12
 
 Good read if you want to learn about XRP and Ripple. There are a few things I would disagree with but it’s a fair start for a newbie to understand XRP and Ripple [https://t.co/ewaSUP6S3I](https://t.co/ewaSUP6S3I)
 
-Twitter
 
 
-
-[https://twitter.com/siamakmasnavi/status/1140898931561377792?s=12](https://twitter.com/siamakmasnavi/status/1140898931561377792?s=12)
-
-[Siamak Masnavi (@siamakmasnavi)](https://twitter.com/siamakmasnavi)
+[Siamak Masnavi (@siamakmasnavi)](https://twitter.com/siamakmasnavi/status/1140898931561377792?s=12
 
 Huge Milestone for Ripple: MoneyGram to Use XRP-Based xRapid for Cross-Border Payments @cryptocompare @JoelKatz #Ripple #FinTech #remittance #MoneyGram #XRP #xRapid #DLT #blockchain #cryptocurrency #cryptoasset $XRP [https://t.co/59TpfVn87D](https://t.co/59TpfVn87D)
-
-Twitter

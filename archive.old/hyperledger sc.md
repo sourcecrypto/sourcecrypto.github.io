@@ -84,7 +84,7 @@ Hyperledger Burrow. Contribute to hyperledger/burrow development by creating an 
 
 [https://opensourceforu.com/2018/08/hyperledger-iroha-a-blockchain-framework-for-mobile-apps/](https://opensourceforu.com/2018/08/hyperledger-iroha-a-blockchain-framework-for-mobile-apps/)
 
-[Swapnil Kulkarni](https://opensourceforu.com/author/swapnil-kulkarni)
+
 
 [Hyperledger Iroha: A Blockchain Framework for Mobile Apps](https://opensourceforu.com/2018/08/hyperledger-iroha-a-blockchain-framework-for-mobile-apps)
 
@@ -98,7 +98,7 @@ This article focuses enthusiasts with an interest in blockchain technology, and 
 
 [https://www.ernesto.net/hyperledger-sawtooth-transaction-flow/](https://www.ernesto.net/hyperledger-sawtooth-transaction-flow/)
 
-[Hyperledger Sawtooth Transaction Flow | Ernesto](https://www.ernesto.net/hyperledger-sawtooth-transaction-flow)
+[Hyperledger Sawtooth Transaction Flow - Ernesto](https://www.ernesto.net/hyperledger-sawtooth-transaction-flow)
 
 Hyperledger Sawtooth is a private blockchain that can process thousands of transactions per second. It is the latest blockchain project to come out of The Linux Foundation and achieve 1.0 status. BlockchainTrainingAlliance.com and lead instructor Ernesto.Net offer Sawtooth tr...
 
@@ -112,9 +112,9 @@ The 7 steps of a transaction in a HyperLedger Fabric Blockchain as explained by 
 
 [https://www.ernesto.net/hyperledger-sawtooth/](https://www.ernesto.net/hyperledger-sawtooth/)
 
-[Ernesto Lee](https://www.ernesto.net/author/ernestodotnet)
 
-[HyperLedger Sawtooth - ernesto.net | Ernesto](https://www.ernesto.net/hyperledger-sawtooth)
+
+[HyperLedger Sawtooth - ernesto.net - Ernesto](https://www.ernesto.net/hyperledger-sawtooth)
 
 The development of Hyperledger Sawtooth began in 2014 at Intel Labs. Ever since then, a number of several companies have come on board. The platform was designed for enterprise us and allows scalability and modularity.
 
@@ -128,7 +128,7 @@ The development of Hyperledger Sawtooth began in 2014 at Intel Labs. Ever since 
 
 [https://www.coindesk.com/tensions-emerge-between-hyperledger-blockchains-biggest-supporters](https://www.coindesk.com/tensions-emerge-between-hyperledger-blockchains-biggest-supporters)
 
-[Ian Allison](https://www.coindesk.com/author/ianallison)
+
 
 [Tensions Emerge Between Hyperledger Blockchain Group's Biggest Sup...](https://www.coindesk.com/tensions-emerge-between-hyperledger-blockchains-biggest-supporters)
 
@@ -154,23 +154,24 @@ Today we are excited to announce our newest project, Hyperledger Transact. Trans
 
 [https://docs.corda.net/tutorials-index.html](https://docs.corda.net/tutorials-index.html) [https://hyperledger-fabric.readthedocs.io/en/release-1.2/](https://hyperledger-fabric.readthedocs.io/en/release-1.2/) [https://sawtooth.hyperledger.org/docs/core/releases/latest/introduction.html](https://sawtooth.hyperledger.org/docs/core/releases/latest/introduction.html) [https://gendal.me/2016/04/05/introducing-r3-corda-a-distributed-ledger-designed-for-financial-services/](https://gendal.me/2016/04/05/introducing-r3-corda-a-distributed-ledger-designed-for-financial-services/)
 
-[gendal](https://gendal.me/author/gendal/)
+
 
 [Introducing R3 Corda™: A Distributed Ledger Designed for Financi...](https://gendal.me/2016/04/05/introducing-r3-corda-a-distributed-ledger-designed-for-financial-services/)
 
 UPDATE: The Corda introductory whitepaper is now available! And this blog post gives more context. As reported in Bloomberg this morning, I’m delighted to confirm that R3 and our member banks are w…
 
-[https://secure.gravatar.com/blavatar/80e52697fe656b705b8e007d2b72e6db?s=200&ts=1563764148](https://secure.gravatar.com/blavatar/80e52697fe656b705b8e007d2b72e6db?s=200&ts=1563764148)
+
 
 [https://www.hyperledger.org/wp-content/uploads/2018/04/Hyperledger_Arch_WG_Paper_2_SmartContracts.pdf](https://www.hyperledger.org/wp-content/uploads/2018/04/Hyperledger_Arch_WG_Paper_2_SmartContracts.pdf) [https://developer.ibm.com/patterns/create-and-execute-blockchain-smart-contracts/](https://developer.ibm.com/patterns/create-and-execute-blockchain-smart-contracts/) [https://hackernoon.com/how-are-smart-contracts-executed-in-hyperledger-57efebf03f12](https://hackernoon.com/how-are-smart-contracts-executed-in-hyperledger-57efebf03f12)
 
-[devadvin](https://developer.ibm.com/blogs/author/devadvin/)
+
 
 [Create and execute blockchain smart contracts](https://developer.ibm.com/patterns/create-and-execute-blockchain-smart-contracts/)
 
 Use the Hyperledger Composer framework to create and execute smart contracts within a blockchain application built on Hyperledger Fabric.
 
-[https://www.hyperledger.org/resources/training](https://www.hyperledger.org/resources/training) [https://github.com/hyperledger/indy-node/blob/master/getting-started.md](https://github.com/hyperledger/indy-node/blob/master/getting-started.md) [https://github.com/ibm-watson-iot/blockchain-samples/blob/master/docs/iotcp/HyperledgerContractsIntroBestPracticesPatterns.md](https://github.com/ibm-watson-iot/blockchain-samples/blob/master/docs/iotcp/HyperledgerContractsIntroBestPracticesPatterns.md)
+[https://github.com/hyperledger/indy-node/blob/master/getting-started.md](https://github.com/hyperledger/indy-node/blob/master/getting-started.md) 
+
 
 [Training – Hyperledger](https://www.hyperledger.org/resources/training)
 
@@ -183,19 +184,11 @@ Samples demonstrating the use of Blockchain with IBM Watson IoT - ibm-watson-iot
 [https://hackernoon.com/a-beginners-guide-to-sidedbs-and-private-data-for-hyperledger-fabric-nodejs-chaincode-ba20b2d8f95b](https://hackernoon.com/a-beginners-guide-to-sidedbs-and-private-data-for-hyperledger-fabric-nodejs-chaincode-ba20b2d8f95b) [https://identity.linuxfoundation.org/user](https://identity.linuxfoundation.org/user) to find your username and logon to Jira https
 
 
-
-[https://medium.com/epicenterpodcast/hyperledger-global-forum-2018-49c449c6858f](https://medium.com/epicenterpodcast/hyperledger-global-forum-2018-49c449c6858f)
-
 [Takeaways from the first Hyperledger Global Forum](https://medium.com/epicenterpodcast/hyperledger-global-forum-2018-49c449c6858f)
 
 The Hyperledger community is active, and it’s growing.
-
-
-
-[https://github.com/hyperledger-labs/hyperledger-labs.github.io](https://github.com/hyperledger-labs/hyperledger-labs.github.io)
 
 [hyperledger-labs/hyperledger-labs.github.io](https://github.com/hyperledger-labs/hyperledger-labs.github.io)
 
 Start here to propose a new Hyperledger Lab. Contribute to hyperledger-labs/hyperledger-labs.github.io development by creating an account on GitHub.
 
-[https://avatars2.githubusercontent.com/u/35617018?s=400&v=4](https://avatars2.githubusercontent.com/u/35617018?s=400&v=4)

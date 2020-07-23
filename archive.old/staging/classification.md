@@ -13,7 +13,7 @@ Co-authored with Matthew Mezinskis
 
 [https://onchainfx.com/categories](https://onchainfx.com/categories)
 
-[Cryptoasset rankings and metrics | OnChainFX](https://onchainfx.com/categories)
+[Cryptoasset rankings and metrics - OnChainFX](https://onchainfx.com/categories)
 
 [https://medium.com/@adilabdulhalim/types-of-cryptoassets-cryptocurrencies-part-1-3-b1a2f3d3605](https://medium.com/@adilabdulhalim/types-of-cryptoassets-cryptocurrencies-part-1-3-b1a2f3d3605)
 
@@ -55,9 +55,9 @@ Abstract
 
 [https://moscow.bc.events/en/article/vidi-kriptoaktivov-klassifikatsii-ot-ekspertov-92322](https://moscow.bc.events/en/article/vidi-kriptoaktivov-klassifikatsii-ot-ekspertov-92322)
 
-[Types of crypto assets: classifications of experts | Moscow Blockc...](https://moscow.bc.events/en/article/vidi-kriptoaktivov-klassifikatsii-ot-ekspertov-92322)
+[Types of crypto assets: classifications of experts - Moscow Blockc...](https://moscow.bc.events/en/article/vidi-kriptoaktivov-klassifikatsii-ot-ekspertov-92322)
 
-Today there are more than a thousand of cryptocurrencies in the world. It is a great number, so no wonder that people try to classify digital assets. | Moscow Blockchain Conf
+Today there are more than a thousand of cryptocurrencies in the world. It is a great number, so no wonder that people try to classify digital assets. - Moscow Blockchain Conf
 
 
 
@@ -66,10 +66,7 @@ Today there are more than a thousand of cryptocurrencies in the world. It is a g
 [Fundstrat launches five indexes to track bitcoin and other digital...](https://www.cnbc.com/2017/10/06/fundstrat-launches-five-indexes-to-track-bitcoin-and-other-digital-currencies.html)
 
 Fundstrat's indexes track a total 630 digital currencies, divided by market capitalization and trading volume into five baskets.
-
-[https://twitter.com/fundstrat/status/989543513401516035?lang=en](https://twitter.com/fundstrat/status/989543513401516035?lang=en)
-
-[Thomas Lee (@fundstrat)](https://twitter.com/fundstrat)
+[Thomas Lee (@fundstrat)](https://twitter.com/fundstrat/status/989543513401516035?lang=en)
 
 CRYPTO: we are launching 5 sector indices to track specific segments of the crypto market—commodities, platforms, exchanges, privacy and stable coins—these 5 represent 75% of crypto market cap
 
@@ -113,7 +110,7 @@ Cryptoasset networks can be divided into 5 categories based on the types of user
 
 [http://www.untitled-inc.com/the-token-classification-framework-a-multi-dimensional-tool-for-understanding-and-classifying-crypto-tokens/](http://www.untitled-inc.com/the-token-classification-framework-a-multi-dimensional-tool-for-understanding-and-classifying-crypto-tokens/)
 
-[Thomas Euler](http://www.untitled-inc.com/author/thomas-euler/)
+
 
 [The Token Classification Framework: A multi-dimensional tool for u...](http://www.untitled-inc.com/the-token-classification-framework-a-multi-dimensional-tool-for-understanding-and-classifying-crypto-tokens/)
 

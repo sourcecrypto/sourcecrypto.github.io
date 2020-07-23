@@ -18,10 +18,7 @@
 38 votes and 1 comment so far on Reddit
 
 
-
-[https://twitter.com/LucasNuzzi/status/1053296868422238209](https://twitter.com/LucasNuzzi/status/1053296868422238209)
-
-[Lucas Nuzzi (@LucasNuzzi)](https://twitter.com/LucasNuzzi)
+[Lucas Nuzzi (@LucasNuzzi)](https://twitter.com/LucasNuzzi/status/1053296868422238209)
 
 1\ In 6 hours, #Bulletproofs become mandatory on the #Monero mainnet. I don't remember being this excited about a hard fork in a long time. The article below gives you the full picture as to why, but I will try to summarize it in this thread. [https://t.co/U5oGjdfOXu](https://t.co/U5oGjdfOXu)
 

@@ -40,16 +40,12 @@ A mastodon instance for Bitcoin Maximalists. No scams, no shitcoin, no impersona
 [https://discordapp.com/invite/uDXyNAR](https://discordapp.com/invite/uDXyNAR) not blockchain related, but a potentially useful resource
 
 
-
-[https://twitter.com/notgrubles/status/1028319690937036805](https://twitter.com/notgrubles/status/1028319690937036805)
-
-[grubles (@notgrubles)](https://twitter.com/notgrubles)
+[grubles (@notgrubles)](https://twitter.com/notgrubles/status/1028319690937036805)
 
 A Tor Hidden Service Mastodon instance, you say?
 
 [https://t.co/Omvvl2syZB](https://t.co/Omvvl2syZB)
 
-Twitter
 
 
 
@@ -76,14 +72,10 @@ The Best Bitcoin, Cryptocurrency, and Blockchain Community on the Web! Long Live
 ^^^ Forum
 
 
-
-[https://twitter.com/spencernoon/status/1041689200171642880](https://twitter.com/spencernoon/status/1041689200171642880)
-
-[Spencer Noon 🕛 (@spencernoon)](https://twitter.com/spencernoon)
+[Spencer Noon 🕛 (@spencernoon)](https://twitter.com/spencernoon/status/1041689200171642880)
 
 0/ Crypto community building matters—let me tell you why.
 
-Twitter
 
 
 

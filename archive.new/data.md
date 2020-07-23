@@ -20,14 +20,14 @@ Ethereum transactions, like some other cryptocurrencies, are stored in a public 
 Cryptoasset analytics, exportable data, and visualizations. In pursuit of rigor and clarity.
 
 
-[Ethereum in BigQuery: how we built this dataset | Google Cloud Blog](https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-how-we-built-dataset)
+[Ethereum in BigQuery: how we built this dataset - Google Cloud Blog](https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-how-we-built-dataset)
 Learn from CoinFi's Evgeny Medvedev how to build the tooling to import Ethereum blockchain data into BigQuery for analysis.
 
 [Public - ICO Returns 2014-2018](https://docs.google.com/spreadsheets/d/1ioxvJgJiZui9ZD1nud2oLpClYCFcnzvgvMucI56uy-g/edit)
 ICOs that came onto market Project, Ticker, Amount Raised( USD), ICO Date Completed, Sale Price( USD), Current Price( USD), Return(%), What$ 1 Invested at ICO Price Would Be Worth, Date Compiled: 9/ 11/ 18, https:// theblockcrypto. com Bolenum, BLN,$ 18, 606, Aug. 2017,$ 0...
 
 [[Podcast] The State of Crypto Market Data w/ Nomics' Co-founders](https://blog.nomics.com/flippening/crypto-market-data)
-Subscribe: iTunes | Stitcher | Google Play Description My guest today is actually me and my co-founder at Nomics, Nick Gauthier. In this episode, we’re interviewed by the creator of the Crypto Cast Network, who goes by the name of Vortex. This interview is a deep dive i...
+Subscribe: iTunes - Stitcher - Google Play Description My guest today is actually me and my co-founder at Nomics, Nick Gauthier. In this episode, we’re interviewed by the creator of the Crypto Cast Network, who goes by the name of Vortex. This interview is a deep dive i...
 
 [https://nomics.com](https://nomics.com/)
 

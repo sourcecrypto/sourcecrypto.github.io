@@ -5,7 +5,7 @@
 
 [http://myceliaformusic.org/](http://myceliaformusic.org/)
 
-[Carlotta](http://myceliaformusic.org/author/carlotta/)
+
 
 [MYCELIA HOME](http://myceliaformusic.org/)
 
@@ -23,7 +23,7 @@ The Open Music Initiative dramatically simplifies the way music creators and rig
 
 [http://revelator.com/](http://revelator.com/)
 
-[ljd](https://revelator.com/news/author/ljd)
+
 
 [Revelator](http://revelator.com/)
 
@@ -129,7 +129,7 @@ Sell or resell honest tickets? GUTS eliminates ticket fraud and exorbitant price
 
 [https://resonate.is/](https://resonate.is/)
 
-[Resonate](https://resonate.is/author/members/)
+
 
 [Resonate – the ethical music streaming co-op](https://resonate.is/)
 
@@ -179,7 +179,7 @@ We have observed that many OpenLedger DEX users have not managed to move their O
 
 [http://music.bittunes.com/micro-earnings/](http://music.bittunes.com/micro-earnings/)
 
-[Admin](http://music.bittunes.com/author/simon_m23y1d5r/)
+
 
 [Micro-Earnings](http://music.bittunes.com/micro-earnings/)
 
@@ -197,7 +197,7 @@ Explore the music scene and find your new favorite artist, epic places to party 
 
 [https://custostech.com/](https://custostech.com/)
 
-[CustosAdmin_1337xE](https://www.custostech.com/blogchain/author/custosadmin_1337xe/)
+
 
 [Home – Custos Media Technologies](https://custostech.com/)
 

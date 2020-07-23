@@ -5,10 +5,7 @@
 41 messages
 
 
-
-[https://twitter.com/RealSexyCyborg/status/840024870750633985](https://twitter.com/RealSexyCyborg/status/840024870750633985)
-
-[Naomi Wu 机械妖姬 (@RealSexyCyborg)](https://twitter.com/RealSexyCyborg)
+[Naomi Wu 机械妖姬 (@RealSexyCyborg)](https://twitter.com/RealSexyCyborg/status/840024870750633985)
 
 On disruptive and non-conforming women and their role in the Maker community @Raspberry_Pi @make
 
@@ -26,7 +23,6 @@ Followers
 
 661
 
-Twitter
 
 [https://twitter.com/SarahJamieLewis/](https://twitter.com/SarahJamieLewis/)
 
@@ -42,13 +38,12 @@ Followers
 
 19713
 
-Twitter
 
 [https://twitter.com/AmberBaldet](https://twitter.com/AmberBaldet)
 
 [Amber Baldet (@AmberBaldet)](https://twitter.com/AmberBaldet)
 
-Cofounder & CEO @GrowClovyr | Every tool is a weapon if you hold it right
+Cofounder & CEO @GrowClovyr - Every tool is a weapon if you hold it right
 
 Tweets
 
@@ -58,7 +53,6 @@ Followers
 
 44971
 
-Twitter
 
 
 
@@ -76,7 +70,6 @@ Followers
 
 10659
 
-Twitter
 
 
 
@@ -94,7 +87,6 @@ Followers
 
 21215
 
-Twitter
 
 
 
@@ -112,7 +104,6 @@ Followers
 
 954
 
-Twitter
 
 
 
@@ -120,11 +111,11 @@ Twitter
 
 [Mounia Rabhi, MSc.   (@Mounia_NL)](https://twitter.com/Mounia_NL)
 
-Wife | Mother | Sociologist | #Crypto Education | Cryptonews
+Wife - Mother - Sociologist - #Crypto Education - Cryptonews
 
-|
+-
 
-TA: @teddycleps | Crypto Freak Telegram:
+TA: @teddycleps - Crypto Freak Telegram:
 
 [http://t.me/cryptofreakfamily](http://t.me/cryptofreakfamily)
 
@@ -136,7 +127,6 @@ Followers
 
 6509
 
-Twitter
 
 [https://twitter.com/PieceOfThePy](https://twitter.com/PieceOfThePy)
 
@@ -144,7 +134,7 @@ Twitter
 
 Crypto Revolutionist
 
-️ |#AltOneGroup |Contributor @21cryptos | Make Crypto Vids| Named 2018 Top 10 Women in Crypto| #PieceOfThePyShow|
+️ -#AltOneGroup -Contributor @21cryptos - Make Crypto Vids- Named 2018 Top 10 Women in Crypto- #PieceOfThePyShow-
 
 [http://314.show/YouTube](http://314.show/YouTube)
 
@@ -156,13 +146,12 @@ Followers
 
 16138
 
-Twitter
 
 [https://twitter.com/CryptoWendyO](https://twitter.com/CryptoWendyO)
 
 [Crypto Wendy O (@CryptoWendyO)](https://twitter.com/CryptoWendyO)
 
-SoCal Crypto Meetup Host |YouTube Media Creator | Crypto TA Educator | Chasing red candles since 11/17 | Insta / LinkedIn / Tradingview : @cryptowendyo
+SoCal Crypto Meetup Host -YouTube Media Creator - Crypto TA Educator - Chasing red candles since 11/17 - Insta / LinkedIn / Tradingview : @cryptowendyo
 
 Tweets
 
@@ -172,7 +161,6 @@ Followers
 
 12977
 
-Twitter
 
 
 
@@ -190,23 +178,19 @@ Followers
 
 1325
 
-Twitter
 
 
 
 [https://mmlafleur.com/mdash/amber-baldet-clovyr](https://mmlafleur.com/mdash/amber-baldet-clovyr)
 
-[Charlotte Cowles](https://mmlafleur.com/mdash/author/charlotte-cowles)
+
 
 [Amber Baldet, Clovyr Founder, on Learning How to Command a Room](https://mmlafleur.com/mdash/amber-baldet-clovyr)
 
 Amber Baldet, Clovyr founder, is a banker-turned-hacker-turned entrepreneur. Here, she shares the story of how she transitioned from finance to tech.
 
 
-
-[https://twitter.com/RealSexyCyborg/status/840024870750633985](https://twitter.com/RealSexyCyborg/status/840024870750633985)
-
-[Naomi Wu 机械妖姬 (@RealSexyCyborg)](https://twitter.com/RealSexyCyborg)
+[Naomi Wu 机械妖姬 (@RealSexyCyborg)](https://twitter.com/RealSexyCyborg/status/840024870750633985)
 
 On disruptive and non-conforming women and their role in the Maker community @Raspberry_Pi @make
 
@@ -214,29 +198,21 @@ On disruptive and non-conforming women and their role in the Maker community @Ra
 
 [https://breakermag.com/meltem-demirors-is-not-the-sheryl-sandberg-of-crypto/](https://breakermag.com/meltem-demirors-is-not-the-sheryl-sandberg-of-crypto/)
 
-[Jeff Wilser](https://breakermag.com/author/jwilser)
+
 
 [Meltem Demirors Is Not the Sheryl Sandberg of Crypto](https://breakermag.com/meltem-demirors-is-not-the-sheryl-sandberg-of-crypto)
 
 Demirors is not afraid to call out bullshit, about crypto or investing or anything.
-
-[https://twitter.com/abraxas3d/status/1039511438115532800](https://twitter.com/abraxas3d/status/1039511438115532800)
-
-[🎶🎍abraxas3d🎍🎶 (@abraxas3d)](https://twitter.com/abraxas3d)
+[🎶🎍abraxas3d🎍🎶 (@abraxas3d)](https://twitter.com/abraxas3d/status/1039511438115532800)
 
 @RealSexyCyborg @f4grx @ProgrammerDude I usually dress in head to toe textiles. I have received hate and death/rape threats for technical activities and projects in amateur radio circles. It's not about the amount of fabric. It seems to be more about what the fabric covers.
 
-Twitter
 
 
-
-[https://twitter.com/CryptoEuclid/status/1043305481350070274](https://twitter.com/CryptoEuclid/status/1043305481350070274)
-
-[⚡Crypto Euclid⚡ (@CryptoEuclid)](https://twitter.com/CryptoEuclid)
+[⚡Crypto Euclid⚡ (@CryptoEuclid)](https://twitter.com/CryptoEuclid/status/1043305481350070274)
 
 The coolest chicks in crypto #FF @mysticaloaks @TheObsessions @AltsQ @CryptoWendyO @bitcoinbella_ @Missconsin @MrsTCart3r @pinguino @CJlovescrypto @ClassyCrypt0 @CountCoinula [https://t.co/VYg073FI7h](https://t.co/VYg073FI7h)
 
-Twitter
 
 
 
@@ -255,14 +231,10 @@ In the aftermath of the Google memo, VC Donna Harris shares a litany of her own 
 In 1982, Donald Trump was 36 years old and he preferred Hanes pantyhose. Not because other leading brands constricted his balls, but because women belonged in dresses; it pleased the male eye. If…
 
 
-
-[https://twitter.com/blockchainwtf/status/1050167855277314048](https://twitter.com/blockchainwtf/status/1050167855277314048)
-
-[Blockchain WTF (@blockchainwtf)](https://twitter.com/blockchainwtf)
+[Blockchain WTF (@blockchainwtf)](https://twitter.com/blockchainwtf/status/1050167855277314048)
 
 Tatiana Moroz is a singer-songwriter, Bitcoin Magazine contributor, and cryptocurrency enthusiast who has deeply involved herself in the crypto space! [https://t.co/zK1d4tMRuE](https://t.co/zK1d4tMRuE) @queentatiana
 
-Twitter
 
 
 
@@ -284,7 +256,7 @@ Focus on listening, support, and respect.
 
 [https://www.thehelm.co/dirty-sexy-money-cindy-gallop-smashes-another-glass-ceiling/](https://www.thehelm.co/dirty-sexy-money-cindy-gallop-smashes-another-glass-ceiling/)
 
-[Julie Weber](https://www.thehelm.co/author/julie)
+
 
 [Dirty Sexy Money: Cindy Gallop Smashes Another Glass Ceiling](https://www.thehelm.co/dirty-sexy-money-cindy-gallop-smashes-another-glass-ceiling)
 
@@ -299,14 +271,10 @@ I date younger men. This is how I know that society’s total reluctance to talk
 With every interview we publish there is always that lingering question we ask ourselves: how should we introduce our interviewee to the…
 
 
-
-[https://twitter.com/bbands/status/1073617224756211712](https://twitter.com/bbands/status/1073617224756211712)
-
-[John Bollinger (@bbands)](https://twitter.com/bbands)
+[John Bollinger (@bbands)](https://twitter.com/bbands/status/1073617224756211712)
 
 #FF Ladies day! Two analysts focusing on stocks that I have enjoyed following: @hmeisler @TweetLeni Feel free to jump in with others.
 
-Twitter
 
 
 
@@ -317,14 +285,10 @@ Twitter
 Female medical practitioners and researchers face specific disadvantages in four key areas, writes Laurie Garrett . Childbirth is a common factor, and institutions and funders urgently need to recognize and respond to this I asked Google who discovered climate change, and it...
 
 
-
-[https://twitter.com/ZachSmolinski/status/1074346924923346944](https://twitter.com/ZachSmolinski/status/1074346924923346944)
-
-[Zach Smolinski (@ZachSmolinski)](https://twitter.com/ZachSmolinski)
+[Zach Smolinski (@ZachSmolinski)](https://twitter.com/ZachSmolinski/status/1074346924923346944)
 
 Here's summary of the work of Evelyn Berezin, who died at 93 this week. She built the first "word-processing machine" using custom chips. Did you know the first word processor was the size of a washing machine and had no display? I didn't. [https://t.co/dcpkzNxIIY](https://t.co/dcpkzNxIIY)
 
-Twitter
 
 
 
@@ -351,36 +315,24 @@ I read stories about what it was like to work at Uber as a woman and I wonder ho
 Hacker News • 07-May-19 04:02 PM
 
 
-
-[https://twitter.com/goldbe/status/1131908227724128258?s=12](https://twitter.com/goldbe/status/1131908227724128258?s=12)
-
-[Sharon Goldberg (@goldbe)](https://twitter.com/goldbe)
+[Sharon Goldberg (@goldbe)](https://twitter.com/goldbe/status/1131908227724128258?s=12)
 
 Urg. OK I’ll say it again. There are plenty of women cryptographers. And a woman won the Turing Award for *founding* the field of cryptography! [https://t.co/7Xss1I0dnU](https://t.co/7Xss1I0dnU)
 
-Twitter
 
 
-
-[https://twitter.com/immsgnu/status/1134673495340847109?s=12](https://twitter.com/immsgnu/status/1134673495340847109?s=12)
-
-[Chelsea Palmer (@IMmsGNU)](https://twitter.com/IMmsGNU)
+[Chelsea Palmer (@IMmsGNU)](https://twitter.com/immsgnu/status/1134673495340847109?s=12)
 
 I have made it to Toronto for #CCHack2019, after a surprisingly chill ten hour drive solo! In honor of the @crypto_chicks spirit I listened exclusively to my fave powerful women, including @lizzo, @lkx47, @JeanGreasy, @KingPrincess69, @kathleenhanna and @billieeilish
 
 ...
 
-Twitter
 
 
-
-[https://twitter.com/haileylennonbtc/status/1135610817909444608?s=12](https://twitter.com/haileylennonbtc/status/1135610817909444608?s=12)
-
-[Hailey Lennon (@HaileyLennonBTC)](https://twitter.com/HaileyLennonBTC)
+[Hailey Lennon (@HaileyLennonBTC)](https://twitter.com/haileylennonbtc/status/1135610817909444608?s=12)
 
 Really excited to be speaking at @WITI Women in Technology Summit on June 11th in San Jose! Registration is still open! [https://t.co/Ygu4n3Gskh](https://t.co/Ygu4n3Gskh)
 
-Twitter
 
 
 
@@ -398,7 +350,6 @@ Followers
 
 422
 
-Twitter
 
 [https://twitter.com/WomeninBC](https://twitter.com/WomeninBC)
 
@@ -414,7 +365,6 @@ Followers
 
 477
 
-Twitter
 
 [https://twitter.com/WomeninQAI](https://twitter.com/WomeninQAI)
 
@@ -430,58 +380,35 @@ Followers
 
 172
 
-Twitter
 
 
-
-[https://twitter.com/ishikawa_sachi/status/1139363924170571776?s=12](https://twitter.com/ishikawa_sachi/status/1139363924170571776?s=12)
-
-[Sachiko Ishikawa🏳️‍🌈 #ProChoice (@Ishikawa_Sachi)](https://twitter.com/Ishikawa_Sachi)
+[Sachiko Ishikawa🏳️‍🌈 #ProChoice (@Ishikawa_Sachi)](https://twitter.com/ishikawa_sachi/status/1139363924170571776?s=12)
 
 I want as many honest answers as possible: Can you be pro-gender equality and reject the term "feminism"? Please comment! (Please RT)
 
 
-
-[https://twitter.com/sswyrs/status/1139653530464206849?s=12](https://twitter.com/sswyrs/status/1139653530464206849?s=12)
-
-[Sawyer (@sswyrs)](https://twitter.com/sswyrs)
+[Sawyer (@sswyrs)](https://twitter.com/sswyrs/status/1139653530464206849?s=12)
 
 [Thread] My boss made a comment today along the line of "I don't get how women can complain about how they get treated when they do shit like this." I turned around and to see what he was talking about, and he was looking at a thumbnail of a profile pic of a woman on Link...
 
 
-
-[https://twitter.com/mzbat/status/1140710740510351360?s=12](https://twitter.com/mzbat/status/1140710740510351360?s=12)
-
-[bat (@mzbat)](https://twitter.com/mzbat)
+[bat (@mzbat)](https://twitter.com/mzbat/status/1140710740510351360?s=12)
 
 I once left a job I loved because my male mentor constantly referred to my breasts as fun bags but please do keep publishing "articles" about how women have made it uncomfortable for men to mentor women in the workplace.
 
 
-
-[https://twitter.com/seanlippel/status/1141453185657311232?s=12](https://twitter.com/seanlippel/status/1141453185657311232?s=12)
-
-[Sean Lippel (@seanlippel)](https://twitter.com/seanlippel)
+[Sean Lippel (@seanlippel)](https://twitter.com/seanlippel/status/1141453185657311232?s=12)
 
 As a VC, we get a far amount of stalker activity. Random calls from unknown #'s, cold walk-ins at the office, etc... Was complaining about it to a good looking female friend of mine. She said that's cool. You just got a tiny sliver of what it's like to be a girl in NYC....
 
-Twitter
 
 
-
-[https://twitter.com/chadloder/status/1142474833659224064?s=12](https://twitter.com/chadloder/status/1142474833659224064?s=12)
-
-[Chad Loder ✸ (@chadloder)](https://twitter.com/chadloder)
+[Chad Loder ✸ (@chadloder)](https://twitter.com/chadloder/status/1142474833659224064?s=12)
 
 Here are some amazing women to follow on Twitter. @safiyanoble @KatCalvinLA @BenitaRobledo @iajunwa @annaeveryday @merbroussard @BariAWilliams @mutalenkonde
 
-Twitter
 
 
-
-[https://twitter.com/heathervescent/status/1148386899033067520?s=12](https://twitter.com/heathervescent/status/1148386899033067520?s=12)
-
-[heathervescent (@heathervescent)](https://twitter.com/heathervescent)
+[heathervescent (@heathervescent)](https://twitter.com/heathervescent/status/1148386899033067520?s=12)
 
 Feeling this x1000. Sure would be nice to be appreciated once in a fucking while. [https://t.co/ecgNwfxZc8](https://t.co/ecgNwfxZc8) #bossladygetsnorespect #goeswiththeterritory
-
-Twitter

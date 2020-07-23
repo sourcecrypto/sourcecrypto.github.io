@@ -61,7 +61,7 @@ A streaming company launches its new blockchain to let viewers, streamers and es
 
 [https://btcmanager.com/introducing-blockmagic-first-rpg-on-the-ethereum-blockchain/](https://btcmanager.com/introducing-blockmagic-first-rpg-on-the-ethereum-blockchain/)
 
-[Introducing BlockMagic: First RPG on the Ethereum Blockchain | BTC...](https://btcmanager.com/introducing-blockmagic-first-rpg-on-the-ethereum-blockchain)
+[Introducing BlockMagic: First RPG on the Ethereum Blockchain - BTC...](https://btcmanager.com/introducing-blockmagic-first-rpg-on-the-ethereum-blockchain)
 
 Created on the Ethereum network, BlockMagic is a new role-playing game (RPG) that enables gamers to explore a magical universe as wizards. BlockMagic Releases Alpha Version The Alpha version of BlockMagic was released on September 12, 2018, and is the first public iteration o...
 
@@ -104,20 +104,16 @@ In preparation for DevCon 4, Hoard created a simple video game with True Ownersh
 Disclaimer: while I've been considering this project for over a year, I do not claim to be an expert in any field… by personz
 
 
-
-[https://twitter.com/neondistrictRPG/status/1057625169148174336](https://twitter.com/neondistrictRPG/status/1057625169148174336)
-
-[Neon District (@neondistrictRPG)](https://twitter.com/neondistrictRPG)
+[Neon District (@neondistrictRPG)](https://twitter.com/neondistrictRPG/status/1057625169148174336)
 
 Solve puzzles, win cryptocurrency, and get hyped for the cyberpunk RPG "Neon District" at [https://t.co/uWaik46HMs](https://t.co/uWaik46HMs). Here's a walkthrough of the arcade's "Welcome To Crypto" puzzle by DoctorXOR. Warning: Spoilers Ahead! [https://t.co/5RLMc1dINt](https://t.co/5RLMc1dINt) [https://t.co/isu8rxw5wi](https://t.co/isu8rxw5wi)
 
-Twitter
 
 
 
 [https://www.cryptoninjas.net/2018/11/04/blockchain-gaming-distribution-platform-ultra-to-bring-eos-to-the-gaming-market/](https://www.cryptoninjas.net/2018/11/04/blockchain-gaming-distribution-platform-ultra-to-bring-eos-to-the-gaming-market/)
 
-[CryptoNinjas](https://www.cryptoninjas.net/author/developercn/)
+
 
 [Blockchain gaming distribution platform Ultra to bring EOS to the ...](https://www.cryptoninjas.net/2018/11/04/blockchain-gaming-distribution-platform-ultra-to-bring-eos-to-the-gaming-market/)
 
@@ -127,7 +123,7 @@ Ultra, the company building a first-class PC game publishing platform and market
 
 [https://0xwarriors.com/](https://0xwarriors.com/)
 
-[livshits](https://0xwarriors.com/author/livshits/)
+
 
 [0xWarriors - Multi-Blockchain Battler Game On EOS & Ethereum](https://0xwarriors.com//)
 
@@ -137,17 +133,14 @@ Ultra, the company building a first-class PC game publishing platform and market
 
 [https://blokt.com/news/tron-officially-enters-neoworld-builds-a-top-ranked-building](https://blokt.com/news/tron-officially-enters-neoworld-builds-a-top-ranked-building)
 
-[Shilpa Lama](https://blokt.com/author/shilpa-lama)
+
 
 [Tron Officially Enters Neoworld, Builds a 'Top-ranked' Building](https://blokt.com/news/tron-officially-enters-neoworld-builds-a-top-ranked-building)
 
 Justin Sun announces that Tron has officially entered NeoWorld by building its very own building on the online multiplayer 3D virtual game.
 
 
-
-[https://twitter.com/wax_io/status/1072170125992824832](https://twitter.com/wax_io/status/1072170125992824832)
-
-[WAX.io (@wax_io)](https://twitter.com/wax_io)
+[WAX.io (@wax_io)](https://twitter.com/wax_io/status/1072170125992824832)
 
 Who truly owns in-game items? $WAX surveyed 500 game developers & 1000 gamers and found that players want true ownership of their in-game items, where they can buy, sell & trade them however they want. Surprisingly, game devs agree. Get the full report
 
@@ -165,17 +158,13 @@ Who truly owns in-game items? $WAX surveyed 500 game developers & 1000 gamers an
 
 [pixEOS](https://pixeos.io//)
 
-pixEOS | Where Games and Art Collide
+pixEOS - Where Games and Art Collide
 
 
-
-[https://twitter.com/occupanther/status/1055044201174523905](https://twitter.com/occupanther/status/1055044201174523905)
-
-[Clancy (@occupanther)](https://twitter.com/occupanther)
+[Clancy (@occupanther)](https://twitter.com/occupanther/status/1055044201174523905)
 
 1/ - Blockchain and Gaming. A 34-page report ... [https://t.co/QoNqqcaoSP](https://t.co/QoNqqcaoSP) - FortNite has vBucks (no blockchain in sight, and ultra-successful). So why need a blockchain at all? @udiWertheimer speaks a lot of truth in his thread here [https://t.co/l6gAcIt0Hn](https://t.co/l6gAcIt0Hn)
 
-Twitter
 
 
 
@@ -196,20 +185,16 @@ How the winner got Fomo3D prize — A Detailed Explanation [https://medium.com/c
 [How the winner got Fomo3D prize — A Detailed Explanation](https://medium.com/coinmonks/how-the-winner-got-fomo3d-prize-a-detailed-explanation-b30a69b7813f)
 
 
-
-[https://twitter.com/immsgnu/status/1136775058251296773?s=12](https://twitter.com/immsgnu/status/1136775058251296773?s=12)
-
-[Chelsea Palmer (@IMmsGNU)](https://twitter.com/IMmsGNU)
+[Chelsea Palmer (@IMmsGNU)](https://twitter.com/immsgnu/status/1136775058251296773?s=12)
 
 Finally got my slides uploaded from the weekend's adventures in Toronto! Accessible here, PDF warning: [https://t.co/uTYan76Hon](https://t.co/uTYan76Hon) Thanks @crypto_chicks for having me at #CCHack2019 and @AbramowitzJesse for having me at George Brown after. Thread of sources referenced to foll...
 
-Twitter
 
 
 
 [https://www.theblockcrypto.com/2019/08/02/blockchain-gaming-part-i-the-opportunity/](https://www.theblockcrypto.com/2019/08/02/blockchain-gaming-part-i-the-opportunity/)
 
-[Contributor Network](https://www.theblockcrypto.com/author/the-block-contributor-network/)
+
 
 [Blockchain Gaming Part I: The opportunity - The Block](https://www.theblockcrypto.com/2019/08/02/blockchain-gaming-part-i-the-opportunity/)
 
@@ -231,17 +216,12 @@ Followers
 
 171
 
-Twitter
 
 
-
-[https://twitter.com/btcBiff/status/1162141750854594560?s=20](https://twitter.com/btcBiff/status/1162141750854594560?s=20)
-
-[Rare Earth Biff (@btcBiff)](https://twitter.com/btcBiff)
+[Rare Earth Biff (@btcBiff)](https://twitter.com/btcBiff/status/1162141750854594560?s=20)
 
 13 of the Best #Blockchain Games (Updated for 2019) [https://t.co/i38oWNLQ3q](https://t.co/i38oWNLQ3q) via @MyBlockExplorer
 
-Twitter
 
 
 
