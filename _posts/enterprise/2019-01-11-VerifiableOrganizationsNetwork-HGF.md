@@ -12,13 +12,10 @@ header:
 toc: true
 classes: wide
 last_modified_at: 2019-04-20T11:22:33-23:00
-categories: ["Decentralized Identity"]
+categories: ["Enterprise"]
 tags: 
-  - Indy
+  - Decentralized Identity
   - "Transcript"
-  - Identity
-  - VON
-  - DID
 redirect_from:
   - VerifiableOrganizationsNetwork-HGF.html
   - /transcripts/VerifiableOrganizationsNetwork-HGF.html
