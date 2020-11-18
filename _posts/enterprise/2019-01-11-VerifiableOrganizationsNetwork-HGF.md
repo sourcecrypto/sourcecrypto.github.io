@@ -24,7 +24,8 @@ redirect_from:
   - /transcripts/VerifiableOrganizationsNetwork-HGF.html
   - /transcripts/VON-Presentation-Jordan-Curran-HGF/
 permalink: /posts/transcripts/VON-Presentation-Jordan-Curran-HGF/
-cannonical_url: 'https://sourcecrypto.pub/posts/transcripts/VON-Presentation-Jordan-Curran-HGF/'
+redirect_to: https://decentralized-id.com/government/canada/bcgov/von/hgf-2018-production-government-deployment-hyperledger-indy/
+cannonical_url: 'https://decentralized-id.com/government/canada/bcgov/von/hgf-2018-production-government-deployment-hyperledger-indy/'
 
 ---
 
