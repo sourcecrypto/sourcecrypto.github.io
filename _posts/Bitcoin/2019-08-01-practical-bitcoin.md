@@ -12,7 +12,7 @@ header:
   caption: "[halfin@twitter 'Running Bitcoin'](https://twitter.com/halfin/status/1110302988)"
 categories: ["Bitcoin"]
 tags: ["Practical"]
-last_modified_at: 2019-12-09T11:22:33-23:00
+last_modified_at: 2021-08-23T11:22:33-23:00
 ---
 
 See Also: [Bitcoi*NFo* - Practical](https://docs.google.com/spreadsheets/d/1Z3Ofa4P8097VWV70Z_bMqIMladngvm-Ck24ot9TDNmw/) on Google Sheets 
@@ -307,8 +307,7 @@ sudo apt-get install python3-pyqt5
 ### 👛 Bitgo
 
 * [bitgo.com/](https://www.bitgo.com/) 
-* [bitgo.github.io/bitgo-docs/](https://bitgo.github.io/bitgo-docs/ 
-* [static1.squarespace.com/static/5956707b6b49988d1df0001a/t/5ae161608a922d28394af452/1524719979322/BitGo+User+Guide042518.pdf](https://static1.squarespace.com/static/5956707b6b49988d1df0001a/t/5ae161608a922d28394af452/1524719979322/BitGo+User+Guide042518.pdf) 
+* [bitgo.github.io/bitgo-docs/](https://bitgo.github.io/bitgo-docs/static1.squarespace.com/static/5956707b6b49988d1df0001a/t/5ae161608a922d28394af452/1524719979322/BitGo+User+Guide042518.pdf](https://static1.squarespace.com/static/5956707b6b49988d1df0001a/t/5ae161608a922d28394af452/1524719979322/BitGo+User+Guide042518.pdf) 
   > This document provides step-by-step details about how to use the non-custodial BitGo servicethrough the Web interface as well as how to administer the service and configure policies.
 
 ### 👛 Hardware
@@ -419,7 +418,7 @@ Gocoin - [gocoin.pl/](https://gocoin.pl/) Gocoin is a full Bitcoin solution writ
   > [The Bitcoin Rabbi (@thebitcoinrabbi)](https://twitter.com/thebitcoinrabbi) -Here is a 1 minute video showing how to setup a bitcoin full node on your computer from [t.co/asg1Hpd0Vg](https://t.co/asg1Hpd0Vg). By default it currently requires 243gb of hard drive space, so I set mine up on an external hard drive.
 * [twitter.com/PeterMcCormack/status/1165494148759269376?s=20](https://twitter.com/PeterMcCormack/status/1165494148759269376?s=20)
   > Node update: 1. Downloaded @LukeDashjr’s knots and started sync with pruning 2. Ordered external drive to setup node without pruning 3. Activated @CasaHODL 4. Bought a @nodl_it to test 5. Bought raspberry pi kit to build my own node Will feedback on all.
-* [expressvpn.com - how-to-set-up-a-home-server-and-use-it-as-a-bitcoin-node](https://www.expressvpn.com/internet-privacy/how-to-set-up-a-home-server-and-use-it-as-a-bitcoin-node/)
+* <a href="https://www.expressvpn.com/internet-privacy/how-to-set-up-a-home-server-and-use-it-as-a-bitcoin-node/" rel="nofollow">How to set up a home server and use it as a Bitcoin node</a> ExpressVPN
 * [zeroknowledge.fm/23 Blockchain 101: get your full node running!](https://www.zeroknowledge.fm/23)
   > In this episode, we talk about what it is like to set up a full node. Speaking with the Parity community support lead, Thibaut Sardan, we also explore the features of the Parity Ethereum client, the light client, and help answer some frequently asked questions.
 * [twitter.com/hasufl/status/1174665029985230849?s=12](https://twitter.com/hasufl/status/1174665029985230849?s=12)
